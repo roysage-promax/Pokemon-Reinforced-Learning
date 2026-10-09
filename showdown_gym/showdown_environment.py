@@ -15,11 +15,6 @@ from poke_env.environment.singles_env import ObsType
 from poke_env.player.player import Player
 from .base_environment import BaseShowdownEnv
 
-from poke_env.data import GenData
-
-# Load Gen9 data (type chart etc.)
-GEN_DATA = GenData.from_gen(9)
-
 
 class ShowdownEnvironment(BaseShowdownEnv):
 
@@ -43,104 +38,81 @@ class ShowdownEnvironment(BaseShowdownEnv):
     # Action space
     # =========================================================
     def _get_action_size(self) -> int | None:
-        return None  # default 26-action mapping used by CARES
+        return 4  # one action per move slot
 
     def process_action(self, action: np.int64) -> np.int64:
-        return action
+        """
+        Agent action 0-3 -> Showdown move actions 6-9.
+        On a forced switch no move is legal, so let the server pick (-2 = default).
+        """
+        if self.battle1 is not None and self.battle1.force_switch:
+            return np.int64(-2)
+        return np.int64(action + 6)
 
     # =========================================================
     # Reward Function
     # =========================================================
     def calc_reward(self, battle: AbstractBattle) -> float:
         """
-        Reward based on HP, fainted Pokémon, and victory outcomes.
-        Inspired by SimpleRLPlayer reward_computing_helper.
+        Reward = 0.1 * (damage dealt - damage taken) this step, plus +1 for a win / -1 for a loss.
+        Damage is the change in each team's missing HP, so revealing a new
+        full-HP opponent Pokémon doesn't count as healing.
         """
         prior_battle = self._get_prior_battle(battle)
-
-        if battle is None:
+        if prior_battle is None:
             return 0.0
 
-   
-        ally_hp = np.sum([m.current_hp_fraction for m in battle.team.values()])
-        opp_hp = np.sum([m.current_hp_fraction for m in battle.opponent_team.values()])
-        hp_diff = ally_hp - opp_hp
+        def missing_hp(team) -> float:
+            # Unseen opponent Pokémon aren't in the dict, so they count as 0 missing
+            return sum(1.0 - mon.current_hp_fraction for mon in team.values())
 
-        ally_fainted = sum(m.fainted for m in battle.team.values())
-        opp_fainted = sum(m.fainted for m in battle.opponent_team.values())
-        faint_diff = (opp_fainted - ally_fainted) * 2.0
+        damage_dealt = missing_hp(battle.opponent_team) - missing_hp(prior_battle.opponent_team)
+        damage_taken = missing_hp(battle.team) - missing_hp(prior_battle.team)
 
-        if prior_battle:
-            prev_ally_hp = np.sum([m.current_hp_fraction for m in prior_battle.team.values()])
-            prev_opp_hp = np.sum([m.current_hp_fraction for m in prior_battle.opponent_team.values()])
-            hp_delta = (prev_opp_hp - opp_hp) - (prev_ally_hp - ally_hp)
-        else:
-            hp_delta = 0.0
+        reward = 0.1 * (damage_dealt - damage_taken)
 
-        victory_bonus = 0.0
-        if battle.finished:
-            if battle.won:
-                victory_bonus += 30.0
-            elif battle.lost:
-                victory_bonus -= 15.0
+        if battle.won:
+            reward += 1.0
+        elif battle.lost:
+            reward -= 1.0
 
-        reward = 1.0 * hp_delta + 0.5 * hp_diff + faint_diff + victory_bonus
-        return float(np.clip(reward, -30.0, 30.0))
+        return float(reward)
 
     # =========================================================
     # Observation space
     # =========================================================
     def _observation_size(self) -> int:
         """
-        Embedding structure:
-          4x base powers
-          4x type multipliers
-          2x (ally_fainted/6, opp_fainted/6)
-          2x (ally_total_hp, opp_total_hp)
+        Embedding structure, per move slot (x4):
+          expected power   (base_power * accuracy / 150, capped at 1)
+          type effectiveness vs opponent active (multiplier / 4)
+          STAB             (1 if move type matches our active Pokémon's type)
         = 12 features
         """
         return 12
 
     def embed_battle(self, battle: AbstractBattle) -> np.ndarray:
         """
-        SB3-style compact embedding of the battle state.
-        Combines per-move offensive info with overall HP context.
+        Per-move features for the 4 move slots, in the same order that actions 6-9
+        use (active_pokemon.moves). Unusable moves are left as all zeros.
         """
         obs = np.zeros(self._observation_size(), dtype=np.float32)
 
-        if not battle.active_pokemon or not battle.opponent_active_pokemon:
-            return obs
-
         active = battle.active_pokemon
         opp = battle.opponent_active_pokemon
+        if active is None or opp is None:
+            return obs
 
-        moves_base_power = np.zeros(4, dtype=np.float32)
-        moves_dmg_multiplier = np.ones(4, dtype=np.float32)
+        available_ids = {m.id for m in battle.available_moves}
 
-        for i, move in enumerate(battle.available_moves[:4]):
-            moves_base_power[i] = float((move.base_power or 0) / 100.0)
-            try:
-                if move.type and opp.type_1:
-                    mult = move.type.damage_multiplier(
-                        opp.type_1, getattr(opp, "type_2", None),
-                        type_chart=GEN_DATA.type_chart,
-                    )
-                    moves_dmg_multiplier[i] = float(mult)
-            except Exception:
-                moves_dmg_multiplier[i] = 1.0
+        for i, move in enumerate(list(active.moves.values())[:4]):
+            if move.id not in available_ids:
+                continue  # disabled / out of PP / forced switch -> all zeros
+            obs[3 * i] = min(move.base_power * move.accuracy / 150.0, 1.0)
+            obs[3 * i + 1] = opp.damage_multiplier(move) / 4.0
+            obs[3 * i + 2] = 1.0 if move.type in active.types else 0.0
 
-        ally_hp_total = np.sum([m.current_hp_fraction for m in battle.team.values()]) / 6.0
-        opp_hp_total = np.sum([m.current_hp_fraction for m in battle.opponent_team.values()]) / 6.0
-        ally_fainted = len([m for m in battle.team.values() if m.fainted]) / 6.0
-        opp_fainted = len([m for m in battle.opponent_team.values() if m.fainted]) / 6.0
-
-        obs = np.concatenate([
-            moves_base_power,
-            moves_dmg_multiplier,
-            np.array([ally_fainted, opp_fainted, ally_hp_total, opp_hp_total], dtype=np.float32),
-        ])
-
-        return obs.astype(np.float32)
+        return obs
 
     # =========================================================
     # Additional info (logging)
@@ -151,6 +123,8 @@ class ShowdownEnvironment(BaseShowdownEnv):
             agent = self.possible_agents[0]
             info[agent]["win"] = self.battle1.won
             info[agent]["turns"] = self.battle1.turn
+            info[agent]["opp_fainted"] = sum(m.fainted for m in self.battle1.opponent_team.values())
+            info[agent]["my_fainted"] = sum(m.fainted for m in self.battle1.team.values())
         return info
 
 
