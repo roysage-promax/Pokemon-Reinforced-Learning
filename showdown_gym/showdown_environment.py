@@ -43,11 +43,44 @@ class ShowdownEnvironment(BaseShowdownEnv):
     def process_action(self, action: np.int64) -> np.int64:
         """
         Agent action 0-3 -> Showdown move actions 6-9.
-        On a forced switch no move is legal, so let the server pick (-2 = default).
+        On a forced switch no move is legal, so pick the replacement with the best
+        type matchup instead (Showdown switch actions 0-5).
         """
         if self.battle1 is not None and self.battle1.force_switch:
-            return np.int64(-2)
+            return self._best_switch(self.battle1)
         return np.int64(action + 6)
+
+    def _best_switch(self, battle: AbstractBattle) -> np.int64:
+        """
+        Switch action for the available Pokémon with the best matchup against the
+        opponent's active Pokémon: how hard its best move hits them, minus how hard
+        their types hit it. Falls back to the server default (-2) if anything is missing.
+        """
+        opp = battle.opponent_active_pokemon
+        if opp is None or not battle.available_switches:
+            return np.int64(-2)
+
+        def matchup(mon) -> float:
+            offence = max(
+                (
+                    move.base_power
+                    * move.accuracy
+                    * opp.damage_multiplier(move)
+                    * (1.5 if move.type in mon.types else 1.0)
+                    for move in mon.moves.values()
+                ),
+                default=0.0,
+            ) / 150.0
+            defence = max(mon.damage_multiplier(t) for t in opp.types)
+            return offence - defence
+
+        try:
+            best = max(battle.available_switches, key=matchup)
+        except Exception:
+            # Never crash a long training run over the heuristic (e.g. odd typings)
+            return np.int64(-2)
+
+        return np.int64(list(battle.team.values()).index(best))
 
     # =========================================================
     # Reward Function
