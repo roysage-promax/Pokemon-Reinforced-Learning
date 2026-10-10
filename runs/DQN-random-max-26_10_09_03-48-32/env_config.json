@@ -1,0 +1,1 @@
+{"domain": "random", "task": "max", "state_std": 0.0, "action_std": 0.0, "frames_to_stack": 3, "frame_width": 84, "frame_height": 84, "grey_scale": 0, "record_video_fps": 30, "gym": "showdown"}
