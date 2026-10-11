@@ -83,6 +83,39 @@ class ShowdownEnvironment(BaseShowdownEnv):
         return move.base_power * move.accuracy * defender.damage_multiplier(move) * stab
 
     # =========================================================
+    # Step
+    # =========================================================
+    def step(self, actions: dict[str, np.int64]):
+        """
+        Same as BaseShowdownEnv.step, but instead of deep-copying both battles every step
+        (about 90% of a step's time), it keeps just the numbers calc_reward compares against.
+        """
+        self.n += 1
+        self._prev_battle_state = {
+            battle.player_username: self._reward_state(battle)
+            for battle in (self.battle1, self.battle2)
+            if battle is not None
+        }
+
+        actions[self.agents[0]] = self.process_action(actions[self.agents[0]])
+
+        return super(BaseShowdownEnv, self).step(actions)
+
+    @staticmethod
+    def _reward_state(battle: AbstractBattle) -> tuple[float, float, int, int]:
+        """
+        (our missing HP, opponent's missing HP, our fainted, opponent's fainted), with HP
+        in fractions of a Pokémon. Unseen opponent Pokémon aren't in the dict, so they
+        count as 0 missing - revealing a new full-HP one doesn't count as healing.
+        """
+        return (
+            sum(1.0 - mon.current_hp_fraction for mon in battle.team.values()),
+            sum(1.0 - mon.current_hp_fraction for mon in battle.opponent_team.values()),
+            sum(mon.fainted for mon in battle.team.values()),
+            sum(mon.fainted for mon in battle.opponent_team.values()),
+        )
+
+    # =========================================================
     # Reward Function
     # =========================================================
     def calc_reward(self, battle: AbstractBattle) -> float:
@@ -91,24 +124,17 @@ class ShowdownEnvironment(BaseShowdownEnv):
           0.5 * damage dealt - 0.25 * damage taken   (in fractions of a Pokémon's HP)
           + 0.2 per opponent Pokémon knocked out, - 0.2 per one of ours that faints
           + 1 for a win / - 1 for a loss
-        Damage is the change in each team's missing HP, so revealing a new
-        full-HP opponent Pokémon doesn't count as healing.
         """
-        prior_battle = self._get_prior_battle(battle)
-        if prior_battle is None:
+        prior = self._prev_battle_state.get(battle.player_username)
+        if prior is None:
             return 0.0
 
-        def missing_hp(team) -> float:
-            # Unseen opponent Pokémon aren't in the dict, so they count as 0 missing
-            return sum(1.0 - mon.current_hp_fraction for mon in team.values())
+        my_missing, opp_missing, my_fainted, opp_fainted = self._reward_state(battle)
 
-        def fainted(team) -> int:
-            return sum(mon.fainted for mon in team.values())
-
-        damage_dealt = missing_hp(battle.opponent_team) - missing_hp(prior_battle.opponent_team)
-        damage_taken = missing_hp(battle.team) - missing_hp(prior_battle.team)
-        knocked_out = fainted(battle.opponent_team) - fainted(prior_battle.opponent_team)
-        lost = fainted(battle.team) - fainted(prior_battle.team)
+        damage_dealt = opp_missing - prior[1]
+        damage_taken = my_missing - prior[0]
+        knocked_out = opp_fainted - prior[3]
+        lost = my_fainted - prior[2]
 
         reward = 0.5 * damage_dealt - 0.25 * damage_taken + 0.2 * (knocked_out - lost)
 
