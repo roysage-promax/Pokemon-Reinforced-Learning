@@ -83,8 +83,22 @@ class ShowdownEnvironment(BaseShowdownEnv):
         return move.base_power * move.accuracy * defender.damage_multiplier(move) * stab
 
     # =========================================================
-    # Step
+    # Reset / Step
     # =========================================================
+    def reset(self, seed=None, options=None):
+        """
+        poke_env players keep every battle they've played (~1.2 MB each), which ran 200k-step
+        runs out of memory. Drop the finished ones, except the battle that just ended: it can
+        still get a late message (e.g. after /leave) that poke_env would wait on forever.
+        """
+        current = {battle.battle_tag for battle in (self.battle1, self.battle2) if battle is not None}
+        for agent in (self.agent1, self.agent2):
+            for tag, battle in list(agent._battles.items()):
+                if battle.finished and tag not in current:
+                    del agent._battles[tag]
+
+        return super().reset(seed, options)
+
     def step(self, actions: dict[str, np.int64]):
         """
         Same as BaseShowdownEnv.step, but instead of deep-copying both battles every step
