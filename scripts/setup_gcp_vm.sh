@@ -13,7 +13,8 @@ SHOWDOWN_COMMIT=d43fb79a049f624c079c387d043ef53f62aed226
 CARES_COMMIT=8ae229adb2beff0f110ea803aec1f9a0be55293c
 
 sudo apt-get update
-sudo apt-get install -y git tmux curl build-essential python3-venv python3-dev
+# libgl1 / libglib2.0: OpenCV (imported by cares-rl) needs them and cloud images don't ship them
+sudo apt-get install -y git tmux curl build-essential python3-venv python3-dev libgl1 libglib2.0-0t64
 
 # Node 22 LTS (Ubuntu's own nodejs package is older than Showdown likes)
 curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -

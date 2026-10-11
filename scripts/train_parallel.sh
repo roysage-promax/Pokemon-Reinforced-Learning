@@ -25,6 +25,18 @@ RUNS=(
   "v2-oldhp|10|--use_double_dqn 0 --n_step 1 --lr 0.001"
 )
 
+# The server compiles itself on its first start, so give it time before connecting
+waited=0
+until (exec 3<>/dev/tcp/localhost/8000) 2>/dev/null; do
+  if (( waited >= 180 )); then
+    echo "Showdown server isn't listening on localhost:8000 - start it first" >&2
+    exit 1
+  fi
+  if (( waited == 0 )); then echo "waiting for the Showdown server on localhost:8000..."; fi
+  sleep 2
+  waited=$((waited + 2))
+done
+
 mkdir -p "$OUT_DIR"
 for run in "${RUNS[@]}"; do
   IFS='|' read -r name seed dqn_args <<< "$run"
