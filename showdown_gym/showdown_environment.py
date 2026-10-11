@@ -62,13 +62,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
 
         def matchup(mon) -> float:
             offence = max(
-                (
-                    move.base_power
-                    * move.accuracy
-                    * opp.damage_multiplier(move)
-                    * (1.5 if move.type in mon.types else 1.0)
-                    for move in mon.moves.values()
-                ),
+                (self._expected_damage(move, mon, opp) for move in mon.moves.values()),
                 default=0.0,
             ) / 150.0
             defence = max(mon.damage_multiplier(t) for t in opp.types)
@@ -82,12 +76,21 @@ class ShowdownEnvironment(BaseShowdownEnv):
 
         return np.int64(list(battle.team.values()).index(best))
 
+    @staticmethod
+    def _expected_damage(move, attacker, defender) -> float:
+        """Rough damage estimate: base power * accuracy * type multiplier * STAB."""
+        stab = 1.5 if move.type in attacker.types else 1.0
+        return move.base_power * move.accuracy * defender.damage_multiplier(move) * stab
+
     # =========================================================
     # Reward Function
     # =========================================================
     def calc_reward(self, battle: AbstractBattle) -> float:
         """
-        Reward = 0.1 * (damage dealt - damage taken) this step, plus +1 for a win / -1 for a loss.
+        Reward this step:
+          0.5 * damage dealt - 0.25 * damage taken   (in fractions of a Pokémon's HP)
+          + 0.2 per opponent Pokémon knocked out, - 0.2 per one of ours that faints
+          + 1 for a win / - 1 for a loss
         Damage is the change in each team's missing HP, so revealing a new
         full-HP opponent Pokémon doesn't count as healing.
         """
@@ -99,10 +102,15 @@ class ShowdownEnvironment(BaseShowdownEnv):
             # Unseen opponent Pokémon aren't in the dict, so they count as 0 missing
             return sum(1.0 - mon.current_hp_fraction for mon in team.values())
 
+        def fainted(team) -> int:
+            return sum(mon.fainted for mon in team.values())
+
         damage_dealt = missing_hp(battle.opponent_team) - missing_hp(prior_battle.opponent_team)
         damage_taken = missing_hp(battle.team) - missing_hp(prior_battle.team)
+        knocked_out = fainted(battle.opponent_team) - fainted(prior_battle.opponent_team)
+        lost = fainted(battle.team) - fainted(prior_battle.team)
 
-        reward = 0.1 * (damage_dealt - damage_taken)
+        reward = 0.5 * damage_dealt - 0.25 * damage_taken + 0.2 * (knocked_out - lost)
 
         if battle.won:
             reward += 1.0
@@ -117,17 +125,23 @@ class ShowdownEnvironment(BaseShowdownEnv):
     def _observation_size(self) -> int:
         """
         Embedding structure, per move slot (x4):
+          available        (1 if the move can be used this turn)
+          relative damage  (expected damage / best available move's expected damage, best = 1)
           expected power   (base_power * accuracy / 150, capped at 1)
           type effectiveness vs opponent active (multiplier / 4)
-          STAB             (1 if move type matches our active Pokémon's type)
-        = 12 features
+        then battle context:
+          our active HP, opponent active HP
+          our Pokémon left / 6, opponent Pokémon left / 6
+          1 if our active is faster (base speed)
+          how hard the opponent's types hit our active (best multiplier / 4)
+        = 16 + 6 = 22 features
         """
-        return 12
+        return 22
 
     def embed_battle(self, battle: AbstractBattle) -> np.ndarray:
         """
         Per-move features for the 4 move slots, in the same order that actions 6-9
-        use (active_pokemon.moves). Unusable moves are left as all zeros.
+        use (active_pokemon.moves), then battle context. Unusable moves are left as all zeros.
         """
         obs = np.zeros(self._observation_size(), dtype=np.float32)
 
@@ -137,13 +151,29 @@ class ShowdownEnvironment(BaseShowdownEnv):
             return obs
 
         available_ids = {m.id for m in battle.available_moves}
+        moves = list(active.moves.values())[:4]
 
-        for i, move in enumerate(list(active.moves.values())[:4]):
+        damage = [
+            self._expected_damage(move, active, opp) if move.id in available_ids else 0.0
+            for move in moves
+        ]
+        best = max(damage, default=0.0) or 1.0
+
+        for i, move in enumerate(moves):
             if move.id not in available_ids:
                 continue  # disabled / out of PP / forced switch -> all zeros
-            obs[3 * i] = min(move.base_power * move.accuracy / 150.0, 1.0)
-            obs[3 * i + 1] = opp.damage_multiplier(move) / 4.0
-            obs[3 * i + 2] = 1.0 if move.type in active.types else 0.0
+            obs[4 * i] = 1.0
+            obs[4 * i + 1] = damage[i] / best
+            obs[4 * i + 2] = min(move.base_power * move.accuracy / 150.0, 1.0)
+            obs[4 * i + 3] = opp.damage_multiplier(move) / 4.0
+
+        obs[16] = active.current_hp_fraction
+        obs[17] = opp.current_hp_fraction
+        obs[18] = sum(not mon.fainted for mon in battle.team.values()) / 6.0
+        # Unseen opponent Pokémon aren't in the dict, so count fainted ones instead
+        obs[19] = 1.0 - sum(mon.fainted for mon in battle.opponent_team.values()) / 6.0
+        obs[20] = 1.0 if active.base_stats["spe"] > opp.base_stats["spe"] else 0.0
+        obs[21] = max(active.damage_multiplier(t) for t in opp.types) / 4.0
 
         return obs
 
