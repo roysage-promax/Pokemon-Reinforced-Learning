@@ -3,7 +3,9 @@
 # in parallel, then a win-rate summary. cares-rl tests a run's models/final, or its highest
 # numbered checkpoint if it has no final one. Needs the Showdown server running.
 #
-#   scripts/test_parallel.sh
+#   scripts/test_parallel.sh                        # every v2 run
+#   scripts/test_parallel.sh v2-s10 v2-s20          # only these runs
+#   EPISODES=300 scripts/test_parallel.sh v2-s20    # more battles for a tighter estimate
 set -euo pipefail
 
 LOG_BASE="${CARES_LOG_BASE_DIR:-$HOME/cares_rl_logs}"
@@ -26,21 +28,29 @@ done
 
 mkdir -p "$OUT_DIR"
 pids=()
+names=()
 for dir in "$LOG_BASE"/DQN/DQN-random-max-v2-*; do
   [[ -d "$dir" ]] || continue
   name=$(sed -E 's/^DQN-random-max-(.*)-[0-9]{2}_[0-9]{2}_[0-9]{2}_[0-9]{2}-[0-9]{2}-[0-9]{2}$/\1/' <<< "$(basename "$dir")")
+  if (( $# > 0 )) && [[ " $* " != *" $name "* ]]; then continue; fi
   nohup "$CARES_RL" test --run-name "test-$name" --skip-prompts \
     --data_path "$dir" --eval_seed 10 --episodes "$EPISODES" \
     > "$OUT_DIR/test-$name.log" 2>&1 &
   pids+=("$!")
+  names+=("$name")
   echo "testing $name (pid $!) -> $OUT_DIR/test-$name.log"
   # Showdown account names are stamped with the start time in seconds, so tests must not start together
   sleep 5
 done
 
+if (( ${#pids[@]} == 0 )); then
+  echo "no runs to test${*:+ matching: $*}" >&2
+  exit 1
+fi
+
 echo "waiting for the tests to finish..."
-for pid in "${pids[@]}"; do
-  wait "$pid" || echo "a test exited with an error - check $OUT_DIR/test-*.log"
+for i in "${!pids[@]}"; do
+  wait "${pids[$i]}" || echo "${names[$i]}: test exited with an error - see $OUT_DIR/test-${names[$i]}.log"
 done
 
 echo

@@ -5,6 +5,7 @@
 #   scripts/train_parallel.sh                        # every run below, 200k steps each
 #   STEPS=50000 scripts/train_parallel.sh            # shorter check
 #   SHUTDOWN_WHEN_DONE=1 scripts/train_parallel.sh   # power the machine off once every run has ended
+#   scripts/train_parallel.sh v2-s10 v2-s20          # only these runs
 #
 # Results go to $CARES_LOG_BASE_DIR (default ~/cares_rl_logs); console output to $OUT_DIR/<run>.log.
 set -euo pipefail
@@ -44,6 +45,7 @@ mkdir -p "$OUT_DIR"
 pids=()
 for run in "${RUNS[@]}"; do
   IFS='|' read -r name seed dqn_args <<< "$run"
+  if (( $# > 0 )) && [[ " $* " != *" $name "* ]]; then continue; fi
   # By default cares-rl pickles the whole replay buffer and redraws the training plot after every
   # episode, which leaves runs waiting on the disk; checkpoint every ~10k steps instead.
   # dqn_args is word-split on purpose
@@ -59,6 +61,11 @@ for run in "${RUNS[@]}"; do
   # Showdown account names are stamped with the start time in seconds, so runs must not start together
   sleep 5
 done
+
+if (( ${#pids[@]} == 0 )); then
+  echo "no runs started${*:+ - none match: $*}" >&2
+  exit 1
+fi
 
 if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then
   # Checks once a minute and keeps going after you log out
