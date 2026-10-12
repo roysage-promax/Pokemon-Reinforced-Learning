@@ -3,8 +3,8 @@
 # configs, data/*.csv, figures and models. Leaves out the replay buffer (memory/, hundreds of
 # MB), battle replays and videos. Re-running refreshes runs that were copied before.
 #
-#   scripts/save_runs.sh                 # every run and test under ~/cares_rl_logs/DQN
-#   scripts/save_runs.sh v2-s10 v2-s20   # only folders whose name contains one of these
+#   scripts/save_runs.sh                 # every run and test under ~/cares_rl_logs (all algorithms)
+#   scripts/save_runs.sh v3-s10 v3-s20   # only folders whose name contains one of these
 #
 # Then: git commit -m "..." && git push
 set -euo pipefail
@@ -15,7 +15,8 @@ DEST="$REPO/runs"
 
 mkdir -p "$DEST"
 copied=()
-for dir in "$LOG_BASE"/DQN/*/; do
+# Runs sit in a folder per algorithm (DQN/, DuelingDQN/, ...)
+for dir in "$LOG_BASE"/*/*/; do
   [[ -d "$dir" ]] || continue
   name=$(basename "$dir")
   if (( $# > 0 )); then
@@ -24,7 +25,7 @@ for dir in "$LOG_BASE"/DQN/*/; do
     (( match )) || continue
   fi
   rm -rf "${DEST:?}/$name"
-  tar -C "$LOG_BASE/DQN" --exclude=memory --exclude=replays --exclude=videos -cf - "$name" | tar -C "$DEST" -xf -
+  tar -C "$(dirname "$dir")" --exclude=memory --exclude=replays --exclude=videos -cf - "$name" | tar -C "$DEST" -xf -
   copied+=("$name")
 done
 
