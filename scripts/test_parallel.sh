@@ -9,6 +9,8 @@
 #   EPISODES=500 scripts/test_parallel.sh v3-s20    # more battles for a tighter estimate
 #   RUN_PREFIX=v2 scripts/test_parallel.sh          # the v2 runs (needs the v2 environment code)
 set -euo pipefail
+# shellcheck source=scripts/start_run.sh
+source "$(dirname "$0")/start_run.sh"
 
 LOG_BASE="${CARES_LOG_BASE_DIR:-$HOME/cares_rl_logs}"
 CARES_RL="${CARES_RL:-cares-rl}"
@@ -37,14 +39,14 @@ for dir in "$LOG_BASE"/*/*-random-max-"$RUN_PREFIX"-*; do
   [[ -d "$dir" ]] || continue
   name=$(sed -E 's/^[A-Za-z0-9]+-random-max-(.*)-[0-9]{2}_[0-9]{2}_[0-9]{2}_[0-9]{2}-[0-9]{2}-[0-9]{2}$/\1/' <<< "$(basename "$dir")")
   if (( $# > 0 )) && [[ " $* " != *" $name "* ]]; then continue; fi
-  nohup "$CARES_RL" test --run-name "test-$name" --skip-prompts \
-    --data_path "$dir" --eval_seed 10 --episodes "$EPISODES" \
-    > "$OUT_DIR/test-$name.log" 2>&1 &
-  pids+=("$!")
-  names+=("$name")
-  echo "testing $name (pid $!) -> $OUT_DIR/test-$name.log"
-  # Showdown account names are stamped with the start time in seconds, so tests must not start together
-  sleep 5
+  # One at a time, see start_run.sh
+  if start_run "test-$name" "$OUT_DIR/test-$name.log" "$CARES_RL" test --run-name "test-$name" --skip-prompts \
+    --data_path "$dir" --eval_seed 10 --episodes "$EPISODES"; then
+    pids+=("$STARTED_PID")
+    names+=("$name")
+  else
+    echo "$name: test failed to start - see $OUT_DIR/test-$name.log.failed-*" >&2
+  fi
 done
 
 if (( ${#pids[@]} == 0 )); then
