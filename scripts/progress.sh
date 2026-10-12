@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Progress of the runs started by train_parallel.sh: steps done, estimated time left and the
-# eval win rates at the latest checkpoints (10 battles each, so expect noise). For win rates you
-# can compare, use scripts/summarize_runs.py.
+# eval win rates at the latest checkpoints (10 battles each, so expect noise), plus each run's
+# memory and the machine's. A run's memory should level off (about 1 GB); steady growth means a
+# leak. For win rates you can compare, use scripts/summarize_runs.py.
 #
 #   scripts/progress.sh
 #   RUN_PREFIX=v2 scripts/progress.sh   # an older environment version's runs
@@ -11,7 +12,7 @@ LOG_BASE="${CARES_LOG_BASE_DIR:-$HOME/cares_rl_logs}"
 RUN_PREFIX="${RUN_PREFIX:-v3}"
 now=$(date +%s)
 
-printf "%-10s %-8s %7s %5s %9s  %s\n" run status steps done "time left" "eval wins @ latest checkpoints"
+printf "%-10s %-8s %7s %5s %9s %7s  %s\n" run status steps done "time left" memory "eval wins @ latest checkpoints"
 # Runs sit in a folder per algorithm (DQN/, DuelingDQN/, ...)
 for dir in "$LOG_BASE"/*/*-random-max-"$RUN_PREFIX"-*; do
   [[ -d "$dir" ]] || continue
@@ -29,8 +30,12 @@ for dir in "$LOG_BASE"/*/*-random-max-"$RUN_PREFIX"-*; do
   steps=$(tail -n 1 "$seed_dir/data/train.csv" 2>/dev/null | cut -d, -f1)
   [[ "$steps" =~ ^[0-9]+$ ]] || steps=0
 
-  if pgrep -f -- "--run-name $name " > /dev/null; then
+  mem="-"
+  pids=$(pgrep -d, -f -- "--run-name $name ")
+  if [[ -n "$pids" ]]; then
     status=running
+    # The training process is the biggest one whose command line names the run
+    mem="$(( $(ps -o rss= -p "$pids" 2>/dev/null | sort -n | tail -n 1) / 1024 ))MB"
     if (( steps > 0 )); then
       left=$(( (STEPS - steps) * elapsed / steps ))
       left=$(printf "%dh%02dm" $((left / 3600)) $((left % 3600 / 60)))
@@ -46,5 +51,7 @@ for dir in "$LOG_BASE"/*/*-random-max-"$RUN_PREFIX"-*; do
                    END { for (k in n) print k, w[k] "/" n[k] }' "$seed_dir/data/eval.csv" 2>/dev/null \
           | sort -n | tail -n 4 | awk '{ printf "%s@%dk  ", $2, $1 / 1000 }')
 
-  printf "%-10s %-8s %7d %4d%% %9s  %s\n" "$name" "$status" "$steps" $(( steps * 100 / STEPS )) "$left" "${evals:--}"
+  printf "%-10s %-8s %7d %4d%% %9s %7s  %s\n" "$name" "$status" "$steps" $(( steps * 100 / STEPS )) "$left" "$mem" "${evals:--}"
 done
+
+free -m | awk '/^Mem:/ { printf "\nmachine memory: %d of %d MB used, %d MB available\n", $3, $2, $7 }'
