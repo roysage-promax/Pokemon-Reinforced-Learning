@@ -20,6 +20,8 @@ start_run() {
   local attempt pid waited marker dir
   for (( attempt = 1; attempt <= STARTUP_ATTEMPTS; attempt++ )); do
     marker=$(mktemp)
+    # Create the log first: the background job may not have opened it before the first grep
+    : > "$log"
     nohup "$@" > "$log" 2>&1 &
     pid=$!
     echo "starting $name (pid $pid) -> $log"

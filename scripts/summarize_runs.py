@@ -51,19 +51,19 @@ def main():
         print(f"no runs matching {pattern} under {log_dir}")
         return
 
-    header = f"{'run':14s} {'steps':>7s} {'after exploration':>27s} {'prev 20k':>8s} {'last 20k':>8s}  per battle"
+    header = f"{'run':16s} {'steps':>7s} {'after exploration':>27s} {'prev 20k':>8s} {'last 20k':>8s}  per battle"
     print(header)
     for d in train_dirs:
         name = re.sub(DATE, "", re.sub(r"^[A-Za-z0-9]+-random-max-", "", os.path.basename(d)))
         seed_dirs = [s for s in glob.glob(f"{d}/*") if os.path.basename(s).isdigit()]
         train_csv = f"{seed_dirs[0]}/data/train.csv" if seed_dirs else ""
         if not os.path.exists(train_csv):
-            print(f"{name:14s} no train.csv yet")
+            print(f"{name:16s} no train.csv yet")
             continue
         with open(train_csv) as f:
             rows = list(csv.DictReader(f))
         if not rows:
-            print(f"{name:14s} no episodes yet")
+            print(f"{name:16s} no episodes yet")
             continue
         with open(f"{d}/alg_config.json") as f:
             decay = json.load(f).get("decay_steps", 100000)
@@ -83,7 +83,7 @@ def main():
         habits = ", ".join(
             f"{h} {sum(float(r[h] or 0) for r in window) / len(window):.2f}" for h in HABITS if h in rows[0]
         )
-        print(f"{name:14s} {steps:7d} {after:>27s} {win_rate(prev):7.1f}% {win_rate(last):7.1f}%  {habits}")
+        print(f"{name:16s} {steps:7d} {after:>27s} {win_rate(prev):7.1f}% {win_rate(last):7.1f}%  {habits}")
 
     test_pattern = f"*-random-max-test-{args.prefix}-*"
     tests = sorted(set(glob.glob(f"{log_dir}/*/{test_pattern}") + glob.glob(f"{log_dir}/{test_pattern}")))
