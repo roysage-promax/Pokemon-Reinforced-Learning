@@ -7,7 +7,7 @@
 #   scripts/train_parallel.sh                        # every run below, 400k steps unless it sets its own
 #   STEPS=50000 scripts/train_parallel.sh            # shorter check (runs with their own step count keep it)
 #   SHUTDOWN_WHEN_DONE=1 scripts/train_parallel.sh   # power the machine off once every run has ended
-#   scripts/train_parallel.sh v4r-alias v4r-b0.3     # only these runs
+#   scripts/train_parallel.sh v4s-tera-s10 v4s-rules-s10   # only these runs
 #
 # Results go to $CARES_LOG_BASE_DIR (default ~/cares_rl_logs); console output to $OUT_DIR/<run>.log.
 set -euo pipefail
@@ -31,21 +31,23 @@ export OMP_NUM_THREADS=1
 # actions only) at e5ed864, v3 at b5e07bf and a8cb256.
 # Environment settings: SHOWDOWN_ILLEGAL_PENALTY (default 0.5) - reward taken off an illegal action
 #   SHOWDOWN_TERA_BONUS (default 0.3) - reward for a well-timed tera
-# v4r: the first v4 batch (fe97617) learned to hardly ever tera (0.1 a battle; the hand-written
-# policy teras 0.8). Tera actions now just use the move once tera is used up instead of being
-# illegal, and a good tera earns a bonus. This batch screens the bonus size and whether some
-# exploration should continue (end epsilon 0.02 instead of 0.001) at 400k steps; the v4 runs'
-# first 400k steps (same settings otherwise) are the comparison. Compare with 1000-battle tests:
-# end epsilon 0.02 plays ~0.5 random actions a battle, which lowers the training win rate.
+#   SHOWDOWN_SWITCH_BONUS, SHOWDOWN_SETUP_BONUS (default 0) - reward for switching out of the
+#   predicted move, and for setting up or healing while resisting it (once per opposing Pokémon)
+# v4r (dbe63d2) screened the tera bonus at 400k: 89.7-91.7% on 1000-battle tests, best with bonus
+# 0.6; end epsilon 0.02 gave nothing. scripts/audit_policy.py on v4r-b0.6-eps: where the hand-written
+# policy would set up, the agent does 5% of the time, switch out 25%, heal 12%, tera 36%.
+# v4s: 1M steps, end epsilon 0.001. v4s-tera = the v4r-b0.6 recipe; v4s-rules adds the switch and
+# setup/heal bonuses. Same seeds, so the bonuses are the only difference between the halves.
 DQN3="DQN --use_double_dqn 1 --n_step 3 --lr 0.0003 --decay_steps 200000"
-EPS="--end_epsilon 0.02"
+TERA06="SHOWDOWN_TERA_BONUS=0.6"
+RULES="$TERA06 SHOWDOWN_SWITCH_BONUS=0.3 SHOWDOWN_SETUP_BONUS=0.3"
 RUNS=(
-  "v4r-alias|10|||SHOWDOWN_TERA_BONUS=0|$DQN3"
-  "v4r-alias-eps|10|||SHOWDOWN_TERA_BONUS=0|$DQN3 $EPS"
-  "v4r-b0.3|10|||SHOWDOWN_TERA_BONUS=0.3|$DQN3"
-  "v4r-b0.3-eps|10|||SHOWDOWN_TERA_BONUS=0.3|$DQN3 $EPS"
-  "v4r-b0.3-eps-s20|20|||SHOWDOWN_TERA_BONUS=0.3|$DQN3 $EPS"
-  "v4r-b0.6-eps|10|||SHOWDOWN_TERA_BONUS=0.6|$DQN3 $EPS"
+  "v4s-tera-s10|10|1000000||$TERA06|$DQN3"
+  "v4s-tera-s20|20|1000000||$TERA06|$DQN3"
+  "v4s-tera-s30|30|1000000||$TERA06|$DQN3"
+  "v4s-rules-s10|10|1000000||$RULES|$DQN3"
+  "v4s-rules-s20|20|1000000||$RULES|$DQN3"
+  "v4s-rules-s30|30|1000000||$RULES|$DQN3"
 )
 
 # The server compiles itself on its first start, so give it time before connecting

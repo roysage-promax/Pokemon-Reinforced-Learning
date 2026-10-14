@@ -31,6 +31,14 @@ ILLEGAL_ACTION_PENALTY = float(os.environ.get("SHOWDOWN_ILLEGAL_PENALTY", "0.5")
 # tera. SHOWDOWN_TERA_BONUS overrides it for a training run; testing ignores it.
 TERA_BONUS = float(os.environ.get("SHOWDOWN_TERA_BONUS", "0.3"))
 
+# The same kind of bonus for the hand-written policy's other rules (see _rule_bonus): switching out
+# of the opponent's predicted move, and setting up or healing while resisting it. The v4r agents
+# make those plays 5-25% of the times the hand policy does. Each is paid at most once per opposing
+# Pokémon, so switching back and forth or setting up again after a switch can't farm it. Off by
+# default; SHOWDOWN_SWITCH_BONUS and SHOWDOWN_SETUP_BONUS (setup and heal) set them for a run.
+SWITCH_BONUS = float(os.environ.get("SHOWDOWN_SWITCH_BONUS", "0"))
+SETUP_BONUS = float(os.environ.get("SHOWDOWN_SETUP_BONUS", "0"))
+
 # Tera types that don't replace the Pokémon's types (Stellar keeps its original ones)
 NO_TYPE_CHANGE_TERA = {PokemonType.STELLAR, PokemonType.THREE_QUESTION_MARKS}
 
@@ -75,7 +83,8 @@ class ShowdownEnvironment(BaseShowdownEnv):
         self.rl_agent = account_name_one
         self._prev_battle_state = {}
         self._illegal_action = False
-        self._tera_bonus = 0.0
+        self._bonus = 0.0
+        self._bonus_paid = set()
         self._counts = self._new_counts()
 
     # =========================================================
@@ -92,7 +101,8 @@ class ShowdownEnvironment(BaseShowdownEnv):
           10-13  terastallize, use move slot 0-3   -> 22-25
         When we can't terastallize (tera used up), 10-13 just use the move: the first v4 agents,
         penalised for those, learned to avoid the tera actions altogether. A good tera (see
-        _good_tera) earns TERA_BONUS.
+        _good_tera) earns TERA_BONUS, a good switch, setup or heal (see _rule_bonus) SWITCH_BONUS
+        or SETUP_BONUS.
         The agent also picks the replacement when one of ours faints. An illegal choice (a move
         during a forced switch, a fainted or already active team slot...) is passed on as is:
         poke_env, run non-strict, swaps it for the server's default choice, and calc_reward
@@ -106,12 +116,14 @@ class ShowdownEnvironment(BaseShowdownEnv):
         if action >= TERA and not (acting and battle.can_tera):
             action -= TERA
         self._illegal_action = acting and not self._is_legal(battle, action)
-        self._tera_bonus = 0.0
+        self._bonus = 0.0
         if acting:
             self._count_action(battle, action)
-            if action >= TERA and not self._illegal_action and self._good_tera(battle, action - TERA):
-                self._tera_bonus = TERA_BONUS
-                self._counts["good_tera"] += 1
+            if not self._illegal_action:
+                if action >= TERA and self._good_tera(battle, action - TERA):
+                    self._bonus = TERA_BONUS
+                    self._counts["good_tera"] += 1
+                self._bonus += self._rule_bonus(battle, action)
 
         if action < N_MOVES:
             return np.int64(action + 6)
@@ -253,6 +265,56 @@ class ShowdownEnvironment(BaseShowdownEnv):
         move = self._move_slots(battle)[slot]
         return move.base_power > 0 and self._stab(move, active, tera=True) > self._stab(move, active) and tera_threat <= threat
 
+    def _rule_bonus(self, battle: AbstractBattle, action: int) -> float:
+        """
+        Bonus for a legal action that follows one of the hand-written policy's other rules
+        (scripts/check_env.py) against the opponent's predicted move:
+          switch  it hits our active super-effectively and the teammate resists it, or it hits
+                  at least neutrally and the teammate is immune
+          heal    we resist it and are at half HP or less
+          setup   we resist it and are at half HP or more, attack and special attack both
+                  below +2 (+6 when we're immune)
+        Every match is counted (good_switch, good_heal, good_setup); the bonus is paid once per
+        rule and opposing Pokémon.
+        """
+        active = battle.active_pokemon
+        opp = battle.opponent_active_pokemon
+        if battle.force_switch or active is None or opp is None:
+            return 0.0
+        predicted, _ = self._predicted_move(battle)
+        if predicted is None:
+            return 0.0
+
+        threat = self._threat(predicted, active)
+        hp = active.current_hp_fraction
+        if N_MOVES <= action < TERA:
+            target = list(battle.team.values())[action - N_MOVES]
+            target_threat = self._threat(predicted, target)
+            if not ((threat >= 2 and target_threat <= 0.5) or (threat >= 1 and target_threat == 0)):
+                return 0.0
+            rule, bonus = "switch", SWITCH_BONUS
+        else:
+            move = self._move_slots(battle)[action - TERA if action >= TERA else action]
+            cap = 6 if threat == 0 else 2
+            if self._is_heal(move) and threat <= 0.5 and hp <= 0.5:
+                rule = "heal"
+            elif (
+                self._is_setup(move)
+                and threat <= 0.5
+                and hp >= 0.5
+                and max(active.boosts.get("atk", 0), active.boosts.get("spa", 0)) < cap
+            ):
+                rule = "setup"
+            else:
+                return 0.0
+            bonus = SETUP_BONUS
+
+        self._counts[f"good_{rule}"] += 1
+        if (rule, opp.species) in self._bonus_paid:
+            return 0.0
+        self._bonus_paid.add((rule, opp.species))
+        return bonus
+
     # =========================================================
     # Reset / Step
     # =========================================================
@@ -269,7 +331,8 @@ class ShowdownEnvironment(BaseShowdownEnv):
                     del agent._battles[tag]
 
         self._illegal_action = False
-        self._tera_bonus = 0.0
+        self._bonus = 0.0
+        self._bonus_paid = set()
         self._counts = self._new_counts()
         return super().reset(seed, options)
 
@@ -314,6 +377,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
           + 1 for a win / - 1 for a loss
           - ILLEGAL_ACTION_PENALTY if the agent's action couldn't be taken
           + TERA_BONUS for a well-timed tera (_good_tera)
+          + SWITCH_BONUS or SETUP_BONUS for a good switch, setup or heal (_rule_bonus)
         """
         prior = self._prev_battle_state.get(battle.player_username)
         if prior is None:
@@ -336,7 +400,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
         if battle is self.battle1:
             if self._illegal_action:
                 reward -= ILLEGAL_ACTION_PENALTY
-            reward += self._tera_bonus
+            reward += self._bonus
 
         return float(reward)
 
@@ -497,6 +561,9 @@ class ShowdownEnvironment(BaseShowdownEnv):
             "heal_moves": 0,
             "tera": 0,
             "good_tera": 0,
+            "good_switch": 0,
+            "good_setup": 0,
+            "good_heal": 0,
         }
 
     def _count_action(self, battle: AbstractBattle, action: int):
