@@ -5,11 +5,11 @@
 # leak. For win rates you can compare, use scripts/summarize_runs.py.
 #
 #   scripts/progress.sh
-#   RUN_PREFIX=v3 scripts/progress.sh   # an older environment version's runs
+#   RUN_PREFIX=v4 scripts/progress.sh   # an older batch's runs
 set -uo pipefail
 
 LOG_BASE="${CARES_LOG_BASE_DIR:-$HOME/cares_rl_logs}"
-RUN_PREFIX="${RUN_PREFIX:-v4}"
+RUN_PREFIX="${RUN_PREFIX:-v4r}"
 now=$(date +%s)
 
 printf "%-10s %-8s %7s %5s %9s %7s  %s\n" run status steps done "time left" memory "eval wins @ latest checkpoints"

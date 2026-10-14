@@ -26,6 +26,11 @@ TERA = N_MOVES + N_SWITCHES
 # it for a training run; testing ignores it.
 ILLEGAL_ACTION_PENALTY = float(os.environ.get("SHOWDOWN_ILLEGAL_PENALTY", "0.5"))
 
+# One-off reward for a well-timed tera (see _good_tera): the battle reward pays for good tera only
+# a little at a time over the following turns, and the first v4 agents learned to hardly ever
+# tera. SHOWDOWN_TERA_BONUS overrides it for a training run; testing ignores it.
+TERA_BONUS = float(os.environ.get("SHOWDOWN_TERA_BONUS", "0.3"))
+
 # Tera types that don't replace the Pokémon's types (Stellar keeps its original ones)
 NO_TYPE_CHANGE_TERA = {PokemonType.STELLAR, PokemonType.THREE_QUESTION_MARKS}
 
@@ -70,6 +75,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
         self.rl_agent = account_name_one
         self._prev_battle_state = {}
         self._illegal_action = False
+        self._tera_bonus = 0.0
         self._counts = self._new_counts()
 
     # =========================================================
@@ -84,9 +90,11 @@ class ShowdownEnvironment(BaseShowdownEnv):
           0-3    use move slot 0-3                 -> 6-9
           4-9    switch to team slot 0-5           -> 0-5
           10-13  terastallize, use move slot 0-3   -> 22-25
+        When we can't terastallize (tera used up), 10-13 just use the move: the first v4 agents,
+        penalised for those, learned to avoid the tera actions altogether. A good tera (see
+        _good_tera) earns TERA_BONUS.
         The agent also picks the replacement when one of ours faints. An illegal choice (a move
-        during a forced switch, a fainted or already active team slot, tera after it's been
-        used...) is passed on as is:
+        during a forced switch, a fainted or already active team slot...) is passed on as is:
         poke_env, run non-strict, swaps it for the server's default choice, and calc_reward
         takes off ILLEGAL_ACTION_PENALTY. On steps where only the opponent has to choose (e.g.
         replacing a fainted Pokémon), poke_env ignores our action, so it is neither penalised
@@ -95,9 +103,15 @@ class ShowdownEnvironment(BaseShowdownEnv):
         action = int(action)
         battle = self.battle1
         acting = battle is not None and self.agent1_to_move
+        if action >= TERA and not (acting and battle.can_tera):
+            action -= TERA
         self._illegal_action = acting and not self._is_legal(battle, action)
+        self._tera_bonus = 0.0
         if acting:
             self._count_action(battle, action)
+            if action >= TERA and not self._illegal_action and self._good_tera(battle, action - TERA):
+                self._tera_bonus = TERA_BONUS
+                self._counts["good_tera"] += 1
 
         if action < N_MOVES:
             return np.int64(action + 6)
@@ -219,6 +233,26 @@ class ShowdownEnvironment(BaseShowdownEnv):
     def _is_heal(move: Move) -> bool:
         return move.heal > 0 or move.id in EXTRA_HEAL_MOVES
 
+    def _good_tera(self, battle: AbstractBattle, slot: int) -> bool:
+        """
+        Terastallizing and using move slot `slot` is well-timed if, against the opponent's
+        predicted move, it turns a neutral or super-effective hit into a resisted one, or gives the
+        move (more) STAB without the predicted move hitting harder - the two cases where the
+        hand-written policy in scripts/check_env.py teras (94.8% vs max).
+        """
+        active = battle.active_pokemon
+        if active is None or battle.opponent_active_pokemon is None:
+            return False
+        predicted, _ = self._predicted_move(battle)
+        if predicted is None:
+            return False
+        threat = self._threat(predicted, active)
+        tera_threat = self._threat(predicted, active, tera=True)
+        if threat >= 1 and tera_threat <= 0.5:
+            return True
+        move = self._move_slots(battle)[slot]
+        return move.base_power > 0 and self._stab(move, active, tera=True) > self._stab(move, active) and tera_threat <= threat
+
     # =========================================================
     # Reset / Step
     # =========================================================
@@ -235,6 +269,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
                     del agent._battles[tag]
 
         self._illegal_action = False
+        self._tera_bonus = 0.0
         self._counts = self._new_counts()
         return super().reset(seed, options)
 
@@ -278,6 +313,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
           + 0.2 per opponent Pokémon knocked out, - 0.2 per one of ours that faints
           + 1 for a win / - 1 for a loss
           - ILLEGAL_ACTION_PENALTY if the agent's action couldn't be taken
+          + TERA_BONUS for a well-timed tera (_good_tera)
         """
         prior = self._prev_battle_state.get(battle.player_username)
         if prior is None:
@@ -297,8 +333,10 @@ class ShowdownEnvironment(BaseShowdownEnv):
         elif battle.lost:
             reward -= 1.0
 
-        if self._illegal_action and battle is self.battle1:
-            reward -= ILLEGAL_ACTION_PENALTY
+        if battle is self.battle1:
+            if self._illegal_action:
+                reward -= ILLEGAL_ACTION_PENALTY
+            reward += self._tera_bonus
 
         return float(reward)
 
@@ -337,7 +375,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
             can't tera now)
         Our attack and special attack boosts (stage / 6)
         Tera:
-          we can terastallize now (actions 10-13 are legal where the move slot is)
+          we can terastallize now (otherwise actions 10-13 just use the move)
           our active is terastallized
           we haven't used tera this battle (only one Pokémon a battle can)
         1 on a forced switch (only switch actions are legal)
@@ -458,6 +496,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
             "setup_moves": 0,
             "heal_moves": 0,
             "tera": 0,
+            "good_tera": 0,
         }
 
     def _count_action(self, battle: AbstractBattle, action: int):

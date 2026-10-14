@@ -8,7 +8,7 @@ For each run: win rate after exploration (with a 95% interval), win rate in the 
 and the 20k before that (still rising? then more steps may help), and per-battle habits from the
 environment's counters (switches, illegal actions, setup and healing moves).
 
-    python scripts/summarize_runs.py                      # ~/cares_rl_logs, v4 runs
+    python scripts/summarize_runs.py                      # ~/cares_rl_logs, v4r runs
     python scripts/summarize_runs.py runs --prefix v3     # the runs committed to the repo
 """
 
@@ -20,7 +20,7 @@ import math
 import os
 import re
 
-HABITS = ["switches", "forced_switches", "illegal_actions", "illegal_tera", "setup_moves", "heal_moves", "tera"]
+HABITS = ["switches", "forced_switches", "illegal_actions", "illegal_tera", "setup_moves", "heal_moves", "tera", "good_tera"]
 DATE = r"-\d{2}_\d{2}_\d{2}_\d{2}-\d{2}-\d{2}$"
 
 
@@ -39,7 +39,7 @@ def win_rate(rows):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("log_dir", nargs="?", default=os.environ.get("CARES_LOG_BASE_DIR", "~/cares_rl_logs"))
-    parser.add_argument("--prefix", default="v4", help="environment version in the run names")
+    parser.add_argument("--prefix", default="v4r", help="environment version in the run names")
     args = parser.parse_args()
     log_dir = os.path.expanduser(args.log_dir)
 
@@ -88,7 +88,7 @@ def main():
     test_pattern = f"*-random-max-test-{args.prefix}-*"
     tests = sorted(set(glob.glob(f"{log_dir}/*/{test_pattern}") + glob.glob(f"{log_dir}/{test_pattern}")))
     if tests:
-        print("\n100-battle tests (+-7 points by luck):")
+        print("\ntests (greedy; a 100-battle test swings +-7 points by luck):")
     for d in tests:
         for csv_path in glob.glob(f"{d}/*/data/eval.csv"):
             with open(csv_path) as f:
@@ -96,7 +96,8 @@ def main():
             if rows:
                 name = re.sub(DATE, "", re.sub(r"^[A-Za-z0-9]+-random-max-", "", os.path.basename(d)))
                 w = sum(r["win"] == "True" for r in rows)
-                print(f"  {name:20s} model {rows[0]['total_steps']:>7s}: {w}/{len(rows)}")
+                lo, hi = wilson(w, len(rows))
+                print(f"  {name:20s} model {rows[0]['total_steps']:>7s}: {w}/{len(rows)} = {100 * w / len(rows):.1f}% [{100 * lo:.1f}-{100 * hi:.1f}]")
 
 
 if __name__ == "__main__":

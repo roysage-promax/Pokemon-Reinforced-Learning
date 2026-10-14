@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # The grading test - 100 battles against the max expert with --eval_seed 10 - for every run of
-# one environment version (RUN_PREFIX, default v4), in parallel, then a win-rate summary.
+# one environment version (RUN_PREFIX, default v4r), in parallel, then a win-rate summary.
 # cares-rl tests a run's models/final, or its highest numbered checkpoint if it has no final one.
 # Needs the Showdown server running.
 #
-#   scripts/test_parallel.sh                        # every v4 run
-#   scripts/test_parallel.sh v4-s10 v4-1m           # only these runs
-#   EPISODES=500 scripts/test_parallel.sh v4-s20    # more battles for a tighter estimate
+#   scripts/test_parallel.sh                        # every v4r run
+#   scripts/test_parallel.sh v4r-alias v4r-b0.3     # only these runs
+#   EPISODES=1000 scripts/test_parallel.sh          # more battles for a tighter estimate
 #   RUN_PREFIX=v3 scripts/test_parallel.sh          # the v3 runs (needs the v3 environment code)
 set -euo pipefail
 # shellcheck source=scripts/start_run.sh
@@ -16,7 +16,7 @@ LOG_BASE="${CARES_LOG_BASE_DIR:-$HOME/cares_rl_logs}"
 CARES_RL="${CARES_RL:-cares-rl}"
 OUT_DIR="${OUT_DIR:-rl_logs}"
 EPISODES="${EPISODES:-100}"
-RUN_PREFIX="${RUN_PREFIX:-v4}"
+RUN_PREFIX="${RUN_PREFIX:-v4r}"
 
 export OMP_NUM_THREADS=1
 

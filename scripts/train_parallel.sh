@@ -4,17 +4,17 @@
 # start_run.sh) - so this takes ~20 s per run before it returns.
 # Needs the Showdown server running first (node pokemon-showdown start --no-security).
 #
-#   scripts/train_parallel.sh                        # every run below, 600k steps unless it sets its own
+#   scripts/train_parallel.sh                        # every run below, 400k steps unless it sets its own
 #   STEPS=50000 scripts/train_parallel.sh            # shorter check (runs with their own step count keep it)
 #   SHUTDOWN_WHEN_DONE=1 scripts/train_parallel.sh   # power the machine off once every run has ended
-#   scripts/train_parallel.sh v4-s10 v4-s20          # only these runs
+#   scripts/train_parallel.sh v4r-alias v4r-b0.3     # only these runs
 #
 # Results go to $CARES_LOG_BASE_DIR (default ~/cares_rl_logs); console output to $OUT_DIR/<run>.log.
 set -euo pipefail
 # shellcheck source=scripts/start_run.sh
 source "$(dirname "$0")/start_run.sh"
 
-STEPS="${STEPS:-600000}"
+STEPS="${STEPS:-400000}"
 CARES_RL="${CARES_RL:-cares-rl}"
 PYTHON="${PYTHON:-python}"
 OUT_DIR="${OUT_DIR:-rl_logs}"
@@ -30,18 +30,22 @@ export OMP_NUM_THREADS=1
 # move-and-terastallize actions and tera features. Earlier batches are in git history: v2 (4 move
 # actions only) at e5ed864, v3 at b5e07bf and a8cb256.
 # Environment settings: SHOWDOWN_ILLEGAL_PENALTY (default 0.5) - reward taken off an illegal action
-# Every run uses the v3-pl recipe (64-wide network, illegal penalty 0.5, epsilon decaying over
-# 200k steps) with 400k+ steps after exploration: v3-pl-600k was still improving at the end.
-# buf200k: replay buffer of 200k steps instead of 1M, so late training stops sampling battles
-# from the exploration phase.
+#   SHOWDOWN_TERA_BONUS (default 0.3) - reward for a well-timed tera
+# v4r: the first v4 batch (fe97617) learned to hardly ever tera (0.1 a battle; the hand-written
+# policy teras 0.8). Tera actions now just use the move once tera is used up instead of being
+# illegal, and a good tera earns a bonus. This batch screens the bonus size and whether some
+# exploration should continue (end epsilon 0.02 instead of 0.001) at 400k steps; the v4 runs'
+# first 400k steps (same settings otherwise) are the comparison. Compare with 1000-battle tests:
+# end epsilon 0.02 plays ~0.5 random actions a battle, which lowers the training win rate.
 DQN3="DQN --use_double_dqn 1 --n_step 3 --lr 0.0003 --decay_steps 200000"
+EPS="--end_epsilon 0.02"
 RUNS=(
-  "v4-s10|10||||$DQN3"
-  "v4-s20|20||||$DQN3"
-  "v4-s30|30||||$DQN3"
-  "v4-buf200k-s10|10||||$DQN3 --buffer_size 200000"
-  "v4-buf200k-s20|20||||$DQN3 --buffer_size 200000"
-  "v4-1m|10|1000000|||$DQN3"
+  "v4r-alias|10|||SHOWDOWN_TERA_BONUS=0|$DQN3"
+  "v4r-alias-eps|10|||SHOWDOWN_TERA_BONUS=0|$DQN3 $EPS"
+  "v4r-b0.3|10|||SHOWDOWN_TERA_BONUS=0.3|$DQN3"
+  "v4r-b0.3-eps|10|||SHOWDOWN_TERA_BONUS=0.3|$DQN3 $EPS"
+  "v4r-b0.3-eps-s20|20|||SHOWDOWN_TERA_BONUS=0.3|$DQN3 $EPS"
+  "v4r-b0.6-eps|10|||SHOWDOWN_TERA_BONUS=0.6|$DQN3 $EPS"
 )
 
 # The server compiles itself on its first start, so give it time before connecting
