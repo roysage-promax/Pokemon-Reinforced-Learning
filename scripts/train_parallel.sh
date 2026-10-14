@@ -4,17 +4,17 @@
 # start_run.sh) - so this takes ~20 s per run before it returns.
 # Needs the Showdown server running first (node pokemon-showdown start --no-security).
 #
-#   scripts/train_parallel.sh                        # every run below, 400k steps unless it sets its own
+#   scripts/train_parallel.sh                        # every run below, 600k steps unless it sets its own
 #   STEPS=50000 scripts/train_parallel.sh            # shorter check (runs with their own step count keep it)
 #   SHUTDOWN_WHEN_DONE=1 scripts/train_parallel.sh   # power the machine off once every run has ended
-#   scripts/train_parallel.sh v3-s10 v3-s20          # only these runs
+#   scripts/train_parallel.sh v4-s10 v4-s20          # only these runs
 #
 # Results go to $CARES_LOG_BASE_DIR (default ~/cares_rl_logs); console output to $OUT_DIR/<run>.log.
 set -euo pipefail
 # shellcheck source=scripts/start_run.sh
 source "$(dirname "$0")/start_run.sh"
 
-STEPS="${STEPS:-400000}"
+STEPS="${STEPS:-600000}"
 CARES_RL="${CARES_RL:-cares-rl}"
 PYTHON="${PYTHON:-python}"
 OUT_DIR="${OUT_DIR:-rl_logs}"
@@ -26,20 +26,22 @@ export OMP_NUM_THREADS=1
 
 # name | seed | steps (empty = $STEPS) | hidden layer width (empty = cares-rl's 64) |
 #   environment settings | algorithm and its settings
-# v3 environment: 4 moves + 6 switches, opponent's predicted move in the state. The v2 runs
-# (4 move actions only) are in git history at commit e5ed864, the first v3 batch at b5e07bf.
-# Environment settings: SHOWDOWN_ILLEGAL_PENALTY (default 0.1) - reward taken off an illegal action
-# "pl" runs keep the two changes that helped in the first v3 batch: illegal penalty 0.5 (v3-pen0.5)
-# and epsilon decaying over 200k steps instead of 100k (v3-long).
-DQN3="DQN --use_double_dqn 1 --n_step 3 --lr 0.0003"
-PL=SHOWDOWN_ILLEGAL_PENALTY=0.5
+# v4 environment: v3 (4 moves + 6 switches, opponent's predicted move in the state) plus 4
+# move-and-terastallize actions and tera features. Earlier batches are in git history: v2 (4 move
+# actions only) at e5ed864, v3 at b5e07bf and a8cb256.
+# Environment settings: SHOWDOWN_ILLEGAL_PENALTY (default 0.5) - reward taken off an illegal action
+# Every run uses the v3-pl recipe (64-wide network, illegal penalty 0.5, epsilon decaying over
+# 200k steps) with 400k+ steps after exploration: v3-pl-600k was still improving at the end.
+# buf200k: replay buffer of 200k steps instead of 1M, so late training stops sampling battles
+# from the exploration phase.
+DQN3="DQN --use_double_dqn 1 --n_step 3 --lr 0.0003 --decay_steps 200000"
 RUNS=(
-  "v3-pl-s10|10|||$PL|$DQN3 --decay_steps 200000"
-  "v3-pl-s20|20|||$PL|$DQN3 --decay_steps 200000"
-  "v3-pl-w256-s10|10||256|$PL|$DQN3 --decay_steps 200000"
-  "v3-pl-w256-s20|20||256|$PL|$DQN3 --decay_steps 200000"
-  "v3-pl-600k|10|600000||$PL|$DQN3 --decay_steps 300000"
-  "v3-pl-w256-600k|10|600000|256|$PL|$DQN3 --decay_steps 300000"
+  "v4-s10|10||||$DQN3"
+  "v4-s20|20||||$DQN3"
+  "v4-s30|30||||$DQN3"
+  "v4-buf200k-s10|10||||$DQN3 --buffer_size 200000"
+  "v4-buf200k-s20|20||||$DQN3 --buffer_size 200000"
+  "v4-1m|10|1000000|||$DQN3"
 )
 
 # The server compiles itself on its first start, so give it time before connecting

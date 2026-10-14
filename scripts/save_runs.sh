@@ -4,7 +4,7 @@
 # MB), battle replays and videos. Re-running refreshes runs that were copied before.
 #
 #   scripts/save_runs.sh                 # every run and test under ~/cares_rl_logs (all algorithms)
-#   scripts/save_runs.sh v3-s10 v3-s20   # only folders whose name contains one of these
+#   scripts/save_runs.sh v4-s10 v4-s20   # only folders whose name contains one of these
 #
 # Then: git commit -m "..." && git push
 set -euo pipefail

@@ -3,10 +3,11 @@ Checks the environment against the max expert without any training:
 
   1. random actions: battles finish, observations stay in range, and the observation's "legal"
      flags agree with the legality check the illegal-action penalty uses
-  2. a hand-written policy that reads only the observation vector (the probe's variant C rules):
-     its win rate shows whether the observation carries what an agent needs to play that well
+  2. hand-written policies that read only the observation vector, the probe's variant C rules
+     and C + tera (variant E): their win rates show whether the observation carries what an
+     agent needs to play that well
 
-    python scripts/check_env.py                  # 30 random battles, 300 policy battles
+    python scripts/check_env.py                  # 30 random battles, 300 battles per policy
     python scripts/check_env.py --random 10 --policy 1000
 Needs the Showdown server running (node pokemon-showdown start --no-security).
 """
@@ -20,20 +21,22 @@ from collections import Counter
 
 import numpy as np
 
-from showdown_gym.showdown_environment import N_MOVES, N_SWITCHES, SingleShowdownWrapper
+from showdown_gym.showdown_environment import N_MOVES, N_SWITCHES, N_TERA, SingleShowdownWrapper
 
 # Observation layout (see ShowdownEnvironment._observation_size)
-MOVE = 0  # 4 x [legal, relative damage, power, effectiveness, setup, heal]
-TEAM = 6 * N_MOVES  # 6 x [legal, hp, predicted-move threat / 4, offence / 300, faster]
+MOVE = 0  # 4 x [legal, relative damage, power, effectiveness, setup, heal, relative damage with tera]
+TEAM = 7 * N_MOVES  # 6 x [legal, hp, predicted-move threat / 4, offence / 300, faster]
 CONTEXT = TEAM + 5 * N_SWITCHES  # [our hp, opp hp, ours left, theirs left, faster, type threat]
-PREDICTED = CONTEXT + 6  # [revealed, guessed, power, threat on active / 4, stab]
-BOOSTS = PREDICTED + 5  # [atk, spa] / 6
-FORCED = BOOSTS + 2
+PREDICTED = CONTEXT + 6  # [revealed, guessed, power, threat on active / 4, stab, threat after tera / 4]
+BOOSTS = PREDICTED + 6  # [atk, spa] / 6
+TERA = BOOSTS + 2  # [can tera now, active is terastallized, tera unused]
+FORCED = TERA + 3
+TERA_ACTION = N_MOVES + N_SWITCHES
 
 
-def policy(obs: np.ndarray) -> int:
-    """Probe variant C, using nothing but the observation."""
-    legal_moves = [s for s in range(N_MOVES) if obs[MOVE + 6 * s]]
+def policy(obs: np.ndarray, tera: bool) -> int:
+    """Probe variant C, or with tera variant E, using nothing but the observation."""
+    legal_moves = [s for s in range(N_MOVES) if obs[MOVE + 7 * s]]
     legal_switches = [j for j in range(N_SWITCHES) if obs[TEAM + 5 * j]]
 
     def threat(j):
@@ -45,7 +48,7 @@ def policy(obs: np.ndarray) -> int:
     if obs[FORCED] or not legal_moves:
         return N_MOVES + max(legal_switches, key=matchup) if legal_switches else 0
 
-    best_move = max(legal_moves, key=lambda s: obs[MOVE + 6 * s + 1])
+    best_move = max(legal_moves, key=lambda s: obs[MOVE + 7 * s + 1])
     if not (obs[PREDICTED] or obs[PREDICTED + 1]):
         return best_move
 
@@ -57,18 +60,27 @@ def policy(obs: np.ndarray) -> int:
         if my_threat >= 1 and threat(j) == 0:
             return N_MOVES + j
 
+    # Tera when it turns the predicted move into a resisted one, or adds STAB to the best move
+    tera_offset = 0
+    if tera and obs[TERA]:
+        tera_threat = 4 * obs[PREDICTED + 5]
+        resist = my_threat >= 1 and tera_threat <= 0.5
+        stab = obs[MOVE + 7 * best_move + 6] > obs[MOVE + 7 * best_move + 1] and tera_threat <= my_threat
+        if resist or stab:
+            tera_offset = TERA_ACTION
+
     hp = obs[CONTEXT]
     if my_threat <= 0.5 and hp <= 0.5:
         for s in legal_moves:
-            if obs[MOVE + 6 * s + 5]:
+            if obs[MOVE + 7 * s + 5]:
                 return s
     if my_threat <= 0.5 and hp >= 0.5:
         cap = 6 if my_threat == 0 else 2
         if 6 * max(obs[BOOSTS], obs[BOOSTS + 1]) < cap:
             for s in legal_moves:
-                if obs[MOVE + 6 * s + 4]:
-                    return s
-    return best_move
+                if obs[MOVE + 7 * s + 4]:
+                    return s + tera_offset
+    return best_move + tera_offset
 
 
 def wilson(w, n, z=1.96):
@@ -97,8 +109,13 @@ def play(env, n_battles, choose, label):
             low, high = min(low, obs.min()), max(high, obs.max())
 
             battle = showdown.battle1
-            for a in range(N_MOVES + N_SWITCHES):
-                flag = obs[MOVE + 6 * a] if a < N_MOVES else obs[TEAM + 5 * (a - N_MOVES)]
+            for a in range(N_MOVES + N_SWITCHES + N_TERA):
+                if a < N_MOVES:
+                    flag = obs[MOVE + 7 * a]
+                elif a < TERA_ACTION:
+                    flag = obs[TEAM + 5 * (a - N_MOVES)]
+                else:
+                    flag = obs[MOVE + 7 * (a - TERA_ACTION)] and obs[TERA]
                 flag_mismatches += bool(flag) != showdown._is_legal(battle, a)
             predictions["revealed" if obs[PREDICTED] else "guessed" if obs[PREDICTED + 1] else "none"] += 1
 
@@ -122,16 +139,17 @@ def play(env, n_battles, choose, label):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--random", type=int, default=30, help="battles with random actions")
-    parser.add_argument("--policy", type=int, default=300, help="battles with the observation-only policy")
+    parser.add_argument("--policy", type=int, default=300, help="battles with each observation-only policy")
     args = parser.parse_args()
 
     env = SingleShowdownWrapper(team_type="random", opponent_type="max")
     time.sleep(3)  # cares-rl waits like this before using a new environment
 
     if args.random:
-        play(env, args.random, lambda obs, rng: int(rng.integers(N_MOVES + N_SWITCHES)), "random actions")
+        play(env, args.random, lambda obs, rng: int(rng.integers(N_MOVES + N_SWITCHES + N_TERA)), "random actions")
     if args.policy:
-        play(env, args.policy, lambda obs, rng: policy(obs), "observation-only policy (probe variant C)")
+        play(env, args.policy, lambda obs, rng: policy(obs, tera=False), "observation-only policy (probe variant C)")
+        play(env, args.policy, lambda obs, rng: policy(obs, tera=True), "observation-only policy + tera (variant E)")
 
     # poke_env's background threads can keep a clean exit waiting on the server
     sys.stdout.flush()

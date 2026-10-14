@@ -10,7 +10,7 @@ from poke_env import (
     RandomPlayer,
     SimpleHeuristicsPlayer,
 )
-from poke_env.battle import AbstractBattle, Move, MoveCategory, Target
+from poke_env.battle import AbstractBattle, Move, MoveCategory, PokemonType, Target
 from poke_env.environment.single_agent_wrapper import SingleAgentWrapper
 from poke_env.environment.singles_env import ObsType
 from poke_env.player.player import Player
@@ -18,10 +18,16 @@ from .base_environment import BaseShowdownEnv
 
 N_MOVES = 4  # actions 0-3: use move slot 0-3
 N_SWITCHES = 6  # actions 4-9: switch to team slot 0-5
+N_TERA = 4  # actions 10-13: terastallize and use move slot 0-3
+TERA = N_MOVES + N_SWITCHES
 
 # Penalty for an action that can't be taken this turn; poke_env then sends the server's default choice.
-# SHOWDOWN_ILLEGAL_PENALTY overrides it for a training run (scripts/train_parallel.sh); testing ignores it.
-ILLEGAL_ACTION_PENALTY = float(os.environ.get("SHOWDOWN_ILLEGAL_PENALTY", "0.1"))
+# 0.5 cut illegal actions to ~0.2 a battle in v3 (0.1 left ~2). SHOWDOWN_ILLEGAL_PENALTY overrides
+# it for a training run; testing ignores it.
+ILLEGAL_ACTION_PENALTY = float(os.environ.get("SHOWDOWN_ILLEGAL_PENALTY", "0.5"))
+
+# Tera types that don't replace the Pokémon's types (Stellar keeps its original ones)
+NO_TYPE_CHANGE_TERA = {PokemonType.STELLAR, PokemonType.THREE_QUESTION_MARKS}
 
 # Our own abilities and items are known, so these immunities are certain
 IMMUNE_ABILITIES = {
@@ -70,15 +76,17 @@ class ShowdownEnvironment(BaseShowdownEnv):
     # Action space
     # =========================================================
     def _get_action_size(self) -> int | None:
-        return N_MOVES + N_SWITCHES
+        return N_MOVES + N_SWITCHES + N_TERA
 
     def process_action(self, action: np.int64) -> np.int64:
         """
         Agent action -> Showdown action:
-          0-3  use move slot 0-3        -> 6-9
-          4-9  switch to team slot 0-5  -> 0-5
+          0-3    use move slot 0-3                 -> 6-9
+          4-9    switch to team slot 0-5           -> 0-5
+          10-13  terastallize, use move slot 0-3   -> 22-25
         The agent also picks the replacement when one of ours faints. An illegal choice (a move
-        during a forced switch, a fainted or already active team slot...) is passed on as is:
+        during a forced switch, a fainted or already active team slot, tera after it's been
+        used...) is passed on as is:
         poke_env, run non-strict, swaps it for the server's default choice, and calc_reward
         takes off ILLEGAL_ACTION_PENALTY. On steps where only the opponent has to choose (e.g.
         replacing a fainted Pokémon), poke_env ignores our action, so it is neither penalised
@@ -93,12 +101,16 @@ class ShowdownEnvironment(BaseShowdownEnv):
 
         if action < N_MOVES:
             return np.int64(action + 6)
+        if action >= TERA:
+            return np.int64(action - TERA + 22)
         return np.int64(action - N_MOVES)
 
     def _is_legal(self, battle: AbstractBattle, action: int) -> bool:
         """Mirrors the checks poke_env's action_to_order makes before accepting an action."""
         if self._waiting(battle):
             return False
+        if action >= TERA:
+            return battle.can_tera and self._is_legal(battle, action - TERA)
         if action < N_MOVES:
             if battle.force_switch or battle.active_pokemon is None:
                 return False
@@ -130,16 +142,38 @@ class ShowdownEnvironment(BaseShowdownEnv):
     # =========================================================
     # Battle knowledge used by the observation
     # =========================================================
-    @staticmethod
-    def _expected_damage(move, attacker, defender, use_boosts: bool = False) -> float:
-        """Rough damage estimate: base power * accuracy * type multiplier * STAB (* attack boost)."""
-        stab = 1.5 if move.type in attacker.types else 1.0
-        damage = move.base_power * move.accuracy * defender.damage_multiplier(move) * stab
+    @classmethod
+    def _expected_damage(cls, move, attacker, defender, use_boosts: bool = False, tera: bool = False) -> float:
+        """
+        Rough damage estimate: base power * accuracy * type multiplier * STAB (* attack boost).
+        tera: as if the attacker terastallized first.
+        """
+        damage = move.base_power * move.accuracy * defender.damage_multiplier(move) * cls._stab(move, attacker, tera)
         if use_boosts and move.category != MoveCategory.STATUS:
             stat = "atk" if move.category == MoveCategory.PHYSICAL else "spa"
             stage = attacker.boosts.get(stat, 0)
             damage *= (2 + stage) / 2 if stage >= 0 else 2 / (2 - stage)
         return damage
+
+    @classmethod
+    def _stab(cls, move, mon, tera: bool = False) -> float:
+        """
+        Same-type attack bonus. A terastallized Pokémon keeps STAB on its original types and gains
+        it on its tera type, doubled if that is one of its original types.
+        """
+        stab = 1.5 if move.type in mon.original_types else 1.0
+        tera_type = cls._tera_type(mon) if tera or mon.is_terastallized else None
+        if tera_type is not None and tera_type not in NO_TYPE_CHANGE_TERA and move.type == tera_type:
+            stab = 2.0 if stab > 1 else 1.5
+        return stab
+
+    @staticmethod
+    def _tera_type(mon) -> PokemonType | None:
+        """Our Pokémon's tera type: poke_env only learns it once we terastallize; the server's request has it."""
+        if mon.is_terastallized:
+            return mon.tera_type
+        name = (mon._last_request or {}).get("teraType")
+        return PokemonType.from_name(name) if name else None
 
     @staticmethod
     def _predicted_move(battle: AbstractBattle) -> tuple[Move | None, bool]:
@@ -156,13 +190,19 @@ class ShowdownEnvironment(BaseShowdownEnv):
         guess = STRONGEST_MOVES.get(opp.species)
         return guess, guess is not None
 
-    @staticmethod
-    def _threat(move: Move, mon) -> float:
-        """Type multiplier of an opponent's move on one of our Pokemon, counting immunities we know of."""
+    @classmethod
+    def _threat(cls, move: Move, mon, tera: bool = False) -> float:
+        """
+        Type multiplier of an opponent's move on one of our Pokemon, counting immunities we know of.
+        tera: as if it terastallized first (abilities and items still apply).
+        """
         if IMMUNE_ABILITIES.get(mon.ability) == move.type.name:
             return 0.0
         if move.type.name == "GROUND" and mon.item == "airballoon":
             return 0.0
+        tera_type = cls._tera_type(mon) if tera else None
+        if tera_type is not None and tera_type not in NO_TYPE_CHANGE_TERA:
+            return move.type.damage_multiplier(tera_type, None, type_chart=mon._data.type_chart)
         return mon.damage_multiplier(move)
 
     @staticmethod
@@ -267,13 +307,15 @@ class ShowdownEnvironment(BaseShowdownEnv):
     # =========================================================
     def _observation_size(self) -> int:
         """
-        Per move slot (x4, same order as actions 0-3):
+        Per move slot (x4, same order as actions 0-3 and 10-13):
           legal now
-          relative damage  (expected damage incl. our boosts / best legal move's, best = 1)
+          relative damage  (expected damage incl. our boosts / the best option's, best = 1; the
+            options are every legal move, with and without tera)
           expected power   (base_power * accuracy / 150, capped at 1)
           type effectiveness vs opponent active (multiplier / 4)
           raises our attack or special attack (setup move)
           heals us
+          relative damage if we terastallize first (0 when we can't tera now)
         Per team slot (x6, same order as actions 4-9):
           legal switch target now
           HP fraction
@@ -291,12 +333,18 @@ class ShowdownEnvironment(BaseShowdownEnv):
           base_power * accuracy / 150, capped at 1
           how hard it hits our active (multiplier / 4)
           it gets STAB
+          how hard it would hit our active after we terastallize (multiplier / 4; 0 when we
+            can't tera now)
         Our attack and special attack boosts (stage / 6)
+        Tera:
+          we can terastallize now (actions 10-13 are legal where the move slot is)
+          our active is terastallized
+          we haven't used tera this battle (only one Pokémon a battle can)
         1 on a forced switch (only switch actions are legal)
         Nothing is legal on steps where only the opponent chooses (our action is ignored).
-        = 24 + 30 + 6 + 5 + 2 + 1 = 68 features
+        = 28 + 30 + 6 + 6 + 2 + 3 + 1 = 76 features
         """
-        return 68
+        return 76
 
     def embed_battle(self, battle: AbstractBattle) -> np.ndarray:
         obs = np.zeros(self._observation_size(), dtype=np.float32)
@@ -308,28 +356,37 @@ class ShowdownEnvironment(BaseShowdownEnv):
 
         predicted, guessed = self._predicted_move(battle)
         waiting = self._waiting(battle)
+        moving = active is not None and not battle.force_switch and not waiting
+        can_tera = moving and battle.can_tera
 
         # Move slots
         i = 0
-        if active is not None and not battle.force_switch and not waiting:
+        if moving:
             slots = self._move_slots(battle)
             available = {move.id for move in battle.available_moves}
             damage = [
                 self._expected_damage(move, active, opp, use_boosts=True) if move.id in available else 0.0
                 for move in slots
             ]
-            best = max(damage, default=0.0) or 1.0
+            tera_damage = [
+                self._expected_damage(move, active, opp, use_boosts=True, tera=True)
+                if can_tera and move.id in available
+                else 0.0
+                for move in slots
+            ]
+            best = max(damage + tera_damage, default=0.0) or 1.0
             for slot, move in enumerate(slots):
                 if move.id not in available:
                     continue  # disabled / out of PP -> all zeros
-                base = 6 * slot
+                base = 7 * slot
                 obs[base] = 1.0
                 obs[base + 1] = damage[slot] / best
                 obs[base + 2] = min(move.base_power * move.accuracy / 150.0, 1.0)
                 obs[base + 3] = opp.damage_multiplier(move) / 4.0
                 obs[base + 4] = float(self._is_setup(move))
                 obs[base + 5] = float(self._is_heal(move))
-        i = 6 * N_MOVES
+                obs[base + 6] = tera_damage[slot] / best
+        i = 7 * N_MOVES
 
         # Team slots
         switchable = set()
@@ -369,13 +426,21 @@ class ShowdownEnvironment(BaseShowdownEnv):
             if active is not None:
                 obs[i + 3] = self._threat(predicted, active) / 4.0
             obs[i + 4] = float(predicted.type in opp.types)
-        i += 5
+            if can_tera:
+                obs[i + 5] = self._threat(predicted, active, tera=True) / 4.0
+        i += 6
 
         # Our boosts
         if active is not None:
             obs[i] = active.boosts.get("atk", 0) / 6.0
             obs[i + 1] = active.boosts.get("spa", 0) / 6.0
         i += 2
+
+        # Tera
+        obs[i] = float(can_tera)
+        obs[i + 1] = float(active is not None and active.is_terastallized)
+        obs[i + 2] = float(not battle.used_tera)
+        i += 3
 
         obs[i] = float(battle.force_switch)
         return obs
@@ -385,15 +450,27 @@ class ShowdownEnvironment(BaseShowdownEnv):
     # =========================================================
     @staticmethod
     def _new_counts() -> Dict[str, int]:
-        return {"illegal_actions": 0, "switches": 0, "forced_switches": 0, "setup_moves": 0, "heal_moves": 0}
+        return {
+            "illegal_actions": 0,
+            "illegal_tera": 0,
+            "switches": 0,
+            "forced_switches": 0,
+            "setup_moves": 0,
+            "heal_moves": 0,
+            "tera": 0,
+        }
 
     def _count_action(self, battle: AbstractBattle, action: int):
         """Per-battle tallies of the agent's choices, logged to train.csv by cares-rl."""
         if self._illegal_action:
             self._counts["illegal_actions"] += 1
-        elif action >= N_MOVES:
+            self._counts["illegal_tera"] += action >= TERA
+        elif N_MOVES <= action < TERA:
             self._counts["forced_switches" if battle.force_switch else "switches"] += 1
         else:
+            if action >= TERA:
+                self._counts["tera"] += 1
+                action -= TERA
             move = self._move_slots(battle)[action]
             self._counts["setup_moves"] += self._is_setup(move)
             self._counts["heal_moves"] += self._is_heal(move)

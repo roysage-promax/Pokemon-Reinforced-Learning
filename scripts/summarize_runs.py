@@ -8,8 +8,8 @@ For each run: win rate after exploration (with a 95% interval), win rate in the 
 and the 20k before that (still rising? then more steps may help), and per-battle habits from the
 environment's counters (switches, illegal actions, setup and healing moves).
 
-    python scripts/summarize_runs.py                      # ~/cares_rl_logs, v3 runs
-    python scripts/summarize_runs.py runs --prefix v2     # the runs committed to the repo
+    python scripts/summarize_runs.py                      # ~/cares_rl_logs, v4 runs
+    python scripts/summarize_runs.py runs --prefix v3     # the runs committed to the repo
 """
 
 import argparse
@@ -20,7 +20,7 @@ import math
 import os
 import re
 
-HABITS = ["switches", "forced_switches", "illegal_actions", "setup_moves", "heal_moves"]
+HABITS = ["switches", "forced_switches", "illegal_actions", "illegal_tera", "setup_moves", "heal_moves", "tera"]
 DATE = r"-\d{2}_\d{2}_\d{2}_\d{2}-\d{2}-\d{2}$"
 
 
@@ -39,7 +39,7 @@ def win_rate(rows):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("log_dir", nargs="?", default=os.environ.get("CARES_LOG_BASE_DIR", "~/cares_rl_logs"))
-    parser.add_argument("--prefix", default="v3", help="environment version in the run names")
+    parser.add_argument("--prefix", default="v4", help="environment version in the run names")
     args = parser.parse_args()
     log_dir = os.path.expanduser(args.log_dir)
 
