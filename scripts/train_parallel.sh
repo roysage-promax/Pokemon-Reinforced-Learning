@@ -42,20 +42,16 @@ export OMP_NUM_THREADS=1
 # v4s (1M steps): tera bonus 0.6 92.3%, + switch/setup bonuses 92.8% over the last 200k steps;
 # 1000-battle tests 92.0 / 92.7%. The switch bonus worked, setup and heal didn't: the agent sets up
 # 5% of the times the hand-written policy does, and heals mostly when the move is in slot 0.
-# v5: 400k-step screen against v4s-rules' first 400k (90.3-90.5% at 300-400k). v5 = from scratch;
-# v5-warm starts from v4s-rules-s10's final network (new inputs and outputs added) and explores
-# again from epsilon 0.2.
+# v5 400k screen (5a3b1a4): from scratch 90.9% at 300-400k (v4s-rules 90.4) and still rising, tests
+# 92.0 / 91.3 / 92.5%; it now sets up (good_setup 1.8 a battle, v4s 0.14). Starting from v4s-rules'
+# network was worse (89.1%, tests 90.0% pooled), so that's dropped. Now: v5 from scratch for 1M
+# steps, to compare with v4s-rules' 92.8% plateau.
 DQN3="DQN --use_double_dqn 1 --n_step 3 --lr 0.0003 --decay_steps 200000"
-WARM="DQN --use_double_dqn 1 --n_step 3 --lr 0.0003 --start_epsilon 0.2 --decay_steps 100000"
-FROM_V4S="runs/DQN-random-max-v4s-rules-s10-*/10/models/final/DQN_checkpoint.pth"
 RULES="SHOWDOWN_TERA_BONUS=0.6 SHOWDOWN_SWITCH_BONUS=0.3 SHOWDOWN_SETUP_BONUS=0.3"
 RUNS=(
-  "v5-s10|10|||$RULES|$DQN3|"
-  "v5-s20|20|||$RULES|$DQN3|"
-  "v5-s30|30|||$RULES|$DQN3|"
-  "v5-warm-s10|10|||$RULES|$WARM|$FROM_V4S"
-  "v5-warm-s20|20|||$RULES|$WARM|$FROM_V4S"
-  "v5-warm-s30|30|||$RULES|$WARM|$FROM_V4S"
+  "v5-1m-s10|10|1000000||$RULES|$DQN3|"
+  "v5-1m-s20|20|1000000||$RULES|$DQN3|"
+  "v5-1m-s30|30|1000000||$RULES|$DQN3|"
 )
 
 # The server compiles itself on its first start, so give it time before connecting
@@ -72,6 +68,7 @@ done
 
 mkdir -p "$OUT_DIR"
 pids=()
+started=()
 failed=()
 for run in "${RUNS[@]}"; do
   IFS='|' read -r name seed steps width run_env alg_args transfer <<< "$run"
@@ -109,6 +106,7 @@ for run in "${RUNS[@]}"; do
   if start_run "$name" "$OUT_DIR/$name.log" env $run_env "$CARES_RL" "${command[@]}" --run-name "$name" --skip-prompts \
     "${load[@]}"; then
     pids+=("$STARTED_PID")
+    started+=("$name")
   else
     failed+=("$name")
   fi
@@ -125,7 +123,9 @@ fi
 if [[ "$SHUTDOWN_WHEN_DONE" == 1 || "$TEST_AND_PUSH" == 1 ]]; then
   # Checks once a minute and keeps going after you log out. Waits for every cares-rl run on the
   # machine, not just these, so a second call (e.g. restarting a run) can't power off under the
-  # first call's runs. The batch's environment version is the first run name's prefix (v5-s10 -> v5).
+  # first call's runs. Only the runs started here are tested and pushed: earlier runs of the same
+  # environment version may still be on the machine. Their version is the first run name's prefix
+  # (v5-1m-s10 -> v5).
   prefix="${RUNS[0]%%-*}"
   (
     # Nothing here may stop the shutdown: a failed test or push just gets logged
@@ -136,7 +136,7 @@ if [[ "$SHUTDOWN_WHEN_DONE" == 1 || "$TEST_AND_PUSH" == 1 ]]; then
     done
     echo "all runs ended $(date)"
     if [[ "$TEST_AND_PUSH" == 1 ]]; then
-      RUN_PREFIX="$prefix" "$(dirname "$0")/finish_batch.sh" || echo "finish_batch.sh failed - see above"
+      RUN_PREFIX="$prefix" "$(dirname "$0")/finish_batch.sh" "${started[@]}" || echo "finish_batch.sh failed - see above"
     fi
     if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then
       echo "shutting down $(date)"
@@ -145,7 +145,7 @@ if [[ "$SHUTDOWN_WHEN_DONE" == 1 || "$TEST_AND_PUSH" == 1 ]]; then
   ) >> "$OUT_DIR/after_training.log" 2>&1 &
   disown
   todo=""
-  if [[ "$TEST_AND_PUSH" == 1 ]]; then todo+=" test the $prefix runs, commit and push;"; fi
+  if [[ "$TEST_AND_PUSH" == 1 ]]; then todo+=" test ${started[*]}, commit and push;"; fi
   if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then todo+=" shut down"; fi
   echo "once every cares-rl run on this machine has ended:${todo%;} (log: $OUT_DIR/after_training.log)"
 fi
