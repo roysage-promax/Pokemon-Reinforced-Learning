@@ -7,7 +7,7 @@
 #   scripts/train_parallel.sh                        # every run below, 400k steps unless it sets its own
 #   STEPS=50000 scripts/train_parallel.sh            # shorter check (runs with their own step count keep it)
 #   SHUTDOWN_WHEN_DONE=1 scripts/train_parallel.sh   # power the machine off once every run has ended
-#   scripts/train_parallel.sh v4s-tera-s10 v4s-rules-s10   # only these runs
+#   scripts/train_parallel.sh v5-s10 v5-warm-s10     # only these runs
 #
 # Results go to $CARES_LOG_BASE_DIR (default ~/cares_rl_logs); console output to $OUT_DIR/<run>.log.
 set -euo pipefail
@@ -17,6 +17,7 @@ source "$(dirname "$0")/start_run.sh"
 STEPS="${STEPS:-400000}"
 CARES_RL="${CARES_RL:-cares-rl}"
 PYTHON="${PYTHON:-python}"
+REPO="$(cd "$(dirname "$0")/.." && pwd)"
 OUT_DIR="${OUT_DIR:-rl_logs}"
 SHUTDOWN_WHEN_DONE="${SHUTDOWN_WHEN_DONE:-0}"
 SHUTDOWN_CMD="${SHUTDOWN_CMD:-sudo shutdown -h now}"
@@ -25,29 +26,33 @@ SHUTDOWN_CMD="${SHUTDOWN_CMD:-sudo shutdown -h now}"
 export OMP_NUM_THREADS=1
 
 # name | seed | steps (empty = $STEPS) | hidden layer width (empty = cares-rl's 64) |
-#   environment settings | algorithm and its settings
-# v4 environment: v3 (4 moves + 6 switches, opponent's predicted move in the state) plus 4
-# move-and-terastallize actions and tera features. Earlier batches are in git history: v2 (4 move
-# actions only) at e5ed864, v3 at b5e07bf and a8cb256.
+#   environment settings | algorithm and its settings |
+#   v4 checkpoint to start from (empty = from scratch; see scripts/expand_checkpoint.py)
+# v5 environment: v4 (4 moves, 6 switches, 4 move-and-terastallize actions) plus action 14 "use our
+# healing move" and 15 "use our setup move", whichever slot it is in. Earlier batches are in git
+# history: v2 (4 move actions only) at e5ed864, v3 at b5e07bf and a8cb256, v4 at fe97617, v4r at
+# dbe63d2, v4s at cb5708e.
 # Environment settings: SHOWDOWN_ILLEGAL_PENALTY (default 0.5) - reward taken off an illegal action
 #   SHOWDOWN_TERA_BONUS (default 0.3) - reward for a well-timed tera
 #   SHOWDOWN_SWITCH_BONUS, SHOWDOWN_SETUP_BONUS (default 0) - reward for switching out of the
-#   predicted move, and for setting up or healing while resisting it (once per opposing Pokémon)
-# v4r (dbe63d2) screened the tera bonus at 400k: 89.7-91.7% on 1000-battle tests, best with bonus
-# 0.6; end epsilon 0.02 gave nothing. scripts/audit_policy.py on v4r-b0.6-eps: where the hand-written
-# policy would set up, the agent does 5% of the time, switch out 25%, heal 12%, tera 36%.
-# v4s: 1M steps, end epsilon 0.001. v4s-tera = the v4r-b0.6 recipe; v4s-rules adds the switch and
-# setup/heal bonuses. Same seeds, so the bonuses are the only difference between the halves.
+#   predicted move, setting up while resisting it, and healing when it isn't super-effective
+# v4s (1M steps): tera bonus 0.6 92.3%, + switch/setup bonuses 92.8% over the last 200k steps;
+# 1000-battle tests 92.0 / 92.7%. The switch bonus worked, setup and heal didn't: the agent sets up
+# 5% of the times the hand-written policy does, and heals mostly when the move is in slot 0.
+# v5: 400k-step screen against v4s-rules' first 400k (90.3-90.5% at 300-400k). v5 = from scratch;
+# v5-warm starts from v4s-rules-s10's final network (new inputs and outputs added) and explores
+# again from epsilon 0.2.
 DQN3="DQN --use_double_dqn 1 --n_step 3 --lr 0.0003 --decay_steps 200000"
-TERA06="SHOWDOWN_TERA_BONUS=0.6"
-RULES="$TERA06 SHOWDOWN_SWITCH_BONUS=0.3 SHOWDOWN_SETUP_BONUS=0.3"
+WARM="DQN --use_double_dqn 1 --n_step 3 --lr 0.0003 --start_epsilon 0.2 --decay_steps 100000"
+FROM_V4S="runs/DQN-random-max-v4s-rules-s10-*/10/models/final/DQN_checkpoint.pth"
+RULES="SHOWDOWN_TERA_BONUS=0.6 SHOWDOWN_SWITCH_BONUS=0.3 SHOWDOWN_SETUP_BONUS=0.3"
 RUNS=(
-  "v4s-tera-s10|10|1000000||$TERA06|$DQN3"
-  "v4s-tera-s20|20|1000000||$TERA06|$DQN3"
-  "v4s-tera-s30|30|1000000||$TERA06|$DQN3"
-  "v4s-rules-s10|10|1000000||$RULES|$DQN3"
-  "v4s-rules-s20|20|1000000||$RULES|$DQN3"
-  "v4s-rules-s30|30|1000000||$RULES|$DQN3"
+  "v5-s10|10|||$RULES|$DQN3|"
+  "v5-s20|20|||$RULES|$DQN3|"
+  "v5-s30|30|||$RULES|$DQN3|"
+  "v5-warm-s10|10|||$RULES|$WARM|$FROM_V4S"
+  "v5-warm-s20|20|||$RULES|$WARM|$FROM_V4S"
+  "v5-warm-s30|30|||$RULES|$WARM|$FROM_V4S"
 )
 
 # The server compiles itself on its first start, so give it time before connecting
@@ -66,7 +71,7 @@ mkdir -p "$OUT_DIR"
 pids=()
 failed=()
 for run in "${RUNS[@]}"; do
-  IFS='|' read -r name seed steps width run_env alg_args <<< "$run"
+  IFS='|' read -r name seed steps width run_env alg_args transfer <<< "$run"
   if (( $# > 0 )) && [[ " $* " != *" $name "* ]]; then continue; fi
   # By default cares-rl pickles the whole replay buffer and redraws the training plot after every
   # episode, which leaves runs waiting on the disk; checkpoint every ~10k steps instead.
@@ -84,9 +89,21 @@ for run in "${RUNS[@]}"; do
   else
     load=(cli "${cli_args[@]}")
   fi
+  command=(train)
+  if [[ -n "$transfer" ]]; then
+    # The pattern names one checkpoint in the repo; give it v5's extra inputs and outputs
+    src=$(compgen -G "$REPO/$transfer" | head -n 1) || true
+    if [[ -z "$src" ]]; then
+      echo "$name: no checkpoint matches $transfer" >&2
+      failed+=("$name")
+      continue
+    fi
+    "$PYTHON" "$(dirname "$0")/expand_checkpoint.py" "$src" "$OUT_DIR/transfer/$name"
+    command=(transfer --transfer_path "$OUT_DIR/transfer/$name")
+  fi
   # run_env (VAR=value ...) is word-split on purpose
   # shellcheck disable=SC2086
-  if start_run "$name" "$OUT_DIR/$name.log" env $run_env "$CARES_RL" train --run-name "$name" --skip-prompts \
+  if start_run "$name" "$OUT_DIR/$name.log" env $run_env "$CARES_RL" "${command[@]}" --run-name "$name" --skip-prompts \
     "${load[@]}"; then
     pids+=("$STARTED_PID")
   else

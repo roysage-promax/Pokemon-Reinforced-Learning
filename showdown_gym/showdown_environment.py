@@ -20,6 +20,8 @@ N_MOVES = 4  # actions 0-3: use move slot 0-3
 N_SWITCHES = 6  # actions 4-9: switch to team slot 0-5
 N_TERA = 4  # actions 10-13: terastallize and use move slot 0-3
 TERA = N_MOVES + N_SWITCHES
+HEAL = TERA + N_TERA  # action 14: use our healing move, whichever slot it is in
+SETUP = HEAL + 1  # action 15: use our setup move, whichever slot it is in
 
 # Penalty for an action that can't be taken this turn; poke_env then sends the server's default choice.
 # 0.5 cut illegal actions to ~0.2 a battle in v3 (0.1 left ~2). SHOWDOWN_ILLEGAL_PENALTY overrides
@@ -32,10 +34,12 @@ ILLEGAL_ACTION_PENALTY = float(os.environ.get("SHOWDOWN_ILLEGAL_PENALTY", "0.5")
 TERA_BONUS = float(os.environ.get("SHOWDOWN_TERA_BONUS", "0.3"))
 
 # The same kind of bonus for the hand-written policy's other rules (see _rule_bonus): switching out
-# of the opponent's predicted move, and setting up or healing while resisting it. The v4r agents
-# make those plays 5-25% of the times the hand policy does. Each is paid at most once per opposing
-# Pokémon, so switching back and forth or setting up again after a switch can't farm it. Off by
-# default; SHOWDOWN_SWITCH_BONUS and SHOWDOWN_SETUP_BONUS (setup and heal) set them for a run.
+# of the opponent's predicted move, setting up while resisting it, healing when it doesn't hit
+# super-effectively. The v4r agents make those plays 5-25% of the times the hand policy does. A
+# switch earns it once per opposing Pokémon, a heal once per pair of active Pokémon, a setup once
+# per pair and boost stage - so switching back and forth or setting up again after a switch can't
+# farm it. Off by default; SHOWDOWN_SWITCH_BONUS and SHOWDOWN_SETUP_BONUS (setup and heal) set
+# them for a run.
 SWITCH_BONUS = float(os.environ.get("SHOWDOWN_SWITCH_BONUS", "0"))
 SETUP_BONUS = float(os.environ.get("SHOWDOWN_SETUP_BONUS", "0"))
 
@@ -91,7 +95,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
     # Action space
     # =========================================================
     def _get_action_size(self) -> int | None:
-        return N_MOVES + N_SWITCHES + N_TERA
+        return SETUP + 1
 
     def process_action(self, action: np.int64) -> np.int64:
         """
@@ -99,10 +103,14 @@ class ShowdownEnvironment(BaseShowdownEnv):
           0-3    use move slot 0-3                 -> 6-9
           4-9    switch to team slot 0-5           -> 0-5
           10-13  terastallize, use move slot 0-3   -> 22-25
+          14     use our healing move              -> 6-9, the slot it is in
+          15     use our setup move                -> 6-9, the slot it is in
         When we can't terastallize (tera used up), 10-13 just use the move: the first v4 agents,
-        penalised for those, learned to avoid the tera actions altogether. A good tera (see
-        _good_tera) earns TERA_BONUS, a good switch, setup or heal (see _rule_bonus) SWITCH_BONUS
-        or SETUP_BONUS.
+        penalised for those, learned to avoid the tera actions altogether. Likewise 14 and 15 use
+        our best attack when we have no such move (see _kind_slot). They exist because a heal or
+        setup move can sit in any slot and the network learns each slot's output separately: the
+        v4s agents healed mostly when the move was in slot 0. A good tera (see _good_tera) earns
+        TERA_BONUS, a good switch, setup or heal (see _rule_bonus) SWITCH_BONUS or SETUP_BONUS.
         The agent also picks the replacement when one of ours faints. An illegal choice (a move
         during a forced switch, a fainted or already active team slot...) is passed on as is:
         poke_env, run non-strict, swaps it for the server's default choice, and calc_reward
@@ -113,6 +121,12 @@ class ShowdownEnvironment(BaseShowdownEnv):
         action = int(action)
         battle = self.battle1
         acting = battle is not None and self.agent1_to_move
+        if action >= HEAL:
+            kind = "heal" if action == HEAL else "setup"
+            action, found = self._kind_slot(battle, action) if acting else (0, False)
+            if acting:
+                self._counts[f"{kind}_action"] += 1
+                self._counts["action_fallback"] += not found
         if action >= TERA and not (acting and battle.can_tera):
             action -= TERA
         self._illegal_action = acting and not self._is_legal(battle, action)
@@ -135,6 +149,8 @@ class ShowdownEnvironment(BaseShowdownEnv):
         """Mirrors the checks poke_env's action_to_order makes before accepting an action."""
         if self._waiting(battle):
             return False
+        if action >= HEAL:
+            return self._is_legal(battle, self._kind_slot(battle, action)[0])
         if action >= TERA:
             return battle.can_tera and self._is_legal(battle, action - TERA)
         if action < N_MOVES:
@@ -164,6 +180,24 @@ class ShowdownEnvironment(BaseShowdownEnv):
         if battle.active_pokemon is None:
             return []
         return list(battle.active_pokemon.moves.values())[:N_MOVES]
+
+    def _kind_slot(self, battle: AbstractBattle, action: int) -> tuple[int, bool]:
+        """
+        The move slot action HEAL or SETUP uses, and whether it found such a move: the first
+        usable healing / setup move, else the move with the highest relative damage in the
+        observation (expected damage with our boosts).
+        """
+        is_kind = self._is_heal if action == HEAL else self._is_setup
+        available = {move.id for move in battle.available_moves}
+        legal = [(slot, move) for slot, move in enumerate(self._move_slots(battle)) if move.id in available]
+        for slot, move in legal:
+            if is_kind(move):
+                return slot, True
+        active, opp = battle.active_pokemon, battle.opponent_active_pokemon
+        if not legal or active is None or opp is None:
+            return 0, False
+        slot, _ = max(legal, key=lambda pair: self._expected_damage(pair[1], active, opp, use_boosts=True))
+        return slot, False
 
     # =========================================================
     # Battle knowledge used by the observation
@@ -271,11 +305,14 @@ class ShowdownEnvironment(BaseShowdownEnv):
         (scripts/check_env.py) against the opponent's predicted move:
           switch  it hits our active super-effectively and the teammate resists it, or it hits
                   at least neutrally and the teammate is immune
-          heal    we resist it and are at half HP or less
+          heal    it doesn't hit us super-effectively and we are at half HP or less (healing
+                  only while resisting it was worth nothing in scripts/scripted_probe.py; on
+                  neutral hits too +1.2 points)
           setup   we resist it and are at half HP or more, attack and special attack both
                   below +2 (+6 when we're immune)
         Every match is counted (good_switch, good_heal, good_setup); the bonus is paid once per
-        rule and opposing Pokémon.
+        opposing Pokémon for a switch, once per pair of active Pokémon for a heal, and once per
+        pair and boost stage for a setup (switching out resets boosts, so that can't farm it).
         """
         active = battle.active_pokemon
         opp = battle.opponent_active_pokemon
@@ -292,27 +329,23 @@ class ShowdownEnvironment(BaseShowdownEnv):
             target_threat = self._threat(predicted, target)
             if not ((threat >= 2 and target_threat <= 0.5) or (threat >= 1 and target_threat == 0)):
                 return 0.0
-            rule, bonus = "switch", SWITCH_BONUS
+            rule, bonus, key = "switch", SWITCH_BONUS, ("switch", opp.species)
         else:
             move = self._move_slots(battle)[action - TERA if action >= TERA else action]
             cap = 6 if threat == 0 else 2
-            if self._is_heal(move) and threat <= 0.5 and hp <= 0.5:
-                rule = "heal"
-            elif (
-                self._is_setup(move)
-                and threat <= 0.5
-                and hp >= 0.5
-                and max(active.boosts.get("atk", 0), active.boosts.get("spa", 0)) < cap
-            ):
-                rule = "setup"
+            boost = max(active.boosts.get("atk", 0), active.boosts.get("spa", 0))
+            if self._is_heal(move) and threat <= 1 and hp <= 0.5:
+                rule, key = "heal", ("heal", opp.species, active.species)
+            elif self._is_setup(move) and threat <= 0.5 and hp >= 0.5 and boost < cap:
+                rule, key = "setup", ("setup", opp.species, active.species, boost)
             else:
                 return 0.0
             bonus = SETUP_BONUS
 
         self._counts[f"good_{rule}"] += 1
-        if (rule, opp.species) in self._bonus_paid:
+        if key in self._bonus_paid:
             return 0.0
-        self._bonus_paid.add((rule, opp.species))
+        self._bonus_paid.add(key)
         return bonus
 
     # =========================================================
@@ -443,10 +476,12 @@ class ShowdownEnvironment(BaseShowdownEnv):
           our active is terastallized
           we haven't used tera this battle (only one Pokémon a battle can)
         1 on a forced switch (only switch actions are legal)
+        We have a usable healing move, a usable setup move (actions 14 and 15 use our best attack
+          when we don't)
         Nothing is legal on steps where only the opponent chooses (our action is ignored).
-        = 28 + 30 + 6 + 6 + 2 + 3 + 1 = 76 features
+        = 28 + 30 + 6 + 6 + 2 + 3 + 1 + 2 = 78 features
         """
-        return 76
+        return 78
 
     def embed_battle(self, battle: AbstractBattle) -> np.ndarray:
         obs = np.zeros(self._observation_size(), dtype=np.float32)
@@ -545,6 +580,11 @@ class ShowdownEnvironment(BaseShowdownEnv):
         i += 3
 
         obs[i] = float(battle.force_switch)
+        i += 1
+
+        # What actions 14 and 15 would use (the per-slot flags are 0 for unusable moves)
+        obs[i] = float(any(obs[7 * slot + 5] for slot in range(N_MOVES)))
+        obs[i + 1] = float(any(obs[7 * slot + 4] for slot in range(N_MOVES)))
         return obs
 
     # =========================================================
@@ -564,6 +604,9 @@ class ShowdownEnvironment(BaseShowdownEnv):
             "good_switch": 0,
             "good_setup": 0,
             "good_heal": 0,
+            "heal_action": 0,
+            "setup_action": 0,
+            "action_fallback": 0,
         }
 
     def _count_action(self, battle: AbstractBattle, action: int):

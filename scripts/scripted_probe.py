@@ -19,6 +19,12 @@ Variants (each adds to the one before, except D which builds on B):
   F     C, and also set up (to +2) on a neutral hit while above 75% HP
   G     C, and finish a low-HP opponent that is probably faster with a priority move
   H     C + E + F + G
+  E-heal, E-setup  E without its heal / setup rule: what each rule is worth
+  I     E, and also heal at half HP or less when the predicted move hits us neutrally
+  J     E, and lay entry hazards (Stealth Rock, Spikes...) while the predicted move is neutral or
+        resisted and 3+ opposing Pokemon are left - the max expert never removes them on purpose
+  K     E, and also switch out of a neutral hit to a teammate that resists it and hits at least as
+        hard
 
     python scripts/scripted_probe.py                  # every variant, 600 battles each
     python scripts/scripted_probe.py base B -n 200    # only these
@@ -34,7 +40,7 @@ import time
 from collections import Counter
 
 from poke_env import AccountConfiguration, MaxBasePowerPlayer
-from poke_env.battle import AbstractBattle, Move, MoveCategory, PokemonType, Status, Target
+from poke_env.battle import AbstractBattle, Move, MoveCategory, PokemonType, SideCondition, Status, Target
 from poke_env.player import Player
 
 VARIANTS = {
@@ -48,6 +54,18 @@ VARIANTS = {
     "F": {"predict", "immune", "setup", "heal", "prior", "setup_neutral"},
     "G": {"predict", "immune", "setup", "heal", "prior", "priority"},
     "H": {"predict", "immune", "setup", "heal", "prior", "tera", "setup_neutral", "priority"},
+    "E-heal": {"predict", "immune", "setup", "prior", "tera"},
+    "E-setup": {"predict", "immune", "heal", "prior", "tera"},
+    "I": {"predict", "immune", "setup", "heal", "prior", "tera", "heal_neutral"},
+    "J": {"predict", "immune", "setup", "heal", "prior", "tera", "hazards"},
+    "K": {"predict", "immune", "setup", "heal", "prior", "tera", "switch_neutral"},
+}
+
+HAZARD_MOVES = {
+    "stealthrock": SideCondition.STEALTH_ROCK,
+    "spikes": SideCondition.SPIKES,
+    "toxicspikes": SideCondition.TOXIC_SPIKES,
+    "stickyweb": SideCondition.STICKY_WEB,
 }
 
 # Our own abilities and items are known, so these immunities are certain
@@ -67,6 +85,8 @@ IMMUNE_ABILITIES = {
 
 # Healing moves whose amount isn't in the move data's "heal" field
 EXTRA_HEAL_MOVES = {"moonlight", "morningsun", "synthesis", "shoreup", "strengthsap", "rest"}
+
+STALL_SECONDS = 60
 
 SLEEP_MOVES = {"spore", "sleeppowder", "hypnosis", "lovelykiss", "sing", "darkvoid", "yawn"}
 POWDER_MOVES = {"spore", "sleeppowder", "stunspore"}
@@ -144,8 +164,12 @@ class ProbePlayer(Player):
             return self.prior.get(opp.species)
         return None
 
+    @staticmethod
+    def offence(mon, opp) -> float:
+        return max((expected_damage(m, mon, opp) for m in mon.moves.values()), default=0.0)
+
     def matchup(self, mon, opp, predicted) -> float:
-        offence = max((expected_damage(m, mon, opp) for m in mon.moves.values()), default=0.0) / 150.0
+        offence = self.offence(mon, opp) / 150.0
         if predicted is not None:
             defence = threat(predicted, mon)
         else:
@@ -187,6 +211,14 @@ class ProbePlayer(Player):
             if "immune" in self.flags and my_threat >= 1 and their_threat == 0:
                 self.counts["switch_immune"] += 1
                 return self.create_order(switch_in)
+            if (
+                "switch_neutral" in self.flags
+                and my_threat >= 1
+                and their_threat <= 0.5
+                and self.offence(switch_in, opp) >= self.offence(me, opp)
+            ):
+                self.counts["switch_neutral"] += 1
+                return self.create_order(switch_in)
 
         moves = {m.id: m for m in battle.available_moves}
         tera = "tera" in self.flags and self.should_tera(battle, me, predicted, my_threat, best)
@@ -203,7 +235,8 @@ class ProbePlayer(Player):
                 return self.create_order(max(quick, key=lambda m: expected_damage(m, me, opp, use_boosts)))
 
         # Heal while the opponent can only hit us for little
-        if "heal" in self.flags and my_threat <= 0.5 and me.current_hp_fraction <= 0.5:
+        heal_threat = 1 if "heal_neutral" in self.flags else 0.5
+        if "heal" in self.flags and my_threat <= heal_threat and me.current_hp_fraction <= 0.5:
             for m in moves.values():
                 if m.heal > 0 or m.id in EXTRA_HEAL_MOVES:
                     self.counts["heal"] += 1
@@ -221,6 +254,14 @@ class ProbePlayer(Player):
                     self.counts["setup"] += 1
                     self.counts["tera"] += tera
                     return self.create_order(m, terastallize=tera)
+
+        # Entry hazards hurt every opponent that comes in after a knockout
+        if "hazards" in self.flags and my_threat <= 1:
+            opp_left = 6 - sum(m.fainted for m in battle.opponent_team.values())
+            for move_id, condition in HAZARD_MOVES.items():
+                if move_id in moves and opp_left >= 3 and condition not in battle.opponent_side_conditions:
+                    self.counts["hazard"] += 1
+                    return self.create_order(moves[move_id])
 
         # Cripple the opponent with a status condition
         if "status" in self.flags and my_threat <= 1 and opp.status is None:
@@ -295,14 +336,29 @@ async def run_variant(variant, n_battles, chunk, concurrency, prior, stamp):
         max_concurrent_battles=concurrency,
     )
     wins = played = turns = 0
+    stuck = set()
     while played < n_battles:
         n = min(chunk, n_battles - played)
-        await player.battle_against(opponent, n_battles=n)
+        task = asyncio.ensure_future(player.battle_against(opponent, n_battles=n))
+        # poke_env can fail to parse a request (e.g. a Dancer copying a move), and that side then
+        # never chooses: forfeit battles that haven't moved on a turn in STALL_SECONDS and leave
+        # them out of the results
+        last_turn = {}
+        while not task.done():
+            await asyncio.wait({task}, timeout=STALL_SECONDS)
+            for tag, battle in list(player._battles.items()):
+                if battle.finished or tag in stuck:
+                    continue
+                if last_turn.get(tag) == battle.turn:
+                    stuck.add(tag)
+                    player.counts["stuck"] += 1
+                    await player.ps_client.send_message("/forfeit", tag)
+                last_turn[tag] = battle.turn
         # poke_env keeps every battle (~1 MB each); record and drop the finished ones
         for p in (player, opponent):
             for tag, battle in list(p._battles.items()):
                 if battle.finished:
-                    if p is player:
+                    if p is player and tag not in stuck:
                         wins += bool(battle.won)
                         turns += battle.turn
                         played += 1
@@ -327,9 +383,10 @@ async def main():
     if unknown:
         parser.error(f"unknown variants: {', '.join(sorted(unknown))}")
 
-    prior = load_prior(args.sets) if "C" in args.variants else {}
-    if "C" in args.variants and not prior:
-        print(f"warning: no sets at {args.sets}; variant C behaves like B")
+    needs_prior = any("prior" in VARIANTS[v] for v in args.variants)
+    prior = load_prior(args.sets) if needs_prior else {}
+    if needs_prior and not prior:
+        print(f"warning: no sets at {args.sets}; the move guess (variant C and later) is off")
 
     stamp = time.strftime("%H%M%S")
     start = time.time()
