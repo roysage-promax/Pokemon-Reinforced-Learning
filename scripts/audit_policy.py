@@ -3,9 +3,9 @@ Plays a trained DQN greedily against the max expert and, at every step it choose
 action with what the hand-written policy in check_env.py (probe variant E with variant I's heal,
 95.7% vs max) would do. The disagreements, grouped by the hand policy's reason, show which rule
 the agent hasn't learned - where a reward bonus would help most. Needs a checkpoint trained on
-this branch's environment (v5: 78 features, 16 actions).
+this branch's environment (v6: 84 features, 20 actions).
 
-    python scripts/audit_policy.py ~/cares_rl_logs/DQN/DQN-random-max-v5-s10-*/10/models/final/DQN_checkpoint.pth
+    python scripts/audit_policy.py ~/cares_rl_logs/DQN/DQN-random-max-v6-s10-*/10/models/final/DQN_checkpoint.pth
     python scripts/audit_policy.py <checkpoint> --battles 500
 Needs the Showdown server running (node pokemon-showdown start --no-security).
 """
@@ -23,7 +23,9 @@ import torch
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from check_env import FORCED, MOVE, TERA, TERA_ACTION, policy, resolve, wilson  # noqa: E402
 
-from showdown_gym.showdown_environment import HEAL, N_MOVES, SingleShowdownWrapper  # noqa: E402
+from showdown_gym.showdown_environment import HEAL, MACRO_NAMES, N_MOVES, SingleShowdownWrapper  # noqa: E402
+
+ACTION_GROUPS = ["move slot"] * N_MOVES + ["switch slot"] * (TERA_ACTION - N_MOVES) + ["tera slot"] * N_MOVES
 
 
 def load_network(path: str) -> torch.nn.Sequential:
@@ -80,6 +82,7 @@ def main():
     agree = Counter()
     instead = defaultdict(Counter)  # hand's choice -> what the agent did instead
     route = Counter()  # (heal / setup, through action 14-15 or a move slot) -> steps
+    used = Counter()  # the agent's action, by group -> steps
     start = time.time()
     for _ in range(args.battles):
         obs, _ = env.reset()
@@ -94,6 +97,7 @@ def main():
                 if not obs[FORCED] and did in ("heal", "setup"):
                     route[did, "action 14-15" if action >= HEAL else "move slot"] += 1
                 situations[situation] += 1
+                used[ACTION_GROUPS[action] if action < HEAL else MACRO_NAMES[action - HEAL]] += 1
                 if same(obs, action, hand):
                     agree[situation] += 1
                 else:
@@ -111,7 +115,8 @@ def main():
     for situation, count in situations.most_common():
         others = ", ".join(f"{k} {v / n:.2f}" for k, v in instead[situation].most_common())
         print(f"{situation:16s} {count / n:10.2f} {100 * agree[situation] / count:11.0f}%  {others}")
-    print("\nagent's heals and setups per battle: " + ", ".join(f"{k} via {r} {v / n:.2f}" for (k, r), v in sorted(route.items())))
+    print("\nagent's actions per battle: " + ", ".join(f"{k} {v / n:.2f}" for k, v in used.most_common()))
+    print("agent's heals and setups per battle: " + ", ".join(f"{k} via {r} {v / n:.2f}" for (k, r), v in sorted(route.items())))
 
     sys.stdout.flush()
     os._exit(0)

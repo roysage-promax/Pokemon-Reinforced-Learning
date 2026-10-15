@@ -9,8 +9,12 @@
 #   SHUTDOWN_WHEN_DONE=1 scripts/train_parallel.sh   # power the machine off once every run has ended
 #   TEST_AND_PUSH=1 SHUTDOWN_WHEN_DONE=1 scripts/train_parallel.sh   # and before that run
 #                                                    # scripts/finish_batch.sh: test, commit, push
-#   scripts/train_parallel.sh v5-s10 v5-warm-s10     # only these runs
+#   TEST_AND_PUSH=1 scripts/train_parallel.sh        # test, commit and push as soon as these runs
+#                                                    # end, without waiting for other batches
+#   scripts/train_parallel.sh v6-s10 v6-s20          # only these runs
 #
+# The runs use this checkout's environment (PYTHONPATH below), so a second checkout - e.g. a git
+# worktree of another branch - can train another environment version next to the first one's runs.
 # Results go to $CARES_LOG_BASE_DIR (default ~/cares_rl_logs); console output to $OUT_DIR/<run>.log.
 set -euo pipefail
 # shellcheck source=scripts/start_run.sh
@@ -25,16 +29,21 @@ SHUTDOWN_WHEN_DONE="${SHUTDOWN_WHEN_DONE:-0}"
 TEST_AND_PUSH="${TEST_AND_PUSH:-0}"
 SHUTDOWN_CMD="${SHUTDOWN_CMD:-sudo shutdown -h now}"
 
+# Python finds this checkout's showdown_gym before the installed one
+export PYTHONPATH="$REPO${PYTHONPATH:+:$PYTHONPATH}"
+
 # The networks are tiny, so one torch thread per run; otherwise every run grabs every core.
 export OMP_NUM_THREADS=1
 
 # name | seed | steps (empty = $STEPS) | hidden layer width (empty = cares-rl's 64) |
 #   environment settings | algorithm and its settings |
 #   v4 checkpoint to start from (empty = from scratch; see scripts/expand_checkpoint.py)
-# v5 environment: v4 (4 moves, 6 switches, 4 move-and-terastallize actions) plus action 14 "use our
-# healing move" and 15 "use our setup move", whichever slot it is in. Earlier batches are in git
-# history: v2 (4 move actions only) at e5ed864, v3 at b5e07bf and a8cb256, v4 at fe97617, v4r at
-# dbe63d2, v4s at cb5708e.
+# v6 environment: v5 (4 moves, 6 switches, 4 move-and-terastallize actions, 14 "use our healing
+# move", 15 "use our setup move") plus 16 "use our most damaging move", 17 "terastallize and use
+# the most damaging move after tera", 18 "switch to the teammate the predicted move hurts least",
+# 19 "switch to the best matchup" - the hand-written policy's choices, whichever slot they are in.
+# Earlier batches are in git history: v2 (4 move actions only) at e5ed864, v3 at b5e07bf and
+# a8cb256, v4 at fe97617, v4r at dbe63d2, v4s at cb5708e, v5 at 5a3b1a4 and a16a2d0.
 # Environment settings: SHOWDOWN_ILLEGAL_PENALTY (default 0.5) - reward taken off an illegal action
 #   SHOWDOWN_TERA_BONUS (default 0.3) - reward for a well-timed tera
 #   SHOWDOWN_SWITCH_BONUS, SHOWDOWN_SETUP_BONUS (default 0) - reward for switching out of the
@@ -44,14 +53,18 @@ export OMP_NUM_THREADS=1
 # 5% of the times the hand-written policy does, and heals mostly when the move is in slot 0.
 # v5 400k screen (5a3b1a4): from scratch 90.9% at 300-400k (v4s-rules 90.4) and still rising, tests
 # 92.0 / 91.3 / 92.5%; it now sets up (good_setup 1.8 a battle, v4s 0.14). Starting from v4s-rules'
-# network was worse (89.1%, tests 90.0% pooled), so that's dropped. Now: v5 from scratch for 1M
-# steps, to compare with v4s-rules' 92.8% plateau.
+# network was worse (89.1%, tests 90.0% pooled), so that's dropped. v5-1m: v5 from scratch for 1M
+# steps (a16a2d0). But v5 still picks a weaker attack than its best ~1.4 times a battle and the
+# hand-written policy's switch target about half the time.
+# v6: 400k-step screen with v5-1m's settings; control = v5-1m's first 400k (same seeds, trained
+# at the same time on the same machine). The hand-written policy through actions 14-19 alone wins
+# 95.2% (3000 battles; through move and team slots 95.9%).
 DQN3="DQN --use_double_dqn 1 --n_step 3 --lr 0.0003 --decay_steps 200000"
 RULES="SHOWDOWN_TERA_BONUS=0.6 SHOWDOWN_SWITCH_BONUS=0.3 SHOWDOWN_SETUP_BONUS=0.3"
 RUNS=(
-  "v5-1m-s10|10|1000000||$RULES|$DQN3|"
-  "v5-1m-s20|20|1000000||$RULES|$DQN3|"
-  "v5-1m-s30|30|1000000||$RULES|$DQN3|"
+  "v6-s10|10|||$RULES|$DQN3|"
+  "v6-s20|20|||$RULES|$DQN3|"
+  "v6-s30|30|||$RULES|$DQN3|"
 )
 
 # The server compiles itself on its first start, so give it time before connecting
@@ -121,20 +134,28 @@ if (( ${#pids[@]} == 0 )); then
 fi
 
 if [[ "$SHUTDOWN_WHEN_DONE" == 1 || "$TEST_AND_PUSH" == 1 ]]; then
-  # Checks once a minute and keeps going after you log out. Waits for every cares-rl run on the
-  # machine, not just these, so a second call (e.g. restarting a run) can't power off under the
-  # first call's runs. Only the runs started here are tested and pushed: earlier runs of the same
-  # environment version may still be on the machine. Their version is the first run name's prefix
-  # (v5-1m-s10 -> v5).
+  # Checks once a minute and keeps going after you log out. Before a shutdown it waits for every
+  # cares-rl run on the machine, not just these, so a second call (e.g. restarting a run, or
+  # another batch) can't power off under the first call's runs; without one, just for these. Only
+  # the runs started here are tested and pushed: earlier runs of the same environment version may
+  # still be on the machine. Their version is the first run name's prefix (v6-s10 -> v6).
   prefix="${RUNS[0]%%-*}"
   (
     # Nothing here may stop the shutdown: a failed test or push just gets logged
     set +e
     trap '' HUP
-    while pgrep -f -- "$CARES_RL (train|transfer|test) .*--run-name" > /dev/null; do
-      sleep 60
-    done
-    echo "all runs ended $(date)"
+    if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then
+      while pgrep -f -- "$CARES_RL (train|transfer|test) .*--run-name" > /dev/null; do
+        sleep 60
+      done
+      echo "all runs ended $(date)"
+    else
+      any_alive() { local pid; for pid in "$@"; do kill -0 "$pid" 2> /dev/null && return 0; done; return 1; }
+      while any_alive "${pids[@]}"; do
+        sleep 60
+      done
+      echo "${started[*]} ended $(date)"
+    fi
     if [[ "$TEST_AND_PUSH" == 1 ]]; then
       RUN_PREFIX="$prefix" "$(dirname "$0")/finish_batch.sh" "${started[@]}" || echo "finish_batch.sh failed - see above"
     fi
@@ -147,5 +168,9 @@ if [[ "$SHUTDOWN_WHEN_DONE" == 1 || "$TEST_AND_PUSH" == 1 ]]; then
   todo=""
   if [[ "$TEST_AND_PUSH" == 1 ]]; then todo+=" test ${started[*]}, commit and push;"; fi
   if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then todo+=" shut down"; fi
-  echo "once every cares-rl run on this machine has ended:${todo%;} (log: $OUT_DIR/after_training.log)"
+  if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then
+    echo "once every cares-rl run on this machine has ended:${todo%;} (log: $OUT_DIR/after_training.log)"
+  else
+    echo "once ${started[*]} have ended:${todo%;} (log: $OUT_DIR/after_training.log)"
+  fi
 fi

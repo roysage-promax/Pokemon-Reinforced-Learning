@@ -1,4 +1,3 @@
-import json
 import os
 import time
 from typing import Any, Dict
@@ -22,6 +21,12 @@ N_TERA = 4  # actions 10-13: terastallize and use move slot 0-3
 TERA = N_MOVES + N_SWITCHES
 HEAL = TERA + N_TERA  # action 14: use our healing move, whichever slot it is in
 SETUP = HEAL + 1  # action 15: use our setup move, whichever slot it is in
+BEST_ATTACK = SETUP + 1  # action 16: use our most damaging move
+BEST_TERA = BEST_ATTACK + 1  # action 17: terastallize and use our most damaging move after tera
+SAFE_SWITCH = BEST_TERA + 1  # action 18: switch to the teammate the opponent's predicted move hurts least
+MATCHUP_SWITCH = SAFE_SWITCH + 1  # action 19: switch to the teammate with the best matchup
+N_ACTIONS = MATCHUP_SWITCH + 1
+MACRO_NAMES = ["heal", "setup", "attack", "tera", "safe_switch", "matchup_switch"]  # actions 14-19
 
 # Penalty for an action that can't be taken this turn; poke_env then sends the server's default choice.
 # 0.5 cut illegal actions to ~0.2 a battle in v3 (0.1 left ~2). SHOWDOWN_ILLEGAL_PENALTY overrides
@@ -64,10 +69,6 @@ IMMUNE_ABILITIES = {
 # Healing moves whose amount isn't in the move data's "heal" field
 EXTRA_HEAL_MOVES = {"moonlight", "morningsun", "synthesis", "shoreup", "strengthsap", "rest"}
 
-# Species -> strongest move in its random-battle movepools (scripts/build_strongest_moves.py)
-with open(os.path.join(os.path.dirname(__file__), "data", "strongest_moves.json"), encoding="utf-8") as _f:
-    STRONGEST_MOVES = {species: Move(move_id, gen=9) for species, move_id in json.load(_f).items()}
-
 
 class ShowdownEnvironment(BaseShowdownEnv):
 
@@ -95,7 +96,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
     # Action space
     # =========================================================
     def _get_action_size(self) -> int | None:
-        return SETUP + 1
+        return N_ACTIONS
 
     def process_action(self, action: np.int64) -> np.int64:
         """
@@ -105,11 +106,19 @@ class ShowdownEnvironment(BaseShowdownEnv):
           10-13  terastallize, use move slot 0-3   -> 22-25
           14     use our healing move              -> 6-9, the slot it is in
           15     use our setup move                -> 6-9, the slot it is in
-        When we can't terastallize (tera used up), 10-13 just use the move: the first v4 agents,
-        penalised for those, learned to avoid the tera actions altogether. Likewise 14 and 15 use
-        our best attack when we have no such move (see _kind_slot). They exist because a heal or
-        setup move can sit in any slot and the network learns each slot's output separately: the
-        v4s agents healed mostly when the move was in slot 0. A good tera (see _good_tera) earns
+          16     use our most damaging move        -> 6-9
+          17     terastallize, use our most damaging move after tera -> 22-25
+          18     switch to the teammate the opponent's predicted move hurts least -> 0-5
+          19     switch to the teammate with the best matchup (see _switch_target) -> 0-5
+        When we can't terastallize (tera used up), 10-13 and 17 just use the move: the first v4
+        agents, penalised for those, learned to avoid the tera actions altogether. Likewise 14 and
+        15 use our best attack when we have no such move (see _kind_slot). 14-19 exist because a
+        move or teammate can sit in any slot and the network learns each slot's output separately:
+        the v4s agents healed mostly when the move was in slot 0, and the v5 agents picked a weaker
+        attack than the best ~1.4 times a battle and the hand-written policy's switch target about
+        half the time - while using 14 / 15's best-attack fallback ~7 times a battle. 14-19 are the
+        hand-written policy's choices, so the agent only has to learn when to make which kind of
+        play; 0-13 stay, so it can still make any play. A good tera (see _good_tera) earns
         TERA_BONUS, a good switch, setup or heal (see _rule_bonus) SWITCH_BONUS or SETUP_BONUS.
         The agent also picks the replacement when one of ours faints. An illegal choice (a move
         during a forced switch, a fainted or already active team slot...) is passed on as is:
@@ -122,8 +131,8 @@ class ShowdownEnvironment(BaseShowdownEnv):
         battle = self.battle1
         acting = battle is not None and self.agent1_to_move
         if action >= HEAL:
-            kind = "heal" if action == HEAL else "setup"
-            action, found = self._kind_slot(battle, action) if acting else (0, False)
+            kind = MACRO_NAMES[action - HEAL]
+            action, found = self._macro(battle, action) if acting else (0, False)
             if acting:
                 self._counts[f"{kind}_action"] += 1
                 self._counts["action_fallback"] += not found
@@ -150,7 +159,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
         if self._waiting(battle):
             return False
         if action >= HEAL:
-            return self._is_legal(battle, self._kind_slot(battle, action)[0])
+            return self._is_legal(battle, self._macro(battle, action)[0])
         if action >= TERA:
             return battle.can_tera and self._is_legal(battle, action - TERA)
         if action < N_MOVES:
@@ -181,23 +190,90 @@ class ShowdownEnvironment(BaseShowdownEnv):
             return []
         return list(battle.active_pokemon.moves.values())[:N_MOVES]
 
+    def _macro(self, battle: AbstractBattle, action: int) -> tuple[int, bool]:
+        """
+        The action 0-13 that action 14-19 stands for this turn, and whether it found what it
+        names (a healing / setup move, tera, a teammate to switch to). Without one, 14, 15 and 17
+        use our best attack; 18 and 19 an illegal switch, like 4-9 when nothing can come in.
+        """
+        if action in (HEAL, SETUP):
+            return self._kind_slot(battle, action)
+        if action in (BEST_ATTACK, BEST_TERA):
+            tera = action == BEST_TERA and battle.can_tera
+            slot = self._best_slot(battle, tera)
+            return (TERA + slot if tera else slot), tera or action == BEST_ATTACK
+        slot = self._switch_target(battle, safest=action == SAFE_SWITCH)
+        return N_MOVES + (slot or 0), slot is not None
+
+    def _legal_moves(self, battle: AbstractBattle) -> list[tuple[int, Move]]:
+        available = {move.id for move in battle.available_moves}
+        return [(slot, move) for slot, move in enumerate(self._move_slots(battle)) if move.id in available]
+
     def _kind_slot(self, battle: AbstractBattle, action: int) -> tuple[int, bool]:
         """
         The move slot action HEAL or SETUP uses, and whether it found such a move: the first
-        usable healing / setup move, else the move with the highest relative damage in the
-        observation (expected damage with our boosts).
+        usable healing / setup move, else our best attack (_best_slot).
         """
         is_kind = self._is_heal if action == HEAL else self._is_setup
-        available = {move.id for move in battle.available_moves}
-        legal = [(slot, move) for slot, move in enumerate(self._move_slots(battle)) if move.id in available]
-        for slot, move in legal:
+        for slot, move in self._legal_moves(battle):
             if is_kind(move):
                 return slot, True
+        return self._best_slot(battle), False
+
+    def _best_slot(self, battle: AbstractBattle, tera: bool = False) -> int:
+        """
+        The usable move slot with the highest relative damage in the observation (expected
+        damage with our boosts; tera: after terastallizing). 0 when no move is usable.
+        """
+        legal = self._legal_moves(battle)
         active, opp = battle.active_pokemon, battle.opponent_active_pokemon
         if not legal or active is None or opp is None:
-            return 0, False
-        slot, _ = max(legal, key=lambda pair: self._expected_damage(pair[1], active, opp, use_boosts=True))
-        return slot, False
+            return 0
+        slot, _ = max(legal, key=lambda pair: self._expected_damage(pair[1], active, opp, use_boosts=True, tera=tera))
+        return slot
+
+    def _switch_target(self, battle: AbstractBattle, safest: bool) -> int | None:
+        """
+        The team slot actions SAFE_SWITCH (safest) and MATCHUP_SWITCH switch to, from the
+        teammates that can come in: the one the opponent's predicted move hits least (ties: best
+        matchup), or the best matchup = 2 * offence - threat (_team_member, as in the
+        observation). These are the hand-written policy's switch out of a threat and its pick
+        when one of ours faints. None when no teammate can come in.
+        """
+        options = self._switch_options(battle)
+        if not options:
+            return None
+        if safest:
+            return min(options, key=lambda o: (o[1], -(2 * o[2] - o[1])))[0]
+        return max(options, key=lambda o: 2 * o[2] - o[1])[0]
+
+    def _switch_options(self, battle: AbstractBattle) -> list[tuple[int, float, float]]:
+        """(team slot, threat, offence) of each teammate that can come in now."""
+        opp = battle.opponent_active_pokemon
+        if opp is None or battle.trapped or self._waiting(battle):
+            return []
+        switchable = {mon.base_species for mon in battle.available_switches}
+        predicted, _ = self._predicted_move(battle)
+        return [
+            (slot, *self._team_member(mon, opp, predicted))
+            for slot, mon in enumerate(list(battle.team.values())[:N_SWITCHES])
+            if not mon.fainted and mon.base_species in switchable
+        ]
+
+    @classmethod
+    def _team_member(cls, mon, opp, predicted: Move | None) -> tuple[float, float]:
+        """
+        (threat, offence) of one of our Pokémon against the opponent's active: how hard the
+        predicted move hits it (type multiplier; without a prediction, the opponent's best type
+        multiplier on it), and its best move's expected damage on the opponent / 300, capped at 1.
+        """
+        if predicted is not None:
+            threat = cls._threat(predicted, mon)
+        else:
+            threat = max(mon.damage_multiplier(t) for t in opp.types)
+        best_damage = max((cls._expected_damage(m, mon, opp) for m in mon.moves.values()), default=0.0)
+        # Rounded like the observation, so equal matchups tie-break the same way in both
+        return threat, float(np.float32(min(best_damage / 300.0, 1.0)))
 
     # =========================================================
     # Battle knowledge used by the observation
@@ -478,10 +554,15 @@ class ShowdownEnvironment(BaseShowdownEnv):
         1 on a forced switch (only switch actions are legal)
         We have a usable healing move, a usable setup move (actions 14 and 15 use our best attack
           when we don't)
+        What actions 17-19 would do:
+          relative damage of the best move after terastallizing (0 when we can't tera now)
+          a teammate can come in now (18 and 19 are legal)
+          the safest switch's threat (/ 4) and offence, the best-matchup switch's threat (/ 4)
+            and offence (same scale as the team slots; 0 when nobody can come in)
         Nothing is legal on steps where only the opponent chooses (our action is ignored).
-        = 28 + 30 + 6 + 6 + 2 + 3 + 1 + 2 = 78 features
+        = 28 + 30 + 6 + 6 + 2 + 3 + 1 + 2 + 6 = 84 features
         """
-        return 78
+        return 84
 
     def embed_battle(self, battle: AbstractBattle) -> np.ndarray:
         obs = np.zeros(self._observation_size(), dtype=np.float32)
@@ -533,14 +614,11 @@ class ShowdownEnvironment(BaseShowdownEnv):
             base = i + 5 * slot
             if mon.fainted:
                 continue
+            threat, offence = self._team_member(mon, opp, predicted)
             obs[base] = float(mon.base_species in switchable)
             obs[base + 1] = mon.current_hp_fraction
-            if predicted is not None:
-                obs[base + 2] = self._threat(predicted, mon) / 4.0
-            else:
-                obs[base + 2] = max(mon.damage_multiplier(t) for t in opp.types) / 4.0
-            best_damage = max((self._expected_damage(m, mon, opp) for m in mon.moves.values()), default=0.0)
-            obs[base + 3] = min(best_damage / 300.0, 1.0)
+            obs[base + 2] = threat / 4.0
+            obs[base + 3] = offence
             obs[base + 4] = float(mon.base_stats["spe"] > opp.base_stats["spe"])
         i += 5 * N_SWITCHES
 
@@ -585,6 +663,16 @@ class ShowdownEnvironment(BaseShowdownEnv):
         # What actions 14 and 15 would use (the per-slot flags are 0 for unusable moves)
         obs[i] = float(any(obs[7 * slot + 5] for slot in range(N_MOVES)))
         obs[i + 1] = float(any(obs[7 * slot + 4] for slot in range(N_MOVES)))
+        i += 2
+
+        # What actions 17-19 would do
+        obs[i] = max(obs[7 * slot + 6] for slot in range(N_MOVES))
+        safest, matchup = self._switch_target(battle, safest=True), self._switch_target(battle, safest=False)
+        if safest is not None:
+            team_obs = 7 * N_MOVES
+            obs[i + 1] = 1.0
+            obs[i + 2 : i + 4] = obs[[team_obs + 5 * safest + 2, team_obs + 5 * safest + 3]]
+            obs[i + 4 : i + 6] = obs[[team_obs + 5 * matchup + 2, team_obs + 5 * matchup + 3]]
         return obs
 
     # =========================================================
@@ -604,8 +692,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
             "good_switch": 0,
             "good_setup": 0,
             "good_heal": 0,
-            "heal_action": 0,
-            "setup_action": 0,
+            **{f"{kind}_action": 0 for kind in MACRO_NAMES},
             "action_fallback": 0,
         }
 
@@ -634,6 +721,182 @@ class ShowdownEnvironment(BaseShowdownEnv):
             info[agent]["my_fainted"] = sum(m.fainted for m in self.battle1.team.values())
             info[agent].update(self._counts)
         return info
+
+
+# Species -> strongest move in its random-battle movepools, for guessing an opponent's next move
+# before it has attacked (see _predicted_move). Written by scripts/build_strongest_moves.py from
+# Showdown's gen9 random-battle sets; it lives here because only this file is submitted.
+# BEGIN STRONGEST MOVES
+STRONGEST_MOVE_IDS = {
+    "abomasnow": "woodhammer", "alcremie": "alluringvoice", "alomomola": "scald",
+    "altaria": "bravebird", "ambipom": "doubleedge", "amoonguss": "sludgebomb",
+    "ampharos": "focusblast", "annihilape": "gunkshot", "appletun": "dracometeor",
+    "araquanid": "hydropump", "arbok": "gunkshot", "arboliva": "earthpower",
+    "arcanine": "closecombat", "arcaninehisui": "headsmash", "arceus": "earthquake",
+    "arceusbug": "fireblast", "arceusdark": "judgment", "arceusdragon": "flareblitz",
+    "arceuselectric": "judgment", "arceusfairy": "judgment", "arceusfighting": "bodypress",
+    "arceusfire": "flareblitz", "arceusflying": "judgment", "arceusghost": "focusblast",
+    "arceusgrass": "fireblast", "arceusground": "fireblast", "arceusice": "judgment",
+    "arceuspoison": "flareblitz", "arceuspsychic": "bodypress", "arceusrock": "fireblast",
+    "arceussteel": "earthquake", "arceuswater": "judgment", "archaludon": "dracometeor",
+    "ariados": "megahorn", "armarouge": "armorcannon", "articuno": "bravebird",
+    "articunogalar": "hurricane", "avalugg": "bodypress", "avalugghisui": "stoneedge",
+    "azelf": "explosion", "azumarill": "superpower", "banette": "gunkshot",
+    "barraskewda": "closecombat", "basculegion": "wavecrash", "basculegionf": "wavecrash",
+    "basculin": "doubleedge", "bastiodon": "foulplay", "baxcalibur": "glaiverush",
+    "beartic": "closecombat", "bellibolt": "muddywater", "bellossom": "moonblast",
+    "bisharp": "ironhead", "blastoise": "hydropump", "blaziken": "closecombat",
+    "bombirdier": "bravebird", "brambleghast": "powerwhip", "braviary": "bravebird",
+    "braviaryhisui": "hurricane", "breloom": "rocktomb", "bronzong": "earthquake",
+    "brutebonnet": "closecombat", "bruxish": "wavecrash", "cacturne": "leafstorm",
+    "calyrex": "psychic", "calyrexice": "closecombat", "calyrexshadow": "astralbarrage",
+    "camerupt": "overheat", "carbink": "moonblast", "ceruledge": "closecombat",
+    "cetitan": "superpower", "chandelure": "fireblast", "charizard": "focusblast",
+    "chesnaught": "woodhammer", "chienpao": "sacredsword", "chimecho": "dazzlinggleam",
+    "chiyu": "overheat", "cinccino": "uturn", "cinderace": "highjumpkick", "clawitzer": "icebeam",
+    "clefable": "fireblast", "clodsire": "gunkshot", "cloyster": "hydropump",
+    "coalossal": "overheat", "cobalion": "closecombat", "comfey": "terablast",
+    "conkeldurr": "closecombat", "copperajah": "superpower", "corviknight": "bravebird",
+    "crabominable": "closecombat", "cramorant": "bravebird", "crawdaunt": "closecombat",
+    "cresselia": "moonblast", "cryogonal": "icebeam", "cyclizar": "dracometeor",
+    "dachsbun": "playrough", "darkrai": "focusblast", "decidueye": "leafstorm",
+    "decidueyehisui": "leafblade", "dedenne": "thunderbolt", "delibird": "bravebird",
+    "delphox": "focusblast", "deoxys": "psychoboost", "deoxysattack": "psychoboost",
+    "deoxysdefense": "psychicnoise", "deoxysspeed": "psychoboost", "dewgong": "hydropump",
+    "dialga": "dracometeor", "dialgaorigin": "dracometeor", "diancie": "diamondstorm",
+    "dipplin": "dragonpulse", "dodrio": "bravebird", "dondozo": "wavecrash",
+    "donphan": "earthquake", "dragalge": "dracometeor", "dragapult": "dracometeor",
+    "dragonite": "outrage", "drednaw": "stoneedge", "drifblim": "shadowball",
+    "dudunsparce": "boomburst", "dugtrio": "earthquake", "dugtrioalola": "earthquake",
+    "dunsparce": "earthquake", "duraludon": "dracometeor", "dusknoir": "focuspunch",
+    "eelektross": "closecombat", "eiscue": "liquidation", "electivire": "earthquake",
+    "electrode": "explosion", "electrodehisui": "leafstorm", "emboar": "headsmash",
+    "empoleon": "icebeam", "enamorus": "superpower", "enamorustherian": "superpower",
+    "entei": "flareblitz", "espathra": "dazzlinggleam", "espeon": "psychic",
+    "eternatus": "meteorbeam", "excadrill": "earthquake", "exeggutor": "psychic",
+    "exeggutoralola": "dracometeor", "falinks": "closecombat", "farigiraf": "bodyslam",
+    "feraligatr": "liquidation", "fezandipiti": "gunkshot", "flamigo": "bravebird",
+    "flapple": "outrage", "flareon": "flareblitz", "floatzel": "wavecrash", "florges": "moonblast",
+    "fluttermane": "moonblast", "flygon": "outrage", "forretress": "ironhead",
+    "froslass": "poltergeist", "frosmoth": "hurricane", "furret": "doubleedge",
+    "gallade": "leafblade", "galvantula": "thunder", "garchomp": "outrage",
+    "gardevoir": "focusblast", "garganacl": "earthquake", "gastrodon": "earthquake",
+    "gengar": "focusblast", "gholdengo": "focusblast", "girafarig": "psychic",
+    "giratina": "dragonpulse", "giratinaorigin": "dracometeor", "glaceon": "freezedry",
+    "glalie": "earthquake", "glastrier": "closecombat", "glimmora": "meteorbeam",
+    "gliscor": "earthquake", "gogoat": "earthquake", "golduck": "hydropump", "golem": "explosion",
+    "golemalola": "explosion", "golurk": "poltergeist", "goodra": "dracometeor",
+    "goodrahisui": "dracometeor", "gothitelle": "focusblast", "gougingfire": "outrage",
+    "grafaiai": "gunkshot", "granbull": "earthquake", "greattusk": "closecombat",
+    "greedent": "doubleedge", "greninja": "gunkshot", "greninjabond": "gunkshot",
+    "grimmsnarl": "spiritbreak", "groudon": "precipiceblades", "grumpig": "focusblast",
+    "gumshoos": "doubleedge", "gurdurr": "drainpunch", "gyarados": "earthquake",
+    "hariyama": "closecombat", "hatterene": "psychic", "hawlucha": "bravebird",
+    "haxorus": "closecombat", "heatran": "magmastorm", "heracross": "closecombat",
+    "hippowdon": "earthquake", "hitmonchan": "poisonjab", "hitmonlee": "highjumpkick",
+    "hitmontop": "closecombat", "honchkrow": "bravebird", "hooh": "bravebird",
+    "hoopa": "focusblast", "hoopaunbound": "gunkshot", "houndoom": "fireblast",
+    "houndstone": "poltergeist", "hydrapple": "leafstorm", "hydreigon": "dracometeor",
+    "hypno": "focusblast", "illumise": "bugbuzz", "incineroar": "overheat",
+    "indeedee": "hypervoice", "indeedeef": "hypervoice", "infernape": "overheat",
+    "inteleon": "hydropump", "ironboulder": "closecombat", "ironbundle": "hydropump",
+    "ironcrown": "focusblast", "ironhands": "closecombat", "ironjugulis": "meteorbeam",
+    "ironleaves": "closecombat", "ironmoth": "fireblast", "ironthorns": "earthquake",
+    "irontreads": "earthquake", "ironvaliant": "closecombat", "jirachi": "psychic",
+    "jolteon": "thunderbolt", "jumpluff": "uturn", "keldeoresolute": "hydropump",
+    "kilowattrel": "hurricane", "kingambit": "kowtowcleave", "kingdra": "dracometeor",
+    "klawf": "crabhammer", "kleavor": "closecombat", "klefki": "foulplay", "komala": "earthquake",
+    "kommoo": "boomburst", "koraidon": "closecombat", "kricketune": "knockoff",
+    "krookodile": "gunkshot", "kyogre": "waterspout", "kyurem": "dracometeor",
+    "kyuremblack": "fusionbolt", "kyuremwhite": "dracometeor", "landorus": "focusblast",
+    "landorustherian": "earthquake", "lanturn": "thunderbolt", "lapras": "hydropump",
+    "latias": "dracometeor", "latios": "dracometeor", "leafeon": "doubleedge",
+    "leavanny": "leafblade", "lilligant": "petaldance", "lilliganthisui": "closecombat",
+    "lokix": "firstimpression", "lucario": "closecombat", "ludicolo": "leafstorm",
+    "lugia": "aeroblast", "lumineon": "hydropump", "lunala": "focusblast", "lurantis": "leafstorm",
+    "luvdisc": "surf", "luxray": "supercellslam", "lycanroc": "closecombat",
+    "lycanrocdusk": "closecombat", "lycanrocmidnight": "closecombat", "mabosstiff": "playrough",
+    "magcargo": "fireblast", "magearna": "fleurcannon", "magmortar": "focusblast",
+    "magnezone": "thunderbolt", "malamar": "superpower", "mamoswine": "earthquake",
+    "manaphy": "hydropump", "mandibuzz": "bravebird", "masquerain": "hurricane", "maushold": "bite",
+    "medicham": "closecombat", "meganium": "earthquake", "meloetta": "focusblast",
+    "meowscarada": "flowertrick", "meowstic": "alluringvoice", "meowsticf": "psychic",
+    "mesprit": "icebeam", "metagross": "earthquake", "mew": "closecombat", "mewtwo": "fireblast",
+    "mienshao": "highjumpkick", "mightyena": "playrough", "milotic": "icebeam",
+    "mimikyu": "playrough", "minior": "earthquake", "minun": "thunderbolt",
+    "miraidon": "dracometeor", "misdreavus": "shadowball", "mismagius": "energyball",
+    "moltres": "bravebird", "moltresgalar": "hurricane", "morpeko": "aurawheel",
+    "mudsdale": "earthquake", "muk": "gunkshot", "mukalola": "gunkshot", "munkidori": "focusblast",
+    "necrozma": "earthquake", "necrozmadawnwings": "moongeistbeam",
+    "necrozmaduskmane": "earthquake", "ninetales": "solarbeam", "ninetalesalola": "blizzard",
+    "noctowl": "hurricane", "noivern": "boomburst", "ogerpon": "superpower",
+    "ogerponcornerstone": "powerwhip", "ogerponhearthflame": "powerwhip",
+    "ogerponwellspring": "woodhammer", "oinkologne": "doubleedge", "oinkolognef": "doubleedge",
+    "okidogi": "gunkshot", "oranguru": "focusblast", "oricorio": "hurricane",
+    "oricoriopau": "hurricane", "oricoriopompom": "hurricane", "oricoriosensu": "hurricane",
+    "orthworm": "irontail", "overqwil": "gunkshot", "pachirisu": "thunderbolt",
+    "palafin": "closecombat", "palkia": "dracometeor", "palkiaorigin": "dracometeor",
+    "palossand": "earthpower", "passimian": "closecombat", "pawmot": "closecombat",
+    "pecharunt": "malignantchain", "pelipper": "hurricane", "perrserker": "closecombat",
+    "persian": "doubleedge", "persianalola": "foulplay", "phione": "icebeam",
+    "pikachu": "volttackle", "piloswine": "earthquake", "pincurchin": "thunderbolt",
+    "plusle": "thunderbolt", "politoed": "focusblast", "poliwrath": "closecombat",
+    "polteageist": "shadowball", "porygon2": "icebeam", "porygonz": "icebeam",
+    "primarina": "hydropump", "probopass": "bodypress", "pyroar": "fireblast",
+    "quagsire": "earthquake", "quaquaval": "closecombat", "qwilfish": "gunkshot",
+    "qwilfishhisui": "gunkshot", "rabsca": "bugbuzz", "ragingbolt": "dracometeor",
+    "raichu": "focusblast", "raichualola": "focusblast", "raikou": "thunderbolt",
+    "rampardos": "headsmash", "rayquaza": "dragonascent", "regice": "icebeam",
+    "regidrago": "dragonenergy", "regieleki": "explosion", "regigigas": "bodyslam",
+    "regirock": "stoneedge", "registeel": "bodypress", "reshiram": "blueflare",
+    "reuniclus": "focusblast", "revavroom": "gunkshot", "rhydon": "megahorn",
+    "rhyperior": "megahorn", "ribombee": "moonblast", "rillaboom": "woodhammer",
+    "roaringmoon": "outrage", "rotom": "thunderbolt", "rotomfan": "thunderbolt",
+    "rotomfrost": "blizzard", "rotomheat": "overheat", "rotommow": "leafstorm",
+    "rotomwash": "hydropump", "sableye": "knockoff", "salamence": "outrage",
+    "salazzle": "fireblast", "samurott": "megahorn", "samurotthisui": "sacredsword",
+    "sandaconda": "earthquake", "sandslash": "earthquake", "sandslashalola": "earthquake",
+    "sandyshocks": "earthpower", "sawsbuck": "doubleedge", "sceptile": "leafstorm",
+    "scizor": "closecombat", "scovillain": "leafstorm", "scrafty": "poisonjab",
+    "screamtail": "playrough", "scyther": "closecombat", "serperior": "leafstorm",
+    "seviper": "gunkshot", "shaymin": "seedflare", "shayminsky": "seedflare",
+    "shiftry": "leafstorm", "sinistcha": "matchagotcha", "skarmory": "bravebird",
+    "skeledirge": "shadowball", "skuntank": "gunkshot", "slaking": "gigaimpact",
+    "slitherwing": "closecombat", "slowbro": "futuresight", "slowbrogalar": "fireblast",
+    "slowking": "futuresight", "slowkinggalar": "futuresight", "smeargle": "ceaselessedge",
+    "sneasler": "closecombat", "snorlax": "earthquake", "solgaleo": "closecombat",
+    "spectrier": "darkpulse", "spidops": "uturn", "spiritomb": "poltergeist",
+    "squawkabilly": "bravebird", "squawkabillyblue": "bravebird", "squawkabillywhite": "bravebird",
+    "squawkabillyyellow": "bravebird", "stantler": "earthquake", "staraptor": "bravebird",
+    "stonjourner": "earthquake", "sudowoodo": "headsmash", "suicune": "icebeam",
+    "sunflora": "leafstorm", "swalot": "gunkshot", "swampert": "earthquake", "swanna": "bravebird",
+    "sylveon": "hypervoice", "talonflame": "overheat", "tatsugiri": "dracometeor",
+    "tauros": "closecombat", "taurospaldeaaqua": "closecombat", "taurospaldeablaze": "closecombat",
+    "taurospaldeacombat": "closecombat", "tentacruel": "sludgebomb", "terapagos": "terastarstorm",
+    "terrakion": "closecombat", "thundurus": "focusblast", "thundurustherian": "focusblast",
+    "tinglu": "earthquake", "tinkaton": "gigatonhammer", "toedscruel": "leafstorm",
+    "torkoal": "solarbeam", "tornadus": "focusblast", "tornadustherian": "focusblast",
+    "torterra": "headlongrush", "toucannon": "boomburst", "toxapex": "liquidation",
+    "toxicroak": "closecombat", "toxtricity": "boomburst", "trevenant": "woodhammer",
+    "tropius": "earthquake", "tsareena": "highjumpkick", "typhlosion": "eruption",
+    "typhlosionhisui": "eruption", "tyranitar": "earthquake", "umbreon": "foulplay",
+    "ursaluna": "headlongrush", "ursalunabloodmoon": "bloodmoon", "ursaring": "closecombat",
+    "urshifu": "closecombat", "urshifurapidstrike": "closecombat", "uxie": "psychicnoise",
+    "vaporeon": "icebeam", "veluza": "aquacutter", "venomoth": "sludgewave",
+    "venusaur": "sludgebomb", "vespiquen": "hurricane", "victreebel": "powerwhip",
+    "vigoroth": "earthquake", "vikavolt": "bugbuzz", "vileplume": "sludgebomb",
+    "virizion": "closecombat", "vivillon": "hurricane", "volbeat": "lunge",
+    "volcanion": "steameruption", "volcarona": "fireblast", "walkingwake": "dracometeor",
+    "weavile": "knockoff", "weezing": "gunkshot", "weezinggalar": "gunkshot",
+    "whimsicott": "moonblast", "whiscash": "hydropump", "wigglytuff": "fireblast",
+    "wochien": "gigadrain", "wugtrio": "liquidation", "wyrdeer": "megahorn", "yanmega": "bugbuzz",
+    "zacian": "closecombat", "zaciancrowned": "closecombat", "zamazenta": "closecombat",
+    "zamazentacrowned": "stoneedge", "zangoose": "closecombat", "zapdos": "hurricane",
+    "zapdosgalar": "bravebird", "zarude": "closecombat", "zebstrika": "overheat",
+    "zekrom": "boltstrike", "zoroark": "focusblast", "zoroarkhisui": "focusblast",
+}
+# END STRONGEST MOVES
+STRONGEST_MOVES = {species: Move(move_id, gen=9) for species, move_id in STRONGEST_MOVE_IDS.items()}
 
 
 
