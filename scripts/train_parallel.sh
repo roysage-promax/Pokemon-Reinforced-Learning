@@ -7,6 +7,8 @@
 #   scripts/train_parallel.sh                        # every run below, 400k steps unless it sets its own
 #   STEPS=50000 scripts/train_parallel.sh            # shorter check (runs with their own step count keep it)
 #   SHUTDOWN_WHEN_DONE=1 scripts/train_parallel.sh   # power the machine off once every run has ended
+#   TEST_AND_PUSH=1 SHUTDOWN_WHEN_DONE=1 scripts/train_parallel.sh   # and before that run
+#                                                    # scripts/finish_batch.sh: test, commit, push
 #   scripts/train_parallel.sh v5-s10 v5-warm-s10     # only these runs
 #
 # Results go to $CARES_LOG_BASE_DIR (default ~/cares_rl_logs); console output to $OUT_DIR/<run>.log.
@@ -20,6 +22,7 @@ PYTHON="${PYTHON:-python}"
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
 OUT_DIR="${OUT_DIR:-rl_logs}"
 SHUTDOWN_WHEN_DONE="${SHUTDOWN_WHEN_DONE:-0}"
+TEST_AND_PUSH="${TEST_AND_PUSH:-0}"
 SHUTDOWN_CMD="${SHUTDOWN_CMD:-sudo shutdown -h now}"
 
 # The networks are tiny, so one torch thread per run; otherwise every run grabs every core.
@@ -119,18 +122,30 @@ if (( ${#pids[@]} == 0 )); then
   exit 1
 fi
 
-if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then
+if [[ "$SHUTDOWN_WHEN_DONE" == 1 || "$TEST_AND_PUSH" == 1 ]]; then
   # Checks once a minute and keeps going after you log out. Waits for every cares-rl run on the
   # machine, not just these, so a second call (e.g. restarting a run) can't power off under the
-  # first call's runs.
+  # first call's runs. The batch's environment version is the first run name's prefix (v5-s10 -> v5).
+  prefix="${RUNS[0]%%-*}"
   (
+    # Nothing here may stop the shutdown: a failed test or push just gets logged
+    set +e
     trap '' HUP
-    while pgrep -f -- "$CARES_RL (train|test) --run-name" > /dev/null; do
+    while pgrep -f -- "$CARES_RL (train|transfer|test) .*--run-name" > /dev/null; do
       sleep 60
     done
-    echo "all runs ended $(date) - shutting down"
-    $SHUTDOWN_CMD
-  ) >> "$OUT_DIR/shutdown.log" 2>&1 &
+    echo "all runs ended $(date)"
+    if [[ "$TEST_AND_PUSH" == 1 ]]; then
+      RUN_PREFIX="$prefix" "$(dirname "$0")/finish_batch.sh" || echo "finish_batch.sh failed - see above"
+    fi
+    if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then
+      echo "shutting down $(date)"
+      $SHUTDOWN_CMD
+    fi
+  ) >> "$OUT_DIR/after_training.log" 2>&1 &
   disown
-  echo "will shut down once every cares-rl run on this machine has ended (log: $OUT_DIR/shutdown.log)"
+  todo=""
+  if [[ "$TEST_AND_PUSH" == 1 ]]; then todo+=" test the $prefix runs, commit and push;"; fi
+  if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then todo+=" shut down"; fi
+  echo "once every cares-rl run on this machine has ended:${todo%;} (log: $OUT_DIR/after_training.log)"
 fi
