@@ -29,6 +29,10 @@ for dir in "$LOG_BASE"/*/*-random-max-"$RUN_PREFIX"-*; do
 
   steps=$(tail -n 1 "$seed_dir/data/train.csv" 2>/dev/null | cut -d, -f1)
   [[ "$steps" =~ ^[0-9]+$ ]] || steps=0
+  # A resumed run (train_parallel.sh's watchdog or RESUME=1) gets a new folder whose train.csv starts
+  # at the step it resumed from, so time the steps done since then
+  first=$(sed -n 2p "$seed_dir/data/train.csv" 2>/dev/null | cut -d, -f1)
+  [[ "$first" =~ ^[0-9]+$ ]] || first=0
 
   mem="-"
   pids=$(pgrep -d, -f -- "--run-name $name ")
@@ -36,8 +40,8 @@ for dir in "$LOG_BASE"/*/*-random-max-"$RUN_PREFIX"-*; do
     status=running
     # The training process is the biggest one whose command line names the run
     mem="$(( $(ps -o rss= -p "$pids" 2>/dev/null | sort -n | tail -n 1) / 1024 ))MB"
-    if (( steps > 0 )); then
-      left=$(( (STEPS - steps) * elapsed / steps ))
+    if (( steps > first )); then
+      left=$(( (STEPS - steps) * elapsed / (steps - first) ))
       left=$(printf "%dh%02dm" $((left / 3600)) $((left % 3600 / 60)))
     else
       left="?"
