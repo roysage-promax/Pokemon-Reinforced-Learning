@@ -1,7 +1,8 @@
 """
-Write showdown_gym/data/strongest_moves.json: for each species in gen9 random battles, the highest
-base-power move in any of its movepools. The environment uses it to guess an opponent's next move
-before that Pokemon has attacked.
+Write the strongest-move table into showdown_gym/showdown_environment.py: for each species in gen9
+random battles, the highest base-power move in any of its movepools. The environment uses it to
+guess an opponent's next move before that Pokemon has attacked. The table lives in the environment
+file itself (between the BEGIN / END STRONGEST MOVES lines) because only that file is submitted.
 
     python scripts/build_strongest_moves.py [path/to/pokemon-showdown/data/random-battles/gen9/sets.json]
 """
@@ -9,11 +10,13 @@ before that Pokemon has attacked.
 import json
 import os
 import sys
+import textwrap
 
 from poke_env.battle import Move
 
 DEFAULT_SETS = os.path.expanduser("~/compsys726/pokemon-showdown/data/random-battles/gen9/sets.json")
-OUT = os.path.join(os.path.dirname(__file__), "..", "showdown_gym", "data", "strongest_moves.json")
+ENV_FILE = os.path.join(os.path.dirname(__file__), "..", "showdown_gym", "showdown_environment.py")
+BEGIN, END = "# BEGIN STRONGEST MOVES\n", "# END STRONGEST MOVES\n"
 
 
 def main():
@@ -32,10 +35,20 @@ def main():
         if best is not None:
             strongest[species] = best.id
 
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    with open(OUT, "w", encoding="utf-8") as f:
-        json.dump(dict(sorted(strongest.items())), f, indent=0)
-    print(f"{len(strongest)} species -> {os.path.normpath(OUT)}")
+    # A no-break space inside each entry keeps a species and its move on the same line
+    entries = " ".join(f'"{species}":\xa0"{move}",' for species, move in sorted(strongest.items()))
+    lines = textwrap.fill(entries, 100, initial_indent="    ", subsequent_indent="    ").replace("\xa0", " ")
+    table = "STRONGEST_MOVE_IDS = {\n" + lines + "\n}\n"
+
+    # Keep the file's line endings (the assignment's file has Windows ones)
+    with open(ENV_FILE, encoding="utf-8", newline="") as f:
+        source = f.read()
+    newline = "\r\n" if "\r\n" in source else "\n"
+    begin, end = BEGIN.replace("\n", newline), END.replace("\n", newline)
+    start, stop = source.index(begin) + len(begin), source.index(end)
+    with open(ENV_FILE, "w", encoding="utf-8", newline="") as f:
+        f.write(source[:start] + table.replace("\n", newline) + source[stop:])
+    print(f"{len(strongest)} species -> {os.path.normpath(ENV_FILE)}")
 
 
 if __name__ == "__main__":
