@@ -11,6 +11,8 @@
 #                                                    # scripts/finish_batch.sh: test, commit, push
 #   TEST_AND_PUSH=1 scripts/train_parallel.sh        # test, commit and push as soon as these runs
 #                                                    # end, without waiting for other batches
+#   TEST_AND_PUSH=1 DIAGNOSE=1 SHUTDOWN_WHEN_DONE=1 scripts/train_parallel.sh   # after the tests,
+#                                                    # also scripts/diagnose_batch.sh on these runs
 #   scripts/train_parallel.sh v6-s10 v6-s20          # only these runs
 #
 # The runs use this checkout's environment (PYTHONPATH below), so a second checkout - e.g. a git
@@ -27,6 +29,7 @@ REPO="$(cd "$(dirname "$0")/.." && pwd)"
 OUT_DIR="${OUT_DIR:-rl_logs}"
 SHUTDOWN_WHEN_DONE="${SHUTDOWN_WHEN_DONE:-0}"
 TEST_AND_PUSH="${TEST_AND_PUSH:-0}"
+DIAGNOSE="${DIAGNOSE:-0}"
 SHUTDOWN_CMD="${SHUTDOWN_CMD:-sudo shutdown -h now}"
 
 # Python finds this checkout's showdown_gym before the installed one
@@ -56,15 +59,21 @@ export OMP_NUM_THREADS=1
 # network was worse (89.1%, tests 90.0% pooled), so that's dropped. v5-1m: v5 from scratch for 1M
 # steps (a16a2d0). But v5 still picks a weaker attack than its best ~1.4 times a battle and the
 # hand-written policy's switch target about half the time.
-# v6: 400k-step screen with v5-1m's settings; control = v5-1m's first 400k (same seeds, trained
-# at the same time on the same machine). The hand-written policy through actions 14-19 alone wins
-# 95.2% (3000 battles; through move and team slots 95.9%).
+# v5-1m (ff54bdc): 92.8% over 800k-1M, flat from ~700k; 1000-battle tests 92.0 / 94.3 / 93.1%.
+# v6: 400k-step screen with v5-1m's settings (8413f52). The hand-written policy through actions
+# 14-19 alone wins 95.2% (3000 battles; through move and team slots 95.9%). v6 learns faster: 92.5%
+# at 300-400k against v5-1m's 90.5% over the same steps (same seeds and machine, same time), about
+# what v5 reached at 800k-1M, and still rising; tests 92.5 / 93.0 / 92.5%.
+# v6-1m: the same for 1M steps. b128: batch 128 instead of 32 - late in training the win rate
+# swings +-1.5 points between 50k-step windows, so try steadier updates.
 DQN3="DQN --use_double_dqn 1 --n_step 3 --lr 0.0003 --decay_steps 200000"
 RULES="SHOWDOWN_TERA_BONUS=0.6 SHOWDOWN_SWITCH_BONUS=0.3 SHOWDOWN_SETUP_BONUS=0.3"
 RUNS=(
-  "v6-s10|10|||$RULES|$DQN3|"
-  "v6-s20|20|||$RULES|$DQN3|"
-  "v6-s30|30|||$RULES|$DQN3|"
+  "v6-1m-s10|10|1000000||$RULES|$DQN3|"
+  "v6-1m-s20|20|1000000||$RULES|$DQN3|"
+  "v6-1m-s30|30|1000000||$RULES|$DQN3|"
+  "v6-1m-b128-s10|10|1000000||$RULES|$DQN3 --batch_size 128|"
+  "v6-1m-b128-s20|20|1000000||$RULES|$DQN3 --batch_size 128|"
 )
 
 # The server compiles itself on its first start, so give it time before connecting
@@ -133,7 +142,7 @@ if (( ${#pids[@]} == 0 )); then
   exit 1
 fi
 
-if [[ "$SHUTDOWN_WHEN_DONE" == 1 || "$TEST_AND_PUSH" == 1 ]]; then
+if [[ "$SHUTDOWN_WHEN_DONE" == 1 || "$TEST_AND_PUSH" == 1 || "$DIAGNOSE" == 1 ]]; then
   # Checks once a minute and keeps going after you log out. Before a shutdown it waits for every
   # cares-rl run on the machine, not just these, so a second call (e.g. restarting a run, or
   # another batch) can't power off under the first call's runs; without one, just for these. Only
@@ -159,6 +168,9 @@ if [[ "$SHUTDOWN_WHEN_DONE" == 1 || "$TEST_AND_PUSH" == 1 ]]; then
     if [[ "$TEST_AND_PUSH" == 1 ]]; then
       RUN_PREFIX="$prefix" "$(dirname "$0")/finish_batch.sh" "${started[@]}" || echo "finish_batch.sh failed - see above"
     fi
+    if [[ "$DIAGNOSE" == 1 ]]; then
+      "$(dirname "$0")/diagnose_batch.sh" "${started[@]}" || echo "diagnose_batch.sh failed - see above"
+    fi
     if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then
       echo "shutting down $(date)"
       $SHUTDOWN_CMD
@@ -167,6 +179,7 @@ if [[ "$SHUTDOWN_WHEN_DONE" == 1 || "$TEST_AND_PUSH" == 1 ]]; then
   disown
   todo=""
   if [[ "$TEST_AND_PUSH" == 1 ]]; then todo+=" test ${started[*]}, commit and push;"; fi
+  if [[ "$DIAGNOSE" == 1 ]]; then todo+=" diagnose, commit and push;"; fi
   if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then todo+=" shut down"; fi
   if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then
     echo "once every cares-rl run on this machine has ended:${todo%;} (log: $OUT_DIR/after_training.log)"

@@ -5,8 +5,13 @@ action with what the hand-written policy in check_env.py (probe variant E with v
 the agent hasn't learned - where a reward bonus would help most. Needs a checkpoint trained on
 this branch's environment (v6: 84 features, 20 actions).
 
+With --hand_plays, the hand-written policy takes over one kind of decision: every step where it or
+the agent would make that kind of play. The win rate gained over --hand_plays none is what the
+agent's mistakes of that kind cost; "all" is the hand-written policy on its own.
+
     python scripts/audit_policy.py ~/cares_rl_logs/DQN/DQN-random-max-v6-s10-*/10/models/final/DQN_checkpoint.pth
     python scripts/audit_policy.py <checkpoint> --battles 500
+    python scripts/audit_policy.py <checkpoint> --battles 3000 --hand_plays switch
 Needs the Showdown server running (node pokemon-showdown start --no-security).
 """
 
@@ -26,6 +31,10 @@ from check_env import FORCED, MOVE, TERA, TERA_ACTION, policy, resolve, wilson  
 from showdown_gym.showdown_environment import HEAL, MACRO_NAMES, N_MOVES, SingleShowdownWrapper  # noqa: E402
 
 ACTION_GROUPS = ["move slot"] * N_MOVES + ["switch slot"] * (TERA_ACTION - N_MOVES) + ["tera slot"] * N_MOVES
+# --hand_plays: forced = replacements for a fainted Pokemon; switch, heal, setup, tera = whenever the
+# agent or the hand policy would make that play; attack = both attack without tera but pick
+# different moves
+TAKEOVERS = ["none", "all", "forced", "switch", "heal", "setup", "tera", "attack"]
 
 
 def load_network(path: str) -> torch.nn.Sequential:
@@ -66,10 +75,25 @@ def same(obs: np.ndarray, a: int, b: int) -> bool:
     return kind(obs, a) == kind(obs, b) and math.isclose(obs[MOVE + 7 * sa + col], obs[MOVE + 7 * sb + col])
 
 
+def takes_over(what: str, obs: np.ndarray, agent: int, hand: int) -> bool:
+    """Whether the hand policy plays this step instead of the agent (see TAKEOVERS)."""
+    if what in ("none", "all"):
+        return what == "all"
+    if obs[FORCED]:
+        return what == "forced"
+    kinds = (kind(obs, agent), kind(obs, hand))
+    if what == "tera":
+        return any(k.endswith("+tera") for k in kinds)
+    if what == "attack":
+        return kinds == ("attack", "attack")
+    return what in (k.removesuffix("+tera") for k in kinds)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("checkpoint")
     parser.add_argument("--battles", type=int, default=200)
+    parser.add_argument("--hand_plays", choices=TAKEOVERS, default="none", help="decisions the hand policy makes instead")
     args = parser.parse_args()
 
     net = load_network(args.checkpoint)
@@ -77,7 +101,7 @@ def main():
     showdown = env.env
     time.sleep(3)
 
-    wins = steps = 0
+    wins = steps = taken = changed = 0
     situations = Counter()  # hand policy's choice -> steps
     agree = Counter()
     instead = defaultdict(Counter)  # hand's choice -> what the agent did instead
@@ -103,6 +127,10 @@ def main():
                 else:
                     did = kind(obs, action) if not obs[FORCED] else "other slot or illegal"
                     instead[situation][did if did != kind(obs, hand) else "same kind, other slot"] += 1
+                if takes_over(args.hand_plays, obs, action, hand):
+                    taken += 1
+                    changed += not same(obs, action, hand)
+                    action = hand
             obs, _, terminated, truncated, _ = env.step(np.int64(action))
             steps += 1
             done = terminated or truncated
@@ -111,6 +139,9 @@ def main():
     n = args.battles
     lo, hi = wilson(wins, n)
     print(f"{n} battles in {time.time() - start:.0f}s: agent won {wins} = {100 * wins / n:.1f}% [{100 * lo:.1f}, {100 * hi:.1f}]")
+    if args.hand_plays != "none":
+        print(f"hand policy plays: {args.hand_plays} - {taken / n:.2f} steps a battle, "
+              f"{changed / n:.2f} of them different from the agent's choice")
     print(f"\n{'hand policy would':16s} {'per battle':>10s} {'agent agrees':>12s}  agent instead (per battle)")
     for situation, count in situations.most_common():
         others = ", ".join(f"{k} {v / n:.2f}" for k, v in instead[situation].most_common())
