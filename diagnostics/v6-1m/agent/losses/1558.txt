@@ -1,0 +1,279 @@
+battle 1558 (battle-gen9randombattle-1022144): lost in 29 turns, 1 of theirs left; we are p1
+
+ours:
+  raikou (fainted; item choicespecs, ability pressure; moves thunderbolt/voltswitch/scald/shadowball)
+  meganium (fainted; item leftovers, ability overgrow; moves energyball/synthesis/leechseed/knockoff)
+  arceusground (fainted; item earthplate, ability multitype; moves stoneedge/recover/dragondance/earthquake)
+  kingambit (fainted; item leftovers, ability supremeoverlord; moves kowtowcleave/ironhead/swordsdance/suckerpunch)
+  espathra (fainted; item choicespecs, ability speedboost, tera psychic; moves shadowball/uturn/dazzlinggleam/luminacrash)
+  mausholdfour (fainted; item widelens, ability technician; moves tidyup/encore/bite/populationbomb)
+theirs (as seen):
+  chesnaught (fainted; item unknown_item, ability ?; moves bodypress)
+  kricketune (fainted; item unknown_item, ability ?; moves knockoff)
+  uxie (fainted; item leftovers, ability levitate; moves psychicnoise)
+  mew (fainted; item leftovers, ability synchronize; moves psychic)
+  phione (fainted; item unknown_item, ability hydration; moves scald)
+  lurantis (33%; item unknown_item, ability ?; moves leafstorm/superpower)
+
+-- turn 0
+  switch|p1a: Raikou|Raikou, L81|278/278
+  switch|p2a: Chesnaught|Chesnaught, L84, F|100/100
+  -ability|p1a: Raikou|Pressure
+-- turn 1
+  WE CHOSE: switch to kingambit (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to espathra - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x4
+  switch|p1a: Kingambit|Kingambit, L74, F|270/270
+  move|p2a: Chesnaught|Body Press|p1a: Kingambit
+  -supereffective|p1a: Kingambit
+  -damage|p1a: Kingambit|0 fnt
+  faint|p1a: Kingambit
+  -end|p1a: Kingambit|fallenundefined|[silent]
+  switch|p1a: Espathra|Espathra, L80, F|283/283
+-- turn 2
+  WE CHOSE: attack luminacrash (hand policy: attack+tera luminacrash) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Espathra|Lumina Crash|p2a: Chesnaught
+  -supereffective|p2a: Chesnaught
+  -damage|p2a: Chesnaught|0 fnt
+  faint|p2a: Chesnaught
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+  switch|p2a: Kricketune|Kricketune, L99, M|100/100
+-- turn 3
+  WE CHOSE: switch to arceusground (hand policy: attack+tera luminacrash) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Arceus|Arceus-Ground, L70|284/284
+  move|p2a: Kricketune|Knock Off|p1a: Arceus
+  -damage|p1a: Arceus|234/284
+-- turn 4
+  WE CHOSE: attack stoneedge - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Stone Edge|p2a: Kricketune
+  -supereffective|p2a: Kricketune
+  -damage|p2a: Kricketune|52/100
+  move|p2a: Kricketune|Knock Off|p1a: Arceus
+  -damage|p1a: Arceus|183/284
+-- turn 5
+  WE CHOSE: attack stoneedge - our hp 0.64, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Stone Edge|p2a: Kricketune
+  -supereffective|p2a: Kricketune
+  -damage|p2a: Kricketune|6/100
+  move|p2a: Kricketune|Knock Off|p1a: Arceus
+  -damage|p1a: Arceus|125/284
+-- turn 6
+  WE CHOSE: attack stoneedge (hand policy: heal recover) - our hp 0.44, theirs 0.06, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Stone Edge|p2a: Kricketune|[miss]
+  -miss|p1a: Arceus|p2a: Kricketune
+  move|p2a: Kricketune|Knock Off|p1a: Arceus
+  -damage|p1a: Arceus|69/284
+-- turn 7
+  WE CHOSE: attack stoneedge (hand policy: heal recover) - our hp 0.24, theirs 0.06, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Stone Edge|p2a: Kricketune
+  -supereffective|p2a: Kricketune
+  -damage|p2a: Kricketune|0 fnt
+  faint|p2a: Kricketune
+  switch|p2a: Uxie|Uxie, L83|100/100
+-- turn 8
+  WE CHOSE: switch to espathra (hand policy: heal recover) - our hp 0.24, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Espathra|Espathra, L80, F|283/283
+  move|p2a: Uxie|Psychic Noise|p1a: Espathra
+  -resisted|p1a: Espathra
+  -damage|p1a: Espathra|238/283
+  -start|p1a: Espathra|move: Heal Block
+-- turn 9
+  WE CHOSE: attack uturn (hand policy: attack shadowball) - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to mausholdfour (hand policy: forced: switch to raikou) - our hp 0.84, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p1a: Espathra|U-turn|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -damage|p2a: Uxie|81/100
+  switch|p1a: Maushold|Maushold-Four, L76|238/238|[from] U-turn
+  move|p2a: Uxie|Psychic Noise|p1a: Maushold
+  -damage|p1a: Maushold|162/238
+  -start|p1a: Maushold|move: Heal Block
+  -heal|p2a: Uxie|87/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack bite - our hp 0.68, theirs 0.87, predicted move (revealed) hits us x1
+  move|p1a: Maushold|Bite|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -damage|p2a: Uxie|62/100
+  move|p2a: Uxie|Psychic Noise|p1a: Maushold
+  -damage|p1a: Maushold|83/238
+  -heal|p2a: Uxie|68/100|[from] item: Leftovers
+  -end|p1a: Maushold|move: Heal Block
+-- turn 11
+  WE CHOSE: attack bite - our hp 0.35, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Maushold|Bite|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -damage|p2a: Uxie|44/100
+  move|p2a: Uxie|Psychic Noise|p1a: Maushold
+  -damage|p1a: Maushold|5/238
+  -start|p1a: Maushold|move: Heal Block
+  -heal|p2a: Uxie|50/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack bite - our hp 0.02, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to espathra - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Maushold|Bite|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -damage|p2a: Uxie|25/100
+  move|p2a: Uxie|Psychic Noise|p1a: Maushold
+  -damage|p1a: Maushold|0 fnt
+  faint|p1a: Maushold
+  -heal|p2a: Uxie|31/100|[from] item: Leftovers
+  switch|p1a: Espathra|Espathra, L80, F|238/283
+-- turn 13
+  WE CHOSE: attack shadowball - our hp 0.84, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p1a: Espathra|Shadow Ball|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -damage|p2a: Uxie|0 fnt
+  faint|p2a: Uxie
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+  switch|p2a: Mew|Mew, L82|100/100
+-- turn 14
+  WE CHOSE: attack shadowball - our hp 0.84, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Espathra|Shadow Ball|p2a: Mew
+  -supereffective|p2a: Mew
+  -damage|p2a: Mew|47/100
+  move|p2a: Mew|Psychic|p1a: Espathra
+  -resisted|p1a: Espathra
+  -damage|p1a: Espathra|180/283
+  -heal|p2a: Mew|53/100|[from] item: Leftovers
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+-- turn 15
+  WE CHOSE: attack shadowball - our hp 0.64, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p1a: Espathra|Shadow Ball|p2a: Mew
+  -supereffective|p2a: Mew
+  -damage|p2a: Mew|2/100
+  move|p2a: Mew|Psychic|p1a: Espathra
+  -resisted|p1a: Espathra
+  -damage|p1a: Espathra|112/283
+  -unboost|p1a: Espathra|spd|1
+  -heal|p2a: Mew|8/100|[from] item: Leftovers
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+-- turn 16
+  WE CHOSE: attack+tera shadowball (hand policy: attack shadowball) - our hp 0.40, theirs 0.08, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Espathra|Psychic
+  move|p1a: Espathra|Shadow Ball|p2a: Mew
+  -supereffective|p2a: Mew
+  -crit|p2a: Mew
+  -damage|p2a: Mew|0 fnt
+  faint|p2a: Mew
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+  switch|p2a: Phione|Phione, L91|100/100
+-- turn 17
+  WE CHOSE: switch to raikou (hand policy: attack shadowball) - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Raikou|Raikou, L81|278/278
+  -ability|p1a: Raikou|Pressure
+  move|p2a: Phione|Scald|p1a: Raikou
+  -damage|p1a: Raikou|202/278
+  -status|p1a: Raikou|brn
+  -damage|p1a: Raikou|185/278 brn|[from] brn
+-- turn 18
+  WE CHOSE: attack thunderbolt - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Raikou|Thunderbolt|p2a: Phione
+  -supereffective|p2a: Phione
+  -damage|p2a: Phione|0 fnt
+  faint|p2a: Phione
+  -damage|p1a: Raikou|168/278 brn|[from] brn
+  switch|p2a: Lurantis|Lurantis, L87, F|100/100
+-- turn 19
+  WE CHOSE: switch to meganium (hand policy: attack thunderbolt) - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Meganium|Meganium, L90, F|290/290
+  move|p2a: Lurantis|Leaf Storm|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|236/290
+  -boost|p2a: Lurantis|spa|2
+  -heal|p1a: Meganium|254/290|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal synthesis (hand policy: attack energyball) - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Meganium|Synthesis|p1a: Meganium
+  -heal|p1a: Meganium|290/290
+  move|p2a: Lurantis|Leaf Storm|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|177/290
+  -boost|p2a: Lurantis|spa|2
+  -heal|p1a: Meganium|195/290|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal synthesis (hand policy: attack energyball) - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Meganium|Synthesis|p1a: Meganium
+  -heal|p1a: Meganium|290/290
+  move|p2a: Lurantis|Leaf Storm|p1a: Meganium|[miss]
+  -miss|p2a: Lurantis|p1a: Meganium
+-- turn 22
+  WE CHOSE: heal synthesis (hand policy: attack energyball) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Meganium|Synthesis|p1a: Meganium
+  -fail|p1a: Meganium|heal
+  move|p2a: Lurantis|Leaf Storm|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|130/290
+  -boost|p2a: Lurantis|spa|2
+  -heal|p1a: Meganium|148/290|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal synthesis (hand policy: attack energyball) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Meganium|Synthesis|p1a: Meganium
+  -heal|p1a: Meganium|290/290
+  move|p2a: Lurantis|Leaf Storm|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|90/290
+  -heal|p1a: Meganium|108/290|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: heal synthesis - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Meganium|Synthesis|p1a: Meganium
+  -heal|p1a: Meganium|253/290
+  move|p2a: Lurantis|Leaf Storm|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|25/290
+  -heal|p1a: Meganium|43/290|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: heal synthesis - our hp 0.15, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to espathra - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Meganium|Synthesis|p1a: Meganium
+  -heal|p1a: Meganium|188/290
+  move|p2a: Lurantis|Leaf Storm|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|0 fnt
+  faint|p1a: Meganium
+  switch|p1a: Espathra|Espathra, L80, F, tera:Psychic|112/283
+-- turn 26
+  WE CHOSE: attack luminacrash - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to raikou - our hp 0.00, theirs 0.60, predicted move (revealed) hits us x1
+  move|p1a: Espathra|Lumina Crash|p2a: Lurantis
+  -damage|p2a: Lurantis|60/100
+  -boost|p2a: Lurantis|spd|2
+  move|p2a: Lurantis|Leaf Storm|p1a: Espathra
+  -damage|p1a: Espathra|0 fnt
+  faint|p1a: Espathra
+  switch|p1a: Raikou|Raikou, L81|168/278 brn
+  -ability|p1a: Raikou|Pressure
+-- turn 27
+  WE CHOSE: attack thunderbolt (hand policy: attack shadowball) - our hp 0.60, theirs 0.60, predicted move (revealed) hits us x1
+  move|p1a: Raikou|Thunderbolt|p2a: Lurantis
+  -resisted|p2a: Lurantis
+  -damage|p2a: Lurantis|52/100
+  move|p2a: Lurantis|Superpower|p1a: Raikou
+  -damage|p1a: Raikou|62/278 brn
+  -boost|p2a: Lurantis|atk|1
+  -boost|p2a: Lurantis|def|1
+  -damage|p1a: Raikou|45/278 brn|[from] brn
+-- turn 28
+  WE CHOSE: attack thunderbolt - our hp 0.16, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to arceusground - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Raikou|Thunderbolt|p2a: Lurantis
+  -resisted|p2a: Lurantis
+  -damage|p2a: Lurantis|43/100
+  move|p2a: Lurantis|Superpower|p1a: Raikou
+  -damage|p1a: Raikou|0 fnt
+  -boost|p2a: Lurantis|atk|1
+  -boost|p2a: Lurantis|def|1
+  faint|p1a: Raikou
+  switch|p1a: Arceus|Arceus-Ground, L70|69/284
+-- turn 29
+  WE CHOSE: attack earthquake (hand policy: attack stoneedge) - our hp 0.24, theirs 0.43, predicted move (revealed) hits us x2
+  move|p1a: Arceus|Earthquake|p2a: Lurantis
+  -resisted|p2a: Lurantis
+  -damage|p2a: Lurantis|33/100
+  move|p2a: Lurantis|Superpower|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  -boost|p2a: Lurantis|atk|1
+  -boost|p2a: Lurantis|def|1
+  faint|p1a: Arceus

@@ -1,0 +1,170 @@
+battle 986 (battle-gen9randombattle-1015589): lost in 16 turns, 2 of theirs left; we are p1
+
+ours:
+  magcargo (fainted; item heavydutyboots, ability weakarmor, tera dragon; moves shellsmash/earthpower/powergem/fireblast)
+  luxray (fainted; item assaultvest, ability intimidate; moves playrough/wildcharge/voltswitch/icefang)
+  grumpig (fainted; item choicescarf, ability thickfat; moves psyshock/earthpower/trick/focusblast)
+  primarina (fainted; item choicespecs, ability torrent; moves moonblast/hydropump/psychic/flipturn)
+  dewgong (fainted; item heavydutyboots, ability thickfat; moves surf/tripleaxel/encore/flipturn)
+  klefki (fainted; item leftovers, ability prankster; moves spikes/foulplay/thunderwave/dazzlinggleam)
+theirs (as seen):
+  flamigo (fainted; item lifeorb, ability ?; moves closecombat)
+  ogerponhearthflame (fainted; item unknown_item, ability moldbreaker; moves ivycudgel)
+  spectrier (fainted; item leftovers, ability grimneigh; moves shadowball)
+  azelf (fainted; item lifeorb, ability levitate; moves fireblast)
+  copperajah (67%; item unknown_item, ability ?; moves earthquake)
+
+-- turn 0
+  switch|p1a: Magcargo|Magcargo, L95, M|268/268
+  switch|p2a: Flamigo|Flamigo, L82, M|100/100
+-- turn 1
+  WE CHOSE: setup shellsmash - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Flamigo|Close Combat|p1a: Magcargo
+  -supereffective|p1a: Magcargo
+  -damage|p1a: Magcargo|34/268
+  -unboost|p2a: Flamigo|def|1
+  -unboost|p2a: Flamigo|spd|1
+  -ability|p1a: Magcargo|Weak Armor|boost
+  -unboost|p1a: Magcargo|def|1
+  -boost|p1a: Magcargo|spe|2
+  -damage|p2a: Flamigo|91/100|[from] item: Life Orb
+  move|p1a: Magcargo|Shell Smash|p1a: Magcargo
+  -unboost|p1a: Magcargo|def|1
+  -unboost|p1a: Magcargo|spd|1
+  -boost|p1a: Magcargo|atk|2
+  -boost|p1a: Magcargo|spa|2
+  -boost|p1a: Magcargo|spe|2
+-- turn 2
+  WE CHOSE: switch to primarina - our hp 0.13, theirs 0.91, predicted move (revealed) hits us x2
+  switch|p1a: Primarina|Primarina, L83, F|268/268
+  move|p2a: Flamigo|Close Combat|p1a: Primarina
+  -resisted|p1a: Primarina
+  -damage|p1a: Primarina|171/268
+  -unboost|p2a: Flamigo|def|1
+  -unboost|p2a: Flamigo|spd|1
+  -damage|p2a: Flamigo|81/100|[from] item: Life Orb
+-- turn 3
+  WE CHOSE: attack moonblast - our hp 0.64, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p2a: Flamigo|Close Combat|p1a: Primarina
+  -resisted|p1a: Primarina
+  -damage|p1a: Primarina|67/268
+  -unboost|p2a: Flamigo|def|1
+  -unboost|p2a: Flamigo|spd|1
+  -damage|p2a: Flamigo|72/100|[from] item: Life Orb
+  move|p1a: Primarina|Moonblast|p2a: Flamigo
+  -supereffective|p2a: Flamigo
+  -damage|p2a: Flamigo|0 fnt
+  faint|p2a: Flamigo
+  switch|p2a: Ogerpon|Ogerpon-Hearthflame, L74, F|100/100
+  -ability|p2a: Ogerpon|Mold Breaker
+-- turn 4
+  WE CHOSE: switch to klefki - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to magcargo - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Klefki|Klefki, L84, F|233/233
+  move|p2a: Ogerpon|Ivy Cudgel|p1a: Klefki|[anim] Ivy Cudgel Fire
+  -supereffective|p1a: Klefki
+  -damage|p1a: Klefki|0 fnt
+  faint|p1a: Klefki
+  switch|p1a: Magcargo|Magcargo, L95, M|34/268
+-- turn 5
+  WE CHOSE: attack+tera powergem - our hp 0.13, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to grumpig - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Magcargo|Dragon
+  move|p2a: Ogerpon|Ivy Cudgel|p1a: Magcargo|[anim] Ivy Cudgel Fire
+  -resisted|p1a: Magcargo
+  -damage|p1a: Magcargo|0 fnt
+  faint|p1a: Magcargo
+  switch|p1a: Grumpig|Grumpig, L92, M|297/297
+-- turn 6
+  WE CHOSE: attack psyshock - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Grumpig|Psyshock|p2a: Ogerpon
+  -damage|p2a: Ogerpon|57/100
+  move|p2a: Ogerpon|Ivy Cudgel|p1a: Grumpig|[anim] Ivy Cudgel Fire
+  -damage|p1a: Grumpig|171/297
+-- turn 7
+  WE CHOSE: attack psyshock - our hp 0.58, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Grumpig|Psyshock|p2a: Ogerpon
+  -damage|p2a: Ogerpon|11/100
+  move|p2a: Ogerpon|Ivy Cudgel|p1a: Grumpig|[anim] Ivy Cudgel Fire
+  -damage|p1a: Grumpig|48/297
+-- turn 8
+  WE CHOSE: attack psyshock - our hp 0.16, theirs 0.11, predicted move (revealed) hits us x1
+  move|p1a: Grumpig|Psyshock|p2a: Ogerpon
+  -damage|p2a: Ogerpon|0 fnt
+  faint|p2a: Ogerpon
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+-- turn 9
+  WE CHOSE: switch to primarina - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to luxray - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Primarina|Primarina, L83, F|67/268
+  move|p2a: Spectrier|Shadow Ball|p1a: Primarina
+  -damage|p1a: Primarina|0 fnt
+  faint|p1a: Primarina
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  switch|p1a: Luxray|Luxray, L88, F|284/284
+  -ability|p1a: Luxray|Intimidate|boost
+  -unboost|p2a: Spectrier|atk|1
+-- turn 10
+  WE CHOSE: attack wildcharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Luxray
+  -damage|p1a: Luxray|181/284
+  -unboost|p1a: Luxray|spd|1
+  move|p1a: Luxray|Wild Charge|p2a: Spectrier
+  -damage|p2a: Spectrier|40/100
+  -damage|p1a: Luxray|139/284|[from] Recoil
+  -heal|p2a: Spectrier|46/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack wildcharge - our hp 0.49, theirs 0.46, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dewgong - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Luxray
+  -damage|p1a: Luxray|0 fnt
+  faint|p1a: Luxray
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -heal|p2a: Spectrier|52/100|[from] item: Leftovers
+  switch|p1a: Dewgong|Dewgong, L94, F|322/322
+-- turn 12
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Dewgong
+  -damage|p1a: Dewgong|166/322
+  move|p1a: Dewgong|Surf|p2a: Spectrier
+  -crit|p2a: Spectrier
+  -damage|p2a: Spectrier|0 fnt
+  faint|p2a: Spectrier
+  switch|p2a: Azelf|Azelf, L82|100/100
+-- turn 13
+  WE CHOSE: attack surf - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Azelf|Fire Blast|p1a: Dewgong
+  -damage|p1a: Dewgong|115/322
+  -status|p1a: Dewgong|brn
+  -damage|p2a: Azelf|91/100|[from] item: Life Orb
+  move|p1a: Dewgong|Surf|p2a: Azelf
+  -damage|p2a: Azelf|50/100
+  -damage|p1a: Dewgong|95/322 brn|[from] brn
+-- turn 14
+  WE CHOSE: attack surf - our hp 0.30, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Azelf|Fire Blast|p1a: Dewgong
+  -damage|p1a: Dewgong|44/322 brn
+  -damage|p2a: Azelf|40/100|[from] item: Life Orb
+  move|p1a: Dewgong|Surf|p2a: Azelf
+  -crit|p2a: Azelf
+  -damage|p2a: Azelf|0 fnt
+  faint|p2a: Azelf
+  -damage|p1a: Dewgong|24/322 brn|[from] brn
+  switch|p2a: Copperajah|Copperajah, L86, F|100/100
+-- turn 15
+  WE CHOSE: switch to grumpig - our hp 0.07, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to dewgong - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Grumpig|Grumpig, L92, M|48/297
+  move|p2a: Copperajah|Earthquake|p1a: Grumpig
+  -damage|p1a: Grumpig|0 fnt
+  faint|p1a: Grumpig
+  switch|p1a: Dewgong|Dewgong, L94, F|24/322 brn
+-- turn 16
+  WE CHOSE: attack surf - our hp 0.07, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dewgong|Surf|p2a: Copperajah
+  -damage|p2a: Copperajah|67/100
+  move|p2a: Copperajah|Earthquake|p1a: Dewgong
+  -damage|p1a: Dewgong|0 fnt
+  faint|p1a: Dewgong

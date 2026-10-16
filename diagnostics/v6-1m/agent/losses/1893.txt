@@ -1,0 +1,414 @@
+battle 1893 (battle-gen9randombattle-1025549): lost in 56 turns, 1 of theirs left; we are p1
+
+ours:
+  ironhands (fainted; item leftovers, ability quarkdrive; moves icepunch/drainpunch/wildcharge/swordsdance)
+  fezandipiti (fainted; item leftovers, ability toxicchain, tera steel; moves gunkshot/uturn/roost/moonblast)
+  walkingwake (fainted; item choicespecs, ability protosynthesis; moves flamethrower/dracometeor/hydropump/flipturn)
+  giratina (fainted; item leftovers, ability pressure; moves defog/shadowball/dragontail/willowisp)
+  pecharunt (fainted; item rockyhelmet, ability poisonpuppeteer; moves malignantchain/partingshot/recover/shadowball)
+  chansey (fainted; item eviolite, ability naturalcure; moves softboiled/seismictoss/thunderwave/healbell)
+theirs (as seen):
+  whimsicott (fainted; item unknown_item, ability ?; moves moonblast)
+  enamorus (fainted; item unknown_item, ability ?; moves superpower)
+  hawlucha (fainted; item ?, ability ?; moves closecombat)
+  perrserker (fainted; item unknown_item, ability ?; moves closecombat)
+  polteageistantique (fainted; item unknown_item, ability ?; moves shadowball/terablast)
+  kingambit (32%; item leftovers, ability ?; moves kowtowcleave)
+
+-- turn 0
+  switch|p1a: Iron Hands|Iron Hands, L79|373/373
+  switch|p2a: Whimsicott|Whimsicott, L84, M|100/100
+-- turn 1
+  WE CHOSE: switch to fezandipiti - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -end|p1a: Iron Hands|Quark Drive|[silent]
+  switch|p1a: Fezandipiti|Fezandipiti, L82, M|278/278
+  move|p2a: Whimsicott|Moonblast|p1a: Fezandipiti
+  -resisted|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|247/278
+  -heal|p1a: Fezandipiti|264/278|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack gunkshot - our hp 0.95, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Fezandipiti
+  -resisted|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|231/278
+  move|p1a: Fezandipiti|Gunk Shot|p2a: Whimsicott
+  -supereffective|p2a: Whimsicott
+  -damage|p2a: Whimsicott|0 fnt
+  faint|p2a: Whimsicott
+  -heal|p1a: Fezandipiti|248/278|[from] item: Leftovers
+  switch|p2a: Enamorus|Enamorus, L79, F|100/100
+-- turn 3
+  WE CHOSE: attack gunkshot - our hp 0.89, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p2a: Enamorus|Superpower|p1a: Fezandipiti
+  -resisted|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|224/278
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  move|p1a: Fezandipiti|Gunk Shot|p2a: Enamorus
+  -supereffective|p2a: Enamorus
+  -damage|p2a: Enamorus|23/100
+  -heal|p1a: Fezandipiti|241/278|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack gunkshot - our hp 0.87, theirs 0.23, predicted move (revealed) hits us x0.25
+  move|p2a: Enamorus|Superpower|p1a: Fezandipiti
+  -resisted|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|206/278
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  move|p1a: Fezandipiti|Gunk Shot|p2a: Enamorus|[miss]
+  -miss|p1a: Fezandipiti|p2a: Enamorus
+  -heal|p1a: Fezandipiti|223/278|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack gunkshot - our hp 0.80, theirs 0.23, predicted move (revealed) hits us x0.25
+  move|p2a: Enamorus|Superpower|p1a: Fezandipiti
+  -resisted|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|176/278
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  move|p1a: Fezandipiti|Gunk Shot|p2a: Enamorus
+  -supereffective|p2a: Enamorus
+  -damage|p2a: Enamorus|0 fnt
+  faint|p2a: Enamorus
+  -heal|p1a: Fezandipiti|193/278|[from] item: Leftovers
+  switch|p2a: Hawlucha|Hawlucha, L80, M|100/100
+-- turn 6
+  WE CHOSE: attack+tera moonblast - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to pecharunt - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  -terastallize|p1a: Fezandipiti|Steel
+  move|p2a: Hawlucha|Close Combat|p1a: Fezandipiti
+  -supereffective|p1a: Fezandipiti
+  -crit|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|0 fnt
+  -unboost|p2a: Hawlucha|def|1
+  -unboost|p2a: Hawlucha|spd|1
+  faint|p1a: Fezandipiti
+  -enditem|p2a: Hawlucha|White Herb
+  -clearnegativeboost|p2a: Hawlucha|[silent]
+  switch|p1a: Pecharunt|Pecharunt, L77|262/262
+-- turn 7
+  WE CHOSE: attack malignantchain - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Pecharunt
+  -immune|p1a: Pecharunt
+  move|p1a: Pecharunt|Malignant Chain|p2a: Hawlucha
+  -damage|p2a: Hawlucha|58/100
+-- turn 8
+  WE CHOSE: attack malignantchain - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Pecharunt
+  -immune|p1a: Pecharunt
+  move|p1a: Pecharunt|Malignant Chain|p2a: Hawlucha
+  -damage|p2a: Hawlucha|12/100
+-- turn 9
+  WE CHOSE: attack malignantchain - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Pecharunt
+  -immune|p1a: Pecharunt
+  move|p1a: Pecharunt|Malignant Chain|p2a: Hawlucha
+  -damage|p2a: Hawlucha|0 fnt
+  faint|p2a: Hawlucha
+  switch|p2a: Perrserker|Perrserker, L89, F|100/100
+-- turn 10
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Pecharunt|Shadow Ball|p2a: Perrserker
+  -damage|p2a: Perrserker|67/100
+  move|p2a: Perrserker|Close Combat|p1a: Pecharunt
+  -immune|p1a: Pecharunt
+-- turn 11
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.67, predicted move (revealed) hits us x0
+  move|p1a: Pecharunt|Shadow Ball|p2a: Perrserker
+  -damage|p2a: Perrserker|35/100
+  move|p2a: Perrserker|Close Combat|p1a: Pecharunt
+  -immune|p1a: Pecharunt
+-- turn 12
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x0
+  move|p1a: Pecharunt|Shadow Ball|p2a: Perrserker
+  -damage|p2a: Perrserker|5/100
+  move|p2a: Perrserker|Close Combat|p1a: Pecharunt
+  -immune|p1a: Pecharunt
+-- turn 13
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.05, predicted move (revealed) hits us x0
+  move|p1a: Pecharunt|Shadow Ball|p2a: Perrserker
+  -damage|p2a: Perrserker|0 fnt
+  faint|p2a: Perrserker
+  switch|p2a: Polteageist|Polteageist-Antique, L78|100/100
+-- turn 14
+  WE CHOSE: switch to ironhands (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  switch|p1a: Iron Hands|Iron Hands, L79|373/373
+  move|p2a: Polteageist|Shadow Ball|p1a: Iron Hands
+  -damage|p1a: Iron Hands|258/373
+  -heal|p1a: Iron Hands|281/373|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: switch to chansey - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x1
+  -end|p1a: Iron Hands|Quark Drive|[silent]
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 16
+  WE CHOSE: switch to walkingwake (hand policy: heal softboiled) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Walking Wake|Walking Wake, L79|286/286
+  move|p2a: Polteageist|Shadow Ball|p1a: Walking Wake
+  -damage|p1a: Walking Wake|189/286
+-- turn 17
+  WE CHOSE: switch to chansey - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  -end|p1a: Walking Wake|Protosynthesis|[silent]
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 18
+  WE CHOSE: switch to walkingwake (hand policy: heal softboiled) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Walking Wake|Walking Wake, L79|189/286
+  move|p2a: Polteageist|Shadow Ball|p1a: Walking Wake
+  -damage|p1a: Walking Wake|78/286
+  -unboost|p1a: Walking Wake|spd|1
+-- turn 19
+  WE CHOSE: switch to chansey - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x1
+  -end|p1a: Walking Wake|Protosynthesis|[silent]
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 20
+  WE CHOSE: switch to walkingwake (hand policy: heal softboiled) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to chansey - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Walking Wake|Walking Wake, L79|78/286
+  move|p2a: Polteageist|Shadow Ball|p1a: Walking Wake
+  -damage|p1a: Walking Wake|0 fnt
+  faint|p1a: Walking Wake
+  -end|p1a: Walking Wake|Protosynthesis|[silent]
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+-- turn 21
+  WE CHOSE: switch to ironhands (hand policy: heal softboiled) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Iron Hands|Iron Hands, L79|281/373
+  move|p2a: Polteageist|Shadow Ball|p1a: Iron Hands
+  -damage|p1a: Iron Hands|161/373
+  -heal|p1a: Iron Hands|184/373|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: switch to chansey - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  -end|p1a: Iron Hands|Quark Drive|[silent]
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 23
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 24
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 25
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 26
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 27
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 28
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 29
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 30
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 31
+  WE CHOSE: switch to ironhands (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Iron Hands|Iron Hands, L79|184/373
+  move|p2a: Polteageist|Shadow Ball|p1a: Iron Hands
+  -damage|p1a: Iron Hands|64/373
+  -heal|p1a: Iron Hands|87/373|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: switch to chansey - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x1
+  -end|p1a: Iron Hands|Quark Drive|[silent]
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 33
+  WE CHOSE: switch to ironhands (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to chansey - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Iron Hands|Iron Hands, L79|87/373
+  move|p2a: Polteageist|Shadow Ball|p1a: Iron Hands
+  -damage|p1a: Iron Hands|0 fnt
+  faint|p1a: Iron Hands
+  -end|p1a: Iron Hands|Quark Drive|[silent]
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+-- turn 34
+  WE CHOSE: switch to giratina (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Giratina|Giratina, L75|349/349
+  -ability|p1a: Giratina|Pressure
+  move|p2a: Polteageist|Shadow Ball|p1a: Giratina
+  -supereffective|p1a: Giratina
+  -damage|p1a: Giratina|185/349
+  -heal|p1a: Giratina|206/349|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: switch to chansey - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Polteageist|Shadow Ball|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 36
+  WE CHOSE: switch to giratina (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to chansey - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Giratina|Giratina, L75|206/349
+  -ability|p1a: Giratina|Pressure
+  move|p2a: Polteageist|Shadow Ball|p1a: Giratina
+  -supereffective|p1a: Giratina
+  -crit|p1a: Giratina
+  -damage|p1a: Giratina|0 fnt
+  faint|p1a: Giratina
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+-- turn 37
+  WE CHOSE: switch to pecharunt (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Pecharunt|Pecharunt, L77|262/262
+  move|p2a: Polteageist|Tera Blast|p1a: Pecharunt
+  -immune|p1a: Pecharunt
+-- turn 38
+  WE CHOSE: attack shadowball (hand policy: switch to chansey) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Pecharunt|Shadow Ball|p2a: Polteageist
+  -supereffective|p2a: Polteageist
+  -damage|p2a: Polteageist|46/100
+  -start|p1a: Pecharunt|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p2a: Polteageist
+  move|p2a: Polteageist|Tera Blast|p1a: Pecharunt
+  -immune|p1a: Pecharunt
+-- turn 39
+  WE CHOSE: switch to chansey - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x2
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Polteageist|Tera Blast|p1a: Chansey
+  -damage|p1a: Chansey|526/564
+-- turn 40
+  WE CHOSE: attack seismictoss - our hp 0.93, theirs 0.46, predicted move (revealed) hits us x0
+  move|p2a: Polteageist|Tera Blast|p1a: Chansey
+  -crit|p1a: Chansey
+  -damage|p1a: Chansey|472/564
+  move|p1a: Chansey|Seismic Toss|p2a: Polteageist
+  -immune|p2a: Polteageist
+-- turn 41
+  WE CHOSE: attack seismictoss - our hp 0.84, theirs 0.46, predicted move (revealed) hits us x0
+  move|p2a: Polteageist|Tera Blast|p1a: Chansey
+  -damage|p1a: Chansey|437/564
+  move|p1a: Chansey|Seismic Toss|p2a: Polteageist
+  -immune|p2a: Polteageist
+-- turn 42
+  WE CHOSE: attack thunderwave - our hp 0.77, theirs 0.46, predicted move (revealed) hits us x0
+  move|p2a: Polteageist|Tera Blast|p1a: Chansey
+  -damage|p1a: Chansey|398/564
+  move|p1a: Chansey|Thunder Wave|p2a: Polteageist
+  -status|p2a: Polteageist|par
+-- turn 43
+  WE CHOSE: attack thunderwave - our hp 0.71, theirs 0.46, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Polteageist
+  -fail|p2a: Polteageist|par
+  move|p2a: Polteageist|Tera Blast|p1a: Chansey
+  -damage|p1a: Chansey|359/564
+-- turn 44
+  WE CHOSE: attack seismictoss - our hp 0.64, theirs 0.46, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Seismic Toss|p2a: Polteageist
+  -immune|p2a: Polteageist
+  cant|p2a: Polteageist|par
+-- turn 45
+  WE CHOSE: attack seismictoss - our hp 0.64, theirs 0.46, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Seismic Toss|p2a: Polteageist
+  -immune|p2a: Polteageist
+  move|p2a: Polteageist|Tera Blast|p1a: Chansey
+  -damage|p1a: Chansey|319/564
+-- turn 46
+  WE CHOSE: attack seismictoss - our hp 0.57, theirs 0.46, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Seismic Toss|p2a: Polteageist
+  -immune|p2a: Polteageist
+  move|p2a: Polteageist|Tera Blast|p1a: Chansey
+  -damage|p1a: Chansey|284/564
+-- turn 47
+  WE CHOSE: attack seismictoss - our hp 0.50, theirs 0.46, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Seismic Toss|p2a: Polteageist
+  -immune|p2a: Polteageist
+  cant|p2a: Polteageist|par
+-- turn 48
+  WE CHOSE: attack seismictoss - our hp 0.50, theirs 0.46, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Seismic Toss|p2a: Polteageist
+  -immune|p2a: Polteageist
+  move|p2a: Polteageist|Tera Blast|p1a: Chansey
+  -damage|p1a: Chansey|248/564
+-- turn 49
+  WE CHOSE: attack seismictoss - our hp 0.44, theirs 0.46, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Seismic Toss|p2a: Polteageist
+  -immune|p2a: Polteageist
+  move|p2a: Polteageist|Tera Blast|p1a: Chansey
+  -damage|p1a: Chansey|211/564
+-- turn 50
+  WE CHOSE: attack seismictoss - our hp 0.37, theirs 0.46, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Seismic Toss|p2a: Polteageist
+  -immune|p2a: Polteageist
+  move|p2a: Polteageist|Tera Blast|p1a: Chansey
+  -damage|p1a: Chansey|173/564
+-- turn 51
+  WE CHOSE: attack seismictoss - our hp 0.31, theirs 0.46, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Seismic Toss|p2a: Polteageist
+  -immune|p2a: Polteageist
+  move|p2a: Polteageist|Tera Blast|p1a: Chansey
+  -damage|p1a: Chansey|133/564
+-- turn 52
+  WE CHOSE: switch to pecharunt (hand policy: attack seismictoss) - our hp 0.24, theirs 0.46, predicted move (revealed) hits us x0
+  switch|p1a: Pecharunt|Pecharunt, L77|262/262
+  move|p2a: Polteageist|Tera Blast|p1a: Pecharunt
+  -immune|p1a: Pecharunt
+-- turn 53
+  WE CHOSE: attack shadowball (hand policy: switch to chansey) - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x2
+  move|p1a: Pecharunt|Shadow Ball|p2a: Polteageist
+  -supereffective|p2a: Polteageist
+  -damage|p2a: Polteageist|0 fnt
+  faint|p2a: Polteageist
+  switch|p2a: Kingambit|Kingambit, L74, M|100/100
+  -activate|p2a: Kingambit|ability: Supreme Overlord
+  -start|p2a: Kingambit|fallen5|[silent]
+-- turn 54
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Pecharunt|Shadow Ball|p2a: Kingambit
+  -resisted|p2a: Kingambit
+  -damage|p2a: Kingambit|85/100
+  move|p2a: Kingambit|Kowtow Cleave|p1a: Pecharunt
+  -supereffective|p1a: Pecharunt
+  -damage|p1a: Pecharunt|76/262
+  -damage|p2a: Kingambit|68/100|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+  -heal|p2a: Kingambit|74/100|[from] item: Leftovers
+-- turn 55
+  WE CHOSE: heal recover (hand policy: attack shadowball) - our hp 0.29, theirs 0.74, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to chansey - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x2
+  move|p1a: Pecharunt|Recover|p1a: Pecharunt
+  -heal|p1a: Pecharunt|207/262
+  move|p2a: Kingambit|Kowtow Cleave|p1a: Pecharunt
+  -supereffective|p1a: Pecharunt
+  -crit|p1a: Pecharunt
+  -damage|p1a: Pecharunt|0 fnt
+  -damage|p2a: Kingambit|58/100|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+  faint|p1a: Pecharunt
+  -heal|p2a: Kingambit|63/100|[from] item: Leftovers
+  switch|p1a: Chansey|Chansey, L85, F|133/564
+-- turn 56
+  WE CHOSE: attack seismictoss - our hp 0.24, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Seismic Toss|p2a: Kingambit
+  -damage|p2a: Kingambit|32/100
+  move|p2a: Kingambit|Kowtow Cleave|p1a: Chansey
+  -damage|p1a: Chansey|0 fnt
+  faint|p1a: Chansey
+  deinit

@@ -1,0 +1,196 @@
+battle 700 (battle-gen9randombattle-1012799): lost in 20 turns, 1 of theirs left; we are p1
+
+ours:
+  spectrier (fainted; item leftovers, ability grimneigh; moves terablast/substitute/shadowball/nastyplot)
+  jumpluff (fainted; item ?, ability infiltrator; moves substitute/leechseed/strengthsap/acrobatics)
+  rillaboom (fainted; item choiceband, ability grassysurge, tera grass; moves grassyglide/knockoff/woodhammer/uturn)
+  arcaninehisui (fainted; item heavydutyboots, ability rockhead; moves morningsun/headsmash/flareblitz/extremespeed)
+  thundurus (fainted; item ?, ability prankster; moves thunderbolt/focusblast/thunderwave/acrobatics)
+  arceusfighting (fainted; item fistplate, ability multitype; moves cosmicpower/bodypress/recover/storedpower)
+theirs (as seen):
+  miraidon (fainted; item lifeorb, ability hadronengine; moves dracometeor)
+  jolteon (fainted; item unknown_item, ability ?; moves thunderbolt)
+  arboliva (fainted; item leftovers, ability ?; moves earthpower)
+  skuntank (fainted; item lifeorb, ability ?; moves gunkshot)
+  spectrier (fainted; item lifeorb, ability grimneigh; moves terablast)
+  bombirdier (57%; item unknown_item, ability ?; moves bravebird)
+
+-- turn 0
+  switch|p1a: Spectrier|Spectrier, L75|274/274
+  switch|p2a: Miraidon|Miraidon, L65|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+-- turn 1
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Spectrier|Shadow Ball|p2a: Miraidon
+  -damage|p2a: Miraidon|60/100
+  move|p2a: Miraidon|Draco Meteor|p1a: Spectrier
+  -damage|p1a: Spectrier|47/274
+  -unboost|p2a: Miraidon|spa|2
+  -damage|p2a: Miraidon|50/100|[from] item: Life Orb
+  -heal|p1a: Spectrier|64/274|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack shadowball - our hp 0.23, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to arcaninehisui - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Spectrier|Shadow Ball|p2a: Miraidon
+  -damage|p2a: Miraidon|6/100
+  move|p2a: Miraidon|Draco Meteor|p1a: Spectrier
+  -damage|p1a: Spectrier|0 fnt
+  -unboost|p2a: Miraidon|spa|2
+  faint|p1a: Spectrier
+  -damage|p2a: Miraidon|0 fnt|[from] item: Life Orb
+  faint|p2a: Miraidon
+  switch|p1a: Arcanine|Arcanine-Hisui, L79, M|280/280
+  switch|p2a: Jolteon|Jolteon, L84, F|100/100
+-- turn 3
+  WE CHOSE: attack headsmash - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Arcanine
+  -damage|p1a: Arcanine|60/280
+  move|p1a: Arcanine|Head Smash|p2a: Jolteon
+  -damage|p2a: Jolteon|13/100
+-- turn 4
+  WE CHOSE: heal morningsun - our hp 0.21, theirs 0.13, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rillaboom - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Arcanine
+  -damage|p1a: Arcanine|0 fnt
+  faint|p1a: Arcanine
+  switch|p1a: Rillaboom|Rillaboom, L79, M|288/288
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+-- turn 5
+  WE CHOSE: attack+tera woodhammer - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Rillaboom|Grass
+  move|p2a: Jolteon|Thunderbolt|p1a: Rillaboom
+  -resisted|p1a: Rillaboom
+  -damage|p1a: Rillaboom|182/288
+  move|p1a: Rillaboom|Wood Hammer|p2a: Jolteon
+  -damage|p2a: Jolteon|0 fnt
+  faint|p2a: Jolteon
+  -damage|p1a: Rillaboom|172/288|[from] Recoil
+  -heal|p1a: Rillaboom|190/288|[from] Grassy Terrain
+  switch|p2a: Arboliva|Arboliva, L91, F|100/100
+-- turn 6
+  WE CHOSE: attack woodhammer - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Rillaboom|Wood Hammer|p2a: Arboliva
+  -resisted|p2a: Arboliva
+  -damage|p2a: Arboliva|41/100
+  -damage|p1a: Rillaboom|133/288|[from] Recoil
+  move|p2a: Arboliva|Earth Power|p1a: Rillaboom
+  -resisted|p1a: Rillaboom
+  -damage|p1a: Rillaboom|75/288
+  -heal|p1a: Rillaboom|93/288|[from] Grassy Terrain
+  -heal|p2a: Arboliva|47/100|[from] Grassy Terrain
+  -heal|p2a: Arboliva|53/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack woodhammer - our hp 0.32, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p1a: Rillaboom|Wood Hammer|p2a: Arboliva
+  -resisted|p2a: Arboliva
+  -damage|p2a: Arboliva|0 fnt
+  faint|p2a: Arboliva
+  -damage|p1a: Rillaboom|43/288|[from] Recoil
+  -heal|p1a: Rillaboom|61/288|[from] Grassy Terrain
+  switch|p2a: Skuntank|Skuntank, L84, M|100/100
+-- turn 8
+  WE CHOSE: attack woodhammer - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to thundurus - our hp 0.00, theirs 0.97, predicted move (revealed) hits us x2
+  move|p2a: Skuntank|Gunk Shot|p1a: Rillaboom
+  -supereffective|p1a: Rillaboom
+  -damage|p1a: Rillaboom|0 fnt
+  faint|p1a: Rillaboom
+  -damage|p2a: Skuntank|90/100|[from] item: Life Orb
+  -heal|p2a: Skuntank|97/100|[from] Grassy Terrain
+  switch|p1a: Thundurus|Thundurus, L80, M|258/258
+-- turn 9
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.97, predicted move (revealed) hits us x1
+  move|p1a: Thundurus|Thunderbolt|p2a: Skuntank
+  -damage|p2a: Skuntank|51/100
+  move|p2a: Skuntank|Gunk Shot|p1a: Thundurus
+  -damage|p1a: Thundurus|55/258
+  -damage|p2a: Skuntank|41/100|[from] item: Life Orb
+  -heal|p2a: Skuntank|47/100|[from] Grassy Terrain
+  -fieldend|move: Grassy Terrain
+-- turn 10
+  WE CHOSE: attack thunderbolt - our hp 0.21, theirs 0.47, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to arceusfighting - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Thundurus|Thunderbolt|p2a: Skuntank
+  -damage|p2a: Skuntank|4/100
+  move|p2a: Skuntank|Gunk Shot|p1a: Thundurus
+  -damage|p1a: Thundurus|0 fnt
+  faint|p1a: Thundurus
+  -damage|p2a: Skuntank|0 fnt|[from] item: Life Orb
+  faint|p2a: Skuntank
+  switch|p1a: Arceus|Arceus-Fighting, L70|284/284
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+-- turn 11
+  WE CHOSE: attack storedpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Spectrier|Tera Blast|p1a: Arceus
+  -damage|p1a: Arceus|201/284
+  -damage|p2a: Spectrier|91/100|[from] item: Life Orb
+  move|p1a: Arceus|Stored Power|p2a: Spectrier
+  -damage|p2a: Spectrier|85/100
+-- turn 12
+  WE CHOSE: attack storedpower - our hp 0.71, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Tera Blast|p1a: Arceus
+  -damage|p1a: Arceus|119/284
+  -damage|p2a: Spectrier|75/100|[from] item: Life Orb
+  move|p1a: Arceus|Stored Power|p2a: Spectrier
+  -damage|p2a: Spectrier|70/100
+-- turn 13
+  WE CHOSE: heal recover - our hp 0.42, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Tera Blast|p1a: Arceus
+  -damage|p1a: Arceus|37/284
+  -damage|p2a: Spectrier|60/100|[from] item: Life Orb
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|179/284
+-- turn 14
+  WE CHOSE: attack storedpower - our hp 0.63, theirs 0.60, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Tera Blast|p1a: Arceus
+  -damage|p1a: Arceus|102/284
+  -damage|p2a: Spectrier|50/100|[from] item: Life Orb
+  move|p1a: Arceus|Stored Power|p2a: Spectrier
+  -damage|p2a: Spectrier|45/100
+-- turn 15
+  WE CHOSE: heal recover - our hp 0.36, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Tera Blast|p1a: Arceus
+  -damage|p1a: Arceus|18/284
+  -damage|p2a: Spectrier|35/100|[from] item: Life Orb
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|160/284
+-- turn 16
+  WE CHOSE: attack storedpower - our hp 0.56, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Tera Blast|p1a: Arceus
+  -damage|p1a: Arceus|79/284
+  -damage|p2a: Spectrier|25/100|[from] item: Life Orb
+  move|p1a: Arceus|Stored Power|p2a: Spectrier
+  -damage|p2a: Spectrier|19/100
+-- turn 17
+  WE CHOSE: heal recover - our hp 0.28, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Tera Blast|p1a: Arceus
+  -damage|p1a: Arceus|8/284
+  -damage|p2a: Spectrier|10/100|[from] item: Life Orb
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|150/284
+-- turn 18
+  WE CHOSE: attack storedpower - our hp 0.53, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Tera Blast|p1a: Arceus
+  -damage|p1a: Arceus|71/284
+  -damage|p2a: Spectrier|0 fnt|[from] item: Life Orb
+  faint|p2a: Spectrier
+  move|p1a: Arceus|Stored Power|p2: Spectrier|[notarget]
+  -fail|p1a: Arceus
+  switch|p2a: Bombirdier|Bombirdier, L85, M|100/100
+-- turn 19
+  WE CHOSE: attack bodypress - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to jumpluff - our hp 0.00, theirs 0.92, predicted move (revealed) hits us x2
+  move|p2a: Bombirdier|Brave Bird|p1a: Arceus
+  -supereffective|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  faint|p1a: Arceus
+  -damage|p2a: Bombirdier|92/100|[from] Recoil
+  switch|p1a: Jumpluff|Jumpluff, L87, F|271/271
+-- turn 20
+  WE CHOSE: attack acrobatics - our hp 1.00, theirs 0.92, predicted move (revealed) hits us x2
+  move|p2a: Bombirdier|Brave Bird|p1a: Jumpluff
+  -supereffective|p1a: Jumpluff
+  -damage|p1a: Jumpluff|0 fnt
+  faint|p1a: Jumpluff
+  -damage|p2a: Bombirdier|57/100|[from] Recoil
+  deinit

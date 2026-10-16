@@ -1,0 +1,248 @@
+battle 1646 (battle-gen9randombattle-1021842): lost in 25 turns, 1 of theirs left; we are p1
+
+ours:
+  deoxysspeed (fainted; item lifeorb, ability pressure, tera psychic; moves focusblast/darkpulse/psychoboost/nastyplot)
+  alomomola (fainted; item heavydutyboots, ability regenerator; moves flipturn/scald/protect/wish)
+  electrodehisui (fainted; item leftovers, ability soundproof; moves leechseed/substitute/gigadrain/thunderbolt)
+  drednaw (fainted; item ?, ability shellarmor; moves shellsmash/liquidation/stoneedge/earthquake)
+  tornadustherian (fainted; item choicespecs, ability regenerator; moves bleakwindstorm/heatwave/focusblast/uturn)
+  granbull (fainted; item leftovers, ability intimidate; moves roar/playrough/earthquake/thunderwave)
+theirs (as seen):
+  floatzel (fainted; item unknown_item, ability ?; moves -)
+  manaphy (fainted; item leftovers, ability hydration; moves surf)
+  vikavolt (fainted; item unknown_item, ability levitate; moves energyball)
+  tinkaton (fainted; item leftovers, ability moldbreaker; moves gigatonhammer/playrough)
+  weezinggalar (fainted; item leftovers, ability levitate; moves gunkshot/fireblast)
+  rotomfrost (51%; item unknown_item, ability levitate; moves blizzard)
+
+-- turn 0
+  switch|p1a: Deoxys|Deoxys-Speed, L82|216/216
+  switch|p2a: Floatzel|Floatzel, L86, F|100/100
+  -ability|p1a: Deoxys|Pressure
+-- turn 1
+  WE CHOSE: attack+tera psychoboost - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Deoxys|Psychic
+  move|p1a: Deoxys|Psycho Boost|p2a: Floatzel
+  -damage|p2a: Floatzel|0 fnt
+  -unboost|p1a: Deoxys|spa|2
+  faint|p2a: Floatzel
+  -damage|p1a: Deoxys|195/216|[from] item: Life Orb
+  switch|p2a: Manaphy|Manaphy, L78|100/100
+-- turn 2
+  WE CHOSE: attack psychoboost - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Manaphy
+  -damage|p2a: Manaphy|61/100
+  -unboost|p1a: Deoxys|spa|2
+  -damage|p1a: Deoxys|174/216|[from] item: Life Orb
+  move|p2a: Manaphy|Surf|p1a: Deoxys
+  -damage|p1a: Deoxys|86/216
+  -heal|p2a: Manaphy|67/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack psychoboost - our hp 0.40, theirs 0.67, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to electrodehisui - our hp 0.00, theirs 0.47, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Manaphy
+  -damage|p2a: Manaphy|41/100
+  -unboost|p1a: Deoxys|spa|2
+  -damage|p1a: Deoxys|65/216|[from] item: Life Orb
+  move|p2a: Manaphy|Surf|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  faint|p1a: Deoxys
+  -heal|p2a: Manaphy|47/100|[from] item: Leftovers
+  switch|p1a: Electrode|Electrode-Hisui, L87|246/246
+-- turn 4
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p1a: Electrode|Thunderbolt|p2a: Manaphy
+  -supereffective|p2a: Manaphy
+  -damage|p2a: Manaphy|0 fnt
+  faint|p2a: Manaphy
+  switch|p2a: Vikavolt|Vikavolt, L83, M|100/100
+-- turn 5
+  WE CHOSE: switch to tornadustherian - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Tornadus|Tornadus-Therian, L79, M|254/254
+  move|p2a: Vikavolt|Energy Ball|p1a: Tornadus
+  -resisted|p1a: Tornadus
+  -damage|p1a: Tornadus|206/254
+-- turn 6
+  WE CHOSE: attack heatwave - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|Heat Wave|p2a: Vikavolt|[miss]
+  -miss|p1a: Tornadus|p2a: Vikavolt
+  move|p2a: Vikavolt|Energy Ball|p1a: Tornadus
+  -resisted|p1a: Tornadus
+  -damage|p1a: Tornadus|160/254
+-- turn 7
+  WE CHOSE: attack heatwave - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|Heat Wave|p2a: Vikavolt|[miss]
+  -miss|p1a: Tornadus|p2a: Vikavolt
+  move|p2a: Vikavolt|Energy Ball|p1a: Tornadus
+  -resisted|p1a: Tornadus
+  -damage|p1a: Tornadus|115/254
+-- turn 8
+  WE CHOSE: attack heatwave - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|Heat Wave|p2a: Vikavolt
+  -supereffective|p2a: Vikavolt
+  -damage|p2a: Vikavolt|10/100
+  move|p2a: Vikavolt|Energy Ball|p1a: Tornadus
+  -resisted|p1a: Tornadus
+  -crit|p1a: Tornadus
+  -damage|p1a: Tornadus|46/254
+-- turn 9
+  WE CHOSE: attack heatwave - our hp 0.18, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|Heat Wave|p2a: Vikavolt
+  -supereffective|p2a: Vikavolt
+  -damage|p2a: Vikavolt|0 fnt
+  faint|p2a: Vikavolt
+  switch|p2a: Tinkaton|Tinkaton, L82, F|100/100
+  -ability|p2a: Tinkaton|Mold Breaker
+-- turn 10
+  WE CHOSE: attack heatwave - our hp 0.18, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to electrodehisui - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p1a: Tornadus|Heat Wave|p2a: Tinkaton
+  -supereffective|p2a: Tinkaton
+  -damage|p2a: Tinkaton|38/100
+  move|p2a: Tinkaton|Gigaton Hammer|p1a: Tornadus
+  -damage|p1a: Tornadus|0 fnt
+  faint|p1a: Tornadus
+  -heal|p2a: Tinkaton|45/100|[from] item: Leftovers
+  switch|p1a: Electrode|Electrode-Hisui, L87|246/246
+-- turn 11
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p1a: Electrode|Thunderbolt|p2a: Tinkaton
+  -damage|p2a: Tinkaton|17/100
+  -status|p2a: Tinkaton|par
+  move|p2a: Tinkaton|Play Rough|p1a: Electrode
+  -damage|p1a: Electrode|168/246
+  -heal|p1a: Electrode|183/246|[from] item: Leftovers
+  -heal|p2a: Tinkaton|23/100 par|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack thunderbolt - our hp 0.74, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p1a: Electrode|Thunderbolt|p2a: Tinkaton
+  -damage|p2a: Tinkaton|0 fnt
+  faint|p2a: Tinkaton
+  -heal|p1a: Electrode|198/246|[from] item: Leftovers
+  switch|p2a: Weezing|Weezing-Galar, L86, M|100/100
+-- turn 13
+  WE CHOSE: switch to drednaw - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Drednaw|Drednaw, L81, M|278/278
+  move|p2a: Weezing|Gunk Shot|p1a: Drednaw
+  -resisted|p1a: Drednaw
+  -damage|p1a: Drednaw|209/278
+  -status|p1a: Drednaw|psn
+  -damage|p1a: Drednaw|175/278 psn|[from] psn
+-- turn 14
+  WE CHOSE: setup shellsmash - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Drednaw|Shell Smash|p1a: Drednaw
+  -unboost|p1a: Drednaw|def|1
+  -unboost|p1a: Drednaw|spd|1
+  -boost|p1a: Drednaw|atk|2
+  -boost|p1a: Drednaw|spa|2
+  -boost|p1a: Drednaw|spe|2
+  -enditem|p1a: Drednaw|White Herb
+  -clearnegativeboost|p1a: Drednaw|[silent]
+  move|p2a: Weezing|Gunk Shot|p1a: Drednaw
+  -resisted|p1a: Drednaw
+  -damage|p1a: Drednaw|115/278 psn
+  -damage|p1a: Drednaw|81/278 psn|[from] psn
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.29, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to alomomola - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Drednaw|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Drednaw
+  -resisted|p1a: Drednaw
+  -damage|p1a: Drednaw|20/278 psn
+  -damage|p1a: Drednaw|0 fnt|[from] psn
+  faint|p1a: Drednaw
+  switch|p1a: Alomomola|Alomomola, L87, M|429/429
+-- turn 16
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Alomomola|Scald|p2a: Weezing
+  -damage|p2a: Weezing|75/100
+  move|p2a: Weezing|Gunk Shot|p1a: Alomomola
+  -damage|p1a: Alomomola|302/429
+  -status|p1a: Alomomola|psn
+  -heal|p2a: Weezing|81/100|[from] item: Leftovers
+  -damage|p1a: Alomomola|249/429 psn|[from] psn
+-- turn 17
+  WE CHOSE: attack scald - our hp 0.58, theirs 0.81, predicted move (revealed) hits us x1
+  move|p1a: Alomomola|Scald|p2a: Weezing
+  -damage|p2a: Weezing|58/100
+  move|p2a: Weezing|Gunk Shot|p1a: Alomomola
+  -damage|p1a: Alomomola|129/429 psn
+  -heal|p2a: Weezing|64/100|[from] item: Leftovers
+  -damage|p1a: Alomomola|76/429 psn|[from] psn
+-- turn 18
+  WE CHOSE: attack scald - our hp 0.18, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to granbull - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Alomomola|Scald|p2a: Weezing
+  -damage|p2a: Weezing|43/100
+  move|p2a: Weezing|Gunk Shot|p1a: Alomomola
+  -damage|p1a: Alomomola|0 fnt
+  faint|p1a: Alomomola
+  -heal|p2a: Weezing|49/100|[from] item: Leftovers
+  switch|p1a: Granbull|Granbull, L88, F|302/302
+  -ability|p1a: Granbull|Intimidate|boost
+  -unboost|p2a: Weezing|atk|1
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x2
+  move|p2a: Weezing|Gunk Shot|p1a: Granbull|[miss]
+  -miss|p2a: Weezing|p1a: Granbull
+  move|p1a: Granbull|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -heal|p2a: Weezing|54/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.54, predicted move (revealed) hits us x2
+  move|p2a: Weezing|Gunk Shot|p1a: Granbull
+  -supereffective|p1a: Granbull
+  -damage|p1a: Granbull|120/302
+  -status|p1a: Granbull|psn
+  move|p1a: Granbull|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -heal|p2a: Weezing|60/100|[from] item: Leftovers
+  -heal|p1a: Granbull|138/302 psn|[from] item: Leftovers
+  -damage|p1a: Granbull|101/302 psn|[from] psn
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 0.33, theirs 0.60, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to electrodehisui - our hp 0.00, theirs 0.66, predicted move (revealed) hits us x2
+  move|p2a: Weezing|Fire Blast|p1a: Granbull
+  -damage|p1a: Granbull|2/302 psn
+  move|p1a: Granbull|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -heal|p2a: Weezing|66/100|[from] item: Leftovers
+  -heal|p1a: Granbull|20/302 psn|[from] item: Leftovers
+  -damage|p1a: Granbull|0 fnt|[from] psn
+  faint|p1a: Granbull
+  switch|p1a: Electrode|Electrode-Hisui, L87|198/246
+-- turn 22
+  WE CHOSE: attack thunderbolt - our hp 0.80, theirs 0.66, predicted move (revealed) hits us x2
+  move|p1a: Electrode|Thunderbolt|p2a: Weezing
+  -damage|p2a: Weezing|27/100
+  move|p2a: Weezing|Fire Blast|p1a: Electrode
+  -supereffective|p1a: Electrode
+  -damage|p1a: Electrode|50/246
+  -heal|p1a: Electrode|65/246|[from] item: Leftovers
+  -heal|p2a: Weezing|33/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack thunderbolt - our hp 0.26, theirs 0.33, predicted move (revealed) hits us x2
+  move|p1a: Electrode|Thunderbolt|p2a: Weezing
+  -crit|p2a: Weezing
+  -damage|p2a: Weezing|0 fnt
+  faint|p2a: Weezing
+  -heal|p1a: Electrode|80/246|[from] item: Leftovers
+  switch|p2a: Rotom|Rotom-Frost, L87|100/100
+-- turn 24
+  WE CHOSE: attack gigadrain - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Electrode|Giga Drain|p2a: Rotom
+  -damage|p2a: Rotom|76/100
+  -heal|p1a: Electrode|109/246|[from] drain|[of] p2a: Rotom
+  move|p2a: Rotom|Blizzard|p1a: Electrode|[miss]
+  -miss|p2a: Rotom|p1a: Electrode
+  -heal|p1a: Electrode|124/246|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack gigadrain - our hp 0.50, theirs 0.76, predicted move (revealed) hits us x2
+  move|p1a: Electrode|Giga Drain|p2a: Rotom
+  -damage|p2a: Rotom|51/100
+  -heal|p1a: Electrode|153/246|[from] drain|[of] p2a: Rotom
+  move|p2a: Rotom|Blizzard|p1a: Electrode
+  -supereffective|p1a: Electrode
+  -damage|p1a: Electrode|0 fnt
+  faint|p1a: Electrode

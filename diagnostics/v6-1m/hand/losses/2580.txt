@@ -1,0 +1,222 @@
+battle 2580 (battle-gen9randombattle-1030592): lost in 22 turns, 2 of theirs left; we are p1
+
+ours:
+  arceusbug (fainted; item insectplate, ability multitype; moves calmmind/judgment/earthpower/recover)
+  infernape (fainted; item choiceband, ability blaze, tera fire; moves closecombat/uturn/stoneedge/flareblitz)
+  reuniclus (fainted; item lifeorb, ability magicguard; moves recover/focusblast/psyshock/calmmind)
+  darkrai (fainted; item leftovers, ability baddreams; moves nastyplot/sludgebomb/darkpulse/substitute)
+  hariyama (fainted; item assaultvest, ability thickfat; moves closecombat/heavyslam/knockoff/bulletpunch)
+  ironmoth (fainted; item heavydutyboots, ability quarkdrive; moves uturn/fireblast/morningsun/sludgewave)
+theirs (as seen):
+  klawf (fainted; item unknown_item, ability angershell; moves stoneedge)
+  magmortar (fainted; item unknown_item, ability ?; moves focusblast)
+  vikavolt (fainted; item unknown_item, ability levitate; moves -)
+  slitherwing (fainted; item ?, ability protosynthesis; moves closecombat/earthquake)
+  ditto (2%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Arceus|Arceus-Bug, L73|295/295
+  switch|p2a: Klawf|Klawf, L90, M|100/100
+-- turn 1
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hariyama - our hp 0.00, theirs 0.47, predicted move (revealed) hits us x2
+  move|p1a: Arceus|Earth Power|p2a: Klawf
+  -supereffective|p2a: Klawf
+  -damage|p2a: Klawf|47/100
+  -ability|p2a: Klawf|Anger Shell|boost
+  -boost|p2a: Klawf|atk|1
+  -boost|p2a: Klawf|spa|1
+  -boost|p2a: Klawf|spe|1
+  -unboost|p2a: Klawf|def|1
+  -unboost|p2a: Klawf|spd|1
+  move|p2a: Klawf|Stone Edge|p1a: Arceus
+  -supereffective|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  faint|p1a: Arceus
+  switch|p1a: Hariyama|Hariyama, L87, M|392/392
+-- turn 2
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p2a: Klawf|Stone Edge|p1a: Hariyama
+  -resisted|p1a: Hariyama
+  -damage|p1a: Hariyama|269/392
+  move|p1a: Hariyama|Close Combat|p2a: Klawf
+  -supereffective|p2a: Klawf
+  -damage|p2a: Klawf|0 fnt
+  -unboost|p1a: Hariyama|def|1
+  -unboost|p1a: Hariyama|spd|1
+  faint|p2a: Klawf
+  switch|p2a: Magmortar|Magmortar, L88, F|100/100
+-- turn 3
+  WE CHOSE: attack closecombat - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Magmortar|Focus Blast|p1a: Hariyama
+  -crit|p1a: Hariyama
+  -damage|p1a: Hariyama|35/392
+  move|p1a: Hariyama|Close Combat|p2a: Magmortar
+  -damage|p2a: Magmortar|38/100
+  -unboost|p1a: Hariyama|def|1
+  -unboost|p1a: Hariyama|spd|1
+  -status|p1a: Hariyama|brn|[from] ability: Flame Body|[of] p2a: Magmortar
+  -damage|p1a: Hariyama|11/392 brn|[from] brn
+-- turn 4
+  WE CHOSE: attack closecombat - our hp 0.03, theirs 0.38, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironmoth - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Magmortar|Focus Blast|p1a: Hariyama
+  -damage|p1a: Hariyama|0 fnt
+  faint|p1a: Hariyama
+  switch|p1a: Iron Moth|Iron Moth, L78|253/253
+-- turn 5
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Moth|Sludge Wave|p2a: Magmortar
+  -damage|p2a: Magmortar|0 fnt
+  faint|p2a: Magmortar
+  switch|p2a: Vikavolt|Vikavolt, L83, M|100/100
+-- turn 6
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p1a: Iron Moth|Fire Blast|p2a: Vikavolt
+  -supereffective|p2a: Vikavolt
+  -damage|p2a: Vikavolt|0 fnt
+  faint|p2a: Vikavolt
+  switch|p2a: Slither Wing|Slither Wing, L81|100/100
+  -enditem|p2a: Slither Wing|Booster Energy
+  -activate|p2a: Slither Wing|ability: Protosynthesis|[fromitem]
+  -start|p2a: Slither Wing|protosynthesisatk
+-- turn 7
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Iron Moth|Fire Blast|p2a: Slither Wing
+  -supereffective|p2a: Slither Wing
+  -damage|p2a: Slither Wing|12/100
+  move|p2a: Slither Wing|Close Combat|p1a: Iron Moth
+  -resisted|p1a: Iron Moth
+  -damage|p1a: Iron Moth|124/253
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+-- turn 8
+  WE CHOSE: heal morningsun - our hp 0.49, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Moth|Morning Sun|p1a: Iron Moth
+  -heal|p1a: Iron Moth|250/253
+  move|p2a: Slither Wing|Close Combat|p1a: Iron Moth
+  -resisted|p1a: Iron Moth
+  -damage|p1a: Iron Moth|115/253
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+-- turn 9
+  WE CHOSE: heal morningsun - our hp 0.45, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Moth|Morning Sun|p1a: Iron Moth
+  -heal|p1a: Iron Moth|241/253
+  move|p2a: Slither Wing|Close Combat|p1a: Iron Moth
+  -resisted|p1a: Iron Moth
+  -damage|p1a: Iron Moth|91/253
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+-- turn 10
+  WE CHOSE: heal morningsun - our hp 0.36, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Moth|Morning Sun|p1a: Iron Moth
+  -heal|p1a: Iron Moth|217/253
+  move|p2a: Slither Wing|Close Combat|p1a: Iron Moth
+  -resisted|p1a: Iron Moth
+  -damage|p1a: Iron Moth|88/253
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+-- turn 11
+  WE CHOSE: heal morningsun - our hp 0.35, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Moth|Morning Sun|p1a: Iron Moth
+  -heal|p1a: Iron Moth|214/253
+  move|p2a: Slither Wing|Close Combat|p1a: Iron Moth
+  -resisted|p1a: Iron Moth
+  -damage|p1a: Iron Moth|74/253
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+-- turn 12
+  WE CHOSE: heal morningsun - our hp 0.29, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Moth|Morning Sun|p1a: Iron Moth
+  -heal|p1a: Iron Moth|200/253
+  move|p2a: Slither Wing|Close Combat|p1a: Iron Moth
+  -resisted|p1a: Iron Moth
+  -damage|p1a: Iron Moth|54/253
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+-- turn 13
+  WE CHOSE: heal morningsun - our hp 0.21, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Moth|Morning Sun|p1a: Iron Moth
+  -heal|p1a: Iron Moth|180/253
+  move|p2a: Slither Wing|Close Combat|p1a: Iron Moth
+  -resisted|p1a: Iron Moth
+  -damage|p1a: Iron Moth|48/253
+-- turn 14
+  WE CHOSE: heal morningsun - our hp 0.19, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Moth|Morning Sun|p1a: Iron Moth
+  -heal|p1a: Iron Moth|174/253
+  move|p2a: Slither Wing|Close Combat|p1a: Iron Moth
+  -resisted|p1a: Iron Moth
+  -damage|p1a: Iron Moth|42/253
+-- turn 15
+  WE CHOSE: heal morningsun - our hp 0.17, theirs 0.12, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to reuniclus - our hp 0.00, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Moth|Morning Sun|p1a: Iron Moth
+  -heal|p1a: Iron Moth|168/253
+  move|p2a: Slither Wing|Earthquake|p1a: Iron Moth
+  -supereffective|p1a: Iron Moth
+  -damage|p1a: Iron Moth|0 fnt
+  faint|p1a: Iron Moth
+  -end|p1a: Iron Moth|Quark Drive|[silent]
+  switch|p1a: Reuniclus|Reuniclus, L88, F|337/337
+-- turn 16
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p2a: Slither Wing|Earthquake|p1a: Reuniclus
+  -damage|p1a: Reuniclus|218/337
+  move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+  -boost|p1a: Reuniclus|spa|1
+  -boost|p1a: Reuniclus|spd|1
+-- turn 17
+  WE CHOSE: setup calmmind - our hp 0.65, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p2a: Slither Wing|Earthquake|p1a: Reuniclus
+  -damage|p1a: Reuniclus|99/337
+  move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+  -boost|p1a: Reuniclus|spa|1
+  -boost|p1a: Reuniclus|spd|1
+-- turn 18
+  WE CHOSE: heal recover - our hp 0.29, theirs 0.12, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to infernape - our hp 0.00, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p2a: Slither Wing|Earthquake|p1a: Reuniclus
+  -damage|p1a: Reuniclus|0 fnt
+  faint|p1a: Reuniclus
+  switch|p1a: Infernape|Infernape, L82, F|259/259
+-- turn 19
+  WE CHOSE: attack+tera flareblitz - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x1
+  -terastallize|p1a: Infernape|Fire
+  move|p1a: Infernape|Flare Blitz|p2a: Slither Wing
+  -supereffective|p2a: Slither Wing
+  -damage|p2a: Slither Wing|0 fnt
+  faint|p2a: Slither Wing
+  -end|p2a: Slither Wing|Protosynthesis|[silent]
+  -damage|p1a: Infernape|249/259|[from] Recoil
+  switch|p2a: Ditto|Ditto, L87|100/100
+  -transform|p2a: Ditto|p1a: Infernape|[from] ability: Imposter
+  -start|p2a: Ditto|typechange|Fire/Fighting|[silent]
+-- turn 20
+  WE CHOSE: attack flareblitz - our hp 0.96, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Ditto|Close Combat|p1a: Infernape
+  -damage|p1a: Infernape|99/259
+  -unboost|p2a: Ditto|def|1
+  -unboost|p2a: Ditto|spd|1
+  move|p1a: Infernape|Flare Blitz|p2a: Ditto
+  -resisted|p2a: Ditto
+  -damage|p2a: Ditto|2/100
+  -damage|p1a: Infernape|26/259|[from] Recoil
+-- turn 21
+  WE CHOSE: attack flareblitz - our hp 0.10, theirs 0.02, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to darkrai - our hp 0.00, theirs 0.02, predicted move (revealed) hits us x1
+  move|p2a: Ditto|Close Combat|p1a: Infernape
+  -damage|p1a: Infernape|0 fnt
+  -unboost|p2a: Ditto|def|1
+  -unboost|p2a: Ditto|spd|1
+  faint|p1a: Infernape
+  switch|p1a: Darkrai|Darkrai, L77|234/234
+-- turn 22
+  WE CHOSE: attack sludgebomb - our hp 1.00, theirs 0.02, predicted move (revealed) hits us x2
+  move|p2a: Ditto|Close Combat|p1a: Darkrai
+  -supereffective|p1a: Darkrai
+  -damage|p1a: Darkrai|0 fnt
+  -unboost|p2a: Ditto|def|1
+  -unboost|p2a: Ditto|spd|1
+  faint|p1a: Darkrai

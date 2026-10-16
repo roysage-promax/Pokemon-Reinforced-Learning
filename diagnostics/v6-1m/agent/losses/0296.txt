@@ -1,0 +1,344 @@
+battle 296 (battle-gen9randombattle-1009306): lost in 42 turns, 3 of theirs left; we are p1
+
+ours:
+  blissey (fainted; item leftovers, ability naturalcure; moves thunderwave/seismictoss/softboiled/healbell)
+  wochien (fainted; item leftovers, ability tabletsofruin; moves stunspore/knockoff/ruination/gigadrain)
+  wyrdeer (fainted; item leftovers, ability intimidate; moves psychicnoise/thunderwave/bodyslam/earthquake)
+  magmortar (fainted; item heavydutyboots, ability flamebody; moves knockoff/thunderbolt/fireblast/earthquake)
+  skeledirge (fainted; item heavydutyboots, ability unaware; moves flamecharge/shadowball/slackoff/torchsong)
+  lilliganthisui (fainted; item widelens, ability hustle, tera steel; moves closecombat/victorydance/sleeppowder/leafblade)
+theirs (as seen):
+  brambleghast (fainted; item unknown_item, ability ?; moves powerwhip)
+  charizard (fainted; item unknown_item, ability ?; moves hurricane)
+  palkia (fainted; item unknown_item, ability pressure; moves fireblast)
+  houndstone (46%; item ?, ability ?; moves poltergeist/playrough/bodypress)
+
+-- turn 0
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+  switch|p2a: Brambleghast|Brambleghast, L88, M|100/100
+-- turn 1
+  WE CHOSE: switch to magmortar (hand policy: attack+tera thunderwave) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Magmortar|Magmortar, L88, F|275/275
+  move|p2a: Brambleghast|Power Whip|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|179/275
+-- turn 2
+  WE CHOSE: attack fireblast - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Brambleghast|Power Whip|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|86/275
+  -status|p2a: Brambleghast|brn|[from] ability: Flame Body|[of] p1a: Magmortar
+  move|p1a: Magmortar|Fire Blast|p2a: Brambleghast
+  -supereffective|p2a: Brambleghast
+  -damage|p2a: Brambleghast|0 fnt
+  faint|p2a: Brambleghast
+  switch|p2a: Charizard|Charizard, L85, M|100/100
+-- turn 3
+  WE CHOSE: switch to skeledirge - our hp 0.31, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Skeledirge|Skeledirge, L79, M|294/294
+  move|p2a: Charizard|Hurricane|p1a: Skeledirge
+  -damage|p1a: Skeledirge|140/294
+  -start|p1a: Skeledirge|confusion
+-- turn 4
+  WE CHOSE: heal slackoff - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to magmortar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Charizard|Hurricane|p1a: Skeledirge
+  -damage|p1a: Skeledirge|0 fnt
+  faint|p1a: Skeledirge
+  switch|p1a: Magmortar|Magmortar, L88, F|86/275
+-- turn 5
+  WE CHOSE: attack thunderbolt - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to wyrdeer - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Charizard|Hurricane|p1a: Magmortar
+  -damage|p1a: Magmortar|0 fnt
+  faint|p1a: Magmortar
+  switch|p1a: Wyrdeer|Wyrdeer, L87, M|321/321
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Charizard|atk|1
+-- turn 6
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Charizard|Hurricane|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|188/321
+  move|p1a: Wyrdeer|Body Slam|p2a: Charizard
+  -damage|p2a: Charizard|61/100
+  -status|p2a: Charizard|par
+  -heal|p1a: Wyrdeer|208/321|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack bodyslam - our hp 0.65, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Wyrdeer|Body Slam|p2a: Charizard
+  -crit|p2a: Charizard
+  -damage|p2a: Charizard|0 fnt
+  faint|p2a: Charizard
+  -heal|p1a: Wyrdeer|228/321|[from] item: Leftovers
+  switch|p2a: Palkia|Palkia, L75|100/100
+  -ability|p2a: Palkia|Pressure
+-- turn 8
+  WE CHOSE: attack psychicnoise (hand policy: attack bodyslam) - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Palkia|Fire Blast|p1a: Wyrdeer|[miss]
+  -miss|p2a: Palkia|p1a: Wyrdeer
+  move|p1a: Wyrdeer|Psychic Noise|p2a: Palkia
+  -damage|p2a: Palkia|70/100
+  -start|p2a: Palkia|move: Heal Block
+  -heal|p1a: Wyrdeer|248/321|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack bodyslam - our hp 0.77, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Palkia|Fire Blast|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|155/321
+  move|p1a: Wyrdeer|Body Slam|p2a: Palkia
+  -crit|p2a: Palkia
+  -damage|p2a: Palkia|9/100
+  -heal|p1a: Wyrdeer|175/321|[from] item: Leftovers
+  -end|p2a: Palkia|move: Heal Block
+-- turn 10
+  WE CHOSE: attack bodyslam - our hp 0.55, theirs 0.09, predicted move (revealed) hits us x1
+  move|p2a: Palkia|Fire Blast|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|79/321
+  -status|p1a: Wyrdeer|brn
+  move|p1a: Wyrdeer|Body Slam|p2a: Palkia
+  -damage|p2a: Palkia|0 fnt
+  faint|p2a: Palkia
+  -heal|p1a: Wyrdeer|99/321 brn|[from] item: Leftovers
+  -damage|p1a: Wyrdeer|79/321 brn|[from] brn
+  switch|p2a: Houndstone|Houndstone, L86, F|100/100
+-- turn 11
+  WE CHOSE: switch to wochien (hand policy: attack psychicnoise) - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x0
+  switch|p1a: Wo-Chien|Wo-Chien, L83|277/277
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Houndstone|Poltergeist|p1a: Wo-Chien
+  -activate|p1a: Wo-Chien|move: Poltergeist|Leftovers
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|235/277
+  -heal|p1a: Wo-Chien|252/277|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: switch to wyrdeer (hand policy: attack knockoff) - our hp 0.91, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Wyrdeer|Wyrdeer, L87, M|79/321 brn
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Houndstone|atk|1
+  move|p2a: Houndstone|Poltergeist|p1a: Wyrdeer
+  -immune|p1a: Wyrdeer
+  -heal|p1a: Wyrdeer|99/321 brn|[from] item: Leftovers
+  -damage|p1a: Wyrdeer|79/321 brn|[from] brn
+-- turn 13
+  WE CHOSE: switch to blissey (hand policy: attack psychicnoise) - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+  move|p2a: Houndstone|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+-- turn 14
+  WE CHOSE: switch to wyrdeer (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Wyrdeer|Wyrdeer, L87, M|79/321 brn
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Houndstone|atk|1
+  move|p2a: Houndstone|Poltergeist|p1a: Wyrdeer
+  -immune|p1a: Wyrdeer
+  -heal|p1a: Wyrdeer|99/321 brn|[from] item: Leftovers
+  -damage|p1a: Wyrdeer|79/321 brn|[from] brn
+-- turn 15
+  WE CHOSE: switch to blissey (hand policy: attack psychicnoise) - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+  move|p2a: Houndstone|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+-- turn 16
+  WE CHOSE: switch to wyrdeer (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Wyrdeer|Wyrdeer, L87, M|79/321 brn
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Houndstone|atk|1
+  move|p2a: Houndstone|Poltergeist|p1a: Wyrdeer
+  -immune|p1a: Wyrdeer
+  -heal|p1a: Wyrdeer|99/321 brn|[from] item: Leftovers
+  -damage|p1a: Wyrdeer|79/321 brn|[from] brn
+-- turn 17
+  WE CHOSE: switch to blissey (hand policy: attack psychicnoise) - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+  move|p2a: Houndstone|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+-- turn 18
+  WE CHOSE: switch to wyrdeer (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Wyrdeer|Wyrdeer, L87, M|79/321 brn
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Houndstone|atk|1
+  move|p2a: Houndstone|Poltergeist|p1a: Wyrdeer
+  -immune|p1a: Wyrdeer
+  -heal|p1a: Wyrdeer|99/321 brn|[from] item: Leftovers
+  -damage|p1a: Wyrdeer|79/321 brn|[from] brn
+-- turn 19
+  WE CHOSE: switch to blissey (hand policy: attack psychicnoise) - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+  move|p2a: Houndstone|Play Rough|p1a: Blissey
+  -damage|p1a: Blissey|498/572
+  -heal|p1a: Blissey|533/572|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: switch to wyrdeer (hand policy: attack thunderwave) - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Wyrdeer|Wyrdeer, L87, M|79/321 brn
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Houndstone|atk|1
+  move|p2a: Houndstone|Play Rough|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|58/321 brn
+  -heal|p1a: Wyrdeer|78/321 brn|[from] item: Leftovers
+  -damage|p1a: Wyrdeer|58/321 brn|[from] brn
+-- turn 21
+  WE CHOSE: switch to blissey (hand policy: attack psychicnoise) - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Blissey|Blissey, L85, F|533/572
+  move|p2a: Houndstone|Play Rough|p1a: Blissey
+  -damage|p1a: Blissey|480/572
+  -heal|p1a: Blissey|515/572|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: switch to wyrdeer (hand policy: attack thunderwave) - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Wyrdeer|Wyrdeer, L87, M|58/321 brn
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Houndstone|atk|1
+  move|p2a: Houndstone|Play Rough|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|37/321 brn
+  -heal|p1a: Wyrdeer|57/321 brn|[from] item: Leftovers
+  -damage|p1a: Wyrdeer|37/321 brn|[from] brn
+-- turn 23
+  WE CHOSE: switch to blissey (hand policy: attack psychicnoise) - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Blissey|Blissey, L85, F|515/572
+  move|p2a: Houndstone|Play Rough|p1a: Blissey
+  -damage|p1a: Blissey|461/572
+  -heal|p1a: Blissey|496/572|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: switch to wyrdeer (hand policy: attack thunderwave) - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Wyrdeer|Wyrdeer, L87, M|37/321 brn
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Houndstone|atk|0
+  move|p2a: Houndstone|Play Rough|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|16/321 brn
+  -heal|p1a: Wyrdeer|36/321 brn|[from] item: Leftovers
+  -damage|p1a: Wyrdeer|16/321 brn|[from] brn
+-- turn 25
+  WE CHOSE: switch to wochien (hand policy: attack psychicnoise) - our hp 0.05, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Wo-Chien|Wo-Chien, L83|252/277
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Houndstone|Play Rough|p1a: Wo-Chien
+  -supereffective|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|228/277
+  -heal|p1a: Wo-Chien|245/277|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: switch to wyrdeer (hand policy: attack knockoff) - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to blissey (hand policy: forced: switch to wochien) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Wyrdeer|Wyrdeer, L87, M|16/321 brn
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Houndstone|atk|0
+  move|p2a: Houndstone|Play Rough|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|0 fnt
+  faint|p1a: Wyrdeer
+  switch|p1a: Blissey|Blissey, L85, F|496/572
+-- turn 27
+  WE CHOSE: switch to wochien (hand policy: attack thunderwave) - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Wo-Chien|Wo-Chien, L83|245/277
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Houndstone|Play Rough|p1a: Wo-Chien
+  -supereffective|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|219/277
+  -heal|p1a: Wo-Chien|236/277|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: switch to blissey (hand policy: attack knockoff) - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Blissey|Blissey, L85, F|496/572
+  move|p2a: Houndstone|Play Rough|p1a: Blissey
+  -damage|p1a: Blissey|447/572
+  -heal|p1a: Blissey|482/572|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: switch to wochien (hand policy: attack thunderwave) - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Wo-Chien|Wo-Chien, L83|236/277
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Houndstone|Play Rough|p1a: Wo-Chien
+  -supereffective|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|210/277
+  -heal|p1a: Wo-Chien|227/277|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: switch to blissey (hand policy: attack knockoff) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Blissey|Blissey, L85, F|482/572
+  move|p2a: Houndstone|Play Rough|p1a: Blissey
+  -damage|p1a: Blissey|428/572
+  -heal|p1a: Blissey|463/572|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: switch to wochien (hand policy: attack thunderwave) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Wo-Chien|Wo-Chien, L83|227/277
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Houndstone|Play Rough|p1a: Wo-Chien
+  -supereffective|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|203/277
+  -heal|p1a: Wo-Chien|220/277|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: switch to blissey (hand policy: attack knockoff) - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Blissey|Blissey, L85, F|463/572
+  move|p2a: Houndstone|Play Rough|p1a: Blissey
+  -damage|p1a: Blissey|413/572
+  -heal|p1a: Blissey|448/572|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: switch to wochien (hand policy: attack thunderwave) - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Wo-Chien|Wo-Chien, L83|220/277
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Houndstone|Play Rough|p1a: Wo-Chien
+  -supereffective|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|198/277
+  -heal|p1a: Wo-Chien|215/277|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: switch to blissey (hand policy: attack knockoff) - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Blissey|Blissey, L85, F|448/572
+  move|p2a: Houndstone|Play Rough|p1a: Blissey
+  -damage|p1a: Blissey|396/572
+  -heal|p1a: Blissey|431/572|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: switch to wochien (hand policy: attack thunderwave) - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Wo-Chien|Wo-Chien, L83|215/277
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Houndstone|Body Press|p1a: Wo-Chien
+  -supereffective|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|129/277
+  -heal|p1a: Wo-Chien|146/277|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack knockoff - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Houndstone|Body Press|p1a: Wo-Chien
+  -supereffective|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|62/277
+  move|p1a: Wo-Chien|Knock Off|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|69/100
+  -enditem|p2a: Houndstone|Assault Vest|[from] move: Knock Off|[of] p1a: Wo-Chien
+  -heal|p1a: Wo-Chien|79/277|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: attack knockoff - our hp 0.29, theirs 0.69, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to blissey - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p2a: Houndstone|Body Press|p1a: Wo-Chien
+  -supereffective|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|0 fnt
+  faint|p1a: Wo-Chien
+  switch|p1a: Blissey|Blissey, L85, F|431/572
+-- turn 38
+  WE CHOSE: switch to lilliganthisui (hand policy: attack thunderwave) - our hp 0.75, theirs 0.69, predicted move (revealed) hits us x0
+  switch|p1a: Lilligant|Lilligant-Hisui, L79, F|240/240
+  move|p2a: Houndstone|Body Press|p1a: Lilligant
+  -damage|p1a: Lilligant|169/240
+-- turn 39
+  WE CHOSE: switch to blissey - our hp 0.70, theirs 0.69, predicted move (revealed) hits us x1
+  switch|p1a: Blissey|Blissey, L85, F|431/572
+  move|p2a: Houndstone|Body Press|p1a: Blissey
+  -supereffective|p1a: Blissey
+  -damage|p1a: Blissey|43/572
+  -heal|p1a: Blissey|78/572|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: attack thunderwave (hand policy: heal softboiled) - our hp 0.14, theirs 0.69, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to lilliganthisui - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Body Press|p1a: Blissey
+  -supereffective|p1a: Blissey
+  -damage|p1a: Blissey|0 fnt
+  faint|p1a: Blissey
+  switch|p1a: Lilligant|Lilligant-Hisui, L79, F|169/240
+-- turn 41
+  WE CHOSE: attack+tera leafblade (hand policy: attack leafblade) - our hp 0.70, theirs 0.69, predicted move (revealed) hits us x1
+  -terastallize|p1a: Lilligant|Steel
+  move|p1a: Lilligant|Leaf Blade|p2a: Houndstone
+  -damage|p2a: Houndstone|46/100
+  move|p2a: Houndstone|Body Press|p1a: Lilligant
+  -supereffective|p1a: Lilligant
+  -damage|p1a: Lilligant|27/240
+-- turn 42
+  WE CHOSE: attack leafblade - our hp 0.11, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Lilligant|Leaf Blade|p2a: Houndstone|[miss]
+  -miss|p1a: Lilligant|p2a: Houndstone
+  move|p2a: Houndstone|Body Press|p1a: Lilligant
+  -supereffective|p1a: Lilligant
+  -damage|p1a: Lilligant|0 fnt
+  faint|p1a: Lilligant
+  deinit

@@ -1,0 +1,274 @@
+battle 2625 (battle-gen9randombattle-1031017): lost in 30 turns, 1 of theirs left; we are p1
+
+ours:
+  mewtwo (fainted; item lifeorb, ability pressure; moves nastyplot/fireblast/aurasphere/psystrike)
+  bastiodon (fainted; item ?, ability soundproof; moves rest/foulplay/irondefense/bodypress)
+  golduck (fainted; item leftovers, ability cloudnine; moves hydropump/encore/icebeam/nastyplot)
+  cinderace (fainted; item heavydutyboots, ability libero; moves uturn/willowisp/courtchange/pyroball)
+  koraidon (fainted; item choiceband, ability orichalcumpulse; moves flareblitz/outrage/uturn/closecombat)
+  ursaluna (fainted; item flameorb, ability guts, tera normal; moves headlongrush/facade/trailblaze/crunch)
+theirs (as seen):
+  ironhands (fainted; item leftovers, ability quarkdrive; moves wildcharge)
+  altaria (fainted; item unknown_item, ability ?; moves bravebird)
+  misdreavus (fainted; item unknown_item, ability levitate; moves shadowball)
+  uxie (fainted; item leftovers, ability levitate; moves psychicnoise)
+  meloetta (fainted; item leftovers, ability serenegrace; moves focusblast)
+  plusle (23%; item lifeorb, ability ?; moves thunderbolt)
+
+-- turn 0
+  switch|p1a: Mewtwo|Mewtwo, L72|272/272
+  switch|p2a: Iron Hands|Iron Hands, L79|100/100
+  -ability|p1a: Mewtwo|Pressure
+-- turn 1
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Mewtwo|Nasty Plot|p1a: Mewtwo
+  -boost|p1a: Mewtwo|spa|2
+  move|p2a: Iron Hands|Wild Charge|p1a: Mewtwo
+  -crit|p1a: Mewtwo
+  -damage|p1a: Mewtwo|73/272
+  -damage|p2a: Iron Hands|87/100|[from] Recoil
+  -heal|p2a: Iron Hands|93/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to ursaluna - our hp 0.27, theirs 0.93, predicted move (revealed) hits us x1
+  switch|p1a: Ursaluna|Ursaluna, L79, F|335/335
+  move|p2a: Iron Hands|Wild Charge|p1a: Ursaluna
+  -immune|p1a: Ursaluna
+  -heal|p2a: Iron Hands|99/100|[from] item: Leftovers
+  -status|p1a: Ursaluna|brn|[from] item: Flame Orb
+-- turn 3
+  WE CHOSE: attack headlongrush - our hp 1.00, theirs 0.99, predicted move (revealed) hits us x0
+  move|p1a: Ursaluna|Headlong Rush|p2a: Iron Hands
+  -supereffective|p2a: Iron Hands
+  -damage|p2a: Iron Hands|0 fnt
+  -unboost|p1a: Ursaluna|def|1
+  -unboost|p1a: Ursaluna|spd|1
+  faint|p2a: Iron Hands
+  -end|p2a: Iron Hands|Quark Drive|[silent]
+  -damage|p1a: Ursaluna|315/335 brn|[from] brn
+  switch|p2a: Altaria|Altaria, L89, F|100/100
+-- turn 4
+  WE CHOSE: attack+tera facade - our hp 0.94, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Ursaluna|Normal
+  move|p2a: Altaria|Brave Bird|p1a: Ursaluna
+  -damage|p1a: Ursaluna|153/335 brn
+  -damage|p2a: Altaria|81/100|[from] Recoil
+  move|p1a: Ursaluna|Facade|p2a: Altaria
+  -damage|p2a: Altaria|0 fnt
+  faint|p2a: Altaria
+  -damage|p1a: Ursaluna|133/335 brn|[from] brn
+  switch|p2a: Misdreavus|Misdreavus, L90, M|100/100
+-- turn 5
+  WE CHOSE: attack headlongrush - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Ursaluna
+  -immune|p1a: Ursaluna
+  move|p1a: Ursaluna|Headlong Rush|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -damage|p1a: Ursaluna|113/335 brn|[from] brn
+-- turn 6
+  WE CHOSE: attack headlongrush - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Ursaluna
+  -immune|p1a: Ursaluna
+  move|p1a: Ursaluna|Headlong Rush|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -damage|p1a: Ursaluna|93/335 brn|[from] brn
+-- turn 7
+  WE CHOSE: attack headlongrush - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Ursaluna
+  -immune|p1a: Ursaluna
+  move|p1a: Ursaluna|Headlong Rush|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -damage|p1a: Ursaluna|73/335 brn|[from] brn
+-- turn 8
+  WE CHOSE: attack headlongrush - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Ursaluna
+  -immune|p1a: Ursaluna
+  move|p1a: Ursaluna|Headlong Rush|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -damage|p1a: Ursaluna|53/335 brn|[from] brn
+-- turn 9
+  WE CHOSE: attack headlongrush - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Ursaluna
+  -immune|p1a: Ursaluna
+  move|p1a: Ursaluna|Headlong Rush|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -damage|p1a: Ursaluna|33/335 brn|[from] brn
+-- turn 10
+  WE CHOSE: attack headlongrush - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Ursaluna
+  -immune|p1a: Ursaluna
+  move|p1a: Ursaluna|Headlong Rush|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -damage|p1a: Ursaluna|13/335 brn|[from] brn
+-- turn 11
+  WE CHOSE: attack headlongrush - our hp 0.04, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to bastiodon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Ursaluna
+  -immune|p1a: Ursaluna
+  move|p1a: Ursaluna|Headlong Rush|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -damage|p1a: Ursaluna|0 fnt|[from] brn
+  faint|p1a: Ursaluna
+  switch|p1a: Bastiodon|Bastiodon, L89, F|252/252
+-- turn 12
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Misdreavus|Shadow Ball|p1a: Bastiodon
+  -crit|p1a: Bastiodon
+  -damage|p1a: Bastiodon|165/252
+  move|p1a: Bastiodon|Foul Play|p2a: Misdreavus
+  -supereffective|p2a: Misdreavus
+  -damage|p2a: Misdreavus|73/100
+-- turn 13
+  WE CHOSE: attack foulplay - our hp 0.65, theirs 0.73, predicted move (revealed) hits us x1
+  move|p2a: Misdreavus|Shadow Ball|p1a: Bastiodon
+  -damage|p1a: Bastiodon|108/252
+  move|p1a: Bastiodon|Foul Play|p2a: Misdreavus
+  -supereffective|p2a: Misdreavus
+  -damage|p2a: Misdreavus|48/100
+-- turn 14
+  WE CHOSE: heal rest - our hp 0.43, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Misdreavus|Shadow Ball|p1a: Bastiodon
+  -damage|p1a: Bastiodon|51/252
+  move|p1a: Bastiodon|Rest|p1a: Bastiodon
+  -status|p1a: Bastiodon|slp|[from] move: Rest
+  -heal|p1a: Bastiodon|252/252 slp|[silent]
+  -enditem|p1a: Bastiodon|Chesto Berry|[eat]
+  -curestatus|p1a: Bastiodon|slp|[msg]
+-- turn 15
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Misdreavus|Shadow Ball|p1a: Bastiodon
+  -damage|p1a: Bastiodon|194/252
+  move|p1a: Bastiodon|Foul Play|p2a: Misdreavus
+  -supereffective|p2a: Misdreavus
+  -damage|p2a: Misdreavus|23/100
+-- turn 16
+  WE CHOSE: attack foulplay - our hp 0.77, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Misdreavus|Shadow Ball|p1a: Bastiodon
+  -damage|p1a: Bastiodon|136/252
+  move|p1a: Bastiodon|Foul Play|p2a: Misdreavus
+  -supereffective|p2a: Misdreavus
+  -damage|p2a: Misdreavus|0 fnt
+  faint|p2a: Misdreavus
+  switch|p2a: Uxie|Uxie, L83|100/100
+-- turn 17
+  WE CHOSE: attack foulplay - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Uxie|Psychic Noise|p1a: Bastiodon
+  -immune|p1a: Bastiodon|[from] ability: Soundproof
+  move|p1a: Bastiodon|Foul Play|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -damage|p2a: Uxie|70/100
+  -heal|p2a: Uxie|76/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack foulplay - our hp 0.54, theirs 0.76, predicted move (revealed) hits us x0.5
+  move|p2a: Uxie|Psychic Noise|p1a: Bastiodon
+  -immune|p1a: Bastiodon|[from] ability: Soundproof
+  move|p1a: Bastiodon|Foul Play|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -damage|p2a: Uxie|44/100
+  -heal|p2a: Uxie|50/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack foulplay - our hp 0.54, theirs 0.50, predicted move (revealed) hits us x0.5
+  move|p2a: Uxie|Psychic Noise|p1a: Bastiodon
+  -immune|p1a: Bastiodon|[from] ability: Soundproof
+  move|p1a: Bastiodon|Foul Play|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -damage|p2a: Uxie|17/100
+  -heal|p2a: Uxie|23/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack foulplay - our hp 0.54, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p2a: Uxie|Psychic Noise|p1a: Bastiodon
+  -immune|p1a: Bastiodon|[from] ability: Soundproof
+  move|p1a: Bastiodon|Foul Play|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -damage|p2a: Uxie|0 fnt
+  faint|p2a: Uxie
+  switch|p2a: Meloetta|Meloetta, L82|100/100
+-- turn 21
+  WE CHOSE: switch to mewtwo - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Mewtwo|Mewtwo, L72|73/272
+  -ability|p1a: Mewtwo|Pressure
+  move|p2a: Meloetta|Focus Blast|p1a: Mewtwo
+  -resisted|p1a: Mewtwo
+  -damage|p1a: Mewtwo|20/272
+-- turn 22
+  WE CHOSE: attack fireblast - our hp 0.07, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to koraidon - our hp 0.00, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p1a: Mewtwo|Fire Blast|p2a: Meloetta
+  -damage|p2a: Meloetta|73/100
+  -damage|p1a: Mewtwo|0 fnt|[from] item: Life Orb
+  faint|p1a: Mewtwo
+  move|p2a: Meloetta|Focus Blast|p1: Mewtwo|[notarget]
+  -fail|p2a: Meloetta
+  -heal|p2a: Meloetta|79/100|[from] item: Leftovers
+  switch|p1a: Koraidon|Koraidon, L64|235/235
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+  -activate|p1a: Koraidon|Orichalcum Pulse|[source]
+-- turn 23
+  WE CHOSE: attack outrage - our hp 1.00, theirs 0.79, predicted move (revealed) hits us x1
+  move|p1a: Koraidon|Outrage|p2a: Meloetta
+  -damage|p2a: Meloetta|10/100
+  move|p2a: Meloetta|Focus Blast|p1a: Koraidon
+  -damage|p1a: Koraidon|109/235
+  -unboost|p1a: Koraidon|spd|1
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Meloetta|16/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack outrage - our hp 0.46, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Koraidon|Outrage|p2a: Meloetta|[from] lockedmove
+  -damage|p2a: Meloetta|0 fnt
+  faint|p2a: Meloetta
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Plusle|Plusle, L95, F|100/100
+-- turn 25
+  WE CHOSE: attack outrage - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to cinderace - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Plusle|Thunderbolt|p1a: Koraidon
+  -resisted|p1a: Koraidon
+  -damage|p1a: Koraidon|0 fnt
+  faint|p1a: Koraidon
+  -damage|p2a: Plusle|91/100|[from] item: Life Orb
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Cinderace|Cinderace, L77, F|250/250
+-- turn 26
+  WE CHOSE: attack pyroball - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bastiodon - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Plusle|Thunderbolt|p1a: Cinderace
+  -crit|p1a: Cinderace
+  -damage|p1a: Cinderace|0 fnt
+  faint|p1a: Cinderace
+  -damage|p2a: Plusle|81/100|[from] item: Life Orb
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Bastiodon|Bastiodon, L89, F|136/252
+-- turn 27
+  WE CHOSE: attack foulplay - our hp 0.54, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Plusle|Thunderbolt|p1a: Bastiodon
+  -damage|p1a: Bastiodon|41/252
+  -damage|p2a: Plusle|71/100|[from] item: Life Orb
+  move|p1a: Bastiodon|Foul Play|p2a: Plusle
+  -damage|p2a: Plusle|52/100
+  -weather|none
+-- turn 28
+  WE CHOSE: heal rest - our hp 0.16, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to golduck - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p2a: Plusle|Thunderbolt|p1a: Bastiodon
+  -damage|p1a: Bastiodon|0 fnt
+  faint|p1a: Bastiodon
+  -damage|p2a: Plusle|43/100|[from] item: Life Orb
+  switch|p1a: Golduck|Golduck, L90, F|290/290
+  -ability|p1a: Golduck|Cloud Nine
+-- turn 29
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x2
+  move|p2a: Plusle|Thunderbolt|p1a: Golduck
+  -supereffective|p1a: Golduck
+  -damage|p1a: Golduck|9/290
+  -damage|p2a: Plusle|33/100|[from] item: Life Orb
+  move|p1a: Golduck|Hydro Pump|p2a: Plusle|[miss]
+  -miss|p1a: Golduck|p2a: Plusle
+  -heal|p1a: Golduck|27/290|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack hydropump - our hp 0.09, theirs 0.33, predicted move (revealed) hits us x2
+  move|p2a: Plusle|Thunderbolt|p1a: Golduck
+  -supereffective|p1a: Golduck
+  -damage|p1a: Golduck|0 fnt
+  faint|p1a: Golduck
+  -damage|p2a: Plusle|23/100|[from] item: Life Orb
+  deinit

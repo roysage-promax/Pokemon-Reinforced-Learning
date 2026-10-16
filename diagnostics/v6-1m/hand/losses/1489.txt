@@ -1,0 +1,231 @@
+battle 1489 (battle-gen9randombattle-1020349): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  regidrago (fainted; item lifeorb, ability dragonsmaw; moves dragondance/terablast/dragonclaw/earthquake)
+  dragapult (fainted; item choicespecs, ability infiltrator, tera dragon; moves shadowball/fireblast/uturn/dracometeor)
+  poliwrath (fainted; item assaultvest, ability waterabsorb; moves circlethrow/closecombat/knockoff/liquidation)
+  cryogonal (fainted; item heavydutyboots, ability levitate; moves recover/freezedry/haze/rapidspin)
+  golduck (fainted; item leftovers, ability cloudnine; moves encore/hydropump/grassknot/nastyplot)
+  bisharp (fainted; item eviolite, ability defiant; moves suckerpunch/throatchop/ironhead/stealthrock)
+theirs (as seen):
+  pyroar (fainted; item unknown_item, ability unnerve; moves fireblast)
+  ditto (fainted; item unknown_item, ability ?; moves closecombat)
+  politoed (fainted; item leftovers, ability ?; moves hydropump)
+  mienshao (fainted; item lifeorb, ability ?; moves closecombat)
+  blastoise (fainted; item unknown_item, ability ?; moves hydropump)
+  cinderace (37%; item unknown_item, ability ?; moves pyroball)
+
+-- turn 0
+  switch|p1a: Regidrago|Regidrago, L77|435/435
+  switch|p2a: Pyroar|Pyroar, L88, M|100/100
+  -ability|p2a: Pyroar|Unnerve
+-- turn 1
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Pyroar|Fire Blast|p1a: Regidrago
+  -resisted|p1a: Regidrago
+  -damage|p1a: Regidrago|316/435
+  move|p1a: Regidrago|Dragon Dance|p1a: Regidrago
+  -boost|p1a: Regidrago|atk|1
+  -boost|p1a: Regidrago|spe|1
+-- turn 2
+  WE CHOSE: setup dragondance - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Regidrago|Dragon Dance|p1a: Regidrago
+  -boost|p1a: Regidrago|atk|1
+  -boost|p1a: Regidrago|spe|1
+  move|p2a: Pyroar|Fire Blast|p1a: Regidrago
+  -resisted|p1a: Regidrago
+  -damage|p1a: Regidrago|209/435
+  -status|p1a: Regidrago|brn
+  -damage|p1a: Regidrago|182/435 brn|[from] brn
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Regidrago|Earthquake|p2a: Pyroar
+  -supereffective|p2a: Pyroar
+  -damage|p2a: Pyroar|45/100
+  -damage|p1a: Regidrago|139/435 brn|[from] item: Life Orb
+  move|p2a: Pyroar|Fire Blast|p1a: Regidrago
+  -resisted|p1a: Regidrago
+  -damage|p1a: Regidrago|28/435 brn
+  -damage|p1a: Regidrago|1/435 brn|[from] brn
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to poliwrath - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p1a: Regidrago|Earthquake|p2a: Pyroar
+  -supereffective|p2a: Pyroar
+  -damage|p2a: Pyroar|0 fnt
+  faint|p2a: Pyroar
+  -damage|p1a: Regidrago|0 fnt|[from] item: Life Orb
+  faint|p1a: Regidrago
+  switch|p2a: Ditto|Ditto, L87|100/100
+  switch|p1a: Poliwrath|Poliwrath, L88, F|302/302
+  -transform|p2a: Ditto|p1a: Poliwrath|[from] ability: Imposter
+-- turn 5
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Ditto|Close Combat|p1a: Poliwrath
+  -damage|p1a: Poliwrath|181/302
+  -unboost|p2a: Ditto|def|1
+  -unboost|p2a: Ditto|spd|1
+  move|p1a: Poliwrath|Close Combat|p2a: Ditto
+  -damage|p2a: Ditto|12/100
+  -unboost|p1a: Poliwrath|def|1
+  -unboost|p1a: Poliwrath|spd|1
+-- turn 6
+  WE CHOSE: switch to dragapult - our hp 0.60, theirs 0.12, predicted move (revealed) hits us x1
+  switch|p1a: Dragapult|Dragapult, L77, M|262/262
+  move|p2a: Ditto|Close Combat|p1a: Dragapult
+  -immune|p1a: Dragapult
+-- turn 7
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x0
+  move|p1a: Dragapult|Draco Meteor|p2a: Ditto
+  -damage|p2a: Ditto|0 fnt
+  -unboost|p1a: Dragapult|spa|2
+  faint|p2a: Ditto
+  switch|p2a: Politoed|Politoed, L88, M|100/100
+  -weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Dragapult|Draco Meteor|p2a: Politoed
+  -damage|p2a: Politoed|77/100
+  -unboost|p1a: Dragapult|spa|2
+  move|p2a: Politoed|Hydro Pump|p1a: Dragapult
+  -resisted|p1a: Dragapult
+  -crit|p1a: Dragapult
+  -damage|p1a: Dragapult|91/262
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Politoed|83/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack+tera dracometeor - our hp 0.35, theirs 0.83, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Dragapult|Dragon
+  move|p1a: Dragapult|Draco Meteor|p2a: Politoed
+  -damage|p2a: Politoed|61/100
+  -unboost|p1a: Dragapult|spa|2
+  move|p2a: Politoed|Hydro Pump|p1a: Dragapult|[miss]
+  -miss|p2a: Politoed|p1a: Dragapult
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Politoed|67/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack dracometeor - our hp 0.35, theirs 0.67, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to poliwrath - our hp 0.00, theirs 0.55, predicted move (revealed) hits us x0.5
+  move|p1a: Dragapult|Draco Meteor|p2a: Politoed
+  -damage|p2a: Politoed|50/100
+  move|p2a: Politoed|Hydro Pump|p1a: Dragapult
+  -resisted|p1a: Dragapult
+  -damage|p1a: Dragapult|0 fnt
+  faint|p1a: Dragapult
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Politoed|55/100|[from] item: Leftovers
+  switch|p1a: Poliwrath|Poliwrath, L88, F|181/302
+-- turn 11
+  WE CHOSE: attack closecombat - our hp 0.60, theirs 0.55, predicted move (revealed) hits us x0
+  move|p1a: Poliwrath|Close Combat|p2a: Politoed
+  -damage|p2a: Politoed|11/100
+  -unboost|p1a: Poliwrath|def|1
+  -unboost|p1a: Poliwrath|spd|1
+  move|p2a: Politoed|Hydro Pump|p1a: Poliwrath
+  -heal|p1a: Poliwrath|256/302|[from] ability: Water Absorb|[of] p2a: Politoed
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Politoed|17/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack closecombat - our hp 0.85, theirs 0.17, predicted move (revealed) hits us x0
+  move|p2a: Politoed|Hydro Pump|p1a: Poliwrath
+  -heal|p1a: Poliwrath|302/302|[from] ability: Water Absorb|[of] p2a: Politoed
+  move|p1a: Poliwrath|Close Combat|p2a: Politoed
+  -damage|p2a: Politoed|0 fnt
+  -unboost|p1a: Poliwrath|def|1
+  -unboost|p1a: Poliwrath|spd|1
+  faint|p2a: Politoed
+  -weather|none
+  switch|p2a: Mienshao|Mienshao, L83, M|100/100
+-- turn 13
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to golduck - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Mienshao|Close Combat|p1a: Poliwrath
+  -damage|p1a: Poliwrath|0 fnt
+  -unboost|p2a: Mienshao|def|1
+  -unboost|p2a: Mienshao|spd|1
+  faint|p1a: Poliwrath
+  -damage|p2a: Mienshao|91/100|[from] item: Life Orb
+  switch|p1a: Golduck|Golduck, L90, M|290/290
+  -ability|p1a: Golduck|Cloud Nine
+-- turn 14
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Mienshao|Close Combat|p1a: Golduck
+  -damage|p1a: Golduck|91/290
+  -unboost|p2a: Mienshao|def|1
+  -unboost|p2a: Mienshao|spd|1
+  -damage|p2a: Mienshao|81/100|[from] item: Life Orb
+  move|p1a: Golduck|Hydro Pump|p2a: Mienshao
+  -damage|p2a: Mienshao|0 fnt
+  faint|p2a: Mienshao
+  -heal|p1a: Golduck|109/290|[from] item: Leftovers
+  switch|p2a: Blastoise|Blastoise, L80, F|100/100
+-- turn 15
+  WE CHOSE: attack hydropump - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Golduck|Hydro Pump|p2a: Blastoise
+  -resisted|p2a: Blastoise
+  -damage|p2a: Blastoise|78/100
+  move|p2a: Blastoise|Hydro Pump|p1a: Golduck
+  -resisted|p1a: Golduck
+  -damage|p1a: Golduck|60/290
+  -heal|p1a: Golduck|78/290|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack hydropump - our hp 0.27, theirs 0.78, predicted move (revealed) hits us x0.5
+  move|p1a: Golduck|Hydro Pump|p2a: Blastoise|[miss]
+  -miss|p1a: Golduck|p2a: Blastoise
+  move|p2a: Blastoise|Hydro Pump|p1a: Golduck|[miss]
+  -miss|p2a: Blastoise|p1a: Golduck
+  -heal|p1a: Golduck|96/290|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack hydropump - our hp 0.33, theirs 0.78, predicted move (revealed) hits us x0.5
+  move|p1a: Golduck|Hydro Pump|p2a: Blastoise
+  -resisted|p2a: Blastoise
+  -damage|p2a: Blastoise|55/100
+  move|p2a: Blastoise|Hydro Pump|p1a: Golduck
+  -resisted|p1a: Golduck
+  -damage|p1a: Golduck|51/290
+  -heal|p1a: Golduck|69/290|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack hydropump - our hp 0.24, theirs 0.55, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to bisharp - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p1a: Golduck|Hydro Pump|p2a: Blastoise
+  -resisted|p2a: Blastoise
+  -damage|p2a: Blastoise|33/100
+  move|p2a: Blastoise|Hydro Pump|p1a: Golduck
+  -resisted|p1a: Golduck
+  -damage|p1a: Golduck|0 fnt
+  faint|p1a: Golduck
+  switch|p1a: Bisharp|Bisharp, L79, F|232/232
+-- turn 19
+  WE CHOSE: attack throatchop - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Blastoise|Hydro Pump|p1a: Bisharp
+  -damage|p1a: Bisharp|112/232
+  move|p1a: Bisharp|Throat Chop|p2a: Blastoise
+  -damage|p2a: Blastoise|0 fnt
+  faint|p2a: Blastoise
+  switch|p2a: Cinderace|Cinderace, L77, F|100/100
+-- turn 20
+  WE CHOSE: attack throatchop - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x4
+  move|p2a: Cinderace|Pyro Ball|p1a: Bisharp|[miss]
+  -miss|p2a: Cinderace|p1a: Bisharp
+  move|p1a: Bisharp|Throat Chop|p2a: Cinderace
+  -damage|p2a: Cinderace|58/100
+  -start|p2a: Cinderace|Throat Chop|[silent]
+-- turn 21
+  WE CHOSE: attack throatchop - our hp 0.48, theirs 0.58, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to cryogonal - our hp 0.00, theirs 0.58, predicted move (revealed) hits us x2
+  move|p2a: Cinderace|Pyro Ball|p1a: Bisharp
+  -supereffective|p1a: Bisharp
+  -damage|p1a: Bisharp|0 fnt
+  faint|p1a: Bisharp
+  -end|p2a: Cinderace|Throat Chop|[silent]
+  switch|p1a: Cryogonal|Cryogonal, L89|287/287
+-- turn 22
+  WE CHOSE: attack freezedry - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x2
+  move|p1a: Cryogonal|Freeze-Dry|p2a: Cinderace
+  -resisted|p2a: Cinderace
+  -damage|p2a: Cinderace|37/100
+  move|p2a: Cinderace|Pyro Ball|p1a: Cryogonal
+  -supereffective|p1a: Cryogonal
+  -damage|p1a: Cryogonal|0 fnt
+  faint|p1a: Cryogonal
+  deinit

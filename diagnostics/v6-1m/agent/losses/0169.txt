@@ -1,0 +1,196 @@
+battle 169 (battle-gen9randombattle-1007988): lost in 19 turns, 2 of theirs left; we are p1
+
+ours:
+  kyogre (fainted; item choicescarf, ability drizzle; moves icebeam/thunder/waterspout/originpulse)
+  overqwil (fainted; item choiceband, ability intimidate; moves liquidation/crunch/gunkshot/aquajet)
+  persianalola (fainted; item heavydutyboots, ability furcoat; moves partingshot/thunderwave/knockoff/taunt)
+  scovillain (fainted; item heavydutyboots, ability chlorophyll; moves stompingtantrum/sunnyday/energyball/fireblast)
+  weezing (fainted; item leftovers, ability levitate; moves sludgebomb/willowisp/fireblast/painsplit)
+  rabsca (fainted; item heavydutyboots, ability synchronize, tera steel; moves earthpower/psychic/revivalblessing/bugbuzz)
+theirs (as seen):
+  jolteon (fainted; item lifeorb, ability ?; moves thunderbolt)
+  shiftry (fainted; item lifeorb, ability ?; moves leafblade)
+  carbink (fainted; item leftovers, ability ?; moves moonblast)
+  electrode (fainted; item ?, ability ?; moves thunderbolt)
+  clawitzer (24%; item unknown_item, ability megalauncher; moves dragonpulse)
+
+-- turn 0
+  switch|p1a: Kyogre|Kyogre, L71|259/259
+  switch|p2a: Jolteon|Jolteon, L84, F|100/100
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+-- turn 1
+  WE CHOSE: switch to scovillain - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Scovillain|Scovillain, L91, M|266/266
+  move|p2a: Jolteon|Thunderbolt|p1a: Scovillain
+  -resisted|p1a: Scovillain
+  -damage|p1a: Scovillain|180/266
+  -damage|p2a: Jolteon|91/100|[from] item: Life Orb
+  -weather|RainDance|[upkeep]
+-- turn 2
+  WE CHOSE: attack stompingtantrum - our hp 0.68, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Jolteon|Thunderbolt|p1a: Scovillain
+  -resisted|p1a: Scovillain
+  -damage|p1a: Scovillain|103/266
+  -status|p1a: Scovillain|par
+  -damage|p2a: Jolteon|81/100|[from] item: Life Orb
+  move|p1a: Scovillain|Stomping Tantrum|p2a: Jolteon
+  -supereffective|p2a: Jolteon
+  -damage|p2a: Jolteon|11/100
+  -weather|RainDance|[upkeep]
+-- turn 3
+  WE CHOSE: attack stompingtantrum - our hp 0.39, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p2a: Jolteon|Thunderbolt|p1a: Scovillain
+  -resisted|p1a: Scovillain
+  -damage|p1a: Scovillain|25/266 par
+  -damage|p2a: Jolteon|1/100|[from] item: Life Orb
+  cant|p1a: Scovillain|par
+  -weather|RainDance|[upkeep]
+-- turn 4
+  WE CHOSE: attack stompingtantrum - our hp 0.09, theirs 0.01, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to rabsca - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p2a: Jolteon|Thunderbolt|p1a: Scovillain
+  -resisted|p1a: Scovillain
+  -damage|p1a: Scovillain|0 fnt
+  faint|p1a: Scovillain
+  -damage|p2a: Jolteon|0 fnt|[from] item: Life Orb
+  faint|p2a: Jolteon
+  -weather|RainDance|[upkeep]
+  switch|p2a: Shiftry|Shiftry, L89, M|100/100
+  switch|p1a: Rabsca|Rabsca, L91, F|284/284
+-- turn 5
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Shiftry|Leaf Blade|p1a: Rabsca
+  -resisted|p1a: Rabsca
+  -damage|p1a: Rabsca|214/284
+  -damage|p2a: Shiftry|91/100|[from] item: Life Orb
+  move|p1a: Rabsca|Bug Buzz|p2a: Shiftry
+  -supereffective|p2a: Shiftry
+  -damage|p2a: Shiftry|0 fnt
+  faint|p2a: Shiftry
+  -weather|none
+  switch|p2a: Carbink|Carbink, L90|100/100
+-- turn 6
+  WE CHOSE: attack+tera earthpower - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Rabsca|Steel
+  move|p2a: Carbink|Moonblast|p1a: Rabsca
+  -resisted|p1a: Rabsca
+  -damage|p1a: Rabsca|181/284
+  -unboost|p1a: Rabsca|spa|1
+  move|p1a: Rabsca|Earth Power|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|69/100
+  -heal|p2a: Carbink|75/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack earthpower - our hp 0.64, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p2a: Carbink|Moonblast|p1a: Rabsca
+  -resisted|p1a: Rabsca
+  -damage|p1a: Rabsca|151/284
+  move|p1a: Rabsca|Earth Power|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|43/100
+  -heal|p2a: Carbink|49/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack earthpower - our hp 0.53, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Carbink|Moonblast|p1a: Rabsca
+  -resisted|p1a: Rabsca
+  -damage|p1a: Rabsca|123/284
+  move|p1a: Rabsca|Earth Power|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|19/100
+  -heal|p2a: Carbink|25/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack earthpower - our hp 0.43, theirs 0.25, predicted move (revealed) hits us x0.5
+  move|p2a: Carbink|Moonblast|p1a: Rabsca
+  -resisted|p1a: Rabsca
+  -damage|p1a: Rabsca|94/284
+  move|p1a: Rabsca|Earth Power|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -crit|p2a: Carbink
+  -damage|p2a: Carbink|0 fnt
+  faint|p2a: Carbink
+  switch|p2a: Electrode|Electrode, L93|100/100
+-- turn 10
+  WE CHOSE: attack earthpower - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to overqwil - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Rabsca
+  -damage|p1a: Rabsca|0 fnt
+  faint|p1a: Rabsca
+  -damage|p2a: Electrode|91/100|[from] item: Life Orb
+  switch|p1a: Overqwil|Overqwil, L82, F|274/274
+  -ability|p1a: Overqwil|Intimidate|boost
+  -unboost|p2a: Electrode|atk|1
+-- turn 11
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Overqwil
+  -damage|p1a: Overqwil|110/274
+  -damage|p2a: Electrode|81/100|[from] item: Life Orb
+  move|p1a: Overqwil|Gunk Shot|p2a: Electrode|[miss]
+  -miss|p1a: Overqwil|p2a: Electrode
+-- turn 12
+  WE CHOSE: attack gunkshot - our hp 0.40, theirs 0.81, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to weezing - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Overqwil
+  -damage|p1a: Overqwil|0 fnt
+  faint|p1a: Overqwil
+  -damage|p2a: Electrode|71/100|[from] item: Life Orb
+  switch|p1a: Weezing|Weezing, L88, F|258/258
+-- turn 13
+  WE CHOSE: attack sludgebomb - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Weezing
+  -damage|p1a: Weezing|105/258
+  -damage|p2a: Electrode|61/100|[from] item: Life Orb
+  move|p1a: Weezing|Sludge Bomb|p2a: Electrode
+  -damage|p2a: Electrode|28/100
+  -heal|p1a: Weezing|121/258|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack sludgebomb - our hp 0.47, theirs 0.28, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to persianalola - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Weezing
+  -damage|p1a: Weezing|0 fnt
+  faint|p1a: Weezing
+  -damage|p2a: Electrode|18/100|[from] item: Life Orb
+  switch|p1a: Persian|Persian-Alola, L86, F|252/252
+-- turn 15
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Persian
+  -damage|p1a: Persian|95/252
+  -damage|p2a: Electrode|8/100|[from] item: Life Orb
+  move|p1a: Persian|Knock Off|p2a: Electrode
+  -damage|p2a: Electrode|0 fnt
+  -enditem|p2a: Electrode|Life Orb|[from] move: Knock Off|[of] p1a: Persian
+  faint|p2a: Electrode
+  switch|p2a: Clawitzer|Clawitzer, L87, F|100/100
+-- turn 16
+  WE CHOSE: switch to kyogre (hand policy: attack knockoff) - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Kyogre|Kyogre, L71|259/259
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Kyogre
+  -damage|p1a: Kyogre|171/259
+  -weather|RainDance|[upkeep]
+-- turn 17
+  WE CHOSE: attack thunder - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Kyogre|Thunder|p2a: Clawitzer
+  -supereffective|p2a: Clawitzer
+  -damage|p2a: Clawitzer|64/100
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Kyogre
+  -damage|p1a: Kyogre|78/259
+  -weather|RainDance|[upkeep]
+-- turn 18
+  WE CHOSE: attack thunder - our hp 0.30, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to persianalola - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Kyogre|Thunder|p2a: Clawitzer
+  -supereffective|p2a: Clawitzer
+  -damage|p2a: Clawitzer|24/100
+  -status|p2a: Clawitzer|par
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Kyogre
+  -damage|p1a: Kyogre|0 fnt
+  faint|p1a: Kyogre
+  -weather|RainDance|[upkeep]
+  switch|p1a: Persian|Persian-Alola, L86, F|95/252
+-- turn 19
+  WE CHOSE: attack taunt (hand policy: attack knockoff) - our hp 0.38, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Persian|Taunt|p2a: Clawitzer
+  -start|p2a: Clawitzer|move: Taunt
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Persian
+  -damage|p1a: Persian|0 fnt
+  faint|p1a: Persian

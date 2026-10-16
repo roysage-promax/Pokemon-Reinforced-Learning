@@ -1,0 +1,238 @@
+battle 2289 (battle-gen9randombattle-1027847): lost in 30 turns, 1 of theirs left; we are p1
+
+ours:
+  chiyu (fainted; item heavydutyboots, ability beadsofruin, tera fire; moves darkpulse/fireblast/nastyplot/psychic)
+  thundurustherian (fainted; item heavydutyboots, ability voltabsorb; moves nastyplot/thunderbolt/terablast/focusblast)
+  grimmsnarl (fainted; item leftovers, ability prankster; moves suckerpunch/thunderwave/spiritbreak/taunt)
+  spectrier (fainted; item lifeorb, ability grimneigh; moves shadowball/darkpulse/nastyplot/drainingkiss)
+  azumarill (fainted; item choiceband, ability hugepower; moves knockoff/playrough/liquidation/aquajet)
+  lunala (fainted; item leftovers, ability shadowshield; moves calmmind/moonlight/moonblast/moongeistbeam)
+theirs (as seen):
+  piloswine (fainted; item unknown_item, ability ?; moves earthquake)
+  toxtricity (fainted; item unknown_item, ability ?; moves boomburst)
+  appletun (fainted; item unknown_item, ability ?; moves dracometeor)
+  serperior (fainted; item leftovers, ability ?; moves leafstorm/terablast)
+  samurotthisui (fainted; item unknown_item, ability ?; moves sacredsword)
+  regigigas (75%; item leftovers, ability slowstart; moves bodyslam)
+
+-- turn 0
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  switch|p2a: Piloswine|Piloswine, L85, M|100/100
+  -ability|p1a: Chi-Yu|Beads of Ruin
+-- turn 1
+  WE CHOSE: switch to thundurustherian - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Thundurus|Thundurus-Therian, L80, M|258/258
+  move|p2a: Piloswine|Earthquake|p1a: Thundurus
+  -immune|p1a: Thundurus
+-- turn 2
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+  -boost|p1a: Thundurus|spa|2
+  move|p2a: Piloswine|Earthquake|p1a: Thundurus
+  -immune|p1a: Thundurus
+-- turn 3
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+  -boost|p1a: Thundurus|spa|2
+  move|p2a: Piloswine|Earthquake|p1a: Thundurus
+  -immune|p1a: Thundurus
+-- turn 4
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+  -boost|p1a: Thundurus|spa|2
+  move|p2a: Piloswine|Earthquake|p1a: Thundurus
+  -immune|p1a: Thundurus
+-- turn 5
+  WE CHOSE: attack focusblast - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Thundurus|Focus Blast|p2a: Piloswine
+  -supereffective|p2a: Piloswine
+  -damage|p2a: Piloswine|0 fnt
+  faint|p2a: Piloswine
+  switch|p2a: Toxtricity|Toxtricity, L82, F|100/100
+-- turn 6
+  WE CHOSE: switch to lunala - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Lunala|Lunala, L70|308/308
+  move|p2a: Toxtricity|Boomburst|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 7
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Calm Mind|p1a: Lunala
+  -boost|p1a: Lunala|spa|1
+  -boost|p1a: Lunala|spd|1
+  move|p2a: Toxtricity|Boomburst|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 8
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Calm Mind|p1a: Lunala
+  -boost|p1a: Lunala|spa|1
+  -boost|p1a: Lunala|spd|1
+  move|p2a: Toxtricity|Boomburst|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 9
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Calm Mind|p1a: Lunala
+  -boost|p1a: Lunala|spa|1
+  -boost|p1a: Lunala|spd|1
+  move|p2a: Toxtricity|Boomburst|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 10
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Calm Mind|p1a: Lunala
+  -boost|p1a: Lunala|spa|1
+  -boost|p1a: Lunala|spd|1
+  move|p2a: Toxtricity|Boomburst|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 11
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Calm Mind|p1a: Lunala
+  -boost|p1a: Lunala|spa|1
+  -boost|p1a: Lunala|spd|1
+  move|p2a: Toxtricity|Boomburst|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 12
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Calm Mind|p1a: Lunala
+  -boost|p1a: Lunala|spa|1
+  -boost|p1a: Lunala|spd|1
+  move|p2a: Toxtricity|Boomburst|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 13
+  WE CHOSE: attack moongeistbeam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Moongeist Beam|p2a: Toxtricity
+  -damage|p2a: Toxtricity|0 fnt
+  faint|p2a: Toxtricity
+  switch|p2a: Appletun|Appletun, L92, F|100/100
+-- turn 14
+  WE CHOSE: switch to azumarill - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Azumarill|Azumarill, L82, M|298/298
+  move|p2a: Appletun|Draco Meteor|p1a: Azumarill
+  -immune|p1a: Azumarill
+-- turn 15
+  WE CHOSE: attack playrough - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Azumarill|Play Rough|p2a: Appletun
+  -supereffective|p2a: Appletun
+  -crit|p2a: Appletun
+  -damage|p2a: Appletun|0 fnt
+  faint|p2a: Appletun
+  switch|p2a: Serperior|Serperior, L79, M|100/100
+-- turn 16
+  WE CHOSE: switch to chiyu - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+  move|p2a: Serperior|Leaf Storm|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -crit|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|146/211
+  -boost|p2a: Serperior|spa|2
+-- turn 17
+  WE CHOSE: setup nastyplot - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|65/211
+  -boost|p2a: Serperior|spa|2
+  move|p1a: Chi-Yu|Nasty Plot|p1a: Chi-Yu
+  -boost|p1a: Chi-Yu|spa|2
+-- turn 18
+  WE CHOSE: attack+tera fireblast - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to thundurustherian - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Chi-Yu|Fire
+  move|p2a: Serperior|Leaf Storm|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Chi-Yu
+  switch|p1a: Thundurus|Thundurus-Therian, L80, M|258/258
+-- turn 19
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Thundurus
+  -resisted|p1a: Thundurus
+  -damage|p1a: Thundurus|27/258
+  move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+  -boost|p1a: Thundurus|spa|2
+-- turn 20
+  WE CHOSE: attack focusblast - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to lunala - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Thundurus
+  -resisted|p1a: Thundurus
+  -damage|p1a: Thundurus|0 fnt
+  faint|p1a: Thundurus
+  switch|p1a: Lunala|Lunala, L70|308/308
+-- turn 21
+  WE CHOSE: attack moongeistbeam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Lunala
+  -damage|p1a: Lunala|93/308
+  move|p1a: Lunala|Moongeist Beam|p2a: Serperior
+  -damage|p2a: Serperior|59/100
+  -heal|p2a: Serperior|65/100|[from] item: Leftovers
+  -heal|p1a: Lunala|112/308|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal moonlight - our hp 0.36, theirs 0.65, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to spectrier - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Lunala
+  -damage|p1a: Lunala|0 fnt
+  faint|p1a: Lunala
+  -heal|p2a: Serperior|71/100|[from] item: Leftovers
+  switch|p1a: Spectrier|Spectrier, L75|274/274
+-- turn 23
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to grimmsnarl - our hp 0.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Spectrier|Shadow Ball|p2a: Serperior
+  -damage|p2a: Serperior|21/100
+  -damage|p1a: Spectrier|247/274|[from] item: Life Orb
+  move|p2a: Serperior|Leaf Storm|p1a: Spectrier
+  -damage|p1a: Spectrier|0 fnt
+  faint|p1a: Spectrier
+  -heal|p2a: Serperior|27/100|[from] item: Leftovers
+  switch|p1a: Grimmsnarl|Grimmsnarl, L83, M|293/293
+-- turn 24
+  WE CHOSE: attack spiritbreak - our hp 1.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Tera Blast|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|93/293
+  move|p1a: Grimmsnarl|Spirit Break|p2a: Serperior
+  -damage|p2a: Serperior|0 fnt
+  faint|p2a: Serperior
+  -heal|p1a: Grimmsnarl|111/293|[from] item: Leftovers
+  switch|p2a: Samurott|Samurott-Hisui, L77, M|100/100
+-- turn 25
+  WE CHOSE: attack spiritbreak - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to azumarill - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Samurott|Sacred Sword|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|0 fnt
+  faint|p1a: Grimmsnarl
+  switch|p1a: Azumarill|Azumarill, L82, M|298/298
+-- turn 26
+  WE CHOSE: attack playrough - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Samurott|Sacred Sword|p1a: Azumarill
+  -resisted|p1a: Azumarill
+  -damage|p1a: Azumarill|224/298
+  move|p1a: Azumarill|Play Rough|p2a: Samurott
+  -supereffective|p2a: Samurott
+  -damage|p2a: Samurott|0 fnt
+  faint|p2a: Samurott
+  switch|p2a: Regigigas|Regigigas, L84|100/100
+  -start|p2a: Regigigas|ability: Slow Start
+-- turn 27
+  WE CHOSE: attack playrough - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Azumarill|Play Rough|p2a: Regigigas
+  -damage|p2a: Regigigas|57/100
+  move|p2a: Regigigas|Body Slam|p1a: Azumarill
+  -damage|p1a: Azumarill|155/298
+  -status|p1a: Azumarill|par
+  -heal|p2a: Regigigas|63/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack playrough - our hp 0.52, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Azumarill
+  -damage|p1a: Azumarill|83/298 par
+  cant|p1a: Azumarill|par
+  -heal|p2a: Regigigas|69/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack playrough - our hp 0.28, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Azumarill
+  -damage|p1a: Azumarill|10/298 par
+  cant|p1a: Azumarill|par
+  -heal|p2a: Regigigas|75/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack playrough - our hp 0.03, theirs 0.75, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Azumarill
+  -damage|p1a: Azumarill|0 fnt
+  faint|p1a: Azumarill

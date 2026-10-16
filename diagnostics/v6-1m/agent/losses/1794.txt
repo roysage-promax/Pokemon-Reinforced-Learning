@@ -1,0 +1,512 @@
+battle 1794 (battle-gen9randombattle-1024603): lost in 65 turns, 3 of theirs left; we are p1
+
+ours:
+  mudsdale (fainted; item leftovers, ability stamina; moves earthquake/roar/heavyslam/stealthrock)
+  dragonite (fainted; item heavydutyboots, ability multiscale; moves outrage/roost/earthquake/dragondance)
+  qwilfish (fainted; item leftovers, ability intimidate; moves spikes/gunkshot/waterfall/thunderwave)
+  chansey (fainted; item eviolite, ability naturalcure, tera fairy; moves thunderwave/softboiled/healbell/seismictoss)
+  comfey (fainted; item leftovers, ability triage; moves terablast/calmmind/synthesis/drainingkiss)
+  sableye (fainted; item leftovers, ability prankster; moves encore/willowisp/recover/knockoff)
+theirs (as seen):
+  calyrexshadow (fainted; item unknown_item, ability grimneigh; moves astralbarrage)
+  heatran (fainted; item ?, ability ?; moves earthpower/lavaplume)
+  grimmsnarl (fainted; item unknown_item, ability ?; moves spiritbreak)
+  spectrier (100%; item leftovers, ability grimneigh; moves shadowball)
+
+-- turn 0
+  switch|p1a: Mudsdale|Mudsdale, L83, M|302/302
+  switch|p2a: Calyrex|Calyrex-Shadow, L64|100/100
+  -ability|p2a: Calyrex|As One
+  -ability|p2a: Calyrex|Unnerve
+-- turn 1
+  WE CHOSE: switch to chansey - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Calyrex|Astral Barrage|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 2
+  WE CHOSE: switch to sableye (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to chansey (hand policy: forced: switch to dragonite) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Sableye|Sableye, L88, F|231/231
+  move|p2a: Calyrex|Astral Barrage|p1a: Sableye
+  -crit|p1a: Sableye
+  -damage|p1a: Sableye|0 fnt
+  faint|p1a: Sableye
+  -ability|p2a: Calyrex|Grim Neigh|boost
+  -boost|p2a: Calyrex|spa|1
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+-- turn 3
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Calyrex|Astral Barrage|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 4
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Calyrex|Astral Barrage|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 5
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Calyrex|Astral Barrage|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 6
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Calyrex|Astral Barrage|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 7
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Calyrex|Astral Barrage|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 8
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Calyrex|Astral Barrage|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 9
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  -activate|p2a: Calyrex|move: Struggle
+  move|p2a: Calyrex|Struggle|p1a: Chansey
+  -damage|p1a: Chansey|528/564
+  -damage|p2a: Calyrex|75/100|[from] recoil
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 10
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x0
+  -activate|p2a: Calyrex|move: Struggle
+  move|p2a: Calyrex|Struggle|p1a: Chansey
+  -damage|p1a: Chansey|533/564
+  -damage|p2a: Calyrex|50/100|[from] recoil
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 11
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x0
+  -activate|p2a: Calyrex|move: Struggle
+  move|p2a: Calyrex|Struggle|p1a: Chansey
+  -damage|p1a: Chansey|528/564
+  -damage|p2a: Calyrex|25/100|[from] recoil
+  move|p1a: Chansey|Thunder Wave|p2a: Calyrex
+  -status|p2a: Calyrex|par
+-- turn 12
+  WE CHOSE: attack thunderwave - our hp 0.94, theirs 0.25, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Calyrex
+  -fail|p2a: Calyrex|par
+  cant|p2a: Calyrex|par
+-- turn 13
+  WE CHOSE: attack thunderwave - our hp 0.94, theirs 0.25, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Calyrex
+  -fail|p2a: Calyrex|par
+  -activate|p2a: Calyrex|move: Struggle
+  move|p2a: Calyrex|Struggle|p1a: Chansey
+  -damage|p1a: Chansey|494/564
+  -damage|p2a: Calyrex|0 fnt|[from] recoil
+  faint|p2a: Calyrex
+  switch|p2a: Heatran|Heatran, L79, M|100/100
+  -item|p2a: Heatran|Air Balloon
+-- turn 14
+  WE CHOSE: switch to dragonite (hand policy: attack thunderwave) - our hp 0.88, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dragonite|Dragonite, L74, M|257/257
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 15
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+-- turn 16
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 17
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 18
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 19
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 20
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 21
+  WE CHOSE: setup dragondance (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|0
+  -boost|p1a: Dragonite|spe|0
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 22
+  WE CHOSE: setup dragondance (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|0
+  -boost|p1a: Dragonite|spe|0
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 23
+  WE CHOSE: setup dragondance (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|0
+  -boost|p1a: Dragonite|spe|0
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 24
+  WE CHOSE: setup dragondance (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|0
+  -boost|p1a: Dragonite|spe|0
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 25
+  WE CHOSE: setup dragondance (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|0
+  -boost|p1a: Dragonite|spe|0
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 26
+  WE CHOSE: setup dragondance (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|0
+  -boost|p1a: Dragonite|spe|0
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 27
+  WE CHOSE: setup dragondance (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|0
+  -boost|p1a: Dragonite|spe|0
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 28
+  WE CHOSE: setup dragondance (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|0
+  -boost|p1a: Dragonite|spe|0
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 29
+  WE CHOSE: setup dragondance (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|0
+  -boost|p1a: Dragonite|spe|0
+  move|p2a: Heatran|Earth Power|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 30
+  WE CHOSE: setup dragondance (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|0
+  -boost|p1a: Dragonite|spe|0
+  move|p2a: Heatran|Lava Plume|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|231/257
+-- turn 31
+  WE CHOSE: setup dragondance (hand policy: attack earthquake) - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|0
+  -boost|p1a: Dragonite|spe|0
+  move|p2a: Heatran|Lava Plume|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|180/257
+-- turn 32
+  WE CHOSE: attack earthquake - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Lava Plume|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|135/257
+-- turn 33
+  WE CHOSE: attack earthquake - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Lava Plume|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|89/257
+-- turn 34
+  WE CHOSE: attack earthquake (hand policy: heal roost) - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Lava Plume|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|43/257
+-- turn 35
+  WE CHOSE: attack earthquake (hand policy: heal roost) - our hp 0.17, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to mudsdale - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Lava Plume|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|0 fnt
+  faint|p1a: Dragonite
+  switch|p1a: Mudsdale|Mudsdale, L83, M|302/302
+-- turn 36
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Lava Plume|p1a: Mudsdale
+  -damage|p1a: Mudsdale|208/302
+  -status|p1a: Mudsdale|brn
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  move|p1a: Mudsdale|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -heal|p1a: Mudsdale|226/302 brn|[from] item: Leftovers
+  -damage|p1a: Mudsdale|208/302 brn|[from] brn
+-- turn 37
+  WE CHOSE: attack earthquake - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Lava Plume|p1a: Mudsdale
+  -damage|p1a: Mudsdale|115/302 brn
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  move|p1a: Mudsdale|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -heal|p1a: Mudsdale|133/302 brn|[from] item: Leftovers
+  -damage|p1a: Mudsdale|115/302 brn|[from] brn
+-- turn 38
+  WE CHOSE: attack earthquake - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Lava Plume|p1a: Mudsdale
+  -damage|p1a: Mudsdale|19/302 brn
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  move|p1a: Mudsdale|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -heal|p1a: Mudsdale|37/302 brn|[from] item: Leftovers
+  -damage|p1a: Mudsdale|19/302 brn|[from] brn
+-- turn 39
+  WE CHOSE: attack earthquake - our hp 0.06, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to comfey (hand policy: forced: switch to qwilfish) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Lava Plume|p1a: Mudsdale
+  -damage|p1a: Mudsdale|0 fnt
+  faint|p1a: Mudsdale
+  switch|p1a: Comfey|Comfey, L85, F|225/225
+-- turn 40
+  WE CHOSE: heal synthesis (hand policy: attack terablast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -fail|p1a: Comfey|heal
+  move|p2a: Heatran|Lava Plume|p1a: Comfey
+  -damage|p1a: Comfey|143/225
+  -status|p1a: Comfey|brn
+  -heal|p1a: Comfey|157/225 brn|[from] item: Leftovers
+  -damage|p1a: Comfey|143/225 brn|[from] brn
+-- turn 41
+  WE CHOSE: heal synthesis (hand policy: attack terablast) - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|225/225 brn
+  move|p2a: Heatran|Lava Plume|p1a: Comfey
+  -damage|p1a: Comfey|146/225 brn
+  -heal|p1a: Comfey|160/225 brn|[from] item: Leftovers
+  -damage|p1a: Comfey|146/225 brn|[from] brn
+-- turn 42
+  WE CHOSE: heal synthesis (hand policy: attack terablast) - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|225/225 brn
+  move|p2a: Heatran|Lava Plume|p1a: Comfey
+  -damage|p1a: Comfey|150/225 brn
+  -heal|p1a: Comfey|164/225 brn|[from] item: Leftovers
+  -damage|p1a: Comfey|150/225 brn|[from] brn
+-- turn 43
+  WE CHOSE: heal synthesis (hand policy: attack terablast) - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|225/225 brn
+  move|p2a: Heatran|Lava Plume|p1a: Comfey
+  -damage|p1a: Comfey|149/225 brn
+  -heal|p1a: Comfey|163/225 brn|[from] item: Leftovers
+  -damage|p1a: Comfey|149/225 brn|[from] brn
+-- turn 44
+  WE CHOSE: heal synthesis (hand policy: attack terablast) - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|225/225 brn
+  move|p2a: Heatran|Lava Plume|p1a: Comfey
+  -damage|p1a: Comfey|147/225 brn
+  -heal|p1a: Comfey|161/225 brn|[from] item: Leftovers
+  -damage|p1a: Comfey|147/225 brn|[from] brn
+-- turn 45
+  WE CHOSE: heal synthesis (hand policy: attack terablast) - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|225/225 brn
+  move|p2a: Heatran|Lava Plume|p1a: Comfey
+  -damage|p1a: Comfey|150/225 brn
+  -heal|p1a: Comfey|164/225 brn|[from] item: Leftovers
+  -damage|p1a: Comfey|150/225 brn|[from] brn
+-- turn 46
+  WE CHOSE: heal synthesis (hand policy: attack terablast) - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|225/225 brn
+  move|p2a: Heatran|Lava Plume|p1a: Comfey
+  -damage|p1a: Comfey|143/225 brn
+  -heal|p1a: Comfey|157/225 brn|[from] item: Leftovers
+  -damage|p1a: Comfey|143/225 brn|[from] brn
+-- turn 47
+  WE CHOSE: heal synthesis (hand policy: attack terablast) - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|225/225 brn
+  move|p2a: Heatran|Lava Plume|p1a: Comfey
+  -damage|p1a: Comfey|146/225 brn
+  -heal|p1a: Comfey|160/225 brn|[from] item: Leftovers
+  -damage|p1a: Comfey|146/225 brn|[from] brn
+-- turn 48
+  WE CHOSE: attack terablast - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Tera Blast|p2a: Heatran
+  -resisted|p2a: Heatran
+  -damage|p2a: Heatran|92/100
+  -enditem|p2a: Heatran|Air Balloon
+  move|p2a: Heatran|Lava Plume|p1a: Comfey
+  -damage|p1a: Comfey|67/225 brn
+  -heal|p1a: Comfey|81/225 brn|[from] item: Leftovers
+  -damage|p1a: Comfey|67/225 brn|[from] brn
+-- turn 49
+  WE CHOSE: attack terablast - our hp 0.30, theirs 0.92, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to chansey (hand policy: forced: switch to qwilfish) - our hp 0.00, theirs 0.83, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Tera Blast|p2a: Heatran
+  -resisted|p2a: Heatran
+  -damage|p2a: Heatran|83/100
+  move|p2a: Heatran|Lava Plume|p1a: Comfey
+  -damage|p1a: Comfey|0 fnt
+  faint|p1a: Comfey
+  switch|p1a: Chansey|Chansey, L85, F|494/564
+-- turn 50
+  WE CHOSE: attack+tera thunderwave (hand policy: attack thunderwave) - our hp 0.88, theirs 0.83, predicted move (revealed) hits us x1
+  -terastallize|p1a: Chansey|Fairy
+  move|p2a: Heatran|Lava Plume|p1a: Chansey
+  -damage|p1a: Chansey|436/564
+  move|p1a: Chansey|Thunder Wave|p2a: Heatran
+  -status|p2a: Heatran|par
+-- turn 51
+  WE CHOSE: attack seismictoss - our hp 0.77, theirs 0.83, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Seismic Toss|p2a: Heatran
+  -damage|p2a: Heatran|52/100 par
+  cant|p2a: Heatran|par
+-- turn 52
+  WE CHOSE: attack seismictoss - our hp 0.77, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Seismic Toss|p2a: Heatran
+  -damage|p2a: Heatran|21/100 par
+  move|p2a: Heatran|Lava Plume|p1a: Chansey
+  -damage|p1a: Chansey|382/564
+  -status|p1a: Chansey|brn
+  -damage|p1a: Chansey|347/564 brn|[from] brn
+-- turn 53
+  WE CHOSE: attack seismictoss - our hp 0.62, theirs 0.21, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Seismic Toss|p2a: Heatran
+  -damage|p2a: Heatran|0 fnt
+  faint|p2a: Heatran
+  -damage|p1a: Chansey|312/564 brn|[from] brn
+  switch|p2a: Grimmsnarl|Grimmsnarl, L83, M|100/100
+-- turn 54
+  WE CHOSE: switch to qwilfish (hand policy: attack thunderwave) - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x1
+  -curestatus|p1a: Chansey|brn|[from] ability: Natural Cure|[silent]
+  switch|p1a: Qwilfish|Qwilfish, L86, M|252/252
+  -ability|p1a: Qwilfish|Intimidate|boost
+  -unboost|p2a: Grimmsnarl|atk|1
+  move|p2a: Grimmsnarl|Spirit Break|p1a: Qwilfish
+  -resisted|p1a: Qwilfish
+  -damage|p1a: Qwilfish|222/252
+  -unboost|p1a: Qwilfish|spa|1
+  -heal|p1a: Qwilfish|237/252|[from] item: Leftovers
+-- turn 55
+  WE CHOSE: attack gunkshot - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Qwilfish|Gunk Shot|p2a: Grimmsnarl|[miss]
+  -miss|p1a: Qwilfish|p2a: Grimmsnarl
+  move|p2a: Grimmsnarl|Spirit Break|p1a: Qwilfish
+  -resisted|p1a: Qwilfish
+  -damage|p1a: Qwilfish|207/252
+  -unboost|p1a: Qwilfish|spa|1
+  -heal|p1a: Qwilfish|222/252|[from] item: Leftovers
+-- turn 56
+  WE CHOSE: attack gunkshot - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Qwilfish|Gunk Shot|p2a: Grimmsnarl
+  -supereffective|p2a: Grimmsnarl
+  -damage|p2a: Grimmsnarl|0 fnt
+  faint|p2a: Grimmsnarl
+  -heal|p1a: Qwilfish|237/252|[from] item: Leftovers
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+-- turn 57
+  WE CHOSE: attack thunderwave (hand policy: attack waterfall) - our hp 0.94, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Qwilfish
+  -damage|p1a: Qwilfish|108/252
+  move|p1a: Qwilfish|Thunder Wave|p2a: Spectrier
+  -status|p2a: Spectrier|par
+  -heal|p1a: Qwilfish|123/252|[from] item: Leftovers
+-- turn 58
+  WE CHOSE: attack waterfall - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: attack thunderwave (hand policy: forced: switch to chansey) - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Qwilfish|Waterfall|p2a: Spectrier
+  -damage|p2a: Spectrier|57/100 par
+  move|p2a: Spectrier|Shadow Ball|p1a: Qwilfish
+  -damage|p1a: Qwilfish|0 fnt
+  faint|p1a: Qwilfish
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -heal|p2a: Spectrier|64/100 par|[from] item: Leftovers
+  switch|p1a: Chansey|Chansey, L85, F, tera:Fairy|312/564
+-- turn 59
+  WE CHOSE: attack seismictoss - our hp 0.55, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Seismic Toss|p2a: Spectrier
+  -immune|p2a: Spectrier
+  move|p2a: Spectrier|Shadow Ball|p1a: Chansey
+  -damage|p1a: Chansey|233/564
+  -heal|p2a: Spectrier|70/100 par|[from] item: Leftovers
+-- turn 60
+  WE CHOSE: attack seismictoss - our hp 0.41, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Seismic Toss|p2a: Spectrier
+  -immune|p2a: Spectrier
+  cant|p2a: Spectrier|par
+  -heal|p2a: Spectrier|76/100 par|[from] item: Leftovers
+-- turn 61
+  WE CHOSE: attack seismictoss - our hp 0.41, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Seismic Toss|p2a: Spectrier
+  -immune|p2a: Spectrier
+  move|p2a: Spectrier|Shadow Ball|p1a: Chansey
+  -damage|p1a: Chansey|143/564
+  -heal|p2a: Spectrier|82/100 par|[from] item: Leftovers
+-- turn 62
+  WE CHOSE: attack seismictoss - our hp 0.25, theirs 0.82, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Seismic Toss|p2a: Spectrier
+  -immune|p2a: Spectrier
+  cant|p2a: Spectrier|par
+  -heal|p2a: Spectrier|88/100 par|[from] item: Leftovers
+-- turn 63
+  WE CHOSE: attack seismictoss - our hp 0.25, theirs 0.88, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Seismic Toss|p2a: Spectrier
+  -immune|p2a: Spectrier
+  move|p2a: Spectrier|Shadow Ball|p1a: Chansey
+  -damage|p1a: Chansey|62/564
+  -heal|p2a: Spectrier|95/100 par|[from] item: Leftovers
+-- turn 64
+  WE CHOSE: attack seismictoss - our hp 0.11, theirs 0.95, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Seismic Toss|p2a: Spectrier
+  -immune|p2a: Spectrier
+  cant|p2a: Spectrier|par
+  -heal|p2a: Spectrier|100/100 par|[from] item: Leftovers
+-- turn 65
+  WE CHOSE: attack seismictoss - our hp 0.11, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Seismic Toss|p2a: Spectrier
+  -immune|p2a: Spectrier
+  move|p2a: Spectrier|Shadow Ball|p1a: Chansey
+  -damage|p1a: Chansey|0 fnt
+  faint|p1a: Chansey

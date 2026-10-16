@@ -1,0 +1,303 @@
+battle 1465 (battle-gen9randombattle-1021155): lost in 41 turns, 2 of theirs left; we are p1
+
+ours:
+  lokix (fainted; item silverpowder, ability tintedlens; moves knockoff/suckerpunch/firstimpression/uturn)
+  whimsicott (fainted; item heavydutyboots, ability prankster; moves moonblast/stunspore/uturn/encore)
+  electivire (fainted; item lifeorb, ability motordrive; moves supercellslam/bulkup/earthquake/icepunch)
+  enamorustherian (fainted; item choicespecs, ability overcoat, tera ground; moves mysticalfire/earthpower/psychic/moonblast)
+  torkoal (fainted; item heavydutyboots, ability drought; moves solarbeam/earthquake/lavaplume/stealthrock)
+  latios (fainted; item souldew, ability levitate; moves psyshock/calmmind/dracometeor/recover)
+theirs (as seen):
+  salamence (fainted; item unknown_item, ability moxie; moves outrage/earthquake)
+  muk (fainted; item leftovers, ability ?; moves gunkshot)
+  zarudedada (fainted; item unknown_item, ability leafguard; moves closecombat)
+  toxtricity (fainted; item ?, ability ?; moves boomburst)
+  groudon (51%; item unknown_item, ability drought; moves precipiceblades)
+
+-- turn 0
+  switch|p1a: Lokix|Lokix, L82, F|251/251
+  switch|p2a: Salamence|Salamence, L77, M|100/100
+-- turn 1
+  WE CHOSE: switch to whimsicott - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+  move|p2a: Salamence|Outrage|p1a: Whimsicott
+  -immune|p1a: Whimsicott
+-- turn 2
+  WE CHOSE: switch to enamorustherian (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Salamence|Outrage|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 3
+  WE CHOSE: switch to whimsicott (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+  move|p2a: Salamence|Outrage|p1a: Whimsicott
+  -immune|p1a: Whimsicott
+-- turn 4
+  WE CHOSE: switch to enamorustherian (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Salamence|Outrage|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 5
+  WE CHOSE: switch to whimsicott (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+  move|p2a: Salamence|Outrage|p1a: Whimsicott
+  -immune|p1a: Whimsicott
+-- turn 6
+  WE CHOSE: switch to enamorustherian (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Salamence|Outrage|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 7
+  WE CHOSE: switch to whimsicott (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+  move|p2a: Salamence|Outrage|p1a: Whimsicott
+  -immune|p1a: Whimsicott
+-- turn 8
+  WE CHOSE: switch to enamorustherian (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Salamence|Outrage|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 9
+  WE CHOSE: switch to whimsicott (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+  move|p2a: Salamence|Outrage|p1a: Whimsicott
+  -immune|p1a: Whimsicott
+-- turn 10
+  WE CHOSE: switch to enamorustherian (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Salamence|Outrage|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 11
+  WE CHOSE: switch to whimsicott (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+  move|p2a: Salamence|Outrage|p1a: Whimsicott
+  -immune|p1a: Whimsicott
+-- turn 12
+  WE CHOSE: switch to enamorustherian (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Salamence|Outrage|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 13
+  WE CHOSE: switch to whimsicott (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+  move|p2a: Salamence|Outrage|p1a: Whimsicott
+  -immune|p1a: Whimsicott
+-- turn 14
+  WE CHOSE: switch to enamorustherian (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Salamence|Outrage|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 15
+  WE CHOSE: switch to whimsicott (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+  move|p2a: Salamence|Outrage|p1a: Whimsicott
+  -immune|p1a: Whimsicott
+-- turn 16
+  WE CHOSE: switch to enamorustherian (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Salamence|Outrage|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 17
+  WE CHOSE: switch to whimsicott (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+  move|p2a: Salamence|Earthquake|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|197/238
+-- turn 18
+  WE CHOSE: switch to enamorustherian (hand policy: attack moonblast) - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Salamence|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 19
+  WE CHOSE: switch to whimsicott (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whimsicott|Whimsicott, L84, M|197/238
+  move|p2a: Salamence|Earthquake|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|154/238
+-- turn 20
+  WE CHOSE: switch to enamorustherian (hand policy: attack moonblast) - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Salamence|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 21
+  WE CHOSE: switch to whimsicott (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whimsicott|Whimsicott, L84, M|154/238
+  move|p2a: Salamence|Earthquake|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|118/238
+-- turn 22
+  WE CHOSE: switch to enamorustherian (hand policy: attack moonblast) - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Salamence|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 23
+  WE CHOSE: switch to whimsicott (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whimsicott|Whimsicott, L84, M|118/238
+  move|p2a: Salamence|Earthquake|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|78/238
+-- turn 24
+  WE CHOSE: switch to enamorustherian (hand policy: attack moonblast) - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Salamence|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 25
+  WE CHOSE: switch to whimsicott (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whimsicott|Whimsicott, L84, M|78/238
+  move|p2a: Salamence|Earthquake|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|38/238
+-- turn 26
+  WE CHOSE: switch to enamorustherian (hand policy: attack moonblast) - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Salamence|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 27
+  WE CHOSE: switch to whimsicott (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to enamorustherian - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whimsicott|Whimsicott, L84, M|38/238
+  move|p2a: Salamence|Earthquake|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|0 fnt
+  faint|p1a: Whimsicott
+  -ability|p2a: Salamence|Moxie|boost
+  -boost|p2a: Salamence|atk|1
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+-- turn 28
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Salamence|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+  move|p1a: Enamorus|Moonblast|p2a: Salamence
+  -supereffective|p2a: Salamence
+  -damage|p2a: Salamence|0 fnt
+  faint|p2a: Salamence
+  switch|p2a: Muk|Muk, L86, M|100/100
+-- turn 29
+  WE CHOSE: attack+tera moonblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Enamorus|Ground
+  move|p2a: Muk|Gunk Shot|p1a: Enamorus
+  -resisted|p1a: Enamorus
+  -damage|p1a: Enamorus|194/259
+  -status|p1a: Enamorus|psn
+  move|p1a: Enamorus|Moonblast|p2a: Muk
+  -resisted|p2a: Muk
+  -damage|p2a: Muk|76/100
+  -heal|p2a: Muk|82/100|[from] item: Leftovers
+  -damage|p1a: Enamorus|162/259 psn|[from] psn
+-- turn 30
+  WE CHOSE: attack moonblast - our hp 0.63, theirs 0.82, predicted move (revealed) hits us x0.5
+  move|p2a: Muk|Gunk Shot|p1a: Enamorus
+  -resisted|p1a: Enamorus
+  -damage|p1a: Enamorus|102/259 psn
+  move|p1a: Enamorus|Moonblast|p2a: Muk
+  -resisted|p2a: Muk
+  -damage|p2a: Muk|57/100
+  -unboost|p2a: Muk|spa|1
+  -heal|p2a: Muk|63/100|[from] item: Leftovers
+  -damage|p1a: Enamorus|70/259 psn|[from] psn
+-- turn 31
+  WE CHOSE: attack moonblast - our hp 0.27, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p2a: Muk|Gunk Shot|p1a: Enamorus|[miss]
+  -miss|p2a: Muk|p1a: Enamorus
+  move|p1a: Enamorus|Moonblast|p2a: Muk
+  -resisted|p2a: Muk
+  -damage|p2a: Muk|38/100
+  -unboost|p2a: Muk|spa|1
+  -heal|p2a: Muk|44/100|[from] item: Leftovers
+  -damage|p1a: Enamorus|38/259 psn|[from] psn
+-- turn 32
+  WE CHOSE: switch to latios (hand policy: attack moonblast) - our hp 0.15, theirs 0.44, predicted move (revealed) hits us x0.5
+  switch|p1a: Latios|Latios, L78, M|253/253
+  move|p2a: Muk|Gunk Shot|p1a: Latios
+  -damage|p1a: Latios|91/253
+  -heal|p2a: Muk|50/100|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: setup calmmind (hand policy: heal recover) - our hp 0.36, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to enamorustherian - our hp 0.00, theirs 0.56, predicted move (revealed) hits us x1
+  move|p1a: Latios|Calm Mind|p1a: Latios
+  -boost|p1a: Latios|spa|1
+  -boost|p1a: Latios|spd|1
+  move|p2a: Muk|Gunk Shot|p1a: Latios
+  -damage|p1a: Latios|0 fnt
+  faint|p1a: Latios
+  -heal|p2a: Muk|56/100|[from] item: Leftovers
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F, tera:Ground|38/259 psn
+-- turn 34
+  WE CHOSE: attack earthpower - our hp 0.15, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p2a: Muk|Gunk Shot|p1a: Enamorus|[miss]
+  -miss|p2a: Muk|p1a: Enamorus
+  move|p1a: Enamorus|Earth Power|p2a: Muk
+  -supereffective|p2a: Muk
+  -damage|p2a: Muk|0 fnt
+  faint|p2a: Muk
+  -damage|p1a: Enamorus|6/259 psn|[from] psn
+  switch|p2a: Zarude|Zarude-Dada, L77|100/100
+-- turn 35
+  WE CHOSE: switch to lokix (hand policy: attack earthpower) - our hp 0.02, theirs 1.00, predicted move (unknown) hits us x0
+  switch|p1a: Lokix|Lokix, L82, F|251/251
+  move|p2a: Zarude|Close Combat|p1a: Lokix
+  -damage|p1a: Lokix|115/251
+  -unboost|p2a: Zarude|def|1
+  -unboost|p2a: Zarude|spd|1
+-- turn 36
+  WE CHOSE: attack uturn (hand policy: attack firstimpression) - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to enamorustherian - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Zarude|Close Combat|p1a: Lokix
+  -damage|p1a: Lokix|0 fnt
+  -unboost|p2a: Zarude|def|1
+  -unboost|p2a: Zarude|spd|1
+  faint|p1a: Lokix
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F, tera:Ground|6/259 psn
+-- turn 37
+  WE CHOSE: attack moonblast - our hp 0.02, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to torkoal - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Zarude|Close Combat|p1a: Enamorus
+  -damage|p1a: Enamorus|0 fnt
+  -unboost|p2a: Zarude|def|1
+  -unboost|p2a: Zarude|spd|1
+  faint|p1a: Enamorus
+  switch|p1a: Torkoal|Torkoal, L88, M|266/266
+  -weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+-- turn 38
+  WE CHOSE: attack lavaplume - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Zarude|Close Combat|p1a: Torkoal
+  -damage|p1a: Torkoal|181/266
+  -unboost|p2a: Zarude|def|1
+  -unboost|p2a: Zarude|spd|1
+  move|p1a: Torkoal|Lava Plume|p2a: Zarude
+  -supereffective|p2a: Zarude
+  -damage|p2a: Zarude|0 fnt
+  faint|p2a: Zarude
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Toxtricity|Toxtricity, L82, F|100/100
+-- turn 39
+  WE CHOSE: attack earthquake - our hp 0.68, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Toxtricity|Boomburst|p1a: Torkoal
+  -damage|p1a: Torkoal|38/266
+  -enditem|p2a: Toxtricity|Throat Spray
+  -boost|p2a: Toxtricity|spa|1|[from] item: Throat Spray
+  move|p1a: Torkoal|Earthquake|p2a: Toxtricity
+  -supereffective|p2a: Toxtricity
+  -damage|p2a: Toxtricity|0 fnt
+  faint|p2a: Toxtricity
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Groudon|Groudon, L72|100/100
+-- turn 40
+  WE CHOSE: attack solarbeam - our hp 0.14, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to electivire - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Groudon|Precipice Blades|p1a: Torkoal
+  -supereffective|p1a: Torkoal
+  -damage|p1a: Torkoal|0 fnt
+  faint|p1a: Torkoal
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Electivire|Electivire, L84, M|263/263
+-- turn 41
+  WE CHOSE: attack icepunch - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Electivire|Ice Punch|p2a: Groudon
+  -supereffective|p2a: Groudon
+  -damage|p2a: Groudon|51/100
+  -damage|p1a: Electivire|237/263|[from] item: Life Orb
+  move|p2a: Groudon|Precipice Blades|p1a: Electivire
+  -supereffective|p1a: Electivire
+  -damage|p1a: Electivire|0 fnt
+  faint|p1a: Electivire

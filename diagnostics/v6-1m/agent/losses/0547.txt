@@ -1,0 +1,172 @@
+battle 547 (battle-gen9randombattle-1011866): lost in 16 turns, 2 of theirs left; we are p1
+
+ours:
+  ogerponwellspring (fainted; item wellspringmask, ability waterabsorb; moves uturn/ivycudgel/synthesis/woodhammer)
+  flamigo (fainted; item lifeorb, ability scrappy; moves bravebird/throatchop/swordsdance/closecombat)
+  ironvaliant (fainted; item lifeorb, ability quarkdrive; moves moonblast/closecombat/encore/knockoff)
+  cryogonal (fainted; item heavydutyboots, ability levitate; moves recover/terablast/icebeam/rapidspin)
+  deoxysattack (fainted; item lifeorb, ability pressure; moves knockoff/superpower/icebeam/psychoboost)
+  jolteon (fainted; item choicespecs, ability voltabsorb, tera electric; moves thunderbolt/alluringvoice/voltswitch/shadowball)
+theirs (as seen):
+  altaria (fainted; item unknown_item, ability ?; moves bravebird)
+  blaziken (fainted; item lifeorb, ability speedboost; moves flareblitz)
+  mabosstiff (fainted; item unknown_item, ability ?; moves wildcharge)
+  poliwrath (fainted; item lifeorb, ability ?; moves closecombat)
+  greedent (51%; item ?, ability ?; moves doubleedge)
+
+-- turn 0
+  switch|p1a: Ogerpon|Ogerpon-Wellspring, L76, F|247/247
+  switch|p2a: Altaria|Altaria, L89, F|100/100
+-- turn 1
+  WE CHOSE: switch to jolteon - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Jolteon|Jolteon, L84, F|246/246
+  move|p2a: Altaria|Brave Bird|p1a: Jolteon
+  -resisted|p1a: Jolteon
+  -damage|p1a: Jolteon|176/246
+  -damage|p2a: Altaria|92/100|[from] Recoil
+-- turn 2
+  WE CHOSE: attack alluringvoice - our hp 0.72, theirs 0.92, predicted move (revealed) hits us x0.5
+  move|p1a: Jolteon|Alluring Voice|p2a: Altaria
+  -supereffective|p2a: Altaria
+  -damage|p2a: Altaria|40/100
+  move|p2a: Altaria|Brave Bird|p1a: Jolteon
+  -resisted|p1a: Jolteon
+  -damage|p1a: Jolteon|101/246
+  -damage|p2a: Altaria|31/100|[from] Recoil
+-- turn 3
+  WE CHOSE: attack alluringvoice - our hp 0.41, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p1a: Jolteon|Alluring Voice|p2a: Altaria
+  -supereffective|p2a: Altaria
+  -damage|p2a: Altaria|0 fnt
+  faint|p2a: Altaria
+  switch|p2a: Blaziken|Blaziken, L76, M|100/100
+-- turn 4
+  WE CHOSE: switch to flamigo (hand policy: attack alluringvoice) - our hp 0.41, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Flamigo|Flamigo, L82, M|269/269
+  move|p2a: Blaziken|Flare Blitz|p1a: Flamigo
+  -damage|p1a: Flamigo|70/269
+  -damage|p2a: Blaziken|74/100|[from] Recoil
+  -damage|p2a: Blaziken|64/100|[from] item: Life Orb
+  -ability|p2a: Blaziken|Speed Boost|boost
+  -boost|p2a: Blaziken|spe|1
+-- turn 5
+  WE CHOSE: attack bravebird - our hp 0.26, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to deoxysattack - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Blaziken|Flare Blitz|p1a: Flamigo
+  -damage|p1a: Flamigo|0 fnt
+  faint|p1a: Flamigo
+  -damage|p2a: Blaziken|55/100|[from] Recoil
+  -damage|p2a: Blaziken|45/100|[from] item: Life Orb
+  -ability|p2a: Blaziken|Speed Boost|boost
+  -boost|p2a: Blaziken|spe|1
+  switch|p1a: Deoxys|Deoxys-Attack, L72|191/191
+  -ability|p1a: Deoxys|Pressure
+-- turn 6
+  WE CHOSE: attack psychoboost - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironvaliant - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Blaziken|Flare Blitz|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  faint|p1a: Deoxys
+  -damage|p2a: Blaziken|20/100|[from] Recoil
+  -damage|p2a: Blaziken|10/100|[from] item: Life Orb
+  -ability|p2a: Blaziken|Speed Boost|boost
+  -boost|p2a: Blaziken|spe|1
+  switch|p1a: Iron Valiant|Iron Valiant, L78|244/244
+-- turn 7
+  WE CHOSE: attack closecombat (hand policy: attack+tera closecombat) - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Blaziken|Flare Blitz|p1a: Iron Valiant
+  -damage|p1a: Iron Valiant|80/244
+  -status|p1a: Iron Valiant|brn
+  -damage|p2a: Blaziken|0 fnt|[from] Recoil
+  faint|p2a: Blaziken
+  move|p1a: Iron Valiant|Close Combat|p2: Blaziken|[notarget]
+  -fail|p1a: Iron Valiant
+  -damage|p1a: Iron Valiant|65/244 brn|[from] brn
+  switch|p2a: Mabosstiff|Mabosstiff, L86, M|100/100
+-- turn 8
+  WE CHOSE: attack closecombat (hand policy: attack+tera closecombat) - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to jolteon - our hp 0.00, theirs 0.95, predicted move (revealed) hits us x1
+  move|p2a: Mabosstiff|Wild Charge|p1a: Iron Valiant
+  -damage|p1a: Iron Valiant|0 fnt
+  faint|p1a: Iron Valiant
+  -end|p1a: Iron Valiant|Quark Drive|[silent]
+  -damage|p2a: Mabosstiff|95/100|[from] Recoil
+  switch|p1a: Jolteon|Jolteon, L84, F|101/246
+-- turn 9
+  WE CHOSE: attack alluringvoice - our hp 0.41, theirs 0.95, predicted move (revealed) hits us x0
+  move|p2a: Mabosstiff|Wild Charge|p1a: Jolteon
+  -heal|p1a: Jolteon|162/246|[from] ability: Volt Absorb|[of] p2a: Mabosstiff
+  move|p1a: Jolteon|Alluring Voice|p2a: Mabosstiff
+  -supereffective|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|21/100
+-- turn 10
+  WE CHOSE: attack+tera alluringvoice (hand policy: attack alluringvoice) - our hp 0.66, theirs 0.21, predicted move (revealed) hits us x0
+  -terastallize|p1a: Jolteon|Electric
+  move|p2a: Mabosstiff|Wild Charge|p1a: Jolteon
+  -heal|p1a: Jolteon|223/246|[from] ability: Volt Absorb|[of] p2a: Mabosstiff
+  move|p1a: Jolteon|Alluring Voice|p2a: Mabosstiff
+  -supereffective|p2a: Mabosstiff
+  -crit|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|0 fnt
+  faint|p2a: Mabosstiff
+  switch|p2a: Poliwrath|Poliwrath, L88, M|100/100
+-- turn 11
+  WE CHOSE: attack alluringvoice - our hp 0.91, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ogerponwellspring - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Jolteon|Alluring Voice|p2a: Poliwrath
+  -supereffective|p2a: Poliwrath
+  -damage|p2a: Poliwrath|41/100
+  move|p2a: Poliwrath|Close Combat|p1a: Jolteon
+  -damage|p1a: Jolteon|0 fnt
+  -unboost|p2a: Poliwrath|def|1
+  -unboost|p2a: Poliwrath|spd|1
+  faint|p1a: Jolteon
+  -damage|p2a: Poliwrath|31/100|[from] item: Life Orb
+  switch|p1a: Ogerpon|Ogerpon-Wellspring, L76, F|247/247
+-- turn 12
+  WE CHOSE: attack woodhammer - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Wood Hammer|p2a: Poliwrath
+  -supereffective|p2a: Poliwrath
+  -damage|p2a: Poliwrath|0 fnt
+  faint|p2a: Poliwrath
+  -damage|p1a: Ogerpon|217/247|[from] Recoil
+  switch|p2a: Greedent|Greedent, L86, F|100/100
+-- turn 13
+  WE CHOSE: attack woodhammer - our hp 0.88, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Ogerpon|Wood Hammer|p2a: Greedent
+  -damage|p2a: Greedent|58/100
+  -damage|p1a: Ogerpon|168/247|[from] Recoil
+  move|p2a: Greedent|Double-Edge|p1a: Ogerpon
+  -damage|p1a: Ogerpon|29/247
+  -damage|p2a: Greedent|45/100|[from] Recoil
+  -enditem|p2a: Greedent|Sitrus Berry|[eat]
+  -heal|p2a: Greedent|70/100|[from] item: Sitrus Berry
+  -heal|p2a: Greedent|100/100|[from] ability: Cheek Pouch
+-- turn 14
+  WE CHOSE: heal synthesis - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cryogonal - our hp 0.00, theirs 0.86, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Synthesis|p1a: Ogerpon
+  -heal|p1a: Ogerpon|152/247
+  move|p2a: Greedent|Double-Edge|p1a: Ogerpon
+  -crit|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  -damage|p2a: Greedent|86/100|[from] Recoil
+  switch|p1a: Cryogonal|Cryogonal, L89|287/287
+-- turn 15
+  WE CHOSE: heal recover (hand policy: attack icebeam) - our hp 1.00, theirs 0.86, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Recover||[still]
+  -fail|p1a: Cryogonal|heal
+  move|p2a: Greedent|Double-Edge|p1a: Cryogonal
+  -damage|p1a: Cryogonal|112/287
+  -damage|p2a: Greedent|69/100|[from] Recoil
+-- turn 16
+  WE CHOSE: attack rapidspin (hand policy: heal recover) - our hp 0.39, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Rapid Spin|p2a: Greedent
+  -damage|p2a: Greedent|62/100
+  -boost|p1a: Cryogonal|spe|1
+  move|p2a: Greedent|Double-Edge|p1a: Cryogonal
+  -damage|p1a: Cryogonal|0 fnt
+  faint|p1a: Cryogonal
+  -damage|p2a: Greedent|51/100|[from] Recoil
+  deinit

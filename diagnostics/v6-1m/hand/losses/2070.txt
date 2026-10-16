@@ -1,0 +1,177 @@
+battle 2070 (battle-gen9randombattle-1025745): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  klefki (fainted; item leftovers, ability prankster; moves spikes/playrough/magnetrise/thunderwave)
+  ludicolo (fainted; item choicespecs, ability swiftswim; moves hydropump/leafstorm/icebeam/gigadrain)
+  haxorus (fainted; item loadeddice, ability moldbreaker; moves swordsdance/closecombat/scaleshot/ironhead)
+  ironleaves (fainted; item choiceband, ability quarkdrive; moves closecombat/leafblade/megahorn/psyblade)
+  braviary (fainted; item heavydutyboots, ability defiant; moves bravebird/closecombat/bulkup/roost)
+  crabominable (fainted; item assaultvest, ability ironfist; moves icehammer/drainpunch/knockoff/earthquake)
+theirs (as seen):
+  avalugghisui (fainted; item unknown_item, ability ?; moves stoneedge)
+  mamoswine (fainted; item unknown_item, ability ?; moves earthquake)
+  revavroom (fainted; item lifeorb, ability ?; moves gunkshot)
+  haxorus (fainted; item unknown_item, ability moldbreaker; moves earthquake)
+  ribombee (fainted; item unknown_item, ability ?; moves moonblast)
+  medicham (55%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Klefki|Klefki, L84, F|233/233
+  switch|p2a: Avalugg|Avalugg-Hisui, L91, F|100/100
+-- turn 1
+  WE CHOSE: attack playrough - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Klefki|Play Rough|p2a: Avalugg
+  -damage|p2a: Avalugg|88/100
+  move|p2a: Avalugg|Stone Edge|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|153/233
+  -heal|p1a: Klefki|167/233|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack playrough - our hp 0.72, theirs 0.88, predicted move (revealed) hits us x0.5
+  move|p1a: Klefki|Play Rough|p2a: Avalugg
+  -damage|p2a: Avalugg|74/100
+  move|p2a: Avalugg|Stone Edge|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|87/233
+  -heal|p1a: Klefki|101/233|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack playrough - our hp 0.43, theirs 0.74, predicted move (revealed) hits us x0.5
+  move|p1a: Klefki|Play Rough|p2a: Avalugg
+  -damage|p2a: Avalugg|61/100
+  move|p2a: Avalugg|Stone Edge|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|24/233
+  -heal|p1a: Klefki|38/233|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack playrough - our hp 0.16, theirs 0.61, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ludicolo - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p1a: Klefki|Play Rough|p2a: Avalugg
+  -damage|p2a: Avalugg|48/100
+  move|p2a: Avalugg|Stone Edge|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|0 fnt
+  faint|p1a: Klefki
+  switch|p1a: Ludicolo|Ludicolo, L90, F|290/290
+-- turn 5
+  WE CHOSE: attack leafstorm - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Ludicolo|Leaf Storm|p2a: Avalugg|[miss]
+  -miss|p1a: Ludicolo|p2a: Avalugg
+  move|p2a: Avalugg|Stone Edge|p1a: Ludicolo
+  -damage|p1a: Ludicolo|125/290
+-- turn 6
+  WE CHOSE: attack leafstorm - our hp 0.43, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Ludicolo|Leaf Storm|p2a: Avalugg
+  -supereffective|p2a: Avalugg
+  -damage|p2a: Avalugg|0 fnt
+  -unboost|p1a: Ludicolo|spa|2
+  faint|p2a: Avalugg
+  switch|p2a: Mamoswine|Mamoswine, L81, M|100/100
+-- turn 7
+  WE CHOSE: attack leafstorm - our hp 0.43, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Ludicolo|Leaf Storm|p2a: Mamoswine
+  -supereffective|p2a: Mamoswine
+  -damage|p2a: Mamoswine|9/100
+  -unboost|p1a: Ludicolo|spa|2
+  move|p2a: Mamoswine|Earthquake|p1a: Ludicolo
+  -resisted|p1a: Ludicolo
+  -damage|p1a: Ludicolo|24/290
+-- turn 8
+  WE CHOSE: attack leafstorm - our hp 0.08, theirs 0.09, predicted move (revealed) hits us x0.5
+  move|p1a: Ludicolo|Leaf Storm|p2a: Mamoswine
+  -supereffective|p2a: Mamoswine
+  -damage|p2a: Mamoswine|0 fnt
+  -unboost|p1a: Ludicolo|spa|2
+  faint|p2a: Mamoswine
+  switch|p2a: Revavroom|Revavroom, L79, F|100/100
+-- turn 9
+  WE CHOSE: attack leafstorm - our hp 0.08, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to crabominable - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x2
+  move|p2a: Revavroom|Gunk Shot|p1a: Ludicolo
+  -supereffective|p1a: Ludicolo
+  -damage|p1a: Ludicolo|0 fnt
+  faint|p1a: Ludicolo
+  -damage|p2a: Revavroom|91/100|[from] item: Life Orb
+  switch|p1a: Crabominable|Crabominable, L90, F|321/321
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Revavroom|Gunk Shot|p1a: Crabominable
+  -damage|p1a: Crabominable|129/321
+  -status|p1a: Crabominable|psn
+  -damage|p2a: Revavroom|81/100|[from] item: Life Orb
+  move|p1a: Crabominable|Earthquake|p2a: Revavroom
+  -supereffective|p2a: Revavroom
+  -damage|p2a: Revavroom|0 fnt
+  faint|p2a: Revavroom
+  -damage|p1a: Crabominable|89/321 psn|[from] psn
+  switch|p2a: Haxorus|Haxorus, L77, F|100/100
+  -ability|p2a: Haxorus|Mold Breaker
+-- turn 11
+  WE CHOSE: switch to ironleaves - our hp 0.28, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Iron Leaves|Iron Leaves, L80|275/275
+  move|p2a: Haxorus|Earthquake|p1a: Iron Leaves
+  -resisted|p1a: Iron Leaves
+  -damage|p1a: Iron Leaves|232/275
+-- turn 12
+  WE CHOSE: attack closecombat - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Leaves|Close Combat|p2a: Haxorus
+  -damage|p2a: Haxorus|36/100
+  -unboost|p1a: Iron Leaves|def|1
+  -unboost|p1a: Iron Leaves|spd|1
+  move|p2a: Haxorus|Earthquake|p1a: Iron Leaves
+  -resisted|p1a: Iron Leaves
+  -damage|p1a: Iron Leaves|166/275
+-- turn 13
+  WE CHOSE: attack closecombat - our hp 0.60, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Leaves|Close Combat|p2a: Haxorus
+  -damage|p2a: Haxorus|0 fnt
+  -unboost|p1a: Iron Leaves|def|1
+  -unboost|p1a: Iron Leaves|spd|1
+  faint|p2a: Haxorus
+  switch|p2a: Ribombee|Ribombee, L83, M|100/100
+-- turn 14
+  WE CHOSE: attack closecombat - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to braviary - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Ribombee|Moonblast|p1a: Iron Leaves
+  -damage|p1a: Iron Leaves|0 fnt
+  faint|p1a: Iron Leaves
+  -end|p1a: Iron Leaves|Quark Drive|[silent]
+  switch|p1a: Braviary|Braviary, L85, M|309/309
+-- turn 15
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Ribombee|Moonblast|p1a: Braviary
+  -damage|p1a: Braviary|197/309
+  move|p1a: Braviary|Brave Bird|p2a: Ribombee
+  -supereffective|p2a: Ribombee
+  -damage|p2a: Ribombee|0 fnt
+  faint|p2a: Ribombee
+  -damage|p1a: Braviary|119/309|[from] Recoil
+  switch|p2a: Medicham|Medicham, L86, M|100/100
+-- turn 16
+  WE CHOSE: heal roost - our hp 0.39, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to haxorus - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Medicham|Close Combat|p1a: Braviary
+  -damage|p1a: Braviary|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Braviary
+  switch|p1a: Haxorus|Haxorus, L77, F|244/244
+  -ability|p1a: Haxorus|Mold Breaker
+-- turn 17
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to crabominable - our hp 0.00, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Haxorus|Iron Head|p2a: Medicham
+  -damage|p2a: Medicham|55/100
+  move|p2a: Medicham|Close Combat|p1a: Haxorus
+  -damage|p1a: Haxorus|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Haxorus
+  switch|p1a: Crabominable|Crabominable, L90, F|89/321 psn
+-- turn 18
+  WE CHOSE: attack icehammer - our hp 0.28, theirs 0.55, predicted move (revealed) hits us x2
+  move|p2a: Medicham|Close Combat|p1a: Crabominable
+  -supereffective|p1a: Crabominable
+  -damage|p1a: Crabominable|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Crabominable

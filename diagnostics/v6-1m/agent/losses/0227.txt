@@ -1,0 +1,266 @@
+battle 227 (battle-gen9randombattle-1008607): lost in 30 turns, 1 of theirs left; we are p1
+
+ours:
+  dugtrioalola (fainted; item lifeorb, ability tanglinghair; moves stealthrock/suckerpunch/ironhead/earthquake)
+  sylveon (fainted; item leftovers, ability pixilate, tera steel; moves protect/wish/hypervoice/calmmind)
+  rotomwash (fainted; item leftovers, ability levitate; moves voltswitch/hydropump/painsplit/discharge)
+  ironjugulis (fainted; item choicespecs, ability quarkdrive; moves hydropump/hurricane/darkpulse/earthpower)
+  garchomp (fainted; item loadeddice, ability roughskin; moves swordsdance/scaleshot/earthquake/ironhead)
+  medicham (fainted; item choiceband, ability purepower; moves closecombat/icepunch/poisonjab/zenheadbutt)
+theirs (as seen):
+  girafarig (fainted; item unknown_item, ability ?; moves thunderbolt)
+  vikavolt (fainted; item unknown_item, ability levitate; moves bugbuzz)
+  necrozma (fainted; item unknown_item, ability prismarmor; moves photongeyser)
+  entei (fainted; item unknown_item, ability ?; moves flareblitz)
+  heracross (fainted; item unknown_item, ability ?; moves closecombat)
+  spectrier (41%; item lifeorb, ability grimneigh; moves shadowball)
+
+-- turn 0
+  switch|p1a: Dugtrio|Dugtrio-Alola, L84, M|196/196
+  switch|p2a: Girafarig|Girafarig, L89, F|100/100
+-- turn 1
+  WE CHOSE: switch to ironjugulis (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Iron Jugulis|Iron Jugulis, L77|271/271
+  move|p2a: Girafarig|Thunderbolt|p1a: Iron Jugulis
+  -supereffective|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|125/271
+  -status|p1a: Iron Jugulis|par
+-- turn 2
+  WE CHOSE: switch to dugtrioalola - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x2
+  -end|p1a: Iron Jugulis|Quark Drive|[silent]
+  switch|p1a: Dugtrio|Dugtrio-Alola, L84, M|196/196
+  move|p2a: Girafarig|Thunderbolt|p1a: Dugtrio
+  -immune|p1a: Dugtrio
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dugtrio|Earthquake|p2a: Girafarig
+  -damage|p2a: Girafarig|57/100
+  -damage|p1a: Dugtrio|177/196|[from] item: Life Orb
+  move|p2a: Girafarig|Thunderbolt|p1a: Dugtrio
+  -immune|p1a: Dugtrio
+-- turn 4
+  WE CHOSE: attack suckerpunch (hand policy: attack earthquake) - our hp 0.90, theirs 0.57, predicted move (revealed) hits us x0
+  move|p1a: Dugtrio|Sucker Punch|p2a: Girafarig
+  -supereffective|p2a: Girafarig
+  -damage|p2a: Girafarig|15/100
+  -damage|p1a: Dugtrio|158/196|[from] item: Life Orb
+  move|p2a: Girafarig|Thunderbolt|p1a: Dugtrio
+  -immune|p1a: Dugtrio
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 0.81, theirs 0.15, predicted move (revealed) hits us x0
+  move|p1a: Dugtrio|Earthquake|p2a: Girafarig
+  -damage|p2a: Girafarig|0 fnt
+  faint|p2a: Girafarig
+  -damage|p1a: Dugtrio|139/196|[from] item: Life Orb
+  switch|p2a: Vikavolt|Vikavolt, L83, M|100/100
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Dugtrio|Earthquake|p2a: Vikavolt
+  -immune|p2a: Vikavolt|[from] ability: Levitate
+  move|p2a: Vikavolt|Bug Buzz|p1a: Dugtrio
+  -resisted|p1a: Dugtrio
+  -damage|p1a: Dugtrio|68/196
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to sylveon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Dugtrio|Earthquake|p2a: Vikavolt
+  -immune|p2a: Vikavolt|[from] ability: Levitate
+  move|p2a: Vikavolt|Bug Buzz|p1a: Dugtrio
+  -resisted|p1a: Dugtrio
+  -damage|p1a: Dugtrio|0 fnt
+  faint|p1a: Dugtrio
+  switch|p1a: Sylveon|Sylveon, L85, M|300/300
+-- turn 8
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+  -boost|p1a: Sylveon|spa|1
+  -boost|p1a: Sylveon|spd|1
+  move|p2a: Vikavolt|Bug Buzz|p1a: Sylveon
+  -resisted|p1a: Sylveon
+  -damage|p1a: Sylveon|270/300
+  -unboost|p1a: Sylveon|spd|1
+  -heal|p1a: Sylveon|288/300|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: setup calmmind - our hp 0.96, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+  -boost|p1a: Sylveon|spa|1
+  -boost|p1a: Sylveon|spd|1
+  move|p2a: Vikavolt|Bug Buzz|p1a: Sylveon
+  -resisted|p1a: Sylveon
+  -damage|p1a: Sylveon|257/300
+  -heal|p1a: Sylveon|275/300|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: setup calmmind (hand policy: attack hypervoice) - our hp 0.92, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+  -boost|p1a: Sylveon|spa|1
+  -boost|p1a: Sylveon|spd|1
+  move|p2a: Vikavolt|Bug Buzz|p1a: Sylveon
+  -resisted|p1a: Sylveon
+  -damage|p1a: Sylveon|251/300
+  -unboost|p1a: Sylveon|spd|1
+  -heal|p1a: Sylveon|269/300|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack hypervoice - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sylveon|Hyper Voice|p2a: Vikavolt
+  -damage|p2a: Vikavolt|0 fnt
+  faint|p2a: Vikavolt
+  -heal|p1a: Sylveon|287/300|[from] item: Leftovers
+  switch|p2a: Necrozma|Necrozma, L80|100/100
+-- turn 12
+  WE CHOSE: switch to ironjugulis - our hp 0.96, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Iron Jugulis|Iron Jugulis, L77|125/271 par
+  move|p2a: Necrozma|Photon Geyser|p1a: Iron Jugulis
+  -immune|p1a: Iron Jugulis
+-- turn 13
+  WE CHOSE: attack darkpulse - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Necrozma|Photon Geyser|p1a: Iron Jugulis
+  -immune|p1a: Iron Jugulis
+  cant|p1a: Iron Jugulis|par
+-- turn 14
+  WE CHOSE: attack darkpulse - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Necrozma|Photon Geyser|p1a: Iron Jugulis
+  -immune|p1a: Iron Jugulis
+  cant|p1a: Iron Jugulis|par
+-- turn 15
+  WE CHOSE: attack darkpulse - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Necrozma|Photon Geyser|p1a: Iron Jugulis
+  -immune|p1a: Iron Jugulis
+  move|p1a: Iron Jugulis|Dark Pulse|p2a: Necrozma
+  -supereffective|p2a: Necrozma
+  -damage|p2a: Necrozma|32/100
+-- turn 16
+  WE CHOSE: attack darkpulse - our hp 0.46, theirs 0.32, predicted move (revealed) hits us x0
+  move|p2a: Necrozma|Photon Geyser|p1a: Iron Jugulis
+  -immune|p1a: Iron Jugulis
+  cant|p1a: Iron Jugulis|par
+-- turn 17
+  WE CHOSE: attack darkpulse - our hp 0.46, theirs 0.32, predicted move (revealed) hits us x0
+  move|p2a: Necrozma|Photon Geyser|p1a: Iron Jugulis
+  -immune|p1a: Iron Jugulis
+  move|p1a: Iron Jugulis|Dark Pulse|p2a: Necrozma
+  -supereffective|p2a: Necrozma
+  -damage|p2a: Necrozma|0 fnt
+  faint|p2a: Necrozma
+  switch|p2a: Entei|Entei, L78|100/100
+-- turn 18
+  WE CHOSE: switch to garchomp (hand policy: attack darkpulse) - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x1
+  -end|p1a: Iron Jugulis|Quark Drive|[silent]
+  switch|p1a: Garchomp|Garchomp, L74, F|282/282
+  move|p2a: Entei|Flare Blitz|p1a: Garchomp
+  -resisted|p1a: Garchomp
+  -damage|p1a: Garchomp|179/282
+  -damage|p2a: Entei|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+  -damage|p2a: Entei|77/100|[from] Recoil
+-- turn 19
+  WE CHOSE: setup swordsdance - our hp 0.63, theirs 0.77, predicted move (revealed) hits us x0.5
+  move|p2a: Entei|Flare Blitz|p1a: Garchomp
+  -resisted|p1a: Garchomp
+  -damage|p1a: Garchomp|78/282
+  -damage|p2a: Entei|65/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+  -damage|p2a: Entei|54/100|[from] Recoil
+  move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+  -boost|p1a: Garchomp|atk|2
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 0.28, theirs 0.54, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to rotomwash - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p2a: Entei|Flare Blitz|p1a: Garchomp
+  -resisted|p1a: Garchomp
+  -damage|p1a: Garchomp|0 fnt
+  -damage|p2a: Entei|42/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+  faint|p1a: Garchomp
+  -damage|p2a: Entei|33/100|[from] Recoil
+  switch|p1a: Rotom|Rotom-Wash, L82|216/216
+-- turn 21
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p2a: Entei|Flare Blitz|p1a: Rotom
+  -resisted|p1a: Rotom
+  -damage|p1a: Rotom|131/216
+  -damage|p2a: Entei|24/100|[from] Recoil
+  move|p1a: Rotom|Hydro Pump|p2a: Entei
+  -supereffective|p2a: Entei
+  -crit|p2a: Entei
+  -damage|p2a: Entei|0 fnt
+  faint|p2a: Entei
+  -heal|p1a: Rotom|144/216|[from] item: Leftovers
+  switch|p2a: Heracross|Heracross, L80, M|100/100
+-- turn 22
+  WE CHOSE: switch to medicham (hand policy: attack hydropump) - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Medicham|Medicham, L86, F|243/243
+  move|p2a: Heracross|Close Combat|p1a: Medicham
+  -resisted|p1a: Medicham
+  -damage|p1a: Medicham|162/243
+  -unboost|p2a: Heracross|def|1
+  -unboost|p2a: Heracross|spd|1
+  -status|p2a: Heracross|brn|[from] item: Flame Orb
+-- turn 23
+  WE CHOSE: attack zenheadbutt - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Medicham|Zen Headbutt|p2a: Heracross
+  -supereffective|p2a: Heracross
+  -damage|p2a: Heracross|0 fnt
+  faint|p2a: Heracross
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+-- turn 24
+  WE CHOSE: switch to ironjugulis (hand policy: attack+tera zenheadbutt) - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Iron Jugulis|Iron Jugulis, L77|125/271 par
+  move|p2a: Spectrier|Shadow Ball|p1a: Iron Jugulis
+  -resisted|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|59/271 par
+  -damage|p2a: Spectrier|91/100|[from] item: Life Orb
+-- turn 25
+  WE CHOSE: attack darkpulse - our hp 0.22, theirs 0.91, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to rotomwash - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p2a: Spectrier|Shadow Ball|p1a: Iron Jugulis
+  -resisted|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|0 fnt
+  faint|p1a: Iron Jugulis
+  -end|p1a: Iron Jugulis|Quark Drive|[silent]
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -damage|p2a: Spectrier|81/100|[from] item: Life Orb
+  switch|p1a: Rotom|Rotom-Wash, L82|144/216
+-- turn 26
+  WE CHOSE: attack hydropump - our hp 0.67, theirs 0.81, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to sylveon - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Rotom
+  -damage|p1a: Rotom|0 fnt
+  faint|p1a: Rotom
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -damage|p2a: Spectrier|71/100|[from] item: Life Orb
+  switch|p1a: Sylveon|Sylveon, L85, M|287/300
+-- turn 27
+  WE CHOSE: switch to medicham (hand policy: attack protect) - our hp 0.96, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to sylveon - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x2
+  switch|p1a: Medicham|Medicham, L86, F|162/243
+  move|p2a: Spectrier|Shadow Ball|p1a: Medicham
+  -supereffective|p1a: Medicham
+  -damage|p1a: Medicham|0 fnt
+  faint|p1a: Medicham
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -damage|p2a: Spectrier|61/100|[from] item: Life Orb
+  switch|p1a: Sylveon|Sylveon, L85, M|287/300
+-- turn 28
+  WE CHOSE: attack+tera protect (hand policy: attack protect) - our hp 0.96, theirs 0.61, predicted move (revealed) hits us x1
+  -terastallize|p1a: Sylveon|Steel
+  move|p1a: Sylveon|Protect|p1a: Sylveon
+  -singleturn|p1a: Sylveon|Protect
+  move|p2a: Spectrier|Shadow Ball|p1a: Sylveon
+  -activate|p1a: Sylveon|move: Protect
+  -heal|p1a: Sylveon|300/300|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: setup calmmind (hand policy: attack protect) - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Sylveon
+  -damage|p1a: Sylveon|93/300
+  -damage|p2a: Spectrier|51/100|[from] item: Life Orb
+  move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+  -boost|p1a: Sylveon|spa|1
+  -boost|p1a: Sylveon|spd|1
+  -heal|p1a: Sylveon|111/300|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: setup calmmind (hand policy: attack protect) - our hp 0.37, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Sylveon
+  -damage|p1a: Sylveon|0 fnt
+  faint|p1a: Sylveon
+  -damage|p2a: Spectrier|41/100|[from] item: Life Orb
+  deinit

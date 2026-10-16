@@ -1,0 +1,200 @@
+battle 377 (battle-gen9randombattle-1009761): lost in 20 turns, 2 of theirs left; we are p1
+
+ours:
+  hawlucha (fainted; item ?, ability unburden, tera fighting; moves swordsdance/bravebird/closecombat/acrobatics)
+  ribombee (fainted; item heavydutyboots, ability shielddust; moves stickyweb/bugbuzz/moonblast/stunspore)
+  garchomp (fainted; item loadeddice, ability roughskin; moves earthquake/scaleshot/ironhead/swordsdance)
+  reshiram (fainted; item heavydutyboots, ability turboblaze; moves flareblitz/stoneedge/dragondance/outrage)
+  cacturne (fainted; item lifeorb, ability waterabsorb; moves knockoff/leafstorm/toxicspikes/suckerpunch)
+  delphox (fainted; item choicespecs, ability blaze; moves focusblast/grassknot/fireblast/psyshock)
+theirs (as seen):
+  glimmora (fainted; item ?, ability ?; moves meteorbeam)
+  dachsbun (fainted; item leftovers, ability wellbakedbody; moves playrough)
+  electrode (fainted; item unknown_item, ability ?; moves foulplay)
+  toucannon (fainted; item unknown_item, ability ?; moves boomburst)
+  fluttermane (100%; item unknown_item, ability protosynthesis; moves moonblast)
+
+-- turn 0
+  switch|p1a: Hawlucha|Hawlucha, L80, M|256/256
+  switch|p2a: Glimmora|Glimmora, L75, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Hawlucha|Fighting
+  move|p1a: Hawlucha|Close Combat|p2a: Glimmora
+  -damage|p2a: Glimmora|30/100
+  -unboost|p1a: Hawlucha|def|1
+  -unboost|p1a: Hawlucha|spd|1
+  -activate|p2a: Glimmora|ability: Toxic Debris
+  -sidestart|p1: e1_132138|move: Toxic Spikes
+  -enditem|p1a: Hawlucha|White Herb
+  -clearnegativeboost|p1a: Hawlucha|[silent]
+  move|p2a: Glimmora|Meteor Beam||[still]
+  -prepare|p2a: Glimmora|Meteor Beam
+  -boost|p2a: Glimmora|spa|1
+  -enditem|p2a: Glimmora|Power Herb
+  -anim|p2a: Glimmora|Meteor Beam|p1a: Hawlucha
+  -resisted|p1a: Hawlucha
+  -damage|p1a: Hawlucha|115/256
+-- turn 2
+  WE CHOSE: attack closecombat - our hp 0.45, theirs 0.30, predicted move (revealed) hits us x0.5
+  move|p1a: Hawlucha|Close Combat|p2a: Glimmora
+  -damage|p2a: Glimmora|0 fnt
+  -unboost|p1a: Hawlucha|def|1
+  -unboost|p1a: Hawlucha|spd|1
+  -activate|p2a: Glimmora|ability: Toxic Debris
+  -sidestart|p1: e1_132138|move: Toxic Spikes
+  faint|p2a: Glimmora
+  switch|p2a: Dachsbun|Dachsbun, L92, M|100/100
+-- turn 3
+  WE CHOSE: switch to delphox - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Delphox|Delphox, L84, F|263/263
+  -status|p1a: Delphox|tox
+  move|p2a: Dachsbun|Play Rough|p1a: Delphox
+  -resisted|p1a: Delphox
+  -damage|p1a: Delphox|206/263 tox
+  -unboost|p1a: Delphox|atk|1
+  -damage|p1a: Delphox|190/263 tox|[from] psn
+-- turn 4
+  WE CHOSE: attack fireblast - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Delphox|[miss]
+  -miss|p2a: Dachsbun|p1a: Delphox
+  move|p1a: Delphox|Fire Blast|p2a: Dachsbun
+  -ability|p2a: Dachsbun|Well-Baked Body|boost
+  -boost|p2a: Dachsbun|def|2
+  -damage|p1a: Delphox|158/263 tox|[from] psn
+-- turn 5
+  WE CHOSE: attack fireblast - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Delphox
+  -resisted|p1a: Delphox
+  -damage|p1a: Delphox|101/263 tox
+  move|p1a: Delphox|Fire Blast|p2a: Dachsbun
+  -ability|p2a: Dachsbun|Well-Baked Body|boost
+  -boost|p2a: Dachsbun|def|2
+  -damage|p1a: Delphox|53/263 tox|[from] psn
+-- turn 6
+  WE CHOSE: attack fireblast - our hp 0.20, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to reshiram - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Delphox
+  -resisted|p1a: Delphox
+  -damage|p1a: Delphox|0 fnt
+  faint|p1a: Delphox
+  switch|p1a: Reshiram|Reshiram, L76|277/277
+  -ability|p1a: Reshiram|Turboblaze
+-- turn 7
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Reshiram
+  -crit|p1a: Reshiram
+  -damage|p1a: Reshiram|130/277
+  move|p1a: Reshiram|Flare Blitz|p2a: Dachsbun
+  -damage|p2a: Dachsbun|89/100
+  -damage|p1a: Reshiram|120/277|[from] Recoil
+  -heal|p2a: Dachsbun|95/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack flareblitz - our hp 0.43, theirs 0.95, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Reshiram
+  -damage|p1a: Reshiram|30/277
+  move|p1a: Reshiram|Flare Blitz|p2a: Dachsbun
+  -damage|p2a: Dachsbun|83/100
+  -status|p2a: Dachsbun|brn
+  -damage|p1a: Reshiram|20/277|[from] Recoil
+  -heal|p2a: Dachsbun|89/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|83/100 brn|[from] brn
+-- turn 9
+  WE CHOSE: attack flareblitz - our hp 0.07, theirs 0.83, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ribombee - our hp 0.00, theirs 0.83, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Reshiram
+  -damage|p1a: Reshiram|0 fnt
+  faint|p1a: Reshiram
+  -heal|p2a: Dachsbun|89/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|83/100 brn|[from] brn
+  switch|p1a: Ribombee|Ribombee, L83, F|235/235
+-- turn 10
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 0.83, predicted move (revealed) hits us x1
+  move|p1a: Ribombee|Moonblast|p2a: Dachsbun
+  -damage|p2a: Dachsbun|43/100 brn
+  move|p2a: Dachsbun|Play Rough|p1a: Ribombee
+  -damage|p1a: Ribombee|171/235
+  -heal|p2a: Dachsbun|49/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|43/100 brn|[from] brn
+-- turn 11
+  WE CHOSE: attack moonblast - our hp 0.73, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Ribombee|Moonblast|p2a: Dachsbun
+  -damage|p2a: Dachsbun|6/100 brn
+  move|p2a: Dachsbun|Play Rough|p1a: Ribombee
+  -damage|p1a: Ribombee|108/235
+  -heal|p2a: Dachsbun|12/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|6/100 brn|[from] brn
+-- turn 12
+  WE CHOSE: attack moonblast - our hp 0.46, theirs 0.06, predicted move (revealed) hits us x1
+  move|p1a: Ribombee|Moonblast|p2a: Dachsbun
+  -damage|p2a: Dachsbun|0 fnt
+  faint|p2a: Dachsbun
+  switch|p2a: Electrode|Electrode, L93|100/100
+-- turn 13
+  WE CHOSE: attack moonblast - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Electrode|Foul Play|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|86/235
+  move|p1a: Ribombee|Moonblast|p2a: Electrode
+  -damage|p2a: Electrode|61/100
+-- turn 14
+  WE CHOSE: attack moonblast - our hp 0.37, theirs 0.61, predicted move (revealed) hits us x0.5
+  move|p2a: Electrode|Foul Play|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -crit|p1a: Ribombee
+  -damage|p1a: Ribombee|51/235
+  move|p1a: Ribombee|Moonblast|p2a: Electrode
+  -damage|p2a: Electrode|26/100
+-- turn 15
+  WE CHOSE: attack moonblast - our hp 0.22, theirs 0.26, predicted move (revealed) hits us x0.5
+  move|p2a: Electrode|Foul Play|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|30/235
+  move|p1a: Ribombee|Moonblast|p2a: Electrode
+  -damage|p2a: Electrode|0 fnt
+  faint|p2a: Electrode
+  switch|p2a: Toucannon|Toucannon, L88, F|100/100
+-- turn 16
+  WE CHOSE: attack moonblast - our hp 0.13, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hawlucha - our hp 0.00, theirs 0.60, predicted move (revealed) hits us x1
+  move|p1a: Ribombee|Moonblast|p2a: Toucannon
+  -damage|p2a: Toucannon|60/100
+  move|p2a: Toucannon|Boomburst|p1a: Ribombee
+  -damage|p1a: Ribombee|0 fnt
+  faint|p1a: Ribombee
+  switch|p1a: Hawlucha|Hawlucha, L80, M, tera:Fighting|115/256
+  -status|p1a: Hawlucha|tox
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 0.45, theirs 0.60, predicted move (revealed) hits us x1
+  move|p1a: Hawlucha|Close Combat|p2a: Toucannon
+  -crit|p2a: Toucannon
+  -damage|p2a: Toucannon|0 fnt
+  -unboost|p1a: Hawlucha|def|1
+  -unboost|p1a: Hawlucha|spd|1
+  faint|p2a: Toucannon
+  -damage|p1a: Hawlucha|99/256 tox|[from] psn
+  switch|p2a: Flutter Mane|Flutter Mane, L74|100/100
+-- turn 18
+  WE CHOSE: attack bravebird - our hp 0.39, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to cacturne - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Flutter Mane|Moonblast|p1a: Hawlucha
+  -supereffective|p1a: Hawlucha
+  -damage|p1a: Hawlucha|0 fnt
+  faint|p1a: Hawlucha
+  switch|p1a: Cacturne|Cacturne, L92, F|278/278
+  -status|p1a: Cacturne|tox
+-- turn 19
+  WE CHOSE: attack leafstorm - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to garchomp - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Flutter Mane|Moonblast|p1a: Cacturne
+  -supereffective|p1a: Cacturne
+  -damage|p1a: Cacturne|0 fnt
+  faint|p1a: Cacturne
+  switch|p1a: Garchomp|Garchomp, L74, M|282/282
+  -status|p1a: Garchomp|tox
+-- turn 20
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Flutter Mane|Moonblast|p1a: Garchomp
+  -supereffective|p1a: Garchomp
+  -damage|p1a: Garchomp|0 fnt
+  faint|p1a: Garchomp

@@ -1,0 +1,240 @@
+battle 731 (battle-gen9randombattle-1013108): lost in 26 turns, 4 of theirs left; we are p1
+
+ours:
+  stantler (fainted; item eviolite, ability intimidate; moves earthpower/terablast/shadowball/calmmind)
+  scovillain (fainted; item ?, ability chlorophyll; moves leafstorm/energyball/overheat/flamethrower)
+  araquanid (fainted; item heavydutyboots, ability waterbubble, tera water; moves leechlife/liquidation/stickyweb/hydropump)
+  gumshoos (fainted; item choiceband, ability stakeout; moves uturn/earthquake/knockoff/doubleedge)
+  chiyu (fainted; item heavydutyboots, ability beadsofruin; moves darkpulse/nastyplot/fireblast/psychic)
+  palossand (fainted; item leftovers, ability watercompaction; moves stealthrock/shadowball/shoreup/earthpower)
+theirs (as seen):
+  weezinggalar (fainted; item leftovers, ability levitate; moves gunkshot/fireblast/strangesteam)
+  infernape (fainted; item unknown_item, ability ?; moves closecombat)
+  wochien (84%; item unknown_item, ability tabletsofruin; moves knockoff)
+
+-- turn 0
+  switch|p1a: Stantler|Stantler, L91, M|281/281
+  switch|p2a: Weezing|Weezing-Galar, L86, F|100/100
+  -ability|p1a: Stantler|Intimidate|boost
+  -unboost|p2a: Weezing|atk|1
+-- turn 1
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Stantler|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Stantler
+  -damage|p1a: Stantler|209/281
+  -status|p1a: Stantler|psn
+  -damage|p1a: Stantler|174/281 psn|[from] psn
+-- turn 2
+  WE CHOSE: attack earthpower - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Stantler|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Stantler
+  -damage|p1a: Stantler|105/281 psn
+  -damage|p1a: Stantler|70/281 psn|[from] psn
+-- turn 3
+  WE CHOSE: attack earthpower - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to palossand - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Stantler|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Stantler
+  -damage|p1a: Stantler|0 fnt
+  faint|p1a: Stantler
+  switch|p1a: Palossand|Palossand, L89, F|296/296
+-- turn 4
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Weezing|Gunk Shot|p1a: Palossand|[miss]
+  -miss|p2a: Weezing|p1a: Palossand
+  move|p1a: Palossand|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+-- turn 5
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Weezing|Gunk Shot|p1a: Palossand
+  -resisted|p1a: Palossand
+  -damage|p1a: Palossand|280/296
+  -status|p1a: Palossand|psn
+  move|p1a: Palossand|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -heal|p1a: Palossand|296/296 psn|[from] item: Leftovers
+  -damage|p1a: Palossand|259/296 psn|[from] psn
+-- turn 6
+  WE CHOSE: attack earthpower - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Weezing|Gunk Shot|p1a: Palossand
+  -resisted|p1a: Palossand
+  -damage|p1a: Palossand|243/296 psn
+  move|p1a: Palossand|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -heal|p1a: Palossand|261/296 psn|[from] item: Leftovers
+  -damage|p1a: Palossand|224/296 psn|[from] psn
+-- turn 7
+  WE CHOSE: attack earthpower - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Weezing|Gunk Shot|p1a: Palossand|[miss]
+  -miss|p2a: Weezing|p1a: Palossand
+  move|p1a: Palossand|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -heal|p1a: Palossand|242/296 psn|[from] item: Leftovers
+  -damage|p1a: Palossand|205/296 psn|[from] psn
+-- turn 8
+  WE CHOSE: attack earthpower - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Weezing|Gunk Shot|p1a: Palossand
+  -resisted|p1a: Palossand
+  -damage|p1a: Palossand|188/296 psn
+  move|p1a: Palossand|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -heal|p1a: Palossand|206/296 psn|[from] item: Leftovers
+  -damage|p1a: Palossand|169/296 psn|[from] psn
+-- turn 9
+  WE CHOSE: attack earthpower - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Weezing|Fire Blast|p1a: Palossand
+  -damage|p1a: Palossand|91/296 psn
+  move|p1a: Palossand|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -heal|p1a: Palossand|109/296 psn|[from] item: Leftovers
+  -damage|p1a: Palossand|72/296 psn|[from] psn
+-- turn 10
+  WE CHOSE: heal shoreup - our hp 0.24, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Weezing|Fire Blast|p1a: Palossand|[miss]
+  -miss|p2a: Weezing|p1a: Palossand
+  move|p1a: Palossand|Shore Up|p1a: Palossand
+  -heal|p1a: Palossand|220/296 psn
+  -heal|p1a: Palossand|238/296 psn|[from] item: Leftovers
+  -damage|p1a: Palossand|201/296 psn|[from] psn
+-- turn 11
+  WE CHOSE: attack earthpower - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Weezing|Fire Blast|p1a: Palossand
+  -damage|p1a: Palossand|116/296 psn
+  move|p1a: Palossand|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -heal|p1a: Palossand|134/296 psn|[from] item: Leftovers
+  -damage|p1a: Palossand|97/296 psn|[from] psn
+-- turn 12
+  WE CHOSE: heal shoreup - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Weezing|Fire Blast|p1a: Palossand|[miss]
+  -miss|p2a: Weezing|p1a: Palossand
+  move|p1a: Palossand|Shore Up|p1a: Palossand
+  -heal|p1a: Palossand|245/296 psn
+  -heal|p1a: Palossand|263/296 psn|[from] item: Leftovers
+  -damage|p1a: Palossand|226/296 psn|[from] psn
+-- turn 13
+  WE CHOSE: attack earthpower - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Weezing|Fire Blast|p1a: Palossand
+  -damage|p1a: Palossand|142/296 psn
+  move|p1a: Palossand|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -heal|p1a: Palossand|160/296 psn|[from] item: Leftovers
+  -damage|p1a: Palossand|123/296 psn|[from] psn
+-- turn 14
+  WE CHOSE: heal shoreup - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Weezing|Fire Blast|p1a: Palossand
+  -damage|p1a: Palossand|50/296 psn
+  move|p1a: Palossand|Shore Up|p1a: Palossand
+  -heal|p1a: Palossand|198/296 psn
+  -heal|p1a: Palossand|216/296 psn|[from] item: Leftovers
+  -damage|p1a: Palossand|179/296 psn|[from] psn
+-- turn 15
+  WE CHOSE: attack earthpower - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Weezing|Fire Blast|p1a: Palossand
+  -damage|p1a: Palossand|95/296 psn
+  move|p1a: Palossand|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -heal|p1a: Palossand|113/296 psn|[from] item: Leftovers
+  -damage|p1a: Palossand|76/296 psn|[from] psn
+-- turn 16
+  WE CHOSE: heal shoreup - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to gumshoos - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Weezing|Fire Blast|p1a: Palossand
+  -damage|p1a: Palossand|0 fnt
+  faint|p1a: Palossand
+  switch|p1a: Gumshoos|Gumshoos, L95, F|321/321
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Weezing|Strange Steam|p1a: Gumshoos
+  -damage|p1a: Gumshoos|215/321
+  -start|p1a: Gumshoos|confusion
+  -activate|p1a: Gumshoos|confusion
+  move|p1a: Gumshoos|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Weezing|Strange Steam|p1a: Gumshoos
+  -damage|p1a: Gumshoos|103/321
+  -activate|p1a: Gumshoos|confusion
+  -damage|p1a: Gumshoos|56/321|[from] confusion
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 0.17, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to chiyu - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Weezing|Strange Steam|p1a: Gumshoos
+  -damage|p1a: Gumshoos|0 fnt
+  faint|p1a: Gumshoos
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+-- turn 20
+  WE CHOSE: attack psychic - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Chi-Yu|Psychic|p2a: Weezing
+  -supereffective|p2a: Weezing
+  -damage|p2a: Weezing|12/100
+  move|p2a: Weezing|Strange Steam|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|130/211
+  -start|p1a: Chi-Yu|confusion
+  -heal|p2a: Weezing|18/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack psychic - our hp 0.62, theirs 0.18, predicted move (revealed) hits us x1
+  -activate|p1a: Chi-Yu|confusion
+  -damage|p1a: Chi-Yu|111/211|[from] confusion
+  move|p2a: Weezing|Strange Steam|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|30/211
+  -heal|p2a: Weezing|24/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack psychic - our hp 0.14, theirs 0.24, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to araquanid - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x1
+  -activate|p1a: Chi-Yu|confusion
+  -damage|p1a: Chi-Yu|10/211|[from] confusion
+  move|p2a: Weezing|Strange Steam|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|0 fnt
+  faint|p1a: Chi-Yu
+  -heal|p2a: Weezing|30/100|[from] item: Leftovers
+  switch|p1a: Araquanid|Araquanid, L82, M|246/246
+-- turn 23
+  WE CHOSE: attack+tera hydropump - our hp 1.00, theirs 0.30, predicted move (revealed) hits us x1
+  -terastallize|p1a: Araquanid|Water
+  move|p2a: Weezing|Strange Steam|p1a: Araquanid
+  -damage|p1a: Araquanid|182/246
+  -start|p1a: Araquanid|confusion
+  -activate|p1a: Araquanid|confusion
+  move|p1a: Araquanid|Hydro Pump|p2a: Weezing
+  -damage|p2a: Weezing|0 fnt
+  faint|p2a: Weezing
+  switch|p2a: Infernape|Infernape, L82, M|100/100
+-- turn 24
+  WE CHOSE: attack hydropump - our hp 0.74, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to scovillain - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Infernape|Close Combat|p1a: Araquanid
+  -damage|p1a: Araquanid|0 fnt
+  -unboost|p2a: Infernape|def|1
+  -unboost|p2a: Infernape|spd|1
+  faint|p1a: Araquanid
+  switch|p1a: Scovillain|Scovillain, L91, F|266/266
+-- turn 25
+  WE CHOSE: attack leafstorm - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Infernape|Close Combat|p1a: Scovillain
+  -damage|p1a: Scovillain|29/266
+  -unboost|p2a: Infernape|def|1
+  -unboost|p2a: Infernape|spd|1
+  move|p1a: Scovillain|Leaf Storm|p2a: Infernape
+  -resisted|p2a: Infernape
+  -damage|p2a: Infernape|0 fnt
+  -unboost|p1a: Scovillain|spa|2
+  faint|p2a: Infernape
+  switch|p2a: Wo-Chien|Wo-Chien, L83|100/100
+  -ability|p2a: Wo-Chien|Tablets of Ruin
+-- turn 26
+  WE CHOSE: attack leafstorm - our hp 0.11, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p1a: Scovillain|Leaf Storm|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|84/100
+  -unboost|p1a: Scovillain|spa|2
+  move|p2a: Wo-Chien|Knock Off|p1a: Scovillain
+  -damage|p1a: Scovillain|0 fnt
+  -enditem|p1a: Scovillain|Choice Specs|[from] move: Knock Off|[of] p2a: Wo-Chien
+  faint|p1a: Scovillain
+  deinit

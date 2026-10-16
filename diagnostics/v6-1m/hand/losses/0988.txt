@@ -1,0 +1,146 @@
+battle 988 (battle-gen9randombattle-1015605): lost in 15 turns, 3 of theirs left; we are p1
+
+ours:
+  golurk (fainted; item choiceband, ability noguard; moves dynamicpunch/stoneedge/earthquake/poltergeist)
+  pelipper (fainted; item heavydutyboots, ability drizzle; moves uturn/hydropump/roost/hurricane)
+  taurospaldeacombat (fainted; item lifeorb, ability intimidate, tera fighting; moves bulkup/earthquake/closecombat/stoneedge)
+  magnezone (fainted; item choicescarf, ability magnetpull; moves voltswitch/flashcannon/bodypress/thunderbolt)
+  ceruledge (fainted; item heavydutyboots, ability weakarmor; moves closecombat/bitterblade/poltergeist/swordsdance)
+  torterra (fainted; item loadeddice, ability overgrow; moves rockblast/headlongrush/shellsmash/bulletseed)
+theirs (as seen):
+  medicham (fainted; item unknown_item, ability ?; moves closecombat)
+  morpeko (fainted; item unknown_item, ability hungerswitch; moves aurawheel)
+  inteleon (fainted; item unknown_item, ability ?; moves hydropump)
+  typhlosionhisui (100%; item unknown_item, ability ?; moves eruption)
+
+-- turn 0
+  switch|p1a: Golurk|Golurk, L87|297/297
+  switch|p2a: Medicham|Medicham, L86, M|100/100
+-- turn 1
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Medicham|Close Combat|p1a: Golurk
+  -immune|p1a: Golurk
+  move|p1a: Golurk|Poltergeist|p2a: Medicham
+  -activate|p2a: Medicham|move: Poltergeist|Choice Scarf
+  -supereffective|p2a: Medicham
+  -damage|p2a: Medicham|0 fnt
+  faint|p2a: Medicham
+  switch|p2a: Morpeko|Morpeko, L88, M|100/100
+-- turn 2
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Morpeko|Aura Wheel|p1a: Golurk
+  -immune|p1a: Golurk
+  move|p1a: Golurk|Poltergeist|p2a: Morpeko
+  -activate|p2a: Morpeko|move: Poltergeist|Heavy-Duty Boots
+  -resisted|p2a: Morpeko
+  -damage|p2a: Morpeko|41/100
+  -formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+-- turn 3
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0
+  move|p2a: Morpeko|Aura Wheel|p1a: Golurk
+  -supereffective|p1a: Golurk
+  -damage|p1a: Golurk|37/297
+  -boost|p2a: Morpeko|spe|1
+  move|p1a: Golurk|Poltergeist|p2a: Morpeko
+  -activate|p2a: Morpeko|move: Poltergeist|Heavy-Duty Boots
+  -resisted|p2a: Morpeko
+  -damage|p2a: Morpeko|0 fnt
+  faint|p2a: Morpeko
+  switch|p2a: Inteleon|Inteleon, L81, M|100/100
+-- turn 4
+  WE CHOSE: switch to pelipper - our hp 0.12, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Pelipper|Pelipper, L86, F|243/243
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+  move|p2a: Inteleon|Hydro Pump|p1a: Pelipper
+  -resisted|p1a: Pelipper
+  -damage|p1a: Pelipper|63/243
+  -weather|RainDance|[upkeep]
+-- turn 5
+  WE CHOSE: heal roost - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Inteleon|Hydro Pump|p1a: Pelipper|[miss]
+  -miss|p2a: Inteleon|p1a: Pelipper
+  move|p1a: Pelipper|Roost|p1a: Pelipper
+  -heal|p1a: Pelipper|185/243
+  -singleturn|p1a: Pelipper|move: Roost
+  -weather|RainDance|[upkeep]
+-- turn 6
+  WE CHOSE: attack hurricane - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Inteleon|Hydro Pump|p1a: Pelipper
+  -resisted|p1a: Pelipper
+  -damage|p1a: Pelipper|1/243
+  move|p1a: Pelipper|Hurricane|p2a: Inteleon
+  -crit|p2a: Inteleon
+  -damage|p2a: Inteleon|8/100
+  -weather|RainDance|[upkeep]
+-- turn 7
+  WE CHOSE: heal roost - our hp 0.00, theirs 0.08, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to magnezone - our hp 0.00, theirs 0.08, predicted move (revealed) hits us x0.5
+  move|p2a: Inteleon|Hydro Pump|p1a: Pelipper
+  -resisted|p1a: Pelipper
+  -damage|p1a: Pelipper|0 fnt
+  faint|p1a: Pelipper
+  -weather|RainDance|[upkeep]
+  switch|p1a: Magnezone|Magnezone, L84|255/255
+-- turn 8
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to taurospaldeacombat - our hp 0.00, theirs 0.08, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Magnezone
+  -damage|p1a: Magnezone|0 fnt
+  faint|p1a: Magnezone
+  -weather|none
+  switch|p1a: Tauros|Tauros-Paldea-Combat, L82, M|257/257
+  -ability|p1a: Tauros|Intimidate|boost
+  -unboost|p2a: Inteleon|atk|1
+-- turn 9
+  WE CHOSE: attack+tera closecombat - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to torterra - our hp 0.00, theirs 0.08, predicted move (revealed) hits us x1
+  -terastallize|p1a: Tauros|Fighting
+  move|p2a: Inteleon|Hydro Pump|p1a: Tauros
+  -damage|p1a: Tauros|0 fnt
+  faint|p1a: Tauros
+  switch|p1a: Torterra|Torterra, L78, M|276/276
+-- turn 10
+  WE CHOSE: attack headlongrush - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Torterra|[miss]
+  -miss|p2a: Inteleon|p1a: Torterra
+  move|p1a: Torterra|Headlong Rush|p2a: Inteleon
+  -damage|p2a: Inteleon|0 fnt
+  -unboost|p1a: Torterra|def|1
+  -unboost|p1a: Torterra|spd|1
+  faint|p2a: Inteleon
+  switch|p2a: Typhlosion|Typhlosion-Hisui, L83, F|100/100
+-- turn 11
+  WE CHOSE: switch to ceruledge - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Ceruledge|Ceruledge, L78, M|245/245
+  move|p2a: Typhlosion|Eruption|p1a: Ceruledge
+  -resisted|p1a: Ceruledge
+  -damage|p1a: Ceruledge|158/245
+-- turn 12
+  WE CHOSE: setup swordsdance - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Typhlosion|Eruption|p1a: Ceruledge
+  -resisted|p1a: Ceruledge
+  -damage|p1a: Ceruledge|64/245
+  move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+  -boost|p1a: Ceruledge|atk|2
+-- turn 13
+  WE CHOSE: attack poltergeist - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to golurk - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Typhlosion|Eruption|p1a: Ceruledge
+  -resisted|p1a: Ceruledge
+  -damage|p1a: Ceruledge|0 fnt
+  faint|p1a: Ceruledge
+  switch|p1a: Golurk|Golurk, L87|37/297
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to torterra - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Typhlosion|Eruption|p1a: Golurk
+  -damage|p1a: Golurk|0 fnt
+  faint|p1a: Golurk
+  switch|p1a: Torterra|Torterra, L78, M|276/276
+-- turn 15
+  WE CHOSE: attack headlongrush - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Typhlosion|Eruption|p1a: Torterra
+  -supereffective|p1a: Torterra
+  -damage|p1a: Torterra|0 fnt
+  faint|p1a: Torterra
+  deinit

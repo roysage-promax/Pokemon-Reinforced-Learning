@@ -1,0 +1,193 @@
+battle 1394 (battle-gen9randombattle-1019403): lost in 19 turns, 1 of theirs left; we are p1
+
+ours:
+  delibird (fainted; item heavydutyboots, ability hustle; moves icespinner/drillrun/bravebird/spikes)
+  raichualola (fainted; item choicespecs, ability surgesurfer; moves thunderbolt/grassknot/alluringvoice/psyshock)
+  arceuspoison (fainted; item toxicplate, ability multitype; moves earthquake/swordsdance/gunkshot/recover)
+  poliwrath (fainted; item assaultvest, ability waterabsorb, tera dark; moves knockoff/circlethrow/closecombat/liquidation)
+  chimecho (fainted; item leftovers, ability levitate; moves healbell/knockoff/psychicnoise/recover)
+  salazzle (fainted; item leftovers, ability corrosion; moves flamethrower/protect/substitute/toxic)
+theirs (as seen):
+  tauros (fainted; item lifeorb, ability ?; moves closecombat)
+  spectrier (fainted; item ?, ability grimneigh; moves shadowball)
+  gallade (fainted; item lifeorb, ability ?; moves sacredsword)
+  alcremiecaramelswirl (fainted; item leftovers, ability ?; moves psyshock)
+  noivern (fainted; item unknown_item, ability ?; moves boomburst)
+  froslass (76%; item unknown_item, ability ?; moves poltergeist)
+
+-- turn 0
+  switch|p1a: Delibird|Delibird, F|252/252
+  switch|p2a: Tauros|Tauros, L82, M|100/100
+-- turn 1
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Tauros|Close Combat|p1a: Delibird
+  -damage|p1a: Delibird|105/252
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  -damage|p2a: Tauros|91/100|[from] item: Life Orb
+  move|p1a: Delibird|Brave Bird|p2a: Tauros
+  -damage|p2a: Tauros|0 fnt
+  faint|p2a: Tauros
+  -damage|p1a: Delibird|28/252|[from] Recoil
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+-- turn 2
+  WE CHOSE: attack bravebird - our hp 0.11, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to salazzle - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Delibird
+  -damage|p1a: Delibird|0 fnt
+  faint|p1a: Delibird
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  switch|p1a: Salazzle|Salazzle, L83, F|249/249
+-- turn 3
+  WE CHOSE: attack flamethrower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Salazzle|Flamethrower|p2a: Spectrier
+  -damage|p2a: Spectrier|57/100
+  move|p2a: Spectrier|Shadow Ball|p1a: Salazzle
+  -damage|p1a: Salazzle|72/249
+  -unboost|p1a: Salazzle|spd|1
+  -heal|p1a: Salazzle|87/249|[from] item: Leftovers
+  -heal|p2a: Spectrier|63/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack flamethrower - our hp 0.35, theirs 0.63, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to poliwrath - our hp 0.00, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Salazzle|Flamethrower|p2a: Spectrier
+  -damage|p2a: Spectrier|20/100
+  move|p2a: Spectrier|Shadow Ball|p1a: Salazzle
+  -damage|p1a: Salazzle|0 fnt
+  faint|p1a: Salazzle
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -heal|p2a: Spectrier|26/100|[from] item: Leftovers
+  switch|p1a: Poliwrath|Poliwrath, L88, M|302/302
+-- turn 5
+  WE CHOSE: attack+tera knockoff - our hp 1.00, theirs 0.26, predicted move (revealed) hits us x1
+  -terastallize|p1a: Poliwrath|Dark
+  move|p2a: Spectrier|Shadow Ball|p1a: Poliwrath
+  -resisted|p1a: Poliwrath
+  -damage|p1a: Poliwrath|243/302
+  -unboost|p1a: Poliwrath|spd|1
+  move|p1a: Poliwrath|Knock Off|p2a: Spectrier
+  -supereffective|p2a: Spectrier
+  -damage|p2a: Spectrier|0 fnt
+  -enditem|p2a: Spectrier|Leftovers|[from] move: Knock Off|[of] p1a: Poliwrath
+  faint|p2a: Spectrier
+  switch|p2a: Gallade|Gallade, L80, M|100/100
+-- turn 6
+  WE CHOSE: attack liquidation - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to raichualola - our hp 0.00, theirs 0.90, predicted move (revealed) hits us x2
+  move|p2a: Gallade|Sacred Sword|p1a: Poliwrath
+  -supereffective|p1a: Poliwrath
+  -damage|p1a: Poliwrath|0 fnt
+  faint|p1a: Poliwrath
+  -damage|p2a: Gallade|90/100|[from] item: Life Orb
+  switch|p1a: Raichu|Raichu-Alola, L87, M|246/246
+-- turn 7
+  WE CHOSE: attack alluringvoice - our hp 1.00, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p1a: Raichu|Alluring Voice|p2a: Gallade
+  -supereffective|p2a: Gallade
+  -damage|p2a: Gallade|23/100
+  move|p2a: Gallade|Sacred Sword|p1a: Raichu
+  -resisted|p1a: Raichu
+  -damage|p1a: Raichu|94/246
+  -damage|p2a: Gallade|13/100|[from] item: Life Orb
+-- turn 8
+  WE CHOSE: attack alluringvoice - our hp 0.38, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Raichu|Alluring Voice|p2a: Gallade
+  -supereffective|p2a: Gallade
+  -damage|p2a: Gallade|0 fnt
+  faint|p2a: Gallade
+  switch|p2a: Alcremie|Alcremie-Caramel-Swirl, L90, F|100/100
+-- turn 9
+  WE CHOSE: attack alluringvoice - our hp 0.38, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Raichu|Alluring Voice|p2a: Alcremie
+  -damage|p2a: Alcremie|75/100
+  move|p2a: Alcremie|Psyshock|p1a: Raichu
+  -resisted|p1a: Raichu
+  -damage|p1a: Raichu|45/246
+  -heal|p2a: Alcremie|81/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack alluringvoice - our hp 0.18, theirs 0.81, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to chimecho - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p1a: Raichu|Alluring Voice|p2a: Alcremie
+  -damage|p2a: Alcremie|57/100
+  move|p2a: Alcremie|Psyshock|p1a: Raichu
+  -resisted|p1a: Raichu
+  -damage|p1a: Raichu|0 fnt
+  faint|p1a: Raichu
+  -heal|p2a: Alcremie|63/100|[from] item: Leftovers
+  switch|p1a: Chimecho|Chimecho, L93, F|290/290
+-- turn 11
+  WE CHOSE: attack psychicnoise - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p1a: Chimecho|Psychic Noise|p2a: Alcremie
+  -crit|p2a: Alcremie
+  -damage|p2a: Alcremie|25/100
+  -block|p2a: Alcremie|ability: Aroma Veil|[of] p2a: Alcremie
+  move|p2a: Alcremie|Psyshock|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|256/290
+  -heal|p1a: Chimecho|274/290|[from] item: Leftovers
+  -heal|p2a: Alcremie|31/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack psychicnoise - our hp 0.94, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p1a: Chimecho|Psychic Noise|p2a: Alcremie
+  -damage|p2a: Alcremie|3/100
+  -block|p2a: Alcremie|ability: Aroma Veil|[of] p2a: Alcremie
+  move|p2a: Alcremie|Psyshock|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|240/290
+  -heal|p1a: Chimecho|258/290|[from] item: Leftovers
+  -heal|p2a: Alcremie|9/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack psychicnoise - our hp 0.89, theirs 0.09, predicted move (revealed) hits us x0.5
+  move|p1a: Chimecho|Psychic Noise|p2a: Alcremie
+  -damage|p2a: Alcremie|0 fnt
+  faint|p2a: Alcremie
+  -heal|p1a: Chimecho|276/290|[from] item: Leftovers
+  switch|p2a: Noivern|Noivern, L82, M|100/100
+-- turn 14
+  WE CHOSE: attack psychicnoise - our hp 0.95, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Noivern|Boomburst|p1a: Chimecho
+  -damage|p1a: Chimecho|154/290
+  move|p1a: Chimecho|Psychic Noise|p2a: Noivern
+  -damage|p2a: Noivern|61/100
+  -start|p2a: Noivern|move: Heal Block
+  -heal|p1a: Chimecho|172/290|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack psychicnoise - our hp 0.59, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Noivern|Boomburst|p1a: Chimecho
+  -damage|p1a: Chimecho|40/290
+  move|p1a: Chimecho|Psychic Noise|p2a: Noivern
+  -damage|p2a: Noivern|21/100
+  -heal|p1a: Chimecho|58/290|[from] item: Leftovers
+  -end|p2a: Noivern|move: Heal Block
+-- turn 16
+  WE CHOSE: heal recover - our hp 0.20, theirs 0.21, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to arceuspoison - our hp 0.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Noivern|Boomburst|p1a: Chimecho
+  -damage|p1a: Chimecho|0 fnt
+  faint|p1a: Chimecho
+  switch|p1a: Arceus|Arceus-Poison, L70|284/284
+-- turn 17
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Noivern|Boomburst|p1a: Arceus
+  -damage|p1a: Arceus|148/284
+  move|p1a: Arceus|Gunk Shot|p2a: Noivern
+  -damage|p2a: Noivern|0 fnt
+  faint|p2a: Noivern
+  switch|p2a: Froslass|Froslass, L87, F|100/100
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Froslass|Poltergeist|p1a: Arceus
+  -activate|p1a: Arceus|move: Poltergeist|Toxic Plate
+  -damage|p1a: Arceus|55/284
+  move|p1a: Arceus|Earthquake|p2a: Froslass
+  -damage|p2a: Froslass|76/100
+-- turn 19
+  WE CHOSE: heal recover - our hp 0.19, theirs 0.76, predicted move (revealed) hits us x1
+  move|p2a: Froslass|Poltergeist|p1a: Arceus
+  -activate|p1a: Arceus|move: Poltergeist|Toxic Plate
+  -crit|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  faint|p1a: Arceus
+  deinit

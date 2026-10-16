@@ -1,0 +1,356 @@
+battle 2515 (battle-gen9randombattle-1031867): lost in 39 turns, 1 of theirs left; we are p1
+
+ours:
+  espeon (fainted; item choicespecs, ability magicbounce; moves shadowball/psychic/trick/alluringvoice)
+  arceuspoison (fainted; item toxicplate, ability multitype; moves gunkshot/earthquake/extremespeed/swordsdance)
+  latias (fainted; item souldew, ability levitate; moves calmmind/dracometeor/recover/psyshock)
+  kricketune (fainted; item heavydutyboots, ability technician, tera ghost; moves taunt/stickyweb/pounce/knockoff)
+  weavile (fainted; item choiceband, ability pickpocket; moves lowkick/knockoff/tripleaxel/iceshard)
+  toucannon (fainted; item heavydutyboots, ability skilllink; moves boomburst/roost/bulletseed/beakblast)
+theirs (as seen):
+  glaceon (fainted; item ?, ability ?; moves freezedry)
+  conkeldurr (fainted; item unknown_item, ability ?; moves closecombat/facade)
+  houndoom (fainted; item unknown_item, ability ?; moves fireblast/sludgebomb)
+  rillaboom (fainted; item unknown_item, ability ?; moves woodhammer)
+  ceruledge (fainted; item ?, ability weakarmor; moves closecombat/poltergeist)
+  tyranitar (60%; item ?, ability ?; moves earthquake)
+
+-- turn 0
+  switch|p1a: Espeon|Espeon, L84, F|246/246
+  switch|p2a: Glaceon|Glaceon, L94, F|100/100
+-- turn 1
+  WE CHOSE: attack psychic (hand policy: attack+tera psychic) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Espeon|Psychic|p2a: Glaceon
+  -damage|p2a: Glaceon|43/100
+  move|p2a: Glaceon|Freeze-Dry|p1a: Espeon
+  -damage|p1a: Espeon|143/246
+  -status|p1a: Espeon|frz
+-- turn 2
+  WE CHOSE: attack psychic (hand policy: attack+tera psychic) - our hp 0.58, theirs 0.43, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to weavile - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  cant|p1a: Espeon|frz
+  move|p2a: Glaceon|Freeze-Dry|p1a: Espeon
+  -crit|p1a: Espeon
+  -damage|p1a: Espeon|0 fnt
+  faint|p1a: Espeon
+  switch|p1a: Weavile|Weavile, L79, M|239/239
+-- turn 3
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p1a: Weavile|Knock Off|p2a: Glaceon
+  -crit|p2a: Glaceon
+  -damage|p2a: Glaceon|0 fnt
+  -enditem|p2a: Glaceon|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+  faint|p2a: Glaceon
+  switch|p2a: Conkeldurr|Conkeldurr, L80, M|100/100
+-- turn 4
+  WE CHOSE: switch to latias - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Latias|Latias, L79, F|256/256
+  move|p2a: Conkeldurr|Close Combat|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|178/256
+  -unboost|p2a: Conkeldurr|def|1
+  -unboost|p2a: Conkeldurr|spd|1
+  -status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+-- turn 5
+  WE CHOSE: setup calmmind - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Calm Mind|p1a: Latias
+  -boost|p1a: Latias|spa|1
+  -boost|p1a: Latias|spd|1
+  move|p2a: Conkeldurr|Close Combat|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|58/256
+  -unboost|p2a: Conkeldurr|def|1
+  -unboost|p2a: Conkeldurr|spd|1
+  -damage|p2a: Conkeldurr|94/100 brn|[from] brn
+-- turn 6
+  WE CHOSE: heal recover - our hp 0.23, theirs 0.94, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|186/256
+  move|p2a: Conkeldurr|Close Combat|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|74/256
+  -unboost|p2a: Conkeldurr|def|1
+  -unboost|p2a: Conkeldurr|spd|1
+  -damage|p2a: Conkeldurr|88/100 brn|[from] brn
+-- turn 7
+  WE CHOSE: heal recover - our hp 0.29, theirs 0.88, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|202/256
+  move|p2a: Conkeldurr|Close Combat|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|73/256
+  -unboost|p2a: Conkeldurr|def|1
+  -unboost|p2a: Conkeldurr|spd|1
+  -damage|p2a: Conkeldurr|82/100 brn|[from] brn
+-- turn 8
+  WE CHOSE: heal recover - our hp 0.29, theirs 0.82, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|201/256
+  move|p2a: Conkeldurr|Close Combat|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|75/256
+  -unboost|p2a: Conkeldurr|def|1
+  -unboost|p2a: Conkeldurr|spd|1
+  -damage|p2a: Conkeldurr|76/100 brn|[from] brn
+-- turn 9
+  WE CHOSE: heal recover - our hp 0.29, theirs 0.76, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|203/256
+  move|p2a: Conkeldurr|Close Combat|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|72/256
+  -unboost|p2a: Conkeldurr|def|1
+  -unboost|p2a: Conkeldurr|spd|1
+  -damage|p2a: Conkeldurr|70/100 brn|[from] brn
+-- turn 10
+  WE CHOSE: heal recover - our hp 0.28, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|200/256
+  move|p2a: Conkeldurr|Close Combat|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|72/256
+  -damage|p2a: Conkeldurr|64/100 brn|[from] brn
+-- turn 11
+  WE CHOSE: heal recover - our hp 0.28, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|200/256
+  move|p2a: Conkeldurr|Close Combat|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|69/256
+  -damage|p2a: Conkeldurr|58/100 brn|[from] brn
+-- turn 12
+  WE CHOSE: heal recover - our hp 0.27, theirs 0.58, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to arceuspoison (hand policy: forced: switch to toucannon) - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|197/256
+  move|p2a: Conkeldurr|Facade|p1a: Latias
+  -damage|p1a: Latias|0 fnt
+  faint|p1a: Latias
+  -damage|p2a: Conkeldurr|52/100 brn|[from] brn
+  switch|p1a: Arceus|Arceus-Poison, L70|284/284
+-- turn 13
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Swords Dance|p1a: Arceus
+  -boost|p1a: Arceus|atk|2
+  move|p2a: Conkeldurr|Facade|p1a: Arceus
+  -damage|p1a: Arceus|108/284
+  -damage|p2a: Conkeldurr|46/100 brn|[from] brn
+-- turn 14
+  WE CHOSE: attack gunkshot - our hp 0.38, theirs 0.46, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Gunk Shot|p2a: Conkeldurr
+  -damage|p2a: Conkeldurr|0 fnt
+  faint|p2a: Conkeldurr
+  switch|p2a: Houndoom|Houndoom, L87, F|100/100
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to toucannon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  faint|p1a: Arceus
+  switch|p1a: Toucannon|Toucannon, L88, M|284/284
+-- turn 16
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Toucannon
+  -damage|p1a: Toucannon|136/284
+  move|p1a: Toucannon|Roost|p1a: Toucannon
+  -heal|p1a: Toucannon|278/284
+  -singleturn|p1a: Toucannon|move: Roost
+-- turn 17
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Toucannon
+  -damage|p1a: Toucannon|122/284
+  move|p1a: Toucannon|Roost|p1a: Toucannon
+  -heal|p1a: Toucannon|264/284
+  -singleturn|p1a: Toucannon|move: Roost
+-- turn 18
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Toucannon
+  -damage|p1a: Toucannon|113/284
+  -status|p1a: Toucannon|brn
+  move|p1a: Toucannon|Roost|p1a: Toucannon
+  -heal|p1a: Toucannon|255/284 brn
+  -singleturn|p1a: Toucannon|move: Roost
+  -damage|p1a: Toucannon|238/284 brn|[from] brn
+-- turn 19
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Toucannon
+  -damage|p1a: Toucannon|97/284 brn
+  move|p1a: Toucannon|Roost|p1a: Toucannon
+  -heal|p1a: Toucannon|239/284 brn
+  -singleturn|p1a: Toucannon|move: Roost
+  -damage|p1a: Toucannon|222/284 brn|[from] brn
+-- turn 20
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Toucannon
+  -damage|p1a: Toucannon|63/284 brn
+  move|p1a: Toucannon|Roost|p1a: Toucannon
+  -heal|p1a: Toucannon|205/284 brn
+  -singleturn|p1a: Toucannon|move: Roost
+  -damage|p1a: Toucannon|188/284 brn|[from] brn
+-- turn 21
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Toucannon
+  -damage|p1a: Toucannon|44/284 brn
+  move|p1a: Toucannon|Roost|p1a: Toucannon
+  -heal|p1a: Toucannon|186/284 brn
+  -singleturn|p1a: Toucannon|move: Roost
+  -damage|p1a: Toucannon|169/284 brn|[from] brn
+-- turn 22
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Toucannon
+  -damage|p1a: Toucannon|27/284 brn
+  move|p1a: Toucannon|Roost|p1a: Toucannon
+  -heal|p1a: Toucannon|169/284 brn
+  -singleturn|p1a: Toucannon|move: Roost
+  -damage|p1a: Toucannon|152/284 brn|[from] brn
+-- turn 23
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Sludge Bomb|p1a: Toucannon
+  -damage|p1a: Toucannon|68/284 brn
+  move|p1a: Toucannon|Roost|p1a: Toucannon
+  -heal|p1a: Toucannon|210/284 brn
+  -singleturn|p1a: Toucannon|move: Roost
+  -damage|p1a: Toucannon|193/284 brn|[from] brn
+-- turn 24
+  WE CHOSE: attack boomburst - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Sludge Bomb|p1a: Toucannon
+  -damage|p1a: Toucannon|107/284 brn
+  move|p1a: Toucannon|Boomburst|p2a: Houndoom
+  -damage|p2a: Houndoom|48/100
+  -damage|p1a: Toucannon|90/284 brn|[from] brn
+-- turn 25
+  WE CHOSE: attack boomburst - our hp 0.32, theirs 0.48, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kricketune - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Sludge Bomb|p1a: Toucannon
+  -damage|p1a: Toucannon|12/284 brn
+  move|p1a: Toucannon|Boomburst|p2a: Houndoom
+  -damage|p2a: Houndoom|0 fnt
+  faint|p2a: Houndoom
+  -damage|p1a: Toucannon|0 fnt|[from] brn
+  faint|p1a: Toucannon
+  switch|p2a: Rillaboom|Rillaboom, L79, M|100/100
+  switch|p1a: Kricketune|Kricketune, L99, F|312/312
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+-- turn 26
+  WE CHOSE: attack pounce - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Kricketune|Pounce|p2a: Rillaboom
+  -supereffective|p2a: Rillaboom
+  -damage|p2a: Rillaboom|25/100
+  -unboost|p2a: Rillaboom|spe|1
+  move|p2a: Rillaboom|Wood Hammer|p1a: Kricketune
+  -resisted|p1a: Kricketune
+  -damage|p1a: Kricketune|136/312
+  -damage|p2a: Rillaboom|5/100|[from] Recoil
+  -heal|p1a: Kricketune|155/312|[from] Grassy Terrain
+  -heal|p2a: Rillaboom|11/100|[from] Grassy Terrain
+-- turn 27
+  WE CHOSE: attack pounce - our hp 0.50, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Kricketune|Pounce|p2a: Rillaboom
+  -supereffective|p2a: Rillaboom
+  -damage|p2a: Rillaboom|0 fnt
+  faint|p2a: Rillaboom
+  -heal|p1a: Kricketune|174/312|[from] Grassy Terrain
+  switch|p2a: Ceruledge|Ceruledge, L78, M|100/100
+-- turn 28
+  WE CHOSE: attack+tera knockoff (hand policy: attack knockoff) - our hp 0.56, theirs 1.00, predicted move (guessed) hits us x0.5
+  -terastallize|p1a: Kricketune|Ghost
+  move|p1a: Kricketune|Knock Off|p2a: Ceruledge
+  -supereffective|p2a: Ceruledge
+  -damage|p2a: Ceruledge|17/100
+  -ability|p2a: Ceruledge|Weak Armor|boost
+  -unboost|p2a: Ceruledge|def|1
+  -boost|p2a: Ceruledge|spe|2
+  -enditem|p2a: Ceruledge|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Kricketune
+  move|p2a: Ceruledge|Close Combat|p1a: Kricketune
+  -immune|p1a: Kricketune
+  -heal|p2a: Ceruledge|23/100|[from] Grassy Terrain
+  -heal|p1a: Kricketune|193/312|[from] Grassy Terrain
+-- turn 29
+  WE CHOSE: attack taunt (hand policy: attack knockoff) - our hp 0.62, theirs 0.23, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Close Combat|p1a: Kricketune
+  -immune|p1a: Kricketune
+  move|p1a: Kricketune|Taunt|p2a: Ceruledge
+  -start|p2a: Ceruledge|move: Taunt
+  -heal|p2a: Ceruledge|29/100|[from] Grassy Terrain
+  -heal|p1a: Kricketune|212/312|[from] Grassy Terrain
+-- turn 30
+  WE CHOSE: attack taunt (hand policy: attack knockoff) - our hp 0.68, theirs 0.29, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Close Combat|p1a: Kricketune
+  -immune|p1a: Kricketune
+  move|p1a: Kricketune|Taunt||[still]
+  -fail|p1a: Kricketune
+  -heal|p2a: Ceruledge|36/100|[from] Grassy Terrain
+  -heal|p1a: Kricketune|231/312|[from] Grassy Terrain
+  -fieldend|move: Grassy Terrain
+-- turn 31
+  WE CHOSE: attack taunt (hand policy: attack knockoff) - our hp 0.74, theirs 0.36, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Close Combat|p1a: Kricketune
+  -immune|p1a: Kricketune
+  move|p1a: Kricketune|Taunt||[still]
+  -fail|p1a: Kricketune
+-- turn 32
+  WE CHOSE: attack taunt (hand policy: attack knockoff) - our hp 0.74, theirs 0.36, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Close Combat|p1a: Kricketune
+  -immune|p1a: Kricketune
+  move|p1a: Kricketune|Taunt||[still]
+  -fail|p1a: Kricketune
+  -end|p2a: Ceruledge|move: Taunt
+-- turn 33
+  WE CHOSE: attack taunt (hand policy: attack knockoff) - our hp 0.74, theirs 0.36, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Close Combat|p1a: Kricketune
+  -immune|p1a: Kricketune
+  move|p1a: Kricketune|Taunt|p2a: Ceruledge
+  -start|p2a: Ceruledge|move: Taunt
+-- turn 34
+  WE CHOSE: attack taunt (hand policy: attack knockoff) - our hp 0.74, theirs 0.36, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Close Combat|p1a: Kricketune
+  -immune|p1a: Kricketune
+  move|p1a: Kricketune|Taunt||[still]
+  -fail|p1a: Kricketune
+-- turn 35
+  WE CHOSE: attack taunt (hand policy: attack knockoff) - our hp 0.74, theirs 0.36, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Close Combat|p1a: Kricketune
+  -immune|p1a: Kricketune
+  move|p1a: Kricketune|Taunt||[still]
+  -fail|p1a: Kricketune
+-- turn 36
+  WE CHOSE: attack taunt (hand policy: attack knockoff) - our hp 0.74, theirs 0.36, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to weavile - our hp 0.00, theirs 0.36, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Poltergeist|p1a: Kricketune
+  -activate|p1a: Kricketune|move: Poltergeist|Heavy-Duty Boots
+  -supereffective|p1a: Kricketune
+  -damage|p1a: Kricketune|0 fnt
+  faint|p1a: Kricketune
+  -end|p2a: Ceruledge|move: Taunt
+  switch|p1a: Weavile|Weavile, L79, M|239/239
+-- turn 37
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.36, predicted move (revealed) hits us x4
+  move|p2a: Ceruledge|Poltergeist|p1a: Weavile
+  -activate|p1a: Weavile|move: Poltergeist|Choice Band
+  -resisted|p1a: Weavile
+  -damage|p1a: Weavile|153/239
+  move|p1a: Weavile|Knock Off|p2a: Ceruledge
+  -supereffective|p2a: Ceruledge
+  -damage|p2a: Ceruledge|0 fnt
+  faint|p2a: Ceruledge
+  switch|p2a: Tyranitar|Tyranitar, L78, M|100/100
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+-- turn 38
+  WE CHOSE: attack knockoff - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Weavile|Knock Off|p2a: Tyranitar
+  -resisted|p2a: Tyranitar
+  -damage|p2a: Tyranitar|77/100
+  -enditem|p2a: Tyranitar|Weakness Policy|[from] move: Knock Off|[of] p1a: Weavile
+  move|p2a: Tyranitar|Earthquake|p1a: Weavile
+  -damage|p1a: Weavile|40/239
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Weavile|26/239|[from] Sandstorm
+-- turn 39
+  WE CHOSE: attack knockoff - our hp 0.11, theirs 0.77, predicted move (revealed) hits us x1
+  move|p1a: Weavile|Knock Off|p2a: Tyranitar
+  -resisted|p2a: Tyranitar
+  -damage|p2a: Tyranitar|60/100
+  move|p2a: Tyranitar|Earthquake|p1a: Weavile
+  -damage|p1a: Weavile|0 fnt
+  faint|p1a: Weavile
+  deinit

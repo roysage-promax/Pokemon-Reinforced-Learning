@@ -1,0 +1,149 @@
+battle 1415 (battle-gen9randombattle-1020666): lost in 17 turns, 3 of theirs left; we are p1
+
+ours:
+  forretress (fainted; item leftovers, ability sturdy; moves rapidspin/stealthrock/ironhead/toxicspikes)
+  lucario (fainted; item lifeorb, ability innerfocus; moves focusblast/flashcannon/vacuumwave/nastyplot)
+  dedenne (fainted; item sitrusberry, ability cheekpouch; moves uturn/superfang/dazzlinggleam/thunderbolt)
+  darkrai (fainted; item leftovers, ability baddreams; moves sludgebomb/nastyplot/substitute/darkpulse)
+  sandyshocks (fainted; item heavydutyboots, ability protosynthesis; moves thunderwave/voltswitch/thunderbolt/earthpower)
+  toucannon (fainted; item heavydutyboots, ability keeneye, tera steel; moves knockoff/boomburst/roost/beakblast)
+theirs (as seen):
+  excadrill (fainted; item leftovers, ability moldbreaker; moves earthquake)
+  dudunsparcethreesegment (fainted; item leftovers, ability ?; moves boomburst)
+  inteleon (fainted; item unknown_item, ability ?; moves hydropump)
+  screamtail (100%; item unknown_item, ability protosynthesis; moves playrough)
+
+-- turn 0
+  switch|p1a: Forretress|Forretress, L84, M|263/263
+  switch|p2a: Excadrill|Excadrill, L79, F|100/100
+  -ability|p2a: Excadrill|Mold Breaker
+-- turn 1
+  WE CHOSE: switch to toucannon - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Toucannon|Toucannon, L88, M|284/284
+  move|p2a: Excadrill|Earthquake|p1a: Toucannon
+  -immune|p1a: Toucannon
+-- turn 2
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Excadrill|Earthquake|p1a: Toucannon
+  -immune|p1a: Toucannon
+  move|p1a: Toucannon|Boomburst|p2a: Excadrill
+  -resisted|p2a: Excadrill
+  -damage|p2a: Excadrill|73/100
+  -heal|p2a: Excadrill|79/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 0.79, predicted move (revealed) hits us x0
+  move|p2a: Excadrill|Earthquake|p1a: Toucannon
+  -immune|p1a: Toucannon
+  move|p1a: Toucannon|Boomburst|p2a: Excadrill
+  -resisted|p2a: Excadrill
+  -damage|p2a: Excadrill|51/100
+  -heal|p2a: Excadrill|57/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x0
+  move|p2a: Excadrill|Earthquake|p1a: Toucannon
+  -immune|p1a: Toucannon
+  move|p1a: Toucannon|Boomburst|p2a: Excadrill
+  -resisted|p2a: Excadrill
+  -damage|p2a: Excadrill|26/100
+  -heal|p2a: Excadrill|32/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 0.32, predicted move (revealed) hits us x0
+  move|p2a: Excadrill|Earthquake|p1a: Toucannon
+  -immune|p1a: Toucannon
+  move|p1a: Toucannon|Boomburst|p2a: Excadrill
+  -resisted|p2a: Excadrill
+  -damage|p2a: Excadrill|1/100
+  -heal|p2a: Excadrill|7/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x0
+  move|p2a: Excadrill|Earthquake|p1a: Toucannon
+  -immune|p1a: Toucannon
+  move|p1a: Toucannon|Boomburst|p2a: Excadrill
+  -resisted|p2a: Excadrill
+  -damage|p2a: Excadrill|0 fnt
+  faint|p2a: Excadrill
+  switch|p2a: Dudunsparce|Dudunsparce-Three-Segment, L83, F|100/100
+-- turn 7
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Toucannon|Boomburst|p2a: Dudunsparce
+  -damage|p2a: Dudunsparce|55/100
+  move|p2a: Dudunsparce|Boomburst|p1a: Toucannon
+  -damage|p1a: Toucannon|149/284
+  -heal|p2a: Dudunsparce|61/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack+tera boomburst - our hp 0.52, theirs 0.61, predicted move (revealed) hits us x1
+  -terastallize|p1a: Toucannon|Steel
+  move|p1a: Toucannon|Boomburst|p2a: Dudunsparce
+  -damage|p2a: Dudunsparce|20/100
+  move|p2a: Dudunsparce|Boomburst|p1a: Toucannon
+  -resisted|p1a: Toucannon
+  -damage|p1a: Toucannon|79/284
+  -heal|p2a: Dudunsparce|26/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack boomburst (hand policy: heal roost) - our hp 0.28, theirs 0.26, predicted move (revealed) hits us x0.5
+  move|p1a: Toucannon|Boomburst|p2a: Dudunsparce
+  -damage|p2a: Dudunsparce|0 fnt
+  faint|p2a: Dudunsparce
+  switch|p2a: Inteleon|Inteleon, L81, F, shiny|100/100
+-- turn 10
+  WE CHOSE: attack boomburst (hand policy: heal roost) - our hp 0.28, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dedenne - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Toucannon
+  -damage|p1a: Toucannon|0 fnt
+  faint|p1a: Toucannon
+  switch|p1a: Dedenne|Dedenne, L88, M|261/261
+-- turn 11
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Dedenne|[miss]
+  -miss|p2a: Inteleon|p1a: Dedenne
+  move|p1a: Dedenne|Thunderbolt|p2a: Inteleon
+  -supereffective|p2a: Inteleon
+  -damage|p2a: Inteleon|10/100
+-- turn 12
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lucario - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Dedenne
+  -damage|p1a: Dedenne|0 fnt
+  faint|p1a: Dedenne
+  switch|p1a: Lucario|Lucario, L84, M|255/255
+-- turn 13
+  WE CHOSE: attack focusblast - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to darkrai - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Lucario
+  -damage|p1a: Lucario|0 fnt
+  faint|p1a: Lucario
+  switch|p1a: Darkrai|Darkrai, L77|234/234
+-- turn 14
+  WE CHOSE: attack darkpulse - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to sandyshocks - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Darkrai
+  -damage|p1a: Darkrai|0 fnt
+  faint|p1a: Darkrai
+  switch|p1a: Sandy Shocks|Sandy Shocks, L80|267/267
+-- turn 15
+  WE CHOSE: attack earthpower (hand policy: attack thunderbolt) - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to forretress - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x2
+  move|p2a: Inteleon|Hydro Pump|p1a: Sandy Shocks
+  -supereffective|p1a: Sandy Shocks
+  -damage|p1a: Sandy Shocks|0 fnt
+  faint|p1a: Sandy Shocks
+  -end|p1a: Sandy Shocks|Protosynthesis|[silent]
+  switch|p1a: Forretress|Forretress, L84, M|263/263
+-- turn 16
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Forretress
+  -crit|p1a: Forretress
+  -ability|p1a: Forretress|Sturdy
+  -damage|p1a: Forretress|1/263
+  move|p1a: Forretress|Iron Head|p2a: Inteleon
+  -resisted|p2a: Inteleon
+  -damage|p2a: Inteleon|0 fnt
+  faint|p2a: Inteleon
+  -heal|p1a: Forretress|17/263|[from] item: Leftovers
+  switch|p2a: Scream Tail|Scream Tail, L84|100/100
+-- turn 17
+  WE CHOSE: attack toxicspikes (hand policy: attack ironhead) - our hp 0.06, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Scream Tail|Play Rough|p1a: Forretress
+  -resisted|p1a: Forretress
+  -damage|p1a: Forretress|0 fnt
+  faint|p1a: Forretress

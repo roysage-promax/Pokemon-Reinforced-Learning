@@ -1,0 +1,222 @@
+battle 666 (battle-gen9randombattle-1012462): lost in 23 turns, 1 of theirs left; we are p1
+
+ours:
+  vikavolt (fainted; item heavydutyboots, ability levitate; moves bugbuzz/stickyweb/discharge/voltswitch)
+  mausholdfour (fainted; item widelens, ability technician; moves tidyup/encore/populationbomb/bite)
+  whimsicott (fainted; item leftovers, ability prankster; moves moonblast/substitute/leechseed/encore)
+  heracross (fainted; item flameorb, ability guts; moves closecombat/trailblaze/facade/knockoff)
+  landorustherian (fainted; item leftovers, ability intimidate; moves taunt/stealthrock/earthquake/uturn)
+  alcremielemoncream (fainted; item leftovers, ability aromaveil, tera steel; moves recover/psyshock/calmmind/alluringvoice)
+theirs (as seen):
+  slaking (fainted; item unknown_item, ability truant; moves gigaimpact)
+  seviper (fainted; item unknown_item, ability ?; moves gunkshot)
+  palafin (fainted; item unknown_item, ability zerotohero; moves wavecrash)
+  tropius (fainted; item ?, ability ?; moves earthquake)
+  sandyshocks (fainted; item unknown_item, ability protosynthesis; moves thunderbolt)
+  dodrio (25%; item unknown_item, ability ?; moves bravebird)
+
+-- turn 0
+  switch|p1a: Vikavolt|Vikavolt, L83, M|263/263
+  switch|p2a: Slaking|Slaking, L84, M|100/100
+-- turn 1
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to heracross - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Vikavolt
+  -damage|p1a: Vikavolt|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Vikavolt
+  switch|p1a: Heracross|Heracross, L80, M|259/259
+-- turn 2
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Heracross|Close Combat|p2a: Slaking
+  -supereffective|p2a: Slaking
+  -damage|p2a: Slaking|35/100
+  -unboost|p1a: Heracross|def|1
+  -unboost|p1a: Heracross|spd|1
+  -status|p1a: Heracross|brn|[from] item: Flame Orb
+-- turn 3
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to landorustherian - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Heracross
+  -crit|p1a: Heracross
+  -damage|p1a: Heracross|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Heracross
+  switch|p1a: Landorus|Landorus-Therian, L76, M|260/260
+  -ability|p1a: Landorus|Intimidate|boost
+  -unboost|p2a: Slaking|atk|1
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Landorus|Earthquake|p2a: Slaking
+  -damage|p2a: Slaking|8/100
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Landorus
+  -damage|p1a: Landorus|14/260
+  -mustrecharge|p2a: Slaking
+  move|p1a: Landorus|Earthquake|p2a: Slaking
+  -damage|p2a: Slaking|0 fnt
+  faint|p2a: Slaking
+  -heal|p1a: Landorus|30/260|[from] item: Leftovers
+  switch|p2a: Seviper|Seviper, L93, M|100/100
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 0.12, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Landorus|Earthquake|p2a: Seviper
+  -supereffective|p2a: Seviper
+  -damage|p2a: Seviper|2/100
+  move|p2a: Seviper|Gunk Shot|p1a: Landorus|[miss]
+  -miss|p2a: Seviper|p1a: Landorus
+  -heal|p1a: Landorus|46/260|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.18, theirs 0.02, predicted move (revealed) hits us x0.5
+  move|p1a: Landorus|Earthquake|p2a: Seviper
+  -supereffective|p2a: Seviper
+  -damage|p2a: Seviper|0 fnt
+  faint|p2a: Seviper
+  -heal|p1a: Landorus|62/260|[from] item: Leftovers
+  switch|p2a: Palafin|Palafin, L77, F|100/100
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 0.24, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to whimsicott - our hp 0.00, theirs 0.93, predicted move (revealed) hits us x2
+  move|p2a: Palafin|Wave Crash|p1a: Landorus
+  -supereffective|p1a: Landorus
+  -damage|p1a: Landorus|0 fnt
+  faint|p1a: Landorus
+  -damage|p2a: Palafin|93/100|[from] Recoil
+  switch|p1a: Whimsicott|Whimsicott, L84, F|238/238
+-- turn 9
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 0.93, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Moonblast|p2a: Palafin
+  -damage|p2a: Palafin|55/100
+  move|p2a: Palafin|Wave Crash|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|179/238
+  -damage|p2a: Palafin|48/100|[from] Recoil
+  -heal|p1a: Whimsicott|193/238|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack moonblast - our hp 0.81, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Moonblast|p2a: Palafin
+  -damage|p2a: Palafin|3/100
+  move|p2a: Palafin|Wave Crash|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|128/238
+  -damage|p2a: Palafin|0 fnt|[from] Recoil
+  faint|p2a: Palafin
+  -heal|p1a: Whimsicott|142/238|[from] item: Leftovers
+  switch|p2a: Tropius|Tropius, L91, F|100/100
+-- turn 11
+  WE CHOSE: attack moonblast - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Whimsicott|Moonblast|p2a: Tropius
+  -damage|p2a: Tropius|75/100
+  move|p2a: Tropius|Earthquake|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -crit|p1a: Whimsicott
+  -damage|p1a: Whimsicott|89/238
+  -heal|p1a: Whimsicott|103/238|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack moonblast - our hp 0.43, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Moonblast|p2a: Tropius
+  -crit|p2a: Tropius
+  -damage|p2a: Tropius|37/100
+  -enditem|p2a: Tropius|Sitrus Berry|[eat]
+  -heal|p2a: Tropius|62/100|[from] item: Sitrus Berry
+  move|p2a: Tropius|Earthquake|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|71/238
+  -heal|p1a: Whimsicott|85/238|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack moonblast - our hp 0.36, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Moonblast|p2a: Tropius
+  -damage|p2a: Tropius|39/100
+  move|p2a: Tropius|Earthquake|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|49/238
+  -heal|p1a: Whimsicott|63/238|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack moonblast - our hp 0.26, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Moonblast|p2a: Tropius
+  -damage|p2a: Tropius|15/100
+  -unboost|p2a: Tropius|spa|1
+  move|p2a: Tropius|Earthquake|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|30/238
+  -heal|p1a: Whimsicott|44/238|[from] item: Leftovers
+  -item|p2a: Tropius|Sitrus Berry|[from] ability: Harvest
+  -enditem|p2a: Tropius|Sitrus Berry|[eat]
+  -heal|p2a: Tropius|40/100|[from] item: Sitrus Berry
+-- turn 15
+  WE CHOSE: attack moonblast - our hp 0.18, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Moonblast|p2a: Tropius
+  -damage|p2a: Tropius|15/100
+  move|p2a: Tropius|Earthquake|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|13/238
+  -heal|p1a: Whimsicott|27/238|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack moonblast - our hp 0.11, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Moonblast|p2a: Tropius
+  -damage|p2a: Tropius|0 fnt
+  faint|p2a: Tropius
+  -heal|p1a: Whimsicott|41/238|[from] item: Leftovers
+  switch|p2a: Sandy Shocks|Sandy Shocks, L80|100/100
+-- turn 17
+  WE CHOSE: attack moonblast - our hp 0.17, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to alcremielemoncream - our hp 0.00, theirs 0.66, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Moonblast|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|66/100
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|0 fnt
+  faint|p1a: Whimsicott
+  switch|p1a: Alcremie|Alcremie-Lemon-Cream, L90, F|263/263
+-- turn 18
+  WE CHOSE: attack alluringvoice - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Alcremie
+  -damage|p1a: Alcremie|190/263
+  move|p1a: Alcremie|Alluring Voice|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|23/100
+  -heal|p1a: Alcremie|206/263|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack alluringvoice - our hp 0.78, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Alcremie
+  -damage|p1a: Alcremie|125/263
+  -status|p1a: Alcremie|par
+  move|p1a: Alcremie|Alluring Voice|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|0 fnt
+  faint|p2a: Sandy Shocks
+  -end|p2a: Sandy Shocks|Protosynthesis|[silent]
+  -heal|p1a: Alcremie|141/263 par|[from] item: Leftovers
+  switch|p2a: Dodrio|Dodrio, L85, F|100/100
+-- turn 20
+  WE CHOSE: attack+tera alluringvoice - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Alcremie|Steel
+  move|p2a: Dodrio|Brave Bird|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|58/263 par
+  -damage|p2a: Dodrio|89/100|[from] Recoil
+  cant|p1a: Alcremie|par
+  -heal|p1a: Alcremie|74/263 par|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal recover - our hp 0.28, theirs 0.89, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to mausholdfour - our hp 0.00, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p2a: Dodrio|Brave Bird|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|0 fnt
+  faint|p1a: Alcremie
+  -damage|p2a: Dodrio|79/100|[from] Recoil
+  switch|p1a: Maushold|Maushold-Four, L76|238/238
+-- turn 22
+  WE CHOSE: attack bite - our hp 1.00, theirs 0.79, predicted move (revealed) hits us x1
+  move|p2a: Dodrio|Brave Bird|p1a: Maushold
+  -damage|p1a: Maushold|48/238
+  -damage|p2a: Dodrio|53/100|[from] Recoil
+  move|p1a: Maushold|Bite|p2a: Dodrio
+  -damage|p2a: Dodrio|32/100
+-- turn 23
+  WE CHOSE: attack bite - our hp 0.20, theirs 0.32, predicted move (revealed) hits us x1
+  move|p2a: Dodrio|Brave Bird|p1a: Maushold
+  -damage|p1a: Maushold|0 fnt
+  faint|p1a: Maushold
+  -damage|p2a: Dodrio|25/100|[from] Recoil

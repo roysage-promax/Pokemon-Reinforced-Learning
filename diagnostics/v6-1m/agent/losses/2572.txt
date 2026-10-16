@@ -1,0 +1,234 @@
+battle 2572 (battle-gen9randombattle-1032464): lost in 25 turns, 1 of theirs left; we are p1
+
+ours:
+  golduck (fainted; item leftovers, ability cloudnine; moves nastyplot/encore/hydropump/grassknot)
+  espeon (fainted; item choicespecs, ability magicbounce; moves trick/alluringvoice/shadowball/psyshock)
+  stantler (fainted; item eviolite, ability intimidate, tera fairy; moves calmmind/earthpower/terablast/shadowball)
+  flamigo (fainted; item lifeorb, ability scrappy; moves bravebird/throatchop/swordsdance/closecombat)
+  bombirdier (fainted; item choiceband, ability rockypayload; moves bravebird/knockoff/suckerpunch/stoneedge)
+  regirock (fainted; item leftovers, ability clearbody; moves bodypress/stoneedge/thunderwave/irondefense)
+theirs (as seen):
+  sandyshocks (fainted; item unknown_item, ability protosynthesis; moves thunderbolt)
+  lapras (fainted; item unknown_item, ability waterabsorb; moves sparklingaria)
+  sunflora (fainted; item unknown_item, ability ?; moves -)
+  florgeswhite (fainted; item leftovers, ability ?; moves moonblast)
+  bisharp (fainted; item unknown_item, ability defiant; moves throatchop)
+  necrozmaduskmane (26%; item unknown_item, ability prismarmor; moves sunsteelstrike)
+
+-- turn 0
+  switch|p1a: Golduck|Golduck, L90, M|290/290
+  switch|p2a: Sandy Shocks|Sandy Shocks, L80|100/100
+  -ability|p1a: Golduck|Cloud Nine
+-- turn 1
+  WE CHOSE: switch to flamigo - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to stantler - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Flamigo|Flamigo, L82, F|269/269
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Flamigo
+  -supereffective|p1a: Flamigo
+  -damage|p1a: Flamigo|0 fnt
+  faint|p1a: Flamigo
+  switch|p1a: Stantler|Stantler, L91, M|281/281
+  -ability|p1a: Stantler|Intimidate|boost
+  -unboost|p2a: Sandy Shocks|atk|1
+-- turn 2
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Stantler
+  -damage|p1a: Stantler|203/281
+  move|p1a: Stantler|Earth Power|p2a: Sandy Shocks
+  -supereffective|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|47/100
+-- turn 3
+  WE CHOSE: attack earthpower - our hp 0.72, theirs 0.47, predicted move (revealed) hits us x1
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Stantler
+  -damage|p1a: Stantler|116/281
+  move|p1a: Stantler|Earth Power|p2a: Sandy Shocks
+  -supereffective|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|0 fnt
+  faint|p2a: Sandy Shocks
+  -end|p2a: Sandy Shocks|Protosynthesis|[silent]
+  switch|p2a: Lapras|Lapras, L87, M|100/100
+-- turn 4
+  WE CHOSE: switch to golduck (hand policy: attack terablast) - our hp 0.41, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Golduck|Golduck, L90, M|290/290
+  -ability|p1a: Golduck|Cloud Nine
+  move|p2a: Lapras|Sparkling Aria|p1a: Golduck
+  -resisted|p1a: Golduck
+  -crit|p1a: Golduck
+  -damage|p1a: Golduck|221/290
+  -heal|p1a: Golduck|239/290|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: setup nastyplot - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Golduck|Nasty Plot|p1a: Golduck
+  -boost|p1a: Golduck|spa|2
+  move|p2a: Lapras|Sparkling Aria|p1a: Golduck
+  -resisted|p1a: Golduck
+  -damage|p1a: Golduck|194/290
+  -heal|p1a: Golduck|212/290|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: setup nastyplot (hand policy: attack+tera hydropump) - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Golduck|Nasty Plot|p1a: Golduck
+  -boost|p1a: Golduck|spa|2
+  move|p2a: Lapras|Sparkling Aria|p1a: Golduck
+  -resisted|p1a: Golduck
+  -damage|p1a: Golduck|165/290
+  -heal|p1a: Golduck|183/290|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack hydropump (hand policy: attack+tera hydropump) - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Golduck|Hydro Pump|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Golduck
+  -resisted|p1a: Golduck
+  -damage|p1a: Golduck|137/290
+  -heal|p1a: Golduck|155/290|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack hydropump (hand policy: attack+tera hydropump) - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Golduck|Hydro Pump|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Golduck
+  -resisted|p1a: Golduck
+  -damage|p1a: Golduck|110/290
+  -heal|p1a: Golduck|128/290|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack hydropump (hand policy: attack+tera hydropump) - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Golduck|Hydro Pump|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Golduck
+  -resisted|p1a: Golduck
+  -damage|p1a: Golduck|86/290
+  -heal|p1a: Golduck|104/290|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack hydropump (hand policy: attack+tera hydropump) - our hp 0.36, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Golduck|Hydro Pump|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Golduck
+  -resisted|p1a: Golduck
+  -damage|p1a: Golduck|56/290
+  -heal|p1a: Golduck|74/290|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack hydropump (hand policy: attack+tera hydropump) - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Golduck|Hydro Pump|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Golduck
+  -resisted|p1a: Golduck
+  -damage|p1a: Golduck|31/290
+  -heal|p1a: Golduck|49/290|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack hydropump (hand policy: attack+tera hydropump) - our hp 0.17, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Golduck|Hydro Pump|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Golduck
+  -resisted|p1a: Golduck
+  -damage|p1a: Golduck|5/290
+  -heal|p1a: Golduck|23/290|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack hydropump (hand policy: attack+tera hydropump) - our hp 0.08, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to bombirdier - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Golduck|Hydro Pump|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Golduck
+  -resisted|p1a: Golduck
+  -damage|p1a: Golduck|0 fnt
+  faint|p1a: Golduck
+  switch|p1a: Bombirdier|Bombirdier, L85, M|258/258
+-- turn 14
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Bombirdier|Brave Bird|p2a: Lapras
+  -damage|p2a: Lapras|42/100
+  -damage|p1a: Bombirdier|186/258|[from] Recoil
+  move|p2a: Lapras|Sparkling Aria|p1a: Bombirdier
+  -damage|p1a: Bombirdier|95/258
+-- turn 15
+  WE CHOSE: attack bravebird - our hp 0.37, theirs 0.42, predicted move (revealed) hits us x1
+  move|p1a: Bombirdier|Brave Bird|p2a: Lapras
+  -damage|p2a: Lapras|0 fnt
+  faint|p2a: Lapras
+  -damage|p1a: Bombirdier|45/258|[from] Recoil
+  switch|p2a: Sunflora|Sunflora, F|100/100
+-- turn 16
+  WE CHOSE: attack bravebird - our hp 0.17, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to espeon - our hp 0.00, theirs 0.00, predicted move (guessed) hits us x0.5
+  move|p1a: Bombirdier|Brave Bird|p2a: Sunflora
+  -supereffective|p2a: Sunflora
+  -damage|p2a: Sunflora|0 fnt
+  faint|p2a: Sunflora
+  -damage|p1a: Bombirdier|0 fnt|[from] Recoil
+  faint|p1a: Bombirdier
+  switch|p1a: Espeon|Espeon, L84, M|246/246
+  switch|p2a: Florges|Florges-White, L85, F|100/100
+-- turn 17
+  WE CHOSE: attack psyshock - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Espeon|Psyshock|p2a: Florges
+  -damage|p2a: Florges|25/100
+  move|p2a: Florges|Moonblast|p1a: Espeon
+  -damage|p1a: Espeon|128/246
+  -unboost|p1a: Espeon|spa|1
+  -heal|p2a: Florges|31/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack psyshock (hand policy: attack+tera psyshock) - our hp 0.52, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Espeon|Psyshock|p2a: Florges
+  -damage|p2a: Florges|0 fnt
+  faint|p2a: Florges
+  switch|p2a: Bisharp|Bisharp, L79, M|100/100
+-- turn 19
+  WE CHOSE: switch to stantler (hand policy: attack psyshock) - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Stantler|Stantler, L91, M|116/281
+  -ability|p1a: Stantler|Intimidate|boost
+  -unboost|p2a: Bisharp|atk|1
+  -ability|p2a: Bisharp|Defiant|boost
+  -boost|p2a: Bisharp|atk|2
+  move|p2a: Bisharp|Throat Chop|p1a: Stantler
+  -damage|p1a: Stantler|13/281
+  -start|p1a: Stantler|Throat Chop|[silent]
+-- turn 20
+  WE CHOSE: attack+tera earthpower - our hp 0.05, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to regirock - our hp 0.00, theirs 0.55, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Stantler|Fairy
+  move|p1a: Stantler|Earth Power|p2a: Bisharp
+  -supereffective|p2a: Bisharp
+  -damage|p2a: Bisharp|55/100
+  move|p2a: Bisharp|Throat Chop|p1a: Stantler
+  -resisted|p1a: Stantler
+  -damage|p1a: Stantler|0 fnt
+  faint|p1a: Stantler
+  switch|p1a: Regirock|Regirock, L83|268/268
+-- turn 21
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.55, predicted move (revealed) hits us x1
+  move|p2a: Bisharp|Throat Chop|p1a: Regirock
+  -damage|p1a: Regirock|196/268
+  -start|p1a: Regirock|Throat Chop|[silent]
+  move|p1a: Regirock|Body Press|p2a: Bisharp
+  -supereffective|p2a: Bisharp
+  -damage|p2a: Bisharp|0 fnt
+  faint|p2a: Bisharp
+  -heal|p1a: Regirock|212/268|[from] item: Leftovers
+  switch|p2a: Necrozma|Necrozma-Dusk-Mane, L69|100/100
+-- turn 22
+  WE CHOSE: switch to espeon (hand policy: attack bodypress) - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to regirock - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Espeon|Espeon, L84, M|128/246
+  move|p2a: Necrozma|Sunsteel Strike|p1a: Espeon
+  -damage|p1a: Espeon|0 fnt
+  faint|p1a: Espeon
+  switch|p1a: Regirock|Regirock, L83|212/268
+-- turn 23
+  WE CHOSE: attack bodypress - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Necrozma|Sunsteel Strike|p1a: Regirock
+  -supereffective|p1a: Regirock
+  -damage|p1a: Regirock|96/268
+  move|p1a: Regirock|Body Press|p2a: Necrozma
+  -damage|p2a: Necrozma|63/100
+  -heal|p1a: Regirock|112/268|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack bodypress - our hp 0.42, theirs 0.63, predicted move (revealed) hits us x2
+  move|p2a: Necrozma|Sunsteel Strike|p1a: Regirock
+  -supereffective|p1a: Regirock
+  -damage|p1a: Regirock|4/268
+  move|p1a: Regirock|Body Press|p2a: Necrozma
+  -damage|p2a: Necrozma|26/100
+  -heal|p1a: Regirock|20/268|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack bodypress - our hp 0.07, theirs 0.26, predicted move (revealed) hits us x2
+  move|p2a: Necrozma|Sunsteel Strike|p1a: Regirock
+  -supereffective|p1a: Regirock
+  -damage|p1a: Regirock|0 fnt
+  faint|p1a: Regirock

@@ -1,0 +1,202 @@
+battle 968 (battle-gen9randombattle-1015426): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  reshiram (fainted; item heavydutyboots, ability turboblaze; moves flareblitz/outrage/dragondance/stoneedge)
+  taurospaldeablaze (fainted; item choiceband, ability intimidate, tera fighting; moves closecombat/flareblitz/wildcharge/stoneedge)
+  enamorustherian (fainted; item weaknesspolicy, ability overcoat; moves superpower/earthpower/moonblast/agility)
+  rotomfan (fainted; item heavydutyboots, ability levitate; moves willowisp/thunderbolt/voltswitch/airslash)
+  sceptile (fainted; item leftovers, ability overgrow; moves focusblast/substitute/leechseed/gigadrain)
+  darkrai (fainted; item lifeorb, ability baddreams; moves hypnosis/nastyplot/darkpulse/sludgebomb)
+theirs (as seen):
+  slaking (fainted; item unknown_item, ability truant; moves gigaimpact)
+  eternatus (fainted; item leftovers, ability pressure; moves fireblast)
+  luxray (fainted; item unknown_item, ability intimidate; moves playrough)
+  ninetales (fainted; item unknown_item, ability ?; moves solarbeam)
+  furret (fainted; item lifeorb, ability frisk; moves doubleedge)
+  mienshao (70%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Reshiram|Reshiram, L76|277/277
+  switch|p2a: Slaking|Slaking, L84, F|100/100
+  -ability|p1a: Reshiram|Turboblaze
+-- turn 1
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to taurospaldeablaze - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Reshiram
+  -damage|p1a: Reshiram|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Reshiram
+  switch|p1a: Tauros|Tauros-Paldea-Blaze, L81, M|254/254
+  -ability|p1a: Tauros|Intimidate|boost
+  -unboost|p2a: Slaking|atk|1
+-- turn 2
+  WE CHOSE: attack+tera closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Tauros|Fighting
+  cant|p2a: Slaking|recharge
+  move|p1a: Tauros|Close Combat|p2a: Slaking
+  -supereffective|p2a: Slaking
+  -damage|p2a: Slaking|0 fnt
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  faint|p2a: Slaking
+  switch|p2a: Eternatus|Eternatus, L69|100/100
+  -ability|p2a: Eternatus|Pressure
+-- turn 3
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Eternatus|Fire Blast|p1a: Tauros
+  -damage|p1a: Tauros|122/254
+  move|p1a: Tauros|Close Combat|p2a: Eternatus
+  -resisted|p2a: Eternatus
+  -damage|p2a: Eternatus|50/100
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  -heal|p2a: Eternatus|56/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack closecombat - our hp 0.48, theirs 0.56, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to enamorustherian - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Eternatus|Fire Blast|p1a: Tauros
+  -damage|p1a: Tauros|0 fnt
+  faint|p1a: Tauros
+  -heal|p2a: Eternatus|62/100|[from] item: Leftovers
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+-- turn 5
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Eternatus|Fire Blast|p1a: Enamorus
+  -damage|p1a: Enamorus|195/259
+  move|p1a: Enamorus|Earth Power|p2a: Eternatus
+  -supereffective|p2a: Eternatus
+  -damage|p2a: Eternatus|1/100
+  -heal|p2a: Eternatus|7/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack earthpower - our hp 0.75, theirs 0.07, predicted move (revealed) hits us x1
+  move|p2a: Eternatus|Fire Blast|p1a: Enamorus
+  -crit|p1a: Enamorus
+  -damage|p1a: Enamorus|101/259
+  move|p1a: Enamorus|Earth Power|p2a: Eternatus
+  -supereffective|p2a: Eternatus
+  -damage|p2a: Eternatus|0 fnt
+  faint|p2a: Eternatus
+  switch|p2a: Luxray|Luxray, L88, M|100/100
+  -ability|p2a: Luxray|Intimidate|boost
+  -unboost|p1a: Enamorus|atk|1
+-- turn 7
+  WE CHOSE: switch to sceptile - our hp 0.39, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Sceptile|Sceptile, L87, F|264/264
+  move|p2a: Luxray|Play Rough|p1a: Sceptile
+  -damage|p1a: Sceptile|156/264
+  -unboost|p1a: Sceptile|atk|1
+  -heal|p1a: Sceptile|172/264|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack gigadrain - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Sceptile|Giga Drain|p2a: Luxray
+  -damage|p2a: Luxray|77/100
+  -heal|p1a: Sceptile|205/264|[from] drain|[of] p2a: Luxray
+  move|p2a: Luxray|Play Rough|p1a: Sceptile
+  -damage|p1a: Sceptile|102/264
+  -heal|p1a: Sceptile|118/264|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack gigadrain - our hp 0.45, theirs 0.77, predicted move (revealed) hits us x1
+  move|p1a: Sceptile|Giga Drain|p2a: Luxray
+  -damage|p2a: Luxray|55/100
+  -heal|p1a: Sceptile|150/264|[from] drain|[of] p2a: Luxray
+  move|p2a: Luxray|Play Rough|p1a: Sceptile
+  -damage|p1a: Sceptile|57/264
+  -heal|p1a: Sceptile|73/264|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack gigadrain - our hp 0.28, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Sceptile|Giga Drain|p2a: Luxray
+  -damage|p2a: Luxray|22/100
+  -heal|p1a: Sceptile|120/264|[from] drain|[of] p2a: Luxray
+  move|p2a: Luxray|Play Rough|p1a: Sceptile
+  -damage|p1a: Sceptile|14/264
+  -heal|p1a: Sceptile|30/264|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack gigadrain - our hp 0.11, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Sceptile|Giga Drain|p2a: Luxray
+  -damage|p2a: Luxray|0 fnt
+  -heal|p1a: Sceptile|60/264|[from] drain|[of] p2a: Luxray
+  faint|p2a: Luxray
+  -heal|p1a: Sceptile|76/264|[from] item: Leftovers
+  switch|p2a: Ninetales|Ninetales, L85, M|100/100
+  -weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+-- turn 12
+  WE CHOSE: attack focusblast - our hp 0.29, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Sceptile|Focus Blast|p2a: Ninetales
+  -damage|p2a: Ninetales|66/100
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Sceptile
+  -resisted|p1a: Sceptile
+  -damage|p1a: Sceptile|41/264
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Sceptile|57/264|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack focusblast - our hp 0.22, theirs 0.66, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to enamorustherian - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p1a: Sceptile|Focus Blast|p2a: Ninetales
+  -damage|p2a: Ninetales|33/100
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Sceptile
+  -resisted|p1a: Sceptile
+  -crit|p1a: Sceptile
+  -damage|p1a: Sceptile|0 fnt
+  faint|p1a: Sceptile
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|101/259
+-- turn 14
+  WE CHOSE: attack earthpower - our hp 0.39, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Enamorus
+  -resisted|p1a: Enamorus
+  -damage|p1a: Enamorus|67/259
+  move|p1a: Enamorus|Earth Power|p2a: Ninetales
+  -supereffective|p2a: Ninetales
+  -crit|p2a: Ninetales
+  -damage|p2a: Ninetales|0 fnt
+  faint|p2a: Ninetales
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Furret|Furret, L94, F|100/100
+  -item|p1a: Enamorus|Weakness Policy|[from] ability: Frisk|[of] p2a: Furret
+-- turn 15
+  WE CHOSE: attack superpower - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to rotomfan - our hp 0.00, theirs 0.84, predicted move (revealed) hits us x1
+  move|p2a: Furret|Double-Edge|p1a: Enamorus
+  -damage|p1a: Enamorus|0 fnt
+  faint|p1a: Enamorus
+  -damage|p2a: Furret|93/100|[from] Recoil
+  -damage|p2a: Furret|84/100|[from] item: Life Orb
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Rotom|Rotom-Fan, L86|226/226
+-- turn 16
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.84, predicted move (revealed) hits us x1
+  move|p2a: Furret|Double-Edge|p1a: Rotom
+  -damage|p1a: Rotom|88/226
+  -damage|p2a: Furret|69/100|[from] Recoil
+  -damage|p2a: Furret|59/100|[from] item: Life Orb
+  move|p1a: Rotom|Thunderbolt|p2a: Furret
+  -damage|p2a: Furret|13/100
+  -weather|none
+-- turn 17
+  WE CHOSE: attack thunderbolt - our hp 0.39, theirs 0.13, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to darkrai - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Furret|Double-Edge|p1a: Rotom
+  -damage|p1a: Rotom|0 fnt
+  faint|p1a: Rotom
+  -damage|p2a: Furret|3/100|[from] Recoil
+  -damage|p2a: Furret|0 fnt|[from] item: Life Orb
+  faint|p2a: Furret
+  switch|p2a: Mienshao|Mienshao, L83, M|100/100
+  switch|p1a: Darkrai|Darkrai, L77|234/234
+-- turn 18
+  WE CHOSE: attack sludgebomb - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Darkrai|Sludge Bomb|p2a: Mienshao
+  -damage|p2a: Mienshao|70/100
+  -damage|p1a: Darkrai|211/234|[from] item: Life Orb
+  move|p2a: Mienshao|Close Combat|p1a: Darkrai
+  -supereffective|p1a: Darkrai
+  -damage|p1a: Darkrai|0 fnt
+  -unboost|p2a: Mienshao|def|1
+  -unboost|p2a: Mienshao|spd|1
+  faint|p1a: Darkrai

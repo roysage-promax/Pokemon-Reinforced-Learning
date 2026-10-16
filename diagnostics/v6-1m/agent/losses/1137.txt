@@ -1,0 +1,219 @@
+battle 1137 (battle-gen9randombattle-1017840): lost in 21 turns, 2 of theirs left; we are p1
+
+ours:
+  walkingwake (fainted; item choicespecs, ability protosynthesis; moves hydropump/flipturn/flamethrower/dracometeor)
+  smeargle (fainted; item widelens, ability technician; moves shellsmash/spore/powertrip/populationbomb)
+  skarmory (fainted; item rockyhelmet, ability sturdy; moves bravebird/bodypress/stealthrock/roost)
+  roaringmoon (fainted; item lumberry, ability protosynthesis, tera steel; moves ironhead/dragondance/knockoff/outrage)
+  magmortar (fainted; item heavydutyboots, ability flamebody; moves thunderbolt/knockoff/focusblast/fireblast)
+  rotommow (fainted; item choicescarf, ability levitate; moves voltswitch/thunderbolt/trick/leafstorm)
+theirs (as seen):
+  ragingbolt (fainted; item unknown_item, ability protosynthesis; moves dracometeor/thunderbolt)
+  gallade (fainted; item lifeorb, ability ?; moves sacredsword)
+  ditto (fainted; item unknown_item, ability protosynthesis; moves dracometeor)
+  greedent (fainted; item ?, ability ?; moves doubleedge)
+  victreebel (10%; item lifeorb, ability ?; moves powerwhip)
+
+-- turn 0
+  switch|p1a: Walking Wake|Walking Wake, L79|286/286
+  switch|p2a: Raging Bolt|Raging Bolt, L78|100/100
+-- turn 1
+  WE CHOSE: switch to skarmory - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -end|p1a: Walking Wake|Protosynthesis|[silent]
+  switch|p1a: Skarmory|Skarmory, L80, F|235/235
+  move|p2a: Raging Bolt|Draco Meteor|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|138/235
+  -unboost|p2a: Raging Bolt|spa|2
+-- turn 2
+  WE CHOSE: attack bravebird - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Raging Bolt|Draco Meteor|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|90/235
+  -unboost|p2a: Raging Bolt|spa|2
+  move|p1a: Skarmory|Brave Bird|p2a: Raging Bolt
+  -resisted|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|85/100
+  -damage|p1a: Skarmory|74/235|[from] Recoil
+-- turn 3
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.31, theirs 0.85, predicted move (revealed) hits us x0.5
+  move|p2a: Raging Bolt|Draco Meteor|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|43/235
+  -unboost|p2a: Raging Bolt|spa|2
+  move|p1a: Skarmory|Brave Bird|p2a: Raging Bolt
+  -resisted|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|70/100
+  -damage|p1a: Skarmory|27/235|[from] Recoil
+-- turn 4
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.11, theirs 0.70, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to rotommow (hand policy: forced: switch to walkingwake) - our hp 0.00, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p2a: Raging Bolt|Draco Meteor|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|1/235
+  move|p1a: Skarmory|Brave Bird|p2a: Raging Bolt
+  -resisted|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|53/100
+  -damage|p1a: Skarmory|0 fnt|[from] Recoil
+  faint|p1a: Skarmory
+  switch|p1a: Rotom|Rotom-Mow, L87|229/229
+-- turn 5
+  WE CHOSE: attack leafstorm (hand policy: attack+tera leafstorm) - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p1a: Rotom|Leaf Storm|p2a: Raging Bolt
+  -resisted|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|36/100
+  -unboost|p1a: Rotom|spa|2
+  move|p2a: Raging Bolt|Draco Meteor|p1a: Rotom
+  -damage|p1a: Rotom|198/229
+-- turn 6
+  WE CHOSE: attack leafstorm (hand policy: attack+tera leafstorm) - our hp 0.86, theirs 0.36, predicted move (revealed) hits us x1
+  move|p1a: Rotom|Leaf Storm|p2a: Raging Bolt
+  -resisted|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|27/100
+  -unboost|p1a: Rotom|spa|2
+  move|p2a: Raging Bolt|Draco Meteor|p1a: Rotom
+  -damage|p1a: Rotom|164/229
+-- turn 7
+  WE CHOSE: switch to magmortar (hand policy: attack+tera leafstorm) - our hp 0.72, theirs 0.27, predicted move (revealed) hits us x1
+  switch|p1a: Magmortar|Magmortar, L88, M|275/275
+  move|p2a: Raging Bolt|Draco Meteor|p1a: Magmortar
+  -damage|p1a: Magmortar|242/275
+-- turn 8
+  WE CHOSE: attack focusblast - our hp 0.88, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Magmortar|Focus Blast|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|1/100
+  move|p2a: Raging Bolt|Draco Meteor|p1a: Magmortar
+  -damage|p1a: Magmortar|208/275
+-- turn 9
+  WE CHOSE: attack focusblast - our hp 0.76, theirs 0.01, predicted move (revealed) hits us x1
+  move|p1a: Magmortar|Focus Blast|p2a: Raging Bolt|[miss]
+  -miss|p1a: Magmortar|p2a: Raging Bolt
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Magmortar
+  -damage|p1a: Magmortar|181/275
+-- turn 10
+  WE CHOSE: attack focusblast - our hp 0.66, theirs 0.01, predicted move (revealed) hits us x1
+  move|p1a: Magmortar|Focus Blast|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|0 fnt
+  faint|p2a: Raging Bolt
+  -end|p2a: Raging Bolt|Protosynthesis|[silent]
+  switch|p2a: Gallade|Gallade, L80, M|100/100
+-- turn 11
+  WE CHOSE: attack fireblast - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to walkingwake - our hp 0.00, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Magmortar|Fire Blast|p2a: Gallade
+  -damage|p2a: Gallade|43/100
+  move|p2a: Gallade|Sacred Sword|p1a: Magmortar
+  -damage|p1a: Magmortar|0 fnt
+  -status|p2a: Gallade|brn|[from] ability: Flame Body|[of] p1a: Magmortar
+  faint|p1a: Magmortar
+  -damage|p2a: Gallade|33/100 brn|[from] item: Life Orb
+  -damage|p2a: Gallade|26/100 brn|[from] brn
+  switch|p1a: Walking Wake|Walking Wake, L79|286/286
+-- turn 12
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Walking Wake|Draco Meteor|p2a: Gallade
+  -damage|p2a: Gallade|0 fnt
+  -unboost|p1a: Walking Wake|spa|2
+  faint|p2a: Gallade
+  switch|p2a: Ditto|Ditto, L87|100/100
+  -transform|p2a: Ditto|p1a: Walking Wake|[from] ability: Imposter
+-- turn 13
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Ditto|Draco Meteor|p1a: Walking Wake
+  -supereffective|p1a: Walking Wake
+  -damage|p1a: Walking Wake|110/286
+  -unboost|p2a: Ditto|spa|2
+  move|p1a: Walking Wake|Draco Meteor|p2a: Ditto
+  -supereffective|p2a: Ditto
+  -damage|p2a: Ditto|0 fnt
+  -unboost|p1a: Walking Wake|spa|2
+  faint|p2a: Ditto
+  -end|p2a: Ditto|Protosynthesis|[silent]
+  switch|p2a: Greedent|Greedent, L86, M|100/100
+-- turn 14
+  WE CHOSE: switch to roaringmoon (hand policy: attack dracometeor) - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x1
+  -end|p1a: Walking Wake|Protosynthesis|[silent]
+  switch|p1a: Roaring Moon|Roaring Moon, L72|270/270
+  move|p2a: Greedent|Double-Edge|p1a: Roaring Moon
+  -damage|p1a: Roaring Moon|81/270
+  -damage|p2a: Greedent|83/100|[from] Recoil
+-- turn 15
+  WE CHOSE: attack+tera outrage - our hp 0.30, theirs 0.83, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to walkingwake - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Roaring Moon|Steel
+  move|p1a: Roaring Moon|Outrage|p2a: Greedent
+  -damage|p2a: Greedent|51/100
+  move|p2a: Greedent|Double-Edge|p1a: Roaring Moon
+  -resisted|p1a: Roaring Moon
+  -damage|p1a: Roaring Moon|0 fnt
+  faint|p1a: Roaring Moon
+  -end|p1a: Roaring Moon|Protosynthesis|[silent]
+  -damage|p2a: Greedent|43/100|[from] Recoil
+  -enditem|p2a: Greedent|Sitrus Berry|[eat]
+  -heal|p2a: Greedent|68/100|[from] item: Sitrus Berry
+  -heal|p2a: Greedent|100/100|[from] ability: Cheek Pouch
+  switch|p1a: Walking Wake|Walking Wake, L79|110/286
+-- turn 16
+  WE CHOSE: attack dracometeor - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rotommow - our hp 0.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Walking Wake|Draco Meteor|p2a: Greedent
+  -damage|p2a: Greedent|33/100
+  -unboost|p1a: Walking Wake|spa|2
+  move|p2a: Greedent|Double-Edge|p1a: Walking Wake
+  -damage|p1a: Walking Wake|0 fnt
+  faint|p1a: Walking Wake
+  -end|p1a: Walking Wake|Protosynthesis|[silent]
+  -damage|p2a: Greedent|22/100|[from] Recoil
+  switch|p1a: Rotom|Rotom-Mow, L87|164/229
+-- turn 17
+  WE CHOSE: attack leafstorm - our hp 0.72, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Rotom|Leaf Storm|p2a: Greedent|[miss]
+  -miss|p1a: Rotom|p2a: Greedent
+  move|p2a: Greedent|Double-Edge|p1a: Rotom
+  -damage|p1a: Rotom|49/229
+  -damage|p2a: Greedent|11/100|[from] Recoil
+-- turn 18
+  WE CHOSE: attack leafstorm - our hp 0.21, theirs 0.11, predicted move (revealed) hits us x1
+  move|p1a: Rotom|Leaf Storm|p2a: Greedent
+  -damage|p2a: Greedent|0 fnt
+  -unboost|p1a: Rotom|spa|2
+  faint|p2a: Greedent
+  switch|p2a: Victreebel|Victreebel, L90, M|100/100
+-- turn 19
+  WE CHOSE: attack leafstorm - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Rotom|Leaf Storm|p2a: Victreebel
+  -resisted|p2a: Victreebel
+  -damage|p2a: Victreebel|93/100
+  -unboost|p1a: Rotom|spa|2
+  move|p2a: Victreebel|Power Whip|p1a: Rotom|[miss]
+  -miss|p2a: Victreebel|p1a: Rotom
+-- turn 20
+  WE CHOSE: attack leafstorm - our hp 0.21, theirs 0.93, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to smeargle - our hp 0.00, theirs 0.78, predicted move (revealed) hits us x0.5
+  move|p1a: Rotom|Leaf Storm|p2a: Victreebel
+  -resisted|p2a: Victreebel
+  -damage|p2a: Victreebel|88/100
+  -unboost|p1a: Rotom|spa|2
+  move|p2a: Victreebel|Power Whip|p1a: Rotom
+  -resisted|p1a: Rotom
+  -damage|p1a: Rotom|0 fnt
+  faint|p1a: Rotom
+  -damage|p2a: Victreebel|78/100|[from] item: Life Orb
+  switch|p1a: Smeargle|Smeargle, L95, F|258/258
+-- turn 21
+  WE CHOSE: attack populationbomb - our hp 1.00, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Smeargle|Population Bomb|p2a: Victreebel
+  -damage|p2a: Victreebel|72/100
+  -damage|p2a: Victreebel|65/100
+  -damage|p2a: Victreebel|58/100
+  -damage|p2a: Victreebel|52/100
+  -damage|p2a: Victreebel|45/100
+  -damage|p2a: Victreebel|38/100
+  -damage|p2a: Victreebel|30/100
+  -crit|p2a: Victreebel
+  -damage|p2a: Victreebel|20/100
+  -hitcount|p2a: Victreebel|8
+  move|p2a: Victreebel|Power Whip|p1a: Smeargle
+  -damage|p1a: Smeargle|0 fnt
+  faint|p1a: Smeargle
+  -damage|p2a: Victreebel|10/100|[from] item: Life Orb

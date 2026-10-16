@@ -1,0 +1,197 @@
+battle 2934 (battle-gen9randombattle-1033921): lost in 17 turns, 1 of theirs left; we are p1
+
+ours:
+  drifblim (fainted; item heavydutyboots, ability aftermath, tera fairy; moves shadowball/strengthsap/defog/airslash)
+  gougingfire (fainted; item heavydutyboots, ability protosynthesis; moves dragondance/outrage/heatcrash/morningsun)
+  crawdaunt (fainted; item lifeorb, ability adaptability; moves closecombat/knockoff/dragondance/crabhammer)
+  latios (fainted; item souldew, ability levitate; moves psyshock/calmmind/recover/dracometeor)
+  arcanine (fainted; item heavydutyboots, ability intimidate; moves morningsun/flareblitz/willowisp/closecombat)
+  hoopaunbound (fainted; item choicescarf, ability magician; moves focusblast/psychic/hyperspacefury/trick)
+theirs (as seen):
+  latios (fainted; item unknown_item, ability levitate; moves dracometeor)
+  fluttermane (fainted; item unknown_item, ability protosynthesis; moves moonblast)
+  flareon (fainted; item unknown_item, ability ?; moves flareblitz)
+  armarouge (fainted; item unknown_item, ability ?; moves armorcannon)
+  cobalion (fainted; item leftovers, ability justified; moves closecombat)
+  enamorus (100%; item unknown_item, ability ?; moves moonblast)
+
+-- turn 0
+  switch|p1a: Drifblim|Drifblim, L86, M|398/398
+  switch|p2a: Latios|Latios, L78, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Drifblim|Fairy
+  move|p2a: Latios|Draco Meteor|p1a: Drifblim
+  -immune|p1a: Drifblim
+  move|p1a: Drifblim|Shadow Ball|p2a: Latios
+  -supereffective|p2a: Latios
+  -crit|p2a: Latios
+  -damage|p2a: Latios|12/100
+-- turn 2
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x0
+  move|p2a: Latios|Draco Meteor|p1a: Drifblim
+  -immune|p1a: Drifblim
+  move|p1a: Drifblim|Shadow Ball|p2a: Latios
+  -supereffective|p2a: Latios
+  -damage|p2a: Latios|0 fnt
+  faint|p2a: Latios
+  switch|p2a: Flutter Mane|Flutter Mane, L74|100/100
+-- turn 3
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Flutter Mane|Moonblast|p1a: Drifblim
+  -damage|p1a: Drifblim|200/398
+  move|p1a: Drifblim|Shadow Ball|p2a: Flutter Mane
+  -supereffective|p2a: Flutter Mane
+  -damage|p2a: Flutter Mane|35/100
+-- turn 4
+  WE CHOSE: attack shadowball - our hp 0.50, theirs 0.35, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to arcanine - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Flutter Mane|Moonblast|p1a: Drifblim
+  -damage|p1a: Drifblim|0 fnt
+  faint|p1a: Drifblim
+  switch|p1a: Arcanine|Arcanine, L84, F|288/288
+  -ability|p1a: Arcanine|Intimidate|boost
+  -unboost|p2a: Flutter Mane|atk|1
+-- turn 5
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x0.5
+  move|p2a: Flutter Mane|Moonblast|p1a: Arcanine
+  -resisted|p1a: Arcanine
+  -damage|p1a: Arcanine|204/288
+  -unboost|p1a: Arcanine|spa|1
+  move|p1a: Arcanine|Flare Blitz|p2a: Flutter Mane
+  -damage|p2a: Flutter Mane|0 fnt
+  faint|p2a: Flutter Mane
+  -end|p2a: Flutter Mane|Protosynthesis|[silent]
+  -damage|p1a: Arcanine|181/288|[from] Recoil
+  switch|p2a: Flareon|Flareon, L90, F|100/100
+-- turn 6
+  WE CHOSE: attack closecombat - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Arcanine|Close Combat|p2a: Flareon
+  -damage|p2a: Flareon|53/100
+  -unboost|p1a: Arcanine|def|1
+  -unboost|p1a: Arcanine|spd|1
+  move|p2a: Flareon|Flare Blitz|p1a: Arcanine
+  -resisted|p1a: Arcanine
+  -damage|p1a: Arcanine|24/288
+  -damage|p2a: Flareon|33/100|[from] Recoil
+  -status|p2a: Flareon|tox|[from] item: Toxic Orb
+-- turn 7
+  WE CHOSE: heal morningsun - our hp 0.08, theirs 0.33, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to crawdaunt - our hp 0.00, theirs 0.06, predicted move (revealed) hits us x0.5
+  move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+  -heal|p1a: Arcanine|168/288
+  move|p2a: Flareon|Flare Blitz|p1a: Arcanine
+  -resisted|p1a: Arcanine
+  -damage|p1a: Arcanine|0 fnt
+  faint|p1a: Arcanine
+  -damage|p2a: Flareon|12/100 tox|[from] Recoil
+  -damage|p2a: Flareon|6/100 tox|[from] psn
+  switch|p1a: Crawdaunt|Crawdaunt, L84, M|243/243
+-- turn 8
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 0.06, predicted move (revealed) hits us x0.5
+  move|p2a: Flareon|Flare Blitz|p1a: Crawdaunt
+  -resisted|p1a: Crawdaunt
+  -damage|p1a: Crawdaunt|90/243
+  -damage|p2a: Flareon|0 fnt|[from] Recoil
+  faint|p2a: Flareon
+  move|p1a: Crawdaunt|Dragon Dance|p1a: Crawdaunt
+  -boost|p1a: Crawdaunt|atk|1
+  -boost|p1a: Crawdaunt|spe|1
+  switch|p2a: Armarouge|Armarouge, L80, M|100/100
+-- turn 9
+  WE CHOSE: attack crabhammer - our hp 0.37, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to hoopaunbound - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Crawdaunt|Crabhammer|p2a: Armarouge|[miss]
+  -miss|p1a: Crawdaunt|p2a: Armarouge
+  move|p2a: Armarouge|Armor Cannon|p1a: Crawdaunt
+  -resisted|p1a: Crawdaunt
+  -damage|p1a: Crawdaunt|0 fnt
+  -unboost|p2a: Armarouge|def|1
+  -unboost|p2a: Armarouge|spd|1
+  faint|p1a: Crawdaunt
+  switch|p1a: Hoopa|Hoopa-Unbound, L80|259/259
+-- turn 10
+  WE CHOSE: attack hyperspacefury - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Hoopa|Hyperspace Fury|p2a: Armarouge
+  -supereffective|p2a: Armarouge
+  -damage|p2a: Armarouge|0 fnt
+  -unboost|p1a: Hoopa|def|1
+  faint|p2a: Armarouge
+  switch|p2a: Cobalion|Cobalion, L80|100/100
+-- turn 11
+  WE CHOSE: attack hyperspacefury - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to latios - our hp 0.00, theirs 0.86, predicted move (revealed) hits us x1
+  move|p1a: Hoopa|Hyperspace Fury|p2a: Cobalion
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|80/100
+  -unboost|p1a: Hoopa|def|1
+  -ability|p2a: Cobalion|Justified|boost
+  -boost|p2a: Cobalion|atk|1
+  move|p2a: Cobalion|Close Combat|p1a: Hoopa
+  -damage|p1a: Hoopa|0 fnt
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  faint|p1a: Hoopa
+  -heal|p2a: Cobalion|86/100|[from] item: Leftovers
+  switch|p1a: Latios|Latios, L78, M|253/253
+-- turn 12
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.86, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Close Combat|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|150/253
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  move|p1a: Latios|Calm Mind|p1a: Latios
+  -boost|p1a: Latios|spa|1
+  -boost|p1a: Latios|spd|1
+  -heal|p2a: Cobalion|92/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: setup calmmind - our hp 0.59, theirs 0.92, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Close Combat|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|52/253
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  move|p1a: Latios|Calm Mind|p1a: Latios
+  -boost|p1a: Latios|spa|1
+  -boost|p1a: Latios|spd|1
+  -heal|p2a: Cobalion|98/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal recover - our hp 0.21, theirs 0.98, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to gougingfire - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Close Combat|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|0 fnt
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  faint|p1a: Latios
+  -heal|p2a: Cobalion|100/100|[from] item: Leftovers
+  switch|p1a: Gouging Fire|Gouging Fire, L74|277/277
+-- turn 15
+  WE CHOSE: attack outrage - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cobalion|Close Combat|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|138/277
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  move|p1a: Gouging Fire|Outrage|p2a: Cobalion
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|48/100
+  -heal|p2a: Cobalion|54/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack outrage - our hp 0.50, theirs 0.54, predicted move (revealed) hits us x1
+  move|p2a: Cobalion|Close Combat|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|3/277
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  move|p1a: Gouging Fire|Outrage|p2a: Cobalion|[from] lockedmove
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|0 fnt
+  faint|p2a: Cobalion
+  switch|p2a: Enamorus|Enamorus, L79, F|100/100
+-- turn 17
+  WE CHOSE: attack outrage - our hp 0.01, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Enamorus|Moonblast|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|0 fnt
+  faint|p1a: Gouging Fire
+  -end|p1a: Gouging Fire|Protosynthesis|[silent]
+  deinit

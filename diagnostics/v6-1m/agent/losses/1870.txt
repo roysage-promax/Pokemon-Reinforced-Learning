@@ -1,0 +1,338 @@
+battle 1870 (battle-gen9randombattle-1025335): lost in 41 turns, 2 of theirs left; we are p1
+
+ours:
+  arceusdragon (fainted; item dracoplate, ability multitype, tera steel; moves outrage/dragondance/flareblitz/heavyslam)
+  magnezone (fainted; item choicescarf, ability magnetpull; moves bodypress/thunderbolt/voltswitch/flashcannon)
+  screamtail (fainted; item leftovers, ability protosynthesis; moves protect/thunderwave/playrough/wish)
+  regieleki (fainted; item magnet, ability transistor; moves rapidspin/voltswitch/thunderbolt/explosion)
+  skarmory (fainted; item leftovers, ability sturdy; moves roost/bodypress/bravebird/irondefense)
+  persian (fainted; item choiceband, ability limber; moves switcheroo/uturn/doubleedge/knockoff)
+theirs (as seen):
+  pincurchin (fainted; item leftovers, ability ?; moves liquidation)
+  granbull (fainted; item leftovers, ability intimidate; moves earthquake)
+  basculinbluestriped (fainted; item unknown_item, ability ?; moves doubleedge)
+  kilowattrel (fainted; item ?, ability voltabsorb; moves hurricane/thunderbolt)
+  volcarona (16%; item ?, ability ?; moves fierydance)
+
+-- turn 0
+  switch|p1a: Arceus|Arceus-Dragon, L71|288/288
+  switch|p2a: Pincurchin|Pincurchin, M|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+-- turn 1
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Arceus|Dragon Dance|p1a: Arceus
+  -boost|p1a: Arceus|atk|1
+  -boost|p1a: Arceus|spe|1
+  move|p2a: Pincurchin|Liquidation|p1a: Arceus
+  -resisted|p1a: Arceus
+  -crit|p1a: Arceus
+  -damage|p1a: Arceus|223/288
+-- turn 2
+  WE CHOSE: setup dragondance - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Dragon Dance|p1a: Arceus
+  -boost|p1a: Arceus|atk|1
+  -boost|p1a: Arceus|spe|1
+  move|p2a: Pincurchin|Liquidation|p1a: Arceus
+  -resisted|p1a: Arceus
+  -damage|p1a: Arceus|183/288
+-- turn 3
+  WE CHOSE: attack outrage - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Outrage|p2a: Pincurchin
+  -damage|p2a: Pincurchin|25/100
+  move|p2a: Pincurchin|Liquidation|p1a: Arceus
+  -resisted|p1a: Arceus
+  -damage|p1a: Arceus|146/288
+  -heal|p2a: Pincurchin|31/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack outrage - our hp 0.51, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Outrage|p2a: Pincurchin|[from] lockedmove
+  -crit|p2a: Pincurchin
+  -damage|p2a: Pincurchin|0 fnt
+  faint|p2a: Pincurchin
+  -start|p1a: Arceus|confusion|[fatigue]
+  switch|p2a: Granbull|Granbull, L88, M|100/100
+  -ability|p2a: Granbull|Intimidate|boost
+  -unboost|p1a: Arceus|atk|1
+-- turn 5
+  WE CHOSE: switch to skarmory - our hp 0.51, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Skarmory|Skarmory, L80, M|235/235
+  move|p2a: Granbull|Earthquake|p1a: Skarmory
+  -immune|p1a: Skarmory
+  -fieldend|move: Electric Terrain
+-- turn 6
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Skarmory|Brave Bird|p2a: Granbull
+  -damage|p2a: Granbull|67/100
+  -damage|p1a: Skarmory|201/235|[from] Recoil
+  move|p2a: Granbull|Earthquake|p1a: Skarmory
+  -immune|p1a: Skarmory
+  -heal|p1a: Skarmory|215/235|[from] item: Leftovers
+  -heal|p2a: Granbull|73/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 0.91, theirs 0.73, predicted move (revealed) hits us x0
+  move|p1a: Skarmory|Brave Bird|p2a: Granbull
+  -damage|p2a: Granbull|37/100
+  -damage|p1a: Skarmory|179/235|[from] Recoil
+  move|p2a: Granbull|Earthquake|p1a: Skarmory
+  -immune|p1a: Skarmory
+  -heal|p1a: Skarmory|193/235|[from] item: Leftovers
+  -heal|p2a: Granbull|43/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack bravebird - our hp 0.82, theirs 0.43, predicted move (revealed) hits us x0
+  move|p1a: Skarmory|Brave Bird|p2a: Granbull
+  -crit|p2a: Granbull
+  -damage|p2a: Granbull|0 fnt
+  faint|p2a: Granbull
+  -damage|p1a: Skarmory|151/235|[from] Recoil
+  -heal|p1a: Skarmory|165/235|[from] item: Leftovers
+  switch|p2a: Basculin|Basculin-Blue-Striped, L86, F|100/100
+-- turn 9
+  WE CHOSE: attack bravebird - our hp 0.70, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Basculin|Double-Edge|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|115/235
+  -damage|p2a: Basculin|94/100|[from] Recoil
+  move|p1a: Skarmory|Brave Bird|p2a: Basculin
+  -damage|p2a: Basculin|48/100
+  -damage|p1a: Skarmory|75/235|[from] Recoil
+  -heal|p1a: Skarmory|89/235|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.38, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p2a: Basculin|Double-Edge|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|44/235
+  -damage|p2a: Basculin|42/100|[from] Recoil
+  move|p1a: Skarmory|Brave Bird|p2a: Basculin
+  -damage|p2a: Basculin|0 fnt
+  faint|p2a: Basculin
+  -damage|p1a: Skarmory|8/235|[from] Recoil
+  -heal|p1a: Skarmory|22/235|[from] item: Leftovers
+  switch|p2a: Kilowattrel|Kilowattrel, L83, M|100/100
+-- turn 11
+  WE CHOSE: switch to regieleki (hand policy: heal roost) - our hp 0.09, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Regieleki|Regieleki, L79|256/256
+  move|p2a: Kilowattrel|Hurricane|p1a: Regieleki|[miss]
+  -miss|p2a: Kilowattrel|p1a: Regieleki
+-- turn 12
+  WE CHOSE: attack explosion - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to magnezone - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p1a: Regieleki|Explosion|p2a: Kilowattrel
+  -damage|p2a: Kilowattrel|16/100
+  faint|p1a: Regieleki
+  move|p2a: Kilowattrel|Hurricane|p1: Regieleki|[notarget]
+  -fail|p2a: Kilowattrel
+  switch|p1a: Magnezone|Magnezone, L84|255/255
+-- turn 13
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone|[miss]
+  -miss|p2a: Kilowattrel|p1a: Magnezone
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -heal|p2a: Kilowattrel|41/100|[from] ability: Volt Absorb|[of] p1a: Magnezone
+-- turn 14
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone|[miss]
+  -miss|p2a: Kilowattrel|p1a: Magnezone
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -heal|p2a: Kilowattrel|66/100|[from] ability: Volt Absorb|[of] p1a: Magnezone
+-- turn 15
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone|[miss]
+  -miss|p2a: Kilowattrel|p1a: Magnezone
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -heal|p2a: Kilowattrel|91/100|[from] ability: Volt Absorb|[of] p1a: Magnezone
+-- turn 16
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone
+  -resisted|p1a: Magnezone
+  -damage|p1a: Magnezone|223/255
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -heal|p2a: Kilowattrel|100/100|[from] ability: Volt Absorb|[of] p1a: Magnezone
+-- turn 17
+  WE CHOSE: attack thunderbolt - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone
+  -resisted|p1a: Magnezone
+  -damage|p1a: Magnezone|195/255
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 18
+  WE CHOSE: attack thunderbolt - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone|[miss]
+  -miss|p2a: Kilowattrel|p1a: Magnezone
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 19
+  WE CHOSE: attack thunderbolt - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone
+  -resisted|p1a: Magnezone
+  -damage|p1a: Magnezone|163/255
+  -start|p1a: Magnezone|confusion
+  -activate|p1a: Magnezone|confusion
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 20
+  WE CHOSE: attack thunderbolt - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone|[miss]
+  -miss|p2a: Kilowattrel|p1a: Magnezone
+  -activate|p1a: Magnezone|confusion
+  -damage|p1a: Magnezone|149/255|[from] confusion
+-- turn 21
+  WE CHOSE: attack thunderbolt - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone
+  -resisted|p1a: Magnezone
+  -damage|p1a: Magnezone|118/255
+  -end|p1a: Magnezone|confusion
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 22
+  WE CHOSE: attack thunderbolt - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone|[miss]
+  -miss|p2a: Kilowattrel|p1a: Magnezone
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 23
+  WE CHOSE: attack thunderbolt - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone
+  -resisted|p1a: Magnezone
+  -damage|p1a: Magnezone|86/255
+  -start|p1a: Magnezone|confusion
+  -activate|p1a: Magnezone|confusion
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 24
+  WE CHOSE: attack thunderbolt - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone
+  -resisted|p1a: Magnezone
+  -damage|p1a: Magnezone|57/255
+  -end|p1a: Magnezone|confusion
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 25
+  WE CHOSE: attack thunderbolt - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone|[miss]
+  -miss|p2a: Kilowattrel|p1a: Magnezone
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 26
+  WE CHOSE: attack thunderbolt - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Hurricane|p1a: Magnezone|[miss]
+  -miss|p2a: Kilowattrel|p1a: Magnezone
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 27
+  WE CHOSE: attack thunderbolt - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Thunderbolt|p1a: Magnezone
+  -resisted|p1a: Magnezone
+  -damage|p1a: Magnezone|8/255
+  move|p1a: Magnezone|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 28
+  WE CHOSE: attack thunderbolt - our hp 0.03, theirs 1.00, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to arceusdragon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Kilowattrel|Thunderbolt|p1a: Magnezone
+  -resisted|p1a: Magnezone
+  -damage|p1a: Magnezone|0 fnt
+  faint|p1a: Magnezone
+  switch|p1a: Arceus|Arceus-Dragon, L71|146/288
+-- turn 29
+  WE CHOSE: attack+tera outrage - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Arceus|Steel
+  move|p2a: Kilowattrel|Thunderbolt|p1a: Arceus
+  -damage|p1a: Arceus|50/288
+  move|p1a: Arceus|Outrage|p2a: Kilowattrel
+  -damage|p2a: Kilowattrel|27/100
+-- turn 30
+  WE CHOSE: switch to arceusdragon (hand policy: attack outrage) - our hp 0.17, theirs 0.27, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to persian - our hp 0.00, theirs 0.27, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Thunderbolt|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  faint|p1a: Arceus
+  switch|p1a: Persian|Persian, L92, F|269/269
+-- turn 31
+  WE CHOSE: attack knockoff (hand policy: attack doubleedge) - our hp 1.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Persian|Knock Off|p2a: Kilowattrel
+  -crit|p2a: Kilowattrel
+  -damage|p2a: Kilowattrel|0 fnt
+  -enditem|p2a: Kilowattrel|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Persian
+  faint|p2a: Kilowattrel
+  switch|p2a: Volcarona|Volcarona, L77, F|100/100
+-- turn 32
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Persian|Knock Off|p2a: Volcarona
+  -damage|p2a: Volcarona|50/100
+  -status|p1a: Persian|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+  -enditem|p2a: Volcarona|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Persian
+  move|p2a: Volcarona|Fiery Dance|p1a: Persian
+  -damage|p1a: Persian|160/269 brn
+  -damage|p1a: Persian|144/269 brn|[from] brn
+-- turn 33
+  WE CHOSE: attack knockoff - our hp 0.54, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Persian|Knock Off|p2a: Volcarona
+  -damage|p2a: Volcarona|34/100
+  move|p2a: Volcarona|Fiery Dance|p1a: Persian
+  -damage|p1a: Persian|45/269 brn
+  -boost|p2a: Volcarona|spa|1
+  -damage|p1a: Persian|29/269 brn|[from] brn
+-- turn 34
+  WE CHOSE: switch to screamtail (hand policy: attack knockoff) - our hp 0.11, theirs 0.34, predicted move (revealed) hits us x1
+  switch|p1a: Scream Tail|Scream Tail, L84|330/330
+  move|p2a: Volcarona|Fiery Dance|p1a: Scream Tail
+  -damage|p1a: Scream Tail|221/330
+  -boost|p2a: Volcarona|spa|1
+  -heal|p1a: Scream Tail|241/330|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: attack protect (hand policy: attack playrough) - our hp 0.73, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Scream Tail|Protect|p1a: Scream Tail
+  -singleturn|p1a: Scream Tail|Protect
+  move|p2a: Volcarona|Fiery Dance|p1a: Scream Tail
+  -activate|p1a: Scream Tail|move: Protect
+  -heal|p1a: Scream Tail|261/330|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack protect (hand policy: attack playrough) - our hp 0.79, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Scream Tail|Protect||[still]
+  -fail|p1a: Scream Tail
+  move|p2a: Volcarona|Fiery Dance|p1a: Scream Tail
+  -damage|p1a: Scream Tail|104/330
+  -boost|p2a: Volcarona|spa|1
+  -heal|p1a: Scream Tail|124/330|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: attack protect (hand policy: attack playrough) - our hp 0.38, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Scream Tail|Protect|p1a: Scream Tail
+  -singleturn|p1a: Scream Tail|Protect
+  move|p2a: Volcarona|Fiery Dance|p1a: Scream Tail
+  -activate|p1a: Scream Tail|move: Protect
+  -heal|p1a: Scream Tail|144/330|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: attack protect (hand policy: attack playrough) - our hp 0.44, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Scream Tail|Protect|p1a: Scream Tail
+  -singleturn|p1a: Scream Tail|Protect
+  move|p2a: Volcarona|Fiery Dance|p1a: Scream Tail
+  -activate|p1a: Scream Tail|move: Protect
+  -heal|p1a: Scream Tail|164/330|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack protect (hand policy: attack playrough) - our hp 0.50, theirs 0.34, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to persian - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Scream Tail|Protect||[still]
+  -fail|p1a: Scream Tail
+  move|p2a: Volcarona|Fiery Dance|p1a: Scream Tail
+  -damage|p1a: Scream Tail|0 fnt
+  faint|p1a: Scream Tail
+  -end|p1a: Scream Tail|Protosynthesis|[silent]
+  switch|p1a: Persian|Persian, L92, F|29/269 brn
+-- turn 40
+  WE CHOSE: switch to skarmory (hand policy: attack doubleedge) - our hp 0.11, theirs 0.34, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to persian - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x2
+  switch|p1a: Skarmory|Skarmory, L80, M|22/235
+  move|p2a: Volcarona|Fiery Dance|p1a: Skarmory
+  -supereffective|p1a: Skarmory
+  -damage|p1a: Skarmory|0 fnt
+  faint|p1a: Skarmory
+  switch|p1a: Persian|Persian, L92, F|29/269 brn
+-- turn 41
+  WE CHOSE: attack knockoff (hand policy: attack doubleedge) - our hp 0.11, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Persian|Knock Off|p2a: Volcarona
+  -damage|p2a: Volcarona|16/100
+  move|p2a: Volcarona|Fiery Dance|p1a: Persian
+  -damage|p1a: Persian|0 fnt
+  -boost|p2a: Volcarona|spa|1
+  faint|p1a: Persian
+  deinit

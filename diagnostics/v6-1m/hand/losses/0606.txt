@@ -1,0 +1,148 @@
+battle 606 (battle-gen9randombattle-1011917): lost in 14 turns, 3 of theirs left; we are p1
+
+ours:
+  grafaiai (fainted; item lifeorb, ability poisontouch, tera dark; moves swordsdance/gunkshot/lowkick/knockoff)
+  swalot (fainted; item leftovers, ability liquidooze; moves earthquake/knockoff/gunkshot/swordsdance)
+  corviknight (fainted; item rockyhelmet, ability mirrorarmor; moves bravebird/defog/roost/uturn)
+  flamigo (fainted; item lifeorb, ability scrappy; moves closecombat/swordsdance/throatchop/bravebird)
+  indeedeef (fainted; item lifeorb, ability psychicsurge; moves psyshock/hypervoice/calmmind/dazzlinggleam)
+  forretress (fainted; item leftovers, ability sturdy; moves ironhead/stealthrock/spikes/bodypress)
+theirs (as seen):
+  corviknight (fainted; item ?, ability ?; moves bravebird)
+  armarouge (fainted; item unknown_item, ability weakarmor; moves armorcannon)
+  toxtricity (fainted; item unknown_item, ability ?; moves -)
+  veluza (56%; item unknown_item, ability ?; moves aquacutter)
+
+-- turn 0
+  switch|p1a: Grafaiai|Grafaiai, L86, F|249/249
+  switch|p2a: Corviknight|Corviknight, L80, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera knockoff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Grafaiai|Dark
+  move|p1a: Grafaiai|Knock Off|p2a: Corviknight
+  -damage|p2a: Corviknight|56/100
+  -damage|p1a: Grafaiai|208/249|[from] item: Rocky Helmet|[of] p2a: Corviknight
+  -enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Grafaiai
+  -damage|p1a: Grafaiai|184/249|[from] item: Life Orb
+  move|p2a: Corviknight|Brave Bird|p1a: Grafaiai
+  -damage|p1a: Grafaiai|45/249
+  -damage|p2a: Corviknight|40/100|[from] Recoil
+-- turn 2
+  WE CHOSE: attack knockoff - our hp 0.18, theirs 0.40, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to corviknight - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Grafaiai|Knock Off|p2a: Corviknight
+  -damage|p2a: Corviknight|12/100
+  -damage|p1a: Grafaiai|21/249|[from] item: Life Orb
+  move|p2a: Corviknight|Brave Bird|p1a: Grafaiai
+  -damage|p1a: Grafaiai|0 fnt
+  faint|p1a: Grafaiai
+  -damage|p2a: Corviknight|10/100|[from] Recoil
+  switch|p1a: Corviknight|Corviknight, L80, F|288/288
+-- turn 3
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p1a: Corviknight|Brave Bird|p2a: Corviknight
+  -resisted|p2a: Corviknight
+  -damage|p2a: Corviknight|0 fnt
+  faint|p2a: Corviknight
+  -damage|p1a: Corviknight|279/288|[from] Recoil
+  switch|p2a: Armarouge|Armarouge, L80, F|100/100
+-- turn 4
+  WE CHOSE: attack bravebird - our hp 0.97, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to swalot - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Armarouge|Armor Cannon|p1a: Corviknight
+  -supereffective|p1a: Corviknight
+  -damage|p1a: Corviknight|0 fnt
+  -unboost|p2a: Armarouge|def|1
+  -unboost|p2a: Armarouge|spd|1
+  faint|p1a: Corviknight
+  switch|p1a: Swalot|Swalot, L90, M|326/326
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Armarouge|Armor Cannon|p1a: Swalot
+  -damage|p1a: Swalot|125/326
+  -unboost|p2a: Armarouge|def|1
+  -unboost|p2a: Armarouge|spd|1
+  move|p1a: Swalot|Earthquake|p2a: Armarouge
+  -supereffective|p2a: Armarouge
+  -damage|p2a: Armarouge|6/100
+  -ability|p2a: Armarouge|Weak Armor|boost
+  -unboost|p2a: Armarouge|def|1
+  -boost|p2a: Armarouge|spe|2
+  -heal|p1a: Swalot|145/326|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 0.44, theirs 0.06, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to flamigo - our hp 0.00, theirs 0.06, predicted move (revealed) hits us x1
+  move|p2a: Armarouge|Armor Cannon|p1a: Swalot
+  -damage|p1a: Swalot|0 fnt
+  -unboost|p2a: Armarouge|def|1
+  -unboost|p2a: Armarouge|spd|1
+  faint|p1a: Swalot
+  switch|p1a: Flamigo|Flamigo, L82, M|269/269
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.06, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to indeedeef - our hp 0.00, theirs 0.06, predicted move (revealed) hits us x1
+  move|p2a: Armarouge|Armor Cannon|p1a: Flamigo
+  -damage|p1a: Flamigo|0 fnt
+  -unboost|p2a: Armarouge|def|1
+  -unboost|p2a: Armarouge|spd|1
+  faint|p1a: Flamigo
+  switch|p1a: Indeedee|Indeedee-F, L90, F|272/272
+  -fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+-- turn 8
+  WE CHOSE: attack hypervoice - our hp 1.00, theirs 0.06, predicted move (revealed) hits us x1
+  move|p2a: Armarouge|Armor Cannon|p1a: Indeedee
+  -damage|p1a: Indeedee|94/272
+  -unboost|p2a: Armarouge|def|1
+  -unboost|p2a: Armarouge|spd|1
+  move|p1a: Indeedee|Hyper Voice|p2a: Armarouge
+  -damage|p2a: Armarouge|0 fnt
+  faint|p2a: Armarouge
+  -damage|p1a: Indeedee|67/272|[from] item: Life Orb
+  switch|p2a: Toxtricity|Toxtricity, L82, F|100/100
+-- turn 9
+  WE CHOSE: attack psyshock - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Indeedee|Psyshock|p2a: Toxtricity
+  -supereffective|p2a: Toxtricity
+  -damage|p2a: Toxtricity|0 fnt
+  faint|p2a: Toxtricity
+  -damage|p1a: Indeedee|40/272|[from] item: Life Orb
+  switch|p2a: Veluza|Veluza, L85, M|100/100
+-- turn 10
+  WE CHOSE: attack hypervoice - our hp 0.15, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to forretress - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Veluza|Aqua Cutter|p1a: Indeedee
+  -damage|p1a: Indeedee|0 fnt
+  faint|p1a: Indeedee
+  switch|p1a: Forretress|Forretress, L84, M|263/263
+-- turn 11
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Veluza|Aqua Cutter|p1a: Forretress
+  -damage|p1a: Forretress|179/263
+  move|p1a: Forretress|Iron Head|p2a: Veluza
+  -resisted|p2a: Veluza
+  -damage|p2a: Veluza|85/100
+  -heal|p1a: Forretress|195/263|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack ironhead - our hp 0.74, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Veluza|Aqua Cutter|p1a: Forretress
+  -damage|p1a: Forretress|116/263
+  move|p1a: Forretress|Iron Head|p2a: Veluza
+  -resisted|p2a: Veluza
+  -damage|p2a: Veluza|71/100
+  -heal|p1a: Forretress|132/263|[from] item: Leftovers
+  -fieldend|move: Psychic Terrain
+-- turn 13
+  WE CHOSE: attack ironhead - our hp 0.50, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Veluza|Aqua Cutter|p1a: Forretress
+  -damage|p1a: Forretress|44/263
+  move|p1a: Forretress|Iron Head|p2a: Veluza
+  -resisted|p2a: Veluza
+  -damage|p2a: Veluza|56/100
+  -heal|p1a: Forretress|60/263|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack ironhead - our hp 0.23, theirs 0.56, predicted move (revealed) hits us x1
+  move|p2a: Veluza|Aqua Cutter|p1a: Forretress
+  -crit|p1a: Forretress
+  -damage|p1a: Forretress|0 fnt
+  faint|p1a: Forretress
+  deinit

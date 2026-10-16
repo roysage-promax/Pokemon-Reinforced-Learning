@@ -1,0 +1,121 @@
+battle 1095 (battle-gen9randombattle-1016591): lost in 11 turns, 3 of theirs left; we are p1
+
+ours:
+  slowking (fainted; item heavydutyboots, ability regenerator; moves scald/psyshock/slackoff/chillyreception)
+  flamigo (fainted; item choiceband, ability scrappy; moves uturn/throatchop/bravebird/closecombat)
+  miraidon (fainted; item choicespecs, ability hadronengine; moves electrodrift/voltswitch/overheat/dracometeor)
+  raichu (fainted; item lifeorb, ability lightningrod; moves thunderbolt/nastyplot/focusblast/terablast)
+  blastoise (fainted; item whiteherb, ability torrent; moves shellsmash/icebeam/earthquake/hydropump)
+  zangoose (fainted; item toxicorb, ability toxicboost; moves quickattack/knockoff/closecombat/facade)
+theirs (as seen):
+  passimian (fainted; item leftovers, ability ?; moves gunkshot)
+  spectrier (fainted; item lifeorb, ability grimneigh; moves terablast)
+  dialga (fainted; item leftovers, ability pressure; moves dracometeor)
+  brambleghast (24%; item unknown_item, ability ?; moves powerwhip)
+
+-- turn 0
+  switch|p1a: Slowking|Slowking, L88, M|310/310
+  switch|p2a: Passimian|Passimian, L83, F|100/100
+-- turn 1
+  WE CHOSE: attack psyshock - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Passimian|Gunk Shot|p1a: Slowking
+  -damage|p1a: Slowking|204/310
+  move|p1a: Slowking|Psyshock|p2a: Passimian
+  -supereffective|p2a: Passimian
+  -damage|p2a: Passimian|43/100
+  -heal|p2a: Passimian|49/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack psyshock - our hp 0.66, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Passimian|Gunk Shot|p1a: Slowking|[miss]
+  -miss|p2a: Passimian|p1a: Slowking
+  move|p1a: Slowking|Psyshock|p2a: Passimian
+  -supereffective|p2a: Passimian
+  -damage|p2a: Passimian|0 fnt
+  faint|p2a: Passimian
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+-- turn 3
+  WE CHOSE: switch to flamigo - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Flamigo|Flamigo, L82, F|269/269
+  move|p2a: Spectrier|Tera Blast|p1a: Flamigo
+  -damage|p1a: Flamigo|159/269
+  -damage|p2a: Spectrier|91/100|[from] item: Life Orb
+-- turn 4
+  WE CHOSE: attack bravebird - our hp 0.59, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to miraidon - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Tera Blast|p1a: Flamigo
+  -damage|p1a: Flamigo|43/269
+  -damage|p2a: Spectrier|81/100|[from] item: Life Orb
+  move|p1a: Flamigo|Brave Bird|p2a: Spectrier
+  -damage|p2a: Spectrier|0 fnt
+  faint|p2a: Spectrier
+  -damage|p1a: Flamigo|0 fnt|[from] Recoil
+  faint|p1a: Flamigo
+  switch|p2a: Dialga|Dialga, L73|100/100
+  switch|p1a: Miraidon|Miraidon, L65|238/238
+  -fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+  -ability|p2a: Dialga|Pressure
+-- turn 5
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to zangoose - our hp 0.00, theirs 0.27, predicted move (revealed) hits us x2
+  move|p1a: Miraidon|Draco Meteor|p2a: Dialga
+  -damage|p2a: Dialga|21/100
+  -unboost|p1a: Miraidon|spa|2
+  move|p2a: Dialga|Draco Meteor|p1a: Miraidon
+  -supereffective|p1a: Miraidon
+  -damage|p1a: Miraidon|0 fnt
+  -unboost|p2a: Dialga|spa|2
+  faint|p1a: Miraidon
+  -heal|p2a: Dialga|27/100|[from] item: Leftovers
+  switch|p1a: Zangoose|Zangoose, L85, M|263/263
+-- turn 6
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Zangoose|Close Combat|p2a: Dialga
+  -supereffective|p2a: Dialga
+  -damage|p2a: Dialga|0 fnt
+  -unboost|p1a: Zangoose|def|1
+  -unboost|p1a: Zangoose|spd|1
+  faint|p2a: Dialga
+  -status|p1a: Zangoose|tox|[from] item: Toxic Orb
+  switch|p2a: Brambleghast|Brambleghast, L88, F|100/100
+-- turn 7
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to raichu - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Brambleghast|Power Whip|p1a: Zangoose
+  -crit|p1a: Zangoose
+  -damage|p1a: Zangoose|0 fnt
+  faint|p1a: Zangoose
+  switch|p1a: Raichu|Raichu, L88, F|249/249
+-- turn 8
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Raichu|Thunderbolt|p2a: Brambleghast
+  -resisted|p2a: Brambleghast
+  -damage|p2a: Brambleghast|61/100
+  -damage|p1a: Raichu|225/249|[from] item: Life Orb
+  move|p2a: Brambleghast|Power Whip|p1a: Raichu
+  -damage|p1a: Raichu|15/249
+-- turn 9
+  WE CHOSE: attack thunderbolt - our hp 0.06, theirs 0.61, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to blastoise - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Raichu|Thunderbolt|p2a: Brambleghast
+  -resisted|p2a: Brambleghast
+  -damage|p2a: Brambleghast|24/100
+  -damage|p1a: Raichu|0 fnt|[from] item: Life Orb
+  faint|p1a: Raichu
+  move|p2a: Brambleghast|Power Whip|p1: Raichu|[notarget]
+  -fail|p2a: Brambleghast
+  -fieldend|move: Electric Terrain
+  switch|p1a: Blastoise|Blastoise, L80, M|258/258
+-- turn 10
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to slowking - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x2
+  move|p2a: Brambleghast|Power Whip|p1a: Blastoise
+  -supereffective|p1a: Blastoise
+  -damage|p1a: Blastoise|0 fnt
+  faint|p1a: Blastoise
+  switch|p1a: Slowking|Slowking, L88, M|307/310
+-- turn 11
+  WE CHOSE: attack psyshock - our hp 0.99, theirs 0.24, predicted move (revealed) hits us x2
+  move|p2a: Brambleghast|Power Whip|p1a: Slowking
+  -supereffective|p1a: Slowking
+  -damage|p1a: Slowking|0 fnt
+  faint|p1a: Slowking

@@ -1,0 +1,274 @@
+battle 541 (battle-gen9randombattle-1011320): lost in 30 turns, 1 of theirs left; we are p1
+
+ours:
+  virizion (fainted; item lifeorb, ability justified; moves stoneedge/leafblade/closecombat/swordsdance)
+  dragalge (fainted; item choicespecs, ability adaptability; moves sludgewave/dracometeor/focusblast/flipturn)
+  luxray (fainted; item flameorb, ability guts; moves supercellslam/facade/playrough/trailblaze)
+  plusle (fainted; item lifeorb, ability lightningrod; moves nastyplot/alluringvoice/thunderbolt/grassknot)
+  cetitan (fainted; item ?, ability thickfat; moves earthquake/iceshard/bellydrum/icespinner)
+  toedscruel (fainted; item leftovers, ability myceliummight, tera water; moves toxic/leafstorm/rapidspin/earthpower)
+theirs (as seen):
+  poliwrath (fainted; item unknown_item, ability ?; moves closecombat)
+  rotommow (fainted; item unknown_item, ability levitate; moves leafstorm)
+  cobalion (fainted; item leftovers, ability justified; moves aurasphere)
+  heatran (fainted; item ?, ability ?; moves magmastorm/earthpower)
+  mukalola (fainted; item unknown_item, ability ?; moves poisonjab)
+  ariados (45%; item unknown_item, ability ?; moves megahorn)
+
+-- turn 0
+  switch|p1a: Virizion|Virizion, L82|283/283
+  switch|p2a: Poliwrath|Poliwrath, L88, M|100/100
+-- turn 1
+  WE CHOSE: attack leafblade - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Virizion|Leaf Blade|p2a: Poliwrath
+  -supereffective|p2a: Poliwrath
+  -damage|p2a: Poliwrath|30/100
+  -damage|p1a: Virizion|255/283|[from] item: Life Orb
+  move|p2a: Poliwrath|Close Combat|p1a: Virizion
+  -damage|p1a: Virizion|87/283
+  -unboost|p2a: Poliwrath|def|1
+  -unboost|p2a: Poliwrath|spd|1
+-- turn 2
+  WE CHOSE: attack leafblade - our hp 0.31, theirs 0.30, predicted move (revealed) hits us x1
+  move|p1a: Virizion|Leaf Blade|p2a: Poliwrath
+  -supereffective|p2a: Poliwrath
+  -damage|p2a: Poliwrath|0 fnt
+  faint|p2a: Poliwrath
+  -damage|p1a: Virizion|59/283|[from] item: Life Orb
+  switch|p2a: Rotom|Rotom-Mow, L87|100/100
+-- turn 3
+  WE CHOSE: attack closecombat - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to dragalge - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Rotom|Leaf Storm|p1a: Virizion
+  -resisted|p1a: Virizion
+  -damage|p1a: Virizion|0 fnt
+  -unboost|p2a: Rotom|spa|2
+  faint|p1a: Virizion
+  switch|p1a: Dragalge|Dragalge, L88, F|258/258
+-- turn 4
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Rotom|Leaf Storm|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|244/258
+  -unboost|p2a: Rotom|spa|2
+  move|p1a: Dragalge|Sludge Wave|p2a: Rotom
+  -supereffective|p2a: Rotom
+  -damage|p2a: Rotom|0 fnt
+  faint|p2a: Rotom
+  switch|p2a: Cobalion|Cobalion, L80|100/100
+-- turn 5
+  WE CHOSE: attack sludgewave - our hp 0.95, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Cobalion|Aura Sphere|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|216/258
+  move|p1a: Dragalge|Sludge Wave|p2a: Cobalion
+  -immune|p2a: Cobalion
+-- turn 6
+  WE CHOSE: attack sludgewave - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Aura Sphere|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|189/258
+  move|p1a: Dragalge|Sludge Wave|p2a: Cobalion
+  -immune|p2a: Cobalion
+-- turn 7
+  WE CHOSE: attack sludgewave - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Aura Sphere|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|160/258
+  move|p1a: Dragalge|Sludge Wave|p2a: Cobalion
+  -immune|p2a: Cobalion
+-- turn 8
+  WE CHOSE: attack sludgewave - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Aura Sphere|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|133/258
+  move|p1a: Dragalge|Sludge Wave|p2a: Cobalion
+  -immune|p2a: Cobalion
+-- turn 9
+  WE CHOSE: attack sludgewave - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Aura Sphere|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|105/258
+  move|p1a: Dragalge|Sludge Wave|p2a: Cobalion
+  -immune|p2a: Cobalion
+-- turn 10
+  WE CHOSE: attack sludgewave - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Aura Sphere|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|80/258
+  move|p1a: Dragalge|Sludge Wave|p2a: Cobalion
+  -immune|p2a: Cobalion
+-- turn 11
+  WE CHOSE: attack sludgewave - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Aura Sphere|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|51/258
+  move|p1a: Dragalge|Sludge Wave|p2a: Cobalion
+  -immune|p2a: Cobalion
+-- turn 12
+  WE CHOSE: attack sludgewave - our hp 0.20, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Aura Sphere|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|25/258
+  move|p1a: Dragalge|Sludge Wave|p2a: Cobalion
+  -immune|p2a: Cobalion
+-- turn 13
+  WE CHOSE: attack sludgewave - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to toedscruel - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Aura Sphere|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|0 fnt
+  faint|p1a: Dragalge
+  switch|p1a: Toedscruel|Toedscruel, L87, M|281/281
+-- turn 14
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Toedscruel|Earth Power|p2a: Cobalion
+  -supereffective|p2a: Cobalion
+  -damage|p2a: Cobalion|23/100
+  move|p2a: Cobalion|Aura Sphere|p1a: Toedscruel
+  -damage|p1a: Toedscruel|230/281
+  -heal|p1a: Toedscruel|247/281|[from] item: Leftovers
+  -heal|p2a: Cobalion|29/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack earthpower - our hp 0.88, theirs 0.29, predicted move (revealed) hits us x1
+  move|p1a: Toedscruel|Earth Power|p2a: Cobalion
+  -supereffective|p2a: Cobalion
+  -damage|p2a: Cobalion|0 fnt
+  faint|p2a: Cobalion
+  -heal|p1a: Toedscruel|264/281|[from] item: Leftovers
+  switch|p2a: Heatran|Heatran, L79, F|100/100
+  -item|p2a: Heatran|Air Balloon
+-- turn 16
+  WE CHOSE: attack+tera earthpower - our hp 0.94, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Toedscruel|Water
+  move|p1a: Toedscruel|Earth Power|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Toedscruel|[miss]
+  -miss|p2a: Heatran|p1a: Toedscruel
+  -heal|p1a: Toedscruel|281/281|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|239/281
+  -activate|p1a: Toedscruel|move: Magma Storm|[of] p2a: Heatran
+  -heal|p1a: Toedscruel|256/281|[from] item: Leftovers
+  -damage|p1a: Toedscruel|221/281|[from] move: Magma Storm|[partiallytrapped]
+-- turn 18
+  WE CHOSE: attack earthpower - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Toedscruel|[miss]
+  -miss|p2a: Heatran|p1a: Toedscruel
+  -heal|p1a: Toedscruel|238/281|[from] item: Leftovers
+  -damage|p1a: Toedscruel|203/281|[from] move: Magma Storm|[partiallytrapped]
+-- turn 19
+  WE CHOSE: attack earthpower - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|160/281
+  -heal|p1a: Toedscruel|177/281|[from] item: Leftovers
+  -damage|p1a: Toedscruel|142/281|[from] move: Magma Storm|[partiallytrapped]
+-- turn 20
+  WE CHOSE: attack earthpower - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|97/281
+  -heal|p1a: Toedscruel|114/281|[from] item: Leftovers
+  -damage|p1a: Toedscruel|79/281|[from] move: Magma Storm|[partiallytrapped]
+-- turn 21
+  WE CHOSE: attack earthpower - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|32/281
+  -heal|p1a: Toedscruel|49/281|[from] item: Leftovers
+  -damage|p1a: Toedscruel|14/281|[from] move: Magma Storm|[partiallytrapped]
+-- turn 22
+  WE CHOSE: attack earthpower - our hp 0.05, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to cetitan - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|0 fnt
+  faint|p1a: Toedscruel
+  switch|p1a: Cetitan|Cetitan, L82, M|412/412
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Cetitan|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Cetitan
+  -supereffective|p1a: Cetitan
+  -damage|p1a: Cetitan|256/412
+  -activate|p1a: Cetitan|move: Magma Storm|[of] p2a: Heatran
+  -damage|p1a: Cetitan|205/412|[from] move: Magma Storm|[partiallytrapped]
+  -enditem|p1a: Cetitan|Sitrus Berry|[eat]
+  -heal|p1a: Cetitan|308/412|[from] item: Sitrus Berry
+-- turn 24
+  WE CHOSE: attack earthquake - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Heatran|Earth Power|p1a: Cetitan
+  -damage|p1a: Cetitan|204/412
+  move|p1a: Cetitan|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -damage|p1a: Cetitan|153/412|[from] move: Magma Storm|[partiallytrapped]
+-- turn 25
+  WE CHOSE: attack earthquake - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to luxray - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Heatran|Earth Power|p1a: Cetitan
+  -crit|p1a: Cetitan
+  -damage|p1a: Cetitan|8/412
+  move|p1a: Cetitan|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -damage|p1a: Cetitan|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+  faint|p1a: Cetitan
+  switch|p1a: Luxray|Luxray, L88, F|283/283
+-- turn 26
+  WE CHOSE: attack supercellslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Luxray|Supercell Slam|p2a: Heatran
+  -damage|p2a: Heatran|54/100
+  -enditem|p2a: Heatran|Air Balloon
+  move|p2a: Heatran|Earth Power|p1a: Luxray
+  -supereffective|p1a: Luxray
+  -damage|p1a: Luxray|125/283
+  -status|p1a: Luxray|brn|[from] item: Flame Orb
+-- turn 27
+  WE CHOSE: attack supercellslam - our hp 0.44, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Luxray|Supercell Slam|p2a: Heatran
+  -damage|p2a: Heatran|0 fnt
+  faint|p2a: Heatran
+  -damage|p1a: Luxray|108/283 brn|[from] brn
+  switch|p2a: Muk|Muk-Alola, L82, F|100/100
+-- turn 28
+  WE CHOSE: attack supercellslam - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to plusle - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Luxray|Supercell Slam|p2a: Muk
+  -damage|p2a: Muk|24/100
+  move|p2a: Muk|Poison Jab|p1a: Luxray
+  -damage|p1a: Luxray|17/283 brn
+  -damage|p1a: Luxray|0 fnt|[from] brn
+  faint|p1a: Luxray
+  switch|p1a: Plusle|Plusle, L95, F|268/268
+-- turn 29
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Plusle|Thunderbolt|p2a: Muk
+  -damage|p2a: Muk|0 fnt
+  faint|p2a: Muk
+  -damage|p1a: Plusle|242/268|[from] item: Life Orb
+  switch|p2a: Ariados|Ariados, L95, M|100/100
+-- turn 30
+  WE CHOSE: attack thunderbolt - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Plusle|Thunderbolt|p2a: Ariados
+  -damage|p2a: Ariados|45/100
+  -damage|p1a: Plusle|216/268|[from] item: Life Orb
+  move|p2a: Ariados|Megahorn|p1a: Plusle
+  -damage|p1a: Plusle|0 fnt
+  faint|p1a: Plusle
+  deinit

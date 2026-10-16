@@ -1,0 +1,306 @@
+battle 868 (battle-gen9randombattle-1015100): lost in 35 turns, 1 of theirs left; we are p1
+
+ours:
+  sunflora (fainted; item lifeorb, ability chlorophyll, tera fire; moves earthpower/solarbeam/weatherball/sunnyday)
+  dudunsparce (fainted; item leftovers, ability rattled; moves toxic/earthquake/roost/boomburst)
+  lunala (fainted; item leftovers, ability shadowshield; moves moonlight/calmmind/psyshock/moongeistbeam)
+  keldeoresolute (fainted; item leftovers, ability justified; moves calmmind/surf/substitute/secretsword)
+  spiritomb (fainted; item leftovers, ability infiltrator; moves painsplit/foulplay/poltergeist/shadowsneak)
+  dunsparce (fainted; item eviolite, ability serenegrace; moves earthquake/coil/bodyslam/roost)
+theirs (as seen):
+  dondozo (fainted; item leftovers, ability ?; moves wavecrash)
+  lumineon (fainted; item lifeorb, ability ?; moves hydropump)
+  lokix (fainted; item unknown_item, ability ?; moves firstimpression)
+  brutebonnet (fainted; item leftovers, ability protosynthesis; moves closecombat/crunch)
+  virizion (fainted; item lifeorb, ability justified; moves closecombat)
+  ironthorns (100%; item airballoon, ability quarkdrive; moves earthquake)
+
+-- turn 0
+  switch|p1a: Sunflora|Sunflora, M|312/312
+  switch|p2a: Dondozo|Dondozo, L78, F|100/100
+-- turn 1
+  WE CHOSE: attack solarbeam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Sunflora|Solar Beam||[still]
+  -prepare|p1a: Sunflora|Solar Beam
+  move|p2a: Dondozo|Wave Crash|p1a: Sunflora
+  -resisted|p1a: Sunflora
+  -damage|p1a: Sunflora|246/312
+  -damage|p2a: Dondozo|94/100|[from] Recoil
+  -heal|p2a: Dondozo|100/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack solarbeam - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sunflora|Solar Beam|p2a: Dondozo|[from] lockedmove
+  -supereffective|p2a: Dondozo
+  -damage|p2a: Dondozo|0 fnt
+  faint|p2a: Dondozo
+  -damage|p1a: Sunflora|215/312|[from] item: Life Orb
+  switch|p2a: Lumineon|Lumineon, L93, F|100/100
+-- turn 3
+  WE CHOSE: attack solarbeam - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Lumineon|Hydro Pump|p1a: Sunflora
+  -resisted|p1a: Sunflora
+  -damage|p1a: Sunflora|157/312
+  -damage|p2a: Lumineon|91/100|[from] item: Life Orb
+  move|p1a: Sunflora|Solar Beam||[still]
+  -prepare|p1a: Sunflora|Solar Beam
+-- turn 4
+  WE CHOSE: attack solarbeam - our hp 0.50, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Lumineon|Hydro Pump|p1a: Sunflora
+  -resisted|p1a: Sunflora
+  -damage|p1a: Sunflora|97/312
+  -damage|p2a: Lumineon|81/100|[from] item: Life Orb
+  move|p1a: Sunflora|Solar Beam|p2a: Lumineon|[from] lockedmove
+  -supereffective|p2a: Lumineon
+  -damage|p2a: Lumineon|0 fnt
+  faint|p2a: Lumineon
+  -damage|p1a: Sunflora|66/312|[from] item: Life Orb
+  switch|p2a: Lokix|Lokix, L82, M|100/100
+-- turn 5
+  WE CHOSE: attack+tera solarbeam (hand policy: switch to keldeoresolute) - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to keldeoresolute (hand policy: forced: switch to dudunsparce) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Sunflora|Fire
+  move|p2a: Lokix|First Impression|p1a: Sunflora
+  -resisted|p1a: Sunflora
+  -damage|p1a: Sunflora|0 fnt
+  faint|p1a: Sunflora
+  switch|p1a: Keldeo|Keldeo-Resolute, L79|273/273
+-- turn 6
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Lokix|First Impression||[still]
+  -fail|p2a: Lokix
+  move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+  -boost|p1a: Keldeo|spa|1
+  -boost|p1a: Keldeo|spd|1
+-- turn 7
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Lokix|First Impression||[still]
+  -fail|p2a: Lokix
+  move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+  -boost|p1a: Keldeo|spa|1
+  -boost|p1a: Keldeo|spd|1
+-- turn 8
+  WE CHOSE: setup calmmind (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Lokix|First Impression||[still]
+  -fail|p2a: Lokix
+  move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+  -boost|p1a: Keldeo|spa|1
+  -boost|p1a: Keldeo|spd|1
+-- turn 9
+  WE CHOSE: setup calmmind (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Lokix|First Impression||[still]
+  -fail|p2a: Lokix
+  move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+  -boost|p1a: Keldeo|spa|1
+  -boost|p1a: Keldeo|spd|1
+-- turn 10
+  WE CHOSE: attack surf - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Lokix|First Impression||[still]
+  -fail|p2a: Lokix
+  move|p1a: Keldeo|Surf|p2a: Lokix
+  -damage|p2a: Lokix|0 fnt
+  faint|p2a: Lokix
+  switch|p2a: Brute Bonnet|Brute Bonnet, L80|100/100
+-- turn 11
+  WE CHOSE: switch to lunala - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Lunala|Lunala, L70|308/308
+  move|p2a: Brute Bonnet|Close Combat|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 12
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Calm Mind|p1a: Lunala
+  -boost|p1a: Lunala|spa|1
+  -boost|p1a: Lunala|spd|1
+  move|p2a: Brute Bonnet|Close Combat|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 13
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Calm Mind|p1a: Lunala
+  -boost|p1a: Lunala|spa|1
+  -boost|p1a: Lunala|spd|1
+  move|p2a: Brute Bonnet|Close Combat|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 14
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Calm Mind|p1a: Lunala
+  -boost|p1a: Lunala|spa|1
+  -boost|p1a: Lunala|spd|1
+  move|p2a: Brute Bonnet|Close Combat|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 15
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Calm Mind|p1a: Lunala
+  -boost|p1a: Lunala|spa|1
+  -boost|p1a: Lunala|spd|1
+  move|p2a: Brute Bonnet|Close Combat|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 16
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Calm Mind|p1a: Lunala
+  -boost|p1a: Lunala|spa|1
+  -boost|p1a: Lunala|spd|1
+  move|p2a: Brute Bonnet|Close Combat|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 17
+  WE CHOSE: switch to keldeoresolute (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Keldeo|Keldeo-Resolute, L79|273/273
+  move|p2a: Brute Bonnet|Close Combat|p1a: Keldeo
+  -damage|p1a: Keldeo|176/273
+  -unboost|p2a: Brute Bonnet|def|1
+  -unboost|p2a: Brute Bonnet|spd|1
+  -heal|p1a: Keldeo|193/273|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: switch to lunala - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Lunala|Lunala, L70|308/308
+  move|p2a: Brute Bonnet|Close Combat|p1a: Lunala
+  -immune|p1a: Lunala
+-- turn 19
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Calm Mind|p1a: Lunala
+  -boost|p1a: Lunala|spa|1
+  -boost|p1a: Lunala|spd|1
+  move|p2a: Brute Bonnet|Crunch|p1a: Lunala
+  -supereffective|p1a: Lunala
+  -damage|p1a: Lunala|60/308
+  -heal|p1a: Lunala|79/308|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: setup calmmind (hand policy: heal moonlight) - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to spiritomb (hand policy: forced: switch to keldeoresolute) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lunala|Calm Mind|p1a: Lunala
+  -boost|p1a: Lunala|spa|1
+  -boost|p1a: Lunala|spd|1
+  move|p2a: Brute Bonnet|Crunch|p1a: Lunala
+  -supereffective|p1a: Lunala
+  -damage|p1a: Lunala|0 fnt
+  faint|p1a: Lunala
+  switch|p1a: Spiritomb|Spiritomb, L89, M|234/234
+-- turn 21
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Brute Bonnet|Crunch|p1a: Spiritomb
+  -damage|p1a: Spiritomb|156/234
+  move|p1a: Spiritomb|Poltergeist|p2a: Brute Bonnet
+  -activate|p2a: Brute Bonnet|move: Poltergeist|Leftovers
+  -resisted|p2a: Brute Bonnet
+  -damage|p2a: Brute Bonnet|72/100
+  -heal|p2a: Brute Bonnet|78/100|[from] item: Leftovers
+  -heal|p1a: Spiritomb|170/234|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack poltergeist - our hp 0.73, theirs 0.78, predicted move (revealed) hits us x0
+  move|p2a: Brute Bonnet|Crunch|p1a: Spiritomb
+  -damage|p1a: Spiritomb|98/234
+  -unboost|p1a: Spiritomb|def|1
+  move|p1a: Spiritomb|Poltergeist|p2a: Brute Bonnet
+  -activate|p2a: Brute Bonnet|move: Poltergeist|Leftovers
+  -resisted|p2a: Brute Bonnet
+  -damage|p2a: Brute Bonnet|50/100
+  -heal|p2a: Brute Bonnet|56/100|[from] item: Leftovers
+  -heal|p1a: Spiritomb|112/234|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack poltergeist - our hp 0.48, theirs 0.56, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to keldeoresolute - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x0
+  move|p2a: Brute Bonnet|Crunch|p1a: Spiritomb
+  -damage|p1a: Spiritomb|0 fnt
+  faint|p1a: Spiritomb
+  -heal|p2a: Brute Bonnet|63/100|[from] item: Leftovers
+  switch|p1a: Keldeo|Keldeo-Resolute, L79|193/273
+-- turn 24
+  WE CHOSE: attack secretsword - our hp 0.71, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Keldeo|Secret Sword|p2a: Brute Bonnet
+  -supereffective|p2a: Brute Bonnet
+  -damage|p2a: Brute Bonnet|0 fnt
+  faint|p2a: Brute Bonnet
+  -end|p2a: Brute Bonnet|Protosynthesis|[silent]
+  -heal|p1a: Keldeo|210/273|[from] item: Leftovers
+  switch|p2a: Virizion|Virizion, L82|100/100
+-- turn 25
+  WE CHOSE: attack secretsword - our hp 0.77, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Virizion|Close Combat|p1a: Keldeo
+  -damage|p1a: Keldeo|45/273
+  -unboost|p2a: Virizion|def|1
+  -unboost|p2a: Virizion|spd|1
+  -damage|p2a: Virizion|91/100|[from] item: Life Orb
+  move|p1a: Keldeo|Secret Sword|p2a: Virizion
+  -damage|p2a: Virizion|33/100
+  -heal|p1a: Keldeo|62/273|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack secretsword - our hp 0.23, theirs 0.33, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dudunsparce - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Virizion|Close Combat|p1a: Keldeo
+  -damage|p1a: Keldeo|0 fnt
+  -unboost|p2a: Virizion|def|1
+  -unboost|p2a: Virizion|spd|1
+  faint|p1a: Keldeo
+  -damage|p2a: Virizion|23/100|[from] item: Life Orb
+  switch|p1a: Dudunsparce|Dudunsparce, L83, M|343/343
+-- turn 27
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x2
+  move|p2a: Virizion|Close Combat|p1a: Dudunsparce
+  -supereffective|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|13/343
+  -unboost|p2a: Virizion|def|1
+  -unboost|p2a: Virizion|spd|1
+  -damage|p2a: Virizion|14/100|[from] item: Life Orb
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|185/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  -heal|p1a: Dudunsparce|206/343|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack boomburst - our hp 0.60, theirs 0.14, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to dunsparce - our hp 0.00, theirs 0.04, predicted move (revealed) hits us x2
+  move|p2a: Virizion|Close Combat|p1a: Dudunsparce
+  -supereffective|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|0 fnt
+  -unboost|p2a: Virizion|def|1
+  -unboost|p2a: Virizion|spd|1
+  faint|p1a: Dudunsparce
+  -damage|p2a: Virizion|4/100|[from] item: Life Orb
+  switch|p1a: Dunsparce|Dunsparce, L86, F|312/312
+-- turn 29
+  WE CHOSE: heal roost (hand policy: attack bodyslam) - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x2
+  move|p2a: Virizion|Close Combat|p1a: Dunsparce
+  -supereffective|p1a: Dunsparce
+  -damage|p1a: Dunsparce|62/312
+  -unboost|p2a: Virizion|def|1
+  -unboost|p2a: Virizion|spd|1
+  -damage|p2a: Virizion|0 fnt|[from] item: Life Orb
+  faint|p2a: Virizion
+  move|p1a: Dunsparce|Roost|p1a: Dunsparce
+  -heal|p1a: Dunsparce|218/312
+  -singleturn|p1a: Dunsparce|move: Roost
+  switch|p2a: Iron Thorns|Iron Thorns, L83|100/100
+  -item|p2a: Iron Thorns|Air Balloon
+-- turn 30
+  WE CHOSE: heal roost (hand policy: attack earthquake) - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Iron Thorns|Earthquake|p1a: Dunsparce
+  -damage|p1a: Dunsparce|146/312
+  move|p1a: Dunsparce|Roost|p1a: Dunsparce
+  -heal|p1a: Dunsparce|302/312
+  -singleturn|p1a: Dunsparce|move: Roost
+-- turn 31
+  WE CHOSE: attack earthquake - our hp 0.97, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Thorns|Earthquake|p1a: Dunsparce
+  -damage|p1a: Dunsparce|232/312
+  move|p1a: Dunsparce|Earthquake|p2a: Iron Thorns
+  -immune|p2a: Iron Thorns
+-- turn 32
+  WE CHOSE: attack earthquake - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Thorns|Earthquake|p1a: Dunsparce
+  -damage|p1a: Dunsparce|160/312
+  move|p1a: Dunsparce|Earthquake|p2a: Iron Thorns
+  -immune|p2a: Iron Thorns
+-- turn 33
+  WE CHOSE: attack earthquake - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Thorns|Earthquake|p1a: Dunsparce
+  -damage|p1a: Dunsparce|91/312
+  move|p1a: Dunsparce|Earthquake|p2a: Iron Thorns
+  -immune|p2a: Iron Thorns
+-- turn 34
+  WE CHOSE: attack earthquake (hand policy: heal roost) - our hp 0.29, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Thorns|Earthquake|p1a: Dunsparce
+  -damage|p1a: Dunsparce|18/312
+  move|p1a: Dunsparce|Earthquake|p2a: Iron Thorns
+  -immune|p2a: Iron Thorns
+-- turn 35
+  WE CHOSE: attack earthquake (hand policy: heal roost) - our hp 0.06, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Thorns|Earthquake|p1a: Dunsparce
+  -damage|p1a: Dunsparce|0 fnt
+  faint|p1a: Dunsparce

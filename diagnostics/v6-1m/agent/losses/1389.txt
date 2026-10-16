@@ -1,0 +1,325 @@
+battle 1389 (battle-gen9randombattle-1020394): lost in 34 turns, 2 of theirs left; we are p1
+
+ours:
+  greninja (fainted; item lifeorb, ability protean; moves grassknot/gunkshot/uturn/hydropump)
+  hypno (fainted; item leftovers, ability insomnia; moves thunderwave/psychicnoise/knockoff/encore)
+  quagsire (fainted; item leftovers, ability unaware, tera fairy; moves recover/icebeam/earthquake/toxic)
+  cryogonal (fainted; item heavydutyboots, ability levitate; moves recover/flashcannon/freezedry/rapidspin)
+  mewtwo (fainted; item lifeorb, ability unnerve; moves psystrike/nastyplot/fireblast/recover)
+  maushold (fainted; item widelens, ability technician; moves encore/bite/tidyup/populationbomb)
+theirs (as seen):
+  walkingwake (fainted; item lifeorb, ability protosynthesis; moves dracometeor)
+  arceusflying (fainted; item unknown_item, ability multitype; moves judgment)
+  alomomola (fainted; item rockyhelmet, ability ?; moves scald)
+  venomoth (fainted; item unknown_item, ability ?; moves sludgewave)
+  wochien (99%; item leftovers, ability tabletsofruin; moves gigadrain)
+
+-- turn 0
+  switch|p1a: Greninja|Greninja, L80, M|246/246
+  switch|p2a: Walking Wake|Walking Wake, L79|100/100
+-- turn 1
+  WE CHOSE: attack gunkshot (hand policy: attack+tera gunkshot) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to quagsire - our hp 0.00, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Greninja|Gunk Shot|p2a: Walking Wake
+  -start|p1a: Greninja|typechange|Poison|[from] ability: Protean
+  -damage|p2a: Walking Wake|42/100
+  -damage|p1a: Greninja|222/246|[from] item: Life Orb
+  move|p2a: Walking Wake|Draco Meteor|p1a: Greninja
+  -damage|p1a: Greninja|0 fnt
+  -unboost|p2a: Walking Wake|spa|2
+  faint|p1a: Greninja
+  -damage|p2a: Walking Wake|32/100|[from] item: Life Orb
+  switch|p1a: Quagsire|Quagsire, L84, F|297/297
+-- turn 2
+  WE CHOSE: attack+tera earthquake - our hp 1.00, theirs 0.32, predicted move (revealed) hits us x1
+  -terastallize|p1a: Quagsire|Fairy
+  move|p2a: Walking Wake|Draco Meteor|p1a: Quagsire
+  -immune|p1a: Quagsire
+  move|p1a: Quagsire|Earthquake|p2a: Walking Wake
+  -damage|p2a: Walking Wake|0 fnt
+  faint|p2a: Walking Wake
+  -end|p2a: Walking Wake|Protosynthesis|[silent]
+  switch|p2a: Arceus|Arceus-Flying, L69|100/100
+-- turn 3
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Quagsire
+  -crit|p1a: Quagsire
+  -damage|p1a: Quagsire|104/297
+  move|p1a: Quagsire|Ice Beam|p2a: Arceus
+  -supereffective|p2a: Arceus
+  -damage|p2a: Arceus|67/100
+  -heal|p1a: Quagsire|122/297|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack earthquake (hand policy: heal recover) - our hp 0.41, theirs 0.67, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Quagsire
+  -damage|p1a: Quagsire|4/297
+  move|p1a: Quagsire|Earthquake|p2a: Arceus
+  -immune|p2a: Arceus
+  -heal|p1a: Quagsire|22/297|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack earthquake (hand policy: heal recover) - our hp 0.07, theirs 0.67, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cryogonal - our hp 0.00, theirs 0.67, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Quagsire
+  -damage|p1a: Quagsire|0 fnt
+  faint|p1a: Quagsire
+  switch|p1a: Cryogonal|Cryogonal, L89|287/287
+-- turn 6
+  WE CHOSE: attack freezedry - our hp 1.00, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Freeze-Dry|p2a: Arceus
+  -supereffective|p2a: Arceus
+  -damage|p2a: Arceus|10/100
+  -status|p2a: Arceus|frz
+  cant|p2a: Arceus|frz
+-- turn 7
+  WE CHOSE: attack freezedry - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Freeze-Dry|p2a: Arceus
+  -supereffective|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  switch|p2a: Alomomola|Alomomola, L87, F|100/100
+-- turn 8
+  WE CHOSE: attack rapidspin (hand policy: attack freezedry) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Cryogonal|Rapid Spin|p2a: Alomomola
+  -damage|p2a: Alomomola|94/100
+  -boost|p1a: Cryogonal|spe|1
+  -damage|p1a: Cryogonal|240/287|[from] item: Rocky Helmet|[of] p2a: Alomomola
+  move|p2a: Alomomola|Scald|p1a: Cryogonal
+  -damage|p1a: Cryogonal|209/287
+  -status|p1a: Cryogonal|brn
+  -damage|p1a: Cryogonal|192/287 brn|[from] brn
+-- turn 9
+  WE CHOSE: attack freezedry - our hp 0.67, theirs 0.94, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Freeze-Dry|p2a: Alomomola
+  -supereffective|p2a: Alomomola
+  -damage|p2a: Alomomola|37/100
+  move|p2a: Alomomola|Scald|p1a: Cryogonal
+  -damage|p1a: Cryogonal|161/287 brn
+  -damage|p1a: Cryogonal|144/287 brn|[from] brn
+-- turn 10
+  WE CHOSE: heal recover (hand policy: attack freezedry) - our hp 0.50, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|287/287 brn
+  move|p2a: Alomomola|Scald|p1a: Cryogonal
+  -damage|p1a: Cryogonal|251/287 brn
+  -damage|p1a: Cryogonal|234/287 brn|[from] brn
+-- turn 11
+  WE CHOSE: attack freezedry - our hp 0.82, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Freeze-Dry|p2a: Alomomola
+  -supereffective|p2a: Alomomola
+  -damage|p2a: Alomomola|0 fnt
+  faint|p2a: Alomomola
+  -damage|p1a: Cryogonal|217/287 brn|[from] brn
+  switch|p2a: Venomoth|Venomoth, L84, M|100/100
+-- turn 12
+  WE CHOSE: heal recover (hand policy: attack freezedry) - our hp 0.76, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|287/287 brn
+  move|p2a: Venomoth|Sludge Wave|p1a: Cryogonal
+  -damage|p1a: Cryogonal|217/287 brn
+  -damage|p1a: Cryogonal|200/287 brn|[from] brn
+-- turn 13
+  WE CHOSE: heal recover (hand policy: attack freezedry) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|287/287 brn
+  move|p2a: Venomoth|Sludge Wave|p1a: Cryogonal
+  -damage|p1a: Cryogonal|220/287 brn
+  -damage|p1a: Cryogonal|203/287 brn|[from] brn
+-- turn 14
+  WE CHOSE: heal recover (hand policy: attack freezedry) - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|287/287 brn
+  move|p2a: Venomoth|Sludge Wave|p1a: Cryogonal
+  -damage|p1a: Cryogonal|229/287 brn
+  -damage|p1a: Cryogonal|212/287 brn|[from] brn
+-- turn 15
+  WE CHOSE: heal recover (hand policy: attack freezedry) - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|287/287 brn
+  move|p2a: Venomoth|Sludge Wave|p1a: Cryogonal
+  -damage|p1a: Cryogonal|220/287 brn
+  -damage|p1a: Cryogonal|203/287 brn|[from] brn
+-- turn 16
+  WE CHOSE: heal recover (hand policy: attack freezedry) - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|287/287 brn
+  move|p2a: Venomoth|Sludge Wave|p1a: Cryogonal
+  -damage|p1a: Cryogonal|223/287 brn
+  -damage|p1a: Cryogonal|206/287 brn|[from] brn
+-- turn 17
+  WE CHOSE: heal recover (hand policy: attack freezedry) - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|287/287 brn
+  move|p2a: Venomoth|Sludge Wave|p1a: Cryogonal
+  -damage|p1a: Cryogonal|226/287 brn
+  -damage|p1a: Cryogonal|209/287 brn|[from] brn
+-- turn 18
+  WE CHOSE: heal recover (hand policy: attack freezedry) - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|287/287 brn
+  move|p2a: Venomoth|Sludge Wave|p1a: Cryogonal
+  -damage|p1a: Cryogonal|229/287 brn
+  -damage|p1a: Cryogonal|212/287 brn|[from] brn
+-- turn 19
+  WE CHOSE: attack rapidspin (hand policy: attack freezedry) - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Rapid Spin|p2a: Venomoth
+  -damage|p2a: Venomoth|94/100
+  -boost|p1a: Cryogonal|spe|1
+  move|p2a: Venomoth|Sludge Wave|p1a: Cryogonal
+  -damage|p1a: Cryogonal|151/287 brn
+  -damage|p1a: Cryogonal|134/287 brn|[from] brn
+-- turn 20
+  WE CHOSE: switch to mewtwo (hand policy: attack freezedry) - our hp 0.47, theirs 0.94, predicted move (revealed) hits us x1
+  switch|p1a: Mewtwo|Mewtwo, L72|272/272
+  -ability|p1a: Mewtwo|Unnerve
+  move|p2a: Venomoth|Sludge Wave|p1a: Mewtwo
+  -damage|p1a: Mewtwo|172/272
+-- turn 21
+  WE CHOSE: switch to hypno (hand policy: attack psystrike) - our hp 0.63, theirs 0.94, predicted move (revealed) hits us x1
+  switch|p1a: Hypno|Hypno, L95, F|315/315
+  move|p2a: Venomoth|Sludge Wave|p1a: Hypno
+  -damage|p1a: Hypno|245/315
+  -heal|p1a: Hypno|264/315|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack psychicnoise - our hp 0.84, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Venomoth|Sludge Wave|p1a: Hypno
+  -damage|p1a: Hypno|191/315
+  move|p1a: Hypno|Psychic Noise|p2a: Venomoth
+  -supereffective|p2a: Venomoth
+  -damage|p2a: Venomoth|20/100
+  -start|p2a: Venomoth|move: Heal Block
+  -heal|p1a: Hypno|210/315|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack psychicnoise - our hp 0.67, theirs 0.20, predicted move (revealed) hits us x1
+  move|p2a: Venomoth|Sludge Wave|p1a: Hypno
+  -damage|p1a: Hypno|144/315
+  move|p1a: Hypno|Psychic Noise|p2a: Venomoth
+  -supereffective|p2a: Venomoth
+  -damage|p2a: Venomoth|0 fnt
+  faint|p2a: Venomoth
+  -heal|p1a: Hypno|163/315|[from] item: Leftovers
+  switch|p2a: Wo-Chien|Wo-Chien, L83|100/100
+  -ability|p2a: Wo-Chien|Tablets of Ruin
+-- turn 24
+  WE CHOSE: switch to cryogonal (hand policy: attack knockoff) - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Cryogonal|Cryogonal, L89|134/287 brn
+  move|p2a: Wo-Chien|Giga Drain|p1a: Cryogonal
+  -damage|p1a: Cryogonal|79/287 brn
+  -damage|p1a: Cryogonal|62/287 brn|[from] brn
+-- turn 25
+  WE CHOSE: attack freezedry - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mewtwo - our hp 0.00, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Freeze-Dry|p2a: Wo-Chien
+  -supereffective|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|62/100
+  move|p2a: Wo-Chien|Giga Drain|p1a: Cryogonal
+  -damage|p1a: Cryogonal|7/287 brn
+  -heal|p2a: Wo-Chien|72/100|[from] drain|[of] p1a: Cryogonal
+  -heal|p2a: Wo-Chien|78/100|[from] item: Leftovers
+  -damage|p1a: Cryogonal|0 fnt|[from] brn
+  faint|p1a: Cryogonal
+  switch|p1a: Mewtwo|Mewtwo, L72|172/272
+  -ability|p1a: Mewtwo|Unnerve
+-- turn 26
+  WE CHOSE: attack fireblast - our hp 0.63, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Mewtwo|Fire Blast|p2a: Wo-Chien|[miss]
+  -miss|p1a: Mewtwo|p2a: Wo-Chien
+  move|p2a: Wo-Chien|Giga Drain|p1a: Mewtwo
+  -damage|p1a: Mewtwo|88/272
+  -heal|p2a: Wo-Chien|93/100|[from] drain|[of] p1a: Mewtwo
+  -heal|p2a: Wo-Chien|99/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack fireblast (hand policy: heal recover) - our hp 0.32, theirs 0.99, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to maushold (hand policy: forced: switch to hypno) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mewtwo|Fire Blast|p2a: Wo-Chien|[miss]
+  -miss|p1a: Mewtwo|p2a: Wo-Chien
+  move|p2a: Wo-Chien|Giga Drain|p1a: Mewtwo
+  -damage|p1a: Mewtwo|0 fnt
+  -heal|p2a: Wo-Chien|100/100|[from] drain|[of] p1a: Mewtwo
+  faint|p1a: Mewtwo
+  switch|p1a: Maushold|Maushold, L76|238/238
+-- turn 28
+  WE CHOSE: attack populationbomb (hand policy: attack bite) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Maushold|Population Bomb|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|95/100
+  -damage|p2a: Wo-Chien|89/100
+  -damage|p2a: Wo-Chien|84/100
+  -damage|p2a: Wo-Chien|78/100
+  -damage|p2a: Wo-Chien|73/100
+  -damage|p2a: Wo-Chien|66/100
+  -damage|p2a: Wo-Chien|60/100
+  -damage|p2a: Wo-Chien|55/100
+  -damage|p2a: Wo-Chien|49/100
+  -damage|p2a: Wo-Chien|43/100
+  -hitcount|p2a: Wo-Chien|10
+  move|p2a: Wo-Chien|Giga Drain|p1a: Maushold
+  -damage|p1a: Maushold|138/238
+  -heal|p2a: Wo-Chien|61/100|[from] drain|[of] p1a: Maushold
+  -heal|p2a: Wo-Chien|67/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack populationbomb (hand policy: attack bite) - our hp 0.58, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Maushold|Population Bomb|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|62/100
+  -crit|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|52/100
+  -damage|p2a: Wo-Chien|47/100
+  -damage|p2a: Wo-Chien|42/100
+  -damage|p2a: Wo-Chien|36/100
+  -damage|p2a: Wo-Chien|31/100
+  -damage|p2a: Wo-Chien|25/100
+  -damage|p2a: Wo-Chien|20/100
+  -damage|p2a: Wo-Chien|14/100
+  -damage|p2a: Wo-Chien|8/100
+  -hitcount|p2a: Wo-Chien|10
+  move|p2a: Wo-Chien|Giga Drain|p1a: Maushold
+  -damage|p1a: Maushold|48/238
+  -heal|p2a: Wo-Chien|25/100|[from] drain|[of] p1a: Maushold
+  -heal|p2a: Wo-Chien|31/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack bite - our hp 0.20, theirs 0.31, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hypno - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Maushold|Bite|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|26/100
+  move|p2a: Wo-Chien|Giga Drain|p1a: Maushold
+  -damage|p1a: Maushold|0 fnt
+  -heal|p2a: Wo-Chien|34/100|[from] drain|[of] p1a: Maushold
+  faint|p1a: Maushold
+  -heal|p2a: Wo-Chien|41/100|[from] item: Leftovers
+  switch|p1a: Hypno|Hypno, L95, F|163/315
+-- turn 31
+  WE CHOSE: attack encore (hand policy: attack knockoff) - our hp 0.52, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Hypno|Encore|p2a: Wo-Chien
+  -start|p2a: Wo-Chien|Encore
+  move|p2a: Wo-Chien|Giga Drain|p1a: Hypno
+  -damage|p1a: Hypno|103/315
+  -heal|p2a: Wo-Chien|51/100|[from] drain|[of] p1a: Hypno
+  -heal|p1a: Hypno|122/315|[from] item: Leftovers
+  -heal|p2a: Wo-Chien|58/100|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack encore (hand policy: attack knockoff) - our hp 0.39, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Hypno|Encore||[still]
+  -fail|p1a: Hypno
+  move|p2a: Wo-Chien|Giga Drain|p1a: Hypno
+  -damage|p1a: Hypno|71/315
+  -heal|p2a: Wo-Chien|67/100|[from] drain|[of] p1a: Hypno
+  -heal|p1a: Hypno|90/315|[from] item: Leftovers
+  -heal|p2a: Wo-Chien|73/100|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack encore (hand policy: attack knockoff) - our hp 0.29, theirs 0.73, predicted move (revealed) hits us x1
+  move|p1a: Hypno|Encore||[still]
+  -fail|p1a: Hypno
+  move|p2a: Wo-Chien|Giga Drain|p1a: Hypno
+  -damage|p1a: Hypno|35/315
+  -heal|p2a: Wo-Chien|83/100|[from] drain|[of] p1a: Hypno
+  -heal|p1a: Hypno|54/315|[from] item: Leftovers
+  -heal|p2a: Wo-Chien|89/100|[from] item: Leftovers
+  -end|p2a: Wo-Chien|Encore
+-- turn 34
+  WE CHOSE: attack encore (hand policy: attack knockoff) - our hp 0.17, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Hypno|Encore|p2a: Wo-Chien
+  -start|p2a: Wo-Chien|Encore
+  move|p2a: Wo-Chien|Giga Drain|p1a: Hypno
+  -damage|p1a: Hypno|0 fnt
+  -heal|p2a: Wo-Chien|99/100|[from] drain|[of] p1a: Hypno
+  faint|p1a: Hypno
+  deinit

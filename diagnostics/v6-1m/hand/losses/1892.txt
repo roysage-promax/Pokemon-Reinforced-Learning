@@ -1,0 +1,218 @@
+battle 1892 (battle-gen9randombattle-1024087): lost in 20 turns, 1 of theirs left; we are p1
+
+ours:
+  landorustherian (fainted; item leftovers, ability intimidate; moves earthquake/uturn/stealthrock/stoneedge)
+  rotommow (fainted; item leftovers, ability levitate, tera grass; moves thunderbolt/nastyplot/willowisp/leafstorm)
+  scyther (fainted; item heavydutyboots, ability technician; moves dualwingbeat/swordsdance/closecombat/bugbite)
+  lumineon (fainted; item lifeorb, ability stormdrain; moves alluringvoice/hydropump/encore/icebeam)
+  falinks (fainted; item lifeorb, ability defiant; moves noretreat/knockoff/ironhead/closecombat)
+  urshifu (fainted; item lifeorb, ability unseenfist; moves wickedblow/suckerpunch/swordsdance/closecombat)
+theirs (as seen):
+  torkoal (fainted; item unknown_item, ability ?; moves solarbeam)
+  mightyena (fainted; item unknown_item, ability intimidate; moves playrough)
+  vikavolt (fainted; item unknown_item, ability levitate; moves thunderbolt)
+  virizion (fainted; item lifeorb, ability justified; moves closecombat)
+  pachirisu (fainted; item unknown_item, ability ?; moves thunderbolt)
+  archaludon (6%; item unknown_item, ability stamina; moves dracometeor)
+
+-- turn 0
+  switch|p1a: Landorus|Landorus-Therian, L76, M|260/260
+  switch|p2a: Torkoal|Torkoal, L88, M|100/100
+  -ability|p1a: Landorus|Intimidate|boost
+  -unboost|p2a: Torkoal|atk|1
+  -weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+-- turn 1
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Landorus|Earthquake|p2a: Torkoal
+  -supereffective|p2a: Torkoal
+  -damage|p2a: Torkoal|37/100
+  move|p2a: Torkoal|Solar Beam||[still]
+  -prepare|p2a: Torkoal|Solar Beam
+  -anim|p2a: Torkoal|Solar Beam|p1a: Landorus
+  -crit|p1a: Landorus
+  -damage|p1a: Landorus|123/260
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Landorus|139/260|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 0.53, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Landorus|Earthquake|p2a: Torkoal
+  -supereffective|p2a: Torkoal
+  -damage|p2a: Torkoal|0 fnt
+  faint|p2a: Torkoal
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Landorus|155/260|[from] item: Leftovers
+  switch|p2a: Mightyena|Mightyena, L96, F|100/100
+  -ability|p2a: Mightyena|Intimidate|boost
+  -unboost|p1a: Landorus|atk|1
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Mightyena|Play Rough|p1a: Landorus
+  -damage|p1a: Landorus|75/260
+  move|p1a: Landorus|Earthquake|p2a: Mightyena
+  -damage|p2a: Mightyena|73/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Landorus|91/260|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 0.35, theirs 0.73, predicted move (revealed) hits us x1
+  move|p2a: Mightyena|Play Rough|p1a: Landorus|[miss]
+  -miss|p2a: Mightyena|p1a: Landorus
+  move|p1a: Landorus|Earthquake|p2a: Mightyena
+  -damage|p2a: Mightyena|46/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Landorus|107/260|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 0.41, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Mightyena|Play Rough|p1a: Landorus
+  -damage|p1a: Landorus|21/260
+  move|p1a: Landorus|Earthquake|p2a: Mightyena
+  -damage|p2a: Mightyena|18/100
+  -weather|none
+  -heal|p1a: Landorus|37/260|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 0.14, theirs 0.18, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to scyther - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Mightyena|Play Rough|p1a: Landorus
+  -damage|p1a: Landorus|0 fnt
+  faint|p1a: Landorus
+  switch|p1a: Scyther|Scyther, L82, M|249/249
+-- turn 7
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p1a: Scyther|Close Combat|p2a: Mightyena
+  -supereffective|p2a: Mightyena
+  -damage|p2a: Mightyena|0 fnt
+  -unboost|p1a: Scyther|def|1
+  -unboost|p1a: Scyther|spd|1
+  faint|p2a: Mightyena
+  switch|p2a: Vikavolt|Vikavolt, L83, F|100/100
+-- turn 8
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to rotommow - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Scyther|Swords Dance|p1a: Scyther
+  -boost|p1a: Scyther|atk|2
+  move|p2a: Vikavolt|Thunderbolt|p1a: Scyther
+  -supereffective|p1a: Scyther
+  -damage|p1a: Scyther|0 fnt
+  faint|p1a: Scyther
+  switch|p1a: Rotom|Rotom-Mow, L87|229/229
+-- turn 9
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Rotom|Nasty Plot|p1a: Rotom
+  -boost|p1a: Rotom|spa|2
+  move|p2a: Vikavolt|Thunderbolt|p1a: Rotom
+  -resisted|p1a: Rotom
+  -damage|p1a: Rotom|203/229
+  -heal|p1a: Rotom|217/229|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack leafstorm - our hp 0.95, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Rotom|Leaf Storm|p2a: Vikavolt
+  -resisted|p2a: Vikavolt
+  -damage|p2a: Vikavolt|28/100
+  -unboost|p1a: Rotom|spa|2
+  move|p2a: Vikavolt|Thunderbolt|p1a: Rotom
+  -resisted|p1a: Rotom
+  -damage|p1a: Rotom|189/229
+  -heal|p1a: Rotom|203/229|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: setup nastyplot - our hp 0.89, theirs 0.28, predicted move (revealed) hits us x0.25
+  move|p1a: Rotom|Nasty Plot|p1a: Rotom
+  -boost|p1a: Rotom|spa|2
+  move|p2a: Vikavolt|Thunderbolt|p1a: Rotom
+  -resisted|p1a: Rotom
+  -damage|p1a: Rotom|178/229
+  -heal|p1a: Rotom|192/229|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack leafstorm - our hp 0.84, theirs 0.28, predicted move (revealed) hits us x0.25
+  move|p1a: Rotom|Leaf Storm|p2a: Vikavolt
+  -resisted|p2a: Vikavolt
+  -damage|p2a: Vikavolt|0 fnt
+  -unboost|p1a: Rotom|spa|2
+  faint|p2a: Vikavolt
+  -heal|p1a: Rotom|206/229|[from] item: Leftovers
+  switch|p2a: Virizion|Virizion, L82|100/100
+-- turn 13
+  WE CHOSE: attack+tera leafstorm - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Rotom|Grass
+  move|p2a: Virizion|Close Combat|p1a: Rotom
+  -damage|p1a: Rotom|85/229
+  -unboost|p2a: Virizion|def|1
+  -unboost|p2a: Virizion|spd|1
+  -damage|p2a: Virizion|91/100|[from] item: Life Orb
+  move|p1a: Rotom|Leaf Storm|p2a: Virizion
+  -resisted|p2a: Virizion
+  -damage|p2a: Virizion|45/100
+  -unboost|p1a: Rotom|spa|2
+  -heal|p1a: Rotom|99/229|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack leafstorm - our hp 0.43, theirs 0.45, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lumineon - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Virizion|Close Combat|p1a: Rotom
+  -damage|p1a: Rotom|0 fnt
+  -unboost|p2a: Virizion|def|1
+  -unboost|p2a: Virizion|spd|1
+  faint|p1a: Rotom
+  -damage|p2a: Virizion|35/100|[from] item: Life Orb
+  switch|p1a: Lumineon|Lumineon, L93, F|279/279
+-- turn 15
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Virizion|Close Combat|p1a: Lumineon
+  -damage|p1a: Lumineon|126/279
+  -unboost|p2a: Virizion|def|1
+  -unboost|p2a: Virizion|spd|1
+  -damage|p2a: Virizion|26/100|[from] item: Life Orb
+  move|p1a: Lumineon|Ice Beam|p2a: Virizion
+  -supereffective|p2a: Virizion
+  -crit|p2a: Virizion
+  -damage|p2a: Virizion|0 fnt
+  faint|p2a: Virizion
+  -damage|p1a: Lumineon|99/279|[from] item: Life Orb
+  switch|p2a: Pachirisu|Pachirisu, L96, M|100/100
+-- turn 16
+  WE CHOSE: attack hydropump - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to falinks - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Pachirisu|Thunderbolt|p1a: Lumineon
+  -supereffective|p1a: Lumineon
+  -damage|p1a: Lumineon|0 fnt
+  faint|p1a: Lumineon
+  switch|p1a: Falinks|Falinks, L84|246/246
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Pachirisu|Thunderbolt|p1a: Falinks
+  -damage|p1a: Falinks|150/246
+  move|p1a: Falinks|Close Combat|p2a: Pachirisu
+  -damage|p2a: Pachirisu|34/100
+  -unboost|p1a: Falinks|def|1
+  -unboost|p1a: Falinks|spd|1
+  -damage|p1a: Falinks|126/246|[from] item: Life Orb
+-- turn 18
+  WE CHOSE: attack closecombat - our hp 0.51, theirs 0.34, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to urshifu - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p2a: Pachirisu|Thunderbolt|p1a: Falinks
+  -damage|p1a: Falinks|0 fnt
+  faint|p1a: Falinks
+  switch|p1a: Urshifu|Urshifu, L74, F|270/270
+-- turn 19
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p2a: Pachirisu|Thunderbolt|p1a: Urshifu
+  -damage|p1a: Urshifu|153/270
+  move|p1a: Urshifu|Close Combat|p2a: Pachirisu
+  -damage|p2a: Pachirisu|0 fnt
+  -unboost|p1a: Urshifu|def|1
+  -unboost|p1a: Urshifu|spd|1
+  faint|p2a: Pachirisu
+  -damage|p1a: Urshifu|126/270|[from] item: Life Orb
+  switch|p2a: Archaludon|Archaludon, L77, F|100/100
+-- turn 20
+  WE CHOSE: attack closecombat - our hp 0.47, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Urshifu|Close Combat|p2a: Archaludon
+  -supereffective|p2a: Archaludon
+  -damage|p2a: Archaludon|6/100
+  -unboost|p1a: Urshifu|def|1
+  -unboost|p1a: Urshifu|spd|1
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  -damage|p1a: Urshifu|99/270|[from] item: Life Orb
+  move|p2a: Archaludon|Draco Meteor|p1a: Urshifu
+  -damage|p1a: Urshifu|0 fnt
+  -unboost|p2a: Archaludon|spa|2
+  faint|p1a: Urshifu
+  deinit

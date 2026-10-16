@@ -1,0 +1,214 @@
+battle 699 (battle-gen9randombattle-1013428): lost in 21 turns, 3 of theirs left; we are p1
+
+ours:
+  zangoose (fainted; item toxicorb, ability toxicboost; moves knockoff/quickattack/closecombat/facade)
+  baxcalibur (fainted; item heavydutyboots, ability thermalexchange; moves iciclecrash/dragondance/glaiverush/earthquake)
+  ragingbolt (fainted; item assaultvest, ability protosynthesis; moves dracometeor/discharge/voltswitch/thunderclap)
+  amoonguss (fainted; item leftovers, ability regenerator; moves sludgebomb/spore/clearsmog/gigadrain)
+  leavanny (fainted; item loadeddice, ability chlorophyll, tera rock; moves stickyweb/knockoff/bulletseed/tripleaxel)
+  malamar (fainted; item leftovers, ability contrary; moves sleeptalk/knockoff/rest/superpower)
+theirs (as seen):
+  flapple (fainted; item unknown_item, ability ?; moves outrage)
+  kingdra (fainted; item ?, ability ?; moves outrage)
+  salazzle (fainted; item leftovers, ability ?; moves flamethrower)
+  excadrill (51%; item leftovers, ability moldbreaker; moves earthquake)
+
+-- turn 0
+  switch|p1a: Zangoose|Zangoose, L85, M|263/263
+  switch|p2a: Flapple|Flapple, L88, F|100/100
+-- turn 1
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to amoonguss - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Zangoose|Close Combat|p2a: Flapple
+  -damage|p2a: Flapple|64/100
+  -unboost|p1a: Zangoose|def|1
+  -unboost|p1a: Zangoose|spd|1
+  move|p2a: Flapple|Outrage|p1a: Zangoose
+  -damage|p1a: Zangoose|0 fnt
+  faint|p1a: Zangoose
+  switch|p1a: Amoonguss|Amoonguss, L82, M|321/321
+-- turn 2
+  WE CHOSE: attack sludgebomb - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p2a: Flapple|Outrage|p1a: Amoonguss|[from] lockedmove
+  -damage|p1a: Amoonguss|59/321
+  move|p1a: Amoonguss|Sludge Bomb|p2a: Flapple
+  -supereffective|p2a: Flapple
+  -damage|p2a: Flapple|0 fnt
+  faint|p2a: Flapple
+  -heal|p1a: Amoonguss|79/321|[from] item: Leftovers
+  switch|p2a: Kingdra|Kingdra, L84, M|100/100
+-- turn 3
+  WE CHOSE: attack sludgebomb - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to malamar (hand policy: forced: switch to baxcalibur) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Kingdra|Outrage|p1a: Amoonguss
+  -damage|p1a: Amoonguss|0 fnt
+  faint|p1a: Amoonguss
+  switch|p1a: Malamar|Malamar, L82, F|275/275
+-- turn 4
+  WE CHOSE: attack superpower (hand policy: attack+tera superpower) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Kingdra|Outrage|p1a: Malamar|[from] lockedmove
+  -damage|p1a: Malamar|152/275
+  move|p1a: Malamar|Superpower|p2a: Kingdra
+  -damage|p2a: Kingdra|72/100
+  -boost|p1a: Malamar|atk|1
+  -boost|p1a: Malamar|def|1
+  -heal|p1a: Malamar|169/275|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack superpower (hand policy: attack+tera superpower) - our hp 0.61, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Kingdra|Outrage|p1a: Malamar|[from] lockedmove
+  -damage|p1a: Malamar|79/275
+  -start|p2a: Kingdra|confusion|[fatigue]
+  -enditem|p2a: Kingdra|Lum Berry|[eat]
+  -end|p2a: Kingdra|confusion
+  move|p1a: Malamar|Superpower|p2a: Kingdra
+  -damage|p2a: Kingdra|31/100
+  -boost|p1a: Malamar|atk|1
+  -boost|p1a: Malamar|def|1
+  -heal|p1a: Malamar|96/275|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: heal rest - our hp 0.35, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Kingdra|Outrage|p1a: Malamar
+  -damage|p1a: Malamar|32/275
+  move|p1a: Malamar|Rest|p1a: Malamar
+  -status|p1a: Malamar|slp|[from] move: Rest
+  -heal|p1a: Malamar|275/275 slp|[silent]
+-- turn 7
+  WE CHOSE: attack superpower (hand policy: attack+tera superpower) - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Kingdra|Outrage|p1a: Malamar|[from] lockedmove
+  -damage|p1a: Malamar|205/275 slp
+  cant|p1a: Malamar|slp
+  -heal|p1a: Malamar|222/275 slp|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: heal rest (hand policy: attack+tera superpower) - our hp 0.81, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Kingdra|Outrage|p1a: Malamar|[from] lockedmove
+  -damage|p1a: Malamar|161/275 slp
+  -start|p2a: Kingdra|confusion|[fatigue]
+  cant|p1a: Malamar|slp
+  -heal|p1a: Malamar|178/275 slp|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: heal rest (hand policy: attack+tera superpower) - our hp 0.65, theirs 0.31, predicted move (revealed) hits us x1
+  -activate|p2a: Kingdra|confusion
+  move|p2a: Kingdra|Outrage|p1a: Malamar
+  -damage|p1a: Malamar|114/275 slp
+  -curestatus|p1a: Malamar|slp|[msg]
+  move|p1a: Malamar|Rest|p1a: Malamar
+  -status|p1a: Malamar|slp|[from] move: Rest
+  -heal|p1a: Malamar|275/275 slp|[silent]
+-- turn 10
+  WE CHOSE: attack superpower (hand policy: attack+tera superpower) - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x1
+  -activate|p2a: Kingdra|confusion
+  move|p2a: Kingdra|Outrage|p1a: Malamar|[from] lockedmove
+  -damage|p1a: Malamar|209/275 slp
+  cant|p1a: Malamar|slp
+  -heal|p1a: Malamar|226/275 slp|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: heal rest (hand policy: attack+tera superpower) - our hp 0.82, theirs 0.31, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to leavanny (hand policy: forced: switch to baxcalibur) - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  -end|p2a: Kingdra|confusion
+  move|p2a: Kingdra|Outrage|p1a: Malamar|[from] lockedmove
+  -crit|p1a: Malamar
+  -damage|p1a: Malamar|0 fnt
+  faint|p1a: Malamar
+  -start|p2a: Kingdra|confusion|[fatigue]
+  switch|p1a: Leavanny|Leavanny, L86, M|269/269
+-- turn 12
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Leavanny|Knock Off|p2a: Kingdra
+  -damage|p2a: Kingdra|13/100
+  -activate|p2a: Kingdra|confusion
+  move|p2a: Kingdra|Outrage|p1a: Leavanny
+  -damage|p1a: Leavanny|133/269
+-- turn 13
+  WE CHOSE: attack knockoff - our hp 0.49, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Leavanny|Knock Off|p2a: Kingdra
+  -damage|p2a: Kingdra|0 fnt
+  faint|p2a: Kingdra
+  switch|p2a: Salazzle|Salazzle, L83, F|100/100
+-- turn 14
+  WE CHOSE: attack+tera bulletseed (hand policy: switch to ragingbolt) - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x4
+  -terastallize|p1a: Leavanny|Rock
+  move|p2a: Salazzle|Flamethrower|p1a: Leavanny
+  -resisted|p1a: Leavanny
+  -damage|p1a: Leavanny|74/269
+  move|p1a: Leavanny|Bullet Seed|p2a: Salazzle
+  -resisted|p2a: Salazzle
+  -crit|p2a: Salazzle
+  -damage|p2a: Salazzle|95/100
+  -resisted|p2a: Salazzle
+  -damage|p2a: Salazzle|91/100
+  -resisted|p2a: Salazzle
+  -damage|p2a: Salazzle|88/100
+  -resisted|p2a: Salazzle
+  -damage|p2a: Salazzle|84/100
+  -resisted|p2a: Salazzle
+  -damage|p2a: Salazzle|80/100
+  -hitcount|p2a: Salazzle|5
+  -heal|p2a: Salazzle|86/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack tripleaxel (hand policy: attack knockoff) - our hp 0.28, theirs 0.86, predicted move (revealed) hits us x0.5
+  move|p2a: Salazzle|Flamethrower|p1a: Leavanny
+  -resisted|p1a: Leavanny
+  -damage|p1a: Leavanny|19/269
+  move|p1a: Leavanny|Triple Axel|p2a: Salazzle
+  -resisted|p2a: Salazzle
+  -damage|p2a: Salazzle|82/100
+  -resisted|p2a: Salazzle
+  -damage|p2a: Salazzle|74/100
+  -resisted|p2a: Salazzle
+  -damage|p2a: Salazzle|62/100
+  -hitcount|p2a: Salazzle|3
+  -heal|p2a: Salazzle|68/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack tripleaxel (hand policy: attack knockoff) - our hp 0.07, theirs 0.68, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to baxcalibur - our hp 0.00, theirs 0.74, predicted move (revealed) hits us x0.5
+  move|p2a: Salazzle|Flamethrower|p1a: Leavanny
+  -resisted|p1a: Leavanny
+  -damage|p1a: Leavanny|0 fnt
+  faint|p1a: Leavanny
+  -heal|p2a: Salazzle|74/100|[from] item: Leftovers
+  switch|p1a: Baxcalibur|Baxcalibur, L75, F|296/296
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.74, predicted move (revealed) hits us x1
+  move|p2a: Salazzle|Flamethrower|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|176/296
+  -ability|p1a: Baxcalibur|Thermal Exchange|boost
+  -boost|p1a: Baxcalibur|atk|1
+  move|p1a: Baxcalibur|Earthquake|p2a: Salazzle
+  -supereffective|p2a: Salazzle
+  -damage|p2a: Salazzle|0 fnt
+  faint|p2a: Salazzle
+  switch|p2a: Excadrill|Excadrill, L79, F|100/100
+  -ability|p2a: Excadrill|Mold Breaker
+-- turn 18
+  WE CHOSE: attack iciclecrash (hand policy: attack earthquake) - our hp 0.59, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Excadrill|Earthquake|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|44/296
+  move|p1a: Baxcalibur|Icicle Crash|p2a: Excadrill
+  -damage|p2a: Excadrill|33/100
+  -heal|p2a: Excadrill|39/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack iciclecrash (hand policy: attack earthquake) - our hp 0.15, theirs 0.39, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ragingbolt - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Excadrill|Earthquake|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|0 fnt
+  faint|p1a: Baxcalibur
+  -heal|p2a: Excadrill|45/100|[from] item: Leftovers
+  switch|p1a: Raging Bolt|Raging Bolt, L78|323/323
+-- turn 20
+  WE CHOSE: attack thunderclap (hand policy: attack dracometeor) - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x2
+  move|p1a: Raging Bolt|Thunderclap|p2a: Excadrill
+  -immune|p2a: Excadrill
+  move|p2a: Excadrill|Earthquake|p1a: Raging Bolt
+  -supereffective|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|75/323
+  -heal|p2a: Excadrill|51/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack thunderclap (hand policy: attack dracometeor) - our hp 0.23, theirs 0.51, predicted move (revealed) hits us x2
+  move|p1a: Raging Bolt|Thunderclap|p2a: Excadrill
+  -immune|p2a: Excadrill
+  move|p2a: Excadrill|Earthquake|p1a: Raging Bolt
+  -supereffective|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|0 fnt
+  faint|p1a: Raging Bolt
+  -end|p1a: Raging Bolt|Protosynthesis|[silent]
+  deinit

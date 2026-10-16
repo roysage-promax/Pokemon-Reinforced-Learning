@@ -1,0 +1,15 @@
+3000 battles in 1212s: agent won 2872 = 95.7% [94.9, 96.4]
+hand policy plays: all - 23.20 steps a battle, 7.31 of them different from the agent's choice
+
+hand policy would per battle agent agrees  agent instead (per battle)
+attack                14.67          65%  switch 3.62, setup 0.48, attack+tera 0.38, heal 0.31, same kind, other slot 0.29, heal+tera 0.00, setup+tera 0.00
+setup                  2.58          86%  attack 0.22, switch 0.09, attack+tera 0.04, heal 0.01, heal+tera 0.00, setup+tera 0.00
+forced switch          2.18          86%  other slot or illegal 0.31
+switch                 1.60          89%  attack+tera 0.12, same kind, other slot 0.02, attack 0.02, heal+tera 0.01, heal 0.00, setup+tera 0.00
+heal                   1.36          27%  attack 0.50, switch 0.43, attack+tera 0.04, setup 0.02, heal+tera 0.00
+attack+tera            0.80          52%  attack 0.17, switch 0.15, same kind, other slot 0.03, setup 0.03, heal+tera 0.01, setup+tera 0.00, heal 0.00
+setup+tera             0.00           0%  switch 0.00, setup 0.00
+heal+tera              0.00          50%  switch 0.00
+
+agent's actions per battle: safe_switch 5.71, attack 4.79, setup 4.35, tera 2.28, matchup_switch 1.82, move slot 1.76, heal 1.44, tera slot 0.66, switch slot 0.39
+agent's heals and setups per battle: heal via action 14-15 0.56, heal via move slot 0.15, setup via action 14-15 2.70, setup via move slot 0.04

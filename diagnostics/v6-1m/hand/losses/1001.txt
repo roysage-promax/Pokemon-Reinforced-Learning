@@ -1,0 +1,196 @@
+battle 1001 (battle-gen9randombattle-1015727): lost in 19 turns, 1 of theirs left; we are p1
+
+ours:
+  walkingwake (fainted; item lifeorb, ability protosynthesis, tera fire; moves flamethrower/hydrosteam/dracometeor/sunnyday)
+  greninja (fainted; item lifeorb, ability battlebond; moves icebeam/hydropump/darkpulse/gunkshot)
+  lokix (fainted; item lifeorb, ability tintedlens; moves leechlife/suckerpunch/knockoff/swordsdance)
+  ceruledge (fainted; item heavydutyboots, ability weakarmor; moves bitterblade/poltergeist/closecombat/swordsdance)
+  vigoroth (fainted; item eviolite, ability vitalspirit; moves bodyslam/slackoff/bulkup/earthquake)
+  meloetta (fainted; item lifeorb, ability serenegrace; moves tripleaxel/closecombat/knockoff/relicsong)
+theirs (as seen):
+  braviary (fainted; item unknown_item, ability ?; moves bravebird)
+  ludicolo (fainted; item lifeorb, ability ?; moves hydropump)
+  dunsparce (fainted; item unknown_item, ability ?; moves earthquake)
+  forretress (fainted; item leftovers, ability ?; moves ironhead)
+  morpeko (fainted; item leftovers, ability hungerswitch; moves aurawheel)
+  toxtricity (100%; item unknown_item, ability ?; moves boomburst)
+
+-- turn 0
+  switch|p1a: Walking Wake|Walking Wake, L79|286/286
+  switch|p2a: Braviary|Braviary, L85, M|100/100
+-- turn 1
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Walking Wake|Draco Meteor|p2a: Braviary
+  -damage|p2a: Braviary|34/100
+  -unboost|p1a: Walking Wake|spa|2
+  -damage|p1a: Walking Wake|258/286|[from] item: Life Orb
+  move|p2a: Braviary|Brave Bird|p1a: Walking Wake
+  -damage|p1a: Walking Wake|89/286
+  -damage|p2a: Braviary|16/100|[from] Recoil
+-- turn 2
+  WE CHOSE: attack dracometeor - our hp 0.31, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Walking Wake|Draco Meteor|p2a: Braviary
+  -damage|p2a: Braviary|0 fnt
+  -unboost|p1a: Walking Wake|spa|2
+  faint|p2a: Braviary
+  -damage|p1a: Walking Wake|61/286|[from] item: Life Orb
+  switch|p2a: Ludicolo|Ludicolo, L90, F|100/100
+-- turn 3
+  WE CHOSE: attack+tera dracometeor - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Walking Wake|Fire
+  move|p1a: Walking Wake|Draco Meteor|p2a: Ludicolo|[miss]
+  -miss|p1a: Walking Wake|p2a: Ludicolo
+  move|p2a: Ludicolo|Hydro Pump|p1a: Walking Wake|[miss]
+  -miss|p2a: Ludicolo|p1a: Walking Wake
+-- turn 4
+  WE CHOSE: switch to greninja - our hp 0.21, theirs 1.00, predicted move (revealed) hits us x2
+  -end|p1a: Walking Wake|Protosynthesis|[silent]
+  switch|p1a: Greninja|Greninja, L80, M|246/246
+  move|p2a: Ludicolo|Hydro Pump|p1a: Greninja
+  -resisted|p1a: Greninja
+  -damage|p1a: Greninja|149/246
+  -damage|p2a: Ludicolo|90/100|[from] item: Life Orb
+-- turn 5
+  WE CHOSE: attack gunkshot - our hp 0.61, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p1a: Greninja|Gunk Shot|p2a: Ludicolo
+  -supereffective|p2a: Ludicolo
+  -damage|p2a: Ludicolo|9/100
+  -damage|p1a: Greninja|125/246|[from] item: Life Orb
+  move|p2a: Ludicolo|Hydro Pump|p1a: Greninja
+  -resisted|p1a: Greninja
+  -damage|p1a: Greninja|29/246
+  -damage|p2a: Ludicolo|0 fnt|[from] item: Life Orb
+  faint|p2a: Ludicolo
+  switch|p2a: Dunsparce|Dunsparce, L86, F|100/100
+-- turn 6
+  WE CHOSE: attack hydropump - our hp 0.12, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to meloetta - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Greninja|Hydro Pump|p2a: Dunsparce|[miss]
+  -miss|p1a: Greninja|p2a: Dunsparce
+  move|p2a: Dunsparce|Earthquake|p1a: Greninja
+  -damage|p1a: Greninja|0 fnt
+  faint|p1a: Greninja
+  switch|p1a: Meloetta|Meloetta, L82|298/298
+-- turn 7
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Meloetta|Close Combat|p2a: Dunsparce
+  -supereffective|p2a: Dunsparce
+  -damage|p2a: Dunsparce|53/100
+  -unboost|p1a: Meloetta|def|1
+  -unboost|p1a: Meloetta|spd|1
+  -damage|p1a: Meloetta|269/298|[from] item: Life Orb
+  move|p2a: Dunsparce|Earthquake|p1a: Meloetta
+  -damage|p1a: Meloetta|166/298
+-- turn 8
+  WE CHOSE: attack closecombat - our hp 0.56, theirs 0.53, predicted move (revealed) hits us x1
+  move|p1a: Meloetta|Close Combat|p2a: Dunsparce
+  -supereffective|p2a: Dunsparce
+  -damage|p2a: Dunsparce|9/100
+  -unboost|p1a: Meloetta|def|1
+  -unboost|p1a: Meloetta|spd|1
+  -damage|p1a: Meloetta|137/298|[from] item: Life Orb
+  move|p2a: Dunsparce|Earthquake|p1a: Meloetta
+  -damage|p1a: Meloetta|1/298
+-- turn 9
+  WE CHOSE: attack closecombat - our hp 0.00, theirs 0.09, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lokix - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Meloetta|Close Combat|p2a: Dunsparce
+  -supereffective|p2a: Dunsparce
+  -damage|p2a: Dunsparce|0 fnt
+  -unboost|p1a: Meloetta|def|1
+  -unboost|p1a: Meloetta|spd|1
+  faint|p2a: Dunsparce
+  -damage|p1a: Meloetta|0 fnt|[from] item: Life Orb
+  faint|p1a: Meloetta
+  switch|p1a: Lokix|Lokix, L82, M|251/251
+  switch|p2a: Forretress|Forretress, L84, F|100/100
+-- turn 10
+  WE CHOSE: attack suckerpunch - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Lokix|Sucker Punch|p2a: Forretress
+  -damage|p2a: Forretress|74/100
+  -damage|p1a: Lokix|226/251|[from] item: Life Orb
+  move|p2a: Forretress|Iron Head|p1a: Lokix
+  -damage|p1a: Lokix|136/251
+  -heal|p2a: Forretress|80/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack suckerpunch - our hp 0.54, theirs 0.80, predicted move (revealed) hits us x1
+  move|p1a: Lokix|Sucker Punch|p2a: Forretress
+  -damage|p2a: Forretress|56/100
+  -damage|p1a: Lokix|111/251|[from] item: Life Orb
+  move|p2a: Forretress|Iron Head|p1a: Lokix
+  -damage|p1a: Lokix|27/251
+  -heal|p2a: Forretress|62/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack suckerpunch - our hp 0.11, theirs 0.62, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to walkingwake - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Lokix|Sucker Punch|p2a: Forretress
+  -damage|p2a: Forretress|37/100
+  -damage|p1a: Lokix|2/251|[from] item: Life Orb
+  move|p2a: Forretress|Iron Head|p1a: Lokix
+  -damage|p1a: Lokix|0 fnt
+  faint|p1a: Lokix
+  -heal|p2a: Forretress|43/100|[from] item: Leftovers
+  switch|p1a: Walking Wake|Walking Wake, L79, tera:Fire|61/286
+-- turn 13
+  WE CHOSE: attack flamethrower - our hp 0.21, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p1a: Walking Wake|Flamethrower|p2a: Forretress
+  -supereffective|p2a: Forretress
+  -damage|p2a: Forretress|0 fnt
+  faint|p2a: Forretress
+  -damage|p1a: Walking Wake|33/286|[from] item: Life Orb
+  switch|p2a: Morpeko|Morpeko, L88, M|100/100
+-- turn 14
+  WE CHOSE: attack dracometeor - our hp 0.12, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ceruledge - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Morpeko|Aura Wheel|p1a: Walking Wake
+  -crit|p1a: Walking Wake
+  -damage|p1a: Walking Wake|0 fnt
+  -boost|p2a: Morpeko|spe|1
+  faint|p1a: Walking Wake
+  -end|p1a: Walking Wake|Protosynthesis|[silent]
+  -formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+  switch|p1a: Ceruledge|Ceruledge, L78, M|245/245
+-- turn 15
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to vigoroth - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Morpeko|Aura Wheel|p1a: Ceruledge
+  -supereffective|p1a: Ceruledge
+  -damage|p1a: Ceruledge|0 fnt
+  -boost|p2a: Morpeko|spe|1
+  faint|p1a: Ceruledge
+  -formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+  switch|p1a: Vigoroth|Vigoroth, L85, M|275/275
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Morpeko|Aura Wheel|p1a: Vigoroth
+  -damage|p1a: Vigoroth|188/275
+  -boost|p2a: Morpeko|spe|1
+  move|p1a: Vigoroth|Earthquake|p2a: Morpeko
+  -supereffective|p2a: Morpeko
+  -damage|p2a: Morpeko|30/100
+  -heal|p2a: Morpeko|36/100|[from] item: Leftovers
+  -formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 0.68, theirs 0.36, predicted move (revealed) hits us x1
+  move|p2a: Morpeko|Aura Wheel|p1a: Vigoroth
+  -damage|p1a: Vigoroth|97/275
+  -boost|p2a: Morpeko|spe|1
+  move|p1a: Vigoroth|Earthquake|p2a: Morpeko
+  -supereffective|p2a: Morpeko
+  -damage|p2a: Morpeko|0 fnt
+  faint|p2a: Morpeko
+  switch|p2a: Toxtricity|Toxtricity, L82, F|100/100
+-- turn 18
+  WE CHOSE: heal slackoff - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|235/275
+  move|p2a: Toxtricity|Boomburst|p1a: Vigoroth
+  -damage|p1a: Vigoroth|45/275
+-- turn 19
+  WE CHOSE: heal slackoff - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|183/275
+  move|p2a: Toxtricity|Boomburst|p1a: Vigoroth
+  -damage|p1a: Vigoroth|0 fnt
+  faint|p1a: Vigoroth
+  deinit

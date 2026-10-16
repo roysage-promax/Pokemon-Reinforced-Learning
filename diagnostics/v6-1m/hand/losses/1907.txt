@@ -1,0 +1,230 @@
+battle 1907 (battle-gen9randombattle-1024222): lost in 25 turns, 1 of theirs left; we are p1
+
+ours:
+  sinistchamasterpiece (fainted; item leftovers, ability heatproof; moves calmmind/shadowball/strengthsap/matchagotcha)
+  revavroom (fainted; item lifeorb, ability filter; moves shiftgear/gunkshot/highhorsepower/ironhead)
+  ludicolo (fainted; item lifeorb, ability swiftswim; moves gigadrain/raindance/hydropump/icebeam)
+  ironbundle (fainted; item heavydutyboots, ability quarkdrive, tera water; moves freezedry/icebeam/hydropump/encore)
+  volbeat (fainted; item heavydutyboots, ability prankster; moves encore/thunderwave/roost/uturn)
+  ampharos (fainted; item assaultvest, ability static; moves discharge/voltswitch/dazzlinggleam/focusblast)
+theirs (as seen):
+  trevenant (fainted; item sitrusberry, ability ?; moves poltergeist)
+  glalie (fainted; item unknown_item, ability ?; moves earthquake)
+  pelipper (fainted; item unknown_item, ability ?; moves hurricane)
+  kilowattrel (fainted; item unknown_item, ability voltabsorb; moves hurricane)
+  mudsdale (fainted; item unknown_item, ability ?; moves stoneedge)
+  misdreavus (67%; item unknown_item, ability levitate; moves shadowball)
+
+-- turn 0
+  switch|p1a: Sinistcha|Sinistcha-Masterpiece, L83|254/254
+  switch|p2a: Trevenant|Trevenant, L89, F|100/100
+-- turn 1
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to ironbundle - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+  move|p2a: Trevenant|Poltergeist|p1a: Sinistcha
+  -activate|p1a: Sinistcha|move: Poltergeist|Leftovers
+  -supereffective|p1a: Sinistcha
+  -damage|p1a: Sinistcha|0 fnt
+  faint|p1a: Sinistcha
+  switch|p1a: Iron Bundle|Iron Bundle, L78|215/215
+-- turn 2
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Iron Bundle|Ice Beam|p2a: Trevenant
+  -supereffective|p2a: Trevenant
+  -damage|p2a: Trevenant|33/100
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|58/100|[from] item: Sitrus Berry
+  move|p2a: Trevenant|Poltergeist|p1a: Iron Bundle
+  -activate|p1a: Iron Bundle|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Iron Bundle|95/215
+  -item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+-- turn 3
+  WE CHOSE: attack icebeam - our hp 0.44, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Iron Bundle|Ice Beam|p2a: Trevenant
+  -supereffective|p2a: Trevenant
+  -damage|p2a: Trevenant|0 fnt
+  faint|p2a: Trevenant
+  switch|p2a: Glalie|Glalie, L96, F|100/100
+-- turn 4
+  WE CHOSE: attack+tera hydropump - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Iron Bundle|Water
+  move|p1a: Iron Bundle|Hydro Pump|p2a: Glalie|[miss]
+  -miss|p1a: Iron Bundle|p2a: Glalie
+  move|p2a: Glalie|Earthquake|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|23/215
+-- turn 5
+  WE CHOSE: attack hydropump - our hp 0.11, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ludicolo - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Iron Bundle|Hydro Pump|p2a: Glalie
+  -damage|p2a: Glalie|49/100
+  move|p2a: Glalie|Earthquake|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|0 fnt
+  faint|p1a: Iron Bundle
+  -end|p1a: Iron Bundle|Quark Drive|[silent]
+  switch|p1a: Ludicolo|Ludicolo, L90, F|290/290
+-- turn 6
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Glalie|Earthquake|p1a: Ludicolo
+  -resisted|p1a: Ludicolo
+  -crit|p1a: Ludicolo
+  -damage|p1a: Ludicolo|226/290
+  move|p1a: Ludicolo|Hydro Pump|p2a: Glalie
+  -damage|p2a: Glalie|0 fnt
+  faint|p2a: Glalie
+  -damage|p1a: Ludicolo|197/290|[from] item: Life Orb
+  switch|p2a: Pelipper|Pelipper, L86, F|100/100
+  -weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+-- turn 7
+  WE CHOSE: switch to ampharos - our hp 0.68, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Ampharos|Ampharos, L88, F|302/302
+  move|p2a: Pelipper|Hurricane|p1a: Ampharos
+  -resisted|p1a: Ampharos
+  -crit|p1a: Ampharos
+  -damage|p1a: Ampharos|248/302
+  -start|p1a: Ampharos|confusion
+  -weather|RainDance|[upkeep]
+-- turn 8
+  WE CHOSE: attack discharge - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Pelipper|Hurricane|p1a: Ampharos
+  -resisted|p1a: Ampharos
+  -damage|p1a: Ampharos|209/302
+  -activate|p1a: Ampharos|confusion
+  -damage|p1a: Ampharos|188/302|[from] confusion
+  -weather|RainDance|[upkeep]
+-- turn 9
+  WE CHOSE: attack discharge - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Pelipper|Hurricane|p1a: Ampharos
+  -resisted|p1a: Ampharos
+  -damage|p1a: Ampharos|153/302
+  -activate|p1a: Ampharos|confusion
+  move|p1a: Ampharos|Discharge|p2a: Pelipper
+  -supereffective|p2a: Pelipper
+  -crit|p2a: Pelipper
+  -damage|p2a: Pelipper|0 fnt
+  faint|p2a: Pelipper
+  -weather|RainDance|[upkeep]
+  switch|p2a: Kilowattrel|Kilowattrel, L83, F|100/100
+-- turn 10
+  WE CHOSE: attack discharge - our hp 0.51, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Ampharos
+  -resisted|p1a: Ampharos
+  -damage|p1a: Ampharos|117/302
+  -activate|p1a: Ampharos|confusion
+  move|p1a: Ampharos|Discharge|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+  -weather|RainDance|[upkeep]
+-- turn 11
+  WE CHOSE: attack discharge - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Ampharos
+  -resisted|p1a: Ampharos
+  -damage|p1a: Ampharos|81/302
+  -end|p1a: Ampharos|confusion
+  move|p1a: Ampharos|Discharge|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+  -weather|none
+-- turn 12
+  WE CHOSE: attack discharge - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Ampharos|[miss]
+  -miss|p2a: Kilowattrel|p1a: Ampharos
+  move|p1a: Ampharos|Discharge|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 13
+  WE CHOSE: attack discharge - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Ampharos
+  -resisted|p1a: Ampharos
+  -damage|p1a: Ampharos|42/302
+  -start|p1a: Ampharos|confusion
+  -activate|p1a: Ampharos|confusion
+  -damage|p1a: Ampharos|23/302|[from] confusion
+-- turn 14
+  WE CHOSE: attack discharge - our hp 0.08, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to revavroom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Ampharos
+  -resisted|p1a: Ampharos
+  -damage|p1a: Ampharos|0 fnt
+  faint|p1a: Ampharos
+  switch|p1a: Revavroom|Revavroom, L79, F|256/256
+-- turn 15
+  WE CHOSE: setup shiftgear - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Revavroom
+  -resisted|p1a: Revavroom
+  -damage|p1a: Revavroom|181/256
+  move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+  -boost|p1a: Revavroom|spe|2
+  -boost|p1a: Revavroom|atk|1
+-- turn 16
+  WE CHOSE: setup shiftgear - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+  -boost|p1a: Revavroom|spe|2
+  -boost|p1a: Revavroom|atk|1
+  move|p2a: Kilowattrel|Hurricane|p1a: Revavroom
+  -resisted|p1a: Revavroom
+  -damage|p1a: Revavroom|103/256
+-- turn 17
+  WE CHOSE: attack gunkshot - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Revavroom|Gunk Shot|p2a: Kilowattrel
+  -damage|p2a: Kilowattrel|0 fnt
+  faint|p2a: Kilowattrel
+  -damage|p1a: Revavroom|78/256|[from] item: Life Orb
+  switch|p2a: Mudsdale|Mudsdale, L83, M|100/100
+-- turn 18
+  WE CHOSE: switch to ludicolo - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Ludicolo|Ludicolo, L90, F|197/290
+  move|p2a: Mudsdale|Stone Edge|p1a: Ludicolo
+  -damage|p1a: Ludicolo|100/290
+-- turn 19
+  WE CHOSE: attack hydropump - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Ludicolo|Hydro Pump|p2a: Mudsdale
+  -supereffective|p2a: Mudsdale
+  -damage|p2a: Mudsdale|0 fnt
+  faint|p2a: Mudsdale
+  -damage|p1a: Ludicolo|71/290|[from] item: Life Orb
+  switch|p2a: Misdreavus|Misdreavus, L90, F|100/100
+-- turn 20
+  WE CHOSE: attack hydropump - our hp 0.24, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to revavroom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Misdreavus|Shadow Ball|p1a: Ludicolo
+  -damage|p1a: Ludicolo|0 fnt
+  faint|p1a: Ludicolo
+  switch|p1a: Revavroom|Revavroom, L79, F|78/256
+-- turn 21
+  WE CHOSE: attack ironhead - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Misdreavus|Shadow Ball|p1a: Revavroom
+  -damage|p1a: Revavroom|0 fnt
+  faint|p1a: Revavroom
+  switch|p1a: Volbeat|Volbeat, L90, M|263/263
+-- turn 22
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Misdreavus|Shadow Ball|p1a: Volbeat
+  -damage|p1a: Volbeat|173/263
+  move|p1a: Volbeat|U-turn|p2a: Misdreavus
+  -resisted|p2a: Misdreavus
+  -damage|p2a: Misdreavus|90/100
+-- turn 23
+  WE CHOSE: attack uturn - our hp 0.66, theirs 0.90, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|U-turn|p2a: Misdreavus
+  -resisted|p2a: Misdreavus
+  -damage|p2a: Misdreavus|78/100
+  move|p2a: Misdreavus|Shadow Ball|p1a: Volbeat
+  -damage|p1a: Volbeat|83/263
+-- turn 24
+  WE CHOSE: heal roost - our hp 0.32, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|215/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Misdreavus|Shadow Ball|p1a: Volbeat
+  -damage|p1a: Volbeat|137/263
+  -unboost|p1a: Volbeat|spd|1
+-- turn 25
+  WE CHOSE: attack uturn - our hp 0.52, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|U-turn|p2a: Misdreavus
+  -resisted|p2a: Misdreavus
+  -damage|p2a: Misdreavus|67/100
+  move|p2a: Misdreavus|Shadow Ball|p1a: Volbeat
+  -damage|p1a: Volbeat|0 fnt
+  faint|p1a: Volbeat
+  deinit

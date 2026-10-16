@@ -1,0 +1,214 @@
+battle 1649 (battle-gen9randombattle-1021880): lost in 23 turns, 1 of theirs left; we are p1
+
+ours:
+  ursaluna (fainted; item flameorb, ability guts, tera normal; moves trailblaze/crunch/facade/headlongrush)
+  krookodile (fainted; item lifeorb, ability intimidate; moves stealthrock/gunkshot/knockoff/earthquake)
+  avalugg (fainted; item heavydutyboots, ability sturdy; moves rapidspin/bodypress/avalanche/recover)
+  deoxysattack (fainted; item lifeorb, ability pressure; moves superpower/knockoff/icebeam/psychoboost)
+  politoed (fainted; item choicespecs, ability drizzle; moves icebeam/weatherball/hydropump/focusblast)
+  wigglytuff (fainted; item leftovers, ability competitive; moves knockoff/dazzlinggleam/fireblast/thunderwave)
+theirs (as seen):
+  masquerain (fainted; item unknown_item, ability intimidate; moves hurricane)
+  snorlax (fainted; item leftovers, ability ?; moves earthquake)
+  magnezone (fainted; item unknown_item, ability ?; moves thunderbolt)
+  lapras (fainted; item unknown_item, ability ?; moves sparklingaria)
+  luvdisc (fainted; item unknown_item, ability ?; moves surf)
+  latias (100%; item unknown_item, ability levitate; moves dracometeor)
+
+-- turn 0
+  switch|p1a: Ursaluna|Ursaluna, L79, M|335/335
+  switch|p2a: Masquerain|Masquerain, L87, M|100/100
+  -ability|p2a: Masquerain|Intimidate|boost
+  -unboost|p1a: Ursaluna|atk|1
+-- turn 1
+  WE CHOSE: attack+tera facade - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Ursaluna|Normal
+  move|p2a: Masquerain|Hurricane|p1a: Ursaluna
+  -crit|p1a: Ursaluna
+  -damage|p1a: Ursaluna|133/335
+  -start|p1a: Ursaluna|confusion
+  -activate|p1a: Ursaluna|confusion
+  move|p1a: Ursaluna|Facade|p2a: Masquerain
+  -damage|p2a: Masquerain|64/100
+  -status|p1a: Ursaluna|brn|[from] item: Flame Orb
+-- turn 2
+  WE CHOSE: attack facade - our hp 0.40, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to deoxysattack - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p2a: Masquerain|Hurricane|p1a: Ursaluna
+  -damage|p1a: Ursaluna|0 fnt
+  faint|p1a: Ursaluna
+  switch|p1a: Deoxys|Deoxys-Attack, L72|191/191
+  -ability|p1a: Deoxys|Pressure
+-- turn 3
+  WE CHOSE: attack psychoboost - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to wigglytuff - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Masquerain|[miss]
+  -miss|p1a: Deoxys|p2a: Masquerain
+  move|p2a: Masquerain|Hurricane|p1a: Deoxys
+  -crit|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  faint|p1a: Deoxys
+  switch|p1a: Wigglytuff|Wigglytuff, L96, M|424/424
+-- turn 4
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p2a: Masquerain|Hurricane|p1a: Wigglytuff
+  -damage|p1a: Wigglytuff|258/424
+  move|p1a: Wigglytuff|Fire Blast|p2a: Masquerain
+  -supereffective|p2a: Masquerain
+  -damage|p2a: Masquerain|0 fnt
+  faint|p2a: Masquerain
+  -heal|p1a: Wigglytuff|284/424|[from] item: Leftovers
+  switch|p2a: Snorlax|Snorlax, L82, F|100/100
+-- turn 5
+  WE CHOSE: attack dazzlinggleam - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Wigglytuff|Dazzling Gleam|p2a: Snorlax
+  -damage|p2a: Snorlax|78/100
+  move|p2a: Snorlax|Earthquake|p1a: Wigglytuff
+  -damage|p1a: Wigglytuff|187/424
+  -heal|p1a: Wigglytuff|213/424|[from] item: Leftovers
+  -heal|p2a: Snorlax|84/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack dazzlinggleam - our hp 0.50, theirs 0.84, predicted move (revealed) hits us x1
+  move|p1a: Wigglytuff|Dazzling Gleam|p2a: Snorlax
+  -damage|p2a: Snorlax|63/100
+  move|p2a: Snorlax|Earthquake|p1a: Wigglytuff
+  -damage|p1a: Wigglytuff|116/424
+  -heal|p1a: Wigglytuff|142/424|[from] item: Leftovers
+  -heal|p2a: Snorlax|69/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack dazzlinggleam - our hp 0.33, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Wigglytuff|Dazzling Gleam|p2a: Snorlax
+  -damage|p2a: Snorlax|46/100
+  move|p2a: Snorlax|Earthquake|p1a: Wigglytuff
+  -damage|p1a: Wigglytuff|36/424
+  -heal|p1a: Wigglytuff|62/424|[from] item: Leftovers
+  -heal|p2a: Snorlax|52/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack dazzlinggleam - our hp 0.15, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to politoed - our hp 0.00, theirs 0.39, predicted move (revealed) hits us x1
+  move|p1a: Wigglytuff|Dazzling Gleam|p2a: Snorlax
+  -damage|p2a: Snorlax|32/100
+  move|p2a: Snorlax|Earthquake|p1a: Wigglytuff
+  -damage|p1a: Wigglytuff|0 fnt
+  faint|p1a: Wigglytuff
+  -heal|p2a: Snorlax|39/100|[from] item: Leftovers
+  switch|p1a: Politoed|Politoed, L88, M|302/302
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+-- turn 9
+  WE CHOSE: attack focusblast - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x1
+  move|p1a: Politoed|Focus Blast|p2a: Snorlax
+  -supereffective|p2a: Snorlax
+  -crit|p2a: Snorlax
+  -damage|p2a: Snorlax|0 fnt
+  faint|p2a: Snorlax
+  -weather|RainDance|[upkeep]
+  switch|p2a: Magnezone|Magnezone, L84|100/100
+-- turn 10
+  WE CHOSE: switch to krookodile - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Krookodile|Krookodile, L79, F|280/280
+  -ability|p1a: Krookodile|Intimidate|boost
+  -unboost|p2a: Magnezone|atk|1
+  move|p2a: Magnezone|Thunderbolt|p1a: Krookodile
+  -immune|p1a: Krookodile
+  -weather|RainDance|[upkeep]
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Krookodile|Earthquake|p2a: Magnezone
+  -supereffective|p2a: Magnezone
+  -damage|p2a: Magnezone|0 fnt
+  faint|p2a: Magnezone
+  -damage|p1a: Krookodile|252/280|[from] item: Life Orb
+  -weather|RainDance|[upkeep]
+  switch|p2a: Lapras|Lapras, L87, F|100/100
+-- turn 12
+  WE CHOSE: switch to politoed - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Politoed|Politoed, L88, M|302/302
+  move|p2a: Lapras|Sparkling Aria|p1a: Politoed
+  -resisted|p1a: Politoed
+  -damage|p1a: Politoed|246/302
+  -weather|RainDance|[upkeep]
+-- turn 13
+  WE CHOSE: attack focusblast - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Politoed|Focus Blast|p2a: Lapras|[miss]
+  -miss|p1a: Politoed|p2a: Lapras
+  move|p2a: Lapras|Sparkling Aria|p1a: Politoed
+  -resisted|p1a: Politoed
+  -damage|p1a: Politoed|182/302
+  -weather|none
+-- turn 14
+  WE CHOSE: attack focusblast - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Politoed|Focus Blast|p2a: Lapras|[miss]
+  -miss|p1a: Politoed|p2a: Lapras
+  move|p2a: Lapras|Sparkling Aria|p1a: Politoed
+  -resisted|p1a: Politoed
+  -damage|p1a: Politoed|143/302
+-- turn 15
+  WE CHOSE: attack focusblast - our hp 0.47, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Politoed|Focus Blast|p2a: Lapras
+  -supereffective|p2a: Lapras
+  -damage|p2a: Lapras|37/100
+  move|p2a: Lapras|Sparkling Aria|p1a: Politoed
+  -resisted|p1a: Politoed
+  -damage|p1a: Politoed|104/302
+-- turn 16
+  WE CHOSE: attack focusblast - our hp 0.34, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p1a: Politoed|Focus Blast|p2a: Lapras|[miss]
+  -miss|p1a: Politoed|p2a: Lapras
+  move|p2a: Lapras|Sparkling Aria|p1a: Politoed
+  -resisted|p1a: Politoed
+  -damage|p1a: Politoed|65/302
+-- turn 17
+  WE CHOSE: attack focusblast - our hp 0.22, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p1a: Politoed|Focus Blast|p2a: Lapras
+  -supereffective|p2a: Lapras
+  -damage|p2a: Lapras|0 fnt
+  faint|p2a: Lapras
+  switch|p2a: Luvdisc|Luvdisc, M|100/100
+-- turn 18
+  WE CHOSE: attack focusblast - our hp 0.22, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Luvdisc|Surf|p1a: Politoed
+  -resisted|p1a: Politoed
+  -damage|p1a: Politoed|35/302
+  move|p1a: Politoed|Focus Blast|p2a: Luvdisc|[miss]
+  -miss|p1a: Politoed|p2a: Luvdisc
+-- turn 19
+  WE CHOSE: attack focusblast - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Luvdisc|Surf|p1a: Politoed
+  -resisted|p1a: Politoed
+  -damage|p1a: Politoed|5/302
+  move|p1a: Politoed|Focus Blast|p2a: Luvdisc
+  -damage|p2a: Luvdisc|45/100
+-- turn 20
+  WE CHOSE: attack icebeam - our hp 0.02, theirs 0.45, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to avalugg - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p2a: Luvdisc|Surf|p1a: Politoed
+  -resisted|p1a: Politoed
+  -damage|p1a: Politoed|0 fnt
+  faint|p1a: Politoed
+  switch|p1a: Avalugg|Avalugg, L88, F|310/310
+-- turn 21
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Luvdisc|Surf|p1a: Avalugg
+  -damage|p1a: Avalugg|205/310
+  move|p1a: Avalugg|Body Press|p2a: Luvdisc
+  -damage|p2a: Luvdisc|0 fnt
+  faint|p2a: Luvdisc
+  switch|p2a: Latias|Latias, L79, F|100/100
+-- turn 22
+  WE CHOSE: attack avalanche - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to krookodile - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Latias|Draco Meteor|p1a: Avalugg
+  -damage|p1a: Avalugg|0 fnt
+  -unboost|p2a: Latias|spa|2
+  faint|p1a: Avalugg
+  switch|p1a: Krookodile|Krookodile, L79, F|252/280
+  -ability|p1a: Krookodile|Intimidate|boost
+  -unboost|p2a: Latias|atk|1
+-- turn 23
+  WE CHOSE: attack knockoff - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Latias|Draco Meteor|p1a: Krookodile
+  -crit|p1a: Krookodile
+  -damage|p1a: Krookodile|0 fnt
+  -unboost|p2a: Latias|spa|2
+  faint|p1a: Krookodile
+  deinit

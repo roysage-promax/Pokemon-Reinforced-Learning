@@ -1,0 +1,254 @@
+battle 1556 (battle-gen9randombattle-1022118): lost in 26 turns, 1 of theirs left; we are p1
+
+ours:
+  carbink (fainted; item chestoberry, ability clearbody; moves rest/bodypress/moonblast/irondefense)
+  ambipom (fainted; item silkscarf, ability technician, tera normal; moves doubleedge/fakeout/uturn/knockoff)
+  ironleaves (fainted; item choiceband, ability quarkdrive; moves megahorn/closecombat/psyblade/leafblade)
+  magmortar (fainted; item heavydutyboots, ability flamebody; moves fireblast/focusblast/knockoff/willowisp)
+  shayminsky (fainted; item leftovers, ability serenegrace; moves substitute/leechseed/seedflare/airslash)
+  samurott (fainted; item assaultvest, ability torrent; moves aquajet/knockoff/hydropump/icebeam)
+theirs (as seen):
+  qwilfish (fainted; item leftovers, ability intimidate; moves gunkshot)
+  bronzong (fainted; item unknown_item, ability ?; moves bodypress)
+  kyogre (fainted; item unknown_item, ability drizzle; moves waterspout)
+  grimmsnarl (fainted; item leftovers, ability ?; moves spiritbreak)
+  passimian (fainted; item unknown_item, ability ?; moves closecombat)
+  hydrapple (62%; item unknown_item, ability ?; moves leafstorm)
+
+-- turn 0
+  switch|p1a: Carbink|Carbink, L90|236/236
+  switch|p2a: Qwilfish|Qwilfish, L86, M|100/100
+  -ability|p2a: Qwilfish|Intimidate|boost
+  -fail|p1a: Carbink|unboost|[from] ability: Clear Body|[of] p1a: Carbink
+-- turn 1
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Qwilfish|Gunk Shot|p1a: Carbink
+  -damage|p1a: Carbink|161/236
+  move|p1a: Carbink|Moonblast|p2a: Qwilfish
+  -resisted|p2a: Qwilfish
+  -damage|p2a: Qwilfish|82/100
+  -heal|p2a: Qwilfish|88/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack moonblast - our hp 0.68, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Qwilfish|Gunk Shot|p1a: Carbink
+  -damage|p1a: Carbink|77/236
+  -status|p1a: Carbink|psn
+  move|p1a: Carbink|Moonblast|p2a: Qwilfish
+  -resisted|p2a: Qwilfish
+  -damage|p2a: Qwilfish|68/100
+  -heal|p2a: Qwilfish|74/100|[from] item: Leftovers
+  -damage|p1a: Carbink|48/236 psn|[from] psn
+-- turn 3
+  WE CHOSE: attack moonblast (hand policy: heal rest) - our hp 0.20, theirs 0.74, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 0.79, predicted move (revealed) hits us x1
+  move|p2a: Qwilfish|Gunk Shot|p1a: Carbink
+  -damage|p1a: Carbink|0 fnt
+  faint|p1a: Carbink
+  -heal|p2a: Qwilfish|79/100|[from] item: Leftovers
+  switch|p1a: Ambipom|Ambipom, L84, M|263/263
+-- turn 4
+  WE CHOSE: attack+tera doubleedge - our hp 1.00, theirs 0.79, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironleaves - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x1
+  -terastallize|p1a: Ambipom|Normal
+  move|p1a: Ambipom|Double-Edge|p2a: Qwilfish
+  -damage|p2a: Qwilfish|1/100
+  -damage|p1a: Ambipom|198/263|[from] Recoil
+  move|p2a: Qwilfish|Gunk Shot|p1a: Ambipom
+  -damage|p1a: Ambipom|29/263
+  -status|p1a: Ambipom|psn
+  -heal|p2a: Qwilfish|7/100|[from] item: Leftovers
+  -damage|p1a: Ambipom|0 fnt|[from] psn
+  faint|p1a: Ambipom
+  switch|p1a: Iron Leaves|Iron Leaves, L80|275/275
+-- turn 5
+  WE CHOSE: attack psyblade - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x2
+  move|p1a: Iron Leaves|Psyblade|p2a: Qwilfish
+  -supereffective|p2a: Qwilfish
+  -damage|p2a: Qwilfish|0 fnt
+  faint|p2a: Qwilfish
+  switch|p2a: Bronzong|Bronzong, L88|100/100
+-- turn 6
+  WE CHOSE: switch to shayminsky (hand policy: attack psyblade) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  -end|p1a: Iron Leaves|Quark Drive|[silent]
+  switch|p1a: Shaymin|Shaymin-Sky, L73|266/266
+  move|p2a: Bronzong|Body Press|p1a: Shaymin
+  -resisted|p1a: Shaymin
+  -damage|p1a: Shaymin|224/266
+  -heal|p1a: Shaymin|240/266|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: switch to ironleaves (hand policy: attack seedflare) - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Iron Leaves|Iron Leaves, L80|275/275
+  move|p2a: Bronzong|Body Press|p1a: Iron Leaves
+  -resisted|p1a: Iron Leaves
+  -damage|p1a: Iron Leaves|239/275
+-- turn 8
+  WE CHOSE: attack closecombat - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Leaves|Close Combat|p2a: Bronzong
+  -damage|p2a: Bronzong|55/100
+  -unboost|p1a: Iron Leaves|def|1
+  -unboost|p1a: Iron Leaves|spd|1
+  move|p2a: Bronzong|Body Press|p1a: Iron Leaves
+  -resisted|p1a: Iron Leaves
+  -damage|p1a: Iron Leaves|185/275
+-- turn 9
+  WE CHOSE: attack closecombat - our hp 0.67, theirs 0.55, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Leaves|Close Combat|p2a: Bronzong
+  -damage|p2a: Bronzong|10/100
+  -unboost|p1a: Iron Leaves|def|1
+  -unboost|p1a: Iron Leaves|spd|1
+  move|p2a: Bronzong|Body Press|p1a: Iron Leaves
+  -resisted|p1a: Iron Leaves
+  -damage|p1a: Iron Leaves|112/275
+-- turn 10
+  WE CHOSE: attack closecombat - our hp 0.41, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Leaves|Close Combat|p2a: Bronzong
+  -damage|p2a: Bronzong|0 fnt
+  -unboost|p1a: Iron Leaves|def|1
+  -unboost|p1a: Iron Leaves|spd|1
+  faint|p2a: Bronzong
+  switch|p2a: Kyogre|Kyogre, L71|100/100
+  -weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+-- turn 11
+  WE CHOSE: switch to shayminsky (hand policy: attack closecombat) - our hp 0.41, theirs 1.00, predicted move (guessed) hits us x0.5
+  -end|p1a: Iron Leaves|Quark Drive|[silent]
+  switch|p1a: Shaymin|Shaymin-Sky, L73|240/266
+  move|p2a: Kyogre|Water Spout|p1a: Shaymin
+  -resisted|p1a: Shaymin
+  -damage|p1a: Shaymin|77/266
+  -weather|RainDance|[upkeep]
+  -heal|p1a: Shaymin|93/266|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack seedflare - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to samurott (hand policy: forced: switch to ironleaves) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kyogre|Water Spout|p1a: Shaymin
+  -resisted|p1a: Shaymin
+  -damage|p1a: Shaymin|0 fnt
+  faint|p1a: Shaymin
+  -weather|RainDance|[upkeep]
+  switch|p1a: Samurott|Samurott, L88, M|310/310
+-- turn 13
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kyogre|Water Spout|p1a: Samurott
+  -resisted|p1a: Samurott
+  -damage|p1a: Samurott|223/310
+  move|p1a: Samurott|Hydro Pump|p2a: Kyogre|[miss]
+  -miss|p1a: Samurott|p2a: Kyogre
+  -weather|RainDance|[upkeep]
+-- turn 14
+  WE CHOSE: attack hydropump - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kyogre|Water Spout|p1a: Samurott
+  -resisted|p1a: Samurott
+  -damage|p1a: Samurott|124/310
+  move|p1a: Samurott|Hydro Pump|p2a: Kyogre
+  -resisted|p2a: Kyogre
+  -damage|p2a: Kyogre|67/100
+  -weather|RainDance|[upkeep]
+-- turn 15
+  WE CHOSE: attack aquajet (hand policy: attack hydropump) - our hp 0.40, theirs 0.67, predicted move (revealed) hits us x0.5
+  move|p1a: Samurott|Aqua Jet|p2a: Kyogre
+  -resisted|p2a: Kyogre
+  -damage|p2a: Kyogre|51/100
+  move|p2a: Kyogre|Water Spout|p1a: Samurott
+  -resisted|p1a: Samurott
+  -damage|p1a: Samurott|79/310
+  -weather|none
+-- turn 16
+  WE CHOSE: attack aquajet (hand policy: attack hydropump) - our hp 0.25, theirs 0.51, predicted move (revealed) hits us x0.5
+  move|p1a: Samurott|Aqua Jet|p2a: Kyogre
+  -resisted|p2a: Kyogre
+  -damage|p2a: Kyogre|36/100
+  move|p2a: Kyogre|Water Spout|p1a: Samurott
+  -resisted|p1a: Samurott
+  -damage|p1a: Samurott|56/310
+-- turn 17
+  WE CHOSE: attack aquajet (hand policy: attack hydropump) - our hp 0.18, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p1a: Samurott|Aqua Jet|p2a: Kyogre
+  -resisted|p2a: Kyogre
+  -damage|p2a: Kyogre|19/100
+  move|p2a: Kyogre|Water Spout|p1a: Samurott
+  -resisted|p1a: Samurott
+  -damage|p1a: Samurott|46/310
+-- turn 18
+  WE CHOSE: attack aquajet (hand policy: attack hydropump) - our hp 0.15, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p1a: Samurott|Aqua Jet|p2a: Kyogre
+  -resisted|p2a: Kyogre
+  -damage|p2a: Kyogre|4/100
+  move|p2a: Kyogre|Water Spout|p1a: Samurott
+  -resisted|p1a: Samurott
+  -damage|p1a: Samurott|44/310
+-- turn 19
+  WE CHOSE: attack hydropump - our hp 0.14, theirs 0.04, predicted move (revealed) hits us x0.5
+  -activate|p2a: Kyogre|move: Struggle
+  move|p2a: Kyogre|Struggle|p1a: Samurott
+  -damage|p1a: Samurott|22/310
+  -damage|p2a: Kyogre|0 fnt|[from] recoil
+  faint|p2a: Kyogre
+  move|p1a: Samurott|Hydro Pump|p2: Kyogre|[notarget]
+  -fail|p1a: Samurott
+  switch|p2a: Grimmsnarl|Grimmsnarl, L83, M|100/100
+-- turn 20
+  WE CHOSE: attack aquajet (hand policy: attack hydropump) - our hp 0.07, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to magmortar - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Samurott|Aqua Jet|p2a: Grimmsnarl
+  -damage|p2a: Grimmsnarl|70/100
+  move|p2a: Grimmsnarl|Spirit Break|p1a: Samurott
+  -damage|p1a: Samurott|0 fnt
+  faint|p1a: Samurott
+  -heal|p2a: Grimmsnarl|76/100|[from] item: Leftovers
+  switch|p1a: Magmortar|Magmortar, L88, M|275/275
+-- turn 21
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x0.5
+  move|p1a: Magmortar|Fire Blast|p2a: Grimmsnarl
+  -damage|p2a: Grimmsnarl|16/100
+  move|p2a: Grimmsnarl|Spirit Break|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|219/275
+  -unboost|p1a: Magmortar|spa|1
+  -heal|p2a: Grimmsnarl|22/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack fireblast - our hp 0.80, theirs 0.22, predicted move (revealed) hits us x0.5
+  move|p1a: Magmortar|Fire Blast|p2a: Grimmsnarl
+  -damage|p2a: Grimmsnarl|0 fnt
+  faint|p2a: Grimmsnarl
+  switch|p2a: Passimian|Passimian, L83, F|100/100
+-- turn 23
+  WE CHOSE: attack fireblast - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Passimian|Close Combat|p1a: Magmortar
+  -damage|p1a: Magmortar|35/275
+  -unboost|p2a: Passimian|def|1
+  -unboost|p2a: Passimian|spd|1
+  move|p1a: Magmortar|Fire Blast|p2a: Passimian|[miss]
+  -miss|p1a: Magmortar|p2a: Passimian
+-- turn 24
+  WE CHOSE: attack fireblast - our hp 0.13, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironleaves - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Passimian|Close Combat|p1a: Magmortar
+  -damage|p1a: Magmortar|0 fnt
+  -unboost|p2a: Passimian|def|1
+  -unboost|p2a: Passimian|spd|1
+  faint|p1a: Magmortar
+  switch|p1a: Iron Leaves|Iron Leaves, L80|112/275
+-- turn 25
+  WE CHOSE: attack psyblade - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Close Combat|p1a: Iron Leaves
+  -resisted|p1a: Iron Leaves
+  -damage|p1a: Iron Leaves|34/275
+  -unboost|p2a: Passimian|def|1
+  -unboost|p2a: Passimian|spd|1
+  move|p1a: Iron Leaves|Psyblade|p2a: Passimian
+  -supereffective|p2a: Passimian
+  -damage|p2a: Passimian|0 fnt
+  faint|p2a: Passimian
+  switch|p2a: Hydrapple|Hydrapple, L83, M|100/100
+-- turn 26
+  WE CHOSE: attack psyblade - our hp 0.12, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Iron Leaves|Psyblade|p2a: Hydrapple
+  -damage|p2a: Hydrapple|62/100
+  move|p2a: Hydrapple|Leaf Storm|p1a: Iron Leaves
+  -resisted|p1a: Iron Leaves
+  -crit|p1a: Iron Leaves
+  -damage|p1a: Iron Leaves|0 fnt
+  -unboost|p2a: Hydrapple|spa|2
+  faint|p1a: Iron Leaves
+  -end|p1a: Iron Leaves|Quark Drive|[silent]
+  deinit

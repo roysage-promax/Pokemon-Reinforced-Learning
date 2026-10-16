@@ -1,0 +1,487 @@
+battle 468 (battle-gen9randombattle-1011056): lost in 52 turns, 3 of theirs left; we are p1
+
+ours:
+  baxcalibur (fainted; item loadeddice, ability thermalexchange; moves iciclespear/scaleshot/earthquake/swordsdance)
+  arcaninehisui (fainted; item choiceband, ability rockhead; moves extremespeed/flareblitz/headsmash/wildcharge)
+  cresselia (fainted; item leftovers, ability levitate; moves moonlight/thunderbolt/calmmind/psyshock)
+  rabsca (fainted; item heavydutyboots, ability synchronize; moves bugbuzz/revivalblessing/trickroom/psychic)
+  garganacl (fainted; item leftovers, ability purifyingsalt; moves irondefense/recover/saltcure/bodypress)
+  quagsire (fainted; item leftovers, ability unaware, tera steel; moves toxic/recover/spikes/earthquake)
+theirs (as seen):
+  dachsbun (fainted; item leftovers, ability wellbakedbody; moves playrough)
+  dondozo (fainted; item leftovers, ability ?; moves wavecrash)
+  archaludon (fainted; item leftovers, ability stamina; moves dracometeor/flashcannon/bodypress)
+  giratina (99%; item leftovers, ability pressure; moves shadowball)
+
+-- turn 0
+  switch|p1a: Baxcalibur|Baxcalibur, L75, F|295/295
+  switch|p2a: Dachsbun|Dachsbun, L92, F|100/100
+-- turn 1
+  WE CHOSE: switch to arcaninehisui - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Arcanine|Arcanine-Hisui, L79, F|279/279
+  move|p2a: Dachsbun|Play Rough|p1a: Arcanine
+  -resisted|p1a: Arcanine
+  -crit|p1a: Arcanine
+  -damage|p1a: Arcanine|191/279
+-- turn 2
+  WE CHOSE: attack flareblitz - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Arcanine
+  -resisted|p1a: Arcanine
+  -damage|p1a: Arcanine|134/279
+  -unboost|p1a: Arcanine|atk|1
+  move|p1a: Arcanine|Flare Blitz|p2a: Dachsbun
+  -ability|p2a: Dachsbun|Well-Baked Body|boost
+  -boost|p2a: Dachsbun|def|2
+-- turn 3
+  WE CHOSE: attack flareblitz - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Arcanine
+  -resisted|p1a: Arcanine
+  -damage|p1a: Arcanine|83/279
+  move|p1a: Arcanine|Flare Blitz|p2a: Dachsbun
+  -ability|p2a: Dachsbun|Well-Baked Body|boost
+  -boost|p2a: Dachsbun|def|2
+-- turn 4
+  WE CHOSE: attack flareblitz - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Arcanine|[miss]
+  -miss|p2a: Dachsbun|p1a: Arcanine
+  move|p1a: Arcanine|Flare Blitz|p2a: Dachsbun
+  -ability|p2a: Dachsbun|Well-Baked Body|boost
+  -boost|p2a: Dachsbun|def|2
+-- turn 5
+  WE CHOSE: attack flareblitz - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Arcanine
+  -resisted|p1a: Arcanine
+  -damage|p1a: Arcanine|31/279
+  move|p1a: Arcanine|Flare Blitz|p2a: Dachsbun
+  -immune|p2a: Dachsbun|[from] ability: Well-Baked Body
+-- turn 6
+  WE CHOSE: attack flareblitz - our hp 0.11, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to quagsire - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Arcanine
+  -resisted|p1a: Arcanine
+  -damage|p1a: Arcanine|0 fnt
+  faint|p1a: Arcanine
+  switch|p1a: Quagsire|Quagsire, L84, F|297/297
+-- turn 7
+  WE CHOSE: attack+tera earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Quagsire|Steel
+  move|p2a: Dachsbun|Play Rough|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|248/297
+  move|p1a: Quagsire|Earthquake|p2a: Dachsbun
+  -damage|p2a: Dachsbun|72/100
+  -heal|p2a: Dachsbun|78/100|[from] item: Leftovers
+  -heal|p1a: Quagsire|266/297|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 0.90, theirs 0.78, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|214/297
+  move|p1a: Quagsire|Earthquake|p2a: Dachsbun
+  -damage|p2a: Dachsbun|48/100
+  -heal|p2a: Dachsbun|54/100|[from] item: Leftovers
+  -heal|p1a: Quagsire|232/297|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.78, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|185/297
+  move|p1a: Quagsire|Earthquake|p2a: Dachsbun
+  -damage|p2a: Dachsbun|27/100
+  -heal|p2a: Dachsbun|33/100|[from] item: Leftovers
+  -heal|p1a: Quagsire|203/297|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.68, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|154/297
+  move|p1a: Quagsire|Earthquake|p2a: Dachsbun
+  -damage|p2a: Dachsbun|7/100
+  -heal|p2a: Dachsbun|13/100|[from] item: Leftovers
+  -heal|p1a: Quagsire|172/297|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 0.58, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|118/297
+  move|p1a: Quagsire|Earthquake|p2a: Dachsbun
+  -damage|p2a: Dachsbun|0 fnt
+  faint|p2a: Dachsbun
+  -heal|p1a: Quagsire|136/297|[from] item: Leftovers
+  switch|p2a: Dondozo|Dondozo, L78, M|100/100
+-- turn 12
+  WE CHOSE: attack earthquake (hand policy: heal recover) - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Quagsire|Earthquake|p2a: Dondozo
+  -damage|p2a: Dondozo|77/100
+  move|p2a: Dondozo|Wave Crash|p1a: Quagsire
+  -damage|p1a: Quagsire|9/297
+  -damage|p2a: Dondozo|65/100|[from] Recoil
+  -heal|p1a: Quagsire|27/297|[from] item: Leftovers
+  -heal|p2a: Dondozo|71/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal recover - our hp 0.09, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Quagsire|Recover|p1a: Quagsire
+  -heal|p1a: Quagsire|176/297
+  move|p2a: Dondozo|Wave Crash|p1a: Quagsire
+  -damage|p1a: Quagsire|55/297
+  -damage|p2a: Dondozo|60/100|[from] Recoil
+  -heal|p1a: Quagsire|73/297|[from] item: Leftovers
+  -heal|p2a: Dondozo|67/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal recover - our hp 0.25, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Quagsire|Recover|p1a: Quagsire
+  -heal|p1a: Quagsire|222/297
+  move|p2a: Dondozo|Wave Crash|p1a: Quagsire
+  -damage|p1a: Quagsire|104/297
+  -damage|p2a: Dondozo|56/100|[from] Recoil
+  -heal|p1a: Quagsire|122/297|[from] item: Leftovers
+  -heal|p2a: Dondozo|62/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack earthquake (hand policy: heal recover) - our hp 0.41, theirs 0.62, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cresselia - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Quagsire|Earthquake|p2a: Dondozo
+  -damage|p2a: Dondozo|39/100
+  move|p2a: Dondozo|Wave Crash|p1a: Quagsire
+  -damage|p1a: Quagsire|0 fnt
+  faint|p1a: Quagsire
+  -damage|p2a: Dondozo|28/100|[from] Recoil
+  -heal|p2a: Dondozo|34/100|[from] item: Leftovers
+  switch|p1a: Cresselia|Cresselia, L80, F|323/323
+-- turn 16
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Thunderbolt|p2a: Dondozo
+  -supereffective|p2a: Dondozo
+  -damage|p2a: Dondozo|0 fnt
+  faint|p2a: Dondozo
+  switch|p2a: Archaludon|Archaludon, L77, F|100/100
+-- turn 17
+  WE CHOSE: attack psyshock - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|91/100
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  move|p2a: Archaludon|Draco Meteor|p1a: Cresselia
+  -damage|p1a: Cresselia|200/323
+  -unboost|p2a: Archaludon|spa|2
+  -heal|p1a: Cresselia|220/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|97/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack psyshock - our hp 0.68, theirs 0.97, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|91/100
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  move|p2a: Archaludon|Draco Meteor|p1a: Cresselia|[miss]
+  -miss|p2a: Archaludon|p1a: Cresselia
+  -heal|p1a: Cresselia|240/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|97/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack psyshock - our hp 0.74, theirs 0.97, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|92/100
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  move|p2a: Archaludon|Draco Meteor|p1a: Cresselia
+  -damage|p1a: Cresselia|176/323
+  -unboost|p2a: Archaludon|spa|2
+  -heal|p1a: Cresselia|196/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|98/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal moonlight (hand policy: attack psyshock) - our hp 0.61, theirs 0.98, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -heal|p1a: Cresselia|323/323
+  move|p2a: Archaludon|Draco Meteor|p1a: Cresselia
+  -damage|p1a: Cresselia|283/323
+  -unboost|p2a: Archaludon|spa|2
+  -heal|p1a: Cresselia|303/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|100/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack psyshock - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|97/100
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  move|p2a: Archaludon|Draco Meteor|p1a: Cresselia
+  -damage|p1a: Cresselia|272/323
+  -heal|p1a: Cresselia|292/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|100/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack psyshock - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|97/100
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  move|p2a: Archaludon|Draco Meteor|p1a: Cresselia|[miss]
+  -miss|p2a: Archaludon|p1a: Cresselia
+  -heal|p1a: Cresselia|312/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|100/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack psyshock - our hp 0.97, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|97/100
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  move|p2a: Archaludon|Draco Meteor|p1a: Cresselia
+  -damage|p1a: Cresselia|279/323
+  -heal|p1a: Cresselia|299/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|100/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack psyshock - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|98/100
+  move|p2a: Archaludon|Draco Meteor|p1a: Cresselia
+  -damage|p1a: Cresselia|266/323
+  -heal|p1a: Cresselia|286/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|100/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack psyshock - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -crit|p2a: Archaludon
+  -damage|p2a: Archaludon|85/100
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|267/323
+  -unboost|p1a: Cresselia|spd|1
+  -heal|p1a: Cresselia|287/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|91/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack psyshock - our hp 0.89, theirs 0.91, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|88/100
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|260/323
+  -heal|p1a: Cresselia|280/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|94/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack psyshock - our hp 0.87, theirs 0.94, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|92/100
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|252/323
+  -heal|p1a: Cresselia|272/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|98/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack psyshock - our hp 0.84, theirs 0.98, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|95/100
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|244/323
+  -heal|p1a: Cresselia|264/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|100/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack psyshock - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|98/100
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|236/323
+  -heal|p1a: Cresselia|256/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|100/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack psyshock - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|98/100
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|231/323
+  -heal|p1a: Cresselia|251/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|100/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack psyshock - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|98/100
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|224/323
+  -heal|p1a: Cresselia|244/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|100/100|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack psyshock - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|98/100
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|216/323
+  -heal|p1a: Cresselia|236/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|100/100|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack psyshock - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Psyshock|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|98/100
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|208/323
+  -heal|p1a: Cresselia|228/323|[from] item: Leftovers
+  -heal|p2a: Archaludon|100/100|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: heal moonlight (hand policy: attack thunderbolt) - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -heal|p1a: Cresselia|323/323
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|295/323
+  -heal|p1a: Cresselia|315/323|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: heal moonlight (hand policy: attack thunderbolt) - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -heal|p1a: Cresselia|323/323
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|293/323
+  -heal|p1a: Cresselia|313/323|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: heal moonlight (hand policy: attack thunderbolt) - our hp 0.97, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -heal|p1a: Cresselia|323/323
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|293/323
+  -heal|p1a: Cresselia|313/323|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: heal moonlight (hand policy: attack thunderbolt) - our hp 0.97, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -heal|p1a: Cresselia|323/323
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|296/323
+  -heal|p1a: Cresselia|316/323|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: heal moonlight (hand policy: attack thunderbolt) - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -heal|p1a: Cresselia|323/323
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|298/323
+  -heal|p1a: Cresselia|318/323|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: heal moonlight (hand policy: attack thunderbolt) - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -heal|p1a: Cresselia|323/323
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|293/323
+  -heal|p1a: Cresselia|313/323|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: heal moonlight (hand policy: attack thunderbolt) - our hp 0.97, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -heal|p1a: Cresselia|323/323
+  move|p2a: Archaludon|Flash Cannon|p1a: Cresselia
+  -damage|p1a: Cresselia|296/323
+  -heal|p1a: Cresselia|316/323|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: switch to garganacl (hand policy: attack thunderbolt) - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rabsca - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Garganacl|Garganacl, L80, F|291/291
+  move|p2a: Archaludon|Body Press|p1a: Garganacl
+  -supereffective|p1a: Garganacl
+  -damage|p1a: Garganacl|0 fnt
+  faint|p1a: Garganacl
+  switch|p1a: Rabsca|Rabsca, L91, F|284/284
+-- turn 42
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Archaludon|Body Press|p1a: Rabsca
+  -resisted|p1a: Rabsca
+  -damage|p1a: Rabsca|228/284
+  move|p1a: Rabsca|Bug Buzz|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|71/100
+  -heal|p2a: Archaludon|77/100|[from] item: Leftovers
+-- turn 43
+  WE CHOSE: switch to baxcalibur (hand policy: attack bugbuzz) - our hp 0.80, theirs 0.77, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rabsca - our hp 0.00, theirs 0.83, predicted move (revealed) hits us x2
+  switch|p1a: Baxcalibur|Baxcalibur, L75, F|295/295
+  move|p2a: Archaludon|Body Press|p1a: Baxcalibur
+  -supereffective|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|0 fnt
+  faint|p1a: Baxcalibur
+  -heal|p2a: Archaludon|83/100|[from] item: Leftovers
+  switch|p1a: Rabsca|Rabsca, L91, F|228/284
+-- turn 44
+  WE CHOSE: attack bugbuzz - our hp 0.80, theirs 0.83, predicted move (revealed) hits us x1
+  move|p2a: Archaludon|Body Press|p1a: Rabsca
+  -resisted|p1a: Rabsca
+  -damage|p1a: Rabsca|168/284
+  move|p1a: Rabsca|Bug Buzz|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|53/100
+  -heal|p2a: Archaludon|59/100|[from] item: Leftovers
+-- turn 45
+  WE CHOSE: attack bugbuzz - our hp 0.59, theirs 0.59, predicted move (revealed) hits us x1
+  move|p2a: Archaludon|Body Press|p1a: Rabsca
+  -resisted|p1a: Rabsca
+  -damage|p1a: Rabsca|107/284
+  move|p1a: Rabsca|Bug Buzz|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|24/100
+  -heal|p2a: Archaludon|30/100|[from] item: Leftovers
+-- turn 46
+  WE CHOSE: attack bugbuzz - our hp 0.38, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Archaludon|Body Press|p1a: Rabsca
+  -resisted|p1a: Rabsca
+  -damage|p1a: Rabsca|47/284
+  move|p1a: Rabsca|Bug Buzz|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|0 fnt
+  faint|p2a: Archaludon
+  switch|p2a: Giratina|Giratina, L75|100/100
+  -ability|p2a: Giratina|Pressure
+-- turn 47
+  WE CHOSE: attack bugbuzz (hand policy: attack psychic) - our hp 0.17, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to cresselia - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Giratina|Shadow Ball|p1a: Rabsca
+  -supereffective|p1a: Rabsca
+  -damage|p1a: Rabsca|0 fnt
+  faint|p1a: Rabsca
+  switch|p1a: Cresselia|Cresselia, L80, F|316/323
+-- turn 48
+  WE CHOSE: switch to baxcalibur (hand policy: attack thunderbolt) - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Cresselia|Thunderbolt|p2a: Giratina
+  -resisted|p2a: Giratina
+  -damage|p2a: Giratina|95/100
+  -status|p2a: Giratina|par
+  cant|p2a: Giratina|par
+  -heal|p1a: Cresselia|323/323|[from] item: Leftovers
+  -heal|p2a: Giratina|100/100 par|[from] item: Leftovers
+-- turn 49
+  WE CHOSE: switch to baxcalibur (hand policy: attack thunderbolt) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Cresselia|Thunderbolt|p2a: Giratina
+  -resisted|p2a: Giratina
+  -damage|p2a: Giratina|95/100 par
+  cant|p2a: Giratina|par
+  -heal|p2a: Giratina|100/100 par|[from] item: Leftovers
+-- turn 50
+  WE CHOSE: switch to baxcalibur (hand policy: attack thunderbolt) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Cresselia|Thunderbolt|p2a: Giratina
+  -resisted|p2a: Giratina
+  -damage|p2a: Giratina|95/100 par
+  move|p2a: Giratina|Shadow Ball|p1a: Cresselia
+  -supereffective|p1a: Cresselia
+  -damage|p1a: Cresselia|207/323
+  -unboost|p1a: Cresselia|spd|1
+  -heal|p1a: Cresselia|227/323|[from] item: Leftovers
+  -heal|p2a: Giratina|100/100 par|[from] item: Leftovers
+-- turn 51
+  WE CHOSE: attack thunderbolt - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Cresselia|Thunderbolt|p2a: Giratina
+  -resisted|p2a: Giratina
+  -damage|p2a: Giratina|94/100 par
+  move|p2a: Giratina|Shadow Ball|p1a: Cresselia
+  -supereffective|p1a: Cresselia
+  -damage|p1a: Cresselia|53/323
+  -unboost|p1a: Cresselia|spd|1
+  -heal|p1a: Cresselia|73/323|[from] item: Leftovers
+  -heal|p2a: Giratina|99/100 par|[from] item: Leftovers
+-- turn 52
+  WE CHOSE: setup calmmind (hand policy: attack thunderbolt) - our hp 0.23, theirs 0.99, predicted move (revealed) hits us x2
+  move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+  -boost|p1a: Cresselia|spa|1
+  -boost|p1a: Cresselia|spd|1
+  move|p2a: Giratina|Shadow Ball|p1a: Cresselia
+  -supereffective|p1a: Cresselia
+  -damage|p1a: Cresselia|0 fnt
+  faint|p1a: Cresselia
+  deinit

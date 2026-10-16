@@ -1,0 +1,140 @@
+battle 297 (battle-gen9randombattle-1009324): lost in 13 turns, 4 of theirs left; we are p1
+
+ours:
+  piloswine (fainted; item eviolite, ability thickfat; moves iciclecrash/stealthrock/earthquake/iceshard)
+  glalie (fainted; item heavydutyboots, ability innerfocus; moves taunt/spikes/freezedry/earthquake)
+  comfey (fainted; item leftovers, ability triage, tera steel; moves drainingkiss/storedpower/calmmind/gigadrain)
+  chiyu (fainted; item heavydutyboots, ability beadsofruin; moves psychic/nastyplot/fireblast/darkpulse)
+  venomoth (fainted; item heavydutyboots, ability tintedlens; moves bugbuzz/sludgewave/quiverdance/sleeppowder)
+  malamar (fainted; item leftovers, ability contrary; moves sleeptalk/knockoff/superpower/rest)
+theirs (as seen):
+  overqwil (fainted; item lifeorb, ability intimidate; moves gunkshot)
+  palossand (fainted; item leftovers, ability ?; moves sludgebomb)
+  calyrexshadow (52%; item unknown_item, ability grimneigh; moves astralbarrage)
+
+-- turn 0
+  switch|p1a: Piloswine|Piloswine, L85, F|309/309
+  switch|p2a: Overqwil|Overqwil, L82, F|100/100
+  -ability|p2a: Overqwil|Intimidate|boost
+  -unboost|p1a: Piloswine|atk|1
+-- turn 1
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Overqwil|Gunk Shot|p1a: Piloswine
+  -resisted|p1a: Piloswine
+  -damage|p1a: Piloswine|251/309
+  -damage|p2a: Overqwil|91/100|[from] item: Life Orb
+  move|p1a: Piloswine|Earthquake|p2a: Overqwil
+  -supereffective|p2a: Overqwil
+  -crit|p2a: Overqwil
+  -damage|p2a: Overqwil|0 fnt
+  faint|p2a: Overqwil
+  switch|p2a: Palossand|Palossand, L89, M|100/100
+-- turn 2
+  WE CHOSE: attack iciclecrash - our hp 0.81, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Piloswine|Icicle Crash|p2a: Palossand
+  -supereffective|p2a: Palossand
+  -damage|p2a: Palossand|65/100
+  move|p2a: Palossand|Sludge Bomb|p1a: Piloswine
+  -resisted|p1a: Piloswine
+  -damage|p1a: Piloswine|218/309
+  -status|p1a: Piloswine|psn
+  -heal|p2a: Palossand|71/100|[from] item: Leftovers
+  -damage|p1a: Piloswine|180/309 psn|[from] psn
+-- turn 3
+  WE CHOSE: attack iciclecrash - our hp 0.58, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p1a: Piloswine|Icicle Crash|p2a: Palossand
+  -supereffective|p2a: Palossand
+  -damage|p2a: Palossand|36/100
+  cant|p2a: Palossand|flinch
+  -heal|p2a: Palossand|42/100|[from] item: Leftovers
+  -damage|p1a: Piloswine|142/309 psn|[from] psn
+-- turn 4
+  WE CHOSE: attack iciclecrash - our hp 0.46, theirs 0.42, predicted move (revealed) hits us x0.5
+  move|p1a: Piloswine|Icicle Crash|p2a: Palossand
+  -supereffective|p2a: Palossand
+  -damage|p2a: Palossand|7/100
+  move|p2a: Palossand|Sludge Bomb|p1a: Piloswine
+  -resisted|p1a: Piloswine
+  -damage|p1a: Piloswine|111/309 psn
+  -heal|p2a: Palossand|13/100|[from] item: Leftovers
+  -damage|p1a: Piloswine|73/309 psn|[from] psn
+-- turn 5
+  WE CHOSE: attack iciclecrash - our hp 0.24, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Piloswine|Icicle Crash|p2a: Palossand
+  -supereffective|p2a: Palossand
+  -damage|p2a: Palossand|0 fnt
+  faint|p2a: Palossand
+  -damage|p1a: Piloswine|35/309 psn|[from] psn
+  switch|p2a: Calyrex|Calyrex-Shadow, L64|100/100
+  -ability|p2a: Calyrex|As One
+  -ability|p2a: Calyrex|Unnerve
+-- turn 6
+  WE CHOSE: switch to chiyu (hand policy: attack earthquake) - our hp 0.11, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+  move|p2a: Calyrex|Astral Barrage|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|133/211
+-- turn 7
+  WE CHOSE: setup nastyplot - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Calyrex|Astral Barrage|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|61/211
+  move|p1a: Chi-Yu|Nasty Plot|p1a: Chi-Yu
+  -boost|p1a: Chi-Yu|spa|2
+-- turn 8
+  WE CHOSE: attack darkpulse (hand policy: attack+tera darkpulse) - our hp 0.29, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to malamar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Calyrex|Astral Barrage|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|0 fnt
+  faint|p1a: Chi-Yu
+  -ability|p2a: Calyrex|Grim Neigh|boost
+  -boost|p2a: Calyrex|spa|1
+  switch|p1a: Malamar|Malamar, L82, M|275/275
+-- turn 9
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to piloswine - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Calyrex|Astral Barrage|p1a: Malamar
+  -damage|p1a: Malamar|0 fnt
+  faint|p1a: Malamar
+  -ability|p2a: Calyrex|Grim Neigh|boost
+  -boost|p2a: Calyrex|spa|1
+  switch|p1a: Piloswine|Piloswine, L85, F|35/309 psn
+-- turn 10
+  WE CHOSE: attack iceshard (hand policy: attack earthquake) - our hp 0.11, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to venomoth - our hp 0.00, theirs 0.75, predicted move (revealed) hits us x1
+  move|p1a: Piloswine|Ice Shard|p2a: Calyrex
+  -damage|p2a: Calyrex|75/100
+  move|p2a: Calyrex|Astral Barrage|p1a: Piloswine
+  -damage|p1a: Piloswine|0 fnt
+  faint|p1a: Piloswine
+  -ability|p2a: Calyrex|Grim Neigh|boost
+  -boost|p2a: Calyrex|spa|1
+  switch|p1a: Venomoth|Venomoth, L84, M|255/255
+-- turn 11
+  WE CHOSE: attack sleeppowder (hand policy: attack bugbuzz) - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to glalie - our hp 0.00, theirs 0.75, predicted move (revealed) hits us x1
+  move|p2a: Calyrex|Astral Barrage|p1a: Venomoth
+  -damage|p1a: Venomoth|0 fnt
+  faint|p1a: Venomoth
+  -ability|p2a: Calyrex|Grim Neigh|boost
+  -boost|p2a: Calyrex|spa|1
+  switch|p1a: Glalie|Glalie, L96, M|309/309
+-- turn 12
+  WE CHOSE: attack freezedry - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to comfey - our hp 0.00, theirs 0.75, predicted move (revealed) hits us x1
+  move|p2a: Calyrex|Astral Barrage|p1a: Glalie
+  -damage|p1a: Glalie|0 fnt
+  faint|p1a: Glalie
+  -ability|p2a: Calyrex|Grim Neigh|boost
+  -boost|p2a: Calyrex|spa|1
+  switch|p1a: Comfey|Comfey, L85, M|225/225
+-- turn 13
+  WE CHOSE: attack+tera drainingkiss (hand policy: attack drainingkiss) - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x1
+  -terastallize|p1a: Comfey|Steel
+  move|p1a: Comfey|Draining Kiss|p2a: Calyrex
+  -damage|p2a: Calyrex|52/100
+  move|p2a: Calyrex|Astral Barrage|p1a: Comfey
+  -damage|p1a: Comfey|0 fnt
+  faint|p1a: Comfey

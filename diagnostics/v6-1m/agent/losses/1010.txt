@@ -1,0 +1,251 @@
+battle 1010 (battle-gen9randombattle-1016595): lost in 26 turns, 1 of theirs left; we are p1
+
+ours:
+  hippowdon (fainted; item rockyhelmet, ability sandstream; moves stealthrock/slackoff/earthquake/whirlwind)
+  froslass (fainted; item widelens, ability cursedbody; moves tripleaxel/willowisp/poltergeist/spikes)
+  grimmsnarl (fainted; item lightclay, ability prankster; moves spiritbreak/thunderwave/lightscreen/reflect)
+  plusle (fainted; item lifeorb, ability lightningrod; moves thunderbolt/encore/nastyplot/alluringvoice)
+  inteleon (fainted; item choicespecs, ability torrent; moves icebeam/hydropump/uturn/scald)
+  sableye (fainted; item leftovers, ability prankster, tera steel; moves recover/knockoff/encore/thunderwave)
+theirs (as seen):
+  luxray (fainted; item unknown_item, ability ?; moves supercellslam)
+  bisharp (fainted; item unknown_item, ability ?; moves ironhead)
+  arboliva (fainted; item ?, ability ?; moves hypervoice)
+  braviaryhisui (fainted; item ?, ability ?; moves hurricane/heatwave)
+  gallade (fainted; item lifeorb, ability ?; moves sacredsword)
+  dragalge (57%; item unknown_item, ability ?; moves dracometeor)
+
+-- turn 0
+  switch|p1a: Hippowdon|Hippowdon, L82, F|311/311
+  switch|p2a: Luxray|Luxray, L88, F|100/100
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+-- turn 1
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Luxray|Supercell Slam|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  -damage|p2a: Luxray|51/100|[from] supercellslam
+  move|p1a: Hippowdon|Earthquake|p2a: Luxray
+  -supereffective|p2a: Luxray
+  -damage|p2a: Luxray|0 fnt
+  faint|p2a: Luxray
+  -weather|Sandstorm|[upkeep]
+  switch|p2a: Bisharp|Bisharp, L79, F|100/100
+-- turn 2
+  WE CHOSE: switch to plusle (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Plusle|Plusle, L95, F|268/268
+  move|p2a: Bisharp|Iron Head|p1a: Plusle
+  -resisted|p1a: Plusle
+  -damage|p1a: Plusle|204/268
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Plusle|188/268|[from] Sandstorm
+-- turn 3
+  WE CHOSE: setup nastyplot - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Plusle|Nasty Plot|p1a: Plusle
+  -boost|p1a: Plusle|spa|2
+  move|p2a: Bisharp|Iron Head|p1a: Plusle
+  -resisted|p1a: Plusle
+  -damage|p1a: Plusle|119/268
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Plusle|103/268|[from] Sandstorm
+-- turn 4
+  WE CHOSE: attack thunderbolt (hand policy: attack+tera thunderbolt) - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to hippowdon - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x0.5
+  move|p1a: Plusle|Thunderbolt|p2a: Bisharp
+  -damage|p2a: Bisharp|3/100
+  -damage|p1a: Plusle|77/268|[from] item: Life Orb
+  move|p2a: Bisharp|Iron Head|p1a: Plusle
+  -resisted|p1a: Plusle
+  -damage|p1a: Plusle|5/268
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Plusle|0 fnt|[from] Sandstorm
+  faint|p1a: Plusle
+  switch|p1a: Hippowdon|Hippowdon, L82, F|311/311
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Bisharp|Iron Head|p1a: Hippowdon
+  -damage|p1a: Hippowdon|242/311
+  -damage|p2a: Bisharp|0 fnt|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+  faint|p2a: Bisharp
+  move|p1a: Hippowdon|Earthquake|p2: Bisharp|[notarget]
+  -fail|p1a: Hippowdon
+  -weather|none
+  switch|p2a: Arboliva|Arboliva, L91, M|100/100
+-- turn 6
+  WE CHOSE: attack whirlwind (hand policy: attack earthquake) - our hp 0.78, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Arboliva|Hyper Voice|p1a: Hippowdon
+  -crit|p1a: Hippowdon
+  -damage|p1a: Hippowdon|10/311
+  move|p1a: Hippowdon|Whirlwind|p2a: Arboliva
+  drag|p2a: Braviary|Braviary-Hisui, L85, M|100/100
+-- turn 7
+  WE CHOSE: switch to froslass (hand policy: heal slackoff) - our hp 0.03, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to sableye - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Froslass|Froslass, L87, F|263/263
+  move|p2a: Braviary|Hurricane|p1a: Froslass
+  -damage|p1a: Froslass|0 fnt
+  -start|p2a: Braviary|Disable|Hurricane|[from] ability: Cursed Body|[of] p1a: Froslass
+  faint|p1a: Froslass
+  switch|p1a: Sableye|Sableye, L88, F|231/231
+-- turn 8
+  WE CHOSE: attack+tera knockoff - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Sableye|Steel
+  move|p2a: Braviary|Heat Wave|p1a: Sableye|[miss]
+  -miss|p2a: Braviary|p1a: Sableye
+  move|p1a: Sableye|Knock Off|p2a: Braviary
+  -supereffective|p2a: Braviary
+  -damage|p2a: Braviary|32/100
+  -enditem|p2a: Braviary|Life Orb|[from] move: Knock Off|[of] p1a: Sableye
+-- turn 9
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p2a: Braviary|Heat Wave|p1a: Sableye
+  -supereffective|p1a: Sableye
+  -damage|p1a: Sableye|5/231
+  move|p1a: Sableye|Knock Off|p2a: Braviary
+  -supereffective|p2a: Braviary
+  -damage|p2a: Braviary|0 fnt
+  faint|p2a: Braviary
+  -heal|p1a: Sableye|19/231|[from] item: Leftovers
+  switch|p2a: Arboliva|Arboliva, L91, M|100/100
+-- turn 10
+  WE CHOSE: heal recover - our hp 0.08, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|135/231
+  move|p2a: Arboliva|Hyper Voice|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|60/231
+  -heal|p1a: Sableye|74/231|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: heal recover - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|190/231
+  move|p2a: Arboliva|Hyper Voice|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|103/231
+  -heal|p1a: Sableye|117/231|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: heal recover (hand policy: attack knockoff) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|231/231
+  move|p2a: Arboliva|Hyper Voice|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|145/231
+  -heal|p1a: Sableye|159/231|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal recover (hand policy: attack knockoff) - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|231/231
+  move|p2a: Arboliva|Hyper Voice|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|147/231
+  -heal|p1a: Sableye|161/231|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal recover (hand policy: attack knockoff) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|231/231
+  move|p2a: Arboliva|Hyper Voice|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|151/231
+  -heal|p1a: Sableye|165/231|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal recover (hand policy: attack knockoff) - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|231/231
+  move|p2a: Arboliva|Hyper Voice|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|147/231
+  -heal|p1a: Sableye|161/231|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: heal recover (hand policy: attack knockoff) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|231/231
+  move|p2a: Arboliva|Hyper Voice|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|157/231
+  -heal|p1a: Sableye|171/231|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: heal recover (hand policy: attack knockoff) - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|231/231
+  move|p2a: Arboliva|Hyper Voice|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|150/231
+  -heal|p1a: Sableye|164/231|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack knockoff - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sableye|Knock Off|p2a: Arboliva
+  -damage|p2a: Arboliva|70/100
+  -enditem|p2a: Arboliva|Sitrus Berry|[from] move: Knock Off|[of] p1a: Sableye
+  move|p2a: Arboliva|Hyper Voice|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|78/231
+  -heal|p1a: Sableye|92/231|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack knockoff - our hp 0.40, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p1a: Sableye|Knock Off|p2a: Arboliva
+  -damage|p2a: Arboliva|49/100
+  move|p2a: Arboliva|Hyper Voice|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|14/231
+  -heal|p1a: Sableye|28/231|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack knockoff - our hp 0.12, theirs 0.49, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to inteleon - our hp 0.00, theirs 0.27, predicted move (revealed) hits us x0.5
+  move|p1a: Sableye|Knock Off|p2a: Arboliva
+  -damage|p2a: Arboliva|27/100
+  move|p2a: Arboliva|Hyper Voice|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|0 fnt
+  faint|p1a: Sableye
+  switch|p1a: Inteleon|Inteleon, L81, M|246/246
+-- turn 21
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Inteleon|Ice Beam|p2a: Arboliva
+  -supereffective|p2a: Arboliva
+  -damage|p2a: Arboliva|0 fnt
+  faint|p2a: Arboliva
+  switch|p2a: Gallade|Gallade, L80, M|100/100
+-- turn 22
+  WE CHOSE: switch to grimmsnarl (hand policy: attack icebeam) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Grimmsnarl|Grimmsnarl, L83, M|293/293
+  move|p2a: Gallade|Sacred Sword|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|38/293
+  -damage|p2a: Gallade|90/100|[from] item: Life Orb
+-- turn 23
+  WE CHOSE: attack spiritbreak - our hp 0.13, theirs 0.90, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hippowdon - our hp 0.00, theirs 0.80, predicted move (revealed) hits us x1
+  move|p2a: Gallade|Sacred Sword|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|0 fnt
+  faint|p1a: Grimmsnarl
+  -damage|p2a: Gallade|80/100|[from] item: Life Orb
+  switch|p1a: Hippowdon|Hippowdon, L82, F|10/311
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+-- turn 24
+  WE CHOSE: heal slackoff - our hp 0.03, theirs 0.80, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to inteleon - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Gallade|Sacred Sword|p1a: Hippowdon
+  -damage|p1a: Hippowdon|0 fnt
+  -damage|p2a: Gallade|64/100|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+  faint|p1a: Hippowdon
+  -damage|p2a: Gallade|54/100|[from] item: Life Orb
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Gallade|48/100|[from] Sandstorm
+  switch|p1a: Inteleon|Inteleon, L81, M|246/246
+-- turn 25
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Inteleon|Hydro Pump|p2a: Gallade
+  -damage|p2a: Gallade|0 fnt
+  faint|p2a: Gallade
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Inteleon|231/246|[from] Sandstorm
+  switch|p2a: Dragalge|Dragalge, L88, M|100/100
+-- turn 26
+  WE CHOSE: attack hydropump - our hp 0.94, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Inteleon|Hydro Pump|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -crit|p2a: Dragalge
+  -damage|p2a: Dragalge|57/100
+  move|p2a: Dragalge|Draco Meteor|p1a: Inteleon
+  -damage|p1a: Inteleon|0 fnt
+  -unboost|p2a: Dragalge|spa|2
+  faint|p1a: Inteleon
+  deinit

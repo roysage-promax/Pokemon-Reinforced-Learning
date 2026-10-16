@@ -1,0 +1,457 @@
+battle 696 (battle-gen9randombattle-1013378): lost in 63 turns, 1 of theirs left; we are p1
+
+ours:
+  breloom (fainted; item lifeorb, ability technician, tera rock; moves bulletseed/rocktomb/spore/machpunch)
+  arbok (fainted; item leftovers, ability intimidate; moves gunkshot/coil/suckerpunch/earthquake)
+  gastrodon (fainted; item leftovers, ability stormdrain; moves surf/earthquake/stealthrock/recover)
+  rabsca (fainted; item heavydutyboots, ability synchronize; moves revivalblessing/trickroom/bugbuzz/psychic)
+  tinglu (fainted; item leftovers, ability vesselofruin; moves whirlwind/earthquake/spikes/throatchop)
+  hitmonlee (fainted; item whiteherb, ability unburden; moves stoneedge/swordsdance/knockoff/closecombat)
+theirs (as seen):
+  phione (fainted; item leftovers, ability hydration; moves scald)
+  rotomfan (fainted; item unknown_item, ability levitate; moves thunderbolt/airslash)
+  weezinggalar (fainted; item unknown_item, ability levitate; moves gunkshot)
+  conkeldurr (fainted; item unknown_item, ability ?; moves closecombat)
+  cyclizar (fainted; item unknown_item, ability ?; moves dracometeor)
+  heatran (60%; item ?, ability ?; moves magmastorm)
+
+-- turn 0
+  switch|p1a: Breloom|Breloom, L83, F|235/235
+  switch|p2a: Phione|Phione, L91|100/100
+-- turn 1
+  WE CHOSE: attack+tera bulletseed (hand policy: attack bulletseed) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to gastrodon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  -terastallize|p1a: Breloom|Rock
+  move|p2a: Phione|Scald|p1a: Breloom
+  -supereffective|p1a: Breloom
+  -damage|p1a: Breloom|0 fnt
+  faint|p1a: Breloom
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Phione|Scald|p1a: Gastrodon
+  -ability|p1a: Gastrodon|Storm Drain|boost
+  -boost|p1a: Gastrodon|spa|1
+  move|p1a: Gastrodon|Earthquake|p2a: Phione
+  -damage|p2a: Phione|65/100
+  -heal|p2a: Phione|71/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x0
+  move|p2a: Phione|Scald|p1a: Gastrodon
+  -ability|p1a: Gastrodon|Storm Drain|boost
+  -boost|p1a: Gastrodon|spa|1
+  move|p1a: Gastrodon|Earthquake|p2a: Phione
+  -damage|p2a: Phione|38/100
+  -heal|p2a: Phione|44/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x0
+  move|p2a: Phione|Scald|p1a: Gastrodon
+  -ability|p1a: Gastrodon|Storm Drain|boost
+  -boost|p1a: Gastrodon|spa|1
+  move|p1a: Gastrodon|Earthquake|p2a: Phione
+  -damage|p2a: Phione|10/100
+  -heal|p2a: Phione|16/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: heal recover (hand policy: attack surf) - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x0
+  move|p2a: Phione|Scald|p1a: Gastrodon
+  -ability|p1a: Gastrodon|Storm Drain|boost
+  -boost|p1a: Gastrodon|spa|1
+  move|p1a: Gastrodon|Recover||[still]
+  -fail|p1a: Gastrodon|heal
+  -heal|p2a: Phione|22/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: heal recover (hand policy: attack surf) - our hp 1.00, theirs 0.22, predicted move (revealed) hits us x0
+  move|p2a: Phione|Scald|p1a: Gastrodon
+  -ability|p1a: Gastrodon|Storm Drain|boost
+  -boost|p1a: Gastrodon|spa|1
+  move|p1a: Gastrodon|Recover||[still]
+  -fail|p1a: Gastrodon|heal
+  -heal|p2a: Phione|28/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: heal recover (hand policy: attack surf) - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x0
+  move|p2a: Phione|Scald|p1a: Gastrodon
+  -ability|p1a: Gastrodon|Storm Drain|boost
+  -boost|p1a: Gastrodon|spa|1
+  move|p1a: Gastrodon|Recover||[still]
+  -fail|p1a: Gastrodon|heal
+  -heal|p2a: Phione|35/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: heal recover (hand policy: attack surf) - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x0
+  move|p2a: Phione|Scald|p1a: Gastrodon
+  -immune|p1a: Gastrodon|[from] ability: Storm Drain
+  move|p1a: Gastrodon|Recover||[still]
+  -fail|p1a: Gastrodon|heal
+  -heal|p2a: Phione|41/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: heal recover (hand policy: attack surf) - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0
+  move|p2a: Phione|Scald|p1a: Gastrodon
+  -immune|p1a: Gastrodon|[from] ability: Storm Drain
+  move|p1a: Gastrodon|Recover||[still]
+  -fail|p1a: Gastrodon|heal
+  -heal|p2a: Phione|47/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: heal recover (hand policy: attack surf) - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x0
+  move|p2a: Phione|Scald|p1a: Gastrodon
+  -immune|p1a: Gastrodon|[from] ability: Storm Drain
+  move|p1a: Gastrodon|Recover||[still]
+  -fail|p1a: Gastrodon|heal
+  -heal|p2a: Phione|53/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: heal recover (hand policy: attack surf) - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x0
+  move|p2a: Phione|Scald|p1a: Gastrodon
+  -immune|p1a: Gastrodon|[from] ability: Storm Drain
+  move|p1a: Gastrodon|Recover||[still]
+  -fail|p1a: Gastrodon|heal
+  -heal|p2a: Phione|59/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: heal recover (hand policy: attack surf) - our hp 1.00, theirs 0.59, predicted move (revealed) hits us x0
+  move|p2a: Phione|Scald|p1a: Gastrodon
+  -immune|p1a: Gastrodon|[from] ability: Storm Drain
+  move|p1a: Gastrodon|Recover||[still]
+  -fail|p1a: Gastrodon|heal
+  -heal|p2a: Phione|65/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.65, predicted move (revealed) hits us x0
+  move|p2a: Phione|Scald|p1a: Gastrodon
+  -immune|p1a: Gastrodon|[from] ability: Storm Drain
+  move|p1a: Gastrodon|Surf|p2a: Phione
+  -resisted|p2a: Phione
+  -damage|p2a: Phione|3/100
+  -heal|p2a: Phione|9/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.09, predicted move (revealed) hits us x0
+  move|p2a: Phione|Scald|p1a: Gastrodon
+  -immune|p1a: Gastrodon|[from] ability: Storm Drain
+  move|p1a: Gastrodon|Surf|p2a: Phione
+  -resisted|p2a: Phione
+  -damage|p2a: Phione|0 fnt
+  faint|p2a: Phione
+  switch|p2a: Rotom|Rotom-Fan, L86|100/100
+-- turn 15
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Thunderbolt|p1a: Ting-Lu
+  -immune|p1a: Ting-Lu
+-- turn 16
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Rotom|Thunderbolt|p1a: Gastrodon
+  -immune|p1a: Gastrodon
+-- turn 17
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Thunderbolt|p1a: Ting-Lu
+  -immune|p1a: Ting-Lu
+-- turn 18
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Rotom|Thunderbolt|p1a: Gastrodon
+  -immune|p1a: Gastrodon
+-- turn 19
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Thunderbolt|p1a: Ting-Lu
+  -immune|p1a: Ting-Lu
+-- turn 20
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Rotom|Thunderbolt|p1a: Gastrodon
+  -immune|p1a: Gastrodon
+-- turn 21
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Thunderbolt|p1a: Ting-Lu
+  -immune|p1a: Ting-Lu
+-- turn 22
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Rotom|Thunderbolt|p1a: Gastrodon
+  -immune|p1a: Gastrodon
+-- turn 23
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Thunderbolt|p1a: Ting-Lu
+  -immune|p1a: Ting-Lu
+-- turn 24
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Rotom|Thunderbolt|p1a: Gastrodon
+  -immune|p1a: Gastrodon
+-- turn 25
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Thunderbolt|p1a: Ting-Lu
+  -immune|p1a: Ting-Lu
+-- turn 26
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Rotom|Thunderbolt|p1a: Gastrodon
+  -immune|p1a: Gastrodon
+-- turn 27
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Thunderbolt|p1a: Ting-Lu
+  -immune|p1a: Ting-Lu
+-- turn 28
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Rotom|Thunderbolt|p1a: Gastrodon
+  -immune|p1a: Gastrodon
+-- turn 29
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Thunderbolt|p1a: Ting-Lu
+  -immune|p1a: Ting-Lu
+-- turn 30
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Rotom|Thunderbolt|p1a: Gastrodon
+  -immune|p1a: Gastrodon
+-- turn 31
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Thunderbolt|p1a: Ting-Lu
+  -immune|p1a: Ting-Lu
+-- turn 32
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Rotom|Thunderbolt|p1a: Gastrodon
+  -immune|p1a: Gastrodon
+-- turn 33
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Thunderbolt|p1a: Ting-Lu
+  -immune|p1a: Ting-Lu
+-- turn 34
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Rotom|Thunderbolt|p1a: Gastrodon
+  -immune|p1a: Gastrodon
+-- turn 35
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Thunderbolt|p1a: Ting-Lu
+  -immune|p1a: Ting-Lu
+-- turn 36
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Rotom|Thunderbolt|p1a: Gastrodon
+  -immune|p1a: Gastrodon
+-- turn 37
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Thunderbolt|p1a: Ting-Lu
+  -immune|p1a: Ting-Lu
+-- turn 38
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Rotom|Thunderbolt|p1a: Gastrodon
+  -immune|p1a: Gastrodon
+-- turn 39
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Air Slash|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|292/370
+  -heal|p1a: Ting-Lu|315/370|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Rotom|Air Slash|p1a: Gastrodon
+  -crit|p1a: Gastrodon
+  -damage|p1a: Gastrodon|202/331
+  -heal|p1a: Gastrodon|222/331|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|315/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Air Slash|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|234/370
+  -heal|p1a: Ting-Lu|257/370|[from] item: Leftovers
+-- turn 42
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|222/331
+  move|p2a: Rotom|Air Slash|p1a: Gastrodon
+  -damage|p1a: Gastrodon|126/331
+  -heal|p1a: Gastrodon|146/331|[from] item: Leftovers
+-- turn 43
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|257/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Air Slash|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|176/370
+  -heal|p1a: Ting-Lu|199/370|[from] item: Leftovers
+-- turn 44
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|146/331
+  move|p2a: Rotom|Air Slash|p1a: Gastrodon
+  -damage|p1a: Gastrodon|50/331
+  -heal|p1a: Gastrodon|70/331|[from] item: Leftovers
+-- turn 45
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 0.21, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|199/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Air Slash|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|129/370
+  -heal|p1a: Ting-Lu|152/370|[from] item: Leftovers
+-- turn 46
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|70/331
+  move|p2a: Rotom|Air Slash|p1a: Gastrodon|[miss]
+  -miss|p2a: Rotom|p1a: Gastrodon
+  -heal|p1a: Gastrodon|90/331|[from] item: Leftovers
+-- turn 47
+  WE CHOSE: switch to tinglu (hand policy: attack surf) - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ting-Lu|Ting-Lu, L78|152/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Rotom|Air Slash|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|79/370
+  -heal|p1a: Ting-Lu|102/370|[from] item: Leftovers
+-- turn 48
+  WE CHOSE: switch to gastrodon (hand policy: attack throatchop) - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to tinglu - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|90/331
+  move|p2a: Rotom|Air Slash|p1a: Gastrodon
+  -damage|p1a: Gastrodon|0 fnt
+  faint|p1a: Gastrodon
+  switch|p1a: Ting-Lu|Ting-Lu, L78|102/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+-- turn 49
+  WE CHOSE: attack throatchop - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Air Slash|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|18/370
+  move|p1a: Ting-Lu|Throat Chop|p2a: Rotom
+  -damage|p2a: Rotom|70/100
+  -start|p2a: Rotom|Throat Chop|[silent]
+  -heal|p1a: Ting-Lu|41/370|[from] item: Leftovers
+-- turn 50
+  WE CHOSE: attack throatchop - our hp 0.11, theirs 0.70, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to hitmonlee - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Air Slash|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|0 fnt
+  faint|p1a: Ting-Lu
+  -end|p2a: Rotom|Throat Chop|[silent]
+  switch|p1a: Hitmonlee|Hitmonlee, L85, M|224/224
+-- turn 51
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Hitmonlee|Stone Edge|p2a: Rotom
+  -supereffective|p2a: Rotom
+  -damage|p2a: Rotom|4/100
+  move|p2a: Rotom|Air Slash|p1a: Hitmonlee
+  -supereffective|p1a: Hitmonlee
+  -damage|p1a: Hitmonlee|80/224
+-- turn 52
+  WE CHOSE: attack stoneedge - our hp 0.36, theirs 0.04, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to arbok - our hp 0.00, theirs 0.04, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Air Slash|p1a: Hitmonlee
+  -supereffective|p1a: Hitmonlee
+  -damage|p1a: Hitmonlee|0 fnt
+  faint|p1a: Hitmonlee
+  switch|p1a: Arbok|Arbok, L87, M|246/246
+  -ability|p1a: Arbok|Intimidate|boost
+  -unboost|p2a: Rotom|atk|1
+-- turn 53
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Air Slash|p1a: Arbok
+  -damage|p1a: Arbok|158/246
+  cant|p1a: Arbok|flinch
+  -heal|p1a: Arbok|173/246|[from] item: Leftovers
+-- turn 54
+  WE CHOSE: attack gunkshot - our hp 0.70, theirs 0.04, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Air Slash|p1a: Arbok
+  -damage|p1a: Arbok|82/246
+  move|p1a: Arbok|Gunk Shot|p2a: Rotom|[miss]
+  -miss|p1a: Arbok|p2a: Rotom
+  -heal|p1a: Arbok|97/246|[from] item: Leftovers
+-- turn 55
+  WE CHOSE: attack gunkshot - our hp 0.39, theirs 0.04, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Air Slash|p1a: Arbok
+  -damage|p1a: Arbok|9/246
+  move|p1a: Arbok|Gunk Shot|p2a: Rotom
+  -crit|p2a: Rotom
+  -damage|p2a: Rotom|0 fnt
+  faint|p2a: Rotom
+  -heal|p1a: Arbok|24/246|[from] item: Leftovers
+  switch|p2a: Weezing|Weezing-Galar, L86, M|100/100
+-- turn 56
+  WE CHOSE: attack earthquake - our hp 0.10, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to rabsca - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arbok|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Arbok
+  -resisted|p1a: Arbok
+  -damage|p1a: Arbok|0 fnt
+  faint|p1a: Arbok
+  switch|p1a: Rabsca|Rabsca, L91, M|284/284
+-- turn 57
+  WE CHOSE: attack psychic - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Weezing|Gunk Shot|p1a: Rabsca|[miss]
+  -miss|p2a: Weezing|p1a: Rabsca
+  move|p1a: Rabsca|Psychic|p2a: Weezing
+  -supereffective|p2a: Weezing
+  -crit|p2a: Weezing
+  -damage|p2a: Weezing|0 fnt
+  faint|p2a: Weezing
+  switch|p2a: Conkeldurr|Conkeldurr, L80, F|100/100
+-- turn 58
+  WE CHOSE: attack psychic - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p2a: Conkeldurr|Close Combat|p1a: Rabsca
+  -resisted|p1a: Rabsca
+  -damage|p1a: Rabsca|250/284
+  -unboost|p2a: Conkeldurr|def|1
+  -unboost|p2a: Conkeldurr|spd|1
+  move|p1a: Rabsca|Psychic|p2a: Conkeldurr
+  -supereffective|p2a: Conkeldurr
+  -damage|p2a: Conkeldurr|0 fnt
+  faint|p2a: Conkeldurr
+  switch|p2a: Cyclizar|Cyclizar, L84, M|100/100
+-- turn 59
+  WE CHOSE: attack psychic - our hp 0.88, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Cyclizar|Draco Meteor|p1a: Rabsca
+  -damage|p1a: Rabsca|139/284
+  -unboost|p2a: Cyclizar|spa|2
+  move|p1a: Rabsca|Psychic|p2a: Cyclizar
+  -damage|p2a: Cyclizar|44/100
+-- turn 60
+  WE CHOSE: attack psychic - our hp 0.49, theirs 0.44, predicted move (revealed) hits us x1
+  move|p2a: Cyclizar|Draco Meteor|p1a: Rabsca
+  -damage|p1a: Rabsca|84/284
+  -unboost|p2a: Cyclizar|spa|2
+  move|p1a: Rabsca|Psychic|p2a: Cyclizar
+  -damage|p2a: Cyclizar|0 fnt
+  faint|p2a: Cyclizar
+  switch|p2a: Heatran|Heatran, L79, F|100/100
+  -item|p2a: Heatran|Air Balloon
+-- turn 61
+  WE CHOSE: attack psychic - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Heatran|Magma Storm|p1a: Rabsca|[miss]
+  -miss|p2a: Heatran|p1a: Rabsca
+  move|p1a: Rabsca|Psychic|p2a: Heatran
+  -resisted|p2a: Heatran
+  -damage|p2a: Heatran|80/100
+  -enditem|p2a: Heatran|Air Balloon
+-- turn 62
+  WE CHOSE: attack psychic - our hp 0.30, theirs 0.80, predicted move (revealed) hits us x2
+  move|p2a: Heatran|Magma Storm|p1a: Rabsca|[miss]
+  -miss|p2a: Heatran|p1a: Rabsca
+  move|p1a: Rabsca|Psychic|p2a: Heatran
+  -resisted|p2a: Heatran
+  -damage|p2a: Heatran|60/100
+-- turn 63
+  WE CHOSE: attack psychic - our hp 0.30, theirs 0.60, predicted move (revealed) hits us x2
+  move|p2a: Heatran|Magma Storm|p1a: Rabsca
+  -supereffective|p1a: Rabsca
+  -damage|p1a: Rabsca|0 fnt
+  faint|p1a: Rabsca

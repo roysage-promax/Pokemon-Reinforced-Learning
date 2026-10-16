@@ -1,0 +1,320 @@
+battle 2280 (battle-gen9randombattle-1029467): lost in 36 turns, 4 of theirs left; we are p1
+
+ours:
+  hitmontop (fainted; item assaultvest, ability intimidate; moves closecombat/stoneedge/rapidspin/earthquake)
+  fezandipiti (fainted; item leftovers, ability toxicchain; moves moonblast/gunkshot/roost/beatup)
+  wyrdeer (fainted; item assaultvest, ability intimidate; moves earthquake/megahorn/bodyslam/psychicnoise)
+  toxtricity (fainted; item ?, ability punkrock; moves overdrive/shiftgear/gunkshot/boomburst)
+  exeggutoralola (fainted; item ?, ability harvest, tera fire; moves flamethrower/calmmind/gigadrain/dragonpulse)
+  abomasnow (fainted; item lightclay, ability snowwarning; moves blizzard/earthquake/iceshard/auroraveil)
+theirs (as seen):
+  ragingbolt (fainted; item unknown_item, ability protosynthesis; moves dracometeor)
+  porygonz (fainted; item unknown_item, ability download; moves thunderbolt)
+  heatran (47%; item ?, ability flashfire; moves magmastorm/earthpower/heavyslam)
+
+-- turn 0
+  switch|p1a: Hitmontop|Hitmontop, L88, M|231/231
+  switch|p2a: Raging Bolt|Raging Bolt, L78|100/100
+  -ability|p1a: Hitmontop|Intimidate|boost
+  -unboost|p2a: Raging Bolt|atk|1
+-- turn 1
+  WE CHOSE: switch to fezandipiti - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Fezandipiti|Fezandipiti, L82, M|278/278
+  move|p2a: Raging Bolt|Draco Meteor|p1a: Fezandipiti
+  -immune|p1a: Fezandipiti
+-- turn 2
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Fezandipiti|Moonblast|p2a: Raging Bolt
+  -supereffective|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|68/100
+  -unboost|p2a: Raging Bolt|spa|1
+  move|p2a: Raging Bolt|Draco Meteor|p1a: Fezandipiti
+  -immune|p1a: Fezandipiti
+-- turn 3
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x0
+  move|p1a: Fezandipiti|Moonblast|p2a: Raging Bolt
+  -supereffective|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|33/100
+  move|p2a: Raging Bolt|Draco Meteor|p1a: Fezandipiti
+  -immune|p1a: Fezandipiti
+-- turn 4
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x0
+  move|p1a: Fezandipiti|Moonblast|p2a: Raging Bolt
+  -supereffective|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|3/100
+  move|p2a: Raging Bolt|Draco Meteor|p1a: Fezandipiti
+  -immune|p1a: Fezandipiti
+-- turn 5
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x0
+  move|p1a: Fezandipiti|Moonblast|p2a: Raging Bolt
+  -supereffective|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|0 fnt
+  faint|p2a: Raging Bolt
+  -end|p2a: Raging Bolt|Protosynthesis|[silent]
+  switch|p2a: Porygon-Z|Porygon-Z, L83|100/100
+  -ability|p2a: Porygon-Z|Download|boost
+  -boost|p2a: Porygon-Z|atk|1
+-- turn 6
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Porygon-Z|Thunderbolt|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|209/278
+  move|p1a: Fezandipiti|Gunk Shot|p2a: Porygon-Z
+  -damage|p2a: Porygon-Z|52/100
+  -heal|p1a: Fezandipiti|226/278|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: switch to exeggutoralola (hand policy: attack gunkshot) - our hp 0.81, theirs 0.52, predicted move (revealed) hits us x1
+  switch|p1a: Exeggutor|Exeggutor-Alola, L89, F|314/314
+  move|p2a: Porygon-Z|Thunderbolt|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|293/314
+-- turn 8
+  WE CHOSE: setup calmmind - our hp 0.93, theirs 0.52, predicted move (revealed) hits us x0.25
+  move|p2a: Porygon-Z|Thunderbolt|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|270/314
+  move|p1a: Exeggutor|Calm Mind|p1a: Exeggutor
+  -boost|p1a: Exeggutor|spa|1
+  -boost|p1a: Exeggutor|spd|1
+-- turn 9
+  WE CHOSE: setup calmmind - our hp 0.86, theirs 0.52, predicted move (revealed) hits us x0.25
+  move|p2a: Porygon-Z|Thunderbolt|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|256/314
+  move|p1a: Exeggutor|Calm Mind|p1a: Exeggutor
+  -boost|p1a: Exeggutor|spa|1
+  -boost|p1a: Exeggutor|spd|1
+-- turn 10
+  WE CHOSE: setup calmmind (hand policy: attack dragonpulse) - our hp 0.82, theirs 0.52, predicted move (revealed) hits us x0.25
+  move|p2a: Porygon-Z|Thunderbolt|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|245/314
+  move|p1a: Exeggutor|Calm Mind|p1a: Exeggutor
+  -boost|p1a: Exeggutor|spa|1
+  -boost|p1a: Exeggutor|spd|1
+-- turn 11
+  WE CHOSE: attack dragonpulse - our hp 0.78, theirs 0.52, predicted move (revealed) hits us x0.25
+  move|p2a: Porygon-Z|Thunderbolt|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|236/314
+  move|p1a: Exeggutor|Dragon Pulse|p2a: Porygon-Z
+  -damage|p2a: Porygon-Z|0 fnt
+  faint|p2a: Porygon-Z
+  switch|p2a: Heatran|Heatran, L79, M|100/100
+  -item|p2a: Heatran|Air Balloon
+-- turn 12
+  WE CHOSE: attack+tera flamethrower - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Exeggutor|Fire
+  move|p2a: Heatran|Magma Storm|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|212/314
+  -activate|p1a: Exeggutor|move: Magma Storm|[of] p2a: Heatran
+  move|p1a: Exeggutor|Flamethrower|p2a: Heatran
+  -start|p2a: Heatran|ability: Flash Fire
+  -damage|p1a: Exeggutor|173/314|[from] move: Magma Storm|[partiallytrapped]
+-- turn 13
+  WE CHOSE: attack flamethrower - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heatran|Magma Storm|p1a: Exeggutor|[miss]
+  -miss|p2a: Heatran|p1a: Exeggutor
+  move|p1a: Exeggutor|Flamethrower|p2a: Heatran
+  -immune|p2a: Heatran|[from] ability: Flash Fire
+  -damage|p1a: Exeggutor|134/314|[from] move: Magma Storm|[partiallytrapped]
+  -enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+  -heal|p1a: Exeggutor|212/314|[from] item: Sitrus Berry
+-- turn 14
+  WE CHOSE: attack flamethrower - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heatran|Magma Storm|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|177/314
+  move|p1a: Exeggutor|Flamethrower|p2a: Heatran
+  -immune|p2a: Heatran|[from] ability: Flash Fire
+  -damage|p1a: Exeggutor|138/314|[from] move: Magma Storm|[partiallytrapped]
+-- turn 15
+  WE CHOSE: attack flamethrower - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heatran|Magma Storm|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|100/314
+  move|p1a: Exeggutor|Flamethrower|p2a: Heatran
+  -immune|p2a: Heatran|[from] ability: Flash Fire
+  -damage|p1a: Exeggutor|61/314|[from] move: Magma Storm|[partiallytrapped]
+-- turn 16
+  WE CHOSE: attack flamethrower - our hp 0.19, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to hitmontop - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heatran|Magma Storm|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|20/314
+  move|p1a: Exeggutor|Flamethrower|p2a: Heatran
+  -immune|p2a: Heatran|[from] ability: Flash Fire
+  -damage|p1a: Exeggutor|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+  faint|p1a: Exeggutor
+  switch|p1a: Hitmontop|Hitmontop, L88, M|231/231
+  -ability|p1a: Hitmontop|Intimidate|boost
+  -unboost|p2a: Heatran|atk|1
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Hitmontop|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Hitmontop
+  -damage|p1a: Hitmontop|135/231
+  -activate|p1a: Hitmontop|move: Magma Storm|[of] p2a: Heatran
+  -damage|p1a: Hitmontop|107/231|[from] move: Magma Storm|[partiallytrapped]
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to wyrdeer - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Hitmontop|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Hitmontop
+  -damage|p1a: Hitmontop|16/231
+  -damage|p1a: Hitmontop|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+  faint|p1a: Hitmontop
+  switch|p1a: Wyrdeer|Wyrdeer, L87, F|321/321
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Heatran|atk|1
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Magma Storm|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|203/321
+  -activate|p1a: Wyrdeer|move: Magma Storm|[of] p2a: Heatran
+  move|p1a: Wyrdeer|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -damage|p1a: Wyrdeer|163/321|[from] move: Magma Storm|[partiallytrapped]
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|110/321
+  move|p1a: Wyrdeer|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -damage|p1a: Wyrdeer|70/321|[from] move: Magma Storm|[partiallytrapped]
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to toxtricity - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|16/321
+  -unboost|p1a: Wyrdeer|spd|1
+  move|p1a: Wyrdeer|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -damage|p1a: Wyrdeer|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+  faint|p1a: Wyrdeer
+  switch|p1a: Toxtricity|Toxtricity, L82, M|257/257
+-- turn 22
+  WE CHOSE: attack overdrive - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to abomasnow (hand policy: forced: switch to fezandipiti) - our hp 0.00, theirs 0.59, predicted move (revealed) hits us x1
+  move|p1a: Toxtricity|Overdrive|p2a: Heatran
+  -damage|p2a: Heatran|59/100
+  -enditem|p2a: Heatran|Air Balloon
+  -enditem|p1a: Toxtricity|Throat Spray
+  -boost|p1a: Toxtricity|spa|1|[from] item: Throat Spray
+  move|p2a: Heatran|Earth Power|p1a: Toxtricity
+  -supereffective|p1a: Toxtricity
+  -damage|p1a: Toxtricity|0 fnt
+  faint|p1a: Toxtricity
+  switch|p1a: Abomasnow|Abomasnow, L84, M|287/287
+  -weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+-- turn 23
+  WE CHOSE: switch to fezandipiti (hand policy: attack earthquake) - our hp 1.00, theirs 0.59, predicted move (revealed) hits us x4
+  switch|p1a: Fezandipiti|Fezandipiti, L82, M|226/278
+  move|p2a: Heatran|Earth Power|p1a: Fezandipiti
+  -supereffective|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|114/278
+  -weather|Snowscape|[upkeep]
+  -heal|p1a: Fezandipiti|131/278|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack moonblast (hand policy: heal roost) - our hp 0.47, theirs 0.59, predicted move (revealed) hits us x1
+  move|p1a: Fezandipiti|Moonblast|p2a: Heatran
+  -resisted|p2a: Heatran
+  -damage|p2a: Heatran|54/100
+  move|p2a: Heatran|Earth Power|p1a: Fezandipiti
+  -supereffective|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|17/278
+  -weather|Snowscape|[upkeep]
+  -heal|p1a: Fezandipiti|34/278|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack moonblast (hand policy: heal roost) - our hp 0.12, theirs 0.54, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to abomasnow - our hp 0.00, theirs 0.47, predicted move (revealed) hits us x1
+  move|p1a: Fezandipiti|Moonblast|p2a: Heatran
+  -resisted|p2a: Heatran
+  -damage|p2a: Heatran|47/100
+  move|p2a: Heatran|Earth Power|p1a: Fezandipiti
+  -supereffective|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|0 fnt
+  faint|p1a: Fezandipiti
+  -weather|Snowscape|[upkeep]
+  switch|p1a: Abomasnow|Abomasnow, L84, M|287/287
+-- turn 26
+  WE CHOSE: attack auroraveil (hand policy: attack earthquake) - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x4
+  move|p2a: Heatran|Earth Power|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|247/287
+  move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+  -sidestart|p1: e1_132141|move: Aurora Veil
+  -weather|Snowscape|[upkeep]
+-- turn 27
+  WE CHOSE: attack auroraveil (hand policy: attack earthquake) - our hp 0.86, theirs 0.47, predicted move (revealed) hits us x4
+  move|p2a: Heatran|Earth Power|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|228/287
+  move|p1a: Abomasnow|Aurora Veil||[still]
+  -fail|p1a: Abomasnow
+  -weather|none
+-- turn 28
+  WE CHOSE: attack auroraveil (hand policy: attack earthquake) - our hp 0.79, theirs 0.47, predicted move (revealed) hits us x4
+  move|p2a: Heatran|Earth Power|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|211/287
+  move|p1a: Abomasnow|Aurora Veil||[still]
+  -fail|p1a: Abomasnow
+-- turn 29
+  WE CHOSE: attack auroraveil (hand policy: attack earthquake) - our hp 0.74, theirs 0.47, predicted move (revealed) hits us x4
+  move|p2a: Heatran|Earth Power|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|193/287
+  move|p1a: Abomasnow|Aurora Veil||[still]
+  -fail|p1a: Abomasnow
+-- turn 30
+  WE CHOSE: attack auroraveil (hand policy: attack earthquake) - our hp 0.67, theirs 0.47, predicted move (revealed) hits us x4
+  move|p2a: Heatran|Earth Power|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|176/287
+  move|p1a: Abomasnow|Aurora Veil||[still]
+  -fail|p1a: Abomasnow
+-- turn 31
+  WE CHOSE: attack auroraveil (hand policy: attack earthquake) - our hp 0.61, theirs 0.47, predicted move (revealed) hits us x4
+  move|p2a: Heatran|Earth Power|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|159/287
+  move|p1a: Abomasnow|Aurora Veil||[still]
+  -fail|p1a: Abomasnow
+-- turn 32
+  WE CHOSE: attack auroraveil (hand policy: attack earthquake) - our hp 0.55, theirs 0.47, predicted move (revealed) hits us x4
+  move|p2a: Heatran|Earth Power|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|140/287
+  move|p1a: Abomasnow|Aurora Veil||[still]
+  -fail|p1a: Abomasnow
+-- turn 33
+  WE CHOSE: attack auroraveil (hand policy: attack earthquake) - our hp 0.49, theirs 0.47, predicted move (revealed) hits us x4
+  move|p2a: Heatran|Earth Power|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|123/287
+  move|p1a: Abomasnow|Aurora Veil||[still]
+  -fail|p1a: Abomasnow
+  -sideend|p1: e1_132141|move: Aurora Veil
+-- turn 34
+  WE CHOSE: attack auroraveil (hand policy: attack earthquake) - our hp 0.43, theirs 0.47, predicted move (revealed) hits us x4
+  move|p2a: Heatran|Earth Power|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|85/287
+  move|p1a: Abomasnow|Aurora Veil||[still]
+  -fail|p1a: Abomasnow
+-- turn 35
+  WE CHOSE: attack auroraveil (hand policy: attack earthquake) - our hp 0.30, theirs 0.47, predicted move (revealed) hits us x4
+  move|p2a: Heatran|Earth Power|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|46/287
+  move|p1a: Abomasnow|Aurora Veil||[still]
+  -fail|p1a: Abomasnow
+-- turn 36
+  WE CHOSE: attack auroraveil (hand policy: attack earthquake) - our hp 0.16, theirs 0.47, predicted move (revealed) hits us x4
+  move|p2a: Heatran|Heavy Slam|p1a: Abomasnow
+  -supereffective|p1a: Abomasnow
+  -damage|p1a: Abomasnow|0 fnt
+  faint|p1a: Abomasnow

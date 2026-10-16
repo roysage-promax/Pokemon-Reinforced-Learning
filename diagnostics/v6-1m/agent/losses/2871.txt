@@ -1,0 +1,258 @@
+battle 2871 (battle-gen9randombattle-1035284): lost in 27 turns, 2 of theirs left; we are p1
+
+ours:
+  volbeat (fainted; item heavydutyboots, ability prankster; moves uturn/thunderwave/encore/roost)
+  urshifu (fainted; item lifeorb, ability unseenfist; moves closecombat/wickedblow/swordsdance/poisonjab)
+  thundurus (fainted; item heavydutyboots, ability defiant, tera flying; moves thunderbolt/nastyplot/focusblast/terablast)
+  probopass (fainted; item leftovers, ability magnetpull; moves irondefense/flashcannon/bodypress/thunderwave)
+  palkiaorigin (fainted; item lustrousglobe, ability pressure; moves dracometeor/thunderwave/hydropump/fireblast)
+  galvantula (fainted; item heavydutyboots, ability compoundeyes; moves bugbuzz/thunder/stickyweb/voltswitch)
+theirs (as seen):
+  gardevoir (fainted; item unknown_item, ability prankster; moves focusblast)
+  mudsdale (fainted; item unknown_item, ability ?; moves stoneedge)
+  heatran (fainted; item ?, ability ?; moves earthpower)
+  floatzel (fainted; item leftovers, ability ?; moves wavecrash)
+  cobalion (13%; item leftovers, ability justified; moves bodypress)
+
+-- turn 0
+  switch|p1a: Volbeat|Volbeat, L90, M|263/263
+  switch|p2a: Gardevoir|Gardevoir, L83, M|100/100
+  -ability|p2a: Gardevoir|Prankster|Trace|[from] ability: Trace|[of] p1a: Volbeat
+-- turn 1
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to thundurus - our hp 0.81, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p2a: Gardevoir|Focus Blast|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|214/263
+  move|p1a: Volbeat|U-turn|p2a: Gardevoir
+  -damage|p2a: Gardevoir|64/100
+  switch|p1a: Thundurus|Thundurus, L80, M|258/258|[from] U-turn
+-- turn 2
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p2a: Gardevoir|Focus Blast|p1a: Thundurus|[miss]
+  -miss|p2a: Gardevoir|p1a: Thundurus
+  move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+  -boost|p1a: Thundurus|spa|2
+-- turn 3
+  WE CHOSE: setup nastyplot (hand policy: attack thunderbolt) - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p2a: Gardevoir|Focus Blast|p1a: Thundurus
+  -resisted|p1a: Thundurus
+  -damage|p1a: Thundurus|205/258
+  move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+  -boost|p1a: Thundurus|spa|2
+-- turn 4
+  WE CHOSE: attack thunderbolt - our hp 0.79, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p2a: Gardevoir|Focus Blast|p1a: Thundurus|[miss]
+  -miss|p2a: Gardevoir|p1a: Thundurus
+  move|p1a: Thundurus|Thunderbolt|p2a: Gardevoir
+  -crit|p2a: Gardevoir
+  -damage|p2a: Gardevoir|0 fnt
+  faint|p2a: Gardevoir
+  switch|p2a: Mudsdale|Mudsdale, L83, F|100/100
+-- turn 5
+  WE CHOSE: attack+tera focusblast (hand policy: setup nastyplot) - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x0
+  WE CHOSE: forced: switch to urshifu (hand policy: forced: switch to palkiaorigin) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  -terastallize|p1a: Thundurus|Flying
+  move|p1a: Thundurus|Focus Blast|p2a: Mudsdale|[miss]
+  -miss|p1a: Thundurus|p2a: Mudsdale
+  move|p2a: Mudsdale|Stone Edge|p1a: Thundurus
+  -supereffective|p1a: Thundurus
+  -damage|p1a: Thundurus|0 fnt
+  faint|p1a: Thundurus
+  switch|p1a: Urshifu|Urshifu, L74, M|270/270
+-- turn 6
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+  -boost|p1a: Urshifu|atk|2
+  move|p2a: Mudsdale|Stone Edge|p1a: Urshifu
+  -resisted|p1a: Urshifu
+  -damage|p1a: Urshifu|224/270
+-- turn 7
+  WE CHOSE: attack closecombat - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Urshifu|Close Combat|p2a: Mudsdale
+  -damage|p2a: Mudsdale|0 fnt
+  -unboost|p1a: Urshifu|def|1
+  -unboost|p1a: Urshifu|spd|1
+  faint|p2a: Mudsdale
+  -damage|p1a: Urshifu|197/270|[from] item: Life Orb
+  switch|p2a: Heatran|Heatran, L79, M|100/100
+  -item|p2a: Heatran|Air Balloon
+-- turn 8
+  WE CHOSE: switch to palkiaorigin (hand policy: attack closecombat) - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Palkia|Palkia-Origin, L72|249/249
+  -ability|p1a: Palkia|Pressure
+  move|p2a: Heatran|Earth Power|p1a: Palkia
+  -damage|p1a: Palkia|183/249
+-- turn 9
+  WE CHOSE: attack hydropump - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Palkia|Hydro Pump|p2a: Heatran
+  -supereffective|p2a: Heatran
+  -damage|p2a: Heatran|4/100
+  -enditem|p2a: Heatran|Air Balloon
+  move|p2a: Heatran|Earth Power|p1a: Palkia
+  -damage|p1a: Palkia|120/249
+-- turn 10
+  WE CHOSE: attack hydropump - our hp 0.48, theirs 0.04, predicted move (revealed) hits us x1
+  move|p1a: Palkia|Hydro Pump|p2a: Heatran
+  -supereffective|p2a: Heatran
+  -damage|p2a: Heatran|0 fnt
+  faint|p2a: Heatran
+  switch|p2a: Floatzel|Floatzel, L86, F|100/100
+-- turn 11
+  WE CHOSE: attack dracometeor - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p2a: Floatzel|Wave Crash|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|81/249
+  -damage|p2a: Floatzel|96/100|[from] Recoil
+  move|p1a: Palkia|Draco Meteor|p2a: Floatzel
+  -damage|p2a: Floatzel|3/100
+  -unboost|p1a: Palkia|spa|2
+  -heal|p2a: Floatzel|9/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack dracometeor - our hp 0.33, theirs 0.09, predicted move (revealed) hits us x0.25
+  move|p2a: Floatzel|Wave Crash|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|42/249
+  -damage|p2a: Floatzel|4/100|[from] Recoil
+  move|p1a: Palkia|Draco Meteor|p2a: Floatzel
+  -damage|p2a: Floatzel|0 fnt
+  -unboost|p1a: Palkia|spa|2
+  faint|p2a: Floatzel
+  switch|p2a: Cobalion|Cobalion, L80|100/100
+-- turn 13
+  WE CHOSE: switch to galvantula (hand policy: attack fireblast) - our hp 0.17, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Galvantula|Galvantula, L82, F|249/249
+  move|p2a: Cobalion|Body Press|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|186/249
+-- turn 14
+  WE CHOSE: attack thunder - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Galvantula|Thunder|p2a: Cobalion|[miss]
+  -miss|p1a: Galvantula|p2a: Cobalion
+  move|p2a: Cobalion|Body Press|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|123/249
+-- turn 15
+  WE CHOSE: attack thunder - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Galvantula|Thunder|p2a: Cobalion
+  -damage|p2a: Cobalion|56/100
+  move|p2a: Cobalion|Body Press|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|60/249
+  -heal|p2a: Cobalion|62/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack thunder - our hp 0.24, theirs 0.62, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to volbeat (hand policy: forced: switch to palkiaorigin) - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p1a: Galvantula|Thunder|p2a: Cobalion
+  -damage|p2a: Cobalion|18/100
+  move|p2a: Cobalion|Body Press|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|0 fnt
+  faint|p1a: Galvantula
+  -heal|p2a: Cobalion|24/100|[from] item: Leftovers
+  switch|p1a: Volbeat|Volbeat, L90, M|214/263
+-- turn 17
+  WE CHOSE: attack uturn - our hp 0.81, theirs 0.24, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to palkiaorigin - our hp 0.63, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Body Press|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|167/263
+  move|p1a: Volbeat|U-turn|p2a: Cobalion
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|19/100
+  switch|p1a: Palkia|Palkia-Origin, L72|42/249|[from] U-turn
+  -ability|p1a: Palkia|Pressure
+  -heal|p2a: Cobalion|25/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack fireblast - our hp 0.17, theirs 0.25, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to volbeat (hand policy: forced: switch to urshifu) - our hp 0.00, theirs 0.32, predicted move (revealed) hits us x1
+  move|p2a: Cobalion|Body Press|p1a: Palkia
+  -damage|p1a: Palkia|0 fnt
+  faint|p1a: Palkia
+  -heal|p2a: Cobalion|32/100|[from] item: Leftovers
+  switch|p1a: Volbeat|Volbeat, L90, M|167/263
+-- turn 19
+  WE CHOSE: attack uturn - our hp 0.63, theirs 0.32, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to urshifu - our hp 0.44, theirs 0.27, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Body Press|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|116/263
+  move|p1a: Volbeat|U-turn|p2a: Cobalion
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|27/100
+  switch|p1a: Urshifu|Urshifu, L74, M|197/270|[from] U-turn
+  -heal|p2a: Cobalion|33/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack closecombat (hand policy: switch to volbeat) - our hp 0.73, theirs 0.33, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 0.39, predicted move (revealed) hits us x2
+  move|p2a: Cobalion|Body Press|p1a: Urshifu
+  -supereffective|p1a: Urshifu
+  -damage|p1a: Urshifu|0 fnt
+  faint|p1a: Urshifu
+  -heal|p2a: Cobalion|39/100|[from] item: Leftovers
+  switch|p1a: Volbeat|Volbeat, L90, M|116/263
+-- turn 21
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.44, theirs 0.39, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to probopass - our hp 0.26, theirs 0.35, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Body Press|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|68/263
+  move|p1a: Volbeat|U-turn|p2a: Cobalion
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|35/100
+  switch|p1a: Probopass|Probopass, L91, M|257/257|[from] U-turn
+  -heal|p2a: Cobalion|41/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: switch to volbeat - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x4
+  switch|p1a: Volbeat|Volbeat, L90, M|68/263
+  move|p2a: Cobalion|Body Press|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|20/263
+  -heal|p2a: Cobalion|47/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal roost - our hp 0.08, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|152/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Cobalion|Body Press|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|101/263
+  -heal|p2a: Cobalion|53/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.38, theirs 0.53, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to probopass - our hp 0.20, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Body Press|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|52/263
+  move|p1a: Volbeat|U-turn|p2a: Cobalion
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|49/100
+  switch|p1a: Probopass|Probopass, L91, M|257/257|[from] U-turn
+  -heal|p2a: Cobalion|55/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: switch to volbeat - our hp 1.00, theirs 0.55, predicted move (revealed) hits us x4
+  WE CHOSE: forced: switch to probopass - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x0.5
+  switch|p1a: Volbeat|Volbeat, L90, M|52/263
+  move|p2a: Cobalion|Body Press|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|0 fnt
+  faint|p1a: Volbeat
+  -heal|p2a: Cobalion|61/100|[from] item: Leftovers
+  switch|p1a: Probopass|Probopass, L91, M|257/257
+-- turn 26
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x4
+  move|p2a: Cobalion|Body Press|p1a: Probopass
+  -supereffective|p1a: Probopass
+  -damage|p1a: Probopass|13/257
+  move|p1a: Probopass|Body Press|p2a: Cobalion
+  -supereffective|p2a: Cobalion
+  -damage|p2a: Cobalion|7/100
+  -heal|p2a: Cobalion|13/100|[from] item: Leftovers
+  -heal|p1a: Probopass|29/257|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: switch to volbeat (hand policy: attack bodypress) - our hp 0.11, theirs 0.13, predicted move (revealed) hits us x4
+  move|p2a: Cobalion|Body Press|p1a: Probopass
+  -supereffective|p1a: Probopass
+  -damage|p1a: Probopass|0 fnt
+  faint|p1a: Probopass
+  deinit

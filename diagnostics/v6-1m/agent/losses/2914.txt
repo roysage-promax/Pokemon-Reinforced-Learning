@@ -1,0 +1,251 @@
+battle 2914 (battle-gen9randombattle-1035536): lost in 26 turns, 1 of theirs left; we are p1
+
+ours:
+  salamence (fainted; item heavydutyboots, ability intimidate; moves outrage/earthquake/dragondance/dualwingbeat)
+  weavile (fainted; item heavydutyboots, ability pickpocket; moves swordsdance/tripleaxel/knockoff/lowkick)
+  palkia (fainted; item choicescarf, ability pressure; moves dracometeor/spacialrend/fireblast/hydropump)
+  entei (fainted; item choiceband, ability innerfocus; moves stoneedge/flareblitz/sacredfire/extremespeed)
+  samurott (fainted; item lifeorb, ability torrent; moves megahorn/knockoff/swordsdance/liquidation)
+  zamazentacrowned (fainted; item rustedshield, ability dauntlessshield, tera ghost; moves heavyslam/stoneedge/irondefense/bodypress)
+theirs (as seen):
+  tyranitar (fainted; item unknown_item, ability ?; moves stoneedge)
+  dondozo (fainted; item leftovers, ability ?; moves wavecrash)
+  annihilape (fainted; item unknown_item, ability ?; moves drainpunch)
+  regigigas (fainted; item leftovers, ability slowstart; moves bodyslam)
+  ampharos (fainted; item unknown_item, ability ?; moves thunderbolt)
+  quaquaval (25%; item unknown_item, ability moxie; moves closecombat)
+
+-- turn 0
+  switch|p1a: Salamence|Salamence, L77, M|273/273
+  switch|p2a: Tyranitar|Tyranitar, L78, M|100/100
+  -ability|p1a: Salamence|Intimidate|boost
+  -unboost|p2a: Tyranitar|atk|1
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+-- turn 1
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Salamence|Dragon Dance|p1a: Salamence
+  -boost|p1a: Salamence|atk|1
+  -boost|p1a: Salamence|spe|1
+  move|p2a: Tyranitar|Stone Edge|p1a: Salamence
+  -supereffective|p1a: Salamence
+  -damage|p1a: Salamence|91/273
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Salamence|74/273|[from] Sandstorm
+-- turn 2
+  WE CHOSE: switch to zamazentacrowned - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Zamazenta|Zamazenta-Crowned, L68|238/238
+  -ability|p1a: Zamazenta|Dauntless Shield|boost
+  -boost|p1a: Zamazenta|def|1
+  move|p2a: Tyranitar|Stone Edge|p1a: Zamazenta
+  -resisted|p1a: Zamazenta
+  -damage|p1a: Zamazenta|227/238
+  -weather|Sandstorm|[upkeep]
+-- turn 3
+  WE CHOSE: attack bodypress - our hp 0.95, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Zamazenta|Body Press|p2a: Tyranitar
+  -supereffective|p2a: Tyranitar
+  -damage|p2a: Tyranitar|0 fnt
+  faint|p2a: Tyranitar
+  -weather|Sandstorm|[upkeep]
+  switch|p2a: Dondozo|Dondozo, L78, M|100/100
+-- turn 4
+  WE CHOSE: switch to palkia (hand policy: attack bodypress) - our hp 0.95, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Palkia|Palkia, L75|259/259
+  -ability|p1a: Palkia|Pressure
+  move|p2a: Dondozo|Wave Crash|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|231/259
+  -damage|p2a: Dondozo|98/100|[from] Recoil
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Palkia|215/259|[from] Sandstorm
+  -damage|p2a: Dondozo|92/100|[from] Sandstorm
+  -heal|p2a: Dondozo|98/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack dracometeor - our hp 0.83, theirs 0.98, predicted move (revealed) hits us x0.25
+  move|p1a: Palkia|Draco Meteor|p2a: Dondozo
+  -damage|p2a: Dondozo|39/100
+  -unboost|p1a: Palkia|spa|2
+  move|p2a: Dondozo|Wave Crash|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|186/259
+  -damage|p2a: Dondozo|36/100|[from] Recoil
+  -weather|none
+  -heal|p2a: Dondozo|42/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack dracometeor - our hp 0.72, theirs 0.42, predicted move (revealed) hits us x0.25
+  move|p1a: Palkia|Draco Meteor|p2a: Dondozo
+  -damage|p2a: Dondozo|0 fnt
+  -unboost|p1a: Palkia|spa|2
+  faint|p2a: Dondozo
+  switch|p2a: Annihilape|Annihilape, L76, M|100/100
+-- turn 7
+  WE CHOSE: switch to zamazentacrowned - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Zamazenta|Zamazenta-Crowned, L68|227/238
+  move|p2a: Annihilape|Drain Punch|p1a: Zamazenta
+  -supereffective|p1a: Zamazenta
+  -damage|p1a: Zamazenta|89/238
+-- turn 8
+  WE CHOSE: attack+tera stoneedge (hand policy: switch to salamence) - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x2
+  -terastallize|p1a: Zamazenta|Ghost
+  move|p1a: Zamazenta|Stone Edge|p2a: Annihilape|[miss]
+  -miss|p1a: Zamazenta|p2a: Annihilape
+  move|p2a: Annihilape|Drain Punch|p1a: Zamazenta
+  -immune|p1a: Zamazenta
+-- turn 9
+  WE CHOSE: attack stoneedge - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Zamazenta|Stone Edge|p2a: Annihilape
+  -resisted|p2a: Annihilape
+  -damage|p2a: Annihilape|89/100
+  move|p2a: Annihilape|Drain Punch|p1a: Zamazenta
+  -immune|p1a: Zamazenta
+-- turn 10
+  WE CHOSE: attack stoneedge - our hp 0.37, theirs 0.89, predicted move (revealed) hits us x0
+  move|p1a: Zamazenta|Stone Edge|p2a: Annihilape
+  -resisted|p2a: Annihilape
+  -crit|p2a: Annihilape
+  -damage|p2a: Annihilape|71/100
+  move|p2a: Annihilape|Drain Punch|p1a: Zamazenta
+  -immune|p1a: Zamazenta
+-- turn 11
+  WE CHOSE: attack stoneedge - our hp 0.37, theirs 0.71, predicted move (revealed) hits us x0
+  move|p1a: Zamazenta|Stone Edge|p2a: Annihilape
+  -resisted|p2a: Annihilape
+  -damage|p2a: Annihilape|60/100
+  move|p2a: Annihilape|Drain Punch|p1a: Zamazenta
+  -immune|p1a: Zamazenta
+-- turn 12
+  WE CHOSE: attack stoneedge - our hp 0.37, theirs 0.60, predicted move (revealed) hits us x0
+  move|p1a: Zamazenta|Stone Edge|p2a: Annihilape|[miss]
+  -miss|p1a: Zamazenta|p2a: Annihilape
+  move|p2a: Annihilape|Drain Punch|p1a: Zamazenta
+  -immune|p1a: Zamazenta
+-- turn 13
+  WE CHOSE: attack stoneedge - our hp 0.37, theirs 0.60, predicted move (revealed) hits us x0
+  move|p1a: Zamazenta|Stone Edge|p2a: Annihilape|[miss]
+  -miss|p1a: Zamazenta|p2a: Annihilape
+  move|p2a: Annihilape|Drain Punch|p1a: Zamazenta
+  -immune|p1a: Zamazenta
+-- turn 14
+  WE CHOSE: attack stoneedge - our hp 0.37, theirs 0.60, predicted move (revealed) hits us x0
+  move|p1a: Zamazenta|Stone Edge|p2a: Annihilape
+  -resisted|p2a: Annihilape
+  -damage|p2a: Annihilape|49/100
+  move|p2a: Annihilape|Drain Punch|p1a: Zamazenta
+  -immune|p1a: Zamazenta
+-- turn 15
+  WE CHOSE: attack stoneedge - our hp 0.37, theirs 0.49, predicted move (revealed) hits us x0
+  move|p1a: Zamazenta|Stone Edge|p2a: Annihilape
+  -resisted|p2a: Annihilape
+  -damage|p2a: Annihilape|37/100
+  move|p2a: Annihilape|Drain Punch|p1a: Zamazenta
+  -immune|p1a: Zamazenta
+-- turn 16
+  WE CHOSE: attack heavyslam - our hp 0.37, theirs 0.37, predicted move (revealed) hits us x0
+  move|p1a: Zamazenta|Heavy Slam|p2a: Annihilape
+  -damage|p2a: Annihilape|0 fnt
+  faint|p2a: Annihilape
+  switch|p2a: Regigigas|Regigigas, L84|100/100
+  -start|p2a: Regigigas|ability: Slow Start
+-- turn 17
+  WE CHOSE: attack bodypress - our hp 0.37, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Zamazenta|Body Press|p2a: Regigigas
+  -supereffective|p2a: Regigigas
+  -damage|p2a: Regigigas|59/100
+  move|p2a: Regigigas|Body Slam|p1a: Zamazenta
+  -immune|p1a: Zamazenta
+  -heal|p2a: Regigigas|65/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack bodypress - our hp 0.37, theirs 0.65, predicted move (revealed) hits us x0
+  move|p1a: Zamazenta|Body Press|p2a: Regigigas
+  -supereffective|p2a: Regigigas
+  -damage|p2a: Regigigas|22/100
+  move|p2a: Regigigas|Body Slam|p1a: Zamazenta
+  -immune|p1a: Zamazenta
+  -heal|p2a: Regigigas|28/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack bodypress - our hp 0.37, theirs 0.28, predicted move (revealed) hits us x0
+  move|p1a: Zamazenta|Body Press|p2a: Regigigas
+  -supereffective|p2a: Regigigas
+  -damage|p2a: Regigigas|0 fnt
+  faint|p2a: Regigigas
+  -end|p2a: Regigigas|Slow Start|[silent]
+  switch|p2a: Ampharos|Ampharos, L88, M|100/100
+-- turn 20
+  WE CHOSE: attack bodypress - our hp 0.37, theirs 1.00, predicted move (guessed) hits us x0
+  WE CHOSE: forced: switch to salamence - our hp 0.00, theirs 0.75, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Ampharos
+  -damage|p2a: Ampharos|75/100
+  -status|p1a: Zamazenta|par|[from] ability: Static|[of] p2a: Ampharos
+  move|p2a: Ampharos|Thunderbolt|p1a: Zamazenta
+  -damage|p1a: Zamazenta|0 fnt
+  faint|p1a: Zamazenta
+  switch|p1a: Salamence|Salamence, L77, M|74/273
+  -ability|p1a: Salamence|Intimidate|boost
+  -unboost|p2a: Ampharos|atk|1
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 0.27, theirs 0.75, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to entei - our hp 0.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Salamence|Earthquake|p2a: Ampharos
+  -supereffective|p2a: Ampharos
+  -damage|p2a: Ampharos|22/100
+  move|p2a: Ampharos|Thunderbolt|p1a: Salamence
+  -damage|p1a: Salamence|0 fnt
+  faint|p1a: Salamence
+  switch|p1a: Entei|Entei, L78|307/307
+-- turn 22
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Entei|Flare Blitz|p2a: Ampharos
+  -damage|p2a: Ampharos|0 fnt
+  faint|p2a: Ampharos
+  -damage|p1a: Entei|286/307|[from] Recoil
+  switch|p2a: Quaquaval|Quaquaval, L79, F|100/100
+-- turn 23
+  WE CHOSE: switch to palkia (hand policy: attack flareblitz) - our hp 0.93, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to entei - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Palkia|Palkia, L75|186/259
+  -ability|p1a: Palkia|Pressure
+  move|p2a: Quaquaval|Close Combat|p1a: Palkia
+  -damage|p1a: Palkia|0 fnt
+  -unboost|p2a: Quaquaval|def|1
+  -unboost|p2a: Quaquaval|spd|1
+  faint|p1a: Palkia
+  -ability|p2a: Quaquaval|Moxie|boost
+  -boost|p2a: Quaquaval|atk|1
+  switch|p1a: Entei|Entei, L78|286/307
+-- turn 24
+  WE CHOSE: attack sacredfire (hand policy: attack flareblitz) - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to samurott - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p1a: Entei|Sacred Fire|p2a: Quaquaval
+  -resisted|p2a: Quaquaval
+  -crit|p2a: Quaquaval
+  -damage|p2a: Quaquaval|25/100
+  move|p2a: Quaquaval|Close Combat|p1a: Entei
+  -damage|p1a: Entei|0 fnt
+  -unboost|p2a: Quaquaval|def|1
+  -unboost|p2a: Quaquaval|spd|1
+  faint|p1a: Entei
+  -ability|p2a: Quaquaval|Moxie|boost
+  -boost|p2a: Quaquaval|atk|1
+  switch|p1a: Samurott|Samurott, L88, M|310/310
+-- turn 25
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to weavile - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Quaquaval|Close Combat|p1a: Samurott
+  -damage|p1a: Samurott|0 fnt
+  -unboost|p2a: Quaquaval|def|1
+  -unboost|p2a: Quaquaval|spd|1
+  faint|p1a: Samurott
+  -ability|p2a: Quaquaval|Moxie|boost
+  -boost|p2a: Quaquaval|atk|1
+  switch|p1a: Weavile|Weavile, L79, F|240/240
+-- turn 26
+  WE CHOSE: switch to salamence (hand policy: attack knockoff) - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x4
+  move|p1a: Weavile|Swords Dance|p1a: Weavile
+  -boost|p1a: Weavile|atk|2
+  move|p2a: Quaquaval|Close Combat|p1a: Weavile
+  -supereffective|p1a: Weavile
+  -damage|p1a: Weavile|0 fnt
+  -unboost|p2a: Quaquaval|def|1
+  -unboost|p2a: Quaquaval|spd|1
+  faint|p1a: Weavile
+  deinit

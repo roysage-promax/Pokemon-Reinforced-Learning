@@ -1,0 +1,205 @@
+battle 2854 (battle-gen9randombattle-1035173): lost in 23 turns, 2 of theirs left; we are p1
+
+ours:
+  drednaw (fainted; item ?, ability shellarmor; moves stoneedge/earthquake/liquidation/shellsmash)
+  gallade (fainted; item choiceband, ability sharpness; moves nightslash/leafblade/sacredsword/psychocut)
+  brambleghast (fainted; item heavydutyboots, ability windrider; moves strengthsap/poltergeist/powerwhip/rapidspin)
+  qwilfishhisui (fainted; item eviolite, ability intimidate; moves toxicspikes/crunch/gunkshot/taunt)
+  oinkolognef (fainted; item leftovers, ability aromaveil; moves sleeptalk/curse/rest/bodyslam)
+  milotic (fainted; item ?, ability competitive, tera steel; moves dragontail/scald/icebeam/recover)
+theirs (as seen):
+  slowkinggalar (fainted; item unknown_item, ability ?; moves fireblast)
+  regieleki (fainted; item unknown_item, ability transistor; moves thunderbolt)
+  sableye (fainted; item leftovers, ability ?; moves knockoff)
+  baxcalibur (78%; item unknown_item, ability ?; moves earthquake)
+  quagsire (fainted; item unknown_item, ability ?; moves earthquake)
+  ambipom (12%; item unknown_item, ability ?; moves doubleedge)
+
+-- turn 0
+  switch|p1a: Drednaw|Drednaw, L81, F|278/278
+  switch|p2a: Slowking|Slowking-Galar, L85, M|100/100
+-- turn 1
+  WE CHOSE: switch to qwilfishhisui - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Qwilfish|Qwilfish-Hisui, L83, M|244/244
+  -ability|p1a: Qwilfish|Intimidate|boost
+  -unboost|p2a: Slowking|atk|1
+  move|p2a: Slowking|Fire Blast|p1a: Qwilfish
+  -crit|p1a: Qwilfish
+  -damage|p1a: Qwilfish|122/244
+-- turn 2
+  WE CHOSE: switch to drednaw (hand policy: attack crunch) - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Drednaw|Drednaw, L81, F|278/278
+  move|p2a: Slowking|Fire Blast|p1a: Drednaw
+  -resisted|p1a: Drednaw
+  -damage|p1a: Drednaw|250/278
+-- turn 3
+  WE CHOSE: setup shellsmash - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Drednaw|Shell Smash|p1a: Drednaw
+  -unboost|p1a: Drednaw|def|1
+  -unboost|p1a: Drednaw|spd|1
+  -boost|p1a: Drednaw|atk|2
+  -boost|p1a: Drednaw|spa|2
+  -boost|p1a: Drednaw|spe|2
+  -enditem|p1a: Drednaw|White Herb
+  -clearnegativeboost|p1a: Drednaw|[silent]
+  move|p2a: Slowking|Fire Blast|p1a: Drednaw|[miss]
+  -miss|p2a: Slowking|p1a: Drednaw
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Drednaw|Earthquake|p2a: Slowking
+  -supereffective|p2a: Slowking
+  -damage|p2a: Slowking|2/100
+  move|p2a: Slowking|Fire Blast|p1a: Drednaw
+  -resisted|p1a: Drednaw
+  -damage|p1a: Drednaw|221/278
+  -status|p1a: Drednaw|brn
+  -damage|p1a: Drednaw|204/278 brn|[from] brn
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 0.73, theirs 0.02, predicted move (revealed) hits us x0.25
+  move|p1a: Drednaw|Earthquake|p2a: Slowking
+  -supereffective|p2a: Slowking
+  -damage|p2a: Slowking|0 fnt
+  faint|p2a: Slowking
+  -damage|p1a: Drednaw|187/278 brn|[from] brn
+  switch|p2a: Regieleki|Regieleki, L79|100/100
+-- turn 6
+  WE CHOSE: switch to brambleghast (hand policy: attack earthquake) - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Brambleghast|Brambleghast, L88, M|240/240
+  move|p2a: Regieleki|Thunderbolt|p1a: Brambleghast
+  -resisted|p1a: Brambleghast
+  -damage|p1a: Brambleghast|169/240
+  -status|p1a: Brambleghast|par
+-- turn 7
+  WE CHOSE: attack powerwhip - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Regieleki|Thunderbolt|p1a: Brambleghast
+  -resisted|p1a: Brambleghast
+  -damage|p1a: Brambleghast|99/240 par
+  cant|p1a: Brambleghast|par
+-- turn 8
+  WE CHOSE: attack powerwhip (hand policy: heal strengthsap) - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to qwilfishhisui - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Regieleki|Thunderbolt|p1a: Brambleghast
+  -resisted|p1a: Brambleghast
+  -crit|p1a: Brambleghast
+  -damage|p1a: Brambleghast|0 fnt
+  faint|p1a: Brambleghast
+  switch|p1a: Qwilfish|Qwilfish-Hisui, L83, M|122/244
+  -ability|p1a: Qwilfish|Intimidate|boost
+  -unboost|p2a: Regieleki|atk|1
+-- turn 9
+  WE CHOSE: attack gunkshot (hand policy: attack+tera gunkshot) - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gallade - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regieleki|Thunderbolt|p1a: Qwilfish
+  -damage|p1a: Qwilfish|0 fnt
+  faint|p1a: Qwilfish
+  switch|p1a: Gallade|Gallade, L80, M|240/240
+-- turn 10
+  WE CHOSE: attack psychocut (hand policy: attack sacredsword) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regieleki|Thunderbolt|p1a: Gallade
+  -damage|p1a: Gallade|132/240
+  move|p1a: Gallade|Psycho Cut|p2a: Regieleki
+  -crit|p2a: Regieleki
+  -damage|p2a: Regieleki|0 fnt
+  faint|p2a: Regieleki
+  switch|p2a: Sableye|Sableye, L88, F|100/100
+-- turn 11
+  WE CHOSE: switch to drednaw (hand policy: attack+tera psychocut) - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Drednaw|Drednaw, L81, F|187/278 brn
+  move|p2a: Sableye|Knock Off|p1a: Drednaw
+  -damage|p1a: Drednaw|126/278 brn
+  -damage|p1a: Drednaw|109/278 brn|[from] brn
+-- turn 12
+  WE CHOSE: attack liquidation - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Drednaw|Liquidation|p2a: Sableye
+  -damage|p2a: Sableye|78/100
+  move|p2a: Sableye|Knock Off|p1a: Drednaw
+  -damage|p1a: Drednaw|49/278 brn
+  -heal|p2a: Sableye|84/100|[from] item: Leftovers
+  -damage|p1a: Drednaw|32/278 brn|[from] brn
+-- turn 13
+  WE CHOSE: attack liquidation - our hp 0.12, theirs 0.84, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to milotic - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Drednaw|Liquidation|p2a: Sableye
+  -damage|p2a: Sableye|62/100
+  move|p2a: Sableye|Knock Off|p1a: Drednaw
+  -damage|p1a: Drednaw|0 fnt
+  faint|p1a: Drednaw
+  -heal|p2a: Sableye|68/100|[from] item: Leftovers
+  switch|p1a: Milotic|Milotic, L83, M|293/293
+-- turn 14
+  WE CHOSE: attack scald - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Milotic|Scald|p2a: Sableye
+  -damage|p2a: Sableye|26/100
+  move|p2a: Sableye|Knock Off|p1a: Milotic
+  -damage|p1a: Milotic|197/293
+  -enditem|p1a: Milotic|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+  -heal|p2a: Sableye|32/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack scald - our hp 0.67, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Milotic|Scald|p2a: Sableye
+  -damage|p2a: Sableye|0 fnt
+  faint|p2a: Sableye
+  switch|p2a: Baxcalibur|Baxcalibur, L75, F|100/100
+-- turn 16
+  WE CHOSE: attack+tera dragontail - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Milotic|Steel
+  move|p2a: Baxcalibur|Earthquake|p1a: Milotic
+  -supereffective|p1a: Milotic
+  -damage|p1a: Milotic|19/293
+  move|p1a: Milotic|Dragon Tail|p2a: Baxcalibur
+  -supereffective|p2a: Baxcalibur
+  -damage|p2a: Baxcalibur|78/100
+  drag|p2a: Quagsire|Quagsire, L84, F|100/100
+-- turn 17
+  WE CHOSE: heal recover (hand policy: attack scald) - our hp 0.06, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to gallade - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Milotic|Recover|p1a: Milotic
+  -heal|p1a: Milotic|166/293
+  move|p2a: Quagsire|Earthquake|p1a: Milotic
+  -supereffective|p1a: Milotic
+  -damage|p1a: Milotic|0 fnt
+  faint|p1a: Milotic
+  switch|p1a: Gallade|Gallade, L80, M|132/240
+-- turn 18
+  WE CHOSE: attack leafblade - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Gallade|Leaf Blade|p2a: Quagsire
+  -supereffective|p2a: Quagsire
+  -damage|p2a: Quagsire|0 fnt
+  faint|p2a: Quagsire
+  switch|p2a: Ambipom|Ambipom, L84, M|100/100
+-- turn 19
+  WE CHOSE: attack leafblade - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to oinkolognef - our hp 0.00, theirs 0.84, predicted move (revealed) hits us x1
+  move|p2a: Ambipom|Double-Edge|p1a: Gallade
+  -damage|p1a: Gallade|0 fnt
+  faint|p1a: Gallade
+  -damage|p2a: Ambipom|84/100|[from] Recoil
+  switch|p1a: Oinkologne|Oinkologne-F, L91, F|357/357
+-- turn 20
+  WE CHOSE: heal rest (hand policy: attack bodyslam) - our hp 1.00, theirs 0.84, predicted move (revealed) hits us x1
+  move|p2a: Ambipom|Double-Edge|p1a: Oinkologne
+  -damage|p1a: Oinkologne|188/357
+  -damage|p2a: Ambipom|62/100|[from] Recoil
+  move|p1a: Oinkologne|Rest|p1a: Oinkologne
+  -status|p1a: Oinkologne|slp|[from] move: Rest
+  -heal|p1a: Oinkologne|357/357 slp|[silent]
+-- turn 21
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Ambipom|Double-Edge|p1a: Oinkologne
+  -damage|p1a: Oinkologne|177/357 slp
+  -damage|p2a: Ambipom|40/100|[from] Recoil
+  cant|p1a: Oinkologne|slp
+  -heal|p1a: Oinkologne|199/357 slp|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack bodyslam - our hp 0.56, theirs 0.40, predicted move (revealed) hits us x1
+  move|p2a: Ambipom|Double-Edge|p1a: Oinkologne
+  -damage|p1a: Oinkologne|28/357 slp
+  -damage|p2a: Ambipom|19/100|[from] Recoil
+  cant|p1a: Oinkologne|slp
+  -heal|p1a: Oinkologne|50/357 slp|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal rest - our hp 0.14, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Ambipom|Double-Edge|p1a: Oinkologne
+  -damage|p1a: Oinkologne|0 fnt
+  faint|p1a: Oinkologne
+  -damage|p2a: Ambipom|12/100|[from] Recoil

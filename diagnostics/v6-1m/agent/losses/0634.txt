@@ -1,0 +1,225 @@
+battle 634 (battle-gen9randombattle-1012738): lost in 26 turns, 1 of theirs left; we are p1
+
+ours:
+  perrserker (fainted; item lifeorb, ability toughclaws; moves closecombat/knockoff/stealthrock/ironhead)
+  masquerain (fainted; item heavydutyboots, ability intimidate, tera ground; moves hurricane/stickyweb/bugbuzz/stunspore)
+  bellibolt (fainted; item leftovers, ability electromorphosis; moves thunderbolt/muddywater/slackoff/voltswitch)
+  ursaring (fainted; item eviolite, ability guts; moves rest/bodyslam/earthquake/sleeptalk)
+  golduck (fainted; item choicespecs, ability cloudnine; moves grassknot/hydropump/icebeam/flipturn)
+  furret (fainted; item choiceband, ability frisk; moves uturn/trick/doubleedge/knockoff)
+theirs (as seen):
+  dunsparce (fainted; item unknown_item, ability ?; moves earthquake)
+  enamorustherian (fainted; item unknown_item, ability overcoat; moves superpower)
+  noctowl (fainted; item unknown_item, ability ?; moves hurricane)
+  illumise (fainted; item unknown_item, ability ?; moves bugbuzz)
+  overqwil (fainted; item choiceband, ability intimidate; moves gunkshot)
+  walkingwake (28%; item unknown_item, ability protosynthesis; moves dracometeor)
+
+-- turn 0
+  switch|p1a: Perrserker|Perrserker, L89, F|269/269
+  switch|p2a: Dunsparce|Dunsparce, L86, M|100/100
+-- turn 1
+  WE CHOSE: switch to masquerain - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Masquerain|Masquerain, L87, F|264/264
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Dunsparce|atk|1
+  move|p2a: Dunsparce|Earthquake|p1a: Masquerain
+  -immune|p1a: Masquerain
+-- turn 2
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Masquerain|Bug Buzz|p2a: Dunsparce
+  -damage|p2a: Dunsparce|74/100
+  move|p2a: Dunsparce|Earthquake|p1a: Masquerain
+  -immune|p1a: Masquerain
+-- turn 3
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 0.74, predicted move (revealed) hits us x0
+  move|p1a: Masquerain|Bug Buzz|p2a: Dunsparce
+  -damage|p2a: Dunsparce|47/100
+  move|p2a: Dunsparce|Earthquake|p1a: Masquerain
+  -immune|p1a: Masquerain
+-- turn 4
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x0
+  move|p1a: Masquerain|Bug Buzz|p2a: Dunsparce
+  -damage|p2a: Dunsparce|22/100
+  move|p2a: Dunsparce|Earthquake|p1a: Masquerain
+  -immune|p1a: Masquerain
+-- turn 5
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 0.22, predicted move (revealed) hits us x0
+  move|p1a: Masquerain|Bug Buzz|p2a: Dunsparce
+  -damage|p2a: Dunsparce|0 fnt
+  faint|p2a: Dunsparce
+  switch|p2a: Enamorus|Enamorus-Therian, L83, F|100/100
+-- turn 6
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p1a: Masquerain|Hurricane|p2a: Enamorus
+  -damage|p2a: Enamorus|68/100
+  move|p2a: Enamorus|Superpower|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|237/264
+  -unboost|p2a: Enamorus|atk|1
+  -unboost|p2a: Enamorus|def|1
+-- turn 7
+  WE CHOSE: attack hurricane - our hp 0.90, theirs 0.68, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Hurricane|p2a: Enamorus
+  -crit|p2a: Enamorus
+  -damage|p2a: Enamorus|19/100
+  -start|p2a: Enamorus|confusion
+  -activate|p2a: Enamorus|confusion
+  -damage|p2a: Enamorus|9/100|[from] confusion
+-- turn 8
+  WE CHOSE: attack hurricane - our hp 0.90, theirs 0.09, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Hurricane|p2a: Enamorus
+  -damage|p2a: Enamorus|0 fnt
+  faint|p2a: Enamorus
+  switch|p2a: Noctowl|Noctowl, L95, F|100/100
+-- turn 9
+  WE CHOSE: switch to bellibolt - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Bellibolt|Bellibolt, L84, M|320/320
+  move|p2a: Noctowl|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|176/320
+  -start|p1a: Bellibolt|confusion
+  -start|p1a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  -heal|p1a: Bellibolt|196/320|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack thunderbolt - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Noctowl|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|46/320
+  -start|p1a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  -activate|p1a: Bellibolt|confusion
+  -damage|p1a: Bellibolt|31/320|[from] confusion
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|51/320|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: switch to perrserker (hand policy: heal slackoff) - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Perrserker|Perrserker, L89, F|269/269
+  move|p2a: Noctowl|Hurricane|p1a: Perrserker
+  -resisted|p1a: Perrserker
+  -damage|p1a: Perrserker|101/269
+-- turn 12
+  WE CHOSE: attack closecombat - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to bellibolt - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Noctowl|Hurricane|p1a: Perrserker
+  -resisted|p1a: Perrserker
+  -damage|p1a: Perrserker|0 fnt
+  faint|p1a: Perrserker
+  switch|p1a: Bellibolt|Bellibolt, L84, M|51/320
+-- turn 13
+  WE CHOSE: attack thunderbolt (hand policy: heal slackoff) - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to golduck - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Noctowl|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|0 fnt
+  faint|p1a: Bellibolt
+  switch|p1a: Golduck|Golduck, L90, F|290/290
+  -ability|p1a: Golduck|Cloud Nine
+-- turn 14
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Golduck|Ice Beam|p2a: Noctowl
+  -supereffective|p2a: Noctowl
+  -damage|p2a: Noctowl|50/100
+  -status|p2a: Noctowl|frz
+  -curestatus|p2a: Noctowl|frz|[msg]
+  move|p2a: Noctowl|Hurricane|p1a: Golduck
+  -damage|p1a: Golduck|163/290
+-- turn 15
+  WE CHOSE: attack icebeam - our hp 0.56, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Golduck|Ice Beam|p2a: Noctowl
+  -supereffective|p2a: Noctowl
+  -damage|p2a: Noctowl|0 fnt
+  faint|p2a: Noctowl
+  switch|p2a: Illumise|Illumise, L91, F|100/100
+-- turn 16
+  WE CHOSE: switch to masquerain (hand policy: attack icebeam) - our hp 0.56, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Masquerain|Masquerain, L87, F|237/264
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Illumise|atk|1
+  move|p2a: Illumise|Bug Buzz|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|191/264
+-- turn 17
+  WE CHOSE: attack hurricane - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Illumise|Bug Buzz|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|145/264
+  -unboost|p1a: Masquerain|spd|1
+  move|p1a: Masquerain|Hurricane|p2a: Illumise
+  -supereffective|p2a: Illumise
+  -damage|p2a: Illumise|16/100
+-- turn 18
+  WE CHOSE: attack hurricane - our hp 0.55, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p2a: Illumise|Bug Buzz|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -crit|p1a: Masquerain
+  -damage|p1a: Masquerain|39/264
+  move|p1a: Masquerain|Hurricane|p2a: Illumise
+  -supereffective|p2a: Illumise
+  -damage|p2a: Illumise|0 fnt
+  faint|p2a: Illumise
+  switch|p2a: Overqwil|Overqwil, L82, M|100/100
+  -ability|p2a: Overqwil|Intimidate|boost
+  -unboost|p1a: Masquerain|atk|1
+-- turn 19
+  WE CHOSE: attack+tera bugbuzz - our hp 0.15, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ursaring - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Masquerain|Ground
+  move|p1a: Masquerain|Bug Buzz|p2a: Overqwil
+  -damage|p2a: Overqwil|50/100
+  move|p2a: Overqwil|Gunk Shot|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|0 fnt
+  faint|p1a: Masquerain
+  switch|p1a: Ursaring|Ursaring, L84, F|288/288
+-- turn 20
+  WE CHOSE: heal rest (hand policy: attack earthquake) - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Overqwil|Gunk Shot|p1a: Ursaring
+  -damage|p1a: Ursaring|120/288
+  move|p1a: Ursaring|Rest|p1a: Ursaring
+  -status|p1a: Ursaring|slp|[from] move: Rest
+  -heal|p1a: Ursaring|288/288 slp|[silent]
+-- turn 21
+  WE CHOSE: heal rest (hand policy: attack earthquake) - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Overqwil|Gunk Shot|p1a: Ursaring
+  -damage|p1a: Ursaring|128/288 slp
+  cant|p1a: Ursaring|slp
+-- turn 22
+  WE CHOSE: heal rest - our hp 0.44, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Overqwil|Gunk Shot|p1a: Ursaring|[miss]
+  -miss|p2a: Overqwil|p1a: Ursaring
+  cant|p1a: Ursaring|slp
+-- turn 23
+  WE CHOSE: heal rest - our hp 0.44, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to furret - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Overqwil|Gunk Shot|p1a: Ursaring
+  -damage|p1a: Ursaring|0 fnt
+  faint|p1a: Ursaring
+  switch|p1a: Furret|Furret, L94, F|312/312
+  -item|p2a: Overqwil|Choice Band|[from] ability: Frisk|[of] p1a: Furret
+-- turn 24
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Furret|Double-Edge|p2a: Overqwil
+  -crit|p2a: Overqwil
+  -damage|p2a: Overqwil|0 fnt
+  faint|p2a: Overqwil
+  -damage|p1a: Furret|267/312|[from] Recoil
+  switch|p2a: Walking Wake|Walking Wake, L79|100/100
+-- turn 25
+  WE CHOSE: attack doubleedge - our hp 0.86, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to golduck - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p1a: Furret|Double-Edge|p2a: Walking Wake
+  -damage|p2a: Walking Wake|28/100
+  -damage|p1a: Furret|199/312|[from] Recoil
+  move|p2a: Walking Wake|Draco Meteor|p1a: Furret
+  -damage|p1a: Furret|0 fnt
+  -unboost|p2a: Walking Wake|spa|2
+  faint|p1a: Furret
+  switch|p1a: Golduck|Golduck, L90, F|163/290
+  -ability|p1a: Golduck|Cloud Nine
+-- turn 26
+  WE CHOSE: attack icebeam - our hp 0.56, theirs 0.28, predicted move (revealed) hits us x1
+  move|p2a: Walking Wake|Draco Meteor|p1a: Golduck
+  -crit|p1a: Golduck
+  -damage|p1a: Golduck|0 fnt
+  -unboost|p2a: Walking Wake|spa|2
+  faint|p1a: Golduck

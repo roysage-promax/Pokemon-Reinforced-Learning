@@ -1,0 +1,345 @@
+battle 1960 (battle-gen9randombattle-1026218): lost in 38 turns, 3 of theirs left; we are p1
+
+ours:
+  regigigas (fainted; item leftovers, ability slowstart; moves knockoff/sleeptalk/rest/bodyslam)
+  fezandipiti (fainted; item leftovers, ability toxicchain; moves gunkshot/roost/moonblast/uturn)
+  umbreon (fainted; item leftovers, ability synchronize; moves wish/toxic/foulplay/protect)
+  ursaring (fainted; item toxicorb, ability quickfeet; moves swordsdance/facade/throatchop/closecombat)
+  bellibolt (fainted; item leftovers, ability electromorphosis; moves thunderbolt/slackoff/toxic/muddywater)
+  corviknight (fainted; item rockyhelmet, ability pressure, tera dragon; moves bravebird/uturn/defog/roost)
+theirs (as seen):
+  keldeoresolute (fainted; item leftovers, ability justified; moves surf)
+  kilowattrel (fainted; item unknown_item, ability voltabsorb; moves hurricane/thunderbolt)
+  toucannon (fainted; item unknown_item, ability ?; moves boomburst)
+  bellibolt (70%; item unknown_item, ability ?; moves muddywater)
+
+-- turn 0
+  switch|p1a: Regigigas|Regigigas, L84|322/322
+  switch|p2a: Keldeo|Keldeo-Resolute, L79|100/100
+  -start|p1a: Regigigas|ability: Slow Start
+-- turn 1
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Keldeo|Surf|p1a: Regigigas
+  -damage|p1a: Regigigas|234/322
+  move|p1a: Regigigas|Body Slam|p2a: Keldeo
+  -damage|p2a: Keldeo|76/100
+  -heal|p2a: Keldeo|83/100|[from] item: Leftovers
+  -heal|p1a: Regigigas|254/322|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack bodyslam - our hp 0.79, theirs 0.83, predicted move (revealed) hits us x1
+  move|p2a: Keldeo|Surf|p1a: Regigigas
+  -damage|p1a: Regigigas|172/322
+  move|p1a: Regigigas|Body Slam|p2a: Keldeo
+  -damage|p2a: Keldeo|58/100
+  -status|p2a: Keldeo|par
+  -heal|p1a: Regigigas|192/322|[from] item: Leftovers
+  -heal|p2a: Keldeo|64/100 par|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack bodyslam - our hp 0.60, theirs 0.64, predicted move (revealed) hits us x1
+  cant|p2a: Keldeo|par
+  move|p1a: Regigigas|Body Slam|p2a: Keldeo
+  -damage|p2a: Keldeo|36/100 par
+  -heal|p1a: Regigigas|212/322|[from] item: Leftovers
+  -heal|p2a: Keldeo|43/100 par|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack bodyslam - our hp 0.66, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Regigigas|Body Slam|p2a: Keldeo
+  -damage|p2a: Keldeo|16/100 par
+  move|p2a: Keldeo|Surf|p1a: Regigigas
+  -damage|p1a: Regigigas|128/322
+  -heal|p2a: Keldeo|22/100 par|[from] item: Leftovers
+  -heal|p1a: Regigigas|148/322|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: switch to corviknight (hand policy: heal rest) - our hp 0.46, theirs 0.22, predicted move (revealed) hits us x1
+  switch|p1a: Corviknight|Corviknight, L80, M|288/288
+  -ability|p1a: Corviknight|Pressure
+  move|p2a: Keldeo|Surf|p1a: Corviknight
+  -damage|p1a: Corviknight|167/288
+  -heal|p2a: Keldeo|29/100 par|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack+tera bravebird - our hp 0.58, theirs 0.29, predicted move (revealed) hits us x1
+  -terastallize|p1a: Corviknight|Dragon
+  move|p1a: Corviknight|Brave Bird|p2a: Keldeo
+  -supereffective|p2a: Keldeo
+  -damage|p2a: Keldeo|0 fnt
+  faint|p2a: Keldeo
+  -damage|p1a: Corviknight|142/288|[from] Recoil
+  switch|p2a: Kilowattrel|Kilowattrel, L83, M|100/100
+-- turn 7
+  WE CHOSE: switch to bellibolt (hand policy: heal roost) - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Bellibolt|Bellibolt, L84, F|320/320
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt|[miss]
+  -miss|p2a: Kilowattrel|p1a: Bellibolt
+-- turn 8
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|259/320
+  -start|p1a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|279/320|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack thunderbolt - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|219/320
+  -start|p1a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|239/320|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack thunderbolt - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|175/320
+  -start|p1a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|195/320|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack thunderbolt - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt|[miss]
+  -miss|p2a: Kilowattrel|p1a: Bellibolt
+  move|p1a: Bellibolt|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+  -heal|p1a: Bellibolt|215/320|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack thunderbolt - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|148/320
+  -start|p1a: Bellibolt|confusion
+  -start|p1a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  -activate|p1a: Bellibolt|confusion
+  -damage|p1a: Bellibolt|134/320|[from] confusion
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|154/320|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack thunderbolt (hand policy: heal slackoff) - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|86/320
+  -start|p1a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  -activate|p1a: Bellibolt|confusion
+  move|p1a: Bellibolt|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|106/320|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal slackoff - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|43/320
+  -start|p1a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  -end|p1a: Bellibolt|confusion
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|203/320
+  -heal|p1a: Bellibolt|223/320|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack thunderbolt - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt|[miss]
+  -miss|p2a: Kilowattrel|p1a: Bellibolt
+  move|p1a: Bellibolt|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|243/320|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack thunderbolt - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt|[miss]
+  -miss|p2a: Kilowattrel|p1a: Bellibolt
+  move|p1a: Bellibolt|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+  -heal|p1a: Bellibolt|263/320|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack thunderbolt - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|198/320
+  -start|p1a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|218/320|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack thunderbolt - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt|[miss]
+  -miss|p2a: Kilowattrel|p1a: Bellibolt
+  move|p1a: Bellibolt|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+  -heal|p1a: Bellibolt|238/320|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack thunderbolt - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|171/320
+  -start|p1a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|191/320|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack thunderbolt - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|122/320
+  -start|p1a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Kilowattrel
+  -immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|142/320|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack thunderbolt (hand policy: heal slackoff) - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -crit|p1a: Bellibolt
+  -damage|p1a: Bellibolt|55/320
+  -start|p1a: Bellibolt|confusion
+  -start|p1a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  -activate|p1a: Bellibolt|confusion
+  -damage|p1a: Bellibolt|41/320|[from] confusion
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|61/320|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal slackoff - our hp 0.19, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to fezandipiti - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kilowattrel|Hurricane|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|0 fnt
+  faint|p1a: Bellibolt
+  switch|p1a: Fezandipiti|Fezandipiti, L82, M|278/278
+-- turn 23
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Kilowattrel|Thunderbolt|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|196/278
+  move|p1a: Fezandipiti|Gunk Shot|p2a: Kilowattrel|[miss]
+  -miss|p1a: Fezandipiti|p2a: Kilowattrel
+  -heal|p1a: Fezandipiti|213/278|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack gunkshot - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Kilowattrel|Thunderbolt|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|132/278
+  move|p1a: Fezandipiti|Gunk Shot|p2a: Kilowattrel|[miss]
+  -miss|p1a: Fezandipiti|p2a: Kilowattrel
+  -heal|p1a: Fezandipiti|149/278|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack gunkshot - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Kilowattrel|Thunderbolt|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|77/278
+  move|p1a: Fezandipiti|Gunk Shot|p2a: Kilowattrel|[miss]
+  -miss|p1a: Fezandipiti|p2a: Kilowattrel
+  -heal|p1a: Fezandipiti|94/278|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack gunkshot (hand policy: heal roost) - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Kilowattrel|Thunderbolt|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|12/278
+  move|p1a: Fezandipiti|Gunk Shot|p2a: Kilowattrel|[miss]
+  -miss|p1a: Fezandipiti|p2a: Kilowattrel
+  -heal|p1a: Fezandipiti|29/278|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: heal roost - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to umbreon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Kilowattrel|Thunderbolt|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|0 fnt
+  faint|p1a: Fezandipiti
+  switch|p1a: Umbreon|Umbreon, L84, F|297/297
+-- turn 28
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Kilowattrel|Thunderbolt|p1a: Umbreon
+  -damage|p1a: Umbreon|228/297
+  move|p1a: Umbreon|Foul Play|p2a: Kilowattrel
+  -damage|p2a: Kilowattrel|60/100
+  -heal|p1a: Umbreon|246/297|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack foulplay - our hp 0.83, theirs 0.60, predicted move (revealed) hits us x1
+  move|p2a: Kilowattrel|Thunderbolt|p1a: Umbreon
+  -damage|p1a: Umbreon|168/297
+  move|p1a: Umbreon|Foul Play|p2a: Kilowattrel
+  -damage|p2a: Kilowattrel|20/100
+  -heal|p1a: Umbreon|186/297|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack foulplay - our hp 0.63, theirs 0.20, predicted move (revealed) hits us x1
+  move|p2a: Kilowattrel|Thunderbolt|p1a: Umbreon
+  -damage|p1a: Umbreon|107/297
+  -status|p1a: Umbreon|par
+  -activate|p1a: Umbreon|ability: Synchronize
+  -immune|p2a: Kilowattrel
+  move|p1a: Umbreon|Foul Play|p2a: Kilowattrel
+  -damage|p2a: Kilowattrel|0 fnt
+  faint|p2a: Kilowattrel
+  -heal|p1a: Umbreon|125/297 par|[from] item: Leftovers
+  switch|p2a: Toucannon|Toucannon, L88, M|100/100
+-- turn 31
+  WE CHOSE: attack foulplay - our hp 0.42, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Toucannon|Boomburst|p1a: Umbreon
+  -damage|p1a: Umbreon|22/297 par
+  move|p1a: Umbreon|Foul Play|p2a: Toucannon
+  -damage|p2a: Toucannon|52/100
+  -heal|p1a: Umbreon|40/297 par|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack protect (hand policy: attack foulplay) - our hp 0.13, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Umbreon|Protect|p1a: Umbreon
+  -singleturn|p1a: Umbreon|Protect
+  move|p2a: Toucannon|Boomburst|p1a: Umbreon
+  -activate|p1a: Umbreon|move: Protect
+  -heal|p1a: Umbreon|58/297 par|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack protect (hand policy: attack foulplay) - our hp 0.20, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to corviknight - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Umbreon|Protect||[still]
+  -fail|p1a: Umbreon
+  move|p2a: Toucannon|Boomburst|p1a: Umbreon
+  -damage|p1a: Umbreon|0 fnt
+  faint|p1a: Umbreon
+  switch|p1a: Corviknight|Corviknight, L80, M, tera:Dragon|142/288
+  -ability|p1a: Corviknight|Pressure
+-- turn 34
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.49, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to regigigas - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Toucannon|Boomburst|p1a: Corviknight
+  -crit|p1a: Corviknight
+  -damage|p1a: Corviknight|0 fnt
+  faint|p1a: Corviknight
+  switch|p1a: Regigigas|Regigigas, L84|148/322
+  -start|p1a: Regigigas|ability: Slow Start
+-- turn 35
+  WE CHOSE: heal rest - our hp 0.46, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ursaring - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Toucannon|Boomburst|p1a: Regigigas
+  -crit|p1a: Regigigas
+  -damage|p1a: Regigigas|0 fnt
+  faint|p1a: Regigigas
+  -end|p1a: Regigigas|Slow Start|[silent]
+  switch|p1a: Ursaring|Ursaring, L84, F|288/288
+-- turn 36
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Toucannon|Boomburst|p1a: Ursaring
+  -damage|p1a: Ursaring|147/288
+  move|p1a: Ursaring|Close Combat|p2a: Toucannon
+  -damage|p2a: Toucannon|13/100
+  -unboost|p1a: Ursaring|def|1
+  -unboost|p1a: Ursaring|spd|1
+  -status|p1a: Ursaring|tox|[from] item: Toxic Orb
+-- turn 37
+  WE CHOSE: attack closecombat - our hp 0.51, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Ursaring|Close Combat|p2a: Toucannon
+  -damage|p2a: Toucannon|0 fnt
+  -unboost|p1a: Ursaring|def|1
+  -unboost|p1a: Ursaring|spd|1
+  faint|p2a: Toucannon
+  -damage|p1a: Ursaring|129/288 tox|[from] psn
+  switch|p2a: Bellibolt|Bellibolt, L84, F|100/100
+-- turn 38
+  WE CHOSE: attack closecombat - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Ursaring|Close Combat|p2a: Bellibolt
+  -damage|p2a: Bellibolt|70/100
+  -unboost|p1a: Ursaring|def|1
+  -unboost|p1a: Ursaring|spd|1
+  -start|p2a: Bellibolt|Charge|Close Combat|[from] ability: Electromorphosis
+  move|p2a: Bellibolt|Muddy Water|p1a: Ursaring
+  -crit|p1a: Ursaring
+  -damage|p1a: Ursaring|0 fnt
+  faint|p1a: Ursaring

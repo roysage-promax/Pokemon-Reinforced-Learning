@@ -1,0 +1,184 @@
+battle 460 (battle-gen9randombattle-1010989): lost in 18 turns, 3 of theirs left; we are p1
+
+ours:
+  baxcalibur (fainted; item heavydutyboots, ability thermalexchange; moves glaiverush/earthquake/dragondance/iciclecrash)
+  samurotthisui (fainted; item lifeorb, ability sharpness; moves razorshell/suckerpunch/swordsdance/ceaselessedge)
+  hypno (fainted; item leftovers, ability insomnia; moves psychicnoise/toxic/encore/knockoff)
+  shiftry (fainted; item lifeorb, ability windrider; moves leafblade/knockoff/suckerpunch/swordsdance)
+  electivire (fainted; item lifeorb, ability motordrive, tera flying; moves knockoff/earthquake/voltswitch/supercellslam)
+  electrode (fainted; item lifeorb, ability aftermath; moves thunderbolt/explosion/foulplay/taunt)
+theirs (as seen):
+  abomasnow (fainted; item unknown_item, ability ?; moves blizzard)
+  vespiquen (fainted; item unknown_item, ability pressure; moves airslash)
+  vigoroth (fainted; item unknown_item, ability vitalspirit; moves bodyslam)
+  kommoo (100%; item unknown_item, ability soundproof; moves closecombat)
+
+-- turn 0
+  switch|p1a: Baxcalibur|Baxcalibur, L75, F|296/296
+  switch|p2a: Abomasnow|Abomasnow, L84, F|100/100
+  -weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+-- turn 1
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Baxcalibur|Dragon Dance|p1a: Baxcalibur
+  -boost|p1a: Baxcalibur|atk|1
+  -boost|p1a: Baxcalibur|spe|1
+  move|p2a: Abomasnow|Blizzard|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|172/296
+  -weather|Snowscape|[upkeep]
+-- turn 2
+  WE CHOSE: attack glaiverush - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to electrode - our hp 0.00, theirs 0.44, predicted move (revealed) hits us x1
+  move|p1a: Baxcalibur|Glaive Rush|p2a: Abomasnow
+  -damage|p2a: Abomasnow|44/100
+  -singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+  move|p2a: Abomasnow|Blizzard|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|0 fnt
+  faint|p1a: Baxcalibur
+  -weather|Snowscape|[upkeep]
+  switch|p1a: Electrode|Electrode, L93|262/262
+-- turn 3
+  WE CHOSE: attack explosion - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to samurotthisui - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Electrode|Explosion|p2a: Abomasnow
+  -damage|p2a: Abomasnow|0 fnt
+  faint|p1a: Electrode
+  faint|p2a: Abomasnow
+  -weather|Snowscape|[upkeep]
+  switch|p1a: Samurott|Samurott-Hisui, L77, F|265/265
+  switch|p2a: Vespiquen|Vespiquen, L99, F|100/100
+  -ability|p2a: Vespiquen|Pressure
+-- turn 4
+  WE CHOSE: switch to electivire (hand policy: attack razorshell) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Electivire|Electivire, L84, M|263/263
+  move|p2a: Vespiquen|Air Slash|p1a: Electivire
+  -resisted|p1a: Electivire
+  -damage|p1a: Electivire|215/263
+  -weather|Snowscape|[upkeep]
+-- turn 5
+  WE CHOSE: attack supercellslam - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Electivire|Supercell Slam|p2a: Vespiquen
+  -supereffective|p2a: Vespiquen
+  -damage|p2a: Vespiquen|12/100
+  -damage|p1a: Electivire|189/263|[from] item: Life Orb
+  move|p2a: Vespiquen|Air Slash|p1a: Electivire
+  -resisted|p1a: Electivire
+  -damage|p1a: Electivire|144/263
+  -weather|none
+-- turn 6
+  WE CHOSE: attack supercellslam - our hp 0.55, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Electivire|Supercell Slam|p2a: Vespiquen
+  -supereffective|p2a: Vespiquen
+  -damage|p2a: Vespiquen|0 fnt
+  faint|p2a: Vespiquen
+  -damage|p1a: Electivire|118/263|[from] item: Life Orb
+  switch|p2a: Vigoroth|Vigoroth, L85, M|100/100
+-- turn 7
+  WE CHOSE: attack+tera supercellslam (hand policy: switch to shiftry) - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to shiftry - our hp 0.00, theirs 0.55, predicted move (revealed) hits us x1
+  -terastallize|p1a: Electivire|Flying
+  move|p1a: Electivire|Supercell Slam|p2a: Vigoroth
+  -damage|p2a: Vigoroth|55/100
+  -damage|p1a: Electivire|92/263|[from] item: Life Orb
+  move|p2a: Vigoroth|Body Slam|p1a: Electivire
+  -damage|p1a: Electivire|0 fnt
+  faint|p1a: Electivire
+  switch|p1a: Shiftry|Shiftry, L89, M|305/305
+-- turn 8
+  WE CHOSE: attack leafblade - our hp 1.00, theirs 0.55, predicted move (revealed) hits us x1
+  move|p2a: Vigoroth|Body Slam|p1a: Shiftry
+  -damage|p1a: Shiftry|209/305
+  -status|p1a: Shiftry|par
+  cant|p1a: Shiftry|par
+-- turn 9
+  WE CHOSE: attack leafblade - our hp 0.69, theirs 0.55, predicted move (revealed) hits us x1
+  move|p2a: Vigoroth|Body Slam|p1a: Shiftry
+  -damage|p1a: Shiftry|110/305 par
+  move|p1a: Shiftry|Leaf Blade|p2a: Vigoroth
+  -damage|p2a: Vigoroth|16/100
+  -damage|p1a: Shiftry|80/305 par|[from] item: Life Orb
+-- turn 10
+  WE CHOSE: attack leafblade - our hp 0.26, theirs 0.16, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hypno - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x1
+  move|p2a: Vigoroth|Body Slam|p1a: Shiftry
+  -damage|p1a: Shiftry|0 fnt
+  faint|p1a: Shiftry
+  switch|p1a: Hypno|Hypno, L95, M|315/315
+-- turn 11
+  WE CHOSE: attack psychicnoise - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x1
+  move|p2a: Vigoroth|Body Slam|p1a: Hypno
+  -damage|p1a: Hypno|228/315
+  move|p1a: Hypno|Psychic Noise|p2a: Vigoroth
+  -damage|p2a: Vigoroth|0 fnt
+  faint|p2a: Vigoroth
+  -heal|p1a: Hypno|247/315|[from] item: Leftovers
+  switch|p2a: Kommo-o|Kommo-o, L77, M|100/100
+-- turn 12
+  WE CHOSE: attack psychicnoise - our hp 0.78, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Hypno|Psychic Noise|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Close Combat|p1a: Hypno
+  -resisted|p1a: Hypno
+  -damage|p1a: Hypno|188/315
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  -heal|p1a: Hypno|207/315|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack psychicnoise - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Hypno|Psychic Noise|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Close Combat|p1a: Hypno
+  -resisted|p1a: Hypno
+  -damage|p1a: Hypno|147/315
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  -heal|p1a: Hypno|166/315|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack psychicnoise - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Hypno|Psychic Noise|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Close Combat|p1a: Hypno
+  -resisted|p1a: Hypno
+  -damage|p1a: Hypno|103/315
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  -heal|p1a: Hypno|122/315|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack psychicnoise - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Hypno|Psychic Noise|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Close Combat|p1a: Hypno
+  -resisted|p1a: Hypno
+  -damage|p1a: Hypno|58/315
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  -heal|p1a: Hypno|77/315|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack psychicnoise - our hp 0.24, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Hypno|Psychic Noise|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Close Combat|p1a: Hypno
+  -resisted|p1a: Hypno
+  -damage|p1a: Hypno|15/315
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  -heal|p1a: Hypno|34/315|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack psychicnoise - our hp 0.11, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to samurotthisui - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Hypno|Psychic Noise|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Close Combat|p1a: Hypno
+  -resisted|p1a: Hypno
+  -damage|p1a: Hypno|0 fnt
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  faint|p1a: Hypno
+  switch|p1a: Samurott|Samurott-Hisui, L77, F|265/265
+-- turn 18
+  WE CHOSE: attack ceaselessedge (hand policy: attack razorshell) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Samurott|Ceaseless Edge|p2a: Kommo-o|[miss]
+  -miss|p1a: Samurott|p2a: Kommo-o
+  move|p2a: Kommo-o|Close Combat|p1a: Samurott
+  -supereffective|p1a: Samurott
+  -damage|p1a: Samurott|0 fnt
+  faint|p1a: Samurott

@@ -1,0 +1,356 @@
+battle 1398 (battle-gen9randombattle-1020479): lost in 41 turns, 1 of theirs left; we are p1
+
+ours:
+  porygonz (fainted; item lifeorb, ability adaptability; moves terablast/nastyplot/agility/shadowball)
+  vigoroth (fainted; item eviolite, ability vitalspirit; moves slackoff/bodyslam/earthquake/bulkup)
+  leavanny (fainted; item loadeddice, ability chlorophyll; moves knockoff/tripleaxel/stickyweb/bulletseed)
+  ninetales (fainted; item heavydutyboots, ability drought; moves scorchingsands/nastyplot/fireblast/solarbeam)
+  swanna (fainted; item heavydutyboots, ability hydration; moves roost/bravebird/defog/hydropump)
+  calyrex (fainted; item leftovers, ability unnerve, tera steel; moves encore/psyshock/bodypress/gigadrain)
+theirs (as seen):
+  feraligatr (fainted; item unknown_item, ability ?; moves liquidation)
+  walkingwake (fainted; item unknown_item, ability protosynthesis; moves dracometeor)
+  pikachuoriginal (fainted; item unknown_item, ability ?; moves volttackle)
+  spiritomb (fainted; item ?, ability ?; moves poltergeist/foulplay)
+  carbink (fainted; item unknown_item, ability ?; moves moonblast)
+  skeledirge (48%; item ?, ability ?; moves torchsong)
+
+-- turn 0
+  switch|p1a: Porygon-Z|Porygon-Z, L83|277/277
+  switch|p2a: Feraligatr|Feraligatr, L79, F|100/100
+-- turn 1
+  WE CHOSE: switch to calyrex (hand policy: attack terablast) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Calyrex|Calyrex, L93|337/337
+  -ability|p1a: Calyrex|Unnerve
+  move|p2a: Feraligatr|Liquidation|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|269/337
+  -heal|p1a: Calyrex|290/337|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack gigadrain - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Calyrex|Giga Drain|p2a: Feraligatr
+  -supereffective|p2a: Feraligatr
+  -damage|p2a: Feraligatr|32/100
+  -heal|p1a: Calyrex|337/337|[from] drain|[of] p2a: Feraligatr
+  move|p2a: Feraligatr|Liquidation|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|266/337
+  -heal|p1a: Calyrex|287/337|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack gigadrain - our hp 0.85, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p1a: Calyrex|Giga Drain|p2a: Feraligatr
+  -supereffective|p2a: Feraligatr
+  -damage|p2a: Feraligatr|0 fnt
+  -heal|p1a: Calyrex|328/337|[from] drain|[of] p2a: Feraligatr
+  faint|p2a: Feraligatr
+  -heal|p1a: Calyrex|337/337|[from] item: Leftovers
+  switch|p2a: Walking Wake|Walking Wake, L79|100/100
+-- turn 4
+  WE CHOSE: attack+tera psyshock - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Calyrex|Steel
+  move|p2a: Walking Wake|Draco Meteor|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|226/337
+  -unboost|p2a: Walking Wake|spa|2
+  move|p1a: Calyrex|Psyshock|p2a: Walking Wake
+  -damage|p2a: Walking Wake|70/100
+  -heal|p1a: Calyrex|247/337|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack psyshock - our hp 0.73, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p2a: Walking Wake|Draco Meteor|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|198/337
+  -unboost|p2a: Walking Wake|spa|2
+  move|p1a: Calyrex|Psyshock|p2a: Walking Wake
+  -damage|p2a: Walking Wake|36/100
+  -heal|p1a: Calyrex|219/337|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack psyshock - our hp 0.65, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p2a: Walking Wake|Draco Meteor|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|184/337
+  -unboost|p2a: Walking Wake|spa|2
+  move|p1a: Calyrex|Psyshock|p2a: Walking Wake
+  -damage|p2a: Walking Wake|1/100
+  -heal|p1a: Calyrex|205/337|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack psyshock - our hp 0.61, theirs 0.01, predicted move (revealed) hits us x0.5
+  move|p2a: Walking Wake|Draco Meteor|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|175/337
+  move|p1a: Calyrex|Psyshock|p2a: Walking Wake
+  -damage|p2a: Walking Wake|0 fnt
+  faint|p2a: Walking Wake
+  -end|p2a: Walking Wake|Protosynthesis|[silent]
+  -heal|p1a: Calyrex|196/337|[from] item: Leftovers
+  switch|p2a: Pikachu|Pikachu-Original, L93, M|100/100
+-- turn 8
+  WE CHOSE: attack psyshock - our hp 0.58, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to vigoroth - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Pikachu|Volt Tackle|p1a: Calyrex
+  -damage|p1a: Calyrex|0 fnt
+  faint|p1a: Calyrex
+  -damage|p2a: Pikachu|70/100|[from] Recoil
+  switch|p1a: Vigoroth|Vigoroth, L85, M|275/275
+-- turn 9
+  WE CHOSE: setup bulkup (hand policy: attack earthquake) - our hp 1.00, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Pikachu|Volt Tackle|p1a: Vigoroth
+  -damage|p1a: Vigoroth|121/275
+  -damage|p2a: Pikachu|47/100|[from] Recoil
+  move|p1a: Vigoroth|Bulk Up|p1a: Vigoroth
+  -boost|p1a: Vigoroth|atk|1
+  -boost|p1a: Vigoroth|def|1
+-- turn 10
+  WE CHOSE: attack earthquake (hand policy: heal slackoff) - our hp 0.44, theirs 0.47, predicted move (revealed) hits us x1
+  move|p2a: Pikachu|Volt Tackle|p1a: Vigoroth
+  -damage|p1a: Vigoroth|30/275
+  -damage|p2a: Pikachu|33/100|[from] Recoil
+  move|p1a: Vigoroth|Earthquake|p2a: Pikachu
+  -supereffective|p2a: Pikachu
+  -damage|p2a: Pikachu|0 fnt
+  faint|p2a: Pikachu
+  switch|p2a: Spiritomb|Spiritomb, L89, F|100/100
+-- turn 11
+  WE CHOSE: heal slackoff - our hp 0.11, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|168/275
+  move|p2a: Spiritomb|Poltergeist|p1a: Vigoroth
+  -immune|p1a: Vigoroth
+-- turn 12
+  WE CHOSE: setup bulkup - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vigoroth|Bulk Up|p1a: Vigoroth
+  -boost|p1a: Vigoroth|atk|1
+  -boost|p1a: Vigoroth|def|1
+  move|p2a: Spiritomb|Poltergeist|p1a: Vigoroth
+  -immune|p1a: Vigoroth
+-- turn 13
+  WE CHOSE: setup bulkup - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vigoroth|Bulk Up|p1a: Vigoroth
+  -boost|p1a: Vigoroth|atk|1
+  -boost|p1a: Vigoroth|def|1
+  move|p2a: Spiritomb|Poltergeist|p1a: Vigoroth
+  -immune|p1a: Vigoroth
+-- turn 14
+  WE CHOSE: setup bulkup - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vigoroth|Bulk Up|p1a: Vigoroth
+  -boost|p1a: Vigoroth|atk|1
+  -boost|p1a: Vigoroth|def|1
+  move|p2a: Spiritomb|Poltergeist|p1a: Vigoroth
+  -immune|p1a: Vigoroth
+-- turn 15
+  WE CHOSE: switch to porygonz (hand policy: setup bulkup) - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Porygon-Z|Porygon-Z, L83|277/277
+  move|p2a: Spiritomb|Poltergeist|p1a: Porygon-Z
+  -immune|p1a: Porygon-Z
+-- turn 16
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+  -boost|p1a: Porygon-Z|spa|2
+  move|p2a: Spiritomb|Poltergeist|p1a: Porygon-Z
+  -immune|p1a: Porygon-Z
+-- turn 17
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+  -boost|p1a: Porygon-Z|spa|2
+  move|p2a: Spiritomb|Poltergeist|p1a: Porygon-Z
+  -immune|p1a: Porygon-Z
+-- turn 18
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+  -boost|p1a: Porygon-Z|spa|2
+  move|p2a: Spiritomb|Poltergeist|p1a: Porygon-Z
+  -immune|p1a: Porygon-Z
+-- turn 19
+  WE CHOSE: setup nastyplot (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+  -boost|p1a: Porygon-Z|spa|0
+  move|p2a: Spiritomb|Foul Play|p1a: Porygon-Z
+  -damage|p1a: Porygon-Z|195/277
+-- turn 20
+  WE CHOSE: setup nastyplot (hand policy: attack shadowball) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+  -boost|p1a: Porygon-Z|spa|0
+  move|p2a: Spiritomb|Foul Play|p1a: Porygon-Z
+  -damage|p1a: Porygon-Z|105/277
+-- turn 21
+  WE CHOSE: setup nastyplot (hand policy: attack shadowball) - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+  -boost|p1a: Porygon-Z|spa|0
+  move|p2a: Spiritomb|Foul Play|p1a: Porygon-Z
+  -damage|p1a: Porygon-Z|29/277
+-- turn 22
+  WE CHOSE: setup nastyplot (hand policy: attack shadowball) - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to vigoroth - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Porygon-Z|Nasty Plot|p1a: Porygon-Z
+  -boost|p1a: Porygon-Z|spa|0
+  move|p2a: Spiritomb|Foul Play|p1a: Porygon-Z
+  -damage|p1a: Porygon-Z|0 fnt
+  faint|p1a: Porygon-Z
+  switch|p1a: Vigoroth|Vigoroth, L85, M|168/275
+-- turn 23
+  WE CHOSE: setup bulkup - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vigoroth|Bulk Up|p1a: Vigoroth
+  -boost|p1a: Vigoroth|atk|1
+  -boost|p1a: Vigoroth|def|1
+  move|p2a: Spiritomb|Foul Play|p1a: Vigoroth
+  -damage|p1a: Vigoroth|102/275
+-- turn 24
+  WE CHOSE: setup bulkup (hand policy: heal slackoff) - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vigoroth|Bulk Up|p1a: Vigoroth
+  -boost|p1a: Vigoroth|atk|1
+  -boost|p1a: Vigoroth|def|1
+  move|p2a: Spiritomb|Foul Play|p1a: Vigoroth
+  -damage|p1a: Vigoroth|41/275
+-- turn 25
+  WE CHOSE: heal slackoff - our hp 0.15, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|179/275
+  move|p2a: Spiritomb|Foul Play|p1a: Vigoroth
+  -damage|p1a: Vigoroth|119/275
+-- turn 26
+  WE CHOSE: setup bulkup (hand policy: heal slackoff) - our hp 0.43, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vigoroth|Bulk Up|p1a: Vigoroth
+  -boost|p1a: Vigoroth|atk|1
+  -boost|p1a: Vigoroth|def|1
+  move|p2a: Spiritomb|Foul Play|p1a: Vigoroth
+  -damage|p1a: Vigoroth|56/275
+-- turn 27
+  WE CHOSE: heal slackoff - our hp 0.20, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|194/275
+  move|p2a: Spiritomb|Foul Play|p1a: Vigoroth
+  -damage|p1a: Vigoroth|131/275
+-- turn 28
+  WE CHOSE: setup bulkup (hand policy: heal slackoff) - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vigoroth|Bulk Up|p1a: Vigoroth
+  -boost|p1a: Vigoroth|atk|1
+  -boost|p1a: Vigoroth|def|1
+  move|p2a: Spiritomb|Foul Play|p1a: Vigoroth
+  -damage|p1a: Vigoroth|71/275
+-- turn 29
+  WE CHOSE: heal slackoff - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|209/275
+  move|p2a: Spiritomb|Foul Play|p1a: Vigoroth
+  -damage|p1a: Vigoroth|139/275
+-- turn 30
+  WE CHOSE: setup bulkup - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to swanna - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vigoroth|Bulk Up|p1a: Vigoroth
+  -boost|p1a: Vigoroth|atk|1
+  -boost|p1a: Vigoroth|def|1
+  move|p2a: Spiritomb|Foul Play|p1a: Vigoroth
+  -crit|p1a: Vigoroth
+  -damage|p1a: Vigoroth|0 fnt
+  faint|p1a: Vigoroth
+  switch|p1a: Swanna|Swanna, L89, M|278/278
+-- turn 31
+  WE CHOSE: heal roost (hand policy: attack bravebird) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Swanna|Roost||[still]
+  -fail|p1a: Swanna|heal
+  move|p2a: Spiritomb|Foul Play|p1a: Swanna
+  -damage|p1a: Swanna|154/278
+-- turn 32
+  WE CHOSE: attack hydropump (hand policy: attack bravebird) - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ninetales - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Swanna|Hydro Pump|p2a: Spiritomb
+  -damage|p2a: Spiritomb|59/100
+  move|p2a: Spiritomb|Foul Play|p1a: Swanna
+  -crit|p1a: Swanna
+  -damage|p1a: Swanna|0 fnt
+  faint|p1a: Swanna
+  -heal|p2a: Spiritomb|65/100|[from] item: Leftovers
+  switch|p1a: Ninetales|Ninetales, L85, F|263/263
+  -weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+-- turn 33
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Ninetales|Fire Blast|p2a: Spiritomb|[miss]
+  -miss|p1a: Ninetales|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Ninetales
+  -damage|p1a: Ninetales|181/263
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Spiritomb|71/100|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack scorchingsands (hand policy: attack fireblast) - our hp 0.69, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Ninetales|Scorching Sands|p2a: Spiritomb
+  -damage|p2a: Spiritomb|57/100
+  move|p2a: Spiritomb|Foul Play|p1a: Ninetales
+  -damage|p1a: Ninetales|106/263
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Spiritomb|63/100|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: attack scorchingsands (hand policy: attack fireblast) - our hp 0.40, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Ninetales|Scorching Sands|p2a: Spiritomb
+  -damage|p2a: Spiritomb|48/100
+  -status|p2a: Spiritomb|brn
+  move|p2a: Spiritomb|Foul Play|p1a: Ninetales
+  -damage|p1a: Ninetales|69/263
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Spiritomb|53/100 brn|[from] item: Leftovers
+  -damage|p2a: Spiritomb|48/100 brn|[from] brn
+-- turn 36
+  WE CHOSE: attack scorchingsands (hand policy: attack fireblast) - our hp 0.26, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Ninetales|Scorching Sands|p2a: Spiritomb
+  -damage|p2a: Spiritomb|30/100 brn
+  move|p2a: Spiritomb|Foul Play|p1a: Ninetales
+  -damage|p1a: Ninetales|33/263
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Spiritomb|36/100 brn|[from] item: Leftovers
+  -damage|p2a: Spiritomb|30/100 brn|[from] brn
+-- turn 37
+  WE CHOSE: attack scorchingsands (hand policy: attack fireblast) - our hp 0.13, theirs 0.30, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to leavanny - our hp 0.00, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Ninetales|Scorching Sands|p2a: Spiritomb
+  -damage|p2a: Spiritomb|14/100 brn
+  move|p2a: Spiritomb|Foul Play|p1a: Ninetales
+  -damage|p1a: Ninetales|0 fnt
+  faint|p1a: Ninetales
+  -weather|none
+  -heal|p2a: Spiritomb|20/100 brn|[from] item: Leftovers
+  -damage|p2a: Spiritomb|14/100 brn|[from] brn
+  switch|p1a: Leavanny|Leavanny, L86, F|269/269
+-- turn 38
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Leavanny|Knock Off|p2a: Spiritomb
+  -damage|p2a: Spiritomb|0 fnt
+  -enditem|p2a: Spiritomb|Leftovers|[from] move: Knock Off|[of] p1a: Leavanny
+  faint|p2a: Spiritomb
+  switch|p2a: Carbink|Carbink, L90|100/100
+-- turn 39
+  WE CHOSE: attack bulletseed - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Leavanny|Bullet Seed|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|84/100
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|69/100
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|54/100
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|38/100
+  -hitcount|p2a: Carbink|4
+  move|p2a: Carbink|Moonblast|p1a: Leavanny
+  -damage|p1a: Leavanny|187/269
+-- turn 40
+  WE CHOSE: attack bulletseed - our hp 0.70, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Leavanny|Bullet Seed|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|20/100
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|2/100
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|0 fnt
+  faint|p2a: Carbink
+  -hitcount|p2: Carbink|3
+  switch|p2a: Skeledirge|Skeledirge, L79, M|100/100
+-- turn 41
+  WE CHOSE: attack knockoff - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Leavanny|Knock Off|p2a: Skeledirge
+  -supereffective|p2a: Skeledirge
+  -damage|p2a: Skeledirge|48/100
+  -enditem|p2a: Skeledirge|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Leavanny
+  move|p2a: Skeledirge|Torch Song|p1a: Leavanny
+  -supereffective|p1a: Leavanny
+  -damage|p1a: Leavanny|0 fnt
+  -boost|p2a: Skeledirge|spa|1
+  faint|p1a: Leavanny
+  deinit

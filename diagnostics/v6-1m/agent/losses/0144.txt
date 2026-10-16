@@ -1,0 +1,264 @@
+battle 144 (battle-gen9randombattle-1007758): lost in 27 turns, 1 of theirs left; we are p1
+
+ours:
+  ursaring (fainted; item toxicorb, ability quickfeet; moves closecombat/swordsdance/facade/throatchop)
+  dragalge (fainted; item assaultvest, ability adaptability, tera fighting; moves sludgewave/focusblast/dragontail/dracometeor)
+  gougingfire (fainted; item heavydutyboots, ability protosynthesis; moves heatcrash/outrage/morningsun/dragondance)
+  lucario (fainted; item lifeorb, ability innerfocus; moves nastyplot/flashcannon/vacuumwave/aurasphere)
+  hitmontop (fainted; item leftovers, ability technician; moves bulkup/tripleaxel/closecombat/rapidspin)
+  rillaboom (fainted; item lifeorb, ability grassysurge; moves swordsdance/grassyglide/woodhammer/knockoff)
+theirs (as seen):
+  heatran (fainted; item ?, ability ?; moves magmastorm/earthpower)
+  wyrdeer (fainted; item leftovers, ability intimidate; moves earthquake)
+  copperajah (fainted; item lifeorb, ability ?; moves superpower)
+  granbull (fainted; item unknown_item, ability intimidate; moves earthquake)
+  sudowoodo (fainted; item unknown_item, ability ?; moves headsmash)
+  tornadus (100%; item unknown_item, ability ?; moves focusblast)
+
+-- turn 0
+  switch|p1a: Ursaring|Ursaring, L84, F|288/288
+  switch|p2a: Heatran|Heatran, L79, F|100/100
+  -item|p2a: Heatran|Air Balloon
+-- turn 1
+  WE CHOSE: switch to gougingfire (hand policy: attack closecombat) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Gouging Fire|Gouging Fire, L74|277/277
+  move|p2a: Heatran|Magma Storm|p1a: Gouging Fire
+  -resisted|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|248/277
+  -activate|p1a: Gouging Fire|move: Magma Storm|[of] p2a: Heatran
+  -damage|p1a: Gouging Fire|214/277|[from] move: Magma Storm|[partiallytrapped]
+-- turn 2
+  WE CHOSE: heal morningsun (hand policy: setup dragondance) - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Gouging Fire|Morning Sun|p1a: Gouging Fire
+  -heal|p1a: Gouging Fire|277/277
+  move|p2a: Heatran|Magma Storm|p1a: Gouging Fire
+  -resisted|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|244/277
+  -damage|p1a: Gouging Fire|210/277|[from] move: Magma Storm|[partiallytrapped]
+-- turn 3
+  WE CHOSE: heal morningsun (hand policy: setup dragondance) - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Gouging Fire|Morning Sun|p1a: Gouging Fire
+  -heal|p1a: Gouging Fire|277/277
+  move|p2a: Heatran|Magma Storm|p1a: Gouging Fire
+  -resisted|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|244/277
+  -damage|p1a: Gouging Fire|210/277|[from] move: Magma Storm|[partiallytrapped]
+-- turn 4
+  WE CHOSE: heal morningsun (hand policy: setup dragondance) - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Gouging Fire|Morning Sun|p1a: Gouging Fire
+  -heal|p1a: Gouging Fire|277/277
+  move|p2a: Heatran|Magma Storm|p1a: Gouging Fire
+  -resisted|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|248/277
+  -damage|p1a: Gouging Fire|214/277|[from] move: Magma Storm|[partiallytrapped]
+-- turn 5
+  WE CHOSE: heal morningsun (hand policy: setup dragondance) - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Gouging Fire|Morning Sun|p1a: Gouging Fire
+  -heal|p1a: Gouging Fire|277/277
+  move|p2a: Heatran|Magma Storm|p1a: Gouging Fire|[miss]
+  -miss|p2a: Heatran|p1a: Gouging Fire
+  -end|p1a: Gouging Fire|Magma Storm|[partiallytrapped]
+-- turn 6
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Gouging Fire|Dragon Dance|p1a: Gouging Fire
+  -boost|p1a: Gouging Fire|atk|1
+  -boost|p1a: Gouging Fire|spe|1
+  move|p2a: Heatran|Magma Storm|p1a: Gouging Fire|[miss]
+  -miss|p2a: Heatran|p1a: Gouging Fire
+-- turn 7
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Gouging Fire|Dragon Dance|p1a: Gouging Fire
+  -boost|p1a: Gouging Fire|atk|1
+  -boost|p1a: Gouging Fire|spe|1
+  move|p2a: Heatran|Magma Storm|p1a: Gouging Fire
+  -resisted|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|243/277
+  -activate|p1a: Gouging Fire|move: Magma Storm|[of] p2a: Heatran
+  -damage|p1a: Gouging Fire|209/277|[from] move: Magma Storm|[partiallytrapped]
+-- turn 8
+  WE CHOSE: heal morningsun (hand policy: attack outrage) - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Gouging Fire|Morning Sun|p1a: Gouging Fire
+  -heal|p1a: Gouging Fire|277/277
+  move|p2a: Heatran|Magma Storm|p1a: Gouging Fire
+  -resisted|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|243/277
+  -damage|p1a: Gouging Fire|209/277|[from] move: Magma Storm|[partiallytrapped]
+-- turn 9
+  WE CHOSE: heal morningsun (hand policy: attack outrage) - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Gouging Fire|Morning Sun|p1a: Gouging Fire
+  -heal|p1a: Gouging Fire|277/277
+  move|p2a: Heatran|Earth Power|p1a: Gouging Fire
+  -supereffective|p1a: Gouging Fire
+  -crit|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|59/277
+  -damage|p1a: Gouging Fire|25/277|[from] move: Magma Storm|[partiallytrapped]
+-- turn 10
+  WE CHOSE: heal morningsun - our hp 0.09, theirs 1.00, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to dragalge (hand policy: forced: switch to hitmontop) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Gouging Fire|Morning Sun|p1a: Gouging Fire
+  -heal|p1a: Gouging Fire|163/277
+  move|p2a: Heatran|Earth Power|p1a: Gouging Fire
+  -supereffective|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|1/277
+  -damage|p1a: Gouging Fire|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+  faint|p1a: Gouging Fire
+  -end|p1a: Gouging Fire|Protosynthesis|[silent]
+  switch|p1a: Dragalge|Dragalge, L88, F|258/258
+-- turn 11
+  WE CHOSE: attack focusblast - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heatran|Earth Power|p1a: Dragalge
+  -supereffective|p1a: Dragalge
+  -damage|p1a: Dragalge|186/258
+  move|p1a: Dragalge|Focus Blast|p2a: Heatran|[miss]
+  -miss|p1a: Dragalge|p2a: Heatran
+-- turn 12
+  WE CHOSE: attack focusblast - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heatran|Earth Power|p1a: Dragalge
+  -supereffective|p1a: Dragalge
+  -damage|p1a: Dragalge|108/258
+  move|p1a: Dragalge|Focus Blast|p2a: Heatran
+  -supereffective|p2a: Heatran
+  -damage|p2a: Heatran|40/100
+  -unboost|p2a: Heatran|spd|1
+  -enditem|p2a: Heatran|Air Balloon
+-- turn 13
+  WE CHOSE: attack focusblast - our hp 0.42, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p2a: Heatran|Earth Power|p1a: Dragalge
+  -supereffective|p1a: Dragalge
+  -damage|p1a: Dragalge|40/258
+  move|p1a: Dragalge|Focus Blast|p2a: Heatran
+  -supereffective|p2a: Heatran
+  -damage|p2a: Heatran|0 fnt
+  faint|p2a: Heatran
+  switch|p2a: Wyrdeer|Wyrdeer, L87, F|100/100
+  -ability|p2a: Wyrdeer|Intimidate|boost
+  -unboost|p1a: Dragalge|atk|1
+-- turn 14
+  WE CHOSE: switch to hitmontop (hand policy: attack dracometeor) - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Hitmontop|Hitmontop, L88, M|231/231
+  move|p2a: Wyrdeer|Earthquake|p1a: Hitmontop
+  -damage|p1a: Hitmontop|160/231
+  -heal|p1a: Hitmontop|174/231|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack closecombat - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Hitmontop|Close Combat|p2a: Wyrdeer
+  -damage|p2a: Wyrdeer|48/100
+  -unboost|p1a: Hitmontop|def|1
+  -unboost|p1a: Hitmontop|spd|1
+  move|p2a: Wyrdeer|Earthquake|p1a: Hitmontop
+  -damage|p1a: Hitmontop|56/231
+  -heal|p1a: Hitmontop|70/231|[from] item: Leftovers
+  -heal|p2a: Wyrdeer|54/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack closecombat - our hp 0.30, theirs 0.54, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rillaboom - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Hitmontop|Close Combat|p2a: Wyrdeer
+  -damage|p2a: Wyrdeer|10/100
+  -unboost|p1a: Hitmontop|def|1
+  -unboost|p1a: Hitmontop|spd|1
+  move|p2a: Wyrdeer|Earthquake|p1a: Hitmontop
+  -damage|p1a: Hitmontop|0 fnt
+  faint|p1a: Hitmontop
+  -heal|p2a: Wyrdeer|16/100|[from] item: Leftovers
+  switch|p1a: Rillaboom|Rillaboom, L79, M|288/288
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+-- turn 17
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+  -boost|p1a: Rillaboom|atk|2
+  move|p2a: Wyrdeer|Earthquake|p1a: Rillaboom
+  -resisted|p1a: Rillaboom
+  -damage|p1a: Rillaboom|266/288
+  -heal|p1a: Rillaboom|284/288|[from] Grassy Terrain
+  -heal|p2a: Wyrdeer|23/100|[from] Grassy Terrain
+  -heal|p2a: Wyrdeer|29/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack woodhammer (hand policy: attack+tera woodhammer) - our hp 0.99, theirs 0.29, predicted move (revealed) hits us x0.5
+  move|p1a: Rillaboom|Wood Hammer|p2a: Wyrdeer
+  -damage|p2a: Wyrdeer|0 fnt
+  faint|p2a: Wyrdeer
+  -damage|p1a: Rillaboom|254/288|[from] Recoil
+  -damage|p1a: Rillaboom|226/288|[from] item: Life Orb
+  -heal|p1a: Rillaboom|244/288|[from] Grassy Terrain
+  switch|p2a: Copperajah|Copperajah, L86, M|100/100
+-- turn 19
+  WE CHOSE: attack woodhammer (hand policy: attack+tera woodhammer) - our hp 0.85, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dragalge - our hp 0.00, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Rillaboom|Wood Hammer|p2a: Copperajah
+  -resisted|p2a: Copperajah
+  -damage|p2a: Copperajah|30/100
+  -damage|p1a: Rillaboom|162/288|[from] Recoil
+  -damage|p1a: Rillaboom|134/288|[from] item: Life Orb
+  move|p2a: Copperajah|Superpower|p1a: Rillaboom
+  -damage|p1a: Rillaboom|0 fnt
+  -unboost|p2a: Copperajah|atk|1
+  -unboost|p2a: Copperajah|def|1
+  faint|p1a: Rillaboom
+  -damage|p2a: Copperajah|20/100|[from] item: Life Orb
+  -heal|p2a: Copperajah|26/100|[from] Grassy Terrain
+  switch|p1a: Dragalge|Dragalge, L88, F|40/258
+-- turn 20
+  WE CHOSE: attack focusblast - our hp 0.16, theirs 0.26, predicted move (revealed) hits us x0.5
+  move|p1a: Dragalge|Focus Blast|p2a: Copperajah
+  -supereffective|p2a: Copperajah
+  -damage|p2a: Copperajah|0 fnt
+  faint|p2a: Copperajah
+  -heal|p1a: Dragalge|56/258|[from] Grassy Terrain
+  switch|p2a: Granbull|Granbull, L88, M|100/100
+  -ability|p2a: Granbull|Intimidate|boost
+  -unboost|p1a: Dragalge|atk|1
+-- turn 21
+  WE CHOSE: attack+tera sludgewave (hand policy: attack sludgewave) - our hp 0.22, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Dragalge|Fighting
+  move|p2a: Granbull|Earthquake|p1a: Dragalge
+  -damage|p1a: Dragalge|9/258
+  move|p1a: Dragalge|Sludge Wave|p2a: Granbull
+  -supereffective|p2a: Granbull
+  -damage|p2a: Granbull|0 fnt
+  faint|p2a: Granbull
+  -heal|p1a: Dragalge|25/258|[from] Grassy Terrain
+  -fieldend|move: Grassy Terrain
+  switch|p2a: Sudowoodo|Sudowoodo, L94, M|100/100
+-- turn 22
+  WE CHOSE: switch to lucario (hand policy: attack focusblast) - our hp 0.10, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Lucario|Lucario, L84, F|255/255
+  move|p2a: Sudowoodo|Head Smash|p1a: Lucario
+  -resisted|p1a: Lucario
+  -crit|p1a: Lucario
+  -damage|p1a: Lucario|122/255
+-- turn 23
+  WE CHOSE: setup nastyplot (hand policy: attack flashcannon) - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Lucario|Nasty Plot|p1a: Lucario
+  -boost|p1a: Lucario|spa|2
+  move|p2a: Sudowoodo|Head Smash|p1a: Lucario
+  -resisted|p1a: Lucario
+  -damage|p1a: Lucario|34/255
+-- turn 24
+  WE CHOSE: attack flashcannon - our hp 0.13, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Lucario|Flash Cannon|p2a: Sudowoodo
+  -supereffective|p2a: Sudowoodo
+  -damage|p2a: Sudowoodo|0 fnt
+  faint|p2a: Sudowoodo
+  -damage|p1a: Lucario|9/255|[from] item: Life Orb
+  switch|p2a: Tornadus|Tornadus, L82, M|100/100
+-- turn 25
+  WE CHOSE: attack flashcannon - our hp 0.04, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to dragalge - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Tornadus|Focus Blast|p1a: Lucario
+  -supereffective|p1a: Lucario
+  -damage|p1a: Lucario|0 fnt
+  faint|p1a: Lucario
+  switch|p1a: Dragalge|Dragalge, L88, F, tera:Fighting|25/258
+-- turn 26
+  WE CHOSE: attack dracometeor - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ursaring - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Tornadus|Focus Blast|p1a: Dragalge
+  -damage|p1a: Dragalge|0 fnt
+  faint|p1a: Dragalge
+  switch|p1a: Ursaring|Ursaring, L84, F|288/288
+-- turn 27
+  WE CHOSE: attack facade - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Tornadus|Focus Blast|p1a: Ursaring
+  -supereffective|p1a: Ursaring
+  -damage|p1a: Ursaring|0 fnt
+  faint|p1a: Ursaring

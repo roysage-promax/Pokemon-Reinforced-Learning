@@ -1,0 +1,199 @@
+battle 1906 (battle-gen9randombattle-1025687): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  barraskewda (fainted; item choiceband, ability swiftswim; moves closecombat/throatchop/waterfall/flipturn)
+  pawmot (fainted; item leppaberry, ability voltabsorb; moves revivalblessing/doubleshock/closecombat/nuzzle)
+  gothitelle (fainted; item leftovers, ability shadowtag; moves darkpulse/focusblast/calmmind/psychicnoise)
+  serperior (fainted; item leftovers, ability contrary; moves leechseed/substitute/terablast/leafstorm)
+  noivern (fainted; item choicespecs, ability infiltrator, tera normal; moves dracometeor/hurricane/boomburst/flamethrower)
+  krookodile (fainted; item choiceband, ability intimidate; moves knockoff/earthquake/stoneedge/gunkshot)
+theirs (as seen):
+  oinkolognef (fainted; item leftovers, ability ?; moves highhorsepower)
+  magmortar (fainted; item unknown_item, ability ?; moves fireblast)
+  flamigo (fainted; item unknown_item, ability ?; moves closecombat)
+  spectrier (fainted; item lifeorb, ability grimneigh; moves shadowball)
+  irontreads (fainted; item unknown_item, ability quarkdrive; moves earthquake)
+  camerupt (83%; item unknown_item, ability ?; moves overheat)
+
+-- turn 0
+  switch|p1a: Barraskewda|Barraskewda, L81, M|231/231
+  switch|p2a: Oinkologne|Oinkologne-F, L91, F|100/100
+-- turn 1
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Barraskewda|Close Combat|p2a: Oinkologne
+  -supereffective|p2a: Oinkologne
+  -damage|p2a: Oinkologne|17/100
+  -unboost|p1a: Barraskewda|def|1
+  -unboost|p1a: Barraskewda|spd|1
+  move|p2a: Oinkologne|High Horsepower|p1a: Barraskewda
+  -damage|p1a: Barraskewda|77/231
+  -heal|p2a: Oinkologne|23/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to noivern - our hp 0.33, theirs 0.23, predicted move (revealed) hits us x1
+  switch|p1a: Noivern|Noivern, L82, M|274/274
+  move|p2a: Oinkologne|High Horsepower|p1a: Noivern
+  -immune|p1a: Noivern
+  -heal|p2a: Oinkologne|29/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.29, predicted move (revealed) hits us x0
+  move|p1a: Noivern|Draco Meteor|p2a: Oinkologne
+  -damage|p2a: Oinkologne|0 fnt
+  -unboost|p1a: Noivern|spa|2
+  faint|p2a: Oinkologne
+  switch|p2a: Magmortar|Magmortar, L88, F|100/100
+-- turn 4
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Noivern|Draco Meteor|p2a: Magmortar
+  -damage|p2a: Magmortar|71/100
+  -unboost|p1a: Noivern|spa|2
+  move|p2a: Magmortar|Fire Blast|p1a: Noivern
+  -resisted|p1a: Noivern
+  -damage|p1a: Noivern|183/274
+-- turn 5
+  WE CHOSE: switch to barraskewda (hand policy: attack dracometeor) - our hp 0.67, theirs 0.71, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to krookodile - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x0.5
+  switch|p1a: Barraskewda|Barraskewda, L81, M|77/231
+  move|p2a: Magmortar|Fire Blast|p1a: Barraskewda
+  -resisted|p1a: Barraskewda
+  -damage|p1a: Barraskewda|0 fnt
+  faint|p1a: Barraskewda
+  switch|p1a: Krookodile|Krookodile, L79, M|280/280
+  -ability|p1a: Krookodile|Intimidate|boost
+  -unboost|p2a: Magmortar|atk|1
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Magmortar|Fire Blast|p1a: Krookodile
+  -damage|p1a: Krookodile|76/280
+  move|p1a: Krookodile|Earthquake|p2a: Magmortar
+  -supereffective|p2a: Magmortar
+  -damage|p2a: Magmortar|0 fnt
+  faint|p2a: Magmortar
+  switch|p2a: Flamigo|Flamigo, L82, F|100/100
+-- turn 7
+  WE CHOSE: switch to pawmot (hand policy: attack earthquake) - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to noivern - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Pawmot|Pawmot, L80, M|243/243
+  move|p2a: Flamigo|Close Combat|p1a: Pawmot
+  -crit|p1a: Pawmot
+  -damage|p1a: Pawmot|0 fnt
+  -unboost|p2a: Flamigo|def|1
+  -unboost|p2a: Flamigo|spd|1
+  faint|p1a: Pawmot
+  switch|p1a: Noivern|Noivern, L82, M|183/274
+-- turn 8
+  WE CHOSE: attack hurricane - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Noivern|Hurricane|p2a: Flamigo
+  -supereffective|p2a: Flamigo
+  -damage|p2a: Flamigo|0 fnt
+  faint|p2a: Flamigo
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+-- turn 9
+  WE CHOSE: switch to krookodile (hand policy: attack hurricane) - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Krookodile|Krookodile, L79, M|76/280
+  -ability|p1a: Krookodile|Intimidate|boost
+  -unboost|p2a: Spectrier|atk|1
+  move|p2a: Spectrier|Shadow Ball|p1a: Krookodile
+  -resisted|p1a: Krookodile
+  -damage|p1a: Krookodile|3/280
+  -damage|p2a: Spectrier|91/100|[from] item: Life Orb
+-- turn 10
+  WE CHOSE: attack knockoff - our hp 0.01, theirs 0.91, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to serperior - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p2a: Spectrier|Shadow Ball|p1a: Krookodile
+  -resisted|p1a: Krookodile
+  -damage|p1a: Krookodile|0 fnt
+  faint|p1a: Krookodile
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -damage|p2a: Spectrier|81/100|[from] item: Life Orb
+  switch|p1a: Serperior|Serperior, L79, F|248/248
+-- turn 11
+  WE CHOSE: attack leafstorm - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Serperior
+  -damage|p1a: Serperior|73/248
+  -damage|p2a: Spectrier|71/100|[from] item: Life Orb
+  move|p1a: Serperior|Leaf Storm|p2a: Spectrier
+  -damage|p2a: Spectrier|27/100
+  -boost|p1a: Serperior|spa|2
+  -heal|p1a: Serperior|88/248|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack leafstorm - our hp 0.35, theirs 0.27, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to noivern - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Serperior
+  -damage|p1a: Serperior|0 fnt
+  faint|p1a: Serperior
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -damage|p2a: Spectrier|17/100|[from] item: Life Orb
+  switch|p1a: Noivern|Noivern, L82, M|183/274
+-- turn 13
+  WE CHOSE: attack+tera dracometeor - our hp 0.67, theirs 0.17, predicted move (revealed) hits us x1
+  -terastallize|p1a: Noivern|Normal
+  move|p1a: Noivern|Draco Meteor|p2a: Spectrier|[miss]
+  -miss|p1a: Noivern|p2a: Spectrier
+  move|p2a: Spectrier|Shadow Ball|p1a: Noivern
+  -immune|p1a: Noivern
+-- turn 14
+  WE CHOSE: attack dracometeor - our hp 0.67, theirs 0.17, predicted move (revealed) hits us x0
+  move|p1a: Noivern|Draco Meteor|p2a: Spectrier
+  -damage|p2a: Spectrier|0 fnt
+  -unboost|p1a: Noivern|spa|2
+  faint|p2a: Spectrier
+  switch|p2a: Iron Treads|Iron Treads, L77|100/100
+-- turn 15
+  WE CHOSE: attack dracometeor - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Noivern|Draco Meteor|p2a: Iron Treads
+  -resisted|p2a: Iron Treads
+  -damage|p2a: Iron Treads|85/100
+  -unboost|p1a: Noivern|spa|2
+  move|p2a: Iron Treads|Earthquake|p1a: Noivern
+  -damage|p1a: Noivern|75/274
+-- turn 16
+  WE CHOSE: switch to gothitelle (hand policy: attack dracometeor) - our hp 0.27, theirs 0.85, predicted move (revealed) hits us x1
+  switch|p1a: Gothitelle|Gothitelle, L90, F|272/272
+  move|p2a: Iron Treads|Earthquake|p1a: Gothitelle
+  -damage|p1a: Gothitelle|187/272
+  -heal|p1a: Gothitelle|204/272|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack psychicnoise (hand policy: attack focusblast) - our hp 0.75, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Earthquake|p1a: Gothitelle
+  -damage|p1a: Gothitelle|110/272
+  move|p1a: Gothitelle|Psychic Noise|p2a: Iron Treads
+  -resisted|p2a: Iron Treads
+  -damage|p2a: Iron Treads|70/100
+  -start|p2a: Iron Treads|move: Heal Block
+  -heal|p1a: Gothitelle|127/272|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack psychicnoise (hand policy: attack focusblast) - our hp 0.47, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Earthquake|p1a: Gothitelle
+  -damage|p1a: Gothitelle|43/272
+  move|p1a: Gothitelle|Psychic Noise|p2a: Iron Treads
+  -resisted|p2a: Iron Treads
+  -damage|p2a: Iron Treads|56/100
+  -heal|p1a: Gothitelle|60/272|[from] item: Leftovers
+  -end|p2a: Iron Treads|move: Heal Block
+-- turn 19
+  WE CHOSE: attack darkpulse (hand policy: attack focusblast) - our hp 0.22, theirs 0.56, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to noivern - our hp 0.00, theirs 0.56, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Earthquake|p1a: Gothitelle
+  -damage|p1a: Gothitelle|0 fnt
+  faint|p1a: Gothitelle
+  switch|p1a: Noivern|Noivern, L82, M, tera:Normal|75/274
+-- turn 20
+  WE CHOSE: attack flamethrower - our hp 0.27, theirs 0.56, predicted move (revealed) hits us x1
+  move|p1a: Noivern|Flamethrower|p2a: Iron Treads
+  -supereffective|p2a: Iron Treads
+  -damage|p2a: Iron Treads|0 fnt
+  faint|p2a: Iron Treads
+  -end|p2a: Iron Treads|Quark Drive|[silent]
+  switch|p2a: Camerupt|Camerupt, L91, M|100/100
+-- turn 21
+  WE CHOSE: attack flamethrower - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Noivern|Flamethrower|p2a: Camerupt
+  -resisted|p2a: Camerupt
+  -damage|p2a: Camerupt|83/100
+  move|p2a: Camerupt|Overheat|p1a: Noivern
+  -damage|p1a: Noivern|0 fnt
+  -unboost|p2a: Camerupt|spa|2
+  faint|p1a: Noivern
+  deinit

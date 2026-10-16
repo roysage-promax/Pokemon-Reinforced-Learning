@@ -1,0 +1,236 @@
+battle 1806 (battle-gen9randombattle-1024739): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  tyranitar (fainted; item weaknesspolicy, ability sandstream; moves earthquake/dragondance/knockoff/stoneedge)
+  pincurchin (fainted; item leftovers, ability electricsurge, tera grass; moves liquidation/recover/curse/zingzap)
+  beartic (fainted; item heavydutyboots, ability slushrush; moves aquajet/swordsdance/closecombat/iciclecrash)
+  spiritomb (fainted; item leftovers, ability infiltrator; moves shadowsneak/foulplay/willowisp/poltergeist)
+  ironmoth (fainted; item choicespecs, ability quarkdrive; moves energyball/uturn/fireblast/sludgewave)
+  indeedeef (fainted; item choicespecs, ability psychicsurge; moves shadowball/dazzlinggleam/psyshock/hypervoice)
+theirs (as seen):
+  ampharos (fainted; item unknown_item, ability ?; moves thunderbolt)
+  granbull (fainted; item leftovers, ability intimidate; moves earthquake)
+  arceusice (fainted; item unknown_item, ability multitype; moves judgment)
+  palafin (fainted; item unknown_item, ability zerotohero; moves wavecrash)
+  ariados (fainted; item unknown_item, ability ?; moves megahorn)
+  hitmontop (100%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Tyranitar|Tyranitar, L78, M|284/284
+  switch|p2a: Ampharos|Ampharos, L88, F|100/100
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+-- turn 1
+  WE CHOSE: switch to spiritomb - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Spiritomb|Spiritomb, L89, F|234/234
+  move|p2a: Ampharos|Thunderbolt|p1a: Spiritomb
+  -damage|p1a: Spiritomb|132/234
+  -status|p1a: Spiritomb|par
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Ampharos|95/100|[from] Sandstorm
+  -damage|p1a: Spiritomb|118/234 par|[from] Sandstorm
+  -heal|p1a: Spiritomb|132/234 par|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack poltergeist - our hp 0.56, theirs 0.95, predicted move (revealed) hits us x1
+  move|p2a: Ampharos|Thunderbolt|p1a: Spiritomb
+  -damage|p1a: Spiritomb|42/234 par
+  move|p1a: Spiritomb|Poltergeist|p2a: Ampharos
+  -activate|p2a: Ampharos|move: Poltergeist|Assault Vest
+  -damage|p2a: Ampharos|57/100
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Ampharos|51/100|[from] Sandstorm
+  -damage|p1a: Spiritomb|28/234 par|[from] Sandstorm
+  -heal|p1a: Spiritomb|42/234 par|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack poltergeist - our hp 0.18, theirs 0.51, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pincurchin (hand policy: forced: switch to tyranitar) - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Ampharos|Thunderbolt|p1a: Spiritomb
+  -damage|p1a: Spiritomb|0 fnt
+  faint|p1a: Spiritomb
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Ampharos|45/100|[from] Sandstorm
+  switch|p1a: Pincurchin|Pincurchin, F|258/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 4
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p2a: Ampharos|Thunderbolt|p1a: Pincurchin
+  -resisted|p1a: Pincurchin
+  -damage|p1a: Pincurchin|192/258
+  move|p1a: Pincurchin|Liquidation|p2a: Ampharos
+  -damage|p2a: Ampharos|18/100
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Ampharos|12/100|[from] Sandstorm
+  -damage|p1a: Pincurchin|176/258|[from] Sandstorm
+  -heal|p1a: Pincurchin|192/258|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack liquidation - our hp 0.74, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p2a: Ampharos|Thunderbolt|p1a: Pincurchin
+  -resisted|p1a: Pincurchin
+  -damage|p1a: Pincurchin|128/258
+  move|p1a: Pincurchin|Liquidation|p2a: Ampharos
+  -damage|p2a: Ampharos|0 fnt
+  faint|p2a: Ampharos
+  -weather|none
+  -heal|p1a: Pincurchin|144/258|[from] item: Leftovers
+  switch|p2a: Granbull|Granbull, L88, M|100/100
+  -ability|p2a: Granbull|Intimidate|boost
+  -unboost|p1a: Pincurchin|atk|1
+-- turn 6
+  WE CHOSE: attack+tera zingzap - our hp 0.56, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Pincurchin|Grass
+  move|p2a: Granbull|Earthquake|p1a: Pincurchin
+  -resisted|p1a: Pincurchin
+  -damage|p1a: Pincurchin|108/258
+  move|p1a: Pincurchin|Zing Zap|p2a: Granbull
+  -damage|p2a: Granbull|59/100
+  -heal|p2a: Granbull|65/100|[from] item: Leftovers
+  -heal|p1a: Pincurchin|124/258|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: heal recover - our hp 0.48, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p2a: Granbull|Earthquake|p1a: Pincurchin
+  -resisted|p1a: Pincurchin
+  -damage|p1a: Pincurchin|85/258
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|214/258
+  -heal|p2a: Granbull|71/100|[from] item: Leftovers
+  -heal|p1a: Pincurchin|230/258|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack zingzap - our hp 0.89, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p2a: Granbull|Earthquake|p1a: Pincurchin
+  -resisted|p1a: Pincurchin
+  -damage|p1a: Pincurchin|196/258
+  move|p1a: Pincurchin|Zing Zap|p2a: Granbull
+  -damage|p2a: Granbull|31/100
+  -heal|p2a: Granbull|37/100|[from] item: Leftovers
+  -heal|p1a: Pincurchin|212/258|[from] item: Leftovers
+  -fieldend|move: Electric Terrain
+-- turn 9
+  WE CHOSE: attack zingzap - our hp 0.82, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p2a: Granbull|Earthquake|p1a: Pincurchin
+  -resisted|p1a: Pincurchin
+  -damage|p1a: Pincurchin|175/258
+  move|p1a: Pincurchin|Zing Zap|p2a: Granbull
+  -damage|p2a: Granbull|6/100
+  -heal|p2a: Granbull|12/100|[from] item: Leftovers
+  -heal|p1a: Pincurchin|191/258|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack zingzap - our hp 0.74, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p2a: Granbull|Earthquake|p1a: Pincurchin
+  -resisted|p1a: Pincurchin
+  -damage|p1a: Pincurchin|156/258
+  move|p1a: Pincurchin|Zing Zap|p2a: Granbull
+  -damage|p2a: Granbull|0 fnt
+  faint|p2a: Granbull
+  -heal|p1a: Pincurchin|172/258|[from] item: Leftovers
+  switch|p2a: Arceus|Arceus-Ice, L72|100/100
+-- turn 11
+  WE CHOSE: switch to tyranitar (hand policy: attack zingzap) - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Tyranitar|Tyranitar, L78, M|284/284
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+  move|p2a: Arceus|Judgment|p1a: Tyranitar
+  -damage|p1a: Tyranitar|205/284
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Arceus|94/100|[from] Sandstorm
+-- turn 12
+  WE CHOSE: setup dragondance - our hp 0.72, theirs 0.94, predicted move (revealed) hits us x0.5
+  move|p2a: Arceus|Judgment|p1a: Tyranitar
+  -damage|p1a: Tyranitar|130/284
+  move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+  -boost|p1a: Tyranitar|atk|1
+  -boost|p1a: Tyranitar|spe|1
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Arceus|88/100|[from] Sandstorm
+-- turn 13
+  WE CHOSE: attack stoneedge - our hp 0.46, theirs 0.88, predicted move (revealed) hits us x0.5
+  move|p2a: Arceus|Judgment|p1a: Tyranitar
+  -damage|p1a: Tyranitar|63/284
+  move|p1a: Tyranitar|Stone Edge|p2a: Arceus
+  -supereffective|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  -weather|Sandstorm|[upkeep]
+  switch|p2a: Palafin|Palafin, L77, F|100/100
+-- turn 14
+  WE CHOSE: switch to ironmoth - our hp 0.22, theirs 1.00, predicted move (guessed) hits us x4
+  WE CHOSE: forced: switch to pincurchin - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x2
+  switch|p1a: Iron Moth|Iron Moth, L78|253/253
+  move|p2a: Palafin|Wave Crash|p1a: Iron Moth
+  -supereffective|p1a: Iron Moth
+  -damage|p1a: Iron Moth|0 fnt
+  faint|p1a: Iron Moth
+  -end|p1a: Iron Moth|Quark Drive|[silent]
+  -damage|p2a: Palafin|71/100|[from] Recoil
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Palafin|65/100|[from] Sandstorm
+  switch|p1a: Pincurchin|Pincurchin, F, tera:Grass|172/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 15
+  WE CHOSE: attack zingzap - our hp 0.67, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p2a: Palafin|Wave Crash|p1a: Pincurchin
+  -resisted|p1a: Pincurchin
+  -damage|p1a: Pincurchin|127/258
+  -damage|p2a: Palafin|60/100|[from] Recoil
+  move|p1a: Pincurchin|Zing Zap|p2a: Palafin
+  -supereffective|p2a: Palafin
+  -damage|p2a: Palafin|0 fnt
+  faint|p2a: Palafin
+  -weather|none
+  -heal|p1a: Pincurchin|143/258|[from] item: Leftovers
+  switch|p2a: Ariados|Ariados, L95, F|100/100
+-- turn 16
+  WE CHOSE: attack zingzap - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to indeedeef (hand policy: forced: switch to beartic) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Ariados|Megahorn|p1a: Pincurchin
+  -supereffective|p1a: Pincurchin
+  -damage|p1a: Pincurchin|0 fnt
+  faint|p1a: Pincurchin
+  switch|p1a: Indeedee|Indeedee-F, L90, F|272/272
+  -fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+-- turn 17
+  WE CHOSE: attack hypervoice (hand policy: attack psyshock) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to beartic - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x2
+  move|p1a: Indeedee|Hyper Voice|p2a: Ariados
+  -damage|p2a: Ariados|43/100
+  move|p2a: Ariados|Megahorn|p1a: Indeedee
+  -supereffective|p1a: Indeedee
+  -damage|p1a: Indeedee|0 fnt
+  faint|p1a: Indeedee
+  switch|p1a: Beartic|Beartic, L91, M|321/321
+-- turn 18
+  WE CHOSE: attack aquajet (hand policy: attack iciclecrash) - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Beartic|Aqua Jet|p2a: Ariados
+  -activate|p2a: Ariados|move: Psychic Terrain
+  move|p2a: Ariados|Megahorn|p1a: Beartic
+  -damage|p1a: Beartic|173/321
+-- turn 19
+  WE CHOSE: attack aquajet (hand policy: attack iciclecrash) - our hp 0.54, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Beartic|Aqua Jet|p2a: Ariados
+  -activate|p2a: Ariados|move: Psychic Terrain
+  move|p2a: Ariados|Megahorn|p1a: Beartic
+  -damage|p1a: Beartic|13/321
+-- turn 20
+  WE CHOSE: attack iciclecrash - our hp 0.04, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Beartic|Icicle Crash|p2a: Ariados
+  -damage|p2a: Ariados|0 fnt
+  faint|p2a: Ariados
+  switch|p2a: Hitmontop|Hitmontop, L88, M|100/100
+-- turn 21
+  WE CHOSE: attack closecombat - our hp 0.04, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: attack iciclecrash (hand policy: forced: switch to tyranitar) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Hitmontop|Close Combat|p1a: Beartic
+  -supereffective|p1a: Beartic
+  -damage|p1a: Beartic|0 fnt
+  -unboost|p2a: Hitmontop|def|1
+  -unboost|p2a: Hitmontop|spd|1
+  faint|p1a: Beartic
+  -fieldend|move: Psychic Terrain
+  switch|p1a: Tyranitar|Tyranitar, L78, M|63/284
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+-- turn 22
+  WE CHOSE: attack stoneedge (hand policy: attack earthquake) - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x4
+  move|p2a: Hitmontop|Close Combat|p1a: Tyranitar
+  -supereffective|p1a: Tyranitar
+  -crit|p1a: Tyranitar
+  -damage|p1a: Tyranitar|0 fnt
+  -unboost|p2a: Hitmontop|def|1
+  -unboost|p2a: Hitmontop|spd|1
+  faint|p1a: Tyranitar

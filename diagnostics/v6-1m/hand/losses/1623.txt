@@ -1,0 +1,185 @@
+battle 1623 (battle-gen9randombattle-1021622): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  mudsdale (fainted; item leftovers, ability stamina; moves roar/heavyslam/stoneedge/earthquake)
+  sneasler (fainted; item whiteherb, ability unburden; moves closecombat/acrobatics/direclaw/swordsdance)
+  manaphy (fainted; item leftovers, ability hydration; moves icebeam/energyball/tailglow/hydropump)
+  illumise (fainted; item heavydutyboots, ability prankster; moves encore/roost/thunderwave/bugbuzz)
+  floatzel (fainted; item leftovers, ability waterveil, tera water; moves icespinner/wavecrash/bulkup/taunt)
+  kommoo (fainted; item loadeddice, ability soundproof; moves swordsdance/ironhead/closecombat/scaleshot)
+theirs (as seen):
+  bastiodon (fainted; item unknown_item, ability ?; moves -)
+  dudunsparcethreesegment (fainted; item leftovers, ability ?; moves earthquake)
+  trevenant (fainted; item lifeorb, ability ?; moves poltergeist)
+  persianalola (fainted; item unknown_item, ability ?; moves foulplay)
+  gothitelle (fainted; item unknown_item, ability ?; moves focusblast)
+  munkidori (100%; item unknown_item, ability ?; moves focusblast)
+
+-- turn 0
+  switch|p1a: Mudsdale|Mudsdale, L83, F|302/302
+  switch|p2a: Bastiodon|Bastiodon, L89, M|100/100
+-- turn 1
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Mudsdale|Earthquake|p2a: Bastiodon
+  -supereffective|p2a: Bastiodon
+  -damage|p2a: Bastiodon|0 fnt
+  faint|p2a: Bastiodon
+  switch|p2a: Dudunsparce|Dudunsparce-Three-Segment, L83, M|100/100
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Dudunsparce|Earthquake|p1a: Mudsdale
+  -damage|p1a: Mudsdale|236/302
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  move|p1a: Mudsdale|Earthquake|p2a: Dudunsparce
+  -damage|p2a: Dudunsparce|58/100
+  -heal|p2a: Dudunsparce|64/100|[from] item: Leftovers
+  -heal|p1a: Mudsdale|254/302|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 0.84, theirs 0.64, predicted move (revealed) hits us x1
+  move|p2a: Dudunsparce|Earthquake|p1a: Mudsdale
+  -damage|p1a: Mudsdale|209/302
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  move|p1a: Mudsdale|Earthquake|p2a: Dudunsparce
+  -damage|p2a: Dudunsparce|24/100
+  -heal|p2a: Dudunsparce|30/100|[from] item: Leftovers
+  -heal|p1a: Mudsdale|227/302|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 0.75, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Dudunsparce|Earthquake|p1a: Mudsdale
+  -damage|p1a: Mudsdale|193/302
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  move|p1a: Mudsdale|Earthquake|p2a: Dudunsparce
+  -damage|p2a: Dudunsparce|0 fnt
+  faint|p2a: Dudunsparce
+  -heal|p1a: Mudsdale|211/302|[from] item: Leftovers
+  switch|p2a: Trevenant|Trevenant, L89, M|100/100
+-- turn 5
+  WE CHOSE: switch to illumise - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to manaphy - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  switch|p1a: Illumise|Illumise, L91, F|266/266
+  move|p2a: Trevenant|Poltergeist|p1a: Illumise
+  -activate|p1a: Illumise|move: Poltergeist|Heavy-Duty Boots
+  -crit|p1a: Illumise
+  -damage|p1a: Illumise|0 fnt
+  faint|p1a: Illumise
+  -damage|p2a: Trevenant|91/100|[from] item: Life Orb
+  switch|p1a: Manaphy|Manaphy, L78|284/284
+-- turn 6
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p1a: Manaphy|Ice Beam|p2a: Trevenant
+  -supereffective|p2a: Trevenant
+  -damage|p2a: Trevenant|56/100
+  move|p2a: Trevenant|Poltergeist|p1a: Manaphy
+  -activate|p1a: Manaphy|move: Poltergeist|Leftovers
+  -damage|p1a: Manaphy|93/284
+  -damage|p2a: Trevenant|46/100|[from] item: Life Orb
+  -heal|p1a: Manaphy|110/284|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack icebeam - our hp 0.39, theirs 0.46, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to floatzel - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Manaphy|Ice Beam|p2a: Trevenant
+  -supereffective|p2a: Trevenant
+  -damage|p2a: Trevenant|7/100
+  move|p2a: Trevenant|Poltergeist|p1a: Manaphy
+  -activate|p1a: Manaphy|move: Poltergeist|Leftovers
+  -damage|p1a: Manaphy|0 fnt
+  faint|p1a: Manaphy
+  -damage|p2a: Trevenant|0 fnt|[from] item: Life Orb
+  faint|p2a: Trevenant
+  switch|p1a: Floatzel|Floatzel, L86, M|286/286
+  switch|p2a: Persian|Persian-Alola, L86, M|100/100
+-- turn 8
+  WE CHOSE: attack+tera wavecrash - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Floatzel|Water
+  move|p2a: Persian|Foul Play|p1a: Floatzel
+  -damage|p1a: Floatzel|129/286
+  move|p1a: Floatzel|Wave Crash|p2a: Persian
+  -damage|p2a: Persian|52/100
+  -damage|p1a: Floatzel|89/286|[from] Recoil
+  -heal|p1a: Floatzel|106/286|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack wavecrash - our hp 0.37, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to sneasler - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Persian|Foul Play|p1a: Floatzel
+  -damage|p1a: Floatzel|0 fnt
+  faint|p1a: Floatzel
+  switch|p1a: Sneasler|Sneasler, L74, M|240/240
+-- turn 10
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p2a: Persian|Foul Play|p1a: Sneasler
+  -resisted|p1a: Sneasler
+  -damage|p1a: Sneasler|148/240
+  move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+  -boost|p1a: Sneasler|atk|2
+-- turn 11
+  WE CHOSE: attack closecombat - our hp 0.62, theirs 0.52, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to kommoo - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p2a: Persian|Foul Play|p1a: Sneasler
+  -resisted|p1a: Sneasler
+  -damage|p1a: Sneasler|0 fnt
+  faint|p1a: Sneasler
+  switch|p1a: Kommo-o|Kommo-o, L77, M|242/242
+-- turn 12
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p2a: Persian|Foul Play|p1a: Kommo-o
+  -resisted|p1a: Kommo-o
+  -damage|p1a: Kommo-o|200/242
+  move|p1a: Kommo-o|Swords Dance|p1a: Kommo-o
+  -boost|p1a: Kommo-o|atk|2
+-- turn 13
+  WE CHOSE: attack closecombat - our hp 0.83, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p2a: Persian|Foul Play|p1a: Kommo-o
+  -resisted|p1a: Kommo-o
+  -damage|p1a: Kommo-o|116/242
+  move|p1a: Kommo-o|Close Combat|p2a: Persian
+  -supereffective|p2a: Persian
+  -damage|p2a: Persian|0 fnt
+  -unboost|p1a: Kommo-o|def|1
+  -unboost|p1a: Kommo-o|spd|1
+  faint|p2a: Persian
+  switch|p2a: Gothitelle|Gothitelle, L90, M|100/100
+-- turn 14
+  WE CHOSE: attack closecombat - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Gothitelle|Focus Blast|p1a: Kommo-o|[miss]
+  -miss|p2a: Gothitelle|p1a: Kommo-o
+  move|p1a: Kommo-o|Close Combat|p2a: Gothitelle
+  -resisted|p2a: Gothitelle
+  -damage|p2a: Gothitelle|62/100
+  -unboost|p1a: Kommo-o|def|1
+  -unboost|p1a: Kommo-o|spd|1
+-- turn 15
+  WE CHOSE: attack closecombat - our hp 0.48, theirs 0.62, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mudsdale - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Gothitelle|Focus Blast|p1a: Kommo-o
+  -damage|p1a: Kommo-o|0 fnt
+  faint|p1a: Kommo-o
+  switch|p1a: Mudsdale|Mudsdale, L83, F|211/302
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 0.70, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Gothitelle|Focus Blast|p1a: Mudsdale
+  -damage|p1a: Mudsdale|107/302
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  move|p1a: Mudsdale|Earthquake|p2a: Gothitelle
+  -damage|p2a: Gothitelle|17/100
+  -heal|p1a: Mudsdale|125/302|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 0.41, theirs 0.17, predicted move (revealed) hits us x1
+  move|p2a: Gothitelle|Focus Blast|p1a: Mudsdale
+  -damage|p1a: Mudsdale|25/302
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  move|p1a: Mudsdale|Earthquake|p2a: Gothitelle
+  -damage|p2a: Gothitelle|0 fnt
+  faint|p2a: Gothitelle
+  -heal|p1a: Mudsdale|43/302|[from] item: Leftovers
+  switch|p2a: Munkidori|Munkidori, L79, M|100/100
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 0.14, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Munkidori|Focus Blast|p1a: Mudsdale
+  -damage|p1a: Mudsdale|0 fnt
+  faint|p1a: Mudsdale
+  deinit

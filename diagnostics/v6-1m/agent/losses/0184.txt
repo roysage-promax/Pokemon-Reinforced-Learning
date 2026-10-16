@@ -1,0 +1,281 @@
+battle 184 (battle-gen9randombattle-1008153): lost in 28 turns, 3 of theirs left; we are p1
+
+ours:
+  kingdra (fainted; item ?, ability sniper; moves wavecrash/ironhead/outrage/dragondance)
+  toxapex (fainted; item leftovers, ability regenerator; moves haze/toxicspikes/recover/liquidation)
+  tinkaton (fainted; item leftovers, ability moldbreaker; moves stealthrock/thunderwave/playrough/gigatonhammer)
+  honchkrow (fainted; item heavydutyboots, ability moxie; moves suckerpunch/bravebird/uturn/heatwave)
+  squawkabilly (fainted; item flameorb, ability guts; moves bravebird/quickattack/protect/facade)
+  copperajah (fainted; item lifeorb, ability sheerforce, tera fairy; moves rockslide/playrough/earthquake/ironhead)
+theirs (as seen):
+  volcanion (fainted; item unknown_item, ability waterabsorb; moves steameruption)
+  donphan (fainted; item unknown_item, ability ?; moves earthquake)
+  scovillain (fainted; item unknown_item, ability ?; moves fireblast)
+  empoleon (8%; item leftovers, ability competitive; moves surf)
+
+-- turn 0
+  switch|p1a: Kingdra|Kingdra, L84, M|263/263
+  switch|p2a: Volcanion|Volcanion, L79|100/100
+-- turn 1
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+  -boost|p1a: Kingdra|atk|1
+  -boost|p1a: Kingdra|spe|1
+  move|p2a: Volcanion|Steam Eruption|p1a: Kingdra|[miss]
+  -miss|p2a: Volcanion|p1a: Kingdra
+-- turn 2
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+  -boost|p1a: Kingdra|atk|1
+  -boost|p1a: Kingdra|spe|1
+  move|p2a: Volcanion|Steam Eruption|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|234/263
+  -status|p1a: Kingdra|brn
+  -enditem|p1a: Kingdra|Lum Berry|[eat]
+  -curestatus|p1a: Kingdra|brn|[msg]
+-- turn 3
+  WE CHOSE: setup dragondance (hand policy: attack wavecrash) - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+  -boost|p1a: Kingdra|atk|1
+  -boost|p1a: Kingdra|spe|1
+  move|p2a: Volcanion|Steam Eruption|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|201/263
+-- turn 4
+  WE CHOSE: attack wavecrash - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Wave Crash|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+  move|p2a: Volcanion|Steam Eruption|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|168/263
+-- turn 5
+  WE CHOSE: attack wavecrash - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Wave Crash|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+  move|p2a: Volcanion|Steam Eruption|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|140/263
+-- turn 6
+  WE CHOSE: attack wavecrash - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Wave Crash|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+  move|p2a: Volcanion|Steam Eruption|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|112/263
+  -status|p1a: Kingdra|brn
+  -damage|p1a: Kingdra|96/263 brn|[from] brn
+-- turn 7
+  WE CHOSE: attack outrage - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Outrage|p2a: Volcanion
+  -damage|p2a: Volcanion|53/100
+  move|p2a: Volcanion|Steam Eruption|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|68/263 brn
+  -damage|p1a: Kingdra|52/263 brn|[from] brn
+-- turn 8
+  WE CHOSE: attack outrage - our hp 0.20, theirs 0.53, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Outrage|p2a: Volcanion|[from] lockedmove
+  -crit|p2a: Volcanion
+  -damage|p2a: Volcanion|0 fnt
+  faint|p2a: Volcanion
+  -start|p1a: Kingdra|confusion|[fatigue]
+  -damage|p1a: Kingdra|36/263 brn|[from] brn
+  switch|p2a: Donphan|Donphan, L84, M|100/100
+-- turn 9
+  WE CHOSE: switch to honchkrow - our hp 0.14, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Honchkrow|Honchkrow, L86, F|312/312
+  move|p2a: Donphan|Earthquake|p1a: Honchkrow
+  -immune|p1a: Honchkrow
+-- turn 10
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Honchkrow|Brave Bird|p2a: Donphan
+  -damage|p2a: Donphan|52/100
+  -damage|p1a: Honchkrow|266/312|[from] Recoil
+  move|p2a: Donphan|Earthquake|p1a: Honchkrow
+  -immune|p1a: Honchkrow
+-- turn 11
+  WE CHOSE: attack bravebird - our hp 0.85, theirs 0.52, predicted move (revealed) hits us x0
+  move|p1a: Honchkrow|Brave Bird|p2a: Donphan
+  -damage|p2a: Donphan|8/100
+  -damage|p1a: Honchkrow|224/312|[from] Recoil
+  move|p2a: Donphan|Earthquake|p1a: Honchkrow
+  -immune|p1a: Honchkrow
+-- turn 12
+  WE CHOSE: attack bravebird - our hp 0.72, theirs 0.08, predicted move (revealed) hits us x0
+  move|p1a: Honchkrow|Brave Bird|p2a: Donphan
+  -damage|p2a: Donphan|0 fnt
+  faint|p2a: Donphan
+  -ability|p1a: Honchkrow|Moxie|boost
+  -boost|p1a: Honchkrow|atk|1
+  -damage|p1a: Honchkrow|217/312|[from] Recoil
+  switch|p2a: Scovillain|Scovillain, L91, F|100/100
+-- turn 13
+  WE CHOSE: attack bravebird - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to tinkaton (hand policy: forced: switch to squawkabilly) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Scovillain|Fire Blast|p1a: Honchkrow
+  -damage|p1a: Honchkrow|6/312
+  move|p1a: Honchkrow|Brave Bird|p2a: Scovillain
+  -supereffective|p2a: Scovillain
+  -damage|p2a: Scovillain|0 fnt
+  faint|p2a: Scovillain
+  -ability|p1a: Honchkrow|Moxie|boost
+  -boost|p1a: Honchkrow|atk|1
+  -damage|p1a: Honchkrow|0 fnt|[from] Recoil
+  faint|p1a: Honchkrow
+  switch|p2a: Empoleon|Empoleon, L84, F|100/100
+  switch|p1a: Tinkaton|Tinkaton, L82, F|274/274
+  -ability|p1a: Tinkaton|Mold Breaker
+-- turn 14
+  WE CHOSE: attack playrough - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Tinkaton|Play Rough|p2a: Empoleon|[miss]
+  -miss|p1a: Tinkaton|p2a: Empoleon
+  move|p2a: Empoleon|Surf|p1a: Tinkaton
+  -damage|p1a: Tinkaton|180/274
+  -heal|p1a: Tinkaton|197/274|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: switch to kingdra (hand policy: attack+tera playrough) - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to toxapex (hand policy: forced: switch to copperajah) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  switch|p1a: Kingdra|Kingdra, L84, M|36/263 brn
+  move|p2a: Empoleon|Surf|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|12/263 brn
+  -damage|p1a: Kingdra|0 fnt|[from] brn
+  faint|p1a: Kingdra
+  switch|p1a: Toxapex|Toxapex, L82, F|216/216
+-- turn 16
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Empoleon|Surf|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|176/216
+  move|p1a: Toxapex|Liquidation|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|89/100
+  -heal|p2a: Empoleon|95/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|189/216|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack liquidation - our hp 0.88, theirs 0.95, predicted move (revealed) hits us x0.5
+  move|p2a: Empoleon|Surf|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|155/216
+  move|p1a: Toxapex|Liquidation|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|84/100
+  -heal|p2a: Empoleon|90/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|168/216|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack liquidation - our hp 0.78, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p2a: Empoleon|Surf|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|129/216
+  move|p1a: Toxapex|Liquidation|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|79/100
+  -heal|p2a: Empoleon|85/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|142/216|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack liquidation - our hp 0.66, theirs 0.85, predicted move (revealed) hits us x0.5
+  move|p2a: Empoleon|Surf|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|104/216
+  move|p1a: Toxapex|Liquidation|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|73/100
+  -heal|p2a: Empoleon|79/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|117/216|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack liquidation - our hp 0.54, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p2a: Empoleon|Surf|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|82/216
+  move|p1a: Toxapex|Liquidation|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|67/100
+  -heal|p2a: Empoleon|73/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|95/216|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal recover - our hp 0.44, theirs 0.73, predicted move (revealed) hits us x0.5
+  move|p2a: Empoleon|Surf|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|56/216
+  move|p1a: Toxapex|Recover|p1a: Toxapex
+  -heal|p1a: Toxapex|164/216
+  -heal|p2a: Empoleon|79/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|177/216|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack liquidation - our hp 0.82, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p2a: Empoleon|Surf|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|140/216
+  move|p1a: Toxapex|Liquidation|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|68/100
+  -heal|p2a: Empoleon|74/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|153/216|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack liquidation - our hp 0.71, theirs 0.74, predicted move (revealed) hits us x0.5
+  move|p2a: Empoleon|Surf|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|116/216
+  move|p1a: Toxapex|Liquidation|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|62/100
+  -unboost|p2a: Empoleon|def|1
+  -ability|p2a: Empoleon|Competitive|boost
+  -boost|p2a: Empoleon|spa|2
+  -heal|p2a: Empoleon|68/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|129/216|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack liquidation - our hp 0.60, theirs 0.68, predicted move (revealed) hits us x0.5
+  move|p2a: Empoleon|Surf|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|51/216
+  move|p1a: Toxapex|Liquidation|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|52/100
+  -unboost|p2a: Empoleon|def|1
+  -ability|p2a: Empoleon|Competitive|boost
+  -boost|p2a: Empoleon|spa|2
+  -heal|p2a: Empoleon|58/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|64/216|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: heal recover - our hp 0.30, theirs 0.58, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to copperajah - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p2a: Empoleon|Surf|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|0 fnt
+  faint|p1a: Toxapex
+  -heal|p2a: Empoleon|65/100|[from] item: Leftovers
+  switch|p1a: Copperajah|Copperajah, L86, F|350/350
+-- turn 26
+  WE CHOSE: attack+tera earthquake (hand policy: attack earthquake) - our hp 1.00, theirs 0.65, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to squawkabilly - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  -terastallize|p1a: Copperajah|Fairy
+  move|p2a: Empoleon|Surf|p1a: Copperajah
+  -damage|p1a: Copperajah|0 fnt
+  faint|p1a: Copperajah
+  -heal|p2a: Empoleon|71/100|[from] item: Leftovers
+  switch|p1a: Squawkabilly|Squawkabilly, L85, F|278/278
+-- turn 27
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tinkaton - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x1
+  move|p1a: Squawkabilly|Brave Bird|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|27/100
+  -damage|p1a: Squawkabilly|238/278|[from] Recoil
+  move|p2a: Empoleon|Surf|p1a: Squawkabilly
+  -crit|p1a: Squawkabilly
+  -damage|p1a: Squawkabilly|0 fnt
+  faint|p1a: Squawkabilly
+  -heal|p2a: Empoleon|33/100|[from] item: Leftovers
+  switch|p1a: Tinkaton|Tinkaton, L82, F|197/274
+  -ability|p1a: Tinkaton|Mold Breaker
+-- turn 28
+  WE CHOSE: attack gigatonhammer (hand policy: attack playrough) - our hp 0.72, theirs 0.33, predicted move (revealed) hits us x1
+  move|p1a: Tinkaton|Gigaton Hammer|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|8/100
+  move|p2a: Empoleon|Surf|p1a: Tinkaton
+  -damage|p1a: Tinkaton|0 fnt
+  faint|p1a: Tinkaton
+  deinit

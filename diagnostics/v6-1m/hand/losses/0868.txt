@@ -1,0 +1,141 @@
+battle 868 (battle-gen9randombattle-1014440): lost in 15 turns, 3 of theirs left; we are p1
+
+ours:
+  glalie (fainted; item heavydutyboots, ability innerfocus; moves spikes/taunt/earthquake/freezedry)
+  minun (fainted; item lifeorb, ability voltabsorb; moves nastyplot/thunderbolt/alluringvoice/grassknot)
+  miraidon (fainted; item ?, ability hadronengine; moves electrodrift/dracometeor/dragonpulse/calmmind)
+  carbink (fainted; item ?, ability clearbody, tera fighting; moves irondefense/moonblast/rest/bodypress)
+  regice (fainted; item heavydutyboots, ability clearbody; moves thunderbolt/rest/icebeam/sleeptalk)
+  wugtrio (fainted; item choiceband, ability gooey; moves stompingtantrum/aquajet/liquidation/throatchop)
+theirs (as seen):
+  reuniclus (fainted; item unknown_item, ability ?; moves focusblast)
+  weavile (fainted; item unknown_item, ability ?; moves knockoff)
+  floatzel (fainted; item unknown_item, ability ?; moves wavecrash)
+  decidueyehisui (72%; item unknown_item, ability ?; moves leafblade)
+
+-- turn 0
+  switch|p1a: Glalie|Glalie, L96, F, shiny|309/309
+  switch|p2a: Reuniclus|Reuniclus, L88, M|100/100
+-- turn 1
+  WE CHOSE: attack freezedry - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Glalie|Freeze-Dry|p2a: Reuniclus
+  -damage|p2a: Reuniclus|76/100
+  move|p2a: Reuniclus|Focus Blast|p1a: Glalie
+  -supereffective|p1a: Glalie
+  -damage|p1a: Glalie|5/309
+-- turn 2
+  WE CHOSE: attack freezedry - our hp 0.02, theirs 0.76, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to miraidon - our hp 0.00, theirs 0.53, predicted move (revealed) hits us x2
+  move|p1a: Glalie|Freeze-Dry|p2a: Reuniclus
+  -damage|p2a: Reuniclus|53/100
+  move|p2a: Reuniclus|Focus Blast|p1a: Glalie
+  -supereffective|p1a: Glalie
+  -damage|p1a: Glalie|0 fnt
+  faint|p1a: Glalie
+  switch|p1a: Miraidon|Miraidon, L65|238/238
+  -fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+-- turn 3
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p1a: Miraidon|Draco Meteor|p2a: Reuniclus
+  -damage|p2a: Reuniclus|0 fnt
+  -unboost|p1a: Miraidon|spa|2
+  faint|p2a: Reuniclus
+  -damage|p1a: Miraidon|215/238|[from] item: Life Orb
+  switch|p2a: Weavile|Weavile, L79, F|100/100
+-- turn 4
+  WE CHOSE: attack dracometeor - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Weavile|Knock Off|p1a: Miraidon
+  -damage|p1a: Miraidon|80/238
+  -enditem|p1a: Miraidon|Life Orb|[from] move: Knock Off|[of] p2a: Weavile
+  move|p1a: Miraidon|Draco Meteor|p2a: Weavile
+  -damage|p2a: Weavile|67/100
+  -unboost|p1a: Miraidon|spa|2
+-- turn 5
+  WE CHOSE: attack dracometeor - our hp 0.34, theirs 0.67, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to carbink - our hp 0.00, theirs 0.67, predicted move (revealed) hits us x1
+  move|p2a: Weavile|Knock Off|p1a: Miraidon
+  -damage|p1a: Miraidon|0 fnt
+  faint|p1a: Miraidon
+  switch|p1a: Carbink|Carbink, L90|236/236
+-- turn 6
+  WE CHOSE: attack+tera bodypress - our hp 1.00, theirs 0.67, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Carbink|Fighting
+  move|p2a: Weavile|Knock Off|p1a: Carbink
+  -resisted|p1a: Carbink
+  -damage|p1a: Carbink|205/236
+  -enditem|p1a: Carbink|Chesto Berry|[from] move: Knock Off|[of] p2a: Weavile
+  move|p1a: Carbink|Body Press|p2a: Weavile
+  -supereffective|p2a: Weavile
+  -damage|p2a: Weavile|0 fnt
+  faint|p2a: Weavile
+  switch|p2a: Floatzel|Floatzel, L86, F|100/100
+-- turn 7
+  WE CHOSE: attack moonblast - our hp 0.87, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Carbink
+  -damage|p1a: Carbink|76/236
+  -damage|p2a: Floatzel|85/100|[from] Recoil
+  move|p1a: Carbink|Moonblast|p2a: Floatzel
+  -damage|p2a: Floatzel|48/100
+  -fieldend|move: Electric Terrain
+-- turn 8
+  WE CHOSE: heal rest - our hp 0.32, theirs 0.48, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to minun - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Carbink
+  -damage|p1a: Carbink|0 fnt
+  faint|p1a: Carbink
+  -damage|p2a: Floatzel|40/100|[from] Recoil
+  switch|p1a: Minun|Minun, L95, F|268/268
+-- turn 9
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to regice - our hp 0.00, theirs 0.09, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Minun
+  -damage|p1a: Minun|0 fnt
+  faint|p1a: Minun
+  -damage|p2a: Floatzel|9/100|[from] Recoil
+  switch|p1a: Regice|Regice, L88|284/284
+-- turn 10
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.09, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Regice
+  -damage|p1a: Regice|106/284
+  -damage|p2a: Floatzel|0 fnt|[from] Recoil
+  faint|p2a: Floatzel
+  move|p1a: Regice|Thunderbolt|p2: Floatzel|[notarget]
+  -fail|p1a: Regice
+  switch|p2a: Decidueye|Decidueye-Hisui, L87, M|100/100
+-- turn 11
+  WE CHOSE: heal rest - our hp 0.37, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Decidueye|Leaf Blade|p1a: Regice
+  -damage|p1a: Regice|15/284
+  move|p1a: Regice|Rest|p1a: Regice
+  -status|p1a: Regice|slp|[from] move: Rest
+  -heal|p1a: Regice|284/284 slp|[silent]
+-- turn 12
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Decidueye|Leaf Blade|p1a: Regice
+  -damage|p1a: Regice|191/284 slp
+  cant|p1a: Regice|slp
+-- turn 13
+  WE CHOSE: attack icebeam - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Decidueye|Leaf Blade|p1a: Regice
+  -damage|p1a: Regice|98/284 slp
+  cant|p1a: Regice|slp
+-- turn 14
+  WE CHOSE: heal rest - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to wugtrio - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Decidueye|Leaf Blade|p1a: Regice
+  -damage|p1a: Regice|0 fnt
+  faint|p1a: Regice
+  switch|p1a: Wugtrio|Wugtrio, L91, F|212/212
+-- turn 15
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Wugtrio|Liquidation|p2a: Decidueye
+  -resisted|p2a: Decidueye
+  -damage|p2a: Decidueye|72/100
+  -unboost|p2a: Decidueye|def|1
+  move|p2a: Decidueye|Leaf Blade|p1a: Wugtrio
+  -supereffective|p1a: Wugtrio
+  -damage|p1a: Wugtrio|0 fnt
+  -ability|p1a: Wugtrio|Gooey
+  -unboost|p2a: Decidueye|spe|1
+  faint|p1a: Wugtrio
+  deinit

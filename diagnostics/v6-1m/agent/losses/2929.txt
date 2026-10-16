@@ -1,0 +1,203 @@
+battle 2929 (battle-gen9randombattle-1035606): lost in 22 turns, 2 of theirs left; we are p1
+
+ours:
+  vigoroth (fainted; item eviolite, ability vitalspirit; moves bulkup/knockoff/slackoff/bodyslam)
+  illumise (fainted; item heavydutyboots, ability prankster, tera water; moves thunderwave/roost/encore/bugbuzz)
+  persianalola (fainted; item heavydutyboots, ability furcoat; moves taunt/partingshot/thunderwave/foulplay)
+  ambipom (fainted; item choiceband, ability technician; moves tripleaxel/lowkick/knockoff/doubleedge)
+  noivern (fainted; item heavydutyboots, ability infiltrator; moves flamethrower/hurricane/roost/dracometeor)
+  zapdos (fainted; item heavydutyboots, ability static; moves discharge/hurricane/heatwave/roost)
+theirs (as seen):
+  stonjourner (fainted; item lifeorb, ability powerspot; moves stoneedge)
+  heracross (fainted; item unknown_item, ability ?; moves closecombat)
+  snorlax (fainted; item leftovers, ability ?; moves bodyslam)
+  ironmoth (fainted; item unknown_item, ability quarkdrive; moves fireblast)
+  zekrom (64%; item unknown_item, ability teravolt; moves boltstrike)
+
+-- turn 0
+  switch|p1a: Vigoroth|Vigoroth, L85, M|275/275
+  switch|p2a: Stonjourner|Stonjourner, L91, F|100/100
+-- turn 1
+  WE CHOSE: switch to noivern - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to persianalola - our hp 0.00, theirs 0.90, predicted move (revealed) hits us x2
+  switch|p1a: Noivern|Noivern, L82, F|274/274
+  move|p2a: Stonjourner|Stone Edge|p1a: Noivern
+  -supereffective|p1a: Noivern
+  -damage|p1a: Noivern|0 fnt
+  faint|p1a: Noivern
+  -damage|p2a: Stonjourner|90/100|[from] item: Life Orb
+  switch|p1a: Persian|Persian-Alola, L86, F|252/252
+-- turn 2
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 0.90, predicted move (revealed) hits us x1
+  move|p1a: Persian|Foul Play|p2a: Stonjourner
+  -damage|p2a: Stonjourner|64/100
+  move|p2a: Stonjourner|Stone Edge|p1a: Persian
+  -damage|p1a: Persian|116/252
+  -damage|p2a: Stonjourner|54/100|[from] item: Life Orb
+-- turn 3
+  WE CHOSE: attack foulplay - our hp 0.46, theirs 0.54, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Persian|Foul Play|p2a: Stonjourner
+  -damage|p2a: Stonjourner|24/100
+  move|p2a: Stonjourner|Stone Edge|p1a: Persian
+  -damage|p1a: Persian|0 fnt
+  faint|p1a: Persian
+  -damage|p2a: Stonjourner|14/100|[from] item: Life Orb
+  switch|p1a: Ambipom|Ambipom, L84, F|263/263
+-- turn 4
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Double-Edge|p2a: Stonjourner
+  -resisted|p2a: Stonjourner
+  -damage|p2a: Stonjourner|0 fnt
+  faint|p2a: Stonjourner
+  -damage|p1a: Ambipom|248/263|[from] Recoil
+  switch|p2a: Heracross|Heracross, L80, F|100/100
+-- turn 5
+  WE CHOSE: switch to zapdos - our hp 0.94, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Zapdos|Zapdos, L78|268/268
+  move|p2a: Heracross|Close Combat|p1a: Zapdos
+  -resisted|p1a: Zapdos
+  -damage|p1a: Zapdos|193/268
+  -unboost|p2a: Heracross|def|1
+  -unboost|p2a: Heracross|spd|1
+  -status|p2a: Heracross|brn|[from] item: Flame Orb
+-- turn 6
+  WE CHOSE: attack hurricane - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Zapdos|Hurricane|p2a: Heracross
+  -supereffective|p2a: Heracross
+  -damage|p2a: Heracross|0 fnt
+  faint|p2a: Heracross
+  switch|p2a: Snorlax|Snorlax, L82, M|100/100
+-- turn 7
+  WE CHOSE: attack hurricane (hand policy: attack discharge) - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Zapdos|Hurricane|p2a: Snorlax
+  -damage|p2a: Snorlax|74/100
+  move|p2a: Snorlax|Body Slam|p1a: Zapdos
+  -damage|p1a: Zapdos|96/268
+  -status|p2a: Snorlax|par|[from] ability: Static|[of] p1a: Zapdos
+  -heal|p2a: Snorlax|80/100 par|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack discharge (hand policy: heal roost) - our hp 0.36, theirs 0.80, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Zapdos|Discharge|p2a: Snorlax
+  -damage|p2a: Snorlax|61/100 par
+  move|p2a: Snorlax|Body Slam|p1a: Zapdos
+  -damage|p1a: Zapdos|0 fnt
+  faint|p1a: Zapdos
+  -heal|p2a: Snorlax|67/100 par|[from] item: Leftovers
+  switch|p1a: Ambipom|Ambipom, L84, F|248/263
+-- turn 9
+  WE CHOSE: attack doubleedge - our hp 0.94, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Double-Edge|p2a: Snorlax
+  -damage|p2a: Snorlax|5/100 par
+  -damage|p1a: Ambipom|166/263|[from] Recoil
+  move|p2a: Snorlax|Body Slam|p1a: Ambipom
+  -damage|p1a: Ambipom|48/263
+  -status|p1a: Ambipom|par
+  -heal|p2a: Snorlax|11/100 par|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack doubleedge - our hp 0.18, theirs 0.11, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Double-Edge|p2a: Snorlax
+  -damage|p2a: Snorlax|0 fnt
+  faint|p2a: Snorlax
+  -damage|p1a: Ambipom|34/263 par|[from] Recoil
+  switch|p2a: Iron Moth|Iron Moth, L78|100/100
+-- turn 11
+  WE CHOSE: switch to vigoroth (hand policy: attack doubleedge) - our hp 0.13, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Vigoroth|Vigoroth, L85, M|275/275
+  move|p2a: Iron Moth|Fire Blast|p1a: Vigoroth
+  -damage|p1a: Vigoroth|94/275
+-- turn 12
+  WE CHOSE: heal slackoff - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Moth|Fire Blast|p1a: Vigoroth
+  -damage|p1a: Vigoroth|0 fnt
+  faint|p1a: Vigoroth
+  switch|p1a: Ambipom|Ambipom, L84, F|34/263 par
+-- turn 13
+  WE CHOSE: attack doubleedge - our hp 0.13, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to illumise - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Moth|Fire Blast|p1a: Ambipom
+  -crit|p1a: Ambipom
+  -damage|p1a: Ambipom|0 fnt
+  faint|p1a: Ambipom
+  switch|p1a: Illumise|Illumise, L91, F|266/266
+-- turn 14
+  WE CHOSE: attack+tera bugbuzz - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  -terastallize|p1a: Illumise|Water
+  move|p2a: Iron Moth|Fire Blast|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|164/266
+  move|p1a: Illumise|Bug Buzz|p2a: Iron Moth
+  -resisted|p2a: Iron Moth
+  -damage|p2a: Iron Moth|92/100
+-- turn 15
+  WE CHOSE: heal roost (hand policy: attack bugbuzz) - our hp 0.62, theirs 0.92, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|266/266
+  move|p2a: Iron Moth|Fire Blast|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|163/266
+-- turn 16
+  WE CHOSE: heal roost (hand policy: attack bugbuzz) - our hp 0.61, theirs 0.92, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|266/266
+  move|p2a: Iron Moth|Fire Blast|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|170/266
+-- turn 17
+  WE CHOSE: attack bugbuzz - our hp 0.64, theirs 0.92, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Moth|Fire Blast|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|72/266
+  move|p1a: Illumise|Bug Buzz|p2a: Iron Moth
+  -resisted|p2a: Iron Moth
+  -damage|p2a: Iron Moth|84/100
+-- turn 18
+  WE CHOSE: heal roost - our hp 0.27, theirs 0.84, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|205/266
+  move|p2a: Iron Moth|Fire Blast|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|115/266
+-- turn 19
+  WE CHOSE: heal roost - our hp 0.43, theirs 0.84, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|248/266
+  -activate|p2a: Iron Moth|move: Struggle
+  move|p2a: Iron Moth|Struggle|p1a: Illumise
+  -crit|p1a: Illumise
+  -damage|p1a: Illumise|206/266
+  -damage|p2a: Iron Moth|59/100|[from] recoil
+-- turn 20
+  WE CHOSE: attack bugbuzz - our hp 0.77, theirs 0.59, predicted move (revealed) hits us x0.5
+  -activate|p2a: Iron Moth|move: Struggle
+  move|p2a: Iron Moth|Struggle|p1a: Illumise
+  -crit|p1a: Illumise
+  -damage|p1a: Illumise|167/266
+  -damage|p2a: Iron Moth|34/100|[from] recoil
+  move|p1a: Illumise|Bug Buzz|p2a: Iron Moth
+  -resisted|p2a: Iron Moth
+  -damage|p2a: Iron Moth|27/100
+-- turn 21
+  WE CHOSE: attack bugbuzz - our hp 0.63, theirs 0.27, predicted move (revealed) hits us x0.5
+  -activate|p2a: Iron Moth|move: Struggle
+  move|p2a: Iron Moth|Struggle|p1a: Illumise
+  -damage|p1a: Illumise|140/266
+  -damage|p2a: Iron Moth|2/100|[from] recoil
+  move|p1a: Illumise|Bug Buzz|p2a: Iron Moth
+  -resisted|p2a: Iron Moth
+  -damage|p2a: Iron Moth|0 fnt
+  faint|p2a: Iron Moth
+  -end|p2a: Iron Moth|Quark Drive|[silent]
+  switch|p2a: Zekrom|Zekrom, L71|100/100
+  -ability|p2a: Zekrom|Teravolt
+-- turn 22
+  WE CHOSE: attack bugbuzz - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Illumise|Bug Buzz|p2a: Zekrom
+  -damage|p2a: Zekrom|64/100
+  move|p2a: Zekrom|Bolt Strike|p1a: Illumise
+  -supereffective|p1a: Illumise
+  -damage|p1a: Illumise|0 fnt
+  faint|p1a: Illumise
+  deinit

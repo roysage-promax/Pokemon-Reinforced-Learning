@@ -1,0 +1,371 @@
+battle 412 (battle-gen9randombattle-1010092): lost in 45 turns, 2 of theirs left; we are p1
+
+ours:
+  ironbundle (fainted; item choicespecs, ability quarkdrive, tera water; moves freezedry/hydropump/icebeam/flipturn)
+  electivire (fainted; item lifeorb, ability motordrive; moves bulkup/earthquake/icepunch/supercellslam)
+  meganium (fainted; item leftovers, ability overgrow; moves earthquake/petalblizzard/swordsdance/knockoff)
+  rhyperior (fainted; item choiceband, ability solidrock; moves stoneedge/earthquake/megahorn/icepunch)
+  minun (fainted; item lifeorb, ability voltabsorb; moves thunderbolt/alluringvoice/nastyplot/grassknot)
+  dudunsparcethreesegment (fainted; item leftovers, ability serenegrace; moves headbutt/roost/glare/earthquake)
+theirs (as seen):
+  slowbrogalar (fainted; item unknown_item, ability ?; moves fireblast)
+  mightyena (fainted; item unknown_item, ability intimidate; moves playrough)
+  empoleon (fainted; item leftovers, ability ?; moves icebeam)
+  bronzong (fainted; item leftovers, ability levitate; moves psychic/ironhead)
+  regidrago (31%; item lifeorb, ability dragonsmaw; moves earthquake)
+
+-- turn 0
+  switch|p1a: Iron Bundle|Iron Bundle, L78|215/215
+  switch|p2a: Slowbro|Slowbro-Galar, L87, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera icebeam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Iron Bundle|Water
+  move|p1a: Iron Bundle|Ice Beam|p2a: Slowbro
+  -damage|p2a: Slowbro|46/100
+  move|p2a: Slowbro|Fire Blast|p1a: Iron Bundle|[miss]
+  -miss|p2a: Slowbro|p1a: Iron Bundle
+-- turn 2
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Bundle|Ice Beam|p2a: Slowbro
+  -damage|p2a: Slowbro|0 fnt
+  faint|p2a: Slowbro
+  switch|p2a: Mightyena|Mightyena, L96, M|100/100
+  -ability|p2a: Mightyena|Intimidate|boost
+  -unboost|p1a: Iron Bundle|atk|1
+-- turn 3
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Iron Bundle|Ice Beam|p2a: Mightyena
+  -damage|p2a: Mightyena|37/100
+  move|p2a: Mightyena|Play Rough|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|119/215
+-- turn 4
+  WE CHOSE: attack icebeam - our hp 0.55, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Iron Bundle|Ice Beam|p2a: Mightyena
+  -damage|p2a: Mightyena|0 fnt
+  faint|p2a: Mightyena
+  switch|p2a: Empoleon|Empoleon, L84, M|100/100
+-- turn 5
+  WE CHOSE: attack icebeam - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Iron Bundle|Ice Beam|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|88/100
+  -status|p2a: Empoleon|frz
+  cant|p2a: Empoleon|frz
+  -heal|p2a: Empoleon|94/100 frz|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack icebeam - our hp 0.55, theirs 0.94, predicted move (guessed) hits us x0.5
+  move|p1a: Iron Bundle|Ice Beam|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|82/100 frz
+  cant|p2a: Empoleon|frz
+  -heal|p2a: Empoleon|88/100 frz|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack icebeam - our hp 0.55, theirs 0.88, predicted move (guessed) hits us x0.5
+  move|p1a: Iron Bundle|Ice Beam|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|76/100 frz
+  -curestatus|p2a: Empoleon|frz|[msg]
+  move|p2a: Empoleon|Ice Beam|p1a: Iron Bundle
+  -resisted|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|67/215
+  -heal|p2a: Empoleon|82/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack icebeam - our hp 0.31, theirs 0.82, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Bundle|Ice Beam|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|70/100
+  move|p2a: Empoleon|Ice Beam|p1a: Iron Bundle
+  -resisted|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|15/215
+  -heal|p2a: Empoleon|76/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack icebeam - our hp 0.07, theirs 0.76, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to electivire - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Bundle|Ice Beam|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|63/100
+  move|p2a: Empoleon|Ice Beam|p1a: Iron Bundle
+  -resisted|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|0 fnt
+  faint|p1a: Iron Bundle
+  -end|p1a: Iron Bundle|Quark Drive|[silent]
+  -heal|p2a: Empoleon|70/100|[from] item: Leftovers
+  switch|p1a: Electivire|Electivire, L84, F|263/263
+-- turn 10
+  WE CHOSE: attack supercellslam - our hp 1.00, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Electivire|Supercell Slam|p2a: Empoleon
+  -supereffective|p2a: Empoleon
+  -damage|p2a: Empoleon|0 fnt
+  faint|p2a: Empoleon
+  -damage|p1a: Electivire|237/263|[from] item: Life Orb
+  switch|p2a: Bronzong|Bronzong, L88|100/100
+-- turn 11
+  WE CHOSE: switch to meganium - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Meganium|Meganium, L90, M|290/290
+  move|p2a: Bronzong|Psychic|p1a: Meganium
+  -damage|p1a: Meganium|218/290
+  -heal|p1a: Meganium|236/290|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack earthquake - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Meganium|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Meganium
+  -damage|p1a: Meganium|152/290
+  -heal|p1a: Meganium|170/290|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Meganium|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Meganium
+  -damage|p1a: Meganium|89/290
+  -heal|p1a: Meganium|107/290|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Meganium|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Meganium
+  -damage|p1a: Meganium|28/290
+  -heal|p1a: Meganium|46/290|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rhyperior - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Meganium|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Meganium
+  -damage|p1a: Meganium|0 fnt
+  faint|p1a: Meganium
+  switch|p1a: Rhyperior|Rhyperior, L82, F|323/323
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Rhyperior|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Rhyperior
+  -damage|p1a: Rhyperior|188/323
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Rhyperior|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Rhyperior
+  -damage|p1a: Rhyperior|68/323
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 0.21, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to electivire - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Rhyperior|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Rhyperior
+  -crit|p1a: Rhyperior
+  -damage|p1a: Rhyperior|0 fnt
+  faint|p1a: Rhyperior
+  switch|p1a: Electivire|Electivire, L84, F|237/263
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Electivire|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Electivire
+  -damage|p1a: Electivire|149/263
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Electivire|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Electivire
+  -damage|p1a: Electivire|53/263
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 0.20, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dudunsparcethreesegment - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Electivire|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Electivire
+  -damage|p1a: Electivire|0 fnt
+  faint|p1a: Electivire
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, M|343/343
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|247/343
+  -heal|p1a: Dudunsparce|268/343|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|163/343
+  -heal|p1a: Dudunsparce|184/343|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack earthquake - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|84/343
+  -heal|p1a: Dudunsparce|105/343|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: heal roost - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|277/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Bronzong|Psychic|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|177/343
+  -heal|p1a: Dudunsparce|198/343|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack earthquake - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Psychic|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|96/343
+  -unboost|p1a: Dudunsparce|spd|1
+  -heal|p1a: Dudunsparce|117/343|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: heal roost - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|289/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -crit|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|147/343
+  -heal|p1a: Dudunsparce|168/343|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: heal roost - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|340/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|238/343
+  -heal|p1a: Dudunsparce|259/343|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack earthquake - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|162/343
+  -heal|p1a: Dudunsparce|183/343|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack earthquake - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|78/343
+  -heal|p1a: Dudunsparce|99/343|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: heal roost - our hp 0.29, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|271/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -crit|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|118/343
+  -heal|p1a: Dudunsparce|139/343|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: heal roost - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|311/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|212/343
+  -heal|p1a: Dudunsparce|233/343|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack earthquake - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|133/343
+  -heal|p1a: Dudunsparce|154/343|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: heal roost - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|326/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|235/343
+  -heal|p1a: Dudunsparce|256/343|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: attack earthquake - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -crit|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|111/343
+  -heal|p1a: Dudunsparce|132/343|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: heal roost - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|304/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|207/343
+  -heal|p1a: Dudunsparce|228/343|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: attack earthquake - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|134/343
+  -heal|p1a: Dudunsparce|155/343|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: heal roost - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|327/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|225/343
+  -heal|p1a: Dudunsparce|246/343|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack earthquake - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|141/343
+  -heal|p1a: Dudunsparce|162/343|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: attack earthquake - our hp 0.47, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|74/343
+  -heal|p1a: Dudunsparce|95/343|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: attack earthquake - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to minun - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Earthquake|p2a: Bronzong
+  -immune|p2a: Bronzong|[from] ability: Levitate
+  move|p2a: Bronzong|Iron Head|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|0 fnt
+  faint|p1a: Dudunsparce
+  switch|p1a: Minun|Minun, L95, M|268/268
+-- turn 42
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Minun|Thunderbolt|p2a: Bronzong
+  -damage|p2a: Bronzong|63/100
+  -damage|p1a: Minun|242/268|[from] item: Life Orb
+  move|p2a: Bronzong|Iron Head|p1a: Minun
+  -resisted|p1a: Minun
+  -damage|p1a: Minun|184/268
+  -heal|p2a: Bronzong|69/100|[from] item: Leftovers
+-- turn 43
+  WE CHOSE: attack thunderbolt - our hp 0.69, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Minun|Thunderbolt|p2a: Bronzong
+  -damage|p2a: Bronzong|31/100
+  -damage|p1a: Minun|158/268|[from] item: Life Orb
+  move|p2a: Bronzong|Iron Head|p1a: Minun
+  -resisted|p1a: Minun
+  -damage|p1a: Minun|103/268
+  -heal|p2a: Bronzong|37/100|[from] item: Leftovers
+-- turn 44
+  WE CHOSE: attack thunderbolt - our hp 0.38, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Minun|Thunderbolt|p2a: Bronzong
+  -damage|p2a: Bronzong|0 fnt
+  faint|p2a: Bronzong
+  -damage|p1a: Minun|77/268|[from] item: Life Orb
+  switch|p2a: Regidrago|Regidrago, L77|100/100
+-- turn 45
+  WE CHOSE: attack alluringvoice - our hp 0.29, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Minun|Alluring Voice|p2a: Regidrago
+  -supereffective|p2a: Regidrago
+  -damage|p2a: Regidrago|41/100
+  -damage|p1a: Minun|51/268|[from] item: Life Orb
+  move|p2a: Regidrago|Earthquake|p1a: Minun
+  -supereffective|p1a: Minun
+  -damage|p1a: Minun|0 fnt
+  faint|p1a: Minun
+  -damage|p2a: Regidrago|31/100|[from] item: Life Orb
+  deinit

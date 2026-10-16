@@ -1,0 +1,192 @@
+battle 977 (battle-gen9randombattle-1015501): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  meowscarada (fainted; item focussash, ability protean; moves flowertrick/tripleaxel/knockoff/toxicspikes)
+  meowstic (fainted; item leftovers, ability prankster; moves thunderwave/yawn/psychicnoise/alluringvoice)
+  galvantula (fainted; item heavydutyboots, ability compoundeyes; moves stickyweb/bugbuzz/thunder/energyball)
+  tornadus (fainted; item heavydutyboots, ability prankster, tera fire; moves grassknot/bleakwindstorm/heatwave/nastyplot)
+  quagsire (fainted; item leftovers, ability unaware; moves toxic/earthquake/recover/spikes)
+  koraidon (fainted; item loadeddice, ability orichalcumpulse; moves collisioncourse/scaleshot/flareblitz/swordsdance)
+theirs (as seen):
+  slitherwing (fainted; item unknown_item, ability protosynthesis; moves flareblitz)
+  thundurus (fainted; item unknown_item, ability ?; moves thunderbolt)
+  kommoo (fainted; item ?, ability soundproof; moves clangingscales)
+  archaludon (fainted; item ?, ability stamina; moves dracometeor)
+  ironbundle (fainted; item unknown_item, ability quarkdrive; moves hydropump)
+  pikachupartner (48%; item unknown_item, ability ?; moves volttackle)
+
+-- turn 0
+  switch|p1a: Meowscarada|Meowscarada, L78, M|247/247
+  switch|p2a: Slither Wing|Slither Wing, L81|100/100
+-- turn 1
+  WE CHOSE: switch to tornadus - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Tornadus|Tornadus, L82, M|264/264
+  move|p2a: Slither Wing|Flare Blitz|p1a: Tornadus
+  -damage|p1a: Tornadus|150/264
+  -damage|p2a: Slither Wing|86/100|[from] Recoil
+-- turn 2
+  WE CHOSE: attack+tera bleakwindstorm - our hp 0.57, theirs 0.86, predicted move (revealed) hits us x1
+  -terastallize|p1a: Tornadus|Fire
+  move|p2a: Slither Wing|Flare Blitz|p1a: Tornadus
+  -resisted|p1a: Tornadus
+  -damage|p1a: Tornadus|92/264
+  -damage|p2a: Slither Wing|79/100|[from] Recoil
+  move|p1a: Tornadus|Bleakwind Storm|p2a: Slither Wing
+  -supereffective|p2a: Slither Wing
+  -damage|p2a: Slither Wing|0 fnt
+  faint|p2a: Slither Wing
+  -end|p2a: Slither Wing|Protosynthesis|[silent]
+  switch|p2a: Thundurus|Thundurus, L80, M|100/100
+-- turn 3
+  WE CHOSE: attack heatwave - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to koraidon - our hp 0.00, theirs 0.47, predicted move (revealed) hits us x1
+  move|p1a: Tornadus|Heat Wave|p2a: Thundurus
+  -damage|p2a: Thundurus|47/100
+  move|p2a: Thundurus|Thunderbolt|p1a: Tornadus
+  -damage|p1a: Tornadus|0 fnt
+  faint|p1a: Tornadus
+  switch|p1a: Koraidon|Koraidon, L64|235/235
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+  -activate|p1a: Koraidon|Orichalcum Pulse|[source]
+-- turn 4
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p2a: Thundurus|Thunderbolt|p1a: Koraidon
+  -resisted|p1a: Koraidon
+  -damage|p1a: Koraidon|174/235
+  move|p1a: Koraidon|Swords Dance|p1a: Koraidon
+  -boost|p1a: Koraidon|atk|2
+  -weather|SunnyDay|[upkeep]
+-- turn 5
+  WE CHOSE: attack flareblitz - our hp 0.74, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p2a: Thundurus|Thunderbolt|p1a: Koraidon
+  -resisted|p1a: Koraidon
+  -damage|p1a: Koraidon|111/235
+  move|p1a: Koraidon|Flare Blitz|p2a: Thundurus
+  -damage|p2a: Thundurus|0 fnt
+  faint|p2a: Thundurus
+  -damage|p1a: Koraidon|71/235|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Kommo-o|Kommo-o, L77, M|100/100
+-- turn 6
+  WE CHOSE: attack collisioncourse - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to meowstic - our hp 0.00, theirs 0.29, predicted move (revealed) hits us x2
+  move|p1a: Koraidon|Collision Course|p2a: Kommo-o
+  -damage|p2a: Kommo-o|29/100
+  move|p2a: Kommo-o|Clanging Scales|p1a: Koraidon
+  -supereffective|p1a: Koraidon
+  -damage|p1a: Koraidon|0 fnt
+  faint|p1a: Koraidon
+  -unboost|p2a: Kommo-o|def|1
+  -enditem|p2a: Kommo-o|Throat Spray
+  -boost|p2a: Kommo-o|spa|1|[from] item: Throat Spray
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Meowstic|Meowstic, L89, M|277/277
+-- turn 7
+  WE CHOSE: attack alluringvoice - our hp 1.00, theirs 0.29, predicted move (revealed) hits us x1
+  move|p1a: Meowstic|Alluring Voice|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Clanging Scales|p1a: Meowstic
+  -damage|p1a: Meowstic|117/277
+  -unboost|p2a: Kommo-o|def|1
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Meowstic|134/277|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack alluringvoice - our hp 0.48, theirs 0.29, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to quagsire - our hp 0.00, theirs 0.29, predicted move (revealed) hits us x1
+  move|p1a: Meowstic|Alluring Voice|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Clanging Scales|p1a: Meowstic
+  -damage|p1a: Meowstic|0 fnt
+  faint|p1a: Meowstic
+  -unboost|p2a: Kommo-o|def|1
+  -weather|none
+  switch|p1a: Quagsire|Quagsire, L84, F|297/297
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.29, predicted move (revealed) hits us x1
+  move|p2a: Kommo-o|Clanging Scales|p1a: Quagsire
+  -damage|p1a: Quagsire|170/297
+  -unboost|p2a: Kommo-o|def|1
+  move|p1a: Quagsire|Earthquake|p2a: Kommo-o
+  -damage|p2a: Kommo-o|0 fnt
+  faint|p2a: Kommo-o
+  -heal|p1a: Quagsire|188/297|[from] item: Leftovers
+  switch|p2a: Archaludon|Archaludon, L77, F|100/100
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Archaludon|Draco Meteor|p1a: Quagsire
+  -damage|p1a: Quagsire|28/297
+  -unboost|p2a: Archaludon|spa|2
+  move|p1a: Quagsire|Earthquake|p2a: Archaludon
+  -supereffective|p2a: Archaludon
+  -damage|p2a: Archaludon|46/100
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  -heal|p1a: Quagsire|46/297|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: heal recover - our hp 0.15, theirs 0.46, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to meowscarada - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Archaludon|Draco Meteor|p1a: Quagsire
+  -damage|p1a: Quagsire|0 fnt
+  -unboost|p2a: Archaludon|spa|2
+  faint|p1a: Quagsire
+  switch|p1a: Meowscarada|Meowscarada, L78, M|247/247
+-- turn 12
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Meowscarada|Knock Off|p2a: Archaludon
+  -start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+  -damage|p2a: Archaludon|25/100
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  -enditem|p2a: Archaludon|Assault Vest|[from] move: Knock Off|[of] p1a: Meowscarada
+  move|p2a: Archaludon|Draco Meteor|p1a: Meowscarada
+  -damage|p1a: Meowscarada|189/247
+  -unboost|p2a: Archaludon|spa|2
+-- turn 13
+  WE CHOSE: attack knockoff - our hp 0.77, theirs 0.25, predicted move (revealed) hits us x1
+  move|p1a: Meowscarada|Knock Off|p2a: Archaludon
+  -damage|p2a: Archaludon|14/100
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  move|p2a: Archaludon|Draco Meteor|p1a: Meowscarada
+  -damage|p1a: Meowscarada|144/247
+-- turn 14
+  WE CHOSE: attack knockoff - our hp 0.58, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Meowscarada|Knock Off|p2a: Archaludon
+  -damage|p2a: Archaludon|5/100
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  move|p2a: Archaludon|Draco Meteor|p1a: Meowscarada
+  -damage|p1a: Meowscarada|102/247
+-- turn 15
+  WE CHOSE: attack knockoff - our hp 0.41, theirs 0.05, predicted move (revealed) hits us x1
+  move|p1a: Meowscarada|Knock Off|p2a: Archaludon
+  -damage|p2a: Archaludon|0 fnt
+  faint|p2a: Archaludon
+  switch|p2a: Iron Bundle|Iron Bundle, L78|100/100
+-- turn 16
+  WE CHOSE: attack flowertrick - our hp 0.41, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to galvantula - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Meowscarada
+  -damage|p1a: Meowscarada|0 fnt
+  faint|p1a: Meowscarada
+  switch|p1a: Galvantula|Galvantula, L82, F|249/249
+-- turn 17
+  WE CHOSE: attack thunder - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Galvantula
+  -damage|p1a: Galvantula|5/249
+  move|p1a: Galvantula|Thunder|p2a: Iron Bundle
+  -supereffective|p2a: Iron Bundle
+  -damage|p2a: Iron Bundle|0 fnt
+  faint|p2a: Iron Bundle
+  -end|p2a: Iron Bundle|Quark Drive|[silent]
+  switch|p2a: Pikachu|Pikachu-Partner, L93, M|100/100
+-- turn 18
+  WE CHOSE: attack bugbuzz - our hp 0.02, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Galvantula|Bug Buzz|p2a: Pikachu
+  -damage|p2a: Pikachu|49/100
+  move|p2a: Pikachu|Volt Tackle|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|0 fnt
+  faint|p1a: Galvantula
+  -damage|p2a: Pikachu|48/100|[from] Recoil
+  deinit

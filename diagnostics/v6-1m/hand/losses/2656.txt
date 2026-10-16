@@ -1,0 +1,189 @@
+battle 2656 (battle-gen9randombattle-1031311): lost in 21 turns, 2 of theirs left; we are p1
+
+ours:
+  dugtrioalola (fainted; item lifeorb, ability tanglinghair, tera ground; moves stealthrock/stoneedge/ironhead/earthquake)
+  luxray (fainted; item flameorb, ability guts; moves throatchop/supercellslam/facade/trailblaze)
+  necrozmaduskmane (fainted; item weaknesspolicy, ability prismarmor; moves dragondance/morningsun/earthquake/sunsteelstrike)
+  meganium (fainted; item leftovers, ability overgrow; moves synthesis/encore/knockoff/energyball)
+  grumpig (fainted; item leftovers, ability thickfat; moves psyshock/shadowball/nastyplot/dazzlinggleam)
+  komala (fainted; item assaultvest, ability comatose; moves knockoff/uturn/rapidspin/bodyslam)
+theirs (as seen):
+  camerupt (fainted; item unknown_item, ability ?; moves -)
+  hydrapple (fainted; item leftovers, ability ?; moves ficklebeam)
+  dusknoir (fainted; item leftovers, ability frisk; moves -)
+  ditto (fainted; item ?, ability prismarmor; moves earthquake/sunsteelstrike)
+  palkia (100%; item unknown_item, ability pressure; moves dracometeor)
+
+-- turn 0
+  switch|p1a: Dugtrio|Dugtrio-Alola, L84, M|196/196
+  switch|p2a: Camerupt|Camerupt, L91, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Dugtrio|Ground
+  move|p1a: Dugtrio|Earthquake|p2a: Camerupt
+  -supereffective|p2a: Camerupt
+  -damage|p2a: Camerupt|0 fnt
+  faint|p2a: Camerupt
+  -damage|p1a: Dugtrio|177/196|[from] item: Life Orb
+  switch|p2a: Hydrapple|Hydrapple, L83, M|100/100
+-- turn 2
+  WE CHOSE: switch to necrozmaduskmane - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Necrozma|Necrozma-Dusk-Mane, L69|248/248
+  move|p2a: Hydrapple|Fickle Beam|p1a: Necrozma
+  -resisted|p1a: Necrozma
+  -damage|p1a: Necrozma|194/248
+-- turn 3
+  WE CHOSE: setup dragondance - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+  -boost|p1a: Necrozma|atk|1
+  -boost|p1a: Necrozma|spe|1
+  move|p2a: Hydrapple|Fickle Beam|p1a: Necrozma|[anim] Fickle Beam All Out
+  -activate|p2a: Hydrapple|move: Fickle Beam
+  -resisted|p1a: Necrozma
+  -damage|p1a: Necrozma|89/248
+-- turn 4
+  WE CHOSE: heal morningsun - our hp 0.36, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+  -heal|p1a: Necrozma|213/248
+  move|p2a: Hydrapple|Fickle Beam|p1a: Necrozma
+  -resisted|p1a: Necrozma
+  -damage|p1a: Necrozma|159/248
+-- turn 5
+  WE CHOSE: setup dragondance - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+  -boost|p1a: Necrozma|atk|1
+  -boost|p1a: Necrozma|spe|1
+  move|p2a: Hydrapple|Fickle Beam|p1a: Necrozma
+  -resisted|p1a: Necrozma
+  -crit|p1a: Necrozma
+  -damage|p1a: Necrozma|78/248
+-- turn 6
+  WE CHOSE: heal morningsun - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+  -heal|p1a: Necrozma|202/248
+  move|p2a: Hydrapple|Fickle Beam|p1a: Necrozma|[anim] Fickle Beam All Out
+  -activate|p2a: Hydrapple|move: Fickle Beam
+  -resisted|p1a: Necrozma
+  -damage|p1a: Necrozma|107/248
+-- turn 7
+  WE CHOSE: heal morningsun - our hp 0.43, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+  -heal|p1a: Necrozma|231/248
+  move|p2a: Hydrapple|Fickle Beam|p1a: Necrozma
+  -resisted|p1a: Necrozma
+  -damage|p1a: Necrozma|183/248
+-- turn 8
+  WE CHOSE: attack sunsteelstrike - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Necrozma|Sunsteel Strike|p2a: Hydrapple
+  -damage|p2a: Hydrapple|41/100
+  move|p2a: Hydrapple|Fickle Beam|p1a: Necrozma
+  -resisted|p1a: Necrozma
+  -damage|p1a: Necrozma|134/248
+  -heal|p2a: Hydrapple|47/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack sunsteelstrike - our hp 0.54, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p1a: Necrozma|Sunsteel Strike|p2a: Hydrapple
+  -damage|p2a: Hydrapple|0 fnt
+  faint|p2a: Hydrapple
+  switch|p2a: Dusknoir|Dusknoir, L89, M|100/100
+  -item|p1a: Necrozma|Weakness Policy|[from] ability: Frisk|[of] p2a: Dusknoir
+-- turn 10
+  WE CHOSE: attack sunsteelstrike - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x1
+  -singleturn|p2a: Dusknoir|move: Focus Punch
+  move|p1a: Necrozma|Sunsteel Strike|p2a: Dusknoir
+  -damage|p2a: Dusknoir|31/100
+  cant|p2a: Dusknoir|Focus Punch|Focus Punch
+  -heal|p2a: Dusknoir|37/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack sunsteelstrike - our hp 0.54, theirs 0.37, predicted move (guessed) hits us x1
+  -singleturn|p2a: Dusknoir|move: Focus Punch
+  move|p1a: Necrozma|Sunsteel Strike|p2a: Dusknoir
+  -damage|p2a: Dusknoir|0 fnt
+  faint|p2a: Dusknoir
+  switch|p2a: Ditto|Ditto, L87|100/100
+  -transform|p2a: Ditto|p1a: Necrozma|[from] ability: Imposter
+-- turn 12
+  WE CHOSE: attack earthquake - our hp 0.54, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to dugtrioalola - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Ditto|Earthquake|p1a: Necrozma
+  -supereffective|p1a: Necrozma
+  -damage|p1a: Necrozma|0 fnt
+  faint|p1a: Necrozma
+  switch|p1a: Dugtrio|Dugtrio-Alola, L84, M, tera:Ground|177/196
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to meganium - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Ditto|Earthquake|p1a: Dugtrio
+  -crit|p1a: Dugtrio
+  -damage|p1a: Dugtrio|0 fnt
+  faint|p1a: Dugtrio
+  switch|p1a: Meganium|Meganium, L90, M|290/290
+-- turn 14
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Ditto|Earthquake|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|220/290
+  move|p1a: Meganium|Knock Off|p2a: Ditto
+  -supereffective|p2a: Ditto
+  -damage|p2a: Ditto|60/100
+  -enditem|p2a: Ditto|Choice Scarf|[from] move: Knock Off|[of] p1a: Meganium
+  -heal|p1a: Meganium|238/290|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack knockoff - our hp 0.82, theirs 0.60, predicted move (revealed) hits us x0.5
+  move|p2a: Ditto|Earthquake|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|169/290
+  move|p1a: Meganium|Knock Off|p2a: Ditto
+  -supereffective|p2a: Ditto
+  -damage|p2a: Ditto|31/100
+  -heal|p1a: Meganium|187/290|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack knockoff - our hp 0.64, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p2a: Ditto|Earthquake|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|106/290
+  move|p1a: Meganium|Knock Off|p2a: Ditto
+  -supereffective|p2a: Ditto
+  -damage|p2a: Ditto|2/100
+  -heal|p1a: Meganium|124/290|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: heal synthesis - our hp 0.43, theirs 0.02, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to grumpig - our hp 0.00, theirs 0.02, predicted move (revealed) hits us x0.5
+  move|p2a: Ditto|Sunsteel Strike|p1a: Meganium
+  -damage|p1a: Meganium|0 fnt
+  faint|p1a: Meganium
+  switch|p1a: Grumpig|Grumpig, L92, M|297/297
+-- turn 18
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.02, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to komala - our hp 0.00, theirs 0.02, predicted move (revealed) hits us x1
+  move|p2a: Ditto|Sunsteel Strike|p1a: Grumpig
+  -damage|p1a: Grumpig|0 fnt
+  faint|p1a: Grumpig
+  switch|p1a: Komala|Komala, L87, F|255/255
+  -ability|p1a: Komala|Comatose
+-- turn 19
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.02, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to luxray - our hp 0.00, theirs 0.02, predicted move (revealed) hits us x1
+  move|p2a: Ditto|Sunsteel Strike|p1a: Komala
+  -damage|p1a: Komala|0 fnt
+  faint|p1a: Komala
+  switch|p1a: Luxray|Luxray, L88, M|283/283
+-- turn 20
+  WE CHOSE: attack throatchop - our hp 1.00, theirs 0.02, predicted move (revealed) hits us x2
+  move|p2a: Ditto|Sunsteel Strike|p1a: Luxray
+  -resisted|p1a: Luxray
+  -damage|p1a: Luxray|157/283
+  move|p1a: Luxray|Throat Chop|p2a: Ditto
+  -supereffective|p2a: Ditto
+  -damage|p2a: Ditto|0 fnt
+  faint|p2a: Ditto
+  -status|p1a: Luxray|brn|[from] item: Flame Orb
+  switch|p2a: Palkia|Palkia, L75|100/100
+  -ability|p2a: Palkia|Pressure
+-- turn 21
+  WE CHOSE: attack supercellslam - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Palkia|Draco Meteor|p1a: Luxray
+  -damage|p1a: Luxray|0 fnt
+  -unboost|p2a: Palkia|spa|2
+  faint|p1a: Luxray
+  deinit

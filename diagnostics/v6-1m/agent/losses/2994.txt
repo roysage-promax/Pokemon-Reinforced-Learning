@@ -1,0 +1,303 @@
+battle 2994 (battle-gen9randombattle-1035843): lost in 36 turns, 3 of theirs left; we are p1
+
+ours:
+  toedscruel (fainted; item assaultvest, ability myceliummight, tera water; moves earthpower/leafstorm/knockoff/rapidspin)
+  clefable (fainted; item lifeorb, ability magicguard; moves moonlight/moonblast/calmmind/fireblast)
+  tinglu (fainted; item leftovers, ability vesselofruin; moves earthquake/throatchop/spikes/stealthrock)
+  slaking (fainted; item choiceband, ability truant; moves earthquake/knockoff/gigaimpact/doubleedge)
+  morpeko (fainted; item heavydutyboots, ability hungerswitch; moves partingshot/aurawheel/protect/rapidspin)
+  whimsicott (fainted; item heavydutyboots, ability prankster; moves moonblast/uturn/stunspore/encore)
+theirs (as seen):
+  rotomfrost (fainted; item unknown_item, ability levitate; moves blizzard/thunderbolt)
+  jumpluff (86%; item unknown_item, ability ?; moves uturn)
+  arceusfire (fainted; item unknown_item, ability multitype; moves judgment)
+  sneasler (fainted; item ?, ability ?; moves closecombat/gunkshot)
+
+-- turn 0
+  switch|p1a: Toedscruel|Toedscruel, L87, M|281/281
+  switch|p2a: Rotom|Rotom-Frost, L87|100/100
+-- turn 1
+  WE CHOSE: attack+tera earthpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x4
+  -terastallize|p1a: Toedscruel|Water
+  move|p1a: Toedscruel|Earth Power|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  move|p2a: Rotom|Blizzard|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|250/281
+-- turn 2
+  WE CHOSE: attack earthpower - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  move|p2a: Rotom|Blizzard|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|216/281
+-- turn 3
+  WE CHOSE: attack earthpower - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  move|p2a: Rotom|Blizzard|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|185/281
+-- turn 4
+  WE CHOSE: attack earthpower - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  move|p2a: Rotom|Blizzard|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|154/281
+-- turn 5
+  WE CHOSE: attack earthpower - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  move|p2a: Rotom|Blizzard|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|118/281
+-- turn 6
+  WE CHOSE: attack earthpower - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  move|p2a: Rotom|Blizzard|p1a: Toedscruel|[miss]
+  -miss|p2a: Rotom|p1a: Toedscruel
+-- turn 7
+  WE CHOSE: attack earthpower - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  move|p2a: Rotom|Blizzard|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|87/281
+-- turn 8
+  WE CHOSE: attack earthpower - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  move|p2a: Rotom|Blizzard|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|51/281
+-- turn 9
+  WE CHOSE: attack earthpower - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to slaking - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Earth Power|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  move|p2a: Rotom|Thunderbolt|p1a: Toedscruel
+  -supereffective|p1a: Toedscruel
+  -damage|p1a: Toedscruel|0 fnt
+  faint|p1a: Toedscruel
+  switch|p1a: Slaking|Slaking, L84, F|389/389
+-- turn 10
+  WE CHOSE: attack gigaimpact - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Slaking|Giga Impact|p2a: Rotom|[miss]
+  -miss|p1a: Slaking|p2a: Rotom
+  move|p2a: Rotom|Thunderbolt|p1a: Slaking
+  -damage|p1a: Slaking|253/389
+-- turn 11
+  WE CHOSE: attack gigaimpact - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p1a: Slaking|ability: Truant
+  move|p2a: Rotom|Thunderbolt|p1a: Slaking
+  -damage|p1a: Slaking|126/389
+-- turn 12
+  WE CHOSE: attack gigaimpact - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to clefable - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Slaking|Giga Impact|p2a: Rotom|[miss]
+  -miss|p1a: Slaking|p2a: Rotom
+  move|p2a: Rotom|Thunderbolt|p1a: Slaking
+  -damage|p1a: Slaking|0 fnt
+  faint|p1a: Slaking
+  switch|p1a: Clefable|Clefable, L83, F|293/293
+-- turn 13
+  WE CHOSE: setup calmmind (hand policy: attack fireblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Thunderbolt|p1a: Clefable
+  -damage|p1a: Clefable|194/293
+  move|p1a: Clefable|Calm Mind|p1a: Clefable
+  -boost|p1a: Clefable|spa|1
+  -boost|p1a: Clefable|spd|1
+-- turn 14
+  WE CHOSE: heal moonlight (hand policy: attack fireblast) - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Thunderbolt|p1a: Clefable
+  -crit|p1a: Clefable
+  -damage|p1a: Clefable|22/293
+  move|p1a: Clefable|Moonlight|p1a: Clefable
+  -heal|p1a: Clefable|168/293
+-- turn 15
+  WE CHOSE: heal moonlight (hand policy: attack fireblast) - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Thunderbolt|p1a: Clefable
+  -damage|p1a: Clefable|95/293
+  move|p1a: Clefable|Moonlight|p1a: Clefable
+  -heal|p1a: Clefable|241/293
+-- turn 16
+  WE CHOSE: heal moonlight (hand policy: attack fireblast) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Thunderbolt|p1a: Clefable
+  -damage|p1a: Clefable|171/293
+  move|p1a: Clefable|Moonlight|p1a: Clefable
+  -heal|p1a: Clefable|293/293
+-- turn 17
+  WE CHOSE: heal moonlight (hand policy: attack fireblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Thunderbolt|p1a: Clefable
+  -damage|p1a: Clefable|226/293
+  move|p1a: Clefable|Moonlight|p1a: Clefable
+  -heal|p1a: Clefable|293/293
+-- turn 18
+  WE CHOSE: heal moonlight (hand policy: attack fireblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Thunderbolt|p1a: Clefable
+  -damage|p1a: Clefable|218/293
+  move|p1a: Clefable|Moonlight|p1a: Clefable
+  -heal|p1a: Clefable|293/293
+-- turn 19
+  WE CHOSE: heal moonlight (hand policy: attack fireblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Thunderbolt|p1a: Clefable
+  -damage|p1a: Clefable|217/293
+  move|p1a: Clefable|Moonlight|p1a: Clefable
+  -heal|p1a: Clefable|293/293
+-- turn 20
+  WE CHOSE: heal moonlight (hand policy: attack fireblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Thunderbolt|p1a: Clefable
+  -damage|p1a: Clefable|217/293
+  move|p1a: Clefable|Moonlight|p1a: Clefable
+  -heal|p1a: Clefable|293/293
+-- turn 21
+  WE CHOSE: heal moonlight (hand policy: attack fireblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Thunderbolt|p1a: Clefable
+  -damage|p1a: Clefable|221/293
+  move|p1a: Clefable|Moonlight|p1a: Clefable
+  -heal|p1a: Clefable|293/293
+-- turn 22
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Thunderbolt|p1a: Clefable
+  -damage|p1a: Clefable|220/293
+  move|p1a: Clefable|Fire Blast|p2a: Rotom
+  -supereffective|p2a: Rotom
+  -damage|p2a: Rotom|0 fnt
+  faint|p2a: Rotom
+  switch|p2a: Jumpluff|Jumpluff, L87, F|100/100
+-- turn 23
+  WE CHOSE: attack fireblast (hand policy: setup calmmind) - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Jumpluff|U-turn|p1a: Clefable
+  -resisted|p1a: Clefable
+  -damage|p1a: Clefable|199/293
+  switch|p2a: Arceus|Arceus-Fire, L72|100/100|[from] U-turn
+  move|p1a: Clefable|Fire Blast|p2a: Arceus
+  -resisted|p2a: Arceus
+  -damage|p2a: Arceus|79/100
+-- turn 24
+  WE CHOSE: switch to tinglu (hand policy: attack moonblast) - our hp 0.68, theirs 0.79, predicted move (guessed) hits us x1
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Arceus|Judgment|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|267/370
+  -heal|p1a: Ting-Lu|290/370|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack earthquake - our hp 0.78, theirs 0.79, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|187/370
+  move|p1a: Ting-Lu|Earthquake|p2a: Arceus
+  -supereffective|p2a: Arceus
+  -damage|p2a: Arceus|18/100
+  -heal|p1a: Ting-Lu|210/370|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack earthquake - our hp 0.57, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|117/370
+  move|p1a: Ting-Lu|Earthquake|p2a: Arceus
+  -supereffective|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  -heal|p1a: Ting-Lu|140/370|[from] item: Leftovers
+  switch|p2a: Sneasler|Sneasler, L74, F|100/100
+-- turn 27
+  WE CHOSE: switch to clefable - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Clefable|Clefable, L83, F|199/293
+  move|p2a: Sneasler|Close Combat|p1a: Clefable
+  -resisted|p1a: Clefable
+  -damage|p1a: Clefable|124/293
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  -enditem|p2a: Sneasler|White Herb
+  -clearnegativeboost|p2a: Sneasler|[silent]
+-- turn 28
+  WE CHOSE: setup calmmind (hand policy: attack moonblast) - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Sneasler|Close Combat|p1a: Clefable
+  -resisted|p1a: Clefable
+  -damage|p1a: Clefable|55/293
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  move|p1a: Clefable|Calm Mind|p1a: Clefable
+  -boost|p1a: Clefable|spa|1
+  -boost|p1a: Clefable|spd|1
+-- turn 29
+  WE CHOSE: setup calmmind (hand policy: attack moonblast) - our hp 0.19, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to whimsicott - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Sneasler|Close Combat|p1a: Clefable
+  -resisted|p1a: Clefable
+  -damage|p1a: Clefable|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Clefable
+  switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+-- turn 30
+  WE CHOSE: attack encore (hand policy: attack moonblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Encore|p2a: Sneasler
+  -start|p2a: Sneasler|Encore
+  move|p2a: Sneasler|Close Combat|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|169/238
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+-- turn 31
+  WE CHOSE: attack encore (hand policy: attack moonblast) - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Encore||[still]
+  -fail|p1a: Whimsicott
+  move|p2a: Sneasler|Close Combat|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|107/238
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+-- turn 32
+  WE CHOSE: attack encore (hand policy: attack moonblast) - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Encore||[still]
+  -fail|p1a: Whimsicott
+  move|p2a: Sneasler|Close Combat|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|38/238
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  -end|p2a: Sneasler|Encore
+-- turn 33
+  WE CHOSE: attack encore (hand policy: attack moonblast) - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to tinglu - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Encore|p2a: Sneasler
+  -start|p2a: Sneasler|Encore
+  move|p2a: Sneasler|Close Combat|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Whimsicott
+  switch|p1a: Ting-Lu|Ting-Lu, L78|140/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+-- turn 34
+  WE CHOSE: attack earthquake - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to morpeko - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Sneasler|Close Combat|p1a: Ting-Lu
+  -supereffective|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|0 fnt
+  faint|p1a: Ting-Lu
+  -end|p2a: Sneasler|Encore
+  switch|p1a: Morpeko|Morpeko, L88, F|245/245
+-- turn 35
+  WE CHOSE: attack rapidspin (hand policy: attack aurawheel) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Sneasler|Gunk Shot|p1a: Morpeko
+  -damage|p1a: Morpeko|77/245
+  move|p1a: Morpeko|Rapid Spin|p2a: Sneasler
+  -damage|p2a: Sneasler|0 fnt
+  -boost|p1a: Morpeko|spe|1
+  faint|p2a: Sneasler
+  -formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+  switch|p2a: Jumpluff|Jumpluff, L87, F|100/100
+-- turn 36
+  WE CHOSE: attack rapidspin (hand policy: attack aurawheel) - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Morpeko|Rapid Spin|p2a: Jumpluff
+  -damage|p2a: Jumpluff|86/100
+  -boost|p1a: Morpeko|spe|1
+  move|p2a: Jumpluff|U-turn|p1a: Morpeko
+  -supereffective|p1a: Morpeko
+  -damage|p1a: Morpeko|0 fnt
+  faint|p1a: Morpeko
+  deinit

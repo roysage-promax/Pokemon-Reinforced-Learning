@@ -1,0 +1,228 @@
+battle 1738 (battle-gen9randombattle-1024025): lost in 23 turns, 2 of theirs left; we are p1
+
+ours:
+  chansey (fainted; item eviolite, ability naturalcure; moves seismictoss/thunderwave/softboiled/stealthrock)
+  froslass (fainted; item widelens, ability cursedbody; moves tripleaxel/taunt/poltergeist/willowisp)
+  lanturn (fainted; item heavydutyboots, ability voltabsorb; moves voltswitch/thunderwave/scald/thunderbolt)
+  ditto (fainted; item choicescarf, ability sapsipper; moves highhorsepower/hornleech/doubleedge/swordsdance)
+  hippowdon (fainted; item leftovers, ability sandstream; moves slackoff/curse/stoneedge/earthquake)
+  raikou (fainted; item leftovers, ability pressure, tera grass; moves scald/substitute/thunderbolt/calmmind)
+theirs (as seen):
+  solgaleo (fainted; item unknown_item, ability fullmetalbody; moves sunsteelstrike/earthquake)
+  toxapex (fainted; item leftovers, ability ?; moves liquidation)
+  grimmsnarl (fainted; item unknown_item, ability ?; moves spiritbreak)
+  tropius (fainted; item ?, ability ?; moves airslash)
+  sawsbuckautumn (5%; item lifeorb, ability ?; moves doubleedge)
+
+-- turn 0
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  switch|p2a: Solgaleo|Solgaleo, L74|100/100
+-- turn 1
+  WE CHOSE: switch to froslass - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Froslass|Froslass, L87, F, shiny|263/263
+  move|p2a: Solgaleo|Sunsteel Strike|p1a: Froslass
+  -supereffective|p1a: Froslass
+  -damage|p1a: Froslass|35/263
+  -start|p2a: Solgaleo|Disable|Sunsteel Strike|[from] ability: Cursed Body|[of] p1a: Froslass
+-- turn 2
+  WE CHOSE: switch to lanturn - our hp 0.13, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Lanturn|Lanturn, L89, F|367/367
+  move|p2a: Solgaleo|Earthquake|p1a: Lanturn
+  -supereffective|p1a: Lanturn
+  -damage|p1a: Lanturn|181/367
+-- turn 3
+  WE CHOSE: attack thunderbolt - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to raikou (hand policy: forced: switch to hippowdon) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Solgaleo|Earthquake|p1a: Lanturn
+  -supereffective|p1a: Lanturn
+  -damage|p1a: Lanturn|0 fnt
+  faint|p1a: Lanturn
+  switch|p1a: Raikou|Raikou, L81|278/278
+  -ability|p1a: Raikou|Pressure
+-- turn 4
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Raikou|Calm Mind|p1a: Raikou
+  -boost|p1a: Raikou|spa|1
+  -boost|p1a: Raikou|spd|1
+  move|p2a: Solgaleo|Earthquake|p1a: Raikou
+  -supereffective|p1a: Raikou
+  -damage|p1a: Raikou|118/278
+  -heal|p1a: Raikou|135/278|[from] item: Leftovers
+  -end|p2a: Solgaleo|Disable
+-- turn 5
+  WE CHOSE: attack thunderbolt - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Raikou|Thunderbolt|p2a: Solgaleo
+  -damage|p2a: Solgaleo|45/100
+  move|p2a: Solgaleo|Sunsteel Strike|p1a: Raikou
+  -resisted|p1a: Raikou
+  -damage|p1a: Raikou|73/278
+  -heal|p1a: Raikou|90/278|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack thunderbolt - our hp 0.32, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p1a: Raikou|Thunderbolt|p2a: Solgaleo
+  -damage|p2a: Solgaleo|0 fnt
+  faint|p2a: Solgaleo
+  -heal|p1a: Raikou|107/278|[from] item: Leftovers
+  switch|p2a: Toxapex|Toxapex, L82, M|100/100
+-- turn 7
+  WE CHOSE: attack+tera thunderbolt - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Raikou|Grass
+  move|p1a: Raikou|Thunderbolt|p2a: Toxapex
+  -supereffective|p2a: Toxapex
+  -damage|p2a: Toxapex|2/100
+  move|p2a: Toxapex|Liquidation|p1a: Raikou
+  -resisted|p1a: Raikou
+  -damage|p1a: Raikou|70/278
+  -heal|p1a: Raikou|87/278|[from] item: Leftovers
+  -heal|p2a: Toxapex|8/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack thunderbolt - our hp 0.31, theirs 0.08, predicted move (revealed) hits us x0.5
+  move|p1a: Raikou|Thunderbolt|p2a: Toxapex
+  -supereffective|p2a: Toxapex
+  -damage|p2a: Toxapex|0 fnt
+  faint|p2a: Toxapex
+  -heal|p1a: Raikou|104/278|[from] item: Leftovers
+  switch|p2a: Grimmsnarl|Grimmsnarl, L83, M|100/100
+-- turn 9
+  WE CHOSE: attack thunderbolt - our hp 0.37, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hippowdon - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x1
+  move|p1a: Raikou|Thunderbolt|p2a: Grimmsnarl
+  -damage|p2a: Grimmsnarl|40/100
+  move|p2a: Grimmsnarl|Spirit Break|p1a: Raikou
+  -damage|p1a: Raikou|0 fnt
+  faint|p1a: Raikou
+  switch|p1a: Hippowdon|Hippowdon, L82, M|311/311
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x1
+  move|p2a: Grimmsnarl|Spirit Break|p1a: Hippowdon
+  -damage|p1a: Hippowdon|232/311
+  -unboost|p1a: Hippowdon|spa|1
+  move|p1a: Hippowdon|Earthquake|p2a: Grimmsnarl
+  -damage|p2a: Grimmsnarl|0 fnt
+  faint|p2a: Grimmsnarl
+  -weather|Sandstorm|[upkeep]
+  -heal|p1a: Hippowdon|251/311|[from] item: Leftovers
+  switch|p2a: Tropius|Tropius, L91, F|100/100
+-- turn 11
+  WE CHOSE: attack stoneedge - our hp 0.81, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Tropius|Air Slash|p1a: Hippowdon
+  -damage|p1a: Hippowdon|161/311
+  move|p1a: Hippowdon|Stone Edge|p2a: Tropius
+  -supereffective|p2a: Tropius
+  -damage|p2a: Tropius|53/100
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Tropius|47/100|[from] Sandstorm
+  -enditem|p2a: Tropius|Sitrus Berry|[eat]
+  -heal|p2a: Tropius|72/100|[from] item: Sitrus Berry
+  -heal|p1a: Hippowdon|180/311|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack stoneedge - our hp 0.58, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Tropius|Air Slash|p1a: Hippowdon
+  -damage|p1a: Hippowdon|90/311
+  move|p1a: Hippowdon|Stone Edge|p2a: Tropius|[miss]
+  -miss|p1a: Hippowdon|p2a: Tropius
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Tropius|66/100|[from] Sandstorm
+  -heal|p1a: Hippowdon|109/311|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal slackoff - our hp 0.35, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Tropius|Air Slash|p1a: Hippowdon
+  -damage|p1a: Hippowdon|24/311
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|180/311
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Tropius|60/100|[from] Sandstorm
+  -heal|p1a: Hippowdon|199/311|[from] item: Leftovers
+  -item|p2a: Tropius|Sitrus Berry|[from] ability: Harvest
+-- turn 14
+  WE CHOSE: attack stoneedge - our hp 0.64, theirs 0.60, predicted move (revealed) hits us x1
+  move|p2a: Tropius|Air Slash|p1a: Hippowdon
+  -damage|p1a: Hippowdon|109/311
+  cant|p1a: Hippowdon|flinch
+  -weather|none
+  -heal|p1a: Hippowdon|128/311|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack stoneedge (hand policy: heal slackoff) - our hp 0.41, theirs 0.60, predicted move (revealed) hits us x1
+  move|p2a: Tropius|Air Slash|p1a: Hippowdon
+  -damage|p1a: Hippowdon|40/311
+  move|p1a: Hippowdon|Stone Edge|p2a: Tropius|[miss]
+  -miss|p1a: Hippowdon|p2a: Tropius
+  -heal|p1a: Hippowdon|59/311|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: switch to froslass (hand policy: heal slackoff) - our hp 0.19, theirs 0.60, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hippowdon - our hp 0.00, theirs 0.60, predicted move (revealed) hits us x1
+  switch|p1a: Froslass|Froslass, L87, F, shiny|35/263
+  move|p2a: Tropius|Air Slash|p1a: Froslass
+  -damage|p1a: Froslass|0 fnt
+  faint|p1a: Froslass
+  switch|p1a: Hippowdon|Hippowdon, L82, M|59/311
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+-- turn 17
+  WE CHOSE: heal slackoff - our hp 0.19, theirs 0.60, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to chansey - our hp 0.00, theirs 0.54, predicted move (revealed) hits us x1
+  move|p2a: Tropius|Air Slash|p1a: Hippowdon
+  -damage|p1a: Hippowdon|0 fnt
+  faint|p1a: Hippowdon
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Tropius|54/100|[from] Sandstorm
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+-- turn 18
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 0.54, predicted move (revealed) hits us x1
+  move|p2a: Tropius|Air Slash|p1a: Chansey
+  -damage|p1a: Chansey|522/564
+  move|p1a: Chansey|Seismic Toss|p2a: Tropius
+  -damage|p2a: Tropius|28/100
+  -enditem|p2a: Tropius|Sitrus Berry|[eat]
+  -heal|p2a: Tropius|53/100|[from] item: Sitrus Berry
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Tropius|47/100|[from] Sandstorm
+  -damage|p1a: Chansey|487/564|[from] Sandstorm
+-- turn 19
+  WE CHOSE: attack seismictoss - our hp 0.86, theirs 0.47, predicted move (revealed) hits us x1
+  move|p2a: Tropius|Air Slash|p1a: Chansey
+  -damage|p1a: Chansey|447/564
+  move|p1a: Chansey|Seismic Toss|p2a: Tropius
+  -damage|p2a: Tropius|21/100
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Tropius|15/100|[from] Sandstorm
+  -damage|p1a: Chansey|412/564|[from] Sandstorm
+-- turn 20
+  WE CHOSE: attack seismictoss - our hp 0.73, theirs 0.15, predicted move (revealed) hits us x1
+  move|p2a: Tropius|Air Slash|p1a: Chansey
+  -damage|p1a: Chansey|372/564
+  move|p1a: Chansey|Seismic Toss|p2a: Tropius
+  -damage|p2a: Tropius|0 fnt
+  faint|p2a: Tropius
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Chansey|337/564|[from] Sandstorm
+  switch|p2a: Sawsbuck|Sawsbuck-Autumn, L88, M|100/100
+-- turn 21
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 0.60, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to ditto - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Sawsbuck|Double-Edge|p1a: Chansey
+  -damage|p1a: Chansey|0 fnt
+  faint|p1a: Chansey
+  -damage|p2a: Sawsbuck|61/100|[from] Recoil
+  -damage|p2a: Sawsbuck|52/100|[from] item: Life Orb
+  -weather|none
+  switch|p1a: Ditto|Ditto, L87|225/225
+  -transform|p1a: Ditto|p2a: Sawsbuck|[from] ability: Imposter
+-- turn 22
+  WE CHOSE: setup swordsdance (hand policy: attack doubleedge) - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Ditto|Swords Dance|p1a: Ditto
+  -boost|p1a: Ditto|atk|2
+  move|p2a: Sawsbuck|Double-Edge|p1a: Ditto
+  -damage|p1a: Ditto|17/225
+  -damage|p2a: Sawsbuck|27/100|[from] Recoil
+  -damage|p2a: Sawsbuck|17/100|[from] item: Life Orb
+-- turn 23
+  WE CHOSE: switch to ditto (hand policy: setup swordsdance) - our hp 0.08, theirs 0.17, predicted move (revealed) hits us x1
+  move|p1a: Ditto|Swords Dance|p1a: Ditto
+  -boost|p1a: Ditto|atk|2
+  move|p2a: Sawsbuck|Double-Edge|p1a: Ditto
+  -damage|p1a: Ditto|0 fnt
+  faint|p1a: Ditto
+  -damage|p2a: Sawsbuck|15/100|[from] Recoil
+  -damage|p2a: Sawsbuck|5/100|[from] item: Life Orb
+  deinit

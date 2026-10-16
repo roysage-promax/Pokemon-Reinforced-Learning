@@ -1,0 +1,322 @@
+battle 1495 (battle-gen9randombattle-1021492): lost in 39 turns, 2 of theirs left; we are p1
+
+ours:
+  baxcalibur (fainted; item loadeddice, ability thermalexchange; moves swordsdance/iciclespear/scaleshot/earthquake)
+  tyranitar (fainted; item weaknesspolicy, ability sandstream, tera ghost; moves stoneedge/knockoff/earthquake/dragondance)
+  bronzong (fainted; item chestoberry, ability levitate; moves irondefense/rest/bodypress/ironhead)
+  torkoal (fainted; item heavydutyboots, ability drought; moves yawn/fireblast/solarbeam/earthquake)
+  braviaryhisui (fainted; item choicespecs, ability tintedlens; moves uturn/vacuumwave/hurricane/esperwing)
+  smeargle (fainted; item focussash, ability owntempo; moves spore/ceaselessedge/whirlwind/stickyweb)
+theirs (as seen):
+  vileplume (fainted; item leftovers, ability ?; moves sludgebomb)
+  dipplin (fainted; item unknown_item, ability ?; moves dragonpulse)
+  chansey (fainted; item unknown_item, ability ?; moves softboiled/seismictoss)
+  electrode (fainted; item unknown_item, ability ?; moves foulplay)
+  diancie (18%; item leftovers, ability clearbody; moves diamondstorm)
+
+-- turn 0
+  switch|p1a: Baxcalibur|Baxcalibur, L75, M|295/295
+  switch|p2a: Vileplume|Vileplume, L85, F|100/100
+-- turn 1
+  WE CHOSE: switch to bronzong - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Bronzong|Bronzong, L88|261/261
+  move|p2a: Vileplume|Sludge Bomb|p1a: Bronzong
+  -immune|p1a: Bronzong
+-- turn 2
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Vileplume|Sludge Bomb|p1a: Bronzong
+  -immune|p1a: Bronzong
+  move|p1a: Bronzong|Iron Head|p2a: Vileplume
+  -damage|p2a: Vileplume|70/100
+  -heal|p2a: Vileplume|76/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x0
+  move|p2a: Vileplume|Sludge Bomb|p1a: Bronzong
+  -immune|p1a: Bronzong
+  move|p1a: Bronzong|Iron Head|p2a: Vileplume
+  -damage|p2a: Vileplume|44/100
+  -status|p1a: Bronzong|par|[from] ability: Effect Spore|[of] p2a: Vileplume
+  -heal|p2a: Vileplume|50/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x0
+  move|p2a: Vileplume|Sludge Bomb|p1a: Bronzong
+  -immune|p1a: Bronzong
+  move|p1a: Bronzong|Iron Head|p2a: Vileplume
+  -damage|p2a: Vileplume|17/100
+  -heal|p2a: Vileplume|23/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x0
+  move|p2a: Vileplume|Sludge Bomb|p1a: Bronzong
+  -immune|p1a: Bronzong
+  move|p1a: Bronzong|Iron Head|p2a: Vileplume
+  -damage|p2a: Vileplume|0 fnt
+  faint|p2a: Vileplume
+  switch|p2a: Dipplin|Dipplin, L88, F|100/100
+-- turn 6
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Dipplin|Dragon Pulse|p1a: Bronzong
+  -resisted|p1a: Bronzong
+  -damage|p1a: Bronzong|223/261 par
+  move|p1a: Bronzong|Iron Head|p2a: Dipplin
+  -damage|p2a: Dipplin|83/100
+-- turn 7
+  WE CHOSE: attack ironhead - our hp 0.85, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p2a: Dipplin|Dragon Pulse|p1a: Bronzong
+  -resisted|p1a: Bronzong
+  -damage|p1a: Bronzong|184/261 par
+  cant|p1a: Bronzong|par
+-- turn 8
+  WE CHOSE: attack ironhead - our hp 0.70, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p2a: Dipplin|Dragon Pulse|p1a: Bronzong
+  -resisted|p1a: Bronzong
+  -damage|p1a: Bronzong|148/261 par
+  move|p1a: Bronzong|Iron Head|p2a: Dipplin
+  -damage|p2a: Dipplin|67/100
+-- turn 9
+  WE CHOSE: attack ironhead - our hp 0.57, theirs 0.67, predicted move (revealed) hits us x0.5
+  move|p2a: Dipplin|Dragon Pulse|p1a: Bronzong
+  -resisted|p1a: Bronzong
+  -damage|p1a: Bronzong|112/261 par
+  move|p1a: Bronzong|Iron Head|p2a: Dipplin
+  -damage|p2a: Dipplin|49/100
+-- turn 10
+  WE CHOSE: attack ironhead (hand policy: heal rest) - our hp 0.43, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Dipplin|Dragon Pulse|p1a: Bronzong
+  -resisted|p1a: Bronzong
+  -damage|p1a: Bronzong|75/261 par
+  move|p1a: Bronzong|Iron Head|p2a: Dipplin
+  -damage|p2a: Dipplin|33/100
+-- turn 11
+  WE CHOSE: attack ironhead (hand policy: heal rest) - our hp 0.29, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p2a: Dipplin|Dragon Pulse|p1a: Bronzong
+  -resisted|p1a: Bronzong
+  -damage|p1a: Bronzong|39/261 par
+  cant|p1a: Bronzong|par
+-- turn 12
+  WE CHOSE: attack ironhead (hand policy: heal rest) - our hp 0.15, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p2a: Dipplin|Dragon Pulse|p1a: Bronzong
+  -resisted|p1a: Bronzong
+  -damage|p1a: Bronzong|3/261 par
+  move|p1a: Bronzong|Iron Head|p2a: Dipplin
+  -damage|p2a: Dipplin|16/100
+-- turn 13
+  WE CHOSE: attack ironhead (hand policy: heal rest) - our hp 0.01, theirs 0.16, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to braviaryhisui - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p2a: Dipplin|Dragon Pulse|p1a: Bronzong
+  -resisted|p1a: Bronzong
+  -crit|p1a: Bronzong
+  -damage|p1a: Bronzong|0 fnt
+  faint|p1a: Bronzong
+  switch|p1a: Braviary|Braviary-Hisui, L85, M|326/326
+-- turn 14
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Braviary|Hurricane|p2a: Dipplin
+  -supereffective|p2a: Dipplin
+  -damage|p2a: Dipplin|0 fnt
+  faint|p2a: Dipplin
+  switch|p2a: Chansey|Chansey, L85, F|100/100
+-- turn 15
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey|[miss]
+  -miss|p1a: Braviary|p2a: Chansey
+  move|p2a: Chansey|Soft-Boiled||[still]
+  -fail|p2a: Chansey|heal
+-- turn 16
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey|[miss]
+  -miss|p1a: Braviary|p2a: Chansey
+  move|p2a: Chansey|Soft-Boiled||[still]
+  -fail|p2a: Chansey|heal
+-- turn 17
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey
+  -damage|p2a: Chansey|79/100
+  -start|p2a: Chansey|confusion
+  -activate|p2a: Chansey|confusion
+  -damage|p2a: Chansey|77/100|[from] confusion
+-- turn 18
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 0.77, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey
+  -crit|p2a: Chansey
+  -damage|p2a: Chansey|45/100
+  -activate|p2a: Chansey|confusion
+  move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+  -heal|p2a: Chansey|95/100
+-- turn 19
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 0.95, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey|[miss]
+  -miss|p1a: Braviary|p2a: Chansey
+  -end|p2a: Chansey|confusion
+  move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+  -heal|p2a: Chansey|100/100
+-- turn 20
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey
+  -damage|p2a: Chansey|81/100
+  -start|p2a: Chansey|confusion
+  -activate|p2a: Chansey|confusion
+  move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+  -heal|p2a: Chansey|100/100
+-- turn 21
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey
+  -damage|p2a: Chansey|79/100
+  -activate|p2a: Chansey|confusion
+  -damage|p2a: Chansey|78/100|[from] confusion
+-- turn 22
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 0.78, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey
+  -damage|p2a: Chansey|55/100
+  -end|p2a: Chansey|confusion
+  move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+  -heal|p2a: Chansey|100/100
+-- turn 23
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey
+  -damage|p2a: Chansey|79/100
+  move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+  -heal|p2a: Chansey|100/100
+-- turn 24
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey|[miss]
+  -miss|p1a: Braviary|p2a: Chansey
+  move|p2a: Chansey|Soft-Boiled||[still]
+  -fail|p2a: Chansey|heal
+-- turn 25
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey
+  -damage|p2a: Chansey|81/100
+  move|p2a: Chansey|Seismic Toss|p1a: Braviary
+  -damage|p1a: Braviary|241/326
+-- turn 26
+  WE CHOSE: attack hurricane - our hp 0.74, theirs 0.81, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey
+  -damage|p2a: Chansey|60/100
+  move|p2a: Chansey|Seismic Toss|p1a: Braviary
+  -damage|p1a: Braviary|156/326
+-- turn 27
+  WE CHOSE: attack hurricane - our hp 0.48, theirs 0.60, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey
+  -damage|p2a: Chansey|38/100
+  move|p2a: Chansey|Seismic Toss|p1a: Braviary
+  -damage|p1a: Braviary|71/326
+-- turn 28
+  WE CHOSE: attack hurricane - our hp 0.22, theirs 0.38, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to tyranitar - our hp 0.00, theirs 0.38, predicted move (unknown) hits us x0
+  move|p1a: Braviary|Hurricane|p2a: Chansey|[miss]
+  -miss|p1a: Braviary|p2a: Chansey
+  move|p2a: Chansey|Seismic Toss|p1a: Braviary
+  -damage|p1a: Braviary|0 fnt
+  faint|p1a: Braviary
+  switch|p1a: Tyranitar|Tyranitar, L78, F|284/284
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+-- turn 29
+  WE CHOSE: setup dragondance (hand policy: attack stoneedge) - our hp 1.00, theirs 0.38, predicted move (unknown) hits us x0
+  move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+  -boost|p1a: Tyranitar|atk|1
+  -boost|p1a: Tyranitar|spe|1
+  move|p2a: Chansey|Seismic Toss|p1a: Tyranitar
+  -damage|p1a: Tyranitar|199/284
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Chansey|32/100|[from] Sandstorm
+-- turn 30
+  WE CHOSE: attack stoneedge - our hp 0.70, theirs 0.32, predicted move (unknown) hits us x0
+  move|p1a: Tyranitar|Stone Edge|p2a: Chansey|[miss]
+  -miss|p1a: Tyranitar|p2a: Chansey
+  move|p2a: Chansey|Seismic Toss|p1a: Tyranitar
+  -damage|p1a: Tyranitar|114/284
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Chansey|25/100|[from] Sandstorm
+-- turn 31
+  WE CHOSE: attack stoneedge - our hp 0.40, theirs 0.25, predicted move (unknown) hits us x0
+  move|p1a: Tyranitar|Stone Edge|p2a: Chansey
+  -damage|p2a: Chansey|0 fnt
+  faint|p2a: Chansey
+  -weather|Sandstorm|[upkeep]
+  switch|p2a: Electrode|Electrode, L93|100/100
+-- turn 32
+  WE CHOSE: attack+tera earthquake (hand policy: attack earthquake) - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to baxcalibur - our hp 0.00, theirs 0.94, predicted move (revealed) hits us x2
+  -terastallize|p1a: Tyranitar|Ghost
+  move|p2a: Electrode|Foul Play|p1a: Tyranitar
+  -supereffective|p1a: Tyranitar
+  -crit|p1a: Tyranitar
+  -damage|p1a: Tyranitar|0 fnt
+  faint|p1a: Tyranitar
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Electrode|94/100|[from] Sandstorm
+  switch|p1a: Baxcalibur|Baxcalibur, L75, M|295/295
+-- turn 33
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Foul Play|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|191/295
+  move|p1a: Baxcalibur|Earthquake|p2a: Electrode
+  -supereffective|p2a: Electrode
+  -damage|p2a: Electrode|33/100
+  -weather|none
+-- turn 34
+  WE CHOSE: attack earthquake - our hp 0.65, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Foul Play|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|96/295
+  move|p1a: Baxcalibur|Earthquake|p2a: Electrode
+  -supereffective|p2a: Electrode
+  -damage|p2a: Electrode|0 fnt
+  faint|p2a: Electrode
+  switch|p2a: Diancie|Diancie, L82|100/100
+-- turn 35
+  WE CHOSE: attack earthquake - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to smeargle (hand policy: forced: switch to torkoal) - our hp 0.00, theirs 0.58, predicted move (revealed) hits us x2
+  move|p1a: Baxcalibur|Earthquake|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|52/100
+  move|p2a: Diancie|Diamond Storm|p1a: Baxcalibur
+  -supereffective|p1a: Baxcalibur
+  -crit|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|0 fnt
+  -boost|p2a: Diancie|def|2
+  faint|p1a: Baxcalibur
+  -heal|p2a: Diancie|58/100|[from] item: Leftovers
+  switch|p1a: Smeargle|Smeargle, L95, M|258/258
+-- turn 36
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Diancie
+  -resisted|p2a: Diancie
+  -damage|p2a: Diancie|57/100
+  -sidestart|p2: e2_132141|Spikes
+  move|p2a: Diancie|Diamond Storm|p1a: Smeargle
+  -damage|p1a: Smeargle|84/258
+  -heal|p2a: Diancie|63/100|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: attack ceaselessedge - our hp 0.33, theirs 0.63, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to torkoal - our hp 0.00, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Diancie
+  -resisted|p2a: Diancie
+  -damage|p2a: Diancie|61/100
+  -sidestart|p2: e2_132141|Spikes
+  move|p2a: Diancie|Diamond Storm|p1a: Smeargle
+  -damage|p1a: Smeargle|0 fnt
+  faint|p1a: Smeargle
+  -heal|p2a: Diancie|67/100|[from] item: Leftovers
+  switch|p1a: Torkoal|Torkoal, L88, F|266/266
+  -weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+-- turn 38
+  WE CHOSE: attack solarbeam - our hp 1.00, theirs 0.67, predicted move (revealed) hits us x2
+  move|p2a: Diancie|Diamond Storm|p1a: Torkoal
+  -supereffective|p1a: Torkoal
+  -damage|p1a: Torkoal|122/266
+  -boost|p2a: Diancie|def|2
+  move|p1a: Torkoal|Solar Beam||[still]
+  -prepare|p1a: Torkoal|Solar Beam
+  -anim|p1a: Torkoal|Solar Beam|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|12/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Diancie|18/100|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack solarbeam - our hp 0.46, theirs 0.18, predicted move (revealed) hits us x2
+  move|p2a: Diancie|Diamond Storm|p1a: Torkoal
+  -supereffective|p1a: Torkoal
+  -damage|p1a: Torkoal|0 fnt
+  -boost|p2a: Diancie|def|2
+  faint|p1a: Torkoal
+  deinit

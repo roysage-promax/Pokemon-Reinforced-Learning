@@ -1,0 +1,185 @@
+battle 1882 (battle-gen9randombattle-1025447): lost in 18 turns, 3 of theirs left; we are p1
+
+ours:
+  barraskewda (fainted; item choiceband, ability swiftswim; moves throatchop/flipturn/waterfall/closecombat)
+  venomoth (fainted; item heavydutyboots, ability tintedlens; moves sleeppowder/quiverdance/sludgewave/bugbuzz)
+  heracross (fainted; item flameorb, ability guts; moves trailblaze/closecombat/facade/knockoff)
+  toxtricity (fainted; item choicespecs, ability punkrock; moves voltswitch/overdrive/sludgewave/boomburst)
+  dewgong (fainted; item assaultvest, ability thickfat, tera steel; moves knockoff/flipturn/surf/tripleaxel)
+  dragonite (fainted; item heavydutyboots, ability multiscale; moves dragondance/terablast/outrage/earthquake)
+theirs (as seen):
+  magearna (fainted; item leftovers, ability soulheart; moves fleurcannon)
+  dragalge (fainted; item leftovers, ability ?; moves dracometeor)
+  enamorustherian (fainted; item ?, ability overcoat; moves moonblast)
+  gallade (25%; item ?, ability ?; moves sacredsword)
+
+-- turn 0
+  switch|p1a: Barraskewda|Barraskewda, L81, M|231/231
+  switch|p2a: Magearna|Magearna, L77|100/100
+-- turn 1
+  WE CHOSE: attack waterfall - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Barraskewda|Waterfall|p2a: Magearna
+  -damage|p2a: Magearna|50/100
+  move|p2a: Magearna|Fleur Cannon|p1a: Barraskewda|[miss]
+  -miss|p2a: Magearna|p1a: Barraskewda
+  -heal|p2a: Magearna|56/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack waterfall - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to toxtricity - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x1
+  move|p1a: Barraskewda|Waterfall|p2a: Magearna
+  -damage|p2a: Magearna|1/100
+  move|p2a: Magearna|Fleur Cannon|p1a: Barraskewda
+  -damage|p1a: Barraskewda|0 fnt
+  -unboost|p2a: Magearna|spa|2
+  faint|p1a: Barraskewda
+  -ability|p2a: Magearna|Soul-Heart|boost
+  -boost|p2a: Magearna|spa|1
+  -heal|p2a: Magearna|7/100|[from] item: Leftovers
+  switch|p1a: Toxtricity|Toxtricity, L82, F|257/257
+-- turn 3
+  WE CHOSE: attack overdrive - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p1a: Toxtricity|Overdrive|p2a: Magearna
+  -damage|p2a: Magearna|0 fnt
+  faint|p2a: Magearna
+  switch|p2a: Dragalge|Dragalge, L88, M|100/100
+-- turn 4
+  WE CHOSE: attack overdrive - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Toxtricity|Overdrive|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|75/100
+  move|p2a: Dragalge|Draco Meteor|p1a: Toxtricity
+  -damage|p1a: Toxtricity|29/257
+  -unboost|p2a: Dragalge|spa|2
+  -heal|p2a: Dragalge|81/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack overdrive - our hp 0.11, theirs 0.81, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to heracross (hand policy: forced: switch to dragonite) - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Toxtricity|Overdrive|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|57/100
+  move|p2a: Dragalge|Draco Meteor|p1a: Toxtricity
+  -damage|p1a: Toxtricity|0 fnt
+  -unboost|p2a: Dragalge|spa|2
+  faint|p1a: Toxtricity
+  -heal|p2a: Dragalge|63/100|[from] item: Leftovers
+  switch|p1a: Heracross|Heracross, L80, M|259/259
+-- turn 6
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Heracross|Close Combat|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|38/100
+  -unboost|p1a: Heracross|def|1
+  -unboost|p1a: Heracross|spd|1
+  move|p2a: Dragalge|Draco Meteor|p1a: Heracross
+  -damage|p1a: Heracross|159/259
+  -unboost|p2a: Dragalge|spa|2
+  -heal|p2a: Dragalge|45/100|[from] item: Leftovers
+  -status|p1a: Heracross|brn|[from] item: Flame Orb
+-- turn 7
+  WE CHOSE: attack closecombat - our hp 0.61, theirs 0.45, predicted move (revealed) hits us x1
+  move|p1a: Heracross|Close Combat|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|8/100
+  -unboost|p1a: Heracross|def|1
+  -unboost|p1a: Heracross|spd|1
+  move|p2a: Dragalge|Draco Meteor|p1a: Heracross
+  -damage|p1a: Heracross|57/259 brn
+  -heal|p2a: Dragalge|14/100|[from] item: Leftovers
+  -damage|p1a: Heracross|41/259 brn|[from] brn
+-- turn 8
+  WE CHOSE: attack closecombat - our hp 0.16, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Heracross|Close Combat|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|0 fnt
+  -unboost|p1a: Heracross|def|1
+  -unboost|p1a: Heracross|spd|1
+  faint|p2a: Dragalge
+  -damage|p1a: Heracross|25/259 brn|[from] brn
+  switch|p2a: Enamorus|Enamorus-Therian, L83, F|100/100
+-- turn 9
+  WE CHOSE: switch to dragonite (hand policy: attack facade) - our hp 0.10, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Dragonite|Dragonite, L74, F|257/257
+  move|p2a: Enamorus|Moonblast|p1a: Dragonite
+  -supereffective|p1a: Dragonite
+  -crit|p1a: Dragonite
+  -damage|p1a: Dragonite|73/257
+-- turn 10
+  WE CHOSE: switch to venomoth - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Venomoth|Venomoth, L84, F|255/255
+  move|p2a: Enamorus|Moonblast|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|188/255
+  -unboost|p1a: Venomoth|spa|1
+-- turn 11
+  WE CHOSE: setup quiverdance - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+  -boost|p1a: Venomoth|spa|1
+  -boost|p1a: Venomoth|spd|1
+  -boost|p1a: Venomoth|spe|1
+  move|p2a: Enamorus|Moonblast|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|138/255
+  -unboost|p1a: Venomoth|spa|1
+-- turn 12
+  WE CHOSE: attack sludgewave (hand policy: setup quiverdance) - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Venomoth|Sludge Wave|p2a: Enamorus
+  -supereffective|p2a: Enamorus
+  -damage|p2a: Enamorus|56/100
+  -enditem|p2a: Enamorus|Weakness Policy
+  -boost|p2a: Enamorus|atk|2|[from] item: Weakness Policy
+  -boost|p2a: Enamorus|spa|2|[from] item: Weakness Policy
+  move|p2a: Enamorus|Moonblast|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|35/255
+-- turn 13
+  WE CHOSE: attack sleeppowder (hand policy: attack sludgewave) - our hp 0.14, theirs 0.56, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dewgong - our hp 0.00, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p1a: Venomoth|Sleep Powder|p2a: Enamorus
+  -immune|p2a: Enamorus|[from] ability: Overcoat
+  move|p2a: Enamorus|Moonblast|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|0 fnt
+  faint|p1a: Venomoth
+  switch|p1a: Dewgong|Dewgong, L94, F|322/322
+-- turn 14
+  WE CHOSE: attack+tera surf - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x1
+  -terastallize|p1a: Dewgong|Steel
+  move|p1a: Dewgong|Surf|p2a: Enamorus
+  -damage|p2a: Enamorus|24/100
+  move|p2a: Enamorus|Moonblast|p1a: Dewgong
+  -resisted|p1a: Dewgong
+  -damage|p1a: Dewgong|250/322
+-- turn 15
+  WE CHOSE: attack surf - our hp 0.78, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p1a: Dewgong|Surf|p2a: Enamorus
+  -damage|p2a: Enamorus|0 fnt
+  faint|p2a: Enamorus
+  switch|p2a: Gallade|Gallade, L80, M|100/100
+-- turn 16
+  WE CHOSE: attack knockoff (hand policy: attack surf) - our hp 0.78, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to dragonite - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x2
+  move|p1a: Dewgong|Knock Off|p2a: Gallade
+  -damage|p2a: Gallade|65/100
+  -enditem|p2a: Gallade|Choice Band|[from] move: Knock Off|[of] p1a: Dewgong
+  move|p2a: Gallade|Sacred Sword|p1a: Dewgong
+  -supereffective|p1a: Dewgong
+  -damage|p1a: Dewgong|0 fnt
+  faint|p1a: Dewgong
+  switch|p1a: Dragonite|Dragonite, L74, F|73/257
+-- turn 17
+  WE CHOSE: setup dragondance (hand policy: attack outrage) - our hp 0.28, theirs 0.65, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to heracross - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p2a: Gallade|Sacred Sword|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|0 fnt
+  faint|p1a: Dragonite
+  switch|p1a: Heracross|Heracross, L80, M|25/259 brn
+-- turn 18
+  WE CHOSE: attack knockoff (hand policy: attack closecombat) - our hp 0.10, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p1a: Heracross|Knock Off|p2a: Gallade
+  -damage|p2a: Gallade|25/100
+  move|p2a: Gallade|Sacred Sword|p1a: Heracross
+  -resisted|p1a: Heracross
+  -damage|p1a: Heracross|0 fnt
+  faint|p1a: Heracross
+  deinit

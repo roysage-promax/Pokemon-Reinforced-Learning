@@ -1,0 +1,182 @@
+battle 533 (battle-gen9randombattle-1011735): lost in 18 turns, 3 of theirs left; we are p1
+
+ours:
+  stonjourner (fainted; item lifeorb, ability powerspot; moves heatcrash/earthquake/stoneedge/stealthrock)
+  araquanid (fainted; item heavydutyboots, ability waterbubble, tera water; moves liquidation/leechlife/stickyweb/hydropump)
+  honchkrow (fainted; item heavydutyboots, ability moxie; moves bravebird/lashout/suckerpunch/thunderwave)
+  scizor (fainted; item leftovers, ability technician; moves closecombat/defog/knockoff/bulletpunch)
+  kommoo (fainted; item ?, ability soundproof; moves drainpunch/boomburst/clangingscales/clangoroussoul)
+  cacturne (fainted; item lifeorb, ability waterabsorb; moves knockoff/suckerpunch/leafstorm/spikes)
+theirs (as seen):
+  hypno (fainted; item leftovers, ability ?; moves focusblast)
+  flapple (fainted; item unknown_item, ability ?; moves outrage)
+  comfey (fainted; item leftovers, ability ?; moves gigadrain)
+  sandaconda (23%; item leftovers, ability ?; moves earthquake)
+
+-- turn 0
+  switch|p1a: Stonjourner|Stonjourner, L91, M|330/330
+  switch|p2a: Hypno|Hypno, L95, F|100/100
+-- turn 1
+  WE CHOSE: switch to araquanid - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Araquanid|Araquanid, L82, M|246/246
+  move|p2a: Hypno|Focus Blast|p1a: Araquanid
+  -resisted|p1a: Araquanid
+  -damage|p1a: Araquanid|214/246
+-- turn 2
+  WE CHOSE: attack leechlife - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Focus Blast|p1a: Araquanid
+  -resisted|p1a: Araquanid
+  -damage|p1a: Araquanid|182/246
+  -unboost|p1a: Araquanid|spd|1
+  move|p1a: Araquanid|Leech Life|p2a: Hypno
+  -supereffective|p2a: Hypno
+  -damage|p2a: Hypno|55/100
+  -heal|p1a: Araquanid|246/246|[from] drain|[of] p2a: Hypno
+  -heal|p2a: Hypno|61/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack leechlife - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Focus Blast|p1a: Araquanid
+  -resisted|p1a: Araquanid
+  -damage|p1a: Araquanid|198/246
+  move|p1a: Araquanid|Leech Life|p2a: Hypno
+  -supereffective|p2a: Hypno
+  -damage|p2a: Hypno|22/100
+  -heal|p1a: Araquanid|246/246|[from] drain|[of] p2a: Hypno
+  -heal|p2a: Hypno|28/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack leechlife - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Focus Blast|p1a: Araquanid
+  -resisted|p1a: Araquanid
+  -damage|p1a: Araquanid|197/246
+  move|p1a: Araquanid|Leech Life|p2a: Hypno
+  -supereffective|p2a: Hypno
+  -damage|p2a: Hypno|0 fnt
+  -heal|p1a: Araquanid|241/246|[from] drain|[of] p2a: Hypno
+  faint|p2a: Hypno
+  switch|p2a: Flapple|Flapple, L88, M|100/100
+-- turn 5
+  WE CHOSE: attack+tera leechlife (hand policy: attack leechlife) - our hp 0.98, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to scizor (hand policy: forced: switch to honchkrow) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Araquanid|Water
+  move|p2a: Flapple|Outrage|p1a: Araquanid
+  -damage|p1a: Araquanid|0 fnt
+  faint|p1a: Araquanid
+  switch|p1a: Scizor|Scizor, L79, M|240/240
+-- turn 6
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Flapple|Outrage|p1a: Scizor|[from] lockedmove
+  -resisted|p1a: Scizor
+  -damage|p1a: Scizor|72/240
+  -start|p2a: Flapple|confusion|[fatigue]
+  move|p1a: Scizor|Close Combat|p2a: Flapple
+  -damage|p2a: Flapple|63/100
+  -unboost|p1a: Scizor|def|1
+  -unboost|p1a: Scizor|spd|1
+  -heal|p1a: Scizor|87/240|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack closecombat - our hp 0.36, theirs 0.63, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to honchkrow - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x0.5
+  -activate|p2a: Flapple|confusion
+  move|p2a: Flapple|Outrage|p1a: Scizor
+  -resisted|p1a: Scizor
+  -damage|p1a: Scizor|0 fnt
+  faint|p1a: Scizor
+  switch|p1a: Honchkrow|Honchkrow, L86, F|312/312
+-- turn 8
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kommoo - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x1
+  -activate|p2a: Flapple|confusion
+  move|p2a: Flapple|Outrage|p1a: Honchkrow|[from] lockedmove
+  -damage|p1a: Honchkrow|0 fnt
+  faint|p1a: Honchkrow
+  switch|p1a: Kommo-o|Kommo-o, L77, M|242/242
+-- turn 9
+  WE CHOSE: attack clangingscales - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x2
+  move|p1a: Kommo-o|Clanging Scales|p2a: Flapple
+  -supereffective|p2a: Flapple
+  -damage|p2a: Flapple|0 fnt
+  faint|p2a: Flapple
+  -unboost|p1a: Kommo-o|def|1
+  -enditem|p1a: Kommo-o|Throat Spray
+  -boost|p1a: Kommo-o|spa|1|[from] item: Throat Spray
+  switch|p2a: Comfey|Comfey, L85, M|100/100
+-- turn 10
+  WE CHOSE: switch to stonjourner (hand policy: attack boomburst) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Stonjourner|Stonjourner, L91, M|330/330
+  move|p2a: Comfey|Giga Drain|p1a: Stonjourner
+  -supereffective|p1a: Stonjourner
+  -damage|p1a: Stonjourner|122/330
+-- turn 11
+  WE CHOSE: switch to cacturne - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Cacturne|Cacturne, L92, M|278/278
+  move|p2a: Comfey|Giga Drain|p1a: Cacturne
+  -resisted|p1a: Cacturne
+  -damage|p1a: Cacturne|249/278
+-- turn 12
+  WE CHOSE: attack leafstorm - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Comfey|Giga Drain|p1a: Cacturne
+  -resisted|p1a: Cacturne
+  -damage|p1a: Cacturne|218/278
+  move|p1a: Cacturne|Leaf Storm|p2a: Comfey
+  -damage|p2a: Comfey|8/100
+  -unboost|p1a: Cacturne|spa|2
+  -damage|p1a: Cacturne|191/278|[from] item: Life Orb
+  -heal|p2a: Comfey|14/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack leafstorm - our hp 0.69, theirs 0.14, predicted move (revealed) hits us x0.5
+  move|p2a: Comfey|Giga Drain|p1a: Cacturne
+  -resisted|p1a: Cacturne
+  -damage|p1a: Cacturne|164/278
+  -heal|p2a: Comfey|20/100|[from] drain|[of] p1a: Cacturne
+  move|p1a: Cacturne|Leaf Storm|p2a: Comfey
+  -crit|p2a: Comfey
+  -damage|p2a: Comfey|0 fnt
+  -unboost|p1a: Cacturne|spa|2
+  faint|p2a: Comfey
+  -damage|p1a: Cacturne|137/278|[from] item: Life Orb
+  switch|p2a: Sandaconda|Sandaconda, L84, M|100/100
+-- turn 14
+  WE CHOSE: attack leafstorm - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Sandaconda|Earthquake|p1a: Cacturne
+  -resisted|p1a: Cacturne
+  -crit|p1a: Cacturne
+  -damage|p1a: Cacturne|31/278
+  move|p1a: Cacturne|Leaf Storm|p2a: Sandaconda|[miss]
+  -miss|p1a: Cacturne|p2a: Sandaconda
+-- turn 15
+  WE CHOSE: attack leafstorm - our hp 0.11, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: attack spikes (hand policy: forced: switch to kommoo) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Sandaconda|Earthquake|p1a: Cacturne
+  -resisted|p1a: Cacturne
+  -damage|p1a: Cacturne|0 fnt
+  faint|p1a: Cacturne
+  switch|p1a: Kommo-o|Kommo-o, L77, M|242/242
+-- turn 16
+  WE CHOSE: attack clangingscales - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Kommo-o|Clanging Scales|p2a: Sandaconda
+  -damage|p2a: Sandaconda|53/100
+  -unboost|p1a: Kommo-o|def|1
+  move|p2a: Sandaconda|Earthquake|p1a: Kommo-o
+  -damage|p1a: Kommo-o|97/242
+  -heal|p2a: Sandaconda|59/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack clangingscales - our hp 0.40, theirs 0.59, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to stonjourner - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Kommo-o|Clanging Scales|p2a: Sandaconda
+  -damage|p2a: Sandaconda|17/100
+  -unboost|p1a: Kommo-o|def|1
+  move|p2a: Sandaconda|Earthquake|p1a: Kommo-o
+  -crit|p1a: Kommo-o
+  -damage|p1a: Kommo-o|0 fnt
+  faint|p1a: Kommo-o
+  -heal|p2a: Sandaconda|23/100|[from] item: Leftovers
+  switch|p1a: Stonjourner|Stonjourner, L91, M|122/330
+-- turn 18
+  WE CHOSE: attack stealthrock (hand policy: attack earthquake) - our hp 0.37, theirs 0.23, predicted move (revealed) hits us x2
+  move|p1a: Stonjourner|Stealth Rock|p2a: Sandaconda
+  -sidestart|p2: e2_132141|move: Stealth Rock
+  move|p2a: Sandaconda|Earthquake|p1a: Stonjourner
+  -supereffective|p1a: Stonjourner
+  -damage|p1a: Stonjourner|0 fnt
+  faint|p1a: Stonjourner
+  deinit

@@ -1,0 +1,202 @@
+battle 598 (battle-gen9randombattle-1012368): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  dondozo (fainted; item leftovers, ability unaware; moves sleeptalk/curse/wavecrash/rest)
+  garchomp (fainted; item rockyhelmet, ability roughskin; moves outrage/spikes/earthquake/stealthrock)
+  dudunsparce (fainted; item leftovers, ability serenegrace; moves roost/headbutt/earthquake/glare)
+  entei (fainted; item choiceband, ability innerfocus; moves sacredfire/flareblitz/extremespeed/stoneedge)
+  azumarill (fainted; item ?, ability hugepower; moves playrough/bellydrum/aquajet/liquidation)
+  crabominable (fainted; item choiceband, ability ironfist, tera ground; moves icehammer/closecombat/earthquake/knockoff)
+theirs (as seen):
+  mimikyu (fainted; item lifeorb, ability disguise; moves playrough)
+  dragapult (fainted; item lifeorb, ability ?; moves fireblast)
+  girafarig (fainted; item unknown_item, ability ?; moves hypervoice)
+  oricoriopompom (fainted; item unknown_item, ability dancer; moves hurricane)
+  mabosstiff (fainted; item unknown_item, ability ?; moves playrough)
+  heracross (100%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362
+  switch|p2a: Mimikyu|Mimikyu, L79, F|100/100
+-- turn 1
+  WE CHOSE: switch to entei (hand policy: attack wavecrash) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Entei|Entei, L78|307/307
+  move|p2a: Mimikyu|Play Rough|p1a: Entei
+  -resisted|p1a: Entei
+  -damage|p1a: Entei|247/307
+  -damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack flareblitz - our hp 0.80, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p1a: Entei|Flare Blitz|p2a: Mimikyu
+  -activate|p2a: Mimikyu|ability: Disguise
+  -damage|p2a: Mimikyu|91/100
+  detailschange|p2a: Mimikyu|Mimikyu-Busted, L79, F
+  -damage|p2a: Mimikyu|78/100|[from] pokemon: Mimikyu-Busted
+  move|p2a: Mimikyu|Play Rough|p1a: Entei
+  -resisted|p1a: Entei
+  -damage|p1a: Entei|192/307
+  -damage|p2a: Mimikyu|69/100|[from] item: Life Orb
+-- turn 3
+  WE CHOSE: attack flareblitz - our hp 0.63, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Entei|Flare Blitz|p2a: Mimikyu
+  -damage|p2a: Mimikyu|0 fnt
+  faint|p2a: Mimikyu
+  -damage|p1a: Entei|143/307|[from] Recoil
+  switch|p2a: Dragapult|Dragapult, L77, M|100/100
+-- turn 4
+  WE CHOSE: switch to azumarill - our hp 0.47, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Azumarill|Azumarill, L82, F|298/298
+  move|p2a: Dragapult|Fire Blast|p1a: Azumarill
+  -resisted|p1a: Azumarill
+  -damage|p1a: Azumarill|253/298
+  -damage|p2a: Dragapult|91/100|[from] item: Life Orb
+-- turn 5
+  WE CHOSE: attack playrough - our hp 0.85, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Dragapult|Fire Blast|p1a: Azumarill
+  -resisted|p1a: Azumarill
+  -damage|p1a: Azumarill|202/298
+  -status|p1a: Azumarill|brn
+  -damage|p2a: Dragapult|81/100|[from] item: Life Orb
+  move|p1a: Azumarill|Play Rough|p2a: Dragapult
+  -supereffective|p2a: Dragapult
+  -crit|p2a: Dragapult
+  -damage|p2a: Dragapult|5/100
+  -damage|p1a: Azumarill|184/298 brn|[from] brn
+-- turn 6
+  WE CHOSE: attack playrough - our hp 0.62, theirs 0.05, predicted move (revealed) hits us x0.5
+  move|p2a: Dragapult|Fire Blast|p1a: Azumarill
+  -resisted|p1a: Azumarill
+  -damage|p1a: Azumarill|140/298 brn
+  -enditem|p1a: Azumarill|Sitrus Berry|[eat]
+  -heal|p1a: Azumarill|214/298 brn|[from] item: Sitrus Berry
+  -damage|p2a: Dragapult|0 fnt|[from] item: Life Orb
+  faint|p2a: Dragapult
+  move|p1a: Azumarill|Play Rough|p2: Dragapult|[notarget]
+  -fail|p1a: Azumarill
+  -damage|p1a: Azumarill|196/298 brn|[from] brn
+  switch|p2a: Girafarig|Girafarig, L89, F|100/100
+-- turn 7
+  WE CHOSE: switch to dondozo (hand policy: attack+tera liquidation) - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362
+  move|p2a: Girafarig|Hyper Voice|p1a: Dondozo
+  -damage|p1a: Dondozo|224/362
+  -heal|p1a: Dondozo|246/362|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack wavecrash - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Girafarig|Hyper Voice|p1a: Dondozo
+  -damage|p1a: Dondozo|110/362
+  move|p1a: Dondozo|Wave Crash|p2a: Girafarig
+  -damage|p2a: Girafarig|68/100
+  -damage|p1a: Dondozo|81/362|[from] Recoil
+  -heal|p1a: Dondozo|103/362|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: switch to garchomp (hand policy: heal rest) - our hp 0.28, theirs 0.68, predicted move (revealed) hits us x1
+  switch|p1a: Garchomp|Garchomp, L74, F|282/282
+  move|p2a: Girafarig|Hyper Voice|p1a: Garchomp
+  -damage|p1a: Garchomp|173/282
+-- turn 10
+  WE CHOSE: attack outrage - our hp 0.61, theirs 0.68, predicted move (revealed) hits us x1
+  move|p2a: Girafarig|Hyper Voice|p1a: Garchomp
+  -damage|p1a: Garchomp|53/282
+  move|p1a: Garchomp|Outrage|p2a: Girafarig
+  -damage|p2a: Girafarig|31/100
+-- turn 11
+  WE CHOSE: attack outrage - our hp 0.19, theirs 0.31, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dondozo - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Girafarig|Hyper Voice|p1a: Garchomp
+  -damage|p1a: Garchomp|0 fnt
+  faint|p1a: Garchomp
+  switch|p1a: Dondozo|Dondozo, L78, F|103/362
+-- turn 12
+  WE CHOSE: heal rest - our hp 0.28, theirs 0.31, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to entei - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Girafarig|Hyper Voice|p1a: Dondozo
+  -damage|p1a: Dondozo|0 fnt
+  faint|p1a: Dondozo
+  switch|p1a: Entei|Entei, L78|143/307
+-- turn 13
+  WE CHOSE: attack flareblitz - our hp 0.47, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Girafarig|Hyper Voice|p1a: Entei
+  -damage|p1a: Entei|32/307
+  move|p1a: Entei|Flare Blitz|p2a: Girafarig
+  -damage|p2a: Girafarig|0 fnt
+  faint|p2a: Girafarig
+  -damage|p1a: Entei|5/307|[from] Recoil
+  switch|p2a: Oricorio|Oricorio-Pom-Pom, L82, F|100/100
+-- turn 14
+  WE CHOSE: attack flareblitz - our hp 0.02, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to azumarill - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Entei|Flare Blitz|p2a: Oricorio
+  -damage|p2a: Oricorio|15/100
+  -damage|p1a: Entei|0 fnt|[from] Recoil
+  faint|p1a: Entei
+  move|p2a: Oricorio|Hurricane|p1: Entei|[notarget]
+  -fail|p2a: Oricorio
+  switch|p1a: Azumarill|Azumarill, L82, F|196/298 brn
+-- turn 15
+  WE CHOSE: attack liquidation (hand policy: attack+tera liquidation) - our hp 0.66, theirs 0.15, predicted move (revealed) hits us x1
+  move|p2a: Oricorio|Hurricane|p1a: Azumarill
+  -damage|p1a: Azumarill|73/298 brn
+  -start|p1a: Azumarill|confusion
+  -activate|p1a: Azumarill|confusion
+  move|p1a: Azumarill|Liquidation|p2a: Oricorio
+  -damage|p2a: Oricorio|0 fnt
+  faint|p2a: Oricorio
+  -damage|p1a: Azumarill|55/298 brn|[from] brn
+  switch|p2a: Mabosstiff|Mabosstiff, L86, M|100/100
+-- turn 16
+  WE CHOSE: attack playrough - our hp 0.18, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dudunsparce (hand policy: forced: switch to crabominable) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Mabosstiff|Play Rough|p1a: Azumarill
+  -damage|p1a: Azumarill|0 fnt
+  faint|p1a: Azumarill
+  switch|p1a: Dudunsparce|Dudunsparce, L83, M|343/343
+-- turn 17
+  WE CHOSE: attack headbutt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Mabosstiff|Play Rough|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|217/343
+  move|p1a: Dudunsparce|Headbutt|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|75/100
+  -heal|p1a: Dudunsparce|238/343|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack headbutt - our hp 0.69, theirs 0.75, predicted move (revealed) hits us x1
+  move|p2a: Mabosstiff|Play Rough|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|118/343
+  -unboost|p1a: Dudunsparce|atk|1
+  move|p1a: Dudunsparce|Headbutt|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|57/100
+  -heal|p1a: Dudunsparce|139/343|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack headbutt (hand policy: heal roost) - our hp 0.41, theirs 0.57, predicted move (revealed) hits us x1
+  move|p2a: Mabosstiff|Play Rough|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|2/343
+  move|p1a: Dudunsparce|Headbutt|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|38/100
+  -heal|p1a: Dudunsparce|23/343|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack headbutt (hand policy: heal roost) - our hp 0.07, theirs 0.38, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to crabominable - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Mabosstiff|Play Rough|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|0 fnt
+  faint|p1a: Dudunsparce
+  switch|p1a: Crabominable|Crabominable, L90, M|321/321
+-- turn 21
+  WE CHOSE: attack+tera closecombat (hand policy: attack closecombat) - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x2
+  -terastallize|p1a: Crabominable|Ground
+  move|p2a: Mabosstiff|Play Rough|p1a: Crabominable
+  -damage|p1a: Crabominable|209/321
+  move|p1a: Crabominable|Close Combat|p2a: Mabosstiff
+  -supereffective|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|0 fnt
+  -unboost|p1a: Crabominable|def|1
+  -unboost|p1a: Crabominable|spd|1
+  faint|p2a: Mabosstiff
+  switch|p2a: Heracross|Heracross, L80, F|100/100
+-- turn 22
+  WE CHOSE: attack closecombat - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Heracross|Close Combat|p1a: Crabominable
+  -damage|p1a: Crabominable|0 fnt
+  -unboost|p2a: Heracross|def|1
+  -unboost|p2a: Heracross|spd|1
+  faint|p1a: Crabominable
+  deinit

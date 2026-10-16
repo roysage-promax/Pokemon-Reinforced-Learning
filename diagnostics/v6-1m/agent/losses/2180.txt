@@ -1,0 +1,1011 @@
+battle 2180 (battle-gen9randombattle-1028441): lost in 110 turns, 3 of theirs left; we are p1
+
+ours:
+  cinccino (fainted; item loadeddice, ability technician; moves bulletseed/tailslap/uturn/tripleaxel)
+  wochien (fainted; item leftovers, ability tabletsofruin; moves protect/knockoff/leechseed/ruination)
+  arboliva (fainted; item ?, ability harvest, tera poison; moves leechseed/protect/hypervoice/substitute)
+  volbeat (fainted; item heavydutyboots, ability prankster; moves roost/thunderwave/lunge/encore)
+  torkoal (fainted; item heavydutyboots, ability drought; moves yawn/lavaplume/stealthrock/rapidspin)
+  arceusground (fainted; item earthplate, ability multitype; moves extremespeed/stoneedge/swordsdance/earthquake)
+theirs (as seen):
+  chesnaught (fainted; item leftovers, ability ?; moves bodypress)
+  rayquaza (fainted; item unknown_item, ability airlock; moves dragonascent)
+  sinistchamasterpiece (fainted; item leftovers, ability ?; moves shadowball/matchagotcha/strengthsap/calmmind)
+  typhlosionhisui (15%; item leftovers, ability ?; moves fireblast)
+
+-- turn 0
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  switch|p2a: Chesnaught|Chesnaught, L84, F|100/100
+-- turn 1
+  WE CHOSE: switch to torkoal (hand policy: attack uturn) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Torkoal|Torkoal, L88, M|266/266
+  -weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+  move|p2a: Chesnaught|Body Press|p1a: Torkoal
+  -damage|p1a: Torkoal|193/266
+  -weather|SunnyDay|[upkeep]
+-- turn 2
+  WE CHOSE: attack lavaplume - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Chesnaught|Body Press|p1a: Torkoal
+  -damage|p1a: Torkoal|130/266
+  move|p1a: Torkoal|Lava Plume|p2a: Chesnaught
+  -supereffective|p2a: Chesnaught
+  -damage|p2a: Chesnaught|3/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Chesnaught|9/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack lavaplume - our hp 0.49, theirs 0.09, predicted move (revealed) hits us x1
+  move|p2a: Chesnaught|Body Press|p1a: Torkoal
+  -damage|p1a: Torkoal|57/266
+  move|p1a: Torkoal|Lava Plume|p2a: Chesnaught
+  -supereffective|p2a: Chesnaught
+  -damage|p2a: Chesnaught|0 fnt
+  faint|p2a: Chesnaught
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Rayquaza|Rayquaza, L72|100/100
+  -ability|p2a: Rayquaza|Air Lock
+-- turn 4
+  WE CHOSE: attack lavaplume - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to arceusground - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rayquaza|Dragon Ascent|p1a: Torkoal
+  -damage|p1a: Torkoal|0 fnt
+  -unboost|p2a: Rayquaza|def|1
+  -unboost|p2a: Rayquaza|spd|1
+  faint|p1a: Torkoal
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Arceus|Arceus-Ground, L70|284/284
+-- turn 5
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Stone Edge|p2a: Rayquaza
+  -supereffective|p2a: Rayquaza
+  -damage|p2a: Rayquaza|24/100
+  move|p2a: Rayquaza|Dragon Ascent|p1a: Arceus
+  -damage|p1a: Arceus|160/284
+  -unboost|p2a: Rayquaza|def|1
+  -unboost|p2a: Rayquaza|spd|1
+  -weather|none
+-- turn 6
+  WE CHOSE: attack stoneedge - our hp 0.56, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Stone Edge|p2a: Rayquaza
+  -supereffective|p2a: Rayquaza
+  -damage|p2a: Rayquaza|0 fnt
+  faint|p2a: Rayquaza
+  switch|p2a: Sinistcha|Sinistcha-Masterpiece, L83|100/100
+-- turn 7
+  WE CHOSE: attack stoneedge - our hp 0.56, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Arceus|Stone Edge|p2a: Sinistcha
+  -damage|p2a: Sinistcha|79/100
+  move|p2a: Sinistcha|Shadow Ball|p1a: Arceus
+  -damage|p1a: Arceus|67/284
+  -heal|p2a: Sinistcha|85/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: switch to cinccino - our hp 0.24, theirs 0.85, predicted move (revealed) hits us x1
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  move|p2a: Sinistcha|Shadow Ball|p1a: Cinccino
+  -immune|p1a: Cinccino
+  -heal|p2a: Sinistcha|91/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x0
+  move|p1a: Cinccino|U-turn|p2a: Sinistcha
+  -damage|p2a: Sinistcha|76/100
+  switch|p1a: Wo-Chien|Wo-Chien, L83|277/277|[from] U-turn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Shadow Ball|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|243/277
+  -heal|p1a: Wo-Chien|260/277|[from] item: Leftovers
+  -heal|p2a: Sinistcha|82/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: switch to cinccino (hand policy: attack knockoff) - our hp 0.94, theirs 0.82, predicted move (revealed) hits us x0.5
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  move|p2a: Sinistcha|Shadow Ball|p1a: Cinccino
+  -immune|p1a: Cinccino
+  -heal|p2a: Sinistcha|88/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x0
+  move|p1a: Cinccino|U-turn|p2a: Sinistcha
+  -damage|p2a: Sinistcha|71/100
+  switch|p1a: Wo-Chien|Wo-Chien, L83|260/277|[from] U-turn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Shadow Ball|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|221/277
+  -unboost|p1a: Wo-Chien|spd|1
+  -heal|p1a: Wo-Chien|238/277|[from] item: Leftovers
+  -heal|p2a: Sinistcha|77/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: switch to cinccino (hand policy: attack knockoff) - our hp 0.86, theirs 0.77, predicted move (revealed) hits us x0.5
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  move|p2a: Sinistcha|Shadow Ball|p1a: Cinccino
+  -immune|p1a: Cinccino
+  -heal|p2a: Sinistcha|83/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.83, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 1.00, theirs 0.65, predicted move (revealed) hits us x0
+  move|p1a: Cinccino|U-turn|p2a: Sinistcha
+  -damage|p2a: Sinistcha|65/100
+  switch|p1a: Wo-Chien|Wo-Chien, L83|238/277|[from] U-turn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Shadow Ball|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|204/277
+  -heal|p2a: Sinistcha|71/100|[from] item: Leftovers
+  -heal|p1a: Wo-Chien|221/277|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: switch to cinccino (hand policy: attack knockoff) - our hp 0.80, theirs 0.71, predicted move (revealed) hits us x0.5
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  move|p2a: Sinistcha|Shadow Ball|p1a: Cinccino
+  -immune|p1a: Cinccino
+  -heal|p2a: Sinistcha|77/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.77, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x0
+  move|p1a: Cinccino|U-turn|p2a: Sinistcha
+  -damage|p2a: Sinistcha|61/100
+  switch|p1a: Wo-Chien|Wo-Chien, L83|221/277|[from] U-turn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Shadow Ball|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|186/277
+  -heal|p1a: Wo-Chien|203/277|[from] item: Leftovers
+  -heal|p2a: Sinistcha|67/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: switch to cinccino (hand policy: attack knockoff) - our hp 0.73, theirs 0.67, predicted move (revealed) hits us x0.5
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  move|p2a: Sinistcha|Shadow Ball|p1a: Cinccino
+  -immune|p1a: Cinccino
+  -heal|p2a: Sinistcha|73/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x0
+  move|p1a: Cinccino|U-turn|p2a: Sinistcha
+  -damage|p2a: Sinistcha|57/100
+  switch|p1a: Wo-Chien|Wo-Chien, L83|203/277|[from] U-turn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Shadow Ball|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|169/277
+  -heal|p2a: Sinistcha|63/100|[from] item: Leftovers
+  -heal|p1a: Wo-Chien|186/277|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: switch to cinccino (hand policy: attack knockoff) - our hp 0.67, theirs 0.63, predicted move (revealed) hits us x0.5
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  move|p2a: Sinistcha|Shadow Ball|p1a: Cinccino
+  -immune|p1a: Cinccino
+  -heal|p2a: Sinistcha|69/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x0
+  move|p1a: Cinccino|U-turn|p2a: Sinistcha
+  -damage|p2a: Sinistcha|52/100
+  switch|p1a: Wo-Chien|Wo-Chien, L83|186/277|[from] U-turn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Shadow Ball|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|151/277
+  -heal|p1a: Wo-Chien|168/277|[from] item: Leftovers
+  -heal|p2a: Sinistcha|58/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: switch to cinccino (hand policy: attack knockoff) - our hp 0.61, theirs 0.58, predicted move (revealed) hits us x0.5
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  move|p2a: Sinistcha|Shadow Ball|p1a: Cinccino
+  -immune|p1a: Cinccino
+  -heal|p2a: Sinistcha|64/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x0
+  move|p1a: Cinccino|U-turn|p2a: Sinistcha
+  -damage|p2a: Sinistcha|48/100
+  switch|p1a: Wo-Chien|Wo-Chien, L83|168/277|[from] U-turn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Shadow Ball|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|132/277
+  -unboost|p1a: Wo-Chien|spd|1
+  -heal|p1a: Wo-Chien|149/277|[from] item: Leftovers
+  -heal|p2a: Sinistcha|54/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: switch to cinccino (hand policy: attack knockoff) - our hp 0.54, theirs 0.54, predicted move (revealed) hits us x0.5
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  move|p2a: Sinistcha|Shadow Ball|p1a: Cinccino
+  -immune|p1a: Cinccino
+  -heal|p2a: Sinistcha|60/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.60, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x0
+  move|p1a: Cinccino|U-turn|p2a: Sinistcha
+  -damage|p2a: Sinistcha|45/100
+  switch|p1a: Wo-Chien|Wo-Chien, L83|149/277|[from] U-turn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Shadow Ball|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|114/277
+  -heal|p2a: Sinistcha|50/100|[from] item: Leftovers
+  -heal|p1a: Wo-Chien|131/277|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: switch to cinccino (hand policy: attack knockoff) - our hp 0.47, theirs 0.50, predicted move (revealed) hits us x0.5
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  move|p2a: Sinistcha|Shadow Ball|p1a: Cinccino
+  -immune|p1a: Cinccino
+  -heal|p2a: Sinistcha|56/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x0
+  move|p1a: Cinccino|U-turn|p2a: Sinistcha
+  -damage|p2a: Sinistcha|40/100
+  switch|p1a: Wo-Chien|Wo-Chien, L83|131/277|[from] U-turn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Shadow Ball|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|96/277
+  -heal|p2a: Sinistcha|46/100|[from] item: Leftovers
+  -heal|p1a: Wo-Chien|113/277|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: switch to cinccino (hand policy: attack knockoff) - our hp 0.41, theirs 0.46, predicted move (revealed) hits us x0.5
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  move|p2a: Sinistcha|Shadow Ball|p1a: Cinccino
+  -immune|p1a: Cinccino
+  -heal|p2a: Sinistcha|52/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x0
+  move|p1a: Cinccino|U-turn|p2a: Sinistcha
+  -damage|p2a: Sinistcha|35/100
+  switch|p1a: Wo-Chien|Wo-Chien, L83|113/277|[from] U-turn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Shadow Ball|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|76/277
+  -heal|p1a: Wo-Chien|93/277|[from] item: Leftovers
+  -heal|p2a: Sinistcha|41/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: switch to cinccino (hand policy: attack knockoff) - our hp 0.34, theirs 0.41, predicted move (revealed) hits us x0.5
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  move|p2a: Sinistcha|Shadow Ball|p1a: Cinccino
+  -immune|p1a: Cinccino
+  -heal|p2a: Sinistcha|47/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 1.00, theirs 0.32, predicted move (revealed) hits us x0
+  move|p1a: Cinccino|U-turn|p2a: Sinistcha
+  -damage|p2a: Sinistcha|32/100
+  switch|p1a: Wo-Chien|Wo-Chien, L83|93/277|[from] U-turn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Shadow Ball|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|59/277
+  -heal|p2a: Sinistcha|38/100|[from] item: Leftovers
+  -heal|p1a: Wo-Chien|76/277|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: switch to cinccino (hand policy: attack knockoff) - our hp 0.27, theirs 0.38, predicted move (revealed) hits us x0.5
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  move|p2a: Sinistcha|Shadow Ball|p1a: Cinccino
+  -immune|p1a: Cinccino
+  -heal|p2a: Sinistcha|43/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x0
+  move|p1a: Cinccino|U-turn|p2a: Sinistcha
+  -damage|p2a: Sinistcha|28/100
+  switch|p1a: Wo-Chien|Wo-Chien, L83|76/277|[from] U-turn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|40/277
+  -heal|p2a: Sinistcha|35/100|[from] drain|[of] p1a: Wo-Chien
+  -heal|p1a: Wo-Chien|57/277|[from] item: Leftovers
+  -heal|p2a: Sinistcha|41/100|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: switch to cinccino (hand policy: attack knockoff) - our hp 0.21, theirs 0.41, predicted move (revealed) hits us x0.5
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Cinccino
+  -damage|p1a: Cinccino|131/260
+  -heal|p2a: Sinistcha|66/100|[from] drain|[of] p1a: Cinccino
+  -status|p1a: Cinccino|brn
+  -heal|p2a: Sinistcha|72/100|[from] item: Leftovers
+  -damage|p1a: Cinccino|115/260 brn|[from] brn
+-- turn 33
+  WE CHOSE: attack uturn - our hp 0.44, theirs 0.72, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 0.44, theirs 0.64, predicted move (revealed) hits us x0
+  move|p1a: Cinccino|U-turn|p2a: Sinistcha
+  -damage|p2a: Sinistcha|64/100
+  switch|p1a: Wo-Chien|Wo-Chien, L83|57/277|[from] U-turn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|21/277
+  -heal|p2a: Sinistcha|71/100|[from] drain|[of] p1a: Wo-Chien
+  -status|p1a: Wo-Chien|brn
+  -heal|p2a: Sinistcha|77/100|[from] item: Leftovers
+  -heal|p1a: Wo-Chien|38/277 brn|[from] item: Leftovers
+  -damage|p1a: Wo-Chien|21/277 brn|[from] brn
+-- turn 34
+  WE CHOSE: switch to cinccino (hand policy: attack knockoff) - our hp 0.08, theirs 0.77, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to wochien - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Cinccino|Cinccino, L83, M|115/260 brn
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Cinccino
+  -damage|p1a: Cinccino|0 fnt
+  -heal|p2a: Sinistcha|99/100|[from] drain|[of] p1a: Cinccino
+  faint|p1a: Cinccino
+  -heal|p2a: Sinistcha|100/100|[from] item: Leftovers
+  switch|p1a: Wo-Chien|Wo-Chien, L83|21/277 brn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+-- turn 35
+  WE CHOSE: switch to arboliva (hand policy: attack knockoff) - our hp 0.08, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Arboliva|Arboliva, L91, M|288/288
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Arboliva
+  -resisted|p1a: Arboliva
+  -damage|p1a: Arboliva|248/288
+-- turn 36
+  WE CHOSE: switch to wochien (hand policy: attack leechseed) - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to arboliva - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Wo-Chien|Wo-Chien, L83|21/277 brn
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Wo-Chien
+  -resisted|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|0 fnt
+  faint|p1a: Wo-Chien
+  switch|p1a: Arboliva|Arboliva, L91, M|248/288
+-- turn 37
+  WE CHOSE: switch to volbeat (hand policy: attack leechseed) - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Volbeat|Volbeat, L90, M|263/263
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|218/263
+-- turn 38
+  WE CHOSE: switch to arboliva - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Arboliva|Arboliva, L91, M|248/288
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Arboliva
+  -resisted|p1a: Arboliva
+  -damage|p1a: Arboliva|212/288
+-- turn 39
+  WE CHOSE: switch to volbeat (hand policy: attack leechseed) - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Volbeat|Volbeat, L90, M|218/263
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Volbeat|[miss]
+  -miss|p2a: Sinistcha|p1a: Volbeat
+-- turn 40
+  WE CHOSE: switch to arboliva - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Arboliva|Arboliva, L91, M|212/288
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Arboliva
+  -resisted|p1a: Arboliva
+  -damage|p1a: Arboliva|171/288
+-- turn 41
+  WE CHOSE: switch to volbeat (hand policy: attack leechseed) - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Volbeat|Volbeat, L90, M|218/263
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|173/263
+-- turn 42
+  WE CHOSE: attack lunge (hand policy: switch to arboliva) - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Lunge|p2a: Sinistcha
+  -damage|p2a: Sinistcha|72/100
+  -unboost|p2a: Sinistcha|atk|1
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|125/263
+  -heal|p2a: Sinistcha|81/100|[from] drain|[of] p1a: Volbeat
+  -heal|p2a: Sinistcha|87/100|[from] item: Leftovers
+-- turn 43
+  WE CHOSE: attack lunge (hand policy: switch to arboliva) - our hp 0.48, theirs 0.87, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Lunge|p2a: Sinistcha
+  -damage|p2a: Sinistcha|58/100
+  -unboost|p2a: Sinistcha|atk|1
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -crit|p1a: Volbeat
+  -damage|p1a: Volbeat|56/263
+  -heal|p2a: Sinistcha|71/100|[from] drain|[of] p1a: Volbeat
+  -heal|p2a: Sinistcha|77/100|[from] item: Leftovers
+-- turn 44
+  WE CHOSE: attack lunge (hand policy: switch to arboliva) - our hp 0.21, theirs 0.77, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to arboliva - our hp 0.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Lunge|p2a: Sinistcha
+  -damage|p2a: Sinistcha|50/100
+  -unboost|p2a: Sinistcha|atk|1
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|5/263
+  -heal|p2a: Sinistcha|60/100|[from] drain|[of] p1a: Volbeat
+  -status|p1a: Volbeat|brn
+  -heal|p2a: Sinistcha|66/100|[from] item: Leftovers
+  -damage|p1a: Volbeat|0 fnt|[from] brn
+  faint|p1a: Volbeat
+  switch|p1a: Arboliva|Arboliva, L91, M|171/288
+-- turn 45
+  WE CHOSE: attack leechseed - our hp 0.59, theirs 0.66, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Arboliva
+  -resisted|p1a: Arboliva
+  -damage|p1a: Arboliva|133/288
+  -heal|p2a: Sinistcha|74/100|[from] drain|[of] p1a: Arboliva
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|205/288|[from] item: Sitrus Berry
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -heal|p2a: Sinistcha|80/100|[from] item: Leftovers
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+-- turn 46
+  WE CHOSE: attack leechseed - our hp 0.71, theirs 0.80, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Arboliva
+  -resisted|p1a: Arboliva
+  -damage|p1a: Arboliva|168/288
+  -heal|p2a: Sinistcha|87/100|[from] drain|[of] p1a: Arboliva
+  -status|p1a: Arboliva|brn
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -heal|p2a: Sinistcha|93/100|[from] item: Leftovers
+  -damage|p1a: Arboliva|150/288 brn|[from] brn
+-- turn 47
+  WE CHOSE: attack leechseed - our hp 0.52, theirs 0.93, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Arboliva
+  -resisted|p1a: Arboliva
+  -damage|p1a: Arboliva|113/288 brn
+  -heal|p2a: Sinistcha|100/100|[from] drain|[of] p1a: Arboliva
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|185/288 brn|[from] item: Sitrus Berry
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|167/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+-- turn 48
+  WE CHOSE: attack leechseed - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Arboliva
+  -resisted|p1a: Arboliva
+  -damage|p1a: Arboliva|126/288 brn
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|198/288 brn|[from] item: Sitrus Berry
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|180/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+-- turn 49
+  WE CHOSE: attack leechseed - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Arboliva
+  -resisted|p1a: Arboliva
+  -damage|p1a: Arboliva|141/288 brn
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|213/288 brn|[from] item: Sitrus Berry
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|195/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+-- turn 50
+  WE CHOSE: attack leechseed - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Arboliva
+  -resisted|p1a: Arboliva
+  -damage|p1a: Arboliva|153/288 brn
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|135/288 brn|[from] brn
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|207/288 brn|[from] item: Sitrus Berry
+-- turn 51
+  WE CHOSE: attack leechseed - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Arboliva
+  -resisted|p1a: Arboliva
+  -damage|p1a: Arboliva|166/288 brn
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|148/288 brn|[from] brn
+-- turn 52
+  WE CHOSE: attack leechseed - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Arboliva
+  -resisted|p1a: Arboliva
+  -damage|p1a: Arboliva|111/288 brn
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|93/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|165/288 brn|[from] item: Sitrus Berry
+-- turn 53
+  WE CHOSE: attack leechseed - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Arboliva
+  -resisted|p1a: Arboliva
+  -damage|p1a: Arboliva|123/288 brn
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|105/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|177/288 brn|[from] item: Sitrus Berry
+-- turn 54
+  WE CHOSE: attack leechseed - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Arboliva
+  -resisted|p1a: Arboliva
+  -damage|p1a: Arboliva|140/288 brn
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|122/288 brn|[from] brn
+-- turn 55
+  WE CHOSE: attack leechseed - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Strength Sap|p1a: Arboliva
+  -unboost|p1a: Arboliva|atk|1
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|104/288 brn|[from] brn
+-- turn 56
+  WE CHOSE: attack leechseed - our hp 0.36, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Strength Sap|p1a: Arboliva
+  -unboost|p1a: Arboliva|atk|1
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|86/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|158/288 brn|[from] item: Sitrus Berry
+-- turn 57
+  WE CHOSE: attack leechseed - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Strength Sap|p1a: Arboliva
+  -unboost|p1a: Arboliva|atk|1
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|140/288 brn|[from] brn
+-- turn 58
+  WE CHOSE: attack leechseed - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Strength Sap|p1a: Arboliva
+  -unboost|p1a: Arboliva|atk|1
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|122/288 brn|[from] brn
+-- turn 59
+  WE CHOSE: attack leechseed - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Strength Sap|p1a: Arboliva
+  -unboost|p1a: Arboliva|atk|1
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|104/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|176/288 brn|[from] item: Sitrus Berry
+-- turn 60
+  WE CHOSE: attack leechseed - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Strength Sap|p1a: Arboliva
+  -unboost|p1a: Arboliva|atk|1
+  move|p1a: Arboliva|Leech Seed|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|158/288 brn|[from] brn
+-- turn 61
+  WE CHOSE: attack protect - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect|p1a: Arboliva
+  -singleturn|p1a: Arboliva|Protect
+  move|p2a: Sinistcha|Strength Sap|p1a: Arboliva
+  -activate|p1a: Arboliva|move: Protect
+  -damage|p1a: Arboliva|140/288 brn|[from] brn
+-- turn 62
+  WE CHOSE: attack protect - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect||[still]
+  -fail|p1a: Arboliva
+  move|p2a: Sinistcha|Strength Sap||[still]
+  -fail|p2a: Sinistcha
+  -damage|p1a: Arboliva|122/288 brn|[from] brn
+-- turn 63
+  WE CHOSE: attack protect - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect|p1a: Arboliva
+  -singleturn|p1a: Arboliva|Protect
+  move|p2a: Sinistcha|Strength Sap|p1a: Arboliva
+  -activate|p1a: Arboliva|move: Protect
+  -damage|p1a: Arboliva|104/288 brn|[from] brn
+-- turn 64
+  WE CHOSE: attack protect - our hp 0.36, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect||[still]
+  -fail|p1a: Arboliva
+  move|p2a: Sinistcha|Strength Sap||[still]
+  -fail|p2a: Sinistcha
+  -damage|p1a: Arboliva|86/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|158/288 brn|[from] item: Sitrus Berry
+-- turn 65
+  WE CHOSE: attack protect - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect|p1a: Arboliva
+  -singleturn|p1a: Arboliva|Protect
+  move|p2a: Sinistcha|Strength Sap|p1a: Arboliva
+  -activate|p1a: Arboliva|move: Protect
+  -damage|p1a: Arboliva|140/288 brn|[from] brn
+-- turn 66
+  WE CHOSE: attack protect - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect|p1a: Arboliva
+  -singleturn|p1a: Arboliva|Protect
+  move|p2a: Sinistcha|Strength Sap|p1a: Arboliva
+  -activate|p1a: Arboliva|move: Protect
+  -damage|p1a: Arboliva|122/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|194/288 brn|[from] item: Sitrus Berry
+-- turn 67
+  WE CHOSE: attack protect - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect|p1a: Arboliva
+  -singleturn|p1a: Arboliva|Protect
+  move|p2a: Sinistcha|Strength Sap|p1a: Arboliva
+  -activate|p1a: Arboliva|move: Protect
+  -damage|p1a: Arboliva|176/288 brn|[from] brn
+-- turn 68
+  WE CHOSE: attack protect - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect||[still]
+  -fail|p1a: Arboliva
+  move|p2a: Sinistcha|Strength Sap||[still]
+  -fail|p2a: Sinistcha
+  -damage|p1a: Arboliva|158/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+-- turn 69
+  WE CHOSE: attack protect - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect|p1a: Arboliva
+  -singleturn|p1a: Arboliva|Protect
+  move|p2a: Sinistcha|Strength Sap|p1a: Arboliva
+  -activate|p1a: Arboliva|move: Protect
+  -damage|p1a: Arboliva|140/288 brn|[from] brn
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|212/288 brn|[from] item: Sitrus Berry
+-- turn 70
+  WE CHOSE: attack protect - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect||[still]
+  -fail|p1a: Arboliva
+  move|p2a: Sinistcha|Strength Sap||[still]
+  -fail|p2a: Sinistcha
+  -damage|p1a: Arboliva|194/288 brn|[from] brn
+-- turn 71
+  WE CHOSE: attack protect - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect|p1a: Arboliva
+  -singleturn|p1a: Arboliva|Protect
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|1
+  -boost|p2a: Sinistcha|spd|1
+  -damage|p1a: Arboliva|176/288 brn|[from] brn
+-- turn 72
+  WE CHOSE: attack protect - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect||[still]
+  -fail|p1a: Arboliva
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|1
+  -boost|p2a: Sinistcha|spd|1
+  -damage|p1a: Arboliva|158/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+-- turn 73
+  WE CHOSE: attack protect - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect|p1a: Arboliva
+  -singleturn|p1a: Arboliva|Protect
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|1
+  -boost|p2a: Sinistcha|spd|1
+  -damage|p1a: Arboliva|140/288 brn|[from] brn
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|212/288 brn|[from] item: Sitrus Berry
+-- turn 74
+  WE CHOSE: attack protect - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect||[still]
+  -fail|p1a: Arboliva
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|1
+  -boost|p2a: Sinistcha|spd|1
+  -damage|p1a: Arboliva|194/288 brn|[from] brn
+-- turn 75
+  WE CHOSE: attack protect - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect|p1a: Arboliva
+  -singleturn|p1a: Arboliva|Protect
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|1
+  -boost|p2a: Sinistcha|spd|1
+  -damage|p1a: Arboliva|176/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+-- turn 76
+  WE CHOSE: attack protect - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Arboliva|Protect||[still]
+  -fail|p1a: Arboliva
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|1
+  -boost|p2a: Sinistcha|spd|1
+  -damage|p1a: Arboliva|158/288 brn|[from] brn
+-- turn 77
+  WE CHOSE: attack hypervoice - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|140/288 brn|[from] brn
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|212/288 brn|[from] item: Sitrus Berry
+-- turn 78
+  WE CHOSE: attack hypervoice - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|194/288 brn|[from] brn
+-- turn 79
+  WE CHOSE: attack hypervoice - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|176/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+-- turn 80
+  WE CHOSE: attack hypervoice - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|158/288 brn|[from] brn
+-- turn 81
+  WE CHOSE: attack hypervoice - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|140/288 brn|[from] brn
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|212/288 brn|[from] item: Sitrus Berry
+-- turn 82
+  WE CHOSE: attack hypervoice - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|194/288 brn|[from] brn
+-- turn 83
+  WE CHOSE: attack hypervoice - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|176/288 brn|[from] brn
+-- turn 84
+  WE CHOSE: attack hypervoice - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|158/288 brn|[from] brn
+-- turn 85
+  WE CHOSE: attack hypervoice - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|140/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|212/288 brn|[from] item: Sitrus Berry
+-- turn 86
+  WE CHOSE: attack hypervoice - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|194/288 brn|[from] brn
+-- turn 87
+  WE CHOSE: attack hypervoice - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|176/288 brn|[from] brn
+-- turn 88
+  WE CHOSE: attack hypervoice - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|158/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+-- turn 89
+  WE CHOSE: attack hypervoice - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|140/288 brn|[from] brn
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|212/288 brn|[from] item: Sitrus Berry
+-- turn 90
+  WE CHOSE: attack hypervoice - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|194/288 brn|[from] brn
+-- turn 91
+  WE CHOSE: attack hypervoice - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|176/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+-- turn 92
+  WE CHOSE: attack hypervoice - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Hyper Voice|p2a: Sinistcha
+  -immune|p2a: Sinistcha
+  -damage|p1a: Arboliva|158/288 brn|[from] brn
+-- turn 93
+  WE CHOSE: attack substitute - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -start|p1a: Arboliva|Substitute
+  -damage|p1a: Arboliva|86/288 brn
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|158/288 brn|[from] item: Sitrus Berry
+  -damage|p1a: Arboliva|140/288 brn|[from] brn
+-- turn 94
+  WE CHOSE: attack substitute - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -damage|p1a: Arboliva|122/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|194/288 brn|[from] item: Sitrus Berry
+-- turn 95
+  WE CHOSE: attack substitute - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -damage|p1a: Arboliva|176/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+-- turn 96
+  WE CHOSE: attack substitute - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -damage|p1a: Arboliva|158/288 brn|[from] brn
+-- turn 97
+  WE CHOSE: attack substitute - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -damage|p1a: Arboliva|140/288 brn|[from] brn
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|212/288 brn|[from] item: Sitrus Berry
+-- turn 98
+  WE CHOSE: attack substitute - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -damage|p1a: Arboliva|194/288 brn|[from] brn
+-- turn 99
+  WE CHOSE: attack substitute - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -damage|p1a: Arboliva|176/288 brn|[from] brn
+-- turn 100
+  WE CHOSE: attack substitute - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -damage|p1a: Arboliva|158/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+-- turn 101
+  WE CHOSE: attack substitute - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -damage|p1a: Arboliva|140/288 brn|[from] brn
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|212/288 brn|[from] item: Sitrus Berry
+-- turn 102
+  WE CHOSE: attack substitute - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+  -boost|p2a: Sinistcha|spa|0
+  -boost|p2a: Sinistcha|spd|0
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -damage|p1a: Arboliva|194/288 brn|[from] brn
+-- turn 103
+  WE CHOSE: attack substitute - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  -activate|p2a: Sinistcha|move: Struggle
+  move|p2a: Sinistcha|Struggle|p1a: Arboliva
+  -activate|p1a: Arboliva|move: Substitute|[damage]
+  -damage|p2a: Sinistcha|75/100|[from] recoil
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -heal|p2a: Sinistcha|81/100|[from] item: Leftovers
+  -damage|p1a: Arboliva|176/288 brn|[from] brn
+-- turn 104
+  WE CHOSE: attack substitute - our hp 0.61, theirs 0.81, predicted move (revealed) hits us x0
+  -activate|p2a: Sinistcha|move: Struggle
+  move|p2a: Sinistcha|Struggle|p1a: Arboliva
+  -activate|p1a: Arboliva|move: Substitute|[damage]
+  -damage|p2a: Sinistcha|56/100|[from] recoil
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -heal|p2a: Sinistcha|62/100|[from] item: Leftovers
+  -damage|p1a: Arboliva|158/288 brn|[from] brn
+-- turn 105
+  WE CHOSE: attack substitute - our hp 0.55, theirs 0.62, predicted move (revealed) hits us x0
+  -activate|p2a: Sinistcha|move: Struggle
+  move|p2a: Sinistcha|Struggle|p1a: Arboliva
+  -activate|p1a: Arboliva|move: Substitute|[damage]
+  -damage|p2a: Sinistcha|37/100|[from] recoil
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -heal|p2a: Sinistcha|43/100|[from] item: Leftovers
+  -damage|p1a: Arboliva|140/288 brn|[from] brn
+-- turn 106
+  WE CHOSE: attack substitute - our hp 0.49, theirs 0.43, predicted move (revealed) hits us x0
+  -activate|p2a: Sinistcha|move: Struggle
+  move|p2a: Sinistcha|Struggle|p1a: Arboliva
+  -activate|p1a: Arboliva|move: Substitute|[damage]
+  -damage|p2a: Sinistcha|17/100|[from] recoil
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -heal|p2a: Sinistcha|23/100|[from] item: Leftovers
+  -damage|p1a: Arboliva|122/288 brn|[from] brn
+-- turn 107
+  WE CHOSE: attack substitute - our hp 0.42, theirs 0.23, predicted move (revealed) hits us x0
+  -activate|p2a: Sinistcha|move: Struggle
+  move|p2a: Sinistcha|Struggle|p1a: Arboliva
+  -activate|p1a: Arboliva|move: Substitute|[damage]
+  -damage|p2a: Sinistcha|0 fnt|[from] recoil
+  faint|p2a: Sinistcha
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute
+  -damage|p1a: Arboliva|104/288 brn|[from] brn
+  -item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+  -enditem|p1a: Arboliva|Sitrus Berry|[eat]
+  -heal|p1a: Arboliva|176/288 brn|[from] item: Sitrus Berry
+  switch|p2a: Typhlosion|Typhlosion-Hisui, L83, F|100/100
+-- turn 108
+  WE CHOSE: switch to arceusground (hand policy: attack substitute) - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Arceus|Arceus-Ground, L70|67/284
+  move|p2a: Typhlosion|Fire Blast|p1a: Arceus|[miss]
+  -miss|p2a: Typhlosion|p1a: Arceus
+-- turn 109
+  WE CHOSE: attack earthquake - our hp 0.24, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to torkoal (hand policy: forced: switch to arboliva) - our hp 0.00, theirs 0.09, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Earthquake|p2a: Typhlosion
+  -supereffective|p2a: Typhlosion
+  -damage|p2a: Typhlosion|2/100
+  move|p2a: Typhlosion|Fire Blast|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  faint|p1a: Arceus
+  -heal|p2a: Typhlosion|9/100|[from] item: Leftovers
+  switch|p1a: Arboliva|Arboliva, L91, M|176/288 brn
+-- turn 110
+  WE CHOSE: attack+tera substitute (hand policy: attack substitute) - our hp 0.61, theirs 0.09, predicted move (revealed) hits us x2
+  -terastallize|p1a: Arboliva|Poison
+  move|p2a: Typhlosion|Fire Blast|p1a: Arboliva
+  -damage|p1a: Arboliva|13/288 brn
+  move|p1a: Arboliva|Substitute|p1a: Arboliva
+  -fail|p1a: Arboliva|move: Substitute|[weak]
+  -heal|p2a: Typhlosion|15/100|[from] item: Leftovers
+  -damage|p1a: Arboliva|0 fnt|[from] brn
+  faint|p1a: Arboliva
+  deinit

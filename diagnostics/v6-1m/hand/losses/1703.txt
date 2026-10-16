@@ -1,0 +1,381 @@
+battle 1703 (battle-gen9randombattle-1022359): lost in 48 turns, 1 of theirs left; we are p1
+
+ours:
+  snorlax (fainted; item leftovers, ability thickfat, tera ground; moves curse/crunch/bodyslam/earthquake)
+  camerupt (fainted; item leftovers, ability solidrock; moves willowisp/stealthrock/earthquake/overheat)
+  vigoroth (fainted; item eviolite, ability vitalspirit; moves earthquake/slackoff/bodyslam/bulkup)
+  dragonite (fainted; item heavydutyboots, ability multiscale; moves outrage/dragondance/ironhead/earthquake)
+  cryogonal (fainted; item heavydutyboots, ability levitate; moves rapidspin/freezedry/flashcannon/recover)
+  illumise (fainted; item heavydutyboots, ability prankster; moves encore/bugbuzz/roost/thunderwave)
+theirs (as seen):
+  reshiram (fainted; item unknown_item, ability turboblaze; moves dracometeor)
+  glalie (fainted; item unknown_item, ability ?; moves earthquake)
+  krookodile (fainted; item unknown_item, ability intimidate; moves -)
+  solgaleo (fainted; item unknown_item, ability fullmetalbody; moves -)
+  alcremierubyswirl (fainted; item unknown_item, ability ?; moves -)
+  heatran (57%; item ?, ability ?; moves magmastorm/earthpower/heavyslam)
+
+-- turn 0
+  switch|p1a: Snorlax|Snorlax, L82, F|397/397
+  switch|p2a: Reshiram|Reshiram, L76|100/100
+  -ability|p2a: Reshiram|Turboblaze
+-- turn 1
+  WE CHOSE: attack+tera earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Snorlax|Ground
+  move|p2a: Reshiram|Draco Meteor|p1a: Snorlax
+  -damage|p1a: Snorlax|262/397
+  -unboost|p2a: Reshiram|spa|2
+  move|p1a: Snorlax|Earthquake|p2a: Reshiram
+  -supereffective|p2a: Reshiram
+  -damage|p2a: Reshiram|17/100
+  -heal|p1a: Snorlax|286/397|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 0.72, theirs 0.17, predicted move (revealed) hits us x1
+  move|p2a: Reshiram|Draco Meteor|p1a: Snorlax
+  -damage|p1a: Snorlax|217/397
+  -unboost|p2a: Reshiram|spa|2
+  move|p1a: Snorlax|Earthquake|p2a: Reshiram
+  -supereffective|p2a: Reshiram
+  -damage|p2a: Reshiram|0 fnt
+  faint|p2a: Reshiram
+  -heal|p1a: Snorlax|241/397|[from] item: Leftovers
+  switch|p2a: Glalie|Glalie, L96, F|100/100
+-- turn 3
+  WE CHOSE: switch to dragonite - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dragonite|Dragonite, L74, M|257/257
+  move|p2a: Glalie|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 4
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+-- turn 5
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Glalie|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 6
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Glalie|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 7
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Glalie|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 8
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Glalie|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 9
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Glalie|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 10
+  WE CHOSE: attack outrage - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Outrage|p2a: Glalie
+  -damage|p2a: Glalie|0 fnt
+  faint|p2a: Glalie
+  switch|p2a: Krookodile|Krookodile, L79, M|100/100
+  -ability|p2a: Krookodile|Intimidate|boost
+  -unboost|p1a: Dragonite|atk|1
+-- turn 11
+  WE CHOSE: attack outrage - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Dragonite|Outrage|p2a: Krookodile|[from] lockedmove
+  -damage|p2a: Krookodile|0 fnt
+  faint|p2a: Krookodile
+  -start|p1a: Dragonite|confusion|[fatigue]
+  switch|p2a: Solgaleo|Solgaleo, L74|100/100
+-- turn 12
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  -activate|p1a: Dragonite|confusion
+  move|p1a: Dragonite|Earthquake|p2a: Solgaleo
+  -supereffective|p2a: Solgaleo
+  -damage|p2a: Solgaleo|0 fnt
+  faint|p2a: Solgaleo
+  switch|p2a: Alcremie|Alcremie-Ruby-Swirl, L90, F|100/100
+-- turn 13
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  -end|p1a: Dragonite|confusion
+  move|p1a: Dragonite|Iron Head|p2a: Alcremie
+  -supereffective|p2a: Alcremie
+  -damage|p2a: Alcremie|0 fnt
+  faint|p2a: Alcremie
+  switch|p2a: Heatran|Heatran, L79, F|100/100
+  -item|p2a: Heatran|Air Balloon
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Dragonite|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|225/257
+  -activate|p1a: Dragonite|move: Magma Storm|[of] p2a: Heatran
+  -damage|p1a: Dragonite|193/257|[from] move: Magma Storm|[partiallytrapped]
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Dragonite|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|130/257
+  -damage|p1a: Dragonite|98/257|[from] move: Magma Storm|[partiallytrapped]
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Dragonite|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|40/257
+  -damage|p1a: Dragonite|8/257|[from] move: Magma Storm|[partiallytrapped]
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 0.03, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to camerupt - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Dragonite|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|0 fnt
+  faint|p1a: Dragonite
+  switch|p1a: Camerupt|Camerupt, L91, M|275/275
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heatran|Magma Storm|p1a: Camerupt
+  -resisted|p1a: Camerupt
+  -damage|p1a: Camerupt|215/275
+  -activate|p1a: Camerupt|move: Magma Storm|[of] p2a: Heatran
+  move|p1a: Camerupt|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -heal|p1a: Camerupt|232/275|[from] item: Leftovers
+  -damage|p1a: Camerupt|198/275|[from] move: Magma Storm|[partiallytrapped]
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heatran|Magma Storm|p1a: Camerupt
+  -resisted|p1a: Camerupt
+  -damage|p1a: Camerupt|132/275
+  move|p1a: Camerupt|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -heal|p1a: Camerupt|149/275|[from] item: Leftovers
+  -damage|p1a: Camerupt|115/275|[from] move: Magma Storm|[partiallytrapped]
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heatran|Magma Storm|p1a: Camerupt
+  -resisted|p1a: Camerupt
+  -damage|p1a: Camerupt|53/275
+  move|p1a: Camerupt|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -heal|p1a: Camerupt|70/275|[from] item: Leftovers
+  -damage|p1a: Camerupt|36/275|[from] move: Magma Storm|[partiallytrapped]
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 0.13, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heatran|Magma Storm|p1a: Camerupt|[miss]
+  -miss|p2a: Heatran|p1a: Camerupt
+  move|p1a: Camerupt|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -heal|p1a: Camerupt|53/275|[from] item: Leftovers
+  -damage|p1a: Camerupt|19/275|[from] move: Magma Storm|[partiallytrapped]
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 0.07, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to snorlax - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heatran|Earth Power|p1a: Camerupt
+  -supereffective|p1a: Camerupt
+  -damage|p1a: Camerupt|0 fnt
+  faint|p1a: Camerupt
+  switch|p1a: Snorlax|Snorlax, L82, F, tera:Ground|241/397
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Snorlax
+  -damage|p1a: Snorlax|181/397
+  -unboost|p1a: Snorlax|spd|1
+  move|p1a: Snorlax|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -heal|p1a: Snorlax|205/397|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack earthquake - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Snorlax
+  -damage|p1a: Snorlax|114/397
+  move|p1a: Snorlax|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -heal|p1a: Snorlax|138/397|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack earthquake - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Snorlax
+  -damage|p1a: Snorlax|42/397
+  move|p1a: Snorlax|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -heal|p1a: Snorlax|66/397|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack earthquake - our hp 0.17, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to vigoroth - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Snorlax
+  -damage|p1a: Snorlax|0 fnt
+  faint|p1a: Snorlax
+  switch|p1a: Vigoroth|Vigoroth, L85, M|275/275
+-- turn 27
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Vigoroth
+  -damage|p1a: Vigoroth|212/275
+-- turn 28
+  WE CHOSE: attack earthquake - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Vigoroth
+  -damage|p1a: Vigoroth|150/275
+-- turn 29
+  WE CHOSE: attack earthquake - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Vigoroth
+  -damage|p1a: Vigoroth|87/275
+-- turn 30
+  WE CHOSE: heal slackoff - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|225/275
+  move|p2a: Heatran|Earth Power|p1a: Vigoroth
+  -damage|p1a: Vigoroth|161/275
+-- turn 31
+  WE CHOSE: attack earthquake - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Vigoroth
+  -damage|p1a: Vigoroth|101/275
+-- turn 32
+  WE CHOSE: heal slackoff - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|239/275
+  move|p2a: Heatran|Earth Power|p1a: Vigoroth
+  -damage|p1a: Vigoroth|169/275
+-- turn 33
+  WE CHOSE: attack earthquake - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Vigoroth
+  -damage|p1a: Vigoroth|105/275
+  -unboost|p1a: Vigoroth|spd|1
+-- turn 34
+  WE CHOSE: heal slackoff - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|243/275
+  move|p2a: Heatran|Earth Power|p1a: Vigoroth
+  -damage|p1a: Vigoroth|138/275
+-- turn 35
+  WE CHOSE: attack earthquake - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Vigoroth
+  -damage|p1a: Vigoroth|43/275
+  -unboost|p1a: Vigoroth|spd|1
+-- turn 36
+  WE CHOSE: heal slackoff - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|181/275
+  move|p2a: Heatran|Earth Power|p1a: Vigoroth
+  -damage|p1a: Vigoroth|42/275
+-- turn 37
+  WE CHOSE: heal slackoff - our hp 0.15, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|180/275
+  move|p2a: Heatran|Earth Power|p1a: Vigoroth
+  -damage|p1a: Vigoroth|41/275
+-- turn 38
+  WE CHOSE: heal slackoff - our hp 0.15, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|179/275
+  move|p2a: Heatran|Heavy Slam|p1a: Vigoroth
+  -damage|p1a: Vigoroth|107/275
+-- turn 39
+  WE CHOSE: heal slackoff - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|245/275
+  move|p2a: Heatran|Heavy Slam|p1a: Vigoroth
+  -damage|p1a: Vigoroth|170/275
+-- turn 40
+  WE CHOSE: attack earthquake - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Heavy Slam|p1a: Vigoroth
+  -damage|p1a: Vigoroth|94/275
+-- turn 41
+  WE CHOSE: heal slackoff - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|232/275
+  move|p2a: Heatran|Heavy Slam|p1a: Vigoroth
+  -damage|p1a: Vigoroth|156/275
+-- turn 42
+  WE CHOSE: attack earthquake - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Heavy Slam|p1a: Vigoroth
+  -damage|p1a: Vigoroth|77/275
+-- turn 43
+  WE CHOSE: attack earthquake - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to illumise - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Heavy Slam|p1a: Vigoroth
+  -damage|p1a: Vigoroth|0 fnt
+  faint|p1a: Vigoroth
+  switch|p1a: Illumise|Illumise, L91, F|266/266
+-- turn 44
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Illumise|Bug Buzz|p2a: Heatran
+  -resisted|p2a: Heatran
+  -crit|p2a: Heatran
+  -damage|p2a: Heatran|90/100
+  -enditem|p2a: Heatran|Air Balloon
+  move|p2a: Heatran|Heavy Slam|p1a: Illumise
+  -damage|p1a: Illumise|151/266
+-- turn 45
+  WE CHOSE: attack bugbuzz - our hp 0.57, theirs 0.90, predicted move (revealed) hits us x2
+  move|p1a: Illumise|Bug Buzz|p2a: Heatran
+  -resisted|p2a: Heatran
+  -damage|p2a: Heatran|81/100
+  move|p2a: Heatran|Heavy Slam|p1a: Illumise
+  -damage|p1a: Illumise|48/266
+-- turn 46
+  WE CHOSE: attack bugbuzz - our hp 0.18, theirs 0.81, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to cryogonal - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x2
+  move|p1a: Illumise|Bug Buzz|p2a: Heatran
+  -resisted|p2a: Heatran
+  -crit|p2a: Heatran
+  -damage|p2a: Heatran|70/100
+  move|p2a: Heatran|Heavy Slam|p1a: Illumise
+  -damage|p1a: Illumise|0 fnt
+  faint|p1a: Illumise
+  switch|p1a: Cryogonal|Cryogonal, L89|287/287
+-- turn 47
+  WE CHOSE: attack freezedry - our hp 1.00, theirs 0.70, predicted move (revealed) hits us x2
+  move|p1a: Cryogonal|Freeze-Dry|p2a: Heatran
+  -resisted|p2a: Heatran
+  -damage|p2a: Heatran|63/100
+  move|p2a: Heatran|Heavy Slam|p1a: Cryogonal
+  -supereffective|p1a: Cryogonal
+  -damage|p1a: Cryogonal|137/287
+-- turn 48
+  WE CHOSE: attack freezedry - our hp 0.48, theirs 0.63, predicted move (revealed) hits us x2
+  move|p1a: Cryogonal|Freeze-Dry|p2a: Heatran
+  -resisted|p2a: Heatran
+  -damage|p2a: Heatran|57/100
+  move|p2a: Heatran|Heavy Slam|p1a: Cryogonal
+  -supereffective|p1a: Cryogonal
+  -damage|p1a: Cryogonal|0 fnt
+  faint|p1a: Cryogonal
+  deinit

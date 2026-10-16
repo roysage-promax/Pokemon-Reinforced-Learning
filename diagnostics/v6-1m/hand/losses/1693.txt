@@ -1,0 +1,152 @@
+battle 1693 (battle-gen9randombattle-1022274): lost in 14 turns, 1 of theirs left; we are p1
+
+ours:
+  rotomwash (fainted; item leftovers, ability levitate, tera electric; moves discharge/voltswitch/hydropump/painsplit)
+  calyrexice (fainted; item heavydutyboots, ability asoneglastrier; moves glaciallance/highhorsepower/closecombat/trickroom)
+  greninja (fainted; item lifeorb, ability protean; moves hydropump/toxicspikes/uturn/darkpulse)
+  gallade (fainted; item choiceband, ability sharpness; moves nightslash/psychocut/sacredsword/leafblade)
+  glaceon (fainted; item heavydutyboots, ability icebody; moves mudshot/protect/freezedry/wish)
+  ogerponhearthflame (fainted; item hearthflamemask, ability moldbreaker; moves hornleech/ivycudgel/swordsdance/stompingtantrum)
+theirs (as seen):
+  drifblim (fainted; item unknown_item, ability ?; moves shadowball)
+  kyogre (fainted; item unknown_item, ability drizzle; moves waterspout)
+  sawsbucksummer (fainted; item lifeorb, ability ?; moves highhorsepower)
+  moltres (fainted; item unknown_item, ability ?; moves bravebird)
+  furret (fainted; item lifeorb, ability frisk; moves doubleedge)
+  forretress (73%; item unknown_item, ability ?; moves bodypress)
+
+-- turn 0
+  switch|p1a: Rotom|Rotom-Wash, L82|216/216
+  switch|p2a: Drifblim|Drifblim, L86, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera discharge - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Rotom|Electric
+  move|p1a: Rotom|Discharge|p2a: Drifblim
+  -supereffective|p2a: Drifblim
+  -damage|p2a: Drifblim|25/100
+  -status|p2a: Drifblim|par
+  move|p2a: Drifblim|Shadow Ball|p1a: Rotom
+  -damage|p1a: Rotom|147/216
+  -heal|p1a: Rotom|160/216|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack discharge - our hp 0.74, theirs 0.25, predicted move (revealed) hits us x1
+  move|p1a: Rotom|Discharge|p2a: Drifblim
+  -supereffective|p2a: Drifblim
+  -damage|p2a: Drifblim|0 fnt
+  faint|p2a: Drifblim
+  -heal|p1a: Rotom|173/216|[from] item: Leftovers
+  switch|p2a: Kyogre|Kyogre, L71|100/100
+  -weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+-- turn 3
+  WE CHOSE: attack discharge - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ogerponhearthflame - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Kyogre|Water Spout|p1a: Rotom
+  -damage|p1a: Rotom|0 fnt
+  faint|p1a: Rotom
+  -weather|RainDance|[upkeep]
+  switch|p1a: Ogerpon|Ogerpon-Hearthflame, L74, F|239/239
+  -ability|p1a: Ogerpon|Mold Breaker
+-- turn 4
+  WE CHOSE: attack ivycudgel - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to greninja - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Kyogre|Water Spout|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  -weather|RainDance|[upkeep]
+  switch|p1a: Greninja|Greninja, L80, M|246/246
+-- turn 5
+  WE CHOSE: attack darkpulse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kyogre|Water Spout|p1a: Greninja
+  -resisted|p1a: Greninja
+  -damage|p1a: Greninja|98/246
+  move|p1a: Greninja|Dark Pulse|p2a: Kyogre
+  -start|p1a: Greninja|typechange|Dark|[from] ability: Protean
+  -damage|p2a: Kyogre|64/100
+  -damage|p1a: Greninja|74/246|[from] item: Life Orb
+  -weather|RainDance|[upkeep]
+-- turn 6
+  WE CHOSE: attack darkpulse - our hp 0.30, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gallade - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p2a: Kyogre|Water Spout|p1a: Greninja
+  -damage|p1a: Greninja|0 fnt
+  faint|p1a: Greninja
+  -weather|RainDance|[upkeep]
+  switch|p1a: Gallade|Gallade, L80, M|240/240
+-- turn 7
+  WE CHOSE: attack leafblade - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p2a: Kyogre|Water Spout|p1a: Gallade
+  -damage|p1a: Gallade|114/240
+  move|p1a: Gallade|Leaf Blade|p2a: Kyogre
+  -supereffective|p2a: Kyogre
+  -damage|p2a: Kyogre|0 fnt
+  faint|p2a: Kyogre
+  -weather|none
+  switch|p2a: Sawsbuck|Sawsbuck-Summer, L88, F|100/100
+-- turn 8
+  WE CHOSE: attack leafblade - our hp 0.47, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to calyrexice - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Sawsbuck|High Horsepower|p1a: Gallade
+  -damage|p1a: Gallade|0 fnt
+  faint|p1a: Gallade
+  -damage|p2a: Sawsbuck|91/100|[from] item: Life Orb
+  switch|p1a: Calyrex|Calyrex-Ice, L72|263/263
+  -ability|p1a: Calyrex|As One
+  -ability|p1a: Calyrex|Unnerve
+-- turn 9
+  WE CHOSE: attack glaciallance - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Sawsbuck|High Horsepower|p1a: Calyrex
+  -damage|p1a: Calyrex|188/263
+  -damage|p2a: Sawsbuck|81/100|[from] item: Life Orb
+  move|p1a: Calyrex|Glacial Lance|p2a: Sawsbuck
+  -supereffective|p2a: Sawsbuck
+  -damage|p2a: Sawsbuck|0 fnt
+  faint|p2a: Sawsbuck
+  -ability|p1a: Calyrex|Chilling Neigh|boost
+  -boost|p1a: Calyrex|atk|1
+  switch|p2a: Moltres|Moltres, L81|100/100
+-- turn 10
+  WE CHOSE: attack glaciallance - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Moltres|Brave Bird|p1a: Calyrex
+  -damage|p1a: Calyrex|89/263
+  -damage|p2a: Moltres|89/100|[from] Recoil
+  move|p1a: Calyrex|Glacial Lance|p2a: Moltres
+  -damage|p2a: Moltres|5/100
+-- turn 11
+  WE CHOSE: attack glaciallance - our hp 0.34, theirs 0.05, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to glaceon - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Moltres|Brave Bird|p1a: Calyrex
+  -damage|p1a: Calyrex|0 fnt
+  faint|p1a: Calyrex
+  -damage|p2a: Moltres|0 fnt|[from] Recoil
+  faint|p2a: Moltres
+  switch|p2a: Furret|Furret, L94, F|100/100
+  switch|p1a: Glaceon|Glaceon, L94, M|275/275
+  -item|p1a: Glaceon|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Furret
+-- turn 12
+  WE CHOSE: attack freezedry - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Furret|Double-Edge|p1a: Glaceon
+  -damage|p1a: Glaceon|150/275
+  -damage|p2a: Furret|87/100|[from] Recoil
+  -damage|p2a: Furret|77/100|[from] item: Life Orb
+  move|p1a: Glaceon|Freeze-Dry|p2a: Furret
+  -damage|p2a: Furret|31/100
+-- turn 13
+  WE CHOSE: attack freezedry - our hp 0.55, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Furret|Double-Edge|p1a: Glaceon
+  -damage|p1a: Glaceon|32/275
+  -damage|p2a: Furret|18/100|[from] Recoil
+  -damage|p2a: Furret|9/100|[from] item: Life Orb
+  move|p1a: Glaceon|Freeze-Dry|p2a: Furret
+  -damage|p2a: Furret|0 fnt
+  faint|p2a: Furret
+  switch|p2a: Forretress|Forretress, L84, F|100/100
+-- turn 14
+  WE CHOSE: attack freezedry - our hp 0.12, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Glaceon|Freeze-Dry|p2a: Forretress
+  -resisted|p2a: Forretress
+  -damage|p2a: Forretress|73/100
+  move|p2a: Forretress|Body Press|p1a: Glaceon
+  -supereffective|p1a: Glaceon
+  -damage|p1a: Glaceon|0 fnt
+  faint|p1a: Glaceon
+  deinit

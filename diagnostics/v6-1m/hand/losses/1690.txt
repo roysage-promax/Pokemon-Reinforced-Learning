@@ -1,0 +1,398 @@
+battle 1690 (battle-gen9randombattle-1022240): lost in 47 turns, 1 of theirs left; we are p1
+
+ours:
+  clefable (fainted; item lifeorb, ability magicguard, tera fire; moves calmmind/fireblast/moonlight/moonblast)
+  tornadus (fainted; item choicespecs, ability defiant; moves heatwave/bleakwindstorm/grassknot/uturn)
+  blaziken (fainted; item lifeorb, ability speedboost; moves closecombat/knockoff/flareblitz/swordsdance)
+  uxie (fainted; item leftovers, ability levitate; moves psychicnoise/encore/uturn/stealthrock)
+  chansey (fainted; item eviolite, ability naturalcure; moves healbell/thunderwave/softboiled/seismictoss)
+  mamoswine (fainted; item choiceband, ability thickfat; moves knockoff/earthquake/iceshard/iciclecrash)
+theirs (as seen):
+  fezandipiti (fainted; item unknown_item, ability ?; moves gunkshot)
+  golduck (fainted; item leftovers, ability cloudnine; moves hydropump)
+  rillaboom (fainted; item lifeorb, ability ?; moves woodhammer)
+  skuntank (fainted; item unknown_item, ability aftermath; moves -)
+  rhydon (fainted; item unknown_item, ability ?; moves megahorn/earthquake)
+  honchkrow (2%; item unknown_item, ability moxie; moves bravebird)
+
+-- turn 0
+  switch|p1a: Clefable|Clefable, L83, M|293/293
+  switch|p2a: Fezandipiti|Fezandipiti, L82, M|100/100
+-- turn 1
+  WE CHOSE: switch to mamoswine - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Mamoswine|Mamoswine, L81, M|311/311
+  move|p2a: Fezandipiti|Gunk Shot|p1a: Mamoswine
+  -resisted|p1a: Mamoswine
+  -damage|p1a: Mamoswine|248/311
+  -status|p1a: Mamoswine|tox|[from] ability: Toxic Chain|[of] p2a: Fezandipiti
+  -damage|p1a: Mamoswine|229/311 tox|[from] psn
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Fezandipiti|Gunk Shot|p1a: Mamoswine
+  -resisted|p1a: Mamoswine
+  -damage|p1a: Mamoswine|171/311 tox
+  move|p1a: Mamoswine|Earthquake|p2a: Fezandipiti
+  -supereffective|p2a: Fezandipiti
+  -damage|p2a: Fezandipiti|0 fnt
+  faint|p2a: Fezandipiti
+  -damage|p1a: Mamoswine|133/311 tox|[from] psn
+  switch|p2a: Golduck|Golduck, L90, F|100/100
+  -ability|p2a: Golduck|Cloud Nine
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 0.43, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to clefable - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Golduck|Hydro Pump|p1a: Mamoswine
+  -supereffective|p1a: Mamoswine
+  -damage|p1a: Mamoswine|0 fnt
+  faint|p1a: Mamoswine
+  switch|p1a: Clefable|Clefable, L83, M|293/293
+-- turn 4
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Clefable|[miss]
+  -miss|p2a: Golduck|p1a: Clefable
+  move|p1a: Clefable|Moonblast|p2a: Golduck
+  -damage|p2a: Golduck|55/100
+  -unboost|p2a: Golduck|spa|1
+  -heal|p2a: Golduck|61/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Clefable|[miss]
+  -miss|p2a: Golduck|p1a: Clefable
+  move|p1a: Clefable|Moonblast|p2a: Golduck
+  -damage|p2a: Golduck|20/100
+  -heal|p2a: Golduck|27/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Clefable
+  -damage|p1a: Clefable|209/293
+  move|p1a: Clefable|Moonblast|p2a: Golduck
+  -damage|p2a: Golduck|0 fnt
+  faint|p2a: Golduck
+  switch|p2a: Rillaboom|Rillaboom, L79, F|100/100
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+-- turn 7
+  WE CHOSE: attack+tera fireblast - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Clefable|Fire
+  move|p2a: Rillaboom|Wood Hammer|p1a: Clefable
+  -resisted|p1a: Clefable
+  -damage|p1a: Clefable|80/293
+  -damage|p2a: Rillaboom|86/100|[from] Recoil
+  -damage|p2a: Rillaboom|76/100|[from] item: Life Orb
+  move|p1a: Clefable|Fire Blast|p2a: Rillaboom|[miss]
+  -miss|p1a: Clefable|p2a: Rillaboom
+  -heal|p2a: Rillaboom|82/100|[from] Grassy Terrain
+  -heal|p1a: Clefable|98/293|[from] Grassy Terrain
+-- turn 8
+  WE CHOSE: heal moonlight - our hp 0.33, theirs 0.82, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to blaziken - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x0.5
+  move|p2a: Rillaboom|Wood Hammer|p1a: Clefable
+  -resisted|p1a: Clefable
+  -damage|p1a: Clefable|0 fnt
+  faint|p1a: Clefable
+  -damage|p2a: Rillaboom|71/100|[from] Recoil
+  -damage|p2a: Rillaboom|61/100|[from] item: Life Orb
+  -heal|p2a: Rillaboom|68/100|[from] Grassy Terrain
+  switch|p1a: Blaziken|Blaziken, L76, M|247/247
+-- turn 9
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x0.5
+  move|p2a: Rillaboom|Wood Hammer|p1a: Blaziken
+  -resisted|p1a: Blaziken
+  -damage|p1a: Blaziken|107/247
+  -damage|p2a: Rillaboom|52/100|[from] Recoil
+  -damage|p2a: Rillaboom|42/100|[from] item: Life Orb
+  move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+  -boost|p1a: Blaziken|atk|2
+  -heal|p2a: Rillaboom|48/100|[from] Grassy Terrain
+  -heal|p1a: Blaziken|122/247|[from] Grassy Terrain
+  -ability|p1a: Blaziken|Speed Boost|boost
+  -boost|p1a: Blaziken|spe|1
+-- turn 10
+  WE CHOSE: attack flareblitz - our hp 0.49, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p1a: Blaziken|Flare Blitz|p2a: Rillaboom
+  -supereffective|p2a: Rillaboom
+  -damage|p2a: Rillaboom|0 fnt
+  faint|p2a: Rillaboom
+  -damage|p1a: Blaziken|77/247|[from] Recoil
+  -damage|p1a: Blaziken|53/247|[from] item: Life Orb
+  -heal|p1a: Blaziken|68/247|[from] Grassy Terrain
+  -ability|p1a: Blaziken|Speed Boost|boost
+  -boost|p1a: Blaziken|spe|1
+  switch|p2a: Skuntank|Skuntank, L84, F|100/100
+-- turn 11
+  WE CHOSE: attack closecombat - our hp 0.28, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to tornadus - our hp 0.00, theirs 0.00, predicted move (guessed) hits us x1
+  move|p1a: Blaziken|Close Combat|p2a: Skuntank
+  -damage|p2a: Skuntank|0 fnt
+  -unboost|p1a: Blaziken|def|1
+  -unboost|p1a: Blaziken|spd|1
+  -damage|p1a: Blaziken|7/247|[from] ability: Aftermath|[of] p2a: Skuntank
+  faint|p2a: Skuntank
+  -damage|p1a: Blaziken|0 fnt|[from] item: Life Orb
+  faint|p1a: Blaziken
+  -fieldend|move: Grassy Terrain
+  switch|p2a: Rhydon|Rhydon, L85, F|100/100
+  switch|p1a: Tornadus|Tornadus, L82, M|263/263
+-- turn 12
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to chansey - our hp 1.00, theirs 0.92, predicted move (guessed) hits us x0.5
+  move|p1a: Tornadus|U-turn|p2a: Rhydon
+  -damage|p2a: Rhydon|92/100
+  switch|p1a: Chansey|Chansey, L85, F|564/564|[from] U-turn
+  move|p2a: Rhydon|Megahorn|p1a: Chansey
+  -damage|p1a: Chansey|327/564
+-- turn 13
+  WE CHOSE: attack healbell - our hp 0.58, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+  move|p2a: Rhydon|Megahorn|p1a: Chansey
+  -damage|p1a: Chansey|87/564
+-- turn 14
+  WE CHOSE: heal softboiled - our hp 0.15, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|369/564
+  move|p2a: Rhydon|Megahorn|p1a: Chansey
+  -damage|p1a: Chansey|96/564
+-- turn 15
+  WE CHOSE: heal softboiled - our hp 0.17, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|378/564
+  move|p2a: Rhydon|Megahorn|p1a: Chansey|[miss]
+  -miss|p2a: Rhydon|p1a: Chansey
+-- turn 16
+  WE CHOSE: attack healbell - our hp 0.67, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+  move|p2a: Rhydon|Megahorn|p1a: Chansey
+  -damage|p1a: Chansey|130/564
+-- turn 17
+  WE CHOSE: heal softboiled - our hp 0.23, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|412/564
+  move|p2a: Rhydon|Megahorn|p1a: Chansey
+  -damage|p1a: Chansey|170/564
+-- turn 18
+  WE CHOSE: heal softboiled - our hp 0.30, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|452/564
+  move|p2a: Rhydon|Megahorn|p1a: Chansey
+  -damage|p1a: Chansey|204/564
+-- turn 19
+  WE CHOSE: heal softboiled - our hp 0.36, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|486/564
+  move|p2a: Rhydon|Megahorn|p1a: Chansey
+  -damage|p1a: Chansey|219/564
+-- turn 20
+  WE CHOSE: heal softboiled - our hp 0.39, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|501/564
+  move|p2a: Rhydon|Megahorn|p1a: Chansey
+  -damage|p1a: Chansey|228/564
+-- turn 21
+  WE CHOSE: heal softboiled - our hp 0.40, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|510/564
+  move|p2a: Rhydon|Megahorn|p1a: Chansey
+  -damage|p1a: Chansey|248/564
+-- turn 22
+  WE CHOSE: heal softboiled - our hp 0.44, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|530/564
+  move|p2a: Rhydon|Megahorn|p1a: Chansey
+  -crit|p1a: Chansey
+  -damage|p1a: Chansey|129/564
+-- turn 23
+  WE CHOSE: attack healbell - our hp 0.23, theirs 0.92, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tornadus - our hp 0.00, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+  move|p2a: Rhydon|Megahorn|p1a: Chansey
+  -damage|p1a: Chansey|0 fnt
+  faint|p1a: Chansey
+  switch|p1a: Tornadus|Tornadus, L82, M|263/263
+-- turn 24
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.92, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to uxie - our hp 1.00, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|U-turn|p2a: Rhydon
+  -damage|p2a: Rhydon|83/100
+  switch|p1a: Uxie|Uxie, L83|260/260|[from] U-turn
+  move|p2a: Rhydon|Megahorn|p1a: Uxie
+  -supereffective|p1a: Uxie
+  -damage|p1a: Uxie|88/260
+  -heal|p1a: Uxie|104/260|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: switch to tornadus - our hp 0.40, theirs 0.83, predicted move (revealed) hits us x2
+  switch|p1a: Tornadus|Tornadus, L82, M|263/263
+  move|p2a: Rhydon|Megahorn|p1a: Tornadus
+  -resisted|p1a: Tornadus
+  -damage|p1a: Tornadus|191/263
+-- turn 26
+  WE CHOSE: attack uturn - our hp 0.73, theirs 0.83, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to uxie - our hp 0.73, theirs 0.74, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|U-turn|p2a: Rhydon
+  -damage|p2a: Rhydon|74/100
+  switch|p1a: Uxie|Uxie, L83|104/260|[from] U-turn
+  move|p2a: Rhydon|Megahorn|p1a: Uxie|[miss]
+  -miss|p2a: Rhydon|p1a: Uxie
+  -heal|p1a: Uxie|120/260|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: switch to tornadus - our hp 0.46, theirs 0.74, predicted move (revealed) hits us x2
+  switch|p1a: Tornadus|Tornadus, L82, M|191/263
+  move|p2a: Rhydon|Megahorn|p1a: Tornadus
+  -resisted|p1a: Tornadus
+  -damage|p1a: Tornadus|126/263
+-- turn 28
+  WE CHOSE: attack uturn - our hp 0.48, theirs 0.74, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to uxie - our hp 0.48, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|U-turn|p2a: Rhydon
+  -damage|p2a: Rhydon|65/100
+  switch|p1a: Uxie|Uxie, L83|120/260|[from] U-turn
+  move|p2a: Rhydon|Earthquake|p1a: Uxie
+  -immune|p1a: Uxie|[from] ability: Levitate
+  -heal|p1a: Uxie|136/260|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: switch to tornadus - our hp 0.52, theirs 0.65, predicted move (revealed) hits us x2
+  switch|p1a: Tornadus|Tornadus, L82, M|126/263
+  move|p2a: Rhydon|Earthquake|p1a: Tornadus
+  -immune|p1a: Tornadus
+-- turn 30
+  WE CHOSE: attack uturn - our hp 0.48, theirs 0.65, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to uxie - our hp 0.48, theirs 0.55, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|U-turn|p2a: Rhydon
+  -damage|p2a: Rhydon|55/100
+  switch|p1a: Uxie|Uxie, L83|136/260|[from] U-turn
+  move|p2a: Rhydon|Earthquake|p1a: Uxie
+  -immune|p1a: Uxie|[from] ability: Levitate
+  -heal|p1a: Uxie|152/260|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: switch to tornadus - our hp 0.58, theirs 0.55, predicted move (revealed) hits us x2
+  switch|p1a: Tornadus|Tornadus, L82, M|126/263
+  move|p2a: Rhydon|Earthquake|p1a: Tornadus
+  -immune|p1a: Tornadus
+-- turn 32
+  WE CHOSE: attack uturn - our hp 0.48, theirs 0.55, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to uxie - our hp 0.48, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|U-turn|p2a: Rhydon
+  -damage|p2a: Rhydon|47/100
+  switch|p1a: Uxie|Uxie, L83|152/260|[from] U-turn
+  move|p2a: Rhydon|Earthquake|p1a: Uxie
+  -immune|p1a: Uxie|[from] ability: Levitate
+  -heal|p1a: Uxie|168/260|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: switch to tornadus - our hp 0.65, theirs 0.47, predicted move (revealed) hits us x2
+  switch|p1a: Tornadus|Tornadus, L82, M|126/263
+  move|p2a: Rhydon|Earthquake|p1a: Tornadus
+  -immune|p1a: Tornadus
+-- turn 34
+  WE CHOSE: attack uturn - our hp 0.48, theirs 0.47, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to uxie - our hp 0.48, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|U-turn|p2a: Rhydon
+  -damage|p2a: Rhydon|38/100
+  switch|p1a: Uxie|Uxie, L83|168/260|[from] U-turn
+  move|p2a: Rhydon|Earthquake|p1a: Uxie
+  -immune|p1a: Uxie|[from] ability: Levitate
+  -heal|p1a: Uxie|184/260|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: switch to tornadus - our hp 0.71, theirs 0.38, predicted move (revealed) hits us x2
+  switch|p1a: Tornadus|Tornadus, L82, M|126/263
+  move|p2a: Rhydon|Earthquake|p1a: Tornadus
+  -immune|p1a: Tornadus
+-- turn 36
+  WE CHOSE: attack uturn - our hp 0.48, theirs 0.38, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to uxie - our hp 0.48, theirs 0.29, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|U-turn|p2a: Rhydon
+  -damage|p2a: Rhydon|29/100
+  switch|p1a: Uxie|Uxie, L83|184/260|[from] U-turn
+  move|p2a: Rhydon|Earthquake|p1a: Uxie
+  -immune|p1a: Uxie|[from] ability: Levitate
+  -heal|p1a: Uxie|200/260|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: switch to tornadus - our hp 0.77, theirs 0.29, predicted move (revealed) hits us x2
+  switch|p1a: Tornadus|Tornadus, L82, M|126/263
+  move|p2a: Rhydon|Earthquake|p1a: Tornadus
+  -immune|p1a: Tornadus
+-- turn 38
+  WE CHOSE: attack uturn - our hp 0.48, theirs 0.29, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to uxie - our hp 0.48, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|U-turn|p2a: Rhydon
+  -damage|p2a: Rhydon|20/100
+  switch|p1a: Uxie|Uxie, L83|200/260|[from] U-turn
+  move|p2a: Rhydon|Earthquake|p1a: Uxie
+  -immune|p1a: Uxie|[from] ability: Levitate
+  -heal|p1a: Uxie|216/260|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: switch to tornadus - our hp 0.83, theirs 0.20, predicted move (revealed) hits us x2
+  switch|p1a: Tornadus|Tornadus, L82, M|126/263
+  move|p2a: Rhydon|Earthquake|p1a: Tornadus
+  -immune|p1a: Tornadus
+-- turn 40
+  WE CHOSE: attack uturn - our hp 0.48, theirs 0.20, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to uxie - our hp 0.48, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|U-turn|p2a: Rhydon
+  -damage|p2a: Rhydon|11/100
+  switch|p1a: Uxie|Uxie, L83|216/260|[from] U-turn
+  move|p2a: Rhydon|Earthquake|p1a: Uxie
+  -immune|p1a: Uxie|[from] ability: Levitate
+  -heal|p1a: Uxie|232/260|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: switch to tornadus - our hp 0.89, theirs 0.11, predicted move (revealed) hits us x2
+  switch|p1a: Tornadus|Tornadus, L82, M|126/263
+  move|p2a: Rhydon|Earthquake|p1a: Tornadus
+  -immune|p1a: Tornadus
+-- turn 42
+  WE CHOSE: attack uturn - our hp 0.48, theirs 0.11, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to uxie - our hp 0.48, theirs 0.02, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|U-turn|p2a: Rhydon
+  -damage|p2a: Rhydon|2/100
+  switch|p1a: Uxie|Uxie, L83|232/260|[from] U-turn
+  move|p2a: Rhydon|Earthquake|p1a: Uxie
+  -immune|p1a: Uxie|[from] ability: Levitate
+  -heal|p1a: Uxie|248/260|[from] item: Leftovers
+-- turn 43
+  WE CHOSE: switch to tornadus - our hp 0.95, theirs 0.02, predicted move (revealed) hits us x2
+  switch|p1a: Tornadus|Tornadus, L82, M|126/263
+  move|p2a: Rhydon|Earthquake|p1a: Tornadus
+  -immune|p1a: Tornadus
+-- turn 44
+  WE CHOSE: attack uturn - our hp 0.48, theirs 0.02, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to uxie - our hp 0.48, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p1a: Tornadus|U-turn|p2a: Rhydon
+  -damage|p2a: Rhydon|0 fnt
+  faint|p2a: Rhydon
+  switch|p1a: Uxie|Uxie, L83|248/260|[from] U-turn
+  -heal|p1a: Uxie|260/260|[from] item: Leftovers
+  switch|p2a: Honchkrow|Honchkrow, L86, F|100/100
+-- turn 45
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to tornadus - our hp 1.00, theirs 0.82, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to uxie - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Uxie|U-turn|p2a: Honchkrow
+  -damage|p2a: Honchkrow|82/100
+  switch|p1a: Tornadus|Tornadus, L82, M|126/263|[from] U-turn
+  move|p2a: Honchkrow|Brave Bird|p1a: Tornadus
+  -damage|p1a: Tornadus|0 fnt
+  faint|p1a: Tornadus
+  -ability|p2a: Honchkrow|Moxie|boost
+  -boost|p2a: Honchkrow|atk|1
+  -damage|p2a: Honchkrow|68/100|[from] Recoil
+  switch|p1a: Uxie|Uxie, L83|260/260
+-- turn 46
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Uxie|U-turn|p2a: Honchkrow
+  -damage|p2a: Honchkrow|51/100
+  move|p2a: Honchkrow|Brave Bird|p1a: Uxie
+  -damage|p1a: Uxie|65/260
+  -damage|p2a: Honchkrow|31/100|[from] Recoil
+  -heal|p1a: Uxie|81/260|[from] item: Leftovers
+-- turn 47
+  WE CHOSE: attack uturn - our hp 0.31, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Uxie|U-turn|p2a: Honchkrow
+  -damage|p2a: Honchkrow|11/100
+  move|p2a: Honchkrow|Brave Bird|p1a: Uxie
+  -damage|p1a: Uxie|0 fnt
+  faint|p1a: Uxie
+  -damage|p2a: Honchkrow|2/100|[from] Recoil
+  deinit

@@ -1,0 +1,270 @@
+battle 2156 (battle-gen9randombattle-1028208): lost in 29 turns, 1 of theirs left; we are p1
+
+ours:
+  sinistchamasterpiece (fainted; item leftovers, ability heatproof, tera steel; moves shadowball/calmmind/matchagotcha/strengthsap)
+  deoxysspeed (fainted; item leftovers, ability pressure; moves taunt/psychoboost/stealthrock/spikes)
+  zoroark (fainted; item lifeorb, ability illusion; moves nastyplot/sludgebomb/darkpulse/encore)
+  reuniclus (fainted; item lifeorb, ability magicguard; moves psychic/recover/focusblast/calmmind)
+  kyuremblack (fainted; item loadeddice, ability teravolt; moves dragondance/iciclespear/terablast/scaleshot)
+  weezing (fainted; item leftovers, ability levitate; moves toxicspikes/fireblast/gunkshot/painsplit)
+theirs (as seen):
+  flapple (fainted; item ?, ability ?; moves outrage)
+  koraidon (fainted; item unknown_item, ability orichalcumpulse; moves flareblitz)
+  miniorgreen (fainted; item unknown_item, ability shieldsdown; moves earthquake)
+  regice (fainted; item unknown_item, ability ?; moves thunderbolt)
+  chandelure (fainted; item unknown_item, ability ?; moves fireblast)
+  hoopaunbound (54%; item unknown_item, ability magician; moves gunkshot)
+
+-- turn 0
+  switch|p1a: Sinistcha|Sinistcha-Masterpiece, L83|254/254
+  switch|p2a: Flapple|Flapple, L88, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Sinistcha|Steel
+  move|p2a: Flapple|Outrage|p1a: Sinistcha
+  -resisted|p1a: Sinistcha
+  -damage|p1a: Sinistcha|157/254
+  move|p1a: Sinistcha|Shadow Ball|p2a: Flapple
+  -damage|p2a: Flapple|53/100
+  -heal|p1a: Sinistcha|172/254|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: setup calmmind - our hp 0.68, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p2a: Flapple|Outrage|p1a: Sinistcha|[from] lockedmove
+  -resisted|p1a: Sinistcha
+  -damage|p1a: Sinistcha|79/254
+  -start|p2a: Flapple|confusion|[fatigue]
+  -enditem|p2a: Flapple|Lum Berry|[eat]
+  -end|p2a: Flapple|confusion
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+  -heal|p1a: Sinistcha|94/254|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: heal strengthsap - our hp 0.37, theirs 0.53, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to weezing - our hp 0.00, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p2a: Flapple|Outrage|p1a: Sinistcha
+  -resisted|p1a: Sinistcha
+  -damage|p1a: Sinistcha|0 fnt
+  faint|p1a: Sinistcha
+  switch|p1a: Weezing|Weezing, L88, M|258/258
+-- turn 4
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Flapple|Outrage|p1a: Weezing|[from] lockedmove
+  -damage|p1a: Weezing|83/258
+  move|p1a: Weezing|Gunk Shot|p2a: Flapple
+  -supereffective|p2a: Flapple
+  -damage|p2a: Flapple|0 fnt
+  faint|p2a: Flapple
+  -heal|p1a: Weezing|99/258|[from] item: Leftovers
+  switch|p2a: Koraidon|Koraidon, L64|100/100
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+  -activate|p2a: Koraidon|Orichalcum Pulse|[source]
+-- turn 5
+  WE CHOSE: switch to deoxysspeed (hand policy: attack gunkshot) - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Deoxys|Deoxys-Speed, L82|216/216
+  -ability|p1a: Deoxys|Pressure
+  move|p2a: Koraidon|Flare Blitz|p1a: Deoxys
+  -damage|p1a: Deoxys|76/216
+  -damage|p2a: Koraidon|81/100|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Deoxys|89/216|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack psychoboost - our hp 0.41, theirs 0.81, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Koraidon
+  -supereffective|p2a: Koraidon
+  -damage|p2a: Koraidon|0 fnt
+  -unboost|p1a: Deoxys|spa|2
+  faint|p2a: Koraidon
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Deoxys|102/216|[from] item: Leftovers
+  switch|p2a: Minior|Minior-Green, L79|100/100
+  -formechange|p2a: Minior|Minior-Meteor||[from] ability: Shields Down
+-- turn 7
+  WE CHOSE: attack psychoboost - our hp 0.47, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Deoxys|Psycho Boost|p2a: Minior
+  -damage|p2a: Minior|68/100
+  -unboost|p1a: Deoxys|spa|2
+  move|p2a: Minior|Earthquake|p1a: Deoxys
+  -damage|p1a: Deoxys|61/216
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Deoxys|74/216|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: switch to weezing - our hp 0.34, theirs 0.68, predicted move (revealed) hits us x1
+  switch|p1a: Weezing|Weezing, L88, M|99/258
+  move|p2a: Minior|Earthquake|p1a: Weezing
+  -immune|p1a: Weezing|[from] ability: Levitate
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Weezing|115/258|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack fireblast (hand policy: attack gunkshot) - our hp 0.45, theirs 0.68, predicted move (revealed) hits us x0
+  move|p1a: Weezing|Fire Blast|p2a: Minior
+  -resisted|p2a: Minior
+  -damage|p2a: Minior|45/100
+  move|p2a: Minior|Earthquake|p1a: Weezing
+  -immune|p1a: Weezing|[from] ability: Levitate
+  -weather|none
+  -heal|p1a: Weezing|131/258|[from] item: Leftovers
+  -formechange|p2a: Minior|Minior-Green||[from] ability: Shields Down
+-- turn 10
+  WE CHOSE: attack gunkshot - our hp 0.51, theirs 0.45, predicted move (revealed) hits us x0
+  move|p2a: Minior|Earthquake|p1a: Weezing
+  -immune|p1a: Weezing|[from] ability: Levitate
+  move|p1a: Weezing|Gunk Shot|p2a: Minior
+  -resisted|p2a: Minior
+  -damage|p2a: Minior|1/100
+  -heal|p1a: Weezing|147/258|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack gunkshot - our hp 0.57, theirs 0.01, predicted move (revealed) hits us x0
+  move|p2a: Minior|Earthquake|p1a: Weezing
+  -immune|p1a: Weezing|[from] ability: Levitate
+  move|p1a: Weezing|Gunk Shot|p2a: Minior
+  -resisted|p2a: Minior
+  -damage|p2a: Minior|0 fnt
+  faint|p2a: Minior
+  -heal|p1a: Weezing|163/258|[from] item: Leftovers
+  switch|p2a: Regice|Regice, L88|100/100
+-- turn 12
+  WE CHOSE: attack fireblast - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Weezing|Fire Blast|p2a: Regice
+  -supereffective|p2a: Regice
+  -damage|p2a: Regice|75/100
+  move|p2a: Regice|Thunderbolt|p1a: Weezing
+  -damage|p1a: Weezing|82/258
+  -heal|p1a: Weezing|98/258|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack fireblast - our hp 0.38, theirs 0.75, predicted move (revealed) hits us x1
+  move|p1a: Weezing|Fire Blast|p2a: Regice
+  -supereffective|p2a: Regice
+  -damage|p2a: Regice|49/100
+  move|p2a: Regice|Thunderbolt|p1a: Weezing
+  -damage|p1a: Weezing|11/258
+  -heal|p1a: Weezing|27/258|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack fireblast - our hp 0.10, theirs 0.49, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kyuremblack (hand policy: forced: switch to deoxysspeed) - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Weezing|Fire Blast|p2a: Regice|[miss]
+  -miss|p1a: Weezing|p2a: Regice
+  move|p2a: Regice|Thunderbolt|p1a: Weezing
+  -damage|p1a: Weezing|0 fnt
+  faint|p1a: Weezing
+  switch|p1a: Kyurem|Kyurem-Black, L71|295/295
+  -ability|p1a: Kyurem|Teravolt
+-- turn 15
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+  -boost|p1a: Kyurem|atk|1
+  -boost|p1a: Kyurem|spe|1
+  move|p2a: Regice|Thunderbolt|p1a: Kyurem
+  -resisted|p1a: Kyurem
+  -damage|p1a: Kyurem|253/295
+-- turn 16
+  WE CHOSE: setup dragondance - our hp 0.86, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+  -boost|p1a: Kyurem|atk|1
+  -boost|p1a: Kyurem|spe|1
+  move|p2a: Regice|Thunderbolt|p1a: Kyurem
+  -resisted|p1a: Kyurem
+  -damage|p1a: Kyurem|213/295
+  -status|p1a: Kyurem|par
+-- turn 17
+  WE CHOSE: attack terablast - our hp 0.72, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p1a: Kyurem|Tera Blast|p2a: Regice
+  -damage|p2a: Regice|40/100
+  move|p2a: Regice|Thunderbolt|p1a: Kyurem
+  -resisted|p1a: Kyurem
+  -damage|p1a: Kyurem|168/295 par
+-- turn 18
+  WE CHOSE: attack terablast - our hp 0.57, theirs 0.40, predicted move (revealed) hits us x0.5
+  cant|p1a: Kyurem|par
+  move|p2a: Regice|Thunderbolt|p1a: Kyurem
+  -resisted|p1a: Kyurem
+  -damage|p1a: Kyurem|128/295 par
+-- turn 19
+  WE CHOSE: attack terablast - our hp 0.43, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Kyurem|Tera Blast|p2a: Regice
+  -damage|p2a: Regice|31/100
+  move|p2a: Regice|Thunderbolt|p1a: Kyurem
+  -resisted|p1a: Kyurem
+  -crit|p1a: Kyurem
+  -damage|p1a: Kyurem|61/295 par
+-- turn 20
+  WE CHOSE: attack terablast - our hp 0.21, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p1a: Kyurem|Tera Blast|p2a: Regice
+  -damage|p2a: Regice|22/100
+  move|p2a: Regice|Thunderbolt|p1a: Kyurem
+  -resisted|p1a: Kyurem
+  -crit|p1a: Kyurem
+  -damage|p1a: Kyurem|1/295 par
+-- turn 21
+  WE CHOSE: attack terablast - our hp 0.00, theirs 0.22, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to deoxysspeed - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Kyurem|Tera Blast|p2a: Regice
+  -damage|p2a: Regice|13/100
+  move|p2a: Regice|Thunderbolt|p1a: Kyurem
+  -resisted|p1a: Kyurem
+  -damage|p1a: Kyurem|0 fnt
+  faint|p1a: Kyurem
+  switch|p1a: Deoxys|Deoxys-Speed, L82|74/216
+  -ability|p1a: Deoxys|Pressure
+-- turn 22
+  WE CHOSE: attack psychoboost - our hp 0.34, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Regice
+  -damage|p2a: Regice|0 fnt
+  -unboost|p1a: Deoxys|spa|2
+  faint|p2a: Regice
+  -heal|p1a: Deoxys|87/216|[from] item: Leftovers
+  switch|p2a: Chandelure|Chandelure, L83, M|100/100
+-- turn 23
+  WE CHOSE: switch to zoroark (hand policy: attack psychoboost) - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Reuniclus|Reuniclus, L88, F|235/235
+  move|p2a: Chandelure|Fire Blast|p1a: Reuniclus
+  -damage|p1a: Reuniclus|40/235
+  replace|p1a: Zoroark|Zoroark, L83, F
+  -end|p1a: Zoroark|Illusion
+-- turn 24
+  WE CHOSE: attack darkpulse - our hp 0.17, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to deoxysspeed - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Chandelure|Fire Blast|p1a: Zoroark
+  -damage|p1a: Zoroark|0 fnt
+  faint|p1a: Zoroark
+  switch|p1a: Deoxys|Deoxys-Speed, L82|87/216
+  -ability|p1a: Deoxys|Pressure
+-- turn 25
+  WE CHOSE: attack psychoboost - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to reuniclus - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Chandelure
+  -damage|p2a: Chandelure|38/100
+  -unboost|p1a: Deoxys|spa|2
+  move|p2a: Chandelure|Fire Blast|p1a: Deoxys
+  -crit|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  faint|p1a: Deoxys
+  switch|p1a: Reuniclus|Reuniclus, L88, F|337/337
+-- turn 26
+  WE CHOSE: setup calmmind (hand policy: attack psychic) - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Chandelure|Fire Blast|p1a: Reuniclus
+  -damage|p1a: Reuniclus|186/337
+  move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+  -boost|p1a: Reuniclus|spa|1
+  -boost|p1a: Reuniclus|spd|1
+-- turn 27
+  WE CHOSE: attack psychic - our hp 0.55, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Chandelure|Fire Blast|p1a: Reuniclus|[miss]
+  -miss|p2a: Chandelure|p1a: Reuniclus
+  move|p1a: Reuniclus|Psychic|p2a: Chandelure
+  -damage|p2a: Chandelure|0 fnt
+  faint|p2a: Chandelure
+  switch|p2a: Hoopa|Hoopa-Unbound, L80|100/100
+-- turn 28
+  WE CHOSE: attack focusblast - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Hoopa|Gunk Shot|p1a: Reuniclus
+  -damage|p1a: Reuniclus|66/337
+  move|p1a: Reuniclus|Focus Blast|p2a: Hoopa
+  -damage|p2a: Hoopa|54/100
+  -unboost|p2a: Hoopa|spd|1
+-- turn 29
+  WE CHOSE: attack focusblast (hand policy: heal recover) - our hp 0.20, theirs 0.54, predicted move (revealed) hits us x1
+  move|p2a: Hoopa|Gunk Shot|p1a: Reuniclus
+  -damage|p1a: Reuniclus|0 fnt
+  faint|p1a: Reuniclus
+  deinit

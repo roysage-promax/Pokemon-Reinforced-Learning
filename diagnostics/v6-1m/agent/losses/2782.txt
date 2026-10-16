@@ -1,0 +1,285 @@
+battle 2782 (battle-gen9randombattle-1034616): lost in 33 turns, 1 of theirs left; we are p1
+
+ours:
+  minun (fainted; item lifeorb, ability voltabsorb; moves thunderbolt/nastyplot/grassknot/encore)
+  glaceon (fainted; item heavydutyboots, ability icebody, tera water; moves protect/freezedry/calmmind/wish)
+  houndstone (fainted; item leftovers, ability fluffy; moves poltergeist/sleeptalk/bodypress/rest)
+  indeedeef (fainted; item choicescarf, ability psychicsurge; moves psychic/hypervoice/healingwish/shadowball)
+  gumshoos (fainted; item choiceband, ability stakeout; moves doubleedge/uturn/earthquake/knockoff)
+  abomasnow (fainted; item lightclay, ability snowwarning; moves auroraveil/iceshard/woodhammer/blizzard)
+theirs (as seen):
+  hawlucha (fainted; item ?, ability ?; moves closecombat/stoneedge/acrobatics)
+  noivern (fainted; item unknown_item, ability ?; moves dracometeor)
+  gothitelle (fainted; item unknown_item, ability ?; moves focusblast)
+  dialgaorigin (fainted; item unknown_item, ability pressure; moves dracometeor)
+  persian (fainted; item unknown_item, ability ?; moves doubleedge)
+  brambleghast (13%; item leftovers, ability windrider; moves powerwhip)
+
+-- turn 0
+  switch|p1a: Minun|Minun, L95, M|268/268
+  switch|p2a: Hawlucha|Hawlucha, L80, M|100/100
+-- turn 1
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Hawlucha|Close Combat|p1a: Minun
+  -damage|p1a: Minun|123/268
+  -unboost|p2a: Hawlucha|def|1
+  -unboost|p2a: Hawlucha|spd|1
+  -enditem|p2a: Hawlucha|White Herb
+  -clearnegativeboost|p2a: Hawlucha|[silent]
+  move|p1a: Minun|Nasty Plot|p1a: Minun
+  -boost|p1a: Minun|spa|2
+-- turn 2
+  WE CHOSE: switch to houndstone - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Houndstone|Houndstone, L86, M|264/264
+  move|p2a: Hawlucha|Close Combat|p1a: Houndstone
+  -immune|p1a: Houndstone
+-- turn 3
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Houndstone
+  -immune|p1a: Houndstone
+  move|p1a: Houndstone|Poltergeist||[still]
+  -fail|p1a: Houndstone
+-- turn 4
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Houndstone
+  -immune|p1a: Houndstone
+  move|p1a: Houndstone|Poltergeist||[still]
+  -fail|p1a: Houndstone
+-- turn 5
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Houndstone
+  -immune|p1a: Houndstone
+  move|p1a: Houndstone|Poltergeist||[still]
+  -fail|p1a: Houndstone
+-- turn 6
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Houndstone
+  -immune|p1a: Houndstone
+  move|p1a: Houndstone|Poltergeist||[still]
+  -fail|p1a: Houndstone
+-- turn 7
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Houndstone
+  -immune|p1a: Houndstone
+  move|p1a: Houndstone|Poltergeist||[still]
+  -fail|p1a: Houndstone
+-- turn 8
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Houndstone
+  -immune|p1a: Houndstone
+  move|p1a: Houndstone|Poltergeist||[still]
+  -fail|p1a: Houndstone
+-- turn 9
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Stone Edge|p1a: Houndstone
+  -crit|p1a: Houndstone
+  -damage|p1a: Houndstone|175/264
+  move|p1a: Houndstone|Poltergeist||[still]
+  -fail|p1a: Houndstone
+  -heal|p1a: Houndstone|191/264|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack poltergeist - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Stone Edge|p1a: Houndstone
+  -damage|p1a: Houndstone|138/264
+  move|p1a: Houndstone|Poltergeist||[still]
+  -fail|p1a: Houndstone
+  -heal|p1a: Houndstone|154/264|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack bodypress - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Stone Edge|p1a: Houndstone
+  -damage|p1a: Houndstone|103/264
+  move|p1a: Houndstone|Body Press|p2a: Hawlucha
+  -resisted|p2a: Hawlucha
+  -damage|p2a: Hawlucha|86/100
+  -heal|p1a: Houndstone|119/264|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack bodypress (hand policy: heal rest) - our hp 0.45, theirs 0.86, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Stone Edge|p1a: Houndstone|[miss]
+  -miss|p2a: Hawlucha|p1a: Houndstone
+  move|p1a: Houndstone|Body Press|p2a: Hawlucha
+  -resisted|p2a: Hawlucha
+  -damage|p2a: Hawlucha|72/100
+  -heal|p1a: Houndstone|135/264|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack bodypress - our hp 0.51, theirs 0.72, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Stone Edge|p1a: Houndstone
+  -damage|p1a: Houndstone|77/264
+  move|p1a: Houndstone|Body Press|p2a: Hawlucha
+  -resisted|p2a: Hawlucha
+  -damage|p2a: Hawlucha|59/100
+  -heal|p1a: Houndstone|93/264|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack bodypress (hand policy: heal rest) - our hp 0.35, theirs 0.59, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Stone Edge|p1a: Houndstone
+  -damage|p1a: Houndstone|35/264
+  move|p1a: Houndstone|Body Press|p2a: Hawlucha
+  -resisted|p2a: Hawlucha
+  -damage|p2a: Hawlucha|45/100
+  -heal|p1a: Houndstone|51/264|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack bodypress (hand policy: heal rest) - our hp 0.19, theirs 0.45, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Stone Edge|p1a: Houndstone|[miss]
+  -miss|p2a: Hawlucha|p1a: Houndstone
+  move|p1a: Houndstone|Body Press|p2a: Hawlucha
+  -resisted|p2a: Hawlucha
+  -damage|p2a: Hawlucha|30/100
+  -heal|p1a: Houndstone|67/264|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack bodypress (hand policy: heal rest) - our hp 0.25, theirs 0.30, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Stone Edge|p1a: Houndstone
+  -damage|p1a: Houndstone|13/264
+  move|p1a: Houndstone|Body Press|p2a: Hawlucha
+  -resisted|p2a: Hawlucha
+  -damage|p2a: Hawlucha|17/100
+  -heal|p1a: Houndstone|29/264|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: heal rest - our hp 0.11, theirs 0.17, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to minun - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Acrobatics|p1a: Houndstone
+  -damage|p1a: Houndstone|0 fnt
+  faint|p1a: Houndstone
+  switch|p1a: Minun|Minun, L95, M|123/268
+-- turn 18
+  WE CHOSE: attack thunderbolt - our hp 0.46, theirs 0.17, predicted move (revealed) hits us x1
+  move|p2a: Hawlucha|Acrobatics|p1a: Minun
+  -resisted|p1a: Minun
+  -damage|p1a: Minun|57/268
+  move|p1a: Minun|Thunderbolt|p2a: Hawlucha
+  -supereffective|p2a: Hawlucha
+  -damage|p2a: Hawlucha|0 fnt
+  faint|p2a: Hawlucha
+  -damage|p1a: Minun|31/268|[from] item: Life Orb
+  switch|p2a: Noivern|Noivern, L82, M|100/100
+-- turn 19
+  WE CHOSE: switch to glaceon (hand policy: attack thunderbolt) - our hp 0.12, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Glaceon|Glaceon, L94, F|275/275
+  move|p2a: Noivern|Draco Meteor|p1a: Glaceon
+  -damage|p1a: Glaceon|170/275
+  -unboost|p2a: Noivern|spa|2
+-- turn 20
+  WE CHOSE: attack freezedry - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Noivern|Draco Meteor|p1a: Glaceon
+  -damage|p1a: Glaceon|113/275
+  -unboost|p2a: Noivern|spa|2
+  move|p1a: Glaceon|Freeze-Dry|p2a: Noivern
+  -supereffective|p2a: Noivern
+  -damage|p2a: Noivern|0 fnt
+  faint|p2a: Noivern
+  switch|p2a: Gothitelle|Gothitelle, L90, M|100/100
+-- turn 21
+  WE CHOSE: attack+tera freezedry (hand policy: attack freezedry) - our hp 0.41, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Glaceon|Water
+  move|p2a: Gothitelle|Focus Blast|p1a: Glaceon|[miss]
+  -miss|p2a: Gothitelle|p1a: Glaceon
+  move|p1a: Glaceon|Freeze-Dry|p2a: Gothitelle
+  -damage|p2a: Gothitelle|65/100
+  -status|p2a: Gothitelle|frz
+-- turn 22
+  WE CHOSE: attack freezedry - our hp 0.41, theirs 0.65, predicted move (revealed) hits us x1
+  cant|p2a: Gothitelle|frz
+  move|p1a: Glaceon|Freeze-Dry|p2a: Gothitelle
+  -damage|p2a: Gothitelle|32/100 frz
+-- turn 23
+  WE CHOSE: attack freezedry - our hp 0.41, theirs 0.32, predicted move (revealed) hits us x1
+  cant|p2a: Gothitelle|frz
+  move|p1a: Glaceon|Freeze-Dry|p2a: Gothitelle
+  -damage|p2a: Gothitelle|0 fnt
+  faint|p2a: Gothitelle
+  switch|p2a: Dialga|Dialga-Origin, L73|100/100
+  -ability|p2a: Dialga|Pressure
+-- turn 24
+  WE CHOSE: attack freezedry - our hp 0.41, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to gumshoos - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Glaceon|Freeze-Dry|p2a: Dialga
+  -damage|p2a: Dialga|64/100
+  move|p2a: Dialga|Draco Meteor|p1a: Glaceon
+  -damage|p1a: Glaceon|0 fnt
+  -unboost|p2a: Dialga|spa|2
+  faint|p1a: Glaceon
+  switch|p1a: Gumshoos|Gumshoos, L95, M|321/321
+-- turn 25
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p2a: Dialga|Draco Meteor|p1a: Gumshoos
+  -damage|p1a: Gumshoos|218/321
+  -unboost|p2a: Dialga|spa|2
+  move|p1a: Gumshoos|Earthquake|p2a: Dialga
+  -supereffective|p2a: Dialga
+  -damage|p2a: Dialga|0 fnt
+  faint|p2a: Dialga
+  switch|p2a: Persian|Persian, L92, F|100/100
+-- turn 26
+  WE CHOSE: attack earthquake - our hp 0.68, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Persian|Double-Edge|p1a: Gumshoos
+  -damage|p1a: Gumshoos|4/321
+  -damage|p2a: Persian|74/100|[from] Recoil
+  move|p1a: Gumshoos|Earthquake|p2a: Persian
+  -damage|p2a: Persian|11/100
+-- turn 27
+  WE CHOSE: attack earthquake - our hp 0.01, theirs 0.11, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to abomasnow - our hp 0.00, theirs 0.11, predicted move (revealed) hits us x1
+  move|p2a: Persian|Double-Edge|p1a: Gumshoos
+  -damage|p1a: Gumshoos|0 fnt
+  faint|p1a: Gumshoos
+  -damage|p2a: Persian|11/100|[from] Recoil
+  switch|p1a: Abomasnow|Abomasnow, L84, F|287/287
+  -weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+-- turn 28
+  WE CHOSE: attack woodhammer - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x1
+  move|p2a: Persian|Double-Edge|p1a: Abomasnow
+  -damage|p1a: Abomasnow|154/287
+  -damage|p2a: Persian|0 fnt|[from] Recoil
+  faint|p2a: Persian
+  move|p1a: Abomasnow|Wood Hammer|p2: Persian|[notarget]
+  -fail|p1a: Abomasnow
+  -weather|Snowscape|[upkeep]
+  switch|p2a: Brambleghast|Brambleghast, L88, M|100/100
+-- turn 29
+  WE CHOSE: attack blizzard - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Brambleghast|Power Whip|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|89/287
+  move|p1a: Abomasnow|Blizzard|p2a: Brambleghast
+  -ability|p2a: Brambleghast|Wind Rider|boost
+  -boost|p2a: Brambleghast|atk|1
+  -weather|Snowscape|[upkeep]
+-- turn 30
+  WE CHOSE: attack blizzard - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Brambleghast|Power Whip|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|4/287
+  move|p1a: Abomasnow|Blizzard|p2a: Brambleghast
+  -ability|p2a: Brambleghast|Wind Rider|boost
+  -boost|p2a: Brambleghast|atk|1
+  -weather|Snowscape|[upkeep]
+-- turn 31
+  WE CHOSE: attack blizzard - our hp 0.01, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to indeedeef - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Brambleghast|Power Whip|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|0 fnt
+  faint|p1a: Abomasnow
+  -weather|Snowscape|[upkeep]
+  switch|p1a: Indeedee|Indeedee-F, L90, F|272/272
+  -fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+-- turn 32
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to minun - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Indeedee|Shadow Ball|p2a: Brambleghast
+  -supereffective|p2a: Brambleghast
+  -damage|p2a: Brambleghast|37/100
+  move|p2a: Brambleghast|Power Whip|p1a: Indeedee
+  -damage|p1a: Indeedee|0 fnt
+  faint|p1a: Indeedee
+  -weather|none
+  -heal|p2a: Brambleghast|43/100|[from] item: Leftovers
+  switch|p1a: Minun|Minun, L95, M|31/268
+-- turn 33
+  WE CHOSE: attack thunderbolt - our hp 0.12, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Minun|Thunderbolt|p2a: Brambleghast
+  -resisted|p2a: Brambleghast
+  -damage|p2a: Brambleghast|13/100
+  -damage|p1a: Minun|5/268|[from] item: Life Orb
+  move|p2a: Brambleghast|Power Whip|p1a: Minun
+  -damage|p1a: Minun|0 fnt
+  faint|p1a: Minun
+  deinit

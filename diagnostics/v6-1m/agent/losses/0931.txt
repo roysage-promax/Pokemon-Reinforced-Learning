@@ -1,0 +1,226 @@
+battle 931 (battle-gen9randombattle-1015749): lost in 24 turns, 1 of theirs left; we are p1
+
+ours:
+  kleavor (fainted; item heavydutyboots, ability sharpness; moves xscissor/defog/closecombat/stoneaxe)
+  ursaluna (fainted; item flameorb, ability guts; moves crunch/headlongrush/facade/trailblaze)
+  toedscruel (fainted; item leftovers, ability myceliummight; moves toxic/knockoff/earthpower/gigadrain)
+  gogoat (fainted; item leftovers, ability sapsipper; moves milkdrink/earthquake/hornleech/bulkup)
+  minun (fainted; item lifeorb, ability voltabsorb; moves grassknot/thunderbolt/nastyplot/encore)
+  galvantula (fainted; item heavydutyboots, ability compoundeyes; moves energyball/bugbuzz/stickyweb/thunder)
+theirs (as seen):
+  giratinaorigin (fainted; item unknown_item, ability levitate; moves dracometeor/poltergeist)
+  furret (fainted; item unknown_item, ability frisk; moves doubleedge)
+  tentacruel (fainted; item unknown_item, ability ?; moves -)
+  samurotthisui (fainted; item unknown_item, ability ?; moves -)
+  hitmonchan (fainted; item lifeorb, ability ?; moves drainpunch)
+  meowsticf (78%; item lifeorb, ability ?; moves psychic)
+
+-- turn 0
+  switch|p1a: Kleavor|Kleavor, L78, F|237/237
+  switch|p2a: Giratina|Giratina-Origin, L72|100/100
+-- turn 1
+  WE CHOSE: attack stoneaxe (hand policy: attack+tera stoneaxe) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Kleavor|Stone Axe|p2a: Giratina
+  -damage|p2a: Giratina|63/100
+  -sidestart|p2: e2_132141|move: Stealth Rock
+  move|p2a: Giratina|Draco Meteor|p1a: Kleavor
+  -damage|p1a: Kleavor|68/237
+  -unboost|p2a: Giratina|spa|2
+-- turn 2
+  WE CHOSE: attack stoneaxe (hand policy: attack+tera stoneaxe) - our hp 0.29, theirs 0.63, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ursaluna - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Kleavor|Stone Axe|p2a: Giratina
+  -damage|p2a: Giratina|23/100
+  move|p2a: Giratina|Draco Meteor|p1a: Kleavor
+  -damage|p1a: Kleavor|0 fnt
+  -unboost|p2a: Giratina|spa|2
+  faint|p1a: Kleavor
+  switch|p1a: Ursaluna|Ursaluna, L79, M|335/335
+-- turn 3
+  WE CHOSE: attack headlongrush - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Giratina|Draco Meteor|p1a: Ursaluna|[miss]
+  -miss|p2a: Giratina|p1a: Ursaluna
+  move|p1a: Ursaluna|Headlong Rush|p2a: Giratina
+  -immune|p2a: Giratina|[from] ability: Levitate
+  -status|p1a: Ursaluna|brn|[from] item: Flame Orb
+-- turn 4
+  WE CHOSE: attack headlongrush - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Giratina|Draco Meteor|p1a: Ursaluna
+  -damage|p1a: Ursaluna|280/335 brn
+  -unboost|p2a: Giratina|spa|2
+  move|p1a: Ursaluna|Headlong Rush|p2a: Giratina
+  -immune|p2a: Giratina|[from] ability: Levitate
+  -damage|p1a: Ursaluna|260/335 brn|[from] brn
+-- turn 5
+  WE CHOSE: attack headlongrush - our hp 0.78, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Giratina|Draco Meteor|p1a: Ursaluna
+  -damage|p1a: Ursaluna|220/335 brn
+  move|p1a: Ursaluna|Headlong Rush|p2a: Giratina
+  -immune|p2a: Giratina|[from] ability: Levitate
+  -damage|p1a: Ursaluna|200/335 brn|[from] brn
+-- turn 6
+  WE CHOSE: attack headlongrush - our hp 0.60, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Giratina|Draco Meteor|p1a: Ursaluna
+  -damage|p1a: Ursaluna|158/335 brn
+  move|p1a: Ursaluna|Headlong Rush|p2a: Giratina
+  -immune|p2a: Giratina|[from] ability: Levitate
+  -damage|p1a: Ursaluna|138/335 brn|[from] brn
+-- turn 7
+  WE CHOSE: attack headlongrush - our hp 0.41, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Giratina|Draco Meteor|p1a: Ursaluna
+  -damage|p1a: Ursaluna|96/335 brn
+  move|p1a: Ursaluna|Headlong Rush|p2a: Giratina
+  -immune|p2a: Giratina|[from] ability: Levitate
+  -damage|p1a: Ursaluna|76/335 brn|[from] brn
+-- turn 8
+  WE CHOSE: attack headlongrush - our hp 0.23, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Giratina|Draco Meteor|p1a: Ursaluna
+  -damage|p1a: Ursaluna|36/335 brn
+  move|p1a: Ursaluna|Headlong Rush|p2a: Giratina
+  -immune|p2a: Giratina|[from] ability: Levitate
+  -damage|p1a: Ursaluna|16/335 brn|[from] brn
+-- turn 9
+  WE CHOSE: attack headlongrush - our hp 0.05, theirs 0.23, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to toedscruel - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Giratina|Poltergeist|p1a: Ursaluna
+  -immune|p1a: Ursaluna
+  move|p1a: Ursaluna|Headlong Rush|p2a: Giratina
+  -immune|p2a: Giratina|[from] ability: Levitate
+  -damage|p1a: Ursaluna|0 fnt|[from] brn
+  faint|p1a: Ursaluna
+  switch|p1a: Toedscruel|Toedscruel, L87, M|281/281
+-- turn 10
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Toedscruel|Earth Power|p2a: Giratina
+  -immune|p2a: Giratina|[from] ability: Levitate
+  move|p2a: Giratina|Poltergeist|p1a: Toedscruel
+  -activate|p1a: Toedscruel|move: Poltergeist|Leftovers
+  -damage|p1a: Toedscruel|143/281
+  -heal|p1a: Toedscruel|160/281|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack earthpower - our hp 0.57, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Toedscruel|Earth Power|p2a: Giratina
+  -immune|p2a: Giratina|[from] ability: Levitate
+  move|p2a: Giratina|Poltergeist|p1a: Toedscruel
+  -activate|p1a: Toedscruel|move: Poltergeist|Leftovers
+  -damage|p1a: Toedscruel|24/281
+  -heal|p1a: Toedscruel|41/281|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack earthpower - our hp 0.15, theirs 0.23, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gogoat - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Toedscruel|Earth Power|p2a: Giratina
+  -immune|p2a: Giratina|[from] ability: Levitate
+  move|p2a: Giratina|Poltergeist|p1a: Toedscruel
+  -activate|p1a: Toedscruel|move: Poltergeist|Leftovers
+  -damage|p1a: Toedscruel|0 fnt
+  faint|p1a: Toedscruel
+  switch|p1a: Gogoat|Gogoat, L88, F|360/360
+-- turn 13
+  WE CHOSE: setup bulkup (hand policy: attack earthquake) - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Giratina|Poltergeist|p1a: Gogoat
+  -activate|p1a: Gogoat|move: Poltergeist|Leftovers
+  -damage|p1a: Gogoat|197/360
+  move|p1a: Gogoat|Bulk Up|p1a: Gogoat
+  -boost|p1a: Gogoat|atk|1
+  -boost|p1a: Gogoat|def|1
+  -heal|p1a: Gogoat|219/360|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack hornleech (hand policy: attack earthquake) - our hp 0.61, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Giratina|Poltergeist|p1a: Gogoat
+  -activate|p1a: Gogoat|move: Poltergeist|Leftovers
+  -damage|p1a: Gogoat|120/360
+  move|p1a: Gogoat|Horn Leech|p2a: Giratina
+  -resisted|p2a: Giratina
+  -damage|p2a: Giratina|3/100
+  -heal|p1a: Gogoat|154/360|[from] drain|[of] p2a: Giratina
+  -heal|p1a: Gogoat|176/360|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack hornleech (hand policy: heal milkdrink) - our hp 0.49, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Giratina|Poltergeist|p1a: Gogoat
+  -activate|p1a: Gogoat|move: Poltergeist|Leftovers
+  -damage|p1a: Gogoat|79/360
+  move|p1a: Gogoat|Horn Leech|p2a: Giratina
+  -resisted|p2a: Giratina
+  -damage|p2a: Giratina|0 fnt
+  -heal|p1a: Gogoat|84/360|[from] drain|[of] p2a: Giratina
+  faint|p2a: Giratina
+  -heal|p1a: Gogoat|106/360|[from] item: Leftovers
+  switch|p2a: Furret|Furret, L94, M|100/100
+  -damage|p2a: Furret|88/100|[from] Stealth Rock
+  -item|p1a: Gogoat|Leftovers|[from] ability: Frisk|[of] p2a: Furret
+-- turn 16
+  WE CHOSE: heal milkdrink - our hp 0.29, theirs 0.88, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to minun - our hp 0.00, theirs 0.77, predicted move (revealed) hits us x1
+  move|p2a: Furret|Double-Edge|p1a: Gogoat
+  -damage|p1a: Gogoat|0 fnt
+  faint|p1a: Gogoat
+  -damage|p2a: Furret|77/100|[from] Recoil
+  switch|p1a: Minun|Minun, L95, M|268/268
+-- turn 17
+  WE CHOSE: setup nastyplot (hand policy: attack thunderbolt) - our hp 1.00, theirs 0.77, predicted move (revealed) hits us x1
+  move|p1a: Minun|Nasty Plot|p1a: Minun
+  -boost|p1a: Minun|spa|2
+  move|p2a: Furret|Double-Edge|p1a: Minun
+  -damage|p1a: Minun|27/268
+  -damage|p2a: Furret|51/100|[from] Recoil
+-- turn 18
+  WE CHOSE: attack thunderbolt - our hp 0.10, theirs 0.51, predicted move (revealed) hits us x1
+  move|p1a: Minun|Thunderbolt|p2a: Furret
+  -damage|p2a: Furret|0 fnt
+  faint|p2a: Furret
+  -damage|p1a: Minun|1/268|[from] item: Life Orb
+  switch|p2a: Tentacruel|Tentacruel, L84, M|100/100
+  -damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+-- turn 19
+  WE CHOSE: attack thunderbolt - our hp 0.00, theirs 0.88, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to galvantula - our hp 0.00, theirs 0.00, predicted move (guessed) hits us x1
+  move|p1a: Minun|Thunderbolt|p2a: Tentacruel
+  -supereffective|p2a: Tentacruel
+  -damage|p2a: Tentacruel|0 fnt
+  faint|p2a: Tentacruel
+  -damage|p1a: Minun|0 fnt|[from] item: Life Orb
+  faint|p1a: Minun
+  switch|p1a: Galvantula|Galvantula, L82, M|249/249
+  switch|p2a: Samurott|Samurott-Hisui, L77, M|100/100
+  -damage|p2a: Samurott|88/100|[from] Stealth Rock
+-- turn 20
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 0.88, predicted move (guessed) hits us x0.5
+  move|p1a: Galvantula|Bug Buzz|p2a: Samurott
+  -supereffective|p2a: Samurott
+  -damage|p2a: Samurott|0 fnt
+  faint|p2a: Samurott
+  switch|p2a: Hitmonchan|Hitmonchan, L87, M|100/100
+  -damage|p2a: Hitmonchan|94/100|[from] Stealth Rock
+-- turn 21
+  WE CHOSE: attack thunder (hand policy: attack+tera thunder) - our hp 1.00, theirs 0.94, predicted move (guessed) hits us x1
+  move|p1a: Galvantula|Thunder|p2a: Hitmonchan
+  -damage|p2a: Hitmonchan|55/100
+  move|p2a: Hitmonchan|Drain Punch|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|161/249
+  -heal|p2a: Hitmonchan|74/100|[from] drain|[of] p1a: Galvantula
+  -damage|p2a: Hitmonchan|65/100|[from] item: Life Orb
+-- turn 22
+  WE CHOSE: attack thunder - our hp 0.65, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p1a: Galvantula|Thunder|p2a: Hitmonchan
+  -damage|p2a: Hitmonchan|28/100
+  -status|p2a: Hitmonchan|par
+  move|p2a: Hitmonchan|Drain Punch|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|74/249
+  -heal|p2a: Hitmonchan|47/100 par|[from] drain|[of] p1a: Galvantula
+  -damage|p2a: Hitmonchan|37/100 par|[from] item: Life Orb
+-- turn 23
+  WE CHOSE: attack thunder - our hp 0.30, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p1a: Galvantula|Thunder|p2a: Hitmonchan
+  -damage|p2a: Hitmonchan|0 fnt
+  faint|p2a: Hitmonchan
+  switch|p2a: Meowstic|Meowstic-F, L89, F|100/100
+  -damage|p2a: Meowstic|88/100|[from] Stealth Rock
+-- turn 24
+  WE CHOSE: attack bugbuzz - our hp 0.30, theirs 0.88, predicted move (guessed) hits us x1
+  move|p2a: Meowstic|Psychic|p1a: Galvantula
+  -damage|p1a: Galvantula|0 fnt
+  faint|p1a: Galvantula
+  -damage|p2a: Meowstic|78/100|[from] item: Life Orb
+  deinit

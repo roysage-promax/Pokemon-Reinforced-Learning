@@ -1,0 +1,358 @@
+battle 550 (battle-gen9randombattle-1011891): lost in 37 turns, 2 of theirs left; we are p1
+
+ours:
+  leafeon (fainted; item lifeorb, ability chlorophyll; moves knockoff/leafblade/doubleedge/swordsdance)
+  gengar (fainted; item lifeorb, ability cursedbody; moves encore/sludgewave/focusblast/shadowball)
+  indeedee (fainted; item lifeorb, ability psychicsurge; moves dazzlinggleam/calmmind/expandingforce/hypervoice)
+  glaceon (fainted; item heavydutyboots, ability icebody, tera ground; moves freezedry/protect/wish/mudshot)
+  chienpao (fainted; item heavydutyboots, ability swordofruin; moves swordsdance/iciclecrash/suckerpunch/throatchop)
+  scrafty (fainted; item leftovers, ability shedskin; moves knockoff/drainpunch/bulkup/rest)
+theirs (as seen):
+  golduck (fainted; item lifeorb, ability cloudnine; moves hydropump)
+  fluttermane (fainted; item unknown_item, ability protosynthesis; moves moonblast)
+  diancie (fainted; item leftovers, ability clearbody; moves diamondstorm/earthpower)
+  cinccino (fainted; item unknown_item, ability ?; moves tailslap)
+  toxapex (37%; item unknown_item, ability ?; moves liquidation)
+
+-- turn 0
+  switch|p1a: Leafeon|Leafeon, L88, F|258/258
+  switch|p2a: Golduck|Golduck, L90, F|100/100
+  -ability|p2a: Golduck|Cloud Nine
+-- turn 1
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+  -boost|p1a: Leafeon|atk|2
+  move|p2a: Golduck|Hydro Pump|p1a: Leafeon
+  -resisted|p1a: Leafeon
+  -damage|p1a: Leafeon|154/258
+  -damage|p2a: Golduck|90/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack leafblade - our hp 0.60, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p1a: Leafeon|Leaf Blade|p2a: Golduck
+  -supereffective|p2a: Golduck
+  -crit|p2a: Golduck
+  -damage|p2a: Golduck|0 fnt
+  faint|p2a: Golduck
+  -damage|p1a: Leafeon|129/258|[from] item: Life Orb
+  switch|p2a: Flutter Mane|Flutter Mane, L74|100/100
+-- turn 3
+  WE CHOSE: switch to gengar (hand policy: attack leafblade) - our hp 0.50, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Gengar|Gengar, L81, M|230/230
+  move|p2a: Flutter Mane|Moonblast|p1a: Gengar
+  -resisted|p1a: Gengar
+  -damage|p1a: Gengar|146/230
+-- turn 4
+  WE CHOSE: attack shadowball - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Flutter Mane|Moonblast|p1a: Gengar
+  -resisted|p1a: Gengar
+  -damage|p1a: Gengar|55/230
+  move|p1a: Gengar|Shadow Ball|p2a: Flutter Mane
+  -supereffective|p2a: Flutter Mane
+  -damage|p2a: Flutter Mane|3/100
+  -damage|p1a: Gengar|32/230|[from] item: Life Orb
+-- turn 5
+  WE CHOSE: attack shadowball - our hp 0.14, theirs 0.03, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to leafeon - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x0.5
+  move|p2a: Flutter Mane|Moonblast|p1a: Gengar
+  -resisted|p1a: Gengar
+  -crit|p1a: Gengar
+  -damage|p1a: Gengar|0 fnt
+  faint|p1a: Gengar
+  switch|p1a: Leafeon|Leafeon, L88, F|129/258
+-- turn 6
+  WE CHOSE: attack leafblade - our hp 0.50, theirs 0.03, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to indeedee - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Flutter Mane|Moonblast|p1a: Leafeon
+  -damage|p1a: Leafeon|0 fnt
+  faint|p1a: Leafeon
+  switch|p1a: Indeedee|Indeedee, L84, M|238/238
+  -fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+-- turn 7
+  WE CHOSE: attack expandingforce (hand policy: attack+tera expandingforce) - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Flutter Mane|Moonblast|p1a: Indeedee
+  -damage|p1a: Indeedee|87/238
+  -unboost|p1a: Indeedee|spa|1
+  move|p1a: Indeedee|Expanding Force|p2a: Flutter Mane
+  -damage|p2a: Flutter Mane|0 fnt
+  faint|p2a: Flutter Mane
+  -end|p2a: Flutter Mane|Protosynthesis|[silent]
+  -damage|p1a: Indeedee|64/238|[from] item: Life Orb
+  switch|p2a: Diancie|Diancie, L82|100/100
+-- turn 8
+  WE CHOSE: attack expandingforce (hand policy: attack+tera expandingforce) - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to scrafty - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Indeedee|Expanding Force|p2a: Diancie
+  -damage|p2a: Diancie|55/100
+  -damage|p1a: Indeedee|41/238|[from] item: Life Orb
+  move|p2a: Diancie|Diamond Storm|p1a: Indeedee
+  -damage|p1a: Indeedee|0 fnt
+  -boost|p2a: Diancie|def|2
+  faint|p1a: Indeedee
+  -heal|p2a: Diancie|61/100|[from] item: Leftovers
+  switch|p1a: Scrafty|Scrafty, L83, M|244/244
+-- turn 9
+  WE CHOSE: setup bulkup - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|1
+  -boost|p1a: Scrafty|def|1
+  move|p2a: Diancie|Diamond Storm|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|214/244
+  -heal|p1a: Scrafty|229/244|[from] item: Leftovers
+  -heal|p2a: Diancie|67/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: setup bulkup - our hp 0.94, theirs 0.67, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|1
+  -boost|p1a: Scrafty|def|1
+  move|p2a: Diancie|Diamond Storm|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|208/244
+  -boost|p2a: Diancie|def|2
+  -heal|p1a: Scrafty|223/244|[from] item: Leftovers
+  -heal|p2a: Diancie|73/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: setup bulkup (hand policy: attack drainpunch) - our hp 0.91, theirs 0.73, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|1
+  -boost|p1a: Scrafty|def|1
+  move|p2a: Diancie|Diamond Storm|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|207/244
+  -heal|p1a: Scrafty|222/244|[from] item: Leftovers
+  -heal|p2a: Diancie|79/100|[from] item: Leftovers
+  -fieldend|move: Psychic Terrain
+-- turn 12
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.91, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Diancie|Diamond Storm|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|227/244 slp
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|242/244|[from] item: Leftovers
+  -heal|p2a: Diancie|85/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.99, theirs 0.85, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Diancie|Diamond Storm|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|226/244 slp
+  -boost|p2a: Diancie|def|2
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|241/244|[from] item: Leftovers
+  -heal|p2a: Diancie|91/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.99, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Diancie|Diamond Storm|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|225/244 slp
+  -heal|p1a: Scrafty|240/244 slp|[from] item: Leftovers
+  -heal|p2a: Diancie|97/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.98, theirs 0.97, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Diancie|Diamond Storm|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|224/244 slp
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|239/244|[from] item: Leftovers
+  -heal|p2a: Diancie|100/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Diancie|Earth Power|p1a: Scrafty
+  -damage|p1a: Scrafty|195/244 slp
+  -unboost|p1a: Scrafty|spd|1
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|210/244|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Diancie|Earth Power|p1a: Scrafty
+  -damage|p1a: Scrafty|163/244 slp
+  -heal|p1a: Scrafty|178/244 slp|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Diancie|Earth Power|p1a: Scrafty
+  -damage|p1a: Scrafty|97/244 slp
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|112/244|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: heal rest - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Diancie|Earth Power|p1a: Scrafty
+  -damage|p1a: Scrafty|174/244 slp
+  -heal|p1a: Scrafty|189/244 slp|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Diancie|Earth Power|p1a: Scrafty
+  -damage|p1a: Scrafty|114/244 slp
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|129/244|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Diancie|Earth Power|p1a: Scrafty
+  -damage|p1a: Scrafty|173/244 slp
+  -heal|p1a: Scrafty|188/244 slp|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Diancie|Earth Power|p1a: Scrafty
+  -damage|p1a: Scrafty|115/244 slp
+  -heal|p1a: Scrafty|130/244 slp|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Diancie|Earth Power|p1a: Scrafty
+  -damage|p1a: Scrafty|50/244 slp
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|65/244|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: heal rest - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Diancie|Earth Power|p1a: Scrafty
+  -damage|p1a: Scrafty|165/244 slp
+  -heal|p1a: Scrafty|180/244 slp|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack drainpunch - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Diancie|Earth Power|p1a: Scrafty
+  -damage|p1a: Scrafty|108/244 slp
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|123/244|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack drainpunch - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Diancie
+  -damage|p2a: Diancie|87/100
+  -heal|p1a: Scrafty|138/244|[from] drain|[of] p2a: Diancie
+  move|p2a: Diancie|Earth Power|p1a: Scrafty
+  -damage|p1a: Scrafty|68/244
+  -heal|p1a: Scrafty|83/244|[from] item: Leftovers
+  -heal|p2a: Diancie|93/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack drainpunch - our hp 0.34, theirs 0.93, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Diancie
+  -damage|p2a: Diancie|77/100
+  -heal|p1a: Scrafty|100/244|[from] drain|[of] p2a: Diancie
+  move|p2a: Diancie|Earth Power|p1a: Scrafty
+  -damage|p1a: Scrafty|29/244
+  -heal|p1a: Scrafty|44/244|[from] item: Leftovers
+  -heal|p2a: Diancie|83/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack drainpunch - our hp 0.18, theirs 0.83, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to chienpao - our hp 0.00, theirs 0.74, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Diancie
+  -damage|p2a: Diancie|68/100
+  -heal|p1a: Scrafty|61/244|[from] drain|[of] p2a: Diancie
+  move|p2a: Diancie|Earth Power|p1a: Scrafty
+  -damage|p1a: Scrafty|0 fnt
+  faint|p1a: Scrafty
+  -heal|p2a: Diancie|74/100|[from] item: Leftovers
+  switch|p1a: Chien-Pao|Chien-Pao, L72|234/234
+  -ability|p1a: Chien-Pao|Sword of Ruin
+-- turn 29
+  WE CHOSE: attack iciclecrash (hand policy: attack+tera iciclecrash) - our hp 1.00, theirs 0.74, predicted move (revealed) hits us x2
+  move|p1a: Chien-Pao|Icicle Crash|p2a: Diancie
+  -damage|p2a: Diancie|65/100
+  cant|p2a: Diancie|flinch
+  -heal|p2a: Diancie|71/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack iciclecrash (hand policy: attack+tera iciclecrash) - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x2
+  move|p1a: Chien-Pao|Icicle Crash|p2a: Diancie
+  -damage|p2a: Diancie|63/100
+  move|p2a: Diancie|Earth Power|p1a: Chien-Pao
+  -damage|p1a: Chien-Pao|142/234
+  -heal|p2a: Diancie|69/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack iciclecrash (hand policy: attack+tera iciclecrash) - our hp 0.61, theirs 0.69, predicted move (revealed) hits us x2
+  move|p1a: Chien-Pao|Icicle Crash|p2a: Diancie
+  -crit|p2a: Diancie
+  -damage|p2a: Diancie|19/100
+  move|p2a: Diancie|Earth Power|p1a: Chien-Pao
+  -damage|p1a: Chien-Pao|55/234
+  -heal|p2a: Diancie|25/100|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack iciclecrash (hand policy: attack+tera iciclecrash) - our hp 0.24, theirs 0.25, predicted move (revealed) hits us x2
+  move|p1a: Chien-Pao|Icicle Crash|p2a: Diancie
+  -damage|p2a: Diancie|17/100
+  cant|p2a: Diancie|flinch
+  -heal|p2a: Diancie|23/100|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack iciclecrash (hand policy: attack+tera iciclecrash) - our hp 0.24, theirs 0.23, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to glaceon - our hp 0.00, theirs 0.21, predicted move (revealed) hits us x2
+  move|p1a: Chien-Pao|Icicle Crash|p2a: Diancie
+  -damage|p2a: Diancie|15/100
+  move|p2a: Diancie|Earth Power|p1a: Chien-Pao
+  -damage|p1a: Chien-Pao|0 fnt
+  faint|p1a: Chien-Pao
+  -heal|p2a: Diancie|21/100|[from] item: Leftovers
+  switch|p1a: Glaceon|Glaceon, L94, M|275/275
+-- turn 34
+  WE CHOSE: attack+tera mudshot (hand policy: attack+tera freezedry) - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x2
+  -terastallize|p1a: Glaceon|Ground
+  move|p1a: Glaceon|Mud Shot|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|0 fnt
+  faint|p2a: Diancie
+  switch|p2a: Cinccino|Cinccino, L83, F|100/100
+-- turn 35
+  WE CHOSE: attack freezedry - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Cinccino|Tail Slap|p1a: Glaceon
+  -damage|p1a: Glaceon|247/275
+  -damage|p1a: Glaceon|217/275
+  -damage|p1a: Glaceon|189/275
+  -damage|p1a: Glaceon|158/275
+  -hitcount|p1a: Glaceon|4
+  move|p1a: Glaceon|Freeze-Dry|p2a: Cinccino
+  -damage|p2a: Cinccino|37/100
+-- turn 36
+  WE CHOSE: attack freezedry - our hp 0.57, theirs 0.37, predicted move (revealed) hits us x1
+  move|p2a: Cinccino|Tail Slap|p1a: Glaceon
+  -damage|p1a: Glaceon|131/275
+  -damage|p1a: Glaceon|100/275
+  -damage|p1a: Glaceon|70/275
+  -damage|p1a: Glaceon|40/275
+  -hitcount|p1a: Glaceon|4
+  move|p1a: Glaceon|Freeze-Dry|p2a: Cinccino
+  -damage|p2a: Cinccino|0 fnt
+  faint|p2a: Cinccino
+  switch|p2a: Toxapex|Toxapex, L82, F|100/100
+-- turn 37
+  WE CHOSE: attack mudshot - our hp 0.15, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Glaceon|Mud Shot|p2a: Toxapex
+  -supereffective|p2a: Toxapex
+  -damage|p2a: Toxapex|37/100
+  -unboost|p2a: Toxapex|spe|1
+  move|p2a: Toxapex|Liquidation|p1a: Glaceon
+  -supereffective|p1a: Glaceon
+  -damage|p1a: Glaceon|0 fnt
+  faint|p1a: Glaceon
+  deinit

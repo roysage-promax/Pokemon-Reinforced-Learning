@@ -1,0 +1,477 @@
+battle 1049 (battle-gen9randombattle-1016184): lost in 53 turns, 3 of theirs left; we are p1
+
+ours:
+  rotom (fainted; item lifeorb, ability levitate; moves willowisp/nastyplot/shadowball/thunderbolt)
+  eiscue (fainted; item ?, ability iceface; moves icespinner/bellydrum/liquidation/terablast)
+  pawmot (fainted; item lifeorb, ability ironfist, tera electric; moves icepunch/closecombat/doubleshock/revivalblessing)
+  honchkrow (fainted; item heavydutyboots, ability moxie; moves uturn/bravebird/heatwave/suckerpunch)
+  gengar (fainted; item choicespecs, ability cursedbody; moves trick/sludgewave/shadowball/focusblast)
+  volbeat (fainted; item heavydutyboots, ability prankster; moves roost/uturn/thunderwave/encore)
+theirs (as seen):
+  floatzel (fainted; item unknown_item, ability ?; moves wavecrash)
+  cyclizar (fainted; item unknown_item, ability ?; moves dracometeor)
+  pachirisu (fainted; item unknown_item, ability ?; moves discharge)
+  gliscor (88%; item unknown_item, ability ?; moves earthquake/substitute/toxic)
+
+-- turn 0
+  switch|p1a: Rotom|Rotom, L88|231/231
+  switch|p2a: Floatzel|Floatzel, L86, F|100/100
+-- turn 1
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to pawmot - our hp 0.00, theirs 0.74, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Rotom
+  -damage|p1a: Rotom|0 fnt
+  faint|p1a: Rotom
+  -damage|p2a: Floatzel|74/100|[from] Recoil
+  switch|p1a: Pawmot|Pawmot, L80, M|243/243
+-- turn 2
+  WE CHOSE: attack+tera doubleshock - our hp 1.00, theirs 0.74, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to honchkrow - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x1
+  -terastallize|p1a: Pawmot|Electric
+  move|p2a: Floatzel|Wave Crash|p1a: Pawmot
+  -damage|p1a: Pawmot|0 fnt
+  faint|p1a: Pawmot
+  -damage|p2a: Floatzel|46/100|[from] Recoil
+  switch|p1a: Honchkrow|Honchkrow, L86, M|312/312
+-- turn 3
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Honchkrow
+  -damage|p1a: Honchkrow|38/312
+  -damage|p2a: Floatzel|14/100|[from] Recoil
+  move|p1a: Honchkrow|Brave Bird|p2a: Floatzel
+  -damage|p2a: Floatzel|0 fnt
+  faint|p2a: Floatzel
+  -ability|p1a: Honchkrow|Moxie|boost
+  -boost|p1a: Honchkrow|atk|1
+  -damage|p1a: Honchkrow|25/312|[from] Recoil
+  switch|p2a: Cyclizar|Cyclizar, L84, F|100/100
+-- turn 4
+  WE CHOSE: attack bravebird - our hp 0.08, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to eiscue - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cyclizar|Draco Meteor|p1a: Honchkrow
+  -damage|p1a: Honchkrow|0 fnt
+  -unboost|p2a: Cyclizar|spa|2
+  faint|p1a: Honchkrow
+  switch|p1a: Eiscue|Eiscue, L88, M|274/274
+-- turn 5
+  WE CHOSE: attack icespinner - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cyclizar|Draco Meteor|p1a: Eiscue
+  -damage|p1a: Eiscue|214/274
+  -unboost|p2a: Cyclizar|spa|2
+  move|p1a: Eiscue|Ice Spinner|p2a: Cyclizar
+  -supereffective|p2a: Cyclizar
+  -damage|p2a: Cyclizar|25/100
+-- turn 6
+  WE CHOSE: attack icespinner - our hp 0.78, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Cyclizar|Draco Meteor|p1a: Eiscue
+  -damage|p1a: Eiscue|178/274
+  -unboost|p2a: Cyclizar|spa|2
+  move|p1a: Eiscue|Ice Spinner|p2a: Cyclizar
+  -supereffective|p2a: Cyclizar
+  -damage|p2a: Cyclizar|0 fnt
+  faint|p2a: Cyclizar
+  switch|p2a: Pachirisu|Pachirisu, L96, M|100/100
+-- turn 7
+  WE CHOSE: attack icespinner - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Pachirisu|Discharge|p1a: Eiscue
+  -damage|p1a: Eiscue|120/274
+  -enditem|p1a: Eiscue|Sitrus Berry|[eat]
+  -heal|p1a: Eiscue|188/274|[from] item: Sitrus Berry
+  move|p1a: Eiscue|Ice Spinner|p2a: Pachirisu
+  -damage|p2a: Pachirisu|70/100
+-- turn 8
+  WE CHOSE: attack icespinner - our hp 0.69, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Pachirisu|Discharge|p1a: Eiscue
+  -damage|p1a: Eiscue|130/274
+  move|p1a: Eiscue|Ice Spinner|p2a: Pachirisu
+  -damage|p2a: Pachirisu|36/100
+-- turn 9
+  WE CHOSE: attack icespinner - our hp 0.47, theirs 0.36, predicted move (revealed) hits us x1
+  move|p2a: Pachirisu|Discharge|p1a: Eiscue
+  -damage|p1a: Eiscue|70/274
+  -status|p1a: Eiscue|par
+  move|p1a: Eiscue|Ice Spinner|p2a: Pachirisu
+  -damage|p2a: Pachirisu|7/100
+-- turn 10
+  WE CHOSE: attack icespinner - our hp 0.26, theirs 0.07, predicted move (revealed) hits us x1
+  move|p2a: Pachirisu|Discharge|p1a: Eiscue
+  -damage|p1a: Eiscue|12/274 par
+  cant|p1a: Eiscue|par
+-- turn 11
+  WE CHOSE: attack icespinner - our hp 0.04, theirs 0.07, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gengar - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x1
+  move|p2a: Pachirisu|Discharge|p1a: Eiscue
+  -damage|p1a: Eiscue|0 fnt
+  faint|p1a: Eiscue
+  switch|p1a: Gengar|Gengar, L81, M|230/230
+-- turn 12
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x1
+  move|p2a: Pachirisu|Discharge|p1a: Gengar
+  -damage|p1a: Gengar|154/230
+  move|p1a: Gengar|Sludge Wave|p2a: Pachirisu
+  -damage|p2a: Pachirisu|0 fnt
+  faint|p2a: Pachirisu
+  switch|p2a: Gliscor|Gliscor, L76, F|100/100
+-- turn 13
+  WE CHOSE: switch to volbeat - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Volbeat|Volbeat, L90, M|263/263
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|221/263
+  -status|p2a: Gliscor|tox|[from] item: Toxic Orb
+-- turn 14
+  WE CHOSE: attack uturn - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to gengar - our hp 0.84, theirs 0.88, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 0.99, predicted move (revealed) hits us x2
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|88/100 tox
+  switch|p1a: Gengar|Gengar, L81, M|154/230|[from] U-turn
+  move|p2a: Gliscor|Earthquake|p1a: Gengar
+  -supereffective|p1a: Gengar
+  -damage|p1a: Gengar|0 fnt
+  faint|p1a: Gengar
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+  switch|p1a: Volbeat|Volbeat, L90, M|221/263
+-- turn 15
+  WE CHOSE: attack uturn - our hp 0.84, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|88/100 tox
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|173/263
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 16
+  WE CHOSE: attack uturn - our hp 0.66, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|87/100 tox
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|129/263
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 17
+  WE CHOSE: heal roost - our hp 0.49, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|261/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|216/263
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 18
+  WE CHOSE: attack uturn - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|89/100 tox
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|168/263
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 19
+  WE CHOSE: attack uturn - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|88/100 tox
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|121/263
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 20
+  WE CHOSE: heal roost - our hp 0.46, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|253/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -crit|p1a: Volbeat
+  -damage|p1a: Volbeat|183/263
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 21
+  WE CHOSE: attack uturn - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|89/100 tox
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|138/263
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 22
+  WE CHOSE: attack uturn - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|88/100 tox
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|90/263
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 23
+  WE CHOSE: heal roost - our hp 0.34, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|222/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|173/263
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 24
+  WE CHOSE: attack uturn - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|89/100 tox
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|128/263
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 25
+  WE CHOSE: heal roost - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|260/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|218/263
+-- turn 26
+  WE CHOSE: attack uturn - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|88/100 tox
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|176/263
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 27
+  WE CHOSE: attack uturn - our hp 0.67, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|88/100 tox
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|134/263
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 28
+  WE CHOSE: attack uturn - our hp 0.51, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|87/100 tox
+  move|p2a: Gliscor|Earthquake|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|92/263
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 29
+  WE CHOSE: heal roost - our hp 0.35, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|224/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|74/100 tox
+  -heal|p2a: Gliscor|86/100 tox|[from] ability: Poison Heal
+-- turn 30
+  WE CHOSE: attack uturn - our hp 0.85, theirs 0.86, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|98/100 tox|[from] ability: Poison Heal
+-- turn 31
+  WE CHOSE: attack uturn - our hp 0.85, theirs 0.98, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 32
+  WE CHOSE: attack uturn - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|76/100 tox
+  -heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+-- turn 33
+  WE CHOSE: attack uturn - our hp 0.85, theirs 0.88, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 34
+  WE CHOSE: attack uturn - our hp 0.85, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 35
+  WE CHOSE: attack uturn - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|76/100 tox
+  -heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+-- turn 36
+  WE CHOSE: attack uturn - our hp 0.85, theirs 0.88, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 37
+  WE CHOSE: attack uturn - our hp 0.85, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|75/100 tox
+  -heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+-- turn 38
+  WE CHOSE: attack uturn - our hp 0.85, theirs 0.88, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 39
+  WE CHOSE: attack uturn - our hp 0.85, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|75/100 tox
+  -heal|p2a: Gliscor|87/100 tox|[from] ability: Poison Heal
+-- turn 40
+  WE CHOSE: attack uturn - our hp 0.85, theirs 0.87, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -crit|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 41
+  WE CHOSE: attack uturn - our hp 0.85, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|75/100 tox
+  -heal|p2a: Gliscor|87/100 tox|[from] ability: Poison Heal
+-- turn 42
+  WE CHOSE: attack uturn - our hp 0.85, theirs 0.87, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 43
+  WE CHOSE: attack uturn - our hp 0.85, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 44
+  WE CHOSE: attack uturn - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|76/100 tox
+  -heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+-- turn 45
+  WE CHOSE: attack uturn - our hp 0.85, theirs 0.88, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Toxic|p1a: Volbeat
+  -status|p1a: Volbeat|tox
+  -damage|p1a: Volbeat|208/263 tox|[from] psn
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 46
+  WE CHOSE: attack uturn - our hp 0.79, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Toxic|p1a: Volbeat
+  -fail|p1a: Volbeat|tox
+  -damage|p1a: Volbeat|176/263 tox|[from] psn
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 47
+  WE CHOSE: attack uturn - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|87/100 tox
+  move|p2a: Gliscor|Toxic|p1a: Volbeat
+  -fail|p1a: Volbeat|tox
+  -damage|p1a: Volbeat|128/263 tox|[from] psn
+  -heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+-- turn 48
+  WE CHOSE: heal roost - our hp 0.49, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|260/263 tox
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Gliscor|Toxic|p1a: Volbeat
+  -fail|p1a: Volbeat|tox
+  -damage|p1a: Volbeat|196/263 tox|[from] psn
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 49
+  WE CHOSE: attack uturn - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|89/100 tox
+  move|p2a: Gliscor|Toxic|p1a: Volbeat
+  -fail|p1a: Volbeat|tox
+  -damage|p1a: Volbeat|116/263 tox|[from] psn
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 50
+  WE CHOSE: heal roost - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|248/263 tox
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Gliscor|Toxic|p1a: Volbeat|[miss]
+  -miss|p2a: Gliscor|p1a: Volbeat
+  -damage|p1a: Volbeat|152/263 tox|[from] psn
+-- turn 51
+  WE CHOSE: attack uturn - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|89/100 tox
+  move|p2a: Gliscor|Toxic|p1a: Volbeat|[miss]
+  -miss|p2a: Gliscor|p1a: Volbeat
+  -damage|p1a: Volbeat|40/263 tox|[from] psn
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 52
+  WE CHOSE: heal roost - our hp 0.15, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|172/263 tox
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Gliscor|Toxic|p1a: Volbeat
+  -fail|p1a: Volbeat|tox
+  -damage|p1a: Volbeat|44/263 tox|[from] psn
+-- turn 53
+  WE CHOSE: attack uturn - our hp 0.17, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|88/100 tox
+  move|p2a: Gliscor|Toxic|p1a: Volbeat
+  -fail|p1a: Volbeat|tox
+  -damage|p1a: Volbeat|0 fnt|[from] psn
+  faint|p1a: Volbeat
+  deinit

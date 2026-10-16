@@ -1,0 +1,167 @@
+battle 1207 (battle-gen9randombattle-1018555): lost in 17 turns, 3 of theirs left; we are p1
+
+ours:
+  qwilfish (fainted; item leftovers, ability intimidate; moves spikes/waterfall/thunderwave/gunkshot)
+  slaking (fainted; item choicescarf, ability truant; moves gigaimpact/doubleedge/earthquake/knockoff)
+  uxie (fainted; item leftovers, ability levitate, tera electric; moves stealthrock/knockoff/psychicnoise/uturn)
+  gallade (fainted; item choiceband, ability sharpness; moves sacredsword/psychocut/leafblade/nightslash)
+  luvdisc (fainted; item heavydutyboots, ability swiftswim; moves endeavor/flipturn/surf/substitute)
+  scyther (fainted; item heavydutyboots, ability technician; moves swordsdance/dualwingbeat/bugbite/closecombat)
+theirs (as seen):
+  necrozma (fainted; item leftovers, ability prismarmor; moves photongeyser)
+  arceuselectric (fainted; item unknown_item, ability multitype; moves judgment)
+  pikachuunova (fainted; item unknown_item, ability ?; moves volttackle)
+  bombirdier (16%; item unknown_item, ability ?; moves bravebird)
+
+-- turn 0
+  switch|p1a: Qwilfish|Qwilfish, L86, M|252/252
+  switch|p2a: Necrozma|Necrozma, L80|100/100
+  -ability|p1a: Qwilfish|Intimidate|boost
+  -unboost|p2a: Necrozma|atk|1
+-- turn 1
+  WE CHOSE: switch to scyther - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Scyther|Scyther, L82, F|249/249
+  move|p2a: Necrozma|Photon Geyser|p1a: Scyther
+  -damage|p1a: Scyther|120/249
+-- turn 2
+  WE CHOSE: attack bugbite - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to uxie - our hp 0.00, theirs 0.59, predicted move (revealed) hits us x1
+  move|p1a: Scyther|Bug Bite|p2a: Necrozma
+  -supereffective|p2a: Necrozma
+  -damage|p2a: Necrozma|53/100
+  move|p2a: Necrozma|Photon Geyser|p1a: Scyther
+  -damage|p1a: Scyther|0 fnt
+  faint|p1a: Scyther
+  -heal|p2a: Necrozma|59/100|[from] item: Leftovers
+  switch|p1a: Uxie|Uxie, L83|260/260
+-- turn 3
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.59, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to slaking - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Uxie|U-turn|p2a: Necrozma
+  -supereffective|p2a: Necrozma
+  -damage|p2a: Necrozma|38/100
+  switch|p1a: Slaking|Slaking, L84, F|389/389|[from] U-turn
+  move|p2a: Necrozma|Photon Geyser|p1a: Slaking
+  -damage|p1a: Slaking|236/389
+  -heal|p2a: Necrozma|44/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack gigaimpact (hand policy: attack+tera gigaimpact) - our hp 0.61, theirs 0.44, predicted move (revealed) hits us x1
+  move|p1a: Slaking|Giga Impact|p2a: Necrozma
+  -damage|p2a: Necrozma|0 fnt
+  -mustrecharge|p1a: Slaking
+  faint|p2a: Necrozma
+  switch|p2a: Arceus|Arceus-Electric, L70|100/100
+-- turn 5
+  WE CHOSE: attack gigaimpact - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x1
+  cant|p1a: Slaking|recharge
+  move|p2a: Arceus|Judgment|p1a: Slaking
+  -damage|p1a: Slaking|107/389
+-- turn 6
+  WE CHOSE: switch to qwilfish (hand policy: attack+tera gigaimpact) - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to slaking - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Qwilfish|Qwilfish, L86, M|252/252
+  -ability|p1a: Qwilfish|Intimidate|boost
+  -unboost|p2a: Arceus|atk|1
+  move|p2a: Arceus|Judgment|p1a: Qwilfish
+  -supereffective|p1a: Qwilfish
+  -damage|p1a: Qwilfish|0 fnt
+  faint|p1a: Qwilfish
+  switch|p1a: Slaking|Slaking, L84, F|107/389
+-- turn 7
+  WE CHOSE: attack gigaimpact (hand policy: attack+tera gigaimpact) - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gallade - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p1a: Slaking|Giga Impact|p2a: Arceus
+  -damage|p2a: Arceus|19/100
+  -mustrecharge|p1a: Slaking
+  move|p2a: Arceus|Judgment|p1a: Slaking
+  -damage|p1a: Slaking|0 fnt
+  faint|p1a: Slaking
+  switch|p1a: Gallade|Gallade, L80, M|240/240
+-- turn 8
+  WE CHOSE: attack sacredsword - our hp 1.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Gallade
+  -damage|p1a: Gallade|147/240
+  move|p1a: Gallade|Sacred Sword|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  switch|p2a: Pikachu|Pikachu-Unova, L93, M|100/100
+-- turn 9
+  WE CHOSE: attack sacredsword - our hp 0.61, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to uxie - our hp 0.00, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Pikachu|Volt Tackle|p1a: Gallade
+  -damage|p1a: Gallade|0 fnt
+  faint|p1a: Gallade
+  -damage|p2a: Pikachu|78/100|[from] Recoil
+  switch|p1a: Uxie|Uxie, L83|260/260
+-- turn 10
+  WE CHOSE: attack+tera psychicnoise - our hp 1.00, theirs 0.78, predicted move (revealed) hits us x1
+  -terastallize|p1a: Uxie|Electric
+  move|p2a: Pikachu|Volt Tackle|p1a: Uxie
+  -resisted|p1a: Uxie
+  -damage|p1a: Uxie|186/260
+  -damage|p2a: Pikachu|67/100|[from] Recoil
+  move|p1a: Uxie|Psychic Noise|p2a: Pikachu
+  -damage|p2a: Pikachu|28/100
+  -start|p2a: Pikachu|move: Heal Block
+  -heal|p1a: Uxie|202/260|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack uturn (hand policy: attack psychicnoise) - our hp 0.78, theirs 0.28, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to luvdisc - our hp 0.47, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p2a: Pikachu|Volt Tackle|p1a: Uxie
+  -resisted|p1a: Uxie
+  -damage|p1a: Uxie|123/260
+  -damage|p2a: Pikachu|16/100|[from] Recoil
+  move|p1a: Uxie|U-turn|p2a: Pikachu
+  -damage|p2a: Pikachu|0 fnt
+  faint|p2a: Pikachu
+  switch|p1a: Luvdisc|Luvdisc, M|247/247|[from] U-turn
+  switch|p2a: Bombirdier|Bombirdier, L85, F|100/100
+-- turn 12
+  WE CHOSE: attack substitute (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Bombirdier|Brave Bird|p1a: Luvdisc
+  -damage|p1a: Luvdisc|91/247
+  -damage|p2a: Bombirdier|81/100|[from] Recoil
+  move|p1a: Luvdisc|Substitute|p1a: Luvdisc
+  -start|p1a: Luvdisc|Substitute
+  -damage|p1a: Luvdisc|30/247
+-- turn 13
+  WE CHOSE: attack substitute (hand policy: attack surf) - our hp 0.12, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Bombirdier|Brave Bird|p1a: Luvdisc
+  -end|p1a: Luvdisc|Substitute
+  -damage|p2a: Bombirdier|73/100|[from] Recoil
+  move|p1a: Luvdisc|Substitute|p1a: Luvdisc
+  -fail|p1a: Luvdisc|move: Substitute|[weak]
+-- turn 14
+  WE CHOSE: attack substitute (hand policy: attack surf) - our hp 0.12, theirs 0.73, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to uxie - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Bombirdier|Brave Bird|p1a: Luvdisc
+  -damage|p1a: Luvdisc|0 fnt
+  faint|p1a: Luvdisc
+  -damage|p2a: Bombirdier|69/100|[from] Recoil
+  switch|p1a: Uxie|Uxie, L83, tera:Electric|123/260
+-- turn 15
+  WE CHOSE: attack uturn - our hp 0.47, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p2a: Bombirdier|Brave Bird|p1a: Uxie
+  -resisted|p1a: Uxie
+  -damage|p1a: Uxie|73/260
+  -damage|p2a: Bombirdier|63/100|[from] Recoil
+  move|p1a: Uxie|U-turn|p2a: Bombirdier
+  -damage|p2a: Bombirdier|45/100
+  -heal|p1a: Uxie|89/260|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack uturn - our hp 0.34, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p2a: Bombirdier|Brave Bird|p1a: Uxie
+  -resisted|p1a: Uxie
+  -damage|p1a: Uxie|37/260
+  -damage|p2a: Bombirdier|39/100|[from] Recoil
+  move|p1a: Uxie|U-turn|p2a: Bombirdier
+  -damage|p2a: Bombirdier|23/100
+  -heal|p1a: Uxie|53/260|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack uturn - our hp 0.20, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p2a: Bombirdier|Brave Bird|p1a: Uxie
+  -resisted|p1a: Uxie
+  -damage|p1a: Uxie|0 fnt
+  faint|p1a: Uxie
+  -damage|p2a: Bombirdier|16/100|[from] Recoil
+  deinit

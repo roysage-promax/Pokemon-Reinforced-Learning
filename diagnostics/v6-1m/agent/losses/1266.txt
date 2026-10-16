@@ -1,0 +1,201 @@
+battle 1266 (battle-gen9randombattle-1019140): lost in 21 turns, 2 of theirs left; we are p1
+
+ours:
+  coalossal (fainted; item heavydutyboots, ability flamebody; moves stoneedge/overheat/rapidspin/spikes)
+  cetitan (fainted; item lifeorb, ability sheerforce; moves iciclecrash/iceshard/earthquake/liquidation)
+  dodrio (fainted; item heavydutyboots, ability earlybird; moves doubleedge/drillrun/swordsdance/bravebird)
+  morpeko (fainted; item heavydutyboots, ability hungerswitch; moves partingshot/protect/aurawheel/rapidspin)
+  grumpig (fainted; item leftovers, ability thickfat, tera fighting; moves nastyplot/focusblast/shadowball/psyshock)
+  conkeldurr (fainted; item flameorb, ability guts; moves facade/machpunch/knockoff/closecombat)
+theirs (as seen):
+  ironthorns (fainted; item unknown_item, ability quarkdrive; moves stoneedge)
+  greninja (fainted; item lifeorb, ability ?; moves gunkshot)
+  darkrai (fainted; item leftovers, ability baddreams; moves sludgebomb)
+  misdreavus (fainted; item unknown_item, ability levitate; moves shadowball)
+  barraskewda (100%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Coalossal|Coalossal, L89, M|341/341
+  switch|p2a: Iron Thorns|Iron Thorns, L83|100/100
+-- turn 1
+  WE CHOSE: switch to dodrio - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Dodrio|Dodrio, L85, F|241/241
+  move|p2a: Iron Thorns|Stone Edge|p1a: Dodrio|[miss]
+  -miss|p2a: Iron Thorns|p1a: Dodrio
+-- turn 2
+  WE CHOSE: switch to conkeldurr - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Conkeldurr|Conkeldurr, L80, M|299/299
+  move|p2a: Iron Thorns|Stone Edge|p1a: Conkeldurr
+  -resisted|p1a: Conkeldurr
+  -damage|p1a: Conkeldurr|238/299
+  -status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+-- turn 3
+  WE CHOSE: attack closecombat - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Thorns|Stone Edge|p1a: Conkeldurr
+  -resisted|p1a: Conkeldurr
+  -damage|p1a: Conkeldurr|177/299 brn
+  move|p1a: Conkeldurr|Close Combat|p2a: Iron Thorns
+  -supereffective|p2a: Iron Thorns
+  -damage|p2a: Iron Thorns|0 fnt
+  -unboost|p1a: Conkeldurr|def|1
+  -unboost|p1a: Conkeldurr|spd|1
+  faint|p2a: Iron Thorns
+  -end|p2a: Iron Thorns|Quark Drive|[silent]
+  -damage|p1a: Conkeldurr|159/299 brn|[from] brn
+  switch|p2a: Greninja|Greninja, L80, M|100/100
+-- turn 4
+  WE CHOSE: attack closecombat - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dodrio (hand policy: forced: switch to morpeko) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Greninja|Gunk Shot|p1a: Conkeldurr
+  -damage|p1a: Conkeldurr|2/299 brn
+  -damage|p2a: Greninja|91/100|[from] item: Life Orb
+  move|p1a: Conkeldurr|Close Combat|p2a: Greninja
+  -supereffective|p2a: Greninja
+  -damage|p2a: Greninja|0 fnt
+  -unboost|p1a: Conkeldurr|def|1
+  -unboost|p1a: Conkeldurr|spd|1
+  faint|p2a: Greninja
+  -damage|p1a: Conkeldurr|0 fnt|[from] brn
+  faint|p1a: Conkeldurr
+  switch|p2a: Darkrai|Darkrai, L77|100/100
+  switch|p1a: Dodrio|Dodrio, L85, F|241/241
+-- turn 5
+  WE CHOSE: switch to grumpig (hand policy: attack doubleedge) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Grumpig|Grumpig, L92, M|297/297
+  move|p2a: Darkrai|Sludge Bomb|p1a: Grumpig
+  -damage|p1a: Grumpig|242/297
+  -status|p1a: Grumpig|psn
+  -heal|p1a: Grumpig|260/297 psn|[from] item: Leftovers
+  -damage|p1a: Grumpig|223/297 psn|[from] psn
+-- turn 6
+  WE CHOSE: attack+tera focusblast - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Grumpig|Fighting
+  move|p2a: Darkrai|Sludge Bomb|p1a: Grumpig
+  -damage|p1a: Grumpig|165/297 psn
+  move|p1a: Grumpig|Focus Blast|p2a: Darkrai|[miss]
+  -miss|p1a: Grumpig|p2a: Darkrai
+  -heal|p1a: Grumpig|183/297 psn|[from] item: Leftovers
+  -damage|p1a: Grumpig|146/297 psn|[from] psn
+-- turn 7
+  WE CHOSE: switch to coalossal (hand policy: attack focusblast) - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Coalossal|Coalossal, L89, M|341/341
+  move|p2a: Darkrai|Sludge Bomb|p1a: Coalossal
+  -resisted|p1a: Coalossal
+  -damage|p1a: Coalossal|312/341
+-- turn 8
+  WE CHOSE: attack overheat - our hp 0.91, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Darkrai|Sludge Bomb|p1a: Coalossal
+  -resisted|p1a: Coalossal
+  -damage|p1a: Coalossal|279/341
+  move|p1a: Coalossal|Overheat|p2a: Darkrai
+  -damage|p2a: Darkrai|35/100
+  -unboost|p1a: Coalossal|spa|2
+  -heal|p2a: Darkrai|41/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack stoneedge - our hp 0.82, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p2a: Darkrai|Sludge Bomb|p1a: Coalossal
+  -resisted|p1a: Coalossal
+  -damage|p1a: Coalossal|247/341
+  -status|p1a: Coalossal|psn
+  move|p1a: Coalossal|Stone Edge|p2a: Darkrai|[miss]
+  -miss|p1a: Coalossal|p2a: Darkrai
+  -heal|p2a: Darkrai|47/100|[from] item: Leftovers
+  -damage|p1a: Coalossal|205/341 psn|[from] psn
+-- turn 10
+  WE CHOSE: attack stoneedge - our hp 0.60, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p2a: Darkrai|Sludge Bomb|p1a: Coalossal
+  -resisted|p1a: Coalossal
+  -damage|p1a: Coalossal|174/341 psn
+  move|p1a: Coalossal|Stone Edge|p2a: Darkrai
+  -damage|p2a: Darkrai|3/100
+  -heal|p2a: Darkrai|9/100|[from] item: Leftovers
+  -damage|p1a: Coalossal|132/341 psn|[from] psn
+-- turn 11
+  WE CHOSE: attack stoneedge - our hp 0.39, theirs 0.09, predicted move (revealed) hits us x0.5
+  move|p2a: Darkrai|Sludge Bomb|p1a: Coalossal
+  -resisted|p1a: Coalossal
+  -damage|p1a: Coalossal|99/341 psn
+  move|p1a: Coalossal|Stone Edge|p2a: Darkrai|[miss]
+  -miss|p1a: Coalossal|p2a: Darkrai
+  -heal|p2a: Darkrai|15/100|[from] item: Leftovers
+  -damage|p1a: Coalossal|57/341 psn|[from] psn
+-- turn 12
+  WE CHOSE: attack stoneedge - our hp 0.17, theirs 0.15, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to grumpig - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p2a: Darkrai|Sludge Bomb|p1a: Coalossal
+  -resisted|p1a: Coalossal
+  -damage|p1a: Coalossal|23/341 psn
+  move|p1a: Coalossal|Stone Edge|p2a: Darkrai
+  -damage|p2a: Darkrai|0 fnt
+  faint|p2a: Darkrai
+  -damage|p1a: Coalossal|0 fnt|[from] psn
+  faint|p1a: Coalossal
+  switch|p2a: Misdreavus|Misdreavus, L90, F|100/100
+  switch|p1a: Grumpig|Grumpig, L92, M, tera:Fighting|146/297 psn
+-- turn 13
+  WE CHOSE: switch to dodrio - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dodrio|Dodrio, L85, F|241/241
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 14
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+  -boost|p1a: Dodrio|atk|2
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 15
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+  -boost|p1a: Dodrio|atk|2
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 16
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+  -boost|p1a: Dodrio|atk|2
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 17
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Brave Bird|p2a: Misdreavus
+  -damage|p2a: Misdreavus|0 fnt
+  faint|p2a: Misdreavus
+  -damage|p1a: Dodrio|157/241|[from] Recoil
+  switch|p2a: Barraskewda|Barraskewda, L81, M, shiny|100/100
+-- turn 18
+  WE CHOSE: attack doubleedge - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to grumpig (hand policy: forced: switch to morpeko) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Barraskewda|Close Combat|p1a: Dodrio
+  -damage|p1a: Dodrio|0 fnt
+  -unboost|p2a: Barraskewda|def|1
+  -unboost|p2a: Barraskewda|spd|1
+  faint|p1a: Dodrio
+  switch|p1a: Grumpig|Grumpig, L92, M, tera:Fighting|146/297 psn
+-- turn 19
+  WE CHOSE: attack focusblast - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to morpeko - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Barraskewda|Close Combat|p1a: Grumpig
+  -damage|p1a: Grumpig|0 fnt
+  -unboost|p2a: Barraskewda|def|1
+  -unboost|p2a: Barraskewda|spd|1
+  faint|p1a: Grumpig
+  switch|p1a: Morpeko|Morpeko, L88, F|245/245
+-- turn 20
+  WE CHOSE: attack aurawheel - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to cetitan - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Barraskewda|Close Combat|p1a: Morpeko
+  -supereffective|p1a: Morpeko
+  -damage|p1a: Morpeko|0 fnt
+  -unboost|p2a: Barraskewda|def|1
+  -unboost|p2a: Barraskewda|spd|1
+  faint|p1a: Morpeko
+  switch|p1a: Cetitan|Cetitan, L82, F|413/413
+-- turn 21
+  WE CHOSE: attack iciclecrash (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Barraskewda|Close Combat|p1a: Cetitan
+  -supereffective|p1a: Cetitan
+  -crit|p1a: Cetitan
+  -damage|p1a: Cetitan|0 fnt
+  -unboost|p2a: Barraskewda|def|1
+  -unboost|p2a: Barraskewda|spd|1
+  faint|p1a: Cetitan

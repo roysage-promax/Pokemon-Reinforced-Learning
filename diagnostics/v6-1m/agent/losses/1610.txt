@@ -1,0 +1,168 @@
+battle 1610 (battle-gen9randombattle-1022705): lost in 18 turns, 2 of theirs left; we are p1
+
+ours:
+  crawdaunt (fainted; item lifeorb, ability adaptability, tera water; moves crabhammer/aquajet/dragondance/knockoff)
+  heracross (fainted; item choiceband, ability moxie; moves closecombat/stoneedge/earthquake/megahorn)
+  okidogi (fainted; item assaultvest, ability toxicchain; moves knockoff/drainpunch/psychicfangs/gunkshot)
+  galvantula (fainted; item heavydutyboots, ability compoundeyes; moves energyball/bugbuzz/stickyweb/thunder)
+  toucannon (fainted; item heavydutyboots, ability keeneye; moves uturn/beakblast/boomburst/roost)
+  calyrexshadow (fainted; item choicespecs, ability asonespectrier; moves pollenpuff/astralbarrage/trick/psyshock)
+theirs (as seen):
+  sandyshocks (fainted; item unknown_item, ability protosynthesis; moves thunderbolt)
+  jumpluff (fainted; item unknown_item, ability ?; moves acrobatics)
+  hydreigon (fainted; item unknown_item, ability levitate; moves dracometeor)
+  stonjourner (fainted; item unknown_item, ability powerspot; moves -)
+  gholdengo (100%; item unknown_item, ability goodasgold; moves makeitrain)
+
+-- turn 0
+  switch|p1a: Crawdaunt|Crawdaunt, L84, F|243/243
+  switch|p2a: Sandy Shocks|Sandy Shocks, L80|100/100
+-- turn 1
+  WE CHOSE: switch to toucannon - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Toucannon|Toucannon, L88, M|284/284
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Toucannon
+  -supereffective|p1a: Toucannon
+  -damage|p1a: Toucannon|74/284
+-- turn 2
+  WE CHOSE: switch to galvantula - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Galvantula|Galvantula, L82, F|249/249
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|177/249
+-- turn 3
+  WE CHOSE: attack energyball - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Galvantula|Energy Ball|p2a: Sandy Shocks
+  -supereffective|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|56/100
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|104/249
+-- turn 4
+  WE CHOSE: attack energyball - our hp 0.42, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p1a: Galvantula|Energy Ball|p2a: Sandy Shocks
+  -supereffective|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|2/100
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|36/249
+-- turn 5
+  WE CHOSE: attack energyball - our hp 0.14, theirs 0.02, predicted move (revealed) hits us x0.5
+  move|p1a: Galvantula|Energy Ball|p2a: Sandy Shocks
+  -supereffective|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|0 fnt
+  faint|p2a: Sandy Shocks
+  -end|p2a: Sandy Shocks|Protosynthesis|[silent]
+  switch|p2a: Jumpluff|Jumpluff, L87, M|100/100
+-- turn 6
+  WE CHOSE: switch to okidogi (hand policy: attack bugbuzz) - our hp 0.14, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Okidogi|Okidogi, L77, M|262/262
+  move|p2a: Jumpluff|Acrobatics|p1a: Okidogi
+  -supereffective|p1a: Okidogi
+  -damage|p1a: Okidogi|112/262
+-- turn 7
+  WE CHOSE: switch to toucannon (hand policy: attack gunkshot) - our hp 0.43, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to calyrexshadow - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Toucannon|Toucannon, L88, M|74/284
+  move|p2a: Jumpluff|Acrobatics|p1a: Toucannon
+  -damage|p1a: Toucannon|0 fnt
+  faint|p1a: Toucannon
+  switch|p1a: Calyrex|Calyrex-Shadow, L64|235/235
+  -ability|p1a: Calyrex|As One
+  -ability|p1a: Calyrex|Unnerve
+-- turn 8
+  WE CHOSE: attack astralbarrage (hand policy: attack+tera astralbarrage) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Jumpluff|Acrobatics|p1a: Calyrex
+  -damage|p1a: Calyrex|117/235
+  move|p1a: Calyrex|Astral Barrage|p2a: Jumpluff
+  -damage|p2a: Jumpluff|47/100
+-- turn 9
+  WE CHOSE: attack astralbarrage (hand policy: attack+tera astralbarrage) - our hp 0.50, theirs 0.47, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to galvantula (hand policy: forced: switch to okidogi) - our hp 0.00, theirs 0.47, predicted move (revealed) hits us x1
+  move|p2a: Jumpluff|Acrobatics|p1a: Calyrex
+  -damage|p1a: Calyrex|0 fnt
+  faint|p1a: Calyrex
+  switch|p1a: Galvantula|Galvantula, L82, F|36/249
+-- turn 10
+  WE CHOSE: attack bugbuzz (hand policy: attack+tera bugbuzz) - our hp 0.14, theirs 0.47, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to okidogi - our hp 0.00, theirs 0.47, predicted move (revealed) hits us x1
+  move|p2a: Jumpluff|Acrobatics|p1a: Galvantula
+  -damage|p1a: Galvantula|0 fnt
+  faint|p1a: Galvantula
+  switch|p1a: Okidogi|Okidogi, L77, M|112/262
+-- turn 11
+  WE CHOSE: attack gunkshot - our hp 0.43, theirs 0.47, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to crawdaunt - our hp 0.00, theirs 0.47, predicted move (revealed) hits us x2
+  move|p2a: Jumpluff|Acrobatics|p1a: Okidogi
+  -supereffective|p1a: Okidogi
+  -damage|p1a: Okidogi|0 fnt
+  faint|p1a: Okidogi
+  switch|p1a: Crawdaunt|Crawdaunt, L84, F|243/243
+-- turn 12
+  WE CHOSE: attack+tera crabhammer (hand policy: attack knockoff) - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x1
+  -terastallize|p1a: Crawdaunt|Water
+  move|p2a: Jumpluff|Acrobatics|p1a: Crawdaunt
+  -damage|p1a: Crawdaunt|164/243
+  move|p1a: Crawdaunt|Crabhammer|p2a: Jumpluff
+  -resisted|p2a: Jumpluff
+  -damage|p2a: Jumpluff|0 fnt
+  faint|p2a: Jumpluff
+  -damage|p1a: Crawdaunt|140/243|[from] item: Life Orb
+  switch|p2a: Hydreigon|Hydreigon, L79, M|100/100
+-- turn 13
+  WE CHOSE: attack crabhammer - our hp 0.58, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Hydreigon|Draco Meteor|p1a: Crawdaunt|[miss]
+  -miss|p2a: Hydreigon|p1a: Crawdaunt
+  move|p1a: Crawdaunt|Crabhammer|p2a: Hydreigon
+  -resisted|p2a: Hydreigon
+  -damage|p2a: Hydreigon|53/100
+  -damage|p1a: Crawdaunt|116/243|[from] item: Life Orb
+-- turn 14
+  WE CHOSE: attack crabhammer - our hp 0.48, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Hydreigon|Draco Meteor|p1a: Crawdaunt|[miss]
+  -miss|p2a: Hydreigon|p1a: Crawdaunt
+  move|p1a: Crawdaunt|Crabhammer|p2a: Hydreigon
+  -resisted|p2a: Hydreigon
+  -damage|p2a: Hydreigon|4/100
+  -damage|p1a: Crawdaunt|92/243|[from] item: Life Orb
+-- turn 15
+  WE CHOSE: attack crabhammer - our hp 0.38, theirs 0.04, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to heracross - our hp 0.00, theirs 0.04, predicted move (revealed) hits us x1
+  move|p2a: Hydreigon|Draco Meteor|p1a: Crawdaunt
+  -damage|p1a: Crawdaunt|0 fnt
+  -unboost|p2a: Hydreigon|spa|2
+  faint|p1a: Crawdaunt
+  switch|p1a: Heracross|Heracross, L80, M|259/259
+-- turn 16
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x1
+  move|p2a: Hydreigon|Draco Meteor|p1a: Heracross
+  -damage|p1a: Heracross|141/259
+  -unboost|p2a: Hydreigon|spa|2
+  move|p1a: Heracross|Close Combat|p2a: Hydreigon
+  -supereffective|p2a: Hydreigon
+  -damage|p2a: Hydreigon|0 fnt
+  -unboost|p1a: Heracross|def|1
+  -unboost|p1a: Heracross|spd|1
+  faint|p2a: Hydreigon
+  -ability|p1a: Heracross|Moxie|boost
+  -boost|p1a: Heracross|atk|1
+  switch|p2a: Stonjourner|Stonjourner, L91, M|100/100
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Heracross|Close Combat|p2a: Stonjourner
+  -supereffective|p2a: Stonjourner
+  -damage|p2a: Stonjourner|0 fnt
+  -unboost|p1a: Heracross|def|1
+  -unboost|p1a: Heracross|spd|1
+  faint|p2a: Stonjourner
+  -ability|p1a: Heracross|Moxie|boost
+  -boost|p1a: Heracross|atk|1
+  switch|p2a: Gholdengo|Gholdengo, L77|100/100
+-- turn 18
+  WE CHOSE: attack closecombat - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Heracross|Close Combat|p2a: Gholdengo
+  -immune|p2a: Gholdengo
+  move|p2a: Gholdengo|Make It Rain|p1a: Heracross
+  -damage|p1a: Heracross|0 fnt
+  -unboost|p2a: Gholdengo|spa|1
+  faint|p1a: Heracross
+  deinit

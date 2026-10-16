@@ -1,0 +1,147 @@
+battle 325 (battle-gen9randombattle-1009279): lost in 15 turns, 2 of theirs left; we are p1
+
+ours:
+  hydrapple (fainted; item choicespecs, ability regenerator, tera steel; moves ficklebeam/dracometeor/earthpower/leafstorm)
+  delphox (fainted; item heavydutyboots, ability blaze; moves grassknot/psyshock/fireblast/nastyplot)
+  sinistchamasterpiece (fainted; item leftovers, ability heatproof; moves calmmind/matchagotcha/shadowball/strengthsap)
+  lugia (fainted; item heavydutyboots, ability multiscale; moves recover/psychicnoise/calmmind/aeroblast)
+  tentacruel (fainted; item leftovers, ability liquidooze; moves haze/rapidspin/sludgebomb/surf)
+  flareon (fainted; item toxicorb, ability guts; moves quickattack/trailblaze/facade/flareblitz)
+theirs (as seen):
+  dragapult (fainted; item lifeorb, ability ?; moves fireblast)
+  crabominable (fainted; item unknown_item, ability ?; moves icehammer)
+  basculegion (fainted; item unknown_item, ability ?; moves wavecrash)
+  noivern (fainted; item unknown_item, ability ?; moves boomburst)
+  chimecho (100%; item unknown_item, ability levitate; moves psychicnoise)
+
+-- turn 0
+  switch|p1a: Hydrapple|Hydrapple, L83, M|312/312
+  switch|p2a: Dragapult|Dragapult, L77, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Hydrapple|Steel
+  move|p2a: Dragapult|Fire Blast|p1a: Hydrapple
+  -supereffective|p1a: Hydrapple
+  -crit|p1a: Hydrapple
+  -damage|p1a: Hydrapple|26/312
+  -damage|p2a: Dragapult|91/100|[from] item: Life Orb
+  move|p1a: Hydrapple|Draco Meteor|p2a: Dragapult
+  -supereffective|p2a: Dragapult
+  -damage|p2a: Dragapult|0 fnt
+  -unboost|p1a: Hydrapple|spa|2
+  faint|p2a: Dragapult
+  switch|p2a: Crabominable|Crabominable, L90, M|100/100
+-- turn 2
+  WE CHOSE: switch to sinistchamasterpiece - our hp 0.08, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to flareon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Sinistcha|Sinistcha-Masterpiece, L83|254/254
+  move|p2a: Crabominable|Ice Hammer|p1a: Sinistcha
+  -supereffective|p1a: Sinistcha
+  -damage|p1a: Sinistcha|0 fnt
+  -unboost|p2a: Crabominable|spe|1
+  faint|p1a: Sinistcha
+  switch|p1a: Flareon|Flareon, L90, F|263/263
+-- turn 3
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Flareon|Flare Blitz|p2a: Crabominable
+  -supereffective|p2a: Crabominable
+  -damage|p2a: Crabominable|0 fnt
+  faint|p2a: Crabominable
+  -damage|p1a: Flareon|157/263|[from] Recoil
+  -status|p1a: Flareon|tox|[from] item: Toxic Orb
+  switch|p2a: Basculegion|Basculegion, L80, M|100/100
+-- turn 4
+  WE CHOSE: switch to tentacruel - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Tentacruel|Tentacruel, L84, F|272/272
+  move|p2a: Basculegion|Wave Crash|p1a: Tentacruel
+  -resisted|p1a: Tentacruel
+  -damage|p1a: Tentacruel|166/272
+  -damage|p2a: Basculegion|90/100|[from] Recoil
+  -heal|p1a: Tentacruel|183/272|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack sludgebomb - our hp 0.67, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p1a: Tentacruel|Sludge Bomb|p2a: Basculegion
+  -resisted|p2a: Basculegion
+  -damage|p2a: Basculegion|79/100
+  move|p2a: Basculegion|Wave Crash|p1a: Tentacruel
+  -resisted|p1a: Tentacruel
+  -damage|p1a: Tentacruel|69/272
+  -damage|p2a: Basculegion|67/100|[from] Recoil
+  -heal|p1a: Tentacruel|86/272|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack sludgebomb - our hp 0.32, theirs 0.67, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to hydrapple - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p1a: Tentacruel|Sludge Bomb|p2a: Basculegion
+  -resisted|p2a: Basculegion
+  -damage|p2a: Basculegion|57/100
+  move|p2a: Basculegion|Wave Crash|p1a: Tentacruel
+  -resisted|p1a: Tentacruel
+  -damage|p1a: Tentacruel|0 fnt
+  faint|p1a: Tentacruel
+  -damage|p2a: Basculegion|48/100|[from] Recoil
+  switch|p1a: Hydrapple|Hydrapple, L83, M, tera:Steel|130/312
+-- turn 7
+  WE CHOSE: attack leafstorm - our hp 0.42, theirs 0.48, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lugia - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Basculegion|Wave Crash|p1a: Hydrapple
+  -damage|p1a: Hydrapple|0 fnt
+  faint|p1a: Hydrapple
+  -damage|p2a: Basculegion|35/100|[from] Recoil
+  switch|p1a: Lugia|Lugia, L73|275/275
+-- turn 8
+  WE CHOSE: attack aeroblast - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p1a: Lugia|Aeroblast|p2a: Basculegion
+  -damage|p2a: Basculegion|15/100
+  move|p2a: Basculegion|Wave Crash|p1a: Lugia
+  -damage|p1a: Lugia|201/275
+  -damage|p2a: Basculegion|8/100|[from] Recoil
+-- turn 9
+  WE CHOSE: attack aeroblast - our hp 0.73, theirs 0.08, predicted move (revealed) hits us x1
+  move|p1a: Lugia|Aeroblast|p2a: Basculegion
+  -crit|p2a: Basculegion
+  -damage|p2a: Basculegion|0 fnt
+  faint|p2a: Basculegion
+  switch|p2a: Noivern|Noivern, L82, F|100/100
+-- turn 10
+  WE CHOSE: attack aeroblast - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Noivern|Boomburst|p1a: Lugia
+  -damage|p1a: Lugia|89/275
+  move|p1a: Lugia|Aeroblast|p2a: Noivern
+  -damage|p2a: Noivern|71/100
+-- turn 11
+  WE CHOSE: heal recover - our hp 0.32, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to delphox - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Noivern|Boomburst|p1a: Lugia
+  -damage|p1a: Lugia|0 fnt
+  faint|p1a: Lugia
+  switch|p1a: Delphox|Delphox, L84, M|263/263
+-- turn 12
+  WE CHOSE: attack psyshock - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Noivern|Boomburst|p1a: Delphox
+  -crit|p1a: Delphox
+  -damage|p1a: Delphox|81/263
+  move|p1a: Delphox|Psyshock|p2a: Noivern
+  -damage|p2a: Noivern|33/100
+-- turn 13
+  WE CHOSE: attack psyshock - our hp 0.31, theirs 0.33, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to flareon - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Noivern|Boomburst|p1a: Delphox
+  -damage|p1a: Delphox|0 fnt
+  faint|p1a: Delphox
+  switch|p1a: Flareon|Flareon, L90, F|157/263 tox
+-- turn 14
+  WE CHOSE: attack flareblitz - our hp 0.60, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Noivern|Boomburst|p1a: Flareon
+  -damage|p1a: Flareon|51/263 tox
+  move|p1a: Flareon|Flare Blitz|p2a: Noivern
+  -resisted|p2a: Noivern
+  -damage|p2a: Noivern|0 fnt
+  faint|p2a: Noivern
+  -damage|p1a: Flareon|22/263 tox|[from] Recoil
+  -damage|p1a: Flareon|6/263 tox|[from] psn
+  switch|p2a: Chimecho|Chimecho, L93, F|100/100
+-- turn 15
+  WE CHOSE: attack flareblitz - our hp 0.02, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Chimecho|Psychic Noise|p1a: Flareon
+  -damage|p1a: Flareon|0 fnt
+  faint|p1a: Flareon

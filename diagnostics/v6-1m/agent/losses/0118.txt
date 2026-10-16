@@ -1,0 +1,288 @@
+battle 118 (battle-gen9randombattle-1007489): lost in 30 turns, 2 of theirs left; we are p1
+
+ours:
+  araquanid (fainted; item heavydutyboots, ability waterbubble; moves stickyweb/leechlife/hydropump/liquidation)
+  sawsbuckautumn (fainted; item lifeorb, ability serenegrace; moves headbutt/highhorsepower/swordsdance/hornleech)
+  mamoswine (fainted; item lifeorb, ability thickfat; moves iciclecrash/stealthrock/iceshard/earthquake)
+  cyclizar (fainted; item heavydutyboots, ability regenerator, tera dragon; moves shedtail/rapidspin/taunt/dracometeor)
+  bombirdier (fainted; item choiceband, ability rockypayload; moves stoneedge/knockoff/uturn/bravebird)
+  weezing (fainted; item leftovers, ability levitate; moves painsplit/gunkshot/fireblast/willowisp)
+theirs (as seen):
+  shayminsky (fainted; item unknown_item, ability serenegrace; moves seedflare)
+  perrserker (fainted; item lifeorb, ability ?; moves closecombat)
+  volcanion (fainted; item unknown_item, ability waterabsorb; moves steameruption/flamethrower)
+  staraptor (fainted; item unknown_item, ability ?; moves doubleedge)
+  klefki (49%; item leftovers, ability ?; moves foulplay)
+
+-- turn 0
+  switch|p1a: Araquanid|Araquanid, L82, F|246/246
+  switch|p2a: Shaymin|Shaymin-Sky, L73|100/100
+-- turn 1
+  WE CHOSE: switch to bombirdier (hand policy: attack leechlife) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Bombirdier|Bombirdier, L85, M|258/258
+  move|p2a: Shaymin|Seed Flare|p1a: Bombirdier
+  -resisted|p1a: Bombirdier
+  -damage|p1a: Bombirdier|204/258
+  -unboost|p1a: Bombirdier|spd|2
+-- turn 2
+  WE CHOSE: attack bravebird - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to weezing - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p2a: Shaymin|Seed Flare|p1a: Bombirdier
+  -resisted|p1a: Bombirdier
+  -damage|p1a: Bombirdier|78/258
+  move|p1a: Bombirdier|Brave Bird|p2a: Shaymin
+  -supereffective|p2a: Shaymin
+  -damage|p2a: Shaymin|0 fnt
+  faint|p2a: Shaymin
+  -damage|p1a: Bombirdier|0 fnt|[from] Recoil
+  faint|p1a: Bombirdier
+  switch|p2a: Perrserker|Perrserker, L89, M|100/100
+  switch|p1a: Weezing|Weezing, L88, F|258/258
+-- turn 3
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Weezing|Fire Blast|p2a: Perrserker|[miss]
+  -miss|p1a: Weezing|p2a: Perrserker
+  move|p2a: Perrserker|Close Combat|p1a: Weezing
+  -resisted|p1a: Weezing
+  -damage|p1a: Weezing|189/258
+  -unboost|p2a: Perrserker|def|1
+  -unboost|p2a: Perrserker|spd|1
+  -damage|p2a: Perrserker|91/100|[from] item: Life Orb
+  -heal|p1a: Weezing|205/258|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack fireblast - our hp 0.79, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p1a: Weezing|Fire Blast|p2a: Perrserker
+  -supereffective|p2a: Perrserker
+  -damage|p2a: Perrserker|0 fnt
+  faint|p2a: Perrserker
+  -heal|p1a: Weezing|221/258|[from] item: Leftovers
+  switch|p2a: Volcanion|Volcanion, L79|100/100
+-- turn 5
+  WE CHOSE: switch to sawsbuckautumn (hand policy: attack gunkshot) - our hp 0.86, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Sawsbuck|Sawsbuck-Autumn, L88, M|284/284
+  move|p2a: Volcanion|Steam Eruption|p1a: Sawsbuck
+  -resisted|p1a: Sawsbuck
+  -damage|p1a: Sawsbuck|206/284
+-- turn 6
+  WE CHOSE: setup swordsdance - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Sawsbuck|Swords Dance|p1a: Sawsbuck
+  -boost|p1a: Sawsbuck|atk|2
+  move|p2a: Volcanion|Steam Eruption|p1a: Sawsbuck
+  -resisted|p1a: Sawsbuck
+  -damage|p1a: Sawsbuck|136/284
+  -status|p1a: Sawsbuck|brn
+  -damage|p1a: Sawsbuck|119/284 brn|[from] brn
+-- turn 7
+  WE CHOSE: attack highhorsepower - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to mamoswine (hand policy: forced: switch to cyclizar) - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p1a: Sawsbuck|High Horsepower|p2a: Volcanion
+  -supereffective|p2a: Volcanion
+  -damage|p2a: Volcanion|41/100
+  -damage|p1a: Sawsbuck|91/284 brn|[from] item: Life Orb
+  move|p2a: Volcanion|Steam Eruption|p1a: Sawsbuck
+  -resisted|p1a: Sawsbuck
+  -damage|p1a: Sawsbuck|17/284 brn
+  -damage|p1a: Sawsbuck|0 fnt|[from] brn
+  faint|p1a: Sawsbuck
+  switch|p1a: Mamoswine|Mamoswine, L81, F|311/311
+-- turn 8
+  WE CHOSE: switch to cyclizar - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x2
+  switch|p1a: Cyclizar|Cyclizar, L84, M|255/255
+  move|p2a: Volcanion|Steam Eruption|p1a: Cyclizar
+  -resisted|p1a: Cyclizar
+  -damage|p1a: Cyclizar|171/255
+-- turn 9
+  WE CHOSE: attack dracometeor (hand policy: attack+tera dracometeor) - our hp 0.67, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p1a: Cyclizar|Draco Meteor|p2a: Volcanion
+  -damage|p2a: Volcanion|4/100
+  -unboost|p1a: Cyclizar|spa|2
+  move|p2a: Volcanion|Steam Eruption|p1a: Cyclizar
+  -resisted|p1a: Cyclizar
+  -damage|p1a: Cyclizar|85/255
+  -status|p1a: Cyclizar|brn
+  -damage|p1a: Cyclizar|70/255 brn|[from] brn
+-- turn 10
+  WE CHOSE: switch to araquanid (hand policy: attack+tera dracometeor) - our hp 0.27, theirs 0.04, predicted move (revealed) hits us x0.5
+  switch|p1a: Araquanid|Araquanid, L82, F|246/246
+  move|p2a: Volcanion|Steam Eruption|p1a: Araquanid
+  -resisted|p1a: Araquanid
+  -damage|p1a: Araquanid|197/246
+-- turn 11
+  WE CHOSE: attack hydropump - our hp 0.80, theirs 0.04, predicted move (revealed) hits us x0.5
+  move|p2a: Volcanion|Steam Eruption|p1a: Araquanid
+  -resisted|p1a: Araquanid
+  -damage|p1a: Araquanid|149/246
+  move|p1a: Araquanid|Hydro Pump|p2a: Volcanion
+  -heal|p2a: Volcanion|29/100|[from] ability: Water Absorb|[of] p1a: Araquanid
+-- turn 12
+  WE CHOSE: attack hydropump - our hp 0.61, theirs 0.29, predicted move (revealed) hits us x0.5
+  move|p2a: Volcanion|Steam Eruption|p1a: Araquanid
+  -resisted|p1a: Araquanid
+  -damage|p1a: Araquanid|103/246
+  move|p1a: Araquanid|Hydro Pump|p2a: Volcanion
+  -heal|p2a: Volcanion|54/100|[from] ability: Water Absorb|[of] p1a: Araquanid
+-- turn 13
+  WE CHOSE: attack hydropump - our hp 0.42, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p2a: Volcanion|Flamethrower|p1a: Araquanid
+  -damage|p1a: Araquanid|66/246
+  move|p1a: Araquanid|Hydro Pump|p2a: Volcanion
+  -heal|p2a: Volcanion|79/100|[from] ability: Water Absorb|[of] p1a: Araquanid
+-- turn 14
+  WE CHOSE: attack hydropump - our hp 0.27, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p2a: Volcanion|Flamethrower|p1a: Araquanid
+  -damage|p1a: Araquanid|24/246
+  move|p1a: Araquanid|Hydro Pump|p2a: Volcanion
+  -heal|p2a: Volcanion|100/100|[from] ability: Water Absorb|[of] p1a: Araquanid
+-- turn 15
+  WE CHOSE: attack hydropump - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to cyclizar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Volcanion|Flamethrower|p1a: Araquanid
+  -damage|p1a: Araquanid|0 fnt
+  faint|p1a: Araquanid
+  switch|p1a: Cyclizar|Cyclizar, L84, M|155/255 brn
+-- turn 16
+  WE CHOSE: attack+tera dracometeor - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Cyclizar|Dragon
+  move|p1a: Cyclizar|Draco Meteor|p2a: Volcanion
+  -damage|p2a: Volcanion|59/100
+  -unboost|p1a: Cyclizar|spa|2
+  move|p2a: Volcanion|Flamethrower|p1a: Cyclizar
+  -resisted|p1a: Cyclizar
+  -crit|p1a: Cyclizar
+  -damage|p1a: Cyclizar|63/255 brn
+  -damage|p1a: Cyclizar|48/255 brn|[from] brn
+-- turn 17
+  WE CHOSE: attack shedtail (hand policy: attack dracometeor) - our hp 0.19, theirs 0.59, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to mamoswine - our hp 0.00, theirs 0.59, predicted move (revealed) hits us x0.5
+  move|p1a: Cyclizar|Shed Tail|p1a: Cyclizar
+  -fail|p1a: Cyclizar|move: Shed Tail|[weak]
+  move|p2a: Volcanion|Flamethrower|p1a: Cyclizar
+  -resisted|p1a: Cyclizar
+  -damage|p1a: Cyclizar|0 fnt
+  faint|p1a: Cyclizar
+  switch|p1a: Mamoswine|Mamoswine, L81, F|311/311
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.59, predicted move (revealed) hits us x2
+  move|p1a: Mamoswine|Earthquake|p2a: Volcanion
+  -supereffective|p2a: Volcanion
+  -damage|p2a: Volcanion|0 fnt
+  faint|p2a: Volcanion
+  -damage|p1a: Mamoswine|280/311|[from] item: Life Orb
+  switch|p2a: Staraptor|Staraptor, L79, F|100/100
+-- turn 19
+  WE CHOSE: attack iciclecrash - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to weezing - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Staraptor|Double-Edge|p1a: Mamoswine
+  -crit|p1a: Mamoswine
+  -damage|p1a: Mamoswine|22/311
+  -damage|p2a: Staraptor|68/100|[from] Recoil
+  move|p1a: Mamoswine|Icicle Crash|p2a: Staraptor
+  -supereffective|p2a: Staraptor
+  -damage|p2a: Staraptor|0 fnt
+  faint|p2a: Staraptor
+  -damage|p1a: Mamoswine|0 fnt|[from] item: Life Orb
+  faint|p1a: Mamoswine
+  switch|p2a: Klefki|Klefki, L84, F|100/100
+  switch|p1a: Weezing|Weezing, L88, F|221/258
+-- turn 20
+  WE CHOSE: attack fireblast - our hp 0.86, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Klefki|Foul Play|p1a: Weezing
+  -damage|p1a: Weezing|173/258
+  move|p1a: Weezing|Fire Blast|p2a: Klefki
+  -supereffective|p2a: Klefki
+  -damage|p2a: Klefki|28/100
+  -status|p2a: Klefki|brn
+  -heal|p2a: Klefki|34/100 brn|[from] item: Leftovers
+  -heal|p1a: Weezing|189/258|[from] item: Leftovers
+  -damage|p2a: Klefki|28/100 brn|[from] brn
+-- turn 21
+  WE CHOSE: attack painsplit (hand policy: attack fireblast) - our hp 0.73, theirs 0.28, predicted move (revealed) hits us x1
+  move|p2a: Klefki|Foul Play|p1a: Weezing
+  -damage|p1a: Weezing|163/258
+  move|p1a: Weezing|Pain Split|p2a: Klefki
+  -sethp|p2a: Klefki|49/100 brn|[from] move: Pain Split|[silent]
+  -sethp|p1a: Weezing|114/258|[from] move: Pain Split
+  -heal|p2a: Klefki|55/100 brn|[from] item: Leftovers
+  -heal|p1a: Weezing|130/258|[from] item: Leftovers
+  -damage|p2a: Klefki|49/100 brn|[from] brn
+-- turn 22
+  WE CHOSE: attack willowisp (hand policy: attack fireblast) - our hp 0.50, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Klefki|Foul Play|p1a: Weezing
+  -damage|p1a: Weezing|106/258
+  move|p1a: Weezing|Will-O-Wisp|p2a: Klefki
+  -fail|p2a: Klefki|brn
+  -heal|p2a: Klefki|55/100 brn|[from] item: Leftovers
+  -heal|p1a: Weezing|122/258|[from] item: Leftovers
+  -damage|p2a: Klefki|49/100 brn|[from] brn
+-- turn 23
+  WE CHOSE: attack willowisp (hand policy: attack fireblast) - our hp 0.47, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Klefki|Foul Play|p1a: Weezing
+  -crit|p1a: Weezing
+  -damage|p1a: Weezing|85/258
+  move|p1a: Weezing|Will-O-Wisp|p2a: Klefki
+  -fail|p2a: Klefki|brn
+  -heal|p2a: Klefki|55/100 brn|[from] item: Leftovers
+  -heal|p1a: Weezing|101/258|[from] item: Leftovers
+  -damage|p2a: Klefki|49/100 brn|[from] brn
+-- turn 24
+  WE CHOSE: attack willowisp (hand policy: attack fireblast) - our hp 0.39, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Klefki|Foul Play|p1a: Weezing
+  -crit|p1a: Weezing
+  -damage|p1a: Weezing|61/258
+  move|p1a: Weezing|Will-O-Wisp|p2a: Klefki
+  -fail|p2a: Klefki|brn
+  -heal|p2a: Klefki|55/100 brn|[from] item: Leftovers
+  -heal|p1a: Weezing|77/258|[from] item: Leftovers
+  -damage|p2a: Klefki|49/100 brn|[from] brn
+-- turn 25
+  WE CHOSE: attack willowisp (hand policy: attack fireblast) - our hp 0.30, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Klefki|Foul Play|p1a: Weezing
+  -damage|p1a: Weezing|52/258
+  move|p1a: Weezing|Will-O-Wisp|p2a: Klefki
+  -fail|p2a: Klefki|brn
+  -heal|p2a: Klefki|55/100 brn|[from] item: Leftovers
+  -heal|p1a: Weezing|68/258|[from] item: Leftovers
+  -damage|p2a: Klefki|49/100 brn|[from] brn
+-- turn 26
+  WE CHOSE: attack willowisp (hand policy: attack fireblast) - our hp 0.26, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Klefki|Foul Play|p1a: Weezing
+  -damage|p1a: Weezing|42/258
+  move|p1a: Weezing|Will-O-Wisp|p2a: Klefki
+  -fail|p2a: Klefki|brn
+  -heal|p2a: Klefki|55/100 brn|[from] item: Leftovers
+  -heal|p1a: Weezing|58/258|[from] item: Leftovers
+  -damage|p2a: Klefki|49/100 brn|[from] brn
+-- turn 27
+  WE CHOSE: attack willowisp (hand policy: attack fireblast) - our hp 0.22, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Klefki|Foul Play|p1a: Weezing
+  -damage|p1a: Weezing|35/258
+  move|p1a: Weezing|Will-O-Wisp|p2a: Klefki|[miss]
+  -miss|p1a: Weezing|p2a: Klefki
+  -heal|p2a: Klefki|55/100 brn|[from] item: Leftovers
+  -heal|p1a: Weezing|51/258|[from] item: Leftovers
+  -damage|p2a: Klefki|49/100 brn|[from] brn
+-- turn 28
+  WE CHOSE: attack willowisp (hand policy: attack fireblast) - our hp 0.20, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Klefki|Foul Play|p1a: Weezing
+  -crit|p1a: Weezing
+  -damage|p1a: Weezing|12/258
+  move|p1a: Weezing|Will-O-Wisp|p2a: Klefki
+  -fail|p2a: Klefki|brn
+  -heal|p2a: Klefki|55/100 brn|[from] item: Leftovers
+  -heal|p1a: Weezing|28/258|[from] item: Leftovers
+  -damage|p2a: Klefki|49/100 brn|[from] brn
+-- turn 29
+  WE CHOSE: attack willowisp (hand policy: attack fireblast) - our hp 0.11, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Klefki|Foul Play|p1a: Weezing
+  -damage|p1a: Weezing|1/258
+  move|p1a: Weezing|Will-O-Wisp|p2a: Klefki
+  -fail|p2a: Klefki|brn
+  -heal|p2a: Klefki|55/100 brn|[from] item: Leftovers
+  -heal|p1a: Weezing|17/258|[from] item: Leftovers
+  -damage|p2a: Klefki|49/100 brn|[from] brn
+-- turn 30
+  WE CHOSE: attack willowisp (hand policy: attack fireblast) - our hp 0.07, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Klefki|Foul Play|p1a: Weezing
+  -damage|p1a: Weezing|0 fnt
+  faint|p1a: Weezing
+  deinit

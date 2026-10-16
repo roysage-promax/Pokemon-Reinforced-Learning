@@ -1,0 +1,173 @@
+battle 2773 (battle-gen9randombattle-1034532): lost in 18 turns, 3 of theirs left; we are p1
+
+ours:
+  hawlucha (fainted; item ?, ability unburden; moves closecombat/swordsdance/acrobatics/bravebird)
+  gothitelle (fainted; item leftovers, ability shadowtag; moves darkpulse/psychicnoise/calmmind/thunderbolt)
+  squawkabillyblue (fainted; item flameorb, ability guts; moves bravebird/quickattack/facade/protect)
+  meowscarada (fainted; item lifeorb, ability protean; moves knockoff/tripleaxel/flowertrick/toxicspikes)
+  araquanid (fainted; item heavydutyboots, ability waterbubble; moves hydropump/stickyweb/leechlife/liquidation)
+  raichu (fainted; item lifeorb, ability lightningrod; moves terablast/nastyplot/thunderbolt/encore)
+theirs (as seen):
+  regidrago (fainted; item unknown_item, ability dragonsmaw; moves dracometeor)
+  leavanny (fainted; item ?, ability ?; moves leafblade)
+  bellossom (fainted; item leftovers, ability ?; moves terablast)
+  mamoswine (2%; item unknown_item, ability ?; moves earthquake)
+
+-- turn 0
+  switch|p1a: Hawlucha|Hawlucha, L80, M|256/256
+  switch|p2a: Regidrago|Regidrago, L77|100/100
+-- turn 1
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to squawkabillyblue - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Hawlucha|Close Combat|p2a: Regidrago
+  -damage|p2a: Regidrago|62/100
+  -unboost|p1a: Hawlucha|def|1
+  -unboost|p1a: Hawlucha|spd|1
+  -enditem|p1a: Hawlucha|White Herb
+  -clearnegativeboost|p1a: Hawlucha|[silent]
+  move|p2a: Regidrago|Draco Meteor|p1a: Hawlucha
+  -crit|p1a: Hawlucha
+  -damage|p1a: Hawlucha|0 fnt
+  -unboost|p2a: Regidrago|spa|2
+  faint|p1a: Hawlucha
+  switch|p1a: Squawkabilly|Squawkabilly-Blue, L85, M|278/278
+-- turn 2
+  WE CHOSE: attack facade (hand policy: attack bravebird) - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Squawkabilly|Facade|p2a: Regidrago
+  -damage|p2a: Regidrago|34/100
+  move|p2a: Regidrago|Draco Meteor|p1a: Squawkabilly
+  -damage|p1a: Squawkabilly|139/278
+  -unboost|p2a: Regidrago|spa|2
+  -status|p1a: Squawkabilly|brn|[from] item: Flame Orb
+-- turn 3
+  WE CHOSE: attack bravebird - our hp 0.50, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Squawkabilly|Brave Bird|p2a: Regidrago
+  -damage|p2a: Regidrago|0 fnt
+  faint|p2a: Regidrago
+  -damage|p1a: Squawkabilly|91/278 brn|[from] Recoil
+  -damage|p1a: Squawkabilly|74/278 brn|[from] brn
+  switch|p2a: Leavanny|Leavanny, L86, F|100/100
+-- turn 4
+  WE CHOSE: attack bravebird - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to meowscarada (hand policy: forced: switch to araquanid) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Leavanny|Leaf Blade|p1a: Squawkabilly
+  -resisted|p1a: Squawkabilly
+  -crit|p1a: Squawkabilly
+  -damage|p1a: Squawkabilly|0 fnt
+  faint|p1a: Squawkabilly
+  switch|p1a: Meowscarada|Meowscarada, L78, F|247/247
+-- turn 5
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Meowscarada|Knock Off|p2a: Leavanny
+  -start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+  -damage|p2a: Leavanny|48/100
+  -enditem|p2a: Leavanny|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Meowscarada
+  -damage|p1a: Meowscarada|223/247|[from] item: Life Orb
+  move|p2a: Leavanny|Leaf Blade|p1a: Meowscarada
+  -damage|p1a: Meowscarada|84/247
+-- turn 6
+  WE CHOSE: switch to araquanid (hand policy: attack+tera knockoff) - our hp 0.34, theirs 0.48, predicted move (revealed) hits us x1
+  switch|p1a: Araquanid|Araquanid, L82, F|246/246
+  move|p2a: Leavanny|Leaf Blade|p1a: Araquanid
+  -damage|p1a: Araquanid|144/246
+-- turn 7
+  WE CHOSE: attack leechlife - our hp 0.59, theirs 0.48, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to meowscarada - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Leavanny|Leaf Blade|p1a: Araquanid
+  -crit|p1a: Araquanid
+  -damage|p1a: Araquanid|0 fnt
+  faint|p1a: Araquanid
+  switch|p1a: Meowscarada|Meowscarada, L78, F|84/247
+-- turn 8
+  WE CHOSE: attack knockoff - our hp 0.34, theirs 0.48, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to raichu (hand policy: forced: switch to gothitelle) - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Meowscarada|Knock Off|p2a: Leavanny
+  -start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+  -damage|p2a: Leavanny|13/100
+  -damage|p1a: Meowscarada|60/247|[from] item: Life Orb
+  move|p2a: Leavanny|Leaf Blade|p1a: Meowscarada
+  -damage|p1a: Meowscarada|0 fnt
+  faint|p1a: Meowscarada
+  switch|p1a: Raichu|Raichu, L88, F|249/249
+-- turn 9
+  WE CHOSE: attack terablast - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Raichu|Tera Blast|p2a: Leavanny
+  -damage|p2a: Leavanny|0 fnt
+  faint|p2a: Leavanny
+  -damage|p1a: Raichu|225/249|[from] item: Life Orb
+  switch|p2a: Bellossom|Bellossom, L84, M|100/100
+-- turn 10
+  WE CHOSE: attack terablast - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Raichu|Tera Blast|p2a: Bellossom
+  -damage|p2a: Bellossom|74/100
+  -damage|p1a: Raichu|201/249|[from] item: Life Orb
+  move|p2a: Bellossom|Tera Blast|p1a: Raichu
+  -damage|p1a: Raichu|150/249
+  -heal|p2a: Bellossom|80/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack terablast - our hp 0.60, theirs 0.80, predicted move (revealed) hits us x1
+  move|p1a: Raichu|Tera Blast|p2a: Bellossom
+  -damage|p2a: Bellossom|56/100
+  -damage|p1a: Raichu|126/249|[from] item: Life Orb
+  move|p2a: Bellossom|Tera Blast|p1a: Raichu
+  -damage|p1a: Raichu|75/249
+  -heal|p2a: Bellossom|62/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack terablast - our hp 0.30, theirs 0.62, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gothitelle - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x1
+  move|p1a: Raichu|Tera Blast|p2a: Bellossom
+  -damage|p2a: Bellossom|34/100
+  -damage|p1a: Raichu|51/249|[from] item: Life Orb
+  move|p2a: Bellossom|Tera Blast|p1a: Raichu
+  -damage|p1a: Raichu|0 fnt
+  faint|p1a: Raichu
+  -heal|p2a: Bellossom|40/100|[from] item: Leftovers
+  switch|p1a: Gothitelle|Gothitelle, L90, M|272/272
+-- turn 13
+  WE CHOSE: setup calmmind (hand policy: attack psychicnoise) - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x1
+  move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+  -boost|p1a: Gothitelle|spa|1
+  -boost|p1a: Gothitelle|spd|1
+  move|p2a: Bellossom|Tera Blast|p1a: Gothitelle
+  -damage|p1a: Gothitelle|245/272
+  -heal|p1a: Gothitelle|262/272|[from] item: Leftovers
+  -heal|p2a: Bellossom|46/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: setup calmmind (hand policy: attack psychicnoise) - our hp 0.96, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+  -boost|p1a: Gothitelle|spa|1
+  -boost|p1a: Gothitelle|spd|1
+  move|p2a: Bellossom|Tera Blast|p1a: Gothitelle
+  -damage|p1a: Gothitelle|239/272
+  -heal|p1a: Gothitelle|256/272|[from] item: Leftovers
+  -heal|p2a: Bellossom|52/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: setup calmmind (hand policy: attack psychicnoise) - our hp 0.94, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+  -boost|p1a: Gothitelle|spa|1
+  -boost|p1a: Gothitelle|spd|1
+  move|p2a: Bellossom|Tera Blast|p1a: Gothitelle
+  -damage|p1a: Gothitelle|238/272
+  -heal|p1a: Gothitelle|255/272|[from] item: Leftovers
+  -heal|p2a: Bellossom|58/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack psychicnoise - our hp 0.94, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Gothitelle|Psychic Noise|p2a: Bellossom
+  -damage|p2a: Bellossom|0 fnt
+  faint|p2a: Bellossom
+  -heal|p1a: Gothitelle|272/272|[from] item: Leftovers
+  switch|p2a: Mamoswine|Mamoswine, L81, F|100/100
+-- turn 17
+  WE CHOSE: attack psychicnoise - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Mamoswine|Earthquake|p1a: Gothitelle
+  -damage|p1a: Gothitelle|115/272
+  move|p1a: Gothitelle|Psychic Noise|p2a: Mamoswine
+  -damage|p2a: Mamoswine|2/100
+  -start|p2a: Mamoswine|move: Heal Block
+  -heal|p1a: Gothitelle|132/272|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack psychicnoise - our hp 0.49, theirs 0.02, predicted move (revealed) hits us x1
+  move|p2a: Mamoswine|Earthquake|p1a: Gothitelle
+  -damage|p1a: Gothitelle|0 fnt
+  faint|p1a: Gothitelle
+  deinit

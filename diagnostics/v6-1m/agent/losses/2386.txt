@@ -1,0 +1,115 @@
+battle 2386 (battle-gen9randombattle-1030545): lost in 11 turns, 4 of theirs left; we are p1
+
+ours:
+  victreebel (fainted; item lifeorb, ability chlorophyll; moves suckerpunch/powerwhip/poisonjab/swordsdance)
+  cetitan (fainted; item lifeorb, ability sheerforce; moves superpower/iceshard/iciclecrash/liquidation)
+  oinkolognef (fainted; item leftovers, ability thickfat; moves doubleedge/curse/highhorsepower/lashout)
+  mesprit (fainted; item leftovers, ability levitate; moves psychicnoise/drainpunch/knockoff/stealthrock)
+  clawitzer (fainted; item assaultvest, ability megalauncher, tera dragon; moves dragonpulse/uturn/aurasphere/waterpulse)
+  poliwrath (fainted; item lifeorb, ability swiftswim; moves raindance/knockoff/closecombat/liquidation)
+theirs (as seen):
+  glaceon (fainted; item unknown_item, ability ?; moves freezedry)
+  staraptor (fainted; item unknown_item, ability ?; moves bravebird)
+  heracross (100%; item unknown_item, ability moxie; moves megahorn)
+
+-- turn 0
+  switch|p1a: Victreebel|Victreebel, L90, M|290/290
+  switch|p2a: Glaceon|Glaceon, L94, F|100/100
+-- turn 1
+  WE CHOSE: switch to poliwrath - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Poliwrath|Poliwrath, L88, M|302/302
+  move|p2a: Glaceon|Freeze-Dry|p1a: Poliwrath
+  -supereffective|p1a: Poliwrath
+  -damage|p1a: Poliwrath|78/302
+-- turn 2
+  WE CHOSE: attack closecombat - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to cetitan - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Glaceon|Freeze-Dry|p1a: Poliwrath
+  -supereffective|p1a: Poliwrath
+  -damage|p1a: Poliwrath|0 fnt
+  faint|p1a: Poliwrath
+  switch|p1a: Cetitan|Cetitan, L82, F|413/413
+-- turn 3
+  WE CHOSE: attack superpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Glaceon|Freeze-Dry|p1a: Cetitan
+  -resisted|p1a: Cetitan
+  -damage|p1a: Cetitan|334/413
+  move|p1a: Cetitan|Superpower|p2a: Glaceon
+  -supereffective|p2a: Glaceon
+  -damage|p2a: Glaceon|36/100
+  -unboost|p1a: Cetitan|atk|1
+  -unboost|p1a: Cetitan|def|1
+  -damage|p1a: Cetitan|293/413|[from] item: Life Orb
+-- turn 4
+  WE CHOSE: attack superpower - our hp 0.71, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p2a: Glaceon|Freeze-Dry|p1a: Cetitan
+  -resisted|p1a: Cetitan
+  -damage|p1a: Cetitan|206/413
+  move|p1a: Cetitan|Superpower|p2a: Glaceon
+  -supereffective|p2a: Glaceon
+  -damage|p2a: Glaceon|0 fnt
+  -unboost|p1a: Cetitan|atk|1
+  -unboost|p1a: Cetitan|def|1
+  faint|p2a: Glaceon
+  -damage|p1a: Cetitan|165/413|[from] item: Life Orb
+  switch|p2a: Staraptor|Staraptor, L79, M|100/100
+-- turn 5
+  WE CHOSE: attack iciclecrash - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to oinkolognef - our hp 0.00, theirs 0.80, predicted move (revealed) hits us x1
+  move|p2a: Staraptor|Brave Bird|p1a: Cetitan
+  -damage|p1a: Cetitan|0 fnt
+  faint|p1a: Cetitan
+  -damage|p2a: Staraptor|80/100|[from] Recoil
+  switch|p1a: Oinkologne|Oinkologne-F, L91, F|357/357
+-- turn 6
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.80, predicted move (revealed) hits us x1
+  move|p2a: Staraptor|Brave Bird|p1a: Oinkologne
+  -damage|p1a: Oinkologne|107/357
+  -damage|p2a: Staraptor|48/100|[from] Recoil
+  move|p1a: Oinkologne|Double-Edge|p2a: Staraptor
+  -damage|p2a: Staraptor|0 fnt
+  faint|p2a: Staraptor
+  -damage|p1a: Oinkologne|65/357|[from] Recoil
+  -heal|p1a: Oinkologne|87/357|[from] item: Leftovers
+  switch|p2a: Heracross|Heracross, L80, M|100/100
+-- turn 7
+  WE CHOSE: switch to mesprit - our hp 0.24, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Mesprit|Mesprit, L85|275/275
+  move|p2a: Heracross|Megahorn|p1a: Mesprit
+  -supereffective|p1a: Mesprit
+  -damage|p1a: Mesprit|23/275
+  -heal|p1a: Mesprit|40/275|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack psychicnoise - our hp 0.15, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to oinkolognef - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Heracross|Megahorn|p1a: Mesprit
+  -supereffective|p1a: Mesprit
+  -damage|p1a: Mesprit|0 fnt
+  faint|p1a: Mesprit
+  -ability|p2a: Heracross|Moxie|boost
+  -boost|p2a: Heracross|atk|1
+  switch|p1a: Oinkologne|Oinkologne-F, L91, F|87/357
+-- turn 9
+  WE CHOSE: attack doubleedge - our hp 0.24, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to victreebel - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heracross|Megahorn|p1a: Oinkologne
+  -damage|p1a: Oinkologne|0 fnt
+  faint|p1a: Oinkologne
+  -ability|p2a: Heracross|Moxie|boost
+  -boost|p2a: Heracross|atk|1
+  switch|p1a: Victreebel|Victreebel, L90, M|290/290
+-- turn 10
+  WE CHOSE: attack poisonjab - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to clawitzer - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heracross|Megahorn|p1a: Victreebel
+  -damage|p1a: Victreebel|0 fnt
+  faint|p1a: Victreebel
+  -ability|p2a: Heracross|Moxie|boost
+  -boost|p2a: Heracross|atk|1
+  switch|p1a: Clawitzer|Clawitzer, L87, F|265/265
+-- turn 11
+  WE CHOSE: attack+tera dragonpulse (hand policy: attack waterpulse) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Clawitzer|Dragon
+  move|p2a: Heracross|Megahorn|p1a: Clawitzer
+  -damage|p1a: Clawitzer|0 fnt
+  faint|p1a: Clawitzer

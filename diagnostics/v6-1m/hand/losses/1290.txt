@@ -1,0 +1,150 @@
+battle 1290 (battle-gen9randombattle-1018426): lost in 15 turns, 1 of theirs left; we are p1
+
+ours:
+  vikavolt (fainted; item heavydutyboots, ability levitate, tera electric; moves stickyweb/voltswitch/discharge/bugbuzz)
+  ironthorns (fainted; item heavydutyboots, ability quarkdrive; moves wildcharge/stealthrock/voltswitch/stoneedge)
+  persian (fainted; item silkscarf, ability technician; moves uturn/knockoff/doubleedge/fakeout)
+  scyther (fainted; item heavydutyboots, ability technician; moves dualwingbeat/closecombat/bugbite/swordsdance)
+  hoopa (fainted; item lifeorb, ability magician; moves nastyplot/focusblast/psychic/shadowball)
+  ambipom (fainted; item choiceband, ability technician; moves doubleedge/knockoff/uturn/tripleaxel)
+theirs (as seen):
+  yanmega (fainted; item unknown_item, ability ?; moves bugbuzz)
+  houndoom (fainted; item unknown_item, ability ?; moves fireblast)
+  necrozmaduskmane (fainted; item unknown_item, ability prismarmor; moves photongeyser)
+  cyclizar (fainted; item unknown_item, ability ?; moves dracometeor)
+  wugtrio (fainted; item unknown_item, ability gooey; moves liquidation)
+  fluttermane (10%; item unknown_item, ability protosynthesis; moves moonblast)
+
+-- turn 0
+  switch|p1a: Vikavolt|Vikavolt, L83, F|263/263
+  switch|p2a: Yanmega|Yanmega, L82, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera discharge - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Vikavolt|Electric
+  move|p2a: Yanmega|Bug Buzz|p1a: Vikavolt
+  -damage|p1a: Vikavolt|146/263
+  move|p1a: Vikavolt|Discharge|p2a: Yanmega
+  -supereffective|p2a: Yanmega
+  -damage|p2a: Yanmega|0 fnt
+  faint|p2a: Yanmega
+  switch|p2a: Houndoom|Houndoom, L87, F|100/100
+-- turn 2
+  WE CHOSE: attack discharge - our hp 0.56, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ironthorns - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Vikavolt
+  -damage|p1a: Vikavolt|0 fnt
+  faint|p1a: Vikavolt
+  switch|p1a: Iron Thorns|Iron Thorns, L83|302/302
+-- turn 3
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Houndoom|Fire Blast|p1a: Iron Thorns
+  -resisted|p1a: Iron Thorns
+  -damage|p1a: Iron Thorns|234/302
+  move|p1a: Iron Thorns|Stone Edge|p2a: Houndoom|[miss]
+  -miss|p1a: Iron Thorns|p2a: Houndoom
+-- turn 4
+  WE CHOSE: attack stoneedge - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Houndoom|Fire Blast|p1a: Iron Thorns
+  -resisted|p1a: Iron Thorns
+  -damage|p1a: Iron Thorns|161/302
+  move|p1a: Iron Thorns|Stone Edge|p2a: Houndoom
+  -supereffective|p2a: Houndoom
+  -damage|p2a: Houndoom|0 fnt
+  faint|p2a: Houndoom
+  switch|p2a: Necrozma|Necrozma-Dusk-Mane, L69|100/100
+-- turn 5
+  WE CHOSE: switch to scyther - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x4
+  -end|p1a: Iron Thorns|Quark Drive|[silent]
+  switch|p1a: Scyther|Scyther, L82, M|249/249
+  move|p2a: Necrozma|Photon Geyser|p1a: Scyther
+  -damage|p1a: Scyther|140/249
+-- turn 6
+  WE CHOSE: attack closecombat - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hoopa - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Scyther|Close Combat|p2a: Necrozma
+  -damage|p2a: Necrozma|69/100
+  -unboost|p1a: Scyther|def|1
+  -unboost|p1a: Scyther|spd|1
+  move|p2a: Necrozma|Photon Geyser|p1a: Scyther
+  -crit|p1a: Scyther
+  -damage|p1a: Scyther|0 fnt
+  faint|p1a: Scyther
+  switch|p1a: Hoopa|Hoopa, L85|275/275
+-- turn 7
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Hoopa|Nasty Plot|p1a: Hoopa
+  -boost|p1a: Hoopa|spa|2
+  move|p2a: Necrozma|Photon Geyser|p1a: Hoopa
+  -resisted|p1a: Hoopa
+  -damage|p1a: Hoopa|212/275
+-- turn 8
+  WE CHOSE: attack shadowball - our hp 0.77, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Hoopa|Shadow Ball|p2a: Necrozma
+  -supereffective|p2a: Necrozma
+  -damage|p2a: Necrozma|0 fnt
+  faint|p2a: Necrozma
+  -damage|p1a: Hoopa|185/275|[from] item: Life Orb
+  switch|p2a: Cyclizar|Cyclizar, L84, F|100/100
+-- turn 9
+  WE CHOSE: attack focusblast - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Cyclizar|Draco Meteor|p1a: Hoopa
+  -damage|p1a: Hoopa|95/275
+  -unboost|p2a: Cyclizar|spa|2
+  move|p1a: Hoopa|Focus Blast|p2a: Cyclizar
+  -supereffective|p2a: Cyclizar
+  -crit|p2a: Cyclizar
+  -damage|p2a: Cyclizar|0 fnt
+  faint|p2a: Cyclizar
+  -damage|p1a: Hoopa|68/275|[from] item: Life Orb
+  switch|p2a: Wugtrio|Wugtrio, L91, M|100/100
+-- turn 10
+  WE CHOSE: attack psychic - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to persian - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Wugtrio|Liquidation|p1a: Hoopa
+  -damage|p1a: Hoopa|0 fnt
+  faint|p1a: Hoopa
+  switch|p1a: Persian|Persian, L92, F|269/269
+-- turn 11
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Wugtrio|Liquidation|p1a: Persian
+  -damage|p1a: Persian|71/269
+  move|p1a: Persian|Double-Edge|p2a: Wugtrio
+  -damage|p2a: Wugtrio|7/100
+  -ability|p2a: Wugtrio|Gooey
+  -unboost|p1a: Persian|spe|1
+  -damage|p1a: Persian|5/269|[from] Recoil
+-- turn 12
+  WE CHOSE: attack doubleedge - our hp 0.02, theirs 0.07, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x1
+  move|p2a: Wugtrio|Liquidation|p1a: Persian
+  -damage|p1a: Persian|0 fnt
+  faint|p1a: Persian
+  switch|p1a: Ambipom|Ambipom, L84, F|263/263
+-- turn 13
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x1
+  move|p2a: Wugtrio|Liquidation|p1a: Ambipom
+  -damage|p1a: Ambipom|52/263
+  -unboost|p1a: Ambipom|def|1
+  move|p1a: Ambipom|Double-Edge|p2a: Wugtrio
+  -damage|p2a: Wugtrio|0 fnt
+  -ability|p2a: Wugtrio|Gooey
+  -unboost|p1a: Ambipom|spe|1
+  faint|p2a: Wugtrio
+  -damage|p1a: Ambipom|48/263|[from] Recoil
+  switch|p2a: Flutter Mane|Flutter Mane, L74|100/100
+-- turn 14
+  WE CHOSE: attack doubleedge - our hp 0.18, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ironthorns - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Flutter Mane|Moonblast|p1a: Ambipom
+  -damage|p1a: Ambipom|0 fnt
+  faint|p1a: Ambipom
+  switch|p1a: Iron Thorns|Iron Thorns, L83|161/302
+-- turn 15
+  WE CHOSE: attack wildcharge - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Flutter Mane|Moonblast|p1a: Iron Thorns
+  -damage|p1a: Iron Thorns|7/302
+  move|p1a: Iron Thorns|Wild Charge|p2a: Flutter Mane
+  -damage|p2a: Flutter Mane|10/100
+  -damage|p1a: Iron Thorns|0 fnt|[from] Recoil
+  faint|p1a: Iron Thorns
+  -end|p1a: Iron Thorns|Quark Drive|[silent]

@@ -1,0 +1,233 @@
+battle 263 (battle-gen9randombattle-1008689): lost in 23 turns, 2 of theirs left; we are p1
+
+ours:
+  grumpig (fainted; item leftovers, ability thickfat; moves dazzlinggleam/earthpower/nastyplot/psychic)
+  krookodile (fainted; item lifeorb, ability intimidate; moves knockoff/earthquake/gunkshot/stealthrock)
+  armarouge (fainted; item powerherb, ability weakarmor; moves meteorbeam/armorcannon/psyshock/energyball)
+  chiyu (fainted; item heavydutyboots, ability beadsofruin; moves darkpulse/fireblast/nastyplot/psychic)
+  scizor (fainted; item choiceband, ability technician, tera steel; moves closecombat/knockoff/bulletpunch/uturn)
+  hydrapple (fainted; item assaultvest, ability regenerator; moves ficklebeam/leafstorm/earthpower/dragontail)
+theirs (as seen):
+  luvdisc (fainted; item unknown_item, ability ?; moves surf)
+  hawlucha (fainted; item unknown_item, ability ?; moves bravebird)
+  dachsbun (fainted; item leftovers, ability wellbakedbody; moves playrough)
+  medicham (fainted; item unknown_item, ability ?; moves closecombat)
+  regigigas (87%; item leftovers, ability slowstart; moves bodyslam)
+
+-- turn 0
+  switch|p1a: Grumpig|Grumpig, L92, F|297/297
+  switch|p2a: Luvdisc|Luvdisc, M|100/100
+-- turn 1
+  WE CHOSE: attack psychic - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Luvdisc|Surf|p1a: Grumpig
+  -damage|p1a: Grumpig|242/297
+  move|p1a: Grumpig|Psychic|p2a: Luvdisc
+  -damage|p2a: Luvdisc|52/100
+  -heal|p1a: Grumpig|260/297|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack psychic - our hp 0.88, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Luvdisc|Surf|p1a: Grumpig
+  -damage|p1a: Grumpig|203/297
+  move|p1a: Grumpig|Psychic|p2a: Luvdisc
+  -damage|p2a: Luvdisc|3/100
+  -heal|p1a: Grumpig|221/297|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack psychic - our hp 0.74, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Luvdisc|Surf|p1a: Grumpig
+  -damage|p1a: Grumpig|166/297
+  move|p1a: Grumpig|Psychic|p2a: Luvdisc
+  -damage|p2a: Luvdisc|0 fnt
+  faint|p2a: Luvdisc
+  -heal|p1a: Grumpig|184/297|[from] item: Leftovers
+  switch|p2a: Hawlucha|Hawlucha, L80, F|100/100
+-- turn 4
+  WE CHOSE: attack psychic - our hp 0.62, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Hawlucha|Brave Bird|p1a: Grumpig
+  -damage|p1a: Grumpig|66/297
+  -damage|p2a: Hawlucha|85/100|[from] Recoil
+  move|p1a: Grumpig|Psychic|p2a: Hawlucha
+  -supereffective|p2a: Hawlucha
+  -damage|p2a: Hawlucha|0 fnt
+  faint|p2a: Hawlucha
+  -heal|p1a: Grumpig|84/297|[from] item: Leftovers
+  switch|p2a: Dachsbun|Dachsbun, L92, F|100/100
+-- turn 5
+  WE CHOSE: attack psychic - our hp 0.28, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to armarouge - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Grumpig
+  -damage|p1a: Grumpig|0 fnt
+  faint|p1a: Grumpig
+  switch|p1a: Armarouge|Armarouge, L80, F|267/267
+-- turn 6
+  WE CHOSE: attack armorcannon - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Armarouge|[miss]
+  -miss|p2a: Dachsbun|p1a: Armarouge
+  move|p1a: Armarouge|Armor Cannon|p2a: Dachsbun
+  -ability|p2a: Dachsbun|Well-Baked Body|boost
+  -boost|p2a: Dachsbun|def|2
+-- turn 7
+  WE CHOSE: attack armorcannon - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Dachsbun|Play Rough|p1a: Armarouge
+  -resisted|p1a: Armarouge
+  -damage|p1a: Armarouge|223/267
+  -ability|p1a: Armarouge|Weak Armor|boost
+  -unboost|p1a: Armarouge|def|1
+  -boost|p1a: Armarouge|spe|2
+  move|p1a: Armarouge|Armor Cannon|p2a: Dachsbun
+  -ability|p2a: Dachsbun|Well-Baked Body|boost
+  -boost|p2a: Dachsbun|def|2
+-- turn 8
+  WE CHOSE: attack armorcannon - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Armarouge|Armor Cannon|p2a: Dachsbun
+  -ability|p2a: Dachsbun|Well-Baked Body|boost
+  -boost|p2a: Dachsbun|def|2
+  move|p2a: Dachsbun|Play Rough|p1a: Armarouge
+  -resisted|p1a: Armarouge
+  -damage|p1a: Armarouge|157/267
+  -ability|p1a: Armarouge|Weak Armor|boost
+  -unboost|p1a: Armarouge|def|1
+  -boost|p1a: Armarouge|spe|2
+-- turn 9
+  WE CHOSE: attack armorcannon - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Armarouge|Armor Cannon|p2a: Dachsbun
+  -immune|p2a: Dachsbun|[from] ability: Well-Baked Body
+  move|p2a: Dachsbun|Play Rough|p1a: Armarouge
+  -resisted|p1a: Armarouge
+  -damage|p1a: Armarouge|68/267
+  -ability|p1a: Armarouge|Weak Armor|boost
+  -unboost|p1a: Armarouge|def|1
+  -boost|p1a: Armarouge|spe|2
+-- turn 10
+  WE CHOSE: attack armorcannon - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to scizor - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Armarouge|Armor Cannon|p2a: Dachsbun
+  -immune|p2a: Dachsbun|[from] ability: Well-Baked Body
+  move|p2a: Dachsbun|Play Rough|p1a: Armarouge
+  -resisted|p1a: Armarouge
+  -damage|p1a: Armarouge|0 fnt
+  faint|p1a: Armarouge
+  switch|p1a: Scizor|Scizor, L79, F|240/240
+-- turn 11
+  WE CHOSE: attack+tera bulletpunch - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Scizor|Steel
+  move|p1a: Scizor|Bullet Punch|p2a: Dachsbun
+  -supereffective|p2a: Dachsbun
+  -damage|p2a: Dachsbun|78/100
+  move|p2a: Dachsbun|Play Rough|p1a: Scizor
+  -resisted|p1a: Scizor
+  -damage|p1a: Scizor|190/240
+  -heal|p2a: Dachsbun|84/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack bulletpunch - our hp 0.79, theirs 0.84, predicted move (revealed) hits us x0.5
+  move|p1a: Scizor|Bullet Punch|p2a: Dachsbun
+  -supereffective|p2a: Dachsbun
+  -damage|p2a: Dachsbun|59/100
+  move|p2a: Dachsbun|Play Rough|p1a: Scizor
+  -resisted|p1a: Scizor
+  -damage|p1a: Scizor|145/240
+  -heal|p2a: Dachsbun|65/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack bulletpunch - our hp 0.60, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p1a: Scizor|Bullet Punch|p2a: Dachsbun
+  -supereffective|p2a: Dachsbun
+  -damage|p2a: Dachsbun|41/100
+  move|p2a: Dachsbun|Play Rough|p1a: Scizor
+  -resisted|p1a: Scizor
+  -damage|p1a: Scizor|97/240
+  -heal|p2a: Dachsbun|47/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack bulletpunch - our hp 0.40, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p1a: Scizor|Bullet Punch|p2a: Dachsbun
+  -supereffective|p2a: Dachsbun
+  -damage|p2a: Dachsbun|25/100
+  move|p2a: Dachsbun|Play Rough|p1a: Scizor
+  -resisted|p1a: Scizor
+  -damage|p1a: Scizor|49/240
+  -heal|p2a: Dachsbun|31/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack bulletpunch - our hp 0.20, theirs 0.31, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to chiyu - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Scizor|Bullet Punch|p2a: Dachsbun
+  -supereffective|p2a: Dachsbun
+  -damage|p2a: Dachsbun|8/100
+  move|p2a: Dachsbun|Play Rough|p1a: Scizor
+  -resisted|p1a: Scizor
+  -crit|p1a: Scizor
+  -damage|p1a: Scizor|0 fnt
+  faint|p1a: Scizor
+  -heal|p2a: Dachsbun|13/100|[from] item: Leftovers
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+-- turn 16
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|97/211
+  move|p1a: Chi-Yu|Fire Blast|p2a: Dachsbun
+  -immune|p2a: Dachsbun|[from] ability: Well-Baked Body
+  -heal|p2a: Dachsbun|19/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack fireblast - our hp 0.46, theirs 0.19, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to krookodile - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|0 fnt
+  faint|p1a: Chi-Yu
+  -heal|p2a: Dachsbun|25/100|[from] item: Leftovers
+  switch|p1a: Krookodile|Krookodile, L79, M|280/280
+  -ability|p1a: Krookodile|Intimidate|boost
+  -unboost|p2a: Dachsbun|atk|1
+-- turn 18
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x2
+  move|p2a: Dachsbun|Play Rough|p1a: Krookodile
+  -supereffective|p1a: Krookodile
+  -damage|p1a: Krookodile|134/280
+  move|p1a: Krookodile|Gunk Shot|p2a: Dachsbun
+  -supereffective|p2a: Dachsbun
+  -damage|p2a: Dachsbun|9/100
+  -status|p2a: Dachsbun|psn
+  -damage|p1a: Krookodile|106/280|[from] item: Life Orb
+  -heal|p2a: Dachsbun|15/100 psn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|2/100 psn|[from] psn
+-- turn 19
+  WE CHOSE: attack gunkshot - our hp 0.38, theirs 0.02, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to hydrapple - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x2
+  move|p2a: Dachsbun|Play Rough|p1a: Krookodile
+  -supereffective|p1a: Krookodile
+  -damage|p1a: Krookodile|0 fnt
+  faint|p1a: Krookodile
+  -heal|p2a: Dachsbun|8/100 psn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|0 fnt|[from] psn
+  faint|p2a: Dachsbun
+  switch|p2a: Medicham|Medicham, L86, F|100/100
+  switch|p1a: Hydrapple|Hydrapple, L83, F|312/312
+-- turn 20
+  WE CHOSE: attack leafstorm - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Medicham|Close Combat|p1a: Hydrapple
+  -damage|p1a: Hydrapple|165/312
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  move|p1a: Hydrapple|Leaf Storm|p2a: Medicham
+  -damage|p2a: Medicham|0 fnt
+  -unboost|p1a: Hydrapple|spa|2
+  faint|p2a: Medicham
+  switch|p2a: Regigigas|Regigigas, L84|100/100
+  -start|p2a: Regigigas|ability: Slow Start
+-- turn 21
+  WE CHOSE: attack leafstorm - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Hydrapple|Leaf Storm|p2a: Regigigas|[miss]
+  -miss|p1a: Hydrapple|p2a: Regigigas
+  move|p2a: Regigigas|Body Slam|p1a: Hydrapple
+  -damage|p1a: Hydrapple|110/312
+-- turn 22
+  WE CHOSE: attack leafstorm - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Hydrapple|Leaf Storm|p2a: Regigigas
+  -damage|p2a: Regigigas|81/100
+  -unboost|p1a: Hydrapple|spa|2
+  move|p2a: Regigigas|Body Slam|p1a: Hydrapple
+  -damage|p1a: Hydrapple|55/312
+  -heal|p2a: Regigigas|87/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack dragontail - our hp 0.18, theirs 0.87, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Hydrapple
+  -damage|p1a: Hydrapple|0 fnt
+  faint|p1a: Hydrapple
+  deinit

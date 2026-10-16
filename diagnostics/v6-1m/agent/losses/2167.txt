@@ -1,0 +1,254 @@
+battle 2167 (battle-gen9randombattle-1028315): lost in 28 turns, 1 of theirs left; we are p1
+
+ours:
+  talonflame (fainted; item heavydutyboots, ability flamebody, tera ground; moves flareblitz/bravebird/swordsdance/terablast)
+  glimmora (fainted; item powerherb, ability toxicdebris; moves sludgewave/meteorbeam/earthpower/energyball)
+  sinistcha (fainted; item leftovers, ability heatproof; moves shadowball/matchagotcha/strengthsap/calmmind)
+  araquanid (fainted; item heavydutyboots, ability waterbubble; moves liquidation/stickyweb/mirrorcoat/leechlife)
+  chiyu (fainted; item heavydutyboots, ability beadsofruin; moves fireblast/darkpulse/willowisp/nastyplot)
+  grimmsnarl (fainted; item leftovers, ability prankster; moves spiritbreak/thunderwave/taunt/suckerpunch)
+theirs (as seen):
+  weezinggalar (fainted; item leftovers, ability levitate; moves gunkshot/strangesteam)
+  jolteon (fainted; item unknown_item, ability ?; moves thunderbolt)
+  frosmoth (fainted; item unknown_item, ability ?; moves icebeam)
+  pikachuhoenn (fainted; item unknown_item, ability ?; moves volttackle)
+  leafeon (fainted; item lifeorb, ability ?; moves leafblade)
+  tropius (100%; item unknown_item, ability ?; moves earthquake)
+
+-- turn 0
+  switch|p1a: Talonflame|Talonflame, L83, M|265/265
+  switch|p2a: Weezing|Weezing-Galar, L86, M|100/100
+-- turn 1
+  WE CHOSE: switch to glimmora (hand policy: attack+tera flareblitz) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Glimmora|Glimmora, L75, M|248/248
+  move|p2a: Weezing|Gunk Shot|p1a: Glimmora
+  -resisted|p1a: Glimmora
+  -damage|p1a: Glimmora|212/248
+  -activate|p1a: Glimmora|ability: Toxic Debris
+  -sidestart|p2: e2_132141|move: Toxic Spikes
+-- turn 2
+  WE CHOSE: attack earthpower - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Glimmora|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Glimmora
+  -resisted|p1a: Glimmora
+  -damage|p1a: Glimmora|176/248
+  -activate|p1a: Glimmora|ability: Toxic Debris
+  -sidestart|p2: e2_132141|move: Toxic Spikes
+-- turn 3
+  WE CHOSE: attack earthpower - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Glimmora|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Glimmora
+  -resisted|p1a: Glimmora
+  -damage|p1a: Glimmora|140/248
+-- turn 4
+  WE CHOSE: attack earthpower - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Glimmora|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Glimmora
+  -resisted|p1a: Glimmora
+  -damage|p1a: Glimmora|108/248
+-- turn 5
+  WE CHOSE: attack earthpower - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Glimmora|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Glimmora|[miss]
+  -miss|p2a: Weezing|p1a: Glimmora
+-- turn 6
+  WE CHOSE: attack earthpower - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Glimmora|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Glimmora|[miss]
+  -miss|p2a: Weezing|p1a: Glimmora
+-- turn 7
+  WE CHOSE: attack earthpower - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Glimmora|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Glimmora
+  -resisted|p1a: Glimmora
+  -damage|p1a: Glimmora|73/248
+-- turn 8
+  WE CHOSE: attack earthpower - our hp 0.29, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Glimmora|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Glimmora
+  -resisted|p1a: Glimmora
+  -damage|p1a: Glimmora|41/248
+-- turn 9
+  WE CHOSE: attack earthpower - our hp 0.17, theirs 1.00, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to talonflame - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Glimmora|Earth Power|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Strange Steam|p1a: Glimmora
+  -resisted|p1a: Glimmora
+  -damage|p1a: Glimmora|0 fnt
+  faint|p1a: Glimmora
+  switch|p1a: Talonflame|Talonflame, L83, M|265/265
+-- turn 10
+  WE CHOSE: attack+tera flareblitz - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Talonflame|Ground
+  move|p1a: Talonflame|Flare Blitz|p2a: Weezing
+  -damage|p2a: Weezing|69/100
+  -damage|p1a: Talonflame|239/265|[from] Recoil
+  move|p2a: Weezing|Strange Steam|p1a: Talonflame
+  -damage|p1a: Talonflame|122/265
+  -heal|p2a: Weezing|75/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: setup swordsdance (hand policy: attack flareblitz) - our hp 0.46, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p1a: Talonflame|Swords Dance|p1a: Talonflame
+  -boost|p1a: Talonflame|atk|2
+  move|p2a: Weezing|Strange Steam|p1a: Talonflame
+  -damage|p1a: Talonflame|14/265
+  -heal|p2a: Weezing|81/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack flareblitz - our hp 0.05, theirs 0.81, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to chiyu - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p1a: Talonflame|Flare Blitz|p2a: Weezing
+  -damage|p2a: Weezing|18/100
+  -damage|p1a: Talonflame|0 fnt|[from] Recoil
+  faint|p1a: Talonflame
+  move|p2a: Weezing|Strange Steam|p1: Talonflame|[notarget]
+  -fail|p2a: Weezing
+  -heal|p2a: Weezing|24/100|[from] item: Leftovers
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+-- turn 13
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Chi-Yu|Fire Blast|p2a: Weezing
+  -damage|p2a: Weezing|0 fnt
+  faint|p2a: Weezing
+  switch|p2a: Jolteon|Jolteon, L84, F|100/100
+-- turn 14
+  WE CHOSE: switch to sinistcha (hand policy: attack fireblast) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Sinistcha|Sinistcha, L83|254/254
+  move|p2a: Jolteon|Thunderbolt|p1a: Sinistcha
+  -resisted|p1a: Sinistcha
+  -damage|p1a: Sinistcha|193/254
+  -heal|p1a: Sinistcha|208/254|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: setup calmmind - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Jolteon|Thunderbolt|p1a: Sinistcha
+  -resisted|p1a: Sinistcha
+  -crit|p1a: Sinistcha
+  -damage|p1a: Sinistcha|121/254
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+  -heal|p1a: Sinistcha|136/254|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: setup calmmind - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Jolteon|Thunderbolt|p1a: Sinistcha
+  -resisted|p1a: Sinistcha
+  -damage|p1a: Sinistcha|101/254
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+  -heal|p1a: Sinistcha|116/254|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack shadowball (hand policy: heal strengthsap) - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Jolteon|Thunderbolt|p1a: Sinistcha
+  -resisted|p1a: Sinistcha
+  -damage|p1a: Sinistcha|90/254
+  move|p1a: Sinistcha|Shadow Ball|p2a: Jolteon
+  -damage|p2a: Jolteon|20/100
+  -heal|p1a: Sinistcha|105/254|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack shadowball (hand policy: heal strengthsap) - our hp 0.41, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Jolteon|Thunderbolt|p1a: Sinistcha
+  -resisted|p1a: Sinistcha
+  -damage|p1a: Sinistcha|74/254
+  move|p1a: Sinistcha|Shadow Ball|p2a: Jolteon
+  -damage|p2a: Jolteon|0 fnt
+  faint|p2a: Jolteon
+  -heal|p1a: Sinistcha|89/254|[from] item: Leftovers
+  switch|p2a: Frosmoth|Frosmoth, L82, M|100/100
+-- turn 19
+  WE CHOSE: switch to chiyu (hand policy: attack shadowball) - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+  move|p2a: Frosmoth|Ice Beam|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|163/211
+-- turn 20
+  WE CHOSE: attack fireblast (hand policy: setup nastyplot) - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Chi-Yu|Fire Blast|p2a: Frosmoth|[miss]
+  -miss|p1a: Chi-Yu|p2a: Frosmoth
+  move|p2a: Frosmoth|Ice Beam|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|114/211
+-- turn 21
+  WE CHOSE: attack fireblast (hand policy: setup nastyplot) - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Chi-Yu|Fire Blast|p2a: Frosmoth
+  -supereffective|p2a: Frosmoth
+  -damage|p2a: Frosmoth|0 fnt
+  faint|p2a: Frosmoth
+  switch|p2a: Pikachu|Pikachu-Hoenn, L93, F|100/100
+  -status|p2a: Pikachu|tox
+-- turn 22
+  WE CHOSE: attack fireblast - our hp 0.54, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to sinistcha - our hp 0.00, theirs 0.77, predicted move (revealed) hits us x1
+  move|p2a: Pikachu|Volt Tackle|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|0 fnt
+  faint|p1a: Chi-Yu
+  -damage|p2a: Pikachu|83/100 tox|[from] Recoil
+  -damage|p2a: Pikachu|77/100 tox|[from] psn
+  switch|p1a: Sinistcha|Sinistcha, L83|89/254
+-- turn 23
+  WE CHOSE: setup calmmind (hand policy: heal strengthsap) - our hp 0.35, theirs 0.77, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to grimmsnarl - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x0.5
+  move|p2a: Pikachu|Volt Tackle|p1a: Sinistcha
+  -resisted|p1a: Sinistcha
+  -damage|p1a: Sinistcha|0 fnt
+  faint|p1a: Sinistcha
+  -damage|p2a: Pikachu|63/100 tox|[from] Recoil
+  -damage|p2a: Pikachu|51/100 tox|[from] psn
+  switch|p1a: Grimmsnarl|Grimmsnarl, L83, M|293/293
+-- turn 24
+  WE CHOSE: attack spiritbreak - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Pikachu|Volt Tackle|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|40/293
+  -damage|p2a: Pikachu|13/100 tox|[from] Recoil
+  move|p1a: Grimmsnarl|Spirit Break|p2a: Pikachu
+  -damage|p2a: Pikachu|0 fnt
+  faint|p2a: Pikachu
+  -heal|p1a: Grimmsnarl|58/293|[from] item: Leftovers
+  switch|p2a: Leafeon|Leafeon, L88, M|100/100
+  -status|p2a: Leafeon|tox
+-- turn 25
+  WE CHOSE: attack spiritbreak - our hp 0.20, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to araquanid - our hp 0.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Leafeon|Leaf Blade|p1a: Grimmsnarl
+  -crit|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|0 fnt
+  faint|p1a: Grimmsnarl
+  -damage|p2a: Leafeon|91/100 tox|[from] item: Life Orb
+  -damage|p2a: Leafeon|85/100 tox|[from] psn
+  switch|p1a: Araquanid|Araquanid, L82, M|246/246
+-- turn 26
+  WE CHOSE: attack leechlife - our hp 1.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Leafeon|Leaf Blade|p1a: Araquanid
+  -damage|p1a: Araquanid|104/246
+  -damage|p2a: Leafeon|75/100 tox|[from] item: Life Orb
+  move|p1a: Araquanid|Leech Life|p2a: Leafeon
+  -supereffective|p2a: Leafeon
+  -damage|p2a: Leafeon|39/100 tox
+  -heal|p1a: Araquanid|150/246|[from] drain|[of] p2a: Leafeon
+  -damage|p2a: Leafeon|27/100 tox|[from] psn
+-- turn 27
+  WE CHOSE: attack leechlife - our hp 0.61, theirs 0.27, predicted move (revealed) hits us x1
+  move|p2a: Leafeon|Leaf Blade|p1a: Araquanid
+  -damage|p1a: Araquanid|8/246
+  -damage|p2a: Leafeon|17/100 tox|[from] item: Life Orb
+  move|p1a: Araquanid|Leech Life|p2a: Leafeon
+  -supereffective|p2a: Leafeon
+  -damage|p2a: Leafeon|0 fnt
+  -heal|p1a: Araquanid|30/246|[from] drain|[of] p2a: Leafeon
+  faint|p2a: Leafeon
+  switch|p2a: Tropius|Tropius, L91, F|100/100
+-- turn 28
+  WE CHOSE: attack leechlife - our hp 0.12, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Tropius|Earthquake|p1a: Araquanid
+  -resisted|p1a: Araquanid
+  -damage|p1a: Araquanid|0 fnt
+  faint|p1a: Araquanid

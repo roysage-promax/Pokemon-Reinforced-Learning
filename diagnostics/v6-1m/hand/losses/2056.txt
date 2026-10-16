@@ -1,0 +1,167 @@
+battle 2056 (battle-gen9randombattle-1025621): lost in 17 turns, 1 of theirs left; we are p1
+
+ours:
+  irontreads (fainted; item assaultvest, ability quarkdrive; moves knockoff/rapidspin/ironhead/earthquake)
+  mimikyubusted (fainted; item lifeorb, ability disguise, tera fairy; moves drainpunch/playrough/swordsdance/shadowsneak)
+  meowscarada (fainted; item heavydutyboots, ability protean; moves uturn/knockoff/flowertrick/toxicspikes)
+  overqwil (fainted; item loadeddice, ability intimidate; moves gunkshot/swordsdance/crunch/scaleshot)
+  scovillain (fainted; item heavydutyboots, ability chlorophyll; moves energyball/sunnyday/stompingtantrum/fireblast)
+  clawitzer (fainted; item assaultvest, ability megalauncher; moves darkpulse/waterpulse/dragonpulse/uturn)
+theirs (as seen):
+  vikavolt (fainted; item unknown_item, ability levitate; moves energyball)
+  articunogalar (fainted; item unknown_item, ability competitive; moves hurricane)
+  tinglu (fainted; item unknown_item, ability vesselofruin; moves earthquake)
+  palafin (fainted; item unknown_item, ability zerotohero; moves closecombat)
+  pawmot (fainted; item lifeorb, ability ?; moves closecombat)
+  sneasler (66%; item ?, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Iron Treads|Iron Treads, L77|265/265
+  switch|p2a: Vikavolt|Vikavolt, L83, F|100/100
+-- turn 1
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Iron Treads|Earthquake|p2a: Vikavolt
+  -immune|p2a: Vikavolt|[from] ability: Levitate
+  move|p2a: Vikavolt|Energy Ball|p1a: Iron Treads
+  -damage|p1a: Iron Treads|189/265
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Iron Treads|Earthquake|p2a: Vikavolt
+  -immune|p2a: Vikavolt|[from] ability: Levitate
+  move|p2a: Vikavolt|Energy Ball|p1a: Iron Treads
+  -damage|p1a: Iron Treads|120/265
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Iron Treads|Earthquake|p2a: Vikavolt
+  -immune|p2a: Vikavolt|[from] ability: Levitate
+  move|p2a: Vikavolt|Energy Ball|p1a: Iron Treads
+  -damage|p1a: Iron Treads|52/265
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 0.20, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to scovillain - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Iron Treads|Earthquake|p2a: Vikavolt
+  -immune|p2a: Vikavolt|[from] ability: Levitate
+  move|p2a: Vikavolt|Energy Ball|p1a: Iron Treads
+  -damage|p1a: Iron Treads|0 fnt
+  faint|p1a: Iron Treads
+  -end|p1a: Iron Treads|Quark Drive|[silent]
+  switch|p1a: Scovillain|Scovillain, L91, M|266/266
+-- turn 5
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Scovillain|Fire Blast|p2a: Vikavolt
+  -supereffective|p2a: Vikavolt
+  -damage|p2a: Vikavolt|0 fnt
+  faint|p2a: Vikavolt
+  switch|p2a: Articuno|Articuno-Galar, L84|100/100
+-- turn 6
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to overqwil - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Articuno|Hurricane|p1a: Scovillain
+  -supereffective|p1a: Scovillain
+  -damage|p1a: Scovillain|0 fnt
+  faint|p1a: Scovillain
+  switch|p1a: Overqwil|Overqwil, L82, M|274/274
+  -ability|p1a: Overqwil|Intimidate|boost
+  -unboost|p2a: Articuno|atk|1
+  -ability|p2a: Articuno|Competitive|boost
+  -boost|p2a: Articuno|spa|2
+-- turn 7
+  WE CHOSE: attack crunch - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to clawitzer - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Articuno|Hurricane|p1a: Overqwil
+  -damage|p1a: Overqwil|0 fnt
+  faint|p1a: Overqwil
+  switch|p1a: Clawitzer|Clawitzer, L87, M|265/265
+-- turn 8
+  WE CHOSE: attack darkpulse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Articuno|Hurricane|p1a: Clawitzer
+  -damage|p1a: Clawitzer|97/265
+  move|p1a: Clawitzer|Dark Pulse|p2a: Articuno
+  -supereffective|p2a: Articuno
+  -damage|p2a: Articuno|35/100
+-- turn 9
+  WE CHOSE: attack darkpulse - our hp 0.37, theirs 0.35, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mimikyu - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Articuno|Hurricane|p1a: Clawitzer
+  -damage|p1a: Clawitzer|0 fnt
+  faint|p1a: Clawitzer
+  switch|p1a: Mimikyu|Mimikyu, L79, M|216/216
+-- turn 10
+  WE CHOSE: attack+tera playrough - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  -terastallize|p1a: Mimikyu|Fairy
+  move|p2a: Articuno|Hurricane|p1a: Mimikyu
+  -activate|p1a: Mimikyu|ability: Disguise
+  -damage|p1a: Mimikyu|216/216
+  detailschange|p1a: Mimikyu|Mimikyu-Busted, L79, M, tera:Fairy
+  -damage|p1a: Mimikyu|189/216|[from] pokemon: Mimikyu-Busted
+  move|p1a: Mimikyu|Play Rough|p2a: Articuno
+  -damage|p2a: Articuno|0 fnt
+  faint|p2a: Articuno
+  -damage|p1a: Mimikyu|168/216|[from] item: Life Orb
+  switch|p2a: Ting-Lu|Ting-Lu, L78|100/100
+  -ability|p2a: Ting-Lu|Vessel of Ruin
+-- turn 11
+  WE CHOSE: attack playrough - our hp 0.78, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Mimikyu|Play Rough|p2a: Ting-Lu
+  -supereffective|p2a: Ting-Lu
+  -damage|p2a: Ting-Lu|36/100
+  -damage|p1a: Mimikyu|147/216|[from] item: Life Orb
+  move|p2a: Ting-Lu|Earthquake|p1a: Mimikyu
+  -damage|p1a: Mimikyu|29/216
+-- turn 12
+  WE CHOSE: attack playrough - our hp 0.13, theirs 0.36, predicted move (revealed) hits us x1
+  move|p1a: Mimikyu|Play Rough|p2a: Ting-Lu
+  -supereffective|p2a: Ting-Lu
+  -damage|p2a: Ting-Lu|0 fnt
+  faint|p2a: Ting-Lu
+  -damage|p1a: Mimikyu|8/216|[from] item: Life Orb
+  switch|p2a: Palafin|Palafin, L77, M|100/100
+-- turn 13
+  WE CHOSE: attack playrough - our hp 0.04, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to meowscarada - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Palafin|Close Combat|p1a: Mimikyu
+  -resisted|p1a: Mimikyu
+  -damage|p1a: Mimikyu|0 fnt
+  -unboost|p2a: Palafin|def|1
+  -unboost|p2a: Palafin|spd|1
+  faint|p1a: Mimikyu
+  switch|p1a: Meowscarada|Meowscarada, L78, M|247/247
+-- turn 14
+  WE CHOSE: attack flowertrick - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Meowscarada|Flower Trick|p2a: Palafin
+  -start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+  -supereffective|p2a: Palafin
+  -crit|p2a: Palafin
+  -damage|p2a: Palafin|0 fnt
+  faint|p2a: Palafin
+  switch|p2a: Pawmot|Pawmot, L80, M|100/100
+-- turn 15
+  WE CHOSE: attack flowertrick - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Meowscarada|Flower Trick|p2a: Pawmot
+  -crit|p2a: Pawmot
+  -damage|p2a: Pawmot|47/100
+  move|p2a: Pawmot|Close Combat|p1a: Meowscarada
+  -damage|p1a: Meowscarada|23/247
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+  -damage|p2a: Pawmot|38/100|[from] item: Life Orb
+-- turn 16
+  WE CHOSE: attack flowertrick - our hp 0.09, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Meowscarada|Flower Trick|p2a: Pawmot
+  -crit|p2a: Pawmot
+  -damage|p2a: Pawmot|0 fnt
+  faint|p2a: Pawmot
+  switch|p2a: Sneasler|Sneasler, L74, F|100/100
+-- turn 17
+  WE CHOSE: attack flowertrick - our hp 0.09, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Meowscarada|Flower Trick|p2a: Sneasler
+  -resisted|p2a: Sneasler
+  -crit|p2a: Sneasler
+  -damage|p2a: Sneasler|66/100
+  move|p2a: Sneasler|Close Combat|p1a: Meowscarada
+  -damage|p1a: Meowscarada|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Meowscarada
+  -enditem|p2a: Sneasler|White Herb
+  -clearnegativeboost|p2a: Sneasler|[silent]

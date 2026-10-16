@@ -1,0 +1,326 @@
+battle 1352 (battle-gen9randombattle-1019025): lost in 44 turns, 1 of theirs left; we are p1
+
+ours:
+  lapras (fainted; item heavydutyboots, ability waterabsorb; moves sleeptalk/sparklingaria/rest/freezedry)
+  hoopa (fainted; item lifeorb, ability magician; moves nastyplot/shadowball/psyshock/focusblast)
+  ogerponwellspring (fainted; item wellspringmask, ability waterabsorb; moves swordsdance/knockoff/hornleech/ivycudgel)
+  bastiodon (fainted; item chestoberry, ability soundproof; moves bodypress/rest/irondefense/foulplay)
+  eiscue (fainted; item ?, ability iceface; moves liquidation/ironhead/bellydrum/icespinner)
+  falinks (fainted; item lifeorb, ability defiant; moves noretreat/ironhead/closecombat/knockoff)
+theirs (as seen):
+  comfey (fainted; item leftovers, ability ?; moves gigadrain)
+  spectrier (fainted; item leftovers, ability grimneigh; moves shadowball)
+  kommoo (fainted; item unknown_item, ability ?; moves closecombat)
+  galvantula (fainted; item unknown_item, ability ?; moves thunder)
+  florgeswhite (fainted; item leftovers, ability ?; moves moonblast)
+  mukalola (62%; item unknown_item, ability ?; moves poisonjab)
+
+-- turn 0
+  switch|p1a: Lapras|Lapras, L87, M|368/368
+  switch|p2a: Comfey|Comfey, L85, M|100/100
+-- turn 1
+  WE CHOSE: switch to hoopa - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Hoopa|Hoopa, L85|275/275
+  move|p2a: Comfey|Giga Drain|p1a: Hoopa
+  -damage|p1a: Hoopa|239/275
+-- turn 2
+  WE CHOSE: attack shadowball - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Comfey|Giga Drain|p1a: Hoopa
+  -damage|p1a: Hoopa|206/275
+  move|p1a: Hoopa|Shadow Ball|p2a: Comfey
+  -damage|p2a: Comfey|41/100
+  -unboost|p2a: Comfey|spd|1
+  -damage|p1a: Hoopa|179/275|[from] item: Life Orb
+  -heal|p2a: Comfey|47/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack shadowball - our hp 0.65, theirs 0.47, predicted move (revealed) hits us x1
+  move|p2a: Comfey|Giga Drain|p1a: Hoopa
+  -damage|p1a: Hoopa|145/275
+  -heal|p2a: Comfey|55/100|[from] drain|[of] p1a: Hoopa
+  move|p1a: Hoopa|Shadow Ball|p2a: Comfey
+  -damage|p2a: Comfey|0 fnt
+  faint|p2a: Comfey
+  -damage|p1a: Hoopa|118/275|[from] item: Life Orb
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+-- turn 4
+  WE CHOSE: switch to falinks - our hp 0.43, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Falinks|Falinks, L84|246/246
+  move|p2a: Spectrier|Shadow Ball|p1a: Falinks
+  -damage|p1a: Falinks|117/246
+-- turn 5
+  WE CHOSE: attack knockoff - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bastiodon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Falinks
+  -damage|p1a: Falinks|0 fnt
+  faint|p1a: Falinks
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  switch|p1a: Bastiodon|Bastiodon, L89, M|252/252
+-- turn 6
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Bastiodon
+  -damage|p1a: Bastiodon|155/252
+  move|p1a: Bastiodon|Foul Play|p2a: Spectrier
+  -supereffective|p2a: Spectrier
+  -damage|p2a: Spectrier|66/100
+  -heal|p2a: Spectrier|72/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack foulplay - our hp 0.62, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Bastiodon
+  -damage|p1a: Bastiodon|59/252
+  -unboost|p1a: Bastiodon|spd|1
+  move|p1a: Bastiodon|Foul Play|p2a: Spectrier
+  -supereffective|p2a: Spectrier
+  -damage|p2a: Spectrier|38/100
+  -heal|p2a: Spectrier|44/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: heal rest - our hp 0.23, theirs 0.44, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ogerponwellspring - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Bastiodon
+  -damage|p1a: Bastiodon|0 fnt
+  faint|p1a: Bastiodon
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -heal|p2a: Spectrier|50/100|[from] item: Leftovers
+  switch|p1a: Ogerpon|Ogerpon-Wellspring, L76, F|247/247
+-- turn 9
+  WE CHOSE: attack ivycudgel - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Ogerpon
+  -damage|p1a: Ogerpon|52/247
+  -unboost|p1a: Ogerpon|spd|1
+  move|p1a: Ogerpon|Ivy Cudgel|p2a: Spectrier|[anim] Ivy Cudgel Water
+  -damage|p2a: Spectrier|0 fnt
+  faint|p2a: Spectrier
+  switch|p2a: Kommo-o|Kommo-o, L77, M|100/100
+-- turn 10
+  WE CHOSE: switch to hoopa - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Hoopa|Hoopa, L85|118/275
+  move|p2a: Kommo-o|Close Combat|p1a: Hoopa
+  -immune|p1a: Hoopa
+-- turn 11
+  WE CHOSE: attack psyshock - our hp 0.43, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Kommo-o|Close Combat|p1a: Hoopa
+  -immune|p1a: Hoopa
+  move|p1a: Hoopa|Psyshock|p2a: Kommo-o
+  -supereffective|p2a: Kommo-o
+  -damage|p2a: Kommo-o|0 fnt
+  faint|p2a: Kommo-o
+  -damage|p1a: Hoopa|91/275|[from] item: Life Orb
+  switch|p2a: Galvantula|Galvantula, L82, F|100/100
+-- turn 12
+  WE CHOSE: attack shadowball - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to eiscue - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Galvantula|Thunder|p1a: Hoopa
+  -crit|p1a: Hoopa
+  -damage|p1a: Hoopa|0 fnt
+  faint|p1a: Hoopa
+  switch|p1a: Eiscue|Eiscue, L88, F|274/274
+-- turn 13
+  WE CHOSE: attack icespinner - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Galvantula|Thunder|p1a: Eiscue
+  -damage|p1a: Eiscue|172/274
+  move|p1a: Eiscue|Ice Spinner|p2a: Galvantula
+  -damage|p2a: Galvantula|58/100
+-- turn 14
+  WE CHOSE: attack icespinner - our hp 0.63, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Galvantula|Thunder|p1a: Eiscue
+  -damage|p1a: Eiscue|78/274
+  -enditem|p1a: Eiscue|Sitrus Berry|[eat]
+  -heal|p1a: Eiscue|146/274|[from] item: Sitrus Berry
+  move|p1a: Eiscue|Ice Spinner|p2a: Galvantula
+  -crit|p2a: Galvantula
+  -damage|p2a: Galvantula|0 fnt
+  faint|p2a: Galvantula
+  switch|p2a: Florges|Florges-White, L85, F|100/100
+-- turn 15
+  WE CHOSE: attack ironhead - our hp 0.53, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Florges|Moonblast|p1a: Eiscue
+  -damage|p1a: Eiscue|34/274
+  move|p1a: Eiscue|Iron Head|p2a: Florges
+  -supereffective|p2a: Florges
+  -damage|p2a: Florges|56/100
+  -heal|p2a: Florges|62/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack ironhead - our hp 0.12, theirs 0.62, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ogerponwellspring - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Eiscue
+  -damage|p1a: Eiscue|0 fnt
+  faint|p1a: Eiscue
+  -heal|p2a: Florges|68/100|[from] item: Leftovers
+  switch|p1a: Ogerpon|Ogerpon-Wellspring, L76, F|52/247
+-- turn 17
+  WE CHOSE: attack ivycudgel - our hp 0.21, theirs 0.68, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lapras - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Ivy Cudgel|p2a: Florges|[anim] Ivy Cudgel Water
+  -damage|p2a: Florges|13/100
+  move|p2a: Florges|Moonblast|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  -heal|p2a: Florges|19/100|[from] item: Leftovers
+  switch|p1a: Lapras|Lapras, L87, M|368/368
+-- turn 18
+  WE CHOSE: attack sparklingaria - our hp 1.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Lapras
+  -damage|p1a: Lapras|257/368
+  move|p1a: Lapras|Sparkling Aria|p2a: Florges
+  -damage|p2a: Florges|0 fnt
+  faint|p2a: Florges
+  switch|p2a: Muk|Muk-Alola, L82, F|100/100
+-- turn 19
+  WE CHOSE: attack sparklingaria - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Lapras|Sparkling Aria|p2a: Muk
+  -damage|p2a: Muk|81/100
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|164/368
+-- turn 20
+  WE CHOSE: heal rest - our hp 0.45, theirs 0.81, predicted move (revealed) hits us x1
+  move|p1a: Lapras|Rest|p1a: Lapras
+  -status|p1a: Lapras|slp|[from] move: Rest
+  -heal|p1a: Lapras|368/368 slp|[silent]
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|271/368 slp
+-- turn 21
+  WE CHOSE: attack sparklingaria - our hp 0.74, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|183/368 slp
+-- turn 22
+  WE CHOSE: heal rest - our hp 0.50, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|95/368 slp
+-- turn 23
+  WE CHOSE: heal rest - our hp 0.26, theirs 0.81, predicted move (revealed) hits us x1
+  -curestatus|p1a: Lapras|slp|[msg]
+  move|p1a: Lapras|Rest|p1a: Lapras
+  -status|p1a: Lapras|slp|[from] move: Rest
+  -heal|p1a: Lapras|368/368 slp|[silent]
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|283/368 slp
+-- turn 24
+  WE CHOSE: attack sparklingaria - our hp 0.77, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|199/368 slp
+-- turn 25
+  WE CHOSE: attack sparklingaria - our hp 0.54, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|105/368 slp
+-- turn 26
+  WE CHOSE: heal rest - our hp 0.29, theirs 0.81, predicted move (revealed) hits us x1
+  -curestatus|p1a: Lapras|slp|[msg]
+  move|p1a: Lapras|Rest|p1a: Lapras
+  -status|p1a: Lapras|slp|[from] move: Rest
+  -heal|p1a: Lapras|368/368 slp|[silent]
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|286/368 slp
+-- turn 27
+  WE CHOSE: attack sparklingaria - our hp 0.78, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|192/368 slp
+-- turn 28
+  WE CHOSE: attack sparklingaria - our hp 0.52, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|95/368 slp
+-- turn 29
+  WE CHOSE: heal rest - our hp 0.26, theirs 0.81, predicted move (revealed) hits us x1
+  -curestatus|p1a: Lapras|slp|[msg]
+  move|p1a: Lapras|Rest|p1a: Lapras
+  -status|p1a: Lapras|slp|[from] move: Rest
+  -heal|p1a: Lapras|368/368 slp|[silent]
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|277/368 slp
+-- turn 30
+  WE CHOSE: attack sparklingaria - our hp 0.75, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|190/368 slp
+-- turn 31
+  WE CHOSE: attack sparklingaria - our hp 0.52, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|105/368 slp
+-- turn 32
+  WE CHOSE: heal rest - our hp 0.29, theirs 0.81, predicted move (revealed) hits us x1
+  -curestatus|p1a: Lapras|slp|[msg]
+  move|p1a: Lapras|Rest|p1a: Lapras
+  -status|p1a: Lapras|slp|[from] move: Rest
+  -heal|p1a: Lapras|368/368 slp|[silent]
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|274/368 slp
+-- turn 33
+  WE CHOSE: attack sparklingaria - our hp 0.74, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|180/368 slp
+-- turn 34
+  WE CHOSE: heal rest - our hp 0.49, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|89/368 slp
+-- turn 35
+  WE CHOSE: heal rest - our hp 0.24, theirs 0.81, predicted move (revealed) hits us x1
+  -curestatus|p1a: Lapras|slp|[msg]
+  move|p1a: Lapras|Rest|p1a: Lapras
+  -status|p1a: Lapras|slp|[from] move: Rest
+  -heal|p1a: Lapras|368/368 slp|[silent]
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|283/368 slp
+-- turn 36
+  WE CHOSE: attack sparklingaria - our hp 0.77, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|186/368 slp
+-- turn 37
+  WE CHOSE: attack sparklingaria - our hp 0.51, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|95/368 slp
+-- turn 38
+  WE CHOSE: heal rest - our hp 0.26, theirs 0.81, predicted move (revealed) hits us x1
+  -curestatus|p1a: Lapras|slp|[msg]
+  move|p1a: Lapras|Rest|p1a: Lapras
+  -status|p1a: Lapras|slp|[from] move: Rest
+  -heal|p1a: Lapras|368/368 slp|[silent]
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|283/368 slp
+-- turn 39
+  WE CHOSE: attack sparklingaria - our hp 0.77, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|201/368 slp
+-- turn 40
+  WE CHOSE: attack sparklingaria - our hp 0.55, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|114/368 slp
+-- turn 41
+  WE CHOSE: heal rest - our hp 0.31, theirs 0.81, predicted move (revealed) hits us x1
+  -curestatus|p1a: Lapras|slp|[msg]
+  move|p1a: Lapras|Rest|p1a: Lapras
+  -status|p1a: Lapras|slp|[from] move: Rest
+  -heal|p1a: Lapras|368/368 slp|[silent]
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|278/368 slp
+-- turn 42
+  WE CHOSE: attack sparklingaria - our hp 0.76, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|196/368 slp
+-- turn 43
+  WE CHOSE: attack sparklingaria - our hp 0.53, theirs 0.81, predicted move (revealed) hits us x1
+  cant|p1a: Lapras|slp
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -damage|p1a: Lapras|102/368 slp
+-- turn 44
+  WE CHOSE: attack sparklingaria - our hp 0.28, theirs 0.81, predicted move (revealed) hits us x1
+  -curestatus|p1a: Lapras|slp|[msg]
+  move|p1a: Lapras|Sparkling Aria|p2a: Muk
+  -damage|p2a: Muk|62/100
+  move|p2a: Muk|Poison Jab|p1a: Lapras
+  -crit|p1a: Lapras
+  -damage|p1a: Lapras|0 fnt
+  faint|p1a: Lapras

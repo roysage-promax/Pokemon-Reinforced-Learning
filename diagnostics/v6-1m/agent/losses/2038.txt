@@ -1,0 +1,286 @@
+battle 2038 (battle-gen9randombattle-1027019): lost in 30 turns, 3 of theirs left; we are p1
+
+ours:
+  cyclizar (fainted; item heavydutyboots, ability regenerator; moves taunt/shedtail/rapidspin/dracometeor)
+  masquerain (fainted; item heavydutyboots, ability intimidate; moves quiverdance/bugbuzz/hurricane/hydropump)
+  shiftry (fainted; item lifeorb, ability windrider; moves leafblade/suckerpunch/knockoff/swordsdance)
+  ironboulder (fainted; item ?, ability quarkdrive; moves swordsdance/closecombat/mightycleave/zenheadbutt)
+  alcremie (fainted; item leftovers, ability aromaveil, tera ground; moves calmmind/alluringvoice/recover/terablast)
+  greedent (fainted; item ?, ability cheekpouch; moves earthquake/bodyslam/knockoff/swordsdance)
+theirs (as seen):
+  enamorustherian (fainted; item ?, ability overcoat; moves moonblast)
+  gardevoir (fainted; item unknown_item, ability aromaveil; moves moonblast)
+  munkidori (fainted; item ?, ability ?; moves sludgewave)
+  chiyu (100%; item unknown_item, ability beadsofruin; moves fireblast)
+
+-- turn 0
+  switch|p1a: Cyclizar|Cyclizar, L84, F|255/255
+  switch|p2a: Enamorus|Enamorus-Therian, L83, F|100/100
+-- turn 1
+  WE CHOSE: switch to masquerain - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Masquerain|Masquerain, L87, F|264/264
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Enamorus|atk|1
+  move|p2a: Enamorus|Moonblast|p1a: Masquerain
+  -crit|p1a: Masquerain
+  -damage|p1a: Masquerain|71/264
+-- turn 2
+  WE CHOSE: switch to ironboulder (hand policy: attack hurricane) - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Iron Boulder|Iron Boulder, L77|265/265
+  -enditem|p1a: Iron Boulder|Booster Energy
+  -activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+  -start|p1a: Iron Boulder|quarkdrivespe
+  move|p2a: Enamorus|Moonblast|p1a: Iron Boulder
+  -damage|p1a: Iron Boulder|138/265
+-- turn 3
+  WE CHOSE: attack mightycleave - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to greedent - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Iron Boulder|Mighty Cleave|p2a: Enamorus
+  -supereffective|p2a: Enamorus
+  -damage|p2a: Enamorus|31/100
+  -enditem|p2a: Enamorus|Weakness Policy
+  -boost|p2a: Enamorus|atk|2|[from] item: Weakness Policy
+  -boost|p2a: Enamorus|spa|2|[from] item: Weakness Policy
+  move|p2a: Enamorus|Moonblast|p1a: Iron Boulder
+  -damage|p1a: Iron Boulder|0 fnt
+  faint|p1a: Iron Boulder
+  -end|p1a: Iron Boulder|Quark Drive|[silent]
+  switch|p1a: Greedent|Greedent, L86, M|347/347
+-- turn 4
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Enamorus|Moonblast|p1a: Greedent
+  -damage|p1a: Greedent|83/347
+  -enditem|p1a: Greedent|Sitrus Berry|[eat]
+  -heal|p1a: Greedent|169/347|[from] item: Sitrus Berry
+  -heal|p1a: Greedent|284/347|[from] ability: Cheek Pouch
+  move|p1a: Greedent|Body Slam|p2a: Enamorus
+  -damage|p2a: Enamorus|3/100
+-- turn 5
+  WE CHOSE: attack bodyslam - our hp 0.82, theirs 0.03, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to alcremie - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Enamorus|Moonblast|p1a: Greedent
+  -damage|p1a: Greedent|0 fnt
+  faint|p1a: Greedent
+  switch|p1a: Alcremie|Alcremie, L90, F|263/263
+-- turn 6
+  WE CHOSE: attack alluringvoice - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p1a: Alcremie|Alluring Voice|p2a: Enamorus
+  -crit|p2a: Enamorus
+  -damage|p2a: Enamorus|0 fnt
+  faint|p2a: Enamorus
+  switch|p2a: Gardevoir|Gardevoir, L83, M|100/100
+  -ability|p2a: Gardevoir|Aroma Veil|Trace|[from] ability: Trace|[of] p1a: Alcremie
+-- turn 7
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Gardevoir|Moonblast|p1a: Alcremie
+  -damage|p1a: Alcremie|167/263
+  move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+  -boost|p1a: Alcremie|spa|1
+  -boost|p1a: Alcremie|spd|1
+  -heal|p1a: Alcremie|183/263|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: heal recover (hand policy: attack alluringvoice) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Alcremie
+  -damage|p1a: Alcremie|123/263
+  -unboost|p1a: Alcremie|spa|1
+  move|p1a: Alcremie|Recover|p1a: Alcremie
+  -heal|p1a: Alcremie|255/263
+  -heal|p1a: Alcremie|263/263|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: setup calmmind (hand policy: attack alluringvoice) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Alcremie
+  -damage|p1a: Alcremie|202/263
+  -unboost|p1a: Alcremie|spa|1
+  move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+  -boost|p1a: Alcremie|spa|1
+  -boost|p1a: Alcremie|spd|1
+  -heal|p1a: Alcremie|218/263|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: setup calmmind (hand policy: attack alluringvoice) - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Alcremie
+  -damage|p1a: Alcremie|172/263
+  -unboost|p1a: Alcremie|spa|1
+  move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+  -boost|p1a: Alcremie|spa|1
+  -boost|p1a: Alcremie|spd|1
+  -heal|p1a: Alcremie|188/263|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: setup calmmind (hand policy: attack alluringvoice) - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Alcremie
+  -damage|p1a: Alcremie|151/263
+  -unboost|p1a: Alcremie|spa|1
+  move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+  -boost|p1a: Alcremie|spa|1
+  -boost|p1a: Alcremie|spd|1
+  -heal|p1a: Alcremie|167/263|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack alluringvoice - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Alcremie
+  -damage|p1a: Alcremie|137/263
+  move|p1a: Alcremie|Alluring Voice|p2a: Gardevoir
+  -damage|p2a: Gardevoir|66/100
+  -heal|p1a: Alcremie|153/263|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack alluringvoice - our hp 0.58, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Alcremie
+  -damage|p1a: Alcremie|119/263
+  move|p1a: Alcremie|Alluring Voice|p2a: Gardevoir
+  -damage|p2a: Gardevoir|33/100
+  -heal|p1a: Alcremie|135/263|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack alluringvoice - our hp 0.51, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Alcremie
+  -damage|p1a: Alcremie|107/263
+  move|p1a: Alcremie|Alluring Voice|p2a: Gardevoir
+  -damage|p2a: Gardevoir|0 fnt
+  faint|p2a: Gardevoir
+  -heal|p1a: Alcremie|123/263|[from] item: Leftovers
+  switch|p2a: Munkidori|Munkidori, L79, M|100/100
+-- turn 15
+  WE CHOSE: setup calmmind (hand policy: heal recover) - our hp 0.47, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Munkidori|Sludge Wave|p1a: Alcremie
+  -supereffective|p1a: Alcremie
+  -damage|p1a: Alcremie|69/263
+  move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+  -boost|p1a: Alcremie|spa|1
+  -boost|p1a: Alcremie|spd|1
+  -heal|p1a: Alcremie|85/263|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: heal+tera recover (hand policy: attack+tera terablast) - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x2
+  -terastallize|p1a: Alcremie|Ground
+  move|p2a: Munkidori|Sludge Wave|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|72/263
+  move|p1a: Alcremie|Recover|p1a: Alcremie
+  -heal|p1a: Alcremie|204/263
+  -heal|p1a: Alcremie|220/263|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: setup calmmind - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Munkidori|Sludge Wave|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|208/263
+  -status|p1a: Alcremie|tox|[from] ability: Toxic Chain|[of] p2a: Munkidori
+  move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+  -boost|p1a: Alcremie|spa|1
+  -boost|p1a: Alcremie|spd|1
+  -heal|p1a: Alcremie|224/263 tox|[from] item: Leftovers
+  -damage|p1a: Alcremie|208/263 tox|[from] psn
+-- turn 18
+  WE CHOSE: setup calmmind (hand policy: attack terablast) - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Munkidori|Sludge Wave|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|197/263 tox
+  move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+  -boost|p1a: Alcremie|spa|1
+  -boost|p1a: Alcremie|spd|0
+  -heal|p1a: Alcremie|213/263 tox|[from] item: Leftovers
+  -damage|p1a: Alcremie|181/263 tox|[from] psn
+-- turn 19
+  WE CHOSE: heal recover (hand policy: attack terablast) - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Munkidori|Sludge Wave|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|170/263 tox
+  move|p1a: Alcremie|Recover|p1a: Alcremie
+  -heal|p1a: Alcremie|263/263 tox
+  -damage|p1a: Alcremie|215/263 tox|[from] psn
+-- turn 20
+  WE CHOSE: heal recover (hand policy: attack terablast) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Munkidori|Sludge Wave|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|204/263 tox
+  move|p1a: Alcremie|Recover|p1a: Alcremie
+  -heal|p1a: Alcremie|263/263 tox
+  -damage|p1a: Alcremie|199/263 tox|[from] psn
+-- turn 21
+  WE CHOSE: heal recover (hand policy: attack terablast) - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Munkidori|Sludge Wave|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|190/263 tox
+  move|p1a: Alcremie|Recover|p1a: Alcremie
+  -heal|p1a: Alcremie|263/263 tox
+  -damage|p1a: Alcremie|183/263 tox|[from] psn
+-- turn 22
+  WE CHOSE: heal recover (hand policy: attack terablast) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Munkidori|Sludge Wave|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|171/263 tox
+  move|p1a: Alcremie|Recover|p1a: Alcremie
+  -heal|p1a: Alcremie|263/263 tox
+  -damage|p1a: Alcremie|167/263 tox|[from] psn
+-- turn 23
+  WE CHOSE: heal recover (hand policy: attack terablast) - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Munkidori|Sludge Wave|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|156/263 tox
+  move|p1a: Alcremie|Recover|p1a: Alcremie
+  -heal|p1a: Alcremie|263/263 tox
+  -damage|p1a: Alcremie|151/263 tox|[from] psn
+-- turn 24
+  WE CHOSE: heal recover (hand policy: attack terablast) - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Munkidori|Sludge Wave|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|141/263 tox
+  move|p1a: Alcremie|Recover|p1a: Alcremie
+  -heal|p1a: Alcremie|263/263 tox
+  -damage|p1a: Alcremie|135/263 tox|[from] psn
+-- turn 25
+  WE CHOSE: setup calmmind (hand policy: attack terablast) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to cyclizar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Munkidori|Sludge Wave|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|126/263 tox
+  move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+  -boost|p1a: Alcremie|spa|1
+  -boost|p1a: Alcremie|spd|0
+  -heal|p1a: Alcremie|142/263 tox|[from] item: Leftovers
+  -damage|p1a: Alcremie|0 fnt|[from] psn
+  faint|p1a: Alcremie
+  switch|p1a: Cyclizar|Cyclizar, L84, F|255/255
+-- turn 26
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cyclizar|Draco Meteor|p2a: Munkidori
+  -damage|p2a: Munkidori|67/100
+  -unboost|p1a: Cyclizar|spa|2
+  move|p2a: Munkidori|Sludge Wave|p1a: Cyclizar
+  -damage|p1a: Cyclizar|123/255
+  -status|p1a: Cyclizar|psn
+  -damage|p1a: Cyclizar|92/255 psn|[from] psn
+-- turn 27
+  WE CHOSE: attack dracometeor - our hp 0.36, theirs 0.67, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to masquerain - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p1a: Cyclizar|Draco Meteor|p2a: Munkidori
+  -damage|p2a: Munkidori|51/100
+  -unboost|p1a: Cyclizar|spa|2
+  move|p2a: Munkidori|Sludge Wave|p1a: Cyclizar
+  -damage|p1a: Cyclizar|0 fnt
+  faint|p1a: Cyclizar
+  switch|p1a: Masquerain|Masquerain, L87, F|71/264
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Munkidori|atk|1
+-- turn 28
+  WE CHOSE: attack bugbuzz - our hp 0.27, theirs 0.51, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to shiftry - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Munkidori|Sludge Wave|p1a: Masquerain
+  -damage|p1a: Masquerain|0 fnt
+  faint|p1a: Masquerain
+  switch|p1a: Shiftry|Shiftry, L89, M|305/305
+-- turn 29
+  WE CHOSE: attack knockoff (hand policy: attack suckerpunch) - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x2
+  move|p2a: Munkidori|Sludge Wave|p1a: Shiftry
+  -supereffective|p1a: Shiftry
+  -damage|p1a: Shiftry|51/305
+  move|p1a: Shiftry|Knock Off|p2a: Munkidori
+  -supereffective|p2a: Munkidori
+  -damage|p2a: Munkidori|0 fnt
+  -enditem|p2a: Munkidori|Assault Vest|[from] move: Knock Off|[of] p1a: Shiftry
+  faint|p2a: Munkidori
+  -damage|p1a: Shiftry|21/305|[from] item: Life Orb
+  switch|p2a: Chi-Yu|Chi-Yu, L77|100/100
+  -ability|p2a: Chi-Yu|Beads of Ruin
+-- turn 30
+  WE CHOSE: setup swordsdance (hand policy: attack leafblade) - our hp 0.07, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Chi-Yu|Fire Blast|p1a: Shiftry
+  -supereffective|p1a: Shiftry
+  -damage|p1a: Shiftry|0 fnt
+  faint|p1a: Shiftry
+  deinit

@@ -1,0 +1,249 @@
+battle 478 (battle-gen9randombattle-1011159): lost in 29 turns, 0 of theirs left; we are p1
+
+ours:
+  dudunsparce (fainted; item leftovers, ability serenegrace, tera ghost; moves earthquake/roost/headbutt/glare)
+  cresselia (fainted; item leftovers, ability levitate; moves moonblast/psyshock/calmmind/moonlight)
+  flamigo (fainted; item lifeorb, ability scrappy; moves throatchop/bravebird/closecombat/swordsdance)
+  blissey (fainted; item leftovers, ability naturalcure; moves thunderwave/healbell/softboiled/seismictoss)
+  malamar (fainted; item chestoberry, ability contrary; moves rest/psychocut/knockoff/superpower)
+  zapdos (fainted; item heavydutyboots, ability static; moves hurricane/thunderbolt/roost/uturn)
+theirs (as seen):
+  gothitelle (fainted; item unknown_item, ability ?; moves focusblast)
+  conkeldurr (fainted; item unknown_item, ability ?; moves closecombat)
+  kyuremwhite (fainted; item unknown_item, ability turboblaze; moves dracometeor)
+  jolteon (fainted; item unknown_item, ability ?; moves thunderbolt)
+  rotomwash (fainted; item leftovers, ability levitate; moves hydropump)
+  entei (fainted; item unknown_item, ability ?; moves flareblitz)
+
+-- turn 0
+  switch|p1a: Dudunsparce|Dudunsparce, L83, M|343/343
+  switch|p2a: Gothitelle|Gothitelle, L90, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera headbutt (hand policy: switch to flamigo) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Dudunsparce|Ghost
+  move|p2a: Gothitelle|Focus Blast|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Headbutt|p2a: Gothitelle
+  -damage|p2a: Gothitelle|75/100
+-- turn 2
+  WE CHOSE: attack headbutt - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x0
+  move|p2a: Gothitelle|Focus Blast|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Headbutt|p2a: Gothitelle
+  -damage|p2a: Gothitelle|50/100
+-- turn 3
+  WE CHOSE: attack headbutt - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x0
+  move|p2a: Gothitelle|Focus Blast|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Headbutt|p2a: Gothitelle
+  -damage|p2a: Gothitelle|25/100
+-- turn 4
+  WE CHOSE: attack headbutt - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x0
+  move|p2a: Gothitelle|Focus Blast|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Headbutt|p2a: Gothitelle
+  -damage|p2a: Gothitelle|1/100
+-- turn 5
+  WE CHOSE: attack headbutt - our hp 1.00, theirs 0.01, predicted move (revealed) hits us x0
+  move|p2a: Gothitelle|Focus Blast|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Headbutt|p2a: Gothitelle
+  -damage|p2a: Gothitelle|0 fnt
+  faint|p2a: Gothitelle
+  switch|p2a: Conkeldurr|Conkeldurr, L80, F|100/100
+-- turn 6
+  WE CHOSE: attack headbutt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Dudunsparce|Headbutt|p2a: Conkeldurr
+  -damage|p2a: Conkeldurr|77/100
+  cant|p2a: Conkeldurr|flinch
+  -status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+-- turn 7
+  WE CHOSE: heal roost (hand policy: attack headbutt) - our hp 1.00, theirs 0.77, predicted move (guessed) hits us x0
+  move|p1a: Dudunsparce|Roost||[still]
+  -fail|p1a: Dudunsparce|heal
+  move|p2a: Conkeldurr|Close Combat|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  -damage|p2a: Conkeldurr|71/100 brn|[from] brn
+-- turn 8
+  WE CHOSE: attack headbutt - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x0
+  move|p1a: Dudunsparce|Headbutt|p2a: Conkeldurr
+  -damage|p2a: Conkeldurr|48/100 brn
+  move|p2a: Conkeldurr|Close Combat|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  -damage|p2a: Conkeldurr|42/100 brn|[from] brn
+-- turn 9
+  WE CHOSE: attack headbutt - our hp 1.00, theirs 0.42, predicted move (revealed) hits us x0
+  move|p1a: Dudunsparce|Headbutt|p2a: Conkeldurr
+  -damage|p2a: Conkeldurr|17/100 brn
+  cant|p2a: Conkeldurr|flinch
+  -damage|p2a: Conkeldurr|11/100 brn|[from] brn
+-- turn 10
+  WE CHOSE: attack headbutt - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x0
+  move|p1a: Dudunsparce|Headbutt|p2a: Conkeldurr
+  -damage|p2a: Conkeldurr|0 fnt
+  faint|p2a: Conkeldurr
+  switch|p2a: Kyurem|Kyurem-White, L73|100/100
+  -ability|p2a: Kyurem|Turboblaze
+-- turn 11
+  WE CHOSE: attack headbutt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Kyurem|Draco Meteor|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|54/343
+  -unboost|p2a: Kyurem|spa|2
+  move|p1a: Dudunsparce|Headbutt|p2a: Kyurem
+  -damage|p2a: Kyurem|70/100
+  -heal|p1a: Dudunsparce|75/343|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: switch to flamigo (hand policy: heal roost) - our hp 0.22, theirs 0.70, predicted move (revealed) hits us x1
+  switch|p1a: Flamigo|Flamigo, L82, M|269/269
+  move|p2a: Kyurem|Draco Meteor|p1a: Flamigo
+  -damage|p1a: Flamigo|112/269
+  -unboost|p2a: Kyurem|spa|2
+-- turn 13
+  WE CHOSE: switch to malamar (hand policy: attack closecombat) - our hp 0.42, theirs 0.70, predicted move (revealed) hits us x1
+  switch|p1a: Malamar|Malamar, L82, M|275/275
+  move|p2a: Kyurem|Draco Meteor|p1a: Malamar
+  -damage|p1a: Malamar|178/275
+  -unboost|p2a: Kyurem|spa|2
+-- turn 14
+  WE CHOSE: attack superpower - our hp 0.65, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Kyurem|Draco Meteor|p1a: Malamar|[miss]
+  -miss|p2a: Kyurem|p1a: Malamar
+  move|p1a: Malamar|Superpower|p2a: Kyurem
+  -supereffective|p2a: Kyurem
+  -damage|p2a: Kyurem|16/100
+  -boost|p1a: Malamar|atk|1
+  -boost|p1a: Malamar|def|1
+-- turn 15
+  WE CHOSE: attack superpower - our hp 0.65, theirs 0.16, predicted move (revealed) hits us x1
+  move|p2a: Kyurem|Draco Meteor|p1a: Malamar
+  -damage|p1a: Malamar|106/275
+  move|p1a: Malamar|Superpower|p2a: Kyurem
+  -supereffective|p2a: Kyurem
+  -damage|p2a: Kyurem|0 fnt
+  -boost|p1a: Malamar|atk|1
+  -boost|p1a: Malamar|def|1
+  faint|p2a: Kyurem
+  switch|p2a: Jolteon|Jolteon, L84, M|100/100
+-- turn 16
+  WE CHOSE: heal rest - our hp 0.39, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dudunsparce - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Malamar
+  -damage|p1a: Malamar|0 fnt
+  faint|p1a: Malamar
+  switch|p1a: Dudunsparce|Dudunsparce, L83, M, tera:Ghost|75/343
+-- turn 17
+  WE CHOSE: heal roost - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to zapdos (hand policy: forced: switch to cresselia) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|0 fnt
+  faint|p1a: Dudunsparce
+  switch|p1a: Zapdos|Zapdos, L78|268/268
+-- turn 18
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cresselia - our hp 0.61, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Zapdos
+  -damage|p1a: Zapdos|163/268
+  move|p1a: Zapdos|U-turn|p2a: Jolteon
+  -damage|p2a: Jolteon|78/100
+  switch|p1a: Cresselia|Cresselia, L80, F|323/323|[from] U-turn
+-- turn 19
+  WE CHOSE: attack psyshock - our hp 1.00, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Cresselia
+  -damage|p1a: Cresselia|229/323
+  move|p1a: Cresselia|Psyshock|p2a: Jolteon
+  -damage|p2a: Jolteon|40/100
+  -heal|p1a: Cresselia|249/323|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack psyshock - our hp 0.77, theirs 0.40, predicted move (revealed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Cresselia
+  -damage|p1a: Cresselia|165/323
+  move|p1a: Cresselia|Psyshock|p2a: Jolteon
+  -crit|p2a: Jolteon
+  -damage|p2a: Jolteon|0 fnt
+  faint|p2a: Jolteon
+  -heal|p1a: Cresselia|185/323|[from] item: Leftovers
+  switch|p2a: Rotom|Rotom-Wash, L82|100/100
+-- turn 21
+  WE CHOSE: attack moonblast (hand policy: attack psyshock) - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Rotom|Hydro Pump|p1a: Cresselia
+  -damage|p1a: Cresselia|82/323
+  move|p1a: Cresselia|Moonblast|p2a: Rotom
+  -crit|p2a: Rotom
+  -damage|p2a: Rotom|70/100
+  -heal|p2a: Rotom|76/100|[from] item: Leftovers
+  -heal|p1a: Cresselia|102/323|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack moonblast (hand policy: heal moonlight) - our hp 0.32, theirs 0.76, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Hydro Pump|p1a: Cresselia|[miss]
+  -miss|p2a: Rotom|p1a: Cresselia
+  move|p1a: Cresselia|Moonblast|p2a: Rotom
+  -crit|p2a: Rotom
+  -damage|p2a: Rotom|47/100
+  -heal|p2a: Rotom|53/100|[from] item: Leftovers
+  -heal|p1a: Cresselia|122/323|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack psyshock (hand policy: heal moonlight) - our hp 0.38, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Hydro Pump|p1a: Cresselia
+  -damage|p1a: Cresselia|25/323
+  move|p1a: Cresselia|Psyshock|p2a: Rotom
+  -damage|p2a: Rotom|25/100
+  -heal|p2a: Rotom|31/100|[from] item: Leftovers
+  -heal|p1a: Cresselia|45/323|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack moonblast (hand policy: heal moonlight) - our hp 0.14, theirs 0.31, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to flamigo - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Hydro Pump|p1a: Cresselia
+  -damage|p1a: Cresselia|0 fnt
+  faint|p1a: Cresselia
+  -heal|p2a: Rotom|37/100|[from] item: Leftovers
+  switch|p1a: Flamigo|Flamigo, L82, M|112/269
+-- turn 25
+  WE CHOSE: attack closecombat - our hp 0.42, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Flamigo|Close Combat|p2a: Rotom
+  -damage|p2a: Rotom|0 fnt
+  -unboost|p1a: Flamigo|def|1
+  -unboost|p1a: Flamigo|spd|1
+  faint|p2a: Rotom
+  -damage|p1a: Flamigo|86/269|[from] item: Life Orb
+  switch|p2a: Entei|Entei, L78|100/100
+-- turn 26
+  WE CHOSE: attack bravebird - our hp 0.32, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to zapdos - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Entei|Flare Blitz|p1a: Flamigo
+  -crit|p1a: Flamigo
+  -damage|p1a: Flamigo|0 fnt
+  faint|p1a: Flamigo
+  -damage|p2a: Entei|91/100|[from] Recoil
+  switch|p1a: Zapdos|Zapdos, L78|163/268
+-- turn 27
+  WE CHOSE: heal roost (hand policy: attack thunderbolt) - our hp 0.61, theirs 0.91, predicted move (revealed) hits us x1
+  move|p1a: Zapdos|Roost|p1a: Zapdos
+  -heal|p1a: Zapdos|268/268
+  -singleturn|p1a: Zapdos|move: Roost
+  move|p2a: Entei|Flare Blitz|p1a: Zapdos
+  -damage|p1a: Zapdos|45/268
+  -status|p1a: Zapdos|brn
+  -status|p2a: Entei|par|[from] ability: Static|[of] p1a: Zapdos
+  -damage|p2a: Entei|67/100 par|[from] Recoil
+  -damage|p1a: Zapdos|29/268 brn|[from] brn
+-- turn 28
+  WE CHOSE: heal roost - our hp 0.11, theirs 0.67, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to blissey - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Zapdos|Roost|p1a: Zapdos
+  -heal|p1a: Zapdos|163/268 brn
+  -singleturn|p1a: Zapdos|move: Roost
+  move|p2a: Entei|Flare Blitz|p1a: Zapdos
+  -damage|p1a: Zapdos|0 fnt
+  faint|p1a: Zapdos
+  -damage|p2a: Entei|50/100 par|[from] Recoil
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+-- turn 29
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Entei|Flare Blitz|p1a: Blissey
+  -damage|p1a: Blissey|0 fnt
+  faint|p1a: Blissey
+  -damage|p2a: Entei|0 fnt|[from] Recoil
+  faint|p2a: Entei
+  deinit

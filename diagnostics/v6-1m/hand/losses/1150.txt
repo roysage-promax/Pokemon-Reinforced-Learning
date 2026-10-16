@@ -1,0 +1,227 @@
+battle 1150 (battle-gen9randombattle-1017101): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  corviknight (fainted; item rockyhelmet, ability mirrorarmor; moves bodypress/bravebird/roost/defog)
+  skarmory (fainted; item leftovers, ability sturdy; moves roost/bravebird/spikes/bodypress)
+  umbreon (fainted; item leftovers, ability synchronize; moves foulplay/toxic/wish/protect)
+  koraidon (fainted; item loadeddice, ability orichalcumpulse; moves flareblitz/collisioncourse/scaleshot/swordsdance)
+  regirock (fainted; item leftovers, ability clearbody; moves thunderwave/stoneedge/stealthrock/bodypress)
+  floatzel (fainted; item choiceband, ability waterveil, tera water; moves crunch/flipturn/icespinner/wavecrash)
+theirs (as seen):
+  kingambit (fainted; item leftovers, ability ?; moves kowtowcleave)
+  passimian (fainted; item leftovers, ability ?; moves gunkshot)
+  ironjugulis (fainted; item unknown_item, ability quarkdrive; moves hurricane)
+  abomasnow (fainted; item unknown_item, ability ?; moves blizzard)
+  arceusice (fainted; item unknown_item, ability multitype; moves judgment)
+  gengar (20%; item lifeorb, ability cursedbody; moves focusblast)
+
+-- turn 0
+  switch|p1a: Corviknight|Corviknight, L80, M|288/288
+  switch|p2a: Kingambit|Kingambit, L74, F|100/100
+-- turn 1
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Corviknight|Body Press|p2a: Kingambit
+  -supereffective|p2a: Kingambit
+  -damage|p2a: Kingambit|25/100
+  move|p2a: Kingambit|Kowtow Cleave|p1a: Corviknight
+  -damage|p1a: Corviknight|203/288
+  -damage|p2a: Kingambit|8/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+  -heal|p2a: Kingambit|14/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack bodypress - our hp 0.70, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Corviknight|Body Press|p2a: Kingambit
+  -supereffective|p2a: Kingambit
+  -damage|p2a: Kingambit|0 fnt
+  faint|p2a: Kingambit
+  -end|p2a: Kingambit|fallenundefined|[silent]
+  switch|p2a: Passimian|Passimian, L83, F|100/100
+-- turn 3
+  WE CHOSE: attack bravebird - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Passimian|Gunk Shot|p1a: Corviknight
+  -immune|p1a: Corviknight
+  move|p1a: Corviknight|Brave Bird|p2a: Passimian
+  -supereffective|p2a: Passimian
+  -damage|p2a: Passimian|26/100
+  -damage|p1a: Corviknight|129/288|[from] Recoil
+  -heal|p2a: Passimian|32/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: heal roost - our hp 0.45, theirs 0.32, predicted move (revealed) hits us x0
+  move|p2a: Passimian|Gunk Shot|p1a: Corviknight
+  -immune|p1a: Corviknight
+  move|p1a: Corviknight|Roost|p1a: Corviknight
+  -heal|p1a: Corviknight|273/288
+  -singleturn|p1a: Corviknight|move: Roost
+  -heal|p2a: Passimian|38/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack bravebird - our hp 0.95, theirs 0.38, predicted move (revealed) hits us x0
+  move|p2a: Passimian|Gunk Shot|p1a: Corviknight
+  -immune|p1a: Corviknight
+  move|p1a: Corviknight|Brave Bird|p2a: Passimian
+  -supereffective|p2a: Passimian
+  -damage|p2a: Passimian|0 fnt
+  faint|p2a: Passimian
+  -damage|p1a: Corviknight|235/288|[from] Recoil
+  switch|p2a: Iron Jugulis|Iron Jugulis, L77|100/100
+-- turn 6
+  WE CHOSE: attack bravebird - our hp 0.82, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Iron Jugulis|Hurricane|p1a: Corviknight|[miss]
+  -miss|p2a: Iron Jugulis|p1a: Corviknight
+  move|p1a: Corviknight|Brave Bird|p2a: Iron Jugulis
+  -damage|p2a: Iron Jugulis|57/100
+  -damage|p1a: Corviknight|196/288|[from] Recoil
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 0.68, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Jugulis|Hurricane|p1a: Corviknight
+  -resisted|p1a: Corviknight
+  -damage|p1a: Corviknight|109/288
+  -start|p1a: Corviknight|confusion
+  -activate|p1a: Corviknight|confusion
+  -damage|p1a: Corviknight|85/288|[from] confusion
+-- turn 8
+  WE CHOSE: heal roost - our hp 0.30, theirs 0.57, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to regirock - our hp 0.00, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Jugulis|Hurricane|p1a: Corviknight
+  -resisted|p1a: Corviknight
+  -crit|p1a: Corviknight
+  -damage|p1a: Corviknight|0 fnt
+  faint|p1a: Corviknight
+  switch|p1a: Regirock|Regirock, L83|268/268
+-- turn 9
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Jugulis|Hurricane|p1a: Regirock|[miss]
+  -miss|p2a: Iron Jugulis|p1a: Regirock
+  move|p1a: Regirock|Stone Edge|p2a: Iron Jugulis|[miss]
+  -miss|p1a: Regirock|p2a: Iron Jugulis
+-- turn 10
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Jugulis|Hurricane|p1a: Regirock
+  -resisted|p1a: Regirock
+  -damage|p1a: Regirock|181/268
+  move|p1a: Regirock|Stone Edge|p2a: Iron Jugulis|[miss]
+  -miss|p1a: Regirock|p2a: Iron Jugulis
+  -heal|p1a: Regirock|197/268|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack stoneedge - our hp 0.74, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Jugulis|Hurricane|p1a: Regirock
+  -resisted|p1a: Regirock
+  -damage|p1a: Regirock|123/268
+  move|p1a: Regirock|Stone Edge|p2a: Iron Jugulis
+  -supereffective|p2a: Iron Jugulis
+  -crit|p2a: Iron Jugulis
+  -damage|p2a: Iron Jugulis|0 fnt
+  faint|p2a: Iron Jugulis
+  -end|p2a: Iron Jugulis|Quark Drive|[silent]
+  -heal|p1a: Regirock|139/268|[from] item: Leftovers
+  switch|p2a: Abomasnow|Abomasnow, L84, M|100/100
+  -weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+-- turn 12
+  WE CHOSE: switch to skarmory - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Skarmory|Skarmory, L80, F|235/235
+  move|p2a: Abomasnow|Blizzard|p1a: Skarmory
+  -damage|p1a: Skarmory|102/235
+  -weather|Snowscape|[upkeep]
+  -heal|p1a: Skarmory|116/235|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Roost|p1a: Skarmory
+  -heal|p1a: Skarmory|234/235
+  -singleturn|p1a: Skarmory|move: Roost
+  move|p2a: Abomasnow|Blizzard|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|163/235
+  -weather|Snowscape|[upkeep]
+  -heal|p1a: Skarmory|177/235|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack bravebird - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to regirock - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Brave Bird|p2a: Abomasnow
+  -supereffective|p2a: Abomasnow
+  -damage|p2a: Abomasnow|50/100
+  -damage|p1a: Skarmory|129/235|[from] Recoil
+  move|p2a: Abomasnow|Blizzard|p1a: Skarmory
+  -damage|p1a: Skarmory|0 fnt
+  faint|p1a: Skarmory
+  -weather|Snowscape|[upkeep]
+  switch|p1a: Regirock|Regirock, L83|139/268
+-- turn 15
+  WE CHOSE: attack stoneedge - our hp 0.52, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Abomasnow|Blizzard|p1a: Regirock
+  -damage|p1a: Regirock|43/268
+  move|p1a: Regirock|Stone Edge|p2a: Abomasnow
+  -supereffective|p2a: Abomasnow
+  -damage|p2a: Abomasnow|0 fnt
+  faint|p2a: Abomasnow
+  -weather|Snowscape|[upkeep]
+  -heal|p1a: Regirock|59/268|[from] item: Leftovers
+  switch|p2a: Arceus|Arceus-Ice, L72|100/100
+-- turn 16
+  WE CHOSE: attack stoneedge - our hp 0.22, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to koraidon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Arceus|Judgment|p1a: Regirock
+  -damage|p1a: Regirock|0 fnt
+  faint|p1a: Regirock
+  -weather|none
+  switch|p1a: Koraidon|Koraidon, L64|235/235
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+  -activate|p1a: Koraidon|Orichalcum Pulse|[source]
+-- turn 17
+  WE CHOSE: attack collisioncourse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to floatzel - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Koraidon
+  -supereffective|p1a: Koraidon
+  -damage|p1a: Koraidon|0 fnt
+  faint|p1a: Koraidon
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Floatzel|Floatzel, L86, M|286/286
+-- turn 18
+  WE CHOSE: attack+tera wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Floatzel|Water
+  move|p1a: Floatzel|Wave Crash|p2a: Arceus
+  -damage|p2a: Arceus|56/100
+  -damage|p1a: Floatzel|243/286|[from] Recoil
+  move|p2a: Arceus|Judgment|p1a: Floatzel
+  -resisted|p1a: Floatzel
+  -damage|p1a: Floatzel|160/286
+  -weather|SunnyDay|[upkeep]
+-- turn 19
+  WE CHOSE: attack wavecrash - our hp 0.56, theirs 0.56, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to umbreon - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Floatzel|Wave Crash|p2a: Arceus
+  -damage|p2a: Arceus|15/100
+  -damage|p1a: Floatzel|121/286|[from] Recoil
+  move|p2a: Arceus|Judgment|p1a: Floatzel
+  -resisted|p1a: Floatzel
+  -crit|p1a: Floatzel
+  -damage|p1a: Floatzel|0 fnt
+  faint|p1a: Floatzel
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Umbreon|Umbreon, L84, F|297/297
+-- turn 20
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Umbreon
+  -damage|p1a: Umbreon|212/297
+  move|p1a: Umbreon|Foul Play|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Umbreon|230/297|[from] item: Leftovers
+  switch|p2a: Gengar|Gengar, L81, F|100/100
+-- turn 21
+  WE CHOSE: attack foulplay - our hp 0.77, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Gengar|Focus Blast|p1a: Umbreon
+  -supereffective|p1a: Umbreon
+  -damage|p1a: Umbreon|53/297
+  -damage|p2a: Gengar|90/100|[from] item: Life Orb
+  move|p1a: Umbreon|Foul Play|p2a: Gengar
+  -supereffective|p2a: Gengar
+  -damage|p2a: Gengar|30/100
+  -weather|none
+  -heal|p1a: Umbreon|71/297|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack foulplay - our hp 0.24, theirs 0.30, predicted move (revealed) hits us x2
+  move|p2a: Gengar|Focus Blast|p1a: Umbreon
+  -supereffective|p1a: Umbreon
+  -damage|p1a: Umbreon|0 fnt
+  faint|p1a: Umbreon
+  -damage|p2a: Gengar|20/100|[from] item: Life Orb
+  deinit

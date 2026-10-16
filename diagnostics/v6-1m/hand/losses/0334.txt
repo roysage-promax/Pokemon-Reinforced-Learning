@@ -1,0 +1,346 @@
+battle 334 (battle-gen9randombattle-1009352): lost in 39 turns, 2 of theirs left; we are p1
+
+ours:
+  hitmonlee (fainted; item ?, ability unburden, tera poison; moves closecombat/swordsdance/knockoff/poisonjab)
+  hitmontop (fainted; item leftovers, ability technician; moves tripleaxel/closecombat/rapidspin/bulkup)
+  noctowl (fainted; item heavydutyboots, ability tintedlens; moves hypervoice/hurricane/roost/nastyplot)
+  houndoom (fainted; item heavydutyboots, ability flashfire; moves sludgebomb/fireblast/nastyplot/darkpulse)
+  dondozo (fainted; item leftovers, ability unaware; moves sleeptalk/wavecrash/rest/curse)
+  barraskewda (fainted; item choiceband, ability swiftswim; moves poisonjab/flipturn/waterfall/closecombat)
+theirs (as seen):
+  hydrapple (fainted; item unknown_item, ability ?; moves leafstorm)
+  irontreads (fainted; item lifeorb, ability quarkdrive; moves focusblast/poltergeist/hypervoice)
+  koraidon (fainted; item unknown_item, ability orichalcumpulse; moves flareblitz)
+  copperajah (fainted; item unknown_item, ability ?; moves superpower)
+  barraskewda (100%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Hitmonlee|Hitmonlee, L85, M|224/224
+  switch|p2a: Hydrapple|Hydrapple, L83, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Hitmonlee|Poison
+  move|p1a: Hitmonlee|Close Combat|p2a: Hydrapple
+  -damage|p2a: Hydrapple|54/100
+  -unboost|p1a: Hitmonlee|def|1
+  -unboost|p1a: Hitmonlee|spd|1
+  -enditem|p1a: Hitmonlee|White Herb
+  -clearnegativeboost|p1a: Hitmonlee|[silent]
+  move|p2a: Hydrapple|Leaf Storm|p1a: Hitmonlee
+  -resisted|p1a: Hitmonlee
+  -damage|p1a: Hitmonlee|126/224
+  -unboost|p2a: Hydrapple|spa|2
+-- turn 2
+  WE CHOSE: setup swordsdance - our hp 0.56, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p1a: Hitmonlee|Swords Dance|p1a: Hitmonlee
+  -boost|p1a: Hitmonlee|atk|2
+  move|p2a: Hydrapple|Leaf Storm|p1a: Hitmonlee
+  -resisted|p1a: Hitmonlee
+  -damage|p1a: Hitmonlee|78/224
+  -unboost|p2a: Hydrapple|spa|2
+-- turn 3
+  WE CHOSE: attack poisonjab - our hp 0.35, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p1a: Hitmonlee|Poison Jab|p2a: Hydrapple
+  -supereffective|p2a: Hydrapple
+  -damage|p2a: Hydrapple|0 fnt
+  faint|p2a: Hydrapple
+  switch|p2a: Iron Treads|Iron Treads, L77|100/100
+-- turn 4
+  WE CHOSE: switch to noctowl - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Noctowl|Noctowl, L95, M|344/344
+  move|p2a: Iron Treads|Focus Blast|p1a: Noctowl|[miss]
+  -miss|p2a: Iron Treads|p1a: Noctowl
+-- turn 5
+  WE CHOSE: attack hypervoice - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Focus Blast|p1a: Noctowl
+  -damage|p1a: Noctowl|231/344
+  -damage|p2a: Iron Treads|91/100|[from] item: Life Orb
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 6
+  WE CHOSE: attack hypervoice - our hp 0.67, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Focus Blast|p1a: Noctowl
+  -damage|p1a: Noctowl|128/344
+  -damage|p2a: Iron Treads|81/100|[from] item: Life Orb
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 7
+  WE CHOSE: heal roost - our hp 0.37, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Focus Blast|p1a: Noctowl|[miss]
+  -miss|p2a: Iron Treads|p1a: Noctowl
+  move|p1a: Noctowl|Roost|p1a: Noctowl
+  -heal|p1a: Noctowl|300/344
+  -singleturn|p1a: Noctowl|move: Roost
+-- turn 8
+  WE CHOSE: attack hypervoice - our hp 0.87, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Focus Blast|p1a: Noctowl|[miss]
+  -miss|p2a: Iron Treads|p1a: Noctowl
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 9
+  WE CHOSE: attack hypervoice - our hp 0.87, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Focus Blast|p1a: Noctowl
+  -damage|p1a: Noctowl|192/344
+  -damage|p2a: Iron Treads|72/100|[from] item: Life Orb
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 10
+  WE CHOSE: attack hypervoice - our hp 0.56, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Focus Blast|p1a: Noctowl|[miss]
+  -miss|p2a: Iron Treads|p1a: Noctowl
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 11
+  WE CHOSE: attack hypervoice - our hp 0.56, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Focus Blast|p1a: Noctowl
+  -damage|p1a: Noctowl|89/344
+  -damage|p2a: Iron Treads|62/100|[from] item: Life Orb
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 12
+  WE CHOSE: heal roost - our hp 0.26, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Poltergeist|p1a: Noctowl
+  -immune|p1a: Noctowl
+  move|p1a: Noctowl|Roost|p1a: Noctowl
+  -heal|p1a: Noctowl|261/344
+  -singleturn|p1a: Noctowl|move: Roost
+-- turn 13
+  WE CHOSE: attack hypervoice - our hp 0.76, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Poltergeist|p1a: Noctowl
+  -immune|p1a: Noctowl
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 14
+  WE CHOSE: attack hypervoice - our hp 0.76, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Poltergeist|p1a: Noctowl
+  -immune|p1a: Noctowl
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 15
+  WE CHOSE: attack hypervoice - our hp 0.76, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Poltergeist|p1a: Noctowl
+  -immune|p1a: Noctowl
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 16
+  WE CHOSE: attack hypervoice - our hp 0.76, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Poltergeist|p1a: Noctowl
+  -immune|p1a: Noctowl
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 17
+  WE CHOSE: attack hypervoice - our hp 0.76, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Poltergeist|p1a: Noctowl
+  -immune|p1a: Noctowl
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 18
+  WE CHOSE: attack hypervoice - our hp 0.76, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Poltergeist|p1a: Noctowl
+  -immune|p1a: Noctowl
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 19
+  WE CHOSE: attack hypervoice - our hp 0.76, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Poltergeist|p1a: Noctowl
+  -immune|p1a: Noctowl
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 20
+  WE CHOSE: attack hypervoice - our hp 0.76, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Hyper Voice|p1a: Noctowl
+  -damage|p1a: Noctowl|151/344
+  -damage|p2a: Iron Treads|53/100|[from] item: Life Orb
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 21
+  WE CHOSE: heal roost - our hp 0.44, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Hyper Voice|p1a: Noctowl
+  -damage|p1a: Noctowl|41/344
+  -damage|p2a: Iron Treads|43/100|[from] item: Life Orb
+  move|p1a: Noctowl|Roost|p1a: Noctowl
+  -heal|p1a: Noctowl|213/344
+  -singleturn|p1a: Noctowl|move: Roost
+-- turn 22
+  WE CHOSE: attack hypervoice - our hp 0.62, theirs 0.43, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Hyper Voice|p1a: Noctowl
+  -damage|p1a: Noctowl|91/344
+  -damage|p2a: Iron Treads|33/100|[from] item: Life Orb
+  move|p1a: Noctowl|Hyper Voice|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+-- turn 23
+  WE CHOSE: heal roost - our hp 0.26, theirs 0.33, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hitmonlee - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Hyper Voice|p1a: Noctowl
+  -damage|p1a: Noctowl|0 fnt
+  faint|p1a: Noctowl
+  -damage|p2a: Iron Treads|24/100|[from] item: Life Orb
+  switch|p1a: Hitmonlee|Hitmonlee, L85, M, tera:Poison|78/224
+-- turn 24
+  WE CHOSE: attack closecombat - our hp 0.35, theirs 0.24, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to hitmontop - our hp 0.00, theirs 0.14, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Treads|Hyper Voice|p1a: Hitmonlee
+  -damage|p1a: Hitmonlee|0 fnt
+  faint|p1a: Hitmonlee
+  -damage|p2a: Iron Treads|14/100|[from] item: Life Orb
+  switch|p1a: Hitmontop|Hitmontop, L88, M|231/231
+-- turn 25
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.14, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Hyper Voice|p1a: Hitmontop
+  -crit|p1a: Hitmontop
+  -damage|p1a: Hitmontop|66/231
+  -damage|p2a: Iron Treads|5/100|[from] item: Life Orb
+  move|p1a: Hitmontop|Close Combat|p2a: Iron Treads
+  -immune|p2a: Iron Treads
+  -heal|p1a: Hitmontop|80/231|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack closecombat - our hp 0.35, theirs 0.05, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dondozo - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Hyper Voice|p1a: Hitmontop
+  -damage|p1a: Hitmontop|0 fnt
+  faint|p1a: Hitmontop
+  -damage|p2a: Iron Treads|0 fnt|[from] item: Life Orb
+  faint|p2a: Iron Treads
+  switch|p2a: Koraidon|Koraidon, L64|100/100
+  switch|p1a: Dondozo|Dondozo, L78, M|362/362
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+  -activate|p2a: Koraidon|Orichalcum Pulse|[source]
+-- turn 27
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Koraidon|Flare Blitz|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|308/362
+  -status|p1a: Dondozo|brn
+  -damage|p2a: Koraidon|93/100|[from] Recoil
+  move|p1a: Dondozo|Wave Crash|p2a: Koraidon
+  -resisted|p2a: Koraidon
+  -damage|p2a: Koraidon|86/100
+  -damage|p1a: Dondozo|303/362 brn|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Dondozo|325/362 brn|[from] item: Leftovers
+  -damage|p1a: Dondozo|303/362 brn|[from] brn
+-- turn 28
+  WE CHOSE: attack wavecrash - our hp 0.84, theirs 0.86, predicted move (revealed) hits us x0.5
+  move|p2a: Koraidon|Flare Blitz|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|250/362 brn
+  -damage|p2a: Koraidon|79/100|[from] Recoil
+  move|p1a: Dondozo|Wave Crash|p2a: Koraidon
+  -resisted|p2a: Koraidon
+  -damage|p2a: Koraidon|73/100
+  -damage|p1a: Dondozo|245/362 brn|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Dondozo|267/362 brn|[from] item: Leftovers
+  -damage|p1a: Dondozo|245/362 brn|[from] brn
+-- turn 29
+  WE CHOSE: attack wavecrash - our hp 0.68, theirs 0.73, predicted move (revealed) hits us x0.5
+  move|p2a: Koraidon|Flare Blitz|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|188/362 brn
+  -damage|p2a: Koraidon|65/100|[from] Recoil
+  move|p1a: Dondozo|Wave Crash|p2a: Koraidon
+  -resisted|p2a: Koraidon
+  -damage|p2a: Koraidon|58/100
+  -damage|p1a: Dondozo|183/362 brn|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Dondozo|205/362 brn|[from] item: Leftovers
+  -damage|p1a: Dondozo|183/362 brn|[from] brn
+-- turn 30
+  WE CHOSE: attack wavecrash - our hp 0.51, theirs 0.58, predicted move (revealed) hits us x0.5
+  move|p2a: Koraidon|Flare Blitz|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|125/362 brn
+  -damage|p2a: Koraidon|50/100|[from] Recoil
+  move|p1a: Dondozo|Wave Crash|p2a: Koraidon
+  -resisted|p2a: Koraidon
+  -damage|p2a: Koraidon|44/100
+  -damage|p1a: Dondozo|120/362 brn|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Dondozo|142/362 brn|[from] item: Leftovers
+  -damage|p1a: Dondozo|120/362 brn|[from] brn
+-- turn 31
+  WE CHOSE: heal rest - our hp 0.33, theirs 0.44, predicted move (revealed) hits us x0.5
+  move|p2a: Koraidon|Flare Blitz|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|67/362 brn
+  -damage|p2a: Koraidon|37/100|[from] Recoil
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+  -weather|none
+-- turn 32
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p2a: Koraidon|Flare Blitz|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|332/362 slp
+  -damage|p2a: Koraidon|32/100|[from] Recoil
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|354/362 slp|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack wavecrash - our hp 0.98, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p2a: Koraidon|Flare Blitz|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|323/362 slp
+  -damage|p2a: Koraidon|28/100|[from] Recoil
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|345/362 slp|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack wavecrash - our hp 0.95, theirs 0.28, predicted move (revealed) hits us x0.5
+  move|p2a: Koraidon|Flare Blitz|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|317/362 slp
+  -damage|p2a: Koraidon|24/100|[from] Recoil
+  -curestatus|p1a: Dondozo|slp|[msg]
+  move|p1a: Dondozo|Wave Crash|p2a: Koraidon
+  -resisted|p2a: Koraidon
+  -damage|p2a: Koraidon|0 fnt
+  faint|p2a: Koraidon
+  -damage|p1a: Dondozo|299/362|[from] Recoil
+  -heal|p1a: Dondozo|321/362|[from] item: Leftovers
+  switch|p2a: Copperajah|Copperajah, L86, M|100/100
+-- turn 35
+  WE CHOSE: attack wavecrash - our hp 0.89, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Copperajah|Superpower|p1a: Dondozo
+  -damage|p1a: Dondozo|162/362
+  -unboost|p2a: Copperajah|atk|1
+  -unboost|p2a: Copperajah|def|1
+  move|p1a: Dondozo|Wave Crash|p2a: Copperajah
+  -damage|p2a: Copperajah|62/100
+  -damage|p1a: Dondozo|118/362|[from] Recoil
+  -heal|p1a: Dondozo|140/362|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: heal rest - our hp 0.39, theirs 0.62, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to barraskewda - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Copperajah|Superpower|p1a: Dondozo
+  -damage|p1a: Dondozo|0 fnt
+  -unboost|p2a: Copperajah|atk|1
+  -unboost|p2a: Copperajah|def|1
+  faint|p1a: Dondozo
+  switch|p1a: Barraskewda|Barraskewda, L81, M|231/231
+-- turn 37
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Barraskewda|Close Combat|p2a: Copperajah
+  -supereffective|p2a: Copperajah
+  -damage|p2a: Copperajah|0 fnt
+  -unboost|p1a: Barraskewda|def|1
+  -unboost|p1a: Barraskewda|spd|1
+  faint|p2a: Copperajah
+  switch|p2a: Barraskewda|Barraskewda, L81, F|100/100
+-- turn 38
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to houndoom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Barraskewda|Close Combat|p1a: Barraskewda
+  -damage|p1a: Barraskewda|0 fnt
+  -unboost|p2a: Barraskewda|def|1
+  -unboost|p2a: Barraskewda|spd|1
+  faint|p1a: Barraskewda
+  switch|p1a: Houndoom|Houndoom, L87, F|272/272
+-- turn 39
+  WE CHOSE: attack darkpulse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Barraskewda|Close Combat|p1a: Houndoom
+  -supereffective|p1a: Houndoom
+  -damage|p1a: Houndoom|0 fnt
+  -unboost|p2a: Barraskewda|def|1
+  -unboost|p2a: Barraskewda|spd|1
+  faint|p1a: Houndoom
+  deinit

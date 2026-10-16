@@ -1,0 +1,345 @@
+battle 639 (battle-gen9randombattle-1012213): lost in 38 turns, 1 of theirs left; we are p1
+
+ours:
+  camerupt (fainted; item leftovers, ability solidrock; moves earthquake/overheat/stealthrock/roar)
+  terrakion (fainted; item lifeorb, ability justified; moves swordsdance/stoneedge/closecombat/earthquake)
+  oricoriopompom (fainted; item heavydutyboots, ability dancer; moves revelationdance/roost/hurricane/quiverdance)
+  hitmontop (fainted; item leftovers, ability technician; moves closecombat/tripleaxel/bulkup/rapidspin)
+  rayquaza (fainted; item loadeddice, ability airlock; moves swordsdance/earthquake/scaleshot/dragonascent)
+  tauros (fainted; item lifeorb, ability sheerforce, tera fighting; moves throatchop/closecombat/bodyslam/earthquake)
+theirs (as seen):
+  latios (fainted; item unknown_item, ability levitate; moves dracometeor)
+  cryogonal (fainted; item unknown_item, ability levitate; moves freezedry)
+  plusle (fainted; item lifeorb, ability ?; moves thunderbolt)
+  moltres (fainted; item unknown_item, ability ?; moves -)
+  leafeon (fainted; item lifeorb, ability ?; moves doubleedge)
+  cresselia (30%; item leftovers, ability levitate; moves moonblast/psyshock)
+
+-- turn 0
+  switch|p1a: Camerupt|Camerupt, L91, M|275/275
+  switch|p2a: Latios|Latios, L78, M|100/100
+-- turn 1
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Latios|Draco Meteor|p1a: Camerupt
+  -damage|p1a: Camerupt|79/275
+  -unboost|p2a: Latios|spa|2
+  move|p1a: Camerupt|Earthquake|p2a: Latios
+  -immune|p2a: Latios|[from] ability: Levitate
+  -heal|p1a: Camerupt|96/275|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Latios|Draco Meteor|p1a: Camerupt|[miss]
+  -miss|p2a: Latios|p1a: Camerupt
+  move|p1a: Camerupt|Earthquake|p2a: Latios
+  -immune|p2a: Latios|[from] ability: Levitate
+  -heal|p1a: Camerupt|113/275|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tauros - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Latios|Draco Meteor|p1a: Camerupt
+  -crit|p1a: Camerupt
+  -damage|p1a: Camerupt|0 fnt
+  -unboost|p2a: Latios|spa|2
+  faint|p1a: Camerupt
+  switch|p1a: Tauros|Tauros, L82, M|257/257
+-- turn 4
+  WE CHOSE: attack throatchop - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Tauros|Throat Chop|p2a: Latios
+  -supereffective|p2a: Latios
+  -damage|p2a: Latios|19/100
+  move|p2a: Latios|Draco Meteor|p1a: Tauros
+  -damage|p1a: Tauros|182/257
+  -unboost|p2a: Latios|spa|2
+-- turn 5
+  WE CHOSE: attack throatchop - our hp 0.71, theirs 0.19, predicted move (revealed) hits us x1
+  move|p1a: Tauros|Throat Chop|p2a: Latios
+  -supereffective|p2a: Latios
+  -damage|p2a: Latios|0 fnt
+  faint|p2a: Latios
+  switch|p2a: Cryogonal|Cryogonal, L89|100/100
+-- turn 6
+  WE CHOSE: attack+tera closecombat - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Tauros|Fighting
+  move|p2a: Cryogonal|Freeze-Dry|p1a: Tauros
+  -damage|p1a: Tauros|83/257
+  move|p1a: Tauros|Close Combat|p2a: Cryogonal
+  -supereffective|p2a: Cryogonal
+  -damage|p2a: Cryogonal|0 fnt
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  faint|p2a: Cryogonal
+  -damage|p1a: Tauros|58/257|[from] item: Life Orb
+  switch|p2a: Plusle|Plusle, L95, F|100/100
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to terrakion - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Plusle|Thunderbolt|p1a: Tauros
+  -damage|p1a: Tauros|0 fnt
+  faint|p1a: Tauros
+  -damage|p2a: Plusle|91/100|[from] item: Life Orb
+  switch|p1a: Terrakion|Terrakion, L79|273/273
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Plusle|Thunderbolt|p1a: Terrakion
+  -damage|p1a: Terrakion|117/273
+  -damage|p2a: Plusle|81/100|[from] item: Life Orb
+  move|p1a: Terrakion|Earthquake|p2a: Plusle
+  -supereffective|p2a: Plusle
+  -damage|p2a: Plusle|0 fnt
+  faint|p2a: Plusle
+  -damage|p1a: Terrakion|90/273|[from] item: Life Orb
+  switch|p2a: Moltres|Moltres, L81|100/100
+-- turn 9
+  WE CHOSE: attack stoneedge - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Terrakion|Stone Edge|p2a: Moltres
+  -supereffective|p2a: Moltres
+  -damage|p2a: Moltres|0 fnt
+  faint|p2a: Moltres
+  -damage|p1a: Terrakion|63/273|[from] item: Life Orb
+  switch|p2a: Leafeon|Leafeon, L88, M|100/100
+-- turn 10
+  WE CHOSE: attack closecombat - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to rayquaza - our hp 0.00, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p2a: Leafeon|Double-Edge|p1a: Terrakion
+  -resisted|p1a: Terrakion
+  -damage|p1a: Terrakion|0 fnt
+  faint|p1a: Terrakion
+  -damage|p2a: Leafeon|92/100|[from] Recoil
+  -damage|p2a: Leafeon|83/100|[from] item: Life Orb
+  switch|p1a: Rayquaza|Rayquaza, L72|270/270
+  -ability|p1a: Rayquaza|Air Lock
+-- turn 11
+  WE CHOSE: attack dragonascent - our hp 1.00, theirs 0.83, predicted move (revealed) hits us x1
+  move|p2a: Leafeon|Double-Edge|p1a: Rayquaza
+  -damage|p1a: Rayquaza|109/270
+  -damage|p2a: Leafeon|62/100|[from] Recoil
+  -damage|p2a: Leafeon|52/100|[from] item: Life Orb
+  move|p1a: Rayquaza|Dragon Ascent|p2a: Leafeon
+  -supereffective|p2a: Leafeon
+  -damage|p2a: Leafeon|0 fnt
+  -unboost|p1a: Rayquaza|def|1
+  -unboost|p1a: Rayquaza|spd|1
+  faint|p2a: Leafeon
+  switch|p2a: Cresselia|Cresselia, L80, F|100/100
+-- turn 12
+  WE CHOSE: attack dragonascent - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to oricoriopompom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Cresselia|Moonblast|p1a: Rayquaza
+  -supereffective|p1a: Rayquaza
+  -crit|p1a: Rayquaza
+  -damage|p1a: Rayquaza|0 fnt
+  faint|p1a: Rayquaza
+  switch|p1a: Oricorio|Oricorio-Pom-Pom, L82, F|257/257
+-- turn 13
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia
+  -damage|p2a: Cresselia|71/100
+  -start|p2a: Cresselia|confusion
+  -activate|p2a: Cresselia|confusion
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|198/257
+  -heal|p2a: Cresselia|78/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack hurricane - our hp 0.77, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia
+  -damage|p2a: Cresselia|52/100
+  -end|p2a: Cresselia|confusion
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|134/257
+  -heal|p2a: Cresselia|58/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack hurricane - our hp 0.52, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia|[miss]
+  -miss|p1a: Oricorio|p2a: Cresselia
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|69/257
+  -heal|p2a: Cresselia|64/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: heal roost - our hp 0.27, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|198/257
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|139/257
+  -heal|p2a: Cresselia|70/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack hurricane - our hp 0.54, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia
+  -damage|p2a: Cresselia|41/100
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|72/257
+  -heal|p2a: Cresselia|48/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: heal roost - our hp 0.28, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|201/257
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|136/257
+  -heal|p2a: Cresselia|54/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack hurricane - our hp 0.53, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia|[miss]
+  -miss|p1a: Oricorio|p2a: Cresselia
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|68/257
+  -heal|p2a: Cresselia|60/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal roost - our hp 0.26, theirs 0.60, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|197/257
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|130/257
+  -heal|p2a: Cresselia|66/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack hurricane - our hp 0.51, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia
+  -damage|p2a: Cresselia|36/100
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|64/257
+  -unboost|p1a: Oricorio|spa|1
+  -heal|p2a: Cresselia|43/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal roost - our hp 0.25, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|193/257
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|134/257
+  -unboost|p1a: Oricorio|spa|1
+  -heal|p2a: Cresselia|49/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack hurricane - our hp 0.52, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia
+  -damage|p2a: Cresselia|35/100
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|73/257
+  -heal|p2a: Cresselia|41/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: heal roost - our hp 0.28, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|202/257
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|143/257
+  -unboost|p1a: Oricorio|spa|1
+  -heal|p2a: Cresselia|47/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack hurricane - our hp 0.56, theirs 0.47, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia
+  -damage|p2a: Cresselia|35/100
+  -start|p2a: Cresselia|confusion
+  -activate|p2a: Cresselia|confusion
+  -damage|p2a: Cresselia|31/100|[from] confusion
+  -heal|p2a: Cresselia|37/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack hurricane - our hp 0.56, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia
+  -damage|p2a: Cresselia|25/100
+  -activate|p2a: Cresselia|confusion
+  -damage|p2a: Cresselia|21/100|[from] confusion
+  -heal|p2a: Cresselia|27/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack hurricane - our hp 0.56, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia
+  -damage|p2a: Cresselia|15/100
+  -activate|p2a: Cresselia|confusion
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|84/257
+  -unboost|p1a: Oricorio|spa|1
+  -heal|p2a: Cresselia|21/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: heal roost - our hp 0.33, theirs 0.21, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|213/257
+  -singleturn|p1a: Oricorio|move: Roost
+  -end|p2a: Cresselia|confusion
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|145/257
+  -heal|p2a: Cresselia|27/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack hurricane - our hp 0.56, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia|[miss]
+  -miss|p1a: Oricorio|p2a: Cresselia
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|77/257
+  -unboost|p1a: Oricorio|spa|1
+  -heal|p2a: Cresselia|33/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: heal roost - our hp 0.30, theirs 0.33, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|206/257
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|139/257
+  -heal|p2a: Cresselia|40/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack hurricane - our hp 0.54, theirs 0.40, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia
+  -damage|p2a: Cresselia|31/100
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|71/257
+  -heal|p2a: Cresselia|37/100|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: heal roost - our hp 0.28, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|200/257
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|135/257
+  -heal|p2a: Cresselia|43/100|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack hurricane - our hp 0.53, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia|[miss]
+  -miss|p1a: Oricorio|p2a: Cresselia
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|74/257
+  -heal|p2a: Cresselia|49/100|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack hurricane - our hp 0.29, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia|[miss]
+  -miss|p1a: Oricorio|p2a: Cresselia
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|6/257
+  -heal|p2a: Cresselia|56/100|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: attack hurricane - our hp 0.02, theirs 0.56, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hitmontop - our hp 0.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Cresselia
+  -damage|p2a: Cresselia|47/100
+  move|p2a: Cresselia|Moonblast|p1a: Oricorio
+  -damage|p1a: Oricorio|0 fnt
+  faint|p1a: Oricorio
+  -heal|p2a: Cresselia|53/100|[from] item: Leftovers
+  switch|p1a: Hitmontop|Hitmontop, L88, M|231/231
+-- turn 36
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x2
+  move|p2a: Cresselia|Moonblast|p1a: Hitmontop
+  -supereffective|p1a: Hitmontop
+  -damage|p1a: Hitmontop|145/231
+  move|p1a: Hitmontop|Close Combat|p2a: Cresselia
+  -resisted|p2a: Cresselia
+  -damage|p2a: Cresselia|36/100
+  -unboost|p1a: Hitmontop|def|1
+  -unboost|p1a: Hitmontop|spd|1
+  -heal|p2a: Cresselia|42/100|[from] item: Leftovers
+  -heal|p1a: Hitmontop|159/231|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: attack closecombat - our hp 0.69, theirs 0.42, predicted move (revealed) hits us x2
+  move|p2a: Cresselia|Moonblast|p1a: Hitmontop
+  -supereffective|p1a: Hitmontop
+  -damage|p1a: Hitmontop|25/231
+  move|p1a: Hitmontop|Close Combat|p2a: Cresselia
+  -resisted|p2a: Cresselia
+  -damage|p2a: Cresselia|23/100
+  -unboost|p1a: Hitmontop|def|1
+  -unboost|p1a: Hitmontop|spd|1
+  -heal|p2a: Cresselia|30/100|[from] item: Leftovers
+  -heal|p1a: Hitmontop|39/231|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: attack closecombat - our hp 0.17, theirs 0.30, predicted move (revealed) hits us x2
+  move|p2a: Cresselia|Psyshock|p1a: Hitmontop
+  -supereffective|p1a: Hitmontop
+  -damage|p1a: Hitmontop|0 fnt
+  faint|p1a: Hitmontop

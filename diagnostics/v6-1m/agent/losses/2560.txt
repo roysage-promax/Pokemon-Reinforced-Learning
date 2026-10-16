@@ -1,0 +1,231 @@
+battle 2560 (battle-gen9randombattle-1032341): lost in 23 turns, 0 of theirs left; we are p1
+
+ours:
+  kricketune (fainted; item focussash, ability technician; moves pounce/knockoff/stickyweb/taunt)
+  ragingbolt (fainted; item ?, ability protosynthesis; moves thunderclap/dragonpulse/thunderbolt/calmmind)
+  tentacruel (fainted; item leftovers, ability liquidooze, tera flying; moves surf/haze/sludgebomb/rapidspin)
+  ursaluna (fainted; item flameorb, ability guts; moves throatchop/facade/headlongrush/swordsdance)
+  dragalge (fainted; item assaultvest, ability adaptability; moves focusblast/dracometeor/sludgewave/dragontail)
+  banette (fainted; item lifeorb, ability cursedbody; moves shadowsneak/thunderwave/gunkshot/poltergeist)
+theirs (as seen):
+  typhlosion (fainted; item unknown_item, ability ?; moves eruption)
+  hippowdon (fainted; item leftovers, ability ?; moves earthquake)
+  decidueyehisui (fainted; item leftovers, ability ?; moves leafblade)
+  oricoriosensu (fainted; item unknown_item, ability dancer; moves hurricane)
+  rotomfrost (fainted; item unknown_item, ability levitate; moves blizzard/thunderbolt)
+  ampharos (fainted; item lifeorb, ability ?; moves focusblast)
+
+-- turn 0
+  switch|p1a: Kricketune|Kricketune, L99, F|311/311
+  switch|p2a: Typhlosion|Typhlosion, L84, F|100/100
+-- turn 1
+  WE CHOSE: switch to tentacruel - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Tentacruel|Tentacruel, L84, F|272/272
+  move|p2a: Typhlosion|Eruption|p1a: Tentacruel
+  -resisted|p1a: Tentacruel
+  -damage|p1a: Tentacruel|170/272
+  -heal|p1a: Tentacruel|187/272|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack surf - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Typhlosion|Eruption|p1a: Tentacruel
+  -resisted|p1a: Tentacruel
+  -damage|p1a: Tentacruel|85/272
+  move|p1a: Tentacruel|Surf|p2a: Typhlosion
+  -supereffective|p2a: Typhlosion
+  -damage|p2a: Typhlosion|37/100
+  -heal|p1a: Tentacruel|102/272|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack surf - our hp 0.38, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p2a: Typhlosion|Eruption|p1a: Tentacruel
+  -resisted|p1a: Tentacruel
+  -damage|p1a: Tentacruel|66/272
+  move|p1a: Tentacruel|Surf|p2a: Typhlosion
+  -supereffective|p2a: Typhlosion
+  -damage|p2a: Typhlosion|0 fnt
+  faint|p2a: Typhlosion
+  -heal|p1a: Tentacruel|83/272|[from] item: Leftovers
+  switch|p2a: Hippowdon|Hippowdon, L82, F|100/100
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+-- turn 4
+  WE CHOSE: attack+tera surf (hand policy: switch to kricketune) - our hp 0.31, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Tentacruel|Flying
+  move|p1a: Tentacruel|Surf|p2a: Hippowdon
+  -supereffective|p2a: Hippowdon
+  -damage|p2a: Hippowdon|42/100
+  move|p2a: Hippowdon|Earthquake|p1a: Tentacruel
+  -immune|p1a: Tentacruel
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Tentacruel|66/272|[from] Sandstorm
+  -heal|p1a: Tentacruel|83/272|[from] item: Leftovers
+  -heal|p2a: Hippowdon|48/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack surf - our hp 0.31, theirs 0.48, predicted move (revealed) hits us x0
+  move|p1a: Tentacruel|Surf|p2a: Hippowdon
+  -supereffective|p2a: Hippowdon
+  -damage|p2a: Hippowdon|0 fnt
+  faint|p2a: Hippowdon
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Tentacruel|66/272|[from] Sandstorm
+  -heal|p1a: Tentacruel|83/272|[from] item: Leftovers
+  switch|p2a: Decidueye|Decidueye-Hisui, L87, F|100/100
+-- turn 6
+  WE CHOSE: switch to dragalge (hand policy: attack sludgebomb) - our hp 0.31, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Dragalge|Dragalge, L88, F|258/258
+  move|p2a: Decidueye|Leaf Blade|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|231/258
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Decidueye|94/100|[from] Sandstorm
+  -damage|p1a: Dragalge|215/258|[from] Sandstorm
+  -heal|p2a: Decidueye|100/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack sludgewave - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Decidueye|Leaf Blade|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|188/258
+  move|p1a: Dragalge|Sludge Wave|p2a: Decidueye
+  -supereffective|p2a: Decidueye
+  -damage|p2a: Decidueye|2/100
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Decidueye|0 fnt|[from] Sandstorm
+  -damage|p1a: Dragalge|172/258|[from] Sandstorm
+  faint|p2a: Decidueye
+  switch|p2a: Oricorio|Oricorio-Sensu, L85, F|100/100
+-- turn 8
+  WE CHOSE: switch to ragingbolt (hand policy: attack dracometeor) - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Raging Bolt|Raging Bolt, L78|323/323
+  -enditem|p1a: Raging Bolt|Booster Energy
+  -activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+  -start|p1a: Raging Bolt|protosynthesisspa
+  move|p2a: Oricorio|Hurricane|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|257/323
+  -weather|none
+-- turn 9
+  WE CHOSE: setup calmmind - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Oricorio|Hurricane|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|197/323
+  -start|p1a: Raging Bolt|confusion
+  -activate|p1a: Raging Bolt|confusion
+  move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+  -boost|p1a: Raging Bolt|spa|1
+  -boost|p1a: Raging Bolt|spd|1
+-- turn 10
+  WE CHOSE: attack thunderbolt (hand policy: setup calmmind) - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Oricorio|Hurricane|p1a: Raging Bolt|[miss]
+  -miss|p2a: Oricorio|p1a: Raging Bolt
+  -end|p1a: Raging Bolt|confusion
+  move|p1a: Raging Bolt|Thunderbolt|p2a: Oricorio
+  -supereffective|p2a: Oricorio
+  -damage|p2a: Oricorio|0 fnt
+  faint|p2a: Oricorio
+  switch|p2a: Rotom|Rotom-Frost, L87|100/100
+-- turn 11
+  WE CHOSE: switch to ursaluna (hand policy: attack dragonpulse) - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x2
+  -end|p1a: Raging Bolt|Protosynthesis|[silent]
+  switch|p1a: Ursaluna|Ursaluna, L79, M|335/335
+  move|p2a: Rotom|Blizzard|p1a: Ursaluna|[miss]
+  -miss|p2a: Rotom|p1a: Ursaluna
+  -status|p1a: Ursaluna|brn|[from] item: Flame Orb
+-- turn 12
+  WE CHOSE: attack headlongrush - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to banette - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Rotom|Blizzard|p1a: Ursaluna
+  -supereffective|p1a: Ursaluna
+  -damage|p1a: Ursaluna|17/335 brn
+  move|p1a: Ursaluna|Headlong Rush|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  -damage|p1a: Ursaluna|0 fnt|[from] brn
+  faint|p1a: Ursaluna
+  switch|p1a: Banette|Banette, L93, F|270/270
+-- turn 13
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Blizzard|p1a: Banette
+  -damage|p1a: Banette|110/270
+  -status|p1a: Banette|frz
+  cant|p1a: Banette|frz
+-- turn 14
+  WE CHOSE: attack poltergeist - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kricketune - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Blizzard|p1a: Banette
+  -damage|p1a: Banette|0 fnt
+  -start|p2a: Rotom|Disable|Blizzard|[from] ability: Cursed Body|[of] p1a: Banette
+  faint|p1a: Banette
+  switch|p1a: Kricketune|Kricketune, L99, F|311/311
+-- turn 15
+  WE CHOSE: attack pounce - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Thunderbolt|p1a: Kricketune
+  -damage|p1a: Kricketune|169/311
+  -status|p1a: Kricketune|par
+  move|p1a: Kricketune|Pounce|p2a: Rotom
+  -damage|p2a: Rotom|67/100
+  -unboost|p2a: Rotom|spe|1
+-- turn 16
+  WE CHOSE: attack pounce - our hp 0.54, theirs 0.67, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Thunderbolt|p1a: Kricketune
+  -damage|p1a: Kricketune|24/311 par
+  move|p1a: Kricketune|Pounce|p2a: Rotom
+  -damage|p2a: Rotom|30/100
+  -unboost|p2a: Rotom|spe|1
+-- turn 17
+  WE CHOSE: attack pounce - our hp 0.08, theirs 0.30, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dragalge - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Thunderbolt|p1a: Kricketune
+  -damage|p1a: Kricketune|0 fnt
+  faint|p1a: Kricketune
+  -end|p2a: Rotom|Disable
+  switch|p1a: Dragalge|Dragalge, L88, F|172/258
+-- turn 18
+  WE CHOSE: attack focusblast (hand policy: attack dracometeor) - our hp 0.67, theirs 0.30, predicted move (revealed) hits us x2
+  move|p1a: Dragalge|Focus Blast|p2a: Rotom|[miss]
+  -miss|p1a: Dragalge|p2a: Rotom
+  move|p2a: Rotom|Blizzard|p1a: Dragalge
+  -supereffective|p1a: Dragalge
+  -damage|p1a: Dragalge|34/258
+-- turn 19
+  WE CHOSE: attack focusblast (hand policy: attack dracometeor) - our hp 0.13, theirs 0.30, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to tentacruel - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x2
+  move|p1a: Dragalge|Focus Blast|p2a: Rotom|[miss]
+  -miss|p1a: Dragalge|p2a: Rotom
+  move|p2a: Rotom|Blizzard|p1a: Dragalge
+  -supereffective|p1a: Dragalge
+  -damage|p1a: Dragalge|0 fnt
+  faint|p1a: Dragalge
+  switch|p1a: Tentacruel|Tentacruel, L84, F, tera:Flying|83/272
+-- turn 20
+  WE CHOSE: attack rapidspin (hand policy: attack surf) - our hp 0.31, theirs 0.30, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to ragingbolt - our hp 0.00, theirs 0.20, predicted move (revealed) hits us x2
+  move|p1a: Tentacruel|Rapid Spin|p2a: Rotom
+  -damage|p2a: Rotom|20/100
+  -boost|p1a: Tentacruel|spe|1
+  move|p2a: Rotom|Blizzard|p1a: Tentacruel
+  -supereffective|p1a: Tentacruel
+  -damage|p1a: Tentacruel|0 fnt
+  faint|p1a: Tentacruel
+  switch|p1a: Raging Bolt|Raging Bolt, L78|197/323
+-- turn 21
+  WE CHOSE: attack dragonpulse - our hp 0.61, theirs 0.20, predicted move (revealed) hits us x2
+  move|p1a: Raging Bolt|Dragon Pulse|p2a: Rotom
+  -damage|p2a: Rotom|0 fnt
+  faint|p2a: Rotom
+  switch|p2a: Ampharos|Ampharos, L88, M|100/100
+-- turn 22
+  WE CHOSE: attack dragonpulse - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Raging Bolt|Dragon Pulse|p2a: Ampharos
+  -damage|p2a: Ampharos|67/100
+  move|p2a: Ampharos|Focus Blast|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|53/323
+  -damage|p2a: Ampharos|57/100|[from] item: Life Orb
+-- turn 23
+  WE CHOSE: attack dragonpulse - our hp 0.16, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Raging Bolt|Dragon Pulse|p2a: Ampharos
+  -crit|p2a: Ampharos
+  -damage|p2a: Ampharos|7/100
+  move|p2a: Ampharos|Focus Blast|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|0 fnt
+  faint|p1a: Raging Bolt
+  -end|p1a: Raging Bolt|Protosynthesis|[silent]
+  -damage|p2a: Ampharos|0 fnt|[from] item: Life Orb
+  faint|p2a: Ampharos
+  deinit

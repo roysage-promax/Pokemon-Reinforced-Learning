@@ -1,0 +1,158 @@
+battle 2053 (battle-gen9randombattle-1025601): lost in 14 turns, 1 of theirs left; we are p1
+
+ours:
+  hydrapple (fainted; item choicespecs, ability regenerator; moves dracometeor/leafstorm/earthpower/ficklebeam)
+  politoed (fainted; item leftovers, ability drizzle; moves encore/surf/haze/icebeam)
+  qwilfish (fainted; item leftovers, ability intimidate; moves thunderwave/spikes/waterfall/gunkshot)
+  klawf (fainted; item lumberry, ability angershell; moves knockoff/swordsdance/crabhammer/stoneedge)
+  ogerpon (fainted; item heavydutyboots, ability defiant, tera grass; moves uturn/spikes/ivycudgel/encore)
+  furret (fainted; item lifeorb, ability frisk; moves doubleedge/knockoff/brickbreak/tidyup)
+theirs (as seen):
+  toxtricity (fainted; item ?, ability ?; moves boomburst)
+  fluttermane (fainted; item unknown_item, ability protosynthesis; moves moonblast)
+  hitmonlee (fainted; item choiceband, ability ?; moves highjumpkick)
+  tatsugiri (fainted; item unknown_item, ability ?; moves dracometeor)
+  grumpig (fainted; item ?, ability ?; moves earthpower)
+  dugtrio (91%; item lifeorb, ability ?; moves stoneedge)
+
+-- turn 0
+  switch|p1a: Hydrapple|Hydrapple, L83, F|312/312
+  switch|p2a: Toxtricity|Toxtricity, L82, F|100/100
+-- turn 1
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Toxtricity|Boomburst|p1a: Hydrapple
+  -damage|p1a: Hydrapple|167/312
+  -enditem|p2a: Toxtricity|Throat Spray
+  -boost|p2a: Toxtricity|spa|1|[from] item: Throat Spray
+  move|p1a: Hydrapple|Earth Power|p2a: Toxtricity
+  -supereffective|p2a: Toxtricity
+  -damage|p2a: Toxtricity|0 fnt
+  faint|p2a: Toxtricity
+  switch|p2a: Flutter Mane|Flutter Mane, L74|100/100
+-- turn 2
+  WE CHOSE: switch to qwilfish - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Qwilfish|Qwilfish, L86, F|252/252
+  -ability|p1a: Qwilfish|Intimidate|boost
+  -unboost|p2a: Flutter Mane|atk|1
+  move|p2a: Flutter Mane|Moonblast|p1a: Qwilfish
+  -resisted|p1a: Qwilfish
+  -damage|p1a: Qwilfish|156/252
+  -heal|p1a: Qwilfish|171/252|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack gunkshot - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Flutter Mane|Moonblast|p1a: Qwilfish
+  -resisted|p1a: Qwilfish
+  -damage|p1a: Qwilfish|66/252
+  -unboost|p1a: Qwilfish|spa|1
+  move|p1a: Qwilfish|Gunk Shot|p2a: Flutter Mane|[miss]
+  -miss|p1a: Qwilfish|p2a: Flutter Mane
+  -heal|p1a: Qwilfish|81/252|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack gunkshot - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ogerpon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Flutter Mane|Moonblast|p1a: Qwilfish
+  -resisted|p1a: Qwilfish
+  -damage|p1a: Qwilfish|0 fnt
+  faint|p1a: Qwilfish
+  switch|p1a: Ogerpon|Ogerpon, L80, F|259/259
+-- turn 5
+  WE CHOSE: attack+tera ivycudgel - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Ogerpon|Grass
+  detailschange|p1a: Ogerpon|Ogerpon-Teal-Tera, L80, F, tera:Grass
+  -ability|p1a: Ogerpon|Embody Aspect (Teal)|boost
+  -boost|p1a: Ogerpon|spe|1
+  move|p1a: Ogerpon|Ivy Cudgel|p2a: Flutter Mane
+  -damage|p2a: Flutter Mane|0 fnt
+  faint|p2a: Flutter Mane
+  -end|p2a: Flutter Mane|Protosynthesis|[silent]
+  switch|p2a: Hitmonlee|Hitmonlee, L85, M|100/100
+-- turn 6
+  WE CHOSE: attack ivycudgel - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hydrapple - our hp 0.00, theirs 0.05, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Ivy Cudgel|p2a: Hitmonlee
+  -damage|p2a: Hitmonlee|5/100
+  move|p2a: Hitmonlee|High Jump Kick|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  detailschange|p1: Ogerpon|Ogerpon, L80, F|[silent]
+  switch|p1a: Hydrapple|Hydrapple, L83, F|271/312
+-- turn 7
+  WE CHOSE: attack dracometeor - our hp 0.87, theirs 0.05, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to politoed - our hp 0.00, theirs 0.05, predicted move (revealed) hits us x1
+  move|p2a: Hitmonlee|High Jump Kick|p1a: Hydrapple
+  -damage|p1a: Hydrapple|0 fnt
+  faint|p1a: Hydrapple
+  switch|p1a: Politoed|Politoed, L88, F|302/302
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+-- turn 8
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.05, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to furret - our hp 0.00, theirs 0.05, predicted move (revealed) hits us x1
+  move|p2a: Hitmonlee|High Jump Kick|p1a: Politoed
+  -damage|p1a: Politoed|0 fnt
+  faint|p1a: Politoed
+  -weather|RainDance|[upkeep]
+  switch|p1a: Furret|Furret, L94, M|312/312
+  -item|p2a: Hitmonlee|Choice Band|[from] ability: Frisk|[of] p1a: Furret
+-- turn 9
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.05, predicted move (revealed) hits us x2
+  move|p1a: Furret|Double-Edge|p2a: Hitmonlee
+  -damage|p2a: Hitmonlee|0 fnt
+  faint|p2a: Hitmonlee
+  -damage|p1a: Furret|309/312|[from] Recoil
+  -damage|p1a: Furret|278/312|[from] item: Life Orb
+  -weather|RainDance|[upkeep]
+  switch|p2a: Tatsugiri|Tatsugiri, L87, F|100/100
+-- turn 10
+  WE CHOSE: attack doubleedge - our hp 0.89, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to klawf - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Furret|Double-Edge|p2a: Tatsugiri
+  -damage|p2a: Tatsugiri|13/100
+  -damage|p1a: Furret|203/312|[from] Recoil
+  -damage|p1a: Furret|172/312|[from] item: Life Orb
+  move|p2a: Tatsugiri|Draco Meteor|p1a: Furret
+  -damage|p1a: Furret|0 fnt
+  -unboost|p2a: Tatsugiri|spa|2
+  faint|p1a: Furret
+  -weather|RainDance|[upkeep]
+  switch|p1a: Klawf|Klawf, L90, F|272/272
+-- turn 11
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Tatsugiri|Draco Meteor|p1a: Klawf|[miss]
+  -miss|p2a: Tatsugiri|p1a: Klawf
+  move|p1a: Klawf|Stone Edge|p2a: Tatsugiri
+  -damage|p2a: Tatsugiri|0 fnt
+  faint|p2a: Tatsugiri
+  -weather|RainDance|[upkeep]
+  switch|p2a: Grumpig|Grumpig, L92, M|100/100
+-- turn 12
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Grumpig|Earth Power|p1a: Klawf
+  -supereffective|p1a: Klawf
+  -damage|p1a: Klawf|78/272
+  -ability|p1a: Klawf|Anger Shell|boost
+  -boost|p1a: Klawf|atk|1
+  -boost|p1a: Klawf|spa|1
+  -boost|p1a: Klawf|spe|1
+  -unboost|p1a: Klawf|def|1
+  -unboost|p1a: Klawf|spd|1
+  move|p1a: Klawf|Knock Off|p2a: Grumpig
+  -supereffective|p2a: Grumpig
+  -damage|p2a: Grumpig|12/100
+  -enditem|p2a: Grumpig|Leftovers|[from] move: Knock Off|[of] p1a: Klawf
+  -weather|none
+-- turn 13
+  WE CHOSE: attack knockoff - our hp 0.29, theirs 0.12, predicted move (revealed) hits us x2
+  move|p1a: Klawf|Knock Off|p2a: Grumpig
+  -supereffective|p2a: Grumpig
+  -damage|p2a: Grumpig|0 fnt
+  faint|p2a: Grumpig
+  switch|p2a: Dugtrio|Dugtrio, L84, F|100/100
+-- turn 14
+  WE CHOSE: attack crabhammer - our hp 0.29, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Klawf|Crabhammer|p2a: Dugtrio|[miss]
+  -miss|p1a: Klawf|p2a: Dugtrio
+  move|p2a: Dugtrio|Stone Edge|p1a: Klawf
+  -damage|p1a: Klawf|0 fnt
+  faint|p1a: Klawf
+  -damage|p2a: Dugtrio|91/100|[from] item: Life Orb
+  deinit

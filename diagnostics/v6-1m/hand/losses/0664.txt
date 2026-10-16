@@ -1,0 +1,263 @@
+battle 664 (battle-gen9randombattle-1012438): lost in 28 turns, 1 of theirs left; we are p1
+
+ours:
+  araquanid (fainted; item heavydutyboots, ability waterbubble, tera water; moves hydropump/leechlife/stickyweb/liquidation)
+  breloom (fainted; item lifeorb, ability technician; moves machpunch/swordsdance/bulletseed/rocktomb)
+  noivern (fainted; item choicespecs, ability infiltrator; moves hurricane/boomburst/dracometeor/flamethrower)
+  duraludon (fainted; item eviolite, ability lightmetal; moves flashcannon/stealthrock/bodypress/dracometeor)
+  oricorio (fainted; item heavydutyboots, ability dancer; moves quiverdance/roost/revelationdance/hurricane)
+  mesprit (fainted; item choicescarf, ability levitate; moves trick/icebeam/thunderbolt/psychic)
+theirs (as seen):
+  volcanion (fainted; item unknown_item, ability waterabsorb; moves steameruption)
+  scizor (fainted; item unknown_item, ability ?; moves closecombat)
+  dragonite (fainted; item unknown_item, ability ?; moves outrage)
+  orthworm (fainted; item unknown_item, ability ?; moves irontail)
+  dugtrio (fainted; item unknown_item, ability ?; moves earthquake)
+  annihilape (100%; item unknown_item, ability ?; moves gunkshot)
+
+-- turn 0
+  switch|p1a: Araquanid|Araquanid, L82, F|246/246
+  switch|p2a: Volcanion|Volcanion, L79|100/100
+-- turn 1
+  WE CHOSE: attack+tera hydropump - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  -terastallize|p1a: Araquanid|Water
+  move|p2a: Volcanion|Steam Eruption|p1a: Araquanid
+  -resisted|p1a: Araquanid
+  -damage|p1a: Araquanid|194/246
+  move|p1a: Araquanid|Hydro Pump|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+-- turn 2
+  WE CHOSE: attack hydropump - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Volcanion|Steam Eruption|p1a: Araquanid
+  -resisted|p1a: Araquanid
+  -damage|p1a: Araquanid|145/246
+  move|p1a: Araquanid|Hydro Pump|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+-- turn 3
+  WE CHOSE: attack hydropump - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Volcanion|Steam Eruption|p1a: Araquanid
+  -resisted|p1a: Araquanid
+  -crit|p1a: Araquanid
+  -damage|p1a: Araquanid|76/246
+  move|p1a: Araquanid|Hydro Pump|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+-- turn 4
+  WE CHOSE: attack hydropump - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Volcanion|Steam Eruption|p1a: Araquanid
+  -resisted|p1a: Araquanid
+  -damage|p1a: Araquanid|29/246
+  move|p1a: Araquanid|Hydro Pump|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+-- turn 5
+  WE CHOSE: attack hydropump - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to noivern - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Volcanion|Steam Eruption|p1a: Araquanid
+  -resisted|p1a: Araquanid
+  -damage|p1a: Araquanid|0 fnt
+  faint|p1a: Araquanid
+  switch|p1a: Noivern|Noivern, L82, F|274/274
+-- turn 6
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Noivern|Draco Meteor|p2a: Volcanion
+  -damage|p2a: Volcanion|23/100
+  -unboost|p1a: Noivern|spa|2
+  move|p2a: Volcanion|Steam Eruption|p1a: Noivern
+  -resisted|p1a: Noivern
+  -damage|p1a: Noivern|201/274
+  -status|p1a: Noivern|brn
+  -damage|p1a: Noivern|184/274 brn|[from] brn
+-- turn 7
+  WE CHOSE: attack dracometeor - our hp 0.67, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p1a: Noivern|Draco Meteor|p2a: Volcanion
+  -damage|p2a: Volcanion|0 fnt
+  -unboost|p1a: Noivern|spa|2
+  faint|p2a: Volcanion
+  -damage|p1a: Noivern|167/274 brn|[from] brn
+  switch|p2a: Scizor|Scizor, L79, F|100/100
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Noivern|Draco Meteor|p2a: Scizor
+  -resisted|p2a: Scizor
+  -damage|p2a: Scizor|86/100
+  -unboost|p1a: Noivern|spa|2
+  move|p2a: Scizor|Close Combat|p1a: Noivern
+  -resisted|p1a: Noivern
+  -damage|p1a: Noivern|91/274 brn
+  -unboost|p2a: Scizor|def|1
+  -unboost|p2a: Scizor|spd|1
+  -damage|p1a: Noivern|74/274 brn|[from] brn
+-- turn 9
+  WE CHOSE: attack dracometeor - our hp 0.27, theirs 0.86, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to oricorio - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Noivern|Draco Meteor|p2a: Scizor
+  -resisted|p2a: Scizor
+  -damage|p2a: Scizor|69/100
+  move|p2a: Scizor|Close Combat|p1a: Noivern
+  -resisted|p1a: Noivern
+  -damage|p1a: Noivern|0 fnt
+  -unboost|p2a: Scizor|def|1
+  -unboost|p2a: Scizor|spd|1
+  faint|p1a: Noivern
+  switch|p1a: Oricorio|Oricorio, L84, F|263/263
+-- turn 10
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+  -boost|p1a: Oricorio|spa|1
+  -boost|p1a: Oricorio|spd|1
+  -boost|p1a: Oricorio|spe|1
+  move|p2a: Scizor|Close Combat|p1a: Oricorio
+  -resisted|p1a: Oricorio
+  -damage|p1a: Oricorio|185/263
+  -unboost|p2a: Scizor|def|1
+  -unboost|p2a: Scizor|spd|1
+-- turn 11
+  WE CHOSE: setup quiverdance - our hp 0.70, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+  -boost|p1a: Oricorio|spa|1
+  -boost|p1a: Oricorio|spd|1
+  -boost|p1a: Oricorio|spe|1
+  move|p2a: Scizor|Close Combat|p1a: Oricorio
+  -resisted|p1a: Oricorio
+  -damage|p1a: Oricorio|109/263
+  -unboost|p2a: Scizor|def|1
+  -unboost|p2a: Scizor|spd|1
+-- turn 12
+  WE CHOSE: heal roost - our hp 0.41, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|241/263
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Scizor|Close Combat|p1a: Oricorio
+  -damage|p1a: Oricorio|70/263
+  -unboost|p2a: Scizor|def|1
+  -unboost|p2a: Scizor|spd|1
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.27, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|202/263
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Scizor|Close Combat|p1a: Oricorio
+  -damage|p1a: Oricorio|43/263
+  -unboost|p2a: Scizor|def|1
+  -unboost|p2a: Scizor|spd|1
+-- turn 14
+  WE CHOSE: heal roost - our hp 0.16, theirs 0.69, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to mesprit - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|175/263
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Scizor|Close Combat|p1a: Oricorio
+  -damage|p1a: Oricorio|0 fnt
+  faint|p1a: Oricorio
+  switch|p1a: Mesprit|Mesprit, L85|275/275
+-- turn 15
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Mesprit|Thunderbolt|p2a: Scizor
+  -damage|p2a: Scizor|0 fnt
+  faint|p2a: Scizor
+  switch|p2a: Dragonite|Dragonite, L74, F|100/100
+-- turn 16
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Mesprit|Thunderbolt|p2a: Dragonite
+  -damage|p2a: Dragonite|87/100
+  move|p2a: Dragonite|Outrage|p1a: Mesprit
+  -damage|p1a: Mesprit|160/275
+-- turn 17
+  WE CHOSE: attack thunderbolt - our hp 0.58, theirs 0.87, predicted move (revealed) hits us x1
+  move|p1a: Mesprit|Thunderbolt|p2a: Dragonite
+  -damage|p2a: Dragonite|61/100
+  move|p2a: Dragonite|Outrage|p1a: Mesprit|[from] lockedmove
+  -damage|p1a: Mesprit|48/275
+  -start|p2a: Dragonite|confusion|[fatigue]
+-- turn 18
+  WE CHOSE: attack thunderbolt - our hp 0.17, theirs 0.61, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to duraludon - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x1
+  move|p1a: Mesprit|Thunderbolt|p2a: Dragonite
+  -damage|p2a: Dragonite|33/100
+  -activate|p2a: Dragonite|confusion
+  move|p2a: Dragonite|Outrage|p1a: Mesprit
+  -damage|p1a: Mesprit|0 fnt
+  faint|p1a: Mesprit
+  switch|p1a: Duraludon|Duraludon, L82, F|249/249
+-- turn 19
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x1
+  move|p1a: Duraludon|Draco Meteor|p2a: Dragonite
+  -supereffective|p2a: Dragonite
+  -crit|p2a: Dragonite
+  -damage|p2a: Dragonite|0 fnt
+  -unboost|p1a: Duraludon|spa|2
+  faint|p2a: Dragonite
+  switch|p2a: Orthworm|Orthworm, L88, M|100/100
+-- turn 20
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Duraludon|Body Press|p2a: Orthworm
+  -supereffective|p2a: Orthworm
+  -damage|p2a: Orthworm|68/100
+  move|p2a: Orthworm|Iron Tail|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|220/249
+-- turn 21
+  WE CHOSE: attack bodypress - our hp 0.88, theirs 0.68, predicted move (revealed) hits us x0.5
+  move|p1a: Duraludon|Body Press|p2a: Orthworm
+  -supereffective|p2a: Orthworm
+  -damage|p2a: Orthworm|38/100
+  move|p2a: Orthworm|Iron Tail|p1a: Duraludon|[miss]
+  -miss|p2a: Orthworm|p1a: Duraludon
+-- turn 22
+  WE CHOSE: attack bodypress - our hp 0.88, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Duraludon|Body Press|p2a: Orthworm
+  -supereffective|p2a: Orthworm
+  -damage|p2a: Orthworm|7/100
+  move|p2a: Orthworm|Iron Tail|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|193/249
+-- turn 23
+  WE CHOSE: attack bodypress - our hp 0.78, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p1a: Duraludon|Body Press|p2a: Orthworm
+  -supereffective|p2a: Orthworm
+  -damage|p2a: Orthworm|0 fnt
+  faint|p2a: Orthworm
+  switch|p2a: Dugtrio|Dugtrio, L84, F|100/100
+-- turn 24
+  WE CHOSE: switch to breloom - our hp 0.78, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: attack dracometeor - our hp 0.78, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Dugtrio|Earthquake|p1a: Duraludon
+  -supereffective|p1a: Duraludon
+  -damage|p1a: Duraludon|19/249
+  move|p1a: Duraludon|Draco Meteor|p2a: Dugtrio
+  -damage|p2a: Dugtrio|56/100
+  -unboost|p1a: Duraludon|spa|2
+-- turn 25
+  WE CHOSE: switch to breloom - our hp 0.08, theirs 0.56, predicted move (revealed) hits us x2
+  WE CHOSE: attack bodypress - our hp 0.08, theirs 0.56, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to breloom - our hp 0.00, theirs 0.56, predicted move (revealed) hits us x2
+  move|p2a: Dugtrio|Earthquake|p1a: Duraludon
+  -supereffective|p1a: Duraludon
+  -damage|p1a: Duraludon|0 fnt
+  faint|p1a: Duraludon
+  switch|p1a: Breloom|Breloom, L83, M|235/235
+-- turn 26
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p2a: Dugtrio|Earthquake|p1a: Breloom
+  -resisted|p1a: Breloom
+  -damage|p1a: Breloom|142/235
+  move|p1a: Breloom|Swords Dance|p1a: Breloom
+  -boost|p1a: Breloom|atk|2
+-- turn 27
+  WE CHOSE: attack bulletseed - our hp 0.60, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p2a: Dugtrio|Earthquake|p1a: Breloom
+  -resisted|p1a: Breloom
+  -damage|p1a: Breloom|53/235
+  move|p1a: Breloom|Bullet Seed|p2a: Dugtrio
+  -supereffective|p2a: Dugtrio
+  -damage|p2a: Dugtrio|0 fnt
+  faint|p2a: Dugtrio
+  -hitcount|p2: Dugtrio|1
+  -damage|p1a: Breloom|30/235|[from] item: Life Orb
+  switch|p2a: Annihilape|Annihilape, L76, F|100/100
+-- turn 28
+  WE CHOSE: attack bulletseed - our hp 0.13, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Annihilape|Gunk Shot|p1a: Breloom
+  -supereffective|p1a: Breloom
+  -damage|p1a: Breloom|0 fnt
+  faint|p1a: Breloom
+  deinit

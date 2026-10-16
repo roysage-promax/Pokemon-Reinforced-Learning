@@ -1,0 +1,210 @@
+battle 435 (battle-gen9randombattle-1010305): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  galvantula (fainted; item focussash, ability compoundeyes; moves voltswitch/thunder/bugbuzz/stickyweb)
+  brambleghast (fainted; item heavydutyboots, ability windrider; moves poltergeist/strengthsap/powerwhip/rapidspin)
+  eiscuenoice (fainted; item ?, ability iceface; moves liquidation/terablast/bellydrum/icespinner)
+  flapple (fainted; item widelens, ability hustle; moves gravapple/outrage/suckerpunch/dragondance)
+  mudsdale (fainted; item leftovers, ability stamina; moves heavyslam/stealthrock/stoneedge/earthquake)
+  delphox (fainted; item choicescarf, ability blaze, tera fire; moves grassknot/focusblast/psyshock/fireblast)
+theirs (as seen):
+  vivillonsavanna (fainted; item unknown_item, ability ?; moves -)
+  amoonguss (fainted; item unknown_item, ability ?; moves sludgebomb)
+  gougingfire (fainted; item unknown_item, ability protosynthesis; moves outrage)
+  crabominable (fainted; item unknown_item, ability ?; moves icehammer)
+  mimikyu (fainted; item lifeorb, ability disguise; moves playrough)
+  magmortar (2%; item unknown_item, ability ?; moves focusblast)
+
+-- turn 0
+  switch|p1a: Galvantula|Galvantula, L82, F|249/249
+  switch|p2a: Vivillon|Vivillon-Savanna, L83, F|100/100
+-- turn 1
+  WE CHOSE: attack thunder - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Galvantula|Thunder|p2a: Vivillon
+  -supereffective|p2a: Vivillon
+  -damage|p2a: Vivillon|0 fnt
+  faint|p2a: Vivillon
+  switch|p2a: Amoonguss|Amoonguss, L82, F|100/100
+-- turn 2
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Galvantula|Bug Buzz|p2a: Amoonguss
+  -damage|p2a: Amoonguss|71/100
+  move|p2a: Amoonguss|Sludge Bomb|p1a: Galvantula
+  -damage|p1a: Galvantula|141/249
+  -status|p1a: Galvantula|psn
+  -damage|p1a: Galvantula|110/249 psn|[from] psn
+-- turn 3
+  WE CHOSE: attack bugbuzz - our hp 0.44, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to delphox - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x1
+  move|p1a: Galvantula|Bug Buzz|p2a: Amoonguss
+  -damage|p2a: Amoonguss|40/100
+  move|p2a: Amoonguss|Sludge Bomb|p1a: Galvantula
+  -damage|p1a: Galvantula|0 fnt
+  faint|p1a: Galvantula
+  switch|p1a: Delphox|Delphox, L84, F|263/263
+-- turn 4
+  WE CHOSE: attack+tera fireblast - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x1
+  -terastallize|p1a: Delphox|Fire
+  move|p1a: Delphox|Fire Blast|p2a: Amoonguss|[miss]
+  -miss|p1a: Delphox|p2a: Amoonguss
+  move|p2a: Amoonguss|Sludge Bomb|p1a: Delphox
+  -damage|p1a: Delphox|190/263
+-- turn 5
+  WE CHOSE: attack fireblast - our hp 0.72, theirs 0.40, predicted move (revealed) hits us x1
+  move|p1a: Delphox|Fire Blast|p2a: Amoonguss
+  -supereffective|p2a: Amoonguss
+  -damage|p2a: Amoonguss|0 fnt
+  faint|p2a: Amoonguss
+  switch|p2a: Gouging Fire|Gouging Fire, L74|100/100
+-- turn 6
+  WE CHOSE: attack fireblast - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Delphox|Fire Blast|p2a: Gouging Fire
+  -resisted|p2a: Gouging Fire
+  -crit|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|75/100
+  move|p2a: Gouging Fire|Outrage|p1a: Delphox
+  -damage|p1a: Delphox|52/263
+-- turn 7
+  WE CHOSE: attack fireblast - our hp 0.20, theirs 0.75, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mudsdale - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p1a: Delphox|Fire Blast|p2a: Gouging Fire
+  -resisted|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|51/100
+  move|p2a: Gouging Fire|Outrage|p1a: Delphox|[from] lockedmove
+  -damage|p1a: Delphox|0 fnt
+  faint|p1a: Delphox
+  -start|p2a: Gouging Fire|confusion|[fatigue]
+  switch|p1a: Mudsdale|Mudsdale, L83, M|302/302
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x1
+  -activate|p2a: Gouging Fire|confusion
+  move|p2a: Gouging Fire|Outrage|p1a: Mudsdale
+  -damage|p1a: Mudsdale|190/302
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  move|p1a: Mudsdale|Earthquake|p2a: Gouging Fire
+  -supereffective|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|0 fnt
+  faint|p2a: Gouging Fire
+  -end|p2a: Gouging Fire|Protosynthesis|[silent]
+  -heal|p1a: Mudsdale|208/302|[from] item: Leftovers
+  switch|p2a: Crabominable|Crabominable, L90, F|100/100
+-- turn 9
+  WE CHOSE: switch to brambleghast - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to eiscue - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Brambleghast|Brambleghast, L88, F|240/240
+  move|p2a: Crabominable|Ice Hammer|p1a: Brambleghast
+  -supereffective|p1a: Brambleghast
+  -damage|p1a: Brambleghast|0 fnt
+  -unboost|p2a: Crabominable|spe|1
+  faint|p1a: Brambleghast
+  switch|p1a: Eiscue|Eiscue, L88, F|274/274
+-- turn 10
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Eiscue|Liquidation|p2a: Crabominable
+  -damage|p2a: Crabominable|83/100
+  move|p2a: Crabominable|Ice Hammer|p1a: Eiscue
+  -activate|p1a: Eiscue|ability: Ice Face
+  -damage|p1a: Eiscue|274/274
+  -unboost|p2a: Crabominable|spe|1
+  detailschange|p1a: Eiscue|Eiscue-Noice, L88, F
+-- turn 11
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p1a: Eiscue|Liquidation|p2a: Crabominable
+  -crit|p2a: Crabominable
+  -damage|p2a: Crabominable|58/100
+  move|p2a: Crabominable|Ice Hammer|p1a: Eiscue
+  -resisted|p1a: Eiscue
+  -damage|p1a: Eiscue|171/274
+  -unboost|p2a: Crabominable|spe|1
+-- turn 12
+  WE CHOSE: attack liquidation - our hp 0.62, theirs 0.58, predicted move (revealed) hits us x0.5
+  move|p1a: Eiscue|Liquidation|p2a: Crabominable
+  -damage|p2a: Crabominable|39/100
+  move|p2a: Crabominable|Ice Hammer|p1a: Eiscue
+  -resisted|p1a: Eiscue
+  -damage|p1a: Eiscue|62/274
+  -unboost|p2a: Crabominable|spe|1
+  -enditem|p1a: Eiscue|Sitrus Berry|[eat]
+  -heal|p1a: Eiscue|130/274|[from] item: Sitrus Berry
+-- turn 13
+  WE CHOSE: attack liquidation - our hp 0.47, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p1a: Eiscue|Liquidation|p2a: Crabominable
+  -damage|p2a: Crabominable|19/100
+  move|p2a: Crabominable|Ice Hammer|p1a: Eiscue
+  -resisted|p1a: Eiscue
+  -damage|p1a: Eiscue|15/274
+  -unboost|p2a: Crabominable|spe|1
+-- turn 14
+  WE CHOSE: attack liquidation - our hp 0.05, theirs 0.19, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to mudsdale - our hp 0.00, theirs 0.02, predicted move (revealed) hits us x0.5
+  move|p1a: Eiscue|Liquidation|p2a: Crabominable
+  -damage|p2a: Crabominable|2/100
+  move|p2a: Crabominable|Ice Hammer|p1a: Eiscue
+  -resisted|p1a: Eiscue
+  -damage|p1a: Eiscue|0 fnt
+  -unboost|p2a: Crabominable|spe|1
+  faint|p1a: Eiscue
+  switch|p1a: Mudsdale|Mudsdale, L83, M|208/302
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.69, theirs 0.02, predicted move (revealed) hits us x2
+  move|p1a: Mudsdale|Earthquake|p2a: Crabominable
+  -damage|p2a: Crabominable|0 fnt
+  faint|p2a: Crabominable
+  -heal|p1a: Mudsdale|226/302|[from] item: Leftovers
+  switch|p2a: Mimikyu|Mimikyu, L79, M|100/100
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Mimikyu|Play Rough|p1a: Mudsdale
+  -damage|p1a: Mudsdale|125/302
+  -unboost|p1a: Mudsdale|atk|1
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  -damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+  move|p1a: Mudsdale|Earthquake|p2a: Mimikyu
+  -activate|p2a: Mimikyu|ability: Disguise
+  -damage|p2a: Mimikyu|91/100
+  detailschange|p2a: Mimikyu|Mimikyu-Busted, L79, M
+  -damage|p2a: Mimikyu|78/100|[from] pokemon: Mimikyu-Busted
+  -heal|p1a: Mudsdale|143/302|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 0.47, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Mimikyu|Play Rough|p1a: Mudsdale
+  -damage|p1a: Mudsdale|75/302
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  -damage|p2a: Mimikyu|69/100|[from] item: Life Orb
+  move|p1a: Mudsdale|Earthquake|p2a: Mimikyu
+  -damage|p2a: Mimikyu|25/100
+  -heal|p1a: Mudsdale|93/302|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 0.31, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Mimikyu|Play Rough|p1a: Mudsdale
+  -damage|p1a: Mudsdale|49/302
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  -damage|p2a: Mimikyu|15/100|[from] item: Life Orb
+  move|p1a: Mudsdale|Earthquake|p2a: Mimikyu
+  -damage|p2a: Mimikyu|0 fnt
+  faint|p2a: Mimikyu
+  -heal|p1a: Mudsdale|67/302|[from] item: Leftovers
+  switch|p2a: Magmortar|Magmortar, L88, M|100/100
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 0.22, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to flapple - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Magmortar|Focus Blast|p1a: Mudsdale
+  -damage|p1a: Mudsdale|0 fnt
+  faint|p1a: Mudsdale
+  switch|p1a: Flapple|Flapple, L88, F|266/266
+-- turn 20
+  WE CHOSE: attack outrage - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Magmortar|Focus Blast|p1a: Flapple
+  -damage|p1a: Flapple|121/266
+  move|p1a: Flapple|Outrage|p2a: Magmortar
+  -damage|p2a: Magmortar|2/100
+-- turn 21
+  WE CHOSE: attack outrage - our hp 0.45, theirs 0.02, predicted move (revealed) hits us x1
+  move|p2a: Magmortar|Focus Blast|p1a: Flapple
+  -damage|p1a: Flapple|0 fnt
+  faint|p1a: Flapple
+  deinit

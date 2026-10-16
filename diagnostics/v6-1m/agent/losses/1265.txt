@@ -1,0 +1,243 @@
+battle 1265 (battle-gen9randombattle-1019132): lost in 25 turns, 4 of theirs left; we are p1
+
+ours:
+  ironmoth (fainted; item heavydutyboots, ability quarkdrive; moves uturn/fireblast/sludgewave/toxicspikes)
+  irontreads (fainted; item assaultvest, ability quarkdrive; moves earthquake/ironhead/voltswitch/rapidspin)
+  appletun (fainted; item leftovers, ability thickfat, tera steel; moves recover/leechseed/appleacid/dracometeor)
+  cloyster (fainted; item whiteherb, ability skilllink; moves hydropump/iciclespear/shellsmash/rockblast)
+  morpeko (fainted; item heavydutyboots, ability hungerswitch; moves rapidspin/partingshot/protect/aurawheel)
+  bellossom (fainted; item leftovers, ability chlorophyll; moves quiverdance/strengthsap/gigadrain/terablast)
+theirs (as seen):
+  chansey (fainted; item unknown_item, ability ?; moves healbell)
+  terrakion (fainted; item lifeorb, ability justified; moves closecombat)
+  annihilape (100%; item leftovers, ability defiant; moves drainpunch)
+
+-- turn 0
+  switch|p1a: Iron Moth|Iron Moth, L78|253/253
+  switch|p2a: Chansey|Chansey, L85, F|100/100
+-- turn 1
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Iron Moth|Sludge Wave|p2a: Chansey
+  -damage|p2a: Chansey|89/100
+  move|p2a: Chansey|Heal Bell||[still]
+  -activate|p2a: Chansey|move: Heal Bell
+  -fail|p2a: Chansey
+-- turn 2
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.89, predicted move (unknown) hits us x0
+  move|p1a: Iron Moth|Sludge Wave|p2a: Chansey
+  -damage|p2a: Chansey|76/100
+  move|p2a: Chansey|Heal Bell||[still]
+  -activate|p2a: Chansey|move: Heal Bell
+  -fail|p2a: Chansey
+-- turn 3
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.76, predicted move (unknown) hits us x0
+  move|p1a: Iron Moth|Sludge Wave|p2a: Chansey
+  -damage|p2a: Chansey|63/100
+  move|p2a: Chansey|Heal Bell||[still]
+  -activate|p2a: Chansey|move: Heal Bell
+  -fail|p2a: Chansey
+-- turn 4
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.63, predicted move (unknown) hits us x0
+  move|p1a: Iron Moth|Sludge Wave|p2a: Chansey
+  -damage|p2a: Chansey|52/100
+  move|p2a: Chansey|Heal Bell||[still]
+  -activate|p2a: Chansey|move: Heal Bell
+  -fail|p2a: Chansey
+-- turn 5
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.52, predicted move (unknown) hits us x0
+  move|p1a: Iron Moth|Sludge Wave|p2a: Chansey
+  -damage|p2a: Chansey|39/100
+  -status|p2a: Chansey|psn
+  move|p2a: Chansey|Heal Bell|p2a: Chansey
+  -activate|p2a: Chansey|move: Heal Bell
+  -curestatus|p2a: Chansey|psn|[msg]
+-- turn 6
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.39, predicted move (unknown) hits us x0
+  move|p1a: Iron Moth|Sludge Wave|p2a: Chansey
+  -damage|p2a: Chansey|26/100
+  move|p2a: Chansey|Heal Bell||[still]
+  -activate|p2a: Chansey|move: Heal Bell
+  -fail|p2a: Chansey
+-- turn 7
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.26, predicted move (unknown) hits us x0
+  move|p1a: Iron Moth|Sludge Wave|p2a: Chansey
+  -damage|p2a: Chansey|14/100
+  move|p2a: Chansey|Heal Bell||[still]
+  -activate|p2a: Chansey|move: Heal Bell
+  -fail|p2a: Chansey
+-- turn 8
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.14, predicted move (unknown) hits us x0
+  move|p1a: Iron Moth|Sludge Wave|p2a: Chansey
+  -damage|p2a: Chansey|2/100
+  move|p2a: Chansey|Heal Bell||[still]
+  -activate|p2a: Chansey|move: Heal Bell
+  -fail|p2a: Chansey
+-- turn 9
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.02, predicted move (unknown) hits us x0
+  move|p1a: Iron Moth|Sludge Wave|p2a: Chansey
+  -damage|p2a: Chansey|0 fnt
+  faint|p2a: Chansey
+  switch|p2a: Terrakion|Terrakion, L79|100/100
+-- turn 10
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Iron Moth|Sludge Wave|p2a: Terrakion
+  -resisted|p2a: Terrakion
+  -damage|p2a: Terrakion|80/100
+  move|p2a: Terrakion|Close Combat|p1a: Iron Moth
+  -resisted|p1a: Iron Moth
+  -damage|p1a: Iron Moth|117/253
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  -damage|p2a: Terrakion|70/100|[from] item: Life Orb
+-- turn 11
+  WE CHOSE: attack sludgewave - our hp 0.46, theirs 0.70, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to appletun - our hp 0.00, theirs 0.29, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Moth|Sludge Wave|p2a: Terrakion
+  -resisted|p2a: Terrakion
+  -damage|p2a: Terrakion|39/100
+  move|p2a: Terrakion|Close Combat|p1a: Iron Moth
+  -resisted|p1a: Iron Moth
+  -damage|p1a: Iron Moth|0 fnt
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  faint|p1a: Iron Moth
+  -end|p1a: Iron Moth|Quark Drive|[silent]
+  -damage|p2a: Terrakion|29/100|[from] item: Life Orb
+  switch|p1a: Appletun|Appletun, L92, M|352/352
+-- turn 12
+  WE CHOSE: attack appleacid - our hp 1.00, theirs 0.29, predicted move (revealed) hits us x1
+  move|p2a: Terrakion|Close Combat|p1a: Appletun
+  -damage|p1a: Appletun|165/352
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  -damage|p2a: Terrakion|19/100|[from] item: Life Orb
+  move|p1a: Appletun|Apple Acid|p2a: Terrakion
+  -supereffective|p2a: Terrakion
+  -damage|p2a: Terrakion|0 fnt
+  faint|p2a: Terrakion
+  -heal|p1a: Appletun|187/352|[from] item: Leftovers
+  switch|p2a: Annihilape|Annihilape, L76, F|100/100
+-- turn 13
+  WE CHOSE: heal+tera recover (hand policy: switch to irontreads) - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Appletun|Steel
+  move|p2a: Annihilape|Drain Punch|p1a: Appletun
+  -supereffective|p1a: Appletun
+  -damage|p1a: Appletun|43/352
+  move|p1a: Appletun|Recover|p1a: Appletun
+  -heal|p1a: Appletun|219/352
+  -heal|p1a: Appletun|241/352|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: switch to bellossom (hand policy: attack dracometeor) - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Bellossom|Bellossom, L84, M|263/263
+  move|p2a: Annihilape|Drain Punch|p1a: Bellossom
+  -damage|p1a: Bellossom|194/263
+  -heal|p1a: Bellossom|210/263|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal strengthsap (hand policy: attack gigadrain) - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Annihilape|Drain Punch|p1a: Bellossom
+  -damage|p1a: Bellossom|140/263
+  move|p1a: Bellossom|Strength Sap|p2a: Annihilape
+  -unboost|p2a: Annihilape|atk|1
+  -ability|p2a: Annihilape|Defiant|boost
+  -boost|p2a: Annihilape|atk|2
+  -heal|p1a: Bellossom|263/263
+-- turn 16
+  WE CHOSE: setup quiverdance (hand policy: attack gigadrain) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Annihilape|Drain Punch|p1a: Bellossom
+  -damage|p1a: Bellossom|164/263
+  move|p1a: Bellossom|Quiver Dance|p1a: Bellossom
+  -boost|p1a: Bellossom|spa|1
+  -boost|p1a: Bellossom|spd|1
+  -boost|p1a: Bellossom|spe|1
+  -heal|p1a: Bellossom|180/263|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: heal strengthsap (hand policy: attack gigadrain) - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Bellossom|Strength Sap|p2a: Annihilape
+  -unboost|p2a: Annihilape|atk|1
+  -ability|p2a: Annihilape|Defiant|boost
+  -boost|p2a: Annihilape|atk|2
+  -heal|p1a: Bellossom|263/263
+  move|p2a: Annihilape|Drain Punch|p1a: Bellossom
+  -damage|p1a: Bellossom|116/263
+  -heal|p1a: Bellossom|132/263|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: heal strengthsap (hand policy: attack gigadrain) - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Bellossom|Strength Sap|p2a: Annihilape
+  -unboost|p2a: Annihilape|atk|1
+  -ability|p2a: Annihilape|Defiant|boost
+  -boost|p2a: Annihilape|atk|2
+  -heal|p1a: Bellossom|263/263
+  move|p2a: Annihilape|Drain Punch|p1a: Bellossom
+  -damage|p1a: Bellossom|77/263
+  -heal|p1a: Bellossom|93/263|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: heal strengthsap - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Bellossom|Strength Sap|p2a: Annihilape
+  -unboost|p2a: Annihilape|atk|1
+  -ability|p2a: Annihilape|Defiant|boost
+  -boost|p2a: Annihilape|atk|2
+  -heal|p1a: Bellossom|263/263
+  move|p2a: Annihilape|Drain Punch|p1a: Bellossom
+  -damage|p1a: Bellossom|55/263
+  -heal|p1a: Bellossom|71/263|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal strengthsap - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Bellossom|Strength Sap|p2a: Annihilape
+  -unboost|p2a: Annihilape|atk|1
+  -ability|p2a: Annihilape|Defiant|boost
+  -boost|p2a: Annihilape|atk|2
+  -heal|p1a: Bellossom|263/263
+  move|p2a: Annihilape|Drain Punch|p1a: Bellossom
+  -damage|p1a: Bellossom|10/263
+  -heal|p1a: Bellossom|26/263|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal strengthsap - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to appletun - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Bellossom|Strength Sap|p2a: Annihilape
+  -unboost|p2a: Annihilape|atk|1
+  -ability|p2a: Annihilape|Defiant|boost
+  -boost|p2a: Annihilape|atk|2
+  -heal|p1a: Bellossom|263/263
+  move|p2a: Annihilape|Drain Punch|p1a: Bellossom
+  -damage|p1a: Bellossom|0 fnt
+  faint|p1a: Bellossom
+  switch|p1a: Appletun|Appletun, L92, M, tera:Steel|241/352
+-- turn 22
+  WE CHOSE: heal recover (hand policy: attack dracometeor) - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to morpeko - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Annihilape|Drain Punch|p1a: Appletun
+  -supereffective|p1a: Appletun
+  -damage|p1a: Appletun|0 fnt
+  faint|p1a: Appletun
+  switch|p1a: Morpeko|Morpeko, L88, M|245/245
+-- turn 23
+  WE CHOSE: attack aurawheel - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to irontreads - our hp 0.00, theirs 0.99, predicted move (revealed) hits us x2
+  move|p1a: Morpeko|Aura Wheel|p2a: Annihilape
+  -damage|p2a: Annihilape|51/100
+  -boost|p1a: Morpeko|spe|1
+  move|p2a: Annihilape|Drain Punch|p1a: Morpeko
+  -supereffective|p1a: Morpeko
+  -damage|p1a: Morpeko|0 fnt
+  -heal|p2a: Annihilape|93/100|[from] drain|[of] p1a: Morpeko
+  faint|p1a: Morpeko
+  -heal|p2a: Annihilape|99/100|[from] item: Leftovers
+  switch|p1a: Iron Treads|Iron Treads, L77|265/265
+-- turn 24
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.99, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to cloyster - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Iron Treads|Earthquake|p2a: Annihilape
+  -damage|p2a: Annihilape|62/100
+  move|p2a: Annihilape|Drain Punch|p1a: Iron Treads
+  -supereffective|p1a: Iron Treads
+  -damage|p1a: Iron Treads|0 fnt
+  -heal|p2a: Annihilape|100/100|[from] drain|[of] p1a: Iron Treads
+  faint|p1a: Iron Treads
+  -end|p1a: Iron Treads|Quark Drive|[silent]
+  switch|p1a: Cloyster|Cloyster, L80, M|211/211
+-- turn 25
+  WE CHOSE: switch to ironmoth (hand policy: attack hydropump) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Annihilape|Drain Punch|p1a: Cloyster
+  -supereffective|p1a: Cloyster
+  -damage|p1a: Cloyster|0 fnt
+  faint|p1a: Cloyster

@@ -1,0 +1,199 @@
+battle 426 (battle-gen9randombattle-1010654): lost in 19 turns, 1 of theirs left; we are p1
+
+ours:
+  baxcalibur (fainted; item loadeddice, ability thermalexchange; moves swordsdance/scaleshot/earthquake/iciclespear)
+  goodra (fainted; item assaultvest, ability sapsipper, tera ground; moves dracometeor/knockoff/fireblast/earthquake)
+  dondozo (fainted; item leftovers, ability unaware; moves curse/rest/wavecrash/sleeptalk)
+  thundurustherian (fainted; item heavydutyboots, ability voltabsorb; moves focusblast/nastyplot/terablast/thunderbolt)
+  morpeko (fainted; item leftovers, ability hungerswitch; moves aurawheel/protect/knockoff/rapidspin)
+  toxicroak (fainted; item lifeorb, ability dryskin; moves swordsdance/closecombat/earthquake/gunkshot)
+theirs (as seen):
+  avalugghisui (fainted; item unknown_item, ability sturdy; moves stoneedge)
+  armarouge (fainted; item unknown_item, ability weakarmor; moves armorcannon)
+  braviaryhisui (fainted; item unknown_item, ability ?; moves hurricane)
+  blaziken (fainted; item lifeorb, ability speedboost; moves closecombat)
+  crabominable (fainted; item unknown_item, ability ?; moves earthquake)
+  walkingwake (23%; item lifeorb, ability protosynthesis; moves dracometeor)
+
+-- turn 0
+  switch|p1a: Baxcalibur|Baxcalibur, L75, F|295/295
+  switch|p2a: Avalugg|Avalugg-Hisui, L91, F|100/100
+-- turn 1
+  WE CHOSE: switch to toxicroak - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Toxicroak|Toxicroak, L84, M|277/277
+  move|p2a: Avalugg|Stone Edge|p1a: Toxicroak|[miss]
+  -miss|p2a: Avalugg|p1a: Toxicroak
+-- turn 2
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+  -boost|p1a: Toxicroak|atk|2
+  move|p2a: Avalugg|Stone Edge|p1a: Toxicroak
+  -resisted|p1a: Toxicroak
+  -damage|p1a: Toxicroak|175/277
+-- turn 3
+  WE CHOSE: attack closecombat - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dondozo - our hp 0.00, theirs 0.01, predicted move (revealed) hits us x0.5
+  move|p1a: Toxicroak|Close Combat|p2a: Avalugg
+  -supereffective|p2a: Avalugg
+  -ability|p2a: Avalugg|Sturdy
+  -damage|p2a: Avalugg|1/100
+  -unboost|p1a: Toxicroak|def|1
+  -unboost|p1a: Toxicroak|spd|1
+  -damage|p1a: Toxicroak|148/277|[from] item: Life Orb
+  move|p2a: Avalugg|Stone Edge|p1a: Toxicroak
+  -resisted|p1a: Toxicroak
+  -damage|p1a: Toxicroak|0 fnt
+  faint|p1a: Toxicroak
+  switch|p1a: Dondozo|Dondozo, L78, M|362/362
+-- turn 4
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.01, predicted move (revealed) hits us x1
+  move|p2a: Avalugg|Stone Edge|p1a: Dondozo
+  -damage|p1a: Dondozo|224/362
+  move|p1a: Dondozo|Wave Crash|p2a: Avalugg
+  -supereffective|p2a: Avalugg
+  -damage|p2a: Avalugg|0 fnt
+  faint|p2a: Avalugg
+  -damage|p1a: Dondozo|223/362|[from] Recoil
+  -heal|p1a: Dondozo|245/362|[from] item: Leftovers
+  switch|p2a: Armarouge|Armarouge, L80, F|100/100
+-- turn 5
+  WE CHOSE: attack wavecrash - our hp 0.68, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Armarouge|Armor Cannon|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|141/362
+  -unboost|p2a: Armarouge|def|1
+  -unboost|p2a: Armarouge|spd|1
+  move|p1a: Dondozo|Wave Crash|p2a: Armarouge
+  -supereffective|p2a: Armarouge
+  -damage|p2a: Armarouge|13/100
+  -ability|p2a: Armarouge|Weak Armor|boost
+  -unboost|p2a: Armarouge|def|1
+  -boost|p2a: Armarouge|spe|2
+  -damage|p1a: Dondozo|64/362|[from] Recoil
+  -heal|p1a: Dondozo|86/362|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: heal rest - our hp 0.24, theirs 0.13, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to goodra - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p2a: Armarouge|Armor Cannon|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|0 fnt
+  -unboost|p2a: Armarouge|def|1
+  -unboost|p2a: Armarouge|spd|1
+  faint|p1a: Dondozo
+  switch|p1a: Goodra|Goodra, L85, F|292/292
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p2a: Armarouge|Armor Cannon|p1a: Goodra
+  -resisted|p1a: Goodra
+  -damage|p1a: Goodra|262/292
+  -unboost|p2a: Armarouge|def|1
+  -unboost|p2a: Armarouge|spd|1
+  move|p1a: Goodra|Earthquake|p2a: Armarouge
+  -supereffective|p2a: Armarouge
+  -damage|p2a: Armarouge|0 fnt
+  faint|p2a: Armarouge
+  switch|p2a: Braviary|Braviary-Hisui, L85, M|100/100
+-- turn 8
+  WE CHOSE: switch to thundurustherian (hand policy: attack dracometeor) - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Thundurus|Thundurus-Therian, L80, M|258/258
+  move|p2a: Braviary|Hurricane|p1a: Thundurus
+  -resisted|p1a: Thundurus
+  -damage|p1a: Thundurus|12/258
+-- turn 9
+  WE CHOSE: attack thunderbolt - our hp 0.05, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Thundurus|Thunderbolt|p2a: Braviary
+  -supereffective|p2a: Braviary
+  -damage|p2a: Braviary|18/100
+  move|p2a: Braviary|Hurricane|p1a: Thundurus|[miss]
+  -miss|p2a: Braviary|p1a: Thundurus
+-- turn 10
+  WE CHOSE: attack thunderbolt - our hp 0.05, theirs 0.18, predicted move (revealed) hits us x0.5
+  move|p1a: Thundurus|Thunderbolt|p2a: Braviary
+  -supereffective|p2a: Braviary
+  -damage|p2a: Braviary|0 fnt
+  faint|p2a: Braviary
+  switch|p2a: Blaziken|Blaziken, L76, M|100/100
+-- turn 11
+  WE CHOSE: attack thunderbolt - our hp 0.05, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to goodra - our hp 0.00, theirs 0.29, predicted move (revealed) hits us x0.5
+  move|p1a: Thundurus|Thunderbolt|p2a: Blaziken
+  -damage|p2a: Blaziken|39/100
+  move|p2a: Blaziken|Close Combat|p1a: Thundurus
+  -resisted|p1a: Thundurus
+  -damage|p1a: Thundurus|0 fnt
+  -unboost|p2a: Blaziken|def|1
+  -unboost|p2a: Blaziken|spd|1
+  faint|p1a: Thundurus
+  -damage|p2a: Blaziken|29/100|[from] item: Life Orb
+  -ability|p2a: Blaziken|Speed Boost|boost
+  -boost|p2a: Blaziken|spe|1
+  switch|p1a: Goodra|Goodra, L85, F|262/292
+-- turn 12
+  WE CHOSE: attack+tera earthquake - our hp 0.90, theirs 0.29, predicted move (revealed) hits us x1
+  -terastallize|p1a: Goodra|Ground
+  move|p2a: Blaziken|Close Combat|p1a: Goodra
+  -damage|p1a: Goodra|83/292
+  -unboost|p2a: Blaziken|def|1
+  -unboost|p2a: Blaziken|spd|1
+  -damage|p2a: Blaziken|19/100|[from] item: Life Orb
+  move|p1a: Goodra|Earthquake|p2a: Blaziken
+  -supereffective|p2a: Blaziken
+  -damage|p2a: Blaziken|0 fnt
+  faint|p2a: Blaziken
+  switch|p2a: Crabominable|Crabominable, L90, F|100/100
+-- turn 13
+  WE CHOSE: attack earthquake (hand policy: attack fireblast) - our hp 0.28, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to baxcalibur - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Goodra|Earthquake|p2a: Crabominable
+  -damage|p2a: Crabominable|61/100
+  move|p2a: Crabominable|Earthquake|p1a: Goodra
+  -damage|p1a: Goodra|0 fnt
+  faint|p1a: Goodra
+  switch|p1a: Baxcalibur|Baxcalibur, L75, F|295/295
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Baxcalibur|Earthquake|p2a: Crabominable
+  -damage|p2a: Crabominable|37/100
+  move|p2a: Crabominable|Earthquake|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|182/295
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.62, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Baxcalibur|Earthquake|p2a: Crabominable
+  -damage|p2a: Crabominable|14/100
+  move|p2a: Crabominable|Earthquake|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|64/295
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 0.22, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Baxcalibur|Earthquake|p2a: Crabominable
+  -damage|p2a: Crabominable|0 fnt
+  faint|p2a: Crabominable
+  switch|p2a: Walking Wake|Walking Wake, L79|100/100
+-- turn 17
+  WE CHOSE: switch to morpeko (hand policy: attack earthquake) - our hp 0.22, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Morpeko|Morpeko, L88, F|245/245
+  move|p2a: Walking Wake|Draco Meteor|p1a: Morpeko
+  -damage|p1a: Morpeko|7/245
+  -unboost|p2a: Walking Wake|spa|2
+  -damage|p2a: Walking Wake|91/100|[from] item: Life Orb
+  -heal|p1a: Morpeko|22/245|[from] item: Leftovers
+  -formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+-- turn 18
+  WE CHOSE: attack aurawheel - our hp 0.09, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to baxcalibur - our hp 0.00, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Morpeko|Aura Wheel|p2a: Walking Wake
+  -damage|p2a: Walking Wake|42/100
+  -boost|p1a: Morpeko|spe|1
+  move|p2a: Walking Wake|Draco Meteor|p1a: Morpeko
+  -damage|p1a: Morpeko|0 fnt
+  -unboost|p2a: Walking Wake|spa|2
+  faint|p1a: Morpeko
+  -damage|p2a: Walking Wake|32/100|[from] item: Life Orb
+  switch|p1a: Baxcalibur|Baxcalibur, L75, F|64/295
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 0.22, theirs 0.32, predicted move (revealed) hits us x2
+  move|p2a: Walking Wake|Draco Meteor|p1a: Baxcalibur
+  -supereffective|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|0 fnt
+  -unboost|p2a: Walking Wake|spa|2
+  faint|p1a: Baxcalibur
+  -damage|p2a: Walking Wake|23/100|[from] item: Life Orb

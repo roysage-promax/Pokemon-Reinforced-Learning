@@ -1,0 +1,159 @@
+battle 155 (battle-gen9randombattle-1007680): lost in 16 turns, 2 of theirs left; we are p1
+
+ours:
+  sandslashalola (fainted; item lifeorb, ability slushrush; moves tripleaxel/earthquake/swordsdance/knockoff)
+  scyther (fainted; item heavydutyboots, ability technician, tera fighting; moves defog/dualwingbeat/uturn/closecombat)
+  tatsugiri (fainted; item heavydutyboots, ability stormdrain; moves rapidspin/nastyplot/hydropump/dracometeor)
+  feraligatr (fainted; item lifeorb, ability sheerforce; moves icepunch/crunch/liquidation/dragondance)
+  regidrago (fainted; item lifeorb, ability dragonsmaw; moves dragonclaw/earthquake/terablast/dragondance)
+  hoopa (fainted; item choicescarf, ability magician; moves focusblast/shadowball/trick/psychic)
+theirs (as seen):
+  zarude (fainted; item unknown_item, ability leafguard; moves powerwhip)
+  umbreon (fainted; item leftovers, ability ?; moves foulplay)
+  squawkabillywhite (fainted; item unknown_item, ability ?; moves doubleedge)
+  sneasler (fainted; item ?, ability ?; moves closecombat)
+  rampardos (77%; item unknown_item, ability ?; moves headsmash)
+
+-- turn 0
+  switch|p1a: Sandslash|Sandslash-Alola, L88, F|275/275
+  switch|p2a: Zarude|Zarude, L77|100/100
+-- turn 1
+  WE CHOSE: switch to hoopa - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Hoopa|Hoopa, L85|275/275
+  move|p2a: Zarude|Power Whip|p1a: Hoopa
+  -damage|p1a: Hoopa|122/275
+-- turn 2
+  WE CHOSE: attack focusblast - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to scyther - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Zarude|Power Whip|p1a: Hoopa
+  -damage|p1a: Hoopa|0 fnt
+  faint|p1a: Hoopa
+  switch|p1a: Scyther|Scyther, L82, F|249/249
+-- turn 3
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to regidrago - our hp 0.86, theirs 0.05, predicted move (revealed) hits us x0.25
+  move|p2a: Zarude|Power Whip|p1a: Scyther
+  -resisted|p1a: Scyther
+  -damage|p1a: Scyther|215/249
+  move|p1a: Scyther|U-turn|p2a: Zarude
+  -supereffective|p2a: Zarude
+  -damage|p2a: Zarude|5/100
+  switch|p1a: Regidrago|Regidrago, L77|435/435|[from] U-turn
+-- turn 4
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 0.05, predicted move (revealed) hits us x0.5
+  move|p2a: Zarude|Power Whip|p1a: Regidrago
+  -resisted|p1a: Regidrago
+  -damage|p1a: Regidrago|337/435
+  move|p1a: Regidrago|Dragon Dance|p1a: Regidrago
+  -boost|p1a: Regidrago|atk|1
+  -boost|p1a: Regidrago|spe|1
+-- turn 5
+  WE CHOSE: setup dragondance - our hp 0.77, theirs 0.05, predicted move (revealed) hits us x0.5
+  move|p2a: Zarude|Power Whip|p1a: Regidrago
+  -resisted|p1a: Regidrago
+  -damage|p1a: Regidrago|238/435
+  move|p1a: Regidrago|Dragon Dance|p1a: Regidrago
+  -boost|p1a: Regidrago|atk|1
+  -boost|p1a: Regidrago|spe|1
+-- turn 6
+  WE CHOSE: attack dragonclaw - our hp 0.55, theirs 0.05, predicted move (revealed) hits us x0.5
+  move|p1a: Regidrago|Dragon Claw|p2a: Zarude
+  -damage|p2a: Zarude|0 fnt
+  faint|p2a: Zarude
+  -damage|p1a: Regidrago|195/435|[from] item: Life Orb
+  switch|p2a: Umbreon|Umbreon, L84, F|100/100
+-- turn 7
+  WE CHOSE: attack dragonclaw - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to scyther - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p1a: Regidrago|Dragon Claw|p2a: Umbreon
+  -damage|p2a: Umbreon|13/100
+  -damage|p1a: Regidrago|152/435|[from] item: Life Orb
+  move|p2a: Umbreon|Foul Play|p1a: Regidrago
+  -damage|p1a: Regidrago|0 fnt
+  faint|p1a: Regidrago
+  -heal|p2a: Umbreon|19/100|[from] item: Leftovers
+  switch|p1a: Scyther|Scyther, L82, F|215/249
+-- turn 8
+  WE CHOSE: attack+tera closecombat - our hp 0.86, theirs 0.19, predicted move (revealed) hits us x1
+  -terastallize|p1a: Scyther|Fighting
+  move|p1a: Scyther|Close Combat|p2a: Umbreon
+  -supereffective|p2a: Umbreon
+  -damage|p2a: Umbreon|0 fnt
+  -unboost|p1a: Scyther|def|1
+  -unboost|p1a: Scyther|spd|1
+  faint|p2a: Umbreon
+  switch|p2a: Squawkabilly|Squawkabilly-White, L89, M|100/100
+-- turn 9
+  WE CHOSE: switch to sandslashalola - our hp 0.86, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Sandslash|Sandslash-Alola, L88, F|275/275
+  move|p2a: Squawkabilly|Double-Edge|p1a: Sandslash
+  -resisted|p1a: Sandslash
+  -damage|p1a: Sandslash|156/275
+  -damage|p2a: Squawkabilly|87/100|[from] Recoil
+-- turn 10
+  WE CHOSE: setup swordsdance - our hp 0.57, theirs 0.87, predicted move (revealed) hits us x0.5
+  move|p2a: Squawkabilly|Double-Edge|p1a: Sandslash
+  -resisted|p1a: Sandslash
+  -damage|p1a: Sandslash|39/275
+  -damage|p2a: Squawkabilly|74/100|[from] Recoil
+  move|p1a: Sandslash|Swords Dance|p1a: Sandslash
+  -boost|p1a: Sandslash|atk|2
+-- turn 11
+  WE CHOSE: attack knockoff - our hp 0.14, theirs 0.74, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to scyther - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p2a: Squawkabilly|Double-Edge|p1a: Sandslash
+  -resisted|p1a: Sandslash
+  -damage|p1a: Sandslash|0 fnt
+  faint|p1a: Sandslash
+  -damage|p2a: Squawkabilly|69/100|[from] Recoil
+  switch|p1a: Scyther|Scyther, L82, F, tera:Fighting|215/249
+-- turn 12
+  WE CHOSE: attack closecombat - our hp 0.86, theirs 0.69, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tatsugiri - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Scyther|Close Combat|p2a: Squawkabilly
+  -damage|p2a: Squawkabilly|7/100
+  -unboost|p1a: Scyther|def|1
+  -unboost|p1a: Scyther|spd|1
+  move|p2a: Squawkabilly|Double-Edge|p1a: Scyther
+  -damage|p1a: Scyther|0 fnt
+  faint|p1a: Scyther
+  -damage|p2a: Squawkabilly|0 fnt|[from] Recoil
+  faint|p2a: Squawkabilly
+  switch|p1a: Tatsugiri|Tatsugiri, L87, M|260/260
+  switch|p2a: Sneasler|Sneasler, L74, F|100/100
+-- turn 13
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Sneasler|Close Combat|p1a: Tatsugiri
+  -damage|p1a: Tatsugiri|97/260
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  -enditem|p2a: Sneasler|White Herb
+  -clearnegativeboost|p2a: Sneasler|[silent]
+  move|p1a: Tatsugiri|Draco Meteor|p2a: Sneasler
+  -damage|p2a: Sneasler|19/100
+  -unboost|p1a: Tatsugiri|spa|2
+-- turn 14
+  WE CHOSE: attack dracometeor - our hp 0.37, theirs 0.19, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to feraligatr - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Sneasler|Close Combat|p1a: Tatsugiri
+  -damage|p1a: Tatsugiri|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Tatsugiri
+  switch|p1a: Feraligatr|Feraligatr, L79, F|264/264
+-- turn 15
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Sneasler|Close Combat|p1a: Feraligatr
+  -damage|p1a: Feraligatr|150/264
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  move|p1a: Feraligatr|Liquidation|p2a: Sneasler
+  -damage|p2a: Sneasler|0 fnt
+  faint|p2a: Sneasler
+  switch|p2a: Rampardos|Rampardos, L90, F|100/100
+-- turn 16
+  WE CHOSE: attack liquidation - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Rampardos|Head Smash|p1a: Feraligatr
+  -damage|p1a: Feraligatr|0 fnt
+  faint|p1a: Feraligatr
+  -damage|p2a: Rampardos|77/100|[from] Recoil

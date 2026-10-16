@@ -1,0 +1,313 @@
+battle 2429 (battle-gen9randombattle-1029173): lost in 41 turns, 1 of theirs left; we are p1
+
+ours:
+  blissey (fainted; item leftovers, ability naturalcure; moves softboiled/seismictoss/thunderwave/stealthrock)
+  ribombee (fainted; item heavydutyboots, ability shielddust, tera ground; moves terablast/moonblast/bugbuzz/quiverdance)
+  spectrier (fainted; item leftovers, ability grimneigh; moves shadowball/darkpulse/nastyplot/substitute)
+  scovillain (fainted; item leftovers, ability chlorophyll; moves flamethrower/leechseed/substitute/protect)
+  duraludon (fainted; item eviolite, ability lightmetal; moves flashcannon/thunderwave/bodypress/dracometeor)
+  whimsicott (fainted; item leftovers, ability prankster; moves substitute/moonblast/leechseed/encore)
+theirs (as seen):
+  ironbundle (fainted; item unknown_item, ability quarkdrive; moves hydropump/icebeam/freezedry)
+  clodsire (fainted; item leftovers, ability ?; moves earthquake)
+  calyrexshadow (fainted; item unknown_item, ability unnerve; moves -)
+  kyuremblack (fainted; item unknown_item, ability teravolt; moves -)
+  stantler (fainted; item unknown_item, ability intimidate; moves earthquake)
+  flapple (38%; item unknown_item, ability ?; moves outrage)
+
+-- turn 0
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+  switch|p2a: Iron Bundle|Iron Bundle, L78|100/100
+-- turn 1
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Blissey
+  -damage|p1a: Blissey|481/572
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+-- turn 2
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Blissey|[miss]
+  -miss|p2a: Iron Bundle|p1a: Blissey
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+-- turn 3
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Blissey
+  -damage|p1a: Blissey|478/572
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+-- turn 4
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Blissey|[miss]
+  -miss|p2a: Iron Bundle|p1a: Blissey
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+-- turn 5
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Blissey
+  -damage|p1a: Blissey|476/572
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+-- turn 6
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Blissey|[miss]
+  -miss|p2a: Iron Bundle|p1a: Blissey
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+-- turn 7
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Blissey
+  -damage|p1a: Blissey|488/572
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+-- turn 8
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Blissey
+  -damage|p1a: Blissey|490/572
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+-- turn 9
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|493/572
+  -status|p1a: Blissey|frz
+  cant|p1a: Blissey|frz
+  -heal|p1a: Blissey|528/572 frz|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack seismictoss - our hp 0.92, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|459/572 frz
+  cant|p1a: Blissey|frz
+  -heal|p1a: Blissey|494/572 frz|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack seismictoss - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|419/572 frz
+  cant|p1a: Blissey|frz
+  -heal|p1a: Blissey|454/572 frz|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack seismictoss - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|382/572 frz
+  cant|p1a: Blissey|frz
+  -heal|p1a: Blissey|417/572 frz|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack seismictoss - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|341/572 frz
+  cant|p1a: Blissey|frz
+  -heal|p1a: Blissey|376/572 frz|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack seismictoss - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|307/572 frz
+  cant|p1a: Blissey|frz
+  -heal|p1a: Blissey|342/572 frz|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack seismictoss - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|269/572 frz
+  cant|p1a: Blissey|frz
+  -heal|p1a: Blissey|304/572 frz|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack seismictoss - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|229/572 frz
+  cant|p1a: Blissey|frz
+  -heal|p1a: Blissey|264/572 frz|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack seismictoss - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|192/572 frz
+  cant|p1a: Blissey|frz
+  -heal|p1a: Blissey|227/572 frz|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack seismictoss - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|155/572 frz
+  cant|p1a: Blissey|frz
+  -heal|p1a: Blissey|190/572 frz|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack seismictoss - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|112/572 frz
+  cant|p1a: Blissey|frz
+  -heal|p1a: Blissey|147/572 frz|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack seismictoss - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|69/572 frz
+  cant|p1a: Blissey|frz
+  -heal|p1a: Blissey|104/572 frz|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack seismictoss - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|28/572 frz
+  cant|p1a: Blissey|frz
+  -heal|p1a: Blissey|63/572 frz|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack seismictoss - our hp 0.11, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to duraludon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Ice Beam|p1a: Blissey
+  -damage|p1a: Blissey|0 fnt
+  faint|p1a: Blissey
+  switch|p1a: Duraludon|Duraludon, L82, M|249/249
+-- turn 23
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Bundle|Ice Beam|p1a: Duraludon
+  -damage|p1a: Duraludon|149/249
+  move|p1a: Duraludon|Draco Meteor|p2a: Iron Bundle|[miss]
+  -miss|p1a: Duraludon|p2a: Iron Bundle
+-- turn 24
+  WE CHOSE: attack dracometeor - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Bundle|Ice Beam|p1a: Duraludon
+  -damage|p1a: Duraludon|52/249
+  move|p1a: Duraludon|Draco Meteor|p2a: Iron Bundle
+  -damage|p2a: Iron Bundle|7/100
+  -unboost|p1a: Duraludon|spa|2
+-- turn 25
+  WE CHOSE: attack bodypress - our hp 0.21, theirs 0.07, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to whimsicott - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Bundle|Freeze-Dry|p1a: Duraludon
+  -damage|p1a: Duraludon|0 fnt
+  faint|p1a: Duraludon
+  switch|p1a: Whimsicott|Whimsicott, L84, M|238/238
+-- turn 26
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Bundle|Freeze-Dry|p1a: Whimsicott
+  -supereffective|p1a: Whimsicott
+  -damage|p1a: Whimsicott|56/238
+  move|p1a: Whimsicott|Moonblast|p2a: Iron Bundle
+  -damage|p2a: Iron Bundle|0 fnt
+  faint|p2a: Iron Bundle
+  -end|p2a: Iron Bundle|Quark Drive|[silent]
+  -heal|p1a: Whimsicott|70/238|[from] item: Leftovers
+  switch|p2a: Clodsire|Clodsire, L81, M|100/100
+-- turn 27
+  WE CHOSE: switch to spectrier - our hp 0.29, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Spectrier|Spectrier, L75|274/274
+  move|p2a: Clodsire|Earthquake|p1a: Spectrier
+  -damage|p1a: Spectrier|165/274
+  -heal|p1a: Spectrier|182/274|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack shadowball - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Spectrier|Shadow Ball|p2a: Clodsire
+  -damage|p2a: Clodsire|72/100
+  move|p2a: Clodsire|Earthquake|p1a: Spectrier
+  -damage|p1a: Spectrier|56/274
+  -heal|p1a: Spectrier|73/274|[from] item: Leftovers
+  -heal|p2a: Clodsire|78/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack shadowball - our hp 0.27, theirs 0.78, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ribombee - our hp 0.00, theirs 0.60, predicted move (revealed) hits us x1
+  move|p1a: Spectrier|Shadow Ball|p2a: Clodsire
+  -damage|p2a: Clodsire|54/100
+  move|p2a: Clodsire|Earthquake|p1a: Spectrier
+  -damage|p1a: Spectrier|0 fnt
+  faint|p1a: Spectrier
+  -heal|p2a: Clodsire|60/100|[from] item: Leftovers
+  switch|p1a: Ribombee|Ribombee, L83, F|235/235
+-- turn 30
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 0.60, predicted move (revealed) hits us x0.5
+  move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+  -boost|p1a: Ribombee|spa|1
+  -boost|p1a: Ribombee|spd|1
+  -boost|p1a: Ribombee|spe|1
+  move|p2a: Clodsire|Earthquake|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|182/235
+  -heal|p2a: Clodsire|66/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: setup quiverdance - our hp 0.77, theirs 0.66, predicted move (revealed) hits us x0.5
+  move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+  -boost|p1a: Ribombee|spa|1
+  -boost|p1a: Ribombee|spd|1
+  -boost|p1a: Ribombee|spe|1
+  move|p2a: Clodsire|Earthquake|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|131/235
+  -heal|p2a: Clodsire|72/100|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack terablast - our hp 0.56, theirs 0.72, predicted move (revealed) hits us x0.5
+  move|p1a: Ribombee|Tera Blast|p2a: Clodsire
+  -damage|p2a: Clodsire|42/100
+  move|p2a: Clodsire|Earthquake|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|78/235
+  -heal|p2a: Clodsire|49/100|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack terablast - our hp 0.33, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p1a: Ribombee|Tera Blast|p2a: Clodsire
+  -damage|p2a: Clodsire|21/100
+  move|p2a: Clodsire|Earthquake|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|25/235
+  -heal|p2a: Clodsire|27/100|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack terablast - our hp 0.11, theirs 0.27, predicted move (revealed) hits us x0.5
+  move|p1a: Ribombee|Tera Blast|p2a: Clodsire
+  -damage|p2a: Clodsire|0 fnt
+  faint|p2a: Clodsire
+  switch|p2a: Calyrex|Calyrex-Shadow, L64|100/100
+  -ability|p2a: Calyrex|As One
+  -ability|p2a: Calyrex|Unnerve
+-- turn 35
+  WE CHOSE: attack moonblast - our hp 0.11, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Ribombee|Moonblast|p2a: Calyrex
+  -damage|p2a: Calyrex|0 fnt
+  faint|p2a: Calyrex
+  switch|p2a: Kyurem|Kyurem-Black, L71|100/100
+  -ability|p2a: Kyurem|Teravolt
+-- turn 36
+  WE CHOSE: attack+tera moonblast - our hp 0.11, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Ribombee|Ground
+  move|p1a: Ribombee|Moonblast|p2a: Kyurem
+  -supereffective|p2a: Kyurem
+  -damage|p2a: Kyurem|0 fnt
+  faint|p2a: Kyurem
+  switch|p2a: Stantler|Stantler, L91, M|100/100
+  -ability|p2a: Stantler|Intimidate|boost
+  -unboost|p1a: Ribombee|atk|1
+-- turn 37
+  WE CHOSE: attack moonblast - our hp 0.11, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to whimsicott - our hp 0.00, theirs 0.47, predicted move (revealed) hits us x1
+  move|p1a: Ribombee|Moonblast|p2a: Stantler
+  -damage|p2a: Stantler|47/100
+  move|p2a: Stantler|Earthquake|p1a: Ribombee
+  -damage|p1a: Ribombee|0 fnt
+  faint|p1a: Ribombee
+  switch|p1a: Whimsicott|Whimsicott, L84, M|70/238
+-- turn 38
+  WE CHOSE: attack moonblast - our hp 0.29, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Moonblast|p2a: Stantler
+  -damage|p2a: Stantler|24/100
+  move|p2a: Stantler|Earthquake|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|25/238
+  -heal|p1a: Whimsicott|39/238|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack moonblast - our hp 0.16, theirs 0.24, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to scovillain - our hp 0.00, theirs 0.02, predicted move (revealed) hits us x0.5
+  move|p1a: Whimsicott|Moonblast|p2a: Stantler
+  -damage|p2a: Stantler|2/100
+  move|p2a: Stantler|Earthquake|p1a: Whimsicott
+  -resisted|p1a: Whimsicott
+  -damage|p1a: Whimsicott|0 fnt
+  faint|p1a: Whimsicott
+  switch|p1a: Scovillain|Scovillain, L91, M|266/266
+-- turn 40
+  WE CHOSE: attack flamethrower - our hp 1.00, theirs 0.02, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Scovillain
+  -damage|p1a: Scovillain|164/266
+  move|p1a: Scovillain|Flamethrower|p2a: Stantler
+  -damage|p2a: Stantler|0 fnt
+  faint|p2a: Stantler
+  -heal|p1a: Scovillain|180/266|[from] item: Leftovers
+  switch|p2a: Flapple|Flapple, L88, M|100/100
+-- turn 41
+  WE CHOSE: attack flamethrower - our hp 0.68, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Scovillain|Flamethrower|p2a: Flapple
+  -damage|p2a: Flapple|38/100
+  move|p2a: Flapple|Outrage|p1a: Scovillain
+  -damage|p1a: Scovillain|0 fnt
+  faint|p1a: Scovillain

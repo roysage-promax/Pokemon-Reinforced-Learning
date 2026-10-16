@@ -1,0 +1,204 @@
+battle 1190 (battle-gen9randombattle-1018383): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  piloswine (fainted; item eviolite, ability thickfat, tera poison; moves roar/iceshard/earthquake/iciclecrash)
+  ironbundle (fainted; item choicespecs, ability quarkdrive; moves icebeam/hydropump/flipturn/freezedry)
+  coalossal (fainted; item heavydutyboots, ability flamebody; moves flamethrower/stoneedge/rapidspin/willowisp)
+  jirachi (fainted; item leftovers, ability serenegrace; moves bodyslam/ironhead/protect/wish)
+  chandelure (fainted; item heavydutyboots, ability flashfire; moves calmmind/shadowball/energyball/fireblast)
+  mew (fainted; item lifeorb, ability synchronize; moves swordsdance/psychicfangs/knockoff/closecombat)
+theirs (as seen):
+  tinglu (fainted; item leftovers, ability vesselofruin; moves earthquake)
+  bastiodon (fainted; item unknown_item, ability ?; moves -)
+  moltresgalar (fainted; item ?, ability berserk; moves hurricane)
+  glalie (fainted; item unknown_item, ability ?; moves earthquake)
+  electrode (fainted; item lifeorb, ability ?; moves thunderbolt)
+  pachirisu (2%; item unknown_item, ability ?; moves thunderbolt)
+
+-- turn 0
+  switch|p1a: Piloswine|Piloswine, L85, F|309/309
+  switch|p2a: Ting-Lu|Ting-Lu, L78|100/100
+  -ability|p2a: Ting-Lu|Vessel of Ruin
+-- turn 1
+  WE CHOSE: attack iciclecrash - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Piloswine|Icicle Crash|p2a: Ting-Lu
+  -supereffective|p2a: Ting-Lu
+  -damage|p2a: Ting-Lu|59/100
+  move|p2a: Ting-Lu|Earthquake|p1a: Piloswine
+  -damage|p1a: Piloswine|242/309
+  -heal|p2a: Ting-Lu|66/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack iciclecrash - our hp 0.78, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Piloswine|Icicle Crash|p2a: Ting-Lu
+  -supereffective|p2a: Ting-Lu
+  -damage|p2a: Ting-Lu|22/100
+  move|p2a: Ting-Lu|Earthquake|p1a: Piloswine
+  -damage|p1a: Piloswine|163/309
+  -heal|p2a: Ting-Lu|28/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack iciclecrash - our hp 0.53, theirs 0.28, predicted move (revealed) hits us x1
+  move|p1a: Piloswine|Icicle Crash|p2a: Ting-Lu
+  -supereffective|p2a: Ting-Lu
+  -damage|p2a: Ting-Lu|0 fnt
+  faint|p2a: Ting-Lu
+  switch|p2a: Bastiodon|Bastiodon, L89, M|100/100
+-- turn 4
+  WE CHOSE: attack+tera earthquake (hand policy: attack earthquake) - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Piloswine|Poison
+  move|p1a: Piloswine|Earthquake|p2a: Bastiodon
+  -supereffective|p2a: Bastiodon
+  -damage|p2a: Bastiodon|0 fnt
+  faint|p2a: Bastiodon
+  switch|p2a: Moltres|Moltres-Galar, L79|100/100
+-- turn 5
+  WE CHOSE: switch to coalossal (hand policy: attack iciclecrash) - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Coalossal|Coalossal, L89, M|341/341
+  move|p2a: Moltres|Hurricane|p1a: Coalossal
+  -resisted|p1a: Coalossal
+  -damage|p1a: Coalossal|295/341
+-- turn 6
+  WE CHOSE: attack stoneedge - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Moltres|Hurricane|p1a: Coalossal|[miss]
+  -miss|p2a: Moltres|p1a: Coalossal
+  move|p1a: Coalossal|Stone Edge|p2a: Moltres
+  -supereffective|p2a: Moltres
+  -damage|p2a: Moltres|27/100
+  -enditem|p2a: Moltres|Weakness Policy
+  -boost|p2a: Moltres|atk|2|[from] item: Weakness Policy
+  -boost|p2a: Moltres|spa|2|[from] item: Weakness Policy
+  -ability|p2a: Moltres|Berserk|boost
+  -boost|p2a: Moltres|spa|1
+-- turn 7
+  WE CHOSE: attack stoneedge - our hp 0.87, theirs 0.27, predicted move (revealed) hits us x0.5
+  move|p2a: Moltres|Hurricane|p1a: Coalossal
+  -resisted|p1a: Coalossal
+  -damage|p1a: Coalossal|176/341
+  -start|p1a: Coalossal|confusion
+  -activate|p1a: Coalossal|confusion
+  move|p1a: Coalossal|Stone Edge|p2a: Moltres
+  -supereffective|p2a: Moltres
+  -damage|p2a: Moltres|0 fnt
+  faint|p2a: Moltres
+  switch|p2a: Glalie|Glalie, L96, M|100/100
+-- turn 8
+  WE CHOSE: switch to mew (hand policy: attack flamethrower) - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Mew|Mew, L82|298/298
+  move|p2a: Glalie|Earthquake|p1a: Mew
+  -damage|p1a: Mew|228/298
+-- turn 9
+  WE CHOSE: attack closecombat - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mew|Close Combat|p2a: Glalie
+  -supereffective|p2a: Glalie
+  -crit|p2a: Glalie
+  -damage|p2a: Glalie|2/100
+  -unboost|p1a: Mew|def|1
+  -unboost|p1a: Mew|spd|1
+  -damage|p1a: Mew|199/298|[from] item: Life Orb
+  move|p2a: Glalie|Earthquake|p1a: Mew
+  -damage|p1a: Mew|87/298
+-- turn 10
+  WE CHOSE: attack closecombat - our hp 0.29, theirs 0.02, predicted move (revealed) hits us x1
+  move|p1a: Mew|Close Combat|p2a: Glalie
+  -supereffective|p2a: Glalie
+  -damage|p2a: Glalie|0 fnt
+  -unboost|p1a: Mew|def|1
+  -unboost|p1a: Mew|spd|1
+  faint|p2a: Glalie
+  -damage|p1a: Mew|58/298|[from] item: Life Orb
+  switch|p2a: Electrode|Electrode, L93|100/100
+-- turn 11
+  WE CHOSE: switch to piloswine (hand policy: switch to chandelure) - our hp 0.19, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to chandelure - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  switch|p1a: Piloswine|Piloswine, L85, F, tera:Poison|163/309
+  move|p2a: Electrode|Thunderbolt|p1a: Piloswine
+  -crit|p1a: Piloswine
+  -damage|p1a: Piloswine|0 fnt
+  faint|p1a: Piloswine
+  -damage|p2a: Electrode|91/100|[from] item: Life Orb
+  switch|p1a: Chandelure|Chandelure, L83, F|235/235
+-- turn 12
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Chandelure
+  -damage|p1a: Chandelure|95/235
+  -damage|p2a: Electrode|81/100|[from] item: Life Orb
+  move|p1a: Chandelure|Fire Blast|p2a: Electrode|[miss]
+  -miss|p1a: Chandelure|p2a: Electrode
+-- turn 13
+  WE CHOSE: attack shadowball (hand policy: attack fireblast) - our hp 0.40, theirs 0.81, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to coalossal - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Chandelure
+  -damage|p1a: Chandelure|0 fnt
+  faint|p1a: Chandelure
+  -damage|p2a: Electrode|71/100|[from] item: Life Orb
+  switch|p1a: Coalossal|Coalossal, L89, M|176/341
+-- turn 14
+  WE CHOSE: attack flamethrower - our hp 0.52, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Coalossal
+  -damage|p1a: Coalossal|54/341
+  -damage|p2a: Electrode|61/100|[from] item: Life Orb
+  move|p1a: Coalossal|Flamethrower|p2a: Electrode
+  -damage|p2a: Electrode|28/100
+-- turn 15
+  WE CHOSE: attack flamethrower - our hp 0.16, theirs 0.28, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mew - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Coalossal
+  -damage|p1a: Coalossal|0 fnt
+  faint|p1a: Coalossal
+  -damage|p2a: Electrode|18/100|[from] item: Life Orb
+  switch|p1a: Mew|Mew, L82|58/298
+-- turn 16
+  WE CHOSE: attack psychicfangs - our hp 0.19, theirs 0.18, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to jirachi - our hp 0.00, theirs 0.08, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Mew
+  -damage|p1a: Mew|0 fnt
+  faint|p1a: Mew
+  -damage|p2a: Electrode|8/100|[from] item: Life Orb
+  switch|p1a: Jirachi|Jirachi, L80|291/291
+-- turn 17
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Jirachi
+  -damage|p1a: Jirachi|157/291
+  -damage|p2a: Electrode|0 fnt|[from] item: Life Orb
+  faint|p2a: Electrode
+  move|p1a: Jirachi|Body Slam|p2: Electrode|[notarget]
+  -fail|p1a: Jirachi
+  -heal|p1a: Jirachi|175/291|[from] item: Leftovers
+  switch|p2a: Pachirisu|Pachirisu, L96, M|100/100
+-- turn 18
+  WE CHOSE: attack bodyslam - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Pachirisu|Thunderbolt|p1a: Jirachi
+  -damage|p1a: Jirachi|106/291
+  move|p1a: Jirachi|Body Slam|p2a: Pachirisu
+  -damage|p2a: Pachirisu|78/100
+  -heal|p1a: Jirachi|124/291|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack bodyslam - our hp 0.43, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Pachirisu|Thunderbolt|p1a: Jirachi
+  -damage|p1a: Jirachi|52/291
+  move|p1a: Jirachi|Body Slam|p2a: Pachirisu
+  -damage|p2a: Pachirisu|56/100
+  -heal|p1a: Jirachi|70/291|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack bodyslam - our hp 0.24, theirs 0.56, predicted move (revealed) hits us x1
+  move|p2a: Pachirisu|Thunderbolt|p1a: Jirachi
+  -damage|p1a: Jirachi|3/291
+  move|p1a: Jirachi|Body Slam|p2a: Pachirisu
+  -damage|p2a: Pachirisu|34/100
+  -heal|p1a: Jirachi|21/291|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack bodyslam - our hp 0.07, theirs 0.34, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironbundle - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p2a: Pachirisu|Thunderbolt|p1a: Jirachi
+  -damage|p1a: Jirachi|0 fnt
+  faint|p1a: Jirachi
+  switch|p1a: Iron Bundle|Iron Bundle, L78|215/215
+-- turn 22
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x2
+  move|p1a: Iron Bundle|Ice Beam|p2a: Pachirisu
+  -damage|p2a: Pachirisu|2/100
+  move|p2a: Pachirisu|Thunderbolt|p1a: Iron Bundle
+  -supereffective|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|0 fnt
+  faint|p1a: Iron Bundle
+  -end|p1a: Iron Bundle|Quark Drive|[silent]
+  deinit

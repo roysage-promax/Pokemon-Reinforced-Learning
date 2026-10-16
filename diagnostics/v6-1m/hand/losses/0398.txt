@@ -1,0 +1,215 @@
+battle 398 (battle-gen9randombattle-1009962): lost in 20 turns, 0 of theirs left; we are p1
+
+ours:
+  koraidon (fainted; item loadeddice, ability orichalcumpulse; moves scaleshot/collisioncourse/flareblitz/swordsdance)
+  hariyama (fainted; item flameorb, ability guts; moves facade/closecombat/knockoff/bulletpunch)
+  reuniclus (fainted; item lifeorb, ability magicguard; moves psychic/recover/calmmind/focusblast)
+  shayminsky (fainted; item choicespecs, ability serenegrace; moves earthpower/airslash/dazzlinggleam/seedflare)
+  kyuremblack (fainted; item loadeddice, ability teravolt; moves dragondance/terablast/scaleshot/iciclespear)
+  overqwil (fainted; item loadeddice, ability intimidate, tera dragon; moves gunkshot/swordsdance/scaleshot/crunch)
+theirs (as seen):
+  glalie (fainted; item unknown_item, ability ?; moves earthquake)
+  mabosstiff (fainted; item unknown_item, ability ?; moves wildcharge)
+  dragonite (fainted; item unknown_item, ability ?; moves outrage)
+  feraligatr (fainted; item unknown_item, ability ?; moves liquidation)
+  skeledirge (fainted; item unknown_item, ability ?; moves torchsong)
+  ironvaliant (fainted; item lifeorb, ability quarkdrive; moves closecombat)
+
+-- turn 0
+  switch|p1a: Koraidon|Koraidon, L64|235/235
+  switch|p2a: Glalie|Glalie, L96, M|100/100
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+  -activate|p1a: Koraidon|Orichalcum Pulse|[source]
+-- turn 1
+  WE CHOSE: switch to shayminsky - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Shaymin|Shaymin-Sky, L73|266/266
+  move|p2a: Glalie|Earthquake|p1a: Shaymin
+  -immune|p1a: Shaymin
+  -weather|SunnyDay|[upkeep]
+-- turn 2
+  WE CHOSE: attack seedflare - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Shaymin|Seed Flare|p2a: Glalie
+  -damage|p2a: Glalie|51/100
+  -unboost|p2a: Glalie|spd|2
+  move|p2a: Glalie|Earthquake|p1a: Shaymin
+  -immune|p1a: Shaymin
+  -weather|SunnyDay|[upkeep]
+-- turn 3
+  WE CHOSE: attack seedflare - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x0
+  move|p1a: Shaymin|Seed Flare|p2a: Glalie
+  -damage|p2a: Glalie|0 fnt
+  faint|p2a: Glalie
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Mabosstiff|Mabosstiff, L86, F|100/100
+-- turn 4
+  WE CHOSE: attack seedflare - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Mabosstiff|Wild Charge|p1a: Shaymin
+  -damage|p1a: Shaymin|172/266
+  -damage|p2a: Mabosstiff|92/100|[from] Recoil
+  move|p1a: Shaymin|Seed Flare|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|22/100
+  -unboost|p2a: Mabosstiff|spd|2
+  -weather|SunnyDay|[upkeep]
+-- turn 5
+  WE CHOSE: attack seedflare - our hp 0.65, theirs 0.22, predicted move (revealed) hits us x1
+  move|p2a: Mabosstiff|Wild Charge|p1a: Shaymin
+  -damage|p1a: Shaymin|69/266
+  -damage|p2a: Mabosstiff|13/100|[from] Recoil
+  move|p1a: Shaymin|Seed Flare|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|0 fnt
+  faint|p2a: Mabosstiff
+  -weather|none
+  switch|p2a: Dragonite|Dragonite, L74, F|100/100
+-- turn 6
+  WE CHOSE: attack seedflare - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to overqwil - our hp 0.00, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Shaymin|Seed Flare|p2a: Dragonite
+  -resisted|p2a: Dragonite
+  -damage|p2a: Dragonite|92/100
+  -unboost|p2a: Dragonite|spd|2
+  move|p2a: Dragonite|Outrage|p1a: Shaymin
+  -damage|p1a: Shaymin|0 fnt
+  faint|p1a: Shaymin
+  switch|p1a: Overqwil|Overqwil, L82, F|274/274
+  -ability|p1a: Overqwil|Intimidate|boost
+  -unboost|p2a: Dragonite|atk|1
+-- turn 7
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Overqwil|Gunk Shot|p2a: Dragonite
+  -damage|p2a: Dragonite|36/100
+  -status|p2a: Dragonite|psn
+  move|p2a: Dragonite|Outrage|p1a: Overqwil|[from] lockedmove
+  -damage|p1a: Overqwil|193/274
+  -damage|p2a: Dragonite|23/100 psn|[from] psn
+-- turn 8
+  WE CHOSE: attack gunkshot - our hp 0.70, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Overqwil|Gunk Shot|p2a: Dragonite
+  -damage|p2a: Dragonite|0 fnt
+  faint|p2a: Dragonite
+  switch|p2a: Feraligatr|Feraligatr, L79, M|100/100
+-- turn 9
+  WE CHOSE: attack+tera gunkshot - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Overqwil|Dragon
+  move|p1a: Overqwil|Gunk Shot|p2a: Feraligatr|[miss]
+  -miss|p1a: Overqwil|p2a: Feraligatr
+  move|p2a: Feraligatr|Liquidation|p1a: Overqwil
+  -resisted|p1a: Overqwil
+  -crit|p1a: Overqwil
+  -damage|p1a: Overqwil|94/274
+-- turn 10
+  WE CHOSE: attack gunkshot - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Overqwil|Gunk Shot|p2a: Feraligatr
+  -damage|p2a: Feraligatr|55/100
+  move|p2a: Feraligatr|Liquidation|p1a: Overqwil
+  -resisted|p1a: Overqwil
+  -damage|p1a: Overqwil|30/274
+-- turn 11
+  WE CHOSE: attack gunkshot - our hp 0.11, theirs 0.55, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to koraidon - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p1a: Overqwil|Gunk Shot|p2a: Feraligatr
+  -damage|p2a: Feraligatr|7/100
+  move|p2a: Feraligatr|Liquidation|p1a: Overqwil
+  -resisted|p1a: Overqwil
+  -damage|p1a: Overqwil|0 fnt
+  faint|p1a: Overqwil
+  switch|p1a: Koraidon|Koraidon, L64|235/235
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+  -activate|p1a: Koraidon|Orichalcum Pulse|[source]
+-- turn 12
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p1a: Koraidon|Swords Dance|p1a: Koraidon
+  -boost|p1a: Koraidon|atk|2
+  move|p2a: Feraligatr|Liquidation|p1a: Koraidon
+  -resisted|p1a: Koraidon
+  -damage|p1a: Koraidon|197/235
+  -weather|SunnyDay|[upkeep]
+-- turn 13
+  WE CHOSE: attack collisioncourse - our hp 0.84, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p1a: Koraidon|Collision Course|p2a: Feraligatr
+  -damage|p2a: Feraligatr|0 fnt
+  faint|p2a: Feraligatr
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Skeledirge|Skeledirge, L79, F|100/100
+-- turn 14
+  WE CHOSE: attack flareblitz - our hp 0.84, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Koraidon|Flare Blitz|p2a: Skeledirge
+  -resisted|p2a: Skeledirge
+  -damage|p2a: Skeledirge|79/100
+  -damage|p1a: Koraidon|176/235|[from] Recoil
+  move|p2a: Skeledirge|Torch Song|p1a: Koraidon
+  -resisted|p1a: Koraidon
+  -damage|p1a: Koraidon|97/235
+  -boost|p2a: Skeledirge|spa|1
+  -weather|SunnyDay|[upkeep]
+-- turn 15
+  WE CHOSE: attack flareblitz - our hp 0.41, theirs 0.79, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to reuniclus - our hp 0.00, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p1a: Koraidon|Flare Blitz|p2a: Skeledirge
+  -resisted|p2a: Skeledirge
+  -damage|p2a: Skeledirge|56/100
+  -damage|p1a: Koraidon|75/235|[from] Recoil
+  move|p2a: Skeledirge|Torch Song|p1a: Koraidon
+  -resisted|p1a: Koraidon
+  -crit|p1a: Koraidon
+  -damage|p1a: Koraidon|0 fnt
+  -boost|p2a: Skeledirge|spa|1
+  faint|p1a: Koraidon
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Reuniclus|Reuniclus, L88, M|337/337
+-- turn 16
+  WE CHOSE: attack psychic - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x1
+  move|p2a: Skeledirge|Torch Song|p1a: Reuniclus
+  -damage|p1a: Reuniclus|85/337
+  -boost|p2a: Skeledirge|spa|1
+  move|p1a: Reuniclus|Psychic|p2a: Skeledirge
+  -damage|p2a: Skeledirge|0 fnt
+  faint|p2a: Skeledirge
+  -weather|none
+  switch|p2a: Iron Valiant|Iron Valiant, L78|100/100
+-- turn 17
+  WE CHOSE: heal recover - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to hariyama - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Valiant|Close Combat|p1a: Reuniclus
+  -resisted|p1a: Reuniclus
+  -damage|p1a: Reuniclus|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Reuniclus
+  -damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+  switch|p1a: Hariyama|Hariyama, L87, F|392/392
+-- turn 18
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Iron Valiant|Close Combat|p1a: Hariyama
+  -damage|p1a: Hariyama|172/392
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|81/100|[from] item: Life Orb
+  move|p1a: Hariyama|Close Combat|p2a: Iron Valiant
+  -resisted|p2a: Iron Valiant
+  -damage|p2a: Iron Valiant|12/100
+  -unboost|p1a: Hariyama|def|1
+  -unboost|p1a: Hariyama|spd|1
+  -status|p1a: Hariyama|brn|[from] item: Flame Orb
+-- turn 19
+  WE CHOSE: attack closecombat - our hp 0.44, theirs 0.12, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kyuremblack - our hp 0.00, theirs 0.02, predicted move (revealed) hits us x1
+  move|p2a: Iron Valiant|Close Combat|p1a: Hariyama
+  -damage|p1a: Hariyama|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Hariyama
+  -damage|p2a: Iron Valiant|2/100|[from] item: Life Orb
+  switch|p1a: Kyurem|Kyurem-Black, L71|295/295
+  -ability|p1a: Kyurem|Teravolt
+-- turn 20
+  WE CHOSE: attack terablast - our hp 1.00, theirs 0.02, predicted move (revealed) hits us x2
+  move|p2a: Iron Valiant|Close Combat|p1a: Kyurem
+  -supereffective|p1a: Kyurem
+  -damage|p1a: Kyurem|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Kyurem
+  -damage|p2a: Iron Valiant|0 fnt|[from] item: Life Orb
+  faint|p2a: Iron Valiant
+  -end|p2a: Iron Valiant|Quark Drive|[silent]
+  deinit

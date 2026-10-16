@@ -1,0 +1,256 @@
+battle 378 (battle-gen9randombattle-1010159): lost in 30 turns, 4 of theirs left; we are p1
+
+ours:
+  kricketune (fainted; item focussash, ability technician; moves taunt/knockoff/pounce/stickyweb)
+  charizard (fainted; item heavydutyboots, ability blaze; moves flareblitz/outrage/dragondance/earthquake)
+  ironhands (fainted; item leftovers, ability quarkdrive; moves drainpunch/swordsdance/icepunch/thunderpunch)
+  zarudedada (fainted; item leftovers, ability leafguard; moves knockoff/synthesis/powerwhip/swordsdance)
+  greattusk (fainted; item leftovers, ability protosynthesis, tera ground; moves rapidspin/stealthrock/closecombat/headlongrush)
+  noctowl (fainted; item heavydutyboots, ability tintedlens; moves roost/hurricane/calmmind/hypervoice)
+theirs (as seen):
+  stonjourner (fainted; item ?, ability powerspot; moves earthquake/stoneedge)
+  bellossom (fainted; item leftovers, ability ?; moves terablast)
+  seviper (35%; item leftovers, ability ?; moves gunkshot)
+
+-- turn 0
+  switch|p1a: Kricketune|Kricketune, L99, M|311/311
+  switch|p2a: Stonjourner|Stonjourner, L91, F|100/100
+-- turn 1
+  WE CHOSE: switch to charizard (hand policy: attack pounce) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Charizard|Charizard, L85, F|271/271
+  move|p2a: Stonjourner|Earthquake|p1a: Charizard
+  -immune|p1a: Charizard
+-- turn 2
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Charizard|Dragon Dance|p1a: Charizard
+  -boost|p1a: Charizard|atk|1
+  -boost|p1a: Charizard|spe|1
+  move|p2a: Stonjourner|Earthquake|p1a: Charizard
+  -immune|p1a: Charizard
+-- turn 3
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Charizard|Dragon Dance|p1a: Charizard
+  -boost|p1a: Charizard|atk|1
+  -boost|p1a: Charizard|spe|1
+  move|p2a: Stonjourner|Earthquake|p1a: Charizard
+  -immune|p1a: Charizard
+-- turn 4
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Charizard|Dragon Dance|p1a: Charizard
+  -boost|p1a: Charizard|atk|1
+  -boost|p1a: Charizard|spe|1
+  move|p2a: Stonjourner|Earthquake|p1a: Charizard
+  -immune|p1a: Charizard
+-- turn 5
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Charizard|Dragon Dance|p1a: Charizard
+  -boost|p1a: Charizard|atk|1
+  -boost|p1a: Charizard|spe|1
+  move|p2a: Stonjourner|Earthquake|p1a: Charizard
+  -immune|p1a: Charizard
+-- turn 6
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Charizard|Dragon Dance|p1a: Charizard
+  -boost|p1a: Charizard|atk|1
+  -boost|p1a: Charizard|spe|1
+  move|p2a: Stonjourner|Earthquake|p1a: Charizard
+  -immune|p1a: Charizard
+-- turn 7
+  WE CHOSE: switch to noctowl (hand policy: setup dragondance) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noctowl|Noctowl, L95, M|344/344
+  move|p2a: Stonjourner|Earthquake|p1a: Noctowl
+  -immune|p1a: Noctowl
+-- turn 8
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Noctowl|Calm Mind|p1a: Noctowl
+  -boost|p1a: Noctowl|spa|1
+  -boost|p1a: Noctowl|spd|1
+  move|p2a: Stonjourner|Earthquake|p1a: Noctowl
+  -immune|p1a: Noctowl
+-- turn 9
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Noctowl|Calm Mind|p1a: Noctowl
+  -boost|p1a: Noctowl|spa|1
+  -boost|p1a: Noctowl|spd|1
+  move|p2a: Stonjourner|Earthquake|p1a: Noctowl
+  -immune|p1a: Noctowl
+-- turn 10
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Noctowl|Calm Mind|p1a: Noctowl
+  -boost|p1a: Noctowl|spa|1
+  -boost|p1a: Noctowl|spd|1
+  move|p2a: Stonjourner|Earthquake|p1a: Noctowl
+  -immune|p1a: Noctowl
+-- turn 11
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Noctowl|Calm Mind|p1a: Noctowl
+  -boost|p1a: Noctowl|spa|1
+  -boost|p1a: Noctowl|spd|1
+  move|p2a: Stonjourner|Earthquake|p1a: Noctowl
+  -immune|p1a: Noctowl
+-- turn 12
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Noctowl|Calm Mind|p1a: Noctowl
+  -boost|p1a: Noctowl|spa|1
+  -boost|p1a: Noctowl|spd|1
+  move|p2a: Stonjourner|Earthquake|p1a: Noctowl
+  -immune|p1a: Noctowl
+-- turn 13
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Noctowl|Calm Mind|p1a: Noctowl
+  -boost|p1a: Noctowl|spa|1
+  -boost|p1a: Noctowl|spd|1
+  move|p2a: Stonjourner|Earthquake|p1a: Noctowl
+  -immune|p1a: Noctowl
+-- turn 14
+  WE CHOSE: switch to charizard (hand policy: attack hypervoice) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Charizard|Charizard, L85, F|271/271
+  move|p2a: Stonjourner|Earthquake|p1a: Charizard
+  -immune|p1a: Charizard
+-- turn 15
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Charizard|Dragon Dance|p1a: Charizard
+  -boost|p1a: Charizard|atk|1
+  -boost|p1a: Charizard|spe|1
+  move|p2a: Stonjourner|Earthquake|p1a: Charizard
+  -immune|p1a: Charizard
+-- turn 16
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Charizard|Dragon Dance|p1a: Charizard
+  -boost|p1a: Charizard|atk|1
+  -boost|p1a: Charizard|spe|1
+  move|p2a: Stonjourner|Earthquake|p1a: Charizard
+  -immune|p1a: Charizard
+-- turn 17
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to noctowl (hand policy: forced: switch to zarudedada) - our hp 0.00, theirs 0.90, predicted move (revealed) hits us x0
+  move|p1a: Charizard|Dragon Dance|p1a: Charizard
+  -boost|p1a: Charizard|atk|1
+  -boost|p1a: Charizard|spe|1
+  move|p2a: Stonjourner|Stone Edge|p1a: Charizard
+  -supereffective|p1a: Charizard
+  -damage|p1a: Charizard|0 fnt
+  faint|p1a: Charizard
+  -damage|p2a: Stonjourner|90/100|[from] item: Life Orb
+  switch|p1a: Noctowl|Noctowl, L95, M|344/344
+-- turn 18
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.90, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to zarudedada - our hp 0.00, theirs 0.80, predicted move (revealed) hits us x0
+  move|p1a: Noctowl|Calm Mind|p1a: Noctowl
+  -boost|p1a: Noctowl|spa|1
+  -boost|p1a: Noctowl|spd|1
+  move|p2a: Stonjourner|Stone Edge|p1a: Noctowl
+  -supereffective|p1a: Noctowl
+  -damage|p1a: Noctowl|0 fnt
+  faint|p1a: Noctowl
+  -damage|p2a: Stonjourner|80/100|[from] item: Life Orb
+  switch|p1a: Zarude|Zarude-Dada, L77|288/288
+-- turn 19
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.80, predicted move (revealed) hits us x0.5
+  move|p1a: Zarude|Swords Dance|p1a: Zarude
+  -boost|p1a: Zarude|atk|2
+  move|p2a: Stonjourner|Stone Edge|p1a: Zarude
+  -damage|p1a: Zarude|115/288
+  -damage|p2a: Stonjourner|70/100|[from] item: Life Orb
+  -heal|p1a: Zarude|133/288|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack knockoff (hand policy: heal synthesis) - our hp 0.46, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p1a: Zarude|Knock Off|p2a: Stonjourner
+  -damage|p2a: Stonjourner|29/100
+  -enditem|p2a: Stonjourner|Life Orb|[from] move: Knock Off|[of] p1a: Zarude
+  move|p2a: Stonjourner|Stone Edge|p1a: Zarude
+  -damage|p1a: Zarude|1/288
+  -heal|p1a: Zarude|19/288|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack knockoff (hand policy: heal synthesis) - our hp 0.07, theirs 0.29, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to greattusk - our hp 0.00, theirs 0.02, predicted move (revealed) hits us x0.5
+  move|p1a: Zarude|Knock Off|p2a: Stonjourner
+  -damage|p2a: Stonjourner|2/100
+  move|p2a: Stonjourner|Stone Edge|p1a: Zarude
+  -damage|p1a: Zarude|0 fnt
+  faint|p1a: Zarude
+  switch|p1a: Great Tusk|Great Tusk, L77|304/304
+-- turn 22
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.02, predicted move (revealed) hits us x1
+  move|p1a: Great Tusk|Close Combat|p2a: Stonjourner
+  -supereffective|p2a: Stonjourner
+  -damage|p2a: Stonjourner|0 fnt
+  -unboost|p1a: Great Tusk|def|1
+  -unboost|p1a: Great Tusk|spd|1
+  faint|p2a: Stonjourner
+  switch|p2a: Bellossom|Bellossom, L84, M|100/100
+-- turn 23
+  WE CHOSE: attack+tera closecombat (hand policy: attack closecombat) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Great Tusk|Ground
+  move|p1a: Great Tusk|Close Combat|p2a: Bellossom
+  -damage|p2a: Bellossom|56/100
+  -unboost|p1a: Great Tusk|def|1
+  -unboost|p1a: Great Tusk|spd|1
+  move|p2a: Bellossom|Tera Blast|p1a: Great Tusk
+  -damage|p1a: Great Tusk|135/304
+  -heal|p1a: Great Tusk|154/304|[from] item: Leftovers
+  -heal|p2a: Bellossom|62/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack closecombat - our hp 0.51, theirs 0.62, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kricketune - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Great Tusk|Close Combat|p2a: Bellossom
+  -damage|p2a: Bellossom|17/100
+  -unboost|p1a: Great Tusk|def|1
+  -unboost|p1a: Great Tusk|spd|1
+  move|p2a: Bellossom|Tera Blast|p1a: Great Tusk
+  -damage|p1a: Great Tusk|0 fnt
+  faint|p1a: Great Tusk
+  -end|p1a: Great Tusk|Protosynthesis|[silent]
+  -heal|p2a: Bellossom|23/100|[from] item: Leftovers
+  switch|p1a: Kricketune|Kricketune, L99, M|311/311
+-- turn 25
+  WE CHOSE: attack pounce - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Kricketune|Pounce|p2a: Bellossom
+  -supereffective|p2a: Bellossom
+  -crit|p2a: Bellossom
+  -damage|p2a: Bellossom|0 fnt
+  faint|p2a: Bellossom
+  switch|p2a: Seviper|Seviper, L93, M|100/100
+-- turn 26
+  WE CHOSE: attack stickyweb (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Kricketune|Sticky Web|p2a: Seviper
+  -sidestart|p2: e2_132141|move: Sticky Web
+  move|p2a: Seviper|Gunk Shot|p1a: Kricketune
+  -damage|p1a: Kricketune|109/311
+  -status|p1a: Kricketune|psn
+  -damage|p1a: Kricketune|71/311 psn|[from] psn
+-- turn 27
+  WE CHOSE: attack stickyweb (hand policy: attack knockoff) - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironhands - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Kricketune|Sticky Web||[still]
+  -fail|p1a: Kricketune
+  move|p2a: Seviper|Gunk Shot|p1a: Kricketune
+  -damage|p1a: Kricketune|0 fnt
+  faint|p1a: Kricketune
+  switch|p1a: Iron Hands|Iron Hands, L79|373/373
+-- turn 28
+  WE CHOSE: attack thunderpunch - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Seviper|Gunk Shot|p1a: Iron Hands
+  -damage|p1a: Iron Hands|240/373
+  move|p1a: Iron Hands|Thunder Punch|p2a: Seviper
+  -damage|p2a: Seviper|61/100
+  -heal|p2a: Seviper|67/100|[from] item: Leftovers
+  -heal|p1a: Iron Hands|263/373|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack thunderpunch - our hp 0.71, theirs 0.67, predicted move (revealed) hits us x1
+  move|p2a: Seviper|Gunk Shot|p1a: Iron Hands
+  -damage|p1a: Iron Hands|119/373
+  move|p1a: Iron Hands|Thunder Punch|p2a: Seviper
+  -damage|p2a: Seviper|29/100
+  -status|p2a: Seviper|par
+  -heal|p1a: Iron Hands|142/373|[from] item: Leftovers
+  -activate|p2a: Seviper|ability: Shed Skin
+  -curestatus|p2a: Seviper|par|[msg]
+  -heal|p2a: Seviper|35/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: switch to zarudedada (hand policy: attack thunderpunch) - our hp 0.38, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Seviper|Gunk Shot|p1a: Iron Hands
+  -damage|p1a: Iron Hands|0 fnt
+  faint|p1a: Iron Hands
+  -end|p1a: Iron Hands|Quark Drive|[silent]
+  deinit

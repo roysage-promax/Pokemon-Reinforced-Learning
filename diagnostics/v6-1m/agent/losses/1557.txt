@@ -1,0 +1,281 @@
+battle 1557 (battle-gen9randombattle-1022130): lost in 30 turns, 1 of theirs left; we are p1
+
+ours:
+  quagsire (fainted; item leftovers, ability unaware; moves earthquake/recover/toxic/spikes)
+  pecharunt (fainted; item rockyhelmet, ability poisonpuppeteer; moves malignantchain/shadowball/partingshot/recover)
+  kyogre (fainted; item choicescarf, ability drizzle, tera water; moves originpulse/icebeam/thunder/waterspout)
+  mabosstiff (fainted; item choiceband, ability stakeout; moves crunch/wildcharge/playrough/psychicfangs)
+  scrafty (fainted; item leftovers, ability shedskin; moves drainpunch/bulkup/rest/knockoff)
+  drifblim (fainted; item heavydutyboots, ability aftermath; moves defog/airslash/strengthsap/shadowball)
+theirs (as seen):
+  dewgong (fainted; item unknown_item, ability ?; moves surf)
+  screamtail (fainted; item leftovers, ability protosynthesis; moves dazzlinggleam)
+  wigglytuff (fainted; item leftovers, ability ?; moves dazzlinggleam)
+  mabosstiff (fainted; item unknown_item, ability ?; moves playrough)
+  golduck (fainted; item leftovers, ability cloudnine; moves hydropump/icebeam)
+  corviknight (48%; item ?, ability ?; moves bravebird)
+
+-- turn 0
+  switch|p1a: Quagsire|Quagsire, L84, M|297/297
+  switch|p2a: Dewgong|Dewgong, L94, M|100/100
+-- turn 1
+  WE CHOSE: switch to kyogre (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Kyogre|Kyogre, L71|259/259
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+  move|p2a: Dewgong|Surf|p1a: Kyogre
+  -resisted|p1a: Kyogre
+  -damage|p1a: Kyogre|205/259
+  -weather|RainDance|[upkeep]
+-- turn 2
+  WE CHOSE: attack thunder - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Kyogre|Thunder|p2a: Dewgong
+  -supereffective|p2a: Dewgong
+  -damage|p2a: Dewgong|74/100
+  -status|p2a: Dewgong|par
+  move|p2a: Dewgong|Surf|p1a: Kyogre
+  -resisted|p1a: Kyogre
+  -damage|p1a: Kyogre|143/259
+  -weather|RainDance|[upkeep]
+-- turn 3
+  WE CHOSE: attack thunder - our hp 0.55, theirs 0.74, predicted move (revealed) hits us x0.5
+  move|p1a: Kyogre|Thunder|p2a: Dewgong
+  -supereffective|p2a: Dewgong
+  -damage|p2a: Dewgong|43/100 par
+  cant|p2a: Dewgong|par
+  -weather|RainDance|[upkeep]
+-- turn 4
+  WE CHOSE: attack thunder - our hp 0.55, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p1a: Kyogre|Thunder|p2a: Dewgong
+  -supereffective|p2a: Dewgong
+  -damage|p2a: Dewgong|14/100 par
+  cant|p2a: Dewgong|par
+  -weather|RainDance|[upkeep]
+-- turn 5
+  WE CHOSE: attack thunder - our hp 0.55, theirs 0.14, predicted move (revealed) hits us x0.5
+  move|p1a: Kyogre|Thunder|p2a: Dewgong
+  -supereffective|p2a: Dewgong
+  -damage|p2a: Dewgong|0 fnt
+  faint|p2a: Dewgong
+  -weather|none
+  switch|p2a: Scream Tail|Scream Tail, L84|100/100
+-- turn 6
+  WE CHOSE: switch to pecharunt (hand policy: attack thunder) - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Pecharunt|Pecharunt, L77|262/262
+  move|p2a: Scream Tail|Dazzling Gleam|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|226/262
+-- turn 7
+  WE CHOSE: attack malignantchain - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Scream Tail|Dazzling Gleam|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|194/262
+  move|p1a: Pecharunt|Malignant Chain|p2a: Scream Tail
+  -supereffective|p2a: Scream Tail
+  -damage|p2a: Scream Tail|58/100
+  -heal|p2a: Scream Tail|64/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack malignantchain - our hp 0.74, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p2a: Scream Tail|Dazzling Gleam|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|158/262
+  move|p1a: Pecharunt|Malignant Chain|p2a: Scream Tail
+  -supereffective|p2a: Scream Tail
+  -damage|p2a: Scream Tail|22/100
+  -heal|p2a: Scream Tail|28/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack malignantchain - our hp 0.60, theirs 0.28, predicted move (revealed) hits us x0.5
+  move|p2a: Scream Tail|Dazzling Gleam|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|123/262
+  move|p1a: Pecharunt|Malignant Chain|p2a: Scream Tail
+  -supereffective|p2a: Scream Tail
+  -damage|p2a: Scream Tail|0 fnt
+  faint|p2a: Scream Tail
+  -end|p2a: Scream Tail|Protosynthesis|[silent]
+  switch|p2a: Wigglytuff|Wigglytuff, L96, M|100/100
+-- turn 10
+  WE CHOSE: switch to kyogre (hand policy: heal recover) - our hp 0.47, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Kyogre|Kyogre, L71|143/259
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+  move|p2a: Wigglytuff|Dazzling Gleam|p1a: Kyogre
+  -damage|p1a: Kyogre|56/259
+  -weather|RainDance|[upkeep]
+-- turn 11
+  WE CHOSE: switch to pecharunt (hand policy: attack+tera waterspout) - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Pecharunt|Pecharunt, L77|123/262
+  move|p2a: Wigglytuff|Dazzling Gleam|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|69/262
+  -weather|RainDance|[upkeep]
+-- turn 12
+  WE CHOSE: attack malignantchain (hand policy: heal recover) - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Malignant Chain|p2a: Wigglytuff
+  -supereffective|p2a: Wigglytuff
+  -damage|p2a: Wigglytuff|53/100
+  -status|p2a: Wigglytuff|tox
+  -start|p2a: Wigglytuff|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+  -activate|p2a: Wigglytuff|confusion
+  move|p2a: Wigglytuff|Dazzling Gleam|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|10/262
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Wigglytuff|59/100 tox|[from] item: Leftovers
+  -damage|p2a: Wigglytuff|53/100 tox|[from] psn
+-- turn 13
+  WE CHOSE: attack malignantchain (hand policy: heal recover) - our hp 0.04, theirs 0.53, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to kyogre - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Malignant Chain|p2a: Wigglytuff
+  -supereffective|p2a: Wigglytuff
+  -damage|p2a: Wigglytuff|1/100 tox
+  -activate|p2a: Wigglytuff|confusion
+  move|p2a: Wigglytuff|Dazzling Gleam|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|0 fnt
+  faint|p1a: Pecharunt
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Wigglytuff|7/100 tox|[from] item: Leftovers
+  -damage|p2a: Wigglytuff|0 fnt|[from] psn
+  faint|p2a: Wigglytuff
+  switch|p1a: Kyogre|Kyogre, L71|56/259
+  switch|p2a: Mabosstiff|Mabosstiff, L86, M|100/100
+-- turn 14
+  WE CHOSE: attack+tera waterspout - our hp 0.22, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Kyogre|Water
+  move|p1a: Kyogre|Water Spout|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|73/100
+  move|p2a: Mabosstiff|Play Rough|p1a: Kyogre|[miss]
+  -miss|p2a: Mabosstiff|p1a: Kyogre
+  -weather|none
+-- turn 15
+  WE CHOSE: attack waterspout - our hp 0.22, theirs 0.73, predicted move (revealed) hits us x1
+  move|p1a: Kyogre|Water Spout|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|55/100
+  move|p2a: Mabosstiff|Play Rough|p1a: Kyogre|[miss]
+  -miss|p2a: Mabosstiff|p1a: Kyogre
+-- turn 16
+  WE CHOSE: attack waterspout - our hp 0.22, theirs 0.55, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to quagsire - our hp 0.00, theirs 0.36, predicted move (revealed) hits us x1
+  move|p1a: Kyogre|Water Spout|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|36/100
+  move|p2a: Mabosstiff|Play Rough|p1a: Kyogre
+  -damage|p1a: Kyogre|0 fnt
+  faint|p1a: Kyogre
+  switch|p1a: Quagsire|Quagsire, L84, M|297/297
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.36, predicted move (revealed) hits us x1
+  move|p2a: Mabosstiff|Play Rough|p1a: Quagsire
+  -damage|p1a: Quagsire|168/297
+  move|p1a: Quagsire|Earthquake|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|0 fnt
+  faint|p2a: Mabosstiff
+  -heal|p1a: Quagsire|186/297|[from] item: Leftovers
+  switch|p2a: Golduck|Golduck, L90, M|100/100
+  -ability|p2a: Golduck|Cloud Nine
+-- turn 18
+  WE CHOSE: heal recover (hand policy: attack earthquake) - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Quagsire
+  -damage|p1a: Quagsire|11/297
+  move|p1a: Quagsire|Recover|p1a: Quagsire
+  -heal|p1a: Quagsire|160/297
+  -heal|p1a: Quagsire|178/297|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: heal recover (hand policy: attack earthquake) - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Quagsire
+  -damage|p1a: Quagsire|6/297
+  move|p1a: Quagsire|Recover|p1a: Quagsire
+  -heal|p1a: Quagsire|155/297
+  -heal|p1a: Quagsire|173/297|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal recover (hand policy: attack earthquake) - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Quagsire
+  -damage|p1a: Quagsire|8/297
+  move|p1a: Quagsire|Recover|p1a: Quagsire
+  -heal|p1a: Quagsire|157/297
+  -heal|p1a: Quagsire|175/297|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal recover (hand policy: attack earthquake) - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Quagsire
+  -damage|p1a: Quagsire|1/297
+  move|p1a: Quagsire|Recover|p1a: Quagsire
+  -heal|p1a: Quagsire|150/297
+  -heal|p1a: Quagsire|168/297|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal recover (hand policy: attack earthquake) - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mabosstiff - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Quagsire
+  -damage|p1a: Quagsire|0 fnt
+  faint|p1a: Quagsire
+  switch|p1a: Mabosstiff|Mabosstiff, L86, M|278/278
+-- turn 23
+  WE CHOSE: attack wildcharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Mabosstiff
+  -damage|p1a: Mabosstiff|134/278
+  move|p1a: Mabosstiff|Wild Charge|p2a: Golduck
+  -supereffective|p2a: Golduck
+  -damage|p2a: Golduck|23/100
+  -damage|p1a: Mabosstiff|77/278|[from] Recoil
+  -heal|p2a: Golduck|29/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack wildcharge - our hp 0.28, theirs 0.29, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to drifblim - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Mabosstiff
+  -damage|p1a: Mabosstiff|0 fnt
+  faint|p1a: Mabosstiff
+  -heal|p2a: Golduck|35/100|[from] item: Leftovers
+  switch|p1a: Drifblim|Drifblim, L86, M|398/398
+-- turn 25
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Drifblim
+  -damage|p1a: Drifblim|200/398
+  move|p1a: Drifblim|Shadow Ball|p2a: Golduck
+  -damage|p2a: Golduck|5/100
+  -unboost|p2a: Golduck|spd|1
+  -heal|p2a: Golduck|11/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: heal strengthsap (hand policy: attack shadowball) - our hp 0.50, theirs 0.11, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Ice Beam|p1a: Drifblim
+  -supereffective|p1a: Drifblim
+  -damage|p1a: Drifblim|10/398
+  move|p1a: Drifblim|Strength Sap|p2a: Golduck
+  -unboost|p2a: Golduck|atk|1
+  -heal|p1a: Drifblim|162/398
+  -heal|p2a: Golduck|17/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: heal strengthsap - our hp 0.41, theirs 0.17, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to scrafty - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Ice Beam|p1a: Drifblim
+  -supereffective|p1a: Drifblim
+  -damage|p1a: Drifblim|0 fnt
+  faint|p1a: Drifblim
+  -heal|p2a: Golduck|24/100|[from] item: Leftovers
+  switch|p1a: Scrafty|Scrafty, L83, M|244/244
+-- turn 28
+  WE CHOSE: attack drainpunch - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Ice Beam|p1a: Scrafty
+  -crit|p1a: Scrafty
+  -damage|p1a: Scrafty|159/244
+  move|p1a: Scrafty|Drain Punch|p2a: Golduck
+  -damage|p2a: Golduck|0 fnt
+  -heal|p1a: Scrafty|193/244|[from] drain|[of] p2a: Golduck
+  faint|p2a: Golduck
+  -heal|p1a: Scrafty|208/244|[from] item: Leftovers
+  switch|p2a: Corviknight|Corviknight, L80, F|100/100
+-- turn 29
+  WE CHOSE: attack knockoff (hand policy: attack drainpunch) - our hp 0.85, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Corviknight|Brave Bird|p1a: Scrafty
+  -supereffective|p1a: Scrafty
+  -damage|p1a: Scrafty|44/244
+  -damage|p2a: Corviknight|82/100|[from] Recoil
+  move|p1a: Scrafty|Knock Off|p2a: Corviknight
+  -damage|p2a: Corviknight|50/100
+  -damage|p1a: Scrafty|4/244|[from] item: Rocky Helmet|[of] p2a: Corviknight
+  -enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Scrafty
+  -heal|p1a: Scrafty|19/244|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.08, theirs 0.50, predicted move (revealed) hits us x2
+  move|p2a: Corviknight|Brave Bird|p1a: Scrafty
+  -supereffective|p1a: Scrafty
+  -damage|p1a: Scrafty|0 fnt
+  faint|p1a: Scrafty
+  -damage|p2a: Corviknight|48/100|[from] Recoil
+  deinit

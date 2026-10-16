@@ -1,0 +1,181 @@
+battle 2047 (battle-gen9randombattle-1027125): lost in 20 turns, 1 of theirs left; we are p1
+
+ours:
+  archaludon (fainted; item lumberry, ability stamina; moves swordsdance/outrage/ironhead/earthquake)
+  muk (fainted; item assaultvest, ability poisontouch; moves knockoff/drainpunch/gunkshot/shadowsneak)
+  swampert (fainted; item leftovers, ability torrent; moves yawn/earthquake/flipturn/stealthrock)
+  ariados (fainted; item heavydutyboots, ability insomnia, tera ghost; moves poisonjab/megahorn/stickyweb/knockoff)
+  bruxish (fainted; item choiceband, ability strongjaw; moves wavecrash/aquajet/icefang/psychicfangs)
+  irontreads (fainted; item assaultvest, ability quarkdrive; moves ironhead/rapidspin/voltswitch/earthquake)
+theirs (as seen):
+  ironjugulis (fainted; item unknown_item, ability quarkdrive; moves fireblast)
+  golduck (29%; item unknown_item, ability cloudnine; moves focusblast/hydropump)
+  zoroark (fainted; item unknown_item, ability illusion; moves -)
+  fezandipiti (fainted; item leftovers, ability ?; moves gunkshot)
+  toucannon (fainted; item unknown_item, ability ?; moves boomburst)
+  komala (fainted; item unknown_item, ability comatose; moves bodyslam)
+
+-- turn 0
+  switch|p1a: Archaludon|Archaludon, L77, F|265/265
+  switch|p2a: Iron Jugulis|Iron Jugulis, L77|100/100
+-- turn 1
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Iron Jugulis|Fire Blast|p1a: Archaludon
+  -damage|p1a: Archaludon|99/265
+  -ability|p1a: Archaludon|Stamina|boost
+  -boost|p1a: Archaludon|def|1
+  move|p1a: Archaludon|Swords Dance|p1a: Archaludon
+  -boost|p1a: Archaludon|atk|2
+-- turn 2
+  WE CHOSE: attack outrage - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bruxish - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Jugulis|Fire Blast|p1a: Archaludon
+  -damage|p1a: Archaludon|0 fnt
+  faint|p1a: Archaludon
+  switch|p1a: Bruxish|Bruxish, L85, M|254/254
+-- turn 3
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Jugulis|Fire Blast|p1a: Bruxish
+  -resisted|p1a: Bruxish
+  -damage|p1a: Bruxish|190/254
+  move|p1a: Bruxish|Wave Crash|p2a: Iron Jugulis
+  -damage|p2a: Iron Jugulis|20/100
+  -damage|p1a: Bruxish|118/254|[from] Recoil
+-- turn 4
+  WE CHOSE: attack wavecrash - our hp 0.46, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Jugulis|Fire Blast|p1a: Bruxish
+  -resisted|p1a: Bruxish
+  -damage|p1a: Bruxish|48/254
+  move|p1a: Bruxish|Wave Crash|p2a: Iron Jugulis
+  -damage|p2a: Iron Jugulis|0 fnt
+  faint|p2a: Iron Jugulis
+  -end|p2a: Iron Jugulis|Quark Drive|[silent]
+  -damage|p1a: Bruxish|31/254|[from] Recoil
+  switch|p2a: Golduck|Golduck, L90, F|100/100
+-- turn 5
+  WE CHOSE: attack wavecrash - our hp 0.12, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to swampert (hand policy: forced: switch to ariados) - our hp 0.00, theirs 0.00, predicted move (guessed) hits us x0.5
+  move|p2a: Golduck|Focus Blast|p1a: Bruxish|[miss]
+  -miss|p2a: Golduck|p1a: Bruxish
+  move|p1a: Bruxish|Wave Crash|p2a: Golduck
+  -damage|p2a: Golduck|0 fnt
+  replace|p2a: Zoroark|Zoroark, L83, F
+  -end|p2a: Zoroark|Illusion
+  faint|p2a: Zoroark
+  -damage|p1a: Bruxish|0 fnt|[from] Recoil
+  faint|p1a: Bruxish
+  switch|p2a: Fezandipiti|Fezandipiti, L82, M|100/100
+  switch|p1a: Swampert|Swampert, L83, M|302/302
+-- turn 6
+  WE CHOSE: switch to irontreads (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Iron Treads|Iron Treads, L77|265/265
+  move|p2a: Fezandipiti|Gunk Shot|p1a: Iron Treads
+  -immune|p1a: Iron Treads
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Fezandipiti|Gunk Shot|p1a: Iron Treads
+  -immune|p1a: Iron Treads
+  move|p1a: Iron Treads|Earthquake|p2a: Fezandipiti
+  -supereffective|p2a: Fezandipiti
+  -damage|p2a: Fezandipiti|29/100
+  -heal|p2a: Fezandipiti|35/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x0
+  move|p2a: Fezandipiti|Gunk Shot|p1a: Iron Treads
+  -immune|p1a: Iron Treads
+  move|p1a: Iron Treads|Earthquake|p2a: Fezandipiti
+  -supereffective|p2a: Fezandipiti
+  -crit|p2a: Fezandipiti
+  -damage|p2a: Fezandipiti|0 fnt
+  faint|p2a: Fezandipiti
+  switch|p2a: Toucannon|Toucannon, L88, M|100/100
+-- turn 9
+  WE CHOSE: attack voltswitch - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to muk - our hp 1.00, theirs 0.74, predicted move (guessed) hits us x0.5
+  move|p1a: Iron Treads|Volt Switch|p2a: Toucannon
+  -supereffective|p2a: Toucannon
+  -damage|p2a: Toucannon|74/100
+  -end|p1a: Iron Treads|Quark Drive|[silent]
+  switch|p1a: Muk|Muk, L86, F|321/321|[from] Volt Switch
+  move|p2a: Toucannon|Boomburst|p1a: Muk
+  -damage|p1a: Muk|248/321
+-- turn 10
+  WE CHOSE: attack gunkshot - our hp 0.77, theirs 0.74, predicted move (revealed) hits us x1
+  move|p2a: Toucannon|Boomburst|p1a: Muk
+  -damage|p1a: Muk|170/321
+  move|p1a: Muk|Gunk Shot|p2a: Toucannon
+  -damage|p2a: Toucannon|24/100
+-- turn 11
+  WE CHOSE: attack gunkshot - our hp 0.53, theirs 0.24, predicted move (revealed) hits us x1
+  move|p2a: Toucannon|Boomburst|p1a: Muk
+  -damage|p1a: Muk|94/321
+  move|p1a: Muk|Gunk Shot|p2a: Toucannon
+  -damage|p2a: Toucannon|0 fnt
+  faint|p2a: Toucannon
+  switch|p2a: Komala|Komala, L87, F|100/100
+  -ability|p2a: Komala|Comatose
+-- turn 12
+  WE CHOSE: switch to ariados (hand policy: attack drainpunch) - our hp 0.29, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Ariados|Ariados, L95, M|287/287
+  move|p2a: Komala|Body Slam|p1a: Ariados
+  -damage|p1a: Ariados|163/287
+-- turn 13
+  WE CHOSE: attack+tera poisonjab (hand policy: attack+tera megahorn) - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Ariados|Ghost
+  move|p2a: Komala|Body Slam|p1a: Ariados
+  -immune|p1a: Ariados
+  move|p1a: Ariados|Poison Jab|p2a: Komala
+  -damage|p2a: Komala|53/100
+-- turn 14
+  WE CHOSE: attack megahorn - our hp 0.57, theirs 0.53, predicted move (revealed) hits us x0
+  move|p2a: Komala|Body Slam|p1a: Ariados
+  -immune|p1a: Ariados
+  move|p1a: Ariados|Megahorn|p2a: Komala|[miss]
+  -miss|p1a: Ariados|p2a: Komala
+-- turn 15
+  WE CHOSE: attack megahorn - our hp 0.57, theirs 0.53, predicted move (revealed) hits us x0
+  move|p2a: Komala|Body Slam|p1a: Ariados
+  -immune|p1a: Ariados
+  move|p1a: Ariados|Megahorn|p2a: Komala
+  -damage|p2a: Komala|0 fnt
+  faint|p2a: Komala
+  switch|p2a: Golduck|Golduck, L90, F|100/100
+  -ability|p2a: Golduck|Cloud Nine
+-- turn 16
+  WE CHOSE: attack megahorn - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to muk - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Golduck|Hydro Pump|p1a: Ariados
+  -damage|p1a: Ariados|0 fnt
+  faint|p1a: Ariados
+  switch|p1a: Muk|Muk, L86, F|94/321
+-- turn 17
+  WE CHOSE: attack gunkshot - our hp 0.29, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to swampert - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Golduck|Hydro Pump|p1a: Muk
+  -damage|p1a: Muk|0 fnt
+  faint|p1a: Muk
+  switch|p1a: Swampert|Swampert, L83, M|302/302
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Swampert
+  -damage|p1a: Swampert|116/302
+  move|p1a: Swampert|Earthquake|p2a: Golduck
+  -damage|p2a: Golduck|62/100
+  -heal|p1a: Swampert|134/302|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 0.44, theirs 0.62, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to irontreads - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Swampert
+  -damage|p1a: Swampert|0 fnt
+  faint|p1a: Swampert
+  switch|p1a: Iron Treads|Iron Treads, L77|265/265
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x2
+  move|p1a: Iron Treads|Earthquake|p2a: Golduck
+  -damage|p2a: Golduck|29/100
+  move|p2a: Golduck|Hydro Pump|p1a: Iron Treads
+  -supereffective|p1a: Iron Treads
+  -damage|p1a: Iron Treads|0 fnt
+  faint|p1a: Iron Treads
+  -end|p1a: Iron Treads|Quark Drive|[silent]
+  deinit

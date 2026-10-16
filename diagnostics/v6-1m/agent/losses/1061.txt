@@ -1,0 +1,260 @@
+battle 1061 (battle-gen9randombattle-1017094): lost in 28 turns, 3 of theirs left; we are p1
+
+ours:
+  qwilfish (fainted; item leftovers, ability intimidate; moves gunkshot/toxicspikes/spikes/waterfall)
+  phione (fainted; item leftovers, ability hydration; moves scald/icebeam/takeheart/grassknot)
+  avalugg (fainted; item heavydutyboots, ability sturdy, tera fighting; moves rapidspin/recover/avalanche/bodypress)
+  gliscor (fainted; item toxicorb, ability poisonheal; moves earthquake/protect/toxic/knockoff)
+  mightyena (fainted; item leftovers, ability intimidate; moves taunt/throatchop/suckerpunch/poisonfang)
+  regigigas (fainted; item leftovers, ability slowstart; moves knockoff/bodyslam/rest/sleeptalk)
+theirs (as seen):
+  dialgaorigin (fainted; item unknown_item, ability pressure; moves dracometeor)
+  pecharunt (fainted; item leftovers, ability poisonpuppeteer; moves malignantchain)
+  braviary (fainted; item unknown_item, ability ?; moves bravebird)
+  bellibolt (39%; item leftovers, ability ?; moves thunderbolt)
+
+-- turn 0
+  switch|p1a: Qwilfish|Qwilfish, L86, F|252/252
+  switch|p2a: Dialga|Dialga-Origin, L73|100/100
+  -ability|p1a: Qwilfish|Intimidate|boost
+  -unboost|p2a: Dialga|atk|1
+  -ability|p2a: Dialga|Pressure
+-- turn 1
+  WE CHOSE: switch to gliscor (hand policy: attack waterfall) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Gliscor|Gliscor, L76, M|239/239
+  move|p2a: Dialga|Draco Meteor|p1a: Gliscor
+  -damage|p1a: Gliscor|5/239
+  -unboost|p2a: Dialga|spa|2
+  -status|p1a: Gliscor|tox|[from] item: Toxic Orb
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 0.02, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to avalugg - our hp 0.00, theirs 0.39, predicted move (revealed) hits us x1
+  move|p1a: Gliscor|Earthquake|p2a: Dialga
+  -supereffective|p2a: Dialga
+  -damage|p2a: Dialga|39/100
+  move|p2a: Dialga|Draco Meteor|p1a: Gliscor
+  -damage|p1a: Gliscor|0 fnt
+  -unboost|p2a: Dialga|spa|2
+  faint|p1a: Gliscor
+  switch|p1a: Avalugg|Avalugg, L88, M|310/310
+-- turn 3
+  WE CHOSE: attack bodypress (hand policy: attack+tera bodypress) - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x1
+  move|p2a: Dialga|Draco Meteor|p1a: Avalugg
+  -damage|p1a: Avalugg|216/310
+  -unboost|p2a: Dialga|spa|2
+  move|p1a: Avalugg|Body Press|p2a: Dialga
+  -supereffective|p2a: Dialga
+  -damage|p2a: Dialga|0 fnt
+  faint|p2a: Dialga
+  switch|p2a: Pecharunt|Pecharunt, L77|100/100
+-- turn 4
+  WE CHOSE: switch to qwilfish (hand policy: attack avalanche) - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Qwilfish|Qwilfish, L86, F|252/252
+  -ability|p1a: Qwilfish|Intimidate|boost
+  -unboost|p2a: Pecharunt|atk|1
+  move|p2a: Pecharunt|Malignant Chain|p1a: Qwilfish
+  -resisted|p1a: Qwilfish
+  -damage|p1a: Qwilfish|198/252
+  -heal|p1a: Qwilfish|213/252|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack waterfall - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Qwilfish|Waterfall|p2a: Pecharunt
+  -damage|p2a: Pecharunt|76/100
+  move|p2a: Pecharunt|Malignant Chain|p1a: Qwilfish
+  -resisted|p1a: Qwilfish
+  -damage|p1a: Qwilfish|159/252
+  -heal|p1a: Qwilfish|174/252|[from] item: Leftovers
+  -heal|p2a: Pecharunt|83/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack waterfall - our hp 0.69, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p1a: Qwilfish|Waterfall|p2a: Pecharunt
+  -damage|p2a: Pecharunt|60/100
+  move|p2a: Pecharunt|Malignant Chain|p1a: Qwilfish
+  -resisted|p1a: Qwilfish
+  -damage|p1a: Qwilfish|120/252
+  -heal|p1a: Qwilfish|135/252|[from] item: Leftovers
+  -heal|p2a: Pecharunt|66/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack waterfall - our hp 0.54, theirs 0.66, predicted move (revealed) hits us x0.5
+  move|p1a: Qwilfish|Waterfall|p2a: Pecharunt
+  -damage|p2a: Pecharunt|41/100
+  move|p2a: Pecharunt|Malignant Chain|p1a: Qwilfish
+  -resisted|p1a: Qwilfish
+  -damage|p1a: Qwilfish|81/252
+  -heal|p1a: Qwilfish|96/252|[from] item: Leftovers
+  -heal|p2a: Pecharunt|47/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack waterfall - our hp 0.38, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p1a: Qwilfish|Waterfall|p2a: Pecharunt
+  -damage|p2a: Pecharunt|25/100
+  move|p2a: Pecharunt|Malignant Chain|p1a: Qwilfish
+  -resisted|p1a: Qwilfish
+  -damage|p1a: Qwilfish|40/252
+  -heal|p1a: Qwilfish|55/252|[from] item: Leftovers
+  -heal|p2a: Pecharunt|31/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack waterfall - our hp 0.22, theirs 0.31, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to mightyena - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Qwilfish|Waterfall|p2a: Pecharunt
+  -damage|p2a: Pecharunt|7/100
+  move|p2a: Pecharunt|Malignant Chain|p1a: Qwilfish
+  -resisted|p1a: Qwilfish
+  -damage|p1a: Qwilfish|0 fnt
+  faint|p1a: Qwilfish
+  -heal|p2a: Pecharunt|13/100|[from] item: Leftovers
+  switch|p1a: Mightyena|Mightyena, L96, F|290/290
+  -ability|p1a: Mightyena|Intimidate|boost
+  -unboost|p2a: Pecharunt|atk|1
+-- turn 10
+  WE CHOSE: attack throatchop (hand policy: attack+tera throatchop) - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Mightyena|Throat Chop|p2a: Pecharunt
+  -supereffective|p2a: Pecharunt
+  -damage|p2a: Pecharunt|0 fnt
+  faint|p2a: Pecharunt
+  switch|p2a: Braviary|Braviary, L85, M|100/100
+-- turn 11
+  WE CHOSE: attack throatchop - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Mightyena|Throat Chop|p2a: Braviary
+  -damage|p2a: Braviary|63/100
+  -start|p2a: Braviary|Throat Chop|[silent]
+  move|p2a: Braviary|Brave Bird|p1a: Mightyena
+  -damage|p1a: Mightyena|136/290
+  -damage|p2a: Braviary|47/100|[from] Recoil
+  -heal|p1a: Mightyena|154/290|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack throatchop - our hp 0.53, theirs 0.47, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to avalugg (hand policy: forced: switch to phione) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Mightyena|Throat Chop|p2a: Braviary
+  -damage|p2a: Braviary|10/100
+  move|p2a: Braviary|Brave Bird|p1a: Mightyena
+  -damage|p1a: Mightyena|0 fnt
+  faint|p1a: Mightyena
+  -damage|p2a: Braviary|0 fnt|[from] Recoil
+  faint|p2a: Braviary
+  switch|p1a: Avalugg|Avalugg, L88, M|216/310
+  switch|p2a: Bellibolt|Bellibolt, L84, F|100/100
+-- turn 13
+  WE CHOSE: switch to phione (hand policy: attack avalanche) - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Phione|Phione, L91|293/293
+  move|p2a: Bellibolt|Thunderbolt|p1a: Phione
+  -supereffective|p1a: Phione
+  -damage|p1a: Phione|87/293
+  -heal|p1a: Phione|105/293|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: switch to regigigas (hand policy: attack scald) - our hp 0.36, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Regigigas|Regigigas, L84|322/322
+  -start|p1a: Regigigas|ability: Slow Start
+  move|p2a: Bellibolt|Thunderbolt|p1a: Regigigas
+  -damage|p1a: Regigigas|238/322
+  -heal|p1a: Regigigas|258/322|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack bodyslam - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Regigigas
+  -damage|p1a: Regigigas|173/322
+  move|p1a: Regigigas|Body Slam|p2a: Bellibolt
+  -damage|p2a: Bellibolt|79/100
+  -start|p2a: Bellibolt|Charge|Body Slam|[from] ability: Electromorphosis
+  -heal|p2a: Bellibolt|85/100|[from] item: Leftovers
+  -heal|p1a: Regigigas|193/322|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack bodyslam - our hp 0.60, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Regigigas
+  -damage|p1a: Regigigas|34/322
+  -end|p2a: Bellibolt|Charge|[silent]
+  move|p1a: Regigigas|Body Slam|p2a: Bellibolt
+  -damage|p2a: Bellibolt|63/100
+  -start|p2a: Bellibolt|Charge|Body Slam|[from] ability: Electromorphosis
+  -heal|p2a: Bellibolt|70/100|[from] item: Leftovers
+  -heal|p1a: Regigigas|54/322|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack bodyslam (hand policy: heal rest) - our hp 0.17, theirs 0.70, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to avalugg - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Regigigas
+  -damage|p1a: Regigigas|0 fnt
+  faint|p1a: Regigigas
+  -end|p1a: Regigigas|Slow Start|[silent]
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|76/100|[from] item: Leftovers
+  switch|p1a: Avalugg|Avalugg, L88, M|216/310
+-- turn 18
+  WE CHOSE: heal recover (hand policy: attack avalanche) - our hp 0.70, theirs 0.76, predicted move (revealed) hits us x1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Avalugg
+  -damage|p1a: Avalugg|66/310
+  move|p1a: Avalugg|Recover|p1a: Avalugg
+  -heal|p1a: Avalugg|221/310
+  -heal|p2a: Bellibolt|82/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: heal recover (hand policy: attack avalanche) - our hp 0.71, theirs 0.82, predicted move (revealed) hits us x1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Avalugg
+  -damage|p1a: Avalugg|71/310
+  move|p1a: Avalugg|Recover|p1a: Avalugg
+  -heal|p1a: Avalugg|226/310
+  -heal|p2a: Bellibolt|88/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal recover (hand policy: attack avalanche) - our hp 0.73, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Avalugg
+  -damage|p1a: Avalugg|64/310
+  move|p1a: Avalugg|Recover|p1a: Avalugg
+  -heal|p1a: Avalugg|219/310
+  -heal|p2a: Bellibolt|95/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal recover (hand policy: attack avalanche) - our hp 0.71, theirs 0.95, predicted move (revealed) hits us x1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Avalugg
+  -damage|p1a: Avalugg|63/310
+  move|p1a: Avalugg|Recover|p1a: Avalugg
+  -heal|p1a: Avalugg|218/310
+  -heal|p2a: Bellibolt|100/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal recover (hand policy: attack avalanche) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Avalugg
+  -damage|p1a: Avalugg|59/310
+  move|p1a: Avalugg|Recover|p1a: Avalugg
+  -heal|p1a: Avalugg|214/310
+-- turn 23
+  WE CHOSE: heal recover (hand policy: attack avalanche) - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Avalugg
+  -damage|p1a: Avalugg|63/310
+  move|p1a: Avalugg|Recover|p1a: Avalugg
+  -heal|p1a: Avalugg|218/310
+-- turn 24
+  WE CHOSE: heal recover (hand policy: attack avalanche) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Avalugg
+  -damage|p1a: Avalugg|68/310
+  move|p1a: Avalugg|Recover|p1a: Avalugg
+  -heal|p1a: Avalugg|223/310
+-- turn 25
+  WE CHOSE: heal recover (hand policy: attack avalanche) - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Avalugg
+  -damage|p1a: Avalugg|85/310
+  move|p1a: Avalugg|Recover|p1a: Avalugg
+  -heal|p1a: Avalugg|240/310
+-- turn 26
+  WE CHOSE: attack+tera bodypress (hand policy: attack avalanche) - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Avalugg|Fighting
+  move|p2a: Bellibolt|Thunderbolt|p1a: Avalugg
+  -damage|p1a: Avalugg|92/310
+  -status|p1a: Avalugg|par
+  move|p1a: Avalugg|Body Press|p2a: Bellibolt
+  -damage|p2a: Bellibolt|50/100
+  -start|p2a: Bellibolt|Charge|Body Press|[from] ability: Electromorphosis
+  -heal|p2a: Bellibolt|57/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack bodypress - our hp 0.30, theirs 0.57, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to phione - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Avalugg
+  -damage|p1a: Avalugg|0 fnt
+  faint|p1a: Avalugg
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|63/100|[from] item: Leftovers
+  switch|p1a: Phione|Phione, L91|105/293
+-- turn 28
+  WE CHOSE: attack grassknot (hand policy: attack scald) - our hp 0.36, theirs 0.63, predicted move (revealed) hits us x2
+  move|p1a: Phione|Grass Knot|p2a: Bellibolt
+  -damage|p2a: Bellibolt|39/100
+  -start|p2a: Bellibolt|Charge|Grass Knot|[from] ability: Electromorphosis
+  move|p2a: Bellibolt|Thunderbolt|p1a: Phione
+  -supereffective|p1a: Phione
+  -damage|p1a: Phione|0 fnt
+  faint|p1a: Phione
+  -end|p2a: Bellibolt|Charge|[silent]
+  deinit

@@ -1,0 +1,172 @@
+battle 752 (battle-gen9randombattle-1013330): lost in 19 turns, 1 of theirs left; we are p1
+
+ours:
+  hydrapple (fainted; item leftovers, ability regenerator; moves earthpower/ficklebeam/recover/nastyplot)
+  raichu (fainted; item lifeorb, ability lightningrod; moves surf/encore/grassknot/thunderbolt)
+  crawdaunt (fainted; item lifeorb, ability adaptability; moves knockoff/closecombat/crabhammer/dragondance)
+  swanna (fainted; item heavydutyboots, ability hydration, tera ground; moves hydropump/roost/defog/bravebird)
+  greedent (fainted; item ?, ability cheekpouch; moves swordsdance/knockoff/bodyslam/earthquake)
+  toxicroak (fainted; item lifeorb, ability dryskin; moves knockoff/gunkshot/swordsdance/closecombat)
+theirs (as seen):
+  venomoth (fainted; item unknown_item, ability ?; moves sludgewave)
+  mismagius (fainted; item ?, ability levitate; moves shadowball)
+  hypno (fainted; item ?, ability ?; moves psychicnoise)
+  dugtrio (fainted; item lifeorb, ability ?; moves earthquake)
+  regieleki (fainted; item unknown_item, ability transistor; moves explosion)
+  gardevoir (4%; item unknown_item, ability cheekpouch; moves moonblast)
+
+-- turn 0
+  switch|p1a: Hydrapple|Hydrapple, L83, F|312/312
+  switch|p2a: Venomoth|Venomoth, L84, F|100/100
+-- turn 1
+  WE CHOSE: switch to toxicroak - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Toxicroak|Toxicroak, L84, F|277/277
+  move|p2a: Venomoth|Sludge Wave|p1a: Toxicroak
+  -resisted|p1a: Toxicroak
+  -damage|p1a: Toxicroak|169/277
+-- turn 2
+  WE CHOSE: setup swordsdance - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Venomoth|Sludge Wave|p1a: Toxicroak
+  -resisted|p1a: Toxicroak
+  -damage|p1a: Toxicroak|55/277
+  move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+  -boost|p1a: Toxicroak|atk|2
+-- turn 3
+  WE CHOSE: attack gunkshot - our hp 0.20, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to swanna - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Venomoth|Sludge Wave|p1a: Toxicroak
+  -resisted|p1a: Toxicroak
+  -damage|p1a: Toxicroak|0 fnt
+  faint|p1a: Toxicroak
+  switch|p1a: Swanna|Swanna, L89, F|278/278
+-- turn 4
+  WE CHOSE: attack+tera bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Swanna|Ground
+  move|p1a: Swanna|Brave Bird|p2a: Venomoth
+  -supereffective|p2a: Venomoth
+  -damage|p2a: Venomoth|0 fnt
+  faint|p2a: Venomoth
+  -damage|p1a: Swanna|194/278|[from] Recoil
+  switch|p2a: Mismagius|Mismagius, L86, M|100/100
+-- turn 5
+  WE CHOSE: switch to hydrapple - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Hydrapple|Hydrapple, L83, F|312/312
+  move|p2a: Mismagius|Shadow Ball|p1a: Hydrapple
+  -damage|p1a: Hydrapple|216/312
+  -unboost|p1a: Hydrapple|spd|1
+  -heal|p1a: Hydrapple|235/312|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: switch to greedent - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Greedent|Greedent, L86, F|347/347
+  move|p2a: Mismagius|Shadow Ball|p1a: Greedent
+  -immune|p1a: Greedent
+-- turn 7
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Mismagius|Shadow Ball|p1a: Greedent
+  -immune|p1a: Greedent
+  move|p1a: Greedent|Swords Dance|p1a: Greedent
+  -boost|p1a: Greedent|atk|2
+-- turn 8
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Mismagius|Shadow Ball|p1a: Greedent
+  -immune|p1a: Greedent
+  move|p1a: Greedent|Swords Dance|p1a: Greedent
+  -boost|p1a: Greedent|atk|2
+-- turn 9
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Mismagius|Shadow Ball|p1a: Greedent
+  -immune|p1a: Greedent
+  move|p1a: Greedent|Swords Dance|p1a: Greedent
+  -boost|p1a: Greedent|atk|2
+-- turn 10
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Mismagius|Shadow Ball|p1a: Greedent
+  -immune|p1a: Greedent
+  move|p1a: Greedent|Knock Off|p2a: Mismagius
+  -supereffective|p2a: Mismagius
+  -damage|p2a: Mismagius|0 fnt
+  -enditem|p2a: Mismagius|Leftovers|[from] move: Knock Off|[of] p1a: Greedent
+  faint|p2a: Mismagius
+  switch|p2a: Hypno|Hypno, L95, F|100/100
+-- turn 11
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Hypno|Psychic Noise|p1a: Greedent
+  -damage|p1a: Greedent|257/347
+  -start|p1a: Greedent|move: Heal Block
+  move|p1a: Greedent|Knock Off|p2a: Hypno
+  -supereffective|p2a: Hypno
+  -damage|p2a: Hypno|0 fnt
+  -enditem|p2a: Hypno|Leftovers|[from] move: Knock Off|[of] p1a: Greedent
+  faint|p2a: Hypno
+  switch|p2a: Dugtrio|Dugtrio, L84, M|100/100
+-- turn 12
+  WE CHOSE: attack bodyslam - our hp 0.74, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Dugtrio|Earthquake|p1a: Greedent
+  -crit|p1a: Greedent
+  -damage|p1a: Greedent|65/347
+  -damage|p2a: Dugtrio|91/100|[from] item: Life Orb
+  move|p1a: Greedent|Body Slam|p2a: Dugtrio
+  -crit|p2a: Dugtrio
+  -damage|p2a: Dugtrio|0 fnt
+  faint|p2a: Dugtrio
+  -end|p1a: Greedent|move: Heal Block
+  -enditem|p1a: Greedent|Sitrus Berry|[eat]
+  -heal|p1a: Greedent|151/347|[from] item: Sitrus Berry
+  -heal|p1a: Greedent|266/347|[from] ability: Cheek Pouch
+  switch|p2a: Regieleki|Regieleki, L79|100/100
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 0.77, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Regieleki|Explosion|p1a: Greedent
+  -damage|p1a: Greedent|122/347
+  faint|p2a: Regieleki
+  move|p1a: Greedent|Earthquake|p2: Regieleki|[notarget]
+  -fail|p1a: Greedent
+  switch|p2a: Gardevoir|Gardevoir, L83, F|100/100
+  -ability|p2a: Gardevoir|Cheek Pouch|Trace|[from] ability: Trace|[of] p1a: Greedent
+-- turn 14
+  WE CHOSE: attack bodyslam - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to swanna - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Greedent
+  -damage|p1a: Greedent|0 fnt
+  faint|p1a: Greedent
+  switch|p1a: Swanna|Swanna, L89, F, tera:Ground|194/278
+-- turn 15
+  WE CHOSE: attack bravebird - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to raichu - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Swanna
+  -damage|p1a: Swanna|49/278
+  move|p1a: Swanna|Brave Bird|p2a: Gardevoir
+  -damage|p2a: Gardevoir|33/100
+  -damage|p1a: Swanna|0 fnt|[from] Recoil
+  faint|p1a: Swanna
+  switch|p1a: Raichu|Raichu, L88, F|249/249
+-- turn 16
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Raichu
+  -damage|p1a: Raichu|126/249
+  -unboost|p1a: Raichu|spa|1
+  move|p1a: Raichu|Thunderbolt|p2a: Gardevoir
+  -damage|p2a: Gardevoir|4/100
+  -damage|p1a: Raichu|102/249|[from] item: Life Orb
+-- turn 17
+  WE CHOSE: attack thunderbolt - our hp 0.41, theirs 0.04, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to crawdaunt - our hp 0.00, theirs 0.04, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Raichu
+  -damage|p1a: Raichu|0 fnt
+  faint|p1a: Raichu
+  switch|p1a: Crawdaunt|Crawdaunt, L84, M|243/243
+-- turn 18
+  WE CHOSE: attack crabhammer - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to hydrapple - our hp 0.00, theirs 0.04, predicted move (revealed) hits us x2
+  move|p2a: Gardevoir|Moonblast|p1a: Crawdaunt
+  -supereffective|p1a: Crawdaunt
+  -damage|p1a: Crawdaunt|0 fnt
+  faint|p1a: Crawdaunt
+  switch|p1a: Hydrapple|Hydrapple, L83, F|312/312
+-- turn 19
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x2
+  move|p2a: Gardevoir|Moonblast|p1a: Hydrapple
+  -supereffective|p1a: Hydrapple
+  -crit|p1a: Hydrapple
+  -damage|p1a: Hydrapple|0 fnt
+  faint|p1a: Hydrapple

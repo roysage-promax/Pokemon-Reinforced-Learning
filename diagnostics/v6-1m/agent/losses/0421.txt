@@ -1,0 +1,288 @@
+battle 421 (battle-gen9randombattle-1010591): lost in 30 turns, 1 of theirs left; we are p1
+
+ours:
+  entei (fainted; item choiceband, ability innerfocus; moves extremespeed/flareblitz/stompingtantrum/sacredfire)
+  quaquaval (fainted; item lifeorb, ability moxie; moves closecombat/swordsdance/aquastep/knockoff)
+  toedscruel (fainted; item leftovers, ability myceliummight, tera water; moves rapidspin/earthpower/leafstorm/toxic)
+  kricketune (fainted; item heavydutyboots, ability technician; moves pounce/taunt/knockoff/stickyweb)
+  comfey (fainted; item leftovers, ability triage; moves synthesis/calmmind/terablast/drainingkiss)
+  pecharunt (fainted; item leftovers, ability poisonpuppeteer; moves recover/partingshot/malignantchain/shadowball)
+theirs (as seen):
+  pincurchin (fainted; item leftovers, ability ?; moves thunderbolt)
+  hawlucha (fainted; item unknown_item, ability ?; moves bravebird)
+  houndstone (fainted; item unknown_item, ability ?; moves poltergeist)
+  honchkrow (fainted; item unknown_item, ability moxie; moves bravebird)
+  golduck (fainted; item unknown_item, ability cloudnine; moves hydropump)
+  cobalion (19%; item ?, ability justified; moves closecombat/ironhead)
+
+-- turn 0
+  switch|p1a: Entei|Entei, L78|307/307
+  switch|p2a: Pincurchin|Pincurchin, F|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+-- turn 1
+  WE CHOSE: switch to toedscruel - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Toedscruel|Toedscruel, L87, F|281/281
+  move|p2a: Pincurchin|Thunderbolt|p1a: Toedscruel
+  -immune|p1a: Toedscruel
+-- turn 2
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Toedscruel|Earth Power|p2a: Pincurchin
+  -supereffective|p2a: Pincurchin
+  -damage|p2a: Pincurchin|39/100
+  move|p2a: Pincurchin|Thunderbolt|p1a: Toedscruel
+  -immune|p1a: Toedscruel
+  -heal|p2a: Pincurchin|45/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x0
+  move|p1a: Toedscruel|Earth Power|p2a: Pincurchin
+  -supereffective|p2a: Pincurchin
+  -damage|p2a: Pincurchin|0 fnt
+  faint|p2a: Pincurchin
+  switch|p2a: Hawlucha|Hawlucha, L80, M|100/100
+-- turn 4
+  WE CHOSE: attack+tera leafstorm (hand policy: attack leafstorm) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Toedscruel|Water
+  move|p2a: Hawlucha|Brave Bird|p1a: Toedscruel
+  -damage|p1a: Toedscruel|148/281
+  -damage|p2a: Hawlucha|83/100|[from] Recoil
+  move|p1a: Toedscruel|Leaf Storm|p2a: Hawlucha|[miss]
+  -miss|p1a: Toedscruel|p2a: Hawlucha
+  -heal|p1a: Toedscruel|165/281|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack leafstorm - our hp 0.59, theirs 0.83, predicted move (revealed) hits us x1
+  move|p2a: Hawlucha|Brave Bird|p1a: Toedscruel
+  -damage|p1a: Toedscruel|29/281
+  -damage|p2a: Hawlucha|66/100|[from] Recoil
+  move|p1a: Toedscruel|Leaf Storm|p2a: Hawlucha|[miss]
+  -miss|p1a: Toedscruel|p2a: Hawlucha
+  -heal|p1a: Toedscruel|46/281|[from] item: Leftovers
+  -fieldend|move: Electric Terrain
+-- turn 6
+  WE CHOSE: attack leafstorm - our hp 0.16, theirs 0.66, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pecharunt (hand policy: forced: switch to entei) - our hp 0.00, theirs 0.60, predicted move (revealed) hits us x1
+  move|p2a: Hawlucha|Brave Bird|p1a: Toedscruel
+  -damage|p1a: Toedscruel|0 fnt
+  faint|p1a: Toedscruel
+  -damage|p2a: Hawlucha|60/100|[from] Recoil
+  switch|p1a: Pecharunt|Pecharunt, L77|262/262
+-- turn 7
+  WE CHOSE: attack malignantchain - our hp 1.00, theirs 0.60, predicted move (revealed) hits us x1
+  move|p2a: Hawlucha|Brave Bird|p1a: Pecharunt
+  -damage|p1a: Pecharunt|184/262
+  -damage|p2a: Hawlucha|50/100|[from] Recoil
+  move|p1a: Pecharunt|Malignant Chain|p2a: Hawlucha
+  -damage|p2a: Hawlucha|9/100
+  -heal|p1a: Pecharunt|200/262|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack malignantchain - our hp 0.76, theirs 0.09, predicted move (revealed) hits us x1
+  move|p2a: Hawlucha|Brave Bird|p1a: Pecharunt
+  -damage|p1a: Pecharunt|128/262
+  -damage|p2a: Hawlucha|0 fnt|[from] Recoil
+  faint|p2a: Hawlucha
+  move|p1a: Pecharunt|Malignant Chain|p2: Hawlucha|[notarget]
+  -fail|p1a: Pecharunt
+  -heal|p1a: Pecharunt|144/262|[from] item: Leftovers
+  switch|p2a: Houndstone|Houndstone, L86, M|100/100
+-- turn 9
+  WE CHOSE: attack shadowball - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to entei - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x2
+  move|p1a: Pecharunt|Shadow Ball|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|70/100
+  move|p2a: Houndstone|Poltergeist|p1a: Pecharunt
+  -activate|p1a: Pecharunt|move: Poltergeist|Leftovers
+  -supereffective|p1a: Pecharunt
+  -damage|p1a: Pecharunt|0 fnt
+  faint|p1a: Pecharunt
+  switch|p1a: Entei|Entei, L78|307/307
+-- turn 10
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Entei|Flare Blitz|p2a: Houndstone
+  -damage|p2a: Houndstone|12/100
+  -damage|p1a: Entei|256/307|[from] Recoil
+  move|p2a: Houndstone|Poltergeist|p1a: Entei
+  -activate|p1a: Entei|move: Poltergeist|Choice Band
+  -damage|p1a: Entei|124/307
+-- turn 11
+  WE CHOSE: attack flareblitz - our hp 0.40, theirs 0.12, predicted move (revealed) hits us x1
+  move|p1a: Entei|Flare Blitz|p2a: Houndstone
+  -damage|p2a: Houndstone|0 fnt
+  faint|p2a: Houndstone
+  -damage|p1a: Entei|114/307|[from] Recoil
+  switch|p2a: Honchkrow|Honchkrow, L86, F|100/100
+-- turn 12
+  WE CHOSE: attack flareblitz - our hp 0.37, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to comfey - our hp 0.00, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Entei|Flare Blitz|p2a: Honchkrow
+  -damage|p2a: Honchkrow|17/100
+  -damage|p1a: Entei|29/307|[from] Recoil
+  move|p2a: Honchkrow|Brave Bird|p1a: Entei
+  -damage|p1a: Entei|0 fnt
+  faint|p1a: Entei
+  -ability|p2a: Honchkrow|Moxie|boost
+  -boost|p2a: Honchkrow|atk|1
+  -damage|p2a: Honchkrow|14/100|[from] Recoil
+  switch|p1a: Comfey|Comfey, L85, F|225/225
+-- turn 13
+  WE CHOSE: attack drainingkiss - our hp 1.00, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Draining Kiss|p2a: Honchkrow
+  -supereffective|p2a: Honchkrow
+  -damage|p2a: Honchkrow|0 fnt
+  faint|p2a: Honchkrow
+  switch|p2a: Golduck|Golduck, L90, M|100/100
+  -ability|p2a: Golduck|Cloud Nine
+-- turn 14
+  WE CHOSE: switch to quaquaval (hand policy: attack terablast) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Quaquaval|Quaquaval, L79, F|264/264
+  move|p2a: Golduck|Hydro Pump|p1a: Quaquaval
+  -resisted|p1a: Quaquaval
+  -damage|p1a: Quaquaval|192/264
+-- turn 15
+  WE CHOSE: setup swordsdance - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Golduck|Hydro Pump|p1a: Quaquaval
+  -resisted|p1a: Quaquaval
+  -damage|p1a: Quaquaval|113/264
+  move|p1a: Quaquaval|Swords Dance|p1a: Quaquaval
+  -boost|p1a: Quaquaval|atk|2
+-- turn 16
+  WE CHOSE: attack closecombat - our hp 0.43, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Golduck|Hydro Pump|p1a: Quaquaval
+  -resisted|p1a: Quaquaval
+  -damage|p1a: Quaquaval|31/264
+  move|p1a: Quaquaval|Close Combat|p2a: Golduck
+  -damage|p2a: Golduck|0 fnt
+  -unboost|p1a: Quaquaval|def|1
+  -unboost|p1a: Quaquaval|spd|1
+  faint|p2a: Golduck
+  -ability|p1a: Quaquaval|Moxie|boost
+  -boost|p1a: Quaquaval|atk|1
+  -damage|p1a: Quaquaval|5/264|[from] item: Life Orb
+  switch|p2a: Cobalion|Cobalion, L80|100/100
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 0.02, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to comfey - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cobalion|Close Combat|p1a: Quaquaval
+  -damage|p1a: Quaquaval|0 fnt
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  faint|p1a: Quaquaval
+  switch|p1a: Comfey|Comfey, L85, F|225/225
+-- turn 18
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Close Combat|p1a: Comfey
+  -resisted|p1a: Comfey
+  -damage|p1a: Comfey|172/225
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  move|p1a: Comfey|Calm Mind|p1a: Comfey
+  -boost|p1a: Comfey|spa|1
+  -boost|p1a: Comfey|spd|1
+  -heal|p1a: Comfey|186/225|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: setup calmmind - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Comfey|Calm Mind|p1a: Comfey
+  -boost|p1a: Comfey|spa|1
+  -boost|p1a: Comfey|spd|1
+  move|p2a: Cobalion|Close Combat|p1a: Comfey
+  -resisted|p1a: Comfey
+  -damage|p1a: Comfey|131/225
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  -heal|p1a: Comfey|145/225|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal synthesis (hand policy: attack drainingkiss) - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|225/225
+  move|p2a: Cobalion|Close Combat|p1a: Comfey
+  -resisted|p1a: Comfey
+  -damage|p1a: Comfey|167/225
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  -heal|p1a: Comfey|181/225|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal synthesis (hand policy: attack drainingkiss) - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|225/225
+  move|p2a: Cobalion|Close Combat|p1a: Comfey
+  -resisted|p1a: Comfey
+  -damage|p1a: Comfey|171/225
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  -heal|p1a: Comfey|185/225|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal synthesis (hand policy: attack drainingkiss) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|225/225
+  move|p2a: Cobalion|Close Combat|p1a: Comfey
+  -resisted|p1a: Comfey
+  -damage|p1a: Comfey|172/225
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  -heal|p1a: Comfey|186/225|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal synthesis (hand policy: attack drainingkiss) - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|225/225
+  move|p2a: Cobalion|Close Combat|p1a: Comfey
+  -resisted|p1a: Comfey
+  -damage|p1a: Comfey|168/225
+  -heal|p1a: Comfey|182/225|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: heal synthesis (hand policy: attack drainingkiss) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|225/225
+  move|p2a: Cobalion|Close Combat|p1a: Comfey
+  -resisted|p1a: Comfey
+  -damage|p1a: Comfey|170/225
+  -heal|p1a: Comfey|184/225|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: heal synthesis (hand policy: attack drainingkiss) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|225/225
+  move|p2a: Cobalion|Iron Head|p1a: Comfey
+  -supereffective|p1a: Comfey
+  -damage|p1a: Comfey|73/225
+  -heal|p1a: Comfey|87/225|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: heal synthesis - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|199/225
+  move|p2a: Cobalion|Iron Head|p1a: Comfey
+  -supereffective|p1a: Comfey
+  -damage|p1a: Comfey|55/225
+  -heal|p1a: Comfey|69/225|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: heal synthesis - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to kricketune - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Comfey|Synthesis|p1a: Comfey
+  -heal|p1a: Comfey|181/225
+  move|p2a: Cobalion|Iron Head|p1a: Comfey
+  -supereffective|p1a: Comfey
+  -crit|p1a: Comfey
+  -damage|p1a: Comfey|0 fnt
+  faint|p1a: Comfey
+  switch|p1a: Kricketune|Kricketune, L99, F|312/312
+-- turn 28
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Iron Head|p1a: Kricketune
+  -damage|p1a: Kricketune|225/312
+  move|p1a: Kricketune|Knock Off|p2a: Cobalion
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|54/100
+  -ability|p2a: Cobalion|Justified|boost
+  -boost|p2a: Cobalion|atk|1
+  -enditem|p2a: Cobalion|Leftovers|[from] move: Knock Off|[of] p1a: Kricketune
+-- turn 29
+  WE CHOSE: attack knockoff - our hp 0.72, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Iron Head|p1a: Kricketune
+  -damage|p1a: Kricketune|92/312
+  move|p1a: Kricketune|Knock Off|p2a: Cobalion
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|19/100
+  -ability|p2a: Cobalion|Justified|boost
+  -boost|p2a: Cobalion|atk|1
+-- turn 30
+  WE CHOSE: attack knockoff - our hp 0.29, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p2a: Cobalion|Iron Head|p1a: Kricketune
+  -damage|p1a: Kricketune|0 fnt
+  faint|p1a: Kricketune

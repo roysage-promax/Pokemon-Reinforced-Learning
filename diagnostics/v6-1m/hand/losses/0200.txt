@@ -1,0 +1,153 @@
+battle 200 (battle-gen9randombattle-1008121): lost in 15 turns, 1 of theirs left; we are p1
+
+ours:
+  hoopaunbound (fainted; item assaultvest, ability magician; moves focusblast/hyperspacefury/psychic/gunkshot)
+  lucario (fainted; item lifeorb, ability innerfocus, tera fighting; moves focusblast/nastyplot/flashcannon/vacuumwave)
+  furret (fainted; item lifeorb, ability frisk; moves doubleedge/brickbreak/tidyup/knockoff)
+  cinccino (fainted; item loadeddice, ability technician; moves tailslap/tripleaxel/uturn/bulletseed)
+  kricketune (fainted; item heavydutyboots, ability technician; moves pounce/stickyweb/knockoff/taunt)
+  bombirdier (fainted; item heavydutyboots, ability bigpecks; moves bravebird/uturn/knockoff/roost)
+theirs (as seen):
+  taurospaldeacombat (fainted; item unknown_item, ability intimidate; moves closecombat)
+  regice (fainted; item unknown_item, ability ?; moves thunderbolt)
+  piloswine (fainted; item unknown_item, ability ?; moves -)
+  feraligatr (fainted; item lifeorb, ability ?; moves liquidation)
+  hydreigon (fainted; item lifeorb, ability levitate; moves dracometeor)
+  medicham (70%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Hoopa|Hoopa-Unbound, L80|259/259
+  switch|p2a: Tauros|Tauros-Paldea-Combat, L82, M|100/100
+  -ability|p2a: Tauros|Intimidate|boost
+  -unboost|p1a: Hoopa|atk|1
+-- turn 1
+  WE CHOSE: attack psychic - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to bombirdier - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Tauros|Close Combat|p1a: Hoopa
+  -damage|p1a: Hoopa|0 fnt
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  faint|p1a: Hoopa
+  switch|p1a: Bombirdier|Bombirdier, L85, M|258/258
+-- turn 2
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kricketune - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Tauros|Close Combat|p1a: Bombirdier
+  -damage|p1a: Bombirdier|48/258
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  move|p1a: Bombirdier|Brave Bird|p2a: Tauros
+  -supereffective|p2a: Tauros
+  -damage|p2a: Tauros|0 fnt
+  faint|p2a: Tauros
+  -damage|p1a: Bombirdier|0 fnt|[from] Recoil
+  faint|p1a: Bombirdier
+  switch|p2a: Regice|Regice, L88|100/100
+  switch|p1a: Kricketune|Kricketune, L99, F|312/312
+-- turn 3
+  WE CHOSE: attack pounce - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Kricketune|Pounce|p2a: Regice
+  -damage|p2a: Regice|73/100
+  move|p2a: Regice|Thunderbolt|p1a: Kricketune
+  -damage|p1a: Kricketune|216/312
+  -status|p1a: Kricketune|par
+-- turn 4
+  WE CHOSE: attack pounce - our hp 0.69, theirs 0.73, predicted move (revealed) hits us x1
+  move|p2a: Regice|Thunderbolt|p1a: Kricketune
+  -damage|p1a: Kricketune|130/312 par
+  move|p1a: Kricketune|Pounce|p2a: Regice
+  -damage|p2a: Regice|45/100
+-- turn 5
+  WE CHOSE: attack pounce - our hp 0.42, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Regice|Thunderbolt|p1a: Kricketune
+  -damage|p1a: Kricketune|34/312 par
+  move|p1a: Kricketune|Pounce|p2a: Regice
+  -damage|p2a: Regice|15/100
+-- turn 6
+  WE CHOSE: attack pounce - our hp 0.11, theirs 0.15, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lucario - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x1
+  move|p2a: Regice|Thunderbolt|p1a: Kricketune
+  -damage|p1a: Kricketune|0 fnt
+  faint|p1a: Kricketune
+  switch|p1a: Lucario|Lucario, L84, M|255/255
+-- turn 7
+  WE CHOSE: attack+tera focusblast - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x1
+  -terastallize|p1a: Lucario|Fighting
+  move|p1a: Lucario|Focus Blast|p2a: Regice|[miss]
+  -miss|p1a: Lucario|p2a: Regice
+  move|p2a: Regice|Thunderbolt|p1a: Lucario
+  -damage|p1a: Lucario|164/255
+-- turn 8
+  WE CHOSE: attack focusblast - our hp 0.64, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Lucario|Focus Blast|p2a: Regice
+  -supereffective|p2a: Regice
+  -damage|p2a: Regice|0 fnt
+  faint|p2a: Regice
+  -damage|p1a: Lucario|139/255|[from] item: Life Orb
+  switch|p2a: Piloswine|Piloswine, L85, M|100/100
+-- turn 9
+  WE CHOSE: attack focusblast - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Lucario|Focus Blast|p2a: Piloswine
+  -supereffective|p2a: Piloswine
+  -damage|p2a: Piloswine|0 fnt
+  faint|p2a: Piloswine
+  -damage|p1a: Lucario|114/255|[from] item: Life Orb
+  switch|p2a: Feraligatr|Feraligatr, L79, M|100/100
+-- turn 10
+  WE CHOSE: attack focusblast - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to furret - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Lucario|Focus Blast|p2a: Feraligatr|[miss]
+  -miss|p1a: Lucario|p2a: Feraligatr
+  move|p2a: Feraligatr|Liquidation|p1a: Lucario
+  -damage|p1a: Lucario|0 fnt
+  faint|p1a: Lucario
+  switch|p1a: Furret|Furret, L94, F|312/312
+  -item|p2a: Feraligatr|Life Orb|[from] ability: Frisk|[of] p1a: Furret
+-- turn 11
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Furret|Double-Edge|p2a: Feraligatr
+  -damage|p2a: Feraligatr|33/100
+  -damage|p1a: Furret|254/312|[from] Recoil
+  -damage|p1a: Furret|223/312|[from] item: Life Orb
+  move|p2a: Feraligatr|Liquidation|p1a: Furret
+  -damage|p1a: Furret|59/312
+-- turn 12
+  WE CHOSE: attack doubleedge - our hp 0.19, theirs 0.33, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cinccino - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Furret|Double-Edge|p2a: Feraligatr
+  -damage|p2a: Feraligatr|0 fnt
+  faint|p2a: Feraligatr
+  -damage|p1a: Furret|30/312|[from] Recoil
+  -damage|p1a: Furret|0 fnt|[from] item: Life Orb
+  faint|p1a: Furret
+  switch|p1a: Cinccino|Cinccino, L83, F|260/260
+  switch|p2a: Hydreigon|Hydreigon, L79, M|100/100
+-- turn 13
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Cinccino|U-turn|p2a: Hydreigon
+  -supereffective|p2a: Hydreigon
+  -crit|p2a: Hydreigon
+  -damage|p2a: Hydreigon|47/100
+  move|p2a: Hydreigon|Draco Meteor|p1a: Cinccino
+  -damage|p1a: Cinccino|25/260
+  -unboost|p2a: Hydreigon|spa|2
+  -damage|p2a: Hydreigon|38/100|[from] item: Life Orb
+-- turn 14
+  WE CHOSE: attack uturn - our hp 0.10, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Cinccino|U-turn|p2a: Hydreigon
+  -supereffective|p2a: Hydreigon
+  -damage|p2a: Hydreigon|0 fnt
+  faint|p2a: Hydreigon
+  switch|p2a: Medicham|Medicham, L86, F|100/100
+-- turn 15
+  WE CHOSE: attack uturn - our hp 0.10, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Cinccino|U-turn|p2a: Medicham
+  -crit|p2a: Medicham
+  -damage|p2a: Medicham|70/100
+  move|p2a: Medicham|Close Combat|p1a: Cinccino
+  -supereffective|p1a: Cinccino
+  -damage|p1a: Cinccino|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Cinccino
+  deinit

@@ -1,0 +1,191 @@
+battle 891 (battle-gen9randombattle-1014641): lost in 20 turns, 3 of theirs left; we are p1
+
+ours:
+  samurotthisui (fainted; item lifeorb, ability sharpness, tera water; moves suckerpunch/razorshell/ceaselessedge/swordsdance)
+  zangoose (fainted; item toxicorb, ability toxicboost; moves quickattack/swordsdance/facade/knockoff)
+  electivire (fainted; item lifeorb, ability motordrive; moves earthquake/supercellslam/knockoff/voltswitch)
+  glimmora (fainted; item powerherb, ability toxicdebris; moves meteorbeam/energyball/earthpower/sludgewave)
+  kilowattrel (fainted; item heavydutyboots, ability voltabsorb; moves uturn/thunderbolt/hurricane/roost)
+  dusknoir (fainted; item choiceband, ability frisk; moves shadowsneak/leechlife/earthquake/poltergeist)
+theirs (as seen):
+  talonflame (fainted; item unknown_item, ability ?; moves bravebird)
+  ironbundle (fainted; item unknown_item, ability quarkdrive; moves hydropump)
+  weezinggalar (fainted; item leftovers, ability levitate; moves gunkshot/strangesteam)
+  stantler (100%; item unknown_item, ability intimidate; moves earthquake)
+
+-- turn 0
+  switch|p1a: Samurott|Samurott-Hisui, L77, M|265/265
+  switch|p2a: Talonflame|Talonflame, L83, F|100/100
+-- turn 1
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Talonflame|Brave Bird|p1a: Samurott
+  -damage|p1a: Samurott|135/265
+  -damage|p2a: Talonflame|84/100|[from] Recoil
+  move|p1a: Samurott|Swords Dance|p1a: Samurott
+  -boost|p1a: Samurott|atk|2
+-- turn 2
+  WE CHOSE: attack+tera razorshell - our hp 0.51, theirs 0.84, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to glimmora - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Samurott|Water
+  move|p2a: Talonflame|Brave Bird|p1a: Samurott
+  -damage|p1a: Samurott|5/265
+  -damage|p2a: Talonflame|68/100|[from] Recoil
+  move|p1a: Samurott|Razor Shell|p2a: Talonflame
+  -supereffective|p2a: Talonflame
+  -damage|p2a: Talonflame|0 fnt
+  faint|p2a: Talonflame
+  -damage|p1a: Samurott|0 fnt|[from] item: Life Orb
+  faint|p1a: Samurott
+  switch|p2a: Iron Bundle|Iron Bundle, L78|100/100
+  switch|p1a: Glimmora|Glimmora, L75, M|248/248
+-- turn 3
+  WE CHOSE: attack meteorbeam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to electivire - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Glimmora
+  -supereffective|p1a: Glimmora
+  -damage|p1a: Glimmora|0 fnt
+  faint|p1a: Glimmora
+  switch|p1a: Electivire|Electivire, L84, F|263/263
+-- turn 4
+  WE CHOSE: attack supercellslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Electivire|[miss]
+  -miss|p2a: Iron Bundle|p1a: Electivire
+  move|p1a: Electivire|Supercell Slam|p2a: Iron Bundle
+  -supereffective|p2a: Iron Bundle
+  -damage|p2a: Iron Bundle|0 fnt
+  faint|p2a: Iron Bundle
+  -end|p2a: Iron Bundle|Quark Drive|[silent]
+  -damage|p1a: Electivire|237/263|[from] item: Life Orb
+  switch|p2a: Weezing|Weezing-Galar, L86, M|100/100
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Electivire|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Electivire
+  -damage|p1a: Electivire|83/263
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dusknoir - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Electivire|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Electivire
+  -damage|p1a: Electivire|0 fnt
+  faint|p1a: Electivire
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Weezing|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Weezing|Gunk Shot|p1a: Dusknoir
+  -resisted|p1a: Dusknoir
+  -damage|p1a: Dusknoir|184/225
+  -status|p1a: Dusknoir|psn
+  move|p1a: Dusknoir|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -damage|p1a: Dusknoir|156/225 psn|[from] psn
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Weezing|Gunk Shot|p1a: Dusknoir
+  -resisted|p1a: Dusknoir
+  -damage|p1a: Dusknoir|117/225 psn
+  move|p1a: Dusknoir|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -damage|p1a: Dusknoir|89/225 psn|[from] psn
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Weezing|Gunk Shot|p1a: Dusknoir
+  -resisted|p1a: Dusknoir
+  -damage|p1a: Dusknoir|48/225 psn
+  move|p1a: Dusknoir|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  -damage|p1a: Dusknoir|20/225 psn|[from] psn
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.09, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to kilowattrel - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Weezing|Gunk Shot|p1a: Dusknoir
+  -resisted|p1a: Dusknoir
+  -damage|p1a: Dusknoir|0 fnt
+  faint|p1a: Dusknoir
+  switch|p1a: Kilowattrel|Kilowattrel, L83, M|252/252
+-- turn 11
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Kilowattrel|Thunderbolt|p2a: Weezing
+  -damage|p2a: Weezing|55/100
+  move|p2a: Weezing|Gunk Shot|p1a: Kilowattrel
+  -damage|p1a: Kilowattrel|95/252
+  -heal|p2a: Weezing|61/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: heal roost - our hp 0.38, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Kilowattrel|Roost|p1a: Kilowattrel
+  -heal|p1a: Kilowattrel|221/252
+  -singleturn|p1a: Kilowattrel|move: Roost
+  move|p2a: Weezing|Gunk Shot|p1a: Kilowattrel
+  -damage|p1a: Kilowattrel|47/252
+  -heal|p2a: Weezing|67/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.19, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Kilowattrel|Roost|p1a: Kilowattrel
+  -heal|p1a: Kilowattrel|173/252
+  -singleturn|p1a: Kilowattrel|move: Roost
+  move|p2a: Weezing|Strange Steam|p1a: Kilowattrel
+  -damage|p1a: Kilowattrel|46/252
+  -heal|p2a: Weezing|73/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal roost - our hp 0.18, theirs 0.73, predicted move (revealed) hits us x1
+  move|p1a: Kilowattrel|Roost|p1a: Kilowattrel
+  -heal|p1a: Kilowattrel|172/252
+  -singleturn|p1a: Kilowattrel|move: Roost
+  move|p2a: Weezing|Strange Steam|p1a: Kilowattrel
+  -damage|p1a: Kilowattrel|61/252
+  -heal|p2a: Weezing|79/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal roost - our hp 0.24, theirs 0.79, predicted move (revealed) hits us x1
+  move|p1a: Kilowattrel|Roost|p1a: Kilowattrel
+  -heal|p1a: Kilowattrel|187/252
+  -singleturn|p1a: Kilowattrel|move: Roost
+  move|p2a: Weezing|Strange Steam|p1a: Kilowattrel
+  -damage|p1a: Kilowattrel|57/252
+  -start|p1a: Kilowattrel|confusion
+  -heal|p2a: Weezing|85/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: heal roost - our hp 0.23, theirs 0.85, predicted move (revealed) hits us x1
+  -activate|p1a: Kilowattrel|confusion
+  move|p1a: Kilowattrel|Roost|p1a: Kilowattrel
+  -heal|p1a: Kilowattrel|183/252
+  -singleturn|p1a: Kilowattrel|move: Roost
+  move|p2a: Weezing|Strange Steam|p1a: Kilowattrel
+  -damage|p1a: Kilowattrel|53/252
+  -heal|p2a: Weezing|91/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: heal roost - our hp 0.21, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to zangoose - our hp 0.00, theirs 0.97, predicted move (revealed) hits us x1
+  -activate|p1a: Kilowattrel|confusion
+  -damage|p1a: Kilowattrel|25/252|[from] confusion
+  move|p2a: Weezing|Strange Steam|p1a: Kilowattrel
+  -damage|p1a: Kilowattrel|0 fnt
+  faint|p1a: Kilowattrel
+  -heal|p2a: Weezing|97/100|[from] item: Leftovers
+  switch|p1a: Zangoose|Zangoose, L85, M|263/263
+-- turn 18
+  WE CHOSE: attack facade - our hp 1.00, theirs 0.97, predicted move (revealed) hits us x1
+  move|p1a: Zangoose|Facade|p2a: Weezing
+  -damage|p2a: Weezing|69/100
+  move|p2a: Weezing|Strange Steam|p1a: Zangoose
+  -damage|p1a: Zangoose|154/263
+  -heal|p2a: Weezing|75/100|[from] item: Leftovers
+  -status|p1a: Zangoose|tox|[from] item: Toxic Orb
+-- turn 19
+  WE CHOSE: attack facade - our hp 0.59, theirs 0.75, predicted move (revealed) hits us x1
+  move|p1a: Zangoose|Facade|p2a: Weezing
+  -damage|p2a: Weezing|0 fnt
+  faint|p2a: Weezing
+  -damage|p1a: Zangoose|138/263 tox|[from] psn
+  switch|p2a: Stantler|Stantler, L91, M|100/100
+  -ability|p2a: Stantler|Intimidate|boost
+  -unboost|p1a: Zangoose|atk|1
+-- turn 20
+  WE CHOSE: attack facade - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Zangoose
+  -crit|p1a: Zangoose
+  -damage|p1a: Zangoose|0 fnt
+  faint|p1a: Zangoose
+  deinit

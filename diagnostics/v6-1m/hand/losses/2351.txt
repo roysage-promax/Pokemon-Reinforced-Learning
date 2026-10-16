@@ -1,0 +1,214 @@
+battle 2351 (battle-gen9randombattle-1028445): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  falinks (fainted; item lifeorb, ability defiant; moves ironhead/noretreat/closecombat/knockoff)
+  ursaring (fainted; item toxicorb, ability quickfeet; moves facade/closecombat/throatchop/swordsdance)
+  sunflora (fainted; item lifeorb, ability chlorophyll; moves solarbeam/sunnyday/earthpower/weatherball)
+  manaphy (fainted; item leftovers, ability hydration; moves energyball/surf/icebeam/tailglow)
+  toxtricity (fainted; item choicespecs, ability punkrock; moves sludgewave/voltswitch/overdrive/boomburst)
+  chansey (fainted; item eviolite, ability naturalcure; moves softboiled/seismictoss/healbell/thunderwave)
+theirs (as seen):
+  leafeon (fainted; item leftovers, ability ?; moves doubleedge)
+  brutebonnet (fainted; item unknown_item, ability protosynthesis; moves -)
+  ironmoth (fainted; item unknown_item, ability quarkdrive; moves sludgewave)
+  archaludon (fainted; item unknown_item, ability stamina; moves dracometeor)
+  mausholdfour (fainted; item unknown_item, ability ?; moves bite)
+  hippowdon (52%; item leftovers, ability ?; moves stoneedge/earthquake)
+
+-- turn 0
+  switch|p1a: Falinks|Falinks, L84|246/246
+  switch|p2a: Leafeon|Leafeon, L88, F|100/100
+-- turn 1
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Leafeon|Double-Edge|p1a: Falinks
+  -damage|p1a: Falinks|157/246
+  -damage|p2a: Leafeon|89/100|[from] Recoil
+  move|p1a: Falinks|Close Combat|p2a: Leafeon
+  -damage|p2a: Leafeon|44/100
+  -unboost|p1a: Falinks|def|1
+  -unboost|p1a: Falinks|spd|1
+  -damage|p1a: Falinks|133/246|[from] item: Life Orb
+  -heal|p2a: Leafeon|50/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack closecombat - our hp 0.54, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to toxtricity - our hp 0.00, theirs 0.39, predicted move (revealed) hits us x1
+  move|p2a: Leafeon|Double-Edge|p1a: Falinks
+  -damage|p1a: Falinks|0 fnt
+  faint|p1a: Falinks
+  -damage|p2a: Leafeon|33/100|[from] Recoil
+  -heal|p2a: Leafeon|39/100|[from] item: Leftovers
+  switch|p1a: Toxtricity|Toxtricity, L82, M|257/257
+-- turn 3
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x1
+  move|p2a: Leafeon|Double-Edge|p1a: Toxtricity
+  -damage|p1a: Toxtricity|127/257
+  -damage|p2a: Leafeon|23/100|[from] Recoil
+  move|p1a: Toxtricity|Sludge Wave|p2a: Leafeon
+  -supereffective|p2a: Leafeon
+  -damage|p2a: Leafeon|0 fnt
+  faint|p2a: Leafeon
+  switch|p2a: Brute Bonnet|Brute Bonnet, L80|100/100
+-- turn 4
+  WE CHOSE: attack sludgewave - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Toxtricity|Sludge Wave|p2a: Brute Bonnet
+  -supereffective|p2a: Brute Bonnet
+  -damage|p2a: Brute Bonnet|0 fnt
+  faint|p2a: Brute Bonnet
+  -end|p2a: Brute Bonnet|Protosynthesis|[silent]
+  switch|p2a: Iron Moth|Iron Moth, L78|100/100
+-- turn 5
+  WE CHOSE: attack sludgewave - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Iron Moth|Sludge Wave|p1a: Toxtricity
+  -resisted|p1a: Toxtricity
+  -damage|p1a: Toxtricity|16/257
+  move|p1a: Toxtricity|Sludge Wave|p2a: Iron Moth
+  -resisted|p2a: Iron Moth
+  -damage|p2a: Iron Moth|70/100
+-- turn 6
+  WE CHOSE: attack sludgewave - our hp 0.06, theirs 0.70, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to manaphy - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Moth|Sludge Wave|p1a: Toxtricity
+  -resisted|p1a: Toxtricity
+  -damage|p1a: Toxtricity|0 fnt
+  faint|p1a: Toxtricity
+  switch|p1a: Manaphy|Manaphy, L78|284/284
+-- turn 7
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Iron Moth|Sludge Wave|p1a: Manaphy
+  -damage|p1a: Manaphy|104/284
+  move|p1a: Manaphy|Surf|p2a: Iron Moth
+  -supereffective|p2a: Iron Moth
+  -damage|p2a: Iron Moth|11/100
+  -heal|p1a: Manaphy|121/284|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack surf - our hp 0.43, theirs 0.11, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to sunflora - our hp 0.00, theirs 0.11, predicted move (revealed) hits us x1
+  move|p2a: Iron Moth|Sludge Wave|p1a: Manaphy
+  -damage|p1a: Manaphy|0 fnt
+  faint|p1a: Manaphy
+  switch|p1a: Sunflora|Sunflora, M|312/312
+-- turn 9
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to ursaring - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x2
+  move|p2a: Iron Moth|Sludge Wave|p1a: Sunflora
+  -supereffective|p1a: Sunflora
+  -damage|p1a: Sunflora|12/312
+  move|p1a: Sunflora|Earth Power|p2a: Iron Moth
+  -supereffective|p2a: Iron Moth
+  -damage|p2a: Iron Moth|0 fnt
+  faint|p2a: Iron Moth
+  -end|p2a: Iron Moth|Quark Drive|[silent]
+  -damage|p1a: Sunflora|0 fnt|[from] item: Life Orb
+  faint|p1a: Sunflora
+  switch|p2a: Archaludon|Archaludon, L77, M|100/100
+  switch|p1a: Ursaring|Ursaring, L84, M|288/288
+-- turn 10
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Archaludon|Draco Meteor|p1a: Ursaring
+  -damage|p1a: Ursaring|123/288
+  -unboost|p2a: Archaludon|spa|2
+  move|p1a: Ursaring|Close Combat|p2a: Archaludon
+  -supereffective|p2a: Archaludon
+  -damage|p2a: Archaludon|33/100
+  -unboost|p1a: Ursaring|def|1
+  -unboost|p1a: Ursaring|spd|1
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  -status|p1a: Ursaring|tox|[from] item: Toxic Orb
+-- turn 11
+  WE CHOSE: attack closecombat - our hp 0.43, theirs 0.33, predicted move (revealed) hits us x1
+  move|p1a: Ursaring|Close Combat|p2a: Archaludon
+  -supereffective|p2a: Archaludon
+  -damage|p2a: Archaludon|0 fnt
+  -unboost|p1a: Ursaring|def|1
+  -unboost|p1a: Ursaring|spd|1
+  faint|p2a: Archaludon
+  -damage|p1a: Ursaring|105/288 tox|[from] psn
+  switch|p2a: Maushold|Maushold-Four, L76|100/100
+-- turn 12
+  WE CHOSE: attack closecombat - our hp 0.36, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to chansey - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Maushold|Bite|p1a: Ursaring
+  -damage|p1a: Ursaring|2/288 tox
+  move|p1a: Ursaring|Close Combat|p2a: Maushold
+  -supereffective|p2a: Maushold
+  -damage|p2a: Maushold|0 fnt
+  -unboost|p1a: Ursaring|def|1
+  -unboost|p1a: Ursaring|spd|1
+  faint|p2a: Maushold
+  -damage|p1a: Ursaring|0 fnt|[from] psn
+  faint|p1a: Ursaring
+  switch|p2a: Hippowdon|Hippowdon, L82, F|100/100
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+-- turn 13
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+  move|p2a: Hippowdon|Stone Edge|p1a: Chansey
+  -damage|p1a: Chansey|401/564
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Chansey|366/564|[from] Sandstorm
+-- turn 14
+  WE CHOSE: heal softboiled - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+  move|p2a: Hippowdon|Stone Edge|p1a: Chansey
+  -damage|p1a: Chansey|378/564
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Chansey|343/564|[from] Sandstorm
+-- turn 15
+  WE CHOSE: heal softboiled - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+  move|p2a: Hippowdon|Stone Edge|p1a: Chansey
+  -damage|p1a: Chansey|399/564
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Chansey|364/564|[from] Sandstorm
+-- turn 16
+  WE CHOSE: heal softboiled - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+  move|p2a: Hippowdon|Stone Edge|p1a: Chansey
+  -damage|p1a: Chansey|399/564
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Chansey|364/564|[from] Sandstorm
+-- turn 17
+  WE CHOSE: heal softboiled - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+  move|p2a: Hippowdon|Stone Edge|p1a: Chansey
+  -damage|p1a: Chansey|382/564
+  -weather|none
+-- turn 18
+  WE CHOSE: heal softboiled - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+  move|p2a: Hippowdon|Stone Edge|p1a: Chansey
+  -damage|p1a: Chansey|390/564
+-- turn 19
+  WE CHOSE: heal softboiled - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+  move|p2a: Hippowdon|Stone Edge|p1a: Chansey
+  -damage|p1a: Chansey|399/564
+-- turn 20
+  WE CHOSE: heal softboiled - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+  move|p2a: Hippowdon|Stone Edge|p1a: Chansey
+  -damage|p1a: Chansey|384/564
+-- turn 21
+  WE CHOSE: attack seismictoss - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Seismic Toss|p2a: Hippowdon
+  -damage|p2a: Hippowdon|73/100
+  move|p2a: Hippowdon|Earthquake|p1a: Chansey
+  -damage|p1a: Chansey|126/564
+  -heal|p2a: Hippowdon|79/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack seismictoss - our hp 0.22, theirs 0.79, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Seismic Toss|p2a: Hippowdon
+  -damage|p2a: Hippowdon|52/100
+  move|p2a: Hippowdon|Earthquake|p1a: Chansey
+  -damage|p1a: Chansey|0 fnt
+  faint|p1a: Chansey

@@ -1,0 +1,367 @@
+battle 2137 (battle-gen9randombattle-1028011): lost in 42 turns, 1 of theirs left; we are p1
+
+ours:
+  electivire (fainted; item lifeorb, ability motordrive; moves icepunch/bulkup/supercellslam/earthquake)
+  polteageist (fainted; item ?, ability cursedbody; moves strengthsap/storedpower/shellsmash/shadowball)
+  ragingbolt (fainted; item leftovers, ability protosynthesis; moves thunderclap/dracometeor/thunderbolt/calmmind)
+  feraligatr (fainted; item lifeorb, ability sheerforce, tera dark; moves icepunch/crunch/liquidation/dragondance)
+  landorustherian (fainted; item leftovers, ability intimidate; moves stoneedge/stealthrock/earthquake/taunt)
+  furret (fainted; item choiceband, ability frisk; moves uturn/doubleedge/knockoff/trick)
+theirs (as seen):
+  pincurchin (fainted; item leftovers, ability ?; moves liquidation)
+  orthworm (fainted; item unknown_item, ability eartheater; moves irontail)
+  kricketune (fainted; item unknown_item, ability ?; moves -)
+  urshifu (fainted; item lifeorb, ability unseenfist; moves closecombat/poisonjab/wickedblow)
+  garganacl (fainted; item leftovers, ability ?; moves bodypress)
+  tatsugiri (12%; item unknown_item, ability ?; moves dracometeor)
+
+-- turn 0
+  switch|p1a: Electivire|Electivire, L84, M|263/263
+  switch|p2a: Pincurchin|Pincurchin, F|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+-- turn 1
+  WE CHOSE: setup bulkup - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Electivire|Bulk Up|p1a: Electivire
+  -boost|p1a: Electivire|atk|1
+  -boost|p1a: Electivire|def|1
+  move|p2a: Pincurchin|Liquidation|p1a: Electivire
+  -damage|p1a: Electivire|189/263
+-- turn 2
+  WE CHOSE: switch to ragingbolt (hand policy: attack earthquake) - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Raging Bolt|Raging Bolt, L78|323/323
+  move|p2a: Pincurchin|Liquidation|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|278/323
+  -heal|p1a: Raging Bolt|298/323|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: setup calmmind - our hp 0.92, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+  -boost|p1a: Raging Bolt|spa|1
+  -boost|p1a: Raging Bolt|spd|1
+  move|p2a: Pincurchin|Liquidation|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|253/323
+  -heal|p1a: Raging Bolt|273/323|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: setup calmmind - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+  -boost|p1a: Raging Bolt|spa|1
+  -boost|p1a: Raging Bolt|spd|1
+  move|p2a: Pincurchin|Liquidation|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|231/323
+  -unboost|p1a: Raging Bolt|def|1
+  -heal|p1a: Raging Bolt|251/323|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack dracometeor - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Raging Bolt|Draco Meteor|p2a: Pincurchin
+  -damage|p2a: Pincurchin|1/100
+  -unboost|p1a: Raging Bolt|spa|2
+  move|p2a: Pincurchin|Liquidation|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|183/323
+  -heal|p1a: Raging Bolt|203/323|[from] item: Leftovers
+  -heal|p2a: Pincurchin|7/100|[from] item: Leftovers
+  -fieldend|move: Electric Terrain
+-- turn 6
+  WE CHOSE: attack dracometeor (hand policy: setup calmmind) - our hp 0.63, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p1a: Raging Bolt|Draco Meteor|p2a: Pincurchin
+  -damage|p2a: Pincurchin|0 fnt
+  -unboost|p1a: Raging Bolt|spa|2
+  faint|p2a: Pincurchin
+  -heal|p1a: Raging Bolt|223/323|[from] item: Leftovers
+  switch|p2a: Orthworm|Orthworm, L88, F|100/100
+-- turn 7
+  WE CHOSE: setup calmmind - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Orthworm|Iron Tail|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|141/323
+  move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+  -boost|p1a: Raging Bolt|spa|1
+  -boost|p1a: Raging Bolt|spd|1
+  -heal|p1a: Raging Bolt|161/323|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: setup calmmind (hand policy: attack+tera thunderbolt) - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Orthworm|Iron Tail|p1a: Raging Bolt|[miss]
+  -miss|p2a: Orthworm|p1a: Raging Bolt
+  move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+  -boost|p1a: Raging Bolt|spa|1
+  -boost|p1a: Raging Bolt|spd|1
+  -heal|p1a: Raging Bolt|181/323|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: setup calmmind - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Orthworm|Iron Tail|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|91/323
+  -unboost|p1a: Raging Bolt|def|1
+  move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+  -boost|p1a: Raging Bolt|spa|1
+  -boost|p1a: Raging Bolt|spd|1
+  -heal|p1a: Raging Bolt|111/323|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack thunderbolt (hand policy: attack+tera thunderbolt) - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to electivire (hand policy: forced: switch to landorustherian) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Orthworm|Iron Tail|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|0 fnt
+  faint|p1a: Raging Bolt
+  -end|p1a: Raging Bolt|Protosynthesis|[silent]
+  switch|p1a: Electivire|Electivire, L84, M|189/263
+-- turn 11
+  WE CHOSE: setup bulkup - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Electivire|Bulk Up|p1a: Electivire
+  -boost|p1a: Electivire|atk|1
+  -boost|p1a: Electivire|def|1
+  move|p2a: Orthworm|Iron Tail|p1a: Electivire
+  -resisted|p1a: Electivire
+  -damage|p1a: Electivire|149/263
+  -unboost|p1a: Electivire|def|1
+-- turn 12
+  WE CHOSE: attack earthquake (hand policy: setup bulkup) - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Electivire|Earthquake|p2a: Orthworm
+  -immune|p2a: Orthworm|[from] ability: Earth Eater
+  move|p2a: Orthworm|Iron Tail|p1a: Electivire|[miss]
+  -miss|p2a: Orthworm|p1a: Electivire
+-- turn 13
+  WE CHOSE: attack earthquake (hand policy: setup bulkup) - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Electivire|Earthquake|p2a: Orthworm
+  -immune|p2a: Orthworm|[from] ability: Earth Eater
+  move|p2a: Orthworm|Iron Tail|p1a: Electivire|[miss]
+  -miss|p2a: Orthworm|p1a: Electivire
+-- turn 14
+  WE CHOSE: attack earthquake (hand policy: setup bulkup) - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Electivire|Earthquake|p2a: Orthworm
+  -immune|p2a: Orthworm|[from] ability: Earth Eater
+  move|p2a: Orthworm|Iron Tail|p1a: Electivire|[miss]
+  -miss|p2a: Orthworm|p1a: Electivire
+-- turn 15
+  WE CHOSE: attack earthquake (hand policy: setup bulkup) - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Electivire|Earthquake|p2a: Orthworm
+  -immune|p2a: Orthworm|[from] ability: Earth Eater
+  move|p2a: Orthworm|Iron Tail|p1a: Electivire
+  -resisted|p1a: Electivire
+  -damage|p1a: Electivire|88/263
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Electivire|Earthquake|p2a: Orthworm
+  -immune|p2a: Orthworm|[from] ability: Earth Eater
+  move|p2a: Orthworm|Iron Tail|p1a: Electivire
+  -resisted|p1a: Electivire
+  -damage|p1a: Electivire|22/263
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 0.08, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to feraligatr (hand policy: forced: switch to landorustherian) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Electivire|Earthquake|p2a: Orthworm
+  -immune|p2a: Orthworm|[from] ability: Earth Eater
+  move|p2a: Orthworm|Iron Tail|p1a: Electivire
+  -resisted|p1a: Electivire
+  -damage|p1a: Electivire|0 fnt
+  faint|p1a: Electivire
+  switch|p1a: Feraligatr|Feraligatr, L79, M|264/264
+-- turn 18
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+  -boost|p1a: Feraligatr|atk|1
+  -boost|p1a: Feraligatr|spe|1
+  move|p2a: Orthworm|Iron Tail|p1a: Feraligatr|[miss]
+  -miss|p2a: Orthworm|p1a: Feraligatr
+-- turn 19
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+  -boost|p1a: Feraligatr|atk|1
+  -boost|p1a: Feraligatr|spe|1
+  move|p2a: Orthworm|Iron Tail|p1a: Feraligatr
+  -resisted|p1a: Feraligatr
+  -crit|p1a: Feraligatr
+  -damage|p1a: Feraligatr|187/264
+-- turn 20
+  WE CHOSE: attack icepunch (hand policy: attack liquidation) - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Feraligatr|Ice Punch|p2a: Orthworm
+  -resisted|p2a: Orthworm
+  -damage|p2a: Orthworm|79/100
+  move|p2a: Orthworm|Iron Tail|p1a: Feraligatr|[miss]
+  -miss|p2a: Orthworm|p1a: Feraligatr
+-- turn 21
+  WE CHOSE: attack liquidation - our hp 0.71, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p1a: Feraligatr|Liquidation|p2a: Orthworm
+  -damage|p2a: Orthworm|13/100
+  move|p2a: Orthworm|Iron Tail|p1a: Feraligatr|[miss]
+  -miss|p2a: Orthworm|p1a: Feraligatr
+-- turn 22
+  WE CHOSE: attack liquidation - our hp 0.71, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Feraligatr|Liquidation|p2a: Orthworm
+  -damage|p2a: Orthworm|0 fnt
+  faint|p2a: Orthworm
+  switch|p2a: Kricketune|Kricketune, L99, F|100/100
+-- turn 23
+  WE CHOSE: attack+tera liquidation - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Feraligatr|Dark
+  move|p1a: Feraligatr|Liquidation|p2a: Kricketune
+  -damage|p2a: Kricketune|0 fnt
+  faint|p2a: Kricketune
+  switch|p2a: Urshifu|Urshifu, L74, F|100/100
+-- turn 24
+  WE CHOSE: switch to polteageist - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Polteageist|Polteageist, L78|222/222
+  move|p2a: Urshifu|Close Combat|p1a: Polteageist
+  -immune|p1a: Polteageist
+-- turn 25
+  WE CHOSE: setup shellsmash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Urshifu|Close Combat|p1a: Polteageist
+  -immune|p1a: Polteageist
+  move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+  -unboost|p1a: Polteageist|def|1
+  -unboost|p1a: Polteageist|spd|1
+  -boost|p1a: Polteageist|atk|2
+  -boost|p1a: Polteageist|spa|2
+  -boost|p1a: Polteageist|spe|2
+  -enditem|p1a: Polteageist|White Herb
+  -clearnegativeboost|p1a: Polteageist|[silent]
+-- turn 26
+  WE CHOSE: setup shellsmash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+  -unboost|p1a: Polteageist|def|1
+  -unboost|p1a: Polteageist|spd|1
+  -boost|p1a: Polteageist|atk|2
+  -boost|p1a: Polteageist|spa|2
+  -boost|p1a: Polteageist|spe|2
+  move|p2a: Urshifu|Close Combat|p1a: Polteageist
+  -immune|p1a: Polteageist
+-- turn 27
+  WE CHOSE: heal strengthsap (hand policy: setup shellsmash) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Polteageist|Strength Sap|p2a: Urshifu
+  -unboost|p2a: Urshifu|atk|1
+  move|p2a: Urshifu|Close Combat|p1a: Polteageist
+  -immune|p1a: Polteageist
+-- turn 28
+  WE CHOSE: heal strengthsap (hand policy: setup shellsmash) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Polteageist|Strength Sap|p2a: Urshifu
+  -unboost|p2a: Urshifu|atk|1
+  move|p2a: Urshifu|Close Combat|p1a: Polteageist
+  -immune|p1a: Polteageist
+-- turn 29
+  WE CHOSE: heal strengthsap (hand policy: setup shellsmash) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Polteageist|Strength Sap|p2a: Urshifu
+  -unboost|p2a: Urshifu|atk|1
+  move|p2a: Urshifu|Close Combat|p1a: Polteageist
+  -immune|p1a: Polteageist
+-- turn 30
+  WE CHOSE: heal strengthsap (hand policy: setup shellsmash) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Polteageist|Strength Sap|p2a: Urshifu
+  -unboost|p2a: Urshifu|atk|1
+  move|p2a: Urshifu|Close Combat|p1a: Polteageist
+  -immune|p1a: Polteageist
+-- turn 31
+  WE CHOSE: heal strengthsap (hand policy: setup shellsmash) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Polteageist|Strength Sap|p2a: Urshifu
+  -unboost|p2a: Urshifu|atk|1
+  move|p2a: Urshifu|Close Combat|p1a: Polteageist
+  -immune|p1a: Polteageist
+-- turn 32
+  WE CHOSE: heal strengthsap (hand policy: setup shellsmash) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Polteageist|Strength Sap|p2a: Urshifu
+  -unboost|p2a: Urshifu|atk|1
+  move|p2a: Urshifu|Poison Jab|p1a: Polteageist
+  -resisted|p1a: Polteageist
+  -damage|p1a: Polteageist|204/222
+  -status|p1a: Polteageist|psn
+  -damage|p2a: Urshifu|90/100|[from] item: Life Orb
+  -damage|p1a: Polteageist|177/222 psn|[from] psn
+-- turn 33
+  WE CHOSE: heal strengthsap (hand policy: setup shellsmash) - our hp 0.80, theirs 0.90, predicted move (revealed) hits us x0
+  move|p1a: Polteageist|Strength Sap||[still]
+  -fail|p1a: Polteageist
+  move|p2a: Urshifu|Poison Jab|p1a: Polteageist
+  -resisted|p1a: Polteageist
+  -damage|p1a: Polteageist|159/222 psn
+  -start|p2a: Urshifu|Disable|Poison Jab|[from] ability: Cursed Body|[of] p1a: Polteageist
+  -damage|p2a: Urshifu|80/100|[from] item: Life Orb
+  -damage|p1a: Polteageist|132/222 psn|[from] psn
+-- turn 34
+  WE CHOSE: heal strengthsap (hand policy: setup shellsmash) - our hp 0.59, theirs 0.80, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to landorustherian - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x0
+  move|p1a: Polteageist|Strength Sap||[still]
+  -fail|p1a: Polteageist
+  move|p2a: Urshifu|Wicked Blow|p1a: Polteageist
+  -supereffective|p1a: Polteageist
+  -crit|p1a: Polteageist
+  -damage|p1a: Polteageist|0 fnt
+  faint|p1a: Polteageist
+  -damage|p2a: Urshifu|70/100|[from] item: Life Orb
+  switch|p1a: Landorus|Landorus-Therian, L76, M|260/260
+  -ability|p1a: Landorus|Intimidate|boost
+  -unboost|p2a: Urshifu|atk|0
+-- turn 35
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p2a: Urshifu|Wicked Blow|p1a: Landorus
+  -crit|p1a: Landorus
+  -damage|p1a: Landorus|96/260
+  -damage|p2a: Urshifu|60/100|[from] item: Life Orb
+  move|p1a: Landorus|Earthquake|p2a: Urshifu
+  -damage|p2a: Urshifu|17/100
+  -heal|p1a: Landorus|112/260|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack earthquake - our hp 0.43, theirs 0.17, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to furret - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p2a: Urshifu|Wicked Blow|p1a: Landorus
+  -crit|p1a: Landorus
+  -damage|p1a: Landorus|0 fnt
+  faint|p1a: Landorus
+  -damage|p2a: Urshifu|7/100|[from] item: Life Orb
+  -end|p2a: Urshifu|Disable
+  switch|p1a: Furret|Furret, L94, M|312/312
+  -item|p2a: Urshifu|Life Orb|[from] ability: Frisk|[of] p1a: Furret
+-- turn 37
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x2
+  move|p1a: Furret|Double-Edge|p2a: Urshifu
+  -damage|p2a: Urshifu|0 fnt
+  faint|p2a: Urshifu
+  -damage|p1a: Furret|306/312|[from] Recoil
+  switch|p2a: Garganacl|Garganacl, L80, F|100/100
+-- turn 38
+  WE CHOSE: switch to feraligatr (hand policy: attack doubleedge) - our hp 0.98, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Feraligatr|Feraligatr, L79, M, tera:Dark|187/264
+  move|p2a: Garganacl|Body Press|p1a: Feraligatr
+  -supereffective|p1a: Feraligatr
+  -damage|p1a: Feraligatr|71/264
+-- turn 39
+  WE CHOSE: attack liquidation - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to furret - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x2
+  move|p1a: Feraligatr|Liquidation|p2a: Garganacl
+  -supereffective|p2a: Garganacl
+  -damage|p2a: Garganacl|28/100
+  move|p2a: Garganacl|Body Press|p1a: Feraligatr
+  -supereffective|p1a: Feraligatr
+  -damage|p1a: Feraligatr|0 fnt
+  faint|p1a: Feraligatr
+  -heal|p2a: Garganacl|34/100|[from] item: Leftovers
+  switch|p1a: Furret|Furret, L94, M|306/312
+  -item|p2a: Garganacl|Leftovers|[from] ability: Frisk|[of] p1a: Furret
+-- turn 40
+  WE CHOSE: attack doubleedge - our hp 0.98, theirs 0.34, predicted move (revealed) hits us x2
+  move|p1a: Furret|Double-Edge|p2a: Garganacl
+  -resisted|p2a: Garganacl
+  -damage|p2a: Garganacl|8/100
+  -damage|p1a: Furret|281/312|[from] Recoil
+  move|p2a: Garganacl|Body Press|p1a: Furret
+  -supereffective|p1a: Furret
+  -damage|p1a: Furret|131/312
+  -heal|p2a: Garganacl|15/100|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: attack doubleedge - our hp 0.42, theirs 0.15, predicted move (revealed) hits us x2
+  move|p1a: Furret|Double-Edge|p2a: Garganacl
+  -resisted|p2a: Garganacl
+  -damage|p2a: Garganacl|0 fnt
+  faint|p2a: Garganacl
+  -damage|p1a: Furret|117/312|[from] Recoil
+  switch|p2a: Tatsugiri|Tatsugiri, L87, F|100/100
+-- turn 42
+  WE CHOSE: attack doubleedge - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Furret|Double-Edge|p2a: Tatsugiri
+  -damage|p2a: Tatsugiri|12/100
+  -damage|p1a: Furret|41/312|[from] Recoil
+  move|p2a: Tatsugiri|Draco Meteor|p1a: Furret
+  -damage|p1a: Furret|0 fnt
+  -unboost|p2a: Tatsugiri|spa|2
+  faint|p1a: Furret
+  deinit

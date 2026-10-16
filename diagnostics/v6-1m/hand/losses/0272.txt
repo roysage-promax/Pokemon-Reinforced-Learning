@@ -1,0 +1,204 @@
+battle 272 (battle-gen9randombattle-1008782): lost in 22 turns, 2 of theirs left; we are p1
+
+ours:
+  donphan (fainted; item assaultvest, ability sturdy; moves icespinner/rapidspin/knockoff/earthquake)
+  hypno (fainted; item leftovers, ability insomnia, tera fighting; moves psychicnoise/toxic/focusblast/protect)
+  basculegionf (fainted; item choicespecs, ability adaptability; moves icebeam/shadowball/flipturn/hydropump)
+  vivillonhighplains (fainted; item heavydutyboots, ability compoundeyes; moves bugbuzz/sleeppowder/quiverdance/hurricane)
+  landorustherian (fainted; item leftovers, ability intimidate; moves uturn/stealthrock/earthquake/stoneedge)
+  porygonz (fainted; item lifeorb, ability adaptability; moves shadowball/terablast/agility/nastyplot)
+theirs (as seen):
+  keldeoresolute (fainted; item lifeorb, ability justified; moves hydropump)
+  rhydon (fainted; item unknown_item, ability ?; moves megahorn)
+  glaceon (fainted; item unknown_item, ability ?; moves freezedry)
+  phione (fainted; item leftovers, ability hydration; moves scald)
+  brambleghast (19%; item leftovers, ability windrider; moves powerwhip)
+
+-- turn 0
+  switch|p1a: Donphan|Donphan, L84, F|288/288
+  switch|p2a: Keldeo|Keldeo-Resolute, L79|100/100
+-- turn 1
+  WE CHOSE: switch to basculegionf - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Basculegion|Basculegion-F, L83, F|335/335
+  move|p2a: Keldeo|Hydro Pump|p1a: Basculegion|[miss]
+  -miss|p2a: Keldeo|p1a: Basculegion
+-- turn 2
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Keldeo|Hydro Pump|p1a: Basculegion|[miss]
+  -miss|p2a: Keldeo|p1a: Basculegion
+  move|p1a: Basculegion|Shadow Ball|p2a: Keldeo
+  -damage|p2a: Keldeo|29/100
+-- turn 3
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.29, predicted move (revealed) hits us x0.5
+  move|p2a: Keldeo|Hydro Pump|p1a: Basculegion
+  -resisted|p1a: Basculegion
+  -damage|p1a: Basculegion|231/335
+  -damage|p2a: Keldeo|20/100|[from] item: Life Orb
+  move|p1a: Basculegion|Shadow Ball|p2a: Keldeo
+  -damage|p2a: Keldeo|0 fnt
+  faint|p2a: Keldeo
+  switch|p2a: Rhydon|Rhydon, L85, F|100/100
+-- turn 4
+  WE CHOSE: attack shadowball - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Basculegion|Shadow Ball|p2a: Rhydon
+  -damage|p2a: Rhydon|42/100
+  -unboost|p2a: Rhydon|spd|1
+  move|p2a: Rhydon|Megahorn|p1a: Basculegion
+  -resisted|p1a: Basculegion
+  -damage|p1a: Basculegion|165/335
+-- turn 5
+  WE CHOSE: attack shadowball - our hp 0.49, theirs 0.42, predicted move (revealed) hits us x0.5
+  move|p1a: Basculegion|Shadow Ball|p2a: Rhydon
+  -damage|p2a: Rhydon|0 fnt
+  faint|p2a: Rhydon
+  switch|p2a: Glaceon|Glaceon, L94, F|100/100
+-- turn 6
+  WE CHOSE: attack shadowball - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to hypno - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x0.5
+  move|p1a: Basculegion|Shadow Ball|p2a: Glaceon
+  -damage|p2a: Glaceon|50/100
+  -unboost|p2a: Glaceon|spd|1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Basculegion
+  -supereffective|p1a: Basculegion
+  -damage|p1a: Basculegion|0 fnt
+  faint|p1a: Basculegion
+  switch|p1a: Hypno|Hypno, L95, F|315/315
+-- turn 7
+  WE CHOSE: attack+tera focusblast - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x1
+  -terastallize|p1a: Hypno|Fighting
+  move|p1a: Hypno|Focus Blast|p2a: Glaceon
+  -supereffective|p2a: Glaceon
+  -damage|p2a: Glaceon|0 fnt
+  faint|p2a: Glaceon
+  switch|p2a: Phione|Phione, L91|100/100
+-- turn 8
+  WE CHOSE: attack focusblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Phione|Scald|p1a: Hypno
+  -damage|p1a: Hypno|249/315
+  move|p1a: Hypno|Focus Blast|p2a: Phione
+  -damage|p2a: Phione|52/100
+  -heal|p2a: Phione|58/100|[from] item: Leftovers
+  -heal|p1a: Hypno|268/315|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack focusblast - our hp 0.85, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Phione|Scald|p1a: Hypno
+  -damage|p1a: Hypno|207/315
+  move|p1a: Hypno|Focus Blast|p2a: Phione|[miss]
+  -miss|p1a: Hypno|p2a: Phione
+  -heal|p2a: Phione|64/100|[from] item: Leftovers
+  -heal|p1a: Hypno|226/315|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack focusblast - our hp 0.72, theirs 0.64, predicted move (revealed) hits us x1
+  move|p2a: Phione|Scald|p1a: Hypno
+  -damage|p1a: Hypno|159/315
+  -status|p1a: Hypno|brn
+  move|p1a: Hypno|Focus Blast|p2a: Phione|[miss]
+  -miss|p1a: Hypno|p2a: Phione
+  -heal|p2a: Phione|70/100|[from] item: Leftovers
+  -heal|p1a: Hypno|178/315 brn|[from] item: Leftovers
+  -damage|p1a: Hypno|159/315 brn|[from] brn
+-- turn 11
+  WE CHOSE: attack focusblast - our hp 0.50, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Phione|Scald|p1a: Hypno
+  -damage|p1a: Hypno|99/315 brn
+  move|p1a: Hypno|Focus Blast|p2a: Phione
+  -damage|p2a: Phione|26/100
+  -heal|p2a: Phione|32/100|[from] item: Leftovers
+  -heal|p1a: Hypno|118/315 brn|[from] item: Leftovers
+  -damage|p1a: Hypno|99/315 brn|[from] brn
+-- turn 12
+  WE CHOSE: attack focusblast - our hp 0.31, theirs 0.32, predicted move (revealed) hits us x1
+  move|p2a: Phione|Scald|p1a: Hypno
+  -damage|p1a: Hypno|35/315 brn
+  move|p1a: Hypno|Focus Blast|p2a: Phione
+  -damage|p2a: Phione|0 fnt
+  faint|p2a: Phione
+  -heal|p1a: Hypno|54/315 brn|[from] item: Leftovers
+  -damage|p1a: Hypno|35/315 brn|[from] brn
+  switch|p2a: Brambleghast|Brambleghast, L88, F|100/100
+-- turn 13
+  WE CHOSE: attack psychicnoise - our hp 0.11, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to vivillonhighplains - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Brambleghast|Power Whip|p1a: Hypno
+  -damage|p1a: Hypno|0 fnt
+  faint|p1a: Hypno
+  switch|p1a: Vivillon|Vivillon-High Plains, L83, F|268/268
+-- turn 14
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Brambleghast|Power Whip|p1a: Vivillon
+  -resisted|p1a: Vivillon
+  -damage|p1a: Vivillon|206/268
+  move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+  -boost|p1a: Vivillon|spa|1
+  -boost|p1a: Vivillon|spd|1
+  -boost|p1a: Vivillon|spe|1
+-- turn 15
+  WE CHOSE: setup quiverdance - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+  -boost|p1a: Vivillon|spa|1
+  -boost|p1a: Vivillon|spd|1
+  -boost|p1a: Vivillon|spe|1
+  move|p2a: Brambleghast|Power Whip|p1a: Vivillon
+  -resisted|p1a: Vivillon
+  -damage|p1a: Vivillon|144/268
+-- turn 16
+  WE CHOSE: attack hurricane - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Vivillon|Hurricane|p2a: Brambleghast
+  -ability|p2a: Brambleghast|Wind Rider|boost
+  -boost|p2a: Brambleghast|atk|1
+  move|p2a: Brambleghast|Power Whip|p1a: Vivillon
+  -resisted|p1a: Vivillon
+  -damage|p1a: Vivillon|57/268
+-- turn 17
+  WE CHOSE: attack hurricane - our hp 0.21, theirs 1.00, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to porygonz - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Vivillon|Hurricane|p2a: Brambleghast
+  -ability|p2a: Brambleghast|Wind Rider|boost
+  -boost|p2a: Brambleghast|atk|1
+  move|p2a: Brambleghast|Power Whip|p1a: Vivillon
+  -resisted|p1a: Vivillon
+  -damage|p1a: Vivillon|0 fnt
+  faint|p1a: Vivillon
+  switch|p1a: Porygon-Z|Porygon-Z, L83|277/277
+-- turn 18
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to landorustherian - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Brambleghast|Power Whip|p1a: Porygon-Z
+  -damage|p1a: Porygon-Z|0 fnt
+  faint|p1a: Porygon-Z
+  switch|p1a: Landorus|Landorus-Therian, L76, M|260/260
+  -ability|p1a: Landorus|Intimidate|boost
+  -unboost|p2a: Brambleghast|atk|1
+-- turn 19
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Brambleghast|Power Whip|p1a: Landorus
+  -damage|p1a: Landorus|2/260
+  move|p1a: Landorus|Stone Edge|p2a: Brambleghast
+  -damage|p2a: Brambleghast|63/100
+  -heal|p2a: Brambleghast|70/100|[from] item: Leftovers
+  -heal|p1a: Landorus|18/260|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack stoneedge - our hp 0.07, theirs 0.70, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to donphan - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p2a: Brambleghast|Power Whip|p1a: Landorus
+  -damage|p1a: Landorus|0 fnt
+  faint|p1a: Landorus
+  -heal|p2a: Brambleghast|76/100|[from] item: Leftovers
+  switch|p1a: Donphan|Donphan, L84, F|288/288
+-- turn 21
+  WE CHOSE: attack icespinner - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x2
+  move|p2a: Brambleghast|Power Whip|p1a: Donphan
+  -supereffective|p1a: Donphan
+  -ability|p1a: Donphan|Sturdy
+  -damage|p1a: Donphan|1/288
+  move|p1a: Donphan|Ice Spinner|p2a: Brambleghast
+  -supereffective|p2a: Brambleghast
+  -damage|p2a: Brambleghast|13/100
+  -heal|p2a: Brambleghast|19/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack icespinner - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x2
+  move|p2a: Brambleghast|Power Whip|p1a: Donphan
+  -supereffective|p1a: Donphan
+  -damage|p1a: Donphan|0 fnt
+  faint|p1a: Donphan
+  deinit

@@ -1,0 +1,200 @@
+battle 220 (battle-gen9randombattle-1008292): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  slaking (fainted; item choicescarf, ability truant, tera normal; moves gigaimpact/earthquake/knockoff/doubleedge)
+  ragingbolt (fainted; item assaultvest, ability protosynthesis; moves thunderclap/voltswitch/dracometeor/thunderbolt)
+  ironbundle (fainted; item heavydutyboots, ability quarkdrive; moves hydropump/freezedry/icebeam/encore)
+  eelektross (fainted; item leftovers, ability levitate; moves knockoff/supercellslam/drainpunch/coil)
+  sableye (fainted; item leftovers, ability prankster; moves recover/encore/knockoff/willowisp)
+  inteleon (fainted; item choicespecs, ability torrent; moves icebeam/hydropump/scald/uturn)
+theirs (as seen):
+  skuntank (fainted; item unknown_item, ability aftermath; moves -)
+  galvantula (fainted; item unknown_item, ability ?; moves thunder)
+  bombirdier (fainted; item unknown_item, ability ?; moves bravebird)
+  arcanine (fainted; item unknown_item, ability intimidate; moves flareblitz)
+  breloom (fainted; item lifeorb, ability ?; moves rocktomb)
+  oranguru (53%; item unknown_item, ability ?; moves focusblast)
+
+-- turn 0
+  switch|p1a: Slaking|Slaking, L84, F|389/389
+  switch|p2a: Skuntank|Skuntank, L84, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera gigaimpact - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Slaking|Normal
+  move|p1a: Slaking|Giga Impact|p2a: Skuntank
+  -damage|p2a: Skuntank|0 fnt
+  -mustrecharge|p1a: Slaking
+  -damage|p1a: Slaking|292/389|[from] ability: Aftermath|[of] p2a: Skuntank
+  faint|p2a: Skuntank
+  switch|p2a: Galvantula|Galvantula, L82, F|100/100
+-- turn 2
+  WE CHOSE: attack gigaimpact - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x1
+  cant|p1a: Slaking|recharge
+  move|p2a: Galvantula|Thunder|p1a: Slaking
+  -damage|p1a: Slaking|156/389
+-- turn 3
+  WE CHOSE: attack gigaimpact - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Slaking|Giga Impact|p2a: Galvantula
+  -damage|p2a: Galvantula|0 fnt
+  -mustrecharge|p1a: Slaking
+  faint|p2a: Galvantula
+  switch|p2a: Bombirdier|Bombirdier, L85, F|100/100
+-- turn 4
+  WE CHOSE: attack gigaimpact - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x1
+  cant|p1a: Slaking|recharge
+  move|p2a: Bombirdier|Brave Bird|p1a: Slaking
+  -damage|p1a: Slaking|36/389
+  -damage|p2a: Bombirdier|85/100|[from] Recoil
+-- turn 5
+  WE CHOSE: attack gigaimpact - our hp 0.09, theirs 0.85, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to eelektross - our hp 0.00, theirs 0.80, predicted move (revealed) hits us x1
+  move|p1a: Slaking|Giga Impact|p2a: Bombirdier|[miss]
+  -miss|p1a: Slaking|p2a: Bombirdier
+  move|p2a: Bombirdier|Brave Bird|p1a: Slaking
+  -damage|p1a: Slaking|0 fnt
+  faint|p1a: Slaking
+  -damage|p2a: Bombirdier|80/100|[from] Recoil
+  switch|p1a: Eelektross|Eelektross, L87, M|290/290
+-- turn 6
+  WE CHOSE: setup coil - our hp 1.00, theirs 0.80, predicted move (revealed) hits us x0.5
+  move|p2a: Bombirdier|Brave Bird|p1a: Eelektross
+  -resisted|p1a: Eelektross
+  -damage|p1a: Eelektross|222/290
+  -damage|p2a: Bombirdier|72/100|[from] Recoil
+  move|p1a: Eelektross|Coil|p1a: Eelektross
+  -boost|p1a: Eelektross|atk|1
+  -boost|p1a: Eelektross|def|1
+  -boost|p1a: Eelektross|accuracy|1
+  -heal|p1a: Eelektross|240/290|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: setup coil - our hp 0.83, theirs 0.72, predicted move (revealed) hits us x0.5
+  move|p2a: Bombirdier|Brave Bird|p1a: Eelektross
+  -resisted|p1a: Eelektross
+  -crit|p1a: Eelektross
+  -damage|p1a: Eelektross|123/290
+  -damage|p2a: Bombirdier|57/100|[from] Recoil
+  move|p1a: Eelektross|Coil|p1a: Eelektross
+  -boost|p1a: Eelektross|atk|1
+  -boost|p1a: Eelektross|def|1
+  -boost|p1a: Eelektross|accuracy|1
+  -heal|p1a: Eelektross|141/290|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack supercellslam - our hp 0.49, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p2a: Bombirdier|Brave Bird|p1a: Eelektross
+  -resisted|p1a: Eelektross
+  -damage|p1a: Eelektross|104/290
+  -damage|p2a: Bombirdier|52/100|[from] Recoil
+  move|p1a: Eelektross|Supercell Slam|p2a: Bombirdier
+  -supereffective|p2a: Bombirdier
+  -damage|p2a: Bombirdier|0 fnt
+  faint|p2a: Bombirdier
+  -heal|p1a: Eelektross|122/290|[from] item: Leftovers
+  switch|p2a: Arcanine|Arcanine, L84, M|100/100
+  -ability|p2a: Arcanine|Intimidate|boost
+  -unboost|p1a: Eelektross|atk|1
+-- turn 9
+  WE CHOSE: switch to sableye - our hp 0.42, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Sableye|Sableye, L88, M|231/231
+  move|p2a: Arcanine|Flare Blitz|p1a: Sableye
+  -damage|p1a: Sableye|68/231
+  -damage|p2a: Arcanine|82/100|[from] Recoil
+  -heal|p1a: Sableye|82/231|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: heal recover - our hp 0.35, theirs 0.82, predicted move (revealed) hits us x1
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|198/231
+  move|p2a: Arcanine|Flare Blitz|p1a: Sableye
+  -damage|p1a: Sableye|39/231
+  -damage|p2a: Arcanine|64/100|[from] Recoil
+  -heal|p1a: Sableye|53/231|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: heal recover - our hp 0.23, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|169/231
+  move|p2a: Arcanine|Flare Blitz|p1a: Sableye
+  -damage|p1a: Sableye|28/231
+  -damage|p2a: Arcanine|47/100|[from] Recoil
+  -heal|p1a: Sableye|42/231|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: heal recover - our hp 0.18, theirs 0.47, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to inteleon - our hp 0.00, theirs 0.29, predicted move (revealed) hits us x1
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|158/231
+  move|p2a: Arcanine|Flare Blitz|p1a: Sableye
+  -damage|p1a: Sableye|0 fnt
+  faint|p1a: Sableye
+  -damage|p2a: Arcanine|29/100|[from] Recoil
+  switch|p1a: Inteleon|Inteleon, L81, M|246/246
+-- turn 13
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.29, predicted move (revealed) hits us x0.5
+  move|p1a: Inteleon|Hydro Pump|p2a: Arcanine
+  -supereffective|p2a: Arcanine
+  -damage|p2a: Arcanine|0 fnt
+  faint|p2a: Arcanine
+  switch|p2a: Breloom|Breloom, L83, F|100/100
+-- turn 14
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Inteleon|Hydro Pump|p2a: Breloom
+  -resisted|p2a: Breloom
+  -damage|p2a: Breloom|43/100
+  move|p2a: Breloom|Rock Tomb|p1a: Inteleon
+  -damage|p1a: Inteleon|120/246
+  -unboost|p1a: Inteleon|spe|1
+  -damage|p2a: Breloom|33/100|[from] item: Life Orb
+-- turn 15
+  WE CHOSE: attack hydropump - our hp 0.49, theirs 0.33, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ragingbolt - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Breloom|Rock Tomb|p1a: Inteleon
+  -damage|p1a: Inteleon|0 fnt
+  faint|p1a: Inteleon
+  -damage|p2a: Breloom|23/100|[from] item: Life Orb
+  switch|p1a: Raging Bolt|Raging Bolt, L78|323/323
+-- turn 16
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Breloom|Rock Tomb|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|206/323
+  -unboost|p1a: Raging Bolt|spe|1
+  -damage|p2a: Breloom|14/100|[from] item: Life Orb
+  move|p1a: Raging Bolt|Draco Meteor|p2a: Breloom
+  -damage|p2a: Breloom|0 fnt
+  -unboost|p1a: Raging Bolt|spa|2
+  faint|p2a: Breloom
+  switch|p2a: Oranguru|Oranguru, L92, F|100/100
+-- turn 17
+  WE CHOSE: attack dracometeor - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Oranguru|Focus Blast|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|112/323
+  -unboost|p1a: Raging Bolt|spd|1
+  move|p1a: Raging Bolt|Draco Meteor|p2a: Oranguru|[miss]
+  -miss|p1a: Raging Bolt|p2a: Oranguru
+-- turn 18
+  WE CHOSE: attack dracometeor - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to eelektross - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Oranguru|Focus Blast|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|0 fnt
+  faint|p1a: Raging Bolt
+  -end|p1a: Raging Bolt|Protosynthesis|[silent]
+  switch|p1a: Eelektross|Eelektross, L87, M|122/290
+-- turn 19
+  WE CHOSE: attack supercellslam - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironbundle - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Oranguru|Focus Blast|p1a: Eelektross
+  -damage|p1a: Eelektross|0 fnt
+  faint|p1a: Eelektross
+  switch|p1a: Iron Bundle|Iron Bundle, L78|215/215
+-- turn 20
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Iron Bundle|Ice Beam|p2a: Oranguru
+  -damage|p2a: Oranguru|76/100
+  move|p2a: Oranguru|Focus Blast|p1a: Iron Bundle|[miss]
+  -miss|p2a: Oranguru|p1a: Iron Bundle
+-- turn 21
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x2
+  move|p1a: Iron Bundle|Ice Beam|p2a: Oranguru
+  -damage|p2a: Oranguru|53/100
+  move|p2a: Oranguru|Focus Blast|p1a: Iron Bundle
+  -supereffective|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|0 fnt
+  faint|p1a: Iron Bundle
+  -end|p1a: Iron Bundle|Quark Drive|[silent]
+  deinit

@@ -1,0 +1,252 @@
+battle 591 (battle-gen9randombattle-1012286): lost in 29 turns, 4 of theirs left; we are p1
+
+ours:
+  stonjourner (fainted; item lifeorb, ability powerspot; moves rockpolish/heatcrash/earthquake/stoneedge)
+  illumise (fainted; item heavydutyboots, ability prankster, tera water; moves encore/bugbuzz/roost/thunderwave)
+  gengar (fainted; item lifeorb, ability cursedbody; moves focusblast/shadowball/sludgewave/willowisp)
+  ironbundle (fainted; item heavydutyboots, ability quarkdrive; moves flipturn/hydropump/freezedry/encore)
+  magcargo (fainted; item heavydutyboots, ability flamebody; moves recover/powergem/lavaplume/stealthrock)
+  manaphy (fainted; item leftovers, ability hydration; moves hydropump/energyball/icebeam/tailglow)
+theirs (as seen):
+  donphan (fainted; item leftovers, ability ?; moves earthquake)
+  volcanion (fainted; item unknown_item, ability waterabsorb; moves steameruption/earthpower/flamethrower)
+  arboliva (94%; item unknown_item, ability ?; moves energyball/earthpower)
+
+-- turn 0
+  switch|p1a: Stonjourner|Stonjourner, L91, M|330/330
+  switch|p2a: Donphan|Donphan, L84, M|100/100
+-- turn 1
+  WE CHOSE: switch to illumise - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Illumise|Illumise, L91, F|266/266
+  move|p2a: Donphan|Earthquake|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|198/266
+-- turn 2
+  WE CHOSE: attack bugbuzz - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Donphan
+  -damage|p2a: Donphan|61/100
+  move|p2a: Donphan|Earthquake|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|132/266
+  -heal|p2a: Donphan|67/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack bugbuzz (hand policy: heal roost) - our hp 0.50, theirs 0.67, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Donphan
+  -damage|p2a: Donphan|26/100
+  move|p2a: Donphan|Earthquake|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|69/266
+  -heal|p2a: Donphan|32/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack bugbuzz (hand policy: heal roost) - our hp 0.26, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Donphan
+  -damage|p2a: Donphan|0 fnt
+  faint|p2a: Donphan
+  switch|p2a: Volcanion|Volcanion, L79|100/100
+-- turn 5
+  WE CHOSE: heal roost - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|202/266
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Illumise
+  -damage|p1a: Illumise|81/266
+  -status|p1a: Illumise|brn
+  -damage|p1a: Illumise|65/266 brn|[from] brn
+-- turn 6
+  WE CHOSE: heal roost - our hp 0.24, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|198/266 brn
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Illumise
+  -damage|p1a: Illumise|78/266 brn
+  -damage|p1a: Illumise|62/266 brn|[from] brn
+-- turn 7
+  WE CHOSE: heal roost - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|195/266 brn
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Illumise
+  -damage|p1a: Illumise|81/266 brn
+  -damage|p1a: Illumise|65/266 brn|[from] brn
+-- turn 8
+  WE CHOSE: heal roost - our hp 0.24, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|198/266 brn
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Illumise
+  -damage|p1a: Illumise|65/266 brn
+  -damage|p1a: Illumise|49/266 brn|[from] brn
+-- turn 9
+  WE CHOSE: heal roost - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|182/266 brn
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Illumise
+  -damage|p1a: Illumise|55/266 brn
+  -damage|p1a: Illumise|39/266 brn|[from] brn
+-- turn 10
+  WE CHOSE: heal roost - our hp 0.15, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|172/266 brn
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Illumise
+  -damage|p1a: Illumise|40/266 brn
+  -damage|p1a: Illumise|24/266 brn|[from] brn
+-- turn 11
+  WE CHOSE: heal roost - our hp 0.09, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|157/266 brn
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Illumise
+  -damage|p1a: Illumise|36/266 brn
+  -damage|p1a: Illumise|20/266 brn|[from] brn
+-- turn 12
+  WE CHOSE: heal roost - our hp 0.08, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|153/266 brn
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Illumise|[miss]
+  -miss|p2a: Volcanion|p1a: Illumise
+  -damage|p1a: Illumise|137/266 brn|[from] brn
+-- turn 13
+  WE CHOSE: attack+tera bugbuzz - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Illumise|Water
+  move|p1a: Illumise|Bug Buzz|p2a: Volcanion
+  -resisted|p2a: Volcanion
+  -damage|p2a: Volcanion|88/100
+  move|p2a: Volcanion|Earth Power|p1a: Illumise
+  -damage|p1a: Illumise|72/266 brn
+  -damage|p1a: Illumise|56/266 brn|[from] brn
+-- turn 14
+  WE CHOSE: attack bugbuzz - our hp 0.21, theirs 0.88, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ironbundle - our hp 0.00, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Volcanion
+  -resisted|p2a: Volcanion
+  -damage|p2a: Volcanion|75/100
+  -unboost|p2a: Volcanion|spd|1
+  move|p2a: Volcanion|Earth Power|p1a: Illumise
+  -damage|p1a: Illumise|0 fnt
+  faint|p1a: Illumise
+  switch|p1a: Iron Bundle|Iron Bundle, L78|215/215
+-- turn 15
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Bundle|Hydro Pump|p2a: Volcanion
+  -heal|p2a: Volcanion|99/100|[from] ability: Water Absorb|[of] p1a: Iron Bundle
+  move|p2a: Volcanion|Earth Power|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|109/215
+-- turn 16
+  WE CHOSE: attack hydropump - our hp 0.51, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Bundle|Hydro Pump|p2a: Volcanion
+  -heal|p2a: Volcanion|100/100|[from] ability: Water Absorb|[of] p1a: Iron Bundle
+  move|p2a: Volcanion|Earth Power|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|3/215
+-- turn 17
+  WE CHOSE: attack hydropump - our hp 0.01, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to manaphy - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Bundle|Hydro Pump|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+  move|p2a: Volcanion|Earth Power|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|0 fnt
+  faint|p1a: Iron Bundle
+  -end|p1a: Iron Bundle|Quark Drive|[silent]
+  switch|p1a: Manaphy|Manaphy, L78|284/284
+-- turn 18
+  WE CHOSE: setup tailglow - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+  -boost|p1a: Manaphy|spa|3
+  move|p2a: Volcanion|Earth Power|p1a: Manaphy
+  -damage|p1a: Manaphy|218/284
+  -heal|p1a: Manaphy|235/284|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack hydropump - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Manaphy|Hydro Pump|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+  move|p2a: Volcanion|Earth Power|p1a: Manaphy
+  -damage|p1a: Manaphy|169/284
+  -heal|p1a: Manaphy|186/284|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack hydropump - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Manaphy|Hydro Pump|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+  move|p2a: Volcanion|Earth Power|p1a: Manaphy
+  -damage|p1a: Manaphy|120/284
+  -heal|p1a: Manaphy|137/284|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack hydropump - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Manaphy|Hydro Pump|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+  move|p2a: Volcanion|Earth Power|p1a: Manaphy
+  -damage|p1a: Manaphy|67/284
+  -heal|p1a: Manaphy|84/284|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack hydropump - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Manaphy|Hydro Pump|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+  move|p2a: Volcanion|Earth Power|p1a: Manaphy
+  -damage|p1a: Manaphy|15/284
+  -heal|p1a: Manaphy|32/284|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack hydropump - our hp 0.11, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to gengar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Manaphy|Hydro Pump|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+  move|p2a: Volcanion|Earth Power|p1a: Manaphy
+  -damage|p1a: Manaphy|0 fnt
+  faint|p1a: Manaphy
+  switch|p1a: Gengar|Gengar, L81, M|230/230
+-- turn 24
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Gengar|Sludge Wave|p2a: Volcanion
+  -damage|p2a: Volcanion|33/100
+  -damage|p1a: Gengar|207/230|[from] item: Life Orb
+  move|p2a: Volcanion|Earth Power|p1a: Gengar
+  -supereffective|p1a: Gengar
+  -damage|p1a: Gengar|39/230
+  -unboost|p1a: Gengar|spd|1
+  -start|p2a: Volcanion|Disable|Earth Power|[from] ability: Cursed Body|[of] p1a: Gengar
+-- turn 25
+  WE CHOSE: switch to stonjourner (hand policy: attack sludgewave) - our hp 0.17, theirs 0.33, predicted move (revealed) hits us x1
+  switch|p1a: Stonjourner|Stonjourner, L91, M|330/330
+  move|p2a: Volcanion|Flamethrower|p1a: Stonjourner
+  -resisted|p1a: Stonjourner
+  -damage|p1a: Stonjourner|202/330
+  -status|p1a: Stonjourner|brn
+  -damage|p1a: Stonjourner|182/330 brn|[from] brn
+-- turn 26
+  WE CHOSE: attack stoneedge - our hp 0.55, theirs 0.33, predicted move (revealed) hits us x2
+  move|p1a: Stonjourner|Stone Edge|p2a: Volcanion
+  -supereffective|p2a: Volcanion
+  -damage|p2a: Volcanion|0 fnt
+  faint|p2a: Volcanion
+  -damage|p1a: Stonjourner|149/330 brn|[from] item: Life Orb
+  -damage|p1a: Stonjourner|129/330 brn|[from] brn
+  switch|p2a: Arboliva|Arboliva, L91, M|100/100
+-- turn 27
+  WE CHOSE: attack stoneedge - our hp 0.39, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to gengar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Stonjourner|Stone Edge|p2a: Arboliva|[miss]
+  -miss|p1a: Stonjourner|p2a: Arboliva
+  move|p2a: Arboliva|Energy Ball|p1a: Stonjourner
+  -supereffective|p1a: Stonjourner
+  -damage|p1a: Stonjourner|0 fnt
+  faint|p1a: Stonjourner
+  switch|p1a: Gengar|Gengar, L81, M|39/230
+-- turn 28
+  WE CHOSE: attack willowisp (hand policy: attack sludgewave) - our hp 0.17, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to magcargo - our hp 0.00, theirs 0.94, predicted move (revealed) hits us x0.5
+  move|p1a: Gengar|Will-O-Wisp|p2a: Arboliva
+  -status|p2a: Arboliva|brn
+  move|p2a: Arboliva|Energy Ball|p1a: Gengar
+  -resisted|p1a: Gengar
+  -damage|p1a: Gengar|0 fnt
+  -start|p2a: Arboliva|Disable|Energy Ball|[from] ability: Cursed Body|[of] p1a: Gengar
+  faint|p1a: Gengar
+  -damage|p2a: Arboliva|94/100 brn|[from] brn
+  switch|p1a: Magcargo|Magcargo, L95, F|268/268
+-- turn 29
+  WE CHOSE: attack lavaplume - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Arboliva|Earth Power|p1a: Magcargo
+  -supereffective|p1a: Magcargo
+  -damage|p1a: Magcargo|0 fnt
+  faint|p1a: Magcargo
+  deinit

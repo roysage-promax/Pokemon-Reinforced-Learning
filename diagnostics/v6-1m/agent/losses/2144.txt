@@ -1,0 +1,361 @@
+battle 2144 (battle-gen9randombattle-1028083): lost in 44 turns, 2 of theirs left; we are p1
+
+ours:
+  gastrodon (fainted; item leftovers, ability stormdrain; moves recover/sludgebomb/stealthrock/earthquake)
+  gogoat (fainted; item leftovers, ability sapsipper, tera ground; moves hornleech/bulkup/milkdrink/earthquake)
+  brambleghast (fainted; item leftovers, ability windrider; moves powerwhip/poltergeist/substitute/leechseed)
+  forretress (fainted; item leftovers, ability sturdy; moves rapidspin/ironhead/toxicspikes/voltswitch)
+  hitmontop (fainted; item leftovers, ability technician; moves closecombat/rapidspin/bulkup/tripleaxel)
+  porygonz (fainted; item choicescarf, ability download; moves shadowball/icebeam/triattack/thunderbolt)
+theirs (as seen):
+  sawsbuck (fainted; item lifeorb, ability sapsipper; moves doubleedge)
+  cetitan (fainted; item ?, ability ?; moves earthquake)
+  cramorant (fainted; item unknown_item, ability gulpmissile; moves bravebird)
+  lanturn (fainted; item leftovers, ability ?; moves icebeam)
+  klefki (76%; item leftovers, ability ?; moves playrough)
+
+-- turn 0
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  switch|p2a: Sawsbuck|Sawsbuck, L88, F|100/100
+-- turn 1
+  WE CHOSE: switch to brambleghast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Brambleghast|Brambleghast, L88, F|240/240
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+-- turn 2
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -ability|p2a: Sawsbuck|Sap Sipper|boost
+  -boost|p2a: Sawsbuck|atk|1
+-- turn 3
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -ability|p2a: Sawsbuck|Sap Sipper|boost
+  -boost|p2a: Sawsbuck|atk|1
+-- turn 4
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -ability|p2a: Sawsbuck|Sap Sipper|boost
+  -boost|p2a: Sawsbuck|atk|1
+-- turn 5
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -ability|p2a: Sawsbuck|Sap Sipper|boost
+  -boost|p2a: Sawsbuck|atk|1
+-- turn 6
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -ability|p2a: Sawsbuck|Sap Sipper|boost
+  -boost|p2a: Sawsbuck|atk|1
+-- turn 7
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -ability|p2a: Sawsbuck|Sap Sipper|boost
+  -boost|p2a: Sawsbuck|atk|1
+-- turn 8
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -immune|p2a: Sawsbuck|[from] ability: Sap Sipper
+-- turn 9
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -immune|p2a: Sawsbuck|[from] ability: Sap Sipper
+-- turn 10
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -immune|p2a: Sawsbuck|[from] ability: Sap Sipper
+-- turn 11
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -immune|p2a: Sawsbuck|[from] ability: Sap Sipper
+-- turn 12
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -immune|p2a: Sawsbuck|[from] ability: Sap Sipper
+-- turn 13
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -immune|p2a: Sawsbuck|[from] ability: Sap Sipper
+-- turn 14
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -immune|p2a: Sawsbuck|[from] ability: Sap Sipper
+-- turn 15
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -immune|p2a: Sawsbuck|[from] ability: Sap Sipper
+-- turn 16
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -immune|p2a: Sawsbuck|[from] ability: Sap Sipper
+-- turn 17
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+  move|p1a: Brambleghast|Power Whip|p2a: Sawsbuck
+  -immune|p2a: Sawsbuck|[from] ability: Sap Sipper
+-- turn 18
+  WE CHOSE: switch to forretress (hand policy: attack poltergeist) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Forretress|Forretress, L84, F|263/263
+  move|p2a: Sawsbuck|Double-Edge|p1a: Forretress
+  -resisted|p1a: Forretress
+  -damage|p1a: Forretress|25/263
+  -damage|p2a: Sawsbuck|73/100|[from] Recoil
+  -damage|p2a: Sawsbuck|63/100|[from] item: Life Orb
+  -heal|p1a: Forretress|41/263|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: switch to brambleghast (hand policy: attack ironhead) - our hp 0.16, theirs 0.63, predicted move (revealed) hits us x0.5
+  switch|p1a: Brambleghast|Brambleghast, L88, F|240/240
+  move|p2a: Sawsbuck|Double-Edge|p1a: Brambleghast
+  -immune|p1a: Brambleghast
+-- turn 20
+  WE CHOSE: switch to forretress (hand policy: attack poltergeist) - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to brambleghast (hand policy: forced: switch to hitmontop) - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x0.5
+  switch|p1a: Forretress|Forretress, L84, F|41/263
+  move|p2a: Sawsbuck|Double-Edge|p1a: Forretress
+  -resisted|p1a: Forretress
+  -damage|p1a: Forretress|0 fnt
+  faint|p1a: Forretress
+  -damage|p2a: Sawsbuck|58/100|[from] Recoil
+  -damage|p2a: Sawsbuck|48/100|[from] item: Life Orb
+  switch|p1a: Brambleghast|Brambleghast, L88, F|240/240
+-- turn 21
+  WE CHOSE: switch to hitmontop (hand policy: attack poltergeist) - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to brambleghast - our hp 0.00, theirs 0.11, predicted move (revealed) hits us x1
+  switch|p1a: Hitmontop|Hitmontop, L88, M|231/231
+  move|p2a: Sawsbuck|Double-Edge|p1a: Hitmontop
+  -damage|p1a: Hitmontop|0 fnt
+  faint|p1a: Hitmontop
+  -damage|p2a: Sawsbuck|21/100|[from] Recoil
+  -damage|p2a: Sawsbuck|11/100|[from] item: Life Orb
+  switch|p1a: Brambleghast|Brambleghast, L88, F|240/240
+-- turn 22
+  WE CHOSE: switch to gastrodon (hand policy: attack poltergeist) - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to brambleghast - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  switch|p1a: Gastrodon|Gastrodon, L86, M|331/331
+  move|p2a: Sawsbuck|Double-Edge|p1a: Gastrodon
+  -damage|p1a: Gastrodon|0 fnt
+  faint|p1a: Gastrodon
+  -damage|p2a: Sawsbuck|0 fnt|[from] Recoil
+  faint|p2a: Sawsbuck
+  switch|p2a: Cetitan|Cetitan, L82, M|100/100
+  switch|p1a: Brambleghast|Brambleghast, L88, F|240/240
+-- turn 23
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Brambleghast|Poltergeist|p2a: Cetitan
+  -activate|p2a: Cetitan|move: Poltergeist|Sitrus Berry
+  -damage|p2a: Cetitan|58/100
+  move|p2a: Cetitan|Earthquake|p1a: Brambleghast
+  -resisted|p1a: Brambleghast
+  -damage|p1a: Brambleghast|200/240
+  -heal|p1a: Brambleghast|215/240|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack poltergeist - our hp 0.90, theirs 0.58, predicted move (revealed) hits us x0.5
+  move|p1a: Brambleghast|Poltergeist|p2a: Cetitan
+  -activate|p2a: Cetitan|move: Poltergeist|Sitrus Berry
+  -damage|p2a: Cetitan|15/100
+  -enditem|p2a: Cetitan|Sitrus Berry|[eat]
+  -heal|p2a: Cetitan|40/100|[from] item: Sitrus Berry
+  move|p2a: Cetitan|Earthquake|p1a: Brambleghast
+  -resisted|p1a: Brambleghast
+  -damage|p1a: Brambleghast|169/240
+  -heal|p1a: Brambleghast|184/240|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack poltergeist - our hp 0.77, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Brambleghast|Poltergeist||[still]
+  -fail|p1a: Brambleghast
+  move|p2a: Cetitan|Earthquake|p1a: Brambleghast
+  -resisted|p1a: Brambleghast
+  -damage|p1a: Brambleghast|144/240
+  -heal|p1a: Brambleghast|159/240|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack poltergeist - our hp 0.66, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Brambleghast|Poltergeist||[still]
+  -fail|p1a: Brambleghast
+  move|p2a: Cetitan|Earthquake|p1a: Brambleghast
+  -resisted|p1a: Brambleghast
+  -damage|p1a: Brambleghast|113/240
+  -heal|p1a: Brambleghast|128/240|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack poltergeist - our hp 0.53, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Brambleghast|Poltergeist||[still]
+  -fail|p1a: Brambleghast
+  move|p2a: Cetitan|Earthquake|p1a: Brambleghast
+  -resisted|p1a: Brambleghast
+  -damage|p1a: Brambleghast|89/240
+  -heal|p1a: Brambleghast|104/240|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack poltergeist - our hp 0.43, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Brambleghast|Poltergeist||[still]
+  -fail|p1a: Brambleghast
+  move|p2a: Cetitan|Earthquake|p1a: Brambleghast
+  -resisted|p1a: Brambleghast
+  -damage|p1a: Brambleghast|65/240
+  -heal|p1a: Brambleghast|80/240|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack poltergeist - our hp 0.33, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Brambleghast|Poltergeist||[still]
+  -fail|p1a: Brambleghast
+  move|p2a: Cetitan|Earthquake|p1a: Brambleghast
+  -resisted|p1a: Brambleghast
+  -damage|p1a: Brambleghast|37/240
+  -heal|p1a: Brambleghast|52/240|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack poltergeist - our hp 0.22, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Brambleghast|Poltergeist||[still]
+  -fail|p1a: Brambleghast
+  move|p2a: Cetitan|Earthquake|p1a: Brambleghast
+  -resisted|p1a: Brambleghast
+  -damage|p1a: Brambleghast|12/240
+  -heal|p1a: Brambleghast|27/240|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: switch to gogoat (hand policy: attack substitute) - our hp 0.11, theirs 0.40, predicted move (revealed) hits us x0.5
+  switch|p1a: Gogoat|Gogoat, L88, M|360/360
+  move|p2a: Cetitan|Earthquake|p1a: Gogoat
+  -resisted|p1a: Gogoat
+  -damage|p1a: Gogoat|316/360
+  -heal|p1a: Gogoat|338/360|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: setup bulkup - our hp 0.94, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Gogoat|Bulk Up|p1a: Gogoat
+  -boost|p1a: Gogoat|atk|1
+  -boost|p1a: Gogoat|def|1
+  move|p2a: Cetitan|Earthquake|p1a: Gogoat
+  -resisted|p1a: Gogoat
+  -damage|p1a: Gogoat|308/360
+  -heal|p1a: Gogoat|330/360|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack hornleech (hand policy: setup bulkup) - our hp 0.92, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Gogoat|Horn Leech|p2a: Cetitan
+  -damage|p2a: Cetitan|2/100
+  -heal|p1a: Gogoat|360/360|[from] drain|[of] p2a: Cetitan
+  move|p2a: Cetitan|Earthquake|p1a: Gogoat
+  -resisted|p1a: Gogoat
+  -damage|p1a: Gogoat|326/360
+  -heal|p1a: Gogoat|348/360|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack hornleech (hand policy: setup bulkup) - our hp 0.97, theirs 0.02, predicted move (revealed) hits us x0.5
+  move|p1a: Gogoat|Horn Leech|p2a: Cetitan
+  -damage|p2a: Cetitan|0 fnt
+  -heal|p1a: Gogoat|352/360|[from] drain|[of] p2a: Cetitan
+  faint|p2a: Cetitan
+  -heal|p1a: Gogoat|360/360|[from] item: Leftovers
+  switch|p2a: Cramorant|Cramorant, L86, M|100/100
+-- turn 35
+  WE CHOSE: attack hornleech - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Cramorant|Brave Bird|p1a: Gogoat
+  -supereffective|p1a: Gogoat
+  -damage|p1a: Gogoat|168/360
+  -damage|p2a: Cramorant|76/100|[from] Recoil
+  move|p1a: Gogoat|Horn Leech|p2a: Cramorant
+  -damage|p2a: Cramorant|11/100
+  -heal|p1a: Gogoat|254/360|[from] drain|[of] p2a: Cramorant
+  -heal|p1a: Gogoat|276/360|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack hornleech - our hp 0.77, theirs 0.11, predicted move (revealed) hits us x2
+  move|p2a: Cramorant|Brave Bird|p1a: Gogoat
+  -supereffective|p1a: Gogoat
+  -damage|p1a: Gogoat|78/360
+  -damage|p2a: Cramorant|0 fnt|[from] Recoil
+  faint|p2a: Cramorant
+  move|p1a: Gogoat|Horn Leech|p2: Cramorant|[notarget]
+  -fail|p1a: Gogoat
+  -heal|p1a: Gogoat|100/360|[from] item: Leftovers
+  switch|p2a: Lanturn|Lanturn, L89, M|100/100
+-- turn 37
+  WE CHOSE: attack+tera hornleech (hand policy: heal milkdrink) - our hp 0.28, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to porygonz (hand policy: forced: switch to brambleghast) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  -terastallize|p1a: Gogoat|Ground
+  move|p2a: Lanturn|Ice Beam|p1a: Gogoat
+  -supereffective|p1a: Gogoat
+  -damage|p1a: Gogoat|0 fnt
+  faint|p1a: Gogoat
+  switch|p1a: Porygon-Z|Porygon-Z, L83|277/277
+  -ability|p1a: Porygon-Z|Download|boost
+  -boost|p1a: Porygon-Z|atk|1
+-- turn 38
+  WE CHOSE: attack shadowball (hand policy: attack triattack) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Porygon-Z|Shadow Ball|p2a: Lanturn
+  -damage|p2a: Lanturn|79/100
+  move|p2a: Lanturn|Ice Beam|p1a: Porygon-Z
+  -damage|p1a: Porygon-Z|214/277
+  -heal|p2a: Lanturn|85/100|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack shadowball - our hp 0.77, theirs 0.85, predicted move (revealed) hits us x1
+  move|p1a: Porygon-Z|Shadow Ball|p2a: Lanturn
+  -damage|p2a: Lanturn|65/100
+  -unboost|p2a: Lanturn|spd|1
+  move|p2a: Lanturn|Ice Beam|p1a: Porygon-Z
+  -damage|p1a: Porygon-Z|149/277
+  -heal|p2a: Lanturn|71/100|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: attack shadowball - our hp 0.54, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Porygon-Z|Shadow Ball|p2a: Lanturn
+  -damage|p2a: Lanturn|39/100
+  move|p2a: Lanturn|Ice Beam|p1a: Porygon-Z
+  -damage|p1a: Porygon-Z|80/277
+  -heal|p2a: Lanturn|45/100|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: attack shadowball - our hp 0.29, theirs 0.45, predicted move (revealed) hits us x1
+  move|p1a: Porygon-Z|Shadow Ball|p2a: Lanturn
+  -damage|p2a: Lanturn|15/100
+  -unboost|p2a: Lanturn|spd|1
+  move|p2a: Lanturn|Ice Beam|p1a: Porygon-Z
+  -damage|p1a: Porygon-Z|11/277
+  -status|p1a: Porygon-Z|frz
+  -heal|p2a: Lanturn|21/100|[from] item: Leftovers
+-- turn 42
+  WE CHOSE: attack shadowball - our hp 0.04, theirs 0.21, predicted move (revealed) hits us x1
+  -curestatus|p1a: Porygon-Z|frz|[msg]
+  move|p1a: Porygon-Z|Shadow Ball|p2a: Lanturn
+  -damage|p2a: Lanturn|0 fnt
+  faint|p2a: Lanturn
+  switch|p2a: Klefki|Klefki, L84, F|100/100
+-- turn 43
+  WE CHOSE: attack shadowball - our hp 0.04, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to brambleghast - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Porygon-Z|Shadow Ball|p2a: Klefki
+  -damage|p2a: Klefki|70/100
+  move|p2a: Klefki|Play Rough|p1a: Porygon-Z
+  -damage|p1a: Porygon-Z|0 fnt
+  faint|p1a: Porygon-Z
+  -heal|p2a: Klefki|76/100|[from] item: Leftovers
+  switch|p1a: Brambleghast|Brambleghast, L88, F|27/240
+-- turn 44
+  WE CHOSE: attack leechseed - our hp 0.11, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Brambleghast|Leech Seed|p2a: Klefki
+  -start|p2a: Klefki|move: Leech Seed
+  move|p2a: Klefki|Play Rough|p1a: Brambleghast
+  -damage|p1a: Brambleghast|0 fnt
+  faint|p1a: Brambleghast
+  deinit

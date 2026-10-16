@@ -1,0 +1,327 @@
+battle 184 (battle-gen9randombattle-1007977): lost in 39 turns, 1 of theirs left; we are p1
+
+ours:
+  kyurem (fainted; item loadeddice, ability pressure; moves scaleshot/terablast/iciclespear/dragondance)
+  cacturne (fainted; item lifeorb, ability waterabsorb; moves leafstorm/knockoff/focusblast/suckerpunch)
+  crawdaunt (fainted; item lifeorb, ability adaptability; moves dragondance/knockoff/crabhammer/aquajet)
+  plusle (fainted; item lifeorb, ability lightningrod; moves thunderbolt/alluringvoice/nastyplot/grassknot)
+  lumineon (fainted; item heavydutyboots, ability stormdrain; moves hydropump/encore/icebeam/uturn)
+  mesprit (fainted; item leftovers, ability levitate, tera steel; moves uturn/stealthrock/psychicnoise/encore)
+theirs (as seen):
+  pawmot (fainted; item ?, ability voltabsorb; moves doubleshock/closecombat)
+  sandyshocks (fainted; item unknown_item, ability protosynthesis; moves earthpower)
+  reshiram (fainted; item unknown_item, ability turboblaze; moves outrage)
+  malamar (fainted; item unknown_item, ability ?; moves superpower)
+  arceusbug (fainted; item unknown_item, ability multitype; moves judgment)
+  dusknoir (30%; item leftovers, ability frisk; moves poltergeist)
+
+-- turn 0
+  switch|p1a: Kyurem|Kyurem, L77|319/319
+  switch|p2a: Pawmot|Pawmot, L80, M|100/100
+  -ability|p1a: Kyurem|Pressure
+-- turn 1
+  WE CHOSE: switch to mesprit - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Mesprit|Mesprit, L85|275/275
+  move|p2a: Pawmot|Double Shock|p1a: Mesprit
+  -damage|p1a: Mesprit|151/275
+  -start|p2a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+  -heal|p1a: Mesprit|168/275|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to plusle - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Plusle|Plusle, L95, M|268/268
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 3
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Nasty Plot|p1a: Plusle
+  -boost|p1a: Plusle|spa|2
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 4
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Nasty Plot|p1a: Plusle
+  -boost|p1a: Plusle|spa|2
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 5
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Nasty Plot|p1a: Plusle
+  -boost|p1a: Plusle|spa|2
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 6
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Thunderbolt|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 7
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Thunderbolt|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 8
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Thunderbolt|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+  -enditem|p2a: Pawmot|Leppa Berry|[eat]
+  -activate|p2a: Pawmot|item: Leppa Berry|Double Shock|[consumed]
+-- turn 9
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Thunderbolt|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 10
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Thunderbolt|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 11
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Thunderbolt|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 12
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Thunderbolt|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 13
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Thunderbolt|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 14
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Thunderbolt|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 15
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Thunderbolt|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 16
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Thunderbolt|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 17
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Thunderbolt|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Close Combat|p1a: Plusle
+  -damage|p1a: Plusle|70/268
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+-- turn 18
+  WE CHOSE: attack thunderbolt - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to cacturne - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Plusle|Thunderbolt|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Close Combat|p1a: Plusle
+  -damage|p1a: Plusle|0 fnt
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+  faint|p1a: Plusle
+  switch|p1a: Cacturne|Cacturne, L92, F|278/278
+-- turn 19
+  WE CHOSE: attack leafstorm - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to kyurem - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Pawmot|Close Combat|p1a: Cacturne
+  -supereffective|p1a: Cacturne
+  -damage|p1a: Cacturne|0 fnt
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+  faint|p1a: Cacturne
+  switch|p1a: Kyurem|Kyurem, L77|319/319
+  -ability|p1a: Kyurem|Pressure
+-- turn 20
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Pawmot|Close Combat|p1a: Kyurem
+  -supereffective|p1a: Kyurem
+  -damage|p1a: Kyurem|7/319
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+  move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+  -boost|p1a: Kyurem|atk|1
+  -boost|p1a: Kyurem|spe|1
+-- turn 21
+  WE CHOSE: attack terablast - our hp 0.02, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Kyurem|Tera Blast|p2a: Pawmot
+  -damage|p2a: Pawmot|0 fnt
+  faint|p2a: Pawmot
+  switch|p2a: Sandy Shocks|Sandy Shocks, L80|100/100
+-- turn 22
+  WE CHOSE: switch to mesprit - our hp 0.02, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Mesprit|Mesprit, L85|168/275
+  move|p2a: Sandy Shocks|Earth Power|p1a: Mesprit
+  -immune|p1a: Mesprit|[from] ability: Levitate
+  -heal|p1a: Mesprit|185/275|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack psychicnoise - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Sandy Shocks|Earth Power|p1a: Mesprit
+  -immune|p1a: Mesprit|[from] ability: Levitate
+  move|p1a: Mesprit|Psychic Noise|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|64/100
+  -start|p2a: Sandy Shocks|move: Heal Block
+  -heal|p1a: Mesprit|202/275|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack psychicnoise - our hp 0.73, theirs 0.64, predicted move (revealed) hits us x0
+  move|p2a: Sandy Shocks|Earth Power|p1a: Mesprit
+  -immune|p1a: Mesprit|[from] ability: Levitate
+  move|p1a: Mesprit|Psychic Noise|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|29/100
+  -heal|p1a: Mesprit|219/275|[from] item: Leftovers
+  -end|p2a: Sandy Shocks|move: Heal Block
+-- turn 25
+  WE CHOSE: attack psychicnoise - our hp 0.80, theirs 0.29, predicted move (revealed) hits us x0
+  move|p2a: Sandy Shocks|Earth Power|p1a: Mesprit
+  -immune|p1a: Mesprit|[from] ability: Levitate
+  move|p1a: Mesprit|Psychic Noise|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|0 fnt
+  faint|p2a: Sandy Shocks
+  -end|p2a: Sandy Shocks|Protosynthesis|[silent]
+  -heal|p1a: Mesprit|236/275|[from] item: Leftovers
+  switch|p2a: Reshiram|Reshiram, L76|100/100
+  -ability|p2a: Reshiram|Turboblaze
+-- turn 26
+  WE CHOSE: attack psychicnoise - our hp 0.86, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Mesprit|Psychic Noise|p2a: Reshiram
+  -damage|p2a: Reshiram|73/100
+  -start|p2a: Reshiram|move: Heal Block
+  move|p2a: Reshiram|Outrage|p1a: Mesprit
+  -damage|p1a: Mesprit|125/275
+  -heal|p1a: Mesprit|142/275|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack+tera psychicnoise - our hp 0.52, theirs 0.73, predicted move (revealed) hits us x1
+  -terastallize|p1a: Mesprit|Steel
+  move|p1a: Mesprit|Psychic Noise|p2a: Reshiram
+  -damage|p2a: Reshiram|47/100
+  move|p2a: Reshiram|Outrage|p1a: Mesprit|[from] lockedmove
+  -resisted|p1a: Mesprit
+  -damage|p1a: Mesprit|93/275
+  -heal|p1a: Mesprit|110/275|[from] item: Leftovers
+  -end|p2a: Reshiram|move: Heal Block
+-- turn 28
+  WE CHOSE: attack psychicnoise - our hp 0.40, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p1a: Mesprit|Psychic Noise|p2a: Reshiram
+  -damage|p2a: Reshiram|18/100
+  -start|p2a: Reshiram|move: Heal Block
+  move|p2a: Reshiram|Outrage|p1a: Mesprit|[from] lockedmove
+  -resisted|p1a: Mesprit
+  -damage|p1a: Mesprit|60/275
+  -start|p2a: Reshiram|confusion|[fatigue]
+  -heal|p1a: Mesprit|77/275|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack psychicnoise - our hp 0.28, theirs 0.18, predicted move (revealed) hits us x0.5
+  move|p1a: Mesprit|Psychic Noise|p2a: Reshiram
+  -damage|p2a: Reshiram|0 fnt
+  faint|p2a: Reshiram
+  -heal|p1a: Mesprit|94/275|[from] item: Leftovers
+  switch|p2a: Malamar|Malamar, L82, F|100/100
+-- turn 30
+  WE CHOSE: attack uturn - our hp 0.34, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to lumineon - our hp 0.34, theirs 0.18, predicted move (guessed) hits us x2
+  move|p1a: Mesprit|U-turn|p2a: Malamar
+  -supereffective|p2a: Malamar
+  -damage|p2a: Malamar|18/100
+  switch|p1a: Lumineon|Lumineon, L93, M|279/279|[from] U-turn
+  move|p2a: Malamar|Superpower|p1a: Lumineon
+  -damage|p1a: Lumineon|206/279
+  -boost|p2a: Malamar|atk|1
+  -boost|p2a: Malamar|def|1
+-- turn 31
+  WE CHOSE: attack uturn - our hp 0.74, theirs 0.18, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mesprit - our hp 0.74, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Lumineon|U-turn|p2a: Malamar
+  -supereffective|p2a: Malamar
+  -damage|p2a: Malamar|0 fnt
+  faint|p2a: Malamar
+  switch|p1a: Mesprit|Mesprit, L85, tera:Steel|94/275|[from] U-turn
+  -heal|p1a: Mesprit|111/275|[from] item: Leftovers
+  switch|p2a: Arceus|Arceus-Bug, L73|100/100
+-- turn 32
+  WE CHOSE: switch to crawdaunt - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to mesprit - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Crawdaunt|Crawdaunt, L84, F|243/243
+  move|p2a: Arceus|Judgment|p1a: Crawdaunt
+  -supereffective|p1a: Crawdaunt
+  -damage|p1a: Crawdaunt|0 fnt
+  faint|p1a: Crawdaunt
+  switch|p1a: Mesprit|Mesprit, L85, tera:Steel|111/275
+-- turn 33
+  WE CHOSE: attack psychicnoise - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Arceus|Judgment|p1a: Mesprit
+  -resisted|p1a: Mesprit
+  -damage|p1a: Mesprit|60/275
+  move|p1a: Mesprit|Psychic Noise|p2a: Arceus
+  -damage|p2a: Arceus|71/100
+  -start|p2a: Arceus|move: Heal Block
+  -heal|p1a: Mesprit|77/275|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack psychicnoise - our hp 0.28, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p2a: Arceus|Judgment|p1a: Mesprit
+  -resisted|p1a: Mesprit
+  -damage|p1a: Mesprit|29/275
+  move|p1a: Mesprit|Psychic Noise|p2a: Arceus
+  -damage|p2a: Arceus|46/100
+  -heal|p1a: Mesprit|46/275|[from] item: Leftovers
+  -end|p2a: Arceus|move: Heal Block
+-- turn 35
+  WE CHOSE: attack psychicnoise - our hp 0.17, theirs 0.46, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to lumineon - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x0.5
+  move|p2a: Arceus|Judgment|p1a: Mesprit
+  -resisted|p1a: Mesprit
+  -damage|p1a: Mesprit|0 fnt
+  faint|p1a: Mesprit
+  switch|p1a: Lumineon|Lumineon, L93, M|206/279
+-- turn 36
+  WE CHOSE: attack hydropump - our hp 0.74, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Lumineon|Hydro Pump|p2a: Arceus
+  -damage|p2a: Arceus|13/100
+  move|p2a: Arceus|Judgment|p1a: Lumineon
+  -damage|p1a: Lumineon|101/279
+-- turn 37
+  WE CHOSE: attack hydropump - our hp 0.36, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Lumineon|Hydro Pump|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  switch|p2a: Dusknoir|Dusknoir, L89, F|100/100
+  -item|p1a: Lumineon|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Dusknoir
+-- turn 38
+  WE CHOSE: attack hydropump - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to kyurem - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Lumineon|Hydro Pump|p2a: Dusknoir
+  -damage|p2a: Dusknoir|64/100
+  move|p2a: Dusknoir|Poltergeist|p1a: Lumineon
+  -activate|p1a: Lumineon|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Lumineon|0 fnt
+  faint|p1a: Lumineon
+  -heal|p2a: Dusknoir|70/100|[from] item: Leftovers
+  switch|p1a: Kyurem|Kyurem, L77|7/319
+  -ability|p1a: Kyurem|Pressure
+-- turn 39
+  WE CHOSE: attack iciclespear - our hp 0.02, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Kyurem|Icicle Spear|p2a: Dusknoir
+  -damage|p2a: Dusknoir|62/100
+  -damage|p2a: Dusknoir|53/100
+  -damage|p2a: Dusknoir|44/100
+  -crit|p2a: Dusknoir
+  -damage|p2a: Dusknoir|30/100
+  -hitcount|p2a: Dusknoir|4
+  move|p2a: Dusknoir|Poltergeist|p1a: Kyurem
+  -activate|p1a: Kyurem|move: Poltergeist|Loaded Dice
+  -damage|p1a: Kyurem|0 fnt
+  faint|p1a: Kyurem

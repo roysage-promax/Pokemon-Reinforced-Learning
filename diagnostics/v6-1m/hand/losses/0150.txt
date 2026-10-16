@@ -1,0 +1,191 @@
+battle 150 (battle-gen9randombattle-1007632): lost in 19 turns, 1 of theirs left; we are p1
+
+ours:
+  articuno (fainted; item heavydutyboots, ability pressure; moves freezedry/roost/bravebird/uturn)
+  gholdengo (fainted; item leftovers, ability goodasgold, tera steel; moves recover/thunderwave/makeitrain/shadowball)
+  staraptor (fainted; item choiceband, ability reckless; moves bravebird/quickattack/closecombat/doubleedge)
+  sawsbuckautumn (fainted; item lifeorb, ability sapsipper; moves doubleedge/highhorsepower/hornleech/swordsdance)
+  roaringmoon (fainted; item ?, ability protosynthesis; moves ironhead/knockoff/outrage/dragondance)
+  luvdisc (fainted; item heavydutyboots, ability swiftswim; moves endeavor/substitute/surf/flipturn)
+theirs (as seen):
+  ironmoth (fainted; item unknown_item, ability quarkdrive; moves sludgewave)
+  lapras (fainted; item unknown_item, ability ?; moves earthquake)
+  dondozo (fainted; item leftovers, ability ?; moves wavecrash)
+  sudowoodo (fainted; item unknown_item, ability ?; moves -)
+  medicham (fainted; item unknown_item, ability ?; moves closecombat)
+  sneasler (44%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Articuno|Articuno, L86|295/295
+  switch|p2a: Iron Moth|Iron Moth, L78|100/100
+  -ability|p1a: Articuno|Pressure
+-- turn 1
+  WE CHOSE: switch to luvdisc - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Luvdisc|Luvdisc, F|247/247
+  move|p2a: Iron Moth|Sludge Wave|p1a: Luvdisc
+  -damage|p1a: Luvdisc|126/247
+-- turn 2
+  WE CHOSE: switch to gholdengo - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Gholdengo|Gholdengo, L77|261/261
+  move|p2a: Iron Moth|Sludge Wave|p1a: Gholdengo
+  -immune|p1a: Gholdengo
+-- turn 3
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Iron Moth|Sludge Wave|p1a: Gholdengo
+  -immune|p1a: Gholdengo
+  move|p1a: Gholdengo|Shadow Ball|p2a: Iron Moth
+  -damage|p2a: Iron Moth|68/100
+-- turn 4
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x0
+  move|p2a: Iron Moth|Sludge Wave|p1a: Gholdengo
+  -immune|p1a: Gholdengo
+  move|p1a: Gholdengo|Shadow Ball|p2a: Iron Moth
+  -damage|p2a: Iron Moth|33/100
+-- turn 5
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x0
+  move|p2a: Iron Moth|Sludge Wave|p1a: Gholdengo
+  -immune|p1a: Gholdengo
+  move|p1a: Gholdengo|Shadow Ball|p2a: Iron Moth
+  -damage|p2a: Iron Moth|0 fnt
+  faint|p2a: Iron Moth
+  -end|p2a: Iron Moth|Quark Drive|[silent]
+  switch|p2a: Lapras|Lapras, L87, M|100/100
+-- turn 6
+  WE CHOSE: attack+tera makeitrain - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Gholdengo|Steel
+  move|p1a: Gholdengo|Make It Rain|p2a: Lapras
+  -damage|p2a: Lapras|53/100
+  -unboost|p1a: Gholdengo|spa|1
+  move|p2a: Lapras|Earthquake|p1a: Gholdengo
+  -supereffective|p1a: Gholdengo
+  -damage|p1a: Gholdengo|111/261
+  -heal|p1a: Gholdengo|127/261|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: switch to staraptor - our hp 0.49, theirs 0.53, predicted move (revealed) hits us x2
+  switch|p1a: Staraptor|Staraptor, L79, M|263/263
+  move|p2a: Lapras|Earthquake|p1a: Staraptor
+  -immune|p1a: Staraptor
+-- turn 8
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x0
+  move|p1a: Staraptor|Close Combat|p2a: Lapras
+  -supereffective|p2a: Lapras
+  -damage|p2a: Lapras|0 fnt
+  -unboost|p1a: Staraptor|def|1
+  -unboost|p1a: Staraptor|spd|1
+  faint|p2a: Lapras
+  switch|p2a: Dondozo|Dondozo, L78, F|100/100
+-- turn 9
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Staraptor|Close Combat|p2a: Dondozo
+  -damage|p2a: Dondozo|66/100
+  -unboost|p1a: Staraptor|def|1
+  -unboost|p1a: Staraptor|spd|1
+  move|p2a: Dondozo|Wave Crash|p1a: Staraptor
+  -damage|p1a: Staraptor|124/263
+  -damage|p2a: Dondozo|53/100|[from] Recoil
+  -heal|p2a: Dondozo|59/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack closecombat - our hp 0.47, theirs 0.59, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to sawsbuckautumn - our hp 0.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p1a: Staraptor|Close Combat|p2a: Dondozo
+  -damage|p2a: Dondozo|26/100
+  -unboost|p1a: Staraptor|def|1
+  -unboost|p1a: Staraptor|spd|1
+  move|p2a: Dondozo|Wave Crash|p1a: Staraptor
+  -damage|p1a: Staraptor|0 fnt
+  faint|p1a: Staraptor
+  -damage|p2a: Dondozo|15/100|[from] Recoil
+  -heal|p2a: Dondozo|21/100|[from] item: Leftovers
+  switch|p1a: Sawsbuck|Sawsbuck-Autumn, L88, M|284/284
+-- turn 11
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x0.5
+  move|p1a: Sawsbuck|Swords Dance|p1a: Sawsbuck
+  -boost|p1a: Sawsbuck|atk|2
+  move|p2a: Dondozo|Wave Crash|p1a: Sawsbuck
+  -resisted|p1a: Sawsbuck
+  -damage|p1a: Sawsbuck|215/284
+  -damage|p2a: Dondozo|14/100|[from] Recoil
+  -heal|p2a: Dondozo|20/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack hornleech - our hp 0.76, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p1a: Sawsbuck|Horn Leech|p2a: Dondozo
+  -supereffective|p2a: Dondozo
+  -damage|p2a: Dondozo|0 fnt
+  -heal|p1a: Sawsbuck|251/284|[from] drain|[of] p2a: Dondozo
+  faint|p2a: Dondozo
+  -damage|p1a: Sawsbuck|223/284|[from] item: Life Orb
+  switch|p2a: Sudowoodo|Sudowoodo, L94, F|100/100
+-- turn 13
+  WE CHOSE: attack hornleech - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Sawsbuck|Horn Leech|p2a: Sudowoodo
+  -supereffective|p2a: Sudowoodo
+  -damage|p2a: Sudowoodo|0 fnt
+  -heal|p1a: Sawsbuck|284/284|[from] drain|[of] p2a: Sudowoodo
+  faint|p2a: Sudowoodo
+  -damage|p1a: Sawsbuck|256/284|[from] item: Life Orb
+  switch|p2a: Medicham|Medicham, L86, M|100/100
+-- turn 14
+  WE CHOSE: attack doubleedge - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to articuno - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Medicham|Close Combat|p1a: Sawsbuck
+  -supereffective|p1a: Sawsbuck
+  -damage|p1a: Sawsbuck|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Sawsbuck
+  switch|p1a: Articuno|Articuno, L86|295/295
+  -ability|p1a: Articuno|Pressure
+-- turn 15
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Medicham|Close Combat|p1a: Articuno
+  -damage|p1a: Articuno|124/295
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  move|p1a: Articuno|Brave Bird|p2a: Medicham
+  -supereffective|p2a: Medicham
+  -damage|p2a: Medicham|0 fnt
+  faint|p2a: Medicham
+  -damage|p1a: Articuno|44/295|[from] Recoil
+  switch|p2a: Sneasler|Sneasler, L74, M|100/100
+-- turn 16
+  WE CHOSE: heal roost - our hp 0.15, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to luvdisc - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Sneasler|Close Combat|p1a: Articuno
+  -damage|p1a: Articuno|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Articuno
+  switch|p1a: Luvdisc|Luvdisc, F|126/247
+-- turn 17
+  WE CHOSE: attack surf - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gholdengo - our hp 0.00, theirs 0.44, predicted move (revealed) hits us x1
+  move|p1a: Luvdisc|Surf|p2a: Sneasler
+  -damage|p2a: Sneasler|44/100
+  move|p2a: Sneasler|Close Combat|p1a: Luvdisc
+  -damage|p1a: Luvdisc|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Luvdisc
+  switch|p1a: Gholdengo|Gholdengo, L77, tera:Steel|127/261
+-- turn 18
+  WE CHOSE: attack makeitrain - our hp 0.49, theirs 0.44, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to roaringmoon - our hp 0.00, theirs 0.44, predicted move (revealed) hits us x2
+  move|p2a: Sneasler|Close Combat|p1a: Gholdengo
+  -supereffective|p1a: Gholdengo
+  -damage|p1a: Gholdengo|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Gholdengo
+  switch|p1a: Roaring Moon|Roaring Moon, L72|270/270
+  -enditem|p1a: Roaring Moon|Booster Energy
+  -activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+  -start|p1a: Roaring Moon|protosynthesisatk
+-- turn 19
+  WE CHOSE: attack outrage - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x2
+  move|p2a: Sneasler|Close Combat|p1a: Roaring Moon
+  -supereffective|p1a: Roaring Moon
+  -damage|p1a: Roaring Moon|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Roaring Moon
+  -end|p1a: Roaring Moon|Protosynthesis|[silent]

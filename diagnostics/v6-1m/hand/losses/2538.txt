@@ -1,0 +1,193 @@
+battle 2538 (battle-gen9randombattle-1030213): lost in 20 turns, 2 of theirs left; we are p1
+
+ours:
+  munkidori (fainted; item assaultvest, ability toxicchain; moves uturn/fakeout/psychicnoise/sludgewave)
+  zaciancrowned (fainted; item rustedsword, ability intrepidsword; moves swordsdance/playrough/closecombat/behemothblade)
+  espathra (fainted; item leftovers, ability speedboost, tera fairy; moves storedpower/substitute/dazzlinggleam/calmmind)
+  chiyu (fainted; item choicespecs, ability beadsofruin; moves psychic/flamethrower/overheat/darkpulse)
+  mimikyubusted (fainted; item lifeorb, ability disguise; moves shadowsneak/shadowclaw/swordsdance/playrough)
+  cacturne (fainted; item lifeorb, ability waterabsorb; moves leafstorm/knockoff/spikes/suckerpunch)
+theirs (as seen):
+  mandibuzz (fainted; item unknown_item, ability ?; moves foulplay)
+  sunflora (fainted; item lifeorb, ability ?; moves solarbeam)
+  toxapex (fainted; item rockyhelmet, ability ?; moves liquidation)
+  typhlosion (fainted; item unknown_item, ability ?; moves eruption)
+  camerupt (92%; item leftovers, ability ?; moves overheat)
+
+-- turn 0
+  switch|p1a: Munkidori|Munkidori, L79, M|269/269
+  switch|p2a: Mandibuzz|Mandibuzz, L85, F|100/100
+-- turn 1
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Munkidori|Sludge Wave|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|68/100
+  -status|p2a: Mandibuzz|tox|[from] ability: Toxic Chain|[of] p1a: Munkidori
+  move|p2a: Mandibuzz|Foul Play|p1a: Munkidori
+  -supereffective|p1a: Munkidori
+  -damage|p1a: Munkidori|71/269
+  -damage|p2a: Mandibuzz|62/100 tox|[from] psn
+-- turn 2
+  WE CHOSE: switch to zaciancrowned - our hp 0.26, theirs 0.62, predicted move (revealed) hits us x2
+  switch|p1a: Zacian|Zacian-Crowned, L64|225/225
+  -ability|p1a: Zacian|Intrepid Sword|boost
+  -boost|p1a: Zacian|atk|1
+  move|p2a: Mandibuzz|Foul Play|p1a: Zacian
+  -resisted|p1a: Zacian
+  -damage|p1a: Zacian|129/225
+  -damage|p2a: Mandibuzz|50/100 tox|[from] psn
+-- turn 3
+  WE CHOSE: setup swordsdance - our hp 0.57, theirs 0.50, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to chiyu - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p1a: Zacian|Swords Dance|p1a: Zacian
+  -boost|p1a: Zacian|atk|2
+  move|p2a: Mandibuzz|Foul Play|p1a: Zacian
+  -resisted|p1a: Zacian
+  -crit|p1a: Zacian
+  -damage|p1a: Zacian|0 fnt
+  faint|p1a: Zacian
+  -damage|p2a: Mandibuzz|31/100 tox|[from] psn
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+-- turn 4
+  WE CHOSE: attack overheat - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p1a: Chi-Yu|Overheat|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|0 fnt
+  -unboost|p1a: Chi-Yu|spa|2
+  faint|p2a: Mandibuzz
+  switch|p2a: Sunflora|Sunflora, F|100/100
+-- turn 5
+  WE CHOSE: attack overheat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Chi-Yu|Overheat|p2a: Sunflora|[miss]
+  -miss|p1a: Chi-Yu|p2a: Sunflora
+  move|p2a: Sunflora|Solar Beam||[still]
+  -prepare|p2a: Sunflora|Solar Beam
+-- turn 6
+  WE CHOSE: attack overheat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Chi-Yu|Overheat|p2a: Sunflora
+  -supereffective|p2a: Sunflora
+  -damage|p2a: Sunflora|16/100
+  -unboost|p1a: Chi-Yu|spa|2
+  move|p2a: Sunflora|Solar Beam|p1a: Chi-Yu|[from] lockedmove
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|102/211
+  -damage|p2a: Sunflora|6/100|[from] item: Life Orb
+-- turn 7
+  WE CHOSE: attack overheat - our hp 0.48, theirs 0.06, predicted move (revealed) hits us x0.5
+  move|p1a: Chi-Yu|Overheat|p2a: Sunflora
+  -supereffective|p2a: Sunflora
+  -damage|p2a: Sunflora|0 fnt
+  -unboost|p1a: Chi-Yu|spa|2
+  faint|p2a: Sunflora
+  switch|p2a: Toxapex|Toxapex, L82, M|100/100
+-- turn 8
+  WE CHOSE: switch to cacturne - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Cacturne|Cacturne, L92, F|278/278
+  move|p2a: Toxapex|Liquidation|p1a: Cacturne
+  -immune|p1a: Cacturne|[from] ability: Water Absorb
+-- turn 9
+  WE CHOSE: attack leafstorm - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Cacturne|Leaf Storm|p2a: Toxapex
+  -damage|p2a: Toxapex|28/100
+  -unboost|p1a: Cacturne|spa|2
+  -damage|p1a: Cacturne|251/278|[from] item: Life Orb
+  move|p2a: Toxapex|Liquidation|p1a: Cacturne
+  -heal|p1a: Cacturne|278/278|[from] ability: Water Absorb|[of] p2a: Toxapex
+-- turn 10
+  WE CHOSE: attack suckerpunch - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x0
+  move|p1a: Cacturne|Sucker Punch|p2a: Toxapex
+  -damage|p2a: Toxapex|0 fnt
+  -damage|p1a: Cacturne|232/278|[from] item: Rocky Helmet|[of] p2a: Toxapex
+  faint|p2a: Toxapex
+  -damage|p1a: Cacturne|205/278|[from] item: Life Orb
+  switch|p2a: Typhlosion|Typhlosion, L84, M|100/100
+-- turn 11
+  WE CHOSE: switch to chiyu - our hp 0.74, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Chi-Yu|Chi-Yu, L77|102/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+  move|p2a: Typhlosion|Eruption|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|22/211
+-- turn 12
+  WE CHOSE: attack darkpulse - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to munkidori - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Typhlosion|Eruption|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|0 fnt
+  faint|p1a: Chi-Yu
+  switch|p1a: Munkidori|Munkidori, L79, M|71/269
+-- turn 13
+  WE CHOSE: attack sludgewave - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mimikyu - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Typhlosion|Eruption|p1a: Munkidori
+  -damage|p1a: Munkidori|0 fnt
+  faint|p1a: Munkidori
+  switch|p1a: Mimikyu|Mimikyu, L79, F|216/216
+-- turn 14
+  WE CHOSE: attack shadowclaw - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Typhlosion|Eruption|p1a: Mimikyu
+  -activate|p1a: Mimikyu|ability: Disguise
+  -damage|p1a: Mimikyu|216/216
+  detailschange|p1a: Mimikyu|Mimikyu-Busted, L79, F
+  -damage|p1a: Mimikyu|189/216|[from] pokemon: Mimikyu-Busted
+  move|p1a: Mimikyu|Shadow Claw|p2a: Typhlosion
+  -damage|p2a: Typhlosion|64/100
+  -damage|p1a: Mimikyu|168/216|[from] item: Life Orb
+-- turn 15
+  WE CHOSE: attack shadowclaw - our hp 0.78, theirs 0.64, predicted move (revealed) hits us x1
+  move|p2a: Typhlosion|Eruption|p1a: Mimikyu
+  -damage|p1a: Mimikyu|75/216
+  move|p1a: Mimikyu|Shadow Claw|p2a: Typhlosion
+  -damage|p2a: Typhlosion|28/100
+  -damage|p1a: Mimikyu|54/216|[from] item: Life Orb
+-- turn 16
+  WE CHOSE: attack shadowclaw - our hp 0.25, theirs 0.28, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to espathra - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p2a: Typhlosion|Eruption|p1a: Mimikyu
+  -damage|p1a: Mimikyu|0 fnt
+  faint|p1a: Mimikyu
+  switch|p1a: Espathra|Espathra, L80, F|283/283
+-- turn 17
+  WE CHOSE: attack+tera dazzlinggleam - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x1
+  -terastallize|p1a: Espathra|Fairy
+  move|p2a: Typhlosion|Eruption|p1a: Espathra
+  -damage|p1a: Espathra|192/283
+  move|p1a: Espathra|Dazzling Gleam|p2a: Typhlosion
+  -resisted|p2a: Typhlosion
+  -damage|p2a: Typhlosion|12/100
+  -heal|p1a: Espathra|209/283|[from] item: Leftovers
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+-- turn 18
+  WE CHOSE: attack dazzlinggleam - our hp 0.74, theirs 0.12, predicted move (revealed) hits us x1
+  move|p2a: Typhlosion|Eruption|p1a: Espathra
+  -damage|p1a: Espathra|170/283
+  move|p1a: Espathra|Dazzling Gleam|p2a: Typhlosion
+  -resisted|p2a: Typhlosion
+  -damage|p2a: Typhlosion|0 fnt
+  faint|p2a: Typhlosion
+  -heal|p1a: Espathra|187/283|[from] item: Leftovers
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+  switch|p2a: Camerupt|Camerupt, L91, M|100/100
+-- turn 19
+  WE CHOSE: attack dazzlinggleam - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to cacturne - our hp 0.00, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Espathra|Dazzling Gleam|p2a: Camerupt
+  -resisted|p2a: Camerupt
+  -damage|p2a: Camerupt|86/100
+  move|p2a: Camerupt|Overheat|p1a: Espathra
+  -damage|p1a: Espathra|0 fnt
+  -unboost|p2a: Camerupt|spa|2
+  faint|p1a: Espathra
+  -heal|p2a: Camerupt|92/100|[from] item: Leftovers
+  switch|p1a: Cacturne|Cacturne, L92, F|205/278
+-- turn 20
+  WE CHOSE: attack leafstorm - our hp 0.74, theirs 0.92, predicted move (revealed) hits us x2
+  move|p1a: Cacturne|Leaf Storm|p2a: Camerupt|[miss]
+  -miss|p1a: Cacturne|p2a: Camerupt
+  move|p2a: Camerupt|Overheat|p1a: Cacturne
+  -supereffective|p1a: Cacturne
+  -damage|p1a: Cacturne|0 fnt
+  -unboost|p2a: Camerupt|spa|2
+  faint|p1a: Cacturne
+  deinit

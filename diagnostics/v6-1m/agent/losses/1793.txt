@@ -1,0 +1,230 @@
+battle 1793 (battle-gen9randombattle-1024594): lost in 23 turns, 1 of theirs left; we are p1
+
+ours:
+  oranguru (fainted; item choicespecs, ability innerfocus; moves focusblast/psyshock/thunderbolt/hypervoice)
+  rabsca (fainted; item ?, ability synchronize; moves bugbuzz/psychic/trickroom/revivalblessing)
+  sunflora (fainted; item lifeorb, ability chlorophyll; moves sunnyday/weatherball/earthpower/solarbeam)
+  bellibolt (fainted; item ?, ability electromorphosis; moves thunderbolt/slackoff/muddywater/toxic)
+  blaziken (fainted; item lifeorb, ability speedboost; moves protect/closecombat/flareblitz/swordsdance)
+  blastoise (fainted; item ?, ability torrent, tera steel; moves shellsmash/icebeam/hydropump/earthquake)
+theirs (as seen):
+  cramorant (fainted; item unknown_item, ability gulpmissile; moves bravebird)
+  ironhands (fainted; item leftovers, ability quarkdrive; moves wildcharge)
+  ironbundle (fainted; item unknown_item, ability quarkdrive; moves hydropump)
+  roaringmoon (fainted; item unknown_item, ability protosynthesis; moves outrage)
+  weavile (fainted; item unknown_item, ability ?; moves knockoff)
+  magearna (25%; item leftovers, ability soulheart; moves fleurcannon)
+
+-- turn 0
+  switch|p1a: Oranguru|Oranguru, L92, M|315/315
+  switch|p2a: Cramorant|Cramorant, L86, M|100/100
+-- turn 1
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Cramorant|Brave Bird|p1a: Oranguru
+  -damage|p1a: Oranguru|201/315
+  -damage|p2a: Cramorant|86/100|[from] Recoil
+  move|p1a: Oranguru|Thunderbolt|p2a: Cramorant
+  -supereffective|p2a: Cramorant
+  -damage|p2a: Cramorant|0 fnt
+  faint|p2a: Cramorant
+  switch|p2a: Iron Hands|Iron Hands, L79|100/100
+-- turn 2
+  WE CHOSE: switch to rabsca (hand policy: attack thunderbolt) - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Rabsca|Rabsca, L91, F|284/284
+  move|p2a: Iron Hands|Wild Charge|p1a: Rabsca
+  -damage|p1a: Rabsca|178/284
+  -damage|p2a: Iron Hands|93/100|[from] Recoil
+  -heal|p2a: Iron Hands|99/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: switch to sunflora (hand policy: attack psychic) - our hp 0.63, theirs 0.99, predicted move (revealed) hits us x1
+  switch|p1a: Sunflora|Sunflora, M|312/312
+  move|p2a: Iron Hands|Wild Charge|p1a: Sunflora
+  -resisted|p1a: Sunflora
+  -damage|p1a: Sunflora|241/312
+  -damage|p2a: Iron Hands|95/100|[from] Recoil
+  -heal|p2a: Iron Hands|100/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack earthpower - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Hands|Wild Charge|p1a: Sunflora
+  -resisted|p1a: Sunflora
+  -damage|p1a: Sunflora|173/312
+  -damage|p2a: Iron Hands|96/100|[from] Recoil
+  move|p1a: Sunflora|Earth Power|p2a: Iron Hands
+  -supereffective|p2a: Iron Hands
+  -damage|p2a: Iron Hands|3/100
+  -damage|p1a: Sunflora|142/312|[from] item: Life Orb
+  -heal|p2a: Iron Hands|9/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack earthpower - our hp 0.46, theirs 0.09, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Hands|Wild Charge|p1a: Sunflora
+  -resisted|p1a: Sunflora
+  -damage|p1a: Sunflora|75/312
+  -damage|p2a: Iron Hands|5/100|[from] Recoil
+  move|p1a: Sunflora|Earth Power|p2a: Iron Hands
+  -supereffective|p2a: Iron Hands
+  -damage|p2a: Iron Hands|0 fnt
+  faint|p2a: Iron Hands
+  -end|p2a: Iron Hands|Quark Drive|[silent]
+  -damage|p1a: Sunflora|44/312|[from] item: Life Orb
+  switch|p2a: Iron Bundle|Iron Bundle, L78|100/100
+-- turn 6
+  WE CHOSE: attack solarbeam - our hp 0.14, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Sunflora|[miss]
+  -miss|p2a: Iron Bundle|p1a: Sunflora
+  move|p1a: Sunflora|Solar Beam||[still]
+  -prepare|p1a: Sunflora|Solar Beam
+-- turn 7
+  WE CHOSE: attack solarbeam - our hp 0.14, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to blastoise (hand policy: forced: switch to bellibolt) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Sunflora
+  -resisted|p1a: Sunflora
+  -damage|p1a: Sunflora|0 fnt
+  faint|p1a: Sunflora
+  switch|p1a: Blastoise|Blastoise, L80, F|258/258
+-- turn 8
+  WE CHOSE: setup shellsmash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Blastoise
+  -resisted|p1a: Blastoise
+  -damage|p1a: Blastoise|204/258
+  move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+  -unboost|p1a: Blastoise|def|1
+  -unboost|p1a: Blastoise|spd|1
+  -boost|p1a: Blastoise|atk|2
+  -boost|p1a: Blastoise|spa|2
+  -boost|p1a: Blastoise|spe|2
+  -enditem|p1a: Blastoise|White Herb
+  -clearnegativeboost|p1a: Blastoise|[silent]
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Blastoise|Earthquake|p2a: Iron Bundle
+  -damage|p2a: Iron Bundle|56/100
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Blastoise
+  -resisted|p1a: Blastoise
+  -damage|p1a: Blastoise|143/258
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.55, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p1a: Blastoise|Earthquake|p2a: Iron Bundle
+  -damage|p2a: Iron Bundle|5/100
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Blastoise
+  -resisted|p1a: Blastoise
+  -damage|p1a: Blastoise|86/258
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 0.33, theirs 0.05, predicted move (revealed) hits us x0.5
+  move|p1a: Blastoise|Earthquake|p2a: Iron Bundle
+  -damage|p2a: Iron Bundle|0 fnt
+  faint|p2a: Iron Bundle
+  -end|p2a: Iron Bundle|Quark Drive|[silent]
+  switch|p2a: Roaring Moon|Roaring Moon, L72|100/100
+-- turn 12
+  WE CHOSE: attack+tera icebeam - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to blaziken - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Blastoise|Steel
+  move|p1a: Blastoise|Ice Beam|p2a: Roaring Moon
+  -supereffective|p2a: Roaring Moon
+  -damage|p2a: Roaring Moon|17/100
+  move|p2a: Roaring Moon|Outrage|p1a: Blastoise
+  -resisted|p1a: Blastoise
+  -damage|p1a: Blastoise|0 fnt
+  faint|p1a: Blastoise
+  switch|p1a: Blaziken|Blaziken, L76, M|247/247
+-- turn 13
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.17, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rabsca - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Roaring Moon|Outrage|p1a: Blaziken|[from] lockedmove
+  -damage|p1a: Blaziken|21/247
+  -start|p2a: Roaring Moon|confusion|[fatigue]
+  move|p1a: Blaziken|Close Combat|p2a: Roaring Moon
+  -supereffective|p2a: Roaring Moon
+  -damage|p2a: Roaring Moon|0 fnt
+  -unboost|p1a: Blaziken|def|1
+  -unboost|p1a: Blaziken|spd|1
+  faint|p2a: Roaring Moon
+  -end|p2a: Roaring Moon|Protosynthesis|[silent]
+  -damage|p1a: Blaziken|0 fnt|[from] item: Life Orb
+  faint|p1a: Blaziken
+  switch|p2a: Weavile|Weavile, L79, F|100/100
+  switch|p1a: Rabsca|Rabsca, L91, F|178/284
+-- turn 14
+  WE CHOSE: attack bugbuzz - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to bellibolt (hand policy: forced: switch to oranguru) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Weavile|Knock Off|p1a: Rabsca
+  -supereffective|p1a: Rabsca
+  -damage|p1a: Rabsca|0 fnt
+  -enditem|p1a: Rabsca|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+  faint|p1a: Rabsca
+  switch|p1a: Bellibolt|Bellibolt, L84, F|320/320
+-- turn 15
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Weavile|Knock Off|p1a: Bellibolt
+  -damage|p1a: Bellibolt|169/320
+  -start|p1a: Bellibolt|Charge|Knock Off|[from] ability: Electromorphosis
+  -enditem|p1a: Bellibolt|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+  move|p1a: Bellibolt|Thunderbolt|p2a: Weavile
+  -damage|p2a: Weavile|9/100
+  -end|p1a: Bellibolt|Charge|[silent]
+-- turn 16
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 0.53, theirs 0.09, predicted move (revealed) hits us x1
+  move|p2a: Weavile|Knock Off|p1a: Bellibolt
+  -damage|p1a: Bellibolt|63/320
+  -start|p1a: Bellibolt|Charge|Knock Off|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|223/320
+-- turn 17
+  WE CHOSE: attack thunderbolt - our hp 0.70, theirs 0.09, predicted move (revealed) hits us x1
+  move|p2a: Weavile|Knock Off|p1a: Bellibolt
+  -damage|p1a: Bellibolt|121/320
+  -start|p1a: Bellibolt|Charge|Knock Off|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Weavile
+  -damage|p2a: Weavile|0 fnt
+  faint|p2a: Weavile
+  -end|p1a: Bellibolt|Charge|[silent]
+  switch|p2a: Magearna|Magearna, L77|100/100
+-- turn 18
+  WE CHOSE: heal slackoff - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to oranguru - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Magearna|Fleur Cannon|p1a: Bellibolt
+  -damage|p1a: Bellibolt|0 fnt
+  -unboost|p2a: Magearna|spa|2
+  faint|p1a: Bellibolt
+  -ability|p2a: Magearna|Soul-Heart|boost
+  -boost|p2a: Magearna|spa|1
+  switch|p1a: Oranguru|Oranguru, L92, M|201/315
+-- turn 19
+  WE CHOSE: attack focusblast (hand policy: attack thunderbolt) - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Oranguru|Focus Blast|p2a: Magearna
+  -damage|p2a: Magearna|47/100
+  move|p2a: Magearna|Fleur Cannon|p1a: Oranguru
+  -damage|p1a: Oranguru|122/315
+  -unboost|p2a: Magearna|spa|2
+  -heal|p2a: Magearna|53/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack focusblast - our hp 0.39, theirs 0.53, predicted move (revealed) hits us x1
+  move|p1a: Oranguru|Focus Blast|p2a: Magearna|[miss]
+  -miss|p1a: Oranguru|p2a: Magearna
+  move|p2a: Magearna|Fleur Cannon|p1a: Oranguru
+  -damage|p1a: Oranguru|76/315
+  -unboost|p2a: Magearna|spa|2
+  -heal|p2a: Magearna|59/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack focusblast - our hp 0.24, theirs 0.59, predicted move (revealed) hits us x1
+  move|p1a: Oranguru|Focus Blast|p2a: Magearna|[miss]
+  -miss|p1a: Oranguru|p2a: Magearna
+  move|p2a: Magearna|Fleur Cannon|p1a: Oranguru
+  -damage|p1a: Oranguru|42/315
+  -unboost|p2a: Magearna|spa|1
+  -heal|p2a: Magearna|65/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack focusblast - our hp 0.13, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Oranguru|Focus Blast|p2a: Magearna|[miss]
+  -miss|p1a: Oranguru|p2a: Magearna
+  move|p2a: Magearna|Fleur Cannon|p1a: Oranguru
+  -damage|p1a: Oranguru|12/315
+  -heal|p2a: Magearna|71/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack focusblast - our hp 0.04, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Oranguru|Focus Blast|p2a: Magearna
+  -damage|p2a: Magearna|25/100
+  move|p2a: Magearna|Fleur Cannon|p1a: Oranguru
+  -damage|p1a: Oranguru|0 fnt
+  faint|p1a: Oranguru
+  deinit

@@ -1,0 +1,162 @@
+battle 2250 (battle-gen9randombattle-1029154): lost in 16 turns, 3 of theirs left; we are p1
+
+ours:
+  skeledirge (fainted; item heavydutyboots, ability unaware, tera fairy; moves slackoff/torchsong/hex/willowisp)
+  raichualola (fainted; item choicespecs, ability surgesurfer; moves psychic/grassknot/thunderbolt/surf)
+  darkrai (fainted; item leftovers, ability baddreams; moves nastyplot/darkpulse/sludgebomb/substitute)
+  ironleaves (fainted; item lifeorb, ability quarkdrive; moves swordsdance/psyblade/closecombat/leafblade)
+  mausholdfour (fainted; item widelens, ability technician; moves bite/encore/tidyup/populationbomb)
+  diancie (fainted; item leftovers, ability clearbody; moves bodypress/moonblast/diamondstorm/rockpolish)
+theirs (as seen):
+  meganium (fainted; item leftovers, ability ?; moves energyball)
+  bronzong (fainted; item unknown_item, ability ?; moves ironhead)
+  wugtrio (fainted; item unknown_item, ability gooey; moves liquidation)
+  snorlax (12%; item leftovers, ability ?; moves earthquake)
+
+-- turn 0
+  switch|p1a: Skeledirge|Skeledirge, L79, M|294/294
+  switch|p2a: Meganium|Meganium, L90, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera torchsong (hand policy: switch to ironleaves) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Skeledirge|Fairy
+  move|p2a: Meganium|Energy Ball|p1a: Skeledirge
+  -damage|p1a: Skeledirge|170/294
+  move|p1a: Skeledirge|Torch Song|p2a: Meganium
+  -supereffective|p2a: Meganium
+  -damage|p2a: Meganium|55/100
+  -boost|p1a: Skeledirge|spa|1
+  -heal|p2a: Meganium|61/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack torchsong - our hp 0.58, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Skeledirge
+  -damage|p1a: Skeledirge|47/294
+  move|p1a: Skeledirge|Torch Song|p2a: Meganium
+  -supereffective|p2a: Meganium
+  -damage|p2a: Meganium|0 fnt
+  -boost|p1a: Skeledirge|spa|1
+  faint|p2a: Meganium
+  switch|p2a: Bronzong|Bronzong, L88|100/100
+-- turn 3
+  WE CHOSE: heal slackoff - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+  -heal|p1a: Skeledirge|194/294
+  move|p2a: Bronzong|Iron Head|p1a: Skeledirge
+  -supereffective|p1a: Skeledirge
+  -damage|p1a: Skeledirge|8/294
+-- turn 4
+  WE CHOSE: heal slackoff (hand policy: switch to raichualola) - our hp 0.03, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to raichualola (hand policy: forced: switch to darkrai) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+  -heal|p1a: Skeledirge|155/294
+  move|p2a: Bronzong|Iron Head|p1a: Skeledirge
+  -supereffective|p1a: Skeledirge
+  -damage|p1a: Skeledirge|0 fnt
+  faint|p1a: Skeledirge
+  switch|p1a: Raichu|Raichu-Alola, L87, M|246/246
+-- turn 5
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Raichu|Thunderbolt|p2a: Bronzong
+  -damage|p2a: Bronzong|60/100
+  move|p2a: Bronzong|Iron Head|p1a: Raichu
+  -resisted|p1a: Raichu
+  -damage|p1a: Raichu|183/246
+-- turn 6
+  WE CHOSE: attack thunderbolt - our hp 0.74, theirs 0.60, predicted move (revealed) hits us x0.5
+  move|p1a: Raichu|Thunderbolt|p2a: Bronzong
+  -crit|p2a: Bronzong
+  -damage|p2a: Bronzong|0 fnt
+  faint|p2a: Bronzong
+  switch|p2a: Wugtrio|Wugtrio, L91, F|100/100
+-- turn 7
+  WE CHOSE: switch to ironleaves (hand policy: attack thunderbolt) - our hp 0.74, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Iron Leaves|Iron Leaves, L80|275/275
+  move|p2a: Wugtrio|Liquidation|p1a: Iron Leaves
+  -resisted|p1a: Iron Leaves
+  -damage|p1a: Iron Leaves|191/275
+  -unboost|p1a: Iron Leaves|def|1
+-- turn 8
+  WE CHOSE: setup swordsdance - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Wugtrio|Liquidation|p1a: Iron Leaves
+  -resisted|p1a: Iron Leaves
+  -damage|p1a: Iron Leaves|74/275
+  move|p1a: Iron Leaves|Swords Dance|p1a: Iron Leaves
+  -boost|p1a: Iron Leaves|atk|2
+-- turn 9
+  WE CHOSE: attack leafblade - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to raichualola - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Wugtrio|Liquidation|p1a: Iron Leaves
+  -resisted|p1a: Iron Leaves
+  -damage|p1a: Iron Leaves|0 fnt
+  faint|p1a: Iron Leaves
+  -end|p1a: Iron Leaves|Quark Drive|[silent]
+  switch|p1a: Raichu|Raichu-Alola, L87, M|183/246
+-- turn 10
+  WE CHOSE: attack thunderbolt - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to darkrai - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Wugtrio|Liquidation|p1a: Raichu
+  -damage|p1a: Raichu|0 fnt
+  faint|p1a: Raichu
+  switch|p1a: Darkrai|Darkrai, L77|234/234
+-- turn 11
+  WE CHOSE: attack darkpulse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Wugtrio|Liquidation|p1a: Darkrai
+  -damage|p1a: Darkrai|47/234
+  -unboost|p1a: Darkrai|def|1
+  move|p1a: Darkrai|Dark Pulse|p2a: Wugtrio
+  -damage|p2a: Wugtrio|50/100
+  -heal|p1a: Darkrai|61/234|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack darkpulse - our hp 0.26, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mausholdfour - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Wugtrio|Liquidation|p1a: Darkrai
+  -damage|p1a: Darkrai|0 fnt
+  faint|p1a: Darkrai
+  switch|p1a: Maushold|Maushold-Four, L76|238/238
+-- turn 13
+  WE CHOSE: attack populationbomb (hand policy: attack bite) - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Wugtrio|Liquidation|p1a: Maushold
+  -damage|p1a: Maushold|37/238
+  move|p1a: Maushold|Population Bomb|p2a: Wugtrio
+  -damage|p2a: Wugtrio|34/100
+  -ability|p2a: Wugtrio|Gooey
+  -unboost|p1a: Maushold|spe|1
+  -damage|p2a: Wugtrio|18/100
+  -ability|p2a: Wugtrio|Gooey
+  -unboost|p1a: Maushold|spe|1
+  -damage|p2a: Wugtrio|3/100
+  -ability|p2a: Wugtrio|Gooey
+  -unboost|p1a: Maushold|spe|1
+  -damage|p2a: Wugtrio|0 fnt
+  -ability|p2a: Wugtrio|Gooey
+  -unboost|p1a: Maushold|spe|1
+  faint|p2a: Wugtrio
+  -hitcount|p2: Wugtrio|4
+  switch|p2a: Snorlax|Snorlax, L82, M|100/100
+-- turn 14
+  WE CHOSE: attack bite - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to diancie - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Snorlax|Earthquake|p1a: Maushold
+  -damage|p1a: Maushold|0 fnt
+  faint|p1a: Maushold
+  switch|p1a: Diancie|Diancie, L82|216/216
+-- turn 15
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Diancie|Body Press|p2a: Snorlax
+  -supereffective|p2a: Snorlax
+  -damage|p2a: Snorlax|56/100
+  move|p2a: Snorlax|Earthquake|p1a: Diancie
+  -supereffective|p1a: Diancie
+  -damage|p1a: Diancie|118/216
+  -heal|p1a: Diancie|131/216|[from] item: Leftovers
+  -heal|p2a: Snorlax|62/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack bodypress - our hp 0.61, theirs 0.62, predicted move (revealed) hits us x2
+  move|p1a: Diancie|Body Press|p2a: Snorlax
+  -supereffective|p2a: Snorlax
+  -damage|p2a: Snorlax|12/100
+  move|p2a: Snorlax|Earthquake|p1a: Diancie
+  -supereffective|p1a: Diancie
+  -crit|p1a: Diancie
+  -damage|p1a: Diancie|0 fnt
+  faint|p1a: Diancie
+  deinit

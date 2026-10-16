@@ -1,0 +1,205 @@
+battle 602 (battle-gen9randombattle-1011885): lost in 22 turns, 2 of theirs left; we are p1
+
+ours:
+  clawitzer (fainted; item assaultvest, ability megalauncher; moves darkpulse/dragonpulse/uturn/waterpulse)
+  espeon (fainted; item choicespecs, ability magicbounce; moves trick/psyshock/alluringvoice/shadowball)
+  dragonite (fainted; item heavydutyboots, ability multiscale; moves outrage/ironhead/dragondance/earthquake)
+  rotomwash (fainted; item leftovers, ability levitate, tera steel; moves willowisp/hydropump/nastyplot/thunderbolt)
+  beartic (fainted; item heavydutyboots, ability slushrush; moves closecombat/snowscape/earthquake/iciclecrash)
+  regieleki (fainted; item magnet, ability transistor; moves terablast/rapidspin/voltswitch/thunderbolt)
+theirs (as seen):
+  eelektross (fainted; item leftovers, ability levitate; moves supercellslam)
+  meowstic (fainted; item unknown_item, ability ?; moves psychicnoise)
+  basculegion (fainted; item unknown_item, ability ?; moves wavecrash)
+  politoed (fainted; item unknown_item, ability ?; moves focusblast)
+  pawmot (31%; item lifeorb, ability ?; moves doubleshock)
+
+-- turn 0
+  switch|p1a: Clawitzer|Clawitzer, L87, M|265/265
+  switch|p2a: Eelektross|Eelektross, L87, F|100/100
+-- turn 1
+  WE CHOSE: attack waterpulse - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Clawitzer|Water Pulse|p2a: Eelektross
+  -damage|p2a: Eelektross|59/100
+  move|p2a: Eelektross|Supercell Slam|p1a: Clawitzer
+  -supereffective|p1a: Clawitzer
+  -damage|p1a: Clawitzer|11/265
+  -heal|p2a: Eelektross|65/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to regieleki - our hp 0.04, theirs 0.65, predicted move (revealed) hits us x2
+  switch|p1a: Regieleki|Regieleki, L79|256/256
+  move|p2a: Eelektross|Supercell Slam|p1a: Regieleki
+  -resisted|p1a: Regieleki
+  -damage|p1a: Regieleki|147/256
+  -heal|p2a: Eelektross|72/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack terablast - our hp 0.57, theirs 0.72, predicted move (revealed) hits us x0.5
+  move|p1a: Regieleki|Tera Blast|p2a: Eelektross
+  -damage|p2a: Eelektross|55/100
+  move|p2a: Eelektross|Supercell Slam|p1a: Regieleki
+  -resisted|p1a: Regieleki
+  -damage|p1a: Regieleki|54/256
+  -heal|p2a: Eelektross|61/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack terablast - our hp 0.21, theirs 0.61, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dragonite - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Regieleki|Tera Blast|p2a: Eelektross
+  -crit|p2a: Eelektross
+  -damage|p2a: Eelektross|34/100
+  move|p2a: Eelektross|Supercell Slam|p1a: Regieleki
+  -resisted|p1a: Regieleki
+  -damage|p1a: Regieleki|0 fnt
+  faint|p1a: Regieleki
+  -heal|p2a: Eelektross|40/100|[from] item: Leftovers
+  switch|p1a: Dragonite|Dragonite, L74, F|257/257
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x1
+  move|p1a: Dragonite|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  move|p2a: Eelektross|Supercell Slam|p1a: Dragonite
+  -damage|p1a: Dragonite|191/257
+  -heal|p2a: Eelektross|46/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 0.74, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Dragonite|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  move|p2a: Eelektross|Supercell Slam|p1a: Dragonite
+  -damage|p1a: Dragonite|52/257
+  -heal|p2a: Eelektross|52/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.20, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to beartic - our hp 0.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Dragonite|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  move|p2a: Eelektross|Supercell Slam|p1a: Dragonite
+  -damage|p1a: Dragonite|0 fnt
+  faint|p1a: Dragonite
+  -heal|p2a: Eelektross|58/100|[from] item: Leftovers
+  switch|p1a: Beartic|Beartic, L91, M|321/321
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Beartic|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  move|p2a: Eelektross|Supercell Slam|p1a: Beartic
+  -damage|p1a: Beartic|189/321
+  -heal|p2a: Eelektross|65/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.59, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Beartic|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  move|p2a: Eelektross|Supercell Slam|p1a: Beartic
+  -damage|p1a: Beartic|66/321
+  -heal|p2a: Eelektross|71/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.21, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rotomwash - our hp 0.00, theirs 0.77, predicted move (revealed) hits us x1
+  move|p1a: Beartic|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  move|p2a: Eelektross|Supercell Slam|p1a: Beartic
+  -damage|p1a: Beartic|0 fnt
+  faint|p1a: Beartic
+  -heal|p2a: Eelektross|77/100|[from] item: Leftovers
+  switch|p1a: Rotom|Rotom-Wash, L82|216/216
+-- turn 11
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.77, predicted move (revealed) hits us x1
+  move|p1a: Rotom|Hydro Pump|p2a: Eelektross
+  -damage|p2a: Eelektross|37/100
+  move|p2a: Eelektross|Supercell Slam|p1a: Rotom
+  -damage|p1a: Rotom|101/216
+  -heal|p1a: Rotom|114/216|[from] item: Leftovers
+  -heal|p2a: Eelektross|43/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack hydropump - our hp 0.53, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Rotom|Hydro Pump|p2a: Eelektross
+  -damage|p2a: Eelektross|0 fnt
+  faint|p2a: Eelektross
+  -heal|p1a: Rotom|127/216|[from] item: Leftovers
+  switch|p2a: Meowstic|Meowstic, L89, M|100/100
+-- turn 13
+  WE CHOSE: attack+tera thunderbolt - our hp 0.59, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Rotom|Steel
+  move|p2a: Meowstic|Psychic Noise|p1a: Rotom
+  -resisted|p1a: Rotom
+  -damage|p1a: Rotom|93/216
+  -start|p1a: Rotom|move: Heal Block
+  move|p1a: Rotom|Thunderbolt|p2a: Meowstic
+  -damage|p2a: Meowstic|63/100
+-- turn 14
+  WE CHOSE: attack thunderbolt - our hp 0.43, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p2a: Meowstic|Psychic Noise|p1a: Rotom
+  -resisted|p1a: Rotom
+  -damage|p1a: Rotom|55/216
+  move|p1a: Rotom|Thunderbolt|p2a: Meowstic
+  -damage|p2a: Meowstic|31/100
+  -status|p2a: Meowstic|par
+  -end|p1a: Rotom|move: Heal Block
+-- turn 15
+  WE CHOSE: attack thunderbolt - our hp 0.25, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p1a: Rotom|Thunderbolt|p2a: Meowstic
+  -damage|p2a: Meowstic|0 fnt
+  faint|p2a: Meowstic
+  -heal|p1a: Rotom|68/216|[from] item: Leftovers
+  switch|p2a: Basculegion|Basculegion, L80, M|100/100
+-- turn 16
+  WE CHOSE: attack thunderbolt - our hp 0.31, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to clawitzer - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Rotom|Thunderbolt|p2a: Basculegion
+  -supereffective|p2a: Basculegion
+  -damage|p2a: Basculegion|56/100
+  move|p2a: Basculegion|Wave Crash|p1a: Rotom
+  -damage|p1a: Rotom|0 fnt
+  faint|p1a: Rotom
+  -damage|p2a: Basculegion|49/100|[from] Recoil
+  switch|p1a: Clawitzer|Clawitzer, L87, M|11/265
+-- turn 17
+  WE CHOSE: attack darkpulse - our hp 0.04, theirs 0.49, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to espeon - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p2a: Basculegion|Wave Crash|p1a: Clawitzer
+  -resisted|p1a: Clawitzer
+  -damage|p1a: Clawitzer|0 fnt
+  faint|p1a: Clawitzer
+  -damage|p2a: Basculegion|48/100|[from] Recoil
+  switch|p1a: Espeon|Espeon, L84, M|246/246
+-- turn 18
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Espeon|Shadow Ball|p2a: Basculegion
+  -supereffective|p2a: Basculegion
+  -damage|p2a: Basculegion|0 fnt
+  faint|p2a: Basculegion
+  switch|p2a: Politoed|Politoed, L88, M|100/100
+  -weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+-- turn 19
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Espeon|Shadow Ball|p2a: Politoed
+  -damage|p2a: Politoed|70/100
+  move|p2a: Politoed|Focus Blast|p1a: Espeon|[miss]
+  -miss|p2a: Politoed|p1a: Espeon
+  -weather|RainDance|[upkeep]
+-- turn 20
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p1a: Espeon|Shadow Ball|p2a: Politoed
+  -crit|p2a: Politoed
+  -damage|p2a: Politoed|24/100
+  -unboost|p2a: Politoed|spd|1
+  move|p2a: Politoed|Focus Blast|p1a: Espeon
+  -resisted|p1a: Espeon
+  -damage|p1a: Espeon|182/246
+  -unboost|p1a: Espeon|spd|1
+  -weather|RainDance|[upkeep]
+-- turn 21
+  WE CHOSE: attack shadowball - our hp 0.74, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p1a: Espeon|Shadow Ball|p2a: Politoed
+  -damage|p2a: Politoed|0 fnt
+  faint|p2a: Politoed
+  -weather|RainDance|[upkeep]
+  switch|p2a: Pawmot|Pawmot, L80, F|100/100
+-- turn 22
+  WE CHOSE: attack shadowball - our hp 0.74, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Espeon|Shadow Ball|p2a: Pawmot
+  -damage|p2a: Pawmot|40/100
+  move|p2a: Pawmot|Double Shock|p1a: Espeon
+  -damage|p1a: Espeon|0 fnt
+  -start|p2a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+  faint|p1a: Espeon
+  -damage|p2a: Pawmot|31/100|[from] item: Life Orb
+  deinit

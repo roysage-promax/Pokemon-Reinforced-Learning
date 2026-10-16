@@ -1,0 +1,194 @@
+battle 1300 (battle-gen9randombattle-1018529): lost in 19 turns, 1 of theirs left; we are p1
+
+ours:
+  jolteon (fainted; item choicespecs, ability voltabsorb; moves voltswitch/shadowball/alluringvoice/thunderbolt)
+  froslass (fainted; item widelens, ability cursedbody; moves poltergeist/spikes/tripleaxel/taunt)
+  glastrier (fainted; item heavydutyboots, ability chillingneigh; moves highhorsepower/swordsdance/closecombat/iciclecrash)
+  rampardos (fainted; item lifeorb, ability sheerforce; moves rockslide/zenheadbutt/earthquake/firepunch)
+  pawmot (fainted; item lifeorb, ability ironfist, tera electric; moves closecombat/doubleshock/icepunch/revivalblessing)
+  honchkrow (fainted; item heavydutyboots, ability moxie; moves heatwave/suckerpunch/bravebird/lashout)
+theirs (as seen):
+  ursalunabloodmoon (fainted; item leftovers, ability mindseye; moves bloodmoon/vacuumwave)
+  venomoth (fainted; item unknown_item, ability ?; moves -)
+  sneasler (fainted; item unknown_item, ability ?; moves closecombat)
+  uxie (fainted; item leftovers, ability levitate; moves psychicnoise)
+  typhlosionhisui (fainted; item unknown_item, ability ?; moves eruption)
+  diancie (14%; item leftovers, ability clearbody; moves diamondstorm)
+
+-- turn 0
+  switch|p1a: Jolteon|Jolteon, L84, F|246/246
+  switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L79, M|100/100
+-- turn 1
+  WE CHOSE: switch to froslass - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Froslass|Froslass, L87, F|263/263
+  move|p2a: Ursaluna|Blood Moon|p1a: Froslass
+  -damage|p1a: Froslass|70/263
+  -start|p2a: Ursaluna|Disable|Blood Moon|[from] ability: Cursed Body|[of] p1a: Froslass
+-- turn 2
+  WE CHOSE: attack tripleaxel - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to pawmot - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ursaluna|Vacuum Wave|p1a: Froslass
+  -supereffective|p1a: Froslass
+  -damage|p1a: Froslass|0 fnt
+  faint|p1a: Froslass
+  switch|p1a: Pawmot|Pawmot, L80, M|243/243
+-- turn 3
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Ursaluna|Vacuum Wave|p1a: Pawmot
+  -damage|p1a: Pawmot|198/243
+  move|p1a: Pawmot|Close Combat|p2a: Ursaluna
+  -supereffective|p2a: Ursaluna
+  -damage|p2a: Ursaluna|1/100
+  -unboost|p1a: Pawmot|def|1
+  -unboost|p1a: Pawmot|spd|1
+  -damage|p1a: Pawmot|174/243|[from] item: Life Orb
+  -heal|p2a: Ursaluna|7/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack closecombat - our hp 0.72, theirs 0.07, predicted move (revealed) hits us x1
+  move|p2a: Ursaluna|Vacuum Wave|p1a: Pawmot
+  -damage|p1a: Pawmot|100/243
+  move|p1a: Pawmot|Close Combat|p2a: Ursaluna
+  -supereffective|p2a: Ursaluna
+  -damage|p2a: Ursaluna|0 fnt
+  -unboost|p1a: Pawmot|def|1
+  -unboost|p1a: Pawmot|spd|1
+  faint|p2a: Ursaluna
+  -damage|p1a: Pawmot|76/243|[from] item: Life Orb
+  switch|p2a: Venomoth|Venomoth, L84, F|100/100
+-- turn 5
+  WE CHOSE: attack+tera doubleshock - our hp 0.31, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Pawmot|Electric
+  move|p1a: Pawmot|Double Shock|p2a: Venomoth
+  -damage|p2a: Venomoth|0 fnt
+  -start|p1a: Pawmot|typechange|Electric|[from] move: Double Shock
+  faint|p2a: Venomoth
+  -damage|p1a: Pawmot|52/243|[from] item: Life Orb
+  switch|p2a: Sneasler|Sneasler, L74, F|100/100
+-- turn 6
+  WE CHOSE: attack doubleshock - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to honchkrow - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Sneasler|Close Combat|p1a: Pawmot
+  -damage|p1a: Pawmot|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Pawmot
+  switch|p1a: Honchkrow|Honchkrow, L86, M|312/312
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rampardos - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Sneasler|Close Combat|p1a: Honchkrow
+  -damage|p1a: Honchkrow|33/312
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  move|p1a: Honchkrow|Brave Bird|p2a: Sneasler
+  -supereffective|p2a: Sneasler
+  -damage|p2a: Sneasler|0 fnt
+  faint|p2a: Sneasler
+  -ability|p1a: Honchkrow|Moxie|boost
+  -boost|p1a: Honchkrow|atk|1
+  -damage|p1a: Honchkrow|0 fnt|[from] Recoil
+  faint|p1a: Honchkrow
+  switch|p2a: Uxie|Uxie, L83|100/100
+  switch|p1a: Rampardos|Rampardos, L90, F|321/321
+-- turn 8
+  WE CHOSE: attack rockslide - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Rampardos
+  -damage|p1a: Rampardos|231/321
+  -start|p1a: Rampardos|move: Heal Block
+  move|p1a: Rampardos|Rock Slide|p2a: Uxie
+  -damage|p2a: Uxie|28/100
+  -heal|p2a: Uxie|34/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack rockslide - our hp 0.72, theirs 0.34, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Rampardos
+  -damage|p1a: Rampardos|138/321
+  move|p1a: Rampardos|Rock Slide|p2a: Uxie|[miss]
+  -miss|p1a: Rampardos|p2a: Uxie
+  -heal|p2a: Uxie|40/100|[from] item: Leftovers
+  -end|p1a: Rampardos|move: Heal Block
+-- turn 10
+  WE CHOSE: attack rockslide - our hp 0.43, theirs 0.40, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Rampardos
+  -damage|p1a: Rampardos|51/321
+  -start|p1a: Rampardos|move: Heal Block
+  move|p1a: Rampardos|Rock Slide|p2a: Uxie
+  -damage|p2a: Uxie|0 fnt
+  faint|p2a: Uxie
+  switch|p2a: Typhlosion|Typhlosion-Hisui, L83, M|100/100
+-- turn 11
+  WE CHOSE: attack rockslide - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to jolteon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Typhlosion|Eruption|p1a: Rampardos
+  -resisted|p1a: Rampardos
+  -damage|p1a: Rampardos|0 fnt
+  faint|p1a: Rampardos
+  switch|p1a: Jolteon|Jolteon, L84, F|246/246
+-- turn 12
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Jolteon|Shadow Ball|p2a: Typhlosion
+  -supereffective|p2a: Typhlosion
+  -damage|p2a: Typhlosion|19/100
+  -unboost|p2a: Typhlosion|spd|1
+  move|p2a: Typhlosion|Eruption|p1a: Jolteon
+  -damage|p1a: Jolteon|177/246
+-- turn 13
+  WE CHOSE: attack shadowball - our hp 0.72, theirs 0.19, predicted move (revealed) hits us x1
+  move|p1a: Jolteon|Shadow Ball|p2a: Typhlosion
+  -supereffective|p2a: Typhlosion
+  -damage|p2a: Typhlosion|0 fnt
+  faint|p2a: Typhlosion
+  switch|p2a: Diancie|Diancie, L82|100/100
+-- turn 14
+  WE CHOSE: attack shadowball - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to glastrier - our hp 0.00, theirs 0.79, predicted move (revealed) hits us x1
+  move|p1a: Jolteon|Shadow Ball|p2a: Diancie
+  -damage|p2a: Diancie|73/100
+  move|p2a: Diancie|Diamond Storm|p1a: Jolteon
+  -crit|p1a: Jolteon
+  -damage|p1a: Jolteon|0 fnt
+  -boost|p2a: Diancie|def|2
+  faint|p1a: Jolteon
+  -heal|p2a: Diancie|79/100|[from] item: Leftovers
+  switch|p1a: Glastrier|Glastrier, L86|312/312
+-- turn 15
+  WE CHOSE: attack highhorsepower - our hp 1.00, theirs 0.79, predicted move (revealed) hits us x2
+  move|p2a: Diancie|Diamond Storm|p1a: Glastrier
+  -supereffective|p1a: Glastrier
+  -damage|p1a: Glastrier|162/312
+  -boost|p2a: Diancie|def|2
+  move|p1a: Glastrier|High Horsepower|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|57/100
+  -heal|p2a: Diancie|63/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack highhorsepower - our hp 0.52, theirs 0.63, predicted move (revealed) hits us x2
+  move|p2a: Diancie|Diamond Storm|p1a: Glastrier
+  -supereffective|p1a: Glastrier
+  -damage|p1a: Glastrier|10/312
+  move|p1a: Glastrier|High Horsepower|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|40/100
+  -heal|p2a: Diancie|46/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack highhorsepower - our hp 0.03, theirs 0.46, predicted move (revealed) hits us x2
+  move|p2a: Diancie|Diamond Storm|p1a: Glastrier|[miss]
+  -miss|p2a: Diancie|p1a: Glastrier
+  move|p1a: Glastrier|High Horsepower|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|23/100
+  -heal|p2a: Diancie|29/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack highhorsepower - our hp 0.03, theirs 0.29, predicted move (revealed) hits us x2
+  move|p2a: Diancie|Diamond Storm|p1a: Glastrier|[miss]
+  -miss|p2a: Diancie|p1a: Glastrier
+  move|p1a: Glastrier|High Horsepower|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|8/100
+  -heal|p2a: Diancie|14/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack highhorsepower - our hp 0.03, theirs 0.14, predicted move (revealed) hits us x2
+  move|p2a: Diancie|Diamond Storm|p1a: Glastrier
+  -supereffective|p1a: Glastrier
+  -damage|p1a: Glastrier|0 fnt
+  faint|p1a: Glastrier
+  deinit

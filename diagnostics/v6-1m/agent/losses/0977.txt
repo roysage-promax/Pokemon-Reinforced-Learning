@@ -1,0 +1,759 @@
+battle 977 (battle-gen9randombattle-1016250): lost in 122 turns, 2 of theirs left; we are p1
+
+ours:
+  clefable (fainted; item leftovers, ability unaware; moves fireblast/thunderwave/moonblast/moonlight)
+  golemalola (fainted; item choiceband, ability galvanize; moves explosion/stoneedge/doubleedge/earthquake)
+  chiyu (fainted; item choicescarf, ability beadsofruin; moves darkpulse/overheat/flamethrower/psychic)
+  cinderace (fainted; item heavydutyboots, ability libero; moves courtchange/willowisp/uturn/pyroball)
+  chansey (fainted; item eviolite, ability naturalcure; moves thunderwave/softboiled/healbell/seismictoss)
+  barraskewda (fainted; item choiceband, ability swiftswim, tera water; moves throatchop/closecombat/flipturn/waterfall)
+theirs (as seen):
+  dunsparce (fainted; item unknown_item, ability ?; moves earthquake)
+  snorlax (fainted; item leftovers, ability ?; moves bodyslam)
+  oricoriosensu (fainted; item unknown_item, ability dancer; moves hurricane)
+  hooh (fainted; item unknown_item, ability ?; moves bravebird)
+  spiritomb (99%; item leftovers, ability ?; moves poltergeist/foulplay/shadowsneak/painsplit)
+
+-- turn 0
+  switch|p1a: Clefable|Clefable, L83, F|293/293
+  switch|p2a: Dunsparce|Dunsparce, L86, F|100/100
+-- turn 1
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Clefable|Moonblast|p2a: Dunsparce
+  -damage|p2a: Dunsparce|75/100
+  move|p2a: Dunsparce|Earthquake|p1a: Clefable
+  -damage|p1a: Clefable|222/293
+  -heal|p1a: Clefable|240/293|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack moonblast - our hp 0.82, theirs 0.75, predicted move (revealed) hits us x1
+  move|p1a: Clefable|Moonblast|p2a: Dunsparce
+  -damage|p2a: Dunsparce|51/100
+  move|p2a: Dunsparce|Earthquake|p1a: Clefable
+  -crit|p1a: Clefable
+  -damage|p1a: Clefable|145/293
+  -heal|p1a: Clefable|163/293|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack moonblast - our hp 0.56, theirs 0.51, predicted move (revealed) hits us x1
+  move|p1a: Clefable|Moonblast|p2a: Dunsparce
+  -damage|p2a: Dunsparce|23/100
+  move|p2a: Dunsparce|Earthquake|p1a: Clefable
+  -damage|p1a: Clefable|98/293
+  -heal|p1a: Clefable|116/293|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: heal moonlight - our hp 0.40, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Clefable|Moonlight|p1a: Clefable
+  -heal|p1a: Clefable|262/293
+  move|p2a: Dunsparce|Earthquake|p1a: Clefable
+  -damage|p1a: Clefable|194/293
+  -heal|p1a: Clefable|212/293|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack moonblast - our hp 0.72, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Clefable|Moonblast|p2a: Dunsparce
+  -damage|p2a: Dunsparce|0 fnt
+  faint|p2a: Dunsparce
+  -heal|p1a: Clefable|230/293|[from] item: Leftovers
+  switch|p2a: Snorlax|Snorlax, L82, F|100/100
+-- turn 6
+  WE CHOSE: attack moonblast - our hp 0.78, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Clefable|Moonblast|p2a: Snorlax
+  -crit|p2a: Snorlax
+  -damage|p2a: Snorlax|68/100
+  move|p2a: Snorlax|Body Slam|p1a: Clefable
+  -damage|p1a: Clefable|128/293
+  -heal|p1a: Clefable|146/293|[from] item: Leftovers
+  -heal|p2a: Snorlax|74/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: switch to cinderace (hand policy: heal moonlight) - our hp 0.50, theirs 0.74, predicted move (revealed) hits us x1
+  switch|p1a: Cinderace|Cinderace, L77, F|250/250
+  move|p2a: Snorlax|Body Slam|p1a: Cinderace
+  -damage|p1a: Cinderace|138/250
+  -heal|p2a: Snorlax|80/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: switch to golemalola (hand policy: attack pyroball) - our hp 0.55, theirs 0.80, predicted move (revealed) hits us x1
+  switch|p1a: Golem|Golem-Alola, L93, F|300/300
+  move|p2a: Snorlax|Body Slam|p1a: Golem
+  -resisted|p1a: Golem
+  -damage|p1a: Golem|267/300
+  -heal|p2a: Snorlax|86/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack explosion - our hp 0.89, theirs 0.86, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to barraskewda - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p1a: Golem|Explosion|p2a: Snorlax
+  -damage|p2a: Snorlax|0 fnt
+  faint|p1a: Golem
+  faint|p2a: Snorlax
+  switch|p1a: Barraskewda|Barraskewda, L81, F|231/231
+  switch|p2a: Oricorio|Oricorio-Sensu, L85, M|100/100
+-- turn 10
+  WE CHOSE: attack throatchop - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Barraskewda|Throat Chop|p2a: Oricorio
+  -supereffective|p2a: Oricorio
+  -damage|p2a: Oricorio|11/100
+  -start|p2a: Oricorio|Throat Chop|[silent]
+  move|p2a: Oricorio|Hurricane|p1a: Barraskewda|[miss]
+  -miss|p2a: Oricorio|p1a: Barraskewda
+-- turn 11
+  WE CHOSE: attack throatchop - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x1
+  move|p1a: Barraskewda|Throat Chop|p2a: Oricorio
+  -supereffective|p2a: Oricorio
+  -damage|p2a: Oricorio|0 fnt
+  faint|p2a: Oricorio
+  switch|p2a: Ho-Oh|Ho-Oh, L71|100/100
+-- turn 12
+  WE CHOSE: switch to chiyu (hand policy: attack throatchop) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+  move|p2a: Ho-Oh|Brave Bird|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|66/211
+  -damage|p2a: Ho-Oh|83/100|[from] Recoil
+-- turn 13
+  WE CHOSE: attack darkpulse (hand policy: attack+tera darkpulse) - our hp 0.31, theirs 0.83, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to barraskewda - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Chi-Yu|Dark Pulse|p2a: Ho-Oh
+  -damage|p2a: Ho-Oh|46/100
+  move|p2a: Ho-Oh|Brave Bird|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|0 fnt
+  faint|p1a: Chi-Yu
+  -damage|p2a: Ho-Oh|37/100|[from] Recoil
+  switch|p1a: Barraskewda|Barraskewda, L81, F|231/231
+-- turn 14
+  WE CHOSE: attack+tera waterfall - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x1
+  -terastallize|p1a: Barraskewda|Water
+  move|p1a: Barraskewda|Waterfall|p2a: Ho-Oh
+  -supereffective|p2a: Ho-Oh
+  -damage|p2a: Ho-Oh|0 fnt
+  faint|p2a: Ho-Oh
+  switch|p2a: Spiritomb|Spiritomb, L89, F|100/100
+-- turn 15
+  WE CHOSE: switch to chansey - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Spiritomb|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 16
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -status|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 17
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 18
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  cant|p2a: Spiritomb|par
+-- turn 19
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 20
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 21
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 22
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 23
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 24
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|548/564
+-- turn 25
+  WE CHOSE: attack thunderwave - our hp 0.97, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  cant|p2a: Spiritomb|par
+-- turn 26
+  WE CHOSE: attack thunderwave - our hp 0.97, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|532/564
+-- turn 27
+  WE CHOSE: attack thunderwave - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|516/564
+-- turn 28
+  WE CHOSE: attack thunderwave - our hp 0.91, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|500/564
+-- turn 29
+  WE CHOSE: attack thunderwave - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|485/564
+-- turn 30
+  WE CHOSE: attack thunderwave - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb|[miss]
+  -miss|p1a: Chansey|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|469/564
+-- turn 31
+  WE CHOSE: attack thunderwave - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|454/564
+-- turn 32
+  WE CHOSE: attack thunderwave - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|436/564
+-- turn 33
+  WE CHOSE: attack thunderwave - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  cant|p2a: Spiritomb|par
+-- turn 34
+  WE CHOSE: attack thunderwave - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  cant|p2a: Spiritomb|par
+-- turn 35
+  WE CHOSE: attack thunderwave - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb|[miss]
+  -miss|p1a: Chansey|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|421/564
+-- turn 36
+  WE CHOSE: attack thunderwave - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|406/564
+-- turn 37
+  WE CHOSE: attack thunderwave - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  cant|p2a: Spiritomb|par
+-- turn 38
+  WE CHOSE: attack thunderwave - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|391/564
+-- turn 39
+  WE CHOSE: attack thunderwave - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|376/564
+-- turn 40
+  WE CHOSE: attack thunderwave - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  cant|p2a: Spiritomb|par
+-- turn 41
+  WE CHOSE: attack thunderwave - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|361/564
+-- turn 42
+  WE CHOSE: attack thunderwave - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb|[miss]
+  -miss|p1a: Chansey|p2a: Spiritomb
+  cant|p2a: Spiritomb|par
+-- turn 43
+  WE CHOSE: attack thunderwave - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|346/564
+-- turn 44
+  WE CHOSE: attack thunderwave - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb|[miss]
+  -miss|p1a: Chansey|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|328/564
+-- turn 45
+  WE CHOSE: attack thunderwave - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|312/564
+-- turn 46
+  WE CHOSE: attack thunderwave - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  cant|p2a: Spiritomb|par
+-- turn 47
+  WE CHOSE: attack thunderwave - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|296/564
+-- turn 48
+  WE CHOSE: switch to clefable (hand policy: heal softboiled) - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Clefable|Clefable, L83, F|146/293
+  move|p2a: Spiritomb|Foul Play|p1a: Clefable
+  -resisted|p1a: Clefable
+  -damage|p1a: Clefable|111/293
+  -heal|p1a: Clefable|129/293|[from] item: Leftovers
+-- turn 49
+  WE CHOSE: switch to chansey - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|296/564
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|280/564
+-- turn 50
+  WE CHOSE: switch to clefable (hand policy: heal softboiled) - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Clefable|Clefable, L83, F|129/293
+  move|p2a: Spiritomb|Foul Play|p1a: Clefable
+  -resisted|p1a: Clefable
+  -damage|p1a: Clefable|93/293
+  -heal|p1a: Clefable|111/293|[from] item: Leftovers
+-- turn 51
+  WE CHOSE: switch to chansey - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|280/564
+  cant|p2a: Spiritomb|par
+-- turn 52
+  WE CHOSE: switch to clefable (hand policy: heal softboiled) - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Clefable|Clefable, L83, F|111/293
+  move|p2a: Spiritomb|Foul Play|p1a: Clefable
+  -resisted|p1a: Clefable
+  -damage|p1a: Clefable|75/293
+  -heal|p1a: Clefable|93/293|[from] item: Leftovers
+-- turn 53
+  WE CHOSE: switch to chansey - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|280/564
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|264/564
+-- turn 54
+  WE CHOSE: switch to clefable (hand policy: heal softboiled) - our hp 0.47, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Clefable|Clefable, L83, F|93/293
+  move|p2a: Spiritomb|Foul Play|p1a: Clefable
+  -resisted|p1a: Clefable
+  -damage|p1a: Clefable|54/293
+  -heal|p1a: Clefable|72/293|[from] item: Leftovers
+-- turn 55
+  WE CHOSE: switch to chansey - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|264/564
+  move|p2a: Spiritomb|Foul Play|p1a: Chansey
+  -damage|p1a: Chansey|246/564
+-- turn 56
+  WE CHOSE: switch to clefable (hand policy: heal softboiled) - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Clefable|Clefable, L83, F|72/293
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Clefable
+  -damage|p1a: Clefable|23/293
+  -heal|p1a: Clefable|41/293|[from] item: Leftovers
+-- turn 57
+  WE CHOSE: switch to chansey - our hp 0.14, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|246/564
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 58
+  WE CHOSE: switch to clefable (hand policy: heal softboiled) - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to chansey (hand policy: forced: switch to cinderace) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Clefable|Clefable, L83, F|41/293
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Clefable
+  -damage|p1a: Clefable|0 fnt
+  faint|p1a: Clefable
+  switch|p1a: Chansey|Chansey, L85, F|246/564
+-- turn 59
+  WE CHOSE: heal softboiled - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|528/564
+-- turn 60
+  WE CHOSE: switch to cinderace (hand policy: heal softboiled) - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Cinderace|Cinderace, L77, F|138/250
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Cinderace
+  -damage|p1a: Cinderace|81/250
+-- turn 61
+  WE CHOSE: switch to chansey - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|528/564
+  cant|p2a: Spiritomb|par
+-- turn 62
+  WE CHOSE: switch to cinderace (hand policy: heal softboiled) - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Cinderace|Cinderace, L77, F|81/250
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Cinderace
+  -damage|p1a: Cinderace|29/250
+-- turn 63
+  WE CHOSE: attack pyroball (hand policy: switch to chansey) - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to chansey (hand policy: forced: switch to barraskewda) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Cinderace
+  -damage|p1a: Cinderace|0 fnt
+  faint|p1a: Cinderace
+  switch|p1a: Chansey|Chansey, L85, F|528/564
+-- turn 64
+  WE CHOSE: switch to barraskewda (hand policy: heal softboiled) - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Barraskewda|Barraskewda, L81, F, tera:Water|231/231
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Barraskewda
+  -crit|p1a: Barraskewda
+  -damage|p1a: Barraskewda|144/231
+-- turn 65
+  WE CHOSE: switch to chansey - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|528/564
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 66
+  WE CHOSE: switch to barraskewda (hand policy: heal softboiled) - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Barraskewda|Barraskewda, L81, F, tera:Water|144/231
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Barraskewda
+  -damage|p1a: Barraskewda|78/231
+-- turn 67
+  WE CHOSE: switch to chansey - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|528/564
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 68
+  WE CHOSE: switch to barraskewda (hand policy: heal softboiled) - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Barraskewda|Barraskewda, L81, F, tera:Water|78/231
+  cant|p2a: Spiritomb|par
+-- turn 69
+  WE CHOSE: switch to chansey - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|528/564
+  cant|p2a: Spiritomb|par
+-- turn 70
+  WE CHOSE: switch to barraskewda (hand policy: heal softboiled) - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Barraskewda|Barraskewda, L81, F, tera:Water|78/231
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Barraskewda
+  -damage|p1a: Barraskewda|15/231
+-- turn 71
+  WE CHOSE: switch to chansey - our hp 0.06, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|528/564
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 72
+  WE CHOSE: switch to barraskewda (hand policy: heal softboiled) - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to chansey - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Barraskewda|Barraskewda, L81, F, tera:Water|15/231
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Barraskewda
+  -damage|p1a: Barraskewda|0 fnt
+  faint|p1a: Barraskewda
+  switch|p1a: Chansey|Chansey, L85, F|528/564
+-- turn 73
+  WE CHOSE: heal softboiled - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 74
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 75
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 76
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 77
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 78
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 79
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+-- turn 80
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 81
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 82
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 83
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 84
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 85
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 86
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 87
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 88
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 89
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 90
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 91
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 92
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 93
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 94
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 95
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 96
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 97
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 98
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 99
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 100
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 101
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 102
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 103
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 104
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 105
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 106
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 107
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 108
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 109
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 110
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 111
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+-- turn 112
+  WE CHOSE: attack healbell - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+-- turn 113
+  WE CHOSE: attack healbell - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+-- turn 114
+  WE CHOSE: attack healbell - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+-- turn 115
+  WE CHOSE: attack healbell - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+-- turn 116
+  WE CHOSE: attack healbell - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+-- turn 117
+  WE CHOSE: attack healbell - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+-- turn 118
+  WE CHOSE: attack healbell - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Shadow Sneak|p1a: Chansey
+  -immune|p1a: Chansey
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+-- turn 119
+  WE CHOSE: attack healbell - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+  move|p2a: Spiritomb|Pain Split|p1a: Chansey
+  -sethp|p1a: Chansey|399/564|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100 par|[from] move: Pain Split
+-- turn 120
+  WE CHOSE: attack thunderwave - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0
+  -activate|p1a: Chansey|move: Struggle
+  move|p1a: Chansey|Struggle|p2a: Spiritomb
+  -damage|p2a: Spiritomb|99/100 par
+  -damage|p1a: Chansey|258/564|[from] recoil
+  move|p2a: Spiritomb|Pain Split|p1a: Chansey
+  -sethp|p1a: Chansey|245/564|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100 par|[from] move: Pain Split
+-- turn 121
+  WE CHOSE: attack thunderwave - our hp 0.43, theirs 1.00, predicted move (revealed) hits us x0
+  -activate|p1a: Chansey|move: Struggle
+  move|p1a: Chansey|Struggle|p2a: Spiritomb
+  -damage|p2a: Spiritomb|99/100 par
+  -damage|p1a: Chansey|104/564|[from] recoil
+  cant|p2a: Spiritomb|par
+  -heal|p2a: Spiritomb|100/100 par|[from] item: Leftovers
+-- turn 122
+  WE CHOSE: attack thunderwave - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x0
+  -activate|p1a: Chansey|move: Struggle
+  move|p1a: Chansey|Struggle|p2a: Spiritomb
+  -damage|p2a: Spiritomb|99/100 par
+  -damage|p1a: Chansey|0 fnt|[from] recoil
+  faint|p1a: Chansey
+  deinit

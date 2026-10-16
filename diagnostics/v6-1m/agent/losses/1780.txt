@@ -1,0 +1,190 @@
+battle 1780 (battle-gen9randombattle-1024471): lost in 19 turns, 3 of theirs left; we are p1
+
+ours:
+  bellibolt (fainted; item leftovers, ability electromorphosis; moves slackoff/muddywater/thunderbolt/toxic)
+  baxcalibur (fainted; item loadeddice, ability thermalexchange; moves iciclespear/swordsdance/earthquake/scaleshot)
+  dragonite (fainted; item heavydutyboots, ability multiscale, tera steel; moves ironhead/earthquake/outrage/dragondance)
+  screamtail (fainted; item leftovers, ability protosynthesis; moves encore/protect/wish/playrough)
+  swalot (fainted; item leftovers, ability liquidooze; moves toxic/earthquake/protect/sludgebomb)
+  decidueyehisui (fainted; item leftovers, ability scrappy; moves roost/swordsdance/triplearrows/leafblade)
+theirs (as seen):
+  hitmonchan (fainted; item leftovers, ability ?; moves drainpunch)
+  cobalion (fainted; item lifeorb, ability justified; moves closecombat)
+  slaking (fainted; item unknown_item, ability truant; moves gigaimpact)
+  groudon (45%; item leftovers, ability drought; moves precipiceblades)
+
+-- turn 0
+  switch|p1a: Bellibolt|Bellibolt, L84, F|320/320
+  switch|p2a: Hitmonchan|Hitmonchan, L87, M|100/100
+-- turn 1
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Hitmonchan|Drain Punch|p1a: Bellibolt
+  -damage|p1a: Bellibolt|212/320
+  -start|p1a: Bellibolt|Charge|Drain Punch|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Hitmonchan
+  -damage|p2a: Hitmonchan|28/100
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p2a: Hitmonchan|34/100|[from] item: Leftovers
+  -heal|p1a: Bellibolt|232/320|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to screamtail (hand policy: attack thunderbolt) - our hp 0.73, theirs 0.34, predicted move (revealed) hits us x1
+  switch|p1a: Scream Tail|Scream Tail, L84|330/330
+  move|p2a: Hitmonchan|Drain Punch|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|307/330
+  -heal|p2a: Hitmonchan|39/100|[from] drain|[of] p1a: Scream Tail
+  -heal|p1a: Scream Tail|327/330|[from] item: Leftovers
+  -heal|p2a: Hitmonchan|45/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack playrough - our hp 0.99, theirs 0.45, predicted move (revealed) hits us x0.25
+  move|p1a: Scream Tail|Play Rough|p2a: Hitmonchan
+  -supereffective|p2a: Hitmonchan
+  -damage|p2a: Hitmonchan|0 fnt
+  faint|p2a: Hitmonchan
+  -heal|p1a: Scream Tail|330/330|[from] item: Leftovers
+  switch|p2a: Cobalion|Cobalion, L80|100/100
+-- turn 4
+  WE CHOSE: attack playrough - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p1a: Scream Tail|Play Rough|p2a: Cobalion
+  -damage|p2a: Cobalion|80/100
+  move|p2a: Cobalion|Close Combat|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|299/330
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  -damage|p2a: Cobalion|70/100|[from] item: Life Orb
+  -heal|p1a: Scream Tail|319/330|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack playrough - our hp 0.97, theirs 0.70, predicted move (revealed) hits us x0.25
+  move|p1a: Scream Tail|Play Rough|p2a: Cobalion
+  -damage|p2a: Cobalion|41/100
+  move|p2a: Cobalion|Close Combat|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|285/330
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  -damage|p2a: Cobalion|31/100|[from] item: Life Orb
+  -heal|p1a: Scream Tail|305/330|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack playrough - our hp 0.92, theirs 0.31, predicted move (revealed) hits us x0.25
+  move|p1a: Scream Tail|Play Rough|p2a: Cobalion
+  -damage|p2a: Cobalion|0 fnt
+  faint|p2a: Cobalion
+  -heal|p1a: Scream Tail|325/330|[from] item: Leftovers
+  switch|p2a: Slaking|Slaking, L84, F|100/100
+-- turn 7
+  WE CHOSE: attack playrough - our hp 0.98, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to decidueyehisui - our hp 0.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p1a: Scream Tail|Play Rough|p2a: Slaking
+  -damage|p2a: Slaking|85/100
+  move|p2a: Slaking|Giga Impact|p1a: Scream Tail
+  -crit|p1a: Scream Tail
+  -damage|p1a: Scream Tail|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Scream Tail
+  -end|p1a: Scream Tail|Protosynthesis|[silent]
+  switch|p1a: Decidueye|Decidueye-Hisui, L87, M|295/295
+-- turn 8
+  WE CHOSE: setup swordsdance (hand policy: attack triplearrows) - our hp 1.00, theirs 0.85, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Decidueye|Swords Dance|p1a: Decidueye
+  -boost|p1a: Decidueye|atk|2
+-- turn 9
+  WE CHOSE: attack triplearrows - our hp 1.00, theirs 0.85, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dragonite - our hp 0.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Decidueye
+  -damage|p1a: Decidueye|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Decidueye
+  switch|p1a: Dragonite|Dragonite, L74, M|257/257
+-- turn 10
+  WE CHOSE: attack+tera outrage - our hp 1.00, theirs 0.85, predicted move (revealed) hits us x1
+  -terastallize|p1a: Dragonite|Steel
+  cant|p2a: Slaking|recharge
+  move|p1a: Dragonite|Outrage|p2a: Slaking
+  -damage|p2a: Slaking|56/100
+-- turn 11
+  WE CHOSE: attack outrage - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p2a: Slaking|Giga Impact|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|163/257
+  -mustrecharge|p2a: Slaking
+  move|p1a: Dragonite|Outrage|p2a: Slaking|[from] lockedmove
+  -damage|p2a: Slaking|28/100
+  -start|p1a: Dragonite|confusion|[fatigue]
+-- turn 12
+  WE CHOSE: attack outrage (hand policy: setup dragondance) - our hp 0.63, theirs 0.28, predicted move (revealed) hits us x0.5
+  cant|p2a: Slaking|recharge
+  -activate|p1a: Dragonite|confusion
+  move|p1a: Dragonite|Outrage|p2a: Slaking
+  -crit|p2a: Slaking
+  -damage|p2a: Slaking|0 fnt
+  faint|p2a: Slaking
+  switch|p2a: Groudon|Groudon, L72|100/100
+  -weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+-- turn 13
+  WE CHOSE: attack outrage - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to baxcalibur - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Groudon|Precipice Blades|p1a: Dragonite
+  -supereffective|p1a: Dragonite
+  -damage|p1a: Dragonite|0 fnt
+  faint|p1a: Dragonite
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Baxcalibur|Baxcalibur, L75, F|295/295
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Baxcalibur|Earthquake|p2a: Groudon
+  -damage|p2a: Groudon|77/100
+  move|p2a: Groudon|Precipice Blades|p1a: Baxcalibur
+  -crit|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|67/295
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Groudon|83/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.23, theirs 0.83, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bellibolt - our hp 0.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Baxcalibur|Earthquake|p2a: Groudon
+  -damage|p2a: Groudon|59/100
+  move|p2a: Groudon|Precipice Blades|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|0 fnt
+  faint|p1a: Baxcalibur
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Groudon|66/100|[from] item: Leftovers
+  switch|p1a: Bellibolt|Bellibolt, L84, F|232/320
+-- turn 16
+  WE CHOSE: heal slackoff (hand policy: attack muddywater) - our hp 0.73, theirs 0.66, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to swalot - our hp 0.00, theirs 0.72, predicted move (revealed) hits us x2
+  move|p2a: Groudon|Precipice Blades|p1a: Bellibolt
+  -supereffective|p1a: Bellibolt
+  -damage|p1a: Bellibolt|0 fnt
+  faint|p1a: Bellibolt
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Groudon|72/100|[from] item: Leftovers
+  switch|p1a: Swalot|Swalot, L90, M|326/326
+-- turn 17
+  WE CHOSE: attack sludgebomb (hand policy: attack earthquake) - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x2
+  move|p2a: Groudon|Precipice Blades|p1a: Swalot
+  -supereffective|p1a: Swalot
+  -damage|p1a: Swalot|72/326
+  move|p1a: Swalot|Sludge Bomb|p2a: Groudon
+  -resisted|p2a: Groudon
+  -damage|p2a: Groudon|53/100
+  -weather|none
+  -heal|p2a: Groudon|59/100|[from] item: Leftovers
+  -heal|p1a: Swalot|92/326|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack sludgebomb (hand policy: attack earthquake) - our hp 0.28, theirs 0.59, predicted move (revealed) hits us x2
+  move|p2a: Groudon|Precipice Blades|p1a: Swalot|[miss]
+  -miss|p2a: Groudon|p1a: Swalot
+  move|p1a: Swalot|Sludge Bomb|p2a: Groudon
+  -resisted|p2a: Groudon
+  -damage|p2a: Groudon|39/100
+  -heal|p2a: Groudon|45/100|[from] item: Leftovers
+  -heal|p1a: Swalot|112/326|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack sludgebomb (hand policy: attack earthquake) - our hp 0.34, theirs 0.45, predicted move (revealed) hits us x2
+  move|p2a: Groudon|Precipice Blades|p1a: Swalot
+  -supereffective|p1a: Swalot
+  -damage|p1a: Swalot|0 fnt
+  faint|p1a: Swalot
+  deinit

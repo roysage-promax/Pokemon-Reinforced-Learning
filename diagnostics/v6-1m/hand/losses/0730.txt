@@ -1,0 +1,305 @@
+battle 730 (battle-gen9randombattle-1013095): lost in 30 turns, 3 of theirs left; we are p1
+
+ours:
+  mandibuzz (fainted; item heavydutyboots, ability overcoat; moves uturn/defog/roost/foulplay)
+  gyarados (fainted; item heavydutyboots, ability intimidate; moves stoneedge/waterfall/dragondance/earthquake)
+  maushold (fainted; item widelens, ability technician; moves encore/tidyup/populationbomb/bite)
+  volcarona (fainted; item heavydutyboots, ability flamebody, tera fire; moves gigadrain/quiverdance/fierydance/bugbuzz)
+  falinks (fainted; item lifeorb, ability defiant; moves noretreat/knockoff/closecombat/ironhead)
+  mabosstiff (fainted; item choicescarf, ability stakeout; moves wildcharge/playrough/psychicfangs/crunch)
+theirs (as seen):
+  luxray (fainted; item unknown_item, ability ?; moves supercellslam)
+  regirock (fainted; item unknown_item, ability ?; moves stoneedge)
+  slitherwing (fainted; item unknown_item, ability protosynthesis; moves closecombat)
+  dachsbun (31%; item leftovers, ability wellbakedbody; moves playrough/bodypress)
+
+-- turn 0
+  switch|p1a: Mandibuzz|Mandibuzz, L85, F|326/326
+  switch|p2a: Luxray|Luxray, L88, M|100/100
+-- turn 1
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Mandibuzz|Foul Play|p2a: Luxray
+  -damage|p2a: Luxray|51/100
+  move|p2a: Luxray|Supercell Slam|p1a: Mandibuzz
+  -supereffective|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|104/326
+  -status|p2a: Luxray|brn|[from] item: Flame Orb
+-- turn 2
+  WE CHOSE: attack foulplay - our hp 0.32, theirs 0.51, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to falinks - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x2
+  move|p1a: Mandibuzz|Foul Play|p2a: Luxray
+  -damage|p2a: Luxray|7/100 brn
+  move|p2a: Luxray|Supercell Slam|p1a: Mandibuzz
+  -supereffective|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|0 fnt
+  faint|p1a: Mandibuzz
+  -damage|p2a: Luxray|0 fnt|[from] brn
+  faint|p2a: Luxray
+  switch|p1a: Falinks|Falinks, L84|246/246
+  switch|p2a: Regirock|Regirock, L83|100/100
+-- turn 3
+  WE CHOSE: setup noretreat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Falinks|No Retreat|p1a: Falinks
+  -boost|p1a: Falinks|atk|1
+  -boost|p1a: Falinks|def|1
+  -boost|p1a: Falinks|spa|1
+  -boost|p1a: Falinks|spd|1
+  -boost|p1a: Falinks|spe|1
+  -start|p1a: Falinks|move: No Retreat
+  move|p2a: Regirock|Stone Edge|p1a: Falinks
+  -resisted|p1a: Falinks
+  -damage|p1a: Falinks|212/246
+-- turn 4
+  WE CHOSE: setup noretreat - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Falinks|No Retreat||[still]
+  -fail|p1a: Falinks
+  move|p2a: Regirock|Stone Edge|p1a: Falinks
+  -resisted|p1a: Falinks
+  -crit|p1a: Falinks
+  -damage|p1a: Falinks|145/246
+-- turn 5
+  WE CHOSE: setup noretreat - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Falinks|No Retreat||[still]
+  -fail|p1a: Falinks
+  move|p2a: Regirock|Stone Edge|p1a: Falinks|[miss]
+  -miss|p2a: Regirock|p1a: Falinks
+-- turn 6
+  WE CHOSE: setup noretreat - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Falinks|No Retreat||[still]
+  -fail|p1a: Falinks
+  move|p2a: Regirock|Stone Edge|p1a: Falinks
+  -resisted|p1a: Falinks
+  -damage|p1a: Falinks|115/246
+-- turn 7
+  WE CHOSE: attack closecombat - our hp 0.47, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Falinks|Close Combat|p2a: Regirock
+  -supereffective|p2a: Regirock
+  -damage|p2a: Regirock|3/100
+  -unboost|p1a: Falinks|def|1
+  -unboost|p1a: Falinks|spd|1
+  -damage|p1a: Falinks|91/246|[from] item: Life Orb
+  move|p2a: Regirock|Stone Edge|p1a: Falinks
+  -resisted|p1a: Falinks
+  -damage|p1a: Falinks|44/246
+-- turn 8
+  WE CHOSE: attack closecombat - our hp 0.18, theirs 0.03, predicted move (revealed) hits us x0.5
+  move|p1a: Falinks|Close Combat|p2a: Regirock
+  -supereffective|p2a: Regirock
+  -damage|p2a: Regirock|0 fnt
+  -unboost|p1a: Falinks|def|1
+  -unboost|p1a: Falinks|spd|1
+  faint|p2a: Regirock
+  -damage|p1a: Falinks|20/246|[from] item: Life Orb
+  switch|p2a: Slither Wing|Slither Wing, L81|100/100
+-- turn 9
+  WE CHOSE: attack closecombat - our hp 0.08, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to volcarona - our hp 0.00, theirs 0.44, predicted move (revealed) hits us x1
+  move|p1a: Falinks|Close Combat|p2a: Slither Wing
+  -resisted|p2a: Slither Wing
+  -damage|p2a: Slither Wing|44/100
+  -unboost|p1a: Falinks|def|1
+  -unboost|p1a: Falinks|spd|1
+  -damage|p1a: Falinks|0 fnt|[from] item: Life Orb
+  faint|p1a: Falinks
+  move|p2a: Slither Wing|Close Combat|p1: Falinks|[notarget]
+  -fail|p2a: Slither Wing
+  switch|p1a: Volcarona|Volcarona, L77, M|257/257
+-- turn 10
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+  -boost|p1a: Volcarona|spa|1
+  -boost|p1a: Volcarona|spd|1
+  -boost|p1a: Volcarona|spe|1
+  move|p2a: Slither Wing|Close Combat|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|150/257
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+  -status|p2a: Slither Wing|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+  -damage|p2a: Slither Wing|38/100 brn|[from] brn
+-- turn 11
+  WE CHOSE: setup quiverdance - our hp 0.58, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+  -boost|p1a: Volcarona|spa|1
+  -boost|p1a: Volcarona|spd|1
+  -boost|p1a: Volcarona|spe|1
+  move|p2a: Slither Wing|Close Combat|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|98/257
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+  -damage|p2a: Slither Wing|32/100 brn|[from] brn
+-- turn 12
+  WE CHOSE: attack fierydance - our hp 0.38, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Fiery Dance|p2a: Slither Wing
+  -supereffective|p2a: Slither Wing
+  -damage|p2a: Slither Wing|0 fnt
+  -boost|p1a: Volcarona|spa|1
+  faint|p2a: Slither Wing
+  -end|p2a: Slither Wing|Protosynthesis|[silent]
+  switch|p2a: Dachsbun|Dachsbun, L92, F|100/100
+-- turn 13
+  WE CHOSE: attack+tera fierydance - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x0.5
+  -terastallize|p1a: Volcarona|Fire
+  move|p1a: Volcarona|Fiery Dance|p2a: Dachsbun
+  -ability|p2a: Dachsbun|Well-Baked Body|boost
+  -boost|p2a: Dachsbun|def|2
+  move|p2a: Dachsbun|Play Rough|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|31/257
+  -unboost|p1a: Volcarona|atk|1
+  -status|p2a: Dachsbun|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+  -damage|p2a: Dachsbun|95/100 brn|[from] brn
+-- turn 14
+  WE CHOSE: attack fierydance - our hp 0.12, theirs 0.95, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Fiery Dance|p2a: Dachsbun
+  -ability|p2a: Dachsbun|Well-Baked Body|boost
+  -boost|p2a: Dachsbun|def|2
+  move|p2a: Dachsbun|Play Rough|p1a: Volcarona|[miss]
+  -miss|p2a: Dachsbun|p1a: Volcarona
+  -heal|p2a: Dachsbun|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|95/100 brn|[from] brn
+-- turn 15
+  WE CHOSE: attack fierydance - our hp 0.12, theirs 0.95, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to gyarados - our hp 0.00, theirs 0.95, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Fiery Dance|p2a: Dachsbun
+  -ability|p2a: Dachsbun|Well-Baked Body|boost
+  -boost|p2a: Dachsbun|def|2
+  move|p2a: Dachsbun|Play Rough|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|0 fnt
+  faint|p1a: Volcarona
+  -heal|p2a: Dachsbun|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|95/100 brn|[from] brn
+  switch|p1a: Gyarados|Gyarados, L79, M|280/280
+  -ability|p1a: Gyarados|Intimidate|boost
+  -unboost|p2a: Dachsbun|atk|1
+-- turn 16
+  WE CHOSE: attack waterfall - our hp 1.00, theirs 0.95, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Gyarados
+  -damage|p1a: Gyarados|243/280
+  move|p1a: Gyarados|Waterfall|p2a: Dachsbun
+  -damage|p2a: Dachsbun|87/100 brn
+  -heal|p2a: Dachsbun|93/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|87/100 brn|[from] brn
+-- turn 17
+  WE CHOSE: attack waterfall - our hp 0.87, theirs 0.87, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Gyarados
+  -damage|p1a: Gyarados|203/280
+  move|p1a: Gyarados|Waterfall|p2a: Dachsbun
+  -damage|p2a: Dachsbun|80/100 brn
+  -heal|p2a: Dachsbun|86/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|80/100 brn|[from] brn
+-- turn 18
+  WE CHOSE: attack waterfall - our hp 0.73, theirs 0.80, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Gyarados
+  -damage|p1a: Gyarados|165/280
+  move|p1a: Gyarados|Waterfall|p2a: Dachsbun
+  -damage|p2a: Dachsbun|73/100 brn
+  -heal|p2a: Dachsbun|78/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|73/100 brn|[from] brn
+-- turn 19
+  WE CHOSE: attack waterfall - our hp 0.59, theirs 0.73, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Gyarados
+  -damage|p1a: Gyarados|127/280
+  move|p1a: Gyarados|Waterfall|p2a: Dachsbun
+  -damage|p2a: Dachsbun|65/100 brn
+  -heal|p2a: Dachsbun|71/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|65/100 brn|[from] brn
+-- turn 20
+  WE CHOSE: attack waterfall - our hp 0.45, theirs 0.65, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Gyarados
+  -damage|p1a: Gyarados|90/280
+  move|p1a: Gyarados|Waterfall|p2a: Dachsbun
+  -damage|p2a: Dachsbun|58/100 brn
+  -heal|p2a: Dachsbun|64/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|58/100 brn|[from] brn
+-- turn 21
+  WE CHOSE: attack waterfall - our hp 0.32, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Gyarados
+  -damage|p1a: Gyarados|54/280
+  move|p1a: Gyarados|Waterfall|p2a: Dachsbun
+  -damage|p2a: Dachsbun|52/100 brn
+  -heal|p2a: Dachsbun|58/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|52/100 brn|[from] brn
+-- turn 22
+  WE CHOSE: attack waterfall - our hp 0.19, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Gyarados
+  -damage|p1a: Gyarados|20/280
+  move|p1a: Gyarados|Waterfall|p2a: Dachsbun
+  -damage|p2a: Dachsbun|45/100 brn
+  -heal|p2a: Dachsbun|50/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|45/100 brn|[from] brn
+-- turn 23
+  WE CHOSE: attack waterfall - our hp 0.07, theirs 0.45, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to maushold - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Gyarados
+  -damage|p1a: Gyarados|0 fnt
+  faint|p1a: Gyarados
+  -heal|p2a: Dachsbun|50/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|45/100 brn|[from] brn
+  switch|p1a: Maushold|Maushold, L76|238/238
+-- turn 24
+  WE CHOSE: attack bite - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Maushold|[miss]
+  -miss|p2a: Dachsbun|p1a: Maushold
+  move|p1a: Maushold|Bite|p2a: Dachsbun
+  -resisted|p2a: Dachsbun
+  -damage|p2a: Dachsbun|43/100 brn
+  -heal|p2a: Dachsbun|49/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|43/100 brn|[from] brn
+-- turn 25
+  WE CHOSE: attack bite - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Maushold
+  -damage|p1a: Maushold|196/238
+  move|p1a: Maushold|Bite|p2a: Dachsbun
+  -resisted|p2a: Dachsbun
+  -damage|p2a: Dachsbun|41/100 brn
+  -heal|p2a: Dachsbun|47/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|41/100 brn|[from] brn
+-- turn 26
+  WE CHOSE: attack bite - our hp 0.82, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Maushold
+  -damage|p1a: Maushold|151/238
+  move|p1a: Maushold|Bite|p2a: Dachsbun
+  -resisted|p2a: Dachsbun
+  -damage|p2a: Dachsbun|40/100 brn
+  -heal|p2a: Dachsbun|46/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|40/100 brn|[from] brn
+-- turn 27
+  WE CHOSE: attack bite - our hp 0.63, theirs 0.40, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Maushold
+  -damage|p1a: Maushold|110/238
+  move|p1a: Maushold|Bite|p2a: Dachsbun
+  -resisted|p2a: Dachsbun
+  -damage|p2a: Dachsbun|38/100 brn
+  -heal|p2a: Dachsbun|44/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|38/100 brn|[from] brn
+-- turn 28
+  WE CHOSE: attack bite - our hp 0.46, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Maushold
+  -damage|p1a: Maushold|65/238
+  move|p1a: Maushold|Bite|p2a: Dachsbun
+  -resisted|p2a: Dachsbun
+  -damage|p2a: Dachsbun|37/100 brn
+  -heal|p2a: Dachsbun|43/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|37/100 brn|[from] brn
+-- turn 29
+  WE CHOSE: attack bite - our hp 0.27, theirs 0.37, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mabosstiff - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Body Press|p1a: Maushold
+  -supereffective|p1a: Maushold
+  -damage|p1a: Maushold|0 fnt
+  faint|p1a: Maushold
+  -heal|p2a: Dachsbun|43/100 brn|[from] item: Leftovers
+  -damage|p2a: Dachsbun|37/100 brn|[from] brn
+  switch|p1a: Mabosstiff|Mabosstiff, L86, F|278/278
+-- turn 30
+  WE CHOSE: attack wildcharge - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x2
+  move|p1a: Mabosstiff|Wild Charge|p2a: Dachsbun
+  -damage|p2a: Dachsbun|31/100 brn
+  -damage|p1a: Mabosstiff|274/278|[from] Recoil
+  move|p2a: Dachsbun|Body Press|p1a: Mabosstiff
+  -supereffective|p1a: Mabosstiff
+  -damage|p1a: Mabosstiff|0 fnt
+  faint|p1a: Mabosstiff

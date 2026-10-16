@@ -1,0 +1,860 @@
+battle 323 (battle-gen9randombattle-1009583): lost in 101 turns, 1 of theirs left; we are p1
+
+ours:
+  mamoswine (fainted; item lifeorb, ability thickfat; moves earthquake/iciclecrash/stealthrock/iceshard)
+  jumpluff (fainted; item ?, ability infiltrator; moves acrobatics/strengthsap/substitute/leechseed)
+  inteleon (fainted; item choicespecs, ability torrent; moves uturn/scald/hydropump/icebeam)
+  kyogre (fainted; item leftovers, ability drizzle; moves calmmind/originpulse/icebeam/thunder)
+  scrafty (fainted; item leftovers, ability shedskin, tera poison; moves drainpunch/bulkup/rest/knockoff)
+  illumise (fainted; item heavydutyboots, ability prankster; moves encore/roost/bugbuzz/thunderwave)
+theirs (as seen):
+  metagross (fainted; item unknown_item, ability ?; moves earthquake/psychicfangs)
+  spiritomb (fainted; item ?, ability ?; moves poltergeist/foulplay/suckerpunch/painsplit)
+  polteageistantique (fainted; item ?, ability ?; moves shadowball)
+  eternatus (fainted; item ?, ability pressure; moves fireblast)
+  pikachu (fainted; item unknown_item, ability ?; moves volttackle)
+  heracross (100%; item unknown_item, ability moxie; moves megahorn)
+
+-- turn 0
+  switch|p1a: Mamoswine|Mamoswine, L81, M|311/311
+  switch|p2a: Metagross|Metagross, L79|100/100
+-- turn 1
+  WE CHOSE: switch to jumpluff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Jumpluff|Jumpluff, L87, F|271/271
+  move|p2a: Metagross|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 2
+  WE CHOSE: switch to illumise (hand policy: attack acrobatics) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Illumise|Illumise, L91, F|266/266
+  move|p2a: Metagross|Earthquake|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|222/266
+-- turn 3
+  WE CHOSE: switch to jumpluff (hand policy: attack bugbuzz) - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Jumpluff|Jumpluff, L87, F|271/271
+  move|p2a: Metagross|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 4
+  WE CHOSE: switch to illumise (hand policy: attack acrobatics) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Illumise|Illumise, L91, F|222/266
+  move|p2a: Metagross|Earthquake|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|183/266
+-- turn 5
+  WE CHOSE: switch to jumpluff (hand policy: attack bugbuzz) - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Jumpluff|Jumpluff, L87, F|271/271
+  move|p2a: Metagross|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 6
+  WE CHOSE: switch to illumise (hand policy: attack acrobatics) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Illumise|Illumise, L91, F|183/266
+  move|p2a: Metagross|Earthquake|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|144/266
+-- turn 7
+  WE CHOSE: switch to jumpluff (hand policy: attack bugbuzz) - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Jumpluff|Jumpluff, L87, F|271/271
+  move|p2a: Metagross|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 8
+  WE CHOSE: switch to illumise (hand policy: attack acrobatics) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Illumise|Illumise, L91, F|144/266
+  move|p2a: Metagross|Earthquake|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|103/266
+-- turn 9
+  WE CHOSE: switch to jumpluff (hand policy: heal roost) - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Jumpluff|Jumpluff, L87, F|271/271
+  move|p2a: Metagross|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 10
+  WE CHOSE: switch to illumise (hand policy: attack acrobatics) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Illumise|Illumise, L91, F|103/266
+  move|p2a: Metagross|Earthquake|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|62/266
+-- turn 11
+  WE CHOSE: switch to jumpluff (hand policy: heal roost) - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Jumpluff|Jumpluff, L87, F|271/271
+  move|p2a: Metagross|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 12
+  WE CHOSE: switch to illumise (hand policy: attack acrobatics) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Illumise|Illumise, L91, F|62/266
+  move|p2a: Metagross|Earthquake|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|23/266
+-- turn 13
+  WE CHOSE: switch to jumpluff (hand policy: heal roost) - our hp 0.09, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Jumpluff|Jumpluff, L87, F|271/271
+  move|p2a: Metagross|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 14
+  WE CHOSE: switch to illumise (hand policy: attack acrobatics) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to jumpluff (hand policy: forced: switch to mamoswine) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Illumise|Illumise, L91, F|23/266
+  move|p2a: Metagross|Earthquake|p1a: Illumise
+  -resisted|p1a: Illumise
+  -crit|p1a: Illumise
+  -damage|p1a: Illumise|0 fnt
+  faint|p1a: Illumise
+  switch|p1a: Jumpluff|Jumpluff, L87, F|271/271
+-- turn 15
+  WE CHOSE: attack acrobatics - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Acrobatics|p2a: Metagross
+  -resisted|p2a: Metagross
+  -damage|p2a: Metagross|88/100
+  move|p2a: Metagross|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 16
+  WE CHOSE: attack acrobatics - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Acrobatics|p2a: Metagross
+  -resisted|p2a: Metagross
+  -damage|p2a: Metagross|74/100
+  move|p2a: Metagross|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 17
+  WE CHOSE: attack acrobatics - our hp 1.00, theirs 0.74, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Acrobatics|p2a: Metagross
+  -resisted|p2a: Metagross
+  -damage|p2a: Metagross|62/100
+  move|p2a: Metagross|Psychic Fangs|p1a: Jumpluff
+  -damage|p1a: Jumpluff|162/271
+-- turn 18
+  WE CHOSE: attack acrobatics - our hp 0.60, theirs 0.62, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Acrobatics|p2a: Metagross
+  -resisted|p2a: Metagross
+  -crit|p2a: Metagross
+  -damage|p2a: Metagross|44/100
+  move|p2a: Metagross|Psychic Fangs|p1a: Jumpluff
+  -damage|p1a: Jumpluff|39/271
+-- turn 19
+  WE CHOSE: heal strengthsap - our hp 0.14, theirs 0.44, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Strength Sap|p2a: Metagross
+  -fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+  -heal|p1a: Jumpluff|271/271
+  move|p2a: Metagross|Psychic Fangs|p1a: Jumpluff
+  -damage|p1a: Jumpluff|159/271
+-- turn 20
+  WE CHOSE: attack acrobatics - our hp 0.59, theirs 0.44, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Acrobatics|p2a: Metagross
+  -resisted|p2a: Metagross
+  -damage|p2a: Metagross|33/100
+  move|p2a: Metagross|Psychic Fangs|p1a: Jumpluff
+  -damage|p1a: Jumpluff|45/271
+-- turn 21
+  WE CHOSE: heal strengthsap - our hp 0.17, theirs 0.33, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Strength Sap|p2a: Metagross
+  -fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+  -heal|p1a: Jumpluff|271/271
+  move|p2a: Metagross|Psychic Fangs|p1a: Jumpluff
+  -damage|p1a: Jumpluff|156/271
+-- turn 22
+  WE CHOSE: attack acrobatics - our hp 0.58, theirs 0.33, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Acrobatics|p2a: Metagross
+  -resisted|p2a: Metagross
+  -damage|p2a: Metagross|20/100
+  move|p2a: Metagross|Psychic Fangs|p1a: Jumpluff
+  -damage|p1a: Jumpluff|29/271
+-- turn 23
+  WE CHOSE: heal strengthsap - our hp 0.11, theirs 0.20, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Strength Sap|p2a: Metagross
+  -fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+  -heal|p1a: Jumpluff|271/271
+  move|p2a: Metagross|Psychic Fangs|p1a: Jumpluff
+  -damage|p1a: Jumpluff|162/271
+-- turn 24
+  WE CHOSE: attack acrobatics - our hp 0.60, theirs 0.20, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to mamoswine - our hp 0.00, theirs 0.08, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Acrobatics|p2a: Metagross
+  -resisted|p2a: Metagross
+  -damage|p2a: Metagross|8/100
+  move|p2a: Metagross|Psychic Fangs|p1a: Jumpluff
+  -crit|p1a: Jumpluff
+  -damage|p1a: Jumpluff|0 fnt
+  faint|p1a: Jumpluff
+  switch|p1a: Mamoswine|Mamoswine, L81, M|311/311
+-- turn 25
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x1
+  move|p1a: Mamoswine|Earthquake|p2a: Metagross
+  -supereffective|p2a: Metagross
+  -damage|p2a: Metagross|0 fnt
+  faint|p2a: Metagross
+  -damage|p1a: Mamoswine|280/311|[from] item: Life Orb
+  switch|p2a: Spiritomb|Spiritomb, L89, M|100/100
+-- turn 26
+  WE CHOSE: switch to kyogre (hand policy: attack earthquake) - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Kyogre|Kyogre, L71|259/259
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+  move|p2a: Spiritomb|Poltergeist|p1a: Kyogre
+  -activate|p1a: Kyogre|move: Poltergeist|Leftovers
+  -damage|p1a: Kyogre|111/259
+  -weather|RainDance|[upkeep]
+  -heal|p1a: Kyogre|127/259|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack originpulse - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to scrafty - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Kyogre|Origin Pulse|p2a: Spiritomb|[miss]
+  -miss|p1a: Kyogre|p2a: Spiritomb
+  move|p2a: Spiritomb|Poltergeist|p1a: Kyogre
+  -activate|p1a: Kyogre|move: Poltergeist|Leftovers
+  -damage|p1a: Kyogre|0 fnt
+  faint|p1a: Kyogre
+  -weather|RainDance|[upkeep]
+  switch|p1a: Scrafty|Scrafty, L83, M|244/244
+-- turn 28
+  WE CHOSE: setup bulkup - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|1
+  -boost|p1a: Scrafty|def|1
+  move|p2a: Spiritomb|Poltergeist|p1a: Scrafty
+  -activate|p1a: Scrafty|move: Poltergeist|Leftovers
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|208/244
+  -weather|RainDance|[upkeep]
+  -heal|p1a: Scrafty|223/244|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: heal rest (hand policy: setup bulkup) - our hp 0.91, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Spiritomb|Poltergeist|p1a: Scrafty
+  -activate|p1a: Scrafty|move: Poltergeist|Leftovers
+  -resisted|p1a: Scrafty
+  -crit|p1a: Scrafty
+  -damage|p1a: Scrafty|166/244 slp
+  -weather|RainDance|[upkeep]
+  -heal|p1a: Scrafty|181/244 slp|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: heal rest (hand policy: setup bulkup) - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Spiritomb|Poltergeist|p1a: Scrafty
+  -activate|p1a: Scrafty|move: Poltergeist|Leftovers
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|148/244 slp
+  -weather|none
+  -heal|p1a: Scrafty|163/244 slp|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: heal rest (hand policy: setup bulkup) - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Spiritomb|Poltergeist|p1a: Scrafty
+  -activate|p1a: Scrafty|move: Poltergeist|Leftovers
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|128/244 slp
+  -heal|p1a: Scrafty|143/244 slp|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: heal rest (hand policy: setup bulkup) - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  -curestatus|p1a: Scrafty|slp|[msg]
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Spiritomb|Poltergeist|p1a: Scrafty
+  -activate|p1a: Scrafty|move: Poltergeist|Leftovers
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|207/244 slp
+  -heal|p1a: Scrafty|222/244 slp|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: heal rest (hand policy: setup bulkup) - our hp 0.91, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Spiritomb|Poltergeist|p1a: Scrafty
+  -activate|p1a: Scrafty|move: Poltergeist|Leftovers
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|190/244 slp
+  -heal|p1a: Scrafty|205/244 slp|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: heal rest (hand policy: setup bulkup) - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|186/244 slp
+  -heal|p1a: Scrafty|201/244 slp|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: heal rest (hand policy: setup bulkup) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  -curestatus|p1a: Scrafty|slp|[msg]
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|223/244 slp
+  -heal|p1a: Scrafty|238/244 slp|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: setup bulkup - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|218/244 slp
+  -heal|p1a: Scrafty|233/244 slp|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: setup bulkup - our hp 0.95, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|212/244 slp
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|227/244|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: heal rest (hand policy: setup bulkup) - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|223/244 slp
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|238/244|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: setup bulkup - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|1
+  -boost|p1a: Scrafty|def|1
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|218/244
+  -heal|p1a: Scrafty|233/244|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: heal rest (hand policy: attack knockoff) - our hp 0.95, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|226/244 slp
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|241/244|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: heal rest (hand policy: attack knockoff) - our hp 0.99, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|225/244 slp
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|240/244|[from] item: Leftovers
+-- turn 42
+  WE CHOSE: heal rest (hand policy: attack knockoff) - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|223/244 slp
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|238/244|[from] item: Leftovers
+-- turn 43
+  WE CHOSE: heal rest (hand policy: attack knockoff) - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|223/244 slp
+  -heal|p1a: Scrafty|238/244 slp|[from] item: Leftovers
+-- turn 44
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|219/244 slp
+  -heal|p1a: Scrafty|234/244 slp|[from] item: Leftovers
+-- turn 45
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.96, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Scrafty|slp
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|215/244 slp
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+  -heal|p1a: Scrafty|230/244|[from] item: Leftovers
+-- turn 46
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|211/244
+  -heal|p1a: Scrafty|226/244|[from] item: Leftovers
+-- turn 47
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -crit|p1a: Scrafty
+  -damage|p1a: Scrafty|163/244
+  -heal|p1a: Scrafty|178/244|[from] item: Leftovers
+-- turn 48
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|159/244
+  -heal|p1a: Scrafty|174/244|[from] item: Leftovers
+-- turn 49
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|153/244
+  -heal|p1a: Scrafty|168/244|[from] item: Leftovers
+-- turn 50
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|149/244
+  -heal|p1a: Scrafty|164/244|[from] item: Leftovers
+-- turn 51
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|143/244
+  -heal|p1a: Scrafty|158/244|[from] item: Leftovers
+-- turn 52
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|137/244
+  -heal|p1a: Scrafty|152/244|[from] item: Leftovers
+-- turn 53
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|133/244
+  -heal|p1a: Scrafty|148/244|[from] item: Leftovers
+-- turn 54
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|129/244
+  -heal|p1a: Scrafty|144/244|[from] item: Leftovers
+-- turn 55
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|124/244
+  -heal|p1a: Scrafty|139/244|[from] item: Leftovers
+-- turn 56
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|120/244
+  -heal|p1a: Scrafty|135/244|[from] item: Leftovers
+-- turn 57
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Foul Play|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|117/244
+  -heal|p1a: Scrafty|132/244|[from] item: Leftovers
+-- turn 58
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Spiritomb|Sucker Punch|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|125/244
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  -heal|p1a: Scrafty|140/244|[from] item: Leftovers
+-- turn 59
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Spiritomb|Sucker Punch|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|132/244
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  -heal|p1a: Scrafty|147/244|[from] item: Leftovers
+-- turn 60
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Spiritomb|Sucker Punch|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|140/244
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  -heal|p1a: Scrafty|155/244|[from] item: Leftovers
+-- turn 61
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Spiritomb|Sucker Punch|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|147/244
+  move|p1a: Scrafty|Drain Punch|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  -heal|p1a: Scrafty|162/244|[from] item: Leftovers
+-- turn 62
+  WE CHOSE: attack knockoff - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Spiritomb|Sucker Punch|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|155/244
+  move|p1a: Scrafty|Knock Off|p2a: Spiritomb
+  -damage|p2a: Spiritomb|39/100
+  -enditem|p2a: Spiritomb|Leftovers|[from] move: Knock Off|[of] p1a: Scrafty
+  -heal|p1a: Scrafty|170/244|[from] item: Leftovers
+-- turn 63
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.70, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p2a: Spiritomb|Sucker Punch||[still]
+  -fail|p2a: Spiritomb
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|1
+  -boost|p1a: Scrafty|def|1
+  -heal|p1a: Scrafty|185/244|[from] item: Leftovers
+-- turn 64
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.76, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p2a: Spiritomb|Sucker Punch||[still]
+  -fail|p2a: Spiritomb
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|1
+  -boost|p1a: Scrafty|def|1
+  -heal|p1a: Scrafty|200/244|[from] item: Leftovers
+-- turn 65
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.82, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p2a: Spiritomb|Sucker Punch||[still]
+  -fail|p2a: Spiritomb
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|1
+  -boost|p1a: Scrafty|def|1
+  -heal|p1a: Scrafty|215/244|[from] item: Leftovers
+-- turn 66
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.88, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|1
+  -boost|p1a: Scrafty|def|1
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|152/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|65/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|167/244|[from] item: Leftovers
+-- turn 67
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.68, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|159/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|68/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|174/244|[from] item: Leftovers
+-- turn 68
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.71, theirs 0.68, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|166/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|71/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|181/244|[from] item: Leftovers
+-- turn 69
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.74, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|173/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|74/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|188/244|[from] item: Leftovers
+-- turn 70
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.77, theirs 0.74, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|180/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|77/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|195/244|[from] item: Leftovers
+-- turn 71
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.80, theirs 0.77, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|187/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|80/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|202/244|[from] item: Leftovers
+-- turn 72
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.83, theirs 0.80, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|194/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|83/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|209/244|[from] item: Leftovers
+-- turn 73
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.86, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|201/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|86/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|216/244|[from] item: Leftovers
+-- turn 74
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.89, theirs 0.86, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|208/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|89/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|223/244|[from] item: Leftovers
+-- turn 75
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.91, theirs 0.89, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|215/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|92/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|230/244|[from] item: Leftovers
+-- turn 76
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.94, theirs 0.92, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|222/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|95/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|237/244|[from] item: Leftovers
+-- turn 77
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 0.97, theirs 0.95, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|229/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|98/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 78
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 0.98, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|236/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 79
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 80
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 81
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 82
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 83
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 84
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 85
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 86
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 87
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 88
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 89
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 90
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 91
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 92
+  WE CHOSE: attack drainpunch (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|0
+  -boost|p1a: Scrafty|def|0
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|239/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|100/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+-- turn 93
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Knock Off|p2a: Spiritomb
+  -damage|p2a: Spiritomb|10/100
+  move|p2a: Spiritomb|Pain Split|p1a: Scrafty
+  -sethp|p1a: Scrafty|133/244|[from] move: Pain Split|[silent]
+  -sethp|p2a: Spiritomb|57/100|[from] move: Pain Split
+  -heal|p1a: Scrafty|148/244|[from] item: Leftovers
+-- turn 94
+  WE CHOSE: attack knockoff - our hp 0.61, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p1a: Scrafty|Knock Off|p2a: Spiritomb
+  -damage|p2a: Spiritomb|0 fnt
+  faint|p2a: Spiritomb
+  -heal|p1a: Scrafty|163/244|[from] item: Leftovers
+  switch|p2a: Polteageist|Polteageist-Antique, L78|100/100
+-- turn 95
+  WE CHOSE: attack knockoff - our hp 0.67, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Polteageist|Shadow Ball|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|121/244
+  move|p1a: Scrafty|Knock Off|p2a: Polteageist
+  -supereffective|p2a: Polteageist
+  -damage|p2a: Polteageist|0 fnt
+  -enditem|p2a: Polteageist|White Herb|[from] move: Knock Off|[of] p1a: Scrafty
+  faint|p2a: Polteageist
+  -heal|p1a: Scrafty|136/244|[from] item: Leftovers
+  switch|p2a: Eternatus|Eternatus, L69|100/100
+  -ability|p2a: Eternatus|Pressure
+-- turn 96
+  WE CHOSE: attack knockoff - our hp 0.56, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Eternatus|Fire Blast|p1a: Scrafty
+  -damage|p1a: Scrafty|72/244
+  move|p1a: Scrafty|Knock Off|p2a: Eternatus
+  -damage|p2a: Eternatus|0 fnt
+  -damage|p1a: Scrafty|32/244|[from] item: Rocky Helmet|[of] p2a: Eternatus
+  -enditem|p2a: Eternatus|Rocky Helmet|[from] move: Knock Off|[of] p1a: Scrafty
+  faint|p2a: Eternatus
+  -heal|p1a: Scrafty|47/244|[from] item: Leftovers
+  switch|p2a: Pikachu|Pikachu, L93, F|100/100
+-- turn 97
+  WE CHOSE: switch to mamoswine - our hp 0.19, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Mamoswine|Mamoswine, L81, M|280/311
+  move|p2a: Pikachu|Volt Tackle|p1a: Mamoswine
+  -immune|p1a: Mamoswine
+-- turn 98
+  WE CHOSE: attack earthquake - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Pikachu|Volt Tackle|p1a: Mamoswine
+  -immune|p1a: Mamoswine
+  move|p1a: Mamoswine|Earthquake|p2a: Pikachu
+  -supereffective|p2a: Pikachu
+  -damage|p2a: Pikachu|0 fnt
+  faint|p2a: Pikachu
+  -damage|p1a: Mamoswine|249/311|[from] item: Life Orb
+  switch|p2a: Heracross|Heracross, L80, F|100/100
+-- turn 99
+  WE CHOSE: switch to inteleon (hand policy: attack+tera iciclecrash) - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to mamoswine - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Inteleon|Inteleon, L81, M|246/246
+  move|p2a: Heracross|Megahorn|p1a: Inteleon
+  -damage|p1a: Inteleon|0 fnt
+  faint|p1a: Inteleon
+  -ability|p2a: Heracross|Moxie|boost
+  -boost|p2a: Heracross|atk|1
+  switch|p1a: Mamoswine|Mamoswine, L81, M|249/311
+-- turn 100
+  WE CHOSE: attack iciclecrash (hand policy: attack+tera iciclecrash) - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to scrafty - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heracross|Megahorn|p1a: Mamoswine
+  -damage|p1a: Mamoswine|0 fnt
+  faint|p1a: Mamoswine
+  -ability|p2a: Heracross|Moxie|boost
+  -boost|p2a: Heracross|atk|1
+  switch|p1a: Scrafty|Scrafty, L83, M|47/244
+-- turn 101
+  WE CHOSE: attack+tera knockoff - our hp 0.19, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Scrafty|Poison
+  move|p2a: Heracross|Megahorn|p1a: Scrafty
+  -resisted|p1a: Scrafty
+  -damage|p1a: Scrafty|0 fnt
+  faint|p1a: Scrafty
+  deinit

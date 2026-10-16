@@ -1,0 +1,210 @@
+battle 1027 (battle-gen9randombattle-1015975): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  squawkabillywhite (fainted; item ?, ability hustle, tera normal; moves partingshot/doubleedge/bravebird/quickattack)
+  sudowoodo (fainted; item leftovers, ability rockhead; moves stealthrock/headsmash/earthquake/suckerpunch)
+  duraludon (fainted; item eviolite, ability lightmetal; moves thunderwave/flashcannon/dracometeor/bodypress)
+  abomasnow (fainted; item lightclay, ability snowwarning; moves woodhammer/iceshard/blizzard/auroraveil)
+  muk (fainted; item assaultvest, ability poisontouch; moves poisonjab/icepunch/knockoff/shadowsneak)
+  whiscash (fainted; item lifeorb, ability oblivious; moves liquidation/dragondance/stoneedge/earthquake)
+theirs (as seen):
+  weavile (fainted; item unknown_item, ability ?; moves knockoff)
+  shaymin (fainted; item leftovers, ability naturalcure; moves seedflare)
+  electivire (fainted; item lifeorb, ability ?; moves earthquake)
+  chesnaught (fainted; item leftovers, ability ?; moves woodhammer)
+  regigigas (fainted; item leftovers, ability slowstart; moves bodyslam)
+  hitmonlee (100%; item unknown_item, ability ?; moves highjumpkick)
+
+-- turn 0
+  switch|p1a: Squawkabilly|Squawkabilly-White, L89, M|291/291
+  switch|p2a: Weavile|Weavile, L79, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera doubleedge - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to sudowoodo - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Squawkabilly|Normal
+  move|p2a: Weavile|Knock Off|p1a: Squawkabilly
+  -damage|p1a: Squawkabilly|74/291
+  -enditem|p1a: Squawkabilly|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+  move|p1a: Squawkabilly|Double-Edge|p2a: Weavile
+  -damage|p2a: Weavile|0 fnt
+  faint|p2a: Weavile
+  -damage|p1a: Squawkabilly|0 fnt|[from] Recoil
+  faint|p1a: Squawkabilly
+  switch|p2a: Shaymin|Shaymin, L82|100/100
+  switch|p1a: Sudowoodo|Sudowoodo, L94, F|284/284
+-- turn 2
+  WE CHOSE: switch to duraludon - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Duraludon|Duraludon, L82, F|249/249
+  move|p2a: Shaymin|Seed Flare|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|219/249
+-- turn 3
+  WE CHOSE: attack dracometeor - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Shaymin|Seed Flare|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|189/249
+  move|p1a: Duraludon|Draco Meteor|p2a: Shaymin
+  -damage|p2a: Shaymin|55/100
+  -unboost|p1a: Duraludon|spa|2
+  -heal|p2a: Shaymin|61/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack dracometeor - our hp 0.76, theirs 0.61, predicted move (revealed) hits us x0.25
+  move|p2a: Shaymin|Seed Flare|p1a: Duraludon|[miss]
+  -miss|p2a: Shaymin|p1a: Duraludon
+  move|p1a: Duraludon|Draco Meteor|p2a: Shaymin
+  -damage|p2a: Shaymin|36/100
+  -unboost|p1a: Duraludon|spa|2
+  -heal|p2a: Shaymin|42/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack bodypress - our hp 0.76, theirs 0.42, predicted move (revealed) hits us x0.25
+  move|p2a: Shaymin|Seed Flare|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|158/249
+  -unboost|p1a: Duraludon|spd|2
+  move|p1a: Duraludon|Body Press|p2a: Shaymin
+  -damage|p2a: Shaymin|24/100
+  -heal|p2a: Shaymin|30/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack bodypress - our hp 0.63, theirs 0.30, predicted move (revealed) hits us x0.25
+  move|p2a: Shaymin|Seed Flare|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|94/249
+  move|p1a: Duraludon|Body Press|p2a: Shaymin
+  -damage|p2a: Shaymin|10/100
+  -heal|p2a: Shaymin|16/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack bodypress - our hp 0.38, theirs 0.16, predicted move (revealed) hits us x0.25
+  move|p2a: Shaymin|Seed Flare|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|27/249
+  move|p1a: Duraludon|Body Press|p2a: Shaymin
+  -damage|p2a: Shaymin|0 fnt
+  faint|p2a: Shaymin
+  switch|p2a: Electivire|Electivire, L84, F|100/100
+-- turn 8
+  WE CHOSE: switch to abomasnow - our hp 0.11, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Abomasnow|Abomasnow, L84, M|287/287
+  -weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+  move|p2a: Electivire|Earthquake|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|247/287
+  -damage|p2a: Electivire|91/100|[from] item: Life Orb
+  -weather|Snowscape|[upkeep]
+-- turn 9
+  WE CHOSE: attack woodhammer - our hp 0.86, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Electivire|Earthquake|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|205/287
+  -damage|p2a: Electivire|81/100|[from] item: Life Orb
+  move|p1a: Abomasnow|Wood Hammer|p2a: Electivire
+  -damage|p2a: Electivire|26/100
+  -damage|p1a: Abomasnow|157/287|[from] Recoil
+  -weather|Snowscape|[upkeep]
+-- turn 10
+  WE CHOSE: attack woodhammer - our hp 0.55, theirs 0.26, predicted move (revealed) hits us x0.5
+  move|p2a: Electivire|Earthquake|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|114/287
+  -damage|p2a: Electivire|16/100|[from] item: Life Orb
+  move|p1a: Abomasnow|Wood Hammer|p2a: Electivire
+  -damage|p2a: Electivire|0 fnt
+  faint|p2a: Electivire
+  -damage|p1a: Abomasnow|101/287|[from] Recoil
+  -weather|Snowscape|[upkeep]
+  switch|p2a: Chesnaught|Chesnaught, L84, F|100/100
+-- turn 11
+  WE CHOSE: attack blizzard - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Chesnaught|Wood Hammer|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|47/287
+  -damage|p2a: Chesnaught|94/100|[from] Recoil
+  move|p1a: Abomasnow|Blizzard|p2a: Chesnaught
+  -supereffective|p2a: Chesnaught
+  -damage|p2a: Chesnaught|10/100
+  -weather|Snowscape|[upkeep]
+  -heal|p2a: Chesnaught|16/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack blizzard - our hp 0.16, theirs 0.16, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to muk - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p2a: Chesnaught|Wood Hammer|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|0 fnt
+  faint|p1a: Abomasnow
+  -damage|p2a: Chesnaught|10/100|[from] Recoil
+  -weather|none
+  -heal|p2a: Chesnaught|16/100|[from] item: Leftovers
+  switch|p1a: Muk|Muk, L86, F|321/321
+-- turn 13
+  WE CHOSE: attack poisonjab - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p2a: Chesnaught|Wood Hammer|p1a: Muk
+  -resisted|p1a: Muk
+  -damage|p1a: Muk|252/321
+  -damage|p2a: Chesnaught|8/100|[from] Recoil
+  move|p1a: Muk|Poison Jab|p2a: Chesnaught
+  -supereffective|p2a: Chesnaught
+  -damage|p2a: Chesnaught|0 fnt
+  faint|p2a: Chesnaught
+  switch|p2a: Regigigas|Regigigas, L84|100/100
+  -start|p2a: Regigigas|ability: Slow Start
+-- turn 14
+  WE CHOSE: attack poisonjab - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Muk|Poison Jab|p2a: Regigigas
+  -damage|p2a: Regigigas|77/100
+  move|p2a: Regigigas|Body Slam|p1a: Muk
+  -damage|p1a: Muk|180/321
+  -status|p1a: Muk|par
+  -heal|p2a: Regigigas|83/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack poisonjab - our hp 0.56, theirs 0.83, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Muk
+  -damage|p1a: Muk|104/321 par
+  move|p1a: Muk|Poison Jab|p2a: Regigigas
+  -damage|p2a: Regigigas|56/100
+  -status|p2a: Regigigas|psn|[from] ability: Poison Touch|[of] p1a: Muk
+  -heal|p2a: Regigigas|62/100 psn|[from] item: Leftovers
+  -damage|p2a: Regigigas|50/100 psn|[from] psn
+-- turn 16
+  WE CHOSE: attack poisonjab - our hp 0.32, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Muk
+  -damage|p1a: Muk|28/321 par
+  cant|p1a: Muk|par
+  -heal|p2a: Regigigas|56/100 psn|[from] item: Leftovers
+  -damage|p2a: Regigigas|44/100 psn|[from] psn
+-- turn 17
+  WE CHOSE: attack poisonjab - our hp 0.09, theirs 0.44, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to sudowoodo - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Muk
+  -damage|p1a: Muk|0 fnt
+  faint|p1a: Muk
+  -heal|p2a: Regigigas|50/100 psn|[from] item: Leftovers
+  -damage|p2a: Regigigas|37/100 psn|[from] psn
+  switch|p1a: Sudowoodo|Sudowoodo, L94, F|284/284
+-- turn 18
+  WE CHOSE: attack headsmash - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p1a: Sudowoodo|Head Smash|p2a: Regigigas
+  -damage|p2a: Regigigas|0 fnt
+  faint|p2a: Regigigas
+  -end|p2a: Regigigas|Slow Start|[silent]
+  switch|p2a: Hitmonlee|Hitmonlee, L85, M|100/100
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to whiscash - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Hitmonlee|High Jump Kick|p1a: Sudowoodo
+  -supereffective|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|0 fnt
+  faint|p1a: Sudowoodo
+  switch|p1a: Whiscash|Whiscash, L88, F|337/337
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to duraludon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmonlee|High Jump Kick|p1a: Whiscash
+  -damage|p1a: Whiscash|0 fnt
+  faint|p1a: Whiscash
+  switch|p1a: Duraludon|Duraludon, L82, F|27/249
+-- turn 21
+  WE CHOSE: attack dracometeor - our hp 0.11, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Hitmonlee|High Jump Kick|p1a: Duraludon
+  -supereffective|p1a: Duraludon
+  -damage|p1a: Duraludon|0 fnt
+  faint|p1a: Duraludon
+  deinit

@@ -1,0 +1,170 @@
+battle 469 (battle-gen9randombattle-1010632): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  azelf (fainted; item choicespecs, ability levitate; moves fireblast/psychic/uturn/dazzlinggleam)
+  leavanny (fainted; item heavydutyboots, ability swarm, tera ghost; moves leafblade/knockoff/stickyweb/lunge)
+  chiyu (fainted; item heavydutyboots, ability beadsofruin; moves darkpulse/fireblast/psychic/nastyplot)
+  ogerponhearthflame (fainted; item hearthflamemask, ability moldbreaker; moves ivycudgel/swordsdance/hornleech/stompingtantrum)
+  clefable (fainted; item lifeorb, ability magicguard; moves fireblast/moonblast/calmmind/moonlight)
+  toxtricity (fainted; item choicescarf, ability punkrock; moves voltswitch/overdrive/sludgewave/boomburst)
+theirs (as seen):
+  samurotthisui (fainted; item unknown_item, ability ?; moves -)
+  whimsicott (fainted; item unknown_item, ability ?; moves moonblast)
+  farigiraf (fainted; item leftovers, ability ?; moves bodyslam)
+  snorlax (fainted; item unknown_item, ability ?; moves earthquake)
+  houndoom (fainted; item unknown_item, ability flashfire; moves fireblast)
+  basculinbluestriped (87%; item unknown_item, ability ?; moves doubleedge)
+
+-- turn 0
+  switch|p1a: Azelf|Azelf, L82|257/257
+  switch|p2a: Samurott|Samurott-Hisui, L77, F|100/100
+-- turn 1
+  WE CHOSE: attack dazzlinggleam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Azelf|Dazzling Gleam|p2a: Samurott
+  -supereffective|p2a: Samurott
+  -damage|p2a: Samurott|0 fnt
+  faint|p2a: Samurott
+  switch|p2a: Whimsicott|Whimsicott, L84, F|100/100
+-- turn 2
+  WE CHOSE: attack dazzlinggleam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Azelf
+  -damage|p1a: Azelf|160/257
+  move|p1a: Azelf|Dazzling Gleam|p2a: Whimsicott
+  -damage|p2a: Whimsicott|55/100
+-- turn 3
+  WE CHOSE: attack dazzlinggleam - our hp 0.62, theirs 0.55, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Azelf
+  -damage|p1a: Azelf|48/257
+  move|p1a: Azelf|Dazzling Gleam|p2a: Whimsicott
+  -damage|p2a: Whimsicott|11/100
+-- turn 4
+  WE CHOSE: attack dazzlinggleam - our hp 0.19, theirs 0.11, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to toxtricity - our hp 0.00, theirs 0.11, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Azelf
+  -damage|p1a: Azelf|0 fnt
+  faint|p1a: Azelf
+  switch|p1a: Toxtricity|Toxtricity, L82, M|257/257
+-- turn 5
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Toxtricity|Sludge Wave|p2a: Whimsicott
+  -supereffective|p2a: Whimsicott
+  -damage|p2a: Whimsicott|0 fnt
+  faint|p2a: Whimsicott
+  switch|p2a: Farigiraf|Farigiraf, L90, M|100/100
+-- turn 6
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Toxtricity|Sludge Wave|p2a: Farigiraf
+  -damage|p2a: Farigiraf|70/100
+  move|p2a: Farigiraf|Body Slam|p1a: Toxtricity
+  -damage|p1a: Toxtricity|128/257
+  -heal|p2a: Farigiraf|76/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack sludgewave - our hp 0.50, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Toxtricity|Sludge Wave|p2a: Farigiraf
+  -damage|p2a: Farigiraf|42/100
+  move|p2a: Farigiraf|Body Slam|p1a: Toxtricity
+  -damage|p1a: Toxtricity|4/257
+  -heal|p2a: Farigiraf|49/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack sludgewave - our hp 0.02, theirs 0.49, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to leavanny - our hp 0.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Toxtricity|Sludge Wave|p2a: Farigiraf
+  -damage|p2a: Farigiraf|16/100
+  move|p2a: Farigiraf|Body Slam|p1a: Toxtricity
+  -damage|p1a: Toxtricity|0 fnt
+  faint|p1a: Toxtricity
+  -heal|p2a: Farigiraf|22/100|[from] item: Leftovers
+  switch|p1a: Leavanny|Leavanny, L86, M|269/269
+-- turn 9
+  WE CHOSE: attack+tera lunge - our hp 1.00, theirs 0.22, predicted move (revealed) hits us x1
+  -terastallize|p1a: Leavanny|Ghost
+  move|p1a: Leavanny|Lunge|p2a: Farigiraf
+  -supereffective|p2a: Farigiraf
+  -damage|p2a: Farigiraf|0 fnt
+  faint|p2a: Farigiraf
+  switch|p2a: Snorlax|Snorlax, L82, F|100/100
+-- turn 10
+  WE CHOSE: attack leafblade - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Leavanny|Leaf Blade|p2a: Snorlax
+  -damage|p2a: Snorlax|64/100
+  move|p2a: Snorlax|Earthquake|p1a: Leavanny
+  -damage|p1a: Leavanny|194/269
+-- turn 11
+  WE CHOSE: attack leafblade - our hp 0.72, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Leavanny|Leaf Blade|p2a: Snorlax
+  -crit|p2a: Snorlax
+  -damage|p2a: Snorlax|14/100
+  move|p2a: Snorlax|Earthquake|p1a: Leavanny
+  -damage|p1a: Leavanny|119/269
+-- turn 12
+  WE CHOSE: attack leafblade - our hp 0.44, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Leavanny|Leaf Blade|p2a: Snorlax
+  -damage|p2a: Snorlax|0 fnt
+  faint|p2a: Snorlax
+  switch|p2a: Houndoom|Houndoom, L87, F|100/100
+-- turn 13
+  WE CHOSE: attack lunge - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ogerponhearthflame - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Leavanny
+  -damage|p1a: Leavanny|0 fnt
+  faint|p1a: Leavanny
+  switch|p1a: Ogerpon|Ogerpon-Hearthflame, L74, F|239/239
+  -ability|p1a: Ogerpon|Mold Breaker
+-- turn 14
+  WE CHOSE: attack stompingtantrum - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Ogerpon
+  -damage|p1a: Ogerpon|103/239
+  move|p1a: Ogerpon|Stomping Tantrum|p2a: Houndoom
+  -supereffective|p2a: Houndoom
+  -damage|p2a: Houndoom|34/100
+-- turn 15
+  WE CHOSE: attack stompingtantrum - our hp 0.43, theirs 0.34, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to chiyu - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+-- turn 16
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x0.5
+  move|p2a: Houndoom|Fire Blast|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|151/211
+  move|p1a: Chi-Yu|Nasty Plot|p1a: Chi-Yu
+  -boost|p1a: Chi-Yu|spa|2
+-- turn 17
+  WE CHOSE: attack fireblast - our hp 0.72, theirs 0.34, predicted move (revealed) hits us x0.5
+  move|p2a: Houndoom|Fire Blast|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|96/211
+  move|p1a: Chi-Yu|Fire Blast|p2a: Houndoom
+  -start|p2a: Houndoom|ability: Flash Fire
+-- turn 18
+  WE CHOSE: attack fireblast - our hp 0.45, theirs 0.34, predicted move (revealed) hits us x0.5
+  move|p2a: Houndoom|Fire Blast|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|12/211
+  move|p1a: Chi-Yu|Fire Blast|p2a: Houndoom
+  -immune|p2a: Houndoom|[from] ability: Flash Fire
+-- turn 19
+  WE CHOSE: attack fireblast - our hp 0.06, theirs 0.34, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to clefable - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x0.5
+  move|p2a: Houndoom|Fire Blast|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|0 fnt
+  faint|p1a: Chi-Yu
+  switch|p1a: Clefable|Clefable, L83, F|293/293
+-- turn 20
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Clefable
+  -damage|p1a: Clefable|104/293
+  move|p1a: Clefable|Moonblast|p2a: Houndoom
+  -damage|p2a: Houndoom|0 fnt
+  faint|p2a: Houndoom
+  switch|p2a: Basculin|Basculin-Blue-Striped, L86, F|100/100
+-- turn 21
+  WE CHOSE: attack moonblast - our hp 0.35, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Basculin|Double-Edge|p1a: Clefable
+  -damage|p1a: Clefable|0 fnt
+  faint|p1a: Clefable
+  -damage|p2a: Basculin|87/100|[from] Recoil

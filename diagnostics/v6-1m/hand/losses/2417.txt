@@ -1,0 +1,241 @@
+battle 2417 (battle-gen9randombattle-1029055): lost in 24 turns, 1 of theirs left; we are p1
+
+ours:
+  klefki (fainted; item leftovers, ability prankster; moves spikes/thunderwave/dazzlinggleam/foulplay)
+  ariados (fainted; item heavydutyboots, ability insomnia; moves megahorn/stickyweb/poisonjab/knockoff)
+  lokix (fainted; item lifeorb, ability tintedlens, tera dark; moves suckerpunch/swordsdance/knockoff/leechlife)
+  toucannon (fainted; item heavydutyboots, ability skilllink; moves boomburst/roost/bulletseed/beakblast)
+  hatterene (fainted; item assaultvest, ability magicbounce; moves drainingkiss/nuzzle/mysticalfire/psychicnoise)
+  keldeoresolute (fainted; item lifeorb, ability justified; moves vacuumwave/hydropump/calmmind/secretsword)
+theirs (as seen):
+  florgesblue (fainted; item leftovers, ability ?; moves moonblast)
+  phione (fainted; item leftovers, ability hydration; moves scald)
+  floatzel (fainted; item leftovers, ability ?; moves wavecrash)
+  sawsbuck (fainted; item lifeorb, ability ?; moves doubleedge)
+  orthworm (fainted; item unknown_item, ability ?; moves irontail)
+  umbreon (100%; item unknown_item, ability ?; moves foulplay)
+
+-- turn 0
+  switch|p1a: Klefki|Klefki, L84, F|233/233
+  switch|p2a: Florges|Florges-Blue, L85, F|100/100
+-- turn 1
+  WE CHOSE: attack dazzlinggleam - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Florges|Moonblast|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|170/233
+  -unboost|p1a: Klefki|spa|1
+  move|p1a: Klefki|Dazzling Gleam|p2a: Florges
+  -damage|p2a: Florges|89/100
+  -heal|p2a: Florges|95/100|[from] item: Leftovers
+  -heal|p1a: Klefki|184/233|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack dazzlinggleam - our hp 0.79, theirs 0.95, predicted move (revealed) hits us x0.5
+  move|p2a: Florges|Moonblast|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|128/233
+  move|p1a: Klefki|Dazzling Gleam|p2a: Florges
+  -damage|p2a: Florges|84/100
+  -heal|p2a: Florges|90/100|[from] item: Leftovers
+  -heal|p1a: Klefki|142/233|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack dazzlinggleam - our hp 0.61, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p2a: Florges|Moonblast|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|82/233
+  -unboost|p1a: Klefki|spa|1
+  move|p1a: Klefki|Dazzling Gleam|p2a: Florges
+  -damage|p2a: Florges|81/100
+  -heal|p2a: Florges|87/100|[from] item: Leftovers
+  -heal|p1a: Klefki|96/233|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack dazzlinggleam - our hp 0.41, theirs 0.87, predicted move (revealed) hits us x0.5
+  move|p2a: Florges|Moonblast|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|40/233
+  move|p1a: Klefki|Dazzling Gleam|p2a: Florges
+  -damage|p2a: Florges|78/100
+  -heal|p2a: Florges|84/100|[from] item: Leftovers
+  -heal|p1a: Klefki|54/233|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack dazzlinggleam - our hp 0.23, theirs 0.84, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ariados - our hp 0.00, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p2a: Florges|Moonblast|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|0 fnt
+  faint|p1a: Klefki
+  -heal|p2a: Florges|90/100|[from] item: Leftovers
+  switch|p1a: Ariados|Ariados, L95, M|287/287
+-- turn 6
+  WE CHOSE: attack poisonjab - our hp 1.00, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p2a: Florges|Moonblast|p1a: Ariados
+  -resisted|p1a: Ariados
+  -damage|p1a: Ariados|222/287
+  -unboost|p1a: Ariados|spa|1
+  move|p1a: Ariados|Poison Jab|p2a: Florges
+  -supereffective|p2a: Florges
+  -damage|p2a: Florges|0 fnt
+  faint|p2a: Florges
+  switch|p2a: Phione|Phione, L91|100/100
+-- turn 7
+  WE CHOSE: attack megahorn - our hp 0.77, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Phione|Scald|p1a: Ariados
+  -damage|p1a: Ariados|129/287
+  -status|p1a: Ariados|brn
+  move|p1a: Ariados|Megahorn|p2a: Phione|[miss]
+  -miss|p1a: Ariados|p2a: Phione
+  -damage|p1a: Ariados|112/287 brn|[from] brn
+-- turn 8
+  WE CHOSE: attack megahorn - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to toucannon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Phione|Scald|p1a: Ariados
+  -damage|p1a: Ariados|16/287 brn
+  move|p1a: Ariados|Megahorn|p2a: Phione|[miss]
+  -miss|p1a: Ariados|p2a: Phione
+  -damage|p1a: Ariados|0 fnt|[from] brn
+  faint|p1a: Ariados
+  switch|p1a: Toucannon|Toucannon, L88, M|284/284
+-- turn 9
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Phione|Scald|p1a: Toucannon
+  -damage|p1a: Toucannon|199/284
+  move|p1a: Toucannon|Boomburst|p2a: Phione
+  -damage|p2a: Phione|53/100
+  -heal|p2a: Phione|59/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack boomburst - our hp 0.70, theirs 0.59, predicted move (revealed) hits us x1
+  move|p2a: Phione|Scald|p1a: Toucannon
+  -damage|p1a: Toucannon|109/284
+  -status|p1a: Toucannon|brn
+  move|p1a: Toucannon|Boomburst|p2a: Phione
+  -damage|p2a: Phione|10/100
+  -heal|p2a: Phione|16/100|[from] item: Leftovers
+  -damage|p1a: Toucannon|92/284 brn|[from] brn
+-- turn 11
+  WE CHOSE: heal roost - our hp 0.32, theirs 0.16, predicted move (revealed) hits us x1
+  move|p2a: Phione|Scald|p1a: Toucannon
+  -damage|p1a: Toucannon|1/284 brn
+  move|p1a: Toucannon|Roost|p1a: Toucannon
+  -heal|p1a: Toucannon|143/284 brn
+  -singleturn|p1a: Toucannon|move: Roost
+  -heal|p2a: Phione|22/100|[from] item: Leftovers
+  -damage|p1a: Toucannon|126/284 brn|[from] brn
+-- turn 12
+  WE CHOSE: heal roost - our hp 0.44, theirs 0.22, predicted move (revealed) hits us x1
+  move|p2a: Phione|Scald|p1a: Toucannon
+  -damage|p1a: Toucannon|29/284 brn
+  move|p1a: Toucannon|Roost|p1a: Toucannon
+  -heal|p1a: Toucannon|171/284 brn
+  -singleturn|p1a: Toucannon|move: Roost
+  -heal|p2a: Phione|28/100|[from] item: Leftovers
+  -damage|p1a: Toucannon|154/284 brn|[from] brn
+-- turn 13
+  WE CHOSE: attack boomburst - our hp 0.54, theirs 0.28, predicted move (revealed) hits us x1
+  move|p2a: Phione|Scald|p1a: Toucannon
+  -damage|p1a: Toucannon|61/284 brn
+  move|p1a: Toucannon|Boomburst|p2a: Phione
+  -damage|p2a: Phione|0 fnt
+  faint|p2a: Phione
+  -damage|p1a: Toucannon|44/284 brn|[from] brn
+  switch|p2a: Floatzel|Floatzel, L86, M|100/100
+-- turn 14
+  WE CHOSE: heal roost - our hp 0.15, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to keldeoresolute - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Toucannon
+  -damage|p1a: Toucannon|0 fnt
+  faint|p1a: Toucannon
+  -damage|p2a: Floatzel|95/100|[from] Recoil
+  -heal|p2a: Floatzel|100/100|[from] item: Leftovers
+  switch|p1a: Keldeo|Keldeo-Resolute, L79|273/273
+-- turn 15
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Floatzel|Wave Crash|p1a: Keldeo
+  -resisted|p1a: Keldeo
+  -damage|p1a: Keldeo|198/273
+  -damage|p2a: Floatzel|92/100|[from] Recoil
+  move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+  -boost|p1a: Keldeo|spa|1
+  -boost|p1a: Keldeo|spd|1
+  -heal|p2a: Floatzel|98/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: setup calmmind - our hp 0.73, theirs 0.98, predicted move (revealed) hits us x0.5
+  move|p2a: Floatzel|Wave Crash|p1a: Keldeo
+  -resisted|p1a: Keldeo
+  -damage|p1a: Keldeo|129/273
+  -damage|p2a: Floatzel|90/100|[from] Recoil
+  move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+  -boost|p1a: Keldeo|spa|1
+  -boost|p1a: Keldeo|spd|1
+  -heal|p2a: Floatzel|96/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack secretsword - our hp 0.47, theirs 0.96, predicted move (revealed) hits us x0.5
+  move|p2a: Floatzel|Wave Crash|p1a: Keldeo
+  -resisted|p1a: Keldeo
+  -damage|p1a: Keldeo|49/273
+  -damage|p2a: Floatzel|87/100|[from] Recoil
+  move|p1a: Keldeo|Secret Sword|p2a: Floatzel
+  -damage|p2a: Floatzel|0 fnt
+  faint|p2a: Floatzel
+  -damage|p1a: Keldeo|22/273|[from] item: Life Orb
+  switch|p2a: Sawsbuck|Sawsbuck, L88, F|100/100
+-- turn 18
+  WE CHOSE: attack secretsword - our hp 0.08, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to lokix - our hp 0.00, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Sawsbuck|Double-Edge|p1a: Keldeo
+  -damage|p1a: Keldeo|0 fnt
+  faint|p1a: Keldeo
+  -damage|p2a: Sawsbuck|98/100|[from] Recoil
+  -damage|p2a: Sawsbuck|88/100|[from] item: Life Orb
+  switch|p1a: Lokix|Lokix, L82, M|251/251
+-- turn 19
+  WE CHOSE: attack leechlife - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Sawsbuck|Double-Edge|p1a: Lokix
+  -damage|p1a: Lokix|35/251
+  -damage|p2a: Sawsbuck|63/100|[from] Recoil
+  -damage|p2a: Sawsbuck|53/100|[from] item: Life Orb
+  move|p1a: Lokix|Leech Life|p2a: Sawsbuck
+  -supereffective|p2a: Sawsbuck
+  -damage|p2a: Sawsbuck|0 fnt
+  -heal|p1a: Lokix|110/251|[from] drain|[of] p2a: Sawsbuck
+  faint|p2a: Sawsbuck
+  -damage|p1a: Lokix|85/251|[from] item: Life Orb
+  switch|p2a: Orthworm|Orthworm, L88, M|100/100
+-- turn 20
+  WE CHOSE: attack+tera suckerpunch - our hp 0.34, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Lokix|Dark
+  move|p1a: Lokix|Sucker Punch|p2a: Orthworm
+  -damage|p2a: Orthworm|67/100
+  -damage|p1a: Lokix|60/251|[from] item: Life Orb
+  move|p2a: Orthworm|Iron Tail|p1a: Lokix|[miss]
+  -miss|p2a: Orthworm|p1a: Lokix
+-- turn 21
+  WE CHOSE: attack suckerpunch - our hp 0.24, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Lokix|Sucker Punch|p2a: Orthworm
+  -damage|p2a: Orthworm|36/100
+  -damage|p1a: Lokix|35/251|[from] item: Life Orb
+  move|p2a: Orthworm|Iron Tail|p1a: Lokix|[miss]
+  -miss|p2a: Orthworm|p1a: Lokix
+-- turn 22
+  WE CHOSE: attack suckerpunch - our hp 0.14, theirs 0.36, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hatterene - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p1a: Lokix|Sucker Punch|p2a: Orthworm
+  -damage|p2a: Orthworm|3/100
+  -damage|p1a: Lokix|10/251|[from] item: Life Orb
+  move|p2a: Orthworm|Iron Tail|p1a: Lokix
+  -damage|p1a: Lokix|0 fnt
+  faint|p1a: Lokix
+  switch|p1a: Hatterene|Hatterene, L85, F|236/236
+-- turn 23
+  WE CHOSE: attack mysticalfire - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x2
+  move|p2a: Orthworm|Iron Tail|p1a: Hatterene
+  -supereffective|p1a: Hatterene
+  -damage|p1a: Hatterene|30/236
+  move|p1a: Hatterene|Mystical Fire|p2a: Orthworm
+  -supereffective|p2a: Orthworm
+  -damage|p2a: Orthworm|0 fnt
+  faint|p2a: Orthworm
+  switch|p2a: Umbreon|Umbreon, L84, F|100/100
+-- turn 24
+  WE CHOSE: attack drainingkiss - our hp 0.13, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Umbreon|Foul Play|p1a: Hatterene
+  -damage|p1a: Hatterene|0 fnt
+  faint|p1a: Hatterene

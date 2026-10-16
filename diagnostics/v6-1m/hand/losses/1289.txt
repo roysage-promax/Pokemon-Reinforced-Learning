@@ -1,0 +1,233 @@
+battle 1289 (battle-gen9randombattle-1018418): lost in 25 turns, 2 of theirs left; we are p1
+
+ours:
+  scovillain (fainted; item leftovers, ability chlorophyll; moves protect/flamethrower/substitute/leechseed)
+  heatran (fainted; item ?, ability flashfire; moves earthpower/magmastorm/stealthrock/heavyslam)
+  empoleon (fainted; item leftovers, ability competitive; moves knockoff/roost/flipturn/surf)
+  umbreon (fainted; item leftovers, ability synchronize; moves wish/protect/foulplay/toxic)
+  overqwil (fainted; item loadeddice, ability intimidate, tera dragon; moves crunch/swordsdance/gunkshot/scaleshot)
+  slitherwing (fainted; item lifeorb, ability protosynthesis; moves wildcharge/closecombat/firstimpression/flareblitz)
+theirs (as seen):
+  keldeoresolute (fainted; item leftovers, ability justified; moves surf)
+  grumpig (fainted; item unknown_item, ability ?; moves earthpower)
+  haxorus (fainted; item unknown_item, ability moldbreaker; moves earthquake)
+  empoleon (fainted; item leftovers, ability competitive; moves surf)
+  gallade (39%; item unknown_item, ability ?; moves leafblade)
+
+-- turn 0
+  switch|p1a: Scovillain|Scovillain, L91, F|266/266
+  switch|p2a: Keldeo|Keldeo-Resolute, L79|100/100
+-- turn 1
+  WE CHOSE: attack flamethrower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Keldeo|Surf|p1a: Scovillain
+  -damage|p1a: Scovillain|139/266
+  move|p1a: Scovillain|Flamethrower|p2a: Keldeo
+  -resisted|p2a: Keldeo
+  -damage|p2a: Keldeo|77/100
+  -heal|p2a: Keldeo|83/100|[from] item: Leftovers
+  -heal|p1a: Scovillain|155/266|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack flamethrower - our hp 0.58, theirs 0.83, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to slitherwing - our hp 0.00, theirs 0.89, predicted move (revealed) hits us x1
+  move|p2a: Keldeo|Surf|p1a: Scovillain
+  -crit|p1a: Scovillain
+  -damage|p1a: Scovillain|0 fnt
+  faint|p1a: Scovillain
+  -heal|p2a: Keldeo|89/100|[from] item: Leftovers
+  switch|p1a: Slither Wing|Slither Wing, L81|270/270
+-- turn 3
+  WE CHOSE: attack wildcharge - our hp 1.00, theirs 0.89, predicted move (revealed) hits us x1
+  move|p2a: Keldeo|Surf|p1a: Slither Wing
+  -damage|p1a: Slither Wing|173/270
+  move|p1a: Slither Wing|Wild Charge|p2a: Keldeo
+  -supereffective|p2a: Keldeo
+  -damage|p2a: Keldeo|11/100
+  -damage|p1a: Slither Wing|120/270|[from] Recoil
+  -damage|p1a: Slither Wing|93/270|[from] item: Life Orb
+  -heal|p2a: Keldeo|17/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack wildcharge - our hp 0.34, theirs 0.17, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to overqwil - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p2a: Keldeo|Surf|p1a: Slither Wing
+  -damage|p1a: Slither Wing|0 fnt
+  faint|p1a: Slither Wing
+  -end|p1a: Slither Wing|Protosynthesis|[silent]
+  -heal|p2a: Keldeo|24/100|[from] item: Leftovers
+  switch|p1a: Overqwil|Overqwil, L82, M|274/274
+  -ability|p1a: Overqwil|Intimidate|boost
+  -unboost|p2a: Keldeo|atk|1
+-- turn 5
+  WE CHOSE: attack+tera gunkshot - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x1
+  -terastallize|p1a: Overqwil|Dragon
+  move|p2a: Keldeo|Surf|p1a: Overqwil
+  -resisted|p1a: Overqwil
+  -damage|p1a: Overqwil|208/274
+  move|p1a: Overqwil|Gunk Shot|p2a: Keldeo|[miss]
+  -miss|p1a: Overqwil|p2a: Keldeo
+  -heal|p2a: Keldeo|30/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: setup swordsdance - our hp 0.76, theirs 0.30, predicted move (revealed) hits us x0.5
+  move|p2a: Keldeo|Surf|p1a: Overqwil
+  -resisted|p1a: Overqwil
+  -damage|p1a: Overqwil|139/274
+  move|p1a: Overqwil|Swords Dance|p1a: Overqwil
+  -boost|p1a: Overqwil|atk|2
+  -heal|p2a: Keldeo|36/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack gunkshot - our hp 0.51, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p2a: Keldeo|Surf|p1a: Overqwil
+  -resisted|p1a: Overqwil
+  -damage|p1a: Overqwil|72/274
+  move|p1a: Overqwil|Gunk Shot|p2a: Keldeo
+  -damage|p2a: Keldeo|0 fnt
+  faint|p2a: Keldeo
+  switch|p2a: Grumpig|Grumpig, L92, F|100/100
+-- turn 8
+  WE CHOSE: attack crunch - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to umbreon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Grumpig|Earth Power|p1a: Overqwil
+  -damage|p1a: Overqwil|0 fnt
+  faint|p1a: Overqwil
+  switch|p1a: Umbreon|Umbreon, L84, F|297/297
+-- turn 9
+  WE CHOSE: switch to heatran - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Heatran|Heatran, L79, F|273/273
+  -item|p1a: Heatran|Air Balloon
+  move|p2a: Grumpig|Earth Power|p1a: Heatran
+  -immune|p1a: Heatran
+-- turn 10
+  WE CHOSE: attack magmastorm - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Grumpig|Earth Power|p1a: Heatran
+  -immune|p1a: Heatran
+  move|p1a: Heatran|Magma Storm|p2a: Grumpig
+  -damage|p2a: Grumpig|85/100
+  -activate|p2a: Grumpig|move: Magma Storm|[of] p1a: Heatran
+  -damage|p2a: Grumpig|73/100|[from] move: Magma Storm|[partiallytrapped]
+-- turn 11
+  WE CHOSE: attack magmastorm - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x0
+  move|p2a: Grumpig|Earth Power|p1a: Heatran
+  -immune|p1a: Heatran
+  move|p1a: Heatran|Magma Storm|p2a: Grumpig
+  -damage|p2a: Grumpig|56/100
+  -damage|p2a: Grumpig|44/100|[from] move: Magma Storm|[partiallytrapped]
+-- turn 12
+  WE CHOSE: attack magmastorm - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x0
+  move|p2a: Grumpig|Earth Power|p1a: Heatran
+  -immune|p1a: Heatran
+  move|p1a: Heatran|Magma Storm|p2a: Grumpig
+  -damage|p2a: Grumpig|27/100
+  -damage|p2a: Grumpig|14/100|[from] move: Magma Storm|[partiallytrapped]
+-- turn 13
+  WE CHOSE: attack magmastorm - our hp 1.00, theirs 0.14, predicted move (revealed) hits us x0
+  move|p2a: Grumpig|Earth Power|p1a: Heatran
+  -immune|p1a: Heatran
+  move|p1a: Heatran|Magma Storm|p2a: Grumpig|[miss]
+  -miss|p1a: Heatran|p2a: Grumpig
+  -damage|p2a: Grumpig|2/100|[from] move: Magma Storm|[partiallytrapped]
+-- turn 14
+  WE CHOSE: attack magmastorm - our hp 1.00, theirs 0.02, predicted move (revealed) hits us x0
+  move|p2a: Grumpig|Earth Power|p1a: Heatran
+  -immune|p1a: Heatran
+  move|p1a: Heatran|Magma Storm|p2a: Grumpig
+  -damage|p2a: Grumpig|0 fnt
+  faint|p2a: Grumpig
+  switch|p2a: Haxorus|Haxorus, L77, F|100/100
+  -ability|p2a: Haxorus|Mold Breaker
+-- turn 15
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Haxorus|Earthquake|p1a: Heatran
+  -immune|p1a: Heatran
+  move|p1a: Heatran|Earth Power|p2a: Haxorus
+  -damage|p2a: Haxorus|62/100
+-- turn 16
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x0
+  move|p2a: Haxorus|Earthquake|p1a: Heatran
+  -immune|p1a: Heatran
+  move|p1a: Heatran|Earth Power|p2a: Haxorus
+  -damage|p2a: Haxorus|23/100
+-- turn 17
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x0
+  move|p2a: Haxorus|Earthquake|p1a: Heatran
+  -immune|p1a: Heatran
+  move|p1a: Heatran|Earth Power|p2a: Haxorus
+  -damage|p2a: Haxorus|0 fnt
+  faint|p2a: Haxorus
+  switch|p2a: Empoleon|Empoleon, L84, F|100/100
+-- turn 18
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.25
+  WE CHOSE: forced: switch to empoleon - our hp 0.00, theirs 0.57, predicted move (revealed) hits us x2
+  move|p1a: Heatran|Earth Power|p2a: Empoleon
+  -supereffective|p2a: Empoleon
+  -damage|p2a: Empoleon|51/100
+  -unboost|p2a: Empoleon|spd|1
+  -ability|p2a: Empoleon|Competitive|boost
+  -boost|p2a: Empoleon|spa|2
+  move|p2a: Empoleon|Surf|p1a: Heatran
+  -supereffective|p1a: Heatran
+  -damage|p1a: Heatran|0 fnt
+  -enditem|p1a: Heatran|Air Balloon
+  faint|p1a: Heatran
+  -heal|p2a: Empoleon|57/100|[from] item: Leftovers
+  switch|p1a: Empoleon|Empoleon, L84, F|278/278
+-- turn 19
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p2a: Empoleon|Surf|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|178/278
+  move|p1a: Empoleon|Surf|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|30/100
+  -heal|p2a: Empoleon|36/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|195/278|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack surf - our hp 0.70, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p1a: Empoleon|Surf|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|12/100
+  move|p2a: Empoleon|Surf|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|100/278
+  -heal|p2a: Empoleon|18/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|117/278|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal roost - our hp 0.42, theirs 0.18, predicted move (revealed) hits us x0.5
+  move|p1a: Empoleon|Roost|p1a: Empoleon
+  -heal|p1a: Empoleon|256/278
+  -singleturn|p1a: Empoleon|move: Roost
+  move|p2a: Empoleon|Surf|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|169/278
+  -heal|p2a: Empoleon|24/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|186/278|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack surf - our hp 0.67, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p2a: Empoleon|Surf|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|99/278
+  move|p1a: Empoleon|Surf|p2a: Empoleon
+  -resisted|p2a: Empoleon
+  -damage|p2a: Empoleon|0 fnt
+  faint|p2a: Empoleon
+  -heal|p1a: Empoleon|116/278|[from] item: Leftovers
+  switch|p2a: Gallade|Gallade, L80, M|100/100
+-- turn 23
+  WE CHOSE: heal roost - our hp 0.42, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to umbreon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gallade|Leaf Blade|p1a: Empoleon
+  -damage|p1a: Empoleon|0 fnt
+  faint|p1a: Empoleon
+  switch|p1a: Umbreon|Umbreon, L84, F|297/297
+-- turn 24
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gallade|Leaf Blade|p1a: Umbreon
+  -crit|p1a: Umbreon
+  -damage|p1a: Umbreon|88/297
+  move|p1a: Umbreon|Foul Play|p2a: Gallade
+  -damage|p2a: Gallade|39/100
+  -heal|p1a: Umbreon|106/297|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack foulplay - our hp 0.36, theirs 0.39, predicted move (revealed) hits us x1
+  move|p2a: Gallade|Leaf Blade|p1a: Umbreon
+  -damage|p1a: Umbreon|0 fnt
+  faint|p1a: Umbreon
+  deinit

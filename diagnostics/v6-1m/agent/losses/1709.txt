@@ -1,0 +1,656 @@
+battle 1709 (battle-gen9randombattle-1023711): lost in 84 turns, 1 of theirs left; we are p1
+
+ours:
+  noivern (fainted; item choicespecs, ability infiltrator; moves boomburst/dracometeor/uturn/hurricane)
+  latios (fainted; item souldew, ability levitate, tera steel; moves aurasphere/dracometeor/recover/lusterpurge)
+  blastoise (fainted; item ?, ability torrent; moves icebeam/shellsmash/hydropump/earthquake)
+  ninetales (fainted; item heavydutyboots, ability drought; moves scorchingsands/nastyplot/solarbeam/fireblast)
+  dusknoir (fainted; item leftovers, ability frisk; moves willowisp/shadowsneak/poltergeist/painsplit)
+  deoxys (fainted; item lifeorb, ability pressure; moves superpower/psychoboost/icebeam/knockoff)
+theirs (as seen):
+  sableye (fainted; item unknown_item, ability ?; moves -)
+  zebstrika (fainted; item lifeorb, ability ?; moves overheat)
+  snorlax (fainted; item leftovers, ability ?; moves bodyslam/curse/rest/sleeptalk)
+  electrodehisui (fainted; item lifeorb, ability ?; moves leafstorm)
+  malamar (fainted; item unknown_item, ability ?; moves superpower)
+  ironcrown (59%; item unknown_item, ability quarkdrive; moves focusblast)
+
+-- turn 0
+  switch|p1a: Noivern|Noivern, L82, F|274/274
+  switch|p2a: Sableye|Sableye, L88, M|100/100
+-- turn 1
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Noivern|Draco Meteor|p2a: Sableye
+  -damage|p2a: Sableye|0 fnt
+  -unboost|p1a: Noivern|spa|2
+  faint|p2a: Sableye
+  switch|p2a: Zebstrika|Zebstrika, L87, F|100/100
+-- turn 2
+  WE CHOSE: switch to blastoise (hand policy: attack dracometeor) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Blastoise|Blastoise, L80, M|258/258
+  move|p2a: Zebstrika|Overheat|p1a: Blastoise
+  -resisted|p1a: Blastoise
+  -damage|p1a: Blastoise|207/258
+  -unboost|p2a: Zebstrika|spa|2
+  -damage|p2a: Zebstrika|91/100|[from] item: Life Orb
+-- turn 3
+  WE CHOSE: setup shellsmash - our hp 0.80, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Zebstrika|Overheat|p1a: Blastoise
+  -resisted|p1a: Blastoise
+  -damage|p1a: Blastoise|182/258
+  -unboost|p2a: Zebstrika|spa|2
+  -damage|p2a: Zebstrika|81/100|[from] item: Life Orb
+  move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+  -unboost|p1a: Blastoise|def|1
+  -unboost|p1a: Blastoise|spd|1
+  -boost|p1a: Blastoise|atk|2
+  -boost|p1a: Blastoise|spa|2
+  -boost|p1a: Blastoise|spe|2
+  -enditem|p1a: Blastoise|White Herb
+  -clearnegativeboost|p1a: Blastoise|[silent]
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 0.71, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p1a: Blastoise|Earthquake|p2a: Zebstrika
+  -supereffective|p2a: Zebstrika
+  -damage|p2a: Zebstrika|0 fnt
+  faint|p2a: Zebstrika
+  switch|p2a: Snorlax|Snorlax, L82, M|100/100
+-- turn 5
+  WE CHOSE: switch to noivern - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Noivern|Noivern, L82, F|274/274
+  move|p2a: Snorlax|Body Slam|p1a: Noivern
+  -crit|p1a: Noivern
+  -damage|p1a: Noivern|123/274
+-- turn 6
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+-- turn 7
+  WE CHOSE: switch to deoxys (hand policy: attack willowisp) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Deoxys|Deoxys, L74|196/196
+  -ability|p1a: Deoxys|Pressure
+  move|p2a: Snorlax|Body Slam|p1a: Deoxys
+  -damage|p1a: Deoxys|46/196
+-- turn 8
+  WE CHOSE: switch to dusknoir - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+-- turn 9
+  WE CHOSE: switch to deoxys (hand policy: attack willowisp) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to dusknoir (hand policy: forced: switch to noivern) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Deoxys|Deoxys, L74|46/196
+  -ability|p1a: Deoxys|Pressure
+  move|p2a: Snorlax|Body Slam|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  faint|p1a: Deoxys
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+-- turn 10
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -status|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 11
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 12
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax|[miss]
+  -miss|p1a: Dusknoir|p2a: Snorlax
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 13
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 14
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 15
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax|[miss]
+  -miss|p1a: Dusknoir|p2a: Snorlax
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 16
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 17
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 18
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 19
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 20
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 21
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 22
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 23
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax|[miss]
+  -miss|p1a: Dusknoir|p2a: Snorlax
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 24
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 25
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax|[miss]
+  -miss|p1a: Dusknoir|p2a: Snorlax
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 26
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 27
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -unboost|p2a: Snorlax|spe|1
+  -boost|p2a: Snorlax|atk|1
+  -boost|p2a: Snorlax|def|1
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 28
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -unboost|p2a: Snorlax|spe|1
+  -boost|p2a: Snorlax|atk|1
+  -boost|p2a: Snorlax|def|1
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 29
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -unboost|p2a: Snorlax|spe|1
+  -boost|p2a: Snorlax|atk|1
+  -boost|p2a: Snorlax|def|1
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 30
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -unboost|p2a: Snorlax|spe|1
+  -boost|p2a: Snorlax|atk|1
+  -boost|p2a: Snorlax|def|1
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 31
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -unboost|p2a: Snorlax|spe|1
+  -boost|p2a: Snorlax|atk|1
+  -boost|p2a: Snorlax|def|1
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 32
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax|[miss]
+  -miss|p1a: Dusknoir|p2a: Snorlax
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -unboost|p2a: Snorlax|spe|1
+  -boost|p2a: Snorlax|atk|1
+  -boost|p2a: Snorlax|def|1
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 33
+  WE CHOSE: attack willowisp - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Will-O-Wisp|p2a: Snorlax
+  -fail|p2a: Snorlax|brn
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 34
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 35
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 0.94, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 36
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 37
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 0.94, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 38
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 39
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 0.94, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 40
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 41
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 0.94, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 42
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Curse|p2a: Snorlax
+  -heal|p2a: Snorlax|100/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|94/100 brn|[from] brn
+-- turn 43
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 0.94, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Rest|p2a: Snorlax
+  -status|p2a: Snorlax|slp|[from] move: Rest
+  -heal|p2a: Snorlax|100/100 slp|[silent]
+-- turn 44
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  cant|p2a: Snorlax|slp
+-- turn 45
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  cant|p2a: Snorlax|slp
+-- turn 46
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  -curestatus|p2a: Snorlax|slp|[msg]
+  move|p2a: Snorlax|Rest|p2a: Snorlax
+  -fail|p2a: Snorlax|heal
+-- turn 47
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Rest|p2a: Snorlax
+  -fail|p2a: Snorlax|heal
+-- turn 48
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Rest|p2a: Snorlax
+  -fail|p2a: Snorlax|heal
+-- turn 49
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Rest|p2a: Snorlax
+  -fail|p2a: Snorlax|heal
+-- turn 50
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Rest|p2a: Snorlax
+  -fail|p2a: Snorlax|heal
+-- turn 51
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Rest|p2a: Snorlax
+  -fail|p2a: Snorlax|heal
+-- turn 52
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Rest|p2a: Snorlax
+  -fail|p2a: Snorlax|heal
+-- turn 53
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 54
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 55
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 56
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 57
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 58
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 59
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 60
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 61
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 62
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 63
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 64
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 65
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 66
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 67
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 68
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  move|p2a: Snorlax|Sleep Talk||[still]
+  -fail|p2a: Snorlax
+-- turn 69
+  WE CHOSE: switch to dusknoir - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  -activate|p2a: Snorlax|move: Struggle
+  move|p2a: Snorlax|Struggle|p1a: Dusknoir
+  -damage|p1a: Dusknoir|132/225
+  -damage|p2a: Snorlax|76/100|[from] recoil
+  -heal|p1a: Dusknoir|146/225|[from] item: Leftovers
+  -heal|p2a: Snorlax|82/100|[from] item: Leftovers
+-- turn 70
+  WE CHOSE: switch to noivern (hand policy: attack shadowsneak) - our hp 0.65, theirs 0.82, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to dusknoir (hand policy: forced: switch to latios) - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x1
+  switch|p1a: Noivern|Noivern, L82, F|123/274
+  -activate|p2a: Snorlax|move: Struggle
+  move|p2a: Snorlax|Struggle|p1a: Noivern
+  -damage|p1a: Noivern|0 fnt
+  faint|p1a: Noivern
+  -damage|p2a: Snorlax|57/100|[from] recoil
+  -heal|p2a: Snorlax|63/100|[from] item: Leftovers
+  switch|p1a: Dusknoir|Dusknoir, L89, M|146/225
+  -item|p2a: Snorlax|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+-- turn 71
+  WE CHOSE: attack shadowsneak - our hp 0.65, theirs 0.63, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Shadow Sneak|p2a: Snorlax
+  -immune|p2a: Snorlax
+  -activate|p2a: Snorlax|move: Struggle
+  move|p2a: Snorlax|Struggle|p1a: Dusknoir
+  -damage|p1a: Dusknoir|44/225
+  -damage|p2a: Snorlax|38/100|[from] recoil
+  -heal|p1a: Dusknoir|58/225|[from] item: Leftovers
+  -heal|p2a: Snorlax|44/100|[from] item: Leftovers
+-- turn 72
+  WE CHOSE: attack shadowsneak - our hp 0.26, theirs 0.44, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to latios - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x0
+  move|p1a: Dusknoir|Shadow Sneak|p2a: Snorlax
+  -immune|p2a: Snorlax
+  -activate|p2a: Snorlax|move: Struggle
+  move|p2a: Snorlax|Struggle|p1a: Dusknoir
+  -damage|p1a: Dusknoir|0 fnt
+  faint|p1a: Dusknoir
+  -damage|p2a: Snorlax|19/100|[from] recoil
+  -heal|p2a: Snorlax|25/100|[from] item: Leftovers
+  switch|p1a: Latios|Latios, L78, M|253/253
+-- turn 73
+  WE CHOSE: attack dracometeor (hand policy: attack+tera dracometeor) - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p1a: Latios|Draco Meteor|p2a: Snorlax
+  -damage|p2a: Snorlax|0 fnt
+  -unboost|p1a: Latios|spa|2
+  faint|p2a: Snorlax
+  switch|p2a: Electrode|Electrode-Hisui, L87|100/100
+-- turn 74
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Electrode|Leaf Storm|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|178/253
+  -unboost|p2a: Electrode|spa|2
+  -damage|p2a: Electrode|91/100|[from] item: Life Orb
+  move|p1a: Latios|Draco Meteor|p2a: Electrode
+  -damage|p2a: Electrode|54/100
+  -unboost|p1a: Latios|spa|2
+-- turn 75
+  WE CHOSE: attack dracometeor - our hp 0.70, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p2a: Electrode|Leaf Storm|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|140/253
+  -unboost|p2a: Electrode|spa|2
+  -damage|p2a: Electrode|44/100|[from] item: Life Orb
+  move|p1a: Latios|Draco Meteor|p2a: Electrode
+  -damage|p2a: Electrode|16/100
+  -unboost|p1a: Latios|spa|2
+-- turn 76
+  WE CHOSE: attack+tera aurasphere (hand policy: attack dracometeor) - our hp 0.55, theirs 0.16, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Latios|Steel
+  move|p2a: Electrode|Leaf Storm|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|113/253
+  -unboost|p2a: Electrode|spa|2
+  -damage|p2a: Electrode|6/100|[from] item: Life Orb
+  move|p1a: Latios|Aura Sphere|p2a: Electrode
+  -damage|p2a: Electrode|0 fnt
+  faint|p2a: Electrode
+  switch|p2a: Malamar|Malamar, L82, M|100/100
+-- turn 77
+  WE CHOSE: attack aurasphere (hand policy: attack dracometeor) - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to ninetales - our hp 0.00, theirs 0.93, predicted move (revealed) hits us x2
+  move|p1a: Latios|Aura Sphere|p2a: Malamar
+  -damage|p2a: Malamar|93/100
+  move|p2a: Malamar|Superpower|p1a: Latios
+  -supereffective|p1a: Latios
+  -damage|p1a: Latios|0 fnt
+  -boost|p2a: Malamar|atk|1
+  -boost|p2a: Malamar|def|1
+  faint|p1a: Latios
+  switch|p1a: Ninetales|Ninetales, L85, M|263/263
+  -weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+-- turn 78
+  WE CHOSE: attack scorchingsands (hand policy: attack fireblast) - our hp 1.00, theirs 0.93, predicted move (revealed) hits us x1
+  move|p1a: Ninetales|Scorching Sands|p2a: Malamar
+  -damage|p2a: Malamar|75/100
+  move|p2a: Malamar|Superpower|p1a: Ninetales
+  -damage|p1a: Ninetales|141/263
+  -boost|p2a: Malamar|atk|1
+  -boost|p2a: Malamar|def|1
+  -weather|SunnyDay|[upkeep]
+-- turn 79
+  WE CHOSE: attack scorchingsands (hand policy: attack fireblast) - our hp 0.54, theirs 0.75, predicted move (revealed) hits us x1
+  move|p1a: Ninetales|Scorching Sands|p2a: Malamar
+  -crit|p2a: Malamar
+  -damage|p2a: Malamar|46/100
+  -status|p2a: Malamar|brn
+  move|p2a: Malamar|Superpower|p1a: Ninetales
+  -damage|p1a: Ninetales|58/263
+  -boost|p2a: Malamar|atk|1
+  -boost|p2a: Malamar|def|1
+  -weather|SunnyDay|[upkeep]
+  -damage|p2a: Malamar|40/100 brn|[from] brn
+-- turn 80
+  WE CHOSE: attack scorchingsands (hand policy: attack fireblast) - our hp 0.22, theirs 0.40, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to blastoise - our hp 0.00, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Ninetales|Scorching Sands|p2a: Malamar
+  -damage|p2a: Malamar|20/100 brn
+  move|p2a: Malamar|Superpower|p1a: Ninetales
+  -crit|p1a: Ninetales
+  -damage|p1a: Ninetales|0 fnt
+  -boost|p2a: Malamar|atk|1
+  -boost|p2a: Malamar|def|1
+  faint|p1a: Ninetales
+  -weather|SunnyDay|[upkeep]
+  -damage|p2a: Malamar|14/100 brn|[from] brn
+  switch|p1a: Blastoise|Blastoise, L80, M|182/258
+-- turn 81
+  WE CHOSE: attack earthquake (hand policy: attack hydropump) - our hp 0.71, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Blastoise|Earthquake|p2a: Malamar
+  -damage|p2a: Malamar|7/100 brn
+  move|p2a: Malamar|Superpower|p1a: Blastoise
+  -damage|p1a: Blastoise|65/258
+  -boost|p2a: Malamar|atk|1
+  -boost|p2a: Malamar|def|1
+  -weather|SunnyDay|[upkeep]
+  -damage|p2a: Malamar|1/100 brn|[from] brn
+-- turn 82
+  WE CHOSE: attack earthquake (hand policy: attack hydropump) - our hp 0.25, theirs 0.01, predicted move (revealed) hits us x1
+  move|p1a: Blastoise|Earthquake|p2a: Malamar
+  -damage|p2a: Malamar|0 fnt
+  faint|p2a: Malamar
+  -weather|none
+  switch|p2a: Iron Crown|Iron Crown, L78|100/100
+-- turn 83
+  WE CHOSE: attack earthquake - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Iron Crown|Focus Blast|p1a: Blastoise|[miss]
+  -miss|p2a: Iron Crown|p1a: Blastoise
+  move|p1a: Blastoise|Earthquake|p2a: Iron Crown
+  -supereffective|p2a: Iron Crown
+  -damage|p2a: Iron Crown|59/100
+-- turn 84
+  WE CHOSE: attack earthquake - our hp 0.25, theirs 0.59, predicted move (revealed) hits us x1
+  move|p2a: Iron Crown|Focus Blast|p1a: Blastoise
+  -crit|p1a: Blastoise
+  -damage|p1a: Blastoise|0 fnt
+  faint|p1a: Blastoise
+  deinit

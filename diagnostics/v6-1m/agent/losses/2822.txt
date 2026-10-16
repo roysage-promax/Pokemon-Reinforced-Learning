@@ -1,0 +1,262 @@
+battle 2822 (battle-gen9randombattle-1034923): lost in 29 turns, 1 of theirs left; we are p1
+
+ours:
+  floatzel (fainted; item leftovers, ability waterveil, tera steel; moves icespinner/taunt/wavecrash/bulkup)
+  regieleki (fainted; item magnet, ability transistor; moves explosion/rapidspin/voltswitch/thunderbolt)
+  blissey (fainted; item leftovers, ability naturalcure; moves healbell/seismictoss/thunderwave/softboiled)
+  ditto (fainted; item choicescarf, ability imposter; moves transform)
+  pikachuunova (fainted; item lightball, ability lightningrod; moves playrough/fakeout/volttackle/surf)
+  cramorant (fainted; item heavydutyboots, ability gulpmissile; moves bravebird/surf/roost/defog)
+theirs (as seen):
+  cinderace (fainted; item unknown_item, ability ?; moves pyroball)
+  frosmoth (fainted; item unknown_item, ability ?; moves icebeam)
+  meowstic (fainted; item unknown_item, ability ?; moves -)
+  gardevoir (fainted; item unknown_item, ability waterveil; moves moonblast)
+  toxicroak (fainted; item unknown_item, ability ?; moves closecombat)
+  meganium (100%; item leftovers, ability ?; moves earthquake)
+
+-- turn 0
+  switch|p1a: Floatzel|Floatzel, L86, M|286/286
+  switch|p2a: Cinderace|Cinderace, L77, F|100/100
+-- turn 1
+  WE CHOSE: switch to cramorant (hand policy: attack wavecrash) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Cramorant|Cramorant, L86, F|261/261
+  move|p2a: Cinderace|Pyro Ball|p1a: Cramorant
+  -resisted|p1a: Cramorant
+  -damage|p1a: Cramorant|180/261
+-- turn 2
+  WE CHOSE: attack surf - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cinderace|Pyro Ball|p1a: Cramorant
+  -resisted|p1a: Cramorant
+  -damage|p1a: Cramorant|97/261
+  move|p1a: Cramorant|Surf|p2a: Cinderace
+  -formechange|p1a: Cramorant|Cramorant-Gorging|
+  -supereffective|p2a: Cinderace
+  -damage|p2a: Cinderace|19/100
+-- turn 3
+  WE CHOSE: attack surf (hand policy: heal roost) - our hp 0.37, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p2a: Cinderace|Pyro Ball|p1a: Cramorant
+  -resisted|p1a: Cramorant
+  -damage|p1a: Cramorant|19/261
+  -damage|p2a: Cinderace|0 fnt|[from] ability: Gulp Missile|[of] p1a: Cramorant
+  -formechange|p1a: Cramorant|Cramorant|
+  faint|p2a: Cinderace
+  move|p1a: Cramorant|Surf|p2: Cinderace|[notarget]
+  -fail|p1a: Cramorant
+  switch|p2a: Frosmoth|Frosmoth, L82, F|100/100
+-- turn 4
+  WE CHOSE: switch to ditto (hand policy: heal roost) - our hp 0.07, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Ditto|Ditto, L87|225/225
+  -transform|p1a: Ditto|p2a: Frosmoth|[from] ability: Imposter
+  move|p2a: Frosmoth|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|199/225
+-- turn 5
+  WE CHOSE: setup quiverdance - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Quiver Dance|p1a: Ditto
+  -boost|p1a: Ditto|spa|1
+  -boost|p1a: Ditto|spd|1
+  -boost|p1a: Ditto|spe|1
+  move|p2a: Frosmoth|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -crit|p1a: Ditto
+  -damage|p1a: Ditto|157/225
+-- turn 6
+  WE CHOSE: switch to cramorant (hand policy: setup quiverdance) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to floatzel - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Cramorant|Cramorant, L86, F|19/261
+  move|p2a: Frosmoth|Ice Beam|p1a: Cramorant
+  -damage|p1a: Cramorant|0 fnt
+  faint|p1a: Cramorant
+  switch|p1a: Floatzel|Floatzel, L86, M|286/286
+-- turn 7
+  WE CHOSE: setup bulkup - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Floatzel|Bulk Up|p1a: Floatzel
+  -boost|p1a: Floatzel|atk|1
+  -boost|p1a: Floatzel|def|1
+  move|p2a: Frosmoth|Ice Beam|p1a: Floatzel
+  -resisted|p1a: Floatzel
+  -damage|p1a: Floatzel|213/286
+  -heal|p1a: Floatzel|230/286|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: setup bulkup - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Floatzel|Bulk Up|p1a: Floatzel
+  -boost|p1a: Floatzel|atk|1
+  -boost|p1a: Floatzel|def|1
+  move|p2a: Frosmoth|Ice Beam|p1a: Floatzel
+  -resisted|p1a: Floatzel
+  -damage|p1a: Floatzel|152/286
+  -heal|p1a: Floatzel|169/286|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack wavecrash - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Floatzel|Wave Crash|p2a: Frosmoth
+  -damage|p2a: Frosmoth|0 fnt
+  faint|p2a: Frosmoth
+  -damage|p1a: Floatzel|87/286|[from] Recoil
+  -heal|p1a: Floatzel|104/286|[from] item: Leftovers
+  switch|p2a: Meowstic|Meowstic, L89, M|100/100
+-- turn 10
+  WE CHOSE: attack+tera wavecrash - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Floatzel|Steel
+  move|p1a: Floatzel|Wave Crash|p2a: Meowstic
+  -crit|p2a: Meowstic
+  -damage|p2a: Meowstic|0 fnt
+  faint|p2a: Meowstic
+  -damage|p1a: Floatzel|13/286|[from] Recoil
+  -heal|p1a: Floatzel|30/286|[from] item: Leftovers
+  switch|p2a: Gardevoir|Gardevoir, L83, F|100/100
+  -ability|p2a: Gardevoir|Water Veil|Trace|[from] ability: Trace|[of] p1a: Floatzel
+-- turn 11
+  WE CHOSE: attack wavecrash - our hp 0.10, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to regieleki - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Gardevoir|Moonblast|p1a: Floatzel
+  -resisted|p1a: Floatzel
+  -damage|p1a: Floatzel|0 fnt
+  faint|p1a: Floatzel
+  switch|p1a: Regieleki|Regieleki, L79|256/256
+-- turn 12
+  WE CHOSE: attack explosion - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pikachuunova - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p1a: Regieleki|Explosion|p2a: Gardevoir
+  -damage|p2a: Gardevoir|17/100
+  faint|p1a: Regieleki
+  move|p2a: Gardevoir|Moonblast|p1: Regieleki|[notarget]
+  -fail|p2a: Gardevoir
+  switch|p1a: Pikachu|Pikachu-Unova, L93, F|216/216
+-- turn 13
+  WE CHOSE: attack volttackle - our hp 1.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Pikachu
+  -damage|p1a: Pikachu|45/216
+  -unboost|p1a: Pikachu|spa|1
+  move|p1a: Pikachu|Volt Tackle|p2a: Gardevoir
+  -damage|p2a: Gardevoir|0 fnt
+  faint|p2a: Gardevoir
+  -damage|p1a: Pikachu|31/216|[from] Recoil
+  switch|p2a: Toxicroak|Toxicroak, L84, M|100/100
+-- turn 14
+  WE CHOSE: attack volttackle - our hp 0.14, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ditto - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Pikachu|Volt Tackle|p2a: Toxicroak
+  -damage|p2a: Toxicroak|13/100
+  -damage|p1a: Pikachu|0 fnt|[from] Recoil
+  faint|p1a: Pikachu
+  move|p2a: Toxicroak|Close Combat|p1: Pikachu|[notarget]
+  -fail|p2a: Toxicroak
+  switch|p1a: Ditto|Ditto, L87|157/225
+  -transform|p1a: Ditto|p2a: Toxicroak|[from] ability: Imposter
+-- turn 15
+  WE CHOSE: attack closecombat (hand policy: setup swordsdance) - our hp 0.70, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Close Combat|p2a: Toxicroak
+  -resisted|p2a: Toxicroak
+  -damage|p2a: Toxicroak|0 fnt
+  -unboost|p1a: Ditto|def|1
+  -unboost|p1a: Ditto|spd|1
+  faint|p2a: Toxicroak
+  switch|p2a: Meganium|Meganium, L90, F|100/100
+-- turn 16
+  WE CHOSE: attack closecombat - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to blissey - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x2
+  move|p1a: Ditto|Close Combat|p2a: Meganium
+  -damage|p2a: Meganium|58/100
+  -unboost|p1a: Ditto|def|1
+  -unboost|p1a: Ditto|spd|1
+  move|p2a: Meganium|Earthquake|p1a: Ditto
+  -supereffective|p1a: Ditto
+  -damage|p1a: Ditto|0 fnt
+  faint|p1a: Ditto
+  -heal|p2a: Meganium|64/100|[from] item: Leftovers
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+-- turn 17
+  WE CHOSE: attack healbell - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|360/572
+  move|p1a: Blissey|Heal Bell||[still]
+  -activate|p1a: Blissey|move: Heal Bell
+  -fail|p1a: Blissey
+  -heal|p2a: Meganium|70/100|[from] item: Leftovers
+  -heal|p1a: Blissey|395/572|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: heal softboiled (hand policy: attack healbell) - our hp 0.69, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|164/572
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|450/572
+  -heal|p2a: Meganium|77/100|[from] item: Leftovers
+  -heal|p1a: Blissey|485/572|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: heal softboiled (hand policy: attack healbell) - our hp 0.85, theirs 0.77, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|254/572
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|540/572
+  -heal|p2a: Meganium|83/100|[from] item: Leftovers
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal softboiled (hand policy: attack healbell) - our hp 1.00, theirs 0.83, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|365/572
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+  -heal|p2a: Meganium|89/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal softboiled (hand policy: attack healbell) - our hp 1.00, theirs 0.89, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|355/572
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+  -heal|p2a: Meganium|95/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal softboiled (hand policy: attack healbell) - our hp 1.00, theirs 0.95, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|351/572
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+  -heal|p2a: Meganium|100/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal softboiled (hand policy: attack healbell) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|365/572
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+-- turn 24
+  WE CHOSE: heal softboiled (hand policy: attack healbell) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|353/572
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+-- turn 25
+  WE CHOSE: heal softboiled (hand policy: attack healbell) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|367/572
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+-- turn 26
+  WE CHOSE: attack healbell - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|360/572
+  move|p1a: Blissey|Heal Bell||[still]
+  -activate|p1a: Blissey|move: Heal Bell
+  -fail|p1a: Blissey
+  -heal|p1a: Blissey|395/572|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack healbell - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|199/572
+  move|p1a: Blissey|Heal Bell||[still]
+  -activate|p1a: Blissey|move: Heal Bell
+  -fail|p1a: Blissey
+  -heal|p1a: Blissey|234/572|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack healbell - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|20/572
+  move|p1a: Blissey|Heal Bell||[still]
+  -activate|p1a: Blissey|move: Heal Bell
+  -fail|p1a: Blissey
+  -heal|p1a: Blissey|55/572|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack healbell - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|0 fnt
+  faint|p1a: Blissey
+  deinit

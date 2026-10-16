@@ -1,0 +1,223 @@
+battle 2039 (battle-gen9randombattle-1027032): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  roaringmoon (fainted; item choiceband, ability protosynthesis; moves outrage/ironhead/knockoff/uturn)
+  poliwrath (fainted; item lifeorb, ability swiftswim; moves liquidation/raindance/knockoff/closecombat)
+  jolteon (fainted; item heavydutyboots, ability voltabsorb, tera electric; moves voltswitch/alluringvoice/calmmind/thunderbolt)
+  komala (fainted; item assaultvest, ability comatose; moves knockoff/rapidspin/uturn/bodyslam)
+  kingdra (fainted; item lifeorb, ability swiftswim; moves wavecrash/raindance/hurricane/dracometeor)
+  trevenant (fainted; item lifeorb, ability naturalcure; moves drainpunch/hornleech/poltergeist/willowisp)
+theirs (as seen):
+  pyroar (fainted; item unknown_item, ability unnerve; moves fireblast)
+  rabsca (fainted; item ?, ability ?; moves psychic)
+  feraligatr (fainted; item ?, ability ?; moves liquidation)
+  rillaboom (fainted; item ?, ability ?; moves woodhammer)
+  swalot (fainted; item ?, ability ?; moves gunkshot)
+  glaceon (34%; item ?, ability ?; moves freezedry)
+
+-- turn 0
+  switch|p1a: Roaring Moon|Roaring Moon, L72|270/270
+  switch|p2a: Pyroar|Pyroar, L88, F|100/100
+  -ability|p2a: Pyroar|Unnerve
+-- turn 1
+  WE CHOSE: switch to kingdra (hand policy: attack outrage) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  -end|p1a: Roaring Moon|Protosynthesis|[silent]
+  switch|p1a: Kingdra|Kingdra, L84, M|263/263
+  move|p2a: Pyroar|Fire Blast|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|232/263
+-- turn 2
+  WE CHOSE: attack wavecrash - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Pyroar|Fire Blast|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|199/263
+  -status|p1a: Kingdra|brn
+  move|p1a: Kingdra|Wave Crash|p2a: Pyroar
+  -supereffective|p2a: Pyroar
+  -damage|p2a: Pyroar|40/100
+  -damage|p1a: Kingdra|141/263 brn|[from] Recoil
+  -damage|p1a: Kingdra|115/263 brn|[from] item: Life Orb
+  -damage|p1a: Kingdra|99/263 brn|[from] brn
+-- turn 3
+  WE CHOSE: attack wavecrash - our hp 0.38, theirs 0.40, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to jolteon (hand policy: forced: switch to poliwrath) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.25
+  move|p2a: Pyroar|Fire Blast|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|65/263 brn
+  move|p1a: Kingdra|Wave Crash|p2a: Pyroar
+  -supereffective|p2a: Pyroar
+  -damage|p2a: Pyroar|0 fnt
+  faint|p2a: Pyroar
+  -damage|p1a: Kingdra|26/263 brn|[from] Recoil
+  -damage|p1a: Kingdra|0 fnt|[from] item: Life Orb
+  faint|p1a: Kingdra
+  switch|p2a: Rabsca|Rabsca, L91, F|100/100
+  switch|p1a: Jolteon|Jolteon, L84, M|246/246
+-- turn 4
+  WE CHOSE: switch to poliwrath (hand policy: attack+tera thunderbolt) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Poliwrath|Poliwrath, L88, F|302/302
+  move|p2a: Rabsca|Psychic|p1a: Poliwrath
+  -supereffective|p1a: Poliwrath
+  -damage|p1a: Poliwrath|72/302
+-- turn 5
+  WE CHOSE: switch to roaringmoon - our hp 0.24, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Roaring Moon|Roaring Moon, L72|270/270
+  move|p2a: Rabsca|Psychic|p1a: Roaring Moon
+  -immune|p1a: Roaring Moon
+-- turn 6
+  WE CHOSE: attack knockoff (hand policy: attack+tera knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Roaring Moon|Knock Off|p2a: Rabsca
+  -supereffective|p2a: Rabsca
+  -damage|p2a: Rabsca|0 fnt
+  -enditem|p2a: Rabsca|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Roaring Moon
+  faint|p2a: Rabsca
+  switch|p2a: Feraligatr|Feraligatr, L79, F|100/100
+-- turn 7
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Roaring Moon|Knock Off|p2a: Feraligatr
+  -damage|p2a: Feraligatr|47/100
+  -enditem|p2a: Feraligatr|Life Orb|[from] move: Knock Off|[of] p1a: Roaring Moon
+  move|p2a: Feraligatr|Liquidation|p1a: Roaring Moon
+  -resisted|p1a: Roaring Moon
+  -damage|p1a: Roaring Moon|194/270
+-- turn 8
+  WE CHOSE: attack knockoff - our hp 0.72, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p1a: Roaring Moon|Knock Off|p2a: Feraligatr
+  -damage|p2a: Feraligatr|8/100
+  move|p2a: Feraligatr|Liquidation|p1a: Roaring Moon
+  -resisted|p1a: Roaring Moon
+  -damage|p1a: Roaring Moon|114/270
+-- turn 9
+  WE CHOSE: attack knockoff - our hp 0.42, theirs 0.08, predicted move (revealed) hits us x0.5
+  move|p1a: Roaring Moon|Knock Off|p2a: Feraligatr
+  -damage|p2a: Feraligatr|0 fnt
+  faint|p2a: Feraligatr
+  switch|p2a: Rillaboom|Rillaboom, L79, F|100/100
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+-- turn 10
+  WE CHOSE: attack knockoff - our hp 0.42, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to trevenant - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Roaring Moon|Knock Off|p2a: Rillaboom
+  -damage|p2a: Rillaboom|45/100
+  -enditem|p2a: Rillaboom|Life Orb|[from] move: Knock Off|[of] p1a: Roaring Moon
+  move|p2a: Rillaboom|Wood Hammer|p1a: Roaring Moon
+  -resisted|p1a: Roaring Moon
+  -damage|p1a: Roaring Moon|0 fnt
+  faint|p1a: Roaring Moon
+  -end|p1a: Roaring Moon|Protosynthesis|[silent]
+  -damage|p2a: Rillaboom|32/100|[from] Recoil
+  -heal|p2a: Rillaboom|38/100|[from] Grassy Terrain
+  switch|p1a: Trevenant|Trevenant, L89, M|296/296
+-- turn 11
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p2a: Rillaboom|Wood Hammer|p1a: Trevenant
+  -resisted|p1a: Trevenant
+  -damage|p1a: Trevenant|194/296
+  -damage|p2a: Rillaboom|27/100|[from] Recoil
+  move|p1a: Trevenant|Poltergeist||[still]
+  -fail|p1a: Trevenant
+  -heal|p2a: Rillaboom|33/100|[from] Grassy Terrain
+  -heal|p1a: Trevenant|212/296|[from] Grassy Terrain
+-- turn 12
+  WE CHOSE: attack poltergeist - our hp 0.72, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p2a: Rillaboom|Wood Hammer|p1a: Trevenant
+  -resisted|p1a: Trevenant
+  -damage|p1a: Trevenant|113/296
+  -damage|p2a: Rillaboom|21/100|[from] Recoil
+  move|p1a: Trevenant|Poltergeist||[still]
+  -fail|p1a: Trevenant
+  -heal|p2a: Rillaboom|28/100|[from] Grassy Terrain
+  -heal|p1a: Trevenant|131/296|[from] Grassy Terrain
+-- turn 13
+  WE CHOSE: attack poltergeist - our hp 0.44, theirs 0.28, predicted move (revealed) hits us x0.5
+  move|p2a: Rillaboom|Wood Hammer|p1a: Trevenant
+  -resisted|p1a: Trevenant
+  -damage|p1a: Trevenant|37/296
+  -damage|p2a: Rillaboom|17/100|[from] Recoil
+  move|p1a: Trevenant|Poltergeist||[still]
+  -fail|p1a: Trevenant
+  -heal|p2a: Rillaboom|23/100|[from] Grassy Terrain
+  -heal|p1a: Trevenant|55/296|[from] Grassy Terrain
+-- turn 14
+  WE CHOSE: attack poltergeist - our hp 0.19, theirs 0.23, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to komala - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p2a: Rillaboom|Wood Hammer|p1a: Trevenant
+  -resisted|p1a: Trevenant
+  -damage|p1a: Trevenant|0 fnt
+  faint|p1a: Trevenant
+  -damage|p2a: Rillaboom|17/100|[from] Recoil
+  -heal|p2a: Rillaboom|23/100|[from] Grassy Terrain
+  -fieldend|move: Grassy Terrain
+  switch|p1a: Komala|Komala, L87, M|255/255
+  -ability|p1a: Komala|Comatose
+-- turn 15
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to jolteon - our hp 0.36, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Rillaboom|Wood Hammer|p1a: Komala
+  -damage|p1a: Komala|93/255
+  -damage|p2a: Rillaboom|5/100|[from] Recoil
+  move|p1a: Komala|U-turn|p2a: Rillaboom
+  -supereffective|p2a: Rillaboom
+  -damage|p2a: Rillaboom|0 fnt
+  faint|p2a: Rillaboom
+  switch|p1a: Jolteon|Jolteon, L84, M|246/246|[from] U-turn
+  switch|p2a: Swalot|Swalot, L90, F|100/100
+-- turn 16
+  WE CHOSE: attack+tera thunderbolt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Jolteon|Electric
+  move|p1a: Jolteon|Thunderbolt|p2a: Swalot
+  -damage|p2a: Swalot|61/100
+  move|p2a: Swalot|Gunk Shot|p1a: Jolteon
+  -damage|p1a: Jolteon|87/246
+  -heal|p2a: Swalot|67/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack voltswitch (hand policy: attack thunderbolt) - our hp 0.35, theirs 0.67, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to poliwrath - our hp 0.35, theirs 0.37, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to jolteon - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Jolteon|Volt Switch|p2a: Swalot
+  -damage|p2a: Swalot|37/100
+  switch|p1a: Poliwrath|Poliwrath, L88, F|72/302|[from] Volt Switch
+  move|p2a: Swalot|Gunk Shot|p1a: Poliwrath
+  -damage|p1a: Poliwrath|0 fnt
+  faint|p1a: Poliwrath
+  -heal|p2a: Swalot|43/100|[from] item: Leftovers
+  switch|p1a: Jolteon|Jolteon, L84, M, tera:Electric|87/246
+-- turn 18
+  WE CHOSE: attack voltswitch (hand policy: attack thunderbolt) - our hp 0.35, theirs 0.43, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to komala - our hp 0.35, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Jolteon|Volt Switch|p2a: Swalot
+  -damage|p2a: Swalot|10/100
+  switch|p1a: Komala|Komala, L87, M|93/255|[from] Volt Switch
+  -ability|p1a: Komala|Comatose
+  move|p2a: Swalot|Gunk Shot|p1a: Komala|[miss]
+  -miss|p2a: Swalot|p1a: Komala
+  -heal|p2a: Swalot|16/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack knockoff (hand policy: attack bodyslam) - our hp 0.36, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Komala|Knock Off|p2a: Swalot
+  -damage|p2a: Swalot|0 fnt
+  -enditem|p2a: Swalot|Leftovers|[from] move: Knock Off|[of] p1a: Komala
+  faint|p2a: Swalot
+  switch|p2a: Glaceon|Glaceon, L94, F|100/100
+-- turn 20
+  WE CHOSE: attack knockoff (hand policy: attack bodyslam) - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Komala
+  -damage|p1a: Komala|26/255
+  move|p1a: Komala|Knock Off|p2a: Glaceon
+  -damage|p2a: Glaceon|76/100
+  -enditem|p2a: Glaceon|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Komala
+-- turn 21
+  WE CHOSE: attack knockoff (hand policy: attack bodyslam) - our hp 0.10, theirs 0.76, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to jolteon - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Komala
+  -damage|p1a: Komala|0 fnt
+  faint|p1a: Komala
+  switch|p1a: Jolteon|Jolteon, L84, M, tera:Electric|87/246
+-- turn 22
+  WE CHOSE: attack thunderbolt - our hp 0.35, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Jolteon|Thunderbolt|p2a: Glaceon
+  -damage|p2a: Glaceon|34/100
+  move|p2a: Glaceon|Freeze-Dry|p1a: Jolteon
+  -damage|p1a: Jolteon|0 fnt
+  faint|p1a: Jolteon
+  deinit

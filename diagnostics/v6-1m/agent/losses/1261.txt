@@ -1,0 +1,165 @@
+battle 1261 (battle-gen9randombattle-1019101): lost in 16 turns, 1 of theirs left; we are p1
+
+ours:
+  mienshao (fainted; item lifeorb, ability regenerator; moves poisonjab/swordsdance/knockoff/closecombat)
+  dugtrioalola (fainted; item lifeorb, ability tanglinghair; moves earthquake/stoneedge/ironhead/swordsdance)
+  conkeldurr (fainted; item flameorb, ability guts, tera normal; moves machpunch/knockoff/facade/closecombat)
+  clawitzer (fainted; item assaultvest, ability megalauncher; moves dragonpulse/darkpulse/uturn/waterpulse)
+  ambipom (fainted; item choiceband, ability technician; moves doubleedge/tripleaxel/knockoff/lowkick)
+  komala (fainted; item assaultvest, ability comatose; moves rapidspin/earthquake/bodyslam/knockoff)
+theirs (as seen):
+  feraligatr (fainted; item unknown_item, ability ?; moves liquidation)
+  grumpig (fainted; item leftovers, ability ?; moves focusblast)
+  squawkabillyyellow (fainted; item unknown_item, ability ?; moves bravebird)
+  abomasnow (fainted; item unknown_item, ability ?; moves woodhammer)
+  okidogi (fainted; item unknown_item, ability ?; moves gunkshot)
+  kingdra (13%; item unknown_item, ability ?; moves wavecrash)
+
+-- turn 0
+  switch|p1a: Mienshao|Mienshao, L83, F|244/244
+  switch|p2a: Feraligatr|Feraligatr, L79, M|100/100
+-- turn 1
+  WE CHOSE: setup swordsdance (hand policy: attack closecombat) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to clawitzer (hand policy: forced: switch to conkeldurr) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mienshao|Swords Dance|p1a: Mienshao
+  -boost|p1a: Mienshao|atk|2
+  move|p2a: Feraligatr|Liquidation|p1a: Mienshao
+  -crit|p1a: Mienshao
+  -damage|p1a: Mienshao|0 fnt
+  faint|p1a: Mienshao
+  switch|p1a: Clawitzer|Clawitzer, L87, M|265/265
+-- turn 2
+  WE CHOSE: attack dragonpulse (hand policy: attack+tera dragonpulse) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Feraligatr|Liquidation|p1a: Clawitzer
+  -resisted|p1a: Clawitzer
+  -damage|p1a: Clawitzer|199/265
+  move|p1a: Clawitzer|Dragon Pulse|p2a: Feraligatr
+  -damage|p2a: Feraligatr|56/100
+-- turn 3
+  WE CHOSE: attack darkpulse (hand policy: attack+tera dragonpulse) - our hp 0.75, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p2a: Feraligatr|Liquidation|p1a: Clawitzer
+  -resisted|p1a: Clawitzer
+  -damage|p1a: Clawitzer|129/265
+  move|p1a: Clawitzer|Dark Pulse|p2a: Feraligatr
+  -damage|p2a: Feraligatr|11/100
+-- turn 4
+  WE CHOSE: attack dragonpulse (hand policy: attack+tera dragonpulse) - our hp 0.49, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p2a: Feraligatr|Liquidation|p1a: Clawitzer
+  -resisted|p1a: Clawitzer
+  -damage|p1a: Clawitzer|55/265
+  move|p1a: Clawitzer|Dragon Pulse|p2a: Feraligatr
+  -damage|p2a: Feraligatr|0 fnt
+  faint|p2a: Feraligatr
+  switch|p2a: Grumpig|Grumpig, L92, M|100/100
+-- turn 5
+  WE CHOSE: attack darkpulse - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Grumpig|Focus Blast|p1a: Clawitzer|[miss]
+  -miss|p2a: Grumpig|p1a: Clawitzer
+  move|p1a: Clawitzer|Dark Pulse|p2a: Grumpig
+  -supereffective|p2a: Grumpig
+  -damage|p2a: Grumpig|43/100
+  -heal|p2a: Grumpig|49/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack darkpulse - our hp 0.21, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Grumpig|Focus Blast|p1a: Clawitzer|[miss]
+  -miss|p2a: Grumpig|p1a: Clawitzer
+  move|p1a: Clawitzer|Dark Pulse|p2a: Grumpig
+  -supereffective|p2a: Grumpig
+  -damage|p2a: Grumpig|0 fnt
+  faint|p2a: Grumpig
+  switch|p2a: Squawkabilly|Squawkabilly-Yellow, L89, M|100/100
+-- turn 7
+  WE CHOSE: switch to dugtrioalola (hand policy: attack waterpulse) - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 0.78, predicted move (revealed) hits us x0.5
+  switch|p1a: Dugtrio|Dugtrio-Alola, L84, F|196/196
+  move|p2a: Squawkabilly|Brave Bird|p1a: Dugtrio
+  -resisted|p1a: Dugtrio
+  -damage|p1a: Dugtrio|0 fnt
+  -ability|p1a: Dugtrio|Tangling Hair
+  -unboost|p2a: Squawkabilly|spe|1
+  faint|p1a: Dugtrio
+  -damage|p2a: Squawkabilly|78/100|[from] Recoil
+  switch|p1a: Ambipom|Ambipom, L84, F|263/263
+-- turn 8
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Double-Edge|p2a: Squawkabilly
+  -damage|p2a: Squawkabilly|0 fnt
+  faint|p2a: Squawkabilly
+  -damage|p1a: Ambipom|188/263|[from] Recoil
+  switch|p2a: Abomasnow|Abomasnow, L84, F|100/100
+  -weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+-- turn 9
+  WE CHOSE: switch to conkeldurr (hand policy: attack doubleedge) - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Conkeldurr|Conkeldurr, L80, F|299/299
+  move|p2a: Abomasnow|Wood Hammer|p1a: Conkeldurr
+  -damage|p1a: Conkeldurr|175/299
+  -damage|p2a: Abomasnow|86/100|[from] Recoil
+  -weather|Snowscape|[upkeep]
+  -status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+-- turn 10
+  WE CHOSE: attack closecombat - our hp 0.59, theirs 0.86, predicted move (revealed) hits us x1
+  move|p2a: Abomasnow|Wood Hammer|p1a: Conkeldurr
+  -damage|p1a: Conkeldurr|46/299 brn
+  -damage|p2a: Abomasnow|71/100|[from] Recoil
+  move|p1a: Conkeldurr|Close Combat|p2a: Abomasnow
+  -supereffective|p2a: Abomasnow
+  -damage|p2a: Abomasnow|0 fnt
+  -unboost|p1a: Conkeldurr|def|1
+  -unboost|p1a: Conkeldurr|spd|1
+  faint|p2a: Abomasnow
+  -weather|Snowscape|[upkeep]
+  -damage|p1a: Conkeldurr|28/299 brn|[from] brn
+  switch|p2a: Okidogi|Okidogi, L77, M|100/100
+-- turn 11
+  WE CHOSE: attack+tera facade (hand policy: attack closecombat) - our hp 0.09, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to komala - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Conkeldurr|Normal
+  move|p2a: Okidogi|Gunk Shot|p1a: Conkeldurr
+  -damage|p1a: Conkeldurr|0 fnt
+  faint|p1a: Conkeldurr
+  -weather|Snowscape|[upkeep]
+  switch|p1a: Komala|Komala, L87, M|255/255
+  -ability|p1a: Komala|Comatose
+-- turn 12
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Okidogi|Gunk Shot|p1a: Komala
+  -damage|p1a: Komala|90/255
+  move|p1a: Komala|Earthquake|p2a: Okidogi
+  -supereffective|p2a: Okidogi
+  -damage|p2a: Okidogi|45/100
+  -weather|Snowscape|[upkeep]
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 0.35, theirs 0.45, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Okidogi|Gunk Shot|p1a: Komala
+  -damage|p1a: Komala|0 fnt
+  faint|p1a: Komala
+  -weather|none
+  switch|p1a: Ambipom|Ambipom, L84, F|188/263
+-- turn 14
+  WE CHOSE: attack doubleedge - our hp 0.71, theirs 0.45, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Double-Edge|p2a: Okidogi
+  -damage|p2a: Okidogi|0 fnt
+  faint|p2a: Okidogi
+  -damage|p1a: Ambipom|150/263|[from] Recoil
+  switch|p2a: Kingdra|Kingdra, L84, M|100/100
+-- turn 15
+  WE CHOSE: attack doubleedge - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to clawitzer - our hp 0.00, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Double-Edge|p2a: Kingdra
+  -damage|p2a: Kingdra|31/100
+  -damage|p1a: Ambipom|90/263|[from] Recoil
+  move|p2a: Kingdra|Wave Crash|p1a: Ambipom
+  -damage|p1a: Ambipom|0 fnt
+  faint|p1a: Ambipom
+  -damage|p2a: Kingdra|20/100|[from] Recoil
+  switch|p1a: Clawitzer|Clawitzer, L87, M|55/265
+-- turn 16
+  WE CHOSE: attack dragonpulse - our hp 0.21, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Kingdra|Wave Crash|p1a: Clawitzer
+  -resisted|p1a: Clawitzer
+  -crit|p1a: Clawitzer
+  -damage|p1a: Clawitzer|0 fnt
+  faint|p1a: Clawitzer
+  -damage|p2a: Kingdra|13/100|[from] Recoil
+  deinit

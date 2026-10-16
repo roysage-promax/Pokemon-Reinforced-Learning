@@ -1,0 +1,155 @@
+battle 1800 (battle-gen9randombattle-1023225): lost in 16 turns, 3 of theirs left; we are p1
+
+ours:
+  zekrom (fainted; item leftovers, ability teravolt, tera fairy; moves boltstrike/outrage/substitute/dragondance)
+  blissey (fainted; item leftovers, ability naturalcure; moves seismictoss/healbell/thunderwave/softboiled)
+  haxorus (fainted; item lumberry, ability moldbreaker; moves closecombat/outrage/dragondance/ironhead)
+  glaceon (fainted; item heavydutyboots, ability icebody; moves calmmind/protect/freezedry/wish)
+  avalugghisui (fainted; item heavydutyboots, ability sturdy; moves avalanche/stoneedge/rapidspin/recover)
+  ampharos (fainted; item lifeorb, ability static; moves focusblast/thunderbolt/agility/dazzlinggleam)
+theirs (as seen):
+  samurott (fainted; item unknown_item, ability ?; moves hydropump)
+  roaringmoon (fainted; item ?, ability protosynthesis; moves outrage)
+  jirachi (fainted; item leftovers, ability serenegrace; moves psychic)
+  alcremierubycream (74%; item leftovers, ability ?; moves psyshock)
+
+-- turn 0
+  switch|p1a: Zekrom|Zekrom, L71|259/259
+  switch|p2a: Samurott|Samurott, L88, M|100/100
+  -ability|p1a: Zekrom|Teravolt
+-- turn 1
+  WE CHOSE: attack+tera boltstrike - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Zekrom|Fairy
+  move|p2a: Samurott|Hydro Pump|p1a: Zekrom
+  -damage|p1a: Zekrom|121/259
+  move|p1a: Zekrom|Bolt Strike|p2a: Samurott
+  -supereffective|p2a: Samurott
+  -damage|p2a: Samurott|17/100
+  -heal|p1a: Zekrom|137/259|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack boltstrike - our hp 0.53, theirs 0.17, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ampharos - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p2a: Samurott|Hydro Pump|p1a: Zekrom
+  -damage|p1a: Zekrom|0 fnt
+  faint|p1a: Zekrom
+  switch|p1a: Ampharos|Ampharos, L88, F|302/302
+-- turn 3
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p2a: Samurott|Hydro Pump|p1a: Ampharos
+  -damage|p1a: Ampharos|94/302
+  move|p1a: Ampharos|Thunderbolt|p2a: Samurott
+  -supereffective|p2a: Samurott
+  -damage|p2a: Samurott|0 fnt
+  faint|p2a: Samurott
+  -damage|p1a: Ampharos|64/302|[from] item: Life Orb
+  switch|p2a: Roaring Moon|Roaring Moon, L72|100/100
+  -enditem|p2a: Roaring Moon|Booster Energy
+  -activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+  -start|p2a: Roaring Moon|protosynthesisatk
+-- turn 4
+  WE CHOSE: attack dazzlinggleam - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to glaceon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Roaring Moon|Outrage|p1a: Ampharos
+  -damage|p1a: Ampharos|0 fnt
+  faint|p1a: Ampharos
+  switch|p1a: Glaceon|Glaceon, L94, M|275/275
+-- turn 5
+  WE CHOSE: attack freezedry - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Roaring Moon|Outrage|p1a: Glaceon|[from] lockedmove
+  -damage|p1a: Glaceon|145/275
+  move|p1a: Glaceon|Freeze-Dry|p2a: Roaring Moon
+  -supereffective|p2a: Roaring Moon
+  -damage|p2a: Roaring Moon|3/100
+-- turn 6
+  WE CHOSE: attack freezedry - our hp 0.53, theirs 0.03, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to avalugghisui - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Roaring Moon|Outrage|p1a: Glaceon|[from] lockedmove
+  -crit|p1a: Glaceon
+  -damage|p1a: Glaceon|0 fnt
+  faint|p1a: Glaceon
+  -start|p2a: Roaring Moon|confusion|[fatigue]
+  switch|p1a: Avalugg|Avalugg-Hisui, L91, M|321/321
+-- turn 7
+  WE CHOSE: attack avalanche - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x1
+  -activate|p2a: Roaring Moon|confusion
+  move|p2a: Roaring Moon|Outrage|p1a: Avalugg
+  -damage|p1a: Avalugg|239/321
+  move|p1a: Avalugg|Avalanche|p2a: Roaring Moon
+  -supereffective|p2a: Roaring Moon
+  -damage|p2a: Roaring Moon|0 fnt
+  faint|p2a: Roaring Moon
+  -end|p2a: Roaring Moon|Protosynthesis|[silent]
+  switch|p2a: Jirachi|Jirachi, L80|100/100
+-- turn 8
+  WE CHOSE: attack stoneedge - our hp 0.74, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Jirachi|Psychic|p1a: Avalugg
+  -damage|p1a: Avalugg|100/321
+  move|p1a: Avalugg|Stone Edge|p2a: Jirachi
+  -resisted|p2a: Jirachi
+  -damage|p2a: Jirachi|74/100
+  -heal|p2a: Jirachi|81/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: heal recover - our hp 0.31, theirs 0.81, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to haxorus - our hp 0.00, theirs 0.87, predicted move (revealed) hits us x1
+  move|p2a: Jirachi|Psychic|p1a: Avalugg
+  -damage|p1a: Avalugg|0 fnt
+  faint|p1a: Avalugg
+  -heal|p2a: Jirachi|87/100|[from] item: Leftovers
+  switch|p1a: Haxorus|Haxorus, L77, F|244/244
+  -ability|p1a: Haxorus|Mold Breaker
+-- turn 10
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.87, predicted move (revealed) hits us x1
+  move|p2a: Jirachi|Psychic|p1a: Haxorus
+  -damage|p1a: Haxorus|138/244
+  move|p1a: Haxorus|Close Combat|p2a: Jirachi
+  -damage|p2a: Jirachi|53/100
+  -unboost|p1a: Haxorus|def|1
+  -unboost|p1a: Haxorus|spd|1
+  -heal|p2a: Jirachi|60/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack closecombat - our hp 0.57, theirs 0.60, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to blissey - our hp 0.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Jirachi|Psychic|p1a: Haxorus
+  -damage|p1a: Haxorus|0 fnt
+  faint|p1a: Haxorus
+  -heal|p2a: Jirachi|66/100|[from] item: Leftovers
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+-- turn 12
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Jirachi|Psychic|p1a: Blissey
+  -damage|p1a: Blissey|509/572
+  move|p1a: Blissey|Seismic Toss|p2a: Jirachi
+  -damage|p2a: Jirachi|37/100
+  -heal|p2a: Jirachi|43/100|[from] item: Leftovers
+  -heal|p1a: Blissey|544/572|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack seismictoss - our hp 0.95, theirs 0.43, predicted move (revealed) hits us x1
+  move|p2a: Jirachi|Psychic|p1a: Blissey
+  -damage|p1a: Blissey|477/572
+  move|p1a: Blissey|Seismic Toss|p2a: Jirachi
+  -damage|p2a: Jirachi|14/100
+  -heal|p2a: Jirachi|20/100|[from] item: Leftovers
+  -heal|p1a: Blissey|512/572|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack seismictoss - our hp 0.90, theirs 0.20, predicted move (revealed) hits us x1
+  move|p2a: Jirachi|Psychic|p1a: Blissey
+  -damage|p1a: Blissey|449/572
+  move|p1a: Blissey|Seismic Toss|p2a: Jirachi
+  -damage|p2a: Jirachi|0 fnt
+  faint|p2a: Jirachi
+  -heal|p1a: Blissey|484/572|[from] item: Leftovers
+  switch|p2a: Alcremie|Alcremie-Ruby-Cream, L90, F|100/100
+-- turn 15
+  WE CHOSE: attack seismictoss - our hp 0.85, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Alcremie|Psyshock|p1a: Blissey
+  -damage|p1a: Blissey|284/572
+  move|p1a: Blissey|Seismic Toss|p2a: Alcremie
+  -damage|p2a: Alcremie|68/100
+  -heal|p2a: Alcremie|74/100|[from] item: Leftovers
+  -heal|p1a: Blissey|319/572|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack seismictoss - our hp 0.56, theirs 0.74, predicted move (revealed) hits us x1
+  move|p2a: Alcremie|Psyshock|p1a: Blissey
+  -crit|p1a: Blissey
+  -damage|p1a: Blissey|0 fnt
+  faint|p1a: Blissey

@@ -1,0 +1,180 @@
+battle 1854 (battle-gen9randombattle-1025176): lost in 19 turns, 3 of theirs left; we are p1
+
+ours:
+  infernape (fainted; item lifeorb, ability ironfist, tera fire; moves stoneedge/machpunch/closecombat/overheat)
+  lugia (fainted; item heavydutyboots, ability multiscale; moves aeroblast/earthpower/recover/calmmind)
+  drednaw (fainted; item ?, ability shellarmor; moves earthquake/liquidation/shellsmash/stoneedge)
+  swalot (fainted; item leftovers, ability liquidooze; moves gunkshot/earthquake/swordsdance/knockoff)
+  toedscruel (fainted; item leftovers, ability myceliummight; moves earthpower/toxic/rapidspin/leafstorm)
+  yanmega (fainted; item heavydutyboots, ability speedboost; moves bugbuzz/terablast/protect/airslash)
+theirs (as seen):
+  salamence (fainted; item unknown_item, ability ?; moves outrage)
+  bastiodon (fainted; item unknown_item, ability ?; moves -)
+  regice (fainted; item unknown_item, ability ?; moves icebeam)
+  rotomfrost (12%; item unknown_item, ability levitate; moves blizzard)
+
+-- turn 0
+  switch|p1a: Infernape|Infernape, L82, F|259/259
+  switch|p2a: Salamence|Salamence, L77, F|100/100
+-- turn 1
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Infernape|Stone Edge|p2a: Salamence
+  -supereffective|p2a: Salamence
+  -damage|p2a: Salamence|20/100
+  -damage|p1a: Infernape|234/259|[from] item: Life Orb
+  move|p2a: Salamence|Outrage|p1a: Infernape
+  -damage|p1a: Infernape|77/259
+-- turn 2
+  WE CHOSE: attack stoneedge - our hp 0.30, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Infernape|Stone Edge|p2a: Salamence
+  -supereffective|p2a: Salamence
+  -damage|p2a: Salamence|0 fnt
+  faint|p2a: Salamence
+  -damage|p1a: Infernape|52/259|[from] item: Life Orb
+  switch|p2a: Bastiodon|Bastiodon, L89, F|100/100
+-- turn 3
+  WE CHOSE: attack closecombat - our hp 0.20, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Infernape|Close Combat|p2a: Bastiodon
+  -supereffective|p2a: Bastiodon
+  -damage|p2a: Bastiodon|0 fnt
+  -unboost|p1a: Infernape|def|1
+  -unboost|p1a: Infernape|spd|1
+  faint|p2a: Bastiodon
+  -damage|p1a: Infernape|27/259|[from] item: Life Orb
+  switch|p2a: Regice|Regice, L88|100/100
+-- turn 4
+  WE CHOSE: attack+tera overheat (hand policy: attack closecombat) - our hp 0.10, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to drednaw - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Infernape|Fire
+  move|p1a: Infernape|Overheat|p2a: Regice
+  -supereffective|p2a: Regice
+  -damage|p2a: Regice|16/100
+  -unboost|p1a: Infernape|spa|2
+  -damage|p1a: Infernape|2/259|[from] item: Life Orb
+  move|p2a: Regice|Ice Beam|p1a: Infernape
+  -resisted|p1a: Infernape
+  -damage|p1a: Infernape|0 fnt
+  faint|p1a: Infernape
+  switch|p1a: Drednaw|Drednaw, L81, F|278/278
+-- turn 5
+  WE CHOSE: setup shellsmash - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p1a: Drednaw|Shell Smash|p1a: Drednaw
+  -unboost|p1a: Drednaw|def|1
+  -unboost|p1a: Drednaw|spd|1
+  -boost|p1a: Drednaw|atk|2
+  -boost|p1a: Drednaw|spa|2
+  -boost|p1a: Drednaw|spe|2
+  -enditem|p1a: Drednaw|White Herb
+  -clearnegativeboost|p1a: Drednaw|[silent]
+  move|p2a: Regice|Ice Beam|p1a: Drednaw
+  -resisted|p1a: Drednaw
+  -damage|p1a: Drednaw|212/278
+-- turn 6
+  WE CHOSE: attack stoneedge - our hp 0.76, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p1a: Drednaw|Stone Edge|p2a: Regice|[miss]
+  -miss|p1a: Drednaw|p2a: Regice
+  move|p2a: Regice|Ice Beam|p1a: Drednaw
+  -resisted|p1a: Drednaw
+  -damage|p1a: Drednaw|144/278
+-- turn 7
+  WE CHOSE: attack stoneedge - our hp 0.52, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p1a: Drednaw|Stone Edge|p2a: Regice|[miss]
+  -miss|p1a: Drednaw|p2a: Regice
+  move|p2a: Regice|Ice Beam|p1a: Drednaw
+  -resisted|p1a: Drednaw
+  -damage|p1a: Drednaw|80/278
+-- turn 8
+  WE CHOSE: attack stoneedge - our hp 0.29, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p1a: Drednaw|Stone Edge|p2a: Regice|[miss]
+  -miss|p1a: Drednaw|p2a: Regice
+  move|p2a: Regice|Ice Beam|p1a: Drednaw
+  -resisted|p1a: Drednaw
+  -damage|p1a: Drednaw|17/278
+-- turn 9
+  WE CHOSE: attack stoneedge - our hp 0.06, theirs 0.16, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to swalot - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p1a: Drednaw|Stone Edge|p2a: Regice|[miss]
+  -miss|p1a: Drednaw|p2a: Regice
+  move|p2a: Regice|Ice Beam|p1a: Drednaw
+  -resisted|p1a: Drednaw
+  -damage|p1a: Drednaw|0 fnt
+  faint|p1a: Drednaw
+  switch|p1a: Swalot|Swalot, L90, M|326/326
+-- turn 10
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Swalot|Gunk Shot|p2a: Regice|[miss]
+  -miss|p1a: Swalot|p2a: Regice
+  move|p2a: Regice|Ice Beam|p1a: Swalot
+  -crit|p1a: Swalot
+  -damage|p1a: Swalot|158/326
+  -heal|p1a: Swalot|178/326|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack gunkshot - our hp 0.55, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Swalot|Gunk Shot|p2a: Regice
+  -damage|p2a: Regice|0 fnt
+  faint|p2a: Regice
+  -heal|p1a: Swalot|198/326|[from] item: Leftovers
+  switch|p2a: Rotom|Rotom-Frost, L87|100/100
+-- turn 12
+  WE CHOSE: attack earthquake - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Rotom|Blizzard|p1a: Swalot
+  -damage|p1a: Swalot|71/326
+  move|p1a: Swalot|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  -heal|p1a: Swalot|91/326|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lugia - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Blizzard|p1a: Swalot
+  -damage|p1a: Swalot|0 fnt
+  faint|p1a: Swalot
+  switch|p1a: Lugia|Lugia, L73|275/275
+-- turn 14
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Lugia|Earth Power|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  move|p2a: Rotom|Blizzard|p1a: Lugia|[miss]
+  -miss|p2a: Rotom|p1a: Lugia
+-- turn 15
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Lugia|Earth Power|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  move|p2a: Rotom|Blizzard|p1a: Lugia|[miss]
+  -miss|p2a: Rotom|p1a: Lugia
+-- turn 16
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Lugia|Earth Power|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  move|p2a: Rotom|Blizzard|p1a: Lugia
+  -supereffective|p1a: Lugia
+  -damage|p1a: Lugia|170/275
+-- turn 17
+  WE CHOSE: attack earthpower - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to yanmega - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Lugia|Earth Power|p2a: Rotom
+  -immune|p2a: Rotom|[from] ability: Levitate
+  move|p2a: Rotom|Blizzard|p1a: Lugia
+  -supereffective|p1a: Lugia
+  -damage|p1a: Lugia|0 fnt
+  faint|p1a: Lugia
+  switch|p1a: Yanmega|Yanmega, L82, M|275/275
+-- turn 18
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to toedscruel - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x2
+  move|p1a: Yanmega|Bug Buzz|p2a: Rotom
+  -damage|p2a: Rotom|62/100
+  move|p2a: Rotom|Blizzard|p1a: Yanmega
+  -supereffective|p1a: Yanmega
+  -damage|p1a: Yanmega|0 fnt
+  faint|p1a: Yanmega
+  switch|p1a: Toedscruel|Toedscruel, L87, F|281/281
+-- turn 19
+  WE CHOSE: attack leafstorm (hand policy: attack earthpower) - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x4
+  move|p1a: Toedscruel|Leaf Storm|p2a: Rotom
+  -damage|p2a: Rotom|12/100
+  -unboost|p1a: Toedscruel|spa|2
+  move|p2a: Rotom|Blizzard|p1a: Toedscruel
+  -supereffective|p1a: Toedscruel
+  -damage|p1a: Toedscruel|0 fnt
+  faint|p1a: Toedscruel
+  deinit

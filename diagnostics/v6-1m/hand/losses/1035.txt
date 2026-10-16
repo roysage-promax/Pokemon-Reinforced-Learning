@@ -1,0 +1,301 @@
+battle 1035 (battle-gen9randombattle-1016050): lost in 33 turns, 2 of theirs left; we are p1
+
+ours:
+  umbreon (fainted; item leftovers, ability synchronize; moves toxic/foulplay/protect/wish)
+  jumpluff (fainted; item ?, ability infiltrator; moves leechseed/substitute/acrobatics/strengthsap)
+  phione (fainted; item leftovers, ability hydration, tera steel; moves takeheart/icebeam/grassknot/scald)
+  sableye (fainted; item leftovers, ability prankster; moves knockoff/willowisp/recover/encore)
+  slitherwing (fainted; item ?, ability protosynthesis; moves closecombat/wildcharge/bulkup/acrobatics)
+  terapagosterastal (fainted; item heavydutyboots, ability terashell; moves terastarstorm/earthpower/calmmind/rapidspin)
+theirs (as seen):
+  sylveon (fainted; item leftovers, ability ?; moves hypervoice)
+  azelf (fainted; item unknown_item, ability levitate; moves fireblast)
+  volcanion (fainted; item unknown_item, ability waterabsorb; moves steameruption)
+  hypno (fainted; item leftovers, ability ?; moves psychicnoise)
+  rotomwash (100%; item leftovers, ability levitate; moves hydropump/thunderbolt)
+
+-- turn 0
+  switch|p1a: Umbreon|Umbreon, L84, M|297/297
+  switch|p2a: Sylveon|Sylveon, L85, M|100/100
+-- turn 1
+  WE CHOSE: switch to sableye - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to terapagos - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Sableye|Sableye, L88, M|231/231
+  move|p2a: Sylveon|Hyper Voice|p1a: Sableye
+  -supereffective|p1a: Sableye
+  -damage|p1a: Sableye|0 fnt
+  faint|p1a: Sableye
+  switch|p1a: Terapagos|Terapagos, L77, M|265/265
+  -activate|p1a: Terapagos|ability: Tera Shift
+  detailschange|p1a: Terapagos|Terapagos-Terastal, L77, M
+  -heal|p1a: Terapagos|273/273|[silent]
+-- turn 2
+  WE CHOSE: attack terastarstorm - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Terapagos|Tera Starstorm|p2a: Sylveon
+  -damage|p2a: Sylveon|73/100
+  move|p2a: Sylveon|Hyper Voice|p1a: Terapagos
+  -activate|p1a: Terapagos|ability: Tera Shell
+  -resisted|p1a: Terapagos
+  -damage|p1a: Terapagos|213/273
+  -heal|p2a: Sylveon|79/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack terastarstorm - our hp 0.78, theirs 0.79, predicted move (revealed) hits us x1
+  move|p1a: Terapagos|Tera Starstorm|p2a: Sylveon
+  -damage|p2a: Sylveon|53/100
+  move|p2a: Sylveon|Hyper Voice|p1a: Terapagos
+  -damage|p1a: Terapagos|84/273
+  -heal|p2a: Sylveon|59/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack terastarstorm - our hp 0.31, theirs 0.59, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to phione - our hp 0.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p1a: Terapagos|Tera Starstorm|p2a: Sylveon
+  -crit|p2a: Sylveon
+  -damage|p2a: Sylveon|15/100
+  move|p2a: Sylveon|Hyper Voice|p1a: Terapagos
+  -damage|p1a: Terapagos|0 fnt
+  faint|p1a: Terapagos
+  -heal|p2a: Sylveon|21/100|[from] item: Leftovers
+  switch|p1a: Phione|Phione, L91|293/293
+-- turn 5
+  WE CHOSE: attack+tera scald - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x1
+  -terastallize|p1a: Phione|Steel
+  move|p1a: Phione|Scald|p2a: Sylveon
+  -damage|p2a: Sylveon|0 fnt
+  faint|p2a: Sylveon
+  switch|p2a: Azelf|Azelf, L82|100/100
+-- turn 6
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Azelf|Fire Blast|p1a: Phione
+  -supereffective|p1a: Phione
+  -damage|p1a: Phione|19/293
+  move|p1a: Phione|Scald|p2a: Azelf
+  -damage|p2a: Azelf|58/100
+  -status|p2a: Azelf|brn
+  -heal|p1a: Phione|37/293|[from] item: Leftovers
+  -damage|p2a: Azelf|52/100 brn|[from] brn
+-- turn 7
+  WE CHOSE: attack scald - our hp 0.13, theirs 0.52, predicted move (revealed) hits us x2
+  move|p2a: Azelf|Fire Blast|p1a: Phione|[miss]
+  -miss|p2a: Azelf|p1a: Phione
+  move|p1a: Phione|Scald|p2a: Azelf
+  -damage|p2a: Azelf|11/100 brn
+  -heal|p1a: Phione|55/293|[from] item: Leftovers
+  -damage|p2a: Azelf|5/100 brn|[from] brn
+-- turn 8
+  WE CHOSE: attack scald - our hp 0.19, theirs 0.05, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to umbreon - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x2
+  move|p2a: Azelf|Fire Blast|p1a: Phione
+  -supereffective|p1a: Phione
+  -damage|p1a: Phione|0 fnt
+  faint|p1a: Phione
+  -damage|p2a: Azelf|0 fnt|[from] brn
+  faint|p2a: Azelf
+  switch|p2a: Volcanion|Volcanion, L79|100/100
+  switch|p1a: Umbreon|Umbreon, L84, M|297/297
+-- turn 9
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Umbreon|Foul Play|p2a: Volcanion
+  -damage|p2a: Volcanion|72/100
+  move|p2a: Volcanion|Steam Eruption|p1a: Umbreon
+  -damage|p1a: Umbreon|149/297
+  -heal|p1a: Umbreon|167/297|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack foulplay - our hp 0.56, theirs 0.72, predicted move (revealed) hits us x1
+  move|p1a: Umbreon|Foul Play|p2a: Volcanion
+  -damage|p2a: Volcanion|44/100
+  move|p2a: Volcanion|Steam Eruption|p1a: Umbreon
+  -damage|p1a: Umbreon|20/297
+  -heal|p1a: Umbreon|38/297|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack foulplay - our hp 0.13, theirs 0.44, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to slitherwing - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p1a: Umbreon|Foul Play|p2a: Volcanion
+  -damage|p2a: Volcanion|17/100
+  move|p2a: Volcanion|Steam Eruption|p1a: Umbreon
+  -damage|p1a: Umbreon|0 fnt
+  faint|p1a: Umbreon
+  switch|p1a: Slither Wing|Slither Wing, L81|270/270
+  -enditem|p1a: Slither Wing|Booster Energy
+  -activate|p1a: Slither Wing|ability: Protosynthesis|[fromitem]
+  -start|p1a: Slither Wing|protosynthesisatk
+-- turn 12
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p1a: Slither Wing|Close Combat|p2a: Volcanion
+  -damage|p2a: Volcanion|0 fnt
+  -unboost|p1a: Slither Wing|def|1
+  -unboost|p1a: Slither Wing|spd|1
+  faint|p2a: Volcanion
+  switch|p2a: Hypno|Hypno, L95, M|100/100
+-- turn 13
+  WE CHOSE: setup bulkup - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Hypno|Psychic Noise|p1a: Slither Wing
+  -supereffective|p1a: Slither Wing
+  -damage|p1a: Slither Wing|34/270
+  -start|p1a: Slither Wing|move: Heal Block
+  move|p1a: Slither Wing|Bulk Up|p1a: Slither Wing
+  -boost|p1a: Slither Wing|atk|1
+  -boost|p1a: Slither Wing|def|1
+-- turn 14
+  WE CHOSE: attack closecombat - our hp 0.13, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to jumpluff - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Hypno|Psychic Noise|p1a: Slither Wing
+  -supereffective|p1a: Slither Wing
+  -damage|p1a: Slither Wing|0 fnt
+  faint|p1a: Slither Wing
+  -end|p1a: Slither Wing|Protosynthesis|[silent]
+  switch|p1a: Jumpluff|Jumpluff, L87, M|271/271
+-- turn 15
+  WE CHOSE: attack acrobatics - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Jumpluff|Acrobatics|p2a: Hypno
+  -damage|p2a: Hypno|74/100
+  move|p2a: Hypno|Psychic Noise|p1a: Jumpluff
+  -damage|p1a: Jumpluff|190/271
+  -start|p1a: Jumpluff|move: Heal Block
+  -heal|p2a: Hypno|80/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack acrobatics - our hp 0.70, theirs 0.80, predicted move (revealed) hits us x1
+  move|p1a: Jumpluff|Acrobatics|p2a: Hypno
+  -damage|p2a: Hypno|51/100
+  move|p2a: Hypno|Psychic Noise|p1a: Jumpluff
+  -damage|p1a: Jumpluff|118/271
+  -heal|p2a: Hypno|57/100|[from] item: Leftovers
+  -end|p1a: Jumpluff|move: Heal Block
+-- turn 17
+  WE CHOSE: heal strengthsap - our hp 0.44, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Jumpluff|Strength Sap|p2a: Hypno
+  -unboost|p2a: Hypno|atk|1
+  -heal|p1a: Jumpluff|271/271
+  move|p2a: Hypno|Psychic Noise|p1a: Jumpluff
+  -damage|p1a: Jumpluff|201/271
+  -start|p1a: Jumpluff|move: Heal Block
+  -heal|p2a: Hypno|63/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack acrobatics - our hp 0.74, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Jumpluff|Acrobatics|p2a: Hypno
+  -damage|p2a: Hypno|34/100
+  move|p2a: Hypno|Psychic Noise|p1a: Jumpluff
+  -damage|p1a: Jumpluff|132/271
+  -heal|p2a: Hypno|40/100|[from] item: Leftovers
+  -end|p1a: Jumpluff|move: Heal Block
+-- turn 19
+  WE CHOSE: heal strengthsap - our hp 0.49, theirs 0.40, predicted move (revealed) hits us x1
+  move|p1a: Jumpluff|Strength Sap|p2a: Hypno
+  -unboost|p2a: Hypno|atk|1
+  -heal|p1a: Jumpluff|260/271
+  move|p2a: Hypno|Psychic Noise|p1a: Jumpluff
+  -damage|p1a: Jumpluff|182/271
+  -start|p1a: Jumpluff|move: Heal Block
+  -heal|p2a: Hypno|46/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack acrobatics - our hp 0.67, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Jumpluff|Acrobatics|p2a: Hypno
+  -damage|p2a: Hypno|18/100
+  move|p2a: Hypno|Psychic Noise|p1a: Jumpluff
+  -damage|p1a: Jumpluff|103/271
+  -heal|p2a: Hypno|24/100|[from] item: Leftovers
+  -end|p1a: Jumpluff|move: Heal Block
+-- turn 21
+  WE CHOSE: heal strengthsap - our hp 0.38, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Jumpluff|Strength Sap|p2a: Hypno
+  -unboost|p2a: Hypno|atk|1
+  -heal|p1a: Jumpluff|199/271
+  move|p2a: Hypno|Psychic Noise|p1a: Jumpluff
+  -damage|p1a: Jumpluff|118/271
+  -start|p1a: Jumpluff|move: Heal Block
+  -heal|p2a: Hypno|30/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack acrobatics - our hp 0.44, theirs 0.30, predicted move (revealed) hits us x1
+  move|p1a: Jumpluff|Acrobatics|p2a: Hypno
+  -damage|p2a: Hypno|4/100
+  move|p2a: Hypno|Psychic Noise|p1a: Jumpluff
+  -damage|p1a: Jumpluff|40/271
+  -heal|p2a: Hypno|10/100|[from] item: Leftovers
+  -end|p1a: Jumpluff|move: Heal Block
+-- turn 23
+  WE CHOSE: heal strengthsap - our hp 0.15, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Jumpluff|Strength Sap|p2a: Hypno
+  -unboost|p2a: Hypno|atk|1
+  -heal|p1a: Jumpluff|117/271
+  move|p2a: Hypno|Psychic Noise|p1a: Jumpluff
+  -damage|p1a: Jumpluff|45/271
+  -start|p1a: Jumpluff|move: Heal Block
+  -heal|p2a: Hypno|16/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack acrobatics - our hp 0.17, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Jumpluff|Acrobatics|p2a: Hypno
+  -damage|p2a: Hypno|0 fnt
+  faint|p2a: Hypno
+  -end|p1a: Jumpluff|move: Heal Block
+  switch|p2a: Rotom|Rotom-Wash, L82|100/100
+-- turn 25
+  WE CHOSE: heal strengthsap - our hp 0.17, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Jumpluff|Strength Sap|p2a: Rotom
+  -unboost|p2a: Rotom|atk|1
+  -heal|p1a: Jumpluff|156/271
+  move|p2a: Rotom|Hydro Pump|p1a: Jumpluff|[miss]
+  -miss|p2a: Rotom|p1a: Jumpluff
+-- turn 26
+  WE CHOSE: attack acrobatics - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Jumpluff|Acrobatics|p2a: Rotom
+  -resisted|p2a: Rotom
+  -damage|p2a: Rotom|84/100
+  move|p2a: Rotom|Hydro Pump|p1a: Jumpluff
+  -resisted|p1a: Jumpluff
+  -damage|p1a: Jumpluff|103/271
+  -heal|p2a: Rotom|90/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: heal strengthsap - our hp 0.38, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p1a: Jumpluff|Strength Sap|p2a: Rotom
+  -unboost|p2a: Rotom|atk|1
+  -heal|p1a: Jumpluff|177/271
+  move|p2a: Rotom|Hydro Pump|p1a: Jumpluff
+  -resisted|p1a: Jumpluff
+  -damage|p1a: Jumpluff|127/271
+  -heal|p2a: Rotom|96/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: heal strengthsap - our hp 0.47, theirs 0.96, predicted move (revealed) hits us x0.5
+  move|p1a: Jumpluff|Strength Sap|p2a: Rotom
+  -unboost|p2a: Rotom|atk|1
+  -heal|p1a: Jumpluff|182/271
+  move|p2a: Rotom|Hydro Pump|p1a: Jumpluff
+  -resisted|p1a: Jumpluff
+  -damage|p1a: Jumpluff|131/271
+  -heal|p2a: Rotom|100/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: heal strengthsap - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Jumpluff|Strength Sap|p2a: Rotom
+  -unboost|p2a: Rotom|atk|1
+  -heal|p1a: Jumpluff|175/271
+  move|p2a: Rotom|Hydro Pump|p1a: Jumpluff
+  -resisted|p1a: Jumpluff
+  -damage|p1a: Jumpluff|117/271
+-- turn 30
+  WE CHOSE: heal strengthsap - our hp 0.43, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Jumpluff|Strength Sap|p2a: Rotom
+  -unboost|p2a: Rotom|atk|1
+  -heal|p1a: Jumpluff|154/271
+  move|p2a: Rotom|Hydro Pump|p1a: Jumpluff
+  -resisted|p1a: Jumpluff
+  -damage|p1a: Jumpluff|100/271
+-- turn 31
+  WE CHOSE: heal strengthsap - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Jumpluff|Strength Sap|p2a: Rotom
+  -unboost|p2a: Rotom|atk|1
+  -heal|p1a: Jumpluff|131/271
+  move|p2a: Rotom|Hydro Pump|p1a: Jumpluff
+  -resisted|p1a: Jumpluff
+  -damage|p1a: Jumpluff|75/271
+-- turn 32
+  WE CHOSE: heal strengthsap - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Jumpluff|Strength Sap||[still]
+  -fail|p1a: Jumpluff
+  move|p2a: Rotom|Hydro Pump|p1a: Jumpluff|[miss]
+  -miss|p2a: Rotom|p1a: Jumpluff
+-- turn 33
+  WE CHOSE: heal strengthsap - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Jumpluff|Strength Sap||[still]
+  -fail|p1a: Jumpluff
+  move|p2a: Rotom|Thunderbolt|p1a: Jumpluff
+  -crit|p1a: Jumpluff
+  -damage|p1a: Jumpluff|0 fnt
+  faint|p1a: Jumpluff

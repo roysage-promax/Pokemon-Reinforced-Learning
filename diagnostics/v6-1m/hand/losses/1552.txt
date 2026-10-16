@@ -1,0 +1,354 @@
+battle 1552 (battle-gen9randombattle-1020971): lost in 37 turns, 1 of theirs left; we are p1
+
+ours:
+  slitherwing (fainted; item lifeorb, ability protosynthesis; moves earthquake/firstimpression/flareblitz/closecombat)
+  ogerponwellspring (fainted; item wellspringmask, ability waterabsorb; moves knockoff/swordsdance/hornleech/ivycudgel)
+  pyroar (fainted; item heavydutyboots, ability unnerve, tera fire; moves darkpulse/fireblast/hypervoice/workup)
+  skarmory (fainted; item rockyhelmet, ability sturdy; moves stealthrock/roost/spikes/bravebird)
+  staraptor (fainted; item choiceband, ability reckless; moves quickattack/uturn/bravebird/closecombat)
+  entei (fainted; item choiceband, ability innerfocus; moves stompingtantrum/sacredfire/flareblitz/extremespeed)
+theirs (as seen):
+  palossand (fainted; item leftovers, ability ?; moves earthpower)
+  umbreon (fainted; item leftovers, ability ?; moves foulplay)
+  chesnaught (fainted; item leftovers, ability ?; moves bodypress)
+  diancie (fainted; item unknown_item, ability clearbody; moves diamondstorm/moonblast)
+  snorlax (fainted; item leftovers, ability ?; moves bodyslam)
+  wyrdeer (39%; item leftovers, ability intimidate; moves megahorn)
+
+-- turn 0
+  switch|p1a: Slither Wing|Slither Wing, L81|270/270
+  switch|p2a: Palossand|Palossand, L89, F|100/100
+-- turn 1
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Slither Wing|Flare Blitz|p2a: Palossand
+  -damage|p2a: Palossand|64/100
+  -damage|p1a: Slither Wing|234/270|[from] Recoil
+  -damage|p1a: Slither Wing|207/270|[from] item: Life Orb
+  move|p2a: Palossand|Earth Power|p1a: Slither Wing
+  -resisted|p1a: Slither Wing
+  -crit|p1a: Slither Wing
+  -damage|p1a: Slither Wing|136/270
+  -heal|p2a: Palossand|70/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack flareblitz - our hp 0.50, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p1a: Slither Wing|Flare Blitz|p2a: Palossand
+  -damage|p2a: Palossand|36/100
+  -damage|p1a: Slither Wing|103/270|[from] Recoil
+  -damage|p1a: Slither Wing|76/270|[from] item: Life Orb
+  move|p2a: Palossand|Earth Power|p1a: Slither Wing
+  -resisted|p1a: Slither Wing
+  -damage|p1a: Slither Wing|26/270
+  -heal|p2a: Palossand|42/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack flareblitz - our hp 0.10, theirs 0.42, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ogerponwellspring - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p1a: Slither Wing|Flare Blitz|p2a: Palossand
+  -damage|p2a: Palossand|4/100
+  -damage|p1a: Slither Wing|0 fnt|[from] Recoil
+  faint|p1a: Slither Wing
+  -end|p1a: Slither Wing|Protosynthesis|[silent]
+  move|p2a: Palossand|Earth Power|p1: Slither Wing|[notarget]
+  -fail|p2a: Palossand
+  -heal|p2a: Palossand|10/100|[from] item: Leftovers
+  switch|p1a: Ogerpon|Ogerpon-Wellspring, L76, F|247/247
+-- turn 4
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+  -boost|p1a: Ogerpon|atk|2
+  move|p2a: Palossand|Earth Power|p1a: Ogerpon
+  -resisted|p1a: Ogerpon
+  -damage|p1a: Ogerpon|194/247
+  -heal|p2a: Palossand|16/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack ivycudgel - our hp 0.79, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p1a: Ogerpon|Ivy Cudgel|p2a: Palossand|[anim] Ivy Cudgel Water
+  -supereffective|p2a: Palossand
+  -crit|p2a: Palossand
+  -damage|p2a: Palossand|0 fnt
+  faint|p2a: Palossand
+  switch|p2a: Umbreon|Umbreon, L84, F|100/100
+-- turn 6
+  WE CHOSE: attack ivycudgel - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to staraptor - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Ivy Cudgel|p2a: Umbreon|[anim] Ivy Cudgel Water
+  -damage|p2a: Umbreon|29/100
+  move|p2a: Umbreon|Foul Play|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  -heal|p2a: Umbreon|35/100|[from] item: Leftovers
+  switch|p1a: Staraptor|Staraptor, L79, M|263/263
+-- turn 7
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p1a: Staraptor|Close Combat|p2a: Umbreon
+  -supereffective|p2a: Umbreon
+  -damage|p2a: Umbreon|0 fnt
+  -unboost|p1a: Staraptor|def|1
+  -unboost|p1a: Staraptor|spd|1
+  faint|p2a: Umbreon
+  switch|p2a: Chesnaught|Chesnaught, L84, F|100/100
+-- turn 8
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to skarmory - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Staraptor|Close Combat|p2a: Chesnaught
+  -crit|p2a: Chesnaught
+  -damage|p2a: Chesnaught|46/100
+  -unboost|p1a: Staraptor|def|1
+  -unboost|p1a: Staraptor|spd|1
+  move|p2a: Chesnaught|Body Press|p1a: Staraptor
+  -damage|p1a: Staraptor|0 fnt
+  faint|p1a: Staraptor
+  -heal|p2a: Chesnaught|52/100|[from] item: Leftovers
+  switch|p1a: Skarmory|Skarmory, L80, M|235/235
+-- turn 9
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Brave Bird|p2a: Chesnaught
+  -supereffective|p2a: Chesnaught
+  -damage|p2a: Chesnaught|0 fnt
+  faint|p2a: Chesnaught
+  -damage|p1a: Skarmory|186/235|[from] Recoil
+  switch|p2a: Diancie|Diancie, L82|100/100
+-- turn 10
+  WE CHOSE: attack bravebird - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Skarmory|Brave Bird|p2a: Diancie
+  -resisted|p2a: Diancie
+  -crit|p2a: Diancie
+  -damage|p2a: Diancie|76/100
+  -damage|p1a: Skarmory|169/235|[from] Recoil
+  move|p2a: Diancie|Diamond Storm|p1a: Skarmory
+  -damage|p1a: Skarmory|97/235
+  -boost|p2a: Diancie|def|2
+-- turn 11
+  WE CHOSE: heal roost - our hp 0.41, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Roost|p1a: Skarmory
+  -heal|p1a: Skarmory|215/235
+  -singleturn|p1a: Skarmory|move: Roost
+  move|p2a: Diancie|Diamond Storm|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -crit|p1a: Skarmory
+  -damage|p1a: Skarmory|158/235
+-- turn 12
+  WE CHOSE: attack bravebird - our hp 0.67, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Brave Bird|p2a: Diancie
+  -resisted|p2a: Diancie
+  -damage|p2a: Diancie|68/100
+  -damage|p1a: Skarmory|152/235|[from] Recoil
+  move|p2a: Diancie|Diamond Storm|p1a: Skarmory
+  -damage|p1a: Skarmory|76/235
+  -boost|p2a: Diancie|def|2
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.32, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Roost|p1a: Skarmory
+  -heal|p1a: Skarmory|194/235
+  -singleturn|p1a: Skarmory|move: Roost
+  move|p2a: Diancie|Diamond Storm|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|156/235
+-- turn 14
+  WE CHOSE: attack bravebird - our hp 0.66, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Brave Bird|p2a: Diancie
+  -resisted|p2a: Diancie
+  -damage|p2a: Diancie|63/100
+  -damage|p1a: Skarmory|152/235|[from] Recoil
+  move|p2a: Diancie|Diamond Storm|p1a: Skarmory
+  -damage|p1a: Skarmory|76/235
+  -boost|p2a: Diancie|def|2
+-- turn 15
+  WE CHOSE: heal roost - our hp 0.32, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Roost|p1a: Skarmory
+  -heal|p1a: Skarmory|194/235
+  -singleturn|p1a: Skarmory|move: Roost
+  move|p2a: Diancie|Diamond Storm|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|156/235
+-- turn 16
+  WE CHOSE: attack bravebird - our hp 0.66, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Brave Bird|p2a: Diancie
+  -resisted|p2a: Diancie
+  -damage|p2a: Diancie|58/100
+  -damage|p1a: Skarmory|153/235|[from] Recoil
+  move|p2a: Diancie|Diamond Storm|p1a: Skarmory
+  -crit|p1a: Skarmory
+  -damage|p1a: Skarmory|50/235
+-- turn 17
+  WE CHOSE: heal roost - our hp 0.21, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Roost|p1a: Skarmory
+  -heal|p1a: Skarmory|168/235
+  -singleturn|p1a: Skarmory|move: Roost
+  move|p2a: Diancie|Diamond Storm|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|132/235
+-- turn 18
+  WE CHOSE: attack bravebird - our hp 0.56, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Brave Bird|p2a: Diancie
+  -resisted|p2a: Diancie
+  -damage|p2a: Diancie|54/100
+  -damage|p1a: Skarmory|129/235|[from] Recoil
+  move|p2a: Diancie|Moonblast|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|69/235
+-- turn 19
+  WE CHOSE: heal roost - our hp 0.29, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Roost|p1a: Skarmory
+  -heal|p1a: Skarmory|187/235
+  -singleturn|p1a: Skarmory|move: Roost
+  move|p2a: Diancie|Moonblast|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|124/235
+  -unboost|p1a: Skarmory|spa|1
+-- turn 20
+  WE CHOSE: attack bravebird - our hp 0.53, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Brave Bird|p2a: Diancie
+  -resisted|p2a: Diancie
+  -damage|p2a: Diancie|50/100
+  -damage|p1a: Skarmory|121/235|[from] Recoil
+  move|p2a: Diancie|Moonblast|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|62/235
+  -unboost|p1a: Skarmory|spa|1
+-- turn 21
+  WE CHOSE: heal roost - our hp 0.26, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Roost|p1a: Skarmory
+  -heal|p1a: Skarmory|180/235
+  -singleturn|p1a: Skarmory|move: Roost
+  move|p2a: Diancie|Moonblast|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -crit|p1a: Skarmory
+  -damage|p1a: Skarmory|86/235
+-- turn 22
+  WE CHOSE: heal roost - our hp 0.37, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Roost|p1a: Skarmory
+  -heal|p1a: Skarmory|204/235
+  -singleturn|p1a: Skarmory|move: Roost
+  move|p2a: Diancie|Moonblast|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|139/235
+-- turn 23
+  WE CHOSE: attack bravebird - our hp 0.59, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Brave Bird|p2a: Diancie
+  -resisted|p2a: Diancie
+  -damage|p2a: Diancie|46/100
+  -damage|p1a: Skarmory|136/235|[from] Recoil
+  move|p2a: Diancie|Moonblast|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|78/235
+-- turn 24
+  WE CHOSE: heal roost - our hp 0.33, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Roost|p1a: Skarmory
+  -heal|p1a: Skarmory|196/235
+  -singleturn|p1a: Skarmory|move: Roost
+  move|p2a: Diancie|Moonblast|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|134/235
+-- turn 25
+  WE CHOSE: attack bravebird - our hp 0.57, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Brave Bird|p2a: Diancie
+  -resisted|p2a: Diancie
+  -damage|p2a: Diancie|42/100
+  -damage|p1a: Skarmory|131/235|[from] Recoil
+  move|p2a: Diancie|Moonblast|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|68/235
+  -unboost|p1a: Skarmory|spa|1
+-- turn 26
+  WE CHOSE: attack bravebird - our hp 0.29, theirs 0.42, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to entei - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Brave Bird|p2a: Diancie
+  -resisted|p2a: Diancie
+  -damage|p2a: Diancie|38/100
+  -damage|p1a: Skarmory|65/235|[from] Recoil
+  move|p2a: Diancie|Moonblast|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|0 fnt
+  faint|p1a: Skarmory
+  switch|p1a: Entei|Entei, L78|307/307
+-- turn 27
+  WE CHOSE: attack stompingtantrum - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x2
+  move|p1a: Entei|Stomping Tantrum|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|25/100
+  move|p2a: Diancie|Moonblast|p1a: Entei
+  -resisted|p1a: Entei
+  -damage|p1a: Entei|244/307
+-- turn 28
+  WE CHOSE: attack stompingtantrum - our hp 0.79, theirs 0.25, predicted move (revealed) hits us x2
+  move|p1a: Entei|Stomping Tantrum|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|11/100
+  move|p2a: Diancie|Moonblast|p1a: Entei
+  -resisted|p1a: Entei
+  -damage|p1a: Entei|181/307
+  -unboost|p1a: Entei|spa|1
+-- turn 29
+  WE CHOSE: attack stompingtantrum - our hp 0.59, theirs 0.11, predicted move (revealed) hits us x2
+  move|p1a: Entei|Stomping Tantrum|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|0 fnt
+  faint|p2a: Diancie
+  switch|p2a: Snorlax|Snorlax, L82, M|100/100
+-- turn 30
+  WE CHOSE: attack stompingtantrum - our hp 0.59, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Entei|Stomping Tantrum|p2a: Snorlax
+  -damage|p2a: Snorlax|75/100
+  move|p2a: Snorlax|Body Slam|p1a: Entei
+  -damage|p1a: Entei|76/307
+  -status|p1a: Entei|par
+  -heal|p2a: Snorlax|81/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack stompingtantrum - our hp 0.25, theirs 0.81, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pyroar - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Entei|Stomping Tantrum|p2a: Snorlax
+  -damage|p2a: Snorlax|55/100
+  move|p2a: Snorlax|Body Slam|p1a: Entei
+  -damage|p1a: Entei|0 fnt
+  faint|p1a: Entei
+  -heal|p2a: Snorlax|61/100|[from] item: Leftovers
+  switch|p1a: Pyroar|Pyroar, L88, F|295/295
+  -ability|p1a: Pyroar|Unnerve
+-- turn 32
+  WE CHOSE: attack+tera fireblast - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x1
+  -terastallize|p1a: Pyroar|Fire
+  move|p1a: Pyroar|Fire Blast|p2a: Snorlax
+  -damage|p2a: Snorlax|41/100
+  move|p2a: Snorlax|Body Slam|p1a: Pyroar
+  -damage|p1a: Pyroar|198/295
+  -heal|p2a: Snorlax|47/100|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack fireblast - our hp 0.67, theirs 0.47, predicted move (revealed) hits us x1
+  move|p1a: Pyroar|Fire Blast|p2a: Snorlax
+  -damage|p2a: Snorlax|25/100
+  -status|p2a: Snorlax|brn
+  move|p2a: Snorlax|Body Slam|p1a: Pyroar
+  -damage|p1a: Pyroar|141/295
+  -status|p1a: Pyroar|par
+  -heal|p2a: Snorlax|31/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|25/100 brn|[from] brn
+-- turn 34
+  WE CHOSE: attack fireblast - our hp 0.48, theirs 0.25, predicted move (revealed) hits us x1
+  move|p1a: Pyroar|Fire Blast|p2a: Snorlax
+  -damage|p2a: Snorlax|6/100 brn
+  move|p2a: Snorlax|Body Slam|p1a: Pyroar
+  -damage|p1a: Pyroar|87/295 par
+  -heal|p2a: Snorlax|12/100 brn|[from] item: Leftovers
+  -damage|p2a: Snorlax|6/100 brn|[from] brn
+-- turn 35
+  WE CHOSE: attack fireblast - our hp 0.29, theirs 0.06, predicted move (revealed) hits us x1
+  move|p1a: Pyroar|Fire Blast|p2a: Snorlax
+  -damage|p2a: Snorlax|0 fnt
+  faint|p2a: Snorlax
+  switch|p2a: Wyrdeer|Wyrdeer, L87, M|100/100
+  -ability|p2a: Wyrdeer|Intimidate|boost
+  -unboost|p1a: Pyroar|atk|1
+-- turn 36
+  WE CHOSE: attack fireblast - our hp 0.29, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Wyrdeer|Megahorn|p1a: Pyroar
+  -resisted|p1a: Pyroar
+  -damage|p1a: Pyroar|32/295 par
+  move|p1a: Pyroar|Fire Blast|p2a: Wyrdeer
+  -damage|p2a: Wyrdeer|33/100
+  -heal|p2a: Wyrdeer|39/100|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: attack fireblast - our hp 0.11, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p2a: Wyrdeer|Megahorn|p1a: Pyroar
+  -resisted|p1a: Pyroar
+  -damage|p1a: Pyroar|0 fnt
+  faint|p1a: Pyroar

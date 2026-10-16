@@ -1,0 +1,249 @@
+battle 981 (battle-gen9randombattle-1015534): lost in 29 turns, 1 of theirs left; we are p1
+
+ours:
+  vivillonpolar (fainted; item heavydutyboots, ability compoundeyes; moves terablast/sleeppowder/hurricane/quiverdance)
+  dipplin (fainted; item eviolite, ability stickyhold; moves gigadrain/dragontail/recover/dragonpulse)
+  volcanion (fainted; item heavydutyboots, ability waterabsorb, tera ground; moves earthpower/flamethrower/steameruption/haze)
+  phione (fainted; item leftovers, ability hydration; moves scald/takeheart/rest/sleeptalk)
+  beartic (fainted; item choiceband, ability swiftswim; moves earthquake/closecombat/iciclecrash/aquajet)
+  muk (fainted; item assaultvest, ability poisontouch; moves knockoff/shadowsneak/drainpunch/gunkshot)
+theirs (as seen):
+  basculegion (fainted; item unknown_item, ability ?; moves wavecrash)
+  misdreavus (fainted; item ?, ability levitate; moves shadowball)
+  mandibuzz (fainted; item unknown_item, ability ?; moves bravebird)
+  delphox (fainted; item unknown_item, ability ?; moves focusblast)
+  tentacruel (fainted; item leftovers, ability ?; moves sludgebomb)
+  florgesblue (12%; item leftovers, ability ?; moves moonblast)
+
+-- turn 0
+  switch|p1a: Vivillon|Vivillon-Polar, L83, M|268/268
+  switch|p2a: Basculegion|Basculegion, L80, M|100/100
+-- turn 1
+  WE CHOSE: switch to volcanion - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Volcanion|Volcanion, L79|256/256
+  move|p2a: Basculegion|Wave Crash|p1a: Volcanion
+  -immune|p1a: Volcanion|[from] ability: Water Absorb
+-- turn 2
+  WE CHOSE: attack+tera earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  -terastallize|p1a: Volcanion|Ground
+  move|p2a: Basculegion|Wave Crash|p1a: Volcanion
+  -immune|p1a: Volcanion|[from] ability: Water Absorb
+  move|p1a: Volcanion|Earth Power|p2a: Basculegion
+  -damage|p2a: Basculegion|75/100
+-- turn 3
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x0
+  move|p2a: Basculegion|Wave Crash|p1a: Volcanion
+  -immune|p1a: Volcanion|[from] ability: Water Absorb
+  move|p1a: Volcanion|Earth Power|p2a: Basculegion
+  -damage|p2a: Basculegion|50/100
+  -unboost|p2a: Basculegion|spd|1
+-- turn 4
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x0
+  move|p2a: Basculegion|Wave Crash|p1a: Volcanion
+  -immune|p1a: Volcanion|[from] ability: Water Absorb
+  move|p1a: Volcanion|Earth Power|p2a: Basculegion
+  -damage|p2a: Basculegion|14/100
+-- turn 5
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.14, predicted move (revealed) hits us x0
+  move|p2a: Basculegion|Wave Crash|p1a: Volcanion
+  -immune|p1a: Volcanion|[from] ability: Water Absorb
+  move|p1a: Volcanion|Earth Power|p2a: Basculegion
+  -damage|p2a: Basculegion|0 fnt
+  faint|p2a: Basculegion
+  switch|p2a: Misdreavus|Misdreavus, L90, F|100/100
+-- turn 6
+  WE CHOSE: attack steameruption - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Misdreavus|Shadow Ball|p1a: Volcanion
+  -damage|p1a: Volcanion|156/256
+  -unboost|p1a: Volcanion|spd|1
+  move|p1a: Volcanion|Steam Eruption|p2a: Misdreavus
+  -damage|p2a: Misdreavus|70/100
+-- turn 7
+  WE CHOSE: attack steameruption - our hp 0.61, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Misdreavus|Shadow Ball|p1a: Volcanion
+  -damage|p1a: Volcanion|27/256
+  move|p1a: Volcanion|Steam Eruption|p2a: Misdreavus
+  -crit|p2a: Misdreavus
+  -damage|p2a: Misdreavus|21/100
+-- turn 8
+  WE CHOSE: attack steameruption - our hp 0.11, theirs 0.21, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to muk - our hp 0.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Misdreavus|Shadow Ball|p1a: Volcanion
+  -crit|p1a: Volcanion
+  -damage|p1a: Volcanion|0 fnt
+  faint|p1a: Volcanion
+  switch|p1a: Muk|Muk, L86, F|321/321
+-- turn 9
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Misdreavus|Shadow Ball|p1a: Muk
+  -damage|p1a: Muk|272/321
+  move|p1a: Muk|Knock Off|p2a: Misdreavus
+  -supereffective|p2a: Misdreavus
+  -damage|p2a: Misdreavus|0 fnt
+  -enditem|p2a: Misdreavus|Eviolite|[from] move: Knock Off|[of] p1a: Muk
+  faint|p2a: Misdreavus
+  switch|p2a: Mandibuzz|Mandibuzz, L85, F|100/100
+-- turn 10
+  WE CHOSE: attack gunkshot - our hp 0.85, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Mandibuzz|Brave Bird|p1a: Muk
+  -damage|p1a: Muk|163/321
+  -damage|p2a: Mandibuzz|89/100|[from] Recoil
+  move|p1a: Muk|Gunk Shot|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|53/100
+-- turn 11
+  WE CHOSE: attack gunkshot - our hp 0.51, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Mandibuzz|Brave Bird|p1a: Muk
+  -damage|p1a: Muk|45/321
+  -damage|p2a: Mandibuzz|41/100|[from] Recoil
+  move|p1a: Muk|Gunk Shot|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|4/100
+-- turn 12
+  WE CHOSE: attack gunkshot - our hp 0.14, theirs 0.04, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to beartic - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Mandibuzz|Brave Bird|p1a: Muk
+  -damage|p1a: Muk|0 fnt
+  faint|p1a: Muk
+  -damage|p2a: Mandibuzz|0 fnt|[from] Recoil
+  faint|p2a: Mandibuzz
+  switch|p2a: Delphox|Delphox, L84, M|100/100
+  switch|p1a: Beartic|Beartic, L91, M|321/321
+-- turn 13
+  WE CHOSE: switch to vivillonpolar - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Vivillon|Vivillon-Polar, L83, M|268/268
+  move|p2a: Delphox|Focus Blast|p1a: Vivillon
+  -resisted|p1a: Vivillon
+  -damage|p1a: Vivillon|231/268
+-- turn 14
+  WE CHOSE: setup quiverdance - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Delphox|Focus Blast|p1a: Vivillon
+  -resisted|p1a: Vivillon
+  -damage|p1a: Vivillon|196/268
+  move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+  -boost|p1a: Vivillon|spa|1
+  -boost|p1a: Vivillon|spd|1
+  -boost|p1a: Vivillon|spe|1
+-- turn 15
+  WE CHOSE: setup quiverdance - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Delphox|Focus Blast|p1a: Vivillon|[miss]
+  -miss|p2a: Delphox|p1a: Vivillon
+  move|p1a: Vivillon|Quiver Dance|p1a: Vivillon
+  -boost|p1a: Vivillon|spa|1
+  -boost|p1a: Vivillon|spd|1
+  -boost|p1a: Vivillon|spe|1
+-- turn 16
+  WE CHOSE: attack hurricane - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Vivillon|Hurricane|p2a: Delphox
+  -damage|p2a: Delphox|25/100
+  -start|p2a: Delphox|confusion
+  -activate|p2a: Delphox|confusion
+  -damage|p2a: Delphox|18/100|[from] confusion
+-- turn 17
+  WE CHOSE: attack hurricane - our hp 0.73, theirs 0.18, predicted move (revealed) hits us x0.25
+  move|p1a: Vivillon|Hurricane|p2a: Delphox|[miss]
+  -miss|p1a: Vivillon|p2a: Delphox
+  -activate|p2a: Delphox|confusion
+  -damage|p2a: Delphox|11/100|[from] confusion
+-- turn 18
+  WE CHOSE: attack hurricane - our hp 0.73, theirs 0.11, predicted move (revealed) hits us x0.25
+  move|p1a: Vivillon|Hurricane|p2a: Delphox
+  -damage|p2a: Delphox|0 fnt
+  faint|p2a: Delphox
+  switch|p2a: Tentacruel|Tentacruel, L84, M|100/100
+-- turn 19
+  WE CHOSE: attack hurricane - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to beartic - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Vivillon|Hurricane|p2a: Tentacruel
+  -damage|p2a: Tentacruel|39/100
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Vivillon
+  -crit|p1a: Vivillon
+  -damage|p1a: Vivillon|16/268
+  -status|p1a: Vivillon|psn
+  -heal|p2a: Tentacruel|46/100|[from] item: Leftovers
+  -damage|p1a: Vivillon|0 fnt|[from] psn
+  faint|p1a: Vivillon
+  switch|p1a: Beartic|Beartic, L91, M|321/321
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Beartic
+  -damage|p1a: Beartic|243/321
+  -status|p1a: Beartic|psn
+  move|p1a: Beartic|Earthquake|p2a: Tentacruel
+  -supereffective|p2a: Tentacruel
+  -damage|p2a: Tentacruel|0 fnt
+  faint|p2a: Tentacruel
+  -damage|p1a: Beartic|203/321 psn|[from] psn
+  switch|p2a: Florges|Florges-Blue, L85, F|100/100
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 0.63, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Florges|Moonblast|p1a: Beartic
+  -damage|p1a: Beartic|94/321 psn
+  move|p1a: Beartic|Earthquake|p2a: Florges
+  -damage|p2a: Florges|26/100
+  -heal|p2a: Florges|32/100|[from] item: Leftovers
+  -damage|p1a: Beartic|54/321 psn|[from] psn
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 0.17, theirs 0.32, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to phione - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Beartic
+  -damage|p1a: Beartic|0 fnt
+  faint|p1a: Beartic
+  -heal|p2a: Florges|38/100|[from] item: Leftovers
+  switch|p1a: Phione|Phione, L91|293/293
+-- turn 23
+  WE CHOSE: attack scald - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Phione|Scald|p2a: Florges
+  -damage|p2a: Florges|18/100
+  move|p2a: Florges|Moonblast|p1a: Phione
+  -damage|p1a: Phione|170/293
+  -heal|p1a: Phione|188/293|[from] item: Leftovers
+  -heal|p2a: Florges|24/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack scald - our hp 0.64, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Phione|Scald|p2a: Florges
+  -damage|p2a: Florges|2/100
+  move|p2a: Florges|Moonblast|p1a: Phione
+  -damage|p1a: Phione|82/293
+  -heal|p1a: Phione|100/293|[from] item: Leftovers
+  -heal|p2a: Florges|8/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: heal rest - our hp 0.34, theirs 0.08, predicted move (revealed) hits us x1
+  move|p1a: Phione|Rest|p1a: Phione
+  -status|p1a: Phione|slp|[from] move: Rest
+  -heal|p1a: Phione|293/293 slp|[silent]
+  move|p2a: Florges|Moonblast|p1a: Phione
+  -damage|p1a: Phione|181/293 slp
+  -unboost|p1a: Phione|spa|1
+  -heal|p1a: Phione|199/293 slp|[from] item: Leftovers
+  -heal|p2a: Florges|14/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack scald - our hp 0.68, theirs 0.14, predicted move (revealed) hits us x1
+  cant|p1a: Phione|slp
+  move|p2a: Florges|Moonblast|p1a: Phione
+  -damage|p1a: Phione|79/293 slp
+  -heal|p1a: Phione|97/293 slp|[from] item: Leftovers
+  -heal|p2a: Florges|20/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: heal rest - our hp 0.33, theirs 0.20, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dipplin - our hp 0.00, theirs 0.26, predicted move (revealed) hits us x1
+  cant|p1a: Phione|slp
+  move|p2a: Florges|Moonblast|p1a: Phione
+  -damage|p1a: Phione|0 fnt
+  faint|p1a: Phione
+  -heal|p2a: Florges|26/100|[from] item: Leftovers
+  switch|p1a: Dipplin|Dipplin, L88, F|284/284
+-- turn 28
+  WE CHOSE: attack gigadrain - our hp 1.00, theirs 0.26, predicted move (revealed) hits us x2
+  move|p2a: Florges|Moonblast|p1a: Dipplin
+  -supereffective|p1a: Dipplin
+  -damage|p1a: Dipplin|128/284
+  move|p1a: Dipplin|Giga Drain|p2a: Florges
+  -damage|p2a: Florges|6/100
+  -heal|p1a: Dipplin|155/284|[from] drain|[of] p2a: Florges
+  -heal|p2a: Florges|12/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack gigadrain - our hp 0.55, theirs 0.12, predicted move (revealed) hits us x2
+  move|p2a: Florges|Moonblast|p1a: Dipplin
+  -supereffective|p1a: Dipplin
+  -damage|p1a: Dipplin|0 fnt
+  faint|p1a: Dipplin
+  deinit

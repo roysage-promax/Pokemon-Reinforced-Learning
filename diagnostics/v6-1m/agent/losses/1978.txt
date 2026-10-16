@@ -1,0 +1,203 @@
+battle 1978 (battle-gen9randombattle-1026407): lost in 20 turns, 3 of theirs left; we are p1
+
+ours:
+  ariados (fainted; item focussash, ability insomnia; moves megahorn/knockoff/poisonjab/stickyweb)
+  taurospaldeacombat (fainted; item lifeorb, ability intimidate; moves bulkup/throatchop/stoneedge/closecombat)
+  tinkaton (fainted; item leftovers, ability moldbreaker; moves knockoff/playrough/stealthrock/gigatonhammer)
+  latios (fainted; item choicespecs, ability levitate; moves dracometeor/lusterpurge/flipturn/aurasphere)
+  kilowattrel (fainted; item heavydutyboots, ability voltabsorb; moves roost/hurricane/thunderbolt/uturn)
+  wyrdeer (fainted; item leftovers, ability intimidate, tera ground; moves megahorn/psychicnoise/thunderwave/earthquake)
+theirs (as seen):
+  sandyshocks (fainted; item unknown_item, ability protosynthesis; moves thunderbolt)
+  basculinbluestriped (fainted; item unknown_item, ability ?; moves wavecrash)
+  incineroar (fainted; item unknown_item, ability intimidate; moves overheat)
+  camerupt (75%; item unknown_item, ability ?; moves overheat)
+
+-- turn 0
+  switch|p1a: Ariados|Ariados, L95, M|287/287
+  switch|p2a: Sandy Shocks|Sandy Shocks, L80|100/100
+-- turn 1
+  WE CHOSE: switch to latios - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Latios|Latios, L78, M|253/253
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|206/253
+-- turn 2
+  WE CHOSE: switch to kilowattrel (hand policy: attack dracometeor) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Kilowattrel|Kilowattrel, L83, F|252/252
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 3
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to latios - our hp 1.00, theirs 0.86, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|86/100
+  switch|p1a: Latios|Latios, L78, M|206/253|[from] U-turn
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|160/253
+-- turn 4
+  WE CHOSE: switch to kilowattrel (hand policy: attack dracometeor) - our hp 0.63, theirs 0.86, predicted move (revealed) hits us x0.5
+  switch|p1a: Kilowattrel|Kilowattrel, L83, F|252/252
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 5
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.86, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to latios - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|71/100
+  switch|p1a: Latios|Latios, L78, M|160/253|[from] U-turn
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|116/253
+-- turn 6
+  WE CHOSE: switch to kilowattrel (hand policy: attack dracometeor) - our hp 0.46, theirs 0.71, predicted move (revealed) hits us x0.5
+  switch|p1a: Kilowattrel|Kilowattrel, L83, F|252/252
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 7
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to latios - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|56/100
+  switch|p1a: Latios|Latios, L78, M|116/253|[from] U-turn
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|71/253
+-- turn 8
+  WE CHOSE: switch to kilowattrel (hand policy: attack dracometeor) - our hp 0.28, theirs 0.56, predicted move (revealed) hits us x0.5
+  switch|p1a: Kilowattrel|Kilowattrel, L83, F|252/252
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 9
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to latios - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|43/100
+  switch|p1a: Latios|Latios, L78, M|71/253|[from] U-turn
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|26/253
+-- turn 10
+  WE CHOSE: switch to kilowattrel (hand policy: attack dracometeor) - our hp 0.10, theirs 0.43, predicted move (revealed) hits us x0.5
+  switch|p1a: Kilowattrel|Kilowattrel, L83, F|252/252
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 11
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to latios - our hp 1.00, theirs 0.30, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to kilowattrel - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x0.5
+  move|p1a: Kilowattrel|U-turn|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|30/100
+  switch|p1a: Latios|Latios, L78, M|26/253|[from] U-turn
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|0 fnt
+  faint|p1a: Latios
+  switch|p1a: Kilowattrel|Kilowattrel, L83, F|252/252
+-- turn 12
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.30, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wyrdeer - our hp 1.00, theirs 0.17, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|17/100
+  switch|p1a: Wyrdeer|Wyrdeer, L87, F|321/321|[from] U-turn
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Sandy Shocks|atk|1
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|200/321
+  -heal|p1a: Wyrdeer|220/321|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack+tera earthquake (hand policy: switch to kilowattrel) - our hp 0.69, theirs 0.17, predicted move (revealed) hits us x1
+  -terastallize|p1a: Wyrdeer|Ground
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Wyrdeer
+  -immune|p1a: Wyrdeer
+  move|p1a: Wyrdeer|Earthquake|p2a: Sandy Shocks
+  -supereffective|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|0 fnt
+  faint|p2a: Sandy Shocks
+  -end|p2a: Sandy Shocks|Protosynthesis|[silent]
+  -heal|p1a: Wyrdeer|240/321|[from] item: Leftovers
+  switch|p2a: Basculin|Basculin-Blue-Striped, L86, M|100/100
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 0.75, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to kilowattrel - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x2
+  move|p2a: Basculin|Wave Crash|p1a: Wyrdeer
+  -supereffective|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|0 fnt
+  faint|p1a: Wyrdeer
+  -damage|p2a: Basculin|70/100|[from] Recoil
+  switch|p1a: Kilowattrel|Kilowattrel, L83, F|252/252
+-- turn 15
+  WE CHOSE: heal roost (hand policy: attack thunderbolt) - our hp 1.00, theirs 0.70, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to taurospaldeacombat - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Kilowattrel|Roost||[still]
+  -fail|p1a: Kilowattrel|heal
+  move|p2a: Basculin|Wave Crash|p1a: Kilowattrel
+  -damage|p1a: Kilowattrel|0 fnt
+  faint|p1a: Kilowattrel
+  -damage|p2a: Basculin|38/100|[from] Recoil
+  switch|p1a: Tauros|Tauros-Paldea-Combat, L82, M|257/257
+  -ability|p1a: Tauros|Intimidate|boost
+  -unboost|p2a: Basculin|atk|1
+-- turn 16
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Basculin|Wave Crash|p1a: Tauros
+  -damage|p1a: Tauros|109/257
+  -damage|p2a: Basculin|20/100|[from] Recoil
+  move|p1a: Tauros|Close Combat|p2a: Basculin
+  -damage|p2a: Basculin|0 fnt
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  faint|p2a: Basculin
+  -damage|p1a: Tauros|84/257|[from] item: Life Orb
+  switch|p2a: Incineroar|Incineroar, L82, F|100/100
+  -ability|p2a: Incineroar|Intimidate|boost
+  -unboost|p1a: Tauros|atk|1
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ariados - our hp 0.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Tauros|Close Combat|p2a: Incineroar
+  -supereffective|p2a: Incineroar
+  -damage|p2a: Incineroar|22/100
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  -damage|p1a: Tauros|59/257|[from] item: Life Orb
+  move|p2a: Incineroar|Overheat|p1a: Tauros
+  -damage|p1a: Tauros|0 fnt
+  -unboost|p2a: Incineroar|spa|2
+  faint|p1a: Tauros
+  switch|p1a: Ariados|Ariados, L95, M|287/287
+-- turn 18
+  WE CHOSE: attack megahorn - our hp 1.00, theirs 0.22, predicted move (revealed) hits us x2
+  move|p2a: Incineroar|Overheat|p1a: Ariados
+  -supereffective|p1a: Ariados
+  -damage|p1a: Ariados|155/287
+  -unboost|p2a: Incineroar|spa|2
+  move|p1a: Ariados|Megahorn|p2a: Incineroar
+  -damage|p2a: Incineroar|0 fnt
+  faint|p2a: Incineroar
+  switch|p2a: Camerupt|Camerupt, L91, M|100/100
+-- turn 19
+  WE CHOSE: attack stickyweb (hand policy: attack megahorn) - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to tinkaton - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Ariados|Sticky Web|p2a: Camerupt
+  -sidestart|p2: e2_132141|move: Sticky Web
+  move|p2a: Camerupt|Overheat|p1a: Ariados
+  -supereffective|p1a: Ariados
+  -damage|p1a: Ariados|0 fnt
+  -unboost|p2a: Camerupt|spa|2
+  faint|p1a: Ariados
+  switch|p1a: Tinkaton|Tinkaton, L82, F|274/274
+  -ability|p1a: Tinkaton|Mold Breaker
+-- turn 20
+  WE CHOSE: attack gigatonhammer - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Tinkaton|Gigaton Hammer|p2a: Camerupt
+  -resisted|p2a: Camerupt
+  -damage|p2a: Camerupt|75/100
+  move|p2a: Camerupt|Overheat|p1a: Tinkaton
+  -supereffective|p1a: Tinkaton
+  -crit|p1a: Tinkaton
+  -damage|p1a: Tinkaton|0 fnt
+  -unboost|p2a: Camerupt|spa|2
+  faint|p1a: Tinkaton
+  deinit

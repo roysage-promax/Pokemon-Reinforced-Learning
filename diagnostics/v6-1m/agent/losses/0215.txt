@@ -1,0 +1,268 @@
+battle 215 (battle-gen9randombattle-1008475): lost in 28 turns, 1 of theirs left; we are p1
+
+ours:
+  mightyena (fainted; item choiceband, ability intimidate; moves poisonfang/suckerpunch/playrough/crunch)
+  feraligatr (fainted; item lifeorb, ability sheerforce; moves trailblaze/dragondance/liquidation/icepunch)
+  pecharunt (fainted; item rockyhelmet, ability poisonpuppeteer; moves partingshot/recover/shadowball/malignantchain)
+  oranguru (fainted; item leftovers, ability innerfocus, tera electric; moves psychic/nastyplot/focusblast/thunderbolt)
+  lumineon (fainted; item lifeorb, ability stormdrain; moves hydropump/icebeam/alluringvoice/encore)
+  trevenant (fainted; item choiceband, ability naturalcure; moves hornleech/woodhammer/poltergeist/drainpunch)
+theirs (as seen):
+  azelf (fainted; item unknown_item, ability levitate; moves fireblast)
+  magearna (fainted; item unknown_item, ability soulheart; moves fleurcannon)
+  rayquaza (fainted; item unknown_item, ability airlock; moves outrage)
+  quaquaval (fainted; item unknown_item, ability ?; moves closecombat)
+  tatsugiri (fainted; item unknown_item, ability ?; moves dracometeor)
+  florgeswhite (3%; item leftovers, ability ?; moves moonblast)
+
+-- turn 0
+  switch|p1a: Mightyena|Mightyena, L96, M|290/290
+  switch|p2a: Azelf|Azelf, L82|100/100
+  -ability|p1a: Mightyena|Intimidate|boost
+  -unboost|p2a: Azelf|atk|1
+-- turn 1
+  WE CHOSE: switch to trevenant - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Trevenant|Trevenant, L89, M|296/296
+  move|p2a: Azelf|Fire Blast|p1a: Trevenant
+  -supereffective|p1a: Trevenant
+  -damage|p1a: Trevenant|16/296
+-- turn 2
+  WE CHOSE: switch to lumineon - our hp 0.05, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Lumineon|Lumineon, L93, M|279/279
+  move|p2a: Azelf|Fire Blast|p1a: Lumineon
+  -resisted|p1a: Lumineon
+  -damage|p1a: Lumineon|219/279
+  -status|p1a: Lumineon|brn
+  -damage|p1a: Lumineon|202/279 brn|[from] brn
+-- turn 3
+  WE CHOSE: attack hydropump (hand policy: attack+tera hydropump) - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Azelf|Fire Blast|p1a: Lumineon
+  -resisted|p1a: Lumineon
+  -damage|p1a: Lumineon|138/279 brn
+  move|p1a: Lumineon|Hydro Pump|p2a: Azelf
+  -damage|p2a: Azelf|38/100
+  -damage|p1a: Lumineon|111/279 brn|[from] item: Life Orb
+  -damage|p1a: Lumineon|94/279 brn|[from] brn
+-- turn 4
+  WE CHOSE: attack hydropump (hand policy: attack+tera hydropump) - our hp 0.34, theirs 0.38, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to mightyena - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p2a: Azelf|Fire Blast|p1a: Lumineon
+  -resisted|p1a: Lumineon
+  -damage|p1a: Lumineon|34/279 brn
+  move|p1a: Lumineon|Hydro Pump|p2a: Azelf
+  -damage|p2a: Azelf|0 fnt
+  faint|p2a: Azelf
+  -damage|p1a: Lumineon|7/279 brn|[from] item: Life Orb
+  -damage|p1a: Lumineon|0 fnt|[from] brn
+  faint|p1a: Lumineon
+  switch|p2a: Magearna|Magearna, L77|100/100
+  switch|p1a: Mightyena|Mightyena, L96, M|290/290
+  -ability|p1a: Mightyena|Intimidate|boost
+  -unboost|p2a: Magearna|atk|1
+-- turn 5
+  WE CHOSE: switch to pecharunt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Pecharunt|Pecharunt, L77|262/262
+  move|p2a: Magearna|Fleur Cannon|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|185/262
+  -unboost|p2a: Magearna|spa|2
+-- turn 6
+  WE CHOSE: attack shadowball - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Shadow Ball|p2a: Magearna
+  -damage|p2a: Magearna|77/100
+  move|p2a: Magearna|Fleur Cannon|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|147/262
+  -unboost|p2a: Magearna|spa|2
+-- turn 7
+  WE CHOSE: attack shadowball - our hp 0.56, theirs 0.77, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Shadow Ball|p2a: Magearna
+  -damage|p2a: Magearna|54/100
+  move|p2a: Magearna|Fleur Cannon|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -crit|p1a: Pecharunt
+  -damage|p1a: Pecharunt|18/262
+  -unboost|p2a: Magearna|spa|2
+-- turn 8
+  WE CHOSE: heal recover - our hp 0.07, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Recover|p1a: Pecharunt
+  -heal|p1a: Pecharunt|149/262
+  move|p2a: Magearna|Fleur Cannon|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|128/262
+-- turn 9
+  WE CHOSE: heal recover - our hp 0.49, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Recover|p1a: Pecharunt
+  -heal|p1a: Pecharunt|259/262
+  move|p2a: Magearna|Fleur Cannon|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|241/262
+-- turn 10
+  WE CHOSE: attack shadowball - our hp 0.92, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Shadow Ball|p2a: Magearna
+  -damage|p2a: Magearna|33/100
+  move|p2a: Magearna|Fleur Cannon|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|220/262
+-- turn 11
+  WE CHOSE: attack shadowball - our hp 0.84, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Shadow Ball|p2a: Magearna
+  -damage|p2a: Magearna|8/100
+  move|p2a: Magearna|Fleur Cannon|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|202/262
+-- turn 12
+  WE CHOSE: attack shadowball - our hp 0.77, theirs 0.08, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Shadow Ball|p2a: Magearna
+  -damage|p2a: Magearna|0 fnt
+  faint|p2a: Magearna
+  switch|p2a: Rayquaza|Rayquaza, L72|100/100
+  -ability|p2a: Rayquaza|Air Lock
+-- turn 13
+  WE CHOSE: attack malignantchain - our hp 0.77, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Pecharunt|Malignant Chain|p2a: Rayquaza
+  -damage|p2a: Rayquaza|67/100
+  -status|p2a: Rayquaza|tox
+  -start|p2a: Rayquaza|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+  -activate|p2a: Rayquaza|confusion
+  -damage|p2a: Rayquaza|55/100 tox|[from] confusion
+  -damage|p2a: Rayquaza|49/100 tox|[from] psn
+-- turn 14
+  WE CHOSE: attack malignantchain - our hp 0.77, theirs 0.49, predicted move (guessed) hits us x1
+  move|p1a: Pecharunt|Malignant Chain|p2a: Rayquaza
+  -damage|p2a: Rayquaza|11/100 tox
+  -activate|p2a: Rayquaza|confusion
+  move|p2a: Rayquaza|Outrage|p1a: Pecharunt
+  -damage|p1a: Pecharunt|118/262
+  -damage|p2a: Rayquaza|0 fnt|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+  faint|p2a: Rayquaza
+  switch|p2a: Quaquaval|Quaquaval, L79, M|100/100
+-- turn 15
+  WE CHOSE: heal recover - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Pecharunt|Recover|p1a: Pecharunt
+  -heal|p1a: Pecharunt|249/262
+  move|p2a: Quaquaval|Close Combat|p1a: Pecharunt
+  -immune|p1a: Pecharunt
+-- turn 16
+  WE CHOSE: attack malignantchain - our hp 0.95, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Pecharunt|Malignant Chain|p2a: Quaquaval
+  -damage|p2a: Quaquaval|66/100
+  -status|p2a: Quaquaval|tox
+  -start|p2a: Quaquaval|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+  -activate|p2a: Quaquaval|confusion
+  -damage|p2a: Quaquaval|54/100 tox|[from] confusion
+  -damage|p2a: Quaquaval|47/100 tox|[from] psn
+-- turn 17
+  WE CHOSE: attack malignantchain - our hp 0.95, theirs 0.47, predicted move (revealed) hits us x0
+  move|p1a: Pecharunt|Malignant Chain|p2a: Quaquaval
+  -damage|p2a: Quaquaval|11/100 tox
+  -activate|p2a: Quaquaval|confusion
+  move|p2a: Quaquaval|Close Combat|p1a: Pecharunt
+  -immune|p1a: Pecharunt
+  -damage|p2a: Quaquaval|0 fnt|[from] psn
+  faint|p2a: Quaquaval
+  switch|p2a: Tatsugiri|Tatsugiri, L87, F|100/100
+-- turn 18
+  WE CHOSE: attack malignantchain - our hp 0.95, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Tatsugiri|Draco Meteor|p1a: Pecharunt
+  -damage|p1a: Pecharunt|48/262
+  -unboost|p2a: Tatsugiri|spa|2
+  move|p1a: Pecharunt|Malignant Chain|p2a: Tatsugiri
+  -damage|p2a: Tatsugiri|70/100
+  -status|p2a: Tatsugiri|tox
+  -start|p2a: Tatsugiri|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+  -damage|p2a: Tatsugiri|64/100 tox|[from] psn
+-- turn 19
+  WE CHOSE: heal recover - our hp 0.18, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to trevenant - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  -activate|p2a: Tatsugiri|confusion
+  move|p2a: Tatsugiri|Draco Meteor|p1a: Pecharunt
+  -damage|p1a: Pecharunt|0 fnt
+  -unboost|p2a: Tatsugiri|spa|2
+  faint|p1a: Pecharunt
+  -damage|p2a: Tatsugiri|52/100 tox|[from] psn
+  switch|p1a: Trevenant|Trevenant, L89, M|16/296
+-- turn 20
+  WE CHOSE: attack woodhammer - our hp 0.05, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mightyena - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x1
+  -activate|p2a: Tatsugiri|confusion
+  move|p2a: Tatsugiri|Draco Meteor|p1a: Trevenant
+  -damage|p1a: Trevenant|0 fnt
+  -unboost|p2a: Tatsugiri|spa|2
+  faint|p1a: Trevenant
+  -damage|p2a: Tatsugiri|34/100 tox|[from] psn
+  switch|p1a: Mightyena|Mightyena, L96, M|290/290
+  -ability|p1a: Mightyena|Intimidate|boost
+  -unboost|p2a: Tatsugiri|atk|1
+-- turn 21
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x1
+  -activate|p2a: Tatsugiri|confusion
+  move|p2a: Tatsugiri|Draco Meteor|p1a: Mightyena
+  -damage|p1a: Mightyena|239/290
+  move|p1a: Mightyena|Play Rough|p2a: Tatsugiri
+  -supereffective|p2a: Tatsugiri
+  -damage|p2a: Tatsugiri|0 fnt
+  faint|p2a: Tatsugiri
+  switch|p2a: Florges|Florges-White, L85, F|100/100
+-- turn 22
+  WE CHOSE: switch to oranguru (hand policy: attack playrough) - our hp 0.82, theirs 1.00, predicted move (unknown) hits us x0
+  switch|p1a: Oranguru|Oranguru, L92, M|315/315
+  move|p2a: Florges|Moonblast|p1a: Oranguru
+  -damage|p1a: Oranguru|221/315
+  -unboost|p1a: Oranguru|spa|1
+  -heal|p1a: Oranguru|240/315|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack+tera psychic (hand policy: attack psychic) - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Oranguru|Electric
+  move|p2a: Florges|Moonblast|p1a: Oranguru
+  -damage|p1a: Oranguru|144/315
+  move|p1a: Oranguru|Psychic|p2a: Florges
+  -damage|p2a: Florges|85/100
+  -heal|p2a: Florges|91/100|[from] item: Leftovers
+  -heal|p1a: Oranguru|163/315|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack psychic - our hp 0.52, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Oranguru
+  -damage|p1a: Oranguru|67/315
+  move|p1a: Oranguru|Psychic|p2a: Florges
+  -damage|p2a: Florges|73/100
+  -heal|p2a: Florges|79/100|[from] item: Leftovers
+  -heal|p1a: Oranguru|86/315|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack thunderbolt - our hp 0.27, theirs 0.79, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to feraligatr - our hp 0.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Oranguru
+  -damage|p1a: Oranguru|0 fnt
+  faint|p1a: Oranguru
+  -heal|p2a: Florges|85/100|[from] item: Leftovers
+  switch|p1a: Feraligatr|Feraligatr, L79, M|264/264
+-- turn 26
+  WE CHOSE: attack icepunch (hand policy: attack liquidation) - our hp 1.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Feraligatr
+  -damage|p1a: Feraligatr|126/264
+  -unboost|p1a: Feraligatr|spa|1
+  move|p1a: Feraligatr|Ice Punch|p2a: Florges
+  -damage|p2a: Florges|45/100
+  -heal|p2a: Florges|51/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack liquidation - our hp 0.48, theirs 0.51, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mightyena - our hp 0.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Feraligatr
+  -crit|p1a: Feraligatr
+  -damage|p1a: Feraligatr|0 fnt
+  faint|p1a: Feraligatr
+  -heal|p2a: Florges|57/100|[from] item: Leftovers
+  switch|p1a: Mightyena|Mightyena, L96, M|239/290
+  -ability|p1a: Mightyena|Intimidate|boost
+  -unboost|p2a: Florges|atk|1
+-- turn 28
+  WE CHOSE: attack poisonfang - our hp 0.82, theirs 0.57, predicted move (revealed) hits us x2
+  move|p1a: Mightyena|Poison Fang|p2a: Florges
+  -supereffective|p2a: Florges
+  -damage|p2a: Florges|3/100
+  -status|p2a: Florges|tox
+  move|p2a: Florges|Moonblast|p1a: Mightyena
+  -supereffective|p1a: Mightyena
+  -damage|p1a: Mightyena|0 fnt
+  faint|p1a: Mightyena
+  deinit

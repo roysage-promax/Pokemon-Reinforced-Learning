@@ -1,0 +1,198 @@
+battle 1400 (battle-gen9randombattle-1020509): lost in 19 turns, 1 of theirs left; we are p1
+
+ours:
+  galvantula (fainted; item focussash, ability compoundeyes; moves stickyweb/energyball/thunder/bugbuzz)
+  jirachi (fainted; item leftovers, ability serenegrace, tera fighting; moves stealthrock/uturn/ironhead/drainpunch)
+  komala (fainted; item assaultvest, ability comatose; moves knockoff/earthquake/rapidspin/bodyslam)
+  dugtrioalola (fainted; item lifeorb, ability tanglinghair; moves stoneedge/earthquake/ironhead/swordsdance)
+  quaquaval (fainted; item leftovers, ability moxie; moves closecombat/roost/aquastep/swordsdance)
+  clodsire (fainted; item leftovers, ability waterabsorb; moves toxic/earthquake/recover/poisonjab)
+theirs (as seen):
+  sandyshocks (fainted; item unknown_item, ability protosynthesis; moves earthpower)
+  ceruledge (fainted; item unknown_item, ability ?; moves closecombat)
+  kommoo (fainted; item unknown_item, ability ?; moves closecombat)
+  staraptor (fainted; item unknown_item, ability ?; moves bravebird)
+  dedenne (fainted; item unknown_item, ability ?; moves thunderbolt)
+  necrozma (33%; item ?, ability prismarmor; moves earthquake)
+
+-- turn 0
+  switch|p1a: Galvantula|Galvantula, L82, M|249/249
+  switch|p2a: Sandy Shocks|Sandy Shocks, L80|100/100
+-- turn 1
+  WE CHOSE: attack energyball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Galvantula|Energy Ball|p2a: Sandy Shocks
+  -supereffective|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|53/100
+  move|p2a: Sandy Shocks|Earth Power|p1a: Galvantula
+  -damage|p1a: Galvantula|108/249
+-- turn 2
+  WE CHOSE: attack energyball - our hp 0.43, theirs 0.53, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to quaquaval - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p1a: Galvantula|Energy Ball|p2a: Sandy Shocks
+  -supereffective|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|3/100
+  move|p2a: Sandy Shocks|Earth Power|p1a: Galvantula
+  -damage|p1a: Galvantula|0 fnt
+  faint|p1a: Galvantula
+  switch|p1a: Quaquaval|Quaquaval, L79, F|264/264
+-- turn 3
+  WE CHOSE: setup swordsdance (hand policy: attack aquastep) - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Sandy Shocks|Earth Power|p1a: Quaquaval
+  -damage|p1a: Quaquaval|141/264
+  move|p1a: Quaquaval|Swords Dance|p1a: Quaquaval
+  -boost|p1a: Quaquaval|atk|2
+  -heal|p1a: Quaquaval|157/264|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack aquastep - our hp 0.59, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Sandy Shocks|Earth Power|p1a: Quaquaval
+  -damage|p1a: Quaquaval|33/264
+  move|p1a: Quaquaval|Aqua Step|p2a: Sandy Shocks
+  -supereffective|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|0 fnt
+  -boost|p1a: Quaquaval|spe|1
+  faint|p2a: Sandy Shocks
+  -end|p2a: Sandy Shocks|Protosynthesis|[silent]
+  -ability|p1a: Quaquaval|Moxie|boost
+  -boost|p1a: Quaquaval|atk|1
+  -heal|p1a: Quaquaval|49/264|[from] item: Leftovers
+  switch|p2a: Ceruledge|Ceruledge, L78, M|100/100
+-- turn 5
+  WE CHOSE: switch to clodsire (hand policy: heal roost) - our hp 0.19, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Clodsire|Clodsire, L81, M|343/343
+  move|p2a: Ceruledge|Close Combat|p1a: Clodsire
+  -resisted|p1a: Clodsire
+  -damage|p1a: Clodsire|285/343
+  -unboost|p2a: Ceruledge|def|1
+  -unboost|p2a: Ceruledge|spd|1
+  -heal|p1a: Clodsire|306/343|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Ceruledge|Close Combat|p1a: Clodsire
+  -resisted|p1a: Clodsire
+  -crit|p1a: Clodsire
+  -damage|p1a: Clodsire|211/343
+  -unboost|p2a: Ceruledge|def|1
+  -unboost|p2a: Ceruledge|spd|1
+  move|p1a: Clodsire|Earthquake|p2a: Ceruledge
+  -supereffective|p2a: Ceruledge
+  -damage|p2a: Ceruledge|0 fnt
+  faint|p2a: Ceruledge
+  -heal|p1a: Clodsire|232/343|[from] item: Leftovers
+  switch|p2a: Kommo-o|Kommo-o, L77, M|100/100
+-- turn 7
+  WE CHOSE: switch to dugtrioalola (hand policy: attack earthquake) - our hp 0.68, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to clodsire - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Dugtrio|Dugtrio-Alola, L84, F|196/196
+  move|p2a: Kommo-o|Close Combat|p1a: Dugtrio
+  -supereffective|p1a: Dugtrio
+  -damage|p1a: Dugtrio|0 fnt
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  -ability|p1a: Dugtrio|Tangling Hair
+  -unboost|p2a: Kommo-o|spe|1
+  faint|p1a: Dugtrio
+  switch|p1a: Clodsire|Clodsire, L81, M|232/343
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kommo-o|Close Combat|p1a: Clodsire
+  -resisted|p1a: Clodsire
+  -damage|p1a: Clodsire|159/343
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  move|p1a: Clodsire|Earthquake|p2a: Kommo-o
+  -damage|p2a: Kommo-o|46/100
+  -heal|p1a: Clodsire|180/343|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.52, theirs 0.46, predicted move (revealed) hits us x0.5
+  move|p2a: Kommo-o|Close Combat|p1a: Clodsire
+  -resisted|p1a: Clodsire
+  -damage|p1a: Clodsire|104/343
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  move|p1a: Clodsire|Earthquake|p2a: Kommo-o
+  -damage|p2a: Kommo-o|0 fnt
+  faint|p2a: Kommo-o
+  -heal|p1a: Clodsire|125/343|[from] item: Leftovers
+  switch|p2a: Staraptor|Staraptor, L79, M|100/100
+-- turn 10
+  WE CHOSE: heal recover - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to jirachi - our hp 0.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Staraptor|Brave Bird|p1a: Clodsire
+  -damage|p1a: Clodsire|0 fnt
+  faint|p1a: Clodsire
+  -damage|p2a: Staraptor|85/100|[from] Recoil
+  switch|p1a: Jirachi|Jirachi, L80|291/291
+-- turn 11
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.85, predicted move (revealed) hits us x0.5
+  move|p1a: Jirachi|Iron Head|p2a: Staraptor
+  -damage|p2a: Staraptor|48/100
+  move|p2a: Staraptor|Brave Bird|p1a: Jirachi
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|177/291
+  -damage|p2a: Staraptor|34/100|[from] Recoil
+  -heal|p1a: Jirachi|195/291|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack ironhead - our hp 0.67, theirs 0.34, predicted move (revealed) hits us x0.5
+  move|p1a: Jirachi|Iron Head|p2a: Staraptor
+  -damage|p2a: Staraptor|0 fnt
+  faint|p2a: Staraptor
+  -heal|p1a: Jirachi|213/291|[from] item: Leftovers
+  switch|p2a: Dedenne|Dedenne, L88, M|100/100
+-- turn 13
+  WE CHOSE: attack+tera ironhead (hand policy: attack ironhead) - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Jirachi|Fighting
+  move|p2a: Dedenne|Thunderbolt|p1a: Jirachi
+  -damage|p1a: Jirachi|129/291
+  move|p1a: Jirachi|Iron Head|p2a: Dedenne
+  -damage|p2a: Dedenne|63/100
+  -heal|p1a: Jirachi|147/291|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack drainpunch (hand policy: attack ironhead) - our hp 0.51, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Jirachi
+  -damage|p1a: Jirachi|59/291
+  -status|p1a: Jirachi|par
+  cant|p1a: Jirachi|par
+  -heal|p1a: Jirachi|77/291 par|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack drainpunch (hand policy: attack ironhead) - our hp 0.26, theirs 0.63, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to komala - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Jirachi
+  -damage|p1a: Jirachi|0 fnt
+  faint|p1a: Jirachi
+  switch|p1a: Komala|Komala, L87, M|255/255
+  -ability|p1a: Komala|Comatose
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Komala
+  -damage|p1a: Komala|198/255
+  move|p1a: Komala|Earthquake|p2a: Dedenne
+  -supereffective|p2a: Dedenne
+  -damage|p2a: Dedenne|0 fnt
+  faint|p2a: Dedenne
+  switch|p2a: Necrozma|Necrozma, L80|100/100
+-- turn 17
+  WE CHOSE: attack knockoff - our hp 0.78, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Necrozma|Earthquake|p1a: Komala
+  -damage|p1a: Komala|116/255
+  move|p1a: Komala|Knock Off|p2a: Necrozma
+  -supereffective|p2a: Necrozma
+  -damage|p2a: Necrozma|61/100
+  -enditem|p2a: Necrozma|Weakness Policy
+  -boost|p2a: Necrozma|atk|2|[from] item: Weakness Policy
+  -boost|p2a: Necrozma|spa|2|[from] item: Weakness Policy
+-- turn 18
+  WE CHOSE: attack knockoff - our hp 0.45, theirs 0.61, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to quaquaval - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Necrozma|Earthquake|p1a: Komala
+  -damage|p1a: Komala|0 fnt
+  faint|p1a: Komala
+  switch|p1a: Quaquaval|Quaquaval, L79, F|49/264
+-- turn 19
+  WE CHOSE: attack aquastep (hand policy: heal roost) - our hp 0.19, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Quaquaval|Aqua Step|p2a: Necrozma
+  -damage|p2a: Necrozma|33/100
+  -boost|p1a: Quaquaval|spe|1
+  move|p2a: Necrozma|Earthquake|p1a: Quaquaval
+  -damage|p1a: Quaquaval|0 fnt
+  faint|p1a: Quaquaval
+  deinit

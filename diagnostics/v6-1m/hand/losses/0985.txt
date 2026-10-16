@@ -1,0 +1,281 @@
+battle 985 (battle-gen9randombattle-1015576): lost in 30 turns, 1 of theirs left; we are p1
+
+ours:
+  noctowl (fainted; item heavydutyboots, ability tintedlens, tera normal; moves hypervoice/roost/calmmind/hurricane)
+  talonflame (fainted; item heavydutyboots, ability flamebody; moves overheat/roost/bravebird/willowisp)
+  taurospaldeablaze (fainted; item choiceband, ability intimidate; moves flareblitz/stoneedge/closecombat/wildcharge)
+  poliwrath (fainted; item lifeorb, ability swiftswim; moves knockoff/raindance/liquidation/closecombat)
+  baxcalibur (fainted; item loadeddice, ability thermalexchange; moves iciclespear/earthquake/scaleshot/swordsdance)
+  meowstic (fainted; item leftovers, ability prankster; moves yawn/psychicnoise/alluringvoice/thunderwave)
+theirs (as seen):
+  mightyena (fainted; item leftovers, ability intimidate; moves crunch)
+  oricoriopompom (fainted; item unknown_item, ability dancer; moves hurricane)
+  kingdra (fainted; item lifeorb, ability ?; moves dracometeor)
+  magmortar (fainted; item unknown_item, ability ?; moves focusblast)
+  kommoo (fainted; item unknown_item, ability soundproof; moves closecombat/ironhead)
+  ariados (43%; item unknown_item, ability ?; moves megahorn)
+
+-- turn 0
+  switch|p1a: Noctowl|Noctowl, L95, F|344/344
+  switch|p2a: Mightyena|Mightyena, L96, F|100/100
+  -ability|p2a: Mightyena|Intimidate|boost
+  -unboost|p1a: Noctowl|atk|1
+-- turn 1
+  WE CHOSE: attack+tera hypervoice - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Noctowl|Normal
+  move|p2a: Mightyena|Crunch|p1a: Noctowl
+  -damage|p1a: Noctowl|215/344
+  move|p1a: Noctowl|Hyper Voice|p2a: Mightyena
+  -damage|p2a: Mightyena|42/100
+  -heal|p2a: Mightyena|48/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack hypervoice - our hp 0.62, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Mightyena|Crunch|p1a: Noctowl
+  -damage|p1a: Noctowl|74/344
+  move|p1a: Noctowl|Hyper Voice|p2a: Mightyena
+  -damage|p2a: Mightyena|0 fnt
+  faint|p2a: Mightyena
+  switch|p2a: Oricorio|Oricorio-Pom-Pom, L82, M|100/100
+-- turn 3
+  WE CHOSE: heal roost - our hp 0.22, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to talonflame - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Oricorio|Hurricane|p1a: Noctowl
+  -damage|p1a: Noctowl|0 fnt
+  faint|p1a: Noctowl
+  switch|p1a: Talonflame|Talonflame, L83, F|265/265
+-- turn 4
+  WE CHOSE: attack overheat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Talonflame|Overheat|p2a: Oricorio
+  -damage|p2a: Oricorio|45/100
+  -unboost|p1a: Talonflame|spa|2
+  move|p2a: Oricorio|Hurricane|p1a: Talonflame
+  -damage|p1a: Talonflame|124/265
+  -start|p1a: Talonflame|confusion
+-- turn 5
+  WE CHOSE: heal roost - our hp 0.47, theirs 0.45, predicted move (revealed) hits us x1
+  -activate|p1a: Talonflame|confusion
+  move|p1a: Talonflame|Roost|p1a: Talonflame
+  -heal|p1a: Talonflame|257/265
+  -singleturn|p1a: Talonflame|move: Roost
+  move|p2a: Oricorio|Hurricane|p1a: Talonflame|[miss]
+  -miss|p2a: Oricorio|p1a: Talonflame
+-- turn 6
+  WE CHOSE: attack bravebird - our hp 0.97, theirs 0.45, predicted move (revealed) hits us x1
+  -activate|p1a: Talonflame|confusion
+  -damage|p1a: Talonflame|225/265|[from] confusion
+  move|p2a: Oricorio|Hurricane|p1a: Talonflame|[miss]
+  -miss|p2a: Oricorio|p1a: Talonflame
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 0.85, theirs 0.45, predicted move (revealed) hits us x1
+  -activate|p1a: Talonflame|confusion
+  -damage|p1a: Talonflame|194/265|[from] confusion
+  move|p2a: Oricorio|Hurricane|p1a: Talonflame
+  -damage|p1a: Talonflame|61/265
+-- turn 8
+  WE CHOSE: heal roost - our hp 0.23, theirs 0.45, predicted move (revealed) hits us x1
+  -end|p1a: Talonflame|confusion
+  move|p1a: Talonflame|Roost|p1a: Talonflame
+  -heal|p1a: Talonflame|194/265
+  -singleturn|p1a: Talonflame|move: Roost
+  move|p2a: Oricorio|Hurricane|p1a: Talonflame
+  -damage|p1a: Talonflame|61/265
+-- turn 9
+  WE CHOSE: heal roost - our hp 0.23, theirs 0.45, predicted move (revealed) hits us x1
+  move|p1a: Talonflame|Roost|p1a: Talonflame
+  -heal|p1a: Talonflame|194/265
+  -singleturn|p1a: Talonflame|move: Roost
+  move|p2a: Oricorio|Hurricane|p1a: Talonflame|[miss]
+  -miss|p2a: Oricorio|p1a: Talonflame
+-- turn 10
+  WE CHOSE: attack bravebird - our hp 0.73, theirs 0.45, predicted move (revealed) hits us x1
+  move|p1a: Talonflame|Brave Bird|p2a: Oricorio
+  -resisted|p2a: Oricorio
+  -damage|p2a: Oricorio|18/100
+  -damage|p1a: Talonflame|171/265|[from] Recoil
+  move|p2a: Oricorio|Hurricane|p1a: Talonflame
+  -damage|p1a: Talonflame|26/265
+  -start|p1a: Talonflame|confusion
+-- turn 11
+  WE CHOSE: heal roost - our hp 0.10, theirs 0.18, predicted move (revealed) hits us x1
+  -activate|p1a: Talonflame|confusion
+  move|p1a: Talonflame|Roost|p1a: Talonflame
+  -heal|p1a: Talonflame|159/265
+  -singleturn|p1a: Talonflame|move: Roost
+  move|p2a: Oricorio|Hurricane|p1a: Talonflame
+  -damage|p1a: Talonflame|26/265
+-- turn 12
+  WE CHOSE: heal roost - our hp 0.10, theirs 0.18, predicted move (revealed) hits us x1
+  -activate|p1a: Talonflame|confusion
+  move|p1a: Talonflame|Roost|p1a: Talonflame
+  -heal|p1a: Talonflame|159/265
+  -singleturn|p1a: Talonflame|move: Roost
+  move|p2a: Oricorio|Hurricane|p1a: Talonflame
+  -damage|p1a: Talonflame|32/265
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.12, theirs 0.18, predicted move (revealed) hits us x1
+  -end|p1a: Talonflame|confusion
+  move|p1a: Talonflame|Roost|p1a: Talonflame
+  -heal|p1a: Talonflame|165/265
+  -singleturn|p1a: Talonflame|move: Roost
+  move|p2a: Oricorio|Hurricane|p1a: Talonflame
+  -damage|p1a: Talonflame|38/265
+-- turn 14
+  WE CHOSE: heal roost - our hp 0.14, theirs 0.18, predicted move (revealed) hits us x1
+  move|p1a: Talonflame|Roost|p1a: Talonflame
+  -heal|p1a: Talonflame|171/265
+  -singleturn|p1a: Talonflame|move: Roost
+  move|p2a: Oricorio|Hurricane|p1a: Talonflame|[miss]
+  -miss|p2a: Oricorio|p1a: Talonflame
+-- turn 15
+  WE CHOSE: attack bravebird - our hp 0.65, theirs 0.18, predicted move (revealed) hits us x1
+  move|p1a: Talonflame|Brave Bird|p2a: Oricorio
+  -resisted|p2a: Oricorio
+  -damage|p2a: Oricorio|0 fnt
+  faint|p2a: Oricorio
+  -damage|p1a: Talonflame|156/265|[from] Recoil
+  switch|p2a: Kingdra|Kingdra, L84, M|100/100
+-- turn 16
+  WE CHOSE: attack bravebird - our hp 0.59, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to taurospaldeablaze - our hp 0.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p1a: Talonflame|Brave Bird|p2a: Kingdra
+  -damage|p2a: Kingdra|63/100
+  -damage|p1a: Talonflame|123/265|[from] Recoil
+  move|p2a: Kingdra|Draco Meteor|p1a: Talonflame
+  -damage|p1a: Talonflame|0 fnt
+  -unboost|p2a: Kingdra|spa|2
+  faint|p1a: Talonflame
+  -damage|p2a: Kingdra|53/100|[from] item: Life Orb
+  switch|p1a: Tauros|Tauros-Paldea-Blaze, L81, M|254/254
+  -ability|p1a: Tauros|Intimidate|boost
+  -unboost|p2a: Kingdra|atk|1
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p1a: Tauros|Close Combat|p2a: Kingdra
+  -damage|p2a: Kingdra|0 fnt
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  faint|p2a: Kingdra
+  switch|p2a: Magmortar|Magmortar, L88, F|100/100
+-- turn 18
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to poliwrath - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Tauros|Close Combat|p2a: Magmortar
+  -damage|p2a: Magmortar|15/100
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  move|p2a: Magmortar|Focus Blast|p1a: Tauros
+  -damage|p1a: Tauros|0 fnt
+  faint|p1a: Tauros
+  switch|p1a: Poliwrath|Poliwrath, L88, M|302/302
+-- turn 19
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x1
+  move|p2a: Magmortar|Focus Blast|p1a: Poliwrath
+  -damage|p1a: Poliwrath|188/302
+  move|p1a: Poliwrath|Liquidation|p2a: Magmortar
+  -supereffective|p2a: Magmortar
+  -damage|p2a: Magmortar|0 fnt
+  faint|p2a: Magmortar
+  -damage|p1a: Poliwrath|158/302|[from] item: Life Orb
+  switch|p2a: Kommo-o|Kommo-o, L77, F|100/100
+-- turn 20
+  WE CHOSE: attack closecombat - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Kommo-o|Close Combat|p1a: Poliwrath
+  -damage|p1a: Poliwrath|56/302
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  move|p1a: Poliwrath|Close Combat|p2a: Kommo-o
+  -damage|p2a: Kommo-o|11/100
+  -unboost|p1a: Poliwrath|def|1
+  -unboost|p1a: Poliwrath|spd|1
+  -damage|p1a: Poliwrath|26/302|[from] item: Life Orb
+-- turn 21
+  WE CHOSE: attack closecombat - our hp 0.09, theirs 0.11, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to meowstic - our hp 0.00, theirs 0.11, predicted move (revealed) hits us x1
+  move|p2a: Kommo-o|Close Combat|p1a: Poliwrath
+  -damage|p1a: Poliwrath|0 fnt
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  faint|p1a: Poliwrath
+  switch|p1a: Meowstic|Meowstic, L89, M|277/277
+-- turn 22
+  WE CHOSE: attack alluringvoice - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Meowstic|Alluring Voice|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Close Combat|p1a: Meowstic
+  -resisted|p1a: Meowstic
+  -crit|p1a: Meowstic
+  -damage|p1a: Meowstic|190/277
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  -heal|p1a: Meowstic|207/277|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack alluringvoice - our hp 0.75, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Meowstic|Alluring Voice|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Close Combat|p1a: Meowstic
+  -resisted|p1a: Meowstic
+  -damage|p1a: Meowstic|143/277
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  -heal|p1a: Meowstic|160/277|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack alluringvoice - our hp 0.58, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Meowstic|Alluring Voice|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Close Combat|p1a: Meowstic
+  -resisted|p1a: Meowstic
+  -damage|p1a: Meowstic|100/277
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  -heal|p1a: Meowstic|117/277|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack alluringvoice - our hp 0.42, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Meowstic|Alluring Voice|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Close Combat|p1a: Meowstic
+  -resisted|p1a: Meowstic
+  -damage|p1a: Meowstic|57/277
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  -heal|p1a: Meowstic|74/277|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack alluringvoice - our hp 0.27, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Meowstic|Alluring Voice|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Close Combat|p1a: Meowstic
+  -resisted|p1a: Meowstic
+  -damage|p1a: Meowstic|13/277
+  -heal|p1a: Meowstic|30/277|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack alluringvoice - our hp 0.11, theirs 0.11, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to baxcalibur - our hp 0.00, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Meowstic|Alluring Voice|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Close Combat|p1a: Meowstic
+  -resisted|p1a: Meowstic
+  -damage|p1a: Meowstic|0 fnt
+  faint|p1a: Meowstic
+  switch|p1a: Baxcalibur|Baxcalibur, L75, M|295/295
+-- turn 28
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x2
+  move|p2a: Kommo-o|Iron Head|p1a: Baxcalibur
+  -supereffective|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|187/295
+  move|p1a: Baxcalibur|Earthquake|p2a: Kommo-o
+  -damage|p2a: Kommo-o|0 fnt
+  faint|p2a: Kommo-o
+  switch|p2a: Ariados|Ariados, L95, M|100/100
+-- turn 29
+  WE CHOSE: attack earthquake - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Baxcalibur|Earthquake|p2a: Ariados
+  -damage|p2a: Ariados|71/100
+  move|p2a: Ariados|Megahorn|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|25/295
+-- turn 30
+  WE CHOSE: attack earthquake - our hp 0.08, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Baxcalibur|Earthquake|p2a: Ariados
+  -damage|p2a: Ariados|43/100
+  move|p2a: Ariados|Megahorn|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|0 fnt
+  faint|p1a: Baxcalibur
+  deinit

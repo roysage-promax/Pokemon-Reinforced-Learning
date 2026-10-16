@@ -1,0 +1,492 @@
+battle 2276 (battle-gen9randombattle-1029422): lost in 62 turns, 1 of theirs left; we are p1
+
+ours:
+  misdreavus (fainted; item eviolite, ability levitate, tera fairy; moves willowisp/drainingkiss/calmmind/shadowball)
+  appletun (fainted; item leftovers, ability thickfat; moves dragontail/appleacid/dragonpulse/recover)
+  drifblim (fainted; item ?, ability unburden; moves strengthsap/calmmind/shadowball/airslash)
+  swampert (fainted; item leftovers, ability torrent; moves earthquake/stealthrock/icebeam/flipturn)
+  duraludon (fainted; item eviolite, ability lightmetal; moves irondefense/bodypress/dracometeor/flashcannon)
+  stantler (fainted; item eviolite, ability intimidate; moves earthquake/thunderwave/throatchop/bodyslam)
+theirs (as seen):
+  farigiraf (fainted; item leftovers, ability ?; moves bodyslam)
+  gyarados (fainted; item unknown_item, ability intimidate; moves earthquake)
+  hippowdon (fainted; item unknown_item, ability ?; moves -)
+  reuniclus (fainted; item unknown_item, ability ?; moves focusblast/psyshock)
+  venusaur (fainted; item leftovers, ability ?; moves earthpower/sludgebomb)
+  enamorus (77%; item leftovers, ability ?; moves superpower/playrough)
+
+-- turn 0
+  switch|p1a: Misdreavus|Misdreavus, L90, M|254/254
+  switch|p2a: Farigiraf|Farigiraf, L90, F|100/100
+-- turn 1
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Farigiraf|Body Slam|p1a: Misdreavus
+  -immune|p1a: Misdreavus
+-- turn 2
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Farigiraf|Body Slam|p1a: Misdreavus
+  -immune|p1a: Misdreavus
+-- turn 3
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Farigiraf|Body Slam|p1a: Misdreavus
+  -immune|p1a: Misdreavus
+-- turn 4
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Farigiraf|Body Slam|p1a: Misdreavus
+  -immune|p1a: Misdreavus
+-- turn 5
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Farigiraf|Body Slam|p1a: Misdreavus
+  -immune|p1a: Misdreavus
+-- turn 6
+  WE CHOSE: attack drainingkiss (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Draining Kiss|p2a: Farigiraf
+  -damage|p2a: Farigiraf|61/100
+  move|p2a: Farigiraf|Body Slam|p1a: Misdreavus
+  -immune|p1a: Misdreavus
+  -heal|p2a: Farigiraf|67/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack drainingkiss (hand policy: setup calmmind) - our hp 1.00, theirs 0.67, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Draining Kiss|p2a: Farigiraf
+  -damage|p2a: Farigiraf|27/100
+  move|p2a: Farigiraf|Body Slam|p1a: Misdreavus
+  -immune|p1a: Misdreavus
+  -heal|p2a: Farigiraf|33/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack drainingkiss (hand policy: setup calmmind) - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Draining Kiss|p2a: Farigiraf
+  -damage|p2a: Farigiraf|0 fnt
+  faint|p2a: Farigiraf
+  switch|p2a: Gyarados|Gyarados, L79, F|100/100
+  -ability|p2a: Gyarados|Intimidate|boost
+  -unboost|p1a: Misdreavus|atk|1
+-- turn 9
+  WE CHOSE: switch to drifblim (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  switch|p1a: Drifblim|Drifblim, L86, M|396/396
+  move|p2a: Gyarados|Earthquake|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 10
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Gyarados|Earthquake|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 11
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Gyarados|Earthquake|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 12
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Gyarados|Earthquake|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 13
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Gyarados|Earthquake|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 14
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Gyarados|Earthquake|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 15
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Gyarados|Earthquake|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 16
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Shadow Ball|p2a: Gyarados
+  -damage|p2a: Gyarados|0 fnt
+  faint|p2a: Gyarados
+  switch|p2a: Hippowdon|Hippowdon, L82, F|100/100
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+-- turn 17
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Drifblim|Shadow Ball|p2a: Hippowdon
+  -damage|p2a: Hippowdon|0 fnt
+  faint|p2a: Hippowdon
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Drifblim|372/396|[from] Sandstorm
+  switch|p2a: Reuniclus|Reuniclus, L88, M|100/100
+-- turn 18
+  WE CHOSE: switch to misdreavus (hand policy: attack shadowball) - our hp 0.94, theirs 1.00, predicted move (guessed) hits us x0
+  switch|p1a: Misdreavus|Misdreavus, L90, M|254/254
+  move|p2a: Reuniclus|Focus Blast|p1a: Misdreavus
+  -immune|p1a: Misdreavus
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Misdreavus|239/254|[from] Sandstorm
+-- turn 19
+  WE CHOSE: setup calmmind - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Reuniclus|Focus Blast|p1a: Misdreavus
+  -immune|p1a: Misdreavus
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Misdreavus|224/254|[from] Sandstorm
+-- turn 20
+  WE CHOSE: setup calmmind - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Reuniclus|Focus Blast|p1a: Misdreavus
+  -immune|p1a: Misdreavus
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Misdreavus|209/254|[from] Sandstorm
+-- turn 21
+  WE CHOSE: setup calmmind - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Reuniclus|Focus Blast|p1a: Misdreavus
+  -immune|p1a: Misdreavus
+  -weather|none
+-- turn 22
+  WE CHOSE: setup calmmind - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Reuniclus|Focus Blast|p1a: Misdreavus
+  -immune|p1a: Misdreavus
+-- turn 23
+  WE CHOSE: switch to drifblim (hand policy: setup calmmind) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Drifblim|Drifblim, L86, M|372/396
+  move|p2a: Reuniclus|Focus Blast|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 24
+  WE CHOSE: setup calmmind - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Reuniclus|Focus Blast|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 25
+  WE CHOSE: setup calmmind - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Reuniclus|Focus Blast|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 26
+  WE CHOSE: setup calmmind - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Reuniclus|Psyshock|p1a: Drifblim
+  -damage|p1a: Drifblim|158/396
+  -enditem|p1a: Drifblim|Sitrus Berry|[eat]
+  -heal|p1a: Drifblim|257/396|[from] item: Sitrus Berry
+-- turn 27
+  WE CHOSE: setup calmmind - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Reuniclus|Psyshock|p1a: Drifblim
+  -damage|p1a: Drifblim|37/396
+-- turn 28
+  WE CHOSE: attack shadowball (hand policy: heal strengthsap) - our hp 0.09, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Shadow Ball|p2a: Reuniclus
+  -supereffective|p2a: Reuniclus
+  -damage|p2a: Reuniclus|0 fnt
+  faint|p2a: Reuniclus
+  switch|p2a: Venusaur|Venusaur, L84, M|100/100
+-- turn 29
+  WE CHOSE: switch to stantler (hand policy: heal strengthsap) - our hp 0.09, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Stantler|Stantler, L91, M|281/281
+  -ability|p1a: Stantler|Intimidate|boost
+  -unboost|p2a: Venusaur|atk|1
+  move|p2a: Venusaur|Earth Power|p1a: Stantler
+  -damage|p1a: Stantler|234/281
+-- turn 30
+  WE CHOSE: switch to drifblim - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Drifblim|Drifblim, L86, M|37/396
+  move|p2a: Venusaur|Earth Power|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 31
+  WE CHOSE: switch to misdreavus (hand policy: heal strengthsap) - our hp 0.09, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Misdreavus|Misdreavus, L90, M|209/254
+  move|p2a: Venusaur|Earth Power|p1a: Misdreavus
+  -immune|p1a: Misdreavus|[from] ability: Levitate
+-- turn 32
+  WE CHOSE: setup calmmind - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Earth Power|p1a: Misdreavus
+  -immune|p1a: Misdreavus|[from] ability: Levitate
+-- turn 33
+  WE CHOSE: setup calmmind - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Earth Power|p1a: Misdreavus
+  -immune|p1a: Misdreavus|[from] ability: Levitate
+-- turn 34
+  WE CHOSE: setup calmmind - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Earth Power|p1a: Misdreavus
+  -immune|p1a: Misdreavus|[from] ability: Levitate
+-- turn 35
+  WE CHOSE: setup calmmind - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Earth Power|p1a: Misdreavus
+  -immune|p1a: Misdreavus|[from] ability: Levitate
+-- turn 36
+  WE CHOSE: switch to drifblim (hand policy: setup calmmind) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Drifblim|Drifblim, L86, M|37/396
+  move|p2a: Venusaur|Earth Power|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 37
+  WE CHOSE: switch to misdreavus (hand policy: heal strengthsap) - our hp 0.09, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Misdreavus|Misdreavus, L90, M|209/254
+  move|p2a: Venusaur|Earth Power|p1a: Misdreavus
+  -immune|p1a: Misdreavus|[from] ability: Levitate
+-- turn 38
+  WE CHOSE: setup calmmind - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Earth Power|p1a: Misdreavus
+  -immune|p1a: Misdreavus|[from] ability: Levitate
+-- turn 39
+  WE CHOSE: setup calmmind - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Earth Power|p1a: Misdreavus
+  -immune|p1a: Misdreavus|[from] ability: Levitate
+-- turn 40
+  WE CHOSE: setup calmmind - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Earth Power|p1a: Misdreavus
+  -immune|p1a: Misdreavus|[from] ability: Levitate
+-- turn 41
+  WE CHOSE: setup calmmind - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Earth Power|p1a: Misdreavus
+  -immune|p1a: Misdreavus|[from] ability: Levitate
+-- turn 42
+  WE CHOSE: switch to drifblim (hand policy: setup calmmind) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Drifblim|Drifblim, L86, M|37/396
+  move|p2a: Venusaur|Earth Power|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 43
+  WE CHOSE: switch to misdreavus (hand policy: heal strengthsap) - our hp 0.09, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Misdreavus|Misdreavus, L90, M|209/254
+  move|p2a: Venusaur|Earth Power|p1a: Misdreavus
+  -immune|p1a: Misdreavus|[from] ability: Levitate
+-- turn 44
+  WE CHOSE: setup calmmind - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Earth Power|p1a: Misdreavus
+  -immune|p1a: Misdreavus|[from] ability: Levitate
+-- turn 45
+  WE CHOSE: setup calmmind - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Sludge Bomb|p1a: Misdreavus
+  -resisted|p1a: Misdreavus
+  -damage|p1a: Misdreavus|194/254
+-- turn 46
+  WE CHOSE: setup calmmind - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Sludge Bomb|p1a: Misdreavus
+  -resisted|p1a: Misdreavus
+  -damage|p1a: Misdreavus|182/254
+-- turn 47
+  WE CHOSE: setup calmmind - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Sludge Bomb|p1a: Misdreavus
+  -resisted|p1a: Misdreavus
+  -damage|p1a: Misdreavus|171/254
+-- turn 48
+  WE CHOSE: switch to drifblim (hand policy: setup calmmind) - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to misdreavus - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Drifblim|Drifblim, L86, M|37/396
+  move|p2a: Venusaur|Sludge Bomb|p1a: Drifblim
+  -resisted|p1a: Drifblim
+  -damage|p1a: Drifblim|0 fnt
+  faint|p1a: Drifblim
+  switch|p1a: Misdreavus|Misdreavus, L90, M|171/254
+-- turn 49
+  WE CHOSE: setup calmmind - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Sludge Bomb|p1a: Misdreavus
+  -resisted|p1a: Misdreavus
+  -damage|p1a: Misdreavus|150/254
+-- turn 50
+  WE CHOSE: setup calmmind - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Sludge Bomb|p1a: Misdreavus
+  -resisted|p1a: Misdreavus
+  -damage|p1a: Misdreavus|135/254
+  -status|p1a: Misdreavus|psn
+  -damage|p1a: Misdreavus|104/254 psn|[from] psn
+-- turn 51
+  WE CHOSE: setup calmmind (hand policy: attack shadowball) - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+  move|p2a: Venusaur|Sludge Bomb|p1a: Misdreavus
+  -resisted|p1a: Misdreavus
+  -damage|p1a: Misdreavus|92/254 psn
+  -damage|p1a: Misdreavus|61/254 psn|[from] psn
+-- turn 52
+  WE CHOSE: attack+tera shadowball (hand policy: attack shadowball) - our hp 0.24, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to appletun - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x0
+  -terastallize|p1a: Misdreavus|Fairy
+  move|p1a: Misdreavus|Shadow Ball|p2a: Venusaur
+  -damage|p2a: Venusaur|25/100
+  move|p2a: Venusaur|Sludge Bomb|p1a: Misdreavus
+  -supereffective|p1a: Misdreavus
+  -damage|p1a: Misdreavus|7/254 psn
+  -heal|p2a: Venusaur|31/100|[from] item: Leftovers
+  -damage|p1a: Misdreavus|0 fnt|[from] psn
+  faint|p1a: Misdreavus
+  switch|p1a: Appletun|Appletun, L92, M|352/352
+-- turn 53
+  WE CHOSE: attack dragonpulse - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p2a: Venusaur|Sludge Bomb|p1a: Appletun
+  -supereffective|p1a: Appletun
+  -damage|p1a: Appletun|164/352
+  move|p1a: Appletun|Dragon Pulse|p2a: Venusaur
+  -damage|p2a: Venusaur|0 fnt
+  faint|p2a: Venusaur
+  -heal|p1a: Appletun|186/352|[from] item: Leftovers
+  switch|p2a: Enamorus|Enamorus, L79, F|100/100
+-- turn 54
+  WE CHOSE: heal recover (hand policy: attack appleacid) - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Enamorus|Superpower|p1a: Appletun
+  -damage|p1a: Appletun|95/352
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  move|p1a: Appletun|Recover|p1a: Appletun
+  -heal|p1a: Appletun|271/352
+  -heal|p1a: Appletun|293/352|[from] item: Leftovers
+-- turn 55
+  WE CHOSE: attack appleacid - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Enamorus|Superpower|p1a: Appletun
+  -damage|p1a: Appletun|157/352
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  move|p1a: Appletun|Apple Acid|p2a: Enamorus
+  -resisted|p2a: Enamorus
+  -damage|p2a: Enamorus|76/100
+  -boost|p2a: Enamorus|spd|1
+  -heal|p2a: Enamorus|82/100|[from] item: Leftovers
+  -heal|p1a: Appletun|179/352|[from] item: Leftovers
+-- turn 56
+  WE CHOSE: heal recover (hand policy: attack appleacid) - our hp 0.51, theirs 0.82, predicted move (revealed) hits us x1
+  move|p2a: Enamorus|Superpower|p1a: Appletun
+  -damage|p1a: Appletun|15/352
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  move|p1a: Appletun|Recover|p1a: Appletun
+  -heal|p1a: Appletun|191/352
+  -heal|p2a: Enamorus|88/100|[from] item: Leftovers
+  -heal|p1a: Appletun|213/352|[from] item: Leftovers
+-- turn 57
+  WE CHOSE: attack appleacid - our hp 0.61, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Enamorus|Superpower|p1a: Appletun
+  -damage|p1a: Appletun|10/352
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  move|p1a: Appletun|Apple Acid|p2a: Enamorus
+  -resisted|p2a: Enamorus
+  -damage|p2a: Enamorus|73/100
+  -boost|p2a: Enamorus|spd|1
+  -heal|p2a: Enamorus|79/100|[from] item: Leftovers
+  -heal|p1a: Appletun|32/352|[from] item: Leftovers
+-- turn 58
+  WE CHOSE: heal recover - our hp 0.09, theirs 0.79, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to swampert - our hp 0.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Enamorus|Superpower|p1a: Appletun
+  -damage|p1a: Appletun|0 fnt
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  faint|p1a: Appletun
+  -heal|p2a: Enamorus|85/100|[from] item: Leftovers
+  switch|p1a: Swampert|Swampert, L83, M|302/302
+-- turn 59
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Enamorus|Superpower|p1a: Swampert
+  -damage|p1a: Swampert|10/302
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  move|p1a: Swampert|Ice Beam|p2a: Enamorus
+  -supereffective|p2a: Enamorus
+  -damage|p2a: Enamorus|58/100
+  -heal|p2a: Enamorus|64/100|[from] item: Leftovers
+  -heal|p1a: Swampert|28/302|[from] item: Leftovers
+-- turn 60
+  WE CHOSE: attack icebeam - our hp 0.09, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to duraludon - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Enamorus|Superpower|p1a: Swampert
+  -damage|p1a: Swampert|0 fnt
+  faint|p1a: Swampert
+  -heal|p2a: Enamorus|71/100|[from] item: Leftovers
+  switch|p1a: Duraludon|Duraludon, L82, F|249/249
+-- turn 61
+  WE CHOSE: attack flashcannon - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to stantler - our hp 0.00, theirs 0.77, predicted move (revealed) hits us x2
+  move|p2a: Enamorus|Superpower|p1a: Duraludon
+  -supereffective|p1a: Duraludon
+  -damage|p1a: Duraludon|0 fnt
+  faint|p1a: Duraludon
+  -heal|p2a: Enamorus|77/100|[from] item: Leftovers
+  switch|p1a: Stantler|Stantler, L91, M|234/281
+  -ability|p1a: Stantler|Intimidate|boost
+  -boost|p2a: Enamorus|atk|0
+-- turn 62
+  WE CHOSE: attack bodyslam - our hp 0.83, theirs 0.77, predicted move (revealed) hits us x2
+  move|p2a: Enamorus|Play Rough|p1a: Stantler
+  -damage|p1a: Stantler|0 fnt
+  faint|p1a: Stantler

@@ -1,0 +1,327 @@
+battle 767 (battle-gen9randombattle-1013444): lost in 38 turns, 1 of theirs left; we are p1
+
+ours:
+  sunflora (fainted; item choicespecs, ability chlorophyll, tera poison; moves dazzlinggleam/earthpower/sludgebomb/leafstorm)
+  heatran (fainted; item ?, ability flashfire; moves earthpower/magmastorm/heavyslam/stealthrock)
+  espathra (fainted; item choicespecs, ability speedboost; moves shadowball/dazzlinggleam/luminacrash/uturn)
+  electivire (fainted; item lifeorb, ability motordrive; moves knockoff/flamethrower/supercellslam/voltswitch)
+  dunsparce (fainted; item eviolite, ability serenegrace; moves roost/coil/bodyslam/earthquake)
+  kingambit (fainted; item leftovers, ability supremeoverlord; moves kowtowcleave/swordsdance/suckerpunch/ironhead)
+theirs (as seen):
+  suicune (fainted; item leftovers, ability pressure; moves icebeam/scald)
+  hoopa (fainted; item ?, ability magician; moves -)
+  chesnaught (fainted; item unknown_item, ability ?; moves woodhammer)
+  eelektross (fainted; item leftovers, ability levitate; moves supercellslam)
+  dunsparce (fainted; item unknown_item, ability ?; moves earthquake)
+  jirachi (70%; item leftovers, ability serenegrace; moves bodyslam)
+
+-- turn 0
+  switch|p1a: Sunflora|Sunflora, F|312/312
+  switch|p2a: Suicune|Suicune, L82|100/100
+  -ability|p2a: Suicune|Pressure
+-- turn 1
+  WE CHOSE: switch to heatran - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Heatran|Heatran, L79, M|273/273
+  -item|p1a: Heatran|Air Balloon
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|261/273
+  -enditem|p1a: Heatran|Air Balloon
+-- turn 2
+  WE CHOSE: attack earthpower - our hp 0.96, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|247/273
+  move|p1a: Heatran|Earth Power|p2a: Suicune
+  -damage|p2a: Suicune|82/100
+  -heal|p2a: Suicune|88/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack earthpower - our hp 0.90, theirs 0.88, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|234/273
+  move|p1a: Heatran|Earth Power|p2a: Suicune
+  -damage|p2a: Suicune|70/100
+  -heal|p2a: Suicune|76/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack earthpower - our hp 0.86, theirs 0.76, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|220/273
+  move|p1a: Heatran|Earth Power|p2a: Suicune
+  -damage|p2a: Suicune|55/100
+  -heal|p2a: Suicune|61/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack earthpower - our hp 0.81, theirs 0.61, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|206/273
+  move|p1a: Heatran|Earth Power|p2a: Suicune
+  -crit|p2a: Suicune
+  -damage|p2a: Suicune|33/100
+  -heal|p2a: Suicune|39/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack earthpower - our hp 0.75, theirs 0.39, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|193/273
+  move|p1a: Heatran|Earth Power|p2a: Suicune
+  -damage|p2a: Suicune|18/100
+  -heal|p2a: Suicune|24/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack earthpower - our hp 0.71, theirs 0.24, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|181/273
+  move|p1a: Heatran|Earth Power|p2a: Suicune
+  -damage|p2a: Suicune|5/100
+  -heal|p2a: Suicune|11/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack earthpower - our hp 0.66, theirs 0.11, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|167/273
+  -status|p1a: Heatran|frz
+  cant|p1a: Heatran|frz
+  -heal|p2a: Suicune|17/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack earthpower - our hp 0.61, theirs 0.17, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|155/273 frz
+  cant|p1a: Heatran|frz
+  -heal|p2a: Suicune|23/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack earthpower - our hp 0.57, theirs 0.23, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|143/273 frz
+  cant|p1a: Heatran|frz
+  -heal|p2a: Suicune|29/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack earthpower - our hp 0.52, theirs 0.29, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|130/273 frz
+  cant|p1a: Heatran|frz
+  -heal|p2a: Suicune|35/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack earthpower - our hp 0.48, theirs 0.35, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|117/273 frz
+  cant|p1a: Heatran|frz
+  -heal|p2a: Suicune|41/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack earthpower - our hp 0.43, theirs 0.41, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|105/273 frz
+  cant|p1a: Heatran|frz
+  -heal|p2a: Suicune|47/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack earthpower - our hp 0.38, theirs 0.47, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|92/273 frz
+  cant|p1a: Heatran|frz
+  -heal|p2a: Suicune|54/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack earthpower - our hp 0.34, theirs 0.54, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|80/273 frz
+  cant|p1a: Heatran|frz
+  -heal|p2a: Suicune|60/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack earthpower - our hp 0.29, theirs 0.60, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Ice Beam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|67/273 frz
+  cant|p1a: Heatran|frz
+  -heal|p2a: Suicune|66/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack earthpower - our hp 0.25, theirs 0.66, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to electivire - our hp 0.00, theirs 0.72, predicted move (revealed) hits us x0.25
+  move|p2a: Suicune|Scald|p1a: Heatran
+  -supereffective|p1a: Heatran
+  -damage|p1a: Heatran|0 fnt
+  faint|p1a: Heatran
+  -heal|p2a: Suicune|72/100|[from] item: Leftovers
+  switch|p1a: Electivire|Electivire, L84, F|263/263
+-- turn 18
+  WE CHOSE: attack supercellslam - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x1
+  move|p1a: Electivire|Supercell Slam|p2a: Suicune
+  -supereffective|p2a: Suicune
+  -damage|p2a: Suicune|0 fnt
+  faint|p2a: Suicune
+  -damage|p1a: Electivire|237/263|[from] item: Life Orb
+  switch|p2a: Hoopa|Hoopa, L85|100/100
+-- turn 19
+  WE CHOSE: attack knockoff - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Electivire|Knock Off|p2a: Hoopa
+  -supereffective|p2a: Hoopa
+  -damage|p2a: Hoopa|0 fnt
+  -enditem|p2a: Hoopa|Life Orb|[from] move: Knock Off|[of] p1a: Electivire
+  faint|p2a: Hoopa
+  -damage|p1a: Electivire|211/263|[from] item: Life Orb
+  switch|p2a: Chesnaught|Chesnaught, L84, F|100/100
+-- turn 20
+  WE CHOSE: attack flamethrower - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Electivire|Flamethrower|p2a: Chesnaught
+  -supereffective|p2a: Chesnaught
+  -damage|p2a: Chesnaught|39/100
+  -damage|p1a: Electivire|185/263|[from] item: Life Orb
+  move|p2a: Chesnaught|Wood Hammer|p1a: Electivire
+  -damage|p1a: Electivire|19/263
+  -damage|p2a: Chesnaught|20/100|[from] Recoil
+-- turn 21
+  WE CHOSE: attack flamethrower - our hp 0.07, theirs 0.20, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to sunflora - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Electivire|Flamethrower|p2a: Chesnaught
+  -supereffective|p2a: Chesnaught
+  -damage|p2a: Chesnaught|0 fnt
+  faint|p2a: Chesnaught
+  -damage|p1a: Electivire|0 fnt|[from] item: Life Orb
+  faint|p1a: Electivire
+  switch|p1a: Sunflora|Sunflora, F|312/312
+  switch|p2a: Eelektross|Eelektross, L87, M|100/100
+-- turn 22
+  WE CHOSE: attack+tera earthpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Sunflora|Poison
+  move|p2a: Eelektross|Supercell Slam|p1a: Sunflora
+  -damage|p1a: Sunflora|161/312
+  move|p1a: Sunflora|Earth Power|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+-- turn 23
+  WE CHOSE: attack earthpower - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Supercell Slam|p1a: Sunflora
+  -damage|p1a: Sunflora|2/312
+  move|p1a: Sunflora|Earth Power|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+-- turn 24
+  WE CHOSE: attack earthpower - our hp 0.01, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dunsparce - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Supercell Slam|p1a: Sunflora
+  -damage|p1a: Sunflora|0 fnt
+  faint|p1a: Sunflora
+  switch|p1a: Dunsparce|Dunsparce, L86, F|312/312
+-- turn 25
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Supercell Slam|p1a: Dunsparce
+  -damage|p1a: Dunsparce|218/312
+  move|p1a: Dunsparce|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+-- turn 26
+  WE CHOSE: attack earthquake - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Supercell Slam|p1a: Dunsparce
+  -damage|p1a: Dunsparce|110/312
+  move|p1a: Dunsparce|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+-- turn 27
+  WE CHOSE: heal roost - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Supercell Slam|p1a: Dunsparce|[miss]
+  -miss|p2a: Eelektross|p1a: Dunsparce
+  -damage|p2a: Eelektross|50/100|[from] supercellslam
+  move|p1a: Dunsparce|Roost|p1a: Dunsparce
+  -heal|p1a: Dunsparce|266/312
+  -singleturn|p1a: Dunsparce|move: Roost
+  -heal|p2a: Eelektross|57/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack earthquake - our hp 0.85, theirs 0.57, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Supercell Slam|p1a: Dunsparce
+  -damage|p1a: Dunsparce|160/312
+  move|p1a: Dunsparce|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p2a: Eelektross|63/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack earthquake - our hp 0.51, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Supercell Slam|p1a: Dunsparce
+  -damage|p1a: Dunsparce|66/312
+  move|p1a: Dunsparce|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p2a: Eelektross|69/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: heal roost - our hp 0.21, theirs 0.69, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kingambit - our hp 0.00, theirs 0.75, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Supercell Slam|p1a: Dunsparce
+  -damage|p1a: Dunsparce|0 fnt
+  faint|p1a: Dunsparce
+  -heal|p2a: Eelektross|75/100|[from] item: Leftovers
+  switch|p1a: Kingambit|Kingambit, L74, M|270/270
+  -activate|p1a: Kingambit|ability: Supreme Overlord
+  -start|p1a: Kingambit|fallen4|[silent]
+-- turn 31
+  WE CHOSE: attack kowtowcleave - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Supercell Slam|p1a: Kingambit
+  -damage|p1a: Kingambit|159/270
+  move|p1a: Kingambit|Kowtow Cleave|p2a: Eelektross
+  -damage|p2a: Eelektross|28/100
+  -heal|p2a: Eelektross|35/100|[from] item: Leftovers
+  -heal|p1a: Kingambit|175/270|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack kowtowcleave - our hp 0.65, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Supercell Slam|p1a: Kingambit
+  -damage|p1a: Kingambit|66/270
+  move|p1a: Kingambit|Kowtow Cleave|p2a: Eelektross
+  -damage|p2a: Eelektross|0 fnt
+  faint|p2a: Eelektross
+  -heal|p1a: Kingambit|82/270|[from] item: Leftovers
+  switch|p2a: Dunsparce|Dunsparce, L86, M|100/100
+-- turn 33
+  WE CHOSE: attack kowtowcleave - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to espathra - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Dunsparce|Earthquake|p1a: Kingambit
+  -supereffective|p1a: Kingambit
+  -damage|p1a: Kingambit|0 fnt
+  faint|p1a: Kingambit
+  -end|p1a: Kingambit|fallen4|[silent]
+  switch|p1a: Espathra|Espathra, L80, F|283/283
+-- turn 34
+  WE CHOSE: attack luminacrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Espathra|Lumina Crash|p2a: Dunsparce
+  -damage|p2a: Dunsparce|66/100
+  -unboost|p2a: Dunsparce|spd|2
+  move|p2a: Dunsparce|Earthquake|p1a: Espathra
+  -damage|p1a: Espathra|208/283
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+-- turn 35
+  WE CHOSE: attack luminacrash - our hp 0.73, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Espathra|Lumina Crash|p2a: Dunsparce
+  -damage|p2a: Dunsparce|1/100
+  -unboost|p2a: Dunsparce|spd|2
+  move|p2a: Dunsparce|Earthquake|p1a: Espathra
+  -damage|p1a: Espathra|129/283
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+-- turn 36
+  WE CHOSE: attack luminacrash - our hp 0.46, theirs 0.01, predicted move (revealed) hits us x1
+  move|p1a: Espathra|Lumina Crash|p2a: Dunsparce
+  -damage|p2a: Dunsparce|0 fnt
+  faint|p2a: Dunsparce
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+  switch|p2a: Jirachi|Jirachi, L80|100/100
+-- turn 37
+  WE CHOSE: attack luminacrash - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Espathra|Lumina Crash|p2a: Jirachi
+  -resisted|p2a: Jirachi
+  -damage|p2a: Jirachi|91/100
+  -unboost|p2a: Jirachi|spd|2
+  move|p2a: Jirachi|Body Slam|p1a: Espathra
+  -damage|p1a: Espathra|50/283
+  -status|p1a: Espathra|par
+  -heal|p2a: Jirachi|97/100|[from] item: Leftovers
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+-- turn 38
+  WE CHOSE: attack luminacrash - our hp 0.18, theirs 0.97, predicted move (revealed) hits us x1
+  move|p1a: Espathra|Lumina Crash|p2a: Jirachi
+  -resisted|p2a: Jirachi
+  -crit|p2a: Jirachi
+  -damage|p2a: Jirachi|70/100
+  -unboost|p2a: Jirachi|spd|2
+  move|p2a: Jirachi|Body Slam|p1a: Espathra
+  -damage|p1a: Espathra|0 fnt
+  faint|p1a: Espathra

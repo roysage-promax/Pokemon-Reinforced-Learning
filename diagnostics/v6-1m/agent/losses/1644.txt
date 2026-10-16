@@ -1,0 +1,147 @@
+battle 1644 (battle-gen9randombattle-1023036): lost in 13 turns, 2 of theirs left; we are p1
+
+ours:
+  taurospaldeacombat (fainted; item choiceband, ability intimidate, tera steel; moves ironhead/earthquake/throatchop/closecombat)
+  delibird (fainted; item heavydutyboots, ability hustle; moves spikes/drillrun/bravebird/icespinner)
+  tsareena (fainted; item heavydutyboots, ability queenlymajesty; moves highjumpkick/powerwhip/synthesis/uturn)
+  arceusice (fainted; item icicleplate, ability multitype; moves calmmind/thunderbolt/judgment/recover)
+  blaziken (fainted; item lifeorb, ability speedboost; moves swordsdance/closecombat/flareblitz/stoneedge)
+  umbreon (fainted; item leftovers, ability synchronize; moves toxic/protect/wish/foulplay)
+theirs (as seen):
+  terapagos (fainted; item unknown_item, ability terashell; moves terastarstorm)
+  cobalion (fainted; item lifeorb, ability justified; moves closecombat)
+  ironcrown (fainted; item unknown_item, ability quarkdrive; moves focusblast)
+  luvdisc (fainted; item unknown_item, ability ?; moves surf)
+  medicham (100%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Tauros|Tauros-Paldea-Combat, L82, M|257/257
+  switch|p2a: Terapagos|Terapagos, L77, M|100/100
+  -activate|p2a: Terapagos|ability: Tera Shift
+  detailschange|p2a: Terapagos|Terapagos-Terastal, L77, M
+  -heal|p2a: Terapagos|100/100|[silent]
+  -ability|p1a: Tauros|Intimidate|boost
+  -unboost|p2a: Terapagos|atk|1
+-- turn 1
+  WE CHOSE: attack+tera closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Tauros|Steel
+  move|p1a: Tauros|Close Combat|p2a: Terapagos
+  -activate|p2a: Terapagos|ability: Tera Shell
+  -resisted|p2a: Terapagos
+  -damage|p2a: Terapagos|68/100
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  move|p2a: Terapagos|Tera Starstorm|p1a: Tauros
+  -resisted|p1a: Tauros
+  -crit|p1a: Tauros
+  -damage|p1a: Tauros|91/257
+-- turn 2
+  WE CHOSE: attack closecombat - our hp 0.35, theirs 0.68, predicted move (revealed) hits us x0.5
+  move|p1a: Tauros|Close Combat|p2a: Terapagos
+  -supereffective|p2a: Terapagos
+  -damage|p2a: Terapagos|0 fnt
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  faint|p2a: Terapagos
+  switch|p2a: Cobalion|Cobalion, L80|100/100
+-- turn 3
+  WE CHOSE: switch to blaziken (hand policy: attack closecombat) - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Blaziken|Blaziken, L76, F|247/247
+  move|p2a: Cobalion|Close Combat|p1a: Blaziken
+  -damage|p1a: Blaziken|72/247
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  -damage|p2a: Cobalion|91/100|[from] item: Life Orb
+-- turn 4
+  WE CHOSE: attack closecombat - our hp 0.29, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tsareena - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Cobalion|Close Combat|p1a: Blaziken
+  -damage|p1a: Blaziken|0 fnt
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  faint|p1a: Blaziken
+  -damage|p2a: Cobalion|81/100|[from] item: Life Orb
+  switch|p1a: Tsareena|Tsareena, L87, F|267/267
+-- turn 5
+  WE CHOSE: attack highjumpkick - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Cobalion|Close Combat|p1a: Tsareena
+  -damage|p1a: Tsareena|129/267
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  -damage|p2a: Cobalion|71/100|[from] item: Life Orb
+  move|p1a: Tsareena|High Jump Kick|p2a: Cobalion
+  -supereffective|p2a: Cobalion
+  -damage|p2a: Cobalion|0 fnt
+  faint|p2a: Cobalion
+  switch|p2a: Iron Crown|Iron Crown, L78|100/100
+-- turn 6
+  WE CHOSE: attack highjumpkick (hand policy: heal synthesis) - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Iron Crown|Focus Blast|p1a: Tsareena
+  -damage|p1a: Tsareena|14/267
+  move|p1a: Tsareena|High Jump Kick|p2a: Iron Crown
+  -damage|p2a: Iron Crown|56/100
+-- turn 7
+  WE CHOSE: heal synthesis - our hp 0.05, theirs 0.56, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to delibird - our hp 0.00, theirs 0.56, predicted move (revealed) hits us x1
+  move|p2a: Iron Crown|Focus Blast|p1a: Tsareena
+  -damage|p1a: Tsareena|0 fnt
+  faint|p1a: Tsareena
+  switch|p1a: Delibird|Delibird, M|252/252
+-- turn 8
+  WE CHOSE: attack drillrun - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x1
+  move|p1a: Delibird|Drill Run|p2a: Iron Crown
+  -supereffective|p2a: Iron Crown
+  -damage|p2a: Iron Crown|0 fnt
+  faint|p2a: Iron Crown
+  -end|p2a: Iron Crown|Quark Drive|[silent]
+  switch|p2a: Luvdisc|Luvdisc, M|100/100
+-- turn 9
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Luvdisc|Surf|p1a: Delibird
+  -damage|p1a: Delibird|153/252
+  move|p1a: Delibird|Brave Bird|p2a: Luvdisc
+  -crit|p2a: Luvdisc
+  -damage|p2a: Luvdisc|0 fnt
+  faint|p2a: Luvdisc
+  -damage|p1a: Delibird|71/252|[from] Recoil
+  switch|p2a: Medicham|Medicham, L86, F|100/100
+-- turn 10
+  WE CHOSE: attack bravebird - our hp 0.28, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to umbreon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Medicham|Close Combat|p1a: Delibird
+  -damage|p1a: Delibird|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Delibird
+  switch|p1a: Umbreon|Umbreon, L84, M|297/297
+-- turn 11
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to taurospaldeacombat - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Medicham|Close Combat|p1a: Umbreon
+  -supereffective|p1a: Umbreon
+  -damage|p1a: Umbreon|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Umbreon
+  switch|p1a: Tauros|Tauros-Paldea-Combat, L82, M, tera:Steel|91/257
+  -ability|p1a: Tauros|Intimidate|boost
+  -unboost|p2a: Medicham|atk|1
+-- turn 12
+  WE CHOSE: attack closecombat (hand policy: attack ironhead) - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to arceusice - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Medicham|Close Combat|p1a: Tauros
+  -supereffective|p1a: Tauros
+  -damage|p1a: Tauros|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Tauros
+  switch|p1a: Arceus|Arceus-Ice, L72|291/291
+-- turn 13
+  WE CHOSE: heal recover (hand policy: attack judgment) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Medicham|Close Combat|p1a: Arceus
+  -supereffective|p1a: Arceus
+  -crit|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Arceus

@@ -1,0 +1,190 @@
+battle 2526 (battle-gen9randombattle-1030099): lost in 18 turns, 2 of theirs left; we are p1
+
+ours:
+  glaceon (fainted; item heavydutyboots, ability icebody; moves mudshot/freezedry/wish/protect)
+  drednaw (fainted; item whiteherb, ability shellarmor; moves shellsmash/earthquake/stoneedge/liquidation)
+  kommoo (fainted; item ?, ability soundproof; moves clangingscales/ironhead/clangoroussoul/drainpunch)
+  gougingfire (fainted; item heavydutyboots, ability protosynthesis; moves dragondance/outrage/morningsun/heatcrash)
+  glimmora (fainted; item powerherb, ability toxicdebris; moves meteorbeam/energyball/sludgewave/earthpower)
+  donphan (fainted; item assaultvest, ability sturdy; moves earthquake/rapidspin/icespinner/knockoff)
+theirs (as seen):
+  galvantula (fainted; item unknown_item, ability ?; moves thunder)
+  fezandipiti (fainted; item unknown_item, ability ?; moves gunkshot)
+  avalugghisui (fainted; item unknown_item, ability ?; moves stoneedge)
+  dondozo (fainted; item leftovers, ability ?; moves wavecrash)
+  ironvaliant (41%; item lifeorb, ability quarkdrive; moves closecombat)
+
+-- turn 0
+  switch|p1a: Glaceon|Glaceon, L94, M|275/275
+  switch|p2a: Galvantula|Galvantula, L82, M|100/100
+-- turn 1
+  WE CHOSE: switch to donphan - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Donphan|Donphan, L84, F|288/288
+  move|p2a: Galvantula|Thunder|p1a: Donphan
+  -immune|p1a: Donphan
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Galvantula|Thunder|p1a: Donphan
+  -immune|p1a: Donphan
+  move|p1a: Donphan|Earthquake|p2a: Galvantula
+  -damage|p2a: Galvantula|31/100
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x0
+  move|p2a: Galvantula|Thunder|p1a: Donphan
+  -immune|p1a: Donphan
+  move|p1a: Donphan|Earthquake|p2a: Galvantula
+  -damage|p2a: Galvantula|0 fnt
+  faint|p2a: Galvantula
+  switch|p2a: Fezandipiti|Fezandipiti, L82, M|100/100
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Fezandipiti|Gunk Shot|p1a: Donphan
+  -resisted|p1a: Donphan
+  -crit|p1a: Donphan
+  -damage|p1a: Donphan|218/288
+  move|p1a: Donphan|Earthquake|p2a: Fezandipiti
+  -supereffective|p2a: Fezandipiti
+  -damage|p2a: Fezandipiti|0 fnt
+  faint|p2a: Fezandipiti
+  switch|p2a: Avalugg|Avalugg-Hisui, L91, F|100/100
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 0.76, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Donphan|Earthquake|p2a: Avalugg
+  -supereffective|p2a: Avalugg
+  -damage|p2a: Avalugg|63/100
+  move|p2a: Avalugg|Stone Edge|p1a: Donphan
+  -resisted|p1a: Donphan
+  -damage|p1a: Donphan|158/288
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 0.55, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p1a: Donphan|Earthquake|p2a: Avalugg
+  -supereffective|p2a: Avalugg
+  -damage|p2a: Avalugg|26/100
+  move|p2a: Avalugg|Stone Edge|p1a: Donphan
+  -resisted|p1a: Donphan
+  -crit|p1a: Donphan
+  -damage|p1a: Donphan|59/288
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.20, theirs 0.26, predicted move (revealed) hits us x0.5
+  move|p1a: Donphan|Earthquake|p2a: Avalugg
+  -supereffective|p2a: Avalugg
+  -damage|p2a: Avalugg|0 fnt
+  faint|p2a: Avalugg
+  switch|p2a: Dondozo|Dondozo, L78, M|100/100
+-- turn 8
+  WE CHOSE: switch to kommoo - our hp 0.20, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Kommo-o|Kommo-o, L77, F|242/242
+  move|p2a: Dondozo|Wave Crash|p1a: Kommo-o
+  -resisted|p1a: Kommo-o
+  -damage|p1a: Kommo-o|198/242
+  -damage|p2a: Dondozo|96/100|[from] Recoil
+  -heal|p2a: Dondozo|100/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: setup clangoroussoul - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+  -boost|p1a: Kommo-o|atk|1
+  -boost|p1a: Kommo-o|def|1
+  -boost|p1a: Kommo-o|spa|1
+  -boost|p1a: Kommo-o|spd|1
+  -boost|p1a: Kommo-o|spe|1
+  -damage|p1a: Kommo-o|119/242
+  -enditem|p1a: Kommo-o|Throat Spray
+  -boost|p1a: Kommo-o|spa|1|[from] item: Throat Spray
+  move|p2a: Dondozo|Wave Crash|p1a: Kommo-o
+  -resisted|p1a: Kommo-o
+  -damage|p1a: Kommo-o|69/242
+  -damage|p2a: Dondozo|96/100|[from] Recoil
+  -heal|p2a: Dondozo|100/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack clangingscales - our hp 0.29, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Kommo-o|Clanging Scales|p2a: Dondozo
+  -damage|p2a: Dondozo|62/100
+  -unboost|p1a: Kommo-o|def|1
+  move|p2a: Dondozo|Wave Crash|p1a: Kommo-o
+  -resisted|p1a: Kommo-o
+  -damage|p1a: Kommo-o|23/242
+  -damage|p2a: Dondozo|57/100|[from] Recoil
+  -heal|p2a: Dondozo|63/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack clangingscales - our hp 0.10, theirs 0.63, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to gougingfire - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x0.5
+  move|p1a: Kommo-o|Clanging Scales|p2a: Dondozo
+  -damage|p2a: Dondozo|24/100
+  -unboost|p1a: Kommo-o|def|1
+  move|p2a: Dondozo|Wave Crash|p1a: Kommo-o
+  -resisted|p1a: Kommo-o
+  -damage|p1a: Kommo-o|0 fnt
+  faint|p1a: Kommo-o
+  -damage|p2a: Dondozo|21/100|[from] Recoil
+  -heal|p2a: Dondozo|28/100|[from] item: Leftovers
+  switch|p1a: Gouging Fire|Gouging Fire, L74|277/277
+-- turn 12
+  WE CHOSE: attack outrage - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p1a: Gouging Fire|Outrage|p2a: Dondozo
+  -damage|p2a: Dondozo|0 fnt
+  faint|p2a: Dondozo
+  switch|p2a: Iron Valiant|Iron Valiant, L78|100/100
+-- turn 13
+  WE CHOSE: attack outrage - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Iron Valiant|Close Combat|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|102/277
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+  move|p1a: Gouging Fire|Outrage|p2a: Iron Valiant|[from] lockedmove
+  -immune|p2a: Iron Valiant
+-- turn 14
+  WE CHOSE: heal morningsun - our hp 0.37, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to glimmora - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Iron Valiant|Close Combat|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Gouging Fire
+  -end|p1a: Gouging Fire|Protosynthesis|[silent]
+  -damage|p2a: Iron Valiant|81/100|[from] item: Life Orb
+  switch|p1a: Glimmora|Glimmora, L75, M|248/248
+-- turn 15
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to donphan - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Iron Valiant|Close Combat|p1a: Glimmora
+  -crit|p1a: Glimmora
+  -damage|p1a: Glimmora|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -activate|p1a: Glimmora|ability: Toxic Debris
+  -sidestart|p2: e2_132138|move: Toxic Spikes
+  faint|p1a: Glimmora
+  -damage|p2a: Iron Valiant|71/100|[from] item: Life Orb
+  switch|p1a: Donphan|Donphan, L84, F|59/288
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 0.20, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to drednaw - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Iron Valiant|Close Combat|p1a: Donphan
+  -damage|p1a: Donphan|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Donphan
+  -damage|p2a: Iron Valiant|61/100|[from] item: Life Orb
+  switch|p1a: Drednaw|Drednaw, L81, F|278/278
+-- turn 17
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to glaceon - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x2
+  move|p2a: Iron Valiant|Close Combat|p1a: Drednaw
+  -supereffective|p1a: Drednaw
+  -damage|p1a: Drednaw|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Drednaw
+  -damage|p2a: Iron Valiant|51/100|[from] item: Life Orb
+  switch|p1a: Glaceon|Glaceon, L94, M|275/275
+-- turn 18
+  WE CHOSE: attack freezedry - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x2
+  move|p2a: Iron Valiant|Close Combat|p1a: Glaceon
+  -supereffective|p1a: Glaceon
+  -damage|p1a: Glaceon|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Glaceon
+  -damage|p2a: Iron Valiant|41/100|[from] item: Life Orb
+  deinit

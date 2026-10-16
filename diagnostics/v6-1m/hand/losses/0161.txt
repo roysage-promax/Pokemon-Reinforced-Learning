@@ -1,0 +1,271 @@
+battle 161 (battle-gen9randombattle-1007733): lost in 31 turns, 3 of theirs left; we are p1
+
+ours:
+  zarude (fainted; item choiceband, ability leafguard; moves powerwhip/closecombat/uturn/knockoff)
+  pincurchin (fainted; item leftovers, ability electricsurge, tera water; moves scald/thunderbolt/recover/toxicspikes)
+  minior (fainted; item ?, ability shieldsdown; moves shellsmash/earthquake/acrobatics/powergem)
+  bronzong (fainted; item leftovers, ability levitate; moves earthquake/hypnosis/stealthrock/ironhead)
+  fluttermane (fainted; item lifeorb, ability protosynthesis; moves shadowball/moonblast/mysticalfire/calmmind)
+  hitmontop (fainted; item leftovers, ability technician; moves closecombat/bulkup/rapidspin/tripleaxel)
+theirs (as seen):
+  heatran (fainted; item ?, ability ?; moves earthpower/lavaplume)
+  registeel (fainted; item unknown_item, ability ?; moves ironhead)
+  delphox (fainted; item unknown_item, ability ?; moves focusblast)
+  terapagos (15%; item unknown_item, ability terashell; moves terastarstorm)
+
+-- turn 0
+  switch|p1a: Zarude|Zarude, L77|288/288
+  switch|p2a: Heatran|Heatran, L79, M|100/100
+  -item|p2a: Heatran|Air Balloon
+-- turn 1
+  WE CHOSE: switch to minior - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Minior|Minior, L79|224/224
+  -formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 2
+  WE CHOSE: setup shellsmash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+  move|p1a: Minior|Shell Smash|p1a: Minior
+  -unboost|p1a: Minior|def|1
+  -unboost|p1a: Minior|spd|1
+  -boost|p1a: Minior|atk|2
+  -boost|p1a: Minior|spa|2
+  -boost|p1a: Minior|spe|2
+  -enditem|p1a: Minior|White Herb
+  -clearnegativeboost|p1a: Minior|[silent]
+-- turn 3
+  WE CHOSE: setup shellsmash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Shell Smash|p1a: Minior
+  -unboost|p1a: Minior|def|1
+  -unboost|p1a: Minior|spd|1
+  -boost|p1a: Minior|atk|2
+  -boost|p1a: Minior|spa|2
+  -boost|p1a: Minior|spe|2
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 4
+  WE CHOSE: setup shellsmash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Shell Smash|p1a: Minior
+  -unboost|p1a: Minior|def|1
+  -unboost|p1a: Minior|spd|1
+  -boost|p1a: Minior|atk|2
+  -boost|p1a: Minior|spa|2
+  -boost|p1a: Minior|spe|2
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 12
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Earth Power|p1a: Minior
+  -immune|p1a: Minior
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Lava Plume|p1a: Minior
+  -resisted|p1a: Minior
+  -damage|p1a: Minior|134/224
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Lava Plume|p1a: Minior
+  -resisted|p1a: Minior
+  -damage|p1a: Minior|50/224
+  -formechange|p1a: Minior|Minior||[from] ability: Shields Down
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to bronzong - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Lava Plume|p1a: Minior
+  -resisted|p1a: Minior
+  -damage|p1a: Minior|0 fnt
+  faint|p1a: Minior
+  switch|p1a: Bronzong|Bronzong, L88|261/261
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Heatran|Lava Plume|p1a: Bronzong
+  -supereffective|p1a: Bronzong
+  -damage|p1a: Bronzong|105/261
+  -status|p1a: Bronzong|brn
+  move|p1a: Bronzong|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -heal|p1a: Bronzong|121/261 brn|[from] item: Leftovers
+  -damage|p1a: Bronzong|105/261 brn|[from] brn
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to zarude - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Heatran|Lava Plume|p1a: Bronzong
+  -supereffective|p1a: Bronzong
+  -damage|p1a: Bronzong|0 fnt
+  faint|p1a: Bronzong
+  switch|p1a: Zarude|Zarude, L77|288/288
+-- turn 22
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to hitmontop - our hp 0.00, theirs 0.21, predicted move (revealed) hits us x0.5
+  move|p1a: Zarude|Close Combat|p2a: Heatran
+  -supereffective|p2a: Heatran
+  -damage|p2a: Heatran|21/100
+  -unboost|p1a: Zarude|def|1
+  -unboost|p1a: Zarude|spd|1
+  -enditem|p2a: Heatran|Air Balloon
+  move|p2a: Heatran|Lava Plume|p1a: Zarude
+  -supereffective|p1a: Zarude
+  -damage|p1a: Zarude|0 fnt
+  faint|p1a: Zarude
+  switch|p1a: Hitmontop|Hitmontop, L88, M|231/231
+-- turn 23
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p1a: Hitmontop|Close Combat|p2a: Heatran
+  -supereffective|p2a: Heatran
+  -damage|p2a: Heatran|0 fnt
+  -unboost|p1a: Hitmontop|def|1
+  -unboost|p1a: Hitmontop|spd|1
+  faint|p2a: Heatran
+  switch|p2a: Registeel|Registeel, L81|100/100
+-- turn 24
+  WE CHOSE: switch to fluttermane - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hitmontop - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Flutter Mane|Flutter Mane, L74|203/203
+  move|p2a: Registeel|Iron Head|p1a: Flutter Mane
+  -supereffective|p1a: Flutter Mane
+  -crit|p1a: Flutter Mane
+  -damage|p1a: Flutter Mane|0 fnt
+  faint|p1a: Flutter Mane
+  -end|p1a: Flutter Mane|Protosynthesis|[silent]
+  switch|p1a: Hitmontop|Hitmontop, L88, M|231/231
+-- turn 25
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Hitmontop|Close Combat|p2a: Registeel
+  -supereffective|p2a: Registeel
+  -crit|p2a: Registeel
+  -damage|p2a: Registeel|0 fnt
+  -unboost|p1a: Hitmontop|def|1
+  -unboost|p1a: Hitmontop|spd|1
+  faint|p2a: Registeel
+  switch|p2a: Delphox|Delphox, L84, F|100/100
+-- turn 26
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Delphox|Focus Blast|p1a: Hitmontop
+  -damage|p1a: Hitmontop|121/231
+  -unboost|p1a: Hitmontop|spd|1
+  move|p1a: Hitmontop|Close Combat|p2a: Delphox
+  -resisted|p2a: Delphox
+  -damage|p2a: Delphox|71/100
+  -unboost|p1a: Hitmontop|def|1
+  -unboost|p1a: Hitmontop|spd|1
+  -heal|p1a: Hitmontop|135/231|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack closecombat - our hp 0.58, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pincurchin - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Delphox|Focus Blast|p1a: Hitmontop
+  -damage|p1a: Hitmontop|0 fnt
+  faint|p1a: Hitmontop
+  switch|p1a: Pincurchin|Pincurchin, M|258/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 28
+  WE CHOSE: attack+tera scald - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  -terastallize|p1a: Pincurchin|Water
+  move|p2a: Delphox|Focus Blast|p1a: Pincurchin|[miss]
+  -miss|p2a: Delphox|p1a: Pincurchin
+  move|p1a: Pincurchin|Scald|p2a: Delphox
+  -supereffective|p2a: Delphox
+  -damage|p2a: Delphox|0 fnt
+  faint|p2a: Delphox
+  switch|p2a: Terapagos|Terapagos, L77, F|100/100
+  -activate|p2a: Terapagos|ability: Tera Shift
+  detailschange|p2a: Terapagos|Terapagos-Terastal, L77, F
+  -heal|p2a: Terapagos|100/100|[silent]
+-- turn 29
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Terapagos|Tera Starstorm|p1a: Pincurchin
+  -damage|p1a: Pincurchin|165/258
+  move|p1a: Pincurchin|Thunderbolt|p2a: Terapagos
+  -activate|p2a: Terapagos|ability: Tera Shell
+  -resisted|p2a: Terapagos
+  -damage|p2a: Terapagos|70/100
+  -status|p2a: Terapagos|par
+  -heal|p1a: Pincurchin|181/258|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack thunderbolt - our hp 0.70, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Terapagos|Tera Starstorm|p1a: Pincurchin
+  -damage|p1a: Pincurchin|78/258
+  move|p1a: Pincurchin|Thunderbolt|p2a: Terapagos
+  -damage|p2a: Terapagos|15/100 par
+  -heal|p1a: Pincurchin|94/258|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: heal recover - our hp 0.36, theirs 0.15, predicted move (revealed) hits us x1
+  move|p2a: Terapagos|Tera Starstorm|p1a: Pincurchin
+  -damage|p1a: Pincurchin|0 fnt
+  faint|p1a: Pincurchin
+  deinit

@@ -1,0 +1,269 @@
+battle 1007 (battle-gen9randombattle-1016564): lost in 30 turns, 1 of theirs left; we are p1
+
+ours:
+  hooh (fainted; item heavydutyboots, ability regenerator, tera steel; moves sacredfire/bravebird/recover/earthquake)
+  breloom (fainted; item lifeorb, ability technician; moves rocktomb/bulletseed/spore/machpunch)
+  pincurchin (fainted; item leftovers, ability electricsurge; moves scald/thunderbolt/toxicspikes/recover)
+  falinks (fainted; item lifeorb, ability defiant; moves knockoff/closecombat/noretreat/ironhead)
+  blissey (fainted; item leftovers, ability naturalcure; moves softboiled/stealthrock/seismictoss/thunderwave)
+  copperajah (fainted; item choiceband, ability heavymetal; moves stoneedge/heatcrash/earthquake/heavyslam)
+theirs (as seen):
+  meowstic (fainted; item unknown_item, ability ?; moves psychicnoise)
+  dusknoir (fainted; item ?, ability frisk; moves poltergeist/earthquake)
+  klefki (fainted; item unknown_item, ability ?; moves playrough)
+  shiftry (fainted; item unknown_item, ability ?; moves leafstorm)
+  espathra (fainted; item leftovers, ability speedboost; moves dazzlinggleam)
+  eelektross (66%; item unknown_item, ability levitate; moves supercellslam)
+
+-- turn 0
+  switch|p1a: Ho-Oh|Ho-Oh, L71|268/268
+  switch|p2a: Meowstic|Meowstic, L89, M|100/100
+-- turn 1
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Meowstic|Psychic Noise|p1a: Ho-Oh
+  -damage|p1a: Ho-Oh|208/268
+  -start|p1a: Ho-Oh|move: Heal Block
+  move|p1a: Ho-Oh|Brave Bird|p2a: Meowstic
+  -damage|p2a: Meowstic|58/100
+  -damage|p1a: Ho-Oh|169/268|[from] Recoil
+-- turn 2
+  WE CHOSE: attack+tera bravebird - our hp 0.63, theirs 0.58, predicted move (revealed) hits us x1
+  -terastallize|p1a: Ho-Oh|Steel
+  move|p2a: Meowstic|Psychic Noise|p1a: Ho-Oh
+  -resisted|p1a: Ho-Oh
+  -damage|p1a: Ho-Oh|137/268
+  move|p1a: Ho-Oh|Brave Bird|p2a: Meowstic
+  -damage|p2a: Meowstic|13/100
+  -damage|p1a: Ho-Oh|96/268|[from] Recoil
+  -end|p1a: Ho-Oh|move: Heal Block
+-- turn 3
+  WE CHOSE: attack sacredfire (hand policy: heal recover) - our hp 0.36, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p2a: Meowstic|Psychic Noise|p1a: Ho-Oh
+  -resisted|p1a: Ho-Oh
+  -crit|p1a: Ho-Oh
+  -damage|p1a: Ho-Oh|52/268
+  -start|p1a: Ho-Oh|move: Heal Block
+  move|p1a: Ho-Oh|Sacred Fire|p2a: Meowstic
+  -damage|p2a: Meowstic|0 fnt
+  faint|p2a: Meowstic
+  switch|p2a: Dusknoir|Dusknoir, L89, M|100/100
+  -item|p1a: Ho-Oh|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Dusknoir
+-- turn 4
+  WE CHOSE: attack bravebird - our hp 0.19, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to blissey - our hp 0.00, theirs 0.72, predicted move (revealed) hits us x1
+  move|p1a: Ho-Oh|Brave Bird|p2a: Dusknoir
+  -damage|p2a: Dusknoir|66/100
+  -damage|p1a: Ho-Oh|26/268|[from] Recoil
+  move|p2a: Dusknoir|Poltergeist|p1a: Ho-Oh
+  -activate|p1a: Ho-Oh|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Ho-Oh|0 fnt
+  faint|p1a: Ho-Oh
+  -heal|p2a: Dusknoir|72/100|[from] item: Leftovers
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+-- turn 5
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Dusknoir|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+  -heal|p2a: Dusknoir|78/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 0.78, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Dusknoir|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+  -heal|p2a: Dusknoir|84/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 0.84, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Dusknoir|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+  -heal|p2a: Dusknoir|91/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Dusknoir|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+  -heal|p2a: Dusknoir|97/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 0.97, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Dusknoir|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+  -heal|p2a: Dusknoir|100/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Dusknoir|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+-- turn 11
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Dusknoir|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+-- turn 12
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Dusknoir|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|317/572
+  -heal|p1a: Blissey|352/572|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: switch to pincurchin (hand policy: attack stealthrock) - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Pincurchin|Pincurchin, M|258/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+  move|p2a: Dusknoir|Earthquake|p1a: Pincurchin
+  -supereffective|p1a: Pincurchin
+  -damage|p1a: Pincurchin|136/258
+  -heal|p1a: Pincurchin|152/258|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: switch to blissey - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Blissey|Blissey, L85, F|352/572
+  move|p2a: Dusknoir|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|113/572
+  -heal|p1a: Blissey|148/572|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: switch to pincurchin (hand policy: attack stealthrock) - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Pincurchin|Pincurchin, M|152/258
+  move|p2a: Dusknoir|Earthquake|p1a: Pincurchin
+  -supereffective|p1a: Pincurchin
+  -damage|p1a: Pincurchin|24/258
+  -heal|p1a: Pincurchin|40/258|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: switch to blissey - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pincurchin - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Blissey|Blissey, L85, F|148/572
+  move|p2a: Dusknoir|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|0 fnt
+  faint|p1a: Blissey
+  switch|p1a: Pincurchin|Pincurchin, M|40/258
+-- turn 17
+  WE CHOSE: switch to falinks (hand policy: heal recover) - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Falinks|Falinks, L84|246/246
+  move|p2a: Dusknoir|Earthquake|p1a: Falinks
+  -damage|p1a: Falinks|172/246
+  -fieldend|move: Electric Terrain
+-- turn 18
+  WE CHOSE: attack knockoff - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Falinks|Knock Off|p2a: Dusknoir
+  -supereffective|p2a: Dusknoir
+  -damage|p2a: Dusknoir|43/100
+  -enditem|p2a: Dusknoir|Leftovers|[from] move: Knock Off|[of] p1a: Falinks
+  -damage|p1a: Falinks|148/246|[from] item: Life Orb
+  move|p2a: Dusknoir|Earthquake|p1a: Falinks
+  -damage|p1a: Falinks|76/246
+-- turn 19
+  WE CHOSE: attack knockoff - our hp 0.31, theirs 0.43, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pincurchin - our hp 0.00, theirs 0.04, predicted move (revealed) hits us x1
+  move|p1a: Falinks|Knock Off|p2a: Dusknoir
+  -supereffective|p2a: Dusknoir
+  -damage|p2a: Dusknoir|4/100
+  -damage|p1a: Falinks|52/246|[from] item: Life Orb
+  move|p2a: Dusknoir|Earthquake|p1a: Falinks
+  -crit|p1a: Falinks
+  -damage|p1a: Falinks|0 fnt
+  faint|p1a: Falinks
+  switch|p1a: Pincurchin|Pincurchin, M|40/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 20
+  WE CHOSE: heal recover - our hp 0.16, theirs 0.04, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to copperajah - our hp 0.00, theirs 0.04, predicted move (revealed) hits us x1
+  move|p2a: Dusknoir|Earthquake|p1a: Pincurchin
+  -supereffective|p1a: Pincurchin
+  -damage|p1a: Pincurchin|0 fnt
+  faint|p1a: Pincurchin
+  switch|p1a: Copperajah|Copperajah, L86, M|350/350
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x1
+  move|p2a: Dusknoir|Earthquake|p1a: Copperajah
+  -supereffective|p1a: Copperajah
+  -damage|p1a: Copperajah|172/350
+  move|p1a: Copperajah|Earthquake|p2a: Dusknoir
+  -damage|p2a: Dusknoir|0 fnt
+  faint|p2a: Dusknoir
+  switch|p2a: Klefki|Klefki, L84, F|100/100
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Klefki|Play Rough|p1a: Copperajah
+  -resisted|p1a: Copperajah
+  -damage|p1a: Copperajah|124/350
+  move|p1a: Copperajah|Earthquake|p2a: Klefki
+  -supereffective|p2a: Klefki
+  -damage|p2a: Klefki|0 fnt
+  faint|p2a: Klefki
+  switch|p2a: Shiftry|Shiftry, L89, F|100/100
+-- turn 23
+  WE CHOSE: switch to breloom (hand policy: attack earthquake) - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Breloom|Breloom, L83, M|235/235
+  move|p2a: Shiftry|Leaf Storm|p1a: Breloom
+  -resisted|p1a: Breloom
+  -damage|p1a: Breloom|139/235
+  -unboost|p2a: Shiftry|spa|2
+-- turn 24
+  WE CHOSE: attack machpunch - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Breloom|Mach Punch|p2a: Shiftry
+  -supereffective|p2a: Shiftry
+  -damage|p2a: Shiftry|14/100
+  -damage|p1a: Breloom|116/235|[from] item: Life Orb
+  move|p2a: Shiftry|Leaf Storm|p1a: Breloom
+  -resisted|p1a: Breloom
+  -damage|p1a: Breloom|66/235
+  -unboost|p2a: Shiftry|spa|2
+  -fieldend|move: Electric Terrain
+-- turn 25
+  WE CHOSE: attack machpunch - our hp 0.28, theirs 0.14, predicted move (revealed) hits us x0.5
+  move|p1a: Breloom|Mach Punch|p2a: Shiftry
+  -supereffective|p2a: Shiftry
+  -damage|p2a: Shiftry|0 fnt
+  faint|p2a: Shiftry
+  -damage|p1a: Breloom|43/235|[from] item: Life Orb
+  switch|p2a: Espathra|Espathra, L80, M|100/100
+-- turn 26
+  WE CHOSE: switch to copperajah - our hp 0.18, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Copperajah|Copperajah, L86, M|124/350
+  move|p2a: Espathra|Dazzling Gleam|p1a: Copperajah
+  -resisted|p1a: Copperajah
+  -damage|p1a: Copperajah|92/350
+  -ability|p2a: Espathra|Speed Boost|boost
+  -boost|p2a: Espathra|spe|1
+-- turn 27
+  WE CHOSE: attack earthquake - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Espathra|Dazzling Gleam|p1a: Copperajah
+  -resisted|p1a: Copperajah
+  -damage|p1a: Copperajah|63/350
+  move|p1a: Copperajah|Earthquake|p2a: Espathra
+  -damage|p2a: Espathra|31/100
+  -heal|p2a: Espathra|37/100|[from] item: Leftovers
+  -ability|p2a: Espathra|Speed Boost|boost
+  -boost|p2a: Espathra|spe|1
+-- turn 28
+  WE CHOSE: attack earthquake - our hp 0.18, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p2a: Espathra|Dazzling Gleam|p1a: Copperajah
+  -resisted|p1a: Copperajah
+  -damage|p1a: Copperajah|34/350
+  move|p1a: Copperajah|Earthquake|p2a: Espathra
+  -damage|p2a: Espathra|0 fnt
+  faint|p2a: Espathra
+  switch|p2a: Eelektross|Eelektross, L87, M|100/100
+-- turn 29
+  WE CHOSE: attack earthquake - our hp 0.10, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to breloom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Supercell Slam|p1a: Copperajah
+  -damage|p1a: Copperajah|0 fnt
+  faint|p1a: Copperajah
+  switch|p1a: Breloom|Breloom, L83, M|43/235
+-- turn 30
+  WE CHOSE: attack machpunch - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Breloom|Mach Punch|p2a: Eelektross
+  -damage|p2a: Eelektross|66/100
+  -damage|p1a: Breloom|20/235|[from] item: Life Orb
+  move|p2a: Eelektross|Supercell Slam|p1a: Breloom
+  -resisted|p1a: Breloom
+  -damage|p1a: Breloom|0 fnt
+  faint|p1a: Breloom

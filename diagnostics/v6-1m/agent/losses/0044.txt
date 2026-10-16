@@ -1,0 +1,212 @@
+battle 44 (battle-gen9randombattle-1006750): lost in 23 turns, 1 of theirs left; we are p1
+
+ours:
+  talonflame (fainted; item heavydutyboots, ability flamebody; moves bravebird/overheat/taunt/roost)
+  deoxysspeed (fainted; item leftovers, ability pressure; moves superpower/psychoboost/spikes/stealthrock)
+  necrozmaduskmane (fainted; item weaknesspolicy, ability prismarmor; moves sunsteelstrike/photongeyser/earthquake/dragondance)
+  duraludon (fainted; item eviolite, ability lightmetal; moves bodypress/dracometeor/thunderwave/flashcannon)
+  hawlucha (fainted; item whiteherb, ability unburden; moves bravebird/swordsdance/closecombat/stoneedge)
+  leavanny (fainted; item loadeddice, ability chlorophyll, tera ghost; moves bulletseed/tripleaxel/stickyweb/knockoff)
+theirs (as seen):
+  palafin (fainted; item unknown_item, ability zerotohero; moves closecombat)
+  inteleon (fainted; item unknown_item, ability ?; moves hydropump)
+  dunsparce (fainted; item unknown_item, ability ?; moves earthquake)
+  staraptor (fainted; item ?, ability ?; moves closecombat)
+  morpeko (fainted; item unknown_item, ability hungerswitch; moves aurawheel)
+  latias (56%; item unknown_item, ability levitate; moves dracometeor)
+
+-- turn 0
+  switch|p1a: Talonflame|Talonflame, L83, F|265/265
+  switch|p2a: Palafin|Palafin, L77, M|100/100
+-- turn 1
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Talonflame|Brave Bird|p2a: Palafin
+  -damage|p2a: Palafin|51/100
+  -damage|p1a: Talonflame|219/265|[from] Recoil
+  move|p2a: Palafin|Close Combat|p1a: Talonflame
+  -resisted|p1a: Talonflame
+  -damage|p1a: Talonflame|170/265
+  -unboost|p2a: Palafin|def|1
+  -unboost|p2a: Palafin|spd|1
+-- turn 2
+  WE CHOSE: attack bravebird - our hp 0.64, theirs 0.51, predicted move (revealed) hits us x0.5
+  move|p1a: Talonflame|Brave Bird|p2a: Palafin
+  -damage|p2a: Palafin|0 fnt
+  faint|p2a: Palafin
+  -damage|p1a: Talonflame|123/265|[from] Recoil
+  switch|p2a: Inteleon|Inteleon, L81, M|100/100
+-- turn 3
+  WE CHOSE: switch to duraludon - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Duraludon|Duraludon, L82, M|249/249
+  move|p2a: Inteleon|Hydro Pump|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|147/249
+-- turn 4
+  WE CHOSE: attack dracometeor - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Inteleon|Hydro Pump|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|49/249
+  move|p1a: Duraludon|Draco Meteor|p2a: Inteleon|[miss]
+  -miss|p1a: Duraludon|p2a: Inteleon
+-- turn 5
+  WE CHOSE: attack dracometeor - our hp 0.20, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to deoxysspeed - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Inteleon|Hydro Pump|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|0 fnt
+  faint|p1a: Duraludon
+  switch|p1a: Deoxys|Deoxys-Speed, L82|216/216
+  -ability|p1a: Deoxys|Pressure
+-- turn 6
+  WE CHOSE: attack psychoboost - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Inteleon|[miss]
+  -miss|p1a: Deoxys|p2a: Inteleon
+  move|p2a: Inteleon|Hydro Pump|p1a: Deoxys|[miss]
+  -miss|p2a: Inteleon|p1a: Deoxys
+-- turn 7
+  WE CHOSE: attack psychoboost - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hawlucha - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Inteleon
+  -damage|p2a: Inteleon|31/100
+  -unboost|p1a: Deoxys|spa|2
+  move|p2a: Inteleon|Hydro Pump|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  faint|p1a: Deoxys
+  switch|p1a: Hawlucha|Hawlucha, L80, M|256/256
+-- turn 8
+  WE CHOSE: attack bravebird (hand policy: attack+tera bravebird) - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to necrozmaduskmane - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Hawlucha
+  -damage|p1a: Hawlucha|0 fnt
+  faint|p1a: Hawlucha
+  switch|p1a: Necrozma|Necrozma-Dusk-Mane, L69|248/248
+-- turn 9
+  WE CHOSE: attack photongeyser - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x1
+  -activate|p2a: Inteleon|move: Struggle
+  move|p2a: Inteleon|Struggle|p1a: Necrozma
+  -damage|p1a: Necrozma|220/248
+  -damage|p2a: Inteleon|6/100|[from] recoil
+  move|p1a: Necrozma|Photon Geyser|p2a: Inteleon
+  -damage|p2a: Inteleon|0 fnt
+  faint|p2a: Inteleon
+  switch|p2a: Dunsparce|Dunsparce, L86, F|100/100
+-- turn 10
+  WE CHOSE: switch to talonflame - our hp 0.89, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Talonflame|Talonflame, L83, F|123/265
+  move|p2a: Dunsparce|Earthquake|p1a: Talonflame
+  -immune|p1a: Talonflame
+-- turn 11
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Talonflame|Brave Bird|p2a: Dunsparce
+  -damage|p2a: Dunsparce|73/100
+  -damage|p1a: Talonflame|94/265|[from] Recoil
+  move|p2a: Dunsparce|Earthquake|p1a: Talonflame
+  -immune|p1a: Talonflame
+-- turn 12
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.35, theirs 0.73, predicted move (revealed) hits us x0
+  move|p1a: Talonflame|Brave Bird|p2a: Dunsparce
+  -damage|p2a: Dunsparce|47/100
+  -damage|p1a: Talonflame|68/265|[from] Recoil
+  move|p2a: Dunsparce|Earthquake|p1a: Talonflame
+  -immune|p1a: Talonflame
+-- turn 13
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.26, theirs 0.47, predicted move (revealed) hits us x0
+  move|p1a: Talonflame|Brave Bird|p2a: Dunsparce
+  -damage|p2a: Dunsparce|19/100
+  -damage|p1a: Talonflame|39/265|[from] Recoil
+  move|p2a: Dunsparce|Earthquake|p1a: Talonflame
+  -immune|p1a: Talonflame
+-- turn 14
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.15, theirs 0.19, predicted move (revealed) hits us x0
+  move|p1a: Talonflame|Brave Bird|p2a: Dunsparce
+  -damage|p2a: Dunsparce|0 fnt
+  faint|p2a: Dunsparce
+  -damage|p1a: Talonflame|20/265|[from] Recoil
+  switch|p2a: Staraptor|Staraptor, L79, M|100/100
+-- turn 15
+  WE CHOSE: heal roost - our hp 0.08, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to necrozmaduskmane - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Talonflame|Roost|p1a: Talonflame
+  -heal|p1a: Talonflame|153/265
+  -singleturn|p1a: Talonflame|move: Roost
+  move|p2a: Staraptor|Close Combat|p1a: Talonflame
+  -damage|p1a: Talonflame|0 fnt
+  -unboost|p2a: Staraptor|def|1
+  -unboost|p2a: Staraptor|spd|1
+  faint|p1a: Talonflame
+  switch|p1a: Necrozma|Necrozma-Dusk-Mane, L69|220/248
+-- turn 16
+  WE CHOSE: switch to leavanny (hand policy: attack sunsteelstrike) - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Leavanny|Leavanny, L86, M|269/269
+  move|p2a: Staraptor|Close Combat|p1a: Leavanny
+  -resisted|p1a: Leavanny
+  -damage|p1a: Leavanny|200/269
+  -unboost|p2a: Staraptor|def|1
+  -unboost|p2a: Staraptor|spd|1
+-- turn 17
+  WE CHOSE: attack+tera knockoff (hand policy: attack knockoff) - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Leavanny|Ghost
+  move|p1a: Leavanny|Knock Off|p2a: Staraptor
+  -damage|p2a: Staraptor|31/100
+  -enditem|p2a: Staraptor|Choice Band|[from] move: Knock Off|[of] p1a: Leavanny
+  move|p2a: Staraptor|Close Combat|p1a: Leavanny
+  -immune|p1a: Leavanny
+-- turn 18
+  WE CHOSE: attack bulletseed (hand policy: attack knockoff) - our hp 0.74, theirs 0.31, predicted move (revealed) hits us x0
+  move|p1a: Leavanny|Bullet Seed|p2a: Staraptor
+  -resisted|p2a: Staraptor
+  -damage|p2a: Staraptor|17/100
+  -resisted|p2a: Staraptor
+  -crit|p2a: Staraptor
+  -damage|p2a: Staraptor|0 fnt
+  faint|p2a: Staraptor
+  -hitcount|p2: Staraptor|2
+  switch|p2a: Morpeko|Morpeko, L88, M|100/100
+-- turn 19
+  WE CHOSE: attack bulletseed - our hp 0.74, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Morpeko|Aura Wheel|p1a: Leavanny
+  -damage|p1a: Leavanny|76/269
+  -boost|p2a: Morpeko|spe|1
+  move|p1a: Leavanny|Bullet Seed|p2a: Morpeko
+  -damage|p2a: Morpeko|87/100
+  -damage|p2a: Morpeko|72/100
+  -damage|p2a: Morpeko|57/100
+  -damage|p2a: Morpeko|42/100
+  -hitcount|p2a: Morpeko|4
+  -formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+-- turn 20
+  WE CHOSE: attack bulletseed - our hp 0.28, theirs 0.42, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to necrozmaduskmane - our hp 0.00, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Morpeko|Aura Wheel|p1a: Leavanny
+  -supereffective|p1a: Leavanny
+  -crit|p1a: Leavanny
+  -damage|p1a: Leavanny|0 fnt
+  -boost|p2a: Morpeko|spe|1
+  faint|p1a: Leavanny
+  -formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+  switch|p1a: Necrozma|Necrozma-Dusk-Mane, L69|220/248
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 0.89, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Morpeko|Aura Wheel|p1a: Necrozma
+  -damage|p1a: Necrozma|105/248
+  -boost|p2a: Morpeko|spe|1
+  move|p1a: Necrozma|Earthquake|p2a: Morpeko
+  -supereffective|p2a: Morpeko
+  -damage|p2a: Morpeko|0 fnt
+  faint|p2a: Morpeko
+  switch|p2a: Latias|Latias, L79, F|100/100
+-- turn 22
+  WE CHOSE: attack sunsteelstrike - our hp 0.42, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Latias|Draco Meteor|p1a: Necrozma
+  -resisted|p1a: Necrozma
+  -damage|p1a: Necrozma|18/248
+  -unboost|p2a: Latias|spa|2
+  move|p1a: Necrozma|Sunsteel Strike|p2a: Latias
+  -damage|p2a: Latias|56/100
+-- turn 23
+  WE CHOSE: attack sunsteelstrike - our hp 0.07, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p2a: Latias|Draco Meteor|p1a: Necrozma
+  -resisted|p1a: Necrozma
+  -damage|p1a: Necrozma|0 fnt
+  -unboost|p2a: Latias|spa|2
+  faint|p1a: Necrozma

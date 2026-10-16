@@ -1,0 +1,173 @@
+battle 182 (battle-gen9randombattle-1008132): lost in 16 turns, 2 of theirs left; we are p1
+
+ours:
+  archaludon (fainted; item lumberry, ability stamina, tera ground; moves swordsdance/earthquake/outrage/ironhead)
+  klefki (fainted; item leftovers, ability prankster; moves magnetrise/thunderwave/spikes/playrough)
+  kyogre (fainted; item leftovers, ability drizzle; moves thunder/calmmind/icebeam/originpulse)
+  ursaluna (fainted; item flameorb, ability guts; moves throatchop/swordsdance/headlongrush/facade)
+  mamoswine (fainted; item lifeorb, ability thickfat; moves earthquake/iciclecrash/iceshard/stealthrock)
+  passimian (fainted; item choiceband, ability defiant; moves closecombat/knockoff/gunkshot/earthquake)
+theirs (as seen):
+  sandyshocks (fainted; item leftovers, ability protosynthesis; moves earthpower)
+  magearna (fainted; item unknown_item, ability soulheart; moves fleurcannon)
+  hypno (fainted; item ?, ability ?; moves focusblast)
+  araquanid (fainted; item ?, ability ?; moves liquidation)
+  serperior (18%; item lifeorb, ability ?; moves leafstorm)
+
+-- turn 0
+  switch|p1a: Archaludon|Archaludon, L77, F|265/265
+  switch|p2a: Sandy Shocks|Sandy Shocks, L80|100/100
+-- turn 1
+  WE CHOSE: attack+tera earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Archaludon|Ground
+  move|p2a: Sandy Shocks|Earth Power|p1a: Archaludon
+  -damage|p1a: Archaludon|127/265
+  -ability|p1a: Archaludon|Stamina|boost
+  -boost|p1a: Archaludon|def|1
+  move|p1a: Archaludon|Earthquake|p2a: Sandy Shocks
+  -supereffective|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|33/100
+  -heal|p2a: Sandy Shocks|39/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 0.48, theirs 0.39, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ursaluna - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Sandy Shocks|Earth Power|p1a: Archaludon
+  -damage|p1a: Archaludon|0 fnt
+  faint|p1a: Archaludon
+  -heal|p2a: Sandy Shocks|45/100|[from] item: Leftovers
+  switch|p1a: Ursaluna|Ursaluna, L79, M|335/335
+-- turn 3
+  WE CHOSE: attack headlongrush - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Sandy Shocks|Earth Power|p1a: Ursaluna
+  -damage|p1a: Ursaluna|211/335
+  move|p1a: Ursaluna|Headlong Rush|p2a: Sandy Shocks
+  -supereffective|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|0 fnt
+  -unboost|p1a: Ursaluna|def|1
+  -unboost|p1a: Ursaluna|spd|1
+  faint|p2a: Sandy Shocks
+  -end|p2a: Sandy Shocks|Protosynthesis|[silent]
+  -status|p1a: Ursaluna|brn|[from] item: Flame Orb
+  switch|p2a: Magearna|Magearna, L77|100/100
+-- turn 4
+  WE CHOSE: attack headlongrush - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Magearna|Fleur Cannon|p1a: Ursaluna|[miss]
+  -miss|p2a: Magearna|p1a: Ursaluna
+  move|p1a: Ursaluna|Headlong Rush|p2a: Magearna
+  -supereffective|p2a: Magearna
+  -damage|p2a: Magearna|0 fnt
+  -unboost|p1a: Ursaluna|def|1
+  -unboost|p1a: Ursaluna|spd|1
+  faint|p2a: Magearna
+  -damage|p1a: Ursaluna|191/335 brn|[from] brn
+  switch|p2a: Hypno|Hypno, L95, F|100/100
+-- turn 5
+  WE CHOSE: switch to kyogre (hand policy: attack headlongrush) - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Kyogre|Kyogre, L71|259/259
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+  move|p2a: Hypno|Focus Blast|p1a: Kyogre
+  -damage|p1a: Kyogre|192/259
+  -unboost|p1a: Kyogre|spd|1
+  -weather|RainDance|[upkeep]
+  -heal|p1a: Kyogre|208/259|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack originpulse - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hypno|Focus Blast|p1a: Kyogre|[miss]
+  -miss|p2a: Hypno|p1a: Kyogre
+  move|p1a: Kyogre|Origin Pulse|p2a: Hypno
+  -damage|p2a: Hypno|62/100
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Hypno|68/100|[from] item: Leftovers
+  -heal|p1a: Kyogre|224/259|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack originpulse - our hp 0.86, theirs 0.68, predicted move (revealed) hits us x1
+  move|p2a: Hypno|Focus Blast|p1a: Kyogre
+  -damage|p1a: Kyogre|120/259
+  move|p1a: Kyogre|Origin Pulse|p2a: Hypno|[miss]
+  -miss|p1a: Kyogre|p2a: Hypno
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Hypno|74/100|[from] item: Leftovers
+  -heal|p1a: Kyogre|136/259|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack originpulse - our hp 0.53, theirs 0.74, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to passimian - our hp 0.00, theirs 0.80, predicted move (revealed) hits us x1
+  move|p2a: Hypno|Focus Blast|p1a: Kyogre
+  -crit|p1a: Kyogre
+  -damage|p1a: Kyogre|0 fnt
+  faint|p1a: Kyogre
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Hypno|80/100|[from] item: Leftovers
+  switch|p1a: Passimian|Passimian, L83, M|302/302
+-- turn 9
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.80, predicted move (revealed) hits us x1
+  move|p2a: Hypno|Focus Blast|p1a: Passimian|[miss]
+  -miss|p2a: Hypno|p1a: Passimian
+  move|p1a: Passimian|Knock Off|p2a: Hypno
+  -supereffective|p2a: Hypno
+  -damage|p2a: Hypno|0 fnt
+  -enditem|p2a: Hypno|Leftovers|[from] move: Knock Off|[of] p1a: Passimian
+  faint|p2a: Hypno
+  -weather|none
+  switch|p2a: Araquanid|Araquanid, L82, F|100/100
+-- turn 10
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Passimian|Knock Off|p2a: Araquanid
+  -damage|p2a: Araquanid|55/100
+  -enditem|p2a: Araquanid|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Passimian
+  move|p2a: Araquanid|Liquidation|p1a: Passimian
+  -damage|p1a: Passimian|167/302
+  -unboost|p1a: Passimian|def|1
+  -ability|p1a: Passimian|Defiant|boost
+  -boost|p1a: Passimian|atk|2
+-- turn 11
+  WE CHOSE: attack knockoff - our hp 0.55, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Passimian|Knock Off|p2a: Araquanid
+  -damage|p2a: Araquanid|0 fnt
+  faint|p2a: Araquanid
+  switch|p2a: Serperior|Serperior, L79, M|100/100
+-- turn 12
+  WE CHOSE: attack knockoff - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to klefki - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Passimian
+  -damage|p1a: Passimian|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Passimian
+  -damage|p2a: Serperior|91/100|[from] item: Life Orb
+  switch|p1a: Klefki|Klefki, L84, F|233/233
+-- turn 13
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|93/233
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|81/100|[from] item: Life Orb
+  move|p1a: Klefki|Play Rough|p2a: Serperior
+  -damage|p2a: Serperior|47/100
+  -heal|p1a: Klefki|107/233|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack playrough - our hp 0.46, theirs 0.47, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to mamoswine - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Klefki
+  -damage|p2a: Serperior|37/100|[from] item: Life Orb
+  switch|p1a: Mamoswine|Mamoswine, L81, M|311/311
+-- turn 15
+  WE CHOSE: attack iciclecrash - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to ursaluna - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x2
+  move|p2a: Serperior|Leaf Storm|p1a: Mamoswine
+  -supereffective|p1a: Mamoswine
+  -damage|p1a: Mamoswine|0 fnt
+  faint|p1a: Mamoswine
+  -damage|p2a: Serperior|28/100|[from] item: Life Orb
+  switch|p1a: Ursaluna|Ursaluna, L79, M|191/335 brn
+-- turn 16
+  WE CHOSE: attack facade - our hp 0.57, theirs 0.28, predicted move (revealed) hits us x2
+  move|p2a: Serperior|Leaf Storm|p1a: Ursaluna
+  -supereffective|p1a: Ursaluna
+  -damage|p1a: Ursaluna|0 fnt
+  faint|p1a: Ursaluna
+  -damage|p2a: Serperior|18/100|[from] item: Life Orb
+  deinit

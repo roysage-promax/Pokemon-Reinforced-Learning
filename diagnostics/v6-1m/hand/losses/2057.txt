@@ -1,0 +1,220 @@
+battle 2057 (battle-gen9randombattle-1025631): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  glimmora (fainted; item focussash, ability toxicdebris; moves earthpower/stealthrock/spikes/sludgewave)
+  diancie (fainted; item assaultvest, ability clearbody; moves earthpower/moonblast/diamondstorm/bodypress)
+  persian (fainted; item silkscarf, ability technician; moves fakeout/uturn/knockoff/doubleedge)
+  infernape (fainted; item lifeorb, ability blaze; moves knockoff/closecombat/overheat/stoneedge)
+  venusaur (fainted; item leftovers, ability overgrow; moves substitute/sludgebomb/gigadrain/leechseed)
+  giratinaorigin (fainted; item griseouscore, ability levitate, tera ghost; moves dracometeor/poltergeist/defog/shadowsneak)
+theirs (as seen):
+  annihilape (fainted; item unknown_item, ability ?; moves drainpunch)
+  sylveon (fainted; item leftovers, ability ?; moves hypervoice)
+  orthworm (fainted; item unknown_item, ability ?; moves irontail)
+  hippowdon (fainted; item rockyhelmet, ability ?; moves stoneedge)
+  cobalion (fainted; item leftovers, ability justified; moves ironhead)
+  beartic (100%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Glimmora|Glimmora, L75, F|248/248
+  switch|p2a: Annihilape|Annihilape, L76, F|100/100
+-- turn 1
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p2a: Annihilape|Drain Punch|p1a: Glimmora
+  -damage|p1a: Glimmora|169/248
+  -activate|p1a: Glimmora|ability: Toxic Debris
+  -sidestart|p2: e2_132138|move: Toxic Spikes
+  move|p1a: Glimmora|Earth Power|p2a: Annihilape
+  -damage|p2a: Annihilape|77/100
+-- turn 2
+  WE CHOSE: switch to giratinaorigin - our hp 0.68, theirs 0.77, predicted move (revealed) hits us x1
+  switch|p1a: Giratina|Giratina-Origin, L72|335/335
+  move|p2a: Annihilape|Drain Punch|p1a: Giratina
+  -immune|p1a: Giratina
+-- turn 3
+  WE CHOSE: attack+tera poltergeist - our hp 1.00, theirs 0.77, predicted move (revealed) hits us x0
+  -terastallize|p1a: Giratina|Ghost
+  move|p2a: Annihilape|Drain Punch|p1a: Giratina
+  -immune|p1a: Giratina
+  move|p1a: Giratina|Poltergeist|p2a: Annihilape
+  -activate|p2a: Annihilape|move: Poltergeist|Chesto Berry
+  -supereffective|p2a: Annihilape
+  -damage|p2a: Annihilape|0 fnt
+  faint|p2a: Annihilape
+  switch|p2a: Sylveon|Sylveon, L85, F|100/100
+  -status|p2a: Sylveon|psn
+-- turn 4
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Giratina|Poltergeist|p2a: Sylveon
+  -activate|p2a: Sylveon|move: Poltergeist|Leftovers
+  -damage|p2a: Sylveon|38/100 psn
+  move|p2a: Sylveon|Hyper Voice|p1a: Giratina
+  -damage|p1a: Giratina|194/335
+  -heal|p2a: Sylveon|44/100 psn|[from] item: Leftovers
+  -damage|p2a: Sylveon|31/100 psn|[from] psn
+-- turn 5
+  WE CHOSE: attack poltergeist - our hp 0.58, theirs 0.31, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Poltergeist|p2a: Sylveon
+  -activate|p2a: Sylveon|move: Poltergeist|Leftovers
+  -damage|p2a: Sylveon|0 fnt
+  faint|p2a: Sylveon
+  switch|p2a: Orthworm|Orthworm, L88, M|100/100
+-- turn 6
+  WE CHOSE: attack poltergeist - our hp 0.58, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Giratina|Poltergeist|p2a: Orthworm
+  -activate|p2a: Orthworm|move: Poltergeist|Chesto Berry
+  -damage|p2a: Orthworm|60/100
+  move|p2a: Orthworm|Iron Tail|p1a: Giratina
+  -damage|p1a: Giratina|82/335
+-- turn 7
+  WE CHOSE: attack poltergeist - our hp 0.24, theirs 0.60, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to infernape - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Giratina|Poltergeist|p2a: Orthworm
+  -activate|p2a: Orthworm|move: Poltergeist|Chesto Berry
+  -damage|p2a: Orthworm|24/100
+  move|p2a: Orthworm|Iron Tail|p1a: Giratina
+  -damage|p1a: Giratina|0 fnt
+  faint|p1a: Giratina
+  switch|p1a: Infernape|Infernape, L82, M|259/259
+-- turn 8
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p1a: Infernape|Close Combat|p2a: Orthworm
+  -supereffective|p2a: Orthworm
+  -damage|p2a: Orthworm|0 fnt
+  -unboost|p1a: Infernape|def|1
+  -unboost|p1a: Infernape|spd|1
+  faint|p2a: Orthworm
+  -damage|p1a: Infernape|234/259|[from] item: Life Orb
+  switch|p2a: Hippowdon|Hippowdon, L82, M|100/100
+  -status|p2a: Hippowdon|psn
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+-- turn 9
+  WE CHOSE: attack closecombat - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to venusaur - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Infernape|Close Combat|p2a: Hippowdon
+  -damage|p2a: Hippowdon|60/100 psn
+  -unboost|p1a: Infernape|def|1
+  -unboost|p1a: Infernape|spd|1
+  -damage|p1a: Infernape|191/259|[from] item: Rocky Helmet|[of] p2a: Hippowdon
+  -damage|p1a: Infernape|166/259|[from] item: Life Orb
+  move|p2a: Hippowdon|Stone Edge|p1a: Infernape
+  -damage|p1a: Infernape|0 fnt
+  faint|p1a: Infernape
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Hippowdon|48/100 psn|[from] psn
+  switch|p1a: Venusaur|Venusaur, L84, F|272/272
+-- turn 10
+  WE CHOSE: attack gigadrain - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Venusaur|Giga Drain|p2a: Hippowdon
+  -supereffective|p2a: Hippowdon
+  -damage|p2a: Hippowdon|0 fnt
+  faint|p2a: Hippowdon
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Venusaur|255/272|[from] Sandstorm
+  -heal|p1a: Venusaur|272/272|[from] item: Leftovers
+  switch|p2a: Cobalion|Cobalion, L80|100/100
+-- turn 11
+  WE CHOSE: attack gigadrain - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Cobalion|Iron Head|p1a: Venusaur
+  -damage|p1a: Venusaur|197/272
+  cant|p1a: Venusaur|flinch
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Venusaur|180/272|[from] Sandstorm
+  -heal|p1a: Venusaur|197/272|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack gigadrain - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cobalion|Iron Head|p1a: Venusaur
+  -damage|p1a: Venusaur|118/272
+  move|p1a: Venusaur|Giga Drain|p2a: Cobalion
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|82/100
+  -heal|p1a: Venusaur|144/272|[from] drain|[of] p2a: Cobalion
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Venusaur|127/272|[from] Sandstorm
+  -heal|p2a: Cobalion|88/100|[from] item: Leftovers
+  -heal|p1a: Venusaur|144/272|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack gigadrain - our hp 0.53, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Cobalion|Iron Head|p1a: Venusaur
+  -damage|p1a: Venusaur|68/272
+  cant|p1a: Venusaur|flinch
+  -weather|none
+  -heal|p2a: Cobalion|94/100|[from] item: Leftovers
+  -heal|p1a: Venusaur|85/272|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack gigadrain - our hp 0.31, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Cobalion|Iron Head|p1a: Venusaur
+  -damage|p1a: Venusaur|6/272
+  move|p1a: Venusaur|Giga Drain|p2a: Cobalion
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|68/100
+  -heal|p1a: Venusaur|43/272|[from] drain|[of] p2a: Cobalion
+  -heal|p2a: Cobalion|74/100|[from] item: Leftovers
+  -heal|p1a: Venusaur|60/272|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack gigadrain - our hp 0.22, theirs 0.74, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to persian - our hp 0.00, theirs 0.80, predicted move (revealed) hits us x1
+  move|p2a: Cobalion|Iron Head|p1a: Venusaur
+  -damage|p1a: Venusaur|0 fnt
+  faint|p1a: Venusaur
+  -heal|p2a: Cobalion|80/100|[from] item: Leftovers
+  switch|p1a: Persian|Persian, L92, M|269/269
+-- turn 16
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.80, predicted move (revealed) hits us x1
+  move|p1a: Persian|Double-Edge|p2a: Cobalion
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|62/100
+  -damage|p1a: Persian|252/269|[from] Recoil
+  move|p2a: Cobalion|Iron Head|p1a: Persian
+  -damage|p1a: Persian|161/269
+  -heal|p2a: Cobalion|68/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack doubleedge - our hp 0.60, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Persian|Double-Edge|p2a: Cobalion
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|49/100
+  -damage|p1a: Persian|144/269|[from] Recoil
+  move|p2a: Cobalion|Iron Head|p1a: Persian
+  -damage|p1a: Persian|53/269
+  -heal|p2a: Cobalion|55/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack doubleedge - our hp 0.20, theirs 0.55, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to glimmora - our hp 0.00, theirs 0.42, predicted move (revealed) hits us x1
+  move|p1a: Persian|Double-Edge|p2a: Cobalion
+  -resisted|p2a: Cobalion
+  -damage|p2a: Cobalion|36/100
+  -damage|p1a: Persian|35/269|[from] Recoil
+  move|p2a: Cobalion|Iron Head|p1a: Persian
+  -damage|p1a: Persian|0 fnt
+  faint|p1a: Persian
+  -heal|p2a: Cobalion|42/100|[from] item: Leftovers
+  switch|p1a: Glimmora|Glimmora, L75, F|169/248
+-- turn 19
+  WE CHOSE: attack earthpower - our hp 0.68, theirs 0.42, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to diancie - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x2
+  move|p2a: Cobalion|Iron Head|p1a: Glimmora
+  -supereffective|p1a: Glimmora
+  -damage|p1a: Glimmora|0 fnt
+  -activate|p1a: Glimmora|ability: Toxic Debris
+  -sidestart|p2: e2_132138|move: Toxic Spikes
+  faint|p1a: Glimmora
+  -heal|p2a: Cobalion|48/100|[from] item: Leftovers
+  switch|p1a: Diancie|Diancie, L82|216/216
+-- turn 20
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x4
+  move|p2a: Cobalion|Iron Head|p1a: Diancie
+  -supereffective|p1a: Diancie
+  -damage|p1a: Diancie|24/216
+  move|p1a: Diancie|Earth Power|p2a: Cobalion
+  -supereffective|p2a: Cobalion
+  -damage|p2a: Cobalion|0 fnt
+  faint|p2a: Cobalion
+  switch|p2a: Beartic|Beartic, L91, M|100/100
+-- turn 21
+  WE CHOSE: attack diamondstorm - our hp 0.11, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Beartic|Close Combat|p1a: Diancie
+  -damage|p1a: Diancie|0 fnt
+  -unboost|p2a: Beartic|def|1
+  -unboost|p2a: Beartic|spd|1
+  faint|p1a: Diancie
+  deinit

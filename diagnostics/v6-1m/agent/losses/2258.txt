@@ -1,0 +1,190 @@
+battle 2258 (battle-gen9randombattle-1029243): lost in 20 turns, 1 of theirs left; we are p1
+
+ours:
+  pikachukalos (fainted; item lightball, ability lightningrod; moves playrough/surf/knockoff/volttackle)
+  gogoat (fainted; item leftovers, ability sapsipper; moves earthquake/milkdrink/bulkup/hornleech)
+  cinderace (fainted; item heavydutyboots, ability libero, tera fighting; moves pyroball/gunkshot/highjumpkick/courtchange)
+  toedscruel (fainted; item leftovers, ability myceliummight; moves earthpower/rapidspin/toxic/gigadrain)
+  komala (fainted; item choiceband, ability comatose; moves bodyslam/uturn/knockoff/earthquake)
+  regidrago (fainted; item choicescarf, ability dragonsmaw; moves dragonenergy/earthquake/dracometeor/outrage)
+theirs (as seen):
+  orthworm (fainted; item leftovers, ability ?; moves bodypress)
+  hariyama (fainted; item unknown_item, ability ?; moves headlongrush)
+  lugia (fainted; item ?, ability ?; moves aeroblast)
+  quaquaval (fainted; item unknown_item, ability moxie; moves closecombat)
+  mausholdfour (fainted; item unknown_item, ability ?; moves bite)
+  serperior (40%; item lifeorb, ability ?; moves leafstorm)
+
+-- turn 0
+  switch|p1a: Pikachu|Pikachu-Kalos, L93, M|216/216
+  switch|p2a: Orthworm|Orthworm, L88, F|100/100
+-- turn 1
+  WE CHOSE: attack volttackle - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Pikachu|Volt Tackle|p2a: Orthworm
+  -damage|p2a: Orthworm|52/100
+  -damage|p1a: Pikachu|173/216|[from] Recoil
+  move|p2a: Orthworm|Body Press|p1a: Pikachu
+  -damage|p1a: Pikachu|51/216
+  -heal|p2a: Orthworm|58/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack volttackle - our hp 0.24, theirs 0.58, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cinderace - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p1a: Pikachu|Volt Tackle|p2a: Orthworm
+  -damage|p2a: Orthworm|11/100
+  -status|p2a: Orthworm|par
+  -damage|p1a: Pikachu|10/216|[from] Recoil
+  move|p2a: Orthworm|Body Press|p1a: Pikachu
+  -damage|p1a: Pikachu|0 fnt
+  faint|p1a: Pikachu
+  -heal|p2a: Orthworm|17/100 par|[from] item: Leftovers
+  switch|p1a: Cinderace|Cinderace, L77, F|249/249
+-- turn 3
+  WE CHOSE: attack pyroball - our hp 1.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p1a: Cinderace|Pyro Ball|p2a: Orthworm
+  -supereffective|p2a: Orthworm
+  -damage|p2a: Orthworm|0 fnt
+  faint|p2a: Orthworm
+  switch|p2a: Hariyama|Hariyama, L87, M|100/100
+-- turn 4
+  WE CHOSE: attack+tera highjumpkick (hand policy: attack pyroball) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Cinderace|Fighting
+  move|p1a: Cinderace|High Jump Kick|p2a: Hariyama
+  -damage|p2a: Hariyama|55/100
+  move|p2a: Hariyama|Headlong Rush|p1a: Cinderace
+  -damage|p1a: Cinderace|117/249
+  -unboost|p2a: Hariyama|def|1
+  -unboost|p2a: Hariyama|spd|1
+-- turn 5
+  WE CHOSE: attack highjumpkick - our hp 0.47, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Cinderace|High Jump Kick|p2a: Hariyama
+  -crit|p2a: Hariyama
+  -damage|p2a: Hariyama|0 fnt
+  faint|p2a: Hariyama
+  switch|p2a: Lugia|Lugia, L73|100/100
+-- turn 6
+  WE CHOSE: switch to regidrago (hand policy: attack pyroball) - our hp 0.47, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Regidrago|Regidrago, L77|435/435
+  move|p2a: Lugia|Aeroblast|p1a: Regidrago
+  -damage|p1a: Regidrago|311/435
+-- turn 7
+  WE CHOSE: attack dragonenergy - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Regidrago|Dragon Energy|p2a: Lugia
+  -damage|p2a: Lugia|82/100
+  move|p2a: Lugia|Aeroblast|p1a: Regidrago
+  -damage|p1a: Regidrago|185/435
+-- turn 8
+  WE CHOSE: attack dragonenergy - our hp 0.43, theirs 0.82, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to komala - our hp 0.00, theirs 0.60, predicted move (revealed) hits us x1
+  move|p1a: Regidrago|Dragon Energy|p2a: Lugia
+  -damage|p2a: Lugia|60/100
+  move|p2a: Lugia|Aeroblast|p1a: Regidrago
+  -crit|p1a: Regidrago
+  -damage|p1a: Regidrago|0 fnt
+  faint|p1a: Regidrago
+  switch|p1a: Komala|Komala, L87, M|255/255
+  -ability|p1a: Komala|Comatose
+-- turn 9
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.60, predicted move (revealed) hits us x1
+  move|p2a: Lugia|Aeroblast|p1a: Komala
+  -damage|p1a: Komala|183/255
+  move|p1a: Komala|Knock Off|p2a: Lugia
+  -supereffective|p2a: Lugia
+  -damage|p2a: Lugia|0 fnt
+  -enditem|p2a: Lugia|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Komala
+  faint|p2a: Lugia
+  switch|p2a: Quaquaval|Quaquaval, L79, M|100/100
+-- turn 10
+  WE CHOSE: switch to gogoat (hand policy: attack knockoff) - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Gogoat|Gogoat, L88, M|360/360
+  move|p2a: Quaquaval|Close Combat|p1a: Gogoat
+  -damage|p1a: Gogoat|117/360
+  -unboost|p2a: Quaquaval|def|1
+  -unboost|p2a: Quaquaval|spd|1
+  -heal|p1a: Gogoat|139/360|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: heal milkdrink - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to toedscruel - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Quaquaval|Close Combat|p1a: Gogoat
+  -damage|p1a: Gogoat|0 fnt
+  -unboost|p2a: Quaquaval|def|1
+  -unboost|p2a: Quaquaval|spd|1
+  faint|p1a: Gogoat
+  -ability|p2a: Quaquaval|Moxie|boost
+  -boost|p2a: Quaquaval|atk|1
+  switch|p1a: Toedscruel|Toedscruel, L87, F|281/281
+-- turn 12
+  WE CHOSE: attack gigadrain - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Toedscruel|Giga Drain|p2a: Quaquaval
+  -supereffective|p2a: Quaquaval
+  -damage|p2a: Quaquaval|0 fnt
+  faint|p2a: Quaquaval
+  switch|p2a: Maushold|Maushold-Four, L76|100/100
+-- turn 13
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Toedscruel|Earth Power|p2a: Maushold
+  -damage|p2a: Maushold|52/100
+  move|p2a: Maushold|Bite|p1a: Toedscruel
+  -damage|p1a: Toedscruel|232/281
+  -heal|p1a: Toedscruel|249/281|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: switch to cinderace (hand policy: attack earthpower) - our hp 0.89, theirs 0.52, predicted move (revealed) hits us x1
+  switch|p1a: Cinderace|Cinderace, L77, F, tera:Fighting|117/249
+  move|p2a: Maushold|Bite|p1a: Cinderace
+  -resisted|p1a: Cinderace
+  -damage|p1a: Cinderace|91/249
+-- turn 15
+  WE CHOSE: attack highjumpkick - our hp 0.37, theirs 0.52, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to toedscruel - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p1a: Cinderace|High Jump Kick|p2a: Maushold|[miss]
+  -miss|p1a: Cinderace|p2a: Maushold
+  -damage|p1a: Cinderace|0 fnt|[from] highjumpkick
+  faint|p1a: Cinderace
+  move|p2a: Maushold|Bite|p1: Cinderace|[notarget]
+  -fail|p2a: Maushold
+  switch|p1a: Toedscruel|Toedscruel, L87, F|249/281
+-- turn 16
+  WE CHOSE: attack earthpower - our hp 0.89, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Toedscruel|Earth Power|p2a: Maushold
+  -damage|p2a: Maushold|9/100
+  move|p2a: Maushold|Bite|p1a: Toedscruel
+  -damage|p1a: Toedscruel|200/281
+  -heal|p1a: Toedscruel|217/281|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack earthpower - our hp 0.77, theirs 0.09, predicted move (revealed) hits us x1
+  move|p1a: Toedscruel|Earth Power|p2a: Maushold
+  -damage|p2a: Maushold|0 fnt
+  faint|p2a: Maushold
+  -heal|p1a: Toedscruel|234/281|[from] item: Leftovers
+  switch|p2a: Serperior|Serperior, L79, F|100/100
+-- turn 18
+  WE CHOSE: attack earthpower - our hp 0.83, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Toedscruel
+  -damage|p1a: Toedscruel|140/281
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|91/100|[from] item: Life Orb
+  move|p1a: Toedscruel|Earth Power|p2a: Serperior
+  -resisted|p2a: Serperior
+  -damage|p2a: Serperior|73/100
+  -boost|p2a: Serperior|spd|1
+  -heal|p1a: Toedscruel|157/281|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack earthpower - our hp 0.56, theirs 0.73, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to komala - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Toedscruel|Earth Power|p2a: Serperior
+  -resisted|p2a: Serperior
+  -damage|p2a: Serperior|60/100
+  move|p2a: Serperior|Leaf Storm|p1a: Toedscruel
+  -damage|p1a: Toedscruel|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Toedscruel
+  -damage|p2a: Serperior|50/100|[from] item: Life Orb
+  switch|p1a: Komala|Komala, L87, M|183/255
+  -ability|p1a: Komala|Comatose
+-- turn 20
+  WE CHOSE: attack uturn - our hp 0.72, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Komala
+  -damage|p1a: Komala|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Komala
+  -damage|p2a: Serperior|40/100|[from] item: Life Orb
+  deinit

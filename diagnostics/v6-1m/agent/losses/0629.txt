@@ -1,0 +1,819 @@
+battle 629 (battle-gen9randombattle-1012671): lost in 105 turns, 1 of theirs left; we are p1
+
+ours:
+  blissey (fainted; item leftovers, ability naturalcure, tera fairy; moves thunderwave/seismictoss/stealthrock/softboiled)
+  salazzle (fainted; item heavydutyboots, ability corrosion; moves nastyplot/terablast/fireblast/sludgewave)
+  ditto (fainted; item choicescarf, ability imposter; moves transform)
+  orthworm (fainted; item leftovers, ability eartheater; moves bodypress/spikes/shedtail/heavyslam)
+  kingdra (fainted; item ?, ability sniper; moves dragondance/outrage/waterfall/wavecrash)
+  venomoth (fainted; item heavydutyboots, ability tintedlens; moves sleeppowder/bugbuzz/quiverdance/sludgewave)
+theirs (as seen):
+  wugtrio (fainted; item unknown_item, ability gooey; moves liquidation)
+  spidops (fainted; item unknown_item, ability ?; moves uturn)
+  drednaw (fainted; item unknown_item, ability ?; moves stoneedge)
+  entei (fainted; item unknown_item, ability ?; moves flareblitz)
+  dragalge (fainted; item leftovers, ability ?; moves dracometeor)
+  spiritomb (4%; item leftovers, ability ?; moves poltergeist/foulplay/suckerpunch/willowisp)
+
+-- turn 0
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+  switch|p2a: Wugtrio|Wugtrio, L91, F|100/100
+-- turn 1
+  WE CHOSE: switch to kingdra (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Kingdra|Kingdra, L84, F|263/263
+  move|p2a: Wugtrio|Liquidation|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|224/263
+-- turn 2
+  WE CHOSE: setup dragondance - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Wugtrio|Liquidation|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|188/263
+  move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+  -boost|p1a: Kingdra|atk|1
+  -boost|p1a: Kingdra|spe|1
+-- turn 3
+  WE CHOSE: setup dragondance - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Dragon Dance|p1a: Kingdra
+  -boost|p1a: Kingdra|atk|1
+  -boost|p1a: Kingdra|spe|1
+  move|p2a: Wugtrio|Liquidation|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|150/263
+  -unboost|p1a: Kingdra|def|1
+-- turn 4
+  WE CHOSE: attack outrage - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Outrage|p2a: Wugtrio
+  -damage|p2a: Wugtrio|0 fnt
+  -ability|p2a: Wugtrio|Gooey
+  -unboost|p1a: Kingdra|spe|1
+  faint|p2a: Wugtrio
+  switch|p2a: Spidops|Spidops, L96, F|100/100
+-- turn 5
+  WE CHOSE: attack outrage - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Kingdra|Outrage|p2a: Spidops|[from] lockedmove
+  -damage|p2a: Spidops|24/100
+  -start|p1a: Kingdra|confusion|[fatigue]
+  -enditem|p1a: Kingdra|Lum Berry|[eat]
+  -end|p1a: Kingdra|confusion
+  move|p2a: Spidops|U-turn|p1a: Kingdra
+  -damage|p1a: Kingdra|42/263
+  switch|p2a: Drednaw|Drednaw, L81, F|100/100|[from] U-turn
+-- turn 6
+  WE CHOSE: attack outrage - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to orthworm - our hp 0.00, theirs 0.12, predicted move (revealed) hits us x1
+  move|p1a: Kingdra|Outrage|p2a: Drednaw
+  -damage|p2a: Drednaw|12/100
+  move|p2a: Drednaw|Stone Edge|p1a: Kingdra
+  -damage|p1a: Kingdra|0 fnt
+  faint|p1a: Kingdra
+  switch|p1a: Orthworm|Orthworm, L88, F|266/266
+-- turn 7
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p2a: Drednaw|Stone Edge|p1a: Orthworm|[miss]
+  -miss|p2a: Drednaw|p1a: Orthworm
+  move|p1a: Orthworm|Body Press|p2a: Drednaw
+  -supereffective|p2a: Drednaw
+  -damage|p2a: Drednaw|0 fnt
+  faint|p2a: Drednaw
+  switch|p2a: Entei|Entei, L78|100/100
+-- turn 8
+  WE CHOSE: switch to salazzle - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Salazzle|Salazzle, L83, F|249/249
+  move|p2a: Entei|Flare Blitz|p1a: Salazzle
+  -resisted|p1a: Salazzle
+  -damage|p1a: Salazzle|115/249
+  -damage|p2a: Entei|86/100|[from] Recoil
+-- turn 9
+  WE CHOSE: setup nastyplot (hand policy: attack sludgewave) - our hp 0.46, theirs 0.86, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ditto (hand policy: forced: switch to blissey) - our hp 0.00, theirs 0.74, predicted move (revealed) hits us x0.5
+  move|p1a: Salazzle|Nasty Plot|p1a: Salazzle
+  -boost|p1a: Salazzle|spa|2
+  move|p2a: Entei|Flare Blitz|p1a: Salazzle
+  -resisted|p1a: Salazzle
+  -damage|p1a: Salazzle|0 fnt
+  faint|p1a: Salazzle
+  -damage|p2a: Entei|74/100|[from] Recoil
+  switch|p1a: Ditto|Ditto, L87|225/225
+  -transform|p1a: Ditto|p2a: Entei|[from] ability: Imposter
+-- turn 10
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.74, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Stone Edge|p2a: Entei
+  -supereffective|p2a: Entei
+  -damage|p2a: Entei|15/100
+  move|p2a: Entei|Flare Blitz|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|112/225
+  -damage|p2a: Entei|3/100|[from] Recoil
+-- turn 11
+  WE CHOSE: attack stoneedge - our hp 0.50, theirs 0.03, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Stone Edge|p2a: Entei
+  -supereffective|p2a: Entei
+  -damage|p2a: Entei|0 fnt
+  faint|p2a: Entei
+  switch|p2a: Spidops|Spidops, L96, F|24/100
+-- turn 12
+  WE CHOSE: attack stoneedge - our hp 0.50, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Stone Edge|p2a: Spidops
+  -supereffective|p2a: Spidops
+  -damage|p2a: Spidops|0 fnt
+  faint|p2a: Spidops
+  switch|p2a: Dragalge|Dragalge, L88, M|100/100
+-- turn 13
+  WE CHOSE: attack stoneedge - our hp 0.50, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to orthworm - our hp 0.00, theirs 0.80, predicted move (revealed) hits us x1
+  move|p1a: Ditto|Stone Edge|p2a: Dragalge
+  -damage|p2a: Dragalge|74/100
+  move|p2a: Dragalge|Draco Meteor|p1a: Ditto
+  -damage|p1a: Ditto|0 fnt
+  -unboost|p2a: Dragalge|spa|2
+  faint|p1a: Ditto
+  -heal|p2a: Dragalge|80/100|[from] item: Leftovers
+  switch|p1a: Orthworm|Orthworm, L88, F|266/266
+-- turn 14
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.80, predicted move (revealed) hits us x0.5
+  move|p1a: Orthworm|Body Press|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|64/100
+  move|p2a: Dragalge|Draco Meteor|p1a: Orthworm
+  -resisted|p1a: Orthworm
+  -damage|p1a: Orthworm|204/266
+  -unboost|p2a: Dragalge|spa|2
+  -heal|p1a: Orthworm|220/266|[from] item: Leftovers
+  -heal|p2a: Dragalge|70/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack bodypress - our hp 0.83, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p1a: Orthworm|Body Press|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|55/100
+  move|p2a: Dragalge|Draco Meteor|p1a: Orthworm
+  -resisted|p1a: Orthworm
+  -damage|p1a: Orthworm|173/266
+  -unboost|p2a: Dragalge|spa|2
+  -heal|p1a: Orthworm|189/266|[from] item: Leftovers
+  -heal|p2a: Dragalge|61/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack bodypress - our hp 0.71, theirs 0.61, predicted move (revealed) hits us x0.5
+  move|p1a: Orthworm|Body Press|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|47/100
+  move|p2a: Dragalge|Draco Meteor|p1a: Orthworm
+  -resisted|p1a: Orthworm
+  -damage|p1a: Orthworm|158/266
+  -heal|p1a: Orthworm|174/266|[from] item: Leftovers
+  -heal|p2a: Dragalge|53/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack bodypress - our hp 0.65, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p1a: Orthworm|Body Press|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|38/100
+  move|p2a: Dragalge|Draco Meteor|p1a: Orthworm
+  -resisted|p1a: Orthworm
+  -damage|p1a: Orthworm|142/266
+  -heal|p1a: Orthworm|158/266|[from] item: Leftovers
+  -heal|p2a: Dragalge|44/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack bodypress - our hp 0.59, theirs 0.44, predicted move (revealed) hits us x0.5
+  move|p1a: Orthworm|Body Press|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|29/100
+  move|p2a: Dragalge|Draco Meteor|p1a: Orthworm
+  -resisted|p1a: Orthworm
+  -damage|p1a: Orthworm|123/266
+  -heal|p1a: Orthworm|139/266|[from] item: Leftovers
+  -heal|p2a: Dragalge|35/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack bodypress - our hp 0.52, theirs 0.35, predicted move (revealed) hits us x0.5
+  move|p1a: Orthworm|Body Press|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|18/100
+  move|p2a: Dragalge|Draco Meteor|p1a: Orthworm
+  -resisted|p1a: Orthworm
+  -damage|p1a: Orthworm|104/266
+  -heal|p1a: Orthworm|120/266|[from] item: Leftovers
+  -heal|p2a: Dragalge|24/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack bodypress - our hp 0.45, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p1a: Orthworm|Body Press|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|8/100
+  move|p2a: Dragalge|Draco Meteor|p1a: Orthworm
+  -resisted|p1a: Orthworm
+  -damage|p1a: Orthworm|83/266
+  -heal|p1a: Orthworm|99/266|[from] item: Leftovers
+  -heal|p2a: Dragalge|14/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack bodypress - our hp 0.37, theirs 0.14, predicted move (revealed) hits us x0.5
+  move|p1a: Orthworm|Body Press|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|0 fnt
+  faint|p2a: Dragalge
+  -heal|p1a: Orthworm|115/266|[from] item: Leftovers
+  switch|p2a: Spiritomb|Spiritomb, L89, M|100/100
+-- turn 22
+  WE CHOSE: switch to blissey - our hp 0.43, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+  move|p2a: Spiritomb|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+-- turn 23
+  WE CHOSE: switch to venomoth (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Venomoth|Venomoth, L84, F|255/255
+  move|p2a: Spiritomb|Poltergeist|p1a: Venomoth
+  -activate|p1a: Venomoth|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Venomoth|95/255
+-- turn 24
+  WE CHOSE: switch to blissey - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+  move|p2a: Spiritomb|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+-- turn 25
+  WE CHOSE: switch to venomoth (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to blissey - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Venomoth|Venomoth, L84, F|95/255
+  move|p2a: Spiritomb|Poltergeist|p1a: Venomoth
+  -activate|p1a: Venomoth|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Venomoth|0 fnt
+  faint|p1a: Venomoth
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+-- turn 26
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Spiritomb|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+-- turn 27
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Spiritomb|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+-- turn 28
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Spiritomb|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+-- turn 29
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Spiritomb|Poltergeist|p1a: Blissey
+  -immune|p1a: Blissey
+-- turn 30
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|541/572
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|536/572
+  -heal|p1a: Blissey|571/572|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|539/572
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: heal softboiled (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Soft-Boiled||[still]
+  -fail|p1a: Blissey|heal
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|539/572
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: switch to orthworm (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Orthworm|Orthworm, L88, F|115/266
+  move|p2a: Spiritomb|Foul Play|p1a: Orthworm
+  -damage|p1a: Orthworm|49/266
+  -heal|p1a: Orthworm|65/266|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: switch to blissey - our hp 0.24, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|539/572
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: switch to orthworm (hand policy: attack thunderwave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to blissey - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Orthworm|Orthworm, L88, F|65/266
+  move|p2a: Spiritomb|Foul Play|p1a: Orthworm
+  -damage|p1a: Orthworm|0 fnt
+  faint|p1a: Orthworm
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+-- turn 37
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -status|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|539/572
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  cant|p2a: Spiritomb|par
+-- turn 39
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|538/572
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|536/572
+  -heal|p1a: Blissey|571/572|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|538/572
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 42
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|535/572
+  -heal|p1a: Blissey|570/572|[from] item: Leftovers
+-- turn 43
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|539/572
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 44
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|536/572
+  -heal|p1a: Blissey|571/572|[from] item: Leftovers
+-- turn 45
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|538/572
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 46
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|538/572
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 47
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|535/572
+  -heal|p1a: Blissey|570/572|[from] item: Leftovers
+-- turn 48
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  cant|p2a: Spiritomb|par
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 49
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|539/572
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 50
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|536/572
+  -heal|p1a: Blissey|571/572|[from] item: Leftovers
+-- turn 51
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  cant|p2a: Spiritomb|par
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 52
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|539/572
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 53
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|538/572
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 54
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|536/572
+  -heal|p1a: Blissey|571/572|[from] item: Leftovers
+-- turn 55
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -damage|p1a: Blissey|535/572
+  -heal|p1a: Blissey|570/572|[from] item: Leftovers
+-- turn 56
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Foul Play|p1a: Blissey
+  -crit|p1a: Blissey
+  -damage|p1a: Blissey|519/572
+  -heal|p1a: Blissey|554/572|[from] item: Leftovers
+-- turn 57
+  WE CHOSE: attack thunderwave - our hp 0.97, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  -heal|p1a: Blissey|572/572|[from] item: Leftovers
+-- turn 58
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Sucker Punch||[still]
+  -fail|p2a: Spiritomb
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+-- turn 59
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+-- turn 60
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Sucker Punch||[still]
+  -fail|p2a: Spiritomb
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+-- turn 61
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Sucker Punch||[still]
+  -fail|p2a: Spiritomb
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+-- turn 62
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Sucker Punch||[still]
+  -fail|p2a: Spiritomb
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+-- turn 63
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Spiritomb|par
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+-- turn 64
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Sucker Punch||[still]
+  -fail|p2a: Spiritomb
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+-- turn 65
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Sucker Punch||[still]
+  -fail|p2a: Spiritomb
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+-- turn 66
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Sucker Punch||[still]
+  -fail|p2a: Spiritomb
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+-- turn 67
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Spiritomb|Sucker Punch||[still]
+  -fail|p2a: Spiritomb
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+-- turn 68
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Blissey|Thunder Wave|p2a: Spiritomb
+  -fail|p2a: Spiritomb|par
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -status|p1a: Blissey|brn
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 69
+  WE CHOSE: attack+tera seismictoss (hand policy: attack seismictoss) - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  -terastallize|p1a: Blissey|Fairy
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 70
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey|[miss]
+  -miss|p2a: Spiritomb|p1a: Blissey
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 71
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 72
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  cant|p2a: Spiritomb|par
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 73
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey|[miss]
+  -miss|p2a: Spiritomb|p1a: Blissey
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 74
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  cant|p2a: Spiritomb|par
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 75
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 76
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  cant|p2a: Spiritomb|par
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 77
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 78
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 79
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 80
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  cant|p2a: Spiritomb|par
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 81
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 82
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  cant|p2a: Spiritomb|par
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 83
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey|[miss]
+  -miss|p2a: Spiritomb|p1a: Blissey
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 84
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey|[miss]
+  -miss|p2a: Spiritomb|p1a: Blissey
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 85
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 86
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 87
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 88
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 89
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  cant|p2a: Spiritomb|par
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 90
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  cant|p2a: Spiritomb|par
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 91
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 92
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 93
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 94
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 95
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 96
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey|[miss]
+  -miss|p2a: Spiritomb|p1a: Blissey
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 97
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  cant|p2a: Spiritomb|par
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 98
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 99
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  move|p2a: Spiritomb|Will-O-Wisp|p1a: Blissey
+  -fail|p1a: Blissey|brn
+  -heal|p1a: Blissey|572/572 brn|[from] item: Leftovers
+  -damage|p1a: Blissey|537/572 brn|[from] brn
+-- turn 100
+  WE CHOSE: attack seismictoss - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Spiritomb
+  -immune|p2a: Spiritomb
+  -activate|p2a: Spiritomb|move: Struggle
+  move|p2a: Spiritomb|Struggle|p1a: Blissey
+  -damage|p1a: Blissey|433/572 brn
+  -damage|p2a: Spiritomb|75/100 par|[from] recoil
+  -heal|p1a: Blissey|468/572 brn|[from] item: Leftovers
+  -heal|p2a: Spiritomb|81/100 par|[from] item: Leftovers
+  -damage|p1a: Blissey|433/572 brn|[from] brn
+-- turn 101
+  WE CHOSE: attack stealthrock - our hp 0.76, theirs 0.81, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Stealth Rock|p2a: Spiritomb
+  -sidestart|p2: e2_132141|move: Stealth Rock
+  -activate|p2a: Spiritomb|move: Struggle
+  move|p2a: Spiritomb|Struggle|p1a: Blissey
+  -damage|p1a: Blissey|320/572 brn
+  -damage|p2a: Spiritomb|56/100 par|[from] recoil
+  -heal|p1a: Blissey|355/572 brn|[from] item: Leftovers
+  -heal|p2a: Spiritomb|62/100 par|[from] item: Leftovers
+  -damage|p1a: Blissey|320/572 brn|[from] brn
+-- turn 102
+  WE CHOSE: attack stealthrock - our hp 0.56, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Stealth Rock||[still]
+  -fail|p1a: Blissey
+  -activate|p2a: Spiritomb|move: Struggle
+  move|p2a: Spiritomb|Struggle|p1a: Blissey
+  -damage|p1a: Blissey|212/572 brn
+  -damage|p2a: Spiritomb|37/100 par|[from] recoil
+  -heal|p1a: Blissey|247/572 brn|[from] item: Leftovers
+  -heal|p2a: Spiritomb|43/100 par|[from] item: Leftovers
+  -damage|p1a: Blissey|212/572 brn|[from] brn
+-- turn 103
+  WE CHOSE: attack stealthrock - our hp 0.37, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Stealth Rock||[still]
+  -fail|p1a: Blissey
+  -activate|p2a: Spiritomb|move: Struggle
+  move|p2a: Spiritomb|Struggle|p1a: Blissey
+  -damage|p1a: Blissey|106/572 brn
+  -damage|p2a: Spiritomb|18/100 par|[from] recoil
+  -heal|p1a: Blissey|141/572 brn|[from] item: Leftovers
+  -heal|p2a: Spiritomb|24/100 par|[from] item: Leftovers
+  -damage|p1a: Blissey|106/572 brn|[from] brn
+-- turn 104
+  WE CHOSE: attack stealthrock - our hp 0.19, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Stealth Rock||[still]
+  -fail|p1a: Blissey
+  cant|p2a: Spiritomb|par
+  -heal|p1a: Blissey|141/572 brn|[from] item: Leftovers
+  -heal|p2a: Spiritomb|30/100 par|[from] item: Leftovers
+  -damage|p1a: Blissey|106/572 brn|[from] brn
+-- turn 105
+  WE CHOSE: attack stealthrock - our hp 0.19, theirs 0.30, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Stealth Rock||[still]
+  -fail|p1a: Blissey
+  -activate|p2a: Spiritomb|move: Struggle
+  move|p2a: Spiritomb|Struggle|p1a: Blissey
+  -damage|p1a: Blissey|0 fnt
+  faint|p1a: Blissey
+  -damage|p2a: Spiritomb|4/100 par|[from] recoil

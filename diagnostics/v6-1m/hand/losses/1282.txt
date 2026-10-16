@@ -1,0 +1,207 @@
+battle 1282 (battle-gen9randombattle-1018352): lost in 24 turns, 4 of theirs left; we are p1
+
+ours:
+  dudunsparcethreesegment (fainted; item leftovers, ability serenegrace; moves headbutt/glare/earthquake/roost)
+  mewtwo (fainted; item lifeorb, ability unnerve; moves psystrike/nastyplot/fireblast/recover)
+  gengar (fainted; item lifeorb, ability cursedbody; moves shadowball/nastyplot/focusblast/sludgewave)
+  jumpluff (fainted; item ?, ability infiltrator, tera steel; moves substitute/strengthsap/leechseed/acrobatics)
+  spidops (fainted; item heavydutyboots, ability stakeout; moves knockoff/stickyweb/uturn/spikes)
+  sableye (fainted; item leftovers, ability prankster; moves knockoff/encore/willowisp/recover)
+theirs (as seen):
+  piloswine (fainted; item unknown_item, ability ?; moves earthquake)
+  klawf (fainted; item ?, ability angershell; moves stoneedge/crabhammer)
+  ragingbolt (5%; item ?, ability protosynthesis; moves thunderbolt)
+
+-- turn 0
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, F|343/343
+  switch|p2a: Piloswine|Piloswine, L85, M|100/100
+-- turn 1
+  WE CHOSE: switch to jumpluff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Jumpluff|Jumpluff, L87, F|271/271
+  move|p2a: Piloswine|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 2
+  WE CHOSE: attack acrobatics - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Acrobatics|p2a: Piloswine
+  -crit|p2a: Piloswine
+  -damage|p2a: Piloswine|72/100
+  move|p2a: Piloswine|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 3
+  WE CHOSE: attack acrobatics - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Acrobatics|p2a: Piloswine
+  -damage|p2a: Piloswine|54/100
+  move|p2a: Piloswine|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 4
+  WE CHOSE: attack acrobatics - our hp 1.00, theirs 0.54, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Acrobatics|p2a: Piloswine
+  -damage|p2a: Piloswine|36/100
+  move|p2a: Piloswine|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 5
+  WE CHOSE: attack acrobatics - our hp 1.00, theirs 0.36, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Acrobatics|p2a: Piloswine
+  -damage|p2a: Piloswine|19/100
+  move|p2a: Piloswine|Earthquake|p1a: Jumpluff
+  -immune|p1a: Jumpluff
+-- turn 6
+  WE CHOSE: attack acrobatics - our hp 1.00, theirs 0.19, predicted move (revealed) hits us x0
+  move|p1a: Jumpluff|Acrobatics|p2a: Piloswine
+  -damage|p2a: Piloswine|0 fnt
+  faint|p2a: Piloswine
+  switch|p2a: Klawf|Klawf, L90, F|100/100
+-- turn 7
+  WE CHOSE: attack acrobatics - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Jumpluff|Acrobatics|p2a: Klawf
+  -resisted|p2a: Klawf
+  -damage|p2a: Klawf|88/100
+  move|p2a: Klawf|Stone Edge|p1a: Jumpluff|[miss]
+  -miss|p2a: Klawf|p1a: Jumpluff
+-- turn 8
+  WE CHOSE: attack+tera acrobatics - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x2
+  -terastallize|p1a: Jumpluff|Steel
+  move|p1a: Jumpluff|Acrobatics|p2a: Klawf
+  -resisted|p2a: Klawf
+  -damage|p2a: Klawf|75/100
+  move|p2a: Klawf|Stone Edge|p1a: Jumpluff
+  -resisted|p1a: Jumpluff
+  -damage|p1a: Jumpluff|196/271
+-- turn 9
+  WE CHOSE: attack acrobatics - our hp 0.72, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p1a: Jumpluff|Acrobatics|p2a: Klawf
+  -resisted|p2a: Klawf
+  -damage|p2a: Klawf|64/100
+  move|p2a: Klawf|Stone Edge|p1a: Jumpluff|[miss]
+  -miss|p2a: Klawf|p1a: Jumpluff
+-- turn 10
+  WE CHOSE: attack acrobatics - our hp 0.72, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p1a: Jumpluff|Acrobatics|p2a: Klawf
+  -resisted|p2a: Klawf
+  -damage|p2a: Klawf|52/100
+  move|p2a: Klawf|Stone Edge|p1a: Jumpluff|[miss]
+  -miss|p2a: Klawf|p1a: Jumpluff
+-- turn 11
+  WE CHOSE: attack acrobatics - our hp 0.72, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p1a: Jumpluff|Acrobatics|p2a: Klawf
+  -resisted|p2a: Klawf
+  -damage|p2a: Klawf|41/100
+  -ability|p2a: Klawf|Anger Shell|boost
+  -boost|p2a: Klawf|atk|1
+  -boost|p2a: Klawf|spa|1
+  -boost|p2a: Klawf|spe|1
+  -unboost|p2a: Klawf|def|1
+  -unboost|p2a: Klawf|spd|1
+  -enditem|p2a: Klawf|Sitrus Berry|[eat]
+  -heal|p2a: Klawf|66/100|[from] item: Sitrus Berry
+  move|p2a: Klawf|Stone Edge|p1a: Jumpluff
+  -resisted|p1a: Jumpluff
+  -damage|p1a: Jumpluff|86/271
+-- turn 12
+  WE CHOSE: heal strengthsap - our hp 0.32, theirs 0.66, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dudunsparcethreesegment - our hp 0.00, theirs 0.66, predicted move (revealed) hits us x0.5
+  move|p2a: Klawf|Stone Edge|p1a: Jumpluff
+  -resisted|p1a: Jumpluff
+  -damage|p1a: Jumpluff|0 fnt
+  faint|p1a: Jumpluff
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, F|343/343
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Klawf|Stone Edge|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|147/343
+  move|p1a: Dudunsparce|Earthquake|p2a: Klawf
+  -supereffective|p2a: Klawf
+  -damage|p2a: Klawf|3/100
+  -ability|p2a: Klawf|Anger Shell|boost
+  -boost|p2a: Klawf|atk|1
+  -boost|p2a: Klawf|spa|1
+  -boost|p2a: Klawf|spe|1
+  -unboost|p2a: Klawf|def|1
+  -unboost|p2a: Klawf|spd|1
+  -heal|p1a: Dudunsparce|168/343|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal roost - our hp 0.49, theirs 0.03, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gengar - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Klawf|Stone Edge|p1a: Dudunsparce
+  -crit|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|0 fnt
+  faint|p1a: Dudunsparce
+  switch|p1a: Gengar|Gengar, L81, M|230/230
+-- turn 15
+  WE CHOSE: attack focusblast - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mewtwo - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Klawf|Crabhammer|p1a: Gengar
+  -damage|p1a: Gengar|0 fnt
+  faint|p1a: Gengar
+  switch|p1a: Mewtwo|Mewtwo, L72|272/272
+  -ability|p1a: Mewtwo|Unnerve
+-- turn 16
+  WE CHOSE: attack psystrike - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Klawf|Crabhammer|p1a: Mewtwo|[miss]
+  -miss|p2a: Klawf|p1a: Mewtwo
+  move|p1a: Mewtwo|Psystrike|p2a: Klawf
+  -damage|p2a: Klawf|0 fnt
+  faint|p2a: Klawf
+  -damage|p1a: Mewtwo|245/272|[from] item: Life Orb
+  switch|p2a: Raging Bolt|Raging Bolt, L78|100/100
+  -enditem|p2a: Raging Bolt|Booster Energy
+  -activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+  -start|p2a: Raging Bolt|protosynthesisspa
+-- turn 17
+  WE CHOSE: attack psystrike - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Mewtwo|Psystrike|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|51/100
+  -damage|p1a: Mewtwo|218/272|[from] item: Life Orb
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Mewtwo
+  -damage|p1a: Mewtwo|44/272
+  -status|p1a: Mewtwo|par
+-- turn 18
+  WE CHOSE: heal recover - our hp 0.16, theirs 0.51, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to spidops - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Mewtwo
+  -damage|p1a: Mewtwo|0 fnt
+  faint|p1a: Mewtwo
+  switch|p1a: Spidops|Spidops, L96, M|271/271
+-- turn 19
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Spidops
+  -damage|p1a: Spidops|154/271
+  -status|p1a: Spidops|par
+  cant|p1a: Spidops|par
+-- turn 20
+  WE CHOSE: attack uturn - our hp 0.57, theirs 0.51, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to sableye - our hp 0.06, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Spidops
+  -damage|p1a: Spidops|16/271 par
+  move|p1a: Spidops|U-turn|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|25/100
+  switch|p1a: Sableye|Sableye, L88, M|231/231|[from] U-turn
+-- turn 21
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Sableye
+  -damage|p1a: Sableye|57/231
+  move|p1a: Sableye|Knock Off|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|5/100
+  -heal|p1a: Sableye|71/231|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal recover - our hp 0.31, theirs 0.05, predicted move (revealed) hits us x1
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|187/231
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Sableye
+  -damage|p1a: Sableye|31/231
+  -heal|p1a: Sableye|45/231|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal recover - our hp 0.19, theirs 0.05, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to spidops - our hp 0.00, theirs 0.05, predicted move (revealed) hits us x1
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|161/231
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Sableye
+  -damage|p1a: Sableye|0 fnt
+  faint|p1a: Sableye
+  switch|p1a: Spidops|Spidops, L96, M|16/271 par
+-- turn 24
+  WE CHOSE: attack uturn - our hp 0.06, theirs 0.05, predicted move (revealed) hits us x1
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Spidops
+  -damage|p1a: Spidops|0 fnt
+  faint|p1a: Spidops
+  deinit

@@ -1,0 +1,257 @@
+battle 2981 (battle-gen9randombattle-1035824): lost in 29 turns, 1 of theirs left; we are p1
+
+ours:
+  hitmonlee (fainted; item choiceband, ability reckless; moves machpunch/knockoff/highjumpkick/stoneedge)
+  reshiram (fainted; item heavydutyboots, ability turboblaze; moves dracometeor/earthpower/willowisp/blueflare)
+  ironcrown (fainted; item choicespecs, ability quarkdrive, tera steel; moves tachyoncutter/voltswitch/psyshock/focusblast)
+  chansey (fainted; item eviolite, ability naturalcure; moves seismictoss/stealthrock/thunderwave/softboiled)
+  feraligatr (fainted; item lifeorb, ability sheerforce; moves crunch/dragondance/liquidation/icepunch)
+  hippowdon (fainted; item leftovers, ability sandstream; moves whirlwind/stoneedge/earthquake/slackoff)
+theirs (as seen):
+  infernape (fainted; item unknown_item, ability ?; moves flareblitz)
+  enamorustherian (fainted; item unknown_item, ability overcoat; moves moonblast)
+  rampardos (fainted; item unknown_item, ability ?; moves headsmash)
+  volcanion (fainted; item unknown_item, ability waterabsorb; moves steameruption)
+  arceuswater (fainted; item unknown_item, ability multitype; moves judgment)
+  sandslash (88%; item leftovers, ability ?; moves earthquake)
+
+-- turn 0
+  switch|p1a: Hitmonlee|Hitmonlee, L85, M|223/223
+  switch|p2a: Infernape|Infernape, L82, F|100/100
+-- turn 1
+  WE CHOSE: switch to reshiram (hand policy: attack+tera highjumpkick) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Reshiram|Reshiram, L76|277/277
+  -ability|p1a: Reshiram|Turboblaze
+  move|p2a: Infernape|Flare Blitz|p1a: Reshiram
+  -resisted|p1a: Reshiram
+  -damage|p1a: Reshiram|246/277
+  -damage|p2a: Infernape|97/100|[from] Recoil
+-- turn 2
+  WE CHOSE: attack earthpower - our hp 0.89, theirs 0.97, predicted move (revealed) hits us x0.25
+  move|p2a: Infernape|Flare Blitz|p1a: Reshiram
+  -resisted|p1a: Reshiram
+  -damage|p1a: Reshiram|213/277
+  -damage|p2a: Infernape|92/100|[from] Recoil
+  move|p1a: Reshiram|Earth Power|p2a: Infernape
+  -supereffective|p2a: Infernape
+  -damage|p2a: Infernape|22/100
+-- turn 3
+  WE CHOSE: attack earthpower - our hp 0.77, theirs 0.22, predicted move (revealed) hits us x0.25
+  move|p2a: Infernape|Flare Blitz|p1a: Reshiram
+  -resisted|p1a: Reshiram
+  -damage|p1a: Reshiram|167/277
+  -damage|p2a: Infernape|16/100|[from] Recoil
+  move|p1a: Reshiram|Earth Power|p2a: Infernape
+  -supereffective|p2a: Infernape
+  -damage|p2a: Infernape|0 fnt
+  faint|p2a: Infernape
+  switch|p2a: Enamorus|Enamorus-Therian, L83, F|100/100
+-- turn 4
+  WE CHOSE: attack blueflare - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ironcrown - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Reshiram|Blue Flare|p2a: Enamorus
+  -damage|p2a: Enamorus|43/100
+  -status|p2a: Enamorus|brn
+  move|p2a: Enamorus|Moonblast|p1a: Reshiram
+  -damage|p1a: Reshiram|0 fnt
+  faint|p1a: Reshiram
+  -damage|p2a: Enamorus|37/100 brn|[from] brn
+  switch|p1a: Iron Crown|Iron Crown, L78|268/268
+-- turn 5
+  WE CHOSE: attack+tera tachyoncutter - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Iron Crown|Steel
+  move|p1a: Iron Crown|Tachyon Cutter|p2a: Enamorus
+  -supereffective|p2a: Enamorus
+  -damage|p2a: Enamorus|0 fnt
+  faint|p2a: Enamorus
+  -hitcount|p2: Enamorus|1
+  switch|p2a: Rampardos|Rampardos, L90, M|100/100
+-- turn 6
+  WE CHOSE: switch to hitmonlee (hand policy: attack tachyoncutter) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  -end|p1a: Iron Crown|Quark Drive|[silent]
+  switch|p1a: Hitmonlee|Hitmonlee, L85, M|223/223
+  move|p2a: Rampardos|Head Smash|p1a: Hitmonlee
+  -resisted|p1a: Hitmonlee
+  -damage|p1a: Hitmonlee|25/223
+  -damage|p2a: Rampardos|70/100|[from] Recoil
+-- turn 7
+  WE CHOSE: attack highjumpkick - our hp 0.11, theirs 0.70, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to hippowdon - our hp 0.00, theirs 0.66, predicted move (revealed) hits us x0.5
+  move|p2a: Rampardos|Head Smash|p1a: Hitmonlee
+  -resisted|p1a: Hitmonlee
+  -damage|p1a: Hitmonlee|0 fnt
+  faint|p1a: Hitmonlee
+  -damage|p2a: Rampardos|66/100|[from] Recoil
+  switch|p1a: Hippowdon|Hippowdon, L82, F|311/311
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x0.5
+  move|p2a: Rampardos|Head Smash|p1a: Hippowdon|[miss]
+  -miss|p2a: Rampardos|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rampardos
+  -supereffective|p2a: Rampardos
+  -damage|p2a: Rampardos|0 fnt
+  faint|p2a: Rampardos
+  -weather|Sandstorm|[upkeep]
+  switch|p2a: Volcanion|Volcanion, L79|100/100
+-- turn 9
+  WE CHOSE: switch to feraligatr - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Feraligatr|Feraligatr, L79, M|264/264
+  move|p2a: Volcanion|Steam Eruption|p1a: Feraligatr
+  -resisted|p1a: Feraligatr
+  -damage|p1a: Feraligatr|163/264
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Feraligatr|147/264|[from] Sandstorm
+  -damage|p2a: Volcanion|95/100|[from] Sandstorm
+-- turn 10
+  WE CHOSE: setup dragondance - our hp 0.56, theirs 0.95, predicted move (revealed) hits us x0.5
+  move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+  -boost|p1a: Feraligatr|atk|1
+  -boost|p1a: Feraligatr|spe|1
+  move|p2a: Volcanion|Steam Eruption|p1a: Feraligatr
+  -resisted|p1a: Feraligatr
+  -damage|p1a: Feraligatr|33/264
+  -status|p1a: Feraligatr|brn
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Feraligatr|17/264 brn|[from] Sandstorm
+  -damage|p2a: Volcanion|89/100|[from] Sandstorm
+  -damage|p1a: Feraligatr|1/264 brn|[from] brn
+-- turn 11
+  WE CHOSE: attack liquidation - our hp 0.00, theirs 0.89, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to hippowdon - our hp 0.00, theirs 0.95, predicted move (revealed) hits us x0.5
+  move|p1a: Feraligatr|Liquidation|p2a: Volcanion
+  -heal|p2a: Volcanion|100/100|[from] ability: Water Absorb|[of] p1a: Feraligatr
+  move|p2a: Volcanion|Steam Eruption|p1a: Feraligatr
+  -resisted|p1a: Feraligatr
+  -damage|p1a: Feraligatr|0 fnt
+  faint|p1a: Feraligatr
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Volcanion|95/100|[from] Sandstorm
+  switch|p1a: Hippowdon|Hippowdon, L82, F|311/311
+-- turn 12
+  WE CHOSE: heal slackoff (hand policy: attack earthquake) - our hp 1.00, theirs 0.95, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to ironcrown - our hp 0.00, theirs 0.95, predicted move (revealed) hits us x2
+  move|p2a: Volcanion|Steam Eruption|p1a: Hippowdon
+  -supereffective|p1a: Hippowdon
+  -damage|p1a: Hippowdon|0 fnt
+  faint|p1a: Hippowdon
+  -weather|none
+  switch|p1a: Iron Crown|Iron Crown, L78, tera:Steel|268/268
+-- turn 13
+  WE CHOSE: attack voltswitch - our hp 1.00, theirs 0.95, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to chansey - our hp 1.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Iron Crown|Volt Switch|p2a: Volcanion
+  -supereffective|p2a: Volcanion
+  -crit|p2a: Volcanion
+  -damage|p2a: Volcanion|0 fnt
+  faint|p2a: Volcanion
+  -end|p1a: Iron Crown|Quark Drive|[silent]
+  switch|p1a: Chansey|Chansey, L85, F|564/564|[from] Volt Switch
+  switch|p2a: Arceus|Arceus-Water, L71|100/100
+-- turn 14
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Chansey
+  -damage|p1a: Chansey|504/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 15
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Chansey
+  -damage|p1a: Chansey|500/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 16
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Chansey
+  -damage|p1a: Chansey|504/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 17
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Chansey
+  -damage|p1a: Chansey|498/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 18
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Chansey
+  -damage|p1a: Chansey|497/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 19
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Chansey
+  -damage|p1a: Chansey|506/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 20
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Chansey
+  -damage|p1a: Chansey|504/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 21
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Chansey
+  -damage|p1a: Chansey|501/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 22
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Chansey
+  -damage|p1a: Chansey|504/564
+  move|p1a: Chansey|Seismic Toss|p2a: Arceus
+  -damage|p2a: Arceus|71/100
+-- turn 23
+  WE CHOSE: attack seismictoss - our hp 0.89, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Chansey
+  -damage|p1a: Chansey|438/564
+  move|p1a: Chansey|Seismic Toss|p2a: Arceus
+  -damage|p2a: Arceus|41/100
+-- turn 24
+  WE CHOSE: attack seismictoss - our hp 0.78, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Chansey
+  -damage|p1a: Chansey|374/564
+  move|p1a: Chansey|Seismic Toss|p2a: Arceus
+  -damage|p2a: Arceus|12/100
+-- turn 25
+  WE CHOSE: attack seismictoss - our hp 0.66, theirs 0.12, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Chansey
+  -damage|p1a: Chansey|310/564
+  move|p1a: Chansey|Seismic Toss|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  switch|p2a: Sandslash|Sandslash, L89, M|100/100
+-- turn 26
+  WE CHOSE: attack seismictoss - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Sandslash|Earthquake|p1a: Chansey
+  -damage|p1a: Chansey|55/564
+  move|p1a: Chansey|Seismic Toss|p2a: Sandslash
+  -damage|p2a: Sandslash|70/100
+  -heal|p2a: Sandslash|76/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack seismictoss - our hp 0.10, theirs 0.76, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironcrown - our hp 0.00, theirs 0.82, predicted move (revealed) hits us x1
+  move|p2a: Sandslash|Earthquake|p1a: Chansey
+  -damage|p1a: Chansey|0 fnt
+  faint|p1a: Chansey
+  -heal|p2a: Sandslash|82/100|[from] item: Leftovers
+  switch|p1a: Iron Crown|Iron Crown, L78, tera:Steel|268/268
+-- turn 28
+  WE CHOSE: attack focusblast (hand policy: attack psyshock) - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x2
+  move|p1a: Iron Crown|Focus Blast|p2a: Sandslash|[miss]
+  -miss|p1a: Iron Crown|p2a: Sandslash
+  move|p2a: Sandslash|Earthquake|p1a: Iron Crown
+  -supereffective|p1a: Iron Crown
+  -damage|p1a: Iron Crown|16/268
+  -heal|p2a: Sandslash|88/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: switch to ironcrown (hand policy: attack focusblast) - our hp 0.06, theirs 0.88, predicted move (revealed) hits us x2
+  move|p1a: Iron Crown|Focus Blast|p2a: Sandslash|[miss]
+  -miss|p1a: Iron Crown|p2a: Sandslash
+  move|p2a: Sandslash|Earthquake|p1a: Iron Crown
+  -supereffective|p1a: Iron Crown
+  -damage|p1a: Iron Crown|0 fnt
+  faint|p1a: Iron Crown
+  -end|p1a: Iron Crown|Quark Drive|[silent]
+  deinit

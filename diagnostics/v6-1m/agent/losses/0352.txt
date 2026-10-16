@@ -1,0 +1,303 @@
+battle 352 (battle-gen9randombattle-1009894): lost in 31 turns, 1 of theirs left; we are p1
+
+ours:
+  masquerain (fainted; item heavydutyboots, ability intimidate; moves hurricane/quiverdance/bugbuzz/hydropump)
+  minioryellow (fainted; item whiteherb, ability shieldsdown, tera ground; moves acrobatics/shellsmash/powergem/earthquake)
+  diancie (fainted; item leftovers, ability clearbody; moves earthpower/diamondstorm/calmmind/drainingkiss)
+  regigigas (fainted; item leftovers, ability slowstart; moves protect/substitute/knockoff/bodyslam)
+  dugtrioalola (fainted; item lifeorb, ability tanglinghair; moves ironhead/suckerpunch/earthquake/stealthrock)
+  snorlax (fainted; item leftovers, ability thickfat; moves sleeptalk/curse/rest/bodyslam)
+theirs (as seen):
+  tornadus (fainted; item unknown_item, ability defiant; moves focusblast)
+  leavanny (fainted; item unknown_item, ability ?; moves -)
+  latias (fainted; item unknown_item, ability levitate; moves dracometeor)
+  conkeldurr (fainted; item unknown_item, ability ?; moves closecombat)
+  ampharos (fainted; item unknown_item, ability ?; moves focusblast)
+  annihilape (100%; item leftovers, ability defiant; moves drainpunch)
+
+-- turn 0
+  switch|p1a: Masquerain|Masquerain, L87, M|264/264
+  switch|p2a: Tornadus|Tornadus, L82, M|100/100
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Tornadus|atk|1
+  -ability|p2a: Tornadus|Defiant|boost
+  -boost|p2a: Tornadus|atk|2
+-- turn 1
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p2a: Tornadus|Focus Blast|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|229/264
+  move|p1a: Masquerain|Quiver Dance|p1a: Masquerain
+  -boost|p1a: Masquerain|spa|1
+  -boost|p1a: Masquerain|spd|1
+  -boost|p1a: Masquerain|spe|1
+-- turn 2
+  WE CHOSE: setup quiverdance - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Quiver Dance|p1a: Masquerain
+  -boost|p1a: Masquerain|spa|1
+  -boost|p1a: Masquerain|spd|1
+  -boost|p1a: Masquerain|spe|1
+  move|p2a: Tornadus|Focus Blast|p1a: Masquerain|[miss]
+  -miss|p2a: Tornadus|p1a: Masquerain
+-- turn 3
+  WE CHOSE: setup quiverdance (hand policy: attack hurricane) - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Quiver Dance|p1a: Masquerain
+  -boost|p1a: Masquerain|spa|1
+  -boost|p1a: Masquerain|spd|1
+  -boost|p1a: Masquerain|spe|1
+  move|p2a: Tornadus|Focus Blast|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|215/264
+-- turn 4
+  WE CHOSE: setup quiverdance (hand policy: attack hurricane) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Quiver Dance|p1a: Masquerain
+  -boost|p1a: Masquerain|spa|1
+  -boost|p1a: Masquerain|spd|1
+  -boost|p1a: Masquerain|spe|1
+  move|p2a: Tornadus|Focus Blast|p1a: Masquerain|[miss]
+  -miss|p2a: Tornadus|p1a: Masquerain
+-- turn 5
+  WE CHOSE: attack hurricane - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Hurricane|p2a: Tornadus
+  -damage|p2a: Tornadus|0 fnt
+  faint|p2a: Tornadus
+  switch|p2a: Leavanny|Leavanny, L86, M|100/100
+-- turn 6
+  WE CHOSE: attack hurricane - our hp 0.81, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p1a: Masquerain|Hurricane|p2a: Leavanny
+  -supereffective|p2a: Leavanny
+  -damage|p2a: Leavanny|0 fnt
+  faint|p2a: Leavanny
+  switch|p2a: Latias|Latias, L79, F|100/100
+-- turn 7
+  WE CHOSE: switch to diancie - our hp 0.81, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Diancie|Diancie, L82|216/216
+  move|p2a: Latias|Draco Meteor|p1a: Diancie
+  -immune|p1a: Diancie
+-- turn 8
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Latias|Draco Meteor|p1a: Diancie
+  -immune|p1a: Diancie
+  move|p1a: Diancie|Calm Mind|p1a: Diancie
+  -boost|p1a: Diancie|spa|1
+  -boost|p1a: Diancie|spd|1
+-- turn 9
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Latias|Draco Meteor|p1a: Diancie
+  -immune|p1a: Diancie
+  move|p1a: Diancie|Calm Mind|p1a: Diancie
+  -boost|p1a: Diancie|spa|1
+  -boost|p1a: Diancie|spd|1
+-- turn 10
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Latias|Draco Meteor|p1a: Diancie
+  -immune|p1a: Diancie
+  move|p1a: Diancie|Calm Mind|p1a: Diancie
+  -boost|p1a: Diancie|spa|1
+  -boost|p1a: Diancie|spd|1
+-- turn 11
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Latias|Draco Meteor|p1a: Diancie
+  -immune|p1a: Diancie
+  move|p1a: Diancie|Calm Mind|p1a: Diancie
+  -boost|p1a: Diancie|spa|1
+  -boost|p1a: Diancie|spd|1
+-- turn 12
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Latias|Draco Meteor|p1a: Diancie
+  -immune|p1a: Diancie
+  move|p1a: Diancie|Calm Mind|p1a: Diancie
+  -boost|p1a: Diancie|spa|1
+  -boost|p1a: Diancie|spd|1
+-- turn 13
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Latias|Draco Meteor|p1a: Diancie
+  -immune|p1a: Diancie
+  move|p1a: Diancie|Calm Mind|p1a: Diancie
+  -boost|p1a: Diancie|spa|1
+  -boost|p1a: Diancie|spd|1
+-- turn 14
+  WE CHOSE: attack drainingkiss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Latias|Draco Meteor|p1a: Diancie
+  -immune|p1a: Diancie
+  move|p1a: Diancie|Draining Kiss|p2a: Latias
+  -supereffective|p2a: Latias
+  -damage|p2a: Latias|0 fnt
+  faint|p2a: Latias
+  switch|p2a: Conkeldurr|Conkeldurr, L80, M|100/100
+-- turn 15
+  WE CHOSE: switch to masquerain (hand policy: attack drainingkiss) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Masquerain|Masquerain, L87, M|215/264
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Conkeldurr|atk|1
+  move|p2a: Conkeldurr|Close Combat|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|182/264
+  -unboost|p2a: Conkeldurr|def|1
+  -unboost|p2a: Conkeldurr|spd|1
+  -status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+-- turn 16
+  WE CHOSE: setup quiverdance - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Quiver Dance|p1a: Masquerain
+  -boost|p1a: Masquerain|spa|1
+  -boost|p1a: Masquerain|spd|1
+  -boost|p1a: Masquerain|spe|1
+  move|p2a: Conkeldurr|Close Combat|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|137/264
+  -unboost|p2a: Conkeldurr|def|1
+  -unboost|p2a: Conkeldurr|spd|1
+  -damage|p2a: Conkeldurr|94/100 brn|[from] brn
+-- turn 17
+  WE CHOSE: setup quiverdance - our hp 0.52, theirs 0.94, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Quiver Dance|p1a: Masquerain
+  -boost|p1a: Masquerain|spa|1
+  -boost|p1a: Masquerain|spd|1
+  -boost|p1a: Masquerain|spe|1
+  move|p2a: Conkeldurr|Close Combat|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|92/264
+  -unboost|p2a: Conkeldurr|def|1
+  -unboost|p2a: Conkeldurr|spd|1
+  -damage|p2a: Conkeldurr|88/100 brn|[from] brn
+-- turn 18
+  WE CHOSE: attack hurricane - our hp 0.35, theirs 0.88, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Hurricane|p2a: Conkeldurr|[miss]
+  -miss|p1a: Masquerain|p2a: Conkeldurr
+  move|p2a: Conkeldurr|Close Combat|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|43/264
+  -unboost|p2a: Conkeldurr|def|1
+  -unboost|p2a: Conkeldurr|spd|1
+  -damage|p2a: Conkeldurr|82/100 brn|[from] brn
+-- turn 19
+  WE CHOSE: attack hurricane - our hp 0.16, theirs 0.82, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Hurricane|p2a: Conkeldurr
+  -supereffective|p2a: Conkeldurr
+  -damage|p2a: Conkeldurr|0 fnt
+  faint|p2a: Conkeldurr
+  switch|p2a: Ampharos|Ampharos, L88, F|100/100
+-- turn 20
+  WE CHOSE: attack bugbuzz - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p1a: Masquerain|Bug Buzz|p2a: Ampharos
+  -damage|p2a: Ampharos|56/100
+  -unboost|p2a: Ampharos|spd|1
+  move|p2a: Ampharos|Focus Blast|p1a: Masquerain|[miss]
+  -miss|p2a: Ampharos|p1a: Masquerain
+-- turn 21
+  WE CHOSE: attack bugbuzz - our hp 0.16, theirs 0.56, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Bug Buzz|p2a: Ampharos
+  -damage|p2a: Ampharos|0 fnt
+  faint|p2a: Ampharos
+  switch|p2a: Annihilape|Annihilape, L76, F|100/100
+-- turn 22
+  WE CHOSE: switch to dugtrioalola - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to diancie (hand policy: forced: switch to masquerain) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Dugtrio|Dugtrio-Alola, L84, M|196/196
+  move|p2a: Annihilape|Drain Punch|p1a: Dugtrio
+  -supereffective|p1a: Dugtrio
+  -damage|p1a: Dugtrio|0 fnt
+  -ability|p1a: Dugtrio|Tangling Hair
+  -unboost|p2a: Annihilape|spe|1
+  -ability|p2a: Annihilape|Defiant|boost
+  -boost|p2a: Annihilape|atk|2
+  faint|p1a: Dugtrio
+  switch|p1a: Diancie|Diancie, L82|216/216
+-- turn 23
+  WE CHOSE: switch to masquerain (hand policy: attack drainingkiss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to minioryellow - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  switch|p1a: Masquerain|Masquerain, L87, M|43/264
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Annihilape|atk|1
+  -ability|p2a: Annihilape|Defiant|boost
+  -boost|p2a: Annihilape|atk|2
+  move|p2a: Annihilape|Drain Punch|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|0 fnt
+  faint|p1a: Masquerain
+  switch|p1a: Minior|Minior-Yellow, L79|224/224
+  -formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+-- turn 24
+  WE CHOSE: attack+tera acrobatics (hand policy: attack acrobatics) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Minior|Ground
+  move|p1a: Minior|Acrobatics|p2a: Annihilape
+  -supereffective|p2a: Annihilape
+  -damage|p2a: Annihilape|73/100
+  move|p2a: Annihilape|Drain Punch|p1a: Minior
+  -damage|p1a: Minior|46/224
+  -heal|p2a: Annihilape|100/100|[from] drain|[of] p1a: Minior
+  -formechange|p1a: Minior|Minior-Yellow||[from] ability: Shields Down
+-- turn 25
+  WE CHOSE: switch to diancie (hand policy: attack acrobatics) - our hp 0.21, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Diancie|Diancie, L82|216/216
+  move|p2a: Annihilape|Drain Punch|p1a: Diancie
+  -damage|p1a: Diancie|86/216
+  -heal|p1a: Diancie|99/216|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack drainingkiss - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Diancie|Draining Kiss|p2a: Annihilape
+  -supereffective|p2a: Annihilape
+  -damage|p2a: Annihilape|61/100
+  -heal|p1a: Diancie|186/216|[from] drain|[of] p2a: Annihilape
+  move|p2a: Annihilape|Drain Punch|p1a: Diancie
+  -damage|p1a: Diancie|68/216
+  -heal|p2a: Annihilape|81/100|[from] drain|[of] p1a: Diancie
+  -heal|p1a: Diancie|81/216|[from] item: Leftovers
+  -heal|p2a: Annihilape|87/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack drainingkiss - our hp 0.38, theirs 0.87, predicted move (revealed) hits us x1
+  move|p1a: Diancie|Draining Kiss|p2a: Annihilape
+  -supereffective|p2a: Annihilape
+  -damage|p2a: Annihilape|52/100
+  -heal|p1a: Diancie|159/216|[from] drain|[of] p2a: Annihilape
+  move|p2a: Annihilape|Drain Punch|p1a: Diancie
+  -damage|p1a: Diancie|27/216
+  -heal|p2a: Annihilape|74/100|[from] drain|[of] p1a: Diancie
+  -heal|p1a: Diancie|40/216|[from] item: Leftovers
+  -heal|p2a: Annihilape|80/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack drainingkiss - our hp 0.19, theirs 0.80, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to minioryellow - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Diancie|Draining Kiss|p2a: Annihilape
+  -supereffective|p2a: Annihilape
+  -damage|p2a: Annihilape|43/100
+  -heal|p1a: Diancie|121/216|[from] drain|[of] p2a: Annihilape
+  move|p2a: Annihilape|Drain Punch|p1a: Diancie
+  -crit|p1a: Diancie
+  -damage|p1a: Diancie|0 fnt
+  -heal|p2a: Annihilape|64/100|[from] drain|[of] p1a: Diancie
+  faint|p1a: Diancie
+  -heal|p2a: Annihilape|70/100|[from] item: Leftovers
+  switch|p1a: Minior|Minior-Yellow, L79, tera:Ground|46/224
+-- turn 29
+  WE CHOSE: attack acrobatics - our hp 0.21, theirs 0.70, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to regigigas - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Minior|Acrobatics|p2a: Annihilape
+  -supereffective|p2a: Annihilape
+  -damage|p2a: Annihilape|27/100
+  move|p2a: Annihilape|Drain Punch|p1a: Minior
+  -crit|p1a: Minior
+  -damage|p1a: Minior|0 fnt
+  -heal|p2a: Annihilape|34/100|[from] drain|[of] p1a: Minior
+  faint|p1a: Minior
+  -heal|p2a: Annihilape|41/100|[from] item: Leftovers
+  switch|p1a: Regigigas|Regigigas, L84|322/322
+  -start|p1a: Regigigas|ability: Slow Start
+-- turn 30
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to snorlax - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Annihilape|Drain Punch|p1a: Regigigas
+  -supereffective|p1a: Regigigas
+  -damage|p1a: Regigigas|0 fnt
+  -heal|p2a: Annihilape|96/100|[from] drain|[of] p1a: Regigigas
+  faint|p1a: Regigigas
+  -end|p1a: Regigigas|Slow Start|[silent]
+  -heal|p2a: Annihilape|100/100|[from] item: Leftovers
+  switch|p1a: Snorlax|Snorlax, L82, M|397/397
+-- turn 31
+  WE CHOSE: attack sleeptalk - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Annihilape|Drain Punch|p1a: Snorlax
+  -supereffective|p1a: Snorlax
+  -damage|p1a: Snorlax|0 fnt
+  faint|p1a: Snorlax
+  deinit

@@ -1,0 +1,297 @@
+battle 2713 (battle-gen9randombattle-1033936): lost in 32 turns, 1 of theirs left; we are p1
+
+ours:
+  vaporeon (fainted; item leftovers, ability waterabsorb; moves scald/wish/protect/roar)
+  magnezone (fainted; item choicescarf, ability analytic; moves thunderbolt/bodypress/voltswitch/flashcannon)
+  krookodile (fainted; item lifeorb, ability intimidate; moves stealthrock/earthquake/stoneedge/knockoff)
+  altaria (fainted; item heavydutyboots, ability naturalcure, tera steel; moves defog/roost/willowisp/bravebird)
+  hippowdon (fainted; item leftovers, ability sandstream; moves stoneedge/curse/earthquake/slackoff)
+  chiyu (fainted; item choicespecs, ability beadsofruin; moves darkpulse/flamethrower/psychic/overheat)
+theirs (as seen):
+  yanmega (fainted; item unknown_item, ability speedboost; moves bugbuzz)
+  garchomp (fainted; item unknown_item, ability roughskin; moves earthquake)
+  annihilape (fainted; item leftovers, ability defiant; moves gunkshot)
+  entei (fainted; item unknown_item, ability ?; moves flareblitz)
+  mismagius (fainted; item unknown_item, ability levitate; moves energyball)
+  heatran (100%; item airballoon, ability flashfire; moves magmastorm/earthpower)
+
+-- turn 0
+  switch|p1a: Vaporeon|Vaporeon, L86, M|364/364
+  switch|p2a: Yanmega|Yanmega, L82, F|100/100
+-- turn 1
+  WE CHOSE: switch to altaria (hand policy: attack scald) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Altaria|Altaria, L89, M|278/278
+  move|p2a: Yanmega|Bug Buzz|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|239/278
+  -ability|p2a: Yanmega|Speed Boost|boost
+  -boost|p2a: Yanmega|spe|1
+-- turn 2
+  WE CHOSE: attack bravebird - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Yanmega|Bug Buzz|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|194/278
+  move|p1a: Altaria|Brave Bird|p2a: Yanmega
+  -supereffective|p2a: Yanmega
+  -damage|p2a: Yanmega|11/100
+  -damage|p1a: Altaria|113/278|[from] Recoil
+  -ability|p2a: Yanmega|Speed Boost|boost
+  -boost|p2a: Yanmega|spe|1
+-- turn 3
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.41, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p2a: Yanmega|Bug Buzz|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|68/278
+  move|p1a: Altaria|Brave Bird|p2a: Yanmega
+  -supereffective|p2a: Yanmega
+  -damage|p2a: Yanmega|0 fnt
+  faint|p2a: Yanmega
+  -damage|p1a: Altaria|58/278|[from] Recoil
+  switch|p2a: Garchomp|Garchomp, L74, F|100/100
+-- turn 4
+  WE CHOSE: switch to magnezone - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to altaria - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x4
+  switch|p1a: Magnezone|Magnezone, L84|255/255
+  move|p2a: Garchomp|Earthquake|p1a: Magnezone
+  -supereffective|p1a: Magnezone
+  -damage|p1a: Magnezone|0 fnt
+  faint|p1a: Magnezone
+  switch|p1a: Altaria|Altaria, L89, M|58/278
+-- turn 5
+  WE CHOSE: heal roost - our hp 0.21, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Garchomp|Earthquake|p1a: Altaria
+  -immune|p1a: Altaria
+  move|p1a: Altaria|Roost|p1a: Altaria
+  -heal|p1a: Altaria|197/278
+  -singleturn|p1a: Altaria|move: Roost
+-- turn 6
+  WE CHOSE: heal roost (hand policy: attack bravebird) - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Garchomp|Earthquake|p1a: Altaria
+  -immune|p1a: Altaria
+  move|p1a: Altaria|Roost|p1a: Altaria
+  -heal|p1a: Altaria|278/278
+  -singleturn|p1a: Altaria|move: Roost
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Garchomp|Earthquake|p1a: Altaria
+  -immune|p1a: Altaria
+  move|p1a: Altaria|Brave Bird|p2a: Garchomp
+  -damage|p2a: Garchomp|62/100
+  -damage|p1a: Altaria|244/278|[from] ability: Rough Skin|[of] p2a: Garchomp
+  -damage|p1a: Altaria|208/278|[from] Recoil
+-- turn 8
+  WE CHOSE: attack bravebird - our hp 0.75, theirs 0.62, predicted move (revealed) hits us x0
+  move|p2a: Garchomp|Earthquake|p1a: Altaria
+  -immune|p1a: Altaria
+  move|p1a: Altaria|Brave Bird|p2a: Garchomp
+  -damage|p2a: Garchomp|19/100
+  -damage|p1a: Altaria|174/278|[from] ability: Rough Skin|[of] p2a: Garchomp
+  -damage|p1a: Altaria|134/278|[from] Recoil
+-- turn 9
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.48, theirs 0.19, predicted move (revealed) hits us x0
+  move|p2a: Garchomp|Earthquake|p1a: Altaria
+  -immune|p1a: Altaria
+  move|p1a: Altaria|Brave Bird|p2a: Garchomp
+  -damage|p2a: Garchomp|0 fnt
+  -damage|p1a: Altaria|100/278|[from] ability: Rough Skin|[of] p2a: Garchomp
+  faint|p2a: Garchomp
+  -damage|p1a: Altaria|83/278|[from] Recoil
+  switch|p2a: Annihilape|Annihilape, L76, M|100/100
+-- turn 10
+  WE CHOSE: attack+tera bravebird (hand policy: heal roost) - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to krookodile - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x0
+  -terastallize|p1a: Altaria|Steel
+  move|p1a: Altaria|Brave Bird|p2a: Annihilape
+  -supereffective|p2a: Annihilape
+  -damage|p2a: Annihilape|9/100
+  -damage|p1a: Altaria|0 fnt|[from] Recoil
+  faint|p1a: Altaria
+  move|p2a: Annihilape|Gunk Shot|p1: Altaria|[notarget]
+  -fail|p2a: Annihilape
+  -heal|p2a: Annihilape|16/100|[from] item: Leftovers
+  switch|p1a: Krookodile|Krookodile, L79, F|280/280
+  -ability|p1a: Krookodile|Intimidate|boost
+  -unboost|p2a: Annihilape|atk|1
+  -ability|p2a: Annihilape|Defiant|boost
+  -boost|p2a: Annihilape|atk|2
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p1a: Krookodile|Earthquake|p2a: Annihilape
+  -damage|p2a: Annihilape|0 fnt
+  faint|p2a: Annihilape
+  -damage|p1a: Krookodile|252/280|[from] item: Life Orb
+  switch|p2a: Entei|Entei, L78|100/100
+-- turn 12
+  WE CHOSE: switch to vaporeon (hand policy: attack earthquake) - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Vaporeon|Vaporeon, L86, M|364/364
+  move|p2a: Entei|Flare Blitz|p1a: Vaporeon
+  -resisted|p1a: Vaporeon
+  -crit|p1a: Vaporeon
+  -damage|p1a: Vaporeon|184/364
+  -damage|p2a: Entei|81/100|[from] Recoil
+  -heal|p1a: Vaporeon|206/364|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack scald - our hp 0.57, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p2a: Entei|Flare Blitz|p1a: Vaporeon
+  -resisted|p1a: Vaporeon
+  -damage|p1a: Vaporeon|80/364
+  -damage|p2a: Entei|68/100|[from] Recoil
+  move|p1a: Vaporeon|Scald|p2a: Entei
+  -supereffective|p2a: Entei
+  -damage|p2a: Entei|0 fnt
+  faint|p2a: Entei
+  -heal|p1a: Vaporeon|102/364|[from] item: Leftovers
+  switch|p2a: Mismagius|Mismagius, L86, M|100/100
+-- turn 14
+  WE CHOSE: switch to chiyu - our hp 0.28, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+  move|p2a: Mismagius|Energy Ball|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|165/211
+-- turn 15
+  WE CHOSE: attack darkpulse - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Mismagius|Energy Ball|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|116/211
+  move|p1a: Chi-Yu|Dark Pulse|p2a: Mismagius
+  -supereffective|p2a: Mismagius
+  -damage|p2a: Mismagius|0 fnt
+  faint|p2a: Mismagius
+  switch|p2a: Heatran|Heatran, L79, M|100/100
+  -item|p2a: Heatran|Air Balloon
+-- turn 16
+  WE CHOSE: switch to vaporeon (hand policy: attack darkpulse) - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Vaporeon|Vaporeon, L86, M|102/364
+  move|p2a: Heatran|Magma Storm|p1a: Vaporeon
+  -resisted|p1a: Vaporeon
+  -damage|p1a: Vaporeon|45/364
+  -activate|p1a: Vaporeon|move: Magma Storm|[of] p2a: Heatran
+  -heal|p1a: Vaporeon|67/364|[from] item: Leftovers
+  -damage|p1a: Vaporeon|22/364|[from] move: Magma Storm|[partiallytrapped]
+-- turn 17
+  WE CHOSE: attack scald - our hp 0.06, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to chiyu (hand policy: forced: switch to krookodile) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heatran|Magma Storm|p1a: Vaporeon
+  -resisted|p1a: Vaporeon
+  -damage|p1a: Vaporeon|0 fnt
+  faint|p1a: Vaporeon
+  switch|p1a: Chi-Yu|Chi-Yu, L77|116/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+-- turn 18
+  WE CHOSE: attack overheat - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Chi-Yu|Overheat|p2a: Heatran
+  -start|p2a: Heatran|ability: Flash Fire
+  move|p2a: Heatran|Magma Storm|p1a: Chi-Yu|[miss]
+  -miss|p2a: Heatran|p1a: Chi-Yu
+-- turn 19
+  WE CHOSE: attack overheat - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Chi-Yu|Overheat|p2a: Heatran
+  -immune|p2a: Heatran|[from] ability: Flash Fire
+  move|p2a: Heatran|Magma Storm|p1a: Chi-Yu|[miss]
+  -miss|p2a: Heatran|p1a: Chi-Yu
+-- turn 20
+  WE CHOSE: attack overheat - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Chi-Yu|Overheat|p2a: Heatran
+  -immune|p2a: Heatran|[from] ability: Flash Fire
+  move|p2a: Heatran|Magma Storm|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|44/211
+  -activate|p1a: Chi-Yu|move: Magma Storm|[of] p2a: Heatran
+  -damage|p1a: Chi-Yu|18/211|[from] move: Magma Storm|[partiallytrapped]
+-- turn 21
+  WE CHOSE: attack overheat - our hp 0.09, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to krookodile - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Chi-Yu|Overheat|p2a: Heatran
+  -immune|p2a: Heatran|[from] ability: Flash Fire
+  move|p2a: Heatran|Magma Storm|p1a: Chi-Yu|[miss]
+  -miss|p2a: Heatran|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+  faint|p1a: Chi-Yu
+  switch|p1a: Krookodile|Krookodile, L79, F|252/280
+  -ability|p1a: Krookodile|Intimidate|boost
+  -unboost|p2a: Heatran|atk|1
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hippowdon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Krookodile|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Krookodile
+  -damage|p1a: Krookodile|33/280
+  -activate|p1a: Krookodile|move: Magma Storm|[of] p2a: Heatran
+  -damage|p1a: Krookodile|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+  faint|p1a: Krookodile
+  switch|p1a: Hippowdon|Hippowdon, L82, M|311/311
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Magma Storm|p1a: Hippowdon|[miss]
+  -miss|p2a: Heatran|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -weather|Sandstorm|[upkeep]
+-- turn 24
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Hippowdon
+  -damage|p1a: Hippowdon|219/311
+  move|p1a: Hippowdon|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -weather|Sandstorm|[upkeep]
+  -heal|p1a: Hippowdon|238/311|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: heal slackoff (hand policy: attack earthquake) - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Hippowdon
+  -damage|p1a: Hippowdon|158/311
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|311/311
+  -weather|Sandstorm|[upkeep]
+-- turn 26
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Hippowdon
+  -damage|p1a: Hippowdon|232/311
+  move|p1a: Hippowdon|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -weather|Sandstorm|[upkeep]
+  -heal|p1a: Hippowdon|251/311|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: heal slackoff (hand policy: attack earthquake) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Hippowdon
+  -damage|p1a: Hippowdon|159/311
+  -unboost|p1a: Hippowdon|spd|1
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|311/311
+  -weather|none
+-- turn 28
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Hippowdon
+  -damage|p1a: Hippowdon|181/311
+  move|p1a: Hippowdon|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -heal|p1a: Hippowdon|200/311|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: heal slackoff (hand policy: attack earthquake) - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Hippowdon
+  -damage|p1a: Hippowdon|74/311
+  -unboost|p1a: Hippowdon|spd|1
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|230/311
+  -heal|p1a: Hippowdon|249/311|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: heal slackoff (hand policy: attack earthquake) - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Hippowdon
+  -damage|p1a: Hippowdon|83/311
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|239/311
+  -heal|p1a: Hippowdon|258/311|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack earthquake - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Hippowdon
+  -damage|p1a: Hippowdon|96/311
+  move|p1a: Hippowdon|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  -heal|p1a: Hippowdon|115/311|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: heal slackoff - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Earth Power|p1a: Hippowdon
+  -damage|p1a: Hippowdon|0 fnt
+  faint|p1a: Hippowdon

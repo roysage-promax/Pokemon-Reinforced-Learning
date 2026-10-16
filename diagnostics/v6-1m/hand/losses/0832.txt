@@ -1,0 +1,162 @@
+battle 832 (battle-gen9randombattle-1014105): lost in 17 turns, 2 of theirs left; we are p1
+
+ours:
+  komala (fainted; item assaultvest, ability comatose; moves rapidspin/earthquake/knockoff/bodyslam)
+  hooh (fainted; item heavydutyboots, ability regenerator, tera steel; moves sacredfire/recover/bravebird/earthquake)
+  decidueyehisui (fainted; item leftovers, ability scrappy; moves leafblade/triplearrows/roost/swordsdance)
+  whiscash (fainted; item lifeorb, ability oblivious; moves stoneedge/earthquake/liquidation/dragondance)
+  swalot (fainted; item leftovers, ability liquidooze; moves knockoff/toxicspikes/clearsmog/sludgebomb)
+  farigiraf (fainted; item leftovers, ability sapsipper; moves protect/psychicnoise/wish/bodyslam)
+theirs (as seen):
+  araquanid (fainted; item unknown_item, ability ?; moves liquidation)
+  chienpao (fainted; item unknown_item, ability swordofruin; moves sacredsword)
+  vivillonsavanna (fainted; item unknown_item, ability ?; moves hurricane)
+  slaking (fainted; item unknown_item, ability truant; moves gigaimpact)
+  terapagos (13%; item unknown_item, ability terashell; moves terastarstorm)
+
+-- turn 0
+  switch|p1a: Komala|Komala, L87, F|255/255
+  switch|p2a: Araquanid|Araquanid, L82, M|100/100
+  -ability|p1a: Komala|Comatose
+-- turn 1
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Komala|Body Slam|p2a: Araquanid
+  -damage|p2a: Araquanid|57/100
+  move|p2a: Araquanid|Liquidation|p1a: Komala
+  -damage|p1a: Komala|89/255
+-- turn 2
+  WE CHOSE: attack bodyslam - our hp 0.35, theirs 0.57, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to decidueyehisui - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Komala|Body Slam|p2a: Araquanid
+  -damage|p2a: Araquanid|10/100
+  move|p2a: Araquanid|Liquidation|p1a: Komala
+  -crit|p1a: Komala
+  -damage|p1a: Komala|0 fnt
+  faint|p1a: Komala
+  switch|p1a: Decidueye|Decidueye-Hisui, L87, M|295/295
+-- turn 3
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p1a: Decidueye|Swords Dance|p1a: Decidueye
+  -boost|p1a: Decidueye|atk|2
+  move|p2a: Araquanid|Liquidation|p1a: Decidueye
+  -resisted|p1a: Decidueye
+  -damage|p1a: Decidueye|232/295
+  -heal|p1a: Decidueye|250/295|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack leafblade - our hp 0.85, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p1a: Decidueye|Leaf Blade|p2a: Araquanid
+  -damage|p2a: Araquanid|0 fnt
+  faint|p2a: Araquanid
+  -heal|p1a: Decidueye|268/295|[from] item: Leftovers
+  switch|p2a: Chien-Pao|Chien-Pao, L72|100/100
+  -ability|p2a: Chien-Pao|Sword of Ruin
+-- turn 5
+  WE CHOSE: attack triplearrows - our hp 0.91, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Chien-Pao|Sacred Sword|p1a: Decidueye
+  -damage|p1a: Decidueye|191/295
+  move|p1a: Decidueye|Triple Arrows|p2a: Chien-Pao
+  -supereffective|p2a: Chien-Pao
+  -damage|p2a: Chien-Pao|0 fnt
+  faint|p2a: Chien-Pao
+  -heal|p1a: Decidueye|209/295|[from] item: Leftovers
+  switch|p2a: Vivillon|Vivillon-Savanna, L83, F|100/100
+-- turn 6
+  WE CHOSE: attack leafblade - our hp 0.71, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to hooh - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x4
+  move|p2a: Vivillon|Hurricane|p1a: Decidueye
+  -supereffective|p1a: Decidueye
+  -damage|p1a: Decidueye|0 fnt
+  faint|p1a: Decidueye
+  switch|p1a: Ho-Oh|Ho-Oh, L71|268/268
+-- turn 7
+  WE CHOSE: attack+tera bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Ho-Oh|Steel
+  move|p2a: Vivillon|Hurricane|p1a: Ho-Oh
+  -resisted|p1a: Ho-Oh
+  -damage|p1a: Ho-Oh|227/268
+  -start|p1a: Ho-Oh|confusion
+  -activate|p1a: Ho-Oh|confusion
+  move|p1a: Ho-Oh|Brave Bird|p2a: Vivillon
+  -supereffective|p2a: Vivillon
+  -damage|p2a: Vivillon|0 fnt
+  faint|p2a: Vivillon
+  -damage|p1a: Ho-Oh|139/268|[from] Recoil
+  switch|p2a: Slaking|Slaking, L84, M|100/100
+-- turn 8
+  WE CHOSE: attack bravebird - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to whiscash - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Slaking|Giga Impact|p1a: Ho-Oh
+  -resisted|p1a: Ho-Oh
+  -damage|p1a: Ho-Oh|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Ho-Oh
+  switch|p1a: Whiscash|Whiscash, L88, M|337/337
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Whiscash|Earthquake|p2a: Slaking
+  -damage|p2a: Slaking|72/100
+  -damage|p1a: Whiscash|304/337|[from] item: Life Orb
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.90, theirs 0.72, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to swalot - our hp 0.00, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Whiscash
+  -damage|p1a: Whiscash|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Whiscash
+  switch|p1a: Swalot|Swalot, L90, F|326/326
+-- turn 11
+  WE CHOSE: attack sludgebomb - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Swalot|Sludge Bomb|p2a: Slaking
+  -damage|p2a: Slaking|46/100
+  -status|p2a: Slaking|psn
+  -damage|p2a: Slaking|34/100 psn|[from] psn
+-- turn 12
+  WE CHOSE: attack sludgebomb - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to farigiraf - our hp 0.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Swalot
+  -damage|p1a: Swalot|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Swalot
+  -damage|p2a: Slaking|21/100 psn|[from] psn
+  switch|p1a: Farigiraf|Farigiraf, L90, F|362/362
+-- turn 13
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Farigiraf|Body Slam|p2a: Slaking
+  -damage|p2a: Slaking|0 fnt
+  faint|p2a: Slaking
+  switch|p2a: Terapagos|Terapagos, L77, M|100/100
+  -activate|p2a: Terapagos|ability: Tera Shift
+  detailschange|p2a: Terapagos|Terapagos-Terastal, L77, M
+  -heal|p2a: Terapagos|100/100|[silent]
+-- turn 14
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Terapagos|Tera Starstorm|p1a: Farigiraf
+  -damage|p1a: Farigiraf|241/362
+  move|p1a: Farigiraf|Body Slam|p2a: Terapagos
+  -activate|p2a: Terapagos|ability: Tera Shell
+  -resisted|p2a: Terapagos
+  -damage|p2a: Terapagos|83/100
+  -heal|p1a: Farigiraf|263/362|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack bodyslam - our hp 0.73, theirs 0.83, predicted move (revealed) hits us x1
+  move|p2a: Terapagos|Tera Starstorm|p1a: Farigiraf
+  -damage|p1a: Farigiraf|145/362
+  move|p1a: Farigiraf|Body Slam|p2a: Terapagos
+  -damage|p2a: Terapagos|47/100
+  -heal|p1a: Farigiraf|167/362|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack bodyslam - our hp 0.46, theirs 0.47, predicted move (revealed) hits us x1
+  move|p2a: Terapagos|Tera Starstorm|p1a: Farigiraf
+  -damage|p1a: Farigiraf|52/362
+  move|p1a: Farigiraf|Body Slam|p2a: Terapagos
+  -damage|p2a: Terapagos|13/100
+  -heal|p1a: Farigiraf|74/362|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack bodyslam - our hp 0.20, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Terapagos|Tera Starstorm|p1a: Farigiraf
+  -damage|p1a: Farigiraf|0 fnt
+  faint|p1a: Farigiraf
+  deinit

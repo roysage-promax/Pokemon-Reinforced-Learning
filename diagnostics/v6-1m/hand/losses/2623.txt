@@ -1,0 +1,258 @@
+battle 2623 (battle-gen9randombattle-1030999): lost in 25 turns, 1 of theirs left; we are p1
+
+ours:
+  smeargle (fainted; item focussash, ability owntempo; moves ceaselessedge/spore/stickyweb/stealthrock)
+  wyrdeer (fainted; item leftovers, ability intimidate, tera ground; moves thunderwave/earthquake/megahorn/psychicnoise)
+  floatzel (fainted; item choiceband, ability waterveil; moves wavecrash/icespinner/crunch/flipturn)
+  thundurus (fainted; item heavydutyboots, ability prankster; moves thunderwave/focusblast/thunderbolt/grassknot)
+  rotom (fainted; item lifeorb, ability levitate; moves shadowball/thunderbolt/nastyplot/willowisp)
+  deoxys (fainted; item lifeorb, ability pressure; moves superpower/psychoboost/knockoff/extremespeed)
+theirs (as seen):
+  houndstone (fainted; item leftovers, ability ?; moves poltergeist/bodypress)
+  breloom (fainted; item lifeorb, ability ?; moves rocktomb)
+  miraidon (fainted; item unknown_item, ability hadronengine; moves overheat)
+  floatzel (fainted; item unknown_item, ability ?; moves wavecrash)
+  lurantis (fainted; item leftovers, ability ?; moves leafstorm)
+  deoxysattack (66%; item lifeorb, ability pressure; moves psychoboost)
+
+-- turn 0
+  switch|p1a: Smeargle|Smeargle, L95, M|258/258
+  switch|p2a: Houndstone|Houndstone, L86, F|100/100
+-- turn 1
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|93/100
+  -sidestart|p2: e2_132138|Spikes
+  move|p2a: Houndstone|Poltergeist|p1a: Smeargle
+  -immune|p1a: Smeargle
+  -heal|p2a: Houndstone|99/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 0.99, predicted move (revealed) hits us x0
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|91/100
+  -sidestart|p2: e2_132138|Spikes
+  move|p2a: Houndstone|Poltergeist|p1a: Smeargle
+  -immune|p1a: Smeargle
+  -heal|p2a: Houndstone|97/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 0.97, predicted move (revealed) hits us x0
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|88/100
+  -sidestart|p2: e2_132138|Spikes
+  move|p2a: Houndstone|Poltergeist|p1a: Smeargle
+  -immune|p1a: Smeargle
+  -heal|p2a: Houndstone|94/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|87/100
+  move|p2a: Houndstone|Poltergeist|p1a: Smeargle
+  -immune|p1a: Smeargle
+  -heal|p2a: Houndstone|93/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 0.93, predicted move (revealed) hits us x0
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|86/100
+  move|p2a: Houndstone|Poltergeist|p1a: Smeargle
+  -immune|p1a: Smeargle
+  -heal|p2a: Houndstone|92/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 0.92, predicted move (revealed) hits us x0
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|84/100
+  move|p2a: Houndstone|Poltergeist|p1a: Smeargle
+  -immune|p1a: Smeargle
+  -heal|p2a: Houndstone|90/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 0.90, predicted move (revealed) hits us x0
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|82/100
+  move|p2a: Houndstone|Poltergeist|p1a: Smeargle
+  -immune|p1a: Smeargle
+  -heal|p2a: Houndstone|88/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x0
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|80/100
+  move|p2a: Houndstone|Poltergeist|p1a: Smeargle
+  -immune|p1a: Smeargle
+  -heal|p2a: Houndstone|86/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 0.86, predicted move (revealed) hits us x0
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|78/100
+  move|p2a: Houndstone|Body Press|p1a: Smeargle
+  -supereffective|p1a: Smeargle
+  -damage|p1a: Smeargle|46/258
+  -heal|p2a: Houndstone|84/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack ceaselessedge - our hp 0.18, theirs 0.84, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wyrdeer - our hp 0.00, theirs 0.83, predicted move (revealed) hits us x0
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|77/100
+  move|p2a: Houndstone|Body Press|p1a: Smeargle
+  -supereffective|p1a: Smeargle
+  -damage|p1a: Smeargle|0 fnt
+  faint|p1a: Smeargle
+  -heal|p2a: Houndstone|83/100|[from] item: Leftovers
+  switch|p1a: Wyrdeer|Wyrdeer, L87, M|321/321
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Houndstone|atk|1
+-- turn 11
+  WE CHOSE: attack psychicnoise - our hp 1.00, theirs 0.83, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Body Press|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|250/321
+  move|p1a: Wyrdeer|Psychic Noise|p2a: Houndstone
+  -crit|p2a: Houndstone
+  -damage|p2a: Houndstone|37/100
+  -start|p2a: Houndstone|move: Heal Block
+  -heal|p1a: Wyrdeer|270/321|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack psychicnoise - our hp 0.84, theirs 0.37, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Body Press|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|207/321
+  move|p1a: Wyrdeer|Psychic Noise|p2a: Houndstone
+  -damage|p2a: Houndstone|8/100
+  -heal|p1a: Wyrdeer|227/321|[from] item: Leftovers
+  -end|p2a: Houndstone|move: Heal Block
+-- turn 13
+  WE CHOSE: attack psychicnoise - our hp 0.71, theirs 0.08, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Body Press|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|159/321
+  move|p1a: Wyrdeer|Psychic Noise|p2a: Houndstone
+  -damage|p2a: Houndstone|0 fnt
+  faint|p2a: Houndstone
+  -heal|p1a: Wyrdeer|179/321|[from] item: Leftovers
+  switch|p2a: Breloom|Breloom, L83, F|100/100
+  -damage|p2a: Breloom|76/100|[from] Spikes
+-- turn 14
+  WE CHOSE: attack+tera psychicnoise - our hp 0.56, theirs 0.76, predicted move (guessed) hits us x1
+  -terastallize|p1a: Wyrdeer|Ground
+  move|p2a: Breloom|Rock Tomb|p1a: Wyrdeer
+  -resisted|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|118/321
+  -unboost|p1a: Wyrdeer|spe|1
+  -damage|p2a: Breloom|66/100|[from] item: Life Orb
+  move|p1a: Wyrdeer|Psychic Noise|p2a: Breloom
+  -supereffective|p2a: Breloom
+  -damage|p2a: Breloom|0 fnt
+  faint|p2a: Breloom
+  -heal|p1a: Wyrdeer|138/321|[from] item: Leftovers
+  switch|p2a: Miraidon|Miraidon, L65|100/100
+  -damage|p2a: Miraidon|76/100|[from] Spikes
+  -fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.43, theirs 0.76, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to floatzel - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p2a: Miraidon|Overheat|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|0 fnt
+  -unboost|p2a: Miraidon|spa|2
+  faint|p1a: Wyrdeer
+  switch|p1a: Floatzel|Floatzel, L86, M|286/286
+-- turn 16
+  WE CHOSE: attack icespinner - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x0.5
+  move|p1a: Floatzel|Ice Spinner|p2a: Miraidon
+  -supereffective|p2a: Miraidon
+  -damage|p2a: Miraidon|0 fnt
+  -fieldend|move: Electric Terrain
+  faint|p2a: Miraidon
+  switch|p2a: Floatzel|Floatzel, L86, F|100/100
+  -damage|p2a: Floatzel|76/100|[from] Spikes
+-- turn 17
+  WE CHOSE: attack icespinner - our hp 1.00, theirs 0.76, predicted move (guessed) hits us x0.5
+  move|p2a: Floatzel|Wave Crash|p1a: Floatzel
+  -resisted|p1a: Floatzel
+  -damage|p1a: Floatzel|154/286
+  -damage|p2a: Floatzel|60/100|[from] Recoil
+  move|p1a: Floatzel|Ice Spinner|p2a: Floatzel
+  -resisted|p2a: Floatzel
+  -damage|p2a: Floatzel|39/100
+-- turn 18
+  WE CHOSE: attack icespinner - our hp 0.54, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p1a: Floatzel|Ice Spinner|p2a: Floatzel
+  -resisted|p2a: Floatzel
+  -damage|p2a: Floatzel|16/100
+  move|p2a: Floatzel|Wave Crash|p1a: Floatzel
+  -resisted|p1a: Floatzel
+  -damage|p1a: Floatzel|22/286
+  -damage|p2a: Floatzel|1/100|[from] Recoil
+-- turn 19
+  WE CHOSE: attack icespinner - our hp 0.08, theirs 0.01, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to thundurus - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p2a: Floatzel|Wave Crash|p1a: Floatzel
+  -resisted|p1a: Floatzel
+  -damage|p1a: Floatzel|0 fnt
+  faint|p1a: Floatzel
+  -damage|p2a: Floatzel|0 fnt|[from] Recoil
+  faint|p2a: Floatzel
+  switch|p2a: Lurantis|Lurantis, L87, M|100/100
+  switch|p1a: Thundurus|Thundurus, L80, M|258/258
+  -damage|p2a: Lurantis|75/100|[from] Spikes
+-- turn 20
+  WE CHOSE: attack focusblast - our hp 1.00, theirs 0.75, predicted move (guessed) hits us x0.5
+  move|p1a: Thundurus|Focus Blast|p2a: Lurantis
+  -damage|p2a: Lurantis|42/100
+  move|p2a: Lurantis|Leaf Storm|p1a: Thundurus
+  -resisted|p1a: Thundurus
+  -damage|p1a: Thundurus|192/258
+  -boost|p2a: Lurantis|spa|2
+  -heal|p2a: Lurantis|48/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack focusblast - our hp 0.74, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p1a: Thundurus|Focus Blast|p2a: Lurantis|[miss]
+  -miss|p1a: Thundurus|p2a: Lurantis
+  move|p2a: Lurantis|Leaf Storm|p1a: Thundurus
+  -resisted|p1a: Thundurus
+  -damage|p1a: Thundurus|50/258
+  -boost|p2a: Lurantis|spa|2
+  -heal|p2a: Lurantis|54/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack focusblast - our hp 0.19, theirs 0.54, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to deoxys - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x0.5
+  move|p1a: Thundurus|Focus Blast|p2a: Lurantis
+  -damage|p2a: Lurantis|19/100
+  move|p2a: Lurantis|Leaf Storm|p1a: Thundurus
+  -resisted|p1a: Thundurus
+  -damage|p1a: Thundurus|0 fnt
+  -boost|p2a: Lurantis|spa|2
+  faint|p1a: Thundurus
+  -heal|p2a: Lurantis|25/100|[from] item: Leftovers
+  switch|p1a: Deoxys|Deoxys, L74|196/196
+  -ability|p1a: Deoxys|Pressure
+-- turn 23
+  WE CHOSE: attack psychoboost - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rotom - our hp 0.00, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Lurantis|[miss]
+  -miss|p1a: Deoxys|p2a: Lurantis
+  move|p2a: Lurantis|Leaf Storm|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  faint|p1a: Deoxys
+  -heal|p2a: Lurantis|32/100|[from] item: Leftovers
+  switch|p1a: Rotom|Rotom, L88|231/231
+-- turn 24
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Rotom|Shadow Ball|p2a: Lurantis
+  -damage|p2a: Lurantis|0 fnt
+  faint|p2a: Lurantis
+  -damage|p1a: Rotom|208/231|[from] item: Life Orb
+  switch|p2a: Deoxys|Deoxys-Attack, L72|100/100
+  -damage|p2a: Deoxys|76/100|[from] Spikes
+  -ability|p2a: Deoxys|Pressure
+-- turn 25
+  WE CHOSE: attack shadowball - our hp 0.90, theirs 0.76, predicted move (guessed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Rotom
+  -damage|p1a: Rotom|0 fnt
+  -unboost|p2a: Deoxys|spa|2
+  faint|p1a: Rotom
+  -damage|p2a: Deoxys|66/100|[from] item: Life Orb
+  deinit

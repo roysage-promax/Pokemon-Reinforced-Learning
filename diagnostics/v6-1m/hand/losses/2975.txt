@@ -1,0 +1,599 @@
+battle 2975 (battle-gen9randombattle-1034275): lost in 75 turns, 1 of theirs left; we are p1
+
+ours:
+  espeon (fainted; item ?, ability magicbounce, tera psychic; moves psyshock/trick/shadowball/alluringvoice)
+  corviknight (fainted; item rockyhelmet, ability mirrorarmor; moves roost/uturn/defog/bravebird)
+  empoleon (fainted; item leftovers, ability competitive; moves surf/roar/roost/flipturn)
+  rampardos (fainted; item choicescarf, ability sheerforce; moves rockslide/headsmash/earthquake/firepunch)
+  uxie (fainted; item leftovers, ability levitate; moves thunderwave/uturn/knockoff/psychicnoise)
+  frosmoth (fainted; item heavydutyboots, ability icescales; moves icebeam/terablast/quiverdance/gigadrain)
+theirs (as seen):
+  kricketune (fainted; item unknown_item, ability ?; moves knockoff)
+  latios (fainted; item unknown_item, ability levitate; moves dracometeor)
+  raikou (fainted; item unknown_item, ability pressure; moves thunderbolt)
+  oricoriopau (fainted; item unknown_item, ability dancer; moves hurricane)
+  eternatus (fainted; item leftovers, ability pressure; moves dynamaxcannon/flamethrower)
+  poliwrath (100%; item leftovers, ability waterabsorb; moves liquidation/poisonjab/drainpunch)
+
+-- turn 0
+  switch|p1a: Espeon|Espeon, L84, M|246/246
+  switch|p2a: Kricketune|Kricketune, L99, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera psyshock - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Espeon|Psychic
+  move|p1a: Espeon|Psyshock|p2a: Kricketune
+  -damage|p2a: Kricketune|15/100
+  move|p2a: Kricketune|Knock Off|p1a: Espeon
+  -supereffective|p1a: Espeon
+  -damage|p1a: Espeon|12/246
+  -enditem|p1a: Espeon|Choice Specs|[from] move: Knock Off|[of] p2a: Kricketune
+-- turn 2
+  WE CHOSE: attack psyshock - our hp 0.05, theirs 0.15, predicted move (revealed) hits us x2
+  move|p1a: Espeon|Psyshock|p2a: Kricketune
+  -damage|p2a: Kricketune|0 fnt
+  faint|p2a: Kricketune
+  switch|p2a: Latios|Latios, L78, M|100/100
+-- turn 3
+  WE CHOSE: attack shadowball - our hp 0.05, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to frosmoth - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Espeon|Shadow Ball|p2a: Latios
+  -supereffective|p2a: Latios
+  -damage|p2a: Latios|48/100
+  move|p2a: Latios|Draco Meteor|p1a: Espeon
+  -damage|p1a: Espeon|0 fnt
+  -unboost|p2a: Latios|spa|2
+  faint|p1a: Espeon
+  switch|p1a: Frosmoth|Frosmoth, L82, M|249/249
+-- turn 4
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Latios|Draco Meteor|p1a: Frosmoth|[miss]
+  -miss|p2a: Latios|p1a: Frosmoth
+  move|p1a: Frosmoth|Ice Beam|p2a: Latios
+  -supereffective|p2a: Latios
+  -damage|p2a: Latios|0 fnt
+  faint|p2a: Latios
+  switch|p2a: Raikou|Raikou, L81|100/100
+  -ability|p2a: Raikou|Pressure
+-- turn 5
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Frosmoth
+  -damage|p1a: Frosmoth|193/249
+  move|p1a: Frosmoth|Ice Beam|p2a: Raikou
+  -damage|p2a: Raikou|63/100
+-- turn 6
+  WE CHOSE: attack icebeam - our hp 0.78, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Frosmoth
+  -damage|p1a: Frosmoth|139/249
+  move|p1a: Frosmoth|Ice Beam|p2a: Raikou
+  -damage|p2a: Raikou|24/100
+-- turn 7
+  WE CHOSE: attack icebeam - our hp 0.56, theirs 0.24, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Frosmoth
+  -damage|p1a: Frosmoth|86/249
+  move|p1a: Frosmoth|Ice Beam|p2a: Raikou
+  -damage|p2a: Raikou|0 fnt
+  faint|p2a: Raikou
+  switch|p2a: Oricorio|Oricorio-Pa'u, L87, F|100/100
+-- turn 8
+  WE CHOSE: switch to rampardos - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Rampardos|Rampardos, L90, M|321/321
+  move|p2a: Oricorio|Hurricane|p1a: Rampardos
+  -resisted|p1a: Rampardos
+  -damage|p1a: Rampardos|237/321
+-- turn 9
+  WE CHOSE: attack headsmash - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Rampardos|Head Smash|p2a: Oricorio|[miss]
+  -miss|p1a: Rampardos|p2a: Oricorio
+  move|p2a: Oricorio|Hurricane|p1a: Rampardos
+  -resisted|p1a: Rampardos
+  -crit|p1a: Rampardos
+  -damage|p1a: Rampardos|103/321
+  -start|p1a: Rampardos|confusion
+-- turn 10
+  WE CHOSE: attack headsmash - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to corviknight - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  -activate|p1a: Rampardos|confusion
+  -damage|p1a: Rampardos|38/321|[from] confusion
+  move|p2a: Oricorio|Hurricane|p1a: Rampardos
+  -resisted|p1a: Rampardos
+  -damage|p1a: Rampardos|0 fnt
+  faint|p1a: Rampardos
+  switch|p1a: Corviknight|Corviknight, L80, M|288/288
+-- turn 11
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Oricorio|Hurricane|p1a: Corviknight
+  -resisted|p1a: Corviknight
+  -damage|p1a: Corviknight|220/288
+  move|p1a: Corviknight|Brave Bird|p2a: Oricorio
+  -damage|p2a: Oricorio|56/100
+  -damage|p1a: Corviknight|180/288|[from] Recoil
+-- turn 12
+  WE CHOSE: attack bravebird - our hp 0.62, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p2a: Oricorio|Hurricane|p1a: Corviknight
+  -resisted|p1a: Corviknight
+  -damage|p1a: Corviknight|109/288
+  move|p1a: Corviknight|Brave Bird|p2a: Oricorio
+  -damage|p2a: Oricorio|7/100
+  -damage|p1a: Corviknight|65/288|[from] Recoil
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.23, theirs 0.07, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to empoleon - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p2a: Oricorio|Hurricane|p1a: Corviknight
+  -resisted|p1a: Corviknight
+  -damage|p1a: Corviknight|0 fnt
+  faint|p1a: Corviknight
+  switch|p1a: Empoleon|Empoleon, L84, M|278/278
+-- turn 14
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p2a: Oricorio|Hurricane|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|224/278
+  move|p1a: Empoleon|Surf|p2a: Oricorio
+  -damage|p2a: Oricorio|0 fnt
+  faint|p2a: Oricorio
+  -heal|p1a: Empoleon|241/278|[from] item: Leftovers
+  switch|p2a: Eternatus|Eternatus, L69|100/100
+  -ability|p2a: Eternatus|Pressure
+-- turn 15
+  WE CHOSE: attack surf - our hp 0.87, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|200/278
+  move|p1a: Empoleon|Surf|p2a: Eternatus
+  -resisted|p2a: Eternatus
+  -damage|p2a: Eternatus|82/100
+  -heal|p2a: Eternatus|88/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|217/278|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack surf - our hp 0.78, theirs 0.88, predicted move (revealed) hits us x0.5
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|170/278
+  move|p1a: Empoleon|Surf|p2a: Eternatus
+  -resisted|p2a: Eternatus
+  -damage|p2a: Eternatus|68/100
+  -heal|p2a: Eternatus|74/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|187/278|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack surf - our hp 0.67, theirs 0.74, predicted move (revealed) hits us x0.5
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|140/278
+  move|p1a: Empoleon|Surf|p2a: Eternatus
+  -resisted|p2a: Eternatus
+  -damage|p2a: Eternatus|55/100
+  -heal|p2a: Eternatus|61/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|157/278|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack surf - our hp 0.56, theirs 0.61, predicted move (revealed) hits us x0.5
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|109/278
+  move|p1a: Empoleon|Surf|p2a: Eternatus
+  -resisted|p2a: Eternatus
+  -damage|p2a: Eternatus|42/100
+  -heal|p2a: Eternatus|49/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|126/278|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: heal roost - our hp 0.45, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|81/278
+  move|p1a: Empoleon|Roost|p1a: Empoleon
+  -heal|p1a: Empoleon|220/278
+  -singleturn|p1a: Empoleon|move: Roost
+  -heal|p2a: Eternatus|55/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|237/278|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack surf - our hp 0.85, theirs 0.55, predicted move (revealed) hits us x0.5
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|191/278
+  move|p1a: Empoleon|Surf|p2a: Eternatus
+  -resisted|p2a: Eternatus
+  -damage|p2a: Eternatus|36/100
+  -heal|p2a: Eternatus|42/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|208/278|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack surf - our hp 0.75, theirs 0.42, predicted move (revealed) hits us x0.5
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|163/278
+  move|p1a: Empoleon|Surf|p2a: Eternatus
+  -resisted|p2a: Eternatus
+  -damage|p2a: Eternatus|24/100
+  -heal|p2a: Eternatus|30/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|180/278|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack surf - our hp 0.65, theirs 0.30, predicted move (revealed) hits us x0.5
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -crit|p1a: Empoleon
+  -damage|p1a: Empoleon|112/278
+  move|p1a: Empoleon|Surf|p2a: Eternatus
+  -resisted|p2a: Eternatus
+  -damage|p2a: Eternatus|12/100
+  -heal|p2a: Eternatus|18/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|129/278|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal roost - our hp 0.46, theirs 0.18, predicted move (revealed) hits us x0.5
+  move|p2a: Eternatus|Flamethrower|p1a: Empoleon
+  -damage|p1a: Empoleon|73/278
+  move|p1a: Empoleon|Roost|p1a: Empoleon
+  -heal|p1a: Empoleon|212/278
+  -singleturn|p1a: Empoleon|move: Roost
+  -heal|p2a: Eternatus|24/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|229/278|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack surf - our hp 0.82, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p2a: Eternatus|Flamethrower|p1a: Empoleon
+  -damage|p1a: Empoleon|178/278
+  move|p1a: Empoleon|Surf|p2a: Eternatus
+  -resisted|p2a: Eternatus
+  -damage|p2a: Eternatus|3/100
+  -heal|p2a: Eternatus|9/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|195/278|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack surf - our hp 0.70, theirs 0.09, predicted move (revealed) hits us x0.5
+  move|p2a: Eternatus|Flamethrower|p1a: Empoleon
+  -damage|p1a: Empoleon|142/278
+  move|p1a: Empoleon|Surf|p2a: Eternatus
+  -resisted|p2a: Eternatus
+  -damage|p2a: Eternatus|0 fnt
+  faint|p2a: Eternatus
+  -heal|p1a: Empoleon|159/278|[from] item: Leftovers
+  switch|p2a: Poliwrath|Poliwrath, L88, M|100/100
+-- turn 26
+  WE CHOSE: switch to uxie - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Uxie|Uxie, L83|260/260
+  move|p2a: Poliwrath|Liquidation|p1a: Uxie
+  -damage|p1a: Uxie|182/260
+  -unboost|p1a: Uxie|def|1
+  -heal|p1a: Uxie|198/260|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack psychicnoise - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Uxie|Psychic Noise|p2a: Poliwrath
+  -supereffective|p2a: Poliwrath
+  -damage|p2a: Poliwrath|62/100
+  -start|p2a: Poliwrath|move: Heal Block
+  move|p2a: Poliwrath|Liquidation|p1a: Uxie
+  -damage|p1a: Uxie|86/260
+  -heal|p1a: Uxie|102/260|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack psychicnoise - our hp 0.39, theirs 0.62, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to frosmoth - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Uxie|Psychic Noise|p2a: Poliwrath
+  -supereffective|p2a: Poliwrath
+  -damage|p2a: Poliwrath|24/100
+  move|p2a: Poliwrath|Liquidation|p1a: Uxie
+  -damage|p1a: Uxie|0 fnt
+  faint|p1a: Uxie
+  -end|p2a: Poliwrath|move: Heal Block
+  switch|p1a: Frosmoth|Frosmoth, L82, M|86/249
+-- turn 29
+  WE CHOSE: attack gigadrain - our hp 0.35, theirs 0.24, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to empoleon - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Poliwrath|Liquidation|p1a: Frosmoth
+  -damage|p1a: Frosmoth|0 fnt
+  faint|p1a: Frosmoth
+  -heal|p2a: Poliwrath|30/100|[from] item: Leftovers
+  switch|p1a: Empoleon|Empoleon, L84, M|159/278
+-- turn 30
+  WE CHOSE: attack surf - our hp 0.57, theirs 0.30, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Liquidation|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|111/278
+  move|p1a: Empoleon|Surf|p2a: Poliwrath
+  -heal|p2a: Poliwrath|54/100|[from] ability: Water Absorb|[of] p1a: Empoleon
+  -heal|p2a: Poliwrath|60/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|128/278|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: heal roost - our hp 0.46, theirs 0.60, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Liquidation|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|77/278
+  move|p1a: Empoleon|Roost|p1a: Empoleon
+  -heal|p1a: Empoleon|216/278
+  -singleturn|p1a: Empoleon|move: Roost
+  -heal|p2a: Poliwrath|66/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|233/278|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack surf - our hp 0.84, theirs 0.66, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Liquidation|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|182/278
+  move|p1a: Empoleon|Surf|p2a: Poliwrath
+  -heal|p2a: Poliwrath|91/100|[from] ability: Water Absorb|[of] p1a: Empoleon
+  -heal|p2a: Poliwrath|97/100|[from] item: Leftovers
+  -heal|p1a: Empoleon|199/278|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack surf - our hp 0.72, theirs 0.97, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Liquidation|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|154/278
+  move|p1a: Empoleon|Surf|p2a: Poliwrath
+  -heal|p2a: Poliwrath|100/100|[from] ability: Water Absorb|[of] p1a: Empoleon
+  -heal|p1a: Empoleon|171/278|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack surf - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Liquidation|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|121/278
+  -unboost|p1a: Empoleon|def|1
+  -ability|p1a: Empoleon|Competitive|boost
+  -boost|p1a: Empoleon|spa|2
+  move|p1a: Empoleon|Surf|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+  -heal|p1a: Empoleon|138/278|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: heal roost - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Liquidation|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|60/278
+  move|p1a: Empoleon|Roost|p1a: Empoleon
+  -heal|p1a: Empoleon|199/278
+  -singleturn|p1a: Empoleon|move: Roost
+  -heal|p1a: Empoleon|216/278|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack surf - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Liquidation|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|139/278
+  move|p1a: Empoleon|Surf|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+  -heal|p1a: Empoleon|156/278|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: attack flipturn - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Liquidation|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|84/278
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+  -heal|p1a: Empoleon|101/278|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: heal roost - our hp 0.36, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Liquidation|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|33/278
+  move|p1a: Empoleon|Roost|p1a: Empoleon
+  -heal|p1a: Empoleon|172/278
+  -singleturn|p1a: Empoleon|move: Roost
+  -heal|p1a: Empoleon|189/278|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack flipturn - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Liquidation|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|116/278
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+  -heal|p1a: Empoleon|133/278|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: heal roost - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Liquidation|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|64/278
+  move|p1a: Empoleon|Roost|p1a: Empoleon
+  -heal|p1a: Empoleon|203/278
+  -singleturn|p1a: Empoleon|move: Roost
+  -heal|p1a: Empoleon|220/278|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: attack flipturn - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Liquidation|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|151/278
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+  -heal|p1a: Empoleon|168/278|[from] item: Leftovers
+-- turn 42
+  WE CHOSE: attack flipturn - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+  -heal|p1a: Empoleon|185/278|[from] item: Leftovers
+-- turn 43
+  WE CHOSE: attack flipturn - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+  -heal|p1a: Empoleon|202/278|[from] item: Leftovers
+-- turn 44
+  WE CHOSE: attack flipturn - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+  -heal|p1a: Empoleon|219/278|[from] item: Leftovers
+-- turn 45
+  WE CHOSE: attack flipturn - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+  -heal|p1a: Empoleon|236/278|[from] item: Leftovers
+-- turn 46
+  WE CHOSE: attack flipturn - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+  -heal|p1a: Empoleon|253/278|[from] item: Leftovers
+-- turn 47
+  WE CHOSE: attack flipturn - our hp 0.91, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+  -heal|p1a: Empoleon|270/278|[from] item: Leftovers
+-- turn 48
+  WE CHOSE: attack flipturn - our hp 0.97, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+  -heal|p1a: Empoleon|278/278|[from] item: Leftovers
+-- turn 49
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 50
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 51
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 52
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 53
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 54
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 55
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 56
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 57
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 58
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 59
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 60
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 61
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 62
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 63
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 64
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 65
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 66
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 67
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 68
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 69
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 70
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Flip Turn|p2a: Poliwrath
+  -immune|p2a: Poliwrath|[from] ability: Water Absorb
+-- turn 71
+  WE CHOSE: attack roar - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Roar||[still]
+  -fail|p1a: Empoleon
+-- turn 72
+  WE CHOSE: attack roar - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Roar||[still]
+  -fail|p1a: Empoleon
+-- turn 73
+  WE CHOSE: attack roar - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Poison Jab|p1a: Empoleon
+  -immune|p1a: Empoleon
+  move|p1a: Empoleon|Roar||[still]
+  -fail|p1a: Empoleon
+-- turn 74
+  WE CHOSE: attack roar - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Drain Punch|p1a: Empoleon
+  -supereffective|p1a: Empoleon
+  -damage|p1a: Empoleon|6/278
+  move|p1a: Empoleon|Roar||[still]
+  -fail|p1a: Empoleon
+  -heal|p1a: Empoleon|23/278|[from] item: Leftovers
+-- turn 75
+  WE CHOSE: heal roost - our hp 0.08, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Drain Punch|p1a: Empoleon
+  -supereffective|p1a: Empoleon
+  -damage|p1a: Empoleon|0 fnt
+  faint|p1a: Empoleon

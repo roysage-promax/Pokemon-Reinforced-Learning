@@ -1,0 +1,211 @@
+battle 1591 (battle-gen9randombattle-1022505): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  wigglytuff (fainted; item leftovers, ability competitive; moves protect/alluringvoice/thunderwave/wish)
+  armarouge (fainted; item choicespecs, ability weakarmor, tera fighting; moves energyball/armorcannon/psyshock/focusblast)
+  mewtwo (fainted; item lifeorb, ability pressure; moves fireblast/psystrike/darkpulse/nastyplot)
+  zapdos (fainted; item heavydutyboots, ability static; moves roost/discharge/heatwave/hurricane)
+  duraludon (fainted; item eviolite, ability lightmetal; moves dracometeor/bodypress/thunderwave/flashcannon)
+  brutebonnet (fainted; item leftovers, ability protosynthesis; moves suckerpunch/seedbomb/crunch/spore)
+theirs (as seen):
+  lokix (fainted; item lifeorb, ability ?; moves leechlife)
+  zamazenta (fainted; item unknown_item, ability dauntlessshield; moves closecombat)
+  mudsdale (fainted; item leftovers, ability stamina; moves earthquake)
+  girafarig (fainted; item unknown_item, ability ?; moves thunderbolt)
+  scovillain (fainted; item unknown_item, ability ?; moves fireblast)
+  pawmot (100%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Wigglytuff|Wigglytuff, L96, F|424/424
+  switch|p2a: Lokix|Lokix, L82, M|100/100
+-- turn 1
+  WE CHOSE: attack alluringvoice - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Lokix|Leech Life|p1a: Wigglytuff
+  -resisted|p1a: Wigglytuff
+  -damage|p1a: Wigglytuff|260/424
+  -damage|p2a: Lokix|91/100|[from] item: Life Orb
+  move|p1a: Wigglytuff|Alluring Voice|p2a: Lokix
+  -supereffective|p2a: Lokix
+  -damage|p2a: Lokix|0 fnt
+  faint|p2a: Lokix
+  -heal|p1a: Wigglytuff|286/424|[from] item: Leftovers
+  switch|p2a: Zamazenta|Zamazenta, L71|100/100
+  -ability|p2a: Zamazenta|Dauntless Shield|boost
+  -boost|p2a: Zamazenta|def|1
+-- turn 2
+  WE CHOSE: switch to mewtwo (hand policy: attack alluringvoice) - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Mewtwo|Mewtwo, L72|272/272
+  -ability|p1a: Mewtwo|Pressure
+  move|p2a: Zamazenta|Close Combat|p1a: Mewtwo
+  -resisted|p1a: Mewtwo
+  -damage|p1a: Mewtwo|187/272
+  -unboost|p2a: Zamazenta|def|1
+  -unboost|p2a: Zamazenta|spd|1
+-- turn 3
+  WE CHOSE: setup nastyplot - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Zamazenta|Close Combat|p1a: Mewtwo
+  -resisted|p1a: Mewtwo
+  -damage|p1a: Mewtwo|88/272
+  -unboost|p2a: Zamazenta|def|1
+  -unboost|p2a: Zamazenta|spd|1
+  move|p1a: Mewtwo|Nasty Plot|p1a: Mewtwo
+  -boost|p1a: Mewtwo|spa|2
+-- turn 4
+  WE CHOSE: attack psystrike - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to armarouge - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Zamazenta|Close Combat|p1a: Mewtwo
+  -resisted|p1a: Mewtwo
+  -damage|p1a: Mewtwo|0 fnt
+  -unboost|p2a: Zamazenta|def|1
+  -unboost|p2a: Zamazenta|spd|1
+  faint|p1a: Mewtwo
+  switch|p1a: Armarouge|Armarouge, L80, F|267/267
+-- turn 5
+  WE CHOSE: attack psyshock - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Zamazenta|Close Combat|p1a: Armarouge
+  -resisted|p1a: Armarouge
+  -damage|p1a: Armarouge|186/267
+  -unboost|p2a: Zamazenta|def|1
+  -unboost|p2a: Zamazenta|spd|1
+  -ability|p1a: Armarouge|Weak Armor|boost
+  -unboost|p1a: Armarouge|def|1
+  -boost|p1a: Armarouge|spe|2
+  move|p1a: Armarouge|Psyshock|p2a: Zamazenta
+  -supereffective|p2a: Zamazenta
+  -damage|p2a: Zamazenta|0 fnt
+  faint|p2a: Zamazenta
+  switch|p2a: Mudsdale|Mudsdale, L83, F|100/100
+-- turn 6
+  WE CHOSE: switch to zapdos - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Zapdos|Zapdos, L78|268/268
+  move|p2a: Mudsdale|Earthquake|p1a: Zapdos
+  -immune|p1a: Zapdos
+-- turn 7
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Zapdos|Hurricane|p2a: Mudsdale
+  -damage|p2a: Mudsdale|56/100
+  -ability|p2a: Mudsdale|Stamina|boost
+  -boost|p2a: Mudsdale|def|1
+  move|p2a: Mudsdale|Earthquake|p1a: Zapdos
+  -immune|p1a: Zapdos
+  -heal|p2a: Mudsdale|62/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x0
+  move|p1a: Zapdos|Hurricane|p2a: Mudsdale
+  -damage|p2a: Mudsdale|22/100
+  -ability|p2a: Mudsdale|Stamina|boost
+  -boost|p2a: Mudsdale|def|1
+  move|p2a: Mudsdale|Earthquake|p1a: Zapdos
+  -immune|p1a: Zapdos
+  -heal|p2a: Mudsdale|28/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x0
+  move|p1a: Zapdos|Hurricane|p2a: Mudsdale
+  -damage|p2a: Mudsdale|0 fnt
+  faint|p2a: Mudsdale
+  switch|p2a: Girafarig|Girafarig, L89, F|100/100
+-- turn 10
+  WE CHOSE: switch to brutebonnet - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Brute Bonnet|Brute Bonnet, L80|309/309
+  move|p2a: Girafarig|Thunderbolt|p1a: Brute Bonnet
+  -resisted|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|278/309
+  -heal|p1a: Brute Bonnet|297/309|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack crunch - our hp 0.96, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Girafarig|Thunderbolt|p1a: Brute Bonnet
+  -resisted|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|265/309
+  move|p1a: Brute Bonnet|Crunch|p2a: Girafarig
+  -supereffective|p2a: Girafarig
+  -damage|p2a: Girafarig|45/100
+  -unboost|p2a: Girafarig|def|1
+  -heal|p1a: Brute Bonnet|284/309|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack crunch - our hp 0.92, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p2a: Girafarig|Thunderbolt|p1a: Brute Bonnet
+  -resisted|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|251/309
+  move|p1a: Brute Bonnet|Crunch|p2a: Girafarig
+  -supereffective|p2a: Girafarig
+  -damage|p2a: Girafarig|0 fnt
+  faint|p2a: Girafarig
+  -heal|p1a: Brute Bonnet|270/309|[from] item: Leftovers
+  switch|p2a: Scovillain|Scovillain, L91, M|100/100
+-- turn 13
+  WE CHOSE: attack crunch - our hp 0.87, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to armarouge - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Scovillain|Fire Blast|p1a: Brute Bonnet
+  -supereffective|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|0 fnt
+  faint|p1a: Brute Bonnet
+  -end|p1a: Brute Bonnet|Protosynthesis|[silent]
+  switch|p1a: Armarouge|Armarouge, L80, F|186/267
+-- turn 14
+  WE CHOSE: attack armorcannon - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Scovillain|Fire Blast|p1a: Armarouge
+  -resisted|p1a: Armarouge
+  -damage|p1a: Armarouge|103/267
+  move|p1a: Armarouge|Armor Cannon|p2a: Scovillain
+  -damage|p2a: Scovillain|13/100
+  -unboost|p1a: Armarouge|def|1
+  -unboost|p1a: Armarouge|spd|1
+-- turn 15
+  WE CHOSE: attack+tera armorcannon (hand policy: attack armorcannon) - our hp 0.39, theirs 0.13, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to zapdos - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  -terastallize|p1a: Armarouge|Fighting
+  move|p2a: Scovillain|Fire Blast|p1a: Armarouge
+  -damage|p1a: Armarouge|0 fnt
+  faint|p1a: Armarouge
+  switch|p1a: Zapdos|Zapdos, L78|268/268
+-- turn 16
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Zapdos|Hurricane|p2a: Scovillain|[miss]
+  -miss|p1a: Zapdos|p2a: Scovillain
+  move|p2a: Scovillain|Fire Blast|p1a: Zapdos
+  -damage|p1a: Zapdos|105/268
+-- turn 17
+  WE CHOSE: attack hurricane (hand policy: heal roost) - our hp 0.39, theirs 0.13, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to duraludon - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Zapdos|Hurricane|p2a: Scovillain|[miss]
+  -miss|p1a: Zapdos|p2a: Scovillain
+  move|p2a: Scovillain|Fire Blast|p1a: Zapdos
+  -damage|p1a: Zapdos|0 fnt
+  faint|p1a: Zapdos
+  switch|p1a: Duraludon|Duraludon, L82, F|249/249
+-- turn 18
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Scovillain|Fire Blast|p1a: Duraludon
+  -damage|p1a: Duraludon|111/249
+  move|p1a: Duraludon|Draco Meteor|p2a: Scovillain
+  -damage|p2a: Scovillain|0 fnt
+  -unboost|p1a: Duraludon|spa|2
+  faint|p2a: Scovillain
+  switch|p2a: Pawmot|Pawmot, L80, M|100/100
+-- turn 19
+  WE CHOSE: switch to wigglytuff (hand policy: attack dracometeor) - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Wigglytuff|Wigglytuff, L96, F|286/424
+  move|p2a: Pawmot|Close Combat|p1a: Wigglytuff
+  -damage|p1a: Wigglytuff|115/424
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+  -heal|p1a: Wigglytuff|141/424|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack alluringvoice - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to duraludon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Pawmot|Close Combat|p1a: Wigglytuff
+  -crit|p1a: Wigglytuff
+  -damage|p1a: Wigglytuff|0 fnt
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+  faint|p1a: Wigglytuff
+  switch|p1a: Duraludon|Duraludon, L82, F|111/249
+-- turn 21
+  WE CHOSE: attack dracometeor - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Pawmot|Close Combat|p1a: Duraludon
+  -supereffective|p1a: Duraludon
+  -damage|p1a: Duraludon|0 fnt
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+  faint|p1a: Duraludon
+  deinit

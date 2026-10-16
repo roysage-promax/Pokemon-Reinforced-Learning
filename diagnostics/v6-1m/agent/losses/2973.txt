@@ -1,0 +1,282 @@
+battle 2973 (battle-gen9randombattle-1035802): lost in 28 turns, 2 of theirs left; we are p1
+
+ours:
+  rhyperior (fainted; item weaknesspolicy, ability solidrock; moves earthquake/rockpolish/stoneedge/megahorn)
+  luvdisc (fainted; item heavydutyboots, ability swiftswim; moves substitute/surf/flipturn/endeavor)
+  latias (fainted; item souldew, ability levitate, tera steel; moves calmmind/dracometeor/psyshock/recover)
+  inteleon (fainted; item choicespecs, ability torrent; moves scald/hydropump/icebeam/uturn)
+  banette (fainted; item lifeorb, ability insomnia; moves gunkshot/poltergeist/shadowsneak/thunderwave)
+  jirachi (fainted; item leftovers, ability serenegrace; moves uturn/ironhead/bodyslam/stealthrock)
+theirs (as seen):
+  ceruledge (fainted; item unknown_item, ability ?; moves poltergeist)
+  chiyu (fainted; item unknown_item, ability beadsofruin; moves fireblast)
+  bronzong (fainted; item leftovers, ability ?; moves ironhead)
+  exeggutor (fainted; item ?, ability ?; moves psychicnoise)
+  vaporeon (15%; item leftovers, ability ?; moves scald)
+
+-- turn 0
+  switch|p1a: Rhyperior|Rhyperior, L82, M|323/323
+  switch|p2a: Ceruledge|Ceruledge, L78, F|100/100
+-- turn 1
+  WE CHOSE: switch to banette - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to rhyperior - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Banette|Banette, L93, F|270/270
+  move|p2a: Ceruledge|Poltergeist|p1a: Banette
+  -activate|p1a: Banette|move: Poltergeist|Life Orb
+  -supereffective|p1a: Banette
+  -damage|p1a: Banette|0 fnt
+  faint|p1a: Banette
+  switch|p1a: Rhyperior|Rhyperior, L82, M|323/323
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Ceruledge|Poltergeist|p1a: Rhyperior
+  -activate|p1a: Rhyperior|move: Poltergeist|Weakness Policy
+  -damage|p1a: Rhyperior|235/323
+  move|p1a: Rhyperior|Earthquake|p2a: Ceruledge
+  -supereffective|p2a: Ceruledge
+  -damage|p2a: Ceruledge|0 fnt
+  faint|p2a: Ceruledge
+  switch|p2a: Chi-Yu|Chi-Yu, L77|100/100
+  -ability|p2a: Chi-Yu|Beads of Ruin
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Chi-Yu|Fire Blast|p1a: Rhyperior|[miss]
+  -miss|p2a: Chi-Yu|p1a: Rhyperior
+  move|p1a: Rhyperior|Earthquake|p2a: Chi-Yu
+  -supereffective|p2a: Chi-Yu
+  -damage|p2a: Chi-Yu|0 fnt
+  faint|p2a: Chi-Yu
+  switch|p2a: Bronzong|Bronzong, L88|100/100
+-- turn 4
+  WE CHOSE: switch to latias - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Latias|Latias, L79, F|256/256
+  move|p2a: Bronzong|Iron Head|p1a: Latias
+  -damage|p1a: Latias|169/256
+-- turn 5
+  WE CHOSE: attack+tera dracometeor - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Latias|Steel
+  move|p1a: Latias|Draco Meteor|p2a: Bronzong
+  -resisted|p2a: Bronzong
+  -damage|p2a: Bronzong|77/100
+  -unboost|p1a: Latias|spa|2
+  move|p2a: Bronzong|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|127/256
+  -heal|p2a: Bronzong|83/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack dracometeor (hand policy: heal recover) - our hp 0.50, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Draco Meteor|p2a: Bronzong
+  -resisted|p2a: Bronzong
+  -damage|p2a: Bronzong|71/100
+  -unboost|p1a: Latias|spa|2
+  move|p2a: Bronzong|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|81/256
+  -heal|p2a: Bronzong|78/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: switch to luvdisc (hand policy: heal recover) - our hp 0.32, theirs 0.78, predicted move (revealed) hits us x0.5
+  switch|p1a: Luvdisc|Luvdisc, M|247/247
+  move|p2a: Bronzong|Iron Head|p1a: Luvdisc
+  -resisted|p1a: Luvdisc
+  -damage|p1a: Luvdisc|193/247
+  -heal|p2a: Bronzong|84/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack surf - our hp 0.78, theirs 0.84, predicted move (revealed) hits us x0.5
+  move|p1a: Luvdisc|Surf|p2a: Bronzong
+  -crit|p2a: Bronzong
+  -damage|p2a: Bronzong|53/100
+  move|p2a: Bronzong|Iron Head|p1a: Luvdisc
+  -resisted|p1a: Luvdisc
+  -damage|p1a: Luvdisc|142/247
+  -heal|p2a: Bronzong|59/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack surf - our hp 0.57, theirs 0.59, predicted move (revealed) hits us x0.5
+  move|p1a: Luvdisc|Surf|p2a: Bronzong
+  -damage|p2a: Bronzong|35/100
+  move|p2a: Bronzong|Iron Head|p1a: Luvdisc
+  -resisted|p1a: Luvdisc
+  -damage|p1a: Luvdisc|95/247
+  -heal|p2a: Bronzong|41/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack surf - our hp 0.38, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p1a: Luvdisc|Surf|p2a: Bronzong
+  -damage|p2a: Bronzong|22/100
+  move|p2a: Bronzong|Iron Head|p1a: Luvdisc
+  -resisted|p1a: Luvdisc
+  -damage|p1a: Luvdisc|44/247
+  -heal|p2a: Bronzong|28/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack surf - our hp 0.18, theirs 0.28, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to inteleon - our hp 0.00, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Luvdisc|Surf|p2a: Bronzong
+  -damage|p2a: Bronzong|5/100
+  move|p2a: Bronzong|Iron Head|p1a: Luvdisc
+  -resisted|p1a: Luvdisc
+  -damage|p1a: Luvdisc|0 fnt
+  faint|p1a: Luvdisc
+  -heal|p2a: Bronzong|11/100|[from] item: Leftovers
+  switch|p1a: Inteleon|Inteleon, L81, M|246/246
+-- turn 12
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Inteleon|Hydro Pump|p2a: Bronzong
+  -damage|p2a: Bronzong|0 fnt
+  faint|p2a: Bronzong
+  switch|p2a: Exeggutor|Exeggutor, L89, M|100/100
+-- turn 13
+  WE CHOSE: switch to jirachi (hand policy: attack hydropump) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Jirachi|Jirachi, L80|291/291
+  move|p2a: Exeggutor|Psychic Noise|p1a: Jirachi
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|263/291
+  -start|p1a: Jirachi|move: Heal Block
+-- turn 14
+  WE CHOSE: attack uturn - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to latias (hand policy: forced: switch to rhyperior) - our hp 0.90, theirs 0.68, predicted move (revealed) hits us x0.25
+  move|p1a: Jirachi|U-turn|p2a: Exeggutor
+  -supereffective|p2a: Exeggutor
+  -damage|p2a: Exeggutor|43/100
+  -enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+  -heal|p2a: Exeggutor|68/100|[from] item: Sitrus Berry
+  switch|p1a: Latias|Latias, L79, F, tera:Steel|81/256|[from] U-turn
+  move|p2a: Exeggutor|Psychic Noise|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|35/256
+  -start|p1a: Latias|move: Heal Block
+  -item|p2a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+-- turn 15
+  WE CHOSE: attack dracometeor - our hp 0.14, theirs 0.68, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to jirachi - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Draco Meteor|p2a: Exeggutor
+  -damage|p2a: Exeggutor|15/100
+  -unboost|p1a: Latias|spa|2
+  -enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+  -heal|p2a: Exeggutor|40/100|[from] item: Sitrus Berry
+  move|p2a: Exeggutor|Psychic Noise|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|0 fnt
+  faint|p1a: Latias
+  -item|p2a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+  -enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+  -heal|p2a: Exeggutor|65/100|[from] item: Sitrus Berry
+  switch|p1a: Jirachi|Jirachi, L80|263/291
+-- turn 16
+  WE CHOSE: attack uturn - our hp 0.90, theirs 0.65, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to rhyperior - our hp 0.90, theirs 0.03, predicted move (revealed) hits us x0.25
+  move|p1a: Jirachi|U-turn|p2a: Exeggutor
+  -supereffective|p2a: Exeggutor
+  -damage|p2a: Exeggutor|3/100
+  switch|p1a: Rhyperior|Rhyperior, L82, M|235/323|[from] U-turn
+  move|p2a: Exeggutor|Psychic Noise|p1a: Rhyperior
+  -damage|p1a: Rhyperior|70/323
+  -start|p1a: Rhyperior|move: Heal Block
+-- turn 17
+  WE CHOSE: attack megahorn - our hp 0.22, theirs 0.03, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to jirachi - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p2a: Exeggutor|Psychic Noise|p1a: Rhyperior
+  -damage|p1a: Rhyperior|0 fnt
+  faint|p1a: Rhyperior
+  -item|p2a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+  -enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+  -heal|p2a: Exeggutor|28/100|[from] item: Sitrus Berry
+  switch|p1a: Jirachi|Jirachi, L80|263/291
+-- turn 18
+  WE CHOSE: attack uturn - our hp 0.90, theirs 0.28, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to inteleon - our hp 0.90, theirs 0.00, predicted move (revealed) hits us x0.25
+  move|p1a: Jirachi|U-turn|p2a: Exeggutor
+  -supereffective|p2a: Exeggutor
+  -damage|p2a: Exeggutor|0 fnt
+  faint|p2a: Exeggutor
+  switch|p1a: Inteleon|Inteleon, L81, M|246/246|[from] U-turn
+  switch|p2a: Vaporeon|Vaporeon, L86, M|100/100
+-- turn 19
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to jirachi - our hp 1.00, theirs 0.86, predicted move (guessed) hits us x0.5
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|86/100
+  switch|p1a: Jirachi|Jirachi, L80|263/291|[from] U-turn
+  move|p2a: Vaporeon|Scald|p1a: Jirachi
+  -damage|p1a: Jirachi|176/291
+  -heal|p1a: Jirachi|194/291|[from] item: Leftovers
+  -heal|p2a: Vaporeon|92/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack bodyslam - our hp 0.67, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Jirachi|Body Slam|p2a: Vaporeon
+  -damage|p2a: Vaporeon|73/100
+  -status|p2a: Vaporeon|par
+  cant|p2a: Vaporeon|par
+  -heal|p1a: Jirachi|212/291|[from] item: Leftovers
+  -heal|p2a: Vaporeon|79/100 par|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack bodyslam - our hp 0.73, theirs 0.79, predicted move (revealed) hits us x1
+  move|p1a: Jirachi|Body Slam|p2a: Vaporeon
+  -damage|p2a: Vaporeon|60/100 par
+  move|p2a: Vaporeon|Scald|p1a: Jirachi
+  -damage|p1a: Jirachi|121/291
+  -heal|p1a: Jirachi|139/291|[from] item: Leftovers
+  -heal|p2a: Vaporeon|66/100 par|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack bodyslam - our hp 0.48, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Jirachi|Body Slam|p2a: Vaporeon
+  -damage|p2a: Vaporeon|46/100 par
+  move|p2a: Vaporeon|Scald|p1a: Jirachi
+  -damage|p1a: Jirachi|46/291
+  -status|p1a: Jirachi|brn
+  -heal|p1a: Jirachi|64/291 brn|[from] item: Leftovers
+  -heal|p2a: Vaporeon|52/100 par|[from] item: Leftovers
+  -damage|p1a: Jirachi|46/291 brn|[from] brn
+-- turn 23
+  WE CHOSE: attack uturn (hand policy: attack bodyslam) - our hp 0.16, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to inteleon - our hp 0.16, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Jirachi|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|43/100 par
+  switch|p1a: Inteleon|Inteleon, L81, M|246/246|[from] U-turn
+  cant|p2a: Vaporeon|par
+  -heal|p2a: Vaporeon|49/100 par|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to jirachi - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to inteleon - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x1
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|34/100 par
+  switch|p1a: Jirachi|Jirachi, L80|46/291 brn|[from] U-turn
+  move|p2a: Vaporeon|Scald|p1a: Jirachi
+  -damage|p1a: Jirachi|0 fnt
+  faint|p1a: Jirachi
+  -heal|p2a: Vaporeon|40/100 par|[from] item: Leftovers
+  switch|p1a: Inteleon|Inteleon, L81, M|246/246
+-- turn 25
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|25/100 par
+  move|p2a: Vaporeon|Scald|p1a: Inteleon
+  -resisted|p1a: Inteleon
+  -damage|p1a: Inteleon|178/246
+  -heal|p2a: Vaporeon|32/100 par|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack uturn - our hp 0.72, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|17/100 par
+  move|p2a: Vaporeon|Scald|p1a: Inteleon
+  -resisted|p1a: Inteleon
+  -damage|p1a: Inteleon|113/246
+  -status|p1a: Inteleon|brn
+  -heal|p2a: Vaporeon|23/100 par|[from] item: Leftovers
+  -damage|p1a: Inteleon|98/246 brn|[from] brn
+-- turn 27
+  WE CHOSE: attack uturn - our hp 0.40, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|16/100 par
+  move|p2a: Vaporeon|Scald|p1a: Inteleon
+  -resisted|p1a: Inteleon
+  -damage|p1a: Inteleon|35/246 brn
+  -heal|p2a: Vaporeon|22/100 par|[from] item: Leftovers
+  -damage|p1a: Inteleon|20/246 brn|[from] brn
+-- turn 28
+  WE CHOSE: attack uturn - our hp 0.08, theirs 0.22, predicted move (revealed) hits us x0.5
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|15/100 par
+  move|p2a: Vaporeon|Scald|p1a: Inteleon
+  -resisted|p1a: Inteleon
+  -damage|p1a: Inteleon|0 fnt
+  faint|p1a: Inteleon
+  deinit

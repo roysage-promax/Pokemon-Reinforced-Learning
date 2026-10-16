@@ -1,0 +1,170 @@
+battle 1599 (battle-gen9randombattle-1022587): lost in 17 turns, 4 of theirs left; we are p1
+
+ours:
+  walkingwake (fainted; item lifeorb, ability protosynthesis, tera fire; moves hydrosteam/sunnyday/flamethrower/dracometeor)
+  masquerain (fainted; item heavydutyboots, ability intimidate; moves quiverdance/hydropump/hurricane/bugbuzz)
+  kingdra (fainted; item lifeorb, ability swiftswim; moves raindance/dracometeor/wavecrash/hurricane)
+  probopass (fainted; item leftovers, ability magnetpull; moves bodypress/flashcannon/irondefense/powergem)
+  cinderace (fainted; item heavydutyboots, ability libero; moves highjumpkick/courtchange/gunkshot/pyroball)
+  spectrier (fainted; item leftovers, ability grimneigh; moves substitute/nastyplot/shadowball/terablast)
+theirs (as seen):
+  vaporeon (fainted; item leftovers, ability waterabsorb; moves scald)
+  pikachuunova (fainted; item unknown_item, ability ?; moves volttackle)
+  kyogre (100%; item unknown_item, ability drizzle; moves waterspout)
+
+-- turn 0
+  switch|p1a: Walking Wake|Walking Wake, L79|286/286
+  switch|p2a: Vaporeon|Vaporeon, L86, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Walking Wake|Fire
+  move|p1a: Walking Wake|Draco Meteor|p2a: Vaporeon
+  -damage|p2a: Vaporeon|52/100
+  -unboost|p1a: Walking Wake|spa|2
+  -damage|p1a: Walking Wake|258/286|[from] item: Life Orb
+  move|p2a: Vaporeon|Scald|p1a: Walking Wake
+  -supereffective|p1a: Walking Wake
+  -damage|p1a: Walking Wake|46/286
+  -heal|p2a: Vaporeon|58/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to kingdra - our hp 0.16, theirs 0.58, predicted move (revealed) hits us x2
+  -end|p1a: Walking Wake|Protosynthesis|[silent]
+  switch|p1a: Kingdra|Kingdra, L84, M|263/263
+  move|p2a: Vaporeon|Scald|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|242/263
+  -status|p1a: Kingdra|brn
+  -heal|p2a: Vaporeon|65/100|[from] item: Leftovers
+  -damage|p1a: Kingdra|226/263 brn|[from] brn
+-- turn 3
+  WE CHOSE: attack dracometeor - our hp 0.86, theirs 0.65, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Draco Meteor|p2a: Vaporeon
+  -damage|p2a: Vaporeon|20/100
+  -unboost|p1a: Kingdra|spa|2
+  -damage|p1a: Kingdra|200/263 brn|[from] item: Life Orb
+  move|p2a: Vaporeon|Scald|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|177/263 brn
+  -heal|p2a: Vaporeon|26/100|[from] item: Leftovers
+  -damage|p1a: Kingdra|161/263 brn|[from] brn
+-- turn 4
+  WE CHOSE: attack wavecrash - our hp 0.61, theirs 0.26, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Wave Crash|p2a: Vaporeon
+  -heal|p2a: Vaporeon|51/100|[from] ability: Water Absorb|[of] p1a: Kingdra
+  move|p2a: Vaporeon|Scald|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|138/263 brn
+  -heal|p2a: Vaporeon|57/100|[from] item: Leftovers
+  -damage|p1a: Kingdra|122/263 brn|[from] brn
+-- turn 5
+  WE CHOSE: attack wavecrash - our hp 0.46, theirs 0.57, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Wave Crash|p2a: Vaporeon
+  -heal|p2a: Vaporeon|82/100|[from] ability: Water Absorb|[of] p1a: Kingdra
+  move|p2a: Vaporeon|Scald|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|99/263 brn
+  -heal|p2a: Vaporeon|88/100|[from] item: Leftovers
+  -damage|p1a: Kingdra|83/263 brn|[from] brn
+-- turn 6
+  WE CHOSE: attack wavecrash - our hp 0.32, theirs 0.88, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Wave Crash|p2a: Vaporeon
+  -heal|p2a: Vaporeon|100/100|[from] ability: Water Absorb|[of] p1a: Kingdra
+  move|p2a: Vaporeon|Scald|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|59/263 brn
+  -damage|p1a: Kingdra|43/263 brn|[from] brn
+-- turn 7
+  WE CHOSE: attack wavecrash - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Wave Crash|p2a: Vaporeon
+  -immune|p2a: Vaporeon|[from] ability: Water Absorb
+  move|p2a: Vaporeon|Scald|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|21/263 brn
+  -damage|p1a: Kingdra|5/263 brn|[from] brn
+-- turn 8
+  WE CHOSE: attack wavecrash - our hp 0.02, theirs 1.00, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to masquerain - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Kingdra|Wave Crash|p2a: Vaporeon
+  -immune|p2a: Vaporeon|[from] ability: Water Absorb
+  move|p2a: Vaporeon|Scald|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|0 fnt
+  faint|p1a: Kingdra
+  switch|p1a: Masquerain|Masquerain, L87, M|264/264
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Vaporeon|atk|1
+-- turn 9
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Masquerain|Bug Buzz|p2a: Vaporeon
+  -damage|p2a: Vaporeon|74/100
+  move|p2a: Vaporeon|Scald|p1a: Masquerain
+  -damage|p1a: Masquerain|159/264
+  -heal|p2a: Vaporeon|80/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack bugbuzz - our hp 0.60, theirs 0.80, predicted move (revealed) hits us x1
+  move|p1a: Masquerain|Bug Buzz|p2a: Vaporeon
+  -damage|p2a: Vaporeon|53/100
+  -unboost|p2a: Vaporeon|spd|1
+  move|p2a: Vaporeon|Scald|p1a: Masquerain
+  -damage|p1a: Masquerain|50/264
+  -heal|p2a: Vaporeon|59/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack bugbuzz - our hp 0.19, theirs 0.59, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to spectrier - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Masquerain|Bug Buzz|p2a: Vaporeon
+  -damage|p2a: Vaporeon|18/100
+  move|p2a: Vaporeon|Scald|p1a: Masquerain
+  -damage|p1a: Masquerain|0 fnt
+  faint|p1a: Masquerain
+  -heal|p2a: Vaporeon|24/100|[from] item: Leftovers
+  switch|p1a: Spectrier|Spectrier, L75|274/274
+-- turn 12
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Spectrier|Shadow Ball|p2a: Vaporeon
+  -damage|p2a: Vaporeon|0 fnt
+  faint|p2a: Vaporeon
+  -ability|p1a: Spectrier|Grim Neigh|boost
+  -boost|p1a: Spectrier|spa|1
+  switch|p2a: Pikachu|Pikachu-Unova, L93, M|100/100
+-- turn 13
+  WE CHOSE: setup nastyplot (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to walkingwake - our hp 0.00, theirs 0.59, predicted move (revealed) hits us x1
+  move|p1a: Spectrier|Nasty Plot|p1a: Spectrier
+  -boost|p1a: Spectrier|spa|2
+  move|p2a: Pikachu|Volt Tackle|p1a: Spectrier
+  -damage|p1a: Spectrier|0 fnt
+  faint|p1a: Spectrier
+  -damage|p2a: Pikachu|59/100|[from] Recoil
+  switch|p1a: Walking Wake|Walking Wake, L79, tera:Fire|46/286
+-- turn 14
+  WE CHOSE: attack dracometeor - our hp 0.16, theirs 0.59, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cinderace - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Pikachu|Volt Tackle|p1a: Walking Wake
+  -damage|p1a: Walking Wake|0 fnt
+  faint|p1a: Walking Wake
+  -end|p1a: Walking Wake|Protosynthesis|[silent]
+  -damage|p2a: Pikachu|52/100|[from] Recoil
+  switch|p1a: Cinderace|Cinderace, L77, F|249/249
+-- turn 15
+  WE CHOSE: attack pyroball - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Cinderace|Pyro Ball|p2a: Pikachu
+  -damage|p2a: Pikachu|0 fnt
+  faint|p2a: Pikachu
+  switch|p2a: Kyogre|Kyogre, L71|100/100
+  -weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+-- turn 16
+  WE CHOSE: attack pyroball (hand policy: attack highjumpkick) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to probopass - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Kyogre|Water Spout|p1a: Cinderace
+  -supereffective|p1a: Cinderace
+  -damage|p1a: Cinderace|0 fnt
+  faint|p1a: Cinderace
+  -weather|RainDance|[upkeep]
+  switch|p1a: Probopass|Probopass, L91, F|257/257
+-- turn 17
+  WE CHOSE: attack powergem - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Kyogre|Water Spout|p1a: Probopass
+  -supereffective|p1a: Probopass
+  -damage|p1a: Probopass|0 fnt
+  faint|p1a: Probopass
+  deinit

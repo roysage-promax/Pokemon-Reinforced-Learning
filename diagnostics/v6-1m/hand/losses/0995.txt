@@ -1,0 +1,254 @@
+battle 995 (battle-gen9randombattle-1015671): lost in 27 turns, 3 of theirs left; we are p1
+
+ours:
+  weezing (fainted; item leftovers, ability levitate, tera steel; moves willowisp/fireblast/gunkshot/painsplit)
+  dugtrio (fainted; item lifeorb, ability arenatrap; moves earthquake/swordsdance/suckerpunch/stoneedge)
+  cramorant (fainted; item heavydutyboots, ability gulpmissile; moves bravebird/roost/defog/surf)
+  keldeoresolute (fainted; item leftovers, ability justified; moves secretsword/calmmind/substitute/surf)
+  camerupt (fainted; item leftovers, ability solidrock; moves stealthrock/overheat/roar/earthquake)
+  hitmonchan (fainted; item leftovers, ability ironfist; moves poisonjab/taunt/knockoff/drainpunch)
+theirs (as seen):
+  serperior (fainted; item unknown_item, ability ?; moves leafstorm)
+  sudowoodo (fainted; item leftovers, ability ?; moves headsmash)
+  uxie (fainted; item leftovers, ability levitate; moves psychicnoise)
+  eternatus (56%; item ?, ability pressure; moves dynamaxcannon)
+
+-- turn 0
+  switch|p1a: Weezing|Weezing, L88, M|258/258
+  switch|p2a: Serperior|Serperior, L79, M|100/100
+-- turn 1
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Weezing
+  -resisted|p1a: Weezing
+  -damage|p1a: Weezing|198/258
+  -boost|p2a: Serperior|spa|2
+  move|p1a: Weezing|Gunk Shot|p2a: Serperior
+  -supereffective|p2a: Serperior
+  -damage|p2a: Serperior|0 fnt
+  faint|p2a: Serperior
+  -heal|p1a: Weezing|214/258|[from] item: Leftovers
+  switch|p2a: Sudowoodo|Sudowoodo, L94, F|100/100
+-- turn 2
+  WE CHOSE: attack+tera gunkshot - our hp 0.83, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Weezing|Steel
+  move|p1a: Weezing|Gunk Shot|p2a: Sudowoodo|[miss]
+  -miss|p1a: Weezing|p2a: Sudowoodo
+  move|p2a: Sudowoodo|Head Smash|p1a: Weezing|[miss]
+  -miss|p2a: Sudowoodo|p1a: Weezing
+  -heal|p1a: Weezing|230/258|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack gunkshot - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Weezing|Gunk Shot|p2a: Sudowoodo
+  -resisted|p2a: Sudowoodo
+  -damage|p2a: Sudowoodo|84/100
+  move|p2a: Sudowoodo|Head Smash|p1a: Weezing
+  -resisted|p1a: Weezing
+  -damage|p1a: Weezing|156/258
+  -heal|p1a: Weezing|172/258|[from] item: Leftovers
+  -heal|p2a: Sudowoodo|90/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack gunkshot - our hp 0.67, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p1a: Weezing|Gunk Shot|p2a: Sudowoodo
+  -resisted|p2a: Sudowoodo
+  -crit|p2a: Sudowoodo
+  -damage|p2a: Sudowoodo|65/100
+  move|p2a: Sudowoodo|Head Smash|p1a: Weezing
+  -resisted|p1a: Weezing
+  -damage|p1a: Weezing|97/258
+  -heal|p1a: Weezing|113/258|[from] item: Leftovers
+  -heal|p2a: Sudowoodo|71/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack gunkshot - our hp 0.44, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p1a: Weezing|Gunk Shot|p2a: Sudowoodo
+  -resisted|p2a: Sudowoodo
+  -damage|p2a: Sudowoodo|55/100
+  move|p2a: Sudowoodo|Head Smash|p1a: Weezing|[miss]
+  -miss|p2a: Sudowoodo|p1a: Weezing
+  -heal|p1a: Weezing|129/258|[from] item: Leftovers
+  -heal|p2a: Sudowoodo|61/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack gunkshot - our hp 0.50, theirs 0.61, predicted move (revealed) hits us x0.5
+  move|p1a: Weezing|Gunk Shot|p2a: Sudowoodo
+  -resisted|p2a: Sudowoodo
+  -damage|p2a: Sudowoodo|44/100
+  -status|p2a: Sudowoodo|psn
+  move|p2a: Sudowoodo|Head Smash|p1a: Weezing
+  -resisted|p1a: Weezing
+  -damage|p1a: Weezing|57/258
+  -heal|p1a: Weezing|73/258|[from] item: Leftovers
+  -heal|p2a: Sudowoodo|50/100 psn|[from] item: Leftovers
+  -damage|p2a: Sudowoodo|38/100 psn|[from] psn
+-- turn 7
+  WE CHOSE: attack gunkshot - our hp 0.28, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Weezing|Gunk Shot|p2a: Sudowoodo
+  -resisted|p2a: Sudowoodo
+  -damage|p2a: Sudowoodo|20/100 psn
+  move|p2a: Sudowoodo|Head Smash|p1a: Weezing
+  -resisted|p1a: Weezing
+  -damage|p1a: Weezing|1/258
+  -heal|p1a: Weezing|17/258|[from] item: Leftovers
+  -heal|p2a: Sudowoodo|26/100 psn|[from] item: Leftovers
+  -damage|p2a: Sudowoodo|14/100 psn|[from] psn
+-- turn 8
+  WE CHOSE: attack gunkshot - our hp 0.07, theirs 0.14, predicted move (revealed) hits us x0.5
+  move|p1a: Weezing|Gunk Shot|p2a: Sudowoodo
+  -resisted|p2a: Sudowoodo
+  -crit|p2a: Sudowoodo
+  -damage|p2a: Sudowoodo|0 fnt
+  faint|p2a: Sudowoodo
+  -heal|p1a: Weezing|33/258|[from] item: Leftovers
+  switch|p2a: Uxie|Uxie, L83|100/100
+-- turn 9
+  WE CHOSE: attack fireblast - our hp 0.13, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to cramorant - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Uxie|Psychic Noise|p1a: Weezing
+  -resisted|p1a: Weezing
+  -damage|p1a: Weezing|0 fnt
+  faint|p1a: Weezing
+  switch|p1a: Cramorant|Cramorant, L86, F|261/261
+-- turn 10
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Cramorant
+  -damage|p1a: Cramorant|200/261
+  -start|p1a: Cramorant|move: Heal Block
+  move|p1a: Cramorant|Brave Bird|p2a: Uxie
+  -damage|p2a: Uxie|65/100
+  -damage|p1a: Cramorant|170/261|[from] Recoil
+  -heal|p2a: Uxie|72/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack bravebird - our hp 0.65, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Cramorant
+  -damage|p1a: Cramorant|113/261
+  move|p1a: Cramorant|Brave Bird|p2a: Uxie
+  -damage|p2a: Uxie|36/100
+  -damage|p1a: Cramorant|82/261|[from] Recoil
+  -heal|p2a: Uxie|42/100|[from] item: Leftovers
+  -end|p1a: Cramorant|move: Heal Block
+-- turn 12
+  WE CHOSE: heal roost - our hp 0.31, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Cramorant
+  -damage|p1a: Cramorant|22/261
+  -start|p1a: Cramorant|move: Heal Block
+  cant|p1a: Cramorant|move: Heal Block|Roost
+  -heal|p2a: Uxie|48/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack bravebird - our hp 0.08, theirs 0.48, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to camerupt - our hp 0.00, theirs 0.54, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Cramorant
+  -damage|p1a: Cramorant|0 fnt
+  faint|p1a: Cramorant
+  -heal|p2a: Uxie|54/100|[from] item: Leftovers
+  switch|p1a: Camerupt|Camerupt, L91, M|275/275
+-- turn 14
+  WE CHOSE: attack overheat - our hp 1.00, theirs 0.54, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Camerupt
+  -damage|p1a: Camerupt|208/275
+  -start|p1a: Camerupt|move: Heal Block
+  move|p1a: Camerupt|Overheat|p2a: Uxie
+  -damage|p2a: Uxie|6/100
+  -unboost|p1a: Camerupt|spa|2
+  -heal|p2a: Uxie|12/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.76, theirs 0.12, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Camerupt
+  -damage|p1a: Camerupt|133/275
+  move|p1a: Camerupt|Earthquake|p2a: Uxie
+  -immune|p2a: Uxie|[from] ability: Levitate
+  -heal|p2a: Uxie|18/100|[from] item: Leftovers
+  -end|p1a: Camerupt|move: Heal Block
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 0.48, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Camerupt
+  -damage|p1a: Camerupt|63/275
+  -start|p1a: Camerupt|move: Heal Block
+  move|p1a: Camerupt|Earthquake|p2a: Uxie
+  -immune|p2a: Uxie|[from] ability: Levitate
+  -heal|p2a: Uxie|24/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 0.23, theirs 0.24, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dugtrio - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Camerupt
+  -damage|p1a: Camerupt|0 fnt
+  faint|p1a: Camerupt
+  -heal|p2a: Uxie|30/100|[from] item: Leftovers
+  switch|p1a: Dugtrio|Dugtrio, L84, M|196/196
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.30, predicted move (revealed) hits us x1
+  move|p1a: Dugtrio|Earthquake|p2a: Uxie
+  -immune|p2a: Uxie|[from] ability: Levitate
+  move|p2a: Uxie|Psychic Noise|p1a: Dugtrio
+  -damage|p1a: Dugtrio|117/196
+  -start|p1a: Dugtrio|move: Heal Block
+  -heal|p2a: Uxie|37/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 0.60, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Dugtrio|Earthquake|p2a: Uxie
+  -immune|p2a: Uxie|[from] ability: Levitate
+  move|p2a: Uxie|Psychic Noise|p1a: Dugtrio
+  -damage|p1a: Dugtrio|41/196
+  -heal|p2a: Uxie|43/100|[from] item: Leftovers
+  -end|p1a: Dugtrio|move: Heal Block
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 0.21, theirs 0.43, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to keldeoresolute - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Dugtrio|Earthquake|p2a: Uxie
+  -immune|p2a: Uxie|[from] ability: Levitate
+  move|p2a: Uxie|Psychic Noise|p1a: Dugtrio
+  -damage|p1a: Dugtrio|0 fnt
+  faint|p1a: Dugtrio
+  -heal|p2a: Uxie|49/100|[from] item: Leftovers
+  switch|p1a: Keldeo|Keldeo-Resolute, L79|273/273
+-- turn 21
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x2
+  move|p1a: Keldeo|Surf|p2a: Uxie
+  -damage|p2a: Uxie|19/100
+  move|p2a: Uxie|Psychic Noise|p1a: Keldeo
+  -supereffective|p1a: Keldeo
+  -damage|p1a: Keldeo|139/273
+  -start|p1a: Keldeo|move: Heal Block
+  -heal|p2a: Uxie|25/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack surf - our hp 0.51, theirs 0.25, predicted move (revealed) hits us x2
+  move|p1a: Keldeo|Surf|p2a: Uxie
+  -damage|p2a: Uxie|0 fnt
+  faint|p2a: Uxie
+  -end|p1a: Keldeo|move: Heal Block
+  switch|p2a: Eternatus|Eternatus, L69|100/100
+  -ability|p2a: Eternatus|Pressure
+-- turn 23
+  WE CHOSE: setup calmmind - our hp 0.51, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Keldeo
+  -damage|p1a: Keldeo|37/273
+  move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+  -boost|p1a: Keldeo|spa|1
+  -boost|p1a: Keldeo|spd|1
+  -heal|p1a: Keldeo|54/273|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack surf - our hp 0.20, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hitmonchan - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Keldeo
+  -damage|p1a: Keldeo|0 fnt
+  faint|p1a: Keldeo
+  switch|p1a: Hitmonchan|Hitmonchan, L87, M|229/229
+-- turn 25
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Hitmonchan
+  -damage|p1a: Hitmonchan|145/229
+  move|p1a: Hitmonchan|Knock Off|p2a: Eternatus
+  -damage|p2a: Eternatus|74/100
+  -enditem|p2a: Eternatus|Leftovers|[from] move: Knock Off|[of] p1a: Hitmonchan
+  -heal|p1a: Hitmonchan|159/229|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack knockoff - our hp 0.69, theirs 0.74, predicted move (revealed) hits us x1
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Hitmonchan
+  -damage|p1a: Hitmonchan|72/229
+  move|p1a: Hitmonchan|Knock Off|p2a: Eternatus
+  -damage|p2a: Eternatus|56/100
+  -heal|p1a: Hitmonchan|86/229|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack knockoff - our hp 0.38, theirs 0.56, predicted move (revealed) hits us x1
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Hitmonchan
+  -crit|p1a: Hitmonchan
+  -damage|p1a: Hitmonchan|0 fnt
+  faint|p1a: Hitmonchan
+  deinit

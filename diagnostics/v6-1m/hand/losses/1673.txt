@@ -1,0 +1,207 @@
+battle 1673 (battle-gen9randombattle-1022078): lost in 20 turns, 1 of theirs left; we are p1
+
+ours:
+  vileplume (fainted; item leftovers, ability effectspore; moves gigadrain/sludgebomb/strengthsap/leechseed)
+  dragonite (fainted; item heavydutyboots, ability multiscale, tera steel; moves earthquake/dragondance/outrage/ironhead)
+  basculin (fainted; item choiceband, ability adaptability; moves doubleedge/wavecrash/aquajet/flipturn)
+  baxcalibur (fainted; item choiceband, ability thermalexchange; moves iceshard/iciclecrash/glaiverush/earthquake)
+  garganacl (fainted; item leftovers, ability purifyingsalt; moves irondefense/saltcure/recover/bodypress)
+  luvdisc (fainted; item heavydutyboots, ability swiftswim; moves surf/flipturn/substitute/endeavor)
+theirs (as seen):
+  latias (fainted; item unknown_item, ability levitate; moves dracometeor)
+  regigigas (fainted; item leftovers, ability slowstart; moves bodyslam)
+  floatzel (fainted; item leftovers, ability ?; moves wavecrash)
+  incineroar (fainted; item unknown_item, ability intimidate; moves flareblitz)
+  chienpao (fainted; item unknown_item, ability swordofruin; moves sacredsword)
+  cinderace (27%; item unknown_item, ability ?; moves highjumpkick)
+
+-- turn 0
+  switch|p1a: Vileplume|Vileplume, L85, F|266/266
+  switch|p2a: Latias|Latias, L79, F|100/100
+-- turn 1
+  WE CHOSE: attack sludgebomb - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Latias|Draco Meteor|p1a: Vileplume
+  -crit|p1a: Vileplume
+  -damage|p1a: Vileplume|16/266
+  -unboost|p2a: Latias|spa|2
+  move|p1a: Vileplume|Sludge Bomb|p2a: Latias
+  -damage|p2a: Latias|70/100
+  -heal|p1a: Vileplume|32/266|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: heal strengthsap - our hp 0.12, theirs 0.70, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dragonite - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Latias|Draco Meteor|p1a: Vileplume
+  -damage|p1a: Vileplume|0 fnt
+  -unboost|p2a: Latias|spa|2
+  faint|p1a: Vileplume
+  switch|p1a: Dragonite|Dragonite, L74, M|257/257
+-- turn 3
+  WE CHOSE: attack+tera outrage - our hp 1.00, theirs 0.70, predicted move (revealed) hits us x2
+  -terastallize|p1a: Dragonite|Steel
+  move|p2a: Latias|Draco Meteor|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|244/257
+  -unboost|p2a: Latias|spa|2
+  move|p1a: Dragonite|Outrage|p2a: Latias
+  -supereffective|p2a: Latias
+  -damage|p2a: Latias|0 fnt
+  faint|p2a: Latias
+  switch|p2a: Regigigas|Regigigas, L84|100/100
+  -start|p2a: Regigigas|ability: Slow Start
+-- turn 4
+  WE CHOSE: attack outrage - our hp 0.95, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Dragonite|Outrage|p2a: Regigigas|[from] lockedmove
+  -damage|p2a: Regigigas|69/100
+  move|p2a: Regigigas|Body Slam|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|211/257
+  -heal|p2a: Regigigas|75/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack outrage - our hp 0.82, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p1a: Dragonite|Outrage|p2a: Regigigas|[from] lockedmove
+  -damage|p2a: Regigigas|44/100
+  -start|p1a: Dragonite|confusion|[fatigue]
+  move|p2a: Regigigas|Body Slam|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|175/257
+  -heal|p2a: Regigigas|50/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: setup dragondance - our hp 0.68, theirs 0.50, predicted move (revealed) hits us x0.5
+  -activate|p1a: Dragonite|confusion
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Regigigas|Body Slam|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|139/257
+  -heal|p2a: Regigigas|56/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: setup dragondance - our hp 0.54, theirs 0.56, predicted move (revealed) hits us x0.5
+  -activate|p1a: Dragonite|confusion
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Regigigas|Body Slam|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|106/257
+  -status|p1a: Dragonite|par
+  -heal|p2a: Regigigas|63/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack outrage - our hp 0.41, theirs 0.63, predicted move (revealed) hits us x0.5
+  -activate|p1a: Dragonite|confusion
+  move|p1a: Dragonite|Outrage|p2a: Regigigas
+  -damage|p2a: Regigigas|1/100
+  move|p2a: Regigigas|Body Slam|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|72/257 par
+  -heal|p2a: Regigigas|7/100|[from] item: Leftovers
+  -end|p2a: Regigigas|Slow Start
+-- turn 9
+  WE CHOSE: attack outrage - our hp 0.28, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p2a: Regigigas|Body Slam|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|5/257 par
+  -activate|p1a: Dragonite|confusion
+  cant|p1a: Dragonite|par
+  -heal|p2a: Regigigas|13/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack outrage - our hp 0.02, theirs 0.13, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to garganacl - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p2a: Regigigas|Body Slam|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|0 fnt
+  faint|p1a: Dragonite
+  -heal|p2a: Regigigas|19/100|[from] item: Leftovers
+  switch|p1a: Garganacl|Garganacl, L80, F|291/291
+-- turn 11
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p2a: Regigigas|Body Slam|p1a: Garganacl
+  -resisted|p1a: Garganacl
+  -damage|p1a: Garganacl|243/291
+  move|p1a: Garganacl|Body Press|p2a: Regigigas
+  -supereffective|p2a: Regigigas
+  -damage|p2a: Regigigas|0 fnt
+  faint|p2a: Regigigas
+  -end|p2a: Regigigas|Slow Start|[silent]
+  -heal|p1a: Garganacl|261/291|[from] item: Leftovers
+  switch|p2a: Floatzel|Floatzel, L86, F|100/100
+-- turn 12
+  WE CHOSE: switch to baxcalibur - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Baxcalibur|Baxcalibur, L75, F|295/295
+  move|p2a: Floatzel|Wave Crash|p1a: Baxcalibur
+  -resisted|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|225/295
+  -damage|p2a: Floatzel|92/100|[from] Recoil
+  -heal|p2a: Floatzel|98/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack glaiverush - our hp 0.76, theirs 0.98, predicted move (revealed) hits us x0.5
+  move|p2a: Floatzel|Wave Crash|p1a: Baxcalibur
+  -resisted|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|147/295
+  -damage|p2a: Floatzel|89/100|[from] Recoil
+  move|p1a: Baxcalibur|Glaive Rush|p2a: Floatzel
+  -damage|p2a: Floatzel|0 fnt
+  -singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+  faint|p2a: Floatzel
+  switch|p2a: Incineroar|Incineroar, L82, M|100/100
+  -ability|p2a: Incineroar|Intimidate|boost
+  -unboost|p1a: Baxcalibur|atk|1
+-- turn 14
+  WE CHOSE: attack glaiverush - our hp 0.50, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to basculin - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x1
+  move|p1a: Baxcalibur|Glaive Rush|p2a: Incineroar
+  -damage|p2a: Incineroar|49/100
+  -singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+  move|p2a: Incineroar|Flare Blitz|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|0 fnt
+  faint|p1a: Baxcalibur
+  -damage|p2a: Incineroar|33/100|[from] Recoil
+  switch|p1a: Basculin|Basculin, L86, M|261/261
+-- turn 15
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p1a: Basculin|Wave Crash|p2a: Incineroar
+  -supereffective|p2a: Incineroar
+  -damage|p2a: Incineroar|0 fnt
+  faint|p2a: Incineroar
+  -damage|p1a: Basculin|230/261|[from] Recoil
+  switch|p2a: Chien-Pao|Chien-Pao, L72|100/100
+  -ability|p2a: Chien-Pao|Sword of Ruin
+-- turn 16
+  WE CHOSE: attack wavecrash - our hp 0.88, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Chien-Pao|Sacred Sword|p1a: Basculin
+  -damage|p1a: Basculin|100/261
+  move|p1a: Basculin|Wave Crash|p2a: Chien-Pao
+  -damage|p2a: Chien-Pao|0 fnt
+  faint|p2a: Chien-Pao
+  -damage|p1a: Basculin|23/261|[from] Recoil
+  switch|p2a: Cinderace|Cinderace, L77, F|100/100
+-- turn 17
+  WE CHOSE: attack wavecrash - our hp 0.09, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to luvdisc - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cinderace|High Jump Kick|p1a: Basculin
+  -start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+  -damage|p1a: Basculin|0 fnt
+  faint|p1a: Basculin
+  switch|p1a: Luvdisc|Luvdisc, F|247/247
+-- turn 18
+  WE CHOSE: attack surf - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Luvdisc|Surf|p2a: Cinderace
+  -damage|p2a: Cinderace|64/100
+  move|p2a: Cinderace|High Jump Kick|p1a: Luvdisc
+  -damage|p1a: Luvdisc|9/247
+-- turn 19
+  WE CHOSE: attack surf - our hp 0.04, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to garganacl - our hp 0.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Luvdisc|Surf|p2a: Cinderace
+  -damage|p2a: Cinderace|27/100
+  move|p2a: Cinderace|High Jump Kick|p1a: Luvdisc
+  -crit|p1a: Luvdisc
+  -damage|p1a: Luvdisc|0 fnt
+  faint|p1a: Luvdisc
+  switch|p1a: Garganacl|Garganacl, L80, F|261/291
+-- turn 20
+  WE CHOSE: attack bodypress - our hp 0.90, theirs 0.27, predicted move (revealed) hits us x2
+  move|p2a: Cinderace|High Jump Kick|p1a: Garganacl
+  -supereffective|p1a: Garganacl
+  -damage|p1a: Garganacl|0 fnt
+  faint|p1a: Garganacl

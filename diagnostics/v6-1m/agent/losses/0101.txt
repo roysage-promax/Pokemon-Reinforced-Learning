@@ -1,0 +1,262 @@
+battle 101 (battle-gen9randombattle-1007321): lost in 27 turns, 2 of theirs left; we are p1
+
+ours:
+  arceuspsychic (fainted; item mindplate, ability multitype; moves recover/bodypress/cosmicpower/storedpower)
+  mew (fainted; item lifeorb, ability synchronize; moves psychicfangs/knockoff/swordsdance/closecombat)
+  spidops (fainted; item heavydutyboots, ability stakeout, tera ghost; moves circlethrow/toxicspikes/spikes/stickyweb)
+  entei (fainted; item choiceband, ability innerfocus; moves extremespeed/stoneedge/flareblitz/sacredfire)
+  terapagosterastal (fainted; item heavydutyboots, ability terashell; moves rapidspin/terastarstorm/calmmind/earthpower)
+  glalie (fainted; item heavydutyboots, ability innerfocus; moves taunt/earthquake/freezedry/spikes)
+theirs (as seen):
+  arboliva (fainted; item leftovers, ability ?; moves earthpower)
+  cryogonal (fainted; item unknown_item, ability levitate; moves icebeam)
+  indeedeef (fainted; item ?, ability ?; moves hypervoice)
+  lugia (fainted; item ?, ability ?; moves aeroblast)
+  okidogi (100%; item leftovers, ability ?; moves gunkshot)
+
+-- turn 0
+  switch|p1a: Arceus|Arceus-Psychic, L70|284/284
+  switch|p2a: Arboliva|Arboliva, L91, M|100/100
+-- turn 1
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Arceus|Body Press|p2a: Arboliva
+  -supereffective|p2a: Arboliva
+  -damage|p2a: Arboliva|70/100
+  -fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Arboliva
+  move|p2a: Arboliva|Earth Power|p1a: Arceus
+  -damage|p1a: Arceus|192/284
+  -heal|p1a: Arceus|209/284|[from] Grassy Terrain
+  -heal|p2a: Arboliva|76/100|[from] Grassy Terrain
+  -heal|p2a: Arboliva|83/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack bodypress - our hp 0.74, theirs 0.83, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Body Press|p2a: Arboliva
+  -supereffective|p2a: Arboliva
+  -damage|p2a: Arboliva|49/100
+  move|p2a: Arboliva|Earth Power|p1a: Arceus
+  -damage|p1a: Arceus|123/284
+  -heal|p1a: Arceus|140/284|[from] Grassy Terrain
+  -heal|p2a: Arboliva|56/100|[from] Grassy Terrain
+  -heal|p2a: Arboliva|62/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack bodypress (hand policy: heal recover) - our hp 0.49, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Body Press|p2a: Arboliva
+  -supereffective|p2a: Arboliva
+  -damage|p2a: Arboliva|29/100
+  move|p2a: Arboliva|Earth Power|p1a: Arceus
+  -damage|p1a: Arceus|54/284
+  -heal|p1a: Arceus|71/284|[from] Grassy Terrain
+  -heal|p2a: Arboliva|36/100|[from] Grassy Terrain
+  -heal|p2a: Arboliva|42/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack bodypress (hand policy: heal recover) - our hp 0.25, theirs 0.42, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mew - our hp 0.00, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Body Press|p2a: Arboliva
+  -supereffective|p2a: Arboliva
+  -damage|p2a: Arboliva|14/100
+  move|p2a: Arboliva|Earth Power|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  faint|p1a: Arceus
+  -heal|p2a: Arboliva|20/100|[from] Grassy Terrain
+  -heal|p2a: Arboliva|26/100|[from] item: Leftovers
+  switch|p1a: Mew|Mew, L82|298/298
+-- turn 5
+  WE CHOSE: switch to glalie (hand policy: attack+tera closecombat) - our hp 1.00, theirs 0.26, predicted move (revealed) hits us x1
+  switch|p1a: Glalie|Glalie, L96, M|309/309
+  move|p2a: Arboliva|Earth Power|p1a: Glalie
+  -damage|p1a: Glalie|230/309
+  -heal|p1a: Glalie|249/309|[from] Grassy Terrain
+  -heal|p2a: Arboliva|32/100|[from] Grassy Terrain
+  -heal|p2a: Arboliva|38/100|[from] item: Leftovers
+  -fieldend|move: Grassy Terrain
+-- turn 6
+  WE CHOSE: attack freezedry - our hp 0.81, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Glalie|Freeze-Dry|p2a: Arboliva
+  -supereffective|p2a: Arboliva
+  -damage|p2a: Arboliva|0 fnt
+  -fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Arboliva
+  faint|p2a: Arboliva
+  -heal|p1a: Glalie|268/309|[from] Grassy Terrain
+  switch|p2a: Cryogonal|Cryogonal, L89|100/100
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.87, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Cryogonal|Ice Beam|p1a: Glalie
+  -resisted|p1a: Glalie
+  -damage|p1a: Glalie|215/309
+  move|p1a: Glalie|Earthquake|p2a: Cryogonal
+  -immune|p2a: Cryogonal|[from] ability: Levitate
+  -heal|p1a: Glalie|234/309|[from] Grassy Terrain
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cryogonal|Ice Beam|p1a: Glalie
+  -resisted|p1a: Glalie
+  -damage|p1a: Glalie|182/309
+  move|p1a: Glalie|Earthquake|p2a: Cryogonal
+  -immune|p2a: Cryogonal|[from] ability: Levitate
+  -heal|p1a: Glalie|201/309|[from] Grassy Terrain
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cryogonal|Ice Beam|p1a: Glalie
+  -resisted|p1a: Glalie
+  -damage|p1a: Glalie|150/309
+  move|p1a: Glalie|Earthquake|p2a: Cryogonal
+  -immune|p2a: Cryogonal|[from] ability: Levitate
+  -heal|p1a: Glalie|169/309|[from] Grassy Terrain
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cryogonal|Ice Beam|p1a: Glalie
+  -resisted|p1a: Glalie
+  -damage|p1a: Glalie|118/309
+  move|p1a: Glalie|Earthquake|p2a: Cryogonal
+  -immune|p2a: Cryogonal|[from] ability: Levitate
+  -heal|p1a: Glalie|137/309|[from] Grassy Terrain
+  -fieldend|move: Grassy Terrain
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cryogonal|Ice Beam|p1a: Glalie
+  -resisted|p1a: Glalie
+  -damage|p1a: Glalie|89/309
+  move|p1a: Glalie|Earthquake|p2a: Cryogonal
+  -immune|p2a: Cryogonal|[from] ability: Levitate
+-- turn 12
+  WE CHOSE: switch to entei (hand policy: attack earthquake) - our hp 0.29, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Entei|Entei, L78|307/307
+  move|p2a: Cryogonal|Ice Beam|p1a: Entei
+  -resisted|p1a: Entei
+  -damage|p1a: Entei|244/307
+-- turn 13
+  WE CHOSE: attack flareblitz (hand policy: attack+tera flareblitz) - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cryogonal|Ice Beam|p1a: Entei
+  -resisted|p1a: Entei
+  -damage|p1a: Entei|186/307
+  move|p1a: Entei|Flare Blitz|p2a: Cryogonal
+  -supereffective|p2a: Cryogonal
+  -damage|p2a: Cryogonal|0 fnt
+  faint|p2a: Cryogonal
+  -damage|p1a: Entei|91/307|[from] Recoil
+  switch|p2a: Indeedee|Indeedee-F, L90, F|100/100
+  -fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+-- turn 14
+  WE CHOSE: switch to terapagos (hand policy: attack+tera flareblitz) - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Terapagos|Terapagos, L77, M|265/265
+  -activate|p1a: Terapagos|ability: Tera Shift
+  detailschange|p1a: Terapagos|Terapagos-Terastal, L77, M
+  -heal|p1a: Terapagos|273/273|[silent]
+  move|p2a: Indeedee|Hyper Voice|p1a: Terapagos
+  -activate|p1a: Terapagos|ability: Tera Shell
+  -resisted|p1a: Terapagos
+  -damage|p1a: Terapagos|224/273
+-- turn 15
+  WE CHOSE: attack terastarstorm - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Indeedee|Hyper Voice|p1a: Terapagos
+  -damage|p1a: Terapagos|133/273
+  move|p1a: Terapagos|Tera Starstorm|p2a: Indeedee
+  -damage|p2a: Indeedee|69/100
+-- turn 16
+  WE CHOSE: attack terastarstorm - our hp 0.49, theirs 0.69, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to entei - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Indeedee|Hyper Voice|p1a: Terapagos
+  -crit|p1a: Terapagos
+  -damage|p1a: Terapagos|0 fnt
+  faint|p1a: Terapagos
+  switch|p1a: Entei|Entei, L78|91/307
+-- turn 17
+  WE CHOSE: attack flareblitz (hand policy: attack+tera flareblitz) - our hp 0.30, theirs 0.69, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mew - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Indeedee|Hyper Voice|p1a: Entei
+  -damage|p1a: Entei|0 fnt
+  faint|p1a: Entei
+  switch|p1a: Mew|Mew, L82|298/298
+-- turn 18
+  WE CHOSE: setup swordsdance (hand policy: attack knockoff) - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Indeedee|Hyper Voice|p1a: Mew
+  -damage|p1a: Mew|205/298
+  move|p1a: Mew|Swords Dance|p1a: Mew
+  -boost|p1a: Mew|atk|2
+  -fieldend|move: Psychic Terrain
+-- turn 19
+  WE CHOSE: attack knockoff - our hp 0.69, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Indeedee|Hyper Voice|p1a: Mew
+  -damage|p1a: Mew|105/298
+  move|p1a: Mew|Knock Off|p2a: Indeedee
+  -supereffective|p2a: Indeedee
+  -damage|p2a: Indeedee|0 fnt
+  -enditem|p2a: Indeedee|Choice Scarf|[from] move: Knock Off|[of] p1a: Mew
+  faint|p2a: Indeedee
+  -damage|p1a: Mew|76/298|[from] item: Life Orb
+  switch|p2a: Lugia|Lugia, L73|100/100
+-- turn 20
+  WE CHOSE: attack knockoff - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to glalie - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Mew|Knock Off|p2a: Lugia
+  -supereffective|p2a: Lugia
+  -damage|p2a: Lugia|48/100
+  -enditem|p2a: Lugia|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mew
+  -damage|p1a: Mew|47/298|[from] item: Life Orb
+  move|p2a: Lugia|Aeroblast|p1a: Mew
+  -crit|p1a: Mew
+  -damage|p1a: Mew|0 fnt
+  faint|p1a: Mew
+  switch|p1a: Glalie|Glalie, L96, M|89/309
+-- turn 21
+  WE CHOSE: attack freezedry - our hp 0.29, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Glalie|Freeze-Dry|p2a: Lugia
+  -supereffective|p2a: Lugia
+  -damage|p2a: Lugia|3/100
+  move|p2a: Lugia|Aeroblast|p1a: Glalie
+  -damage|p1a: Glalie|16/309
+-- turn 22
+  WE CHOSE: attack spikes (hand policy: attack freezedry) - our hp 0.05, theirs 0.03, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to spidops - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p1a: Glalie|Spikes|p2a: Lugia
+  -sidestart|p2: e2_132141|Spikes
+  move|p2a: Lugia|Aeroblast|p1a: Glalie
+  -crit|p1a: Glalie
+  -damage|p1a: Glalie|0 fnt
+  faint|p1a: Glalie
+  switch|p1a: Spidops|Spidops, L96, M|271/271
+-- turn 23
+  WE CHOSE: attack+tera circlethrow (hand policy: attack circlethrow) - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x2
+  -terastallize|p1a: Spidops|Ghost
+  move|p2a: Lugia|Aeroblast|p1a: Spidops
+  -damage|p1a: Spidops|198/271
+  move|p1a: Spidops|Circle Throw|p2a: Lugia
+  -resisted|p2a: Lugia
+  -damage|p2a: Lugia|0 fnt
+  faint|p2a: Lugia
+  switch|p2a: Okidogi|Okidogi, L77, M|100/100
+  -damage|p2a: Okidogi|88/100|[from] Spikes
+-- turn 24
+  WE CHOSE: attack stickyweb (hand policy: attack circlethrow) - our hp 0.73, theirs 0.88, predicted move (guessed) hits us x0.5
+  move|p2a: Okidogi|Gunk Shot|p1a: Spidops
+  -resisted|p1a: Spidops
+  -damage|p1a: Spidops|142/271
+  move|p1a: Spidops|Sticky Web|p2a: Okidogi
+  -sidestart|p2: e2_132141|move: Sticky Web
+  -heal|p2a: Okidogi|94/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack stickyweb (hand policy: attack circlethrow) - our hp 0.52, theirs 0.94, predicted move (revealed) hits us x0.5
+  move|p2a: Okidogi|Gunk Shot|p1a: Spidops
+  -resisted|p1a: Spidops
+  -damage|p1a: Spidops|82/271
+  move|p1a: Spidops|Sticky Web||[still]
+  -fail|p1a: Spidops
+  -heal|p2a: Okidogi|100/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack stickyweb (hand policy: attack circlethrow) - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Okidogi|Gunk Shot|p1a: Spidops
+  -resisted|p1a: Spidops
+  -damage|p1a: Spidops|28/271
+  -status|p1a: Spidops|tox|[from] ability: Toxic Chain|[of] p2a: Okidogi
+  move|p1a: Spidops|Sticky Web||[still]
+  -fail|p1a: Spidops
+  -damage|p1a: Spidops|12/271 tox|[from] psn
+-- turn 27
+  WE CHOSE: attack spikes (hand policy: attack circlethrow) - our hp 0.04, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Okidogi|Gunk Shot|p1a: Spidops|[miss]
+  -miss|p2a: Okidogi|p1a: Spidops
+  move|p1a: Spidops|Spikes|p2a: Okidogi
+  -sidestart|p2: e2_132141|Spikes
+  -damage|p1a: Spidops|0 fnt|[from] psn
+  faint|p1a: Spidops
+  deinit

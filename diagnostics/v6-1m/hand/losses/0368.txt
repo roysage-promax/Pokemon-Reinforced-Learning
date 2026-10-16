@@ -1,0 +1,258 @@
+battle 368 (battle-gen9randombattle-1009676): lost in 26 turns, 2 of theirs left; we are p1
+
+ours:
+  zangoose (fainted; item toxicorb, ability toxicboost; moves facade/quickattack/closecombat/knockoff)
+  flareon (fainted; item toxicorb, ability guts; moves quickattack/trailblaze/facade/flareblitz)
+  latios (fainted; item choicespecs, ability levitate; moves dracometeor/aurasphere/flipturn/lusterpurge)
+  zapdosgalar (fainted; item choicescarf, ability defiant, tera steel; moves uturn/knockoff/bravebird/closecombat)
+  suicune (fainted; item leftovers, ability pressure; moves calmmind/rest/sleeptalk/scald)
+  swanna (fainted; item heavydutyboots, ability hydration; moves defog/roost/hydropump/bravebird)
+theirs (as seen):
+  sceptile (fainted; item lifeorb, ability ?; moves earthquake)
+  gyarados (fainted; item unknown_item, ability ?; moves earthquake)
+  staraptor (fainted; item unknown_item, ability ?; moves doubleedge)
+  reshiram (fainted; item unknown_item, ability turboblaze; moves outrage)
+  gogoat (69%; item leftovers, ability ?; moves hornleech)
+
+-- turn 0
+  switch|p1a: Zangoose|Zangoose, L85, M|263/263
+  switch|p2a: Sceptile|Sceptile, L87, F|100/100
+-- turn 1
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Sceptile|Earthquake|p1a: Zangoose
+  -damage|p1a: Zangoose|140/263
+  -damage|p2a: Sceptile|91/100|[from] item: Life Orb
+  move|p1a: Zangoose|Close Combat|p2a: Sceptile
+  -damage|p2a: Sceptile|42/100
+  -unboost|p1a: Zangoose|def|1
+  -unboost|p1a: Zangoose|spd|1
+  -status|p1a: Zangoose|tox|[from] item: Toxic Orb
+-- turn 2
+  WE CHOSE: switch to zapdosgalar - our hp 0.53, theirs 0.42, predicted move (revealed) hits us x1
+  switch|p1a: Zapdos|Zapdos-Galar, L77|265/265
+  move|p2a: Sceptile|Earthquake|p1a: Zapdos
+  -immune|p1a: Zapdos
+-- turn 3
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.42, predicted move (revealed) hits us x0
+  move|p1a: Zapdos|Brave Bird|p2a: Sceptile
+  -supereffective|p2a: Sceptile
+  -damage|p2a: Sceptile|0 fnt
+  faint|p2a: Sceptile
+  -damage|p1a: Zapdos|229/265|[from] Recoil
+  switch|p2a: Gyarados|Gyarados, L79, M|100/100
+-- turn 4
+  WE CHOSE: attack bravebird - our hp 0.86, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Zapdos|Brave Bird|p2a: Gyarados
+  -damage|p2a: Gyarados|48/100
+  -damage|p1a: Zapdos|180/265|[from] Recoil
+  move|p2a: Gyarados|Earthquake|p1a: Zapdos
+  -immune|p1a: Zapdos
+-- turn 5
+  WE CHOSE: attack bravebird - our hp 0.68, theirs 0.48, predicted move (revealed) hits us x0
+  move|p1a: Zapdos|Brave Bird|p2a: Gyarados
+  -damage|p2a: Gyarados|0 fnt
+  faint|p2a: Gyarados
+  -damage|p1a: Zapdos|136/265|[from] Recoil
+  switch|p2a: Staraptor|Staraptor, L79, F|100/100
+-- turn 6
+  WE CHOSE: attack+tera bravebird - our hp 0.51, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to flareon - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Zapdos|Steel
+  move|p1a: Zapdos|Brave Bird|p2a: Staraptor
+  -damage|p2a: Staraptor|35/100
+  -damage|p1a: Zapdos|79/265|[from] Recoil
+  move|p2a: Staraptor|Double-Edge|p1a: Zapdos
+  -resisted|p1a: Zapdos
+  -damage|p1a: Zapdos|0 fnt
+  faint|p1a: Zapdos
+  -damage|p2a: Staraptor|25/100|[from] Recoil
+  switch|p1a: Flareon|Flareon, L90, F|263/263
+-- turn 7
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to swanna - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Staraptor|Double-Edge|p1a: Flareon
+  -damage|p1a: Flareon|0 fnt
+  faint|p1a: Flareon
+  -damage|p2a: Staraptor|0 fnt|[from] Recoil
+  faint|p2a: Staraptor
+  switch|p2a: Reshiram|Reshiram, L76|100/100
+  switch|p1a: Swanna|Swanna, L89, M|278/278
+  -ability|p2a: Reshiram|Turboblaze
+-- turn 8
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Swanna|Brave Bird|p2a: Reshiram
+  -damage|p2a: Reshiram|50/100
+  -damage|p1a: Swanna|231/278|[from] Recoil
+  move|p2a: Reshiram|Outrage|p1a: Swanna
+  -damage|p1a: Swanna|78/278
+-- turn 9
+  WE CHOSE: heal roost - our hp 0.28, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Swanna|Roost|p1a: Swanna
+  -heal|p1a: Swanna|217/278
+  -singleturn|p1a: Swanna|move: Roost
+  move|p2a: Reshiram|Outrage|p1a: Swanna|[from] lockedmove
+  -damage|p1a: Swanna|69/278
+-- turn 10
+  WE CHOSE: heal roost - our hp 0.25, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Swanna|Roost|p1a: Swanna
+  -heal|p1a: Swanna|208/278
+  -singleturn|p1a: Swanna|move: Roost
+  move|p2a: Reshiram|Outrage|p1a: Swanna|[from] lockedmove
+  -damage|p1a: Swanna|70/278
+  -start|p2a: Reshiram|confusion|[fatigue]
+-- turn 11
+  WE CHOSE: heal roost - our hp 0.25, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Swanna|Roost|p1a: Swanna
+  -heal|p1a: Swanna|209/278
+  -singleturn|p1a: Swanna|move: Roost
+  -activate|p2a: Reshiram|confusion
+  move|p2a: Reshiram|Outrage|p1a: Swanna
+  -damage|p1a: Swanna|55/278
+-- turn 12
+  WE CHOSE: heal roost - our hp 0.20, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Swanna|Roost|p1a: Swanna
+  -heal|p1a: Swanna|194/278
+  -singleturn|p1a: Swanna|move: Roost
+  -activate|p2a: Reshiram|confusion
+  move|p2a: Reshiram|Outrage|p1a: Swanna|[from] lockedmove
+  -damage|p1a: Swanna|56/278
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.20, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Swanna|Roost|p1a: Swanna
+  -heal|p1a: Swanna|195/278
+  -singleturn|p1a: Swanna|move: Roost
+  -activate|p2a: Reshiram|confusion
+  move|p2a: Reshiram|Outrage|p1a: Swanna|[from] lockedmove
+  -damage|p1a: Swanna|36/278
+-- turn 14
+  WE CHOSE: heal roost - our hp 0.13, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Swanna|Roost|p1a: Swanna
+  -heal|p1a: Swanna|175/278
+  -singleturn|p1a: Swanna|move: Roost
+  -end|p2a: Reshiram|confusion
+  move|p2a: Reshiram|Outrage|p1a: Swanna
+  -damage|p1a: Swanna|16/278
+-- turn 15
+  WE CHOSE: heal roost - our hp 0.06, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Swanna|Roost|p1a: Swanna
+  -heal|p1a: Swanna|155/278
+  -singleturn|p1a: Swanna|move: Roost
+  move|p2a: Reshiram|Outrage|p1a: Swanna|[from] lockedmove
+  -damage|p1a: Swanna|8/278
+-- turn 16
+  WE CHOSE: heal roost - our hp 0.03, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to latios - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Swanna|Roost|p1a: Swanna
+  -heal|p1a: Swanna|147/278
+  -singleturn|p1a: Swanna|move: Roost
+  move|p2a: Reshiram|Outrage|p1a: Swanna|[from] lockedmove
+  -damage|p1a: Swanna|0 fnt
+  faint|p1a: Swanna
+  -start|p2a: Reshiram|confusion|[fatigue]
+  switch|p1a: Latios|Latios, L78, M|253/253
+-- turn 17
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x2
+  move|p1a: Latios|Draco Meteor|p2a: Reshiram
+  -supereffective|p2a: Reshiram
+  -damage|p2a: Reshiram|0 fnt
+  -unboost|p1a: Latios|spa|2
+  faint|p2a: Reshiram
+  switch|p2a: Gogoat|Gogoat, L88, M|100/100
+-- turn 18
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Latios|Draco Meteor|p2a: Gogoat
+  -damage|p2a: Gogoat|67/100
+  -unboost|p1a: Latios|spa|2
+  move|p2a: Gogoat|Horn Leech|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|199/253
+  -heal|p2a: Gogoat|74/100|[from] drain|[of] p1a: Latios
+  -heal|p2a: Gogoat|80/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack dracometeor - our hp 0.79, theirs 0.80, predicted move (revealed) hits us x0.5
+  move|p1a: Latios|Draco Meteor|p2a: Gogoat
+  -damage|p2a: Gogoat|59/100
+  -unboost|p1a: Latios|spa|2
+  move|p2a: Gogoat|Horn Leech|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|145/253
+  -heal|p2a: Gogoat|66/100|[from] drain|[of] p1a: Latios
+  -heal|p2a: Gogoat|72/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack dracometeor - our hp 0.57, theirs 0.72, predicted move (revealed) hits us x0.5
+  move|p1a: Latios|Draco Meteor|p2a: Gogoat
+  -damage|p2a: Gogoat|57/100
+  move|p2a: Gogoat|Horn Leech|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|96/253
+  -heal|p2a: Gogoat|64/100|[from] drain|[of] p1a: Latios
+  -heal|p2a: Gogoat|70/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack dracometeor - our hp 0.38, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p1a: Latios|Draco Meteor|p2a: Gogoat
+  -damage|p2a: Gogoat|54/100
+  move|p2a: Gogoat|Horn Leech|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|41/253
+  -heal|p2a: Gogoat|62/100|[from] drain|[of] p1a: Latios
+  -heal|p2a: Gogoat|68/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack dracometeor - our hp 0.16, theirs 0.68, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to zangoose - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p1a: Latios|Draco Meteor|p2a: Gogoat
+  -damage|p2a: Gogoat|53/100
+  move|p2a: Gogoat|Horn Leech|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|0 fnt
+  -heal|p2a: Gogoat|59/100|[from] drain|[of] p1a: Latios
+  faint|p1a: Latios
+  -heal|p2a: Gogoat|65/100|[from] item: Leftovers
+  switch|p1a: Zangoose|Zangoose, L85, M|140/263 tox
+-- turn 23
+  WE CHOSE: attack closecombat - our hp 0.53, theirs 0.65, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to suicune - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Zangoose|Close Combat|p2a: Gogoat
+  -damage|p2a: Gogoat|15/100
+  -unboost|p1a: Zangoose|def|1
+  -unboost|p1a: Zangoose|spd|1
+  move|p2a: Gogoat|Horn Leech|p1a: Zangoose
+  -damage|p1a: Zangoose|0 fnt
+  -heal|p2a: Gogoat|35/100|[from] drain|[of] p1a: Zangoose
+  faint|p1a: Zangoose
+  -heal|p2a: Gogoat|41/100|[from] item: Leftovers
+  switch|p1a: Suicune|Suicune, L82|298/298
+  -ability|p1a: Suicune|Pressure
+-- turn 24
+  WE CHOSE: attack scald - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x2
+  move|p1a: Suicune|Scald|p2a: Gogoat
+  -resisted|p2a: Gogoat
+  -damage|p2a: Gogoat|31/100
+  move|p2a: Gogoat|Horn Leech|p1a: Suicune
+  -supereffective|p1a: Suicune
+  -damage|p1a: Suicune|158/298
+  -heal|p2a: Gogoat|50/100|[from] drain|[of] p1a: Suicune
+  -heal|p1a: Suicune|176/298|[from] item: Leftovers
+  -heal|p2a: Gogoat|56/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack scald - our hp 0.59, theirs 0.56, predicted move (revealed) hits us x2
+  move|p1a: Suicune|Scald|p2a: Gogoat
+  -resisted|p2a: Gogoat
+  -damage|p2a: Gogoat|46/100
+  move|p2a: Gogoat|Horn Leech|p1a: Suicune
+  -supereffective|p1a: Suicune
+  -damage|p1a: Suicune|18/298
+  -heal|p2a: Gogoat|68/100|[from] drain|[of] p1a: Suicune
+  -heal|p1a: Suicune|36/298|[from] item: Leftovers
+  -heal|p2a: Gogoat|74/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack scald - our hp 0.12, theirs 0.74, predicted move (revealed) hits us x2
+  move|p1a: Suicune|Scald|p2a: Gogoat
+  -resisted|p2a: Gogoat
+  -damage|p2a: Gogoat|64/100
+  -status|p2a: Gogoat|brn
+  move|p2a: Gogoat|Horn Leech|p1a: Suicune
+  -supereffective|p1a: Suicune
+  -damage|p1a: Suicune|0 fnt
+  -heal|p2a: Gogoat|69/100 brn|[from] drain|[of] p1a: Suicune
+  faint|p1a: Suicune
+  deinit

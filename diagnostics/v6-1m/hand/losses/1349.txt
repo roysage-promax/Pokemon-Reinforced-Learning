@@ -1,0 +1,152 @@
+battle 1349 (battle-gen9randombattle-1019001): lost in 18 turns, 5 of theirs left; we are p1
+
+ours:
+  toxicroak (fainted; item lifeorb, ability dryskin, tera fighting; moves suckerpunch/gunkshot/swordsdance/closecombat)
+  pecharunt (fainted; item rockyhelmet, ability poisonpuppeteer; moves recover/malignantchain/shadowball/partingshot)
+  gumshoos (fainted; item choiceband, ability stakeout; moves doubleedge/uturn/knockoff/earthquake)
+  greedent (fainted; item sitrusberry, ability cheekpouch; moves earthquake/knockoff/swordsdance/doubleedge)
+  pachirisu (fainted; item heavydutyboots, ability voltabsorb; moves encore/uturn/discharge/superfang)
+  volcarona (fainted; item heavydutyboots, ability flamebody; moves bugbuzz/fierydance/quiverdance/gigadrain)
+theirs (as seen):
+  pawmot (fainted; item lifeorb, ability voltabsorb; moves doubleshock/closecombat)
+  jolteon (33%; item unknown_item, ability ?; moves thunderbolt)
+
+-- turn 0
+  switch|p1a: Toxicroak|Toxicroak, L84, F|277/277
+  switch|p2a: Pawmot|Pawmot, L80, M|100/100
+-- turn 1
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Pawmot|Double Shock|p1a: Toxicroak
+  -damage|p1a: Toxicroak|55/277
+  -start|p2a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+  -damage|p2a: Pawmot|91/100|[from] item: Life Orb
+  move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+  -boost|p1a: Toxicroak|atk|2
+-- turn 2
+  WE CHOSE: switch to pachirisu - our hp 0.20, theirs 0.91, predicted move (revealed) hits us x1
+  switch|p1a: Pachirisu|Pachirisu, L96, M|271/271
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 3
+  WE CHOSE: attack discharge - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0
+  move|p1a: Pachirisu|Discharge|p2a: Pawmot
+  -heal|p2a: Pawmot|100/100|[from] ability: Volt Absorb|[of] p1a: Pachirisu
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 4
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Pachirisu|Discharge|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 5
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Pachirisu|Discharge|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 6
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Pachirisu|Discharge|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 7
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Pachirisu|Discharge|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 8
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Pachirisu|Discharge|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Double Shock||[still]
+  -fail|p2a: Pawmot|move: Double Shock
+-- turn 9
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Pachirisu|Discharge|p2a: Pawmot
+  -immune|p2a: Pawmot|[from] ability: Volt Absorb
+  move|p2a: Pawmot|Close Combat|p1a: Pachirisu
+  -damage|p1a: Pachirisu|83/271
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+  -damage|p2a: Pawmot|91/100|[from] item: Life Orb
+-- turn 10
+  WE CHOSE: attack discharge - our hp 0.31, theirs 0.91, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to toxicroak - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x0
+  move|p1a: Pachirisu|Discharge|p2a: Pawmot
+  -heal|p2a: Pawmot|100/100|[from] ability: Volt Absorb|[of] p1a: Pachirisu
+  move|p2a: Pawmot|Close Combat|p1a: Pachirisu
+  -damage|p1a: Pachirisu|0 fnt
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+  faint|p1a: Pachirisu
+  -damage|p2a: Pawmot|91/100|[from] item: Life Orb
+  switch|p1a: Toxicroak|Toxicroak, L84, F|55/277
+-- turn 11
+  WE CHOSE: attack+tera closecombat - our hp 0.20, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gumshoos - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x1
+  -terastallize|p1a: Toxicroak|Fighting
+  move|p2a: Pawmot|Close Combat|p1a: Toxicroak
+  -damage|p1a: Toxicroak|0 fnt
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+  faint|p1a: Toxicroak
+  -damage|p2a: Pawmot|81/100|[from] item: Life Orb
+  switch|p1a: Gumshoos|Gumshoos, L95, M|321/321
+-- turn 12
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to greedent - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Pawmot|Close Combat|p1a: Gumshoos
+  -supereffective|p1a: Gumshoos
+  -damage|p1a: Gumshoos|0 fnt
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+  faint|p1a: Gumshoos
+  -damage|p2a: Pawmot|71/100|[from] item: Life Orb
+  switch|p1a: Greedent|Greedent, L86, M|347/347
+-- turn 13
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pecharunt - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Pawmot|Close Combat|p1a: Greedent
+  -supereffective|p1a: Greedent
+  -damage|p1a: Greedent|0 fnt
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+  faint|p1a: Greedent
+  -damage|p2a: Pawmot|61/100|[from] item: Life Orb
+  switch|p1a: Pecharunt|Pecharunt, L77|262/262
+-- turn 14
+  WE CHOSE: attack malignantchain - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Pawmot|Close Combat|p1a: Pecharunt
+  -immune|p1a: Pecharunt
+  move|p1a: Pecharunt|Malignant Chain|p2a: Pawmot
+  -damage|p2a: Pawmot|0 fnt
+  faint|p2a: Pawmot
+  switch|p2a: Jolteon|Jolteon, L84, F|100/100
+-- turn 15
+  WE CHOSE: attack malignantchain - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Pecharunt
+  -damage|p1a: Pecharunt|87/262
+  move|p1a: Pecharunt|Malignant Chain|p2a: Jolteon
+  -damage|p2a: Jolteon|71/100
+-- turn 16
+  WE CHOSE: heal recover - our hp 0.33, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to volcarona - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Pecharunt
+  -damage|p1a: Pecharunt|0 fnt
+  faint|p1a: Pecharunt
+  switch|p1a: Volcarona|Volcarona, L77, M|257/257
+-- turn 17
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Volcarona
+  -damage|p1a: Volcarona|110/257
+  move|p1a: Volcarona|Bug Buzz|p2a: Jolteon
+  -damage|p2a: Jolteon|33/100
+-- turn 18
+  WE CHOSE: attack bugbuzz - our hp 0.43, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Volcarona
+  -damage|p1a: Volcarona|0 fnt
+  faint|p1a: Volcarona
+  deinit

@@ -1,0 +1,474 @@
+battle 37 (battle-gen9randombattle-1006657): lost in 54 turns, 1 of theirs left; we are p1
+
+ours:
+  grumpig (fainted; item leftovers, ability thickfat; moves dazzlinggleam/nastyplot/earthpower/psychic)
+  cresselia (fainted; item leftovers, ability levitate, tera steel; moves moonblast/psyshock/calmmind/moonlight)
+  volbeat (fainted; item heavydutyboots, ability prankster; moves uturn/thunderwave/encore/roost)
+  sableye (fainted; item leftovers, ability prankster; moves thunderwave/knockoff/recover/encore)
+  perrserker (fainted; item choiceband, ability toughclaws; moves closecombat/ironhead/uturn/knockoff)
+  corviknight (fainted; item rockyhelmet, ability pressure; moves roost/uturn/defog/bravebird)
+theirs (as seen):
+  noctowl (fainted; item unknown_item, ability ?; moves hurricane)
+  screamtail (fainted; item leftovers, ability protosynthesis; moves playrough)
+  greattusk (fainted; item ?, ability protosynthesis; moves closecombat/headlongrush/icespinner)
+  terrakion (fainted; item unknown_item, ability justified; moves closecombat)
+  blastoise (fainted; item ?, ability ?; moves hydropump)
+  reshiram (73%; item unknown_item, ability turboblaze; moves flareblitz)
+
+-- turn 0
+  switch|p1a: Grumpig|Grumpig, L92, F|297/297
+  switch|p2a: Noctowl|Noctowl, L95, M|100/100
+-- turn 1
+  WE CHOSE: switch to corviknight (hand policy: attack psychic) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Corviknight|Corviknight, L80, F|288/288
+  -ability|p1a: Corviknight|Pressure
+  move|p2a: Noctowl|Hurricane|p1a: Corviknight
+  -resisted|p1a: Corviknight
+  -damage|p1a: Corviknight|130/288
+-- turn 2
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to perrserker - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Noctowl|Hurricane|p1a: Corviknight
+  -resisted|p1a: Corviknight
+  -damage|p1a: Corviknight|0 fnt
+  faint|p1a: Corviknight
+  switch|p1a: Perrserker|Perrserker, L89, F|269/269
+-- turn 3
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Noctowl|Hurricane|p1a: Perrserker
+  -resisted|p1a: Perrserker
+  -damage|p1a: Perrserker|99/269
+  move|p1a: Perrserker|Close Combat|p2a: Noctowl
+  -damage|p2a: Noctowl|20/100
+  -unboost|p1a: Perrserker|def|1
+  -unboost|p1a: Perrserker|spd|1
+-- turn 4
+  WE CHOSE: attack closecombat - our hp 0.37, theirs 0.20, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to grumpig - our hp 0.00, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Noctowl|Hurricane|p1a: Perrserker
+  -resisted|p1a: Perrserker
+  -damage|p1a: Perrserker|0 fnt
+  faint|p1a: Perrserker
+  switch|p1a: Grumpig|Grumpig, L92, F|297/297
+-- turn 5
+  WE CHOSE: setup nastyplot (hand policy: attack psychic) - our hp 1.00, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Grumpig|Nasty Plot|p1a: Grumpig
+  -boost|p1a: Grumpig|spa|2
+  move|p2a: Noctowl|Hurricane|p1a: Grumpig
+  -damage|p1a: Grumpig|197/297
+  -heal|p1a: Grumpig|215/297|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack psychic - our hp 0.72, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Grumpig|Psychic|p2a: Noctowl
+  -damage|p2a: Noctowl|0 fnt
+  faint|p2a: Noctowl
+  -heal|p1a: Grumpig|233/297|[from] item: Leftovers
+  switch|p2a: Scream Tail|Scream Tail, L84|100/100
+-- turn 7
+  WE CHOSE: attack earthpower (hand policy: attack+tera earthpower) - our hp 0.78, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Scream Tail|Play Rough|p1a: Grumpig
+  -damage|p1a: Grumpig|157/297
+  move|p1a: Grumpig|Earth Power|p2a: Scream Tail
+  -damage|p2a: Scream Tail|68/100
+  -heal|p2a: Scream Tail|74/100|[from] item: Leftovers
+  -heal|p1a: Grumpig|175/297|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack earthpower (hand policy: attack+tera earthpower) - our hp 0.59, theirs 0.74, predicted move (revealed) hits us x1
+  move|p2a: Scream Tail|Play Rough|p1a: Grumpig
+  -damage|p1a: Grumpig|94/297
+  move|p1a: Grumpig|Earth Power|p2a: Scream Tail
+  -damage|p2a: Scream Tail|38/100
+  -heal|p2a: Scream Tail|44/100|[from] item: Leftovers
+  -heal|p1a: Grumpig|112/297|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack earthpower (hand policy: attack+tera earthpower) - our hp 0.38, theirs 0.44, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Scream Tail|Play Rough|p1a: Grumpig
+  -crit|p1a: Grumpig
+  -damage|p1a: Grumpig|0 fnt
+  faint|p1a: Grumpig
+  -heal|p2a: Scream Tail|50/100|[from] item: Leftovers
+  switch|p1a: Volbeat|Volbeat, L90, M|263/263
+-- turn 10
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cresselia - our hp 0.70, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Scream Tail|Play Rough|p1a: Volbeat
+  -damage|p1a: Volbeat|185/263
+  move|p1a: Volbeat|U-turn|p2a: Scream Tail
+  -damage|p2a: Scream Tail|30/100
+  switch|p1a: Cresselia|Cresselia, L80, F|323/323|[from] U-turn
+  -heal|p2a: Scream Tail|36/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: setup calmmind (hand policy: attack+tera moonblast) - our hp 1.00, theirs 0.36, predicted move (revealed) hits us x1
+  move|p2a: Scream Tail|Play Rough|p1a: Cresselia
+  -damage|p1a: Cresselia|263/323
+  move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+  -boost|p1a: Cresselia|spa|1
+  -boost|p1a: Cresselia|spd|1
+  -heal|p2a: Scream Tail|42/100|[from] item: Leftovers
+  -heal|p1a: Cresselia|283/323|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack+tera moonblast - our hp 0.88, theirs 0.42, predicted move (revealed) hits us x1
+  -terastallize|p1a: Cresselia|Steel
+  move|p2a: Scream Tail|Play Rough|p1a: Cresselia
+  -resisted|p1a: Cresselia
+  -damage|p1a: Cresselia|253/323
+  move|p1a: Cresselia|Moonblast|p2a: Scream Tail
+  -damage|p2a: Scream Tail|22/100
+  -unboost|p2a: Scream Tail|spa|1
+  -heal|p2a: Scream Tail|28/100|[from] item: Leftovers
+  -heal|p1a: Cresselia|273/323|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: setup calmmind - our hp 0.85, theirs 0.28, predicted move (revealed) hits us x0.5
+  move|p2a: Scream Tail|Play Rough|p1a: Cresselia
+  -resisted|p1a: Cresselia
+  -damage|p1a: Cresselia|242/323
+  move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+  -boost|p1a: Cresselia|spa|1
+  -boost|p1a: Cresselia|spd|1
+  -heal|p2a: Scream Tail|34/100|[from] item: Leftovers
+  -heal|p1a: Cresselia|262/323|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: setup calmmind (hand policy: attack moonblast) - our hp 0.81, theirs 0.34, predicted move (revealed) hits us x0.5
+  move|p2a: Scream Tail|Play Rough|p1a: Cresselia
+  -resisted|p1a: Cresselia
+  -damage|p1a: Cresselia|232/323
+  move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+  -boost|p1a: Cresselia|spa|1
+  -boost|p1a: Cresselia|spd|1
+  -heal|p2a: Scream Tail|40/100|[from] item: Leftovers
+  -heal|p1a: Cresselia|252/323|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: setup calmmind (hand policy: attack moonblast) - our hp 0.78, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p2a: Scream Tail|Play Rough|p1a: Cresselia
+  -resisted|p1a: Cresselia
+  -damage|p1a: Cresselia|221/323
+  move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+  -boost|p1a: Cresselia|spa|1
+  -boost|p1a: Cresselia|spd|1
+  -heal|p2a: Scream Tail|47/100|[from] item: Leftovers
+  -heal|p1a: Cresselia|241/323|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack moonblast - our hp 0.75, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p2a: Scream Tail|Play Rough|p1a: Cresselia
+  -resisted|p1a: Cresselia
+  -damage|p1a: Cresselia|209/323
+  move|p1a: Cresselia|Moonblast|p2a: Scream Tail
+  -damage|p2a: Scream Tail|6/100
+  -unboost|p2a: Scream Tail|spa|1
+  -heal|p2a: Scream Tail|12/100|[from] item: Leftovers
+  -heal|p1a: Cresselia|229/323|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack moonblast - our hp 0.71, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p2a: Scream Tail|Play Rough|p1a: Cresselia
+  -resisted|p1a: Cresselia
+  -damage|p1a: Cresselia|196/323
+  move|p1a: Cresselia|Moonblast|p2a: Scream Tail
+  -damage|p2a: Scream Tail|0 fnt
+  faint|p2a: Scream Tail
+  -end|p2a: Scream Tail|Protosynthesis|[silent]
+  -heal|p1a: Cresselia|216/323|[from] item: Leftovers
+  switch|p2a: Great Tusk|Great Tusk, L77|100/100
+-- turn 18
+  WE CHOSE: switch to sableye - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Sableye|Sableye, L88, F|231/231
+  move|p2a: Great Tusk|Close Combat|p1a: Sableye
+  -immune|p1a: Sableye
+-- turn 19
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Sableye
+  -immune|p1a: Sableye
+  move|p1a: Sableye|Knock Off|p2a: Great Tusk
+  -resisted|p2a: Great Tusk
+  -damage|p2a: Great Tusk|89/100
+  -enditem|p2a: Great Tusk|Choice Band|[from] move: Knock Off|[of] p1a: Sableye
+-- turn 20
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.89, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Sableye
+  -immune|p1a: Sableye
+  move|p1a: Sableye|Knock Off|p2a: Great Tusk
+  -resisted|p2a: Great Tusk
+  -damage|p2a: Great Tusk|80/100
+-- turn 21
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.80, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Sableye
+  -immune|p1a: Sableye
+  move|p1a: Sableye|Knock Off|p2a: Great Tusk
+  -resisted|p2a: Great Tusk
+  -damage|p2a: Great Tusk|72/100
+-- turn 22
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Sableye
+  -immune|p1a: Sableye
+  move|p1a: Sableye|Knock Off|p2a: Great Tusk
+  -resisted|p2a: Great Tusk
+  -damage|p2a: Great Tusk|64/100
+-- turn 23
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Sableye
+  -immune|p1a: Sableye
+  move|p1a: Sableye|Knock Off|p2a: Great Tusk
+  -resisted|p2a: Great Tusk
+  -damage|p2a: Great Tusk|56/100
+-- turn 24
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Sableye
+  -immune|p1a: Sableye
+  move|p1a: Sableye|Knock Off|p2a: Great Tusk
+  -resisted|p2a: Great Tusk
+  -damage|p2a: Great Tusk|47/100
+-- turn 25
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Sableye
+  -immune|p1a: Sableye
+  move|p1a: Sableye|Knock Off|p2a: Great Tusk
+  -resisted|p2a: Great Tusk
+  -damage|p2a: Great Tusk|39/100
+-- turn 26
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Headlong Rush|p1a: Sableye
+  -damage|p1a: Sableye|93/231
+  -unboost|p2a: Great Tusk|def|1
+  -unboost|p2a: Great Tusk|spd|1
+  move|p1a: Sableye|Knock Off|p2a: Great Tusk
+  -resisted|p2a: Great Tusk
+  -damage|p2a: Great Tusk|27/100
+  -heal|p1a: Sableye|107/231|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack knockoff (hand policy: heal recover) - our hp 0.46, theirs 0.27, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 0.27, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Headlong Rush|p1a: Sableye
+  -damage|p1a: Sableye|0 fnt
+  -unboost|p2a: Great Tusk|def|1
+  -unboost|p2a: Great Tusk|spd|1
+  faint|p1a: Sableye
+  switch|p1a: Volbeat|Volbeat, L90, M|185/263
+-- turn 28
+  WE CHOSE: attack uturn - our hp 0.70, theirs 0.27, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to cresselia - our hp 0.70, theirs 0.08, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Great Tusk
+  -resisted|p2a: Great Tusk
+  -damage|p2a: Great Tusk|8/100
+  switch|p1a: Cresselia|Cresselia, L80, F, tera:Steel|216/323|[from] U-turn
+  move|p2a: Great Tusk|Headlong Rush|p1a: Cresselia
+  -immune|p1a: Cresselia|[from] ability: Levitate
+  -heal|p1a: Cresselia|236/323|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: heal moonlight (hand policy: switch to volbeat) - our hp 0.73, theirs 0.08, predicted move (revealed) hits us x2
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -heal|p1a: Cresselia|323/323
+  move|p2a: Great Tusk|Headlong Rush|p1a: Cresselia
+  -immune|p1a: Cresselia|[from] ability: Levitate
+-- turn 30
+  WE CHOSE: heal moonlight (hand policy: switch to volbeat) - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x2
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -fail|p1a: Cresselia|heal
+  move|p2a: Great Tusk|Headlong Rush|p1a: Cresselia
+  -immune|p1a: Cresselia|[from] ability: Levitate
+-- turn 31
+  WE CHOSE: heal moonlight (hand policy: switch to volbeat) - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x2
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -fail|p1a: Cresselia|heal
+  move|p2a: Great Tusk|Headlong Rush|p1a: Cresselia
+  -immune|p1a: Cresselia|[from] ability: Levitate
+-- turn 32
+  WE CHOSE: heal moonlight (hand policy: switch to volbeat) - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x2
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -fail|p1a: Cresselia|heal
+  move|p2a: Great Tusk|Headlong Rush|p1a: Cresselia
+  -immune|p1a: Cresselia|[from] ability: Levitate
+-- turn 33
+  WE CHOSE: heal moonlight (hand policy: switch to volbeat) - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x2
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -fail|p1a: Cresselia|heal
+  move|p2a: Great Tusk|Headlong Rush|p1a: Cresselia
+  -immune|p1a: Cresselia|[from] ability: Levitate
+-- turn 34
+  WE CHOSE: heal moonlight (hand policy: switch to volbeat) - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x2
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -fail|p1a: Cresselia|heal
+  move|p2a: Great Tusk|Ice Spinner|p1a: Cresselia
+  -resisted|p1a: Cresselia
+  -damage|p1a: Cresselia|298/323
+  -heal|p1a: Cresselia|318/323|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: heal moonlight (hand policy: switch to volbeat) - our hp 0.98, theirs 0.08, predicted move (revealed) hits us x2
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -heal|p1a: Cresselia|323/323
+  move|p2a: Great Tusk|Ice Spinner|p1a: Cresselia
+  -resisted|p1a: Cresselia
+  -damage|p1a: Cresselia|299/323
+  -heal|p1a: Cresselia|319/323|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: heal moonlight (hand policy: switch to volbeat) - our hp 0.99, theirs 0.08, predicted move (revealed) hits us x2
+  move|p1a: Cresselia|Moonlight|p1a: Cresselia
+  -heal|p1a: Cresselia|323/323
+  move|p2a: Great Tusk|Ice Spinner|p1a: Cresselia
+  -resisted|p1a: Cresselia
+  -damage|p1a: Cresselia|297/323
+  -heal|p1a: Cresselia|317/323|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: switch to volbeat - our hp 0.98, theirs 0.08, predicted move (revealed) hits us x2
+  switch|p1a: Volbeat|Volbeat, L90, M|185/263
+  move|p2a: Great Tusk|Ice Spinner|p1a: Volbeat
+  -damage|p1a: Volbeat|117/263
+-- turn 38
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.44, theirs 0.08, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to cresselia - our hp 0.44, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Great Tusk
+  -resisted|p2a: Great Tusk
+  -damage|p2a: Great Tusk|0 fnt
+  faint|p2a: Great Tusk
+  -end|p2a: Great Tusk|Protosynthesis|[silent]
+  switch|p1a: Cresselia|Cresselia, L80, F, tera:Steel|317/323|[from] U-turn
+  -heal|p1a: Cresselia|323/323|[from] item: Leftovers
+  switch|p2a: Terrakion|Terrakion, L79|100/100
+-- turn 39
+  WE CHOSE: switch to volbeat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Volbeat|Volbeat, L90, M|117/263
+  move|p2a: Terrakion|Close Combat|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|7/263
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+-- turn 40
+  WE CHOSE: heal roost - our hp 0.03, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|139/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Terrakion|Close Combat|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|21/263
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+-- turn 41
+  WE CHOSE: heal roost - our hp 0.08, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|153/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Terrakion|Close Combat|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|42/263
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+-- turn 42
+  WE CHOSE: heal roost - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|174/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Terrakion|Close Combat|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|60/263
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+-- turn 43
+  WE CHOSE: heal roost - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|192/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Terrakion|Close Combat|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|87/263
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+-- turn 44
+  WE CHOSE: heal roost - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|219/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Terrakion|Close Combat|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|103/263
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+-- turn 45
+  WE CHOSE: heal roost - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|235/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Terrakion|Close Combat|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|121/263
+-- turn 46
+  WE CHOSE: heal roost - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|253/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Terrakion|Close Combat|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|139/263
+-- turn 47
+  WE CHOSE: heal roost (hand policy: attack uturn) - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|263/263
+  -singleturn|p1a: Volbeat|move: Roost
+  -activate|p2a: Terrakion|move: Struggle
+  move|p2a: Terrakion|Struggle|p1a: Volbeat
+  -damage|p1a: Volbeat|196/263
+  -damage|p2a: Terrakion|76/100|[from] recoil
+-- turn 48
+  WE CHOSE: attack uturn - our hp 0.75, theirs 0.76, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to cresselia - our hp 0.49, theirs 0.00, predicted move (revealed) hits us x0.5
+  -activate|p2a: Terrakion|move: Struggle
+  move|p2a: Terrakion|Struggle|p1a: Volbeat
+  -damage|p1a: Volbeat|129/263
+  -damage|p2a: Terrakion|51/100|[from] recoil
+  move|p1a: Volbeat|U-turn|p2a: Terrakion
+  -resisted|p2a: Terrakion
+  -damage|p2a: Terrakion|0 fnt
+  faint|p2a: Terrakion
+  switch|p1a: Cresselia|Cresselia, L80, F, tera:Steel|323/323|[from] U-turn
+  switch|p2a: Blastoise|Blastoise, L80, F|100/100
+-- turn 49
+  WE CHOSE: attack moonblast (hand policy: attack psyshock) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Cresselia|Moonblast|p2a: Blastoise
+  -damage|p2a: Blastoise|82/100
+  move|p2a: Blastoise|Hydro Pump|p1a: Cresselia
+  -damage|p1a: Cresselia|247/323
+  -heal|p1a: Cresselia|267/323|[from] item: Leftovers
+-- turn 50
+  WE CHOSE: attack moonblast (hand policy: attack psyshock) - our hp 0.83, theirs 0.82, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Moonblast|p2a: Blastoise
+  -damage|p2a: Blastoise|63/100
+  -unboost|p2a: Blastoise|spa|1
+  -enditem|p2a: Blastoise|White Herb
+  -clearnegativeboost|p2a: Blastoise|[silent]
+  move|p2a: Blastoise|Hydro Pump|p1a: Cresselia
+  -damage|p1a: Cresselia|182/323
+  -heal|p1a: Cresselia|202/323|[from] item: Leftovers
+-- turn 51
+  WE CHOSE: attack moonblast (hand policy: attack psyshock) - our hp 0.63, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Moonblast|p2a: Blastoise
+  -damage|p2a: Blastoise|46/100
+  move|p2a: Blastoise|Hydro Pump|p1a: Cresselia
+  -damage|p1a: Cresselia|123/323
+  -heal|p1a: Cresselia|143/323|[from] item: Leftovers
+-- turn 52
+  WE CHOSE: attack moonblast (hand policy: attack psyshock) - our hp 0.44, theirs 0.46, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Cresselia|Moonblast|p2a: Blastoise
+  -damage|p2a: Blastoise|26/100
+  -unboost|p2a: Blastoise|spa|1
+  move|p2a: Blastoise|Hydro Pump|p1a: Cresselia
+  -crit|p1a: Cresselia
+  -damage|p1a: Cresselia|0 fnt
+  faint|p1a: Cresselia
+  switch|p1a: Volbeat|Volbeat, L90, M|129/263
+-- turn 53
+  WE CHOSE: attack uturn - our hp 0.49, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|U-turn|p2a: Blastoise
+  -damage|p2a: Blastoise|0 fnt
+  faint|p2a: Blastoise
+  switch|p2a: Reshiram|Reshiram, L76|100/100
+  -ability|p2a: Reshiram|Turboblaze
+-- turn 54
+  WE CHOSE: attack roost (hand policy: attack uturn) - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Volbeat|U-turn|p2a: Reshiram
+  -resisted|p2a: Reshiram
+  -damage|p2a: Reshiram|89/100
+  move|p2a: Reshiram|Flare Blitz|p1a: Volbeat
+  -supereffective|p1a: Volbeat
+  -damage|p1a: Volbeat|0 fnt
+  faint|p1a: Volbeat
+  -damage|p2a: Reshiram|73/100|[from] Recoil
+  deinit

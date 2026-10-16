@@ -1,0 +1,306 @@
+battle 2017 (battle-gen9randombattle-1025222): lost in 31 turns, 1 of theirs left; we are p1
+
+ours:
+  raikou (fainted; item leftovers, ability pressure, tera grass; moves scald/substitute/thunderbolt/calmmind)
+  hippowdon (fainted; item leftovers, ability sandstream; moves earthquake/stoneedge/slackoff/curse)
+  venomoth (fainted; item heavydutyboots, ability tintedlens; moves sludgewave/bugbuzz/quiverdance/sleeppowder)
+  tatsugiri (fainted; item heavydutyboots, ability stormdrain; moves rapidspin/nastyplot/dracometeor/surf)
+  hatterene (fainted; item leftovers, ability magicbounce; moves psychic/mysticalfire/drainingkiss/calmmind)
+  minun (fainted; item lifeorb, ability voltabsorb; moves nastyplot/encore/grassknot/thunderbolt)
+theirs (as seen):
+  rillaboom (fainted; item unknown_item, ability ?; moves woodhammer)
+  ambipom (fainted; item unknown_item, ability ?; moves doubleedge)
+  okidogi (fainted; item unknown_item, ability ?; moves gunkshot)
+  eelektross (fainted; item unknown_item, ability levitate; moves flamethrower)
+  salazzle (fainted; item leftovers, ability ?; moves flamethrower)
+  scovillain (73%; item unknown_item, ability ?; moves -)
+
+-- turn 0
+  switch|p1a: Raikou|Raikou, L81|278/278
+  switch|p2a: Rillaboom|Rillaboom, L79, M|100/100
+  -ability|p1a: Raikou|Pressure
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+-- turn 1
+  WE CHOSE: attack+tera thunderbolt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Raikou|Grass
+  move|p1a: Raikou|Thunderbolt|p2a: Rillaboom
+  -resisted|p2a: Rillaboom
+  -damage|p2a: Rillaboom|80/100
+  move|p2a: Rillaboom|Wood Hammer|p1a: Raikou
+  -resisted|p1a: Raikou
+  -damage|p1a: Raikou|130/278
+  -damage|p2a: Rillaboom|63/100|[from] Recoil
+  -heal|p1a: Raikou|147/278|[from] Grassy Terrain
+  -heal|p1a: Raikou|164/278|[from] item: Leftovers
+  -heal|p2a: Rillaboom|69/100|[from] Grassy Terrain
+-- turn 2
+  WE CHOSE: setup calmmind - our hp 0.59, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Raikou|Calm Mind|p1a: Raikou
+  -boost|p1a: Raikou|spa|1
+  -boost|p1a: Raikou|spd|1
+  move|p2a: Rillaboom|Wood Hammer|p1a: Raikou
+  -resisted|p1a: Raikou
+  -damage|p1a: Raikou|8/278
+  -damage|p2a: Rillaboom|51/100|[from] Recoil
+  -heal|p1a: Raikou|25/278|[from] Grassy Terrain
+  -heal|p1a: Raikou|42/278|[from] item: Leftovers
+  -heal|p2a: Rillaboom|57/100|[from] Grassy Terrain
+-- turn 3
+  WE CHOSE: attack thunderbolt - our hp 0.15, theirs 0.57, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to venomoth - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x0.5
+  move|p1a: Raikou|Thunderbolt|p2a: Rillaboom
+  -resisted|p2a: Rillaboom
+  -damage|p2a: Rillaboom|27/100
+  move|p2a: Rillaboom|Wood Hammer|p1a: Raikou
+  -resisted|p1a: Raikou
+  -damage|p1a: Raikou|0 fnt
+  faint|p1a: Raikou
+  -damage|p2a: Rillaboom|22/100|[from] Recoil
+  -heal|p2a: Rillaboom|28/100|[from] Grassy Terrain
+  switch|p1a: Venomoth|Venomoth, L84, F|255/255
+-- turn 4
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x0.25
+  move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+  -boost|p1a: Venomoth|spa|1
+  -boost|p1a: Venomoth|spd|1
+  -boost|p1a: Venomoth|spe|1
+  move|p2a: Rillaboom|Wood Hammer|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|161/255
+  -damage|p2a: Rillaboom|18/100|[from] Recoil
+  -heal|p1a: Venomoth|176/255|[from] Grassy Terrain
+  -heal|p2a: Rillaboom|24/100|[from] Grassy Terrain
+-- turn 5
+  WE CHOSE: setup quiverdance - our hp 0.69, theirs 0.24, predicted move (revealed) hits us x0.25
+  move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+  -boost|p1a: Venomoth|spa|1
+  -boost|p1a: Venomoth|spd|1
+  -boost|p1a: Venomoth|spe|1
+  move|p2a: Rillaboom|Wood Hammer|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|89/255
+  -damage|p2a: Rillaboom|14/100|[from] Recoil
+  -heal|p1a: Venomoth|104/255|[from] Grassy Terrain
+  -heal|p2a: Rillaboom|20/100|[from] Grassy Terrain
+  -fieldend|move: Grassy Terrain
+-- turn 6
+  WE CHOSE: attack sludgewave - our hp 0.41, theirs 0.20, predicted move (revealed) hits us x0.25
+  move|p1a: Venomoth|Sludge Wave|p2a: Rillaboom
+  -supereffective|p2a: Rillaboom
+  -damage|p2a: Rillaboom|0 fnt
+  faint|p2a: Rillaboom
+  switch|p2a: Ambipom|Ambipom, L84, M|100/100
+-- turn 7
+  WE CHOSE: attack sludgewave - our hp 0.41, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to tatsugiri - our hp 0.00, theirs 0.01, predicted move (revealed) hits us x1
+  move|p1a: Venomoth|Sludge Wave|p2a: Ambipom
+  -damage|p2a: Ambipom|14/100
+  move|p2a: Ambipom|Double-Edge|p1a: Venomoth
+  -damage|p1a: Venomoth|0 fnt
+  faint|p1a: Venomoth
+  -damage|p2a: Ambipom|1/100|[from] Recoil
+  switch|p1a: Tatsugiri|Tatsugiri, L87, M|260/260
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.01, predicted move (revealed) hits us x1
+  move|p2a: Ambipom|Double-Edge|p1a: Tatsugiri
+  -damage|p1a: Tatsugiri|70/260
+  -damage|p2a: Ambipom|0 fnt|[from] Recoil
+  faint|p2a: Ambipom
+  move|p1a: Tatsugiri|Draco Meteor|p2: Ambipom|[notarget]
+  -fail|p1a: Tatsugiri
+  switch|p2a: Okidogi|Okidogi, L77, M|100/100
+-- turn 9
+  WE CHOSE: attack dracometeor - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hippowdon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Tatsugiri|Draco Meteor|p2a: Okidogi|[miss]
+  -miss|p1a: Tatsugiri|p2a: Okidogi
+  move|p2a: Okidogi|Gunk Shot|p1a: Tatsugiri
+  -damage|p1a: Tatsugiri|0 fnt
+  faint|p1a: Tatsugiri
+  switch|p1a: Hippowdon|Hippowdon, L82, M|311/311
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Okidogi|Gunk Shot|p1a: Hippowdon|[miss]
+  -miss|p2a: Okidogi|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Okidogi
+  -supereffective|p2a: Okidogi
+  -damage|p2a: Okidogi|20/100
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Okidogi|13/100|[from] Sandstorm
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p2a: Okidogi|Gunk Shot|p1a: Hippowdon|[miss]
+  -miss|p2a: Okidogi|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Okidogi
+  -supereffective|p2a: Okidogi
+  -damage|p2a: Okidogi|0 fnt
+  faint|p2a: Okidogi
+  -weather|Sandstorm|[upkeep]
+  switch|p2a: Eelektross|Eelektross, L87, F|100/100
+-- turn 12
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hippowdon
+  -damage|p1a: Hippowdon|228/311
+  -status|p1a: Hippowdon|brn
+  move|p1a: Hippowdon|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Eelektross|94/100|[from] Sandstorm
+  -heal|p1a: Hippowdon|247/311 brn|[from] item: Leftovers
+  -damage|p1a: Hippowdon|228/311 brn|[from] brn
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 0.73, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hippowdon
+  -damage|p1a: Hippowdon|141/311 brn
+  move|p1a: Hippowdon|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Eelektross|88/100|[from] Sandstorm
+  -heal|p1a: Hippowdon|160/311 brn|[from] item: Leftovers
+  -damage|p1a: Hippowdon|141/311 brn|[from] brn
+-- turn 14
+  WE CHOSE: heal slackoff - our hp 0.45, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hippowdon
+  -damage|p1a: Hippowdon|52/311 brn
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|208/311 brn
+  -weather|none
+  -heal|p1a: Hippowdon|227/311 brn|[from] item: Leftovers
+  -damage|p1a: Hippowdon|208/311 brn|[from] brn
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.67, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hippowdon
+  -damage|p1a: Hippowdon|121/311 brn
+  move|p1a: Hippowdon|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Hippowdon|140/311 brn|[from] item: Leftovers
+  -damage|p1a: Hippowdon|121/311 brn|[from] brn
+-- turn 16
+  WE CHOSE: heal slackoff - our hp 0.39, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hippowdon
+  -damage|p1a: Hippowdon|42/311 brn
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|198/311 brn
+  -heal|p1a: Hippowdon|217/311 brn|[from] item: Leftovers
+  -damage|p1a: Hippowdon|198/311 brn|[from] brn
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 0.64, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hippowdon
+  -damage|p1a: Hippowdon|118/311 brn
+  move|p1a: Hippowdon|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Hippowdon|137/311 brn|[from] item: Leftovers
+  -damage|p1a: Hippowdon|118/311 brn|[from] brn
+-- turn 18
+  WE CHOSE: heal slackoff - our hp 0.38, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hippowdon
+  -damage|p1a: Hippowdon|32/311 brn
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|188/311 brn
+  -heal|p1a: Hippowdon|207/311 brn|[from] item: Leftovers
+  -damage|p1a: Hippowdon|188/311 brn|[from] brn
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 0.60, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hippowdon
+  -damage|p1a: Hippowdon|101/311 brn
+  move|p1a: Hippowdon|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Hippowdon|120/311 brn|[from] item: Leftovers
+  -damage|p1a: Hippowdon|101/311 brn|[from] brn
+-- turn 20
+  WE CHOSE: heal slackoff - our hp 0.32, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hippowdon
+  -damage|p1a: Hippowdon|11/311 brn
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|167/311 brn
+  -heal|p1a: Hippowdon|186/311 brn|[from] item: Leftovers
+  -damage|p1a: Hippowdon|167/311 brn|[from] brn
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 0.54, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hippowdon
+  -damage|p1a: Hippowdon|82/311 brn
+  move|p1a: Hippowdon|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Hippowdon|101/311 brn|[from] item: Leftovers
+  -damage|p1a: Hippowdon|82/311 brn|[from] brn
+-- turn 22
+  WE CHOSE: heal slackoff - our hp 0.26, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hippowdon
+  -damage|p1a: Hippowdon|2/311 brn
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|158/311 brn
+  -heal|p1a: Hippowdon|177/311 brn|[from] item: Leftovers
+  -damage|p1a: Hippowdon|158/311 brn|[from] brn
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 0.51, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hippowdon
+  -damage|p1a: Hippowdon|78/311 brn
+  move|p1a: Hippowdon|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Hippowdon|97/311 brn|[from] item: Leftovers
+  -damage|p1a: Hippowdon|78/311 brn|[from] brn
+-- turn 24
+  WE CHOSE: heal slackoff - our hp 0.25, theirs 0.88, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hatterene - our hp 0.00, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hippowdon
+  -damage|p1a: Hippowdon|0 fnt
+  faint|p1a: Hippowdon
+  switch|p1a: Hatterene|Hatterene, L85, F|236/236
+-- turn 25
+  WE CHOSE: attack psychic - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hatterene
+  -damage|p1a: Hatterene|176/236
+  move|p1a: Hatterene|Psychic|p2a: Eelektross
+  -damage|p2a: Eelektross|56/100
+  -heal|p1a: Hatterene|190/236|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack psychic - our hp 0.81, theirs 0.56, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hatterene
+  -damage|p1a: Hatterene|126/236
+  -status|p1a: Hatterene|brn
+  move|p1a: Hatterene|Psychic|p2a: Eelektross
+  -damage|p2a: Eelektross|26/100
+  -heal|p1a: Hatterene|140/236 brn|[from] item: Leftovers
+  -damage|p1a: Hatterene|126/236 brn|[from] brn
+-- turn 27
+  WE CHOSE: attack psychic - our hp 0.53, theirs 0.26, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Hatterene
+  -damage|p1a: Hatterene|62/236 brn
+  move|p1a: Hatterene|Psychic|p2a: Eelektross
+  -damage|p2a: Eelektross|0 fnt
+  faint|p2a: Eelektross
+  -heal|p1a: Hatterene|76/236 brn|[from] item: Leftovers
+  -damage|p1a: Hatterene|62/236 brn|[from] brn
+  switch|p2a: Salazzle|Salazzle, L83, F|100/100
+-- turn 28
+  WE CHOSE: attack psychic - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to minun - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Salazzle|Flamethrower|p1a: Hatterene
+  -damage|p1a: Hatterene|0 fnt
+  faint|p1a: Hatterene
+  switch|p1a: Minun|Minun, L95, M|268/268
+-- turn 29
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Salazzle|Flamethrower|p1a: Minun
+  -damage|p1a: Minun|177/268
+  move|p1a: Minun|Thunderbolt|p2a: Salazzle
+  -damage|p2a: Salazzle|27/100
+  -damage|p1a: Minun|151/268|[from] item: Life Orb
+  -heal|p2a: Salazzle|33/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack thunderbolt - our hp 0.56, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Salazzle|Flamethrower|p1a: Minun
+  -damage|p1a: Minun|52/268
+  move|p1a: Minun|Thunderbolt|p2a: Salazzle
+  -damage|p2a: Salazzle|0 fnt
+  faint|p2a: Salazzle
+  -damage|p1a: Minun|26/268|[from] item: Life Orb
+  switch|p2a: Scovillain|Scovillain, L91, F|100/100
+-- turn 31
+  WE CHOSE: attack thunderbolt - our hp 0.10, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Minun|Thunderbolt|p2a: Scovillain
+  -resisted|p2a: Scovillain
+  -damage|p2a: Scovillain|73/100
+  -damage|p1a: Minun|0 fnt|[from] item: Life Orb
+  faint|p1a: Minun

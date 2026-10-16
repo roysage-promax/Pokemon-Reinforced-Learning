@@ -1,0 +1,300 @@
+battle 2249 (battle-gen9randombattle-1027480): lost in 31 turns, 1 of theirs left; we are p1
+
+ours:
+  meloetta (fainted; item lifeorb, ability serenegrace; moves relicsong/closecombat/knockoff/tripleaxel)
+  gothitelle (fainted; item choicescarf, ability shadowtag; moves focusblast/darkpulse/trick/psychic)
+  sylveon (fainted; item leftovers, ability pixilate; moves wish/calmmind/protect/hypervoice)
+  heatran (fainted; item ?, ability flashfire; moves magmastorm/earthpower/heavyslam/stealthrock)
+  archaludon (fainted; item leftovers, ability stamina, tera fighting; moves dracometeor/thunderwave/flashcannon/bodypress)
+  volbeat (fainted; item heavydutyboots, ability prankster; moves roost/thunderwave/lunge/encore)
+theirs (as seen):
+  toxtricity (fainted; item ?, ability ?; moves boomburst)
+  arceusrock (fainted; item unknown_item, ability multitype; moves judgment)
+  crabominable (fainted; item unknown_item, ability ?; moves icehammer)
+  brutebonnet (fainted; item leftovers, ability protosynthesis; moves crunch)
+  brambleghast (fainted; item unknown_item, ability ?; moves powerwhip)
+  florgeswhite (37%; item leftovers, ability ?; moves moonblast)
+
+-- turn 0
+  switch|p1a: Meloetta|Meloetta, L82|298/298
+  switch|p2a: Toxtricity|Toxtricity, L82, M|100/100
+-- turn 1
+  WE CHOSE: attack relicsong - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Meloetta|Relic Song|p2a: Toxtricity
+  -damage|p2a: Toxtricity|71/100
+  -formechange|p1a: Meloetta|Meloetta-Pirouette|[msg]
+  -damage|p1a: Meloetta|269/298|[from] item: Life Orb
+  move|p2a: Toxtricity|Boomburst|p1a: Meloetta
+  -damage|p1a: Meloetta|114/298
+  -enditem|p2a: Toxtricity|Throat Spray
+  -boost|p2a: Toxtricity|spa|1|[from] item: Throat Spray
+-- turn 2
+  WE CHOSE: attack relicsong - our hp 0.38, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to heatran - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Meloetta|Relic Song|p2a: Toxtricity
+  -crit|p2a: Toxtricity
+  -damage|p2a: Toxtricity|41/100
+  -formechange|p1a: Meloetta|Meloetta|[msg]
+  -damage|p1a: Meloetta|85/298|[from] item: Life Orb
+  move|p2a: Toxtricity|Boomburst|p1a: Meloetta
+  -crit|p1a: Meloetta
+  -damage|p1a: Meloetta|0 fnt
+  faint|p1a: Meloetta
+  switch|p1a: Heatran|Heatran, L79, F|273/273
+  -item|p1a: Heatran|Air Balloon
+-- turn 3
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p2a: Toxtricity|Boomburst|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|182/273
+  -enditem|p1a: Heatran|Air Balloon
+  move|p1a: Heatran|Earth Power|p2a: Toxtricity
+  -supereffective|p2a: Toxtricity
+  -damage|p2a: Toxtricity|0 fnt
+  faint|p2a: Toxtricity
+  switch|p2a: Arceus|Arceus-Rock, L74|100/100
+-- turn 4
+  WE CHOSE: attack earthpower - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Arceus|Judgment|p1a: Heatran
+  -damage|p1a: Heatran|70/273
+  move|p1a: Heatran|Earth Power|p2a: Arceus
+  -supereffective|p2a: Arceus
+  -crit|p2a: Arceus
+  -damage|p2a: Arceus|40/100
+  -unboost|p2a: Arceus|spd|1
+-- turn 5
+  WE CHOSE: attack earthpower - our hp 0.26, theirs 0.40, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to archaludon - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p2a: Arceus|Judgment|p1a: Heatran
+  -damage|p1a: Heatran|0 fnt
+  faint|p1a: Heatran
+  switch|p1a: Archaludon|Archaludon, L77, M|265/265
+-- turn 6
+  WE CHOSE: attack flashcannon - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p2a: Arceus|Judgment|p1a: Archaludon
+  -resisted|p1a: Archaludon
+  -damage|p1a: Archaludon|184/265
+  -ability|p1a: Archaludon|Stamina|boost
+  -boost|p1a: Archaludon|def|1
+  move|p1a: Archaludon|Flash Cannon|p2a: Arceus
+  -supereffective|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  -heal|p1a: Archaludon|200/265|[from] item: Leftovers
+  switch|p2a: Crabominable|Crabominable, L90, F|100/100
+-- turn 7
+  WE CHOSE: switch to gothitelle - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Gothitelle|Gothitelle, L90, F|272/272
+  move|p2a: Crabominable|Ice Hammer|p1a: Gothitelle
+  -damage|p1a: Gothitelle|16/272
+  -unboost|p2a: Crabominable|spe|1
+-- turn 8
+  WE CHOSE: attack psychic - our hp 0.06, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to archaludon - our hp 0.00, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Gothitelle|Psychic|p2a: Crabominable
+  -supereffective|p2a: Crabominable
+  -damage|p2a: Crabominable|26/100
+  move|p2a: Crabominable|Ice Hammer|p1a: Gothitelle
+  -damage|p1a: Gothitelle|0 fnt
+  -unboost|p2a: Crabominable|spe|1
+  faint|p1a: Gothitelle
+  switch|p1a: Archaludon|Archaludon, L77, M|200/265
+-- turn 9
+  WE CHOSE: attack flashcannon - our hp 0.75, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Archaludon|Flash Cannon|p2a: Crabominable
+  -supereffective|p2a: Crabominable
+  -damage|p2a: Crabominable|0 fnt
+  faint|p2a: Crabominable
+  -heal|p1a: Archaludon|216/265|[from] item: Leftovers
+  switch|p2a: Brute Bonnet|Brute Bonnet, L80|100/100
+-- turn 10
+  WE CHOSE: switch to volbeat - our hp 0.82, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Volbeat|Volbeat, L90, M|263/263
+  move|p2a: Brute Bonnet|Crunch|p1a: Volbeat
+  -damage|p1a: Volbeat|157/263
+-- turn 11
+  WE CHOSE: attack lunge - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Lunge|p2a: Brute Bonnet
+  -supereffective|p2a: Brute Bonnet
+  -damage|p2a: Brute Bonnet|7/100
+  -unboost|p2a: Brute Bonnet|atk|1
+  move|p2a: Brute Bonnet|Crunch|p1a: Volbeat
+  -damage|p1a: Volbeat|91/263
+  -unboost|p1a: Volbeat|def|1
+  -heal|p2a: Brute Bonnet|13/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: heal roost - our hp 0.35, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|223/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Brute Bonnet|Crunch|p1a: Volbeat
+  -damage|p1a: Volbeat|115/263
+  -unboost|p1a: Volbeat|def|1
+  -heal|p2a: Brute Bonnet|20/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.44, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|247/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Brute Bonnet|Crunch|p1a: Volbeat
+  -damage|p1a: Volbeat|106/263
+  -heal|p2a: Brute Bonnet|26/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal roost - our hp 0.40, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|238/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Brute Bonnet|Crunch|p1a: Volbeat
+  -damage|p1a: Volbeat|112/263
+  -heal|p2a: Brute Bonnet|32/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal roost - our hp 0.43, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|244/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Brute Bonnet|Crunch|p1a: Volbeat
+  -damage|p1a: Volbeat|102/263
+  -heal|p2a: Brute Bonnet|38/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: heal roost - our hp 0.39, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|234/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Brute Bonnet|Crunch|p1a: Volbeat
+  -damage|p1a: Volbeat|99/263
+  -heal|p2a: Brute Bonnet|44/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: heal roost - our hp 0.38, theirs 0.44, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|231/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Brute Bonnet|Crunch|p1a: Volbeat
+  -damage|p1a: Volbeat|84/263
+  -heal|p2a: Brute Bonnet|50/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: heal roost - our hp 0.32, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to archaludon - our hp 0.00, theirs 0.56, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|216/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Brute Bonnet|Crunch|p1a: Volbeat
+  -crit|p1a: Volbeat
+  -damage|p1a: Volbeat|0 fnt
+  faint|p1a: Volbeat
+  -heal|p2a: Brute Bonnet|56/100|[from] item: Leftovers
+  switch|p1a: Archaludon|Archaludon, L77, M|216/265
+-- turn 19
+  WE CHOSE: attack+tera dracometeor - our hp 0.82, theirs 0.56, predicted move (revealed) hits us x1
+  -terastallize|p1a: Archaludon|Fighting
+  move|p1a: Archaludon|Draco Meteor|p2a: Brute Bonnet
+  -damage|p2a: Brute Bonnet|15/100
+  -unboost|p1a: Archaludon|spa|2
+  move|p2a: Brute Bonnet|Crunch|p1a: Archaludon
+  -resisted|p1a: Archaludon
+  -damage|p1a: Archaludon|191/265
+  -ability|p1a: Archaludon|Stamina|boost
+  -boost|p1a: Archaludon|def|1
+  -heal|p1a: Archaludon|207/265|[from] item: Leftovers
+  -heal|p2a: Brute Bonnet|22/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack bodypress - our hp 0.78, theirs 0.22, predicted move (revealed) hits us x0.5
+  move|p1a: Archaludon|Body Press|p2a: Brute Bonnet
+  -supereffective|p2a: Brute Bonnet
+  -damage|p2a: Brute Bonnet|0 fnt
+  faint|p2a: Brute Bonnet
+  -end|p2a: Brute Bonnet|Protosynthesis|[silent]
+  -heal|p1a: Archaludon|223/265|[from] item: Leftovers
+  switch|p2a: Brambleghast|Brambleghast, L88, M|100/100
+-- turn 21
+  WE CHOSE: attack dracometeor - our hp 0.84, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Brambleghast|Power Whip|p1a: Archaludon
+  -damage|p1a: Archaludon|132/265
+  -ability|p1a: Archaludon|Stamina|boost
+  -boost|p1a: Archaludon|def|1
+  move|p1a: Archaludon|Draco Meteor|p2a: Brambleghast
+  -damage|p2a: Brambleghast|70/100
+  -unboost|p1a: Archaludon|spa|2
+  -heal|p1a: Archaludon|148/265|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack dracometeor - our hp 0.56, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Brambleghast|Power Whip|p1a: Archaludon|[miss]
+  -miss|p2a: Brambleghast|p1a: Archaludon
+  move|p1a: Archaludon|Draco Meteor|p2a: Brambleghast
+  -damage|p2a: Brambleghast|50/100
+  -unboost|p1a: Archaludon|spa|2
+  -heal|p1a: Archaludon|164/265|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack dracometeor - our hp 0.62, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Brambleghast|Power Whip|p1a: Archaludon|[miss]
+  -miss|p2a: Brambleghast|p1a: Archaludon
+  move|p1a: Archaludon|Draco Meteor|p2a: Brambleghast
+  -damage|p2a: Brambleghast|33/100
+  -heal|p1a: Archaludon|180/265|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack dracometeor - our hp 0.68, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Brambleghast|Power Whip|p1a: Archaludon
+  -damage|p1a: Archaludon|110/265
+  -ability|p1a: Archaludon|Stamina|boost
+  -boost|p1a: Archaludon|def|1
+  move|p1a: Archaludon|Draco Meteor|p2a: Brambleghast
+  -damage|p2a: Brambleghast|16/100
+  -heal|p1a: Archaludon|126/265|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack dracometeor - our hp 0.48, theirs 0.16, predicted move (revealed) hits us x1
+  move|p2a: Brambleghast|Power Whip|p1a: Archaludon
+  -damage|p1a: Archaludon|78/265
+  -ability|p1a: Archaludon|Stamina|boost
+  -boost|p1a: Archaludon|def|1
+  move|p1a: Archaludon|Draco Meteor|p2a: Brambleghast
+  -damage|p2a: Brambleghast|0 fnt
+  faint|p2a: Brambleghast
+  -heal|p1a: Archaludon|94/265|[from] item: Leftovers
+  switch|p2a: Florges|Florges-White, L85, F|100/100
+-- turn 26
+  WE CHOSE: attack flashcannon - our hp 0.35, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to sylveon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Florges|Moonblast|p1a: Archaludon
+  -supereffective|p1a: Archaludon
+  -damage|p1a: Archaludon|0 fnt
+  faint|p1a: Archaludon
+  switch|p1a: Sylveon|Sylveon, L85, M|300/300
+-- turn 27
+  WE CHOSE: attack hypervoice - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Sylveon
+  -damage|p1a: Sylveon|207/300
+  move|p1a: Sylveon|Hyper Voice|p2a: Florges
+  -damage|p2a: Florges|72/100
+  -heal|p2a: Florges|78/100|[from] item: Leftovers
+  -heal|p1a: Sylveon|225/300|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack hypervoice - our hp 0.75, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Sylveon
+  -damage|p1a: Sylveon|143/300
+  -unboost|p1a: Sylveon|spa|1
+  move|p1a: Sylveon|Hyper Voice|p2a: Florges
+  -damage|p2a: Florges|57/100
+  -heal|p2a: Florges|62/100|[from] item: Leftovers
+  -heal|p1a: Sylveon|161/300|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack hypervoice - our hp 0.54, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Sylveon
+  -damage|p1a: Sylveon|79/300
+  move|p1a: Sylveon|Hyper Voice|p2a: Florges
+  -damage|p2a: Florges|42/100
+  -heal|p2a: Florges|48/100|[from] item: Leftovers
+  -heal|p1a: Sylveon|97/300|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack hypervoice - our hp 0.32, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Sylveon
+  -damage|p1a: Sylveon|13/300
+  -unboost|p1a: Sylveon|spa|1
+  move|p1a: Sylveon|Hyper Voice|p2a: Florges
+  -damage|p2a: Florges|31/100
+  -heal|p2a: Florges|37/100|[from] item: Leftovers
+  -heal|p1a: Sylveon|31/300|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack hypervoice - our hp 0.10, theirs 0.37, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Sylveon
+  -damage|p1a: Sylveon|0 fnt
+  faint|p1a: Sylveon
+  deinit

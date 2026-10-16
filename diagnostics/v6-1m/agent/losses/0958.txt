@@ -1,0 +1,397 @@
+battle 958 (battle-gen9randombattle-1016051): lost in 49 turns, 1 of theirs left; we are p1
+
+ours:
+  ampharos (fainted; item choicespecs, ability static; moves focusblast/dazzlinggleam/voltswitch/thunderbolt)
+  kingambit (fainted; item leftovers, ability supremeoverlord, tera flying; moves kowtowcleave/swordsdance/suckerpunch/ironhead)
+  brutebonnet (fainted; item leftovers, ability protosynthesis; moves suckerpunch/spore/crunch/seedbomb)
+  meganium (fainted; item leftovers, ability overgrow; moves dragontail/synthesis/energyball/knockoff)
+  latios (fainted; item souldew, ability levitate; moves dracometeor/lusterpurge/aurasphere/recover)
+  floatzel (fainted; item leftovers, ability waterveil; moves wavecrash/icespinner/bulkup/taunt)
+theirs (as seen):
+  ironjugulis (fainted; item ?, ability quarkdrive; moves meteorbeam)
+  gyarados (fainted; item unknown_item, ability intimidate; moves earthquake)
+  donphan (fainted; item leftovers, ability ?; moves earthquake)
+  wyrdeer (fainted; item leftovers, ability intimidate; moves earthquake/bodyslam)
+  pincurchin (fainted; item leftovers, ability ?; moves thunderbolt)
+  glaceon (4%; item unknown_item, ability ?; moves freezedry)
+
+-- turn 0
+  switch|p1a: Ampharos|Ampharos, L88, F|302/302
+  switch|p2a: Iron Jugulis|Iron Jugulis, L77|100/100
+-- turn 1
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Iron Jugulis|Meteor Beam||[still]
+  -prepare|p2a: Iron Jugulis|Meteor Beam
+  -boost|p2a: Iron Jugulis|spa|1
+  -enditem|p2a: Iron Jugulis|Power Herb
+  -anim|p2a: Iron Jugulis|Meteor Beam|p1a: Ampharos
+  -damage|p1a: Ampharos|179/302
+  move|p1a: Ampharos|Thunderbolt|p2a: Iron Jugulis
+  -supereffective|p2a: Iron Jugulis
+  -damage|p2a: Iron Jugulis|0 fnt
+  faint|p2a: Iron Jugulis
+  -end|p2a: Iron Jugulis|Quark Drive|[silent]
+  switch|p2a: Gyarados|Gyarados, L79, F|100/100
+  -ability|p2a: Gyarados|Intimidate|boost
+  -unboost|p1a: Ampharos|atk|1
+-- turn 2
+  WE CHOSE: switch to latios - our hp 0.59, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Latios|Latios, L78, M|253/253
+  move|p2a: Gyarados|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+-- turn 3
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Latios|Draco Meteor|p2a: Gyarados
+  -damage|p2a: Gyarados|34/100
+  -unboost|p1a: Latios|spa|2
+  move|p2a: Gyarados|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+-- turn 4
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x0
+  move|p1a: Latios|Draco Meteor|p2a: Gyarados
+  -damage|p2a: Gyarados|1/100
+  -unboost|p1a: Latios|spa|2
+  move|p2a: Gyarados|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+-- turn 5
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.01, predicted move (revealed) hits us x0
+  move|p1a: Latios|Draco Meteor|p2a: Gyarados|[miss]
+  -miss|p1a: Latios|p2a: Gyarados
+  move|p2a: Gyarados|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+-- turn 6
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.01, predicted move (revealed) hits us x0
+  move|p1a: Latios|Draco Meteor|p2a: Gyarados
+  -damage|p2a: Gyarados|0 fnt
+  -unboost|p1a: Latios|spa|2
+  faint|p2a: Gyarados
+  switch|p2a: Donphan|Donphan, L84, F|100/100
+-- turn 7
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Latios|Draco Meteor|p2a: Donphan
+  -damage|p2a: Donphan|78/100
+  move|p2a: Donphan|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+  -heal|p2a: Donphan|84/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.84, predicted move (revealed) hits us x0
+  move|p1a: Latios|Draco Meteor|p2a: Donphan
+  -damage|p2a: Donphan|62/100
+  move|p2a: Donphan|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+  -heal|p2a: Donphan|68/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x0
+  move|p1a: Latios|Draco Meteor|p2a: Donphan
+  -damage|p2a: Donphan|45/100
+  move|p2a: Donphan|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+  -heal|p2a: Donphan|52/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x0
+  move|p1a: Latios|Draco Meteor|p2a: Donphan
+  -damage|p2a: Donphan|31/100
+  move|p2a: Donphan|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+  -heal|p2a: Donphan|37/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack lusterpurge - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x0
+  move|p1a: Latios|Luster Purge|p2a: Donphan
+  -damage|p2a: Donphan|21/100
+  move|p2a: Donphan|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+  -heal|p2a: Donphan|27/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack lusterpurge - our hp 1.00, theirs 0.27, predicted move (revealed) hits us x0
+  move|p1a: Latios|Luster Purge|p2a: Donphan
+  -damage|p2a: Donphan|11/100
+  -unboost|p2a: Donphan|spd|1
+  move|p2a: Donphan|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+  -heal|p2a: Donphan|18/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack lusterpurge - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x0
+  move|p1a: Latios|Luster Purge|p2a: Donphan
+  -damage|p2a: Donphan|0 fnt
+  faint|p2a: Donphan
+  switch|p2a: Wyrdeer|Wyrdeer, L87, M|100/100
+  -ability|p2a: Wyrdeer|Intimidate|boost
+  -unboost|p1a: Latios|atk|1
+-- turn 14
+  WE CHOSE: switch to kingambit (hand policy: attack+tera aurasphere) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Kingambit|Kingambit, L74, F|270/270
+  move|p2a: Wyrdeer|Earthquake|p1a: Kingambit
+  -supereffective|p1a: Kingambit
+  -damage|p1a: Kingambit|134/270
+  -heal|p1a: Kingambit|150/270|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack+tera kowtowcleave (hand policy: switch to latios) - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x2
+  -terastallize|p1a: Kingambit|Flying
+  move|p2a: Wyrdeer|Earthquake|p1a: Kingambit
+  -immune|p1a: Kingambit
+  move|p1a: Kingambit|Kowtow Cleave|p2a: Wyrdeer
+  -supereffective|p2a: Wyrdeer
+  -damage|p2a: Wyrdeer|39/100
+  -heal|p2a: Wyrdeer|45/100|[from] item: Leftovers
+  -heal|p1a: Kingambit|166/270|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: setup swordsdance - our hp 0.61, theirs 0.45, predicted move (revealed) hits us x0
+  move|p2a: Wyrdeer|Earthquake|p1a: Kingambit
+  -immune|p1a: Kingambit
+  move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+  -boost|p1a: Kingambit|atk|2
+  -heal|p2a: Wyrdeer|51/100|[from] item: Leftovers
+  -heal|p1a: Kingambit|182/270|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: setup swordsdance - our hp 0.67, theirs 0.51, predicted move (revealed) hits us x0
+  move|p2a: Wyrdeer|Earthquake|p1a: Kingambit
+  -immune|p1a: Kingambit
+  move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+  -boost|p1a: Kingambit|atk|2
+  -heal|p2a: Wyrdeer|58/100|[from] item: Leftovers
+  -heal|p1a: Kingambit|198/270|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: switch to latios (hand policy: setup swordsdance) - our hp 0.73, theirs 0.58, predicted move (revealed) hits us x0
+  -end|p1a: Kingambit|fallenundefined|[silent]
+  switch|p1a: Latios|Latios, L78, M|253/253
+  move|p2a: Wyrdeer|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+  -heal|p2a: Wyrdeer|64/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: switch to kingambit (hand policy: attack aurasphere) - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x0
+  switch|p1a: Kingambit|Kingambit, L74, F, tera:Flying|198/270
+  move|p2a: Wyrdeer|Earthquake|p1a: Kingambit
+  -immune|p1a: Kingambit
+  -heal|p2a: Wyrdeer|70/100|[from] item: Leftovers
+  -heal|p1a: Kingambit|214/270|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: setup swordsdance - our hp 0.79, theirs 0.70, predicted move (revealed) hits us x0
+  move|p2a: Wyrdeer|Earthquake|p1a: Kingambit
+  -immune|p1a: Kingambit
+  move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+  -boost|p1a: Kingambit|atk|2
+  -heal|p2a: Wyrdeer|76/100|[from] item: Leftovers
+  -heal|p1a: Kingambit|230/270|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: setup swordsdance - our hp 0.85, theirs 0.76, predicted move (revealed) hits us x0
+  move|p2a: Wyrdeer|Earthquake|p1a: Kingambit
+  -immune|p1a: Kingambit
+  move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+  -boost|p1a: Kingambit|atk|2
+  -heal|p2a: Wyrdeer|82/100|[from] item: Leftovers
+  -heal|p1a: Kingambit|246/270|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: setup swordsdance - our hp 0.91, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Wyrdeer|Earthquake|p1a: Kingambit
+  -immune|p1a: Kingambit
+  move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+  -boost|p1a: Kingambit|atk|2
+  -heal|p2a: Wyrdeer|89/100|[from] item: Leftovers
+  -heal|p1a: Kingambit|262/270|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: switch to latios (hand policy: attack kowtowcleave) - our hp 0.97, theirs 0.89, predicted move (revealed) hits us x0
+  -end|p1a: Kingambit|fallenundefined|[silent]
+  switch|p1a: Latios|Latios, L78, M|253/253
+  move|p2a: Wyrdeer|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+  -heal|p2a: Wyrdeer|95/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: switch to kingambit (hand policy: attack aurasphere) - our hp 1.00, theirs 0.95, predicted move (revealed) hits us x0
+  switch|p1a: Kingambit|Kingambit, L74, F, tera:Flying|262/270
+  move|p2a: Wyrdeer|Earthquake|p1a: Kingambit
+  -immune|p1a: Kingambit
+  -heal|p2a: Wyrdeer|100/100|[from] item: Leftovers
+  -heal|p1a: Kingambit|270/270|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Wyrdeer|Earthquake|p1a: Kingambit
+  -immune|p1a: Kingambit
+  move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+  -boost|p1a: Kingambit|atk|2
+-- turn 26
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Wyrdeer|Earthquake|p1a: Kingambit
+  -immune|p1a: Kingambit
+  move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+  -boost|p1a: Kingambit|atk|2
+-- turn 27
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Wyrdeer|Earthquake|p1a: Kingambit
+  -immune|p1a: Kingambit
+  move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+  -boost|p1a: Kingambit|atk|2
+-- turn 28
+  WE CHOSE: switch to latios (hand policy: attack kowtowcleave) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  -end|p1a: Kingambit|fallenundefined|[silent]
+  switch|p1a: Latios|Latios, L78, M|253/253
+  move|p2a: Wyrdeer|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+-- turn 29
+  WE CHOSE: switch to kingambit (hand policy: attack aurasphere) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Kingambit|Kingambit, L74, F, tera:Flying|270/270
+  move|p2a: Wyrdeer|Earthquake|p1a: Kingambit
+  -immune|p1a: Kingambit
+-- turn 30
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Wyrdeer|Body Slam|p1a: Kingambit
+  -damage|p1a: Kingambit|176/270
+  -status|p1a: Kingambit|par
+  move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+  -boost|p1a: Kingambit|atk|2
+  -heal|p1a: Kingambit|192/270 par|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: setup swordsdance - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Wyrdeer|Body Slam|p1a: Kingambit
+  -damage|p1a: Kingambit|96/270 par
+  move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+  -boost|p1a: Kingambit|atk|2
+  -heal|p1a: Kingambit|112/270 par|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: switch to latios (hand policy: attack kowtowcleave) - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x0
+  -end|p1a: Kingambit|fallenundefined|[silent]
+  switch|p1a: Latios|Latios, L78, M|253/253
+  move|p2a: Wyrdeer|Body Slam|p1a: Latios
+  -damage|p1a: Latios|135/253
+-- turn 33
+  WE CHOSE: switch to kingambit (hand policy: attack aurasphere) - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Kingambit|Kingambit, L74, F, tera:Flying|112/270 par
+  move|p2a: Wyrdeer|Body Slam|p1a: Kingambit
+  -damage|p1a: Kingambit|18/270 par
+  -heal|p1a: Kingambit|34/270 par|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: setup swordsdance (hand policy: attack kowtowcleave) - our hp 0.13, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to latios - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Wyrdeer|Body Slam|p1a: Kingambit
+  -damage|p1a: Kingambit|0 fnt
+  faint|p1a: Kingambit
+  -end|p1a: Kingambit|fallenundefined|[silent]
+  switch|p1a: Latios|Latios, L78, M|135/253
+-- turn 35
+  WE CHOSE: attack aurasphere - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Latios|Aura Sphere|p2a: Wyrdeer
+  -damage|p2a: Wyrdeer|79/100
+  move|p2a: Wyrdeer|Body Slam|p1a: Latios
+  -damage|p1a: Latios|26/253
+  -heal|p2a: Wyrdeer|86/100|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack aurasphere (hand policy: heal recover) - our hp 0.10, theirs 0.86, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to brutebonnet - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x0
+  move|p1a: Latios|Aura Sphere|p2a: Wyrdeer
+  -damage|p2a: Wyrdeer|64/100
+  move|p2a: Wyrdeer|Body Slam|p1a: Latios
+  -damage|p1a: Latios|0 fnt
+  faint|p1a: Latios
+  -heal|p2a: Wyrdeer|70/100|[from] item: Leftovers
+  switch|p1a: Brute Bonnet|Brute Bonnet, L80|309/309
+-- turn 37
+  WE CHOSE: attack crunch - our hp 1.00, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p2a: Wyrdeer|Body Slam|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|218/309
+  -status|p1a: Brute Bonnet|par
+  move|p1a: Brute Bonnet|Crunch|p2a: Wyrdeer
+  -supereffective|p2a: Wyrdeer
+  -damage|p2a: Wyrdeer|0 fnt
+  faint|p2a: Wyrdeer
+  -heal|p1a: Brute Bonnet|237/309 par|[from] item: Leftovers
+  switch|p2a: Pincurchin|Pincurchin, M|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+-- turn 38
+  WE CHOSE: attack crunch - our hp 0.77, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Pincurchin|Thunderbolt|p1a: Brute Bonnet
+  -resisted|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|153/309 par
+  cant|p1a: Brute Bonnet|par
+  -heal|p1a: Brute Bonnet|172/309 par|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack crunch - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Pincurchin|Thunderbolt|p1a: Brute Bonnet
+  -resisted|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|95/309 par
+  move|p1a: Brute Bonnet|Crunch|p2a: Pincurchin
+  -damage|p2a: Pincurchin|70/100
+  -heal|p2a: Pincurchin|76/100|[from] item: Leftovers
+  -heal|p1a: Brute Bonnet|114/309 par|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: attack crunch - our hp 0.37, theirs 0.76, predicted move (revealed) hits us x0.5
+  move|p2a: Pincurchin|Thunderbolt|p1a: Brute Bonnet
+  -resisted|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|32/309 par
+  cant|p1a: Brute Bonnet|par
+  -heal|p2a: Pincurchin|82/100|[from] item: Leftovers
+  -heal|p1a: Brute Bonnet|51/309 par|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: attack crunch - our hp 0.17, theirs 0.82, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to meganium - our hp 0.00, theirs 0.88, predicted move (revealed) hits us x0.5
+  move|p2a: Pincurchin|Thunderbolt|p1a: Brute Bonnet
+  -resisted|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|0 fnt
+  faint|p1a: Brute Bonnet
+  -end|p1a: Brute Bonnet|Protosynthesis|[silent]
+  -heal|p2a: Pincurchin|88/100|[from] item: Leftovers
+  switch|p1a: Meganium|Meganium, L90, F|290/290
+-- turn 42
+  WE CHOSE: attack energyball - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x0.5
+  move|p1a: Meganium|Energy Ball|p2a: Pincurchin
+  -damage|p2a: Pincurchin|53/100
+  move|p2a: Pincurchin|Thunderbolt|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|224/290
+  -heal|p1a: Meganium|242/290|[from] item: Leftovers
+  -heal|p2a: Pincurchin|59/100|[from] item: Leftovers
+  -fieldend|move: Electric Terrain
+-- turn 43
+  WE CHOSE: attack energyball - our hp 0.83, theirs 0.59, predicted move (revealed) hits us x0.5
+  move|p1a: Meganium|Energy Ball|p2a: Pincurchin
+  -damage|p2a: Pincurchin|28/100
+  move|p2a: Pincurchin|Thunderbolt|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|190/290
+  -heal|p1a: Meganium|208/290|[from] item: Leftovers
+  -heal|p2a: Pincurchin|34/100|[from] item: Leftovers
+-- turn 44
+  WE CHOSE: attack energyball - our hp 0.72, theirs 0.34, predicted move (revealed) hits us x0.5
+  move|p1a: Meganium|Energy Ball|p2a: Pincurchin
+  -damage|p2a: Pincurchin|4/100
+  move|p2a: Pincurchin|Thunderbolt|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|150/290
+  -status|p1a: Meganium|par
+  -heal|p1a: Meganium|168/290 par|[from] item: Leftovers
+  -heal|p2a: Pincurchin|10/100|[from] item: Leftovers
+-- turn 45
+  WE CHOSE: attack energyball - our hp 0.58, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p1a: Meganium|Energy Ball|p2a: Pincurchin
+  -damage|p2a: Pincurchin|0 fnt
+  faint|p2a: Pincurchin
+  -heal|p1a: Meganium|186/290 par|[from] item: Leftovers
+  switch|p2a: Glaceon|Glaceon, L94, M|100/100
+-- turn 46
+  WE CHOSE: switch to floatzel - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to ampharos - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Floatzel|Floatzel, L86, F|286/286
+  move|p2a: Glaceon|Freeze-Dry|p1a: Floatzel
+  -supereffective|p1a: Floatzel
+  -damage|p1a: Floatzel|0 fnt
+  faint|p1a: Floatzel
+  switch|p1a: Ampharos|Ampharos, L88, F|179/302
+-- turn 47
+  WE CHOSE: attack focusblast - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Ampharos
+  -crit|p1a: Ampharos
+  -damage|p1a: Ampharos|8/302
+  move|p1a: Ampharos|Focus Blast|p2a: Glaceon
+  -supereffective|p2a: Glaceon
+  -damage|p2a: Glaceon|4/100
+-- turn 48
+  WE CHOSE: attack focusblast - our hp 0.03, theirs 0.04, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to meganium - our hp 0.00, theirs 0.04, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Ampharos
+  -damage|p1a: Ampharos|0 fnt
+  faint|p1a: Ampharos
+  switch|p1a: Meganium|Meganium, L90, F|186/290 par
+-- turn 49
+  WE CHOSE: heal synthesis (hand policy: attack energyball) - our hp 0.64, theirs 0.04, predicted move (revealed) hits us x2
+  move|p2a: Glaceon|Freeze-Dry|p1a: Meganium
+  -supereffective|p1a: Meganium
+  -damage|p1a: Meganium|0 fnt
+  faint|p1a: Meganium

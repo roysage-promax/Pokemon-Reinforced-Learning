@@ -1,0 +1,152 @@
+battle 2794 (battle-gen9randombattle-1032579): lost in 14 turns, 3 of theirs left; we are p1
+
+ours:
+  breloom (fainted; item lifeorb, ability technician; moves rocktomb/swordsdance/bulletseed/machpunch)
+  spiritomb (fainted; item leftovers, ability infiltrator, tera steel; moves suckerpunch/poltergeist/painsplit/foulplay)
+  typhlosion (fainted; item choicescarf, ability blaze; moves eruption/scorchingsands/fireblast/focusblast)
+  mienshao (fainted; item lifeorb, ability regenerator; moves closecombat/swordsdance/tripleaxel/knockoff)
+  sunflora (fainted; item lifeorb, ability chlorophyll; moves earthpower/sunnyday/weatherball/solarbeam)
+  meloetta (fainted; item lifeorb, ability serenegrace; moves knockoff/closecombat/tripleaxel/relicsong)
+theirs (as seen):
+  cramorant (fainted; item unknown_item, ability gulpmissile; moves bravebird)
+  veluza (fainted; item ?, ability ?; moves aquacutter)
+  chimecho (fainted; item ?, ability levitate; moves psychicnoise)
+  dragalge (31%; item unknown_item, ability ?; moves dracometeor)
+
+-- turn 0
+  switch|p1a: Breloom|Breloom, L83, M|235/235
+  switch|p2a: Cramorant|Cramorant, L86, M|100/100
+-- turn 1
+  WE CHOSE: attack rocktomb - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x4
+  WE CHOSE: forced: switch to spiritomb - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x4
+  move|p2a: Cramorant|Brave Bird|p1a: Breloom
+  -supereffective|p1a: Breloom
+  -damage|p1a: Breloom|0 fnt
+  faint|p1a: Breloom
+  -damage|p2a: Cramorant|71/100|[from] Recoil
+  switch|p1a: Spiritomb|Spiritomb, L89, F|234/234
+-- turn 2
+  WE CHOSE: attack+tera poltergeist - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  -terastallize|p1a: Spiritomb|Steel
+  move|p2a: Cramorant|Brave Bird|p1a: Spiritomb
+  -resisted|p1a: Spiritomb
+  -crit|p1a: Spiritomb
+  -damage|p1a: Spiritomb|155/234
+  -damage|p2a: Cramorant|61/100|[from] Recoil
+  move|p1a: Spiritomb|Poltergeist|p2a: Cramorant
+  -activate|p2a: Cramorant|move: Poltergeist|Heavy-Duty Boots
+  -damage|p2a: Cramorant|0 fnt
+  faint|p2a: Cramorant
+  -heal|p1a: Spiritomb|169/234|[from] item: Leftovers
+  switch|p2a: Veluza|Veluza, L85, F|100/100
+-- turn 3
+  WE CHOSE: attack poltergeist - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Veluza|Aqua Cutter|p1a: Spiritomb
+  -damage|p1a: Spiritomb|73/234
+  move|p1a: Spiritomb|Poltergeist|p2a: Veluza
+  -activate|p2a: Veluza|move: Poltergeist|Sitrus Berry
+  -supereffective|p2a: Veluza
+  -damage|p2a: Veluza|6/100
+  -enditem|p2a: Veluza|Sitrus Berry|[eat]
+  -heal|p2a: Veluza|31/100|[from] item: Sitrus Berry
+  -heal|p1a: Spiritomb|87/234|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack poltergeist - our hp 0.37, theirs 0.31, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to sunflora - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Veluza|Aqua Cutter|p1a: Spiritomb
+  -damage|p1a: Spiritomb|0 fnt
+  faint|p1a: Spiritomb
+  switch|p1a: Sunflora|Sunflora, F|312/312
+-- turn 5
+  WE CHOSE: attack solarbeam - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p2a: Veluza|Aqua Cutter|p1a: Sunflora
+  -resisted|p1a: Sunflora
+  -damage|p1a: Sunflora|237/312
+  move|p1a: Sunflora|Solar Beam||[still]
+  -prepare|p1a: Sunflora|Solar Beam
+-- turn 6
+  WE CHOSE: attack solarbeam - our hp 0.76, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p2a: Veluza|Aqua Cutter|p1a: Sunflora
+  -resisted|p1a: Sunflora
+  -damage|p1a: Sunflora|166/312
+  move|p1a: Sunflora|Solar Beam|p2a: Veluza|[from] lockedmove
+  -supereffective|p2a: Veluza
+  -damage|p2a: Veluza|0 fnt
+  faint|p2a: Veluza
+  -damage|p1a: Sunflora|135/312|[from] item: Life Orb
+  switch|p2a: Chimecho|Chimecho, L93, F|100/100
+-- turn 7
+  WE CHOSE: attack solarbeam - our hp 0.43, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Chimecho|Psychic Noise|p1a: Sunflora
+  -crit|p1a: Sunflora
+  -damage|p1a: Sunflora|15/312
+  -start|p1a: Sunflora|move: Heal Block
+  move|p1a: Sunflora|Solar Beam||[still]
+  -prepare|p1a: Sunflora|Solar Beam
+-- turn 8
+  WE CHOSE: attack solarbeam - our hp 0.05, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to typhlosion - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Chimecho|Psychic Noise|p1a: Sunflora
+  -damage|p1a: Sunflora|0 fnt
+  faint|p1a: Sunflora
+  switch|p1a: Typhlosion|Typhlosion, L84, F|267/267
+-- turn 9
+  WE CHOSE: attack eruption - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Typhlosion|Eruption|p2a: Chimecho
+  -damage|p2a: Chimecho|51/100
+  move|p2a: Chimecho|Psychic Noise|p1a: Typhlosion
+  -damage|p1a: Typhlosion|176/267
+  -start|p1a: Typhlosion|move: Heal Block
+  -heal|p2a: Chimecho|57/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack eruption - our hp 0.66, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Typhlosion|Eruption|p2a: Chimecho
+  -damage|p2a: Chimecho|22/100
+  move|p2a: Chimecho|Psychic Noise|p1a: Typhlosion
+  -damage|p1a: Typhlosion|73/267
+  -heal|p2a: Chimecho|28/100|[from] item: Leftovers
+  -end|p1a: Typhlosion|move: Heal Block
+-- turn 11
+  WE CHOSE: attack eruption - our hp 0.27, theirs 0.28, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to meloetta - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Typhlosion|Eruption|p2a: Chimecho
+  -damage|p2a: Chimecho|7/100
+  move|p2a: Chimecho|Psychic Noise|p1a: Typhlosion
+  -damage|p1a: Typhlosion|0 fnt
+  faint|p1a: Typhlosion
+  -heal|p2a: Chimecho|13/100|[from] item: Leftovers
+  switch|p1a: Meloetta|Meloetta, L82|298/298
+-- turn 12
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Meloetta|Knock Off|p2a: Chimecho
+  -supereffective|p2a: Chimecho
+  -damage|p2a: Chimecho|0 fnt
+  -enditem|p2a: Chimecho|Leftovers|[from] move: Knock Off|[of] p1a: Meloetta
+  faint|p2a: Chimecho
+  -damage|p1a: Meloetta|269/298|[from] item: Life Orb
+  switch|p2a: Dragalge|Dragalge, L88, M|100/100
+-- turn 13
+  WE CHOSE: attack relicsong - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to mienshao - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Meloetta|Relic Song|p2a: Dragalge
+  -damage|p2a: Dragalge|64/100
+  -formechange|p1a: Meloetta|Meloetta-Pirouette|[msg]
+  -damage|p1a: Meloetta|240/298|[from] item: Life Orb
+  move|p2a: Dragalge|Draco Meteor|p1a: Meloetta
+  -damage|p1a: Meloetta|0 fnt
+  -unboost|p2a: Dragalge|spa|2
+  faint|p1a: Meloetta
+  switch|p1a: Mienshao|Mienshao, L83, M|244/244
+-- turn 14
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Mienshao|Close Combat|p2a: Dragalge
+  -resisted|p2a: Dragalge
+  -damage|p2a: Dragalge|31/100
+  -unboost|p1a: Mienshao|def|1
+  -unboost|p1a: Mienshao|spd|1
+  -damage|p1a: Mienshao|220/244|[from] item: Life Orb
+  move|p2a: Dragalge|Draco Meteor|p1a: Mienshao
+  -damage|p1a: Mienshao|0 fnt
+  -unboost|p2a: Dragalge|spa|2
+  faint|p1a: Mienshao
+  deinit

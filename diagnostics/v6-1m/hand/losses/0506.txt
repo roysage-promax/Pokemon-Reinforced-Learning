@@ -1,0 +1,464 @@
+battle 506 (battle-gen9randombattle-1010980): lost in 58 turns, 1 of theirs left; we are p1
+
+ours:
+  ironthorns (fainted; item ?, ability quarkdrive; moves wildcharge/stealthrock/icepunch/stoneedge)
+  mausholdfour (fainted; item widelens, ability technician; moves bite/tidyup/encore/populationbomb)
+  tinkaton (fainted; item leftovers, ability moldbreaker; moves encore/playrough/knockoff/gigatonhammer)
+  sinistcha (fainted; item leftovers, ability heatproof; moves calmmind/shadowball/strengthsap/matchagotcha)
+  magmortar (fainted; item heavydutyboots, ability flamebody; moves earthquake/fireblast/thunderbolt/focusblast)
+  spiritomb (fainted; item leftovers, ability infiltrator; moves suckerpunch/willowisp/poltergeist/foulplay)
+theirs (as seen):
+  garganacl (fainted; item leftovers, ability ?; moves bodypress)
+  gallade (fainted; item unknown_item, ability ?; moves sacredsword)
+  decidueye (fainted; item unknown_item, ability ?; moves leafstorm)
+  farigiraf (fainted; item unknown_item, ability sapsipper; moves bodyslam/psychicnoise)
+  ursalunabloodmoon (fainted; item leftovers, ability mindseye; moves bloodmoon/earthpower)
+  diancie (36%; item leftovers, ability clearbody; moves diamondstorm)
+
+-- turn 0
+  switch|p1a: Iron Thorns|Iron Thorns, L83|302/302
+  switch|p2a: Garganacl|Garganacl, L80, F|100/100
+  -item|p1a: Iron Thorns|Air Balloon
+-- turn 1
+  WE CHOSE: attack wildcharge - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Iron Thorns|Wild Charge|p2a: Garganacl
+  -damage|p2a: Garganacl|69/100
+  -damage|p1a: Iron Thorns|279/302|[from] Recoil
+  move|p2a: Garganacl|Body Press|p1a: Iron Thorns
+  -supereffective|p1a: Iron Thorns
+  -damage|p1a: Iron Thorns|175/302
+  -enditem|p1a: Iron Thorns|Air Balloon
+  -heal|p2a: Garganacl|75/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to sinistcha - our hp 0.58, theirs 0.75, predicted move (revealed) hits us x2
+  -end|p1a: Iron Thorns|Quark Drive|[silent]
+  switch|p1a: Sinistcha|Sinistcha, L83|254/254
+  move|p2a: Garganacl|Body Press|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+  -heal|p2a: Garganacl|82/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+  move|p2a: Garganacl|Body Press|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+  -heal|p2a: Garganacl|88/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+  move|p2a: Garganacl|Body Press|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+  -heal|p2a: Garganacl|94/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+  move|p2a: Garganacl|Body Press|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+  -heal|p2a: Garganacl|99/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.99, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+  move|p2a: Garganacl|Body Press|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+  -heal|p2a: Garganacl|100/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+  move|p2a: Garganacl|Body Press|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 8
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+  move|p2a: Garganacl|Body Press|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 9
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Garganacl
+  -supereffective|p2a: Garganacl
+  -damage|p2a: Garganacl|0 fnt
+  faint|p2a: Garganacl
+  switch|p2a: Gallade|Gallade, L80, M|100/100
+-- turn 10
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Gallade|Sacred Sword|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+  move|p1a: Sinistcha|Shadow Ball|p2a: Gallade
+  -supereffective|p2a: Gallade
+  -damage|p2a: Gallade|0 fnt
+  faint|p2a: Gallade
+  switch|p2a: Decidueye|Decidueye, L88, F|100/100
+-- turn 11
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Decidueye|Leaf Storm|p1a: Sinistcha
+  -resisted|p1a: Sinistcha
+  -damage|p1a: Sinistcha|234/254
+  -unboost|p2a: Decidueye|spa|2
+  move|p1a: Sinistcha|Shadow Ball|p2a: Decidueye
+  -supereffective|p2a: Decidueye
+  -damage|p2a: Decidueye|0 fnt
+  faint|p2a: Decidueye
+  -heal|p1a: Sinistcha|249/254|[from] item: Leftovers
+  switch|p2a: Farigiraf|Farigiraf, L90, F|100/100
+-- turn 12
+  WE CHOSE: attack matchagotcha - our hp 0.98, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -ability|p2a: Farigiraf|Sap Sipper|boost
+  -boost|p2a: Farigiraf|atk|1
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+  -heal|p1a: Sinistcha|254/254|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -ability|p2a: Farigiraf|Sap Sipper|boost
+  -boost|p2a: Farigiraf|atk|1
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 14
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -ability|p2a: Farigiraf|Sap Sipper|boost
+  -boost|p2a: Farigiraf|atk|1
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 15
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -ability|p2a: Farigiraf|Sap Sipper|boost
+  -boost|p2a: Farigiraf|atk|1
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 16
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -ability|p2a: Farigiraf|Sap Sipper|boost
+  -boost|p2a: Farigiraf|atk|1
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 17
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -ability|p2a: Farigiraf|Sap Sipper|boost
+  -boost|p2a: Farigiraf|atk|1
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 18
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 19
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 20
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 21
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 22
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 23
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 24
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 25
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 26
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 27
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 28
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 29
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 30
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 31
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 32
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 33
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 34
+  WE CHOSE: attack matchagotcha - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Matcha Gotcha|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 35
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|0
+  -boost|p1a: Sinistcha|spd|0
+  move|p2a: Farigiraf|Body Slam|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 36
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|0
+  -boost|p1a: Sinistcha|spd|0
+  move|p2a: Farigiraf|Psychic Noise|p1a: Sinistcha
+  -damage|p1a: Sinistcha|224/254
+  -start|p1a: Sinistcha|move: Heal Block
+-- turn 37
+  WE CHOSE: setup calmmind - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|0
+  -boost|p1a: Sinistcha|spd|0
+  move|p2a: Farigiraf|Psychic Noise|p1a: Sinistcha
+  -damage|p1a: Sinistcha|196/254
+  -end|p1a: Sinistcha|move: Heal Block
+-- turn 38
+  WE CHOSE: setup calmmind - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|0
+  -boost|p1a: Sinistcha|spd|0
+  move|p2a: Farigiraf|Psychic Noise|p1a: Sinistcha
+  -damage|p1a: Sinistcha|168/254
+  -start|p1a: Sinistcha|move: Heal Block
+-- turn 39
+  WE CHOSE: setup calmmind - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|0
+  -boost|p1a: Sinistcha|spd|0
+  move|p2a: Farigiraf|Psychic Noise|p1a: Sinistcha
+  -damage|p1a: Sinistcha|141/254
+  -end|p1a: Sinistcha|move: Heal Block
+-- turn 40
+  WE CHOSE: setup calmmind - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|0
+  -boost|p1a: Sinistcha|spd|0
+  move|p2a: Farigiraf|Psychic Noise|p1a: Sinistcha
+  -damage|p1a: Sinistcha|113/254
+  -start|p1a: Sinistcha|move: Heal Block
+-- turn 41
+  WE CHOSE: setup calmmind - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|0
+  -boost|p1a: Sinistcha|spd|0
+  move|p2a: Farigiraf|Psychic Noise|p1a: Sinistcha
+  -damage|p1a: Sinistcha|85/254
+  -end|p1a: Sinistcha|move: Heal Block
+-- turn 42
+  WE CHOSE: heal strengthsap - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Strength Sap|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Psychic Noise|p1a: Sinistcha
+  -damage|p1a: Sinistcha|58/254
+  -start|p1a: Sinistcha|move: Heal Block
+-- turn 43
+  WE CHOSE: setup calmmind - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|0
+  -boost|p1a: Sinistcha|spd|0
+  move|p2a: Farigiraf|Psychic Noise|p1a: Sinistcha
+  -damage|p1a: Sinistcha|30/254
+  -end|p1a: Sinistcha|move: Heal Block
+-- turn 44
+  WE CHOSE: heal strengthsap - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Strength Sap|p2a: Farigiraf
+  -immune|p2a: Farigiraf|[from] ability: Sap Sipper
+  move|p2a: Farigiraf|Psychic Noise|p1a: Sinistcha
+  -damage|p1a: Sinistcha|3/254
+  -start|p1a: Sinistcha|move: Heal Block
+-- turn 45
+  WE CHOSE: setup calmmind - our hp 0.01, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to spiritomb - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|0
+  -boost|p1a: Sinistcha|spd|0
+  move|p2a: Farigiraf|Psychic Noise|p1a: Sinistcha
+  -damage|p1a: Sinistcha|0 fnt
+  faint|p1a: Sinistcha
+  switch|p1a: Spiritomb|Spiritomb, L89, F|234/234
+-- turn 46
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Farigiraf|Psychic Noise|p1a: Spiritomb
+  -immune|p1a: Spiritomb
+  move|p1a: Spiritomb|Foul Play|p2a: Farigiraf
+  -supereffective|p2a: Farigiraf
+  -damage|p2a: Farigiraf|0 fnt
+  faint|p2a: Farigiraf
+  switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L79, M|100/100
+-- turn 47
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Ursaluna|Blood Moon|p1a: Spiritomb
+  -damage|p1a: Spiritomb|89/234
+  move|p1a: Spiritomb|Foul Play|p2a: Ursaluna
+  -damage|p2a: Ursaluna|85/100
+  -heal|p2a: Ursaluna|91/100|[from] item: Leftovers
+  -heal|p1a: Spiritomb|103/234|[from] item: Leftovers
+-- turn 48
+  WE CHOSE: attack foulplay - our hp 0.44, theirs 0.91, predicted move (revealed) hits us x0
+  move|p2a: Ursaluna|Earth Power|p1a: Spiritomb
+  -damage|p1a: Spiritomb|7/234
+  move|p1a: Spiritomb|Foul Play|p2a: Ursaluna
+  -damage|p2a: Ursaluna|76/100
+  -heal|p2a: Ursaluna|82/100|[from] item: Leftovers
+  -heal|p1a: Spiritomb|21/234|[from] item: Leftovers
+-- turn 49
+  WE CHOSE: attack foulplay - our hp 0.09, theirs 0.82, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to tinkaton - our hp 0.00, theirs 0.88, predicted move (revealed) hits us x0
+  move|p2a: Ursaluna|Blood Moon|p1a: Spiritomb
+  -damage|p1a: Spiritomb|0 fnt
+  faint|p1a: Spiritomb
+  -heal|p2a: Ursaluna|88/100|[from] item: Leftovers
+  switch|p1a: Tinkaton|Tinkaton, L82, F|274/274
+  -ability|p1a: Tinkaton|Mold Breaker
+-- turn 50
+  WE CHOSE: attack gigatonhammer - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ironthorns - our hp 0.00, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p1a: Tinkaton|Gigaton Hammer|p2a: Ursaluna
+  -damage|p2a: Ursaluna|50/100
+  move|p2a: Ursaluna|Earth Power|p1a: Tinkaton
+  -supereffective|p1a: Tinkaton
+  -crit|p1a: Tinkaton
+  -damage|p1a: Tinkaton|0 fnt
+  faint|p1a: Tinkaton
+  -heal|p2a: Ursaluna|56/100|[from] item: Leftovers
+  switch|p1a: Iron Thorns|Iron Thorns, L83|175/302
+-- turn 51
+  WE CHOSE: attack icepunch - our hp 0.58, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Thorns|Ice Punch|p2a: Ursaluna
+  -supereffective|p2a: Ursaluna
+  -damage|p2a: Ursaluna|19/100
+  -status|p2a: Ursaluna|frz
+  cant|p2a: Ursaluna|frz
+  -heal|p2a: Ursaluna|25/100 frz|[from] item: Leftovers
+-- turn 52
+  WE CHOSE: attack icepunch - our hp 0.58, theirs 0.25, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Thorns|Ice Punch|p2a: Ursaluna
+  -supereffective|p2a: Ursaluna
+  -damage|p2a: Ursaluna|0 fnt
+  faint|p2a: Ursaluna
+  switch|p2a: Diancie|Diancie, L82|100/100
+-- turn 53
+  WE CHOSE: attack wildcharge - our hp 0.58, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Iron Thorns|Wild Charge|p2a: Diancie
+  -damage|p2a: Diancie|64/100
+  -damage|p1a: Iron Thorns|155/302|[from] Recoil
+  move|p2a: Diancie|Diamond Storm|p1a: Iron Thorns
+  -damage|p1a: Iron Thorns|61/302
+  -boost|p2a: Diancie|def|2
+  -heal|p2a: Diancie|70/100|[from] item: Leftovers
+-- turn 54
+  WE CHOSE: attack wildcharge - our hp 0.20, theirs 0.70, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to magmortar - our hp 0.00, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Iron Thorns|Wild Charge|p2a: Diancie
+  -damage|p2a: Diancie|49/100
+  -damage|p1a: Iron Thorns|49/302|[from] Recoil
+  move|p2a: Diancie|Diamond Storm|p1a: Iron Thorns
+  -damage|p1a: Iron Thorns|0 fnt
+  -boost|p2a: Diancie|def|2
+  faint|p1a: Iron Thorns
+  -end|p1a: Iron Thorns|Quark Drive|[silent]
+  -heal|p2a: Diancie|55/100|[from] item: Leftovers
+  switch|p1a: Magmortar|Magmortar, L88, M|275/275
+-- turn 55
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.55, predicted move (revealed) hits us x2
+  move|p1a: Magmortar|Earthquake|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|39/100
+  move|p2a: Diancie|Diamond Storm|p1a: Magmortar
+  -supereffective|p1a: Magmortar
+  -damage|p1a: Magmortar|15/275
+  -heal|p2a: Diancie|45/100|[from] item: Leftovers
+-- turn 56
+  WE CHOSE: attack earthquake - our hp 0.05, theirs 0.45, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to mausholdfour - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x2
+  move|p1a: Magmortar|Earthquake|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|28/100
+  move|p2a: Diancie|Diamond Storm|p1a: Magmortar
+  -supereffective|p1a: Magmortar
+  -damage|p1a: Magmortar|0 fnt
+  faint|p1a: Magmortar
+  -heal|p2a: Diancie|34/100|[from] item: Leftovers
+  switch|p1a: Maushold|Maushold-Four, L76|238/238
+-- turn 57
+  WE CHOSE: attack bite - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Maushold|Bite|p2a: Diancie
+  -resisted|p2a: Diancie
+  -damage|p2a: Diancie|32/100
+  move|p2a: Diancie|Diamond Storm|p1a: Maushold
+  -damage|p1a: Maushold|108/238
+  -heal|p2a: Diancie|38/100|[from] item: Leftovers
+-- turn 58
+  WE CHOSE: attack bite - our hp 0.45, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Maushold|Bite|p2a: Diancie
+  -resisted|p2a: Diancie
+  -damage|p2a: Diancie|36/100
+  move|p2a: Diancie|Diamond Storm|p1a: Maushold
+  -damage|p1a: Maushold|0 fnt
+  faint|p1a: Maushold

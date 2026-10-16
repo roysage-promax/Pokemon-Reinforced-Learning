@@ -1,0 +1,170 @@
+battle 1165 (battle-gen9randombattle-1017241): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  grumpig (fainted; item choicescarf, ability thickfat, tera ground; moves earthpower/trick/focusblast/psyshock)
+  basculinbluestriped (fainted; item choiceband, ability adaptability; moves wavecrash/flipturn/aquajet/doubleedge)
+  samurott (fainted; item assaultvest, ability torrent; moves hydropump/grassknot/icebeam/flipturn)
+  ceruledge (fainted; item heavydutyboots, ability weakarmor; moves bitterblade/poltergeist/shadowsneak/swordsdance)
+  regice (fainted; item heavydutyboots, ability clearbody; moves thunderwave/bodypress/thunderbolt/icebeam)
+  regieleki (fainted; item magnet, ability transistor; moves thunderbolt/voltswitch/rapidspin/explosion)
+theirs (as seen):
+  espeon (fainted; item lifeorb, ability ?; moves shadowball)
+  cramorant (fainted; item unknown_item, ability gulpmissile; moves bravebird)
+  palossand (fainted; item unknown_item, ability ?; moves earthpower)
+  serperior (fainted; item lifeorb, ability ?; moves leafstorm)
+  volbeat (19%; item unknown_item, ability ?; moves uturn)
+  deoxysspeed (fainted; item leftovers, ability pressure; moves psychoboost)
+
+-- turn 0
+  switch|p1a: Grumpig|Grumpig, L92, F|297/297
+  switch|p2a: Espeon|Espeon, L84, F|100/100
+-- turn 1
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Grumpig|Earth Power|p2a: Espeon
+  -damage|p2a: Espeon|73/100
+  move|p2a: Espeon|Shadow Ball|p1a: Grumpig
+  -supereffective|p1a: Grumpig
+  -damage|p1a: Grumpig|144/297
+  -damage|p2a: Espeon|64/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack+tera earthpower - our hp 0.48, theirs 0.64, predicted move (revealed) hits us x2
+  -terastallize|p1a: Grumpig|Ground
+  move|p1a: Grumpig|Earth Power|p2a: Espeon
+  -damage|p2a: Espeon|26/100
+  move|p2a: Espeon|Shadow Ball|p1a: Grumpig
+  -damage|p1a: Grumpig|66/297
+  -damage|p2a: Espeon|16/100|[from] item: Life Orb
+-- turn 3
+  WE CHOSE: attack earthpower - our hp 0.22, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Grumpig|Earth Power|p2a: Espeon
+  -damage|p2a: Espeon|0 fnt
+  faint|p2a: Espeon
+  switch|p2a: Cramorant|Cramorant, L86, M|100/100
+-- turn 4
+  WE CHOSE: attack earthpower - our hp 0.22, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to regieleki - our hp 0.00, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Grumpig|Earth Power|p2a: Cramorant
+  -immune|p2a: Cramorant
+  move|p2a: Cramorant|Brave Bird|p1a: Grumpig
+  -crit|p1a: Grumpig
+  -damage|p1a: Grumpig|0 fnt
+  faint|p1a: Grumpig
+  -damage|p2a: Cramorant|92/100|[from] Recoil
+  switch|p1a: Regieleki|Regieleki, L79|256/256
+-- turn 5
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.92, predicted move (revealed) hits us x0.5
+  move|p1a: Regieleki|Thunderbolt|p2a: Cramorant
+  -supereffective|p2a: Cramorant
+  -damage|p2a: Cramorant|0 fnt
+  faint|p2a: Cramorant
+  switch|p2a: Palossand|Palossand, L89, F|100/100
+-- turn 6
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to basculinbluestriped - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Regieleki|Thunderbolt|p2a: Palossand
+  -immune|p2a: Palossand
+  move|p2a: Palossand|Earth Power|p1a: Regieleki
+  -supereffective|p1a: Regieleki
+  -crit|p1a: Regieleki
+  -damage|p1a: Regieleki|0 fnt
+  faint|p1a: Regieleki
+  switch|p1a: Basculin|Basculin-Blue-Striped, L86, M|261/261
+-- turn 7
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Basculin|Wave Crash|p2a: Palossand
+  -supereffective|p2a: Palossand
+  -damage|p2a: Palossand|0 fnt
+  faint|p2a: Palossand
+  -damage|p1a: Basculin|163/261|[from] Recoil
+  switch|p2a: Serperior|Serperior, L79, F|100/100
+-- turn 8
+  WE CHOSE: switch to ceruledge - our hp 0.62, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Ceruledge|Ceruledge, L78, M|245/245
+  move|p2a: Serperior|Leaf Storm|p1a: Ceruledge
+  -resisted|p1a: Ceruledge
+  -damage|p1a: Ceruledge|181/245
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|91/100|[from] item: Life Orb
+-- turn 9
+  WE CHOSE: setup swordsdance - our hp 0.74, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Ceruledge
+  -resisted|p1a: Ceruledge
+  -crit|p1a: Ceruledge
+  -damage|p1a: Ceruledge|6/245
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|81/100|[from] item: Life Orb
+  move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+  -boost|p1a: Ceruledge|atk|2
+-- turn 10
+  WE CHOSE: attack bitterblade - our hp 0.02, theirs 0.81, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to regice - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Ceruledge
+  -resisted|p1a: Ceruledge
+  -damage|p1a: Ceruledge|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Ceruledge
+  -damage|p2a: Serperior|71/100|[from] item: Life Orb
+  switch|p1a: Regice|Regice, L88|284/284
+-- turn 11
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Regice
+  -damage|p1a: Regice|11/284
+  -damage|p2a: Serperior|62/100|[from] item: Life Orb
+  move|p1a: Regice|Ice Beam|p2a: Serperior
+  -supereffective|p2a: Serperior
+  -damage|p2a: Serperior|0 fnt
+  faint|p2a: Serperior
+  switch|p2a: Volbeat|Volbeat, L90, M|100/100
+-- turn 12
+  WE CHOSE: attack icebeam - our hp 0.04, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to basculinbluestriped - our hp 0.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Volbeat|U-turn|p1a: Regice
+  -damage|p1a: Regice|0 fnt
+  faint|p1a: Regice
+  switch|p2a: Deoxys|Deoxys-Speed, L82|100/100|[from] U-turn
+  -ability|p2a: Deoxys|Pressure
+  switch|p1a: Basculin|Basculin-Blue-Striped, L86, M|163/261
+-- turn 13
+  WE CHOSE: attack wavecrash - our hp 0.62, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to samurott - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Basculin
+  -damage|p1a: Basculin|0 fnt
+  -unboost|p2a: Deoxys|spa|2
+  faint|p1a: Basculin
+  switch|p1a: Samurott|Samurott, L88, M|310/310
+-- turn 14
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Samurott
+  -damage|p1a: Samurott|261/310
+  -unboost|p2a: Deoxys|spa|2
+  move|p1a: Samurott|Hydro Pump|p2a: Deoxys|[miss]
+  -miss|p1a: Samurott|p2a: Deoxys
+-- turn 15
+  WE CHOSE: attack hydropump - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Samurott
+  -damage|p1a: Samurott|225/310
+  -unboost|p2a: Deoxys|spa|2
+  move|p1a: Samurott|Hydro Pump|p2a: Deoxys
+  -damage|p2a: Deoxys|38/100
+  -heal|p2a: Deoxys|44/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack hydropump - our hp 0.73, theirs 0.44, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Samurott
+  -crit|p1a: Samurott
+  -damage|p1a: Samurott|74/310
+  move|p1a: Samurott|Hydro Pump|p2a: Deoxys
+  -damage|p2a: Deoxys|0 fnt
+  faint|p2a: Deoxys
+  switch|p2a: Volbeat|Volbeat, L90, M|100/100
+-- turn 17
+  WE CHOSE: attack hydropump - our hp 0.24, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Volbeat|U-turn|p1a: Samurott
+  -damage|p1a: Samurott|7/310
+  move|p1a: Samurott|Hydro Pump|p2a: Volbeat
+  -damage|p2a: Volbeat|19/100
+-- turn 18
+  WE CHOSE: attack hydropump - our hp 0.02, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Volbeat|U-turn|p1a: Samurott
+  -damage|p1a: Samurott|0 fnt
+  faint|p1a: Samurott
+  deinit

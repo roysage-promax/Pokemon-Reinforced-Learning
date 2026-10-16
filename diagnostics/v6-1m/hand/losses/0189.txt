@@ -1,0 +1,211 @@
+battle 189 (battle-gen9randombattle-1008026): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  mesprit (fainted; item choicescarf, ability levitate; moves psychic/shadowball/thunderbolt/trick)
+  klawf (fainted; item lifeorb, ability regenerator; moves stoneedge/highhorsepower/crabhammer/stealthrock)
+  sceptile (fainted; item lifeorb, ability overgrow, tera grass; moves leafstorm/shedtail/earthquake/rockslide)
+  lycanrocmidnight (fainted; item lifeorb, ability noguard; moves closecombat/stoneedge/knockoff/swordsdance)
+  goodra (fainted; item assaultvest, ability sapsipper; moves dragontail/scald/sludgebomb/dracometeor)
+  urshifu (fainted; item lifeorb, ability unseenfist; moves closecombat/wickedblow/swordsdance/suckerpunch)
+theirs (as seen):
+  misdreavus (fainted; item unknown_item, ability levitate; moves shadowball)
+  umbreon (fainted; item leftovers, ability ?; moves foulplay)
+  sandslashalola (fainted; item unknown_item, ability ?; moves ironhead)
+  bellibolt (fainted; item leftovers, ability ?; moves muddywater)
+  ursaring (fainted; item unknown_item, ability ?; moves closecombat)
+  magmortar (100%; item unknown_item, ability ?; moves fireblast)
+
+-- turn 0
+  switch|p1a: Mesprit|Mesprit, L85|275/275
+  switch|p2a: Misdreavus|Misdreavus, L90, F|100/100
+-- turn 1
+  WE CHOSE: switch to urshifu - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Urshifu|Urshifu, L74, F|270/270
+  move|p2a: Misdreavus|Shadow Ball|p1a: Urshifu
+  -resisted|p1a: Urshifu
+  -damage|p1a: Urshifu|199/270
+  -unboost|p1a: Urshifu|spd|1
+-- turn 2
+  WE CHOSE: setup swordsdance - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Misdreavus|Shadow Ball|p1a: Urshifu
+  -resisted|p1a: Urshifu
+  -damage|p1a: Urshifu|95/270
+  move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+  -boost|p1a: Urshifu|atk|2
+-- turn 3
+  WE CHOSE: attack wickedblow - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to sceptile - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p2a: Misdreavus|Shadow Ball|p1a: Urshifu
+  -resisted|p1a: Urshifu
+  -damage|p1a: Urshifu|1/270
+  move|p1a: Urshifu|Wicked Blow|p2a: Misdreavus
+  -supereffective|p2a: Misdreavus
+  -crit|p2a: Misdreavus
+  -damage|p2a: Misdreavus|0 fnt
+  faint|p2a: Misdreavus
+  -damage|p1a: Urshifu|0 fnt|[from] item: Life Orb
+  faint|p1a: Urshifu
+  switch|p2a: Umbreon|Umbreon, L84, M|100/100
+  switch|p1a: Sceptile|Sceptile, L87, M|264/264
+-- turn 4
+  WE CHOSE: attack+tera leafstorm - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Sceptile|Grass
+  move|p1a: Sceptile|Leaf Storm|p2a: Umbreon
+  -damage|p2a: Umbreon|37/100
+  -unboost|p1a: Sceptile|spa|2
+  -damage|p1a: Sceptile|238/264|[from] item: Life Orb
+  move|p2a: Umbreon|Foul Play|p1a: Sceptile
+  -damage|p1a: Sceptile|133/264
+  -heal|p2a: Umbreon|43/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack leafstorm - our hp 0.50, theirs 0.43, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lycanrocmidnight - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Sceptile|Leaf Storm|p2a: Umbreon
+  -damage|p2a: Umbreon|9/100
+  -unboost|p1a: Sceptile|spa|2
+  -damage|p1a: Sceptile|107/264|[from] item: Life Orb
+  move|p2a: Umbreon|Foul Play|p1a: Sceptile
+  -damage|p1a: Sceptile|0 fnt
+  faint|p1a: Sceptile
+  -heal|p2a: Umbreon|15/100|[from] item: Leftovers
+  switch|p1a: Lycanroc|Lycanroc-Midnight, L89, F|296/296
+-- turn 6
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Lycanroc|Close Combat|p2a: Umbreon
+  -supereffective|p2a: Umbreon
+  -damage|p2a: Umbreon|0 fnt
+  -unboost|p1a: Lycanroc|def|1
+  -unboost|p1a: Lycanroc|spd|1
+  faint|p2a: Umbreon
+  -damage|p1a: Lycanroc|267/296|[from] item: Life Orb
+  switch|p2a: Sandslash|Sandslash-Alola, L88, F|100/100
+-- turn 7
+  WE CHOSE: switch to mesprit - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Mesprit|Mesprit, L85|275/275
+  move|p2a: Sandslash|Iron Head|p1a: Mesprit
+  -damage|p1a: Mesprit|187/275
+-- turn 8
+  WE CHOSE: attack thunderbolt - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mesprit|Thunderbolt|p2a: Sandslash
+  -damage|p2a: Sandslash|81/100
+  move|p2a: Sandslash|Iron Head|p1a: Mesprit
+  -damage|p1a: Mesprit|109/275
+-- turn 9
+  WE CHOSE: attack thunderbolt - our hp 0.40, theirs 0.81, predicted move (revealed) hits us x1
+  move|p1a: Mesprit|Thunderbolt|p2a: Sandslash
+  -damage|p2a: Sandslash|62/100
+  move|p2a: Sandslash|Iron Head|p1a: Mesprit
+  -damage|p1a: Mesprit|28/275
+-- turn 10
+  WE CHOSE: attack thunderbolt - our hp 0.10, theirs 0.62, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lycanrocmidnight - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Mesprit|Thunderbolt|p2a: Sandslash
+  -damage|p2a: Sandslash|41/100
+  move|p2a: Sandslash|Iron Head|p1a: Mesprit
+  -damage|p1a: Mesprit|0 fnt
+  faint|p1a: Mesprit
+  switch|p1a: Lycanroc|Lycanroc-Midnight, L89, F|267/296
+-- turn 11
+  WE CHOSE: attack closecombat - our hp 0.90, theirs 0.41, predicted move (revealed) hits us x2
+  move|p1a: Lycanroc|Close Combat|p2a: Sandslash
+  -supereffective|p2a: Sandslash
+  -damage|p2a: Sandslash|0 fnt
+  -unboost|p1a: Lycanroc|def|1
+  -unboost|p1a: Lycanroc|spd|1
+  faint|p2a: Sandslash
+  -damage|p1a: Lycanroc|238/296|[from] item: Life Orb
+  switch|p2a: Bellibolt|Bellibolt, L84, M|100/100
+-- turn 12
+  WE CHOSE: switch to goodra - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Goodra|Goodra, L85, F|292/292
+  move|p2a: Bellibolt|Muddy Water|p1a: Goodra
+  -resisted|p1a: Goodra
+  -damage|p1a: Goodra|277/292
+  -unboost|p1a: Goodra|accuracy|1
+-- turn 13
+  WE CHOSE: attack dracometeor - our hp 0.95, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Goodra|Draco Meteor|p2a: Bellibolt
+  -damage|p2a: Bellibolt|49/100
+  -unboost|p1a: Goodra|spa|2
+  -start|p2a: Bellibolt|Charge|Draco Meteor|[from] ability: Electromorphosis
+  move|p2a: Bellibolt|Muddy Water|p1a: Goodra
+  -resisted|p1a: Goodra
+  -damage|p1a: Goodra|263/292
+  -heal|p2a: Bellibolt|55/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack dracometeor - our hp 0.90, theirs 0.55, predicted move (revealed) hits us x0.5
+  move|p1a: Goodra|Draco Meteor|p2a: Bellibolt
+  -damage|p2a: Bellibolt|31/100
+  -unboost|p1a: Goodra|spa|2
+  -start|p2a: Bellibolt|Charge|Draco Meteor|[from] ability: Electromorphosis
+  move|p2a: Bellibolt|Muddy Water|p1a: Goodra
+  -resisted|p1a: Goodra
+  -damage|p1a: Goodra|248/292
+  -heal|p2a: Bellibolt|38/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack dragontail - our hp 0.85, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p2a: Bellibolt|Muddy Water|p1a: Goodra
+  -resisted|p1a: Goodra
+  -damage|p1a: Goodra|234/292
+  move|p1a: Goodra|Dragon Tail|p2a: Bellibolt
+  -damage|p2a: Bellibolt|15/100
+  -start|p2a: Bellibolt|Charge|Dragon Tail|[from] ability: Electromorphosis
+  drag|p2a: Ursaring|Ursaring, L84, M|100/100
+  -status|p2a: Ursaring|tox|[from] item: Toxic Orb
+-- turn 16
+  WE CHOSE: attack dragontail - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Ursaring|Close Combat|p1a: Goodra
+  -damage|p1a: Goodra|116/292
+  -unboost|p2a: Ursaring|def|1
+  -unboost|p2a: Ursaring|spd|1
+  move|p1a: Goodra|Dragon Tail|p2a: Ursaring
+  -damage|p2a: Ursaring|64/100 tox
+  drag|p2a: Bellibolt|Bellibolt, L84, M|15/100
+  -heal|p2a: Bellibolt|21/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack dragontail - our hp 0.40, theirs 0.21, predicted move (revealed) hits us x0.5
+  move|p2a: Bellibolt|Muddy Water|p1a: Goodra|[miss]
+  -miss|p2a: Bellibolt|p1a: Goodra
+  move|p1a: Goodra|Dragon Tail|p2a: Bellibolt
+  -damage|p2a: Bellibolt|0 fnt
+  faint|p2a: Bellibolt
+  switch|p2a: Ursaring|Ursaring, L84, M|64/100 tox
+-- turn 18
+  WE CHOSE: attack dragontail - our hp 0.40, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lycanrocmidnight - our hp 0.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Ursaring|Close Combat|p1a: Goodra
+  -damage|p1a: Goodra|0 fnt
+  -unboost|p2a: Ursaring|def|1
+  -unboost|p2a: Ursaring|spd|1
+  faint|p1a: Goodra
+  -damage|p2a: Ursaring|58/100 tox|[from] psn
+  switch|p1a: Lycanroc|Lycanroc-Midnight, L89, F|238/296
+-- turn 19
+  WE CHOSE: attack closecombat - our hp 0.80, theirs 0.58, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to klawf - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x2
+  move|p2a: Ursaring|Close Combat|p1a: Lycanroc
+  -supereffective|p1a: Lycanroc
+  -damage|p1a: Lycanroc|0 fnt
+  -unboost|p2a: Ursaring|def|1
+  -unboost|p2a: Ursaring|spd|1
+  faint|p1a: Lycanroc
+  -damage|p2a: Ursaring|45/100 tox|[from] psn
+  switch|p1a: Klawf|Klawf, L90, M|272/272
+-- turn 20
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x2
+  move|p2a: Ursaring|Close Combat|p1a: Klawf
+  -supereffective|p1a: Klawf
+  -damage|p1a: Klawf|100/272
+  -unboost|p2a: Ursaring|def|1
+  -unboost|p2a: Ursaring|spd|1
+  move|p1a: Klawf|Stone Edge|p2a: Ursaring
+  -damage|p2a: Ursaring|0 fnt
+  faint|p2a: Ursaring
+  -damage|p1a: Klawf|73/272|[from] item: Life Orb
+  switch|p2a: Magmortar|Magmortar, L88, F|100/100
+-- turn 21
+  WE CHOSE: attack stoneedge - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Magmortar|Fire Blast|p1a: Klawf
+  -resisted|p1a: Klawf
+  -damage|p1a: Klawf|0 fnt
+  faint|p1a: Klawf

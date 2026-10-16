@@ -1,0 +1,375 @@
+battle 254 (battle-gen9randombattle-1008600): lost in 44 turns, 2 of theirs left; we are p1
+
+ours:
+  typhlosion (fainted; item choicescarf, ability flashfire, tera fire; moves focusblast/scorchingsands/fireblast/eruption)
+  ogerponwellspring (fainted; item wellspringmask, ability waterabsorb; moves woodhammer/ivycudgel/synthesis/encore)
+  latias (fainted; item souldew, ability levitate; moves recover/calmmind/psyshock/dracometeor)
+  stonjourner (fainted; item ?, ability powerspot; moves earthquake/stoneedge/heatcrash/stealthrock)
+  pincurchin (fainted; item leftovers, ability electricsurge; moves recover/discharge/scald/spikes)
+  chansey (fainted; item ?, ability naturalcure; moves healbell/softboiled/thunderwave/seismictoss)
+theirs (as seen):
+  deoxysspeed (fainted; item lifeorb, ability pressure; moves psychoboost)
+  bruxish (fainted; item unknown_item, ability ?; moves wavecrash)
+  oinkolognef (fainted; item leftovers, ability ?; moves highhorsepower)
+  passimian (fainted; item leftovers, ability ?; moves gunkshot)
+  meganium (100%; item leftovers, ability ?; moves energyball/knockoff)
+
+-- turn 0
+  switch|p1a: Typhlosion|Typhlosion, L84, M|267/267
+  switch|p2a: Deoxys|Deoxys-Speed, L82|100/100
+  -ability|p2a: Deoxys|Pressure
+-- turn 1
+  WE CHOSE: attack+tera eruption - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Typhlosion|Fire
+  move|p2a: Deoxys|Psycho Boost|p1a: Typhlosion
+  -damage|p1a: Typhlosion|88/267
+  -unboost|p2a: Deoxys|spa|2
+  -damage|p2a: Deoxys|91/100|[from] item: Life Orb
+  move|p1a: Typhlosion|Eruption|p2a: Deoxys
+  -damage|p2a: Deoxys|53/100
+-- turn 2
+  WE CHOSE: attack eruption - our hp 0.33, theirs 0.53, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to latias - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Typhlosion
+  -damage|p1a: Typhlosion|0 fnt
+  -unboost|p2a: Deoxys|spa|2
+  faint|p1a: Typhlosion
+  -damage|p2a: Deoxys|43/100|[from] item: Life Orb
+  switch|p1a: Latias|Latias, L79, F|256/256
+-- turn 3
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p2a: Deoxys|Psycho Boost|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|233/256
+  -unboost|p2a: Deoxys|spa|2
+  -damage|p2a: Deoxys|33/100|[from] item: Life Orb
+  move|p1a: Latias|Calm Mind|p1a: Latias
+  -boost|p1a: Latias|spa|1
+  -boost|p1a: Latias|spd|1
+-- turn 4
+  WE CHOSE: setup calmmind - our hp 0.91, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p2a: Deoxys|Psycho Boost|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|221/256
+  -damage|p2a: Deoxys|24/100|[from] item: Life Orb
+  move|p1a: Latias|Calm Mind|p1a: Latias
+  -boost|p1a: Latias|spa|1
+  -boost|p1a: Latias|spd|1
+-- turn 5
+  WE CHOSE: attack dracometeor - our hp 0.86, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p2a: Deoxys|Psycho Boost|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|213/256
+  -damage|p2a: Deoxys|14/100|[from] item: Life Orb
+  move|p1a: Latias|Draco Meteor|p2a: Deoxys
+  -damage|p2a: Deoxys|0 fnt
+  -unboost|p1a: Latias|spa|2
+  faint|p2a: Deoxys
+  switch|p2a: Bruxish|Bruxish, L85, F|100/100
+-- turn 6
+  WE CHOSE: setup calmmind - our hp 0.83, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Bruxish|Wave Crash|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|142/256
+  -damage|p2a: Bruxish|91/100|[from] Recoil
+  move|p1a: Latias|Calm Mind|p1a: Latias
+  -boost|p1a: Latias|spa|1
+  -boost|p1a: Latias|spd|1
+-- turn 7
+  WE CHOSE: setup calmmind - our hp 0.55, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Bruxish|Wave Crash|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|64/256
+  -damage|p2a: Bruxish|81/100|[from] Recoil
+  move|p1a: Latias|Calm Mind|p1a: Latias
+  -boost|p1a: Latias|spa|1
+  -boost|p1a: Latias|spd|1
+-- turn 8
+  WE CHOSE: heal recover - our hp 0.25, theirs 0.81, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ogerponwellspring - our hp 0.00, theirs 0.73, predicted move (revealed) hits us x0.5
+  move|p2a: Bruxish|Wave Crash|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|0 fnt
+  faint|p1a: Latias
+  -damage|p2a: Bruxish|73/100|[from] Recoil
+  switch|p1a: Ogerpon|Ogerpon-Wellspring, L76, F|247/247
+-- turn 9
+  WE CHOSE: attack woodhammer - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x0
+  move|p2a: Bruxish|Wave Crash|p1a: Ogerpon
+  -immune|p1a: Ogerpon|[from] ability: Water Absorb
+  move|p1a: Ogerpon|Wood Hammer|p2a: Bruxish
+  -supereffective|p2a: Bruxish
+  -damage|p2a: Bruxish|0 fnt
+  faint|p2a: Bruxish
+  -damage|p1a: Ogerpon|186/247|[from] Recoil
+  switch|p2a: Oinkologne|Oinkologne-F, L91, F|100/100
+-- turn 10
+  WE CHOSE: attack woodhammer - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Ogerpon|Wood Hammer|p2a: Oinkologne
+  -damage|p2a: Oinkologne|53/100
+  -damage|p1a: Ogerpon|130/247|[from] Recoil
+  move|p2a: Oinkologne|High Horsepower|p1a: Ogerpon
+  -resisted|p1a: Ogerpon
+  -damage|p1a: Ogerpon|91/247
+  -heal|p2a: Oinkologne|59/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: heal synthesis - our hp 0.37, theirs 0.59, predicted move (revealed) hits us x0.5
+  move|p1a: Ogerpon|Synthesis|p1a: Ogerpon
+  -heal|p1a: Ogerpon|214/247
+  move|p2a: Oinkologne|High Horsepower|p1a: Ogerpon
+  -resisted|p1a: Ogerpon
+  -damage|p1a: Ogerpon|173/247
+  -heal|p2a: Oinkologne|65/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack woodhammer - our hp 0.70, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p1a: Ogerpon|Wood Hammer|p2a: Oinkologne
+  -damage|p2a: Oinkologne|20/100
+  -damage|p1a: Ogerpon|119/247|[from] Recoil
+  move|p2a: Oinkologne|High Horsepower|p1a: Ogerpon
+  -resisted|p1a: Ogerpon
+  -damage|p1a: Ogerpon|76/247
+  -heal|p2a: Oinkologne|26/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal synthesis - our hp 0.31, theirs 0.26, predicted move (revealed) hits us x0.5
+  move|p1a: Ogerpon|Synthesis|p1a: Ogerpon
+  -heal|p1a: Ogerpon|199/247
+  move|p2a: Oinkologne|High Horsepower|p1a: Ogerpon
+  -resisted|p1a: Ogerpon
+  -damage|p1a: Ogerpon|159/247
+  -heal|p2a: Oinkologne|32/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack woodhammer - our hp 0.64, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p1a: Ogerpon|Wood Hammer|p2a: Oinkologne
+  -crit|p2a: Oinkologne
+  -damage|p2a: Oinkologne|0 fnt
+  faint|p2a: Oinkologne
+  -damage|p1a: Ogerpon|122/247|[from] Recoil
+  switch|p2a: Passimian|Passimian, L83, F|100/100
+-- turn 15
+  WE CHOSE: heal synthesis - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Ogerpon|Synthesis|p1a: Ogerpon
+  -heal|p1a: Ogerpon|245/247
+  move|p2a: Passimian|Gunk Shot|p1a: Ogerpon
+  -supereffective|p1a: Ogerpon
+  -damage|p1a: Ogerpon|5/247
+-- turn 16
+  WE CHOSE: switch to stonjourner - our hp 0.02, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Stonjourner|Stonjourner, L91, F|330/330
+  move|p2a: Passimian|Gunk Shot|p1a: Stonjourner
+  -resisted|p1a: Stonjourner
+  -crit|p1a: Stonjourner
+  -damage|p1a: Stonjourner|278/330
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Gunk Shot|p1a: Stonjourner
+  -resisted|p1a: Stonjourner
+  -damage|p1a: Stonjourner|245/330
+  move|p1a: Stonjourner|Earthquake|p2a: Passimian
+  -damage|p2a: Passimian|56/100
+  -damage|p1a: Stonjourner|212/330|[from] item: Life Orb
+  -heal|p2a: Passimian|62/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 0.64, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Gunk Shot|p1a: Stonjourner
+  -resisted|p1a: Stonjourner
+  -damage|p1a: Stonjourner|180/330
+  -status|p1a: Stonjourner|psn
+  move|p1a: Stonjourner|Earthquake|p2a: Passimian
+  -damage|p2a: Passimian|22/100
+  -damage|p1a: Stonjourner|147/330 psn|[from] item: Life Orb
+  -heal|p2a: Passimian|28/100|[from] item: Leftovers
+  -damage|p1a: Stonjourner|106/330 psn|[from] psn
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 0.32, theirs 0.28, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Gunk Shot|p1a: Stonjourner
+  -resisted|p1a: Stonjourner
+  -damage|p1a: Stonjourner|76/330 psn
+  move|p1a: Stonjourner|Earthquake|p2a: Passimian
+  -damage|p2a: Passimian|0 fnt
+  faint|p2a: Passimian
+  -damage|p1a: Stonjourner|43/330 psn|[from] item: Life Orb
+  -damage|p1a: Stonjourner|2/330 psn|[from] psn
+  switch|p2a: Meganium|Meganium, L90, F|100/100
+-- turn 20
+  WE CHOSE: switch to ogerponwellspring - our hp 0.01, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to pincurchin - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Ogerpon|Ogerpon-Wellspring, L76, F|5/247
+  move|p2a: Meganium|Energy Ball|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  switch|p1a: Pincurchin|Pincurchin, F|258/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 21
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Pincurchin
+  -crit|p1a: Pincurchin
+  -damage|p1a: Pincurchin|129/258
+  move|p1a: Pincurchin|Discharge|p2a: Meganium
+  -resisted|p2a: Meganium
+  -damage|p2a: Meganium|80/100
+  -heal|p2a: Meganium|87/100|[from] item: Leftovers
+  -heal|p1a: Pincurchin|145/258|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack discharge - our hp 0.56, theirs 0.87, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Pincurchin
+  -damage|p1a: Pincurchin|57/258
+  move|p1a: Pincurchin|Discharge|p2a: Meganium
+  -resisted|p2a: Meganium
+  -damage|p2a: Meganium|66/100
+  -heal|p2a: Meganium|72/100|[from] item: Leftovers
+  -heal|p1a: Pincurchin|73/258|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal recover - our hp 0.28, theirs 0.72, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to chansey - our hp 0.00, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Pincurchin
+  -damage|p1a: Pincurchin|0 fnt
+  faint|p1a: Pincurchin
+  -heal|p2a: Meganium|78/100|[from] item: Leftovers
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+-- turn 24
+  WE CHOSE: attack healbell - our hp 1.00, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Chansey
+  -damage|p1a: Chansey|510/564
+  move|p1a: Chansey|Heal Bell|p1a: Chansey
+  -activate|p1a: Chansey|move: Heal Bell
+  -curestatus|p1: Stonjourner|psn|[msg]
+  -heal|p2a: Meganium|85/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack healbell - our hp 0.90, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Chansey
+  -crit|p1a: Chansey
+  -damage|p1a: Chansey|426/564
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+  -heal|p2a: Meganium|91/100|[from] item: Leftovers
+  -fieldend|move: Electric Terrain
+-- turn 26
+  WE CHOSE: attack healbell - our hp 0.76, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Chansey
+  -damage|p1a: Chansey|365/564
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+  -heal|p2a: Meganium|97/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack healbell - our hp 0.65, theirs 0.97, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Chansey
+  -damage|p1a: Chansey|307/564
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+  -heal|p2a: Meganium|100/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack healbell - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Chansey
+  -damage|p1a: Chansey|247/564
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+-- turn 29
+  WE CHOSE: heal softboiled - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Chansey
+  -damage|p1a: Chansey|190/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|472/564
+-- turn 30
+  WE CHOSE: attack healbell - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Chansey
+  -damage|p1a: Chansey|411/564
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+-- turn 31
+  WE CHOSE: attack healbell - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Chansey
+  -damage|p1a: Chansey|348/564
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+-- turn 32
+  WE CHOSE: attack healbell - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Chansey
+  -damage|p1a: Chansey|294/564
+  move|p1a: Chansey|Heal Bell||[still]
+  -activate|p1a: Chansey|move: Heal Bell
+  -fail|p1a: Chansey
+-- turn 33
+  WE CHOSE: heal softboiled - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Chansey
+  -damage|p1a: Chansey|233/564
+  -unboost|p1a: Chansey|spd|1
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|515/564
+-- turn 34
+  WE CHOSE: heal softboiled - our hp 0.91, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Chansey
+  -damage|p1a: Chansey|436/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 35
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Chansey
+  -damage|p1a: Chansey|471/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 36
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Knock Off|p1a: Chansey
+  -damage|p1a: Chansey|411/564
+  -enditem|p1a: Chansey|Eviolite|[from] move: Knock Off|[of] p2a: Meganium
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 37
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Knock Off|p1a: Chansey
+  -damage|p1a: Chansey|397/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 38
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Knock Off|p1a: Chansey
+  -damage|p1a: Chansey|415/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 39
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Knock Off|p1a: Chansey
+  -damage|p1a: Chansey|413/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+-- turn 40
+  WE CHOSE: attack thunderwave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Knock Off|p1a: Chansey
+  -damage|p1a: Chansey|411/564
+  move|p1a: Chansey|Thunder Wave|p2a: Meganium
+  -status|p2a: Meganium|par
+-- turn 41
+  WE CHOSE: attack thunderwave - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Thunder Wave|p2a: Meganium
+  -fail|p2a: Meganium|par
+  move|p2a: Meganium|Knock Off|p1a: Chansey
+  -damage|p1a: Chansey|262/564
+-- turn 42
+  WE CHOSE: attack thunderwave - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Thunder Wave|p2a: Meganium
+  -fail|p2a: Meganium|par
+  move|p2a: Meganium|Knock Off|p1a: Chansey
+  -damage|p1a: Chansey|104/564
+-- turn 43
+  WE CHOSE: attack thunderwave - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to stonjourner - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Chansey|Thunder Wave|p2a: Meganium
+  -fail|p2a: Meganium|par
+  move|p2a: Meganium|Knock Off|p1a: Chansey
+  -damage|p1a: Chansey|0 fnt
+  faint|p1a: Chansey
+  switch|p1a: Stonjourner|Stonjourner, L91, F|2/330
+-- turn 44
+  WE CHOSE: attack stoneedge - our hp 0.01, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Stonjourner|Stone Edge|p2a: Meganium|[miss]
+  -miss|p1a: Stonjourner|p2a: Meganium
+  move|p2a: Meganium|Knock Off|p1a: Stonjourner
+  -damage|p1a: Stonjourner|0 fnt
+  -enditem|p1a: Stonjourner|Life Orb|[from] move: Knock Off|[of] p2a: Meganium
+  faint|p1a: Stonjourner

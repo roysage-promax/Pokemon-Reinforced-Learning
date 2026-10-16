@@ -1,0 +1,423 @@
+battle 2202 (battle-gen9randombattle-1027007): lost in 52 turns, 1 of theirs left; we are p1
+
+ours:
+  illumise (fainted; item heavydutyboots, ability prankster, tera steel; moves bugbuzz/roost/thunderwave/encore)
+  metagross (fainted; item ?, ability clearbody; moves agility/earthquake/knockoff/heavyslam)
+  oinkolognef (fainted; item leftovers, ability aromaveil; moves rest/bodyslam/curse/sleeptalk)
+  blissey (fainted; item leftovers, ability naturalcure; moves stealthrock/seismictoss/softboiled/thunderwave)
+  volcarona (fainted; item heavydutyboots, ability flamebody; moves gigadrain/quiverdance/fireblast/terablast)
+  rotomwash (fainted; item leftovers, ability levitate; moves discharge/hydropump/painsplit/willowisp)
+theirs (as seen):
+  arceusghost (fainted; item unknown_item, ability multitype; moves focusblast)
+  kommoo (fainted; item unknown_item, ability soundproof; moves closecombat)
+  gastrodon (fainted; item leftovers, ability stormdrain; moves earthquake/icebeam)
+  torkoal (fainted; item unknown_item, ability ?; moves solarbeam)
+  weezinggalar (fainted; item leftovers, ability levitate; moves gunkshot/fireblast)
+  infernape (54%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Illumise|Illumise, L91, F|266/266
+  switch|p2a: Arceus|Arceus-Ghost, L69|100/100
+-- turn 1
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Arceus
+  -resisted|p2a: Arceus
+  -damage|p2a: Arceus|84/100
+  move|p2a: Arceus|Focus Blast|p1a: Illumise|[miss]
+  -miss|p2a: Arceus|p1a: Illumise
+-- turn 2
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 0.84, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Arceus
+  -resisted|p2a: Arceus
+  -damage|p2a: Arceus|69/100
+  move|p2a: Arceus|Focus Blast|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|235/266
+-- turn 3
+  WE CHOSE: attack bugbuzz - our hp 0.88, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Arceus
+  -resisted|p2a: Arceus
+  -damage|p2a: Arceus|53/100
+  move|p2a: Arceus|Focus Blast|p1a: Illumise|[miss]
+  -miss|p2a: Arceus|p1a: Illumise
+-- turn 4
+  WE CHOSE: attack bugbuzz - our hp 0.88, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Arceus
+  -resisted|p2a: Arceus
+  -damage|p2a: Arceus|39/100
+  move|p2a: Arceus|Focus Blast|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|205/266
+-- turn 5
+  WE CHOSE: attack bugbuzz - our hp 0.77, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Arceus
+  -resisted|p2a: Arceus
+  -damage|p2a: Arceus|25/100
+  move|p2a: Arceus|Focus Blast|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|170/266
+-- turn 6
+  WE CHOSE: attack bugbuzz - our hp 0.64, theirs 0.25, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Arceus
+  -resisted|p2a: Arceus
+  -damage|p2a: Arceus|11/100
+  move|p2a: Arceus|Focus Blast|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|135/266
+-- turn 7
+  WE CHOSE: attack bugbuzz - our hp 0.51, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Arceus
+  -resisted|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  switch|p2a: Kommo-o|Kommo-o, L77, M|100/100
+-- turn 8
+  WE CHOSE: attack+tera bugbuzz - our hp 0.51, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to volcarona - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  -terastallize|p1a: Illumise|Steel
+  move|p1a: Illumise|Bug Buzz|p2a: Kommo-o
+  -immune|p2a: Kommo-o|[from] ability: Soundproof
+  move|p2a: Kommo-o|Close Combat|p1a: Illumise
+  -supereffective|p1a: Illumise
+  -damage|p1a: Illumise|0 fnt
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  faint|p1a: Illumise
+  switch|p1a: Volcarona|Volcarona, L77, F|257/257
+-- turn 9
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+  -boost|p1a: Volcarona|spa|1
+  -boost|p1a: Volcarona|spd|1
+  -boost|p1a: Volcarona|spe|1
+  move|p2a: Kommo-o|Close Combat|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|181/257
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  -status|p2a: Kommo-o|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+  -damage|p2a: Kommo-o|94/100 brn|[from] brn
+-- turn 10
+  WE CHOSE: setup quiverdance - our hp 0.70, theirs 0.94, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+  -boost|p1a: Volcarona|spa|1
+  -boost|p1a: Volcarona|spd|1
+  -boost|p1a: Volcarona|spe|1
+  move|p2a: Kommo-o|Close Combat|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|143/257
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  -damage|p2a: Kommo-o|88/100 brn|[from] brn
+-- turn 11
+  WE CHOSE: attack terablast - our hp 0.56, theirs 0.88, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Tera Blast|p2a: Kommo-o
+  -damage|p2a: Kommo-o|0 fnt
+  faint|p2a: Kommo-o
+  switch|p2a: Gastrodon|Gastrodon, L86, F|100/100
+-- turn 12
+  WE CHOSE: switch to rotomwash - our hp 0.56, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Rotom|Rotom-Wash, L82|216/216
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 13
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Hydro Pump|p2a: Gastrodon
+  -ability|p2a: Gastrodon|Storm Drain|boost
+  -boost|p2a: Gastrodon|spa|1
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 14
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Hydro Pump|p2a: Gastrodon
+  -ability|p2a: Gastrodon|Storm Drain|boost
+  -boost|p2a: Gastrodon|spa|1
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 15
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Hydro Pump|p2a: Gastrodon
+  -ability|p2a: Gastrodon|Storm Drain|boost
+  -boost|p2a: Gastrodon|spa|1
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 16
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Hydro Pump|p2a: Gastrodon
+  -ability|p2a: Gastrodon|Storm Drain|boost
+  -boost|p2a: Gastrodon|spa|1
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 17
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Hydro Pump|p2a: Gastrodon
+  -ability|p2a: Gastrodon|Storm Drain|boost
+  -boost|p2a: Gastrodon|spa|1
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 18
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Hydro Pump|p2a: Gastrodon
+  -ability|p2a: Gastrodon|Storm Drain|boost
+  -boost|p2a: Gastrodon|spa|1
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 19
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Hydro Pump|p2a: Gastrodon
+  -immune|p2a: Gastrodon|[from] ability: Storm Drain
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 20
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Hydro Pump|p2a: Gastrodon
+  -immune|p2a: Gastrodon|[from] ability: Storm Drain
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 21
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Discharge|p2a: Gastrodon
+  -immune|p2a: Gastrodon
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 22
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Discharge|p2a: Gastrodon
+  -immune|p2a: Gastrodon
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 23
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Discharge|p2a: Gastrodon
+  -immune|p2a: Gastrodon
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 24
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Discharge|p2a: Gastrodon
+  -immune|p2a: Gastrodon
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 25
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Discharge|p2a: Gastrodon
+  -immune|p2a: Gastrodon
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 26
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Discharge|p2a: Gastrodon
+  -immune|p2a: Gastrodon
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 27
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Discharge|p2a: Gastrodon
+  -immune|p2a: Gastrodon
+  move|p2a: Gastrodon|Earthquake|p1a: Rotom
+  -immune|p1a: Rotom|[from] ability: Levitate
+-- turn 28
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Discharge|p2a: Gastrodon
+  -immune|p2a: Gastrodon
+  move|p2a: Gastrodon|Ice Beam|p1a: Rotom
+  -resisted|p1a: Rotom
+  -damage|p1a: Rotom|103/216
+  -heal|p1a: Rotom|116/216|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack discharge - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Discharge|p2a: Gastrodon
+  -immune|p2a: Gastrodon
+  move|p2a: Gastrodon|Ice Beam|p1a: Rotom
+  -resisted|p1a: Rotom
+  -damage|p1a: Rotom|8/216
+  -heal|p1a: Rotom|21/216|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack discharge - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to volcarona - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Discharge|p2a: Gastrodon
+  -immune|p2a: Gastrodon
+  move|p2a: Gastrodon|Ice Beam|p1a: Rotom
+  -resisted|p1a: Rotom
+  -damage|p1a: Rotom|0 fnt
+  faint|p1a: Rotom
+  switch|p1a: Volcarona|Volcarona, L77, F|143/257
+-- turn 31
+  WE CHOSE: attack gigadrain - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volcarona|Giga Drain|p2a: Gastrodon
+  -supereffective|p2a: Gastrodon
+  -damage|p2a: Gastrodon|24/100
+  -heal|p1a: Volcarona|257/257|[from] drain|[of] p2a: Gastrodon
+  move|p2a: Gastrodon|Ice Beam|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|140/257
+  -heal|p2a: Gastrodon|30/100|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack gigadrain - our hp 0.54, theirs 0.30, predicted move (revealed) hits us x1
+  move|p1a: Volcarona|Giga Drain|p2a: Gastrodon
+  -supereffective|p2a: Gastrodon
+  -crit|p2a: Gastrodon
+  -damage|p2a: Gastrodon|0 fnt
+  -heal|p1a: Volcarona|190/257|[from] drain|[of] p2a: Gastrodon
+  faint|p2a: Gastrodon
+  switch|p2a: Torkoal|Torkoal, L88, F|100/100
+  -weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+-- turn 33
+  WE CHOSE: setup quiverdance - our hp 0.74, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+  -boost|p1a: Volcarona|spa|1
+  -boost|p1a: Volcarona|spd|1
+  -boost|p1a: Volcarona|spe|1
+  move|p2a: Torkoal|Solar Beam||[still]
+  -prepare|p2a: Torkoal|Solar Beam
+  -anim|p2a: Torkoal|Solar Beam|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|176/257
+  -weather|SunnyDay|[upkeep]
+-- turn 34
+  WE CHOSE: setup quiverdance - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+  -boost|p1a: Volcarona|spa|1
+  -boost|p1a: Volcarona|spd|1
+  -boost|p1a: Volcarona|spe|1
+  move|p2a: Torkoal|Solar Beam||[still]
+  -prepare|p2a: Torkoal|Solar Beam
+  -anim|p2a: Torkoal|Solar Beam|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|167/257
+  -weather|SunnyDay|[upkeep]
+-- turn 35
+  WE CHOSE: attack terablast - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Volcarona|Tera Blast|p2a: Torkoal
+  -damage|p2a: Torkoal|50/100
+  move|p2a: Torkoal|Solar Beam||[still]
+  -prepare|p2a: Torkoal|Solar Beam
+  -anim|p2a: Torkoal|Solar Beam|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|158/257
+  -weather|SunnyDay|[upkeep]
+-- turn 36
+  WE CHOSE: attack terablast - our hp 0.61, theirs 0.50, predicted move (revealed) hits us x0.25
+  move|p1a: Volcarona|Tera Blast|p2a: Torkoal
+  -damage|p2a: Torkoal|0 fnt
+  faint|p2a: Torkoal
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Weezing|Weezing-Galar, L86, F|100/100
+-- turn 37
+  WE CHOSE: switch to metagross - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Metagross|Metagross, L79|256/256
+  move|p2a: Weezing|Gunk Shot|p1a: Metagross
+  -immune|p1a: Metagross
+  -weather|none
+-- turn 38
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Metagross|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Metagross
+  -immune|p1a: Metagross
+-- turn 39
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Metagross|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Metagross
+  -immune|p1a: Metagross
+-- turn 40
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Metagross|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Metagross
+  -immune|p1a: Metagross
+-- turn 41
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Metagross|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Metagross
+  -immune|p1a: Metagross
+-- turn 42
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Metagross|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Metagross
+  -immune|p1a: Metagross
+-- turn 43
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Metagross|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Metagross
+  -immune|p1a: Metagross
+-- turn 44
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Metagross|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Metagross
+  -immune|p1a: Metagross
+-- turn 45
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Metagross|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Fire Blast|p1a: Metagross
+  -supereffective|p1a: Metagross
+  -damage|p1a: Metagross|102/256
+  -enditem|p1a: Metagross|Weakness Policy
+  -boost|p1a: Metagross|atk|2|[from] item: Weakness Policy
+  -boost|p1a: Metagross|spa|2|[from] item: Weakness Policy
+-- turn 46
+  WE CHOSE: attack earthquake - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to volcarona - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Metagross|Earthquake|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Fire Blast|p1a: Metagross
+  -supereffective|p1a: Metagross
+  -damage|p1a: Metagross|0 fnt
+  faint|p1a: Metagross
+  switch|p1a: Volcarona|Volcarona, L77, F|158/257
+-- turn 47
+  WE CHOSE: attack fireblast - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volcarona|Fire Blast|p2a: Weezing
+  -damage|p2a: Weezing|44/100
+  move|p2a: Weezing|Fire Blast|p1a: Volcarona|[miss]
+  -miss|p2a: Weezing|p1a: Volcarona
+  -heal|p2a: Weezing|50/100|[from] item: Leftovers
+-- turn 48
+  WE CHOSE: attack fireblast - our hp 0.61, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Volcarona|Fire Blast|p2a: Weezing
+  -damage|p2a: Weezing|0 fnt
+  faint|p2a: Weezing
+  switch|p2a: Infernape|Infernape, L82, M|100/100
+-- turn 49
+  WE CHOSE: attack terablast - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Infernape|Close Combat|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|40/257
+  -unboost|p2a: Infernape|def|1
+  -unboost|p2a: Infernape|spd|1
+  move|p1a: Volcarona|Tera Blast|p2a: Infernape
+  -damage|p2a: Infernape|54/100
+-- turn 50
+  WE CHOSE: attack terablast - our hp 0.16, theirs 0.54, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to oinkolognef - our hp 0.00, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p2a: Infernape|Close Combat|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|0 fnt
+  -unboost|p2a: Infernape|def|1
+  -unboost|p2a: Infernape|spd|1
+  faint|p1a: Volcarona
+  switch|p1a: Oinkologne|Oinkologne-F, L91, F|357/357
+-- turn 51
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.54, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to blissey - our hp 0.00, theirs 0.54, predicted move (revealed) hits us x2
+  move|p2a: Infernape|Close Combat|p1a: Oinkologne
+  -supereffective|p1a: Oinkologne
+  -damage|p1a: Oinkologne|0 fnt
+  -unboost|p2a: Infernape|def|1
+  -unboost|p2a: Infernape|spd|1
+  faint|p1a: Oinkologne
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+-- turn 52
+  WE CHOSE: attack stealthrock - our hp 1.00, theirs 0.54, predicted move (revealed) hits us x2
+  move|p2a: Infernape|Close Combat|p1a: Blissey
+  -supereffective|p1a: Blissey
+  -damage|p1a: Blissey|0 fnt
+  -unboost|p2a: Infernape|def|1
+  -unboost|p2a: Infernape|spd|1
+  faint|p1a: Blissey

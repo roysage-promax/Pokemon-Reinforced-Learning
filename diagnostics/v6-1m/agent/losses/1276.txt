@@ -1,0 +1,158 @@
+battle 1276 (battle-gen9randombattle-1019246): lost in 15 turns, 2 of theirs left; we are p1
+
+ours:
+  girafarig (fainted; item eviolite, ability sapsipper, tera fairy; moves psychic/dazzlinggleam/nastyplot/thunderbolt)
+  vespiquen (fainted; item heavydutyboots, ability pressure; moves roost/airslash/spikes/toxic)
+  kommoo (fainted; item loadeddice, ability soundproof; moves ironhead/swordsdance/scaleshot/closecombat)
+  ironboulder (fainted; item ?, ability quarkdrive; moves zenheadbutt/swordsdance/closecombat/mightycleave)
+  comfey (fainted; item leftovers, ability triage; moves gigadrain/drainingkiss/storedpower/calmmind)
+  vileplume (fainted; item leftovers, ability effectspore; moves gigadrain/sludgebomb/strengthsap/sleeppowder)
+theirs (as seen):
+  staraptor (fainted; item unknown_item, ability ?; moves doubleedge)
+  regidrago (fainted; item unknown_item, ability dragonsmaw; moves dracometeor)
+  wigglytuff (fainted; item leftovers, ability ?; moves alluringvoice)
+  entei (fainted; item unknown_item, ability ?; moves flareblitz)
+
+-- turn 0
+  switch|p1a: Girafarig|Girafarig, L89, M|269/269
+  switch|p2a: Staraptor|Staraptor, L79, F|100/100
+-- turn 1
+  WE CHOSE: switch to ironboulder (hand policy: attack thunderbolt) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Iron Boulder|Iron Boulder, L77|265/265
+  -enditem|p1a: Iron Boulder|Booster Energy
+  -activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+  -start|p1a: Iron Boulder|quarkdrivespe
+  move|p2a: Staraptor|Double-Edge|p1a: Iron Boulder
+  -resisted|p1a: Iron Boulder
+  -damage|p1a: Iron Boulder|132/265
+  -damage|p2a: Staraptor|84/100|[from] Recoil
+-- turn 2
+  WE CHOSE: setup swordsdance (hand policy: attack mightycleave) - our hp 0.50, theirs 0.84, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to girafarig - our hp 0.00, theirs 0.67, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Boulder|Swords Dance|p1a: Iron Boulder
+  -boost|p1a: Iron Boulder|atk|2
+  move|p2a: Staraptor|Double-Edge|p1a: Iron Boulder
+  -resisted|p1a: Iron Boulder
+  -damage|p1a: Iron Boulder|0 fnt
+  faint|p1a: Iron Boulder
+  -end|p1a: Iron Boulder|Quark Drive|[silent]
+  -damage|p2a: Staraptor|67/100|[from] Recoil
+  switch|p1a: Girafarig|Girafarig, L89, M|269/269
+-- turn 3
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.67, predicted move (revealed) hits us x1
+  move|p2a: Staraptor|Double-Edge|p1a: Girafarig
+  -damage|p1a: Girafarig|68/269
+  -damage|p2a: Staraptor|42/100|[from] Recoil
+  move|p1a: Girafarig|Thunderbolt|p2a: Staraptor
+  -supereffective|p2a: Staraptor
+  -damage|p2a: Staraptor|0 fnt
+  faint|p2a: Staraptor
+  switch|p2a: Regidrago|Regidrago, L77|100/100
+-- turn 4
+  WE CHOSE: attack+tera dazzlinggleam (hand policy: switch to comfey) - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Girafarig|Fairy
+  move|p1a: Girafarig|Dazzling Gleam|p2a: Regidrago
+  -supereffective|p2a: Regidrago
+  -damage|p2a: Regidrago|38/100
+  move|p2a: Regidrago|Draco Meteor|p1a: Girafarig
+  -immune|p1a: Girafarig
+-- turn 5
+  WE CHOSE: setup nastyplot (hand policy: attack dazzlinggleam) - our hp 0.25, theirs 0.38, predicted move (revealed) hits us x0
+  move|p1a: Girafarig|Nasty Plot|p1a: Girafarig
+  -boost|p1a: Girafarig|spa|2
+  move|p2a: Regidrago|Draco Meteor|p1a: Girafarig
+  -immune|p1a: Girafarig
+-- turn 6
+  WE CHOSE: attack dazzlinggleam - our hp 0.25, theirs 0.38, predicted move (revealed) hits us x0
+  move|p1a: Girafarig|Dazzling Gleam|p2a: Regidrago
+  -supereffective|p2a: Regidrago
+  -damage|p2a: Regidrago|0 fnt
+  faint|p2a: Regidrago
+  switch|p2a: Wigglytuff|Wigglytuff, L96, F|100/100
+-- turn 7
+  WE CHOSE: attack psychic - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to vileplume - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Girafarig|Psychic|p2a: Wigglytuff
+  -damage|p2a: Wigglytuff|42/100
+  move|p2a: Wigglytuff|Alluring Voice|p1a: Girafarig
+  -damage|p1a: Girafarig|0 fnt
+  faint|p1a: Girafarig
+  -heal|p2a: Wigglytuff|48/100|[from] item: Leftovers
+  switch|p1a: Vileplume|Vileplume, L85, F|266/266
+-- turn 8
+  WE CHOSE: attack sludgebomb - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p2a: Wigglytuff|Alluring Voice|p1a: Vileplume
+  -resisted|p1a: Vileplume
+  -damage|p1a: Vileplume|215/266
+  move|p1a: Vileplume|Sludge Bomb|p2a: Wigglytuff
+  -supereffective|p2a: Wigglytuff
+  -damage|p2a: Wigglytuff|0 fnt
+  faint|p2a: Wigglytuff
+  -heal|p1a: Vileplume|231/266|[from] item: Leftovers
+  switch|p2a: Entei|Entei, L78|100/100
+-- turn 9
+  WE CHOSE: switch to kommoo - our hp 0.87, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Kommo-o|Kommo-o, L77, F|242/242
+  move|p2a: Entei|Flare Blitz|p1a: Kommo-o
+  -resisted|p1a: Kommo-o
+  -damage|p1a: Kommo-o|167/242
+  -damage|p2a: Entei|92/100|[from] Recoil
+-- turn 10
+  WE CHOSE: setup swordsdance - our hp 0.69, theirs 0.92, predicted move (revealed) hits us x0.5
+  move|p2a: Entei|Flare Blitz|p1a: Kommo-o
+  -resisted|p1a: Kommo-o
+  -damage|p1a: Kommo-o|86/242
+  -status|p1a: Kommo-o|brn
+  -damage|p2a: Entei|84/100|[from] Recoil
+  move|p1a: Kommo-o|Swords Dance|p1a: Kommo-o
+  -boost|p1a: Kommo-o|atk|2
+  -damage|p1a: Kommo-o|71/242 brn|[from] brn
+-- turn 11
+  WE CHOSE: attack closecombat - our hp 0.29, theirs 0.84, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to comfey - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x0.5
+  move|p2a: Entei|Flare Blitz|p1a: Kommo-o
+  -resisted|p1a: Kommo-o
+  -damage|p1a: Kommo-o|0 fnt
+  faint|p1a: Kommo-o
+  -damage|p2a: Entei|76/100|[from] Recoil
+  switch|p1a: Comfey|Comfey, L85, F|225/225
+-- turn 12
+  WE CHOSE: attack gigadrain - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Giga Drain|p2a: Entei
+  -resisted|p2a: Entei
+  -damage|p2a: Entei|67/100
+  move|p2a: Entei|Flare Blitz|p1a: Comfey
+  -damage|p1a: Comfey|42/225
+  -damage|p2a: Entei|48/100|[from] Recoil
+  -heal|p1a: Comfey|56/225|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack gigadrain - our hp 0.25, theirs 0.48, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to vileplume - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Giga Drain|p2a: Entei
+  -resisted|p2a: Entei
+  -damage|p2a: Entei|39/100
+  -heal|p1a: Comfey|70/225|[from] drain|[of] p2a: Entei
+  move|p2a: Entei|Flare Blitz|p1a: Comfey
+  -damage|p1a: Comfey|0 fnt
+  faint|p1a: Comfey
+  -damage|p2a: Entei|31/100|[from] Recoil
+  switch|p1a: Vileplume|Vileplume, L85, F|231/266
+-- turn 14
+  WE CHOSE: attack sludgebomb - our hp 0.87, theirs 0.31, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to vespiquen - our hp 0.00, theirs 0.06, predicted move (revealed) hits us x2
+  move|p2a: Entei|Flare Blitz|p1a: Vileplume
+  -supereffective|p1a: Vileplume
+  -damage|p1a: Vileplume|0 fnt
+  faint|p1a: Vileplume
+  -damage|p2a: Entei|6/100|[from] Recoil
+  switch|p1a: Vespiquen|Vespiquen, L99, F|299/299
+  -ability|p1a: Vespiquen|Pressure
+-- turn 15
+  WE CHOSE: attack airslash - our hp 1.00, theirs 0.06, predicted move (revealed) hits us x2
+  move|p2a: Entei|Flare Blitz|p1a: Vespiquen
+  -supereffective|p1a: Vespiquen
+  -damage|p1a: Vespiquen|0 fnt
+  faint|p1a: Vespiquen
+  -damage|p2a: Entei|0 fnt|[from] Recoil
+  faint|p2a: Entei
+  deinit

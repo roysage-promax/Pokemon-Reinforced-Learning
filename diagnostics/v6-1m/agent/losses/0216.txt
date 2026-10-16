@@ -1,0 +1,431 @@
+battle 216 (battle-gen9randombattle-1008487): lost in 56 turns, 1 of theirs left; we are p1
+
+ours:
+  fezandipiti (fainted; item leftovers, ability toxicchain, tera steel; moves gunkshot/roost/moonblast/uturn)
+  bastiodon (fainted; item ?, ability soundproof; moves irondefense/foulplay/bodypress/rest)
+  delibird (fainted; item heavydutyboots, ability hustle; moves bravebird/icespinner/iceshard/spikes)
+  entei (fainted; item choiceband, ability innerfocus; moves sacredfire/flareblitz/extremespeed/stoneedge)
+  phione (fainted; item leftovers, ability hydration; moves scald/sleeptalk/takeheart/rest)
+  barraskewda (fainted; item choiceband, ability swiftswim; moves flipturn/waterfall/psychicfangs/closecombat)
+theirs (as seen):
+  okidogi (fainted; item unknown_item, ability ?; moves gunkshot)
+  mienshao (fainted; item unknown_item, ability ?; moves highjumpkick)
+  magearna (fainted; item leftovers, ability soulheart; moves fleurcannon)
+  whimsicott (fainted; item unknown_item, ability ?; moves moonblast/gigadrain)
+  squawkabillywhite (fainted; item unknown_item, ability ?; moves doubleedge)
+
+-- turn 0
+  switch|p1a: Fezandipiti|Fezandipiti, L82, M|278/278
+  switch|p2a: Okidogi|Okidogi, L77, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera moonblast (hand policy: switch to bastiodon) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Fezandipiti|Steel
+  move|p1a: Fezandipiti|Moonblast|p2a: Okidogi
+  -damage|p2a: Okidogi|79/100
+  -unboost|p2a: Okidogi|spa|1
+  move|p2a: Okidogi|Gunk Shot|p1a: Fezandipiti
+  -immune|p1a: Fezandipiti
+-- turn 2
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 0.79, predicted move (revealed) hits us x0
+  move|p1a: Fezandipiti|Moonblast|p2a: Okidogi
+  -damage|p2a: Okidogi|58/100
+  move|p2a: Okidogi|Gunk Shot|p1a: Fezandipiti
+  -immune|p1a: Fezandipiti
+-- turn 3
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x0
+  move|p1a: Fezandipiti|Moonblast|p2a: Okidogi
+  -damage|p2a: Okidogi|38/100
+  move|p2a: Okidogi|Gunk Shot|p1a: Fezandipiti
+  -immune|p1a: Fezandipiti
+-- turn 4
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x0
+  move|p1a: Fezandipiti|Moonblast|p2a: Okidogi
+  -damage|p2a: Okidogi|15/100
+  -unboost|p2a: Okidogi|spa|1
+  move|p2a: Okidogi|Gunk Shot|p1a: Fezandipiti
+  -immune|p1a: Fezandipiti
+-- turn 5
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x0
+  move|p1a: Fezandipiti|Moonblast|p2a: Okidogi
+  -damage|p2a: Okidogi|0 fnt
+  faint|p2a: Okidogi
+  switch|p2a: Mienshao|Mienshao, L83, F|100/100
+-- turn 6
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to delibird - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Mienshao|High Jump Kick|p1a: Fezandipiti
+  -supereffective|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|0 fnt
+  faint|p1a: Fezandipiti
+  switch|p1a: Delibird|Delibird, F|252/252
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to entei - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Mienshao|High Jump Kick|p1a: Delibird
+  -damage|p1a: Delibird|0 fnt
+  faint|p1a: Delibird
+  switch|p1a: Entei|Entei, L78|307/307
+-- turn 8
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to barraskewda - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Mienshao|High Jump Kick|p1a: Entei
+  -damage|p1a: Entei|0 fnt
+  faint|p1a: Entei
+  switch|p1a: Barraskewda|Barraskewda, L81, M|231/231
+-- turn 9
+  WE CHOSE: attack psychicfangs - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Barraskewda|Psychic Fangs|p2a: Mienshao
+  -supereffective|p2a: Mienshao
+  -damage|p2a: Mienshao|0 fnt
+  faint|p2a: Mienshao
+  switch|p2a: Magearna|Magearna, L77|100/100
+-- turn 10
+  WE CHOSE: switch to bastiodon (hand policy: attack psychicfangs) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Bastiodon|Bastiodon, L89, M|252/252
+  move|p2a: Magearna|Fleur Cannon|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|202/252
+  -unboost|p2a: Magearna|spa|2
+-- turn 11
+  WE CHOSE: attack bodypress - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Magearna|Fleur Cannon|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|177/252
+  -unboost|p2a: Magearna|spa|2
+  move|p1a: Bastiodon|Body Press|p2a: Magearna
+  -damage|p2a: Magearna|68/100
+  -heal|p2a: Magearna|74/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack bodypress - our hp 0.70, theirs 0.74, predicted move (revealed) hits us x0.5
+  move|p2a: Magearna|Fleur Cannon|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|162/252
+  -unboost|p2a: Magearna|spa|2
+  move|p1a: Bastiodon|Body Press|p2a: Magearna
+  -damage|p2a: Magearna|41/100
+  -heal|p2a: Magearna|47/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack bodypress - our hp 0.64, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p2a: Magearna|Fleur Cannon|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|149/252
+  move|p1a: Bastiodon|Body Press|p2a: Magearna
+  -damage|p2a: Magearna|12/100
+  -heal|p2a: Magearna|18/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal rest (hand policy: attack bodypress) - our hp 0.59, theirs 0.18, predicted move (revealed) hits us x0.5
+  move|p2a: Magearna|Fleur Cannon|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|137/252
+  move|p1a: Bastiodon|Rest|p1a: Bastiodon
+  -status|p1a: Bastiodon|slp|[from] move: Rest
+  -heal|p1a: Bastiodon|252/252 slp|[silent]
+  -enditem|p1a: Bastiodon|Chesto Berry|[eat]
+  -curestatus|p1a: Bastiodon|slp|[msg]
+  -heal|p2a: Magearna|24/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p2a: Magearna|Fleur Cannon|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|240/252
+  move|p1a: Bastiodon|Body Press|p2a: Magearna
+  -damage|p2a: Magearna|0 fnt
+  faint|p2a: Magearna
+  switch|p2a: Whimsicott|Whimsicott, L84, M|100/100
+-- turn 16
+  WE CHOSE: heal rest (hand policy: attack foulplay) - our hp 0.95, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|212/252
+  move|p1a: Bastiodon|Rest|p1a: Bastiodon
+  -status|p1a: Bastiodon|slp|[from] move: Rest
+  -heal|p1a: Bastiodon|252/252 slp|[silent]
+-- turn 17
+  WE CHOSE: heal rest (hand policy: attack foulplay) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|225/252 slp
+  -unboost|p1a: Bastiodon|spa|1
+  cant|p1a: Bastiodon|slp
+-- turn 18
+  WE CHOSE: heal rest (hand policy: attack foulplay) - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|197/252 slp
+  cant|p1a: Bastiodon|slp
+-- turn 19
+  WE CHOSE: heal rest (hand policy: attack foulplay) - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|169/252 slp
+  -unboost|p1a: Bastiodon|spa|1
+  -curestatus|p1a: Bastiodon|slp|[msg]
+  move|p1a: Bastiodon|Rest|p1a: Bastiodon
+  -status|p1a: Bastiodon|slp|[from] move: Rest
+  -heal|p1a: Bastiodon|252/252 slp|[silent]
+-- turn 20
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|222/252 slp
+  cant|p1a: Bastiodon|slp
+-- turn 21
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|195/252 slp
+  -unboost|p1a: Bastiodon|spa|1
+  cant|p1a: Bastiodon|slp
+-- turn 22
+  WE CHOSE: attack bodypress (hand policy: attack foulplay) - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|167/252 slp
+  -unboost|p1a: Bastiodon|spa|1
+  -curestatus|p1a: Bastiodon|slp|[msg]
+  move|p1a: Bastiodon|Body Press|p2a: Whimsicott
+  -resisted|p2a: Whimsicott
+  -damage|p2a: Whimsicott|79/100
+-- turn 23
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 0.66, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|141/252
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|2
+-- turn 24
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 0.56, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|114/252
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|2
+-- turn 25
+  WE CHOSE: attack bodypress (hand policy: heal rest) - our hp 0.45, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|87/252
+  -unboost|p1a: Bastiodon|spa|1
+  move|p1a: Bastiodon|Body Press|p2a: Whimsicott
+  -resisted|p2a: Whimsicott
+  -damage|p2a: Whimsicott|20/100
+-- turn 26
+  WE CHOSE: attack irondefense (hand policy: heal rest) - our hp 0.35, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|60/252
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|2
+-- turn 27
+  WE CHOSE: attack irondefense (hand policy: heal rest) - our hp 0.24, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|33/252
+  -unboost|p1a: Bastiodon|spa|1
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|0
+-- turn 28
+  WE CHOSE: heal rest - our hp 0.13, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|7/252
+  move|p1a: Bastiodon|Rest|p1a: Bastiodon
+  -status|p1a: Bastiodon|slp|[from] move: Rest
+  -heal|p1a: Bastiodon|252/252 slp|[silent]
+-- turn 29
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 1.00, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|225/252 slp
+  cant|p1a: Bastiodon|slp
+-- turn 30
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 0.89, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|199/252 slp
+  cant|p1a: Bastiodon|slp
+-- turn 31
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 0.79, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|173/252 slp
+  -curestatus|p1a: Bastiodon|slp|[msg]
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|0
+-- turn 32
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 0.69, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|143/252
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|0
+-- turn 33
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 0.57, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|117/252
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|0
+-- turn 34
+  WE CHOSE: attack irondefense (hand policy: heal rest) - our hp 0.46, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|88/252
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|0
+-- turn 35
+  WE CHOSE: attack irondefense (hand policy: heal rest) - our hp 0.35, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|61/252
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|0
+-- turn 36
+  WE CHOSE: attack irondefense (hand policy: heal rest) - our hp 0.24, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|34/252
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|0
+-- turn 37
+  WE CHOSE: heal rest - our hp 0.13, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|4/252
+  move|p1a: Bastiodon|Rest|p1a: Bastiodon
+  -status|p1a: Bastiodon|slp|[from] move: Rest
+  -heal|p1a: Bastiodon|252/252 slp|[silent]
+-- turn 38
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 1.00, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|224/252 slp
+  cant|p1a: Bastiodon|slp
+-- turn 39
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 0.89, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|198/252 slp
+  cant|p1a: Bastiodon|slp
+-- turn 40
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 0.79, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Giga Drain|p1a: Bastiodon
+  -crit|p1a: Bastiodon
+  -damage|p1a: Bastiodon|135/252 slp
+  -heal|p2a: Whimsicott|33/100|[from] drain|[of] p1a: Bastiodon
+  -curestatus|p1a: Bastiodon|slp|[msg]
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|0
+-- turn 41
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 0.54, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Giga Drain|p1a: Bastiodon
+  -damage|p1a: Bastiodon|87/252
+  -heal|p2a: Whimsicott|43/100|[from] drain|[of] p1a: Bastiodon
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|0
+-- turn 42
+  WE CHOSE: heal rest - our hp 0.35, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Giga Drain|p1a: Bastiodon
+  -damage|p1a: Bastiodon|42/252
+  -heal|p2a: Whimsicott|53/100|[from] drain|[of] p1a: Bastiodon
+  move|p1a: Bastiodon|Rest|p1a: Bastiodon
+  -status|p1a: Bastiodon|slp|[from] move: Rest
+  -heal|p1a: Bastiodon|252/252 slp|[silent]
+-- turn 43
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Giga Drain|p1a: Bastiodon
+  -damage|p1a: Bastiodon|210/252 slp
+  -heal|p2a: Whimsicott|62/100|[from] drain|[of] p1a: Bastiodon
+  cant|p1a: Bastiodon|slp
+-- turn 44
+  WE CHOSE: attack irondefense (hand policy: attack foulplay) - our hp 0.83, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Giga Drain|p1a: Bastiodon
+  -damage|p1a: Bastiodon|167/252 slp
+  -heal|p2a: Whimsicott|71/100|[from] drain|[of] p1a: Bastiodon
+  cant|p1a: Bastiodon|slp
+-- turn 45
+  WE CHOSE: heal rest (hand policy: attack foulplay) - our hp 0.66, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Giga Drain|p1a: Bastiodon
+  -damage|p1a: Bastiodon|119/252 slp
+  -heal|p2a: Whimsicott|81/100|[from] drain|[of] p1a: Bastiodon
+  -curestatus|p1a: Bastiodon|slp|[msg]
+  move|p1a: Bastiodon|Rest|p1a: Bastiodon
+  -status|p1a: Bastiodon|slp|[from] move: Rest
+  -heal|p1a: Bastiodon|252/252 slp|[silent]
+-- turn 46
+  WE CHOSE: heal rest (hand policy: attack foulplay) - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Giga Drain|p1a: Bastiodon
+  -damage|p1a: Bastiodon|207/252 slp
+  -heal|p2a: Whimsicott|91/100|[from] drain|[of] p1a: Bastiodon
+  cant|p1a: Bastiodon|slp
+-- turn 47
+  WE CHOSE: heal rest (hand policy: attack foulplay) - our hp 0.82, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Giga Drain|p1a: Bastiodon
+  -damage|p1a: Bastiodon|161/252 slp
+  -heal|p2a: Whimsicott|100/100|[from] drain|[of] p1a: Bastiodon
+  cant|p1a: Bastiodon|slp
+-- turn 48
+  WE CHOSE: attack bodypress (hand policy: attack foulplay) - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Giga Drain|p1a: Bastiodon
+  -damage|p1a: Bastiodon|113/252 slp
+  -curestatus|p1a: Bastiodon|slp|[msg]
+  move|p1a: Bastiodon|Body Press|p2a: Whimsicott
+  -resisted|p2a: Whimsicott
+  -damage|p2a: Whimsicott|11/100
+-- turn 49
+  WE CHOSE: attack irondefense (hand policy: heal rest) - our hp 0.45, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Giga Drain|p1a: Bastiodon
+  -damage|p1a: Bastiodon|71/252
+  -heal|p2a: Whimsicott|20/100|[from] drain|[of] p1a: Bastiodon
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|0
+-- turn 50
+  WE CHOSE: attack irondefense (hand policy: heal rest) - our hp 0.28, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Giga Drain|p1a: Bastiodon
+  -damage|p1a: Bastiodon|26/252
+  -heal|p2a: Whimsicott|29/100|[from] drain|[of] p1a: Bastiodon
+  move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+  -boost|p1a: Bastiodon|def|0
+-- turn 51
+  WE CHOSE: heal rest - our hp 0.10, theirs 0.29, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to barraskewda - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x0.5
+  move|p2a: Whimsicott|Giga Drain|p1a: Bastiodon
+  -damage|p1a: Bastiodon|0 fnt
+  -heal|p2a: Whimsicott|35/100|[from] drain|[of] p1a: Bastiodon
+  faint|p1a: Bastiodon
+  switch|p1a: Barraskewda|Barraskewda, L81, M|231/231
+-- turn 52
+  WE CHOSE: attack psychicfangs - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p1a: Barraskewda|Psychic Fangs|p2a: Whimsicott
+  -damage|p2a: Whimsicott|0 fnt
+  faint|p2a: Whimsicott
+  switch|p2a: Squawkabilly|Squawkabilly-White, L89, M|100/100
+-- turn 53
+  WE CHOSE: attack psychicfangs - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to phione - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p1a: Barraskewda|Psychic Fangs|p2a: Squawkabilly
+  -damage|p2a: Squawkabilly|54/100
+  move|p2a: Squawkabilly|Double-Edge|p1a: Barraskewda
+  -damage|p1a: Barraskewda|0 fnt
+  faint|p1a: Barraskewda
+  -damage|p2a: Squawkabilly|28/100|[from] Recoil
+  switch|p1a: Phione|Phione, L91|293/293
+-- turn 54
+  WE CHOSE: heal rest (hand policy: attack scald) - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p2a: Squawkabilly|Double-Edge|p1a: Phione|[miss]
+  -miss|p2a: Squawkabilly|p1a: Phione
+  move|p1a: Phione|Rest|p1a: Phione
+  -fail|p1a: Phione|heal
+-- turn 55
+  WE CHOSE: heal rest (hand policy: attack scald) - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p2a: Squawkabilly|Double-Edge|p1a: Phione|[miss]
+  -miss|p2a: Squawkabilly|p1a: Phione
+  move|p1a: Phione|Rest|p1a: Phione
+  -fail|p1a: Phione|heal
+-- turn 56
+  WE CHOSE: heal rest (hand policy: attack scald) - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p2a: Squawkabilly|Double-Edge|p1a: Phione
+  -damage|p1a: Phione|0 fnt
+  faint|p1a: Phione
+  -damage|p2a: Squawkabilly|0 fnt|[from] Recoil
+  faint|p2a: Squawkabilly

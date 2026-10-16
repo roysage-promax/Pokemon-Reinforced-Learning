@@ -1,0 +1,228 @@
+battle 1834 (battle-gen9randombattle-1023545): lost in 24 turns, 0 of theirs left; we are p1
+
+ours:
+  rampardos (fainted; item lifeorb, ability sheerforce, tera rock; moves zenheadbutt/earthquake/rockslide/firepunch)
+  annihilape (fainted; item leftovers, ability defiant; moves drainpunch/bulkup/ragefist/taunt)
+  landorus (fainted; item lifeorb, ability sheerforce; moves sludgewave/focusblast/nastyplot/earthpower)
+  probopass (fainted; item ?, ability magnetpull; moves bodypress/rest/irondefense/powergem)
+  grimmsnarl (fainted; item lightclay, ability prankster; moves thunderwave/lightscreen/spiritbreak/reflect)
+  cetitan (fainted; item ?, ability thickfat; moves iceshard/earthquake/bellydrum/icespinner)
+theirs (as seen):
+  froslass (fainted; item unknown_item, ability ?; moves poltergeist)
+  golemalola (fainted; item lifeorb, ability ?; moves doubleedge)
+  ninetales (fainted; item unknown_item, ability ?; moves solarbeam)
+  clawitzer (fainted; item unknown_item, ability megalauncher; moves dragonpulse)
+  ribombee (fainted; item unknown_item, ability ?; moves moonblast)
+  skarmory (fainted; item leftovers, ability ?; moves bravebird)
+
+-- turn 0
+  switch|p1a: Rampardos|Rampardos, L90, F|321/321
+  switch|p2a: Froslass|Froslass, L87, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera rockslide - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Rampardos|Rock
+  move|p2a: Froslass|Poltergeist|p1a: Rampardos
+  -activate|p1a: Rampardos|move: Poltergeist|Life Orb
+  -damage|p1a: Rampardos|189/321
+  move|p1a: Rampardos|Rock Slide|p2a: Froslass|[miss]
+  -miss|p1a: Rampardos|p2a: Froslass
+-- turn 2
+  WE CHOSE: attack rockslide - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to probopass - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Froslass|Poltergeist|p1a: Rampardos
+  -activate|p1a: Rampardos|move: Poltergeist|Life Orb
+  -crit|p1a: Rampardos
+  -damage|p1a: Rampardos|0 fnt
+  faint|p1a: Rampardos
+  switch|p1a: Probopass|Probopass, L91, M|257/257
+-- turn 3
+  WE CHOSE: attack powergem - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Froslass|Poltergeist|p1a: Probopass
+  -activate|p1a: Probopass|move: Poltergeist|Chesto Berry
+  -damage|p1a: Probopass|194/257
+  move|p1a: Probopass|Power Gem|p2a: Froslass
+  -supereffective|p2a: Froslass
+  -damage|p2a: Froslass|31/100
+  -start|p1a: Probopass|Disable|Power Gem|[from] ability: Cursed Body|[of] p2a: Froslass
+-- turn 4
+  WE CHOSE: attack bodypress - our hp 0.75, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Froslass|Poltergeist|p1a: Probopass
+  -activate|p1a: Probopass|move: Poltergeist|Chesto Berry
+  -damage|p1a: Probopass|121/257
+  move|p1a: Probopass|Body Press|p2a: Froslass
+  -immune|p2a: Froslass
+-- turn 5
+  WE CHOSE: heal rest - our hp 0.47, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Froslass|Poltergeist|p1a: Probopass
+  -activate|p1a: Probopass|move: Poltergeist|Chesto Berry
+  -damage|p1a: Probopass|57/257
+  move|p1a: Probopass|Rest|p1a: Probopass
+  -status|p1a: Probopass|slp|[from] move: Rest
+  -heal|p1a: Probopass|257/257 slp|[silent]
+  -enditem|p1a: Probopass|Chesto Berry|[eat]
+  -curestatus|p1a: Probopass|slp|[msg]
+-- turn 6
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Froslass|Poltergeist||[still]
+  -fail|p2a: Froslass
+  move|p1a: Probopass|Body Press|p2a: Froslass
+  -immune|p2a: Froslass
+  -end|p1a: Probopass|Disable
+-- turn 7
+  WE CHOSE: attack powergem - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Froslass|Poltergeist||[still]
+  -fail|p2a: Froslass
+  move|p1a: Probopass|Power Gem|p2a: Froslass
+  -supereffective|p2a: Froslass
+  -damage|p2a: Froslass|0 fnt
+  faint|p2a: Froslass
+  switch|p2a: Golem|Golem-Alola, L93, F|100/100
+-- turn 8
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p2a: Golem|Double-Edge|p1a: Probopass
+  -damage|p1a: Probopass|85/257
+  -damage|p2a: Golem|81/100|[from] Recoil
+  -damage|p2a: Golem|71/100|[from] item: Life Orb
+  move|p1a: Probopass|Body Press|p2a: Golem
+  -supereffective|p2a: Golem
+  -damage|p2a: Golem|33/100
+-- turn 9
+  WE CHOSE: heal rest - our hp 0.33, theirs 0.33, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to annihilape - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x0.25
+  move|p2a: Golem|Double-Edge|p1a: Probopass
+  -damage|p1a: Probopass|0 fnt
+  faint|p1a: Probopass
+  -damage|p2a: Golem|23/100|[from] Recoil
+  -damage|p2a: Golem|13/100|[from] item: Life Orb
+  switch|p1a: Annihilape|Annihilape, L76, M|292/292
+-- turn 10
+  WE CHOSE: setup bulkup - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0
+  move|p1a: Annihilape|Bulk Up|p1a: Annihilape
+  -boost|p1a: Annihilape|atk|1
+  -boost|p1a: Annihilape|def|1
+  move|p2a: Golem|Double-Edge|p1a: Annihilape
+  -damage|p1a: Annihilape|61/292
+  -damage|p2a: Golem|0 fnt|[from] Recoil
+  faint|p2a: Golem
+  -heal|p1a: Annihilape|79/292|[from] item: Leftovers
+  switch|p2a: Ninetales|Ninetales, L85, M|100/100
+  -weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+-- turn 11
+  WE CHOSE: attack drainpunch - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to landorus - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Annihilape
+  -damage|p1a: Annihilape|0 fnt
+  faint|p1a: Annihilape
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Landorus|Landorus, L75, M|257/257
+-- turn 12
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Landorus
+  -damage|p1a: Landorus|164/257
+  move|p1a: Landorus|Earth Power|p2a: Ninetales
+  -supereffective|p2a: Ninetales
+  -damage|p2a: Ninetales|5/100
+  -weather|SunnyDay|[upkeep]
+-- turn 13
+  WE CHOSE: attack earthpower - our hp 0.64, theirs 0.05, predicted move (revealed) hits us x1
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Landorus
+  -damage|p1a: Landorus|65/257
+  move|p1a: Landorus|Earth Power|p2a: Ninetales
+  -supereffective|p2a: Ninetales
+  -damage|p2a: Ninetales|0 fnt
+  faint|p2a: Ninetales
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Clawitzer|Clawitzer, L87, F|100/100
+-- turn 14
+  WE CHOSE: switch to cetitan - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Cetitan|Cetitan, L82, M|412/412
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Cetitan
+  -damage|p1a: Cetitan|256/412
+  -weather|SunnyDay|[upkeep]
+-- turn 15
+  WE CHOSE: switch to grimmsnarl - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Grimmsnarl|Grimmsnarl, L83, M|293/293
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Grimmsnarl
+  -immune|p1a: Grimmsnarl
+  -weather|none
+-- turn 16
+  WE CHOSE: attack spiritbreak - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Grimmsnarl
+  -immune|p1a: Grimmsnarl
+  move|p1a: Grimmsnarl|Spirit Break|p2a: Clawitzer
+  -damage|p2a: Clawitzer|66/100
+  -unboost|p2a: Clawitzer|spa|1
+-- turn 17
+  WE CHOSE: attack spiritbreak - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x0
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Grimmsnarl
+  -immune|p1a: Grimmsnarl
+  move|p1a: Grimmsnarl|Spirit Break|p2a: Clawitzer
+  -damage|p2a: Clawitzer|34/100
+  -unboost|p2a: Clawitzer|spa|1
+-- turn 18
+  WE CHOSE: attack spiritbreak - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x0
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Grimmsnarl
+  -immune|p1a: Grimmsnarl
+  move|p1a: Grimmsnarl|Spirit Break|p2a: Clawitzer
+  -damage|p2a: Clawitzer|0 fnt
+  faint|p2a: Clawitzer
+  switch|p2a: Ribombee|Ribombee, L83, F|100/100
+-- turn 19
+  WE CHOSE: attack spiritbreak - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Ribombee|Moonblast|p1a: Grimmsnarl
+  -supereffective|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|53/293
+  -unboost|p1a: Grimmsnarl|spa|1
+  move|p1a: Grimmsnarl|Spirit Break|p2a: Ribombee
+  -damage|p2a: Ribombee|51/100
+-- turn 20
+  WE CHOSE: attack spiritbreak - our hp 0.18, theirs 0.51, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to landorus - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x2
+  move|p2a: Ribombee|Moonblast|p1a: Grimmsnarl
+  -supereffective|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|0 fnt
+  faint|p1a: Grimmsnarl
+  switch|p1a: Landorus|Landorus, L75, M|65/257
+-- turn 21
+  WE CHOSE: attack sludgewave - our hp 0.25, theirs 0.51, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cetitan - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Ribombee|Moonblast|p1a: Landorus
+  -damage|p1a: Landorus|0 fnt
+  faint|p1a: Landorus
+  switch|p1a: Cetitan|Cetitan, L82, M|256/412
+-- turn 22
+  WE CHOSE: attack icespinner - our hp 0.62, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Ribombee|Moonblast|p1a: Cetitan
+  -damage|p1a: Cetitan|127/412
+  -unboost|p1a: Cetitan|spa|1
+  -enditem|p1a: Cetitan|Sitrus Berry|[eat]
+  -heal|p1a: Cetitan|230/412|[from] item: Sitrus Berry
+  move|p1a: Cetitan|Ice Spinner|p2a: Ribombee
+  -damage|p2a: Ribombee|0 fnt
+  faint|p2a: Ribombee
+  switch|p2a: Skarmory|Skarmory, L80, M|100/100
+-- turn 23
+  WE CHOSE: attack icespinner - our hp 0.56, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Cetitan|Ice Spinner|p2a: Skarmory
+  -crit|p2a: Skarmory
+  -damage|p2a: Skarmory|57/100
+  move|p2a: Skarmory|Brave Bird|p1a: Cetitan
+  -damage|p1a: Cetitan|100/412
+  -damage|p2a: Skarmory|39/100|[from] Recoil
+  -heal|p2a: Skarmory|45/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack icespinner - our hp 0.24, theirs 0.45, predicted move (revealed) hits us x1
+  move|p1a: Cetitan|Ice Spinner|p2a: Skarmory
+  -damage|p2a: Skarmory|14/100
+  move|p2a: Skarmory|Brave Bird|p1a: Cetitan
+  -crit|p1a: Cetitan
+  -damage|p1a: Cetitan|0 fnt
+  faint|p1a: Cetitan
+  -damage|p2a: Skarmory|0 fnt|[from] Recoil
+  faint|p2a: Skarmory

@@ -1,0 +1,288 @@
+battle 1635 (battle-gen9randombattle-1022936): lost in 32 turns, 1 of theirs left; we are p1
+
+ours:
+  altaria (fainted; item heavydutyboots, ability naturalcure, tera steel; moves willowisp/roost/defog/bravebird)
+  illumise (fainted; item heavydutyboots, ability prankster; moves roost/encore/thunderwave/bugbuzz)
+  walkingwake (fainted; item lifeorb, ability protosynthesis; moves flamethrower/hydrosteam/dracometeor/sunnyday)
+  toxapex (fainted; item rockyhelmet, ability regenerator; moves haze/toxicspikes/recover/liquidation)
+  eiscuenoice (fainted; item ?, ability iceface; moves terablast/icespinner/liquidation/bellydrum)
+  reuniclus (fainted; item lifeorb, ability magicguard; moves calmmind/focusblast/recover/psychic)
+theirs (as seen):
+  lokix (fainted; item unknown_item, ability ?; moves firstimpression)
+  grafaiai (fainted; item unknown_item, ability ?; moves gunkshot)
+  pincurchin (fainted; item leftovers, ability ?; moves thunderbolt)
+  ursaring (fainted; item unknown_item, ability ?; moves bodyslam)
+  honchkrow (fainted; item unknown_item, ability moxie; moves bravebird)
+  luxray (55%; item unknown_item, ability intimidate; moves playrough)
+
+-- turn 0
+  switch|p1a: Altaria|Altaria, L89, M|278/278
+  switch|p2a: Lokix|Lokix, L82, M|100/100
+-- turn 1
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Lokix|First Impression|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|170/278
+  move|p1a: Altaria|Brave Bird|p2a: Lokix
+  -supereffective|p2a: Lokix
+  -damage|p2a: Lokix|2/100
+  -damage|p1a: Altaria|88/278|[from] Recoil
+-- turn 2
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.32, theirs 0.02, predicted move (revealed) hits us x0.5
+  move|p2a: Lokix|First Impression||[still]
+  -fail|p2a: Lokix
+  move|p1a: Altaria|Brave Bird|p2a: Lokix
+  -supereffective|p2a: Lokix
+  -damage|p2a: Lokix|0 fnt
+  faint|p2a: Lokix
+  -damage|p1a: Altaria|87/278|[from] Recoil
+  switch|p2a: Grafaiai|Grafaiai, L86, F|100/100
+-- turn 3
+  WE CHOSE: attack+tera bravebird (hand policy: heal roost) - our hp 0.31, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Altaria|Steel
+  move|p2a: Grafaiai|Gunk Shot|p1a: Altaria
+  -immune|p1a: Altaria
+  move|p1a: Altaria|Brave Bird|p2a: Grafaiai
+  -damage|p2a: Grafaiai|50/100
+  -damage|p1a: Altaria|45/278|[from] Recoil
+-- turn 4
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.16, theirs 0.50, predicted move (revealed) hits us x0
+  move|p2a: Grafaiai|Gunk Shot|p1a: Altaria
+  -immune|p1a: Altaria
+  move|p1a: Altaria|Brave Bird|p2a: Grafaiai
+  -damage|p2a: Grafaiai|0 fnt
+  faint|p2a: Grafaiai
+  -damage|p1a: Altaria|4/278|[from] Recoil
+  switch|p2a: Pincurchin|Pincurchin, F|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+-- turn 5
+  WE CHOSE: heal roost - our hp 0.01, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Altaria|Roost|p1a: Altaria
+  -heal|p1a: Altaria|143/278
+  move|p2a: Pincurchin|Thunderbolt|p1a: Altaria
+  -damage|p1a: Altaria|13/278
+-- turn 6
+  WE CHOSE: heal roost - our hp 0.05, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to walkingwake - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Altaria|Roost|p1a: Altaria
+  -heal|p1a: Altaria|152/278
+  move|p2a: Pincurchin|Thunderbolt|p1a: Altaria
+  -crit|p1a: Altaria
+  -damage|p1a: Altaria|0 fnt
+  faint|p1a: Altaria
+  switch|p1a: Walking Wake|Walking Wake, L79|286/286
+-- turn 7
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Walking Wake|Draco Meteor|p2a: Pincurchin
+  -damage|p2a: Pincurchin|40/100
+  -unboost|p1a: Walking Wake|spa|2
+  -damage|p1a: Walking Wake|258/286|[from] item: Life Orb
+  move|p2a: Pincurchin|Thunderbolt|p1a: Walking Wake
+  -damage|p1a: Walking Wake|86/286
+  -heal|p2a: Pincurchin|46/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 0.30, theirs 0.46, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to illumise - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Walking Wake|Draco Meteor|p2a: Pincurchin|[miss]
+  -miss|p1a: Walking Wake|p2a: Pincurchin
+  move|p2a: Pincurchin|Thunderbolt|p1a: Walking Wake
+  -damage|p1a: Walking Wake|0 fnt
+  faint|p1a: Walking Wake
+  -end|p1a: Walking Wake|Protosynthesis|[silent]
+  -heal|p2a: Pincurchin|52/100|[from] item: Leftovers
+  switch|p1a: Illumise|Illumise, L91, F|266/266
+-- turn 9
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Bug Buzz|p2a: Pincurchin
+  -damage|p2a: Pincurchin|23/100
+  move|p2a: Pincurchin|Thunderbolt|p1a: Illumise
+  -damage|p1a: Illumise|97/266
+  -heal|p2a: Pincurchin|29/100|[from] item: Leftovers
+  -fieldend|move: Electric Terrain
+-- turn 10
+  WE CHOSE: heal roost - our hp 0.36, theirs 0.29, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|230/266
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Pincurchin|Thunderbolt|p1a: Illumise
+  -damage|p1a: Illumise|98/266
+  -heal|p2a: Pincurchin|35/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: heal roost - our hp 0.37, theirs 0.35, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|231/266
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Pincurchin|Thunderbolt|p1a: Illumise
+  -damage|p1a: Illumise|114/266
+  -heal|p2a: Pincurchin|42/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: heal roost - our hp 0.43, theirs 0.42, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|247/266
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Pincurchin|Thunderbolt|p1a: Illumise
+  -damage|p1a: Illumise|121/266
+  -heal|p2a: Pincurchin|48/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.45, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|254/266
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Pincurchin|Thunderbolt|p1a: Illumise
+  -damage|p1a: Illumise|140/266
+  -heal|p2a: Pincurchin|54/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal roost (hand policy: attack bugbuzz) - our hp 0.53, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|266/266
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Pincurchin|Thunderbolt|p1a: Illumise
+  -damage|p1a: Illumise|140/266
+  -heal|p2a: Pincurchin|60/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal roost (hand policy: attack bugbuzz) - our hp 0.53, theirs 0.60, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|266/266
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Pincurchin|Thunderbolt|p1a: Illumise
+  -damage|p1a: Illumise|151/266
+  -heal|p2a: Pincurchin|66/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: heal roost (hand policy: attack bugbuzz) - our hp 0.57, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|266/266
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Pincurchin|Thunderbolt|p1a: Illumise
+  -damage|p1a: Illumise|149/266
+  -heal|p2a: Pincurchin|73/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: heal roost (hand policy: attack bugbuzz) - our hp 0.56, theirs 0.73, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|266/266
+  -singleturn|p1a: Illumise|move: Roost
+  move|p2a: Pincurchin|Thunderbolt|p1a: Illumise
+  -damage|p1a: Illumise|151/266
+  -heal|p2a: Pincurchin|79/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack bugbuzz - our hp 0.57, theirs 0.79, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Bug Buzz|p2a: Pincurchin
+  -damage|p2a: Pincurchin|47/100
+  move|p2a: Pincurchin|Thunderbolt|p1a: Illumise
+  -damage|p1a: Illumise|30/266
+  -heal|p2a: Pincurchin|54/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack bugbuzz - our hp 0.11, theirs 0.54, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to reuniclus - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p1a: Illumise|Bug Buzz|p2a: Pincurchin
+  -damage|p2a: Pincurchin|22/100
+  move|p2a: Pincurchin|Thunderbolt|p1a: Illumise
+  -damage|p1a: Illumise|0 fnt
+  faint|p1a: Illumise
+  -heal|p2a: Pincurchin|28/100|[from] item: Leftovers
+  switch|p1a: Reuniclus|Reuniclus, L88, M|337/337
+-- turn 20
+  WE CHOSE: setup calmmind (hand policy: attack psychic) - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+  -boost|p1a: Reuniclus|spa|1
+  -boost|p1a: Reuniclus|spd|1
+  move|p2a: Pincurchin|Thunderbolt|p1a: Reuniclus
+  -damage|p1a: Reuniclus|247/337
+  -heal|p2a: Pincurchin|35/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack psychic - our hp 0.73, theirs 0.35, predicted move (revealed) hits us x1
+  move|p1a: Reuniclus|Psychic|p2a: Pincurchin
+  -damage|p2a: Pincurchin|0 fnt
+  faint|p2a: Pincurchin
+  switch|p2a: Ursaring|Ursaring, L84, F|100/100
+-- turn 22
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Ursaring|Body Slam|p1a: Reuniclus
+  -damage|p1a: Reuniclus|118/337
+  -status|p1a: Reuniclus|par
+  move|p1a: Reuniclus|Recover|p1a: Reuniclus
+  -heal|p1a: Reuniclus|287/337 par
+-- turn 23
+  WE CHOSE: attack psychic (hand policy: attack focusblast) - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Ursaring|Body Slam|p1a: Reuniclus
+  -damage|p1a: Reuniclus|161/337 par
+  move|p1a: Reuniclus|Psychic|p2a: Ursaring
+  -damage|p2a: Ursaring|31/100
+-- turn 24
+  WE CHOSE: attack psychic (hand policy: heal recover) - our hp 0.48, theirs 0.31, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to toxapex - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Ursaring|Body Slam|p1a: Reuniclus
+  -crit|p1a: Reuniclus
+  -damage|p1a: Reuniclus|0 fnt
+  faint|p1a: Reuniclus
+  switch|p1a: Toxapex|Toxapex, L82, F|216/216
+-- turn 25
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Ursaring|Body Slam|p1a: Toxapex
+  -damage|p1a: Toxapex|141/216
+  -damage|p2a: Ursaring|14/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+  move|p1a: Toxapex|Liquidation|p2a: Ursaring
+  -damage|p2a: Ursaring|0 fnt
+  faint|p2a: Ursaring
+  switch|p2a: Honchkrow|Honchkrow, L86, M|100/100
+-- turn 26
+  WE CHOSE: attack liquidation - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Honchkrow|Brave Bird|p1a: Toxapex
+  -damage|p1a: Toxapex|38/216
+  -damage|p2a: Honchkrow|84/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+  -damage|p2a: Honchkrow|73/100|[from] Recoil
+  move|p1a: Toxapex|Liquidation|p2a: Honchkrow
+  -damage|p2a: Honchkrow|42/100
+-- turn 27
+  WE CHOSE: attack liquidation (hand policy: heal recover) - our hp 0.18, theirs 0.42, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to eiscue - our hp 0.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Honchkrow|Brave Bird|p1a: Toxapex
+  -damage|p1a: Toxapex|0 fnt
+  -damage|p2a: Honchkrow|25/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+  faint|p1a: Toxapex
+  -ability|p2a: Honchkrow|Moxie|boost
+  -boost|p2a: Honchkrow|atk|1
+  -damage|p2a: Honchkrow|21/100|[from] Recoil
+  switch|p1a: Eiscue|Eiscue, L88, F|274/274
+-- turn 28
+  WE CHOSE: attack icespinner - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Honchkrow|Brave Bird|p1a: Eiscue
+  -activate|p1a: Eiscue|ability: Ice Face
+  -damage|p1a: Eiscue|274/274
+  detailschange|p1a: Eiscue|Eiscue-Noice, L88, F
+  move|p1a: Eiscue|Ice Spinner|p2a: Honchkrow
+  -supereffective|p2a: Honchkrow
+  -damage|p2a: Honchkrow|0 fnt
+  faint|p2a: Honchkrow
+  switch|p2a: Luxray|Luxray, L88, F|100/100
+  -ability|p2a: Luxray|Intimidate|boost
+  -unboost|p1a: Eiscue|atk|1
+-- turn 29
+  WE CHOSE: attack terablast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Eiscue|Tera Blast|p2a: Luxray
+  -damage|p2a: Luxray|89/100
+  move|p2a: Luxray|Play Rough|p1a: Eiscue
+  -damage|p1a: Eiscue|187/274
+  -unboost|p1a: Eiscue|atk|1
+-- turn 30
+  WE CHOSE: attack terablast - our hp 0.68, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Eiscue|Tera Blast|p2a: Luxray
+  -damage|p2a: Luxray|78/100
+  move|p2a: Luxray|Play Rough|p1a: Eiscue
+  -damage|p1a: Eiscue|96/274
+  -enditem|p1a: Eiscue|Sitrus Berry|[eat]
+  -heal|p1a: Eiscue|164/274|[from] item: Sitrus Berry
+-- turn 31
+  WE CHOSE: attack terablast - our hp 0.60, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Eiscue|Tera Blast|p2a: Luxray
+  -damage|p2a: Luxray|66/100
+  move|p2a: Luxray|Play Rough|p1a: Eiscue
+  -crit|p1a: Eiscue
+  -damage|p1a: Eiscue|18/274
+-- turn 32
+  WE CHOSE: attack terablast - our hp 0.07, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Eiscue|Tera Blast|p2a: Luxray
+  -damage|p2a: Luxray|55/100
+  move|p2a: Luxray|Play Rough|p1a: Eiscue
+  -damage|p1a: Eiscue|0 fnt
+  faint|p1a: Eiscue
+  deinit

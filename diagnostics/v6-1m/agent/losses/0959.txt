@@ -1,0 +1,291 @@
+battle 959 (battle-gen9randombattle-1016067): lost in 32 turns, 1 of theirs left; we are p1
+
+ours:
+  garganacl (fainted; item leftovers, ability purifyingsalt; moves earthquake/stealthrock/recover/saltcure)
+  sudowoodo (fainted; item choiceband, ability rockhead, tera rock; moves headsmash/woodhammer/earthquake/suckerpunch)
+  flamigo (fainted; item lifeorb, ability scrappy; moves roost/bravebird/closecombat/swordsdance)
+  kyogre (fainted; item choicescarf, ability drizzle; moves thunder/icebeam/originpulse/waterspout)
+  farigiraf (fainted; item leftovers, ability sapsipper; moves bodyslam/wish/protect/psychicnoise)
+  banette (fainted; item lifeorb, ability cursedbody; moves thunderwave/gunkshot/shadowsneak/poltergeist)
+theirs (as seen):
+  blaziken (fainted; item unknown_item, ability speedboost; moves closecombat)
+  krookodile (fainted; item leftovers, ability intimidate; moves gunkshot)
+  bombirdier (fainted; item unknown_item, ability ?; moves bravebird)
+  dragalge (fainted; item unknown_item, ability ?; moves dracometeor)
+  dedenne (fainted; item ?, ability ?; moves thunderbolt)
+  polteageistantique (63%; item unknown_item, ability ?; moves shadowball)
+
+-- turn 0
+  switch|p1a: Garganacl|Garganacl, L80, F|291/291
+  switch|p2a: Blaziken|Blaziken, L76, F|100/100
+-- turn 1
+  WE CHOSE: switch to banette - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Banette|Banette, L93, M|270/270
+  move|p2a: Blaziken|Close Combat|p1a: Banette
+  -immune|p1a: Banette
+  -ability|p2a: Blaziken|Speed Boost|boost
+  -boost|p2a: Blaziken|spe|1
+-- turn 2
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Blaziken|Close Combat|p1a: Banette
+  -immune|p1a: Banette
+  move|p1a: Banette|Poltergeist|p2a: Blaziken
+  -activate|p2a: Blaziken|move: Poltergeist|Life Orb
+  -damage|p2a: Blaziken|0 fnt
+  faint|p2a: Blaziken
+  -damage|p1a: Banette|243/270|[from] item: Life Orb
+  switch|p2a: Krookodile|Krookodile, L79, M|100/100
+  -ability|p2a: Krookodile|Intimidate|boost
+  -unboost|p1a: Banette|atk|1
+-- turn 3
+  WE CHOSE: attack poltergeist - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Krookodile|Gunk Shot|p1a: Banette
+  -resisted|p1a: Banette
+  -damage|p1a: Banette|198/270
+  -status|p1a: Banette|psn
+  move|p1a: Banette|Poltergeist|p2a: Krookodile
+  -activate|p2a: Krookodile|move: Poltergeist|Leftovers
+  -resisted|p2a: Krookodile
+  -damage|p2a: Krookodile|73/100
+  -damage|p1a: Banette|171/270 psn|[from] item: Life Orb
+  -heal|p2a: Krookodile|79/100|[from] item: Leftovers
+  -damage|p1a: Banette|138/270 psn|[from] psn
+-- turn 4
+  WE CHOSE: attack poltergeist - our hp 0.51, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p2a: Krookodile|Gunk Shot|p1a: Banette
+  -resisted|p1a: Banette
+  -damage|p1a: Banette|93/270 psn
+  move|p1a: Banette|Poltergeist|p2a: Krookodile
+  -activate|p2a: Krookodile|move: Poltergeist|Leftovers
+  -resisted|p2a: Krookodile
+  -damage|p2a: Krookodile|50/100
+  -damage|p1a: Banette|66/270 psn|[from] item: Life Orb
+  -heal|p2a: Krookodile|57/100|[from] item: Leftovers
+  -damage|p1a: Banette|33/270 psn|[from] psn
+-- turn 5
+  WE CHOSE: attack poltergeist - our hp 0.12, theirs 0.57, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to sudowoodo - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p2a: Krookodile|Gunk Shot|p1a: Banette
+  -resisted|p1a: Banette
+  -damage|p1a: Banette|0 fnt
+  faint|p1a: Banette
+  -heal|p2a: Krookodile|63/100|[from] item: Leftovers
+  switch|p1a: Sudowoodo|Sudowoodo, L94, F|284/284
+-- turn 6
+  WE CHOSE: attack woodhammer - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p2a: Krookodile|Gunk Shot|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|254/284
+  move|p1a: Sudowoodo|Wood Hammer|p2a: Krookodile
+  -supereffective|p2a: Krookodile
+  -damage|p2a: Krookodile|0 fnt
+  faint|p2a: Krookodile
+  switch|p2a: Bombirdier|Bombirdier, L85, M|100/100
+-- turn 7
+  WE CHOSE: switch to kyogre (hand policy: attack woodhammer) - our hp 0.89, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Kyogre|Kyogre, L71|259/259
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+  move|p2a: Bombirdier|Brave Bird|p1a: Kyogre
+  -damage|p1a: Kyogre|90/259
+  -damage|p2a: Bombirdier|79/100|[from] Recoil
+  -weather|RainDance|[upkeep]
+-- turn 8
+  WE CHOSE: switch to sudowoodo (hand policy: attack+tera waterspout) - our hp 0.35, theirs 0.79, predicted move (revealed) hits us x1
+  switch|p1a: Sudowoodo|Sudowoodo, L94, F|254/284
+  move|p2a: Bombirdier|Brave Bird|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|206/284
+  -damage|p2a: Bombirdier|73/100|[from] Recoil
+  -weather|RainDance|[upkeep]
+-- turn 9
+  WE CHOSE: attack+tera headsmash - our hp 0.73, theirs 0.73, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Sudowoodo|Rock
+  move|p2a: Bombirdier|Brave Bird|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|156/284
+  -damage|p2a: Bombirdier|66/100|[from] Recoil
+  move|p1a: Sudowoodo|Head Smash|p2a: Bombirdier
+  -supereffective|p2a: Bombirdier
+  -damage|p2a: Bombirdier|0 fnt
+  faint|p2a: Bombirdier
+  -weather|RainDance|[upkeep]
+  switch|p2a: Dragalge|Dragalge, L88, F|100/100
+-- turn 10
+  WE CHOSE: switch to farigiraf (hand policy: attack headsmash) - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Farigiraf|Farigiraf, L90, F|362/362
+  move|p2a: Dragalge|Draco Meteor|p1a: Farigiraf
+  -damage|p1a: Farigiraf|134/362
+  -unboost|p2a: Dragalge|spa|2
+  -weather|RainDance|[upkeep]
+  -heal|p1a: Farigiraf|156/362|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack psychicnoise - our hp 0.43, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Farigiraf|Psychic Noise|p2a: Dragalge
+  -supereffective|p2a: Dragalge
+  -damage|p2a: Dragalge|38/100
+  -start|p2a: Dragalge|move: Heal Block
+  move|p2a: Dragalge|Draco Meteor|p1a: Farigiraf
+  -damage|p1a: Farigiraf|36/362
+  -unboost|p2a: Dragalge|spa|2
+  -weather|none
+  -heal|p1a: Farigiraf|58/362|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack psychicnoise - our hp 0.16, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Farigiraf|Psychic Noise|p2a: Dragalge
+  -supereffective|p2a: Dragalge
+  -damage|p2a: Dragalge|0 fnt
+  faint|p2a: Dragalge
+  -heal|p1a: Farigiraf|80/362|[from] item: Leftovers
+  switch|p2a: Dedenne|Dedenne, L88, F|100/100
+-- turn 13
+  WE CHOSE: switch to sudowoodo (hand policy: attack bodyslam) - our hp 0.22, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to garganacl - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Sudowoodo|Sudowoodo, L94, F, tera:Rock|156/284
+  move|p2a: Dedenne|Thunderbolt|p1a: Sudowoodo
+  -crit|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|0 fnt
+  faint|p1a: Sudowoodo
+  switch|p1a: Garganacl|Garganacl, L80, F|291/291
+-- turn 14
+  WE CHOSE: heal recover (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Garganacl
+  -damage|p1a: Garganacl|189/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+-- turn 15
+  WE CHOSE: heal recover (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Garganacl
+  -damage|p1a: Garganacl|192/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+-- turn 16
+  WE CHOSE: heal recover (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Garganacl
+  -damage|p1a: Garganacl|203/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+-- turn 17
+  WE CHOSE: heal recover (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Garganacl
+  -damage|p1a: Garganacl|188/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+-- turn 18
+  WE CHOSE: heal recover (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Garganacl
+  -crit|p1a: Garganacl
+  -damage|p1a: Garganacl|159/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+-- turn 19
+  WE CHOSE: heal recover (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Garganacl
+  -damage|p1a: Garganacl|191/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+-- turn 20
+  WE CHOSE: heal recover (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Garganacl
+  -damage|p1a: Garganacl|198/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+-- turn 21
+  WE CHOSE: heal recover (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Garganacl
+  -damage|p1a: Garganacl|194/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Garganacl
+  -crit|p1a: Garganacl
+  -damage|p1a: Garganacl|140/291
+  move|p1a: Garganacl|Earthquake|p2a: Dedenne
+  -supereffective|p2a: Dedenne
+  -damage|p2a: Dedenne|28/100
+  -enditem|p2a: Dedenne|Sitrus Berry|[eat]
+  -heal|p2a: Dedenne|53/100|[from] item: Sitrus Berry
+  -heal|p2a: Dedenne|87/100|[from] ability: Cheek Pouch
+  -heal|p1a: Garganacl|158/291|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 0.54, theirs 0.87, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Garganacl
+  -damage|p1a: Garganacl|58/291
+  move|p1a: Garganacl|Earthquake|p2a: Dedenne
+  -supereffective|p2a: Dedenne
+  -damage|p2a: Dedenne|23/100
+  -heal|p1a: Garganacl|76/291|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack earthquake - our hp 0.26, theirs 0.23, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to farigiraf - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Garganacl
+  -damage|p1a: Garganacl|0 fnt
+  faint|p1a: Garganacl
+  switch|p1a: Farigiraf|Farigiraf, L90, F|80/362
+-- turn 25
+  WE CHOSE: attack bodyslam - our hp 0.22, theirs 0.23, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kyogre - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Farigiraf
+  -damage|p1a: Farigiraf|0 fnt
+  faint|p1a: Farigiraf
+  switch|p1a: Kyogre|Kyogre, L71|90/259
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+-- turn 26
+  WE CHOSE: attack waterspout - our hp 0.35, theirs 0.23, predicted move (revealed) hits us x2
+  move|p1a: Kyogre|Water Spout|p2a: Dedenne
+  -damage|p2a: Dedenne|0 fnt
+  faint|p2a: Dedenne
+  -weather|RainDance|[upkeep]
+  switch|p2a: Polteageist|Polteageist-Antique, L78|100/100
+-- turn 27
+  WE CHOSE: attack waterspout - our hp 0.35, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Kyogre|Water Spout|p2a: Polteageist
+  -damage|p2a: Polteageist|69/100
+  -start|p1a: Kyogre|Disable|Water Spout|[from] ability: Cursed Body|[of] p2a: Polteageist
+  move|p2a: Polteageist|Shadow Ball|p1a: Kyogre
+  -damage|p1a: Kyogre|14/259
+  -unboost|p1a: Kyogre|spd|1
+  -weather|RainDance|[upkeep]
+-- turn 28
+  WE CHOSE: switch to flamigo (hand policy: attack thunder) - our hp 0.05, theirs 0.69, predicted move (revealed) hits us x1
+  switch|p1a: Flamigo|Flamigo, L82, M|269/269
+  move|p2a: Polteageist|Shadow Ball|p1a: Flamigo
+  -damage|p1a: Flamigo|145/269
+  -unboost|p1a: Flamigo|spd|1
+  -weather|RainDance|[upkeep]
+-- turn 29
+  WE CHOSE: heal roost (hand policy: attack bravebird) - our hp 0.54, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Flamigo|Roost|p1a: Flamigo
+  -heal|p1a: Flamigo|269/269
+  -singleturn|p1a: Flamigo|move: Roost
+  move|p2a: Polteageist|Shadow Ball|p1a: Flamigo
+  -damage|p1a: Flamigo|82/269
+  -weather|RainDance|[upkeep]
+-- turn 30
+  WE CHOSE: heal roost - our hp 0.30, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Flamigo|Roost|p1a: Flamigo
+  -heal|p1a: Flamigo|217/269
+  -singleturn|p1a: Flamigo|move: Roost
+  move|p2a: Polteageist|Shadow Ball|p1a: Flamigo
+  -damage|p1a: Flamigo|42/269
+  -unboost|p1a: Flamigo|spd|1
+  -weather|none
+-- turn 31
+  WE CHOSE: heal roost - our hp 0.16, theirs 0.69, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kyogre - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Flamigo|Roost|p1a: Flamigo
+  -heal|p1a: Flamigo|177/269
+  -singleturn|p1a: Flamigo|move: Roost
+  move|p2a: Polteageist|Shadow Ball|p1a: Flamigo
+  -damage|p1a: Flamigo|0 fnt
+  faint|p1a: Flamigo
+  switch|p1a: Kyogre|Kyogre, L71|14/259
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+-- turn 32
+  WE CHOSE: attack waterspout - our hp 0.05, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Kyogre|Water Spout|p2a: Polteageist
+  -damage|p2a: Polteageist|63/100
+  move|p2a: Polteageist|Shadow Ball|p1a: Kyogre
+  -damage|p1a: Kyogre|0 fnt
+  faint|p1a: Kyogre
+  deinit

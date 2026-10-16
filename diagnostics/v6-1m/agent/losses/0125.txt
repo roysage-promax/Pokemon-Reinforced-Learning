@@ -1,0 +1,348 @@
+battle 125 (battle-gen9randombattle-1007552): lost in 43 turns, 0 of theirs left; we are p1
+
+ours:
+  dipplin (fainted; item eviolite, ability stickyhold, tera steel; moves dragontail/dragonpulse/gigadrain/recover)
+  golem (fainted; item ?, ability sturdy; moves earthquake/stoneedge/explosion/rockpolish)
+  lumineon (fainted; item heavydutyboots, ability stormdrain; moves encore/uturn/icebeam/hydropump)
+  rillaboom (fainted; item choiceband, ability grassysurge; moves uturn/grassyglide/highhorsepower/woodhammer)
+  beartic (fainted; item heavydutyboots, ability slushrush; moves iciclecrash/earthquake/swordsdance/snowscape)
+  sudowoodo (fainted; item leftovers, ability rockhead; moves stealthrock/headsmash/woodhammer/earthquake)
+theirs (as seen):
+  mukalola (fainted; item unknown_item, ability ?; moves gunkshot)
+  frosmoth (fainted; item unknown_item, ability ?; moves icebeam)
+  mausholdfour (fainted; item unknown_item, ability ?; moves bite)
+  registeel (fainted; item unknown_item, ability ?; moves bodypress)
+  ambipom (fainted; item unknown_item, ability ?; moves doubleedge)
+  eelektross (fainted; item unknown_item, ability levitate; moves flamethrower)
+
+-- turn 0
+  switch|p1a: Dipplin|Dipplin, L88, M|284/284
+  switch|p2a: Muk|Muk-Alola, L82, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera dragontail (hand policy: switch to golem) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Dipplin|Steel
+  move|p2a: Muk|Gunk Shot|p1a: Dipplin
+  -immune|p1a: Dipplin
+  move|p1a: Dipplin|Dragon Tail|p2a: Muk
+  -damage|p2a: Muk|78/100
+  drag|p2a: Frosmoth|Frosmoth, L82, M|100/100
+-- turn 2
+  WE CHOSE: switch to golem (hand policy: attack dragonpulse) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Golem|Golem, L87, F|281/281
+  move|p2a: Frosmoth|Ice Beam|p1a: Golem
+  -supereffective|p1a: Golem
+  -damage|p1a: Golem|35/281
+  -status|p1a: Golem|frz
+  -enditem|p1a: Golem|Weakness Policy
+  -boost|p1a: Golem|atk|2|[from] item: Weakness Policy
+  -boost|p1a: Golem|spa|2|[from] item: Weakness Policy
+-- turn 3
+  WE CHOSE: attack stoneedge (hand policy: switch to lumineon) - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to lumineon (hand policy: forced: switch to sudowoodo) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Frosmoth|Ice Beam|p1a: Golem
+  -supereffective|p1a: Golem
+  -damage|p1a: Golem|0 fnt
+  faint|p1a: Golem
+  switch|p1a: Lumineon|Lumineon, L93, F|279/279
+-- turn 4
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Lumineon|Hydro Pump|p2a: Frosmoth
+  -damage|p2a: Frosmoth|79/100
+  move|p2a: Frosmoth|Ice Beam|p1a: Lumineon
+  -resisted|p1a: Lumineon
+  -damage|p1a: Lumineon|224/279
+-- turn 5
+  WE CHOSE: attack hydropump - our hp 0.80, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p1a: Lumineon|Hydro Pump|p2a: Frosmoth
+  -damage|p2a: Frosmoth|57/100
+  move|p2a: Frosmoth|Ice Beam|p1a: Lumineon
+  -resisted|p1a: Lumineon
+  -damage|p1a: Lumineon|173/279
+-- turn 6
+  WE CHOSE: attack hydropump - our hp 0.62, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p1a: Lumineon|Hydro Pump|p2a: Frosmoth|[miss]
+  -miss|p1a: Lumineon|p2a: Frosmoth
+  move|p2a: Frosmoth|Ice Beam|p1a: Lumineon
+  -resisted|p1a: Lumineon
+  -damage|p1a: Lumineon|121/279
+-- turn 7
+  WE CHOSE: attack hydropump - our hp 0.43, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p1a: Lumineon|Hydro Pump|p2a: Frosmoth
+  -damage|p2a: Frosmoth|34/100
+  move|p2a: Frosmoth|Ice Beam|p1a: Lumineon
+  -resisted|p1a: Lumineon
+  -damage|p1a: Lumineon|66/279
+-- turn 8
+  WE CHOSE: attack hydropump - our hp 0.24, theirs 0.34, predicted move (revealed) hits us x0.5
+  move|p1a: Lumineon|Hydro Pump|p2a: Frosmoth
+  -damage|p2a: Frosmoth|13/100
+  move|p2a: Frosmoth|Ice Beam|p1a: Lumineon
+  -resisted|p1a: Lumineon
+  -damage|p1a: Lumineon|20/279
+-- turn 9
+  WE CHOSE: attack hydropump - our hp 0.07, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Lumineon|Hydro Pump|p2a: Frosmoth
+  -damage|p2a: Frosmoth|0 fnt
+  faint|p2a: Frosmoth
+  switch|p2a: Muk|Muk-Alola, L82, M|78/100
+-- turn 10
+  WE CHOSE: switch to dipplin - our hp 0.07, theirs 0.78, predicted move (revealed) hits us x1
+  switch|p1a: Dipplin|Dipplin, L88, M, tera:Steel|284/284
+  move|p2a: Muk|Gunk Shot|p1a: Dipplin
+  -immune|p1a: Dipplin
+-- turn 11
+  WE CHOSE: attack dragonpulse - our hp 1.00, theirs 0.78, predicted move (revealed) hits us x0
+  move|p2a: Muk|Gunk Shot|p1a: Dipplin
+  -immune|p1a: Dipplin
+  move|p1a: Dipplin|Dragon Pulse|p2a: Muk
+  -damage|p2a: Muk|58/100
+-- turn 12
+  WE CHOSE: attack dragonpulse - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x0
+  move|p2a: Muk|Gunk Shot|p1a: Dipplin
+  -immune|p1a: Dipplin
+  move|p1a: Dipplin|Dragon Pulse|p2a: Muk
+  -damage|p2a: Muk|39/100
+-- turn 13
+  WE CHOSE: attack dragonpulse - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x0
+  move|p2a: Muk|Gunk Shot|p1a: Dipplin
+  -immune|p1a: Dipplin
+  move|p1a: Dipplin|Dragon Pulse|p2a: Muk
+  -damage|p2a: Muk|20/100
+-- turn 14
+  WE CHOSE: attack dragonpulse - our hp 1.00, theirs 0.20, predicted move (revealed) hits us x0
+  move|p2a: Muk|Gunk Shot|p1a: Dipplin
+  -immune|p1a: Dipplin
+  move|p1a: Dipplin|Dragon Pulse|p2a: Muk
+  -damage|p2a: Muk|0 fnt
+  faint|p2a: Muk
+  switch|p2a: Maushold|Maushold-Four, L76|100/100
+-- turn 15
+  WE CHOSE: attack dragonpulse - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Maushold|Bite|p1a: Dipplin
+  -damage|p1a: Dipplin|261/284
+  cant|p1a: Dipplin|flinch
+-- turn 16
+  WE CHOSE: attack dragonpulse - our hp 0.92, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Maushold|Bite|p1a: Dipplin
+  -damage|p1a: Dipplin|238/284
+  move|p1a: Dipplin|Dragon Pulse|p2a: Maushold
+  -damage|p2a: Maushold|50/100
+-- turn 17
+  WE CHOSE: attack dragonpulse - our hp 0.84, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Maushold|Bite|p1a: Dipplin
+  -damage|p1a: Dipplin|214/284
+  move|p1a: Dipplin|Dragon Pulse|p2a: Maushold
+  -damage|p2a: Maushold|3/100
+-- turn 18
+  WE CHOSE: attack dragontail (hand policy: attack dragonpulse) - our hp 0.75, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Maushold|Bite|p1a: Dipplin
+  -damage|p1a: Dipplin|191/284
+  move|p1a: Dipplin|Dragon Tail|p2a: Maushold
+  -damage|p2a: Maushold|0 fnt
+  faint|p2a: Maushold
+  switch|p2a: Registeel|Registeel, L81|100/100
+-- turn 19
+  WE CHOSE: switch to rillaboom (hand policy: attack dragonpulse) - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Rillaboom|Rillaboom, L79, F|288/288
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+  move|p2a: Registeel|Body Press|p1a: Rillaboom
+  -damage|p1a: Rillaboom|211/288
+  -heal|p1a: Rillaboom|229/288|[from] Grassy Terrain
+-- turn 20
+  WE CHOSE: attack highhorsepower - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Rillaboom|High Horsepower|p2a: Registeel|[miss]
+  -miss|p1a: Rillaboom|p2a: Registeel
+  move|p2a: Registeel|Body Press|p1a: Rillaboom
+  -damage|p1a: Rillaboom|150/288
+  -heal|p1a: Rillaboom|168/288|[from] Grassy Terrain
+-- turn 21
+  WE CHOSE: attack highhorsepower - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Rillaboom|High Horsepower|p2a: Registeel
+  -supereffective|p2a: Registeel
+  -damage|p2a: Registeel|48/100
+  move|p2a: Registeel|Body Press|p1a: Rillaboom
+  -damage|p1a: Rillaboom|90/288
+  -heal|p1a: Rillaboom|108/288|[from] Grassy Terrain
+  -heal|p2a: Registeel|54/100|[from] Grassy Terrain
+-- turn 22
+  WE CHOSE: attack highhorsepower - our hp 0.38, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Rillaboom|High Horsepower|p2a: Registeel
+  -supereffective|p2a: Registeel
+  -damage|p2a: Registeel|0 fnt
+  faint|p2a: Registeel
+  -heal|p1a: Rillaboom|126/288|[from] Grassy Terrain
+  switch|p2a: Ambipom|Ambipom, L84, M|100/100
+-- turn 23
+  WE CHOSE: switch to dipplin (hand policy: attack highhorsepower) - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dipplin|Dipplin, L88, M, tera:Steel|191/284
+  move|p2a: Ambipom|Double-Edge|p1a: Dipplin
+  -resisted|p1a: Dipplin
+  -damage|p1a: Dipplin|149/284
+  -damage|p2a: Ambipom|95/100|[from] Recoil
+  -heal|p2a: Ambipom|100/100|[from] Grassy Terrain
+  -heal|p1a: Dipplin|166/284|[from] Grassy Terrain
+  -fieldend|move: Grassy Terrain
+-- turn 24
+  WE CHOSE: attack dragonpulse - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Ambipom|Double-Edge|p1a: Dipplin
+  -resisted|p1a: Dipplin
+  -damage|p1a: Dipplin|121/284
+  -damage|p2a: Ambipom|95/100|[from] Recoil
+  move|p1a: Dipplin|Dragon Pulse|p2a: Ambipom
+  -damage|p2a: Ambipom|49/100
+-- turn 25
+  WE CHOSE: attack dragontail (hand policy: heal recover) - our hp 0.43, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Ambipom|Double-Edge|p1a: Dipplin
+  -resisted|p1a: Dipplin
+  -damage|p1a: Dipplin|79/284
+  -damage|p2a: Ambipom|43/100|[from] Recoil
+  move|p1a: Dipplin|Dragon Tail|p2a: Ambipom
+  -damage|p2a: Ambipom|13/100
+  drag|p2a: Eelektross|Eelektross, L87, M|100/100
+-- turn 26
+  WE CHOSE: heal recover (hand policy: attack dragonpulse) - our hp 0.28, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to sudowoodo - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Eelektross|Flamethrower|p1a: Dipplin
+  -supereffective|p1a: Dipplin
+  -damage|p1a: Dipplin|0 fnt
+  faint|p1a: Dipplin
+  switch|p1a: Sudowoodo|Sudowoodo, L94, F|284/284
+-- turn 27
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|243/284
+  move|p1a: Sudowoodo|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Sudowoodo|260/284|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack earthquake - our hp 0.92, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -crit|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|199/284
+  move|p1a: Sudowoodo|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Sudowoodo|216/284|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack earthquake - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|176/284
+  move|p1a: Sudowoodo|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Sudowoodo|193/284|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack earthquake - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|156/284
+  move|p1a: Sudowoodo|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Sudowoodo|173/284|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack earthquake - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|135/284
+  move|p1a: Sudowoodo|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Sudowoodo|152/284|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack earthquake - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|112/284
+  move|p1a: Sudowoodo|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Sudowoodo|129/284|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack earthquake - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|88/284
+  move|p1a: Sudowoodo|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Sudowoodo|105/284|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack earthquake - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|64/284
+  move|p1a: Sudowoodo|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Sudowoodo|81/284|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: attack earthquake - our hp 0.29, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|38/284
+  move|p1a: Sudowoodo|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Sudowoodo|55/284|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack earthquake - our hp 0.19, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|19/284
+  move|p1a: Sudowoodo|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Sudowoodo|36/284|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: attack earthquake - our hp 0.13, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to lumineon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|0 fnt
+  faint|p1a: Sudowoodo
+  switch|p1a: Lumineon|Lumineon, L93, F|20/279
+-- turn 38
+  WE CHOSE: attack hydropump - our hp 0.07, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to beartic - our hp 0.00, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p1a: Lumineon|Hydro Pump|p2a: Eelektross
+  -damage|p2a: Eelektross|75/100
+  move|p2a: Eelektross|Flamethrower|p1a: Lumineon
+  -resisted|p1a: Lumineon
+  -damage|p1a: Lumineon|0 fnt
+  faint|p1a: Lumineon
+  switch|p1a: Beartic|Beartic, L91, M|321/321
+-- turn 39
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x2
+  move|p1a: Beartic|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  move|p2a: Eelektross|Flamethrower|p1a: Beartic
+  -supereffective|p1a: Beartic
+  -damage|p1a: Beartic|185/321
+-- turn 40
+  WE CHOSE: attack iciclecrash (hand policy: attack earthquake) - our hp 0.58, theirs 0.75, predicted move (revealed) hits us x2
+  move|p1a: Beartic|Icicle Crash|p2a: Eelektross
+  -damage|p2a: Eelektross|24/100
+  move|p2a: Eelektross|Flamethrower|p1a: Beartic
+  -supereffective|p1a: Beartic
+  -damage|p1a: Beartic|47/321
+  -status|p1a: Beartic|brn
+  -damage|p1a: Beartic|27/321 brn|[from] brn
+-- turn 41
+  WE CHOSE: attack iciclecrash (hand policy: attack earthquake) - our hp 0.08, theirs 0.24, predicted move (revealed) hits us x2
+  move|p1a: Beartic|Icicle Crash|p2a: Eelektross
+  -damage|p2a: Eelektross|0 fnt
+  faint|p2a: Eelektross
+  -damage|p1a: Beartic|7/321 brn|[from] brn
+  switch|p2a: Ambipom|Ambipom, L84, M|13/100
+-- turn 42
+  WE CHOSE: attack iciclecrash - our hp 0.02, theirs 0.13, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rillaboom - our hp 0.00, theirs 0.12, predicted move (revealed) hits us x1
+  move|p2a: Ambipom|Double-Edge|p1a: Beartic
+  -damage|p1a: Beartic|0 fnt
+  faint|p1a: Beartic
+  -damage|p2a: Ambipom|12/100|[from] Recoil
+  switch|p1a: Rillaboom|Rillaboom, L79, F|126/288
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+-- turn 43
+  WE CHOSE: attack woodhammer - our hp 0.44, theirs 0.12, predicted move (revealed) hits us x1
+  move|p2a: Ambipom|Double-Edge|p1a: Rillaboom
+  -damage|p1a: Rillaboom|0 fnt
+  faint|p1a: Rillaboom
+  -damage|p2a: Ambipom|0 fnt|[from] Recoil
+  faint|p2a: Ambipom
+  deinit

@@ -1,0 +1,171 @@
+battle 2562 (battle-gen9randombattle-1032360): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  persianalola (fainted; item ?, ability furcoat, tera electric; moves burningjealousy/nastyplot/darkpulse/thunderbolt)
+  abomasnow (fainted; item lightclay, ability snowwarning; moves iceshard/auroraveil/blizzard/woodhammer)
+  regice (fainted; item heavydutyboots, ability clearbody; moves thunderwave/bodypress/thunderbolt/icebeam)
+  altaria (fainted; item ?, ability naturalcure; moves bravebird/willowisp/defog/roost)
+  swampert (fainted; item leftovers, ability damp; moves earthquake/stealthrock/knockoff/roar)
+  zaciancrowned (fainted; item rustedsword, ability intrepidsword; moves playrough/closecombat/behemothblade/swordsdance)
+theirs (as seen):
+  hoopaunbound (fainted; item unknown_item, ability magician; moves focusblast)
+  kricketune (fainted; item unknown_item, ability ?; moves knockoff)
+  mimikyu (fainted; item lifeorb, ability disguise; moves playrough)
+  inteleon (fainted; item unknown_item, ability ?; moves -)
+  dialgaorigin (fainted; item unknown_item, ability pressure; moves dracometeor)
+  oranguru (6%; item unknown_item, ability ?; moves focusblast)
+
+-- turn 0
+  switch|p1a: Persian|Persian-Alola, L86, M|252/252
+  switch|p2a: Hoopa|Hoopa-Unbound, L80|100/100
+-- turn 1
+  WE CHOSE: switch to zaciancrowned - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Zacian|Zacian-Crowned, L64|225/225
+  -ability|p1a: Zacian|Intrepid Sword|boost
+  -boost|p1a: Zacian|atk|1
+  move|p2a: Hoopa|Focus Blast|p1a: Zacian
+  -damage|p1a: Zacian|105/225
+-- turn 2
+  WE CHOSE: attack playrough - our hp 0.47, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to altaria - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hoopa|Focus Blast|p1a: Zacian
+  -damage|p1a: Zacian|0 fnt
+  faint|p1a: Zacian
+  switch|p1a: Altaria|Altaria, L89, F|278/278
+-- turn 3
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Hoopa|Focus Blast|p1a: Altaria|[miss]
+  -miss|p2a: Hoopa|p1a: Altaria
+  move|p1a: Altaria|Brave Bird|p2a: Hoopa
+  -damage|p2a: Hoopa|45/100
+  -damage|p1a: Altaria|230/278|[from] Recoil
+-- turn 4
+  WE CHOSE: attack bravebird - our hp 0.83, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p2a: Hoopa|Focus Blast|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|175/278
+  move|p1a: Altaria|Brave Bird|p2a: Hoopa
+  -damage|p2a: Hoopa|0 fnt
+  faint|p2a: Hoopa
+  -damage|p1a: Altaria|137/278|[from] Recoil
+  switch|p2a: Kricketune|Kricketune, L99, F|100/100
+-- turn 5
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to persianalola - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Altaria|Brave Bird|p2a: Kricketune
+  -supereffective|p2a: Kricketune
+  -damage|p2a: Kricketune|13/100
+  -damage|p1a: Altaria|47/278|[from] Recoil
+  move|p2a: Kricketune|Knock Off|p1a: Altaria
+  -damage|p1a: Altaria|0 fnt
+  -enditem|p1a: Altaria|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Kricketune
+  faint|p1a: Altaria
+  switch|p1a: Persian|Persian-Alola, L86, M|252/252
+-- turn 6
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Persian|Nasty Plot|p1a: Persian
+  -boost|p1a: Persian|spa|2
+  move|p2a: Kricketune|Knock Off|p1a: Persian
+  -resisted|p1a: Persian
+  -damage|p1a: Persian|222/252
+  -enditem|p1a: Persian|Life Orb|[from] move: Knock Off|[of] p2a: Kricketune
+-- turn 7
+  WE CHOSE: attack burningjealousy - our hp 0.88, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Persian|Burning Jealousy|p2a: Kricketune
+  -supereffective|p2a: Kricketune
+  -damage|p2a: Kricketune|0 fnt
+  faint|p2a: Kricketune
+  switch|p2a: Mimikyu|Mimikyu, L79, F|100/100
+-- turn 8
+  WE CHOSE: attack+tera thunderbolt (hand policy: attack darkpulse) - our hp 0.88, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Persian|Electric
+  move|p1a: Persian|Thunderbolt|p2a: Mimikyu
+  -activate|p2a: Mimikyu|ability: Disguise
+  -damage|p2a: Mimikyu|100/100
+  detailschange|p2a: Mimikyu|Mimikyu-Busted, L79, F
+  -damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+  move|p2a: Mimikyu|Play Rough|p1a: Persian
+  -damage|p1a: Persian|156/252
+  -damage|p2a: Mimikyu|78/100|[from] item: Life Orb
+-- turn 9
+  WE CHOSE: attack thunderbolt - our hp 0.62, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Persian|Thunderbolt|p2a: Mimikyu
+  -crit|p2a: Mimikyu
+  -damage|p2a: Mimikyu|0 fnt
+  faint|p2a: Mimikyu
+  switch|p2a: Inteleon|Inteleon, L81, M|100/100
+-- turn 10
+  WE CHOSE: attack thunderbolt - our hp 0.62, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Persian|Thunderbolt|p2a: Inteleon
+  -supereffective|p2a: Inteleon
+  -damage|p2a: Inteleon|0 fnt
+  faint|p2a: Inteleon
+  switch|p2a: Dialga|Dialga-Origin, L73|100/100
+  -ability|p2a: Dialga|Pressure
+-- turn 11
+  WE CHOSE: attack darkpulse - our hp 0.62, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to swampert - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p1a: Persian|Dark Pulse|p2a: Dialga
+  -damage|p2a: Dialga|51/100
+  move|p2a: Dialga|Draco Meteor|p1a: Persian
+  -damage|p1a: Persian|0 fnt
+  -unboost|p2a: Dialga|spa|2
+  faint|p1a: Persian
+  switch|p1a: Swampert|Swampert, L83, M|302/302
+-- turn 12
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Dialga|Draco Meteor|p1a: Swampert
+  -damage|p1a: Swampert|208/302
+  -unboost|p2a: Dialga|spa|2
+  move|p1a: Swampert|Earthquake|p2a: Dialga
+  -supereffective|p2a: Dialga
+  -damage|p2a: Dialga|0 fnt
+  faint|p2a: Dialga
+  -heal|p1a: Swampert|226/302|[from] item: Leftovers
+  switch|p2a: Oranguru|Oranguru, L92, M|100/100
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Oranguru|Focus Blast|p1a: Swampert
+  -damage|p1a: Swampert|86/302
+  move|p1a: Swampert|Earthquake|p2a: Oranguru
+  -damage|p2a: Oranguru|66/100
+  -heal|p1a: Swampert|104/302|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 0.34, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Oranguru|Focus Blast|p1a: Swampert|[miss]
+  -miss|p2a: Oranguru|p1a: Swampert
+  move|p1a: Swampert|Earthquake|p2a: Oranguru
+  -damage|p2a: Oranguru|33/100
+  -heal|p1a: Swampert|122/302|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.40, theirs 0.33, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to abomasnow - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Oranguru|Focus Blast|p1a: Swampert
+  -damage|p1a: Swampert|0 fnt
+  faint|p1a: Swampert
+  switch|p1a: Abomasnow|Abomasnow, L84, M|287/287
+  -weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+-- turn 16
+  WE CHOSE: attack woodhammer - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to regice - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x2
+  move|p2a: Oranguru|Focus Blast|p1a: Abomasnow
+  -supereffective|p1a: Abomasnow
+  -damage|p1a: Abomasnow|0 fnt
+  faint|p1a: Abomasnow
+  -weather|Snowscape|[upkeep]
+  switch|p1a: Regice|Regice, L88|284/284
+-- turn 17
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x2
+  move|p2a: Oranguru|Focus Blast|p1a: Regice
+  -supereffective|p1a: Regice
+  -damage|p1a: Regice|140/284
+  move|p1a: Regice|Ice Beam|p2a: Oranguru
+  -damage|p2a: Oranguru|6/100
+  -weather|Snowscape|[upkeep]
+-- turn 18
+  WE CHOSE: attack icebeam - our hp 0.49, theirs 0.06, predicted move (revealed) hits us x2
+  move|p2a: Oranguru|Focus Blast|p1a: Regice
+  -supereffective|p1a: Regice
+  -damage|p1a: Regice|0 fnt
+  faint|p1a: Regice
+  deinit

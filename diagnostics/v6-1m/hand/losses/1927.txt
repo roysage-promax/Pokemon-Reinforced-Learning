@@ -1,0 +1,333 @@
+battle 1927 (battle-gen9randombattle-1024405): lost in 36 turns, 1 of theirs left; we are p1
+
+ours:
+  rhydon (fainted; item eviolite, ability lightningrod; moves stoneedge/stealthrock/megahorn/earthquake)
+  rayquaza (fainted; item heavydutyboots, ability airlock; moves extremespeed/swordsdance/dragonascent/earthquake)
+  rotommow (fainted; item choicescarf, ability levitate; moves leafstorm/thunderbolt/trick/voltswitch)
+  chimecho (fainted; item leftovers, ability levitate; moves dazzlinggleam/cosmicpower/recover/storedpower)
+  lycanroc (fainted; item choiceband, ability sandrush; moves stoneedge/psychicfangs/closecombat/accelerock)
+  gurdurr (fainted; item eviolite, ability guts, tera steel; moves knockoff/machpunch/drainpunch/defog)
+theirs (as seen):
+  thundurus (fainted; item unknown_item, ability ?; moves focusblast)
+  kyurem (fainted; item unknown_item, ability pressure; moves outrage)
+  hypno (fainted; item leftovers, ability ?; moves focusblast/psychicnoise)
+  palkia (fainted; item unknown_item, ability pressure; moves hydropump)
+  serperior (fainted; item leftovers, ability ?; moves leafstorm)
+  leafeon (2%; item lifeorb, ability ?; moves leafblade)
+
+-- turn 0
+  switch|p1a: Rhydon|Rhydon, L85, M|317/317
+  switch|p2a: Thundurus|Thundurus, L80, M|100/100
+-- turn 1
+  WE CHOSE: switch to rayquaza - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Rayquaza|Rayquaza, L72|270/270
+  -ability|p1a: Rayquaza|Air Lock
+  move|p2a: Thundurus|Focus Blast|p1a: Rayquaza
+  -resisted|p1a: Rayquaza
+  -damage|p1a: Rayquaza|213/270
+-- turn 2
+  WE CHOSE: setup swordsdance - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Thundurus|Focus Blast|p1a: Rayquaza|[miss]
+  -miss|p2a: Thundurus|p1a: Rayquaza
+  move|p1a: Rayquaza|Swords Dance|p1a: Rayquaza
+  -boost|p1a: Rayquaza|atk|2
+-- turn 3
+  WE CHOSE: attack dragonascent - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Thundurus|Focus Blast|p1a: Rayquaza|[miss]
+  -miss|p2a: Thundurus|p1a: Rayquaza
+  move|p1a: Rayquaza|Dragon Ascent|p2a: Thundurus
+  -resisted|p2a: Thundurus
+  -crit|p2a: Thundurus
+  -damage|p2a: Thundurus|0 fnt
+  -unboost|p1a: Rayquaza|def|1
+  -unboost|p1a: Rayquaza|spd|1
+  faint|p2a: Thundurus
+  switch|p2a: Kyurem|Kyurem, L77|100/100
+  -ability|p2a: Kyurem|Pressure
+-- turn 4
+  WE CHOSE: attack dragonascent - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to rhydon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Kyurem|Outrage|p1a: Rayquaza
+  -supereffective|p1a: Rayquaza
+  -damage|p1a: Rayquaza|0 fnt
+  faint|p1a: Rayquaza
+  switch|p1a: Rhydon|Rhydon, L85, M|317/317
+-- turn 5
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Kyurem|Outrage|p1a: Rhydon|[from] lockedmove
+  -damage|p1a: Rhydon|244/317
+  -start|p2a: Kyurem|confusion|[fatigue]
+  move|p1a: Rhydon|Stone Edge|p2a: Kyurem
+  -supereffective|p2a: Kyurem
+  -crit|p2a: Kyurem
+  -damage|p2a: Kyurem|0 fnt
+  faint|p2a: Kyurem
+  switch|p2a: Hypno|Hypno, L95, F|100/100
+-- turn 6
+  WE CHOSE: switch to chimecho - our hp 0.77, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Chimecho|Chimecho, L93, F|290/290
+  move|p2a: Hypno|Focus Blast|p1a: Chimecho|[miss]
+  -miss|p2a: Hypno|p1a: Chimecho
+-- turn 7
+  WE CHOSE: attack dazzlinggleam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Focus Blast|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|251/290
+  move|p1a: Chimecho|Dazzling Gleam|p2a: Hypno
+  -damage|p2a: Hypno|84/100
+  -heal|p2a: Hypno|90/100|[from] item: Leftovers
+  -heal|p1a: Chimecho|269/290|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack dazzlinggleam - our hp 0.93, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Focus Blast|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|233/290
+  move|p1a: Chimecho|Dazzling Gleam|p2a: Hypno
+  -damage|p2a: Hypno|74/100
+  -heal|p2a: Hypno|80/100|[from] item: Leftovers
+  -heal|p1a: Chimecho|251/290|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack dazzlinggleam - our hp 0.87, theirs 0.80, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Focus Blast|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -crit|p1a: Chimecho
+  -damage|p1a: Chimecho|188/290
+  move|p1a: Chimecho|Dazzling Gleam|p2a: Hypno
+  -damage|p2a: Hypno|63/100
+  -heal|p2a: Hypno|69/100|[from] item: Leftovers
+  -heal|p1a: Chimecho|206/290|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack dazzlinggleam - our hp 0.71, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Focus Blast|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|164/290
+  move|p1a: Chimecho|Dazzling Gleam|p2a: Hypno
+  -damage|p2a: Hypno|54/100
+  -heal|p2a: Hypno|60/100|[from] item: Leftovers
+  -heal|p1a: Chimecho|182/290|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack dazzlinggleam - our hp 0.63, theirs 0.60, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Focus Blast|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|145/290
+  move|p1a: Chimecho|Dazzling Gleam|p2a: Hypno
+  -damage|p2a: Hypno|45/100
+  -heal|p2a: Hypno|51/100|[from] item: Leftovers
+  -heal|p1a: Chimecho|163/290|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack dazzlinggleam - our hp 0.56, theirs 0.51, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Focus Blast|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|120/290
+  move|p1a: Chimecho|Dazzling Gleam|p2a: Hypno
+  -damage|p2a: Hypno|36/100
+  -heal|p2a: Hypno|42/100|[from] item: Leftovers
+  -heal|p1a: Chimecho|138/290|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal recover - our hp 0.48, theirs 0.42, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Focus Blast|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|98/290
+  move|p1a: Chimecho|Recover|p1a: Chimecho
+  -heal|p1a: Chimecho|243/290
+  -heal|p2a: Hypno|48/100|[from] item: Leftovers
+  -heal|p1a: Chimecho|261/290|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack dazzlinggleam - our hp 0.90, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Psychic Noise|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|227/290
+  -start|p1a: Chimecho|move: Heal Block
+  move|p1a: Chimecho|Dazzling Gleam|p2a: Hypno
+  -damage|p2a: Hypno|34/100
+  -heal|p2a: Hypno|40/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack dazzlinggleam - our hp 0.78, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Psychic Noise|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|193/290
+  move|p1a: Chimecho|Dazzling Gleam|p2a: Hypno
+  -damage|p2a: Hypno|25/100
+  -heal|p2a: Hypno|31/100|[from] item: Leftovers
+  -end|p1a: Chimecho|move: Heal Block
+-- turn 16
+  WE CHOSE: attack dazzlinggleam - our hp 0.67, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Psychic Noise|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|158/290
+  -start|p1a: Chimecho|move: Heal Block
+  move|p1a: Chimecho|Dazzling Gleam|p2a: Hypno
+  -damage|p2a: Hypno|15/100
+  -heal|p2a: Hypno|21/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack dazzlinggleam - our hp 0.54, theirs 0.21, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Psychic Noise|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|119/290
+  move|p1a: Chimecho|Dazzling Gleam|p2a: Hypno
+  -damage|p2a: Hypno|6/100
+  -heal|p2a: Hypno|12/100|[from] item: Leftovers
+  -end|p1a: Chimecho|move: Heal Block
+-- turn 18
+  WE CHOSE: heal recover - our hp 0.41, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Psychic Noise|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|80/290
+  -start|p1a: Chimecho|move: Heal Block
+  cant|p1a: Chimecho|move: Heal Block|Recover
+  -heal|p2a: Hypno|18/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack dazzlinggleam - our hp 0.28, theirs 0.18, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Psychic Noise|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|44/290
+  move|p1a: Chimecho|Dazzling Gleam|p2a: Hypno
+  -damage|p2a: Hypno|4/100
+  -heal|p2a: Hypno|10/100|[from] item: Leftovers
+  -end|p1a: Chimecho|move: Heal Block
+-- turn 20
+  WE CHOSE: heal recover - our hp 0.15, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Psychic Noise|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|8/290
+  -start|p1a: Chimecho|move: Heal Block
+  cant|p1a: Chimecho|move: Heal Block|Recover
+  -heal|p2a: Hypno|16/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack dazzlinggleam - our hp 0.03, theirs 0.16, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to rotommow - our hp 0.00, theirs 0.22, predicted move (revealed) hits us x0.5
+  move|p2a: Hypno|Psychic Noise|p1a: Chimecho
+  -resisted|p1a: Chimecho
+  -damage|p1a: Chimecho|0 fnt
+  faint|p1a: Chimecho
+  -heal|p2a: Hypno|22/100|[from] item: Leftovers
+  switch|p1a: Rotom|Rotom-Mow, L87|229/229
+-- turn 22
+  WE CHOSE: attack leafstorm - our hp 1.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Rotom|Leaf Storm|p2a: Hypno
+  -damage|p2a: Hypno|0 fnt
+  -unboost|p1a: Rotom|spa|2
+  faint|p2a: Hypno
+  switch|p2a: Palkia|Palkia, L75|100/100
+  -ability|p2a: Palkia|Pressure
+-- turn 23
+  WE CHOSE: attack leafstorm - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Rotom|Leaf Storm|p2a: Palkia
+  -damage|p2a: Palkia|73/100
+  -unboost|p1a: Rotom|spa|2
+  move|p2a: Palkia|Hydro Pump|p1a: Rotom|[miss]
+  -miss|p2a: Palkia|p1a: Rotom
+-- turn 24
+  WE CHOSE: attack leafstorm - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x0.5
+  move|p1a: Rotom|Leaf Storm|p2a: Palkia
+  -damage|p2a: Palkia|55/100
+  -unboost|p1a: Rotom|spa|2
+  move|p2a: Palkia|Hydro Pump|p1a: Rotom
+  -resisted|p1a: Rotom
+  -damage|p1a: Rotom|156/229
+-- turn 25
+  WE CHOSE: attack leafstorm - our hp 0.68, theirs 0.55, predicted move (revealed) hits us x0.5
+  move|p1a: Rotom|Leaf Storm|p2a: Palkia
+  -damage|p2a: Palkia|39/100
+  move|p2a: Palkia|Hydro Pump|p1a: Rotom
+  -resisted|p1a: Rotom
+  -damage|p1a: Rotom|84/229
+-- turn 26
+  WE CHOSE: attack leafstorm - our hp 0.37, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p1a: Rotom|Leaf Storm|p2a: Palkia
+  -damage|p2a: Palkia|26/100
+  move|p2a: Palkia|Hydro Pump|p1a: Rotom
+  -resisted|p1a: Rotom
+  -damage|p1a: Rotom|22/229
+-- turn 27
+  WE CHOSE: attack leafstorm - our hp 0.10, theirs 0.26, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to gurdurr - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x0.5
+  -activate|p1a: Rotom|move: Struggle
+  move|p1a: Rotom|Struggle|p2a: Palkia
+  -damage|p2a: Palkia|19/100
+  -damage|p1a: Rotom|0 fnt|[from] recoil
+  faint|p1a: Rotom
+  move|p2a: Palkia|Hydro Pump|p1: Rotom|[notarget]
+  -fail|p2a: Palkia
+  switch|p1a: Gurdurr|Gurdurr, L85, F|283/283
+-- turn 28
+  WE CHOSE: attack drainpunch - our hp 1.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Palkia|Hydro Pump|p1a: Gurdurr|[miss]
+  -miss|p2a: Palkia|p1a: Gurdurr
+  move|p1a: Gurdurr|Drain Punch|p2a: Palkia
+  -damage|p2a: Palkia|0 fnt
+  faint|p2a: Palkia
+  switch|p2a: Serperior|Serperior, L79, M|100/100
+-- turn 29
+  WE CHOSE: attack+tera drainpunch - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Gurdurr|Steel
+  move|p2a: Serperior|Leaf Storm|p1a: Gurdurr
+  -resisted|p1a: Gurdurr
+  -damage|p1a: Gurdurr|238/283
+  -boost|p2a: Serperior|spa|2
+  move|p1a: Gurdurr|Drain Punch|p2a: Serperior
+  -damage|p2a: Serperior|67/100
+  -heal|p1a: Gurdurr|280/283|[from] drain|[of] p2a: Serperior
+  -heal|p2a: Serperior|73/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack drainpunch - our hp 0.99, theirs 0.73, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Gurdurr
+  -resisted|p1a: Gurdurr
+  -damage|p1a: Gurdurr|188/283
+  -boost|p2a: Serperior|spa|2
+  move|p1a: Gurdurr|Drain Punch|p2a: Serperior
+  -damage|p2a: Serperior|38/100
+  -heal|p1a: Gurdurr|232/283|[from] drain|[of] p2a: Serperior
+  -heal|p2a: Serperior|44/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack drainpunch - our hp 0.82, theirs 0.44, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Gurdurr
+  -resisted|p1a: Gurdurr
+  -damage|p1a: Gurdurr|90/283
+  -boost|p2a: Serperior|spa|2
+  move|p1a: Gurdurr|Drain Punch|p2a: Serperior
+  -damage|p2a: Serperior|7/100
+  -heal|p1a: Gurdurr|135/283|[from] drain|[of] p2a: Serperior
+  -heal|p2a: Serperior|13/100|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack drainpunch - our hp 0.48, theirs 0.13, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to lycanroc - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Gurdurr
+  -resisted|p1a: Gurdurr
+  -damage|p1a: Gurdurr|0 fnt
+  faint|p1a: Gurdurr
+  -heal|p2a: Serperior|19/100|[from] item: Leftovers
+  switch|p1a: Lycanroc|Lycanroc, L86, F|269/269
+-- turn 33
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.19, predicted move (revealed) hits us x2
+  move|p1a: Lycanroc|Stone Edge|p2a: Serperior|[miss]
+  -miss|p1a: Lycanroc|p2a: Serperior
+  move|p2a: Serperior|Leaf Storm|p1a: Lycanroc|[miss]
+  -miss|p2a: Serperior|p1a: Lycanroc
+  -heal|p2a: Serperior|25/100|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x2
+  move|p1a: Lycanroc|Stone Edge|p2a: Serperior
+  -damage|p2a: Serperior|0 fnt
+  faint|p2a: Serperior
+  switch|p2a: Leafeon|Leafeon, L88, F|100/100
+-- turn 35
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to rhydon - our hp 0.00, theirs 0.12, predicted move (revealed) hits us x2
+  move|p1a: Lycanroc|Stone Edge|p2a: Leafeon
+  -crit|p2a: Leafeon
+  -damage|p2a: Leafeon|21/100
+  move|p2a: Leafeon|Leaf Blade|p1a: Lycanroc
+  -supereffective|p1a: Lycanroc
+  -damage|p1a: Lycanroc|0 fnt
+  faint|p1a: Lycanroc
+  -damage|p2a: Leafeon|12/100|[from] item: Life Orb
+  switch|p1a: Rhydon|Rhydon, L85, M|244/317
+-- turn 36
+  WE CHOSE: attack megahorn - our hp 0.77, theirs 0.12, predicted move (revealed) hits us x4
+  move|p2a: Leafeon|Leaf Blade|p1a: Rhydon
+  -supereffective|p1a: Rhydon
+  -damage|p1a: Rhydon|0 fnt
+  faint|p1a: Rhydon
+  -damage|p2a: Leafeon|2/100|[from] item: Life Orb
+  deinit

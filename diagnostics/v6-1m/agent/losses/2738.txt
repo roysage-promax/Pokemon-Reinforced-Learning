@@ -1,0 +1,295 @@
+battle 2738 (battle-gen9randombattle-1034218): lost in 31 turns, 2 of theirs left; we are p1
+
+ours:
+  ditto (fainted; item choicescarf, ability imposter; moves transform)
+  deoxysattack (fainted; item lifeorb, ability pressure; moves icebeam/knockoff/superpower/psychoboost)
+  meowscarada (fainted; item heavydutyboots, ability protean, tera grass; moves flowertrick/toxicspikes/knockoff/uturn)
+  dodrio (fainted; item choiceband, ability earlybird; moves drillrun/bravebird/doubleedge/quickattack)
+  jolteon (fainted; item heavydutyboots, ability voltabsorb; moves voltswitch/thunderbolt/calmmind/alluringvoice)
+  luvdisc (fainted; item heavydutyboots, ability swiftswim; moves surf/flipturn/substitute/endeavor)
+theirs (as seen):
+  chimecho (fainted; item leftovers, ability levitate; moves dazzlinggleam)
+  mewtwo (fainted; item ?, ability unnerve; moves psystrike)
+  decidueye (fainted; item ?, ability ?; moves leafstorm)
+  rillaboom (fainted; item lifeorb, ability ?; moves woodhammer)
+  milotic (45%; item leftovers, ability ?; moves icebeam/scald)
+
+-- turn 0
+  switch|p1a: Ditto|Ditto, L87|225/225
+  switch|p2a: Chimecho|Chimecho, L93, M|100/100
+  -transform|p1a: Ditto|p2a: Chimecho|[from] ability: Imposter
+-- turn 1
+  WE CHOSE: setup calmmind (hand policy: attack dazzlinggleam) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Ditto|Calm Mind|p1a: Ditto
+  -boost|p1a: Ditto|spa|1
+  -boost|p1a: Ditto|spd|1
+  move|p2a: Chimecho|Dazzling Gleam|p1a: Ditto
+  -damage|p1a: Ditto|187/225
+-- turn 2
+  WE CHOSE: switch to dodrio (hand policy: setup calmmind) - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dodrio|Dodrio, L85, M|241/241
+  move|p2a: Chimecho|Dazzling Gleam|p1a: Dodrio
+  -damage|p1a: Dodrio|152/241
+-- turn 3
+  WE CHOSE: attack bravebird - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to jolteon - our hp 0.00, theirs 0.36, predicted move (revealed) hits us x1
+  move|p1a: Dodrio|Brave Bird|p2a: Chimecho
+  -damage|p2a: Chimecho|30/100
+  -damage|p1a: Dodrio|84/241|[from] Recoil
+  move|p2a: Chimecho|Dazzling Gleam|p1a: Dodrio
+  -damage|p1a: Dodrio|0 fnt
+  faint|p1a: Dodrio
+  -heal|p2a: Chimecho|36/100|[from] item: Leftovers
+  switch|p1a: Jolteon|Jolteon, L84, M|246/246
+-- turn 4
+  WE CHOSE: setup calmmind (hand policy: attack+tera thunderbolt) - our hp 1.00, theirs 0.36, predicted move (revealed) hits us x1
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Chimecho|Dazzling Gleam|p1a: Jolteon
+  -damage|p1a: Jolteon|201/246
+  -heal|p2a: Chimecho|42/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack thunderbolt (hand policy: attack+tera thunderbolt) - our hp 0.82, theirs 0.42, predicted move (revealed) hits us x1
+  move|p1a: Jolteon|Thunderbolt|p2a: Chimecho
+  -damage|p2a: Chimecho|0 fnt
+  faint|p2a: Chimecho
+  switch|p2a: Mewtwo|Mewtwo, L72|100/100
+  -ability|p2a: Mewtwo|Unnerve
+-- turn 6
+  WE CHOSE: switch to luvdisc (hand policy: attack+tera thunderbolt) - our hp 0.82, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Luvdisc|Luvdisc, M|247/247
+  move|p2a: Mewtwo|Psystrike|p1a: Luvdisc
+  -damage|p1a: Luvdisc|90/247
+  -damage|p2a: Mewtwo|91/100|[from] item: Life Orb
+-- turn 7
+  WE CHOSE: switch to meowscarada - our hp 0.36, theirs 0.91, predicted move (revealed) hits us x1
+  switch|p1a: Meowscarada|Meowscarada, L78, F|247/247
+  move|p2a: Mewtwo|Psystrike|p1a: Meowscarada
+  -immune|p1a: Meowscarada
+-- turn 8
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0
+  move|p1a: Meowscarada|Knock Off|p2a: Mewtwo
+  -start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+  -supereffective|p2a: Mewtwo
+  -crit|p2a: Mewtwo
+  -damage|p2a: Mewtwo|0 fnt
+  -enditem|p2a: Mewtwo|Life Orb|[from] move: Knock Off|[of] p1a: Meowscarada
+  faint|p2a: Mewtwo
+  switch|p2a: Decidueye|Decidueye, L88, F|100/100
+-- turn 9
+  WE CHOSE: attack+tera knockoff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Meowscarada|Grass
+  move|p1a: Meowscarada|Knock Off|p2a: Decidueye
+  -supereffective|p2a: Decidueye
+  -damage|p2a: Decidueye|21/100
+  -enditem|p2a: Decidueye|Life Orb|[from] move: Knock Off|[of] p1a: Meowscarada
+  move|p2a: Decidueye|Leaf Storm|p1a: Meowscarada
+  -resisted|p1a: Meowscarada
+  -damage|p1a: Meowscarada|107/247
+  -unboost|p2a: Decidueye|spa|2
+-- turn 10
+  WE CHOSE: attack knockoff - our hp 0.43, theirs 0.21, predicted move (revealed) hits us x0.5
+  move|p1a: Meowscarada|Knock Off|p2a: Decidueye
+  -supereffective|p2a: Decidueye
+  -damage|p2a: Decidueye|0 fnt
+  faint|p2a: Decidueye
+  switch|p2a: Rillaboom|Rillaboom, L79, M|100/100
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+-- turn 11
+  WE CHOSE: attack uturn - our hp 0.43, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to deoxysattack - our hp 0.43, theirs 0.64, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to meowscarada - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Meowscarada|U-turn|p2a: Rillaboom
+  -supereffective|p2a: Rillaboom
+  -damage|p2a: Rillaboom|64/100
+  switch|p1a: Deoxys|Deoxys-Attack, L72|191/191|[from] U-turn
+  -ability|p1a: Deoxys|Pressure
+  move|p2a: Rillaboom|Wood Hammer|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  faint|p1a: Deoxys
+  -damage|p2a: Rillaboom|42/100|[from] Recoil
+  -damage|p2a: Rillaboom|32/100|[from] item: Life Orb
+  -heal|p2a: Rillaboom|38/100|[from] Grassy Terrain
+  switch|p1a: Meowscarada|Meowscarada, L78, F, tera:Grass|107/247
+-- turn 12
+  WE CHOSE: attack uturn - our hp 0.43, theirs 0.38, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to jolteon - our hp 0.43, theirs 0.02, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to meowscarada - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Meowscarada|U-turn|p2a: Rillaboom
+  -supereffective|p2a: Rillaboom
+  -damage|p2a: Rillaboom|2/100
+  switch|p1a: Jolteon|Jolteon, L84, M|201/246|[from] U-turn
+  move|p2a: Rillaboom|Wood Hammer|p1a: Jolteon
+  -damage|p1a: Jolteon|0 fnt
+  faint|p1a: Jolteon
+  -damage|p2a: Rillaboom|0 fnt|[from] Recoil
+  faint|p2a: Rillaboom
+  switch|p1a: Meowscarada|Meowscarada, L78, F, tera:Grass|107/247
+  switch|p2a: Milotic|Milotic, L83, M|100/100
+-- turn 13
+  WE CHOSE: switch to luvdisc - our hp 0.43, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Luvdisc|Luvdisc, M|90/247
+  move|p2a: Milotic|Ice Beam|p1a: Luvdisc
+  -resisted|p1a: Luvdisc
+  -damage|p1a: Luvdisc|54/247
+  -heal|p1a: Luvdisc|69/247|[from] Grassy Terrain
+-- turn 14
+  WE CHOSE: attack surf - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Luvdisc|Surf|p2a: Milotic
+  -resisted|p2a: Milotic
+  -damage|p2a: Milotic|91/100
+  move|p2a: Milotic|Ice Beam|p1a: Luvdisc
+  -resisted|p1a: Luvdisc
+  -damage|p1a: Luvdisc|33/247
+  -heal|p1a: Luvdisc|48/247|[from] Grassy Terrain
+  -heal|p2a: Milotic|97/100|[from] Grassy Terrain
+  -heal|p2a: Milotic|100/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack surf - our hp 0.19, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Luvdisc|Surf|p2a: Milotic
+  -resisted|p2a: Milotic
+  -damage|p2a: Milotic|91/100
+  move|p2a: Milotic|Ice Beam|p1a: Luvdisc
+  -resisted|p1a: Luvdisc
+  -damage|p1a: Luvdisc|17/247
+  -heal|p1a: Luvdisc|32/247|[from] Grassy Terrain
+  -heal|p2a: Milotic|97/100|[from] Grassy Terrain
+  -heal|p2a: Milotic|100/100|[from] item: Leftovers
+  -fieldend|move: Grassy Terrain
+-- turn 16
+  WE CHOSE: attack surf - our hp 0.13, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Luvdisc|Surf|p2a: Milotic
+  -resisted|p2a: Milotic
+  -damage|p2a: Milotic|90/100
+  move|p2a: Milotic|Ice Beam|p1a: Luvdisc
+  -resisted|p1a: Luvdisc
+  -damage|p1a: Luvdisc|1/247
+  -heal|p2a: Milotic|96/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack surf - our hp 0.00, theirs 0.96, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ditto (hand policy: forced: switch to meowscarada) - our hp 0.00, theirs 0.93, predicted move (revealed) hits us x0.5
+  move|p1a: Luvdisc|Surf|p2a: Milotic
+  -resisted|p2a: Milotic
+  -damage|p2a: Milotic|87/100
+  move|p2a: Milotic|Ice Beam|p1a: Luvdisc
+  -resisted|p1a: Luvdisc
+  -damage|p1a: Luvdisc|0 fnt
+  faint|p1a: Luvdisc
+  -heal|p2a: Milotic|93/100|[from] item: Leftovers
+  switch|p1a: Ditto|Ditto, L87|187/225
+  -transform|p1a: Ditto|p2a: Milotic|[from] ability: Imposter
+-- turn 18
+  WE CHOSE: heal recover (hand policy: attack scald) - our hp 0.83, theirs 0.93, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Recover|p1a: Ditto
+  -heal|p1a: Ditto|225/225
+  move|p2a: Milotic|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|200/225
+  -heal|p2a: Milotic|99/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: heal recover - our hp 0.89, theirs 0.99, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Recover|p1a: Ditto
+  -heal|p1a: Ditto|225/225
+  move|p2a: Milotic|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|202/225
+  -heal|p2a: Milotic|100/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal recover - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Recover|p1a: Ditto
+  -heal|p1a: Ditto|225/225
+  move|p2a: Milotic|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|200/225
+-- turn 21
+  WE CHOSE: heal recover - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Recover|p1a: Ditto
+  -heal|p1a: Ditto|225/225
+  move|p2a: Milotic|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|200/225
+  -status|p1a: Ditto|frz
+-- turn 22
+  WE CHOSE: heal recover - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Ditto|frz
+  move|p2a: Milotic|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|177/225 frz
+-- turn 23
+  WE CHOSE: heal recover - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Ditto|frz
+  move|p2a: Milotic|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|150/225 frz
+-- turn 24
+  WE CHOSE: heal recover - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  cant|p1a: Ditto|frz
+  move|p2a: Milotic|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|123/225 frz
+-- turn 25
+  WE CHOSE: heal recover - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0.5
+  -curestatus|p1a: Ditto|frz|[msg]
+  move|p1a: Ditto|Recover|p1a: Ditto
+  -heal|p1a: Ditto|225/225
+  move|p2a: Milotic|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|202/225
+-- turn 26
+  WE CHOSE: attack recover - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0.5
+  -activate|p1a: Ditto|move: Struggle
+  move|p1a: Ditto|Struggle|p2a: Milotic
+  -damage|p2a: Milotic|91/100
+  -damage|p1a: Ditto|146/225|[from] recoil
+  move|p2a: Milotic|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|123/225
+  -heal|p2a: Milotic|97/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack recover - our hp 0.55, theirs 0.97, predicted move (revealed) hits us x0.5
+  -activate|p1a: Ditto|move: Struggle
+  move|p1a: Ditto|Struggle|p2a: Milotic
+  -damage|p2a: Milotic|87/100
+  -damage|p1a: Ditto|67/225|[from] recoil
+  move|p2a: Milotic|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|42/225
+  -heal|p2a: Milotic|93/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack recover - our hp 0.19, theirs 0.93, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to meowscarada - our hp 0.00, theirs 0.90, predicted move (revealed) hits us x0.5
+  -activate|p1a: Ditto|move: Struggle
+  move|p1a: Ditto|Struggle|p2a: Milotic
+  -damage|p2a: Milotic|84/100
+  -damage|p1a: Ditto|0 fnt|[from] recoil
+  faint|p1a: Ditto
+  move|p2a: Milotic|Ice Beam|p1: Ditto|[notarget]
+  -fail|p2a: Milotic
+  -heal|p2a: Milotic|90/100|[from] item: Leftovers
+  switch|p1a: Meowscarada|Meowscarada, L78, F, tera:Grass|107/247
+-- turn 29
+  WE CHOSE: attack uturn (hand policy: attack flowertrick) - our hp 0.43, theirs 0.90, predicted move (revealed) hits us x2
+  move|p1a: Meowscarada|U-turn|p2a: Milotic
+  -damage|p2a: Milotic|70/100
+  move|p2a: Milotic|Scald|p1a: Meowscarada
+  -resisted|p1a: Meowscarada
+  -damage|p1a: Meowscarada|57/247
+  -heal|p2a: Milotic|77/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack uturn (hand policy: attack flowertrick) - our hp 0.23, theirs 0.77, predicted move (revealed) hits us x2
+  move|p1a: Meowscarada|U-turn|p2a: Milotic
+  -damage|p2a: Milotic|57/100
+  move|p2a: Milotic|Scald|p1a: Meowscarada
+  -resisted|p1a: Meowscarada
+  -damage|p1a: Meowscarada|7/247
+  -heal|p2a: Milotic|64/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack uturn (hand policy: attack flowertrick) - our hp 0.03, theirs 0.64, predicted move (revealed) hits us x2
+  move|p1a: Meowscarada|U-turn|p2a: Milotic
+  -damage|p2a: Milotic|45/100
+  move|p2a: Milotic|Scald|p1a: Meowscarada
+  -resisted|p1a: Meowscarada
+  -damage|p1a: Meowscarada|0 fnt
+  faint|p1a: Meowscarada
+  deinit

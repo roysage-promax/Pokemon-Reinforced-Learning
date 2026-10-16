@@ -1,0 +1,292 @@
+battle 2557 (battle-gen9randombattle-1032307): lost in 37 turns, 2 of theirs left; we are p1
+
+ours:
+  ambipom (fainted; item choiceband, ability technician; moves lowkick/doubleedge/knockoff/tripleaxel)
+  dodrio (fainted; item choiceband, ability earlybird; moves drillrun/knockoff/bravebird/doubleedge)
+  politoed (fainted; item choicespecs, ability drizzle; moves focusblast/icebeam/hydropump/weatherball)
+  necrozmaduskmane (fainted; item weaknesspolicy, ability prismarmor, tera ground; moves sunsteelstrike/dragondance/morningsun/earthquake)
+  lilliganthisui (fainted; item widelens, ability hustle; moves icespinner/leafblade/closecombat/victorydance)
+  vaporeon (fainted; item leftovers, ability waterabsorb; moves wish/haze/scald/protect)
+theirs (as seen):
+  girafarig (fainted; item unknown_item, ability ?; moves hypervoice)
+  forretress (fainted; item leftovers, ability ?; moves bodypress)
+  lapras (fainted; item unknown_item, ability waterabsorb; moves sparklingaria/freezedry)
+  glaceon (fainted; item unknown_item, ability ?; moves freezedry)
+  leafeon (12%; item lifeorb, ability ?; moves doubleedge)
+
+-- turn 0
+  switch|p1a: Ambipom|Ambipom, L84, F|263/263
+  switch|p2a: Girafarig|Girafarig, L89, F|100/100
+-- turn 1
+  WE CHOSE: switch to necrozmaduskmane (hand policy: attack doubleedge) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Necrozma|Necrozma-Dusk-Mane, L69|248/248
+  move|p2a: Girafarig|Hyper Voice|p1a: Necrozma
+  -resisted|p1a: Necrozma
+  -damage|p1a: Necrozma|197/248
+-- turn 2
+  WE CHOSE: setup dragondance - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Girafarig|Hyper Voice|p1a: Necrozma
+  -resisted|p1a: Necrozma
+  -damage|p1a: Necrozma|142/248
+  move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+  -boost|p1a: Necrozma|atk|1
+  -boost|p1a: Necrozma|spe|1
+-- turn 3
+  WE CHOSE: setup dragondance - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Necrozma|Dragon Dance|p1a: Necrozma
+  -boost|p1a: Necrozma|atk|1
+  -boost|p1a: Necrozma|spe|1
+  move|p2a: Girafarig|Hyper Voice|p1a: Necrozma
+  -resisted|p1a: Necrozma
+  -damage|p1a: Necrozma|88/248
+-- turn 4
+  WE CHOSE: heal morningsun - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+  -heal|p1a: Necrozma|212/248
+  move|p2a: Girafarig|Hyper Voice|p1a: Necrozma
+  -resisted|p1a: Necrozma
+  -damage|p1a: Necrozma|164/248
+-- turn 5
+  WE CHOSE: attack sunsteelstrike - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Necrozma|Sunsteel Strike|p2a: Girafarig
+  -damage|p2a: Girafarig|43/100
+  move|p2a: Girafarig|Hyper Voice|p1a: Necrozma
+  -resisted|p1a: Necrozma
+  -damage|p1a: Necrozma|114/248
+-- turn 6
+  WE CHOSE: attack sunsteelstrike (hand policy: heal morningsun) - our hp 0.46, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p1a: Necrozma|Sunsteel Strike|p2a: Girafarig
+  -damage|p2a: Girafarig|0 fnt
+  faint|p2a: Girafarig
+  switch|p2a: Forretress|Forretress, L84, F|100/100
+-- turn 7
+  WE CHOSE: heal morningsun - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+  -heal|p1a: Necrozma|238/248
+  move|p2a: Forretress|Body Press|p1a: Necrozma
+  -damage|p1a: Necrozma|165/248
+-- turn 8
+  WE CHOSE: attack earthquake (hand policy: attack+tera earthquake) - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Necrozma|Earthquake|p2a: Forretress
+  -damage|p2a: Forretress|65/100
+  move|p2a: Forretress|Body Press|p1a: Necrozma
+  -damage|p1a: Necrozma|96/248
+  -heal|p2a: Forretress|71/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: heal morningsun - our hp 0.39, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Necrozma|Morning Sun|p1a: Necrozma
+  -heal|p1a: Necrozma|220/248
+  move|p2a: Forretress|Body Press|p1a: Necrozma
+  -damage|p1a: Necrozma|147/248
+  -heal|p2a: Forretress|77/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack+tera earthquake - our hp 0.59, theirs 0.77, predicted move (revealed) hits us x1
+  -terastallize|p1a: Necrozma|Ground
+  move|p1a: Necrozma|Earthquake|p2a: Forretress
+  -crit|p2a: Forretress
+  -damage|p2a: Forretress|0 fnt
+  faint|p2a: Forretress
+  switch|p2a: Lapras|Lapras, L87, F|100/100
+-- turn 11
+  WE CHOSE: switch to vaporeon - our hp 0.59, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Vaporeon|Vaporeon, L86, F|364/364
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 12
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 13
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 14
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 15
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 16
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 17
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 18
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 19
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 20
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 21
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 22
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 23
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 24
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 25
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 26
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Sparkling Aria|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 27
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Freeze-Dry|p1a: Vaporeon
+  -supereffective|p1a: Vaporeon
+  -damage|p1a: Vaporeon|236/364
+  -heal|p1a: Vaporeon|258/364|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack scald - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Freeze-Dry|p1a: Vaporeon
+  -supereffective|p1a: Vaporeon
+  -crit|p1a: Vaporeon
+  -damage|p1a: Vaporeon|72/364
+  -heal|p1a: Vaporeon|94/364|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack scald - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to lilliganthisui - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Vaporeon|Scald|p2a: Lapras
+  -immune|p2a: Lapras|[from] ability: Water Absorb
+  move|p2a: Lapras|Freeze-Dry|p1a: Vaporeon
+  -supereffective|p1a: Vaporeon
+  -damage|p1a: Vaporeon|0 fnt
+  faint|p1a: Vaporeon
+  switch|p1a: Lilligant|Lilligant-Hisui, L79, F|240/240
+-- turn 30
+  WE CHOSE: setup victorydance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+  -boost|p1a: Lilligant|atk|1
+  -boost|p1a: Lilligant|def|1
+  -boost|p1a: Lilligant|spe|1
+  move|p2a: Lapras|Freeze-Dry|p1a: Lilligant
+  -supereffective|p1a: Lilligant
+  -damage|p1a: Lilligant|78/240
+-- turn 31
+  WE CHOSE: attack closecombat - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Lilligant|Close Combat|p2a: Lapras
+  -supereffective|p2a: Lapras
+  -damage|p2a: Lapras|0 fnt
+  -unboost|p1a: Lilligant|def|1
+  -unboost|p1a: Lilligant|spd|1
+  faint|p2a: Lapras
+  switch|p2a: Glaceon|Glaceon, L94, F|100/100
+-- turn 32
+  WE CHOSE: switch to politoed - our hp 0.32, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Politoed|Politoed, L88, F|302/302
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+  move|p2a: Glaceon|Freeze-Dry|p1a: Politoed
+  -supereffective|p1a: Politoed
+  -crit|p1a: Politoed
+  -damage|p1a: Politoed|0 fnt
+  faint|p1a: Politoed
+  -weather|RainDance|[upkeep]
+  switch|p1a: Ambipom|Ambipom, L84, F|263/263
+-- turn 33
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to necrozmaduskmane - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Double-Edge|p2a: Glaceon
+  -damage|p2a: Glaceon|49/100
+  -damage|p1a: Ambipom|216/263|[from] Recoil
+  move|p2a: Glaceon|Freeze-Dry|p1a: Ambipom
+  -crit|p1a: Ambipom
+  -damage|p1a: Ambipom|0 fnt
+  faint|p1a: Ambipom
+  -weather|RainDance|[upkeep]
+  switch|p1a: Necrozma|Necrozma-Dusk-Mane, L69, tera:Ground|147/248
+-- turn 34
+  WE CHOSE: attack sunsteelstrike - our hp 0.59, theirs 0.49, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to lilliganthisui - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x2
+  move|p2a: Glaceon|Freeze-Dry|p1a: Necrozma
+  -supereffective|p1a: Necrozma
+  -damage|p1a: Necrozma|0 fnt
+  faint|p1a: Necrozma
+  -weather|RainDance|[upkeep]
+  switch|p1a: Lilligant|Lilligant-Hisui, L79, F|78/240
+-- turn 35
+  WE CHOSE: attack closecombat - our hp 0.32, theirs 0.49, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to dodrio - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x2
+  move|p1a: Lilligant|Close Combat|p2a: Glaceon|[miss]
+  -miss|p1a: Lilligant|p2a: Glaceon
+  move|p2a: Glaceon|Freeze-Dry|p1a: Lilligant
+  -supereffective|p1a: Lilligant
+  -damage|p1a: Lilligant|0 fnt
+  faint|p1a: Lilligant
+  -weather|RainDance|[upkeep]
+  switch|p1a: Dodrio|Dodrio, L85, F|241/241
+-- turn 36
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x2
+  move|p1a: Dodrio|Double-Edge|p2a: Glaceon
+  -damage|p2a: Glaceon|0 fnt
+  faint|p2a: Glaceon
+  -damage|p1a: Dodrio|197/241|[from] Recoil
+  -weather|none
+  switch|p2a: Leafeon|Leafeon, L88, M|100/100
+-- turn 37
+  WE CHOSE: attack doubleedge - our hp 0.82, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Dodrio|Double-Edge|p2a: Leafeon
+  -damage|p2a: Leafeon|40/100
+  -damage|p1a: Dodrio|146/241|[from] Recoil
+  move|p2a: Leafeon|Double-Edge|p1a: Dodrio
+  -damage|p1a: Dodrio|0 fnt
+  faint|p1a: Dodrio
+  -damage|p2a: Leafeon|21/100|[from] Recoil
+  -damage|p2a: Leafeon|12/100|[from] item: Life Orb
+  deinit

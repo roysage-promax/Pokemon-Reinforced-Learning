@@ -1,0 +1,341 @@
+battle 2704 (battle-gen9randombattle-1033842): lost in 38 turns, 1 of theirs left; we are p1
+
+ours:
+  indeedee (fainted; item lifeorb, ability psychicsurge; moves hypervoice/expandingforce/calmmind/dazzlinggleam)
+  keldeoresolute (fainted; item choicescarf, ability justified; moves flipturn/secretsword/airslash/hydropump)
+  cryogonal (fainted; item heavydutyboots, ability levitate, tera steel; moves recover/freezedry/haze/rapidspin)
+  diancie (fainted; item leftovers, ability clearbody; moves diamondstorm/earthpower/drainingkiss/calmmind)
+  duraludon (fainted; item eviolite, ability lightmetal; moves flashcannon/dracometeor/bodypress/stealthrock)
+  pecharunt (fainted; item rockyhelmet, ability poisonpuppeteer; moves shadowball/recover/partingshot/malignantchain)
+theirs (as seen):
+  espeon (fainted; item lifeorb, ability ?; moves psyshock)
+  victreebel (fainted; item lifeorb, ability ?; moves powerwhip)
+  pincurchin (fainted; item leftovers, ability ?; moves liquidation)
+  carbink (fainted; item leftovers, ability ?; moves moonblast)
+  primarina (fainted; item unknown_item, ability ?; moves hydropump)
+  sudowoodo (29%; item leftovers, ability ?; moves headsmash)
+
+-- turn 0
+  switch|p1a: Indeedee|Indeedee, L84, M|238/238
+  switch|p2a: Espeon|Espeon, L84, M|100/100
+  -fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+-- turn 1
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Espeon|Psyshock|p1a: Indeedee
+  -resisted|p1a: Indeedee
+  -damage|p1a: Indeedee|117/238
+  -damage|p2a: Espeon|91/100|[from] item: Life Orb
+  move|p1a: Indeedee|Calm Mind|p1a: Indeedee
+  -boost|p1a: Indeedee|spa|1
+  -boost|p1a: Indeedee|spd|1
+-- turn 2
+  WE CHOSE: attack hypervoice - our hp 0.49, theirs 0.91, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to duraludon - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p2a: Espeon|Psyshock|p1a: Indeedee
+  -resisted|p1a: Indeedee
+  -damage|p1a: Indeedee|0 fnt
+  faint|p1a: Indeedee
+  -damage|p2a: Espeon|81/100|[from] item: Life Orb
+  switch|p1a: Duraludon|Duraludon, L82, M|249/249
+-- turn 3
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p2a: Espeon|Psyshock|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|198/249
+  -damage|p2a: Espeon|71/100|[from] item: Life Orb
+  move|p1a: Duraludon|Draco Meteor|p2a: Espeon
+  -damage|p2a: Espeon|15/100
+  -unboost|p1a: Duraludon|spa|2
+-- turn 4
+  WE CHOSE: attack dracometeor - our hp 0.80, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p2a: Espeon|Psyshock|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|151/249
+  -damage|p2a: Espeon|5/100|[from] item: Life Orb
+  move|p1a: Duraludon|Draco Meteor|p2a: Espeon
+  -damage|p2a: Espeon|0 fnt
+  -unboost|p1a: Duraludon|spa|2
+  faint|p2a: Espeon
+  switch|p2a: Victreebel|Victreebel, L90, F|100/100
+-- turn 5
+  WE CHOSE: attack dracometeor - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p1a: Duraludon|Draco Meteor|p2a: Victreebel
+  -damage|p2a: Victreebel|81/100
+  -unboost|p1a: Duraludon|spa|2
+  move|p2a: Victreebel|Power Whip|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|124/249
+  -damage|p2a: Victreebel|71/100|[from] item: Life Orb
+  -fieldend|move: Psychic Terrain
+-- turn 6
+  WE CHOSE: attack dracometeor - our hp 0.50, theirs 0.71, predicted move (revealed) hits us x0.25
+  move|p1a: Duraludon|Draco Meteor|p2a: Victreebel
+  -damage|p2a: Victreebel|55/100
+  move|p2a: Victreebel|Power Whip|p1a: Duraludon|[miss]
+  -miss|p2a: Victreebel|p1a: Duraludon
+-- turn 7
+  WE CHOSE: attack dracometeor - our hp 0.50, theirs 0.55, predicted move (revealed) hits us x0.25
+  move|p1a: Duraludon|Draco Meteor|p2a: Victreebel
+  -damage|p2a: Victreebel|40/100
+  move|p2a: Victreebel|Power Whip|p1a: Duraludon|[miss]
+  -miss|p2a: Victreebel|p1a: Duraludon
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 0.50, theirs 0.40, predicted move (revealed) hits us x0.25
+  move|p1a: Duraludon|Draco Meteor|p2a: Victreebel
+  -damage|p2a: Victreebel|25/100
+  move|p2a: Victreebel|Power Whip|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|97/249
+  -damage|p2a: Victreebel|15/100|[from] item: Life Orb
+-- turn 9
+  WE CHOSE: switch to pecharunt (hand policy: attack dracometeor) - our hp 0.39, theirs 0.15, predicted move (revealed) hits us x0.25
+  switch|p1a: Pecharunt|Pecharunt, L77|262/262
+  move|p2a: Victreebel|Power Whip|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|191/262
+  -damage|p2a: Victreebel|0 fnt|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+  faint|p2a: Victreebel
+  switch|p2a: Pincurchin|Pincurchin, M|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+-- turn 10
+  WE CHOSE: switch to duraludon (hand policy: attack malignantchain) - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Duraludon|Duraludon, L82, M|97/249
+  move|p2a: Pincurchin|Liquidation|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|74/249
+  -unboost|p1a: Duraludon|def|1
+-- turn 11
+  WE CHOSE: attack dracometeor - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Duraludon|Draco Meteor|p2a: Pincurchin
+  -damage|p2a: Pincurchin|48/100
+  -unboost|p1a: Duraludon|spa|2
+  move|p2a: Pincurchin|Liquidation|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|40/249
+  -heal|p2a: Pincurchin|54/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack dracometeor - our hp 0.16, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p1a: Duraludon|Draco Meteor|p2a: Pincurchin
+  -damage|p2a: Pincurchin|28/100
+  -unboost|p1a: Duraludon|spa|2
+  move|p2a: Pincurchin|Liquidation|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|4/249
+  -heal|p2a: Pincurchin|35/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack bodypress - our hp 0.02, theirs 0.35, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to keldeoresolute - our hp 0.00, theirs 0.29, predicted move (revealed) hits us x0.5
+  move|p1a: Duraludon|Body Press|p2a: Pincurchin
+  -damage|p2a: Pincurchin|23/100
+  move|p2a: Pincurchin|Liquidation|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|0 fnt
+  faint|p1a: Duraludon
+  -heal|p2a: Pincurchin|29/100|[from] item: Leftovers
+  switch|p1a: Keldeo|Keldeo-Resolute, L79|273/273
+-- turn 14
+  WE CHOSE: attack hydropump (hand policy: attack+tera hydropump) - our hp 1.00, theirs 0.29, predicted move (revealed) hits us x0.5
+  move|p1a: Keldeo|Hydro Pump|p2a: Pincurchin
+  -damage|p2a: Pincurchin|0 fnt
+  faint|p2a: Pincurchin
+  -fieldend|move: Electric Terrain
+  switch|p2a: Carbink|Carbink, L90|100/100
+-- turn 15
+  WE CHOSE: switch to pecharunt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Pecharunt|Pecharunt, L77|191/262
+  move|p2a: Carbink|Moonblast|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|154/262
+-- turn 16
+  WE CHOSE: attack malignantchain - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Malignant Chain|p2a: Carbink
+  -damage|p2a: Carbink|80/100
+  move|p2a: Carbink|Moonblast|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|115/262
+  -unboost|p1a: Pecharunt|spa|1
+  -heal|p2a: Carbink|86/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack malignantchain (hand policy: heal recover) - our hp 0.44, theirs 0.86, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Malignant Chain|p2a: Carbink
+  -damage|p2a: Carbink|72/100
+  -status|p2a: Carbink|tox
+  -start|p2a: Carbink|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+  -activate|p2a: Carbink|confusion
+  move|p2a: Carbink|Moonblast|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|74/262
+  -heal|p2a: Carbink|78/100 tox|[from] item: Leftovers
+  -damage|p2a: Carbink|72/100 tox|[from] psn
+-- turn 18
+  WE CHOSE: attack malignantchain (hand policy: heal recover) - our hp 0.28, theirs 0.72, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Malignant Chain|p2a: Carbink
+  -damage|p2a: Carbink|58/100 tox
+  -activate|p2a: Carbink|confusion
+  -damage|p2a: Carbink|54/100 tox|[from] confusion
+  -heal|p2a: Carbink|60/100 tox|[from] item: Leftovers
+  -damage|p2a: Carbink|48/100 tox|[from] psn
+-- turn 19
+  WE CHOSE: attack malignantchain (hand policy: heal recover) - our hp 0.28, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Malignant Chain|p2a: Carbink
+  -damage|p2a: Carbink|35/100 tox
+  -activate|p2a: Carbink|confusion
+  move|p2a: Carbink|Moonblast|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|31/262
+  -unboost|p1a: Pecharunt|spa|1
+  -heal|p2a: Carbink|41/100 tox|[from] item: Leftovers
+  -damage|p2a: Carbink|23/100 tox|[from] psn
+-- turn 20
+  WE CHOSE: attack malignantchain (hand policy: heal recover) - our hp 0.12, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p1a: Pecharunt|Malignant Chain|p2a: Carbink
+  -damage|p2a: Carbink|12/100 tox
+  -activate|p2a: Carbink|confusion
+  -damage|p2a: Carbink|8/100 tox|[from] confusion
+  -heal|p2a: Carbink|14/100 tox|[from] item: Leftovers
+  -damage|p2a: Carbink|0 fnt|[from] psn
+  faint|p2a: Carbink
+  switch|p2a: Primarina|Primarina, L83, F|100/100
+-- turn 21
+  WE CHOSE: switch to keldeoresolute (hand policy: heal recover) - our hp 0.12, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Keldeo|Keldeo-Resolute, L79|273/273
+  move|p2a: Primarina|Hydro Pump|p1a: Keldeo
+  -resisted|p1a: Keldeo
+  -damage|p1a: Keldeo|169/273
+-- turn 22
+  WE CHOSE: attack airslash - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Keldeo|Air Slash|p2a: Primarina
+  -damage|p2a: Primarina|83/100
+  move|p2a: Primarina|Hydro Pump|p1a: Keldeo|[miss]
+  -miss|p2a: Primarina|p1a: Keldeo
+-- turn 23
+  WE CHOSE: attack airslash - our hp 0.62, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p1a: Keldeo|Air Slash|p2a: Primarina
+  -damage|p2a: Primarina|65/100
+  move|p2a: Primarina|Hydro Pump|p1a: Keldeo
+  -resisted|p1a: Keldeo
+  -damage|p1a: Keldeo|53/273
+-- turn 24
+  WE CHOSE: attack airslash - our hp 0.19, theirs 0.65, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to pecharunt - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p1a: Keldeo|Air Slash|p2a: Primarina
+  -damage|p2a: Primarina|48/100
+  move|p2a: Primarina|Hydro Pump|p1a: Keldeo
+  -resisted|p1a: Keldeo
+  -damage|p1a: Keldeo|0 fnt
+  faint|p1a: Keldeo
+  switch|p1a: Pecharunt|Pecharunt, L77|31/262
+-- turn 25
+  WE CHOSE: heal recover - our hp 0.12, theirs 0.48, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cryogonal - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Pecharunt|Recover|p1a: Pecharunt
+  -heal|p1a: Pecharunt|162/262
+  move|p2a: Primarina|Hydro Pump|p1a: Pecharunt
+  -damage|p1a: Pecharunt|0 fnt
+  faint|p1a: Pecharunt
+  switch|p1a: Cryogonal|Cryogonal, L89|287/287
+-- turn 26
+  WE CHOSE: heal recover (hand policy: attack freezedry) - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Recover||[still]
+  -fail|p1a: Cryogonal|heal
+  move|p2a: Primarina|Hydro Pump|p1a: Cryogonal
+  -damage|p1a: Cryogonal|136/287
+-- turn 27
+  WE CHOSE: attack rapidspin (hand policy: heal recover) - our hp 0.47, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Rapid Spin|p2a: Primarina
+  -damage|p2a: Primarina|38/100
+  -boost|p1a: Cryogonal|spe|1
+  move|p2a: Primarina|Hydro Pump|p1a: Cryogonal
+  -damage|p1a: Cryogonal|3/287
+-- turn 28
+  WE CHOSE: heal recover - our hp 0.01, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|147/287
+  move|p2a: Primarina|Hydro Pump|p1a: Cryogonal
+  -damage|p1a: Cryogonal|8/287
+-- turn 29
+  WE CHOSE: heal recover - our hp 0.03, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|152/287
+  -activate|p2a: Primarina|move: Struggle
+  move|p2a: Primarina|Struggle|p1a: Cryogonal
+  -damage|p1a: Cryogonal|112/287
+  -damage|p2a: Primarina|13/100|[from] recoil
+-- turn 30
+  WE CHOSE: attack rapidspin (hand policy: heal recover) - our hp 0.39, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Cryogonal|Rapid Spin|p2a: Primarina
+  -damage|p2a: Primarina|1/100
+  -boost|p1a: Cryogonal|spe|1
+  -activate|p2a: Primarina|move: Struggle
+  move|p2a: Primarina|Struggle|p1a: Cryogonal
+  -damage|p1a: Cryogonal|75/287
+  -damage|p2a: Primarina|0 fnt|[from] recoil
+  faint|p2a: Primarina
+  switch|p2a: Sudowoodo|Sudowoodo, L94, M|100/100
+-- turn 31
+  WE CHOSE: attack+tera freezedry - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Cryogonal|Steel
+  move|p1a: Cryogonal|Freeze-Dry|p2a: Sudowoodo
+  -damage|p2a: Sudowoodo|71/100
+  move|p2a: Sudowoodo|Head Smash|p1a: Cryogonal|[miss]
+  -miss|p2a: Sudowoodo|p1a: Cryogonal
+  -heal|p2a: Sudowoodo|77/100|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: heal recover - our hp 0.26, theirs 0.77, predicted move (revealed) hits us x0.5
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|219/287
+  move|p2a: Sudowoodo|Head Smash|p1a: Cryogonal
+  -resisted|p1a: Cryogonal
+  -damage|p1a: Cryogonal|78/287
+  -heal|p2a: Sudowoodo|83/100|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: heal recover - our hp 0.27, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|222/287
+  move|p2a: Sudowoodo|Head Smash|p1a: Cryogonal
+  -resisted|p1a: Cryogonal
+  -damage|p1a: Cryogonal|86/287
+  -heal|p2a: Sudowoodo|89/100|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: heal recover - our hp 0.30, theirs 0.89, predicted move (revealed) hits us x0.5
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|230/287
+  move|p2a: Sudowoodo|Head Smash|p1a: Cryogonal
+  -resisted|p1a: Cryogonal
+  -damage|p1a: Cryogonal|80/287
+  -heal|p2a: Sudowoodo|95/100|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: heal recover - our hp 0.28, theirs 0.95, predicted move (revealed) hits us x0.5
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|224/287
+  move|p2a: Sudowoodo|Head Smash|p1a: Cryogonal|[miss]
+  -miss|p2a: Sudowoodo|p1a: Cryogonal
+  -heal|p2a: Sudowoodo|100/100|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: heal recover (hand policy: attack freezedry) - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Cryogonal|Recover|p1a: Cryogonal
+  -heal|p1a: Cryogonal|287/287
+  move|p2a: Sudowoodo|Head Smash|p1a: Cryogonal
+  -resisted|p1a: Cryogonal
+  -damage|p1a: Cryogonal|139/287
+-- turn 37
+  WE CHOSE: attack freezedry - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to diancie - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x0.5
+  move|p1a: Cryogonal|Freeze-Dry|p2a: Sudowoodo
+  -damage|p2a: Sudowoodo|70/100
+  move|p2a: Sudowoodo|Head Smash|p1a: Cryogonal
+  -resisted|p1a: Cryogonal
+  -damage|p1a: Cryogonal|0 fnt
+  faint|p1a: Cryogonal
+  -heal|p2a: Sudowoodo|76/100|[from] item: Leftovers
+  switch|p1a: Diancie|Diancie, L82|216/216
+-- turn 38
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Diancie|Earth Power|p2a: Sudowoodo
+  -supereffective|p2a: Sudowoodo
+  -damage|p2a: Sudowoodo|29/100
+  move|p2a: Sudowoodo|Head Smash|p1a: Diancie
+  -crit|p1a: Diancie
+  -damage|p1a: Diancie|0 fnt
+  faint|p1a: Diancie
+  deinit

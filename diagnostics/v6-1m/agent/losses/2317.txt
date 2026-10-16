@@ -1,0 +1,139 @@
+battle 2317 (battle-gen9randombattle-1029834): lost in 13 turns, 3 of theirs left; we are p1
+
+ours:
+  cetitan (fainted; item lifeorb, ability sheerforce; moves superpower/iceshard/liquidation/iciclecrash)
+  meowsticf (fainted; item lifeorb, ability competitive; moves thunderbolt/psyshock/darkpulse/nastyplot)
+  infernape (fainted; item choiceband, ability blaze; moves knockoff/closecombat/flareblitz/stoneedge)
+  roaringmoon (fainted; item ?, ability protosynthesis; moves knockoff/dragondance/outrage/ironhead)
+  luvdisc (fainted; item heavydutyboots, ability swiftswim, tera ground; moves whirlpool/substitute/surf/endeavor)
+  meloetta (fainted; item choicespecs, ability serenegrace; moves uturn/focusblast/psyshock/hypervoice)
+theirs (as seen):
+  mimikyu (fainted; item lifeorb, ability disguise; moves playrough)
+  garchomp (fainted; item rockyhelmet, ability roughskin; moves outrage)
+  skuntank (fainted; item lifeorb, ability ?; moves gunkshot)
+  serperior (5%; item lifeorb, ability ?; moves leafstorm)
+
+-- turn 0
+  switch|p1a: Cetitan|Cetitan, L82, M|413/413
+  switch|p2a: Mimikyu|Mimikyu, L79, F|100/100
+-- turn 1
+  WE CHOSE: attack iciclecrash - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Mimikyu|Play Rough|p1a: Cetitan
+  -damage|p1a: Cetitan|271/413
+  -damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+  move|p1a: Cetitan|Icicle Crash|p2a: Mimikyu
+  -activate|p2a: Mimikyu|ability: Disguise
+  -damage|p2a: Mimikyu|91/100
+  detailschange|p2a: Mimikyu|Mimikyu-Busted, L79, F
+  -damage|p2a: Mimikyu|78/100|[from] pokemon: Mimikyu-Busted
+-- turn 2
+  WE CHOSE: attack iciclecrash - our hp 0.66, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Mimikyu|Play Rough|p1a: Cetitan
+  -damage|p1a: Cetitan|145/413
+  -damage|p2a: Mimikyu|69/100|[from] item: Life Orb
+  move|p1a: Cetitan|Icicle Crash|p2a: Mimikyu
+  -crit|p2a: Mimikyu
+  -damage|p2a: Mimikyu|0 fnt
+  faint|p2a: Mimikyu
+  switch|p2a: Garchomp|Garchomp, L74, F|100/100
+-- turn 3
+  WE CHOSE: attack iciclecrash - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to infernape - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Garchomp|Outrage|p1a: Cetitan
+  -damage|p1a: Cetitan|0 fnt
+  faint|p1a: Cetitan
+  switch|p1a: Infernape|Infernape, L82, M|259/259
+-- turn 4
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to luvdisc (hand policy: forced: switch to roaringmoon) - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x1
+  move|p1a: Infernape|Close Combat|p2a: Garchomp
+  -damage|p2a: Garchomp|30/100
+  -unboost|p1a: Infernape|def|1
+  -unboost|p1a: Infernape|spd|1
+  -damage|p1a: Infernape|227/259|[from] ability: Rough Skin|[of] p2a: Garchomp
+  -damage|p1a: Infernape|184/259|[from] item: Rocky Helmet|[of] p2a: Garchomp
+  move|p2a: Garchomp|Outrage|p1a: Infernape|[from] lockedmove
+  -damage|p1a: Infernape|0 fnt
+  faint|p1a: Infernape
+  -start|p2a: Garchomp|confusion|[fatigue]
+  switch|p1a: Luvdisc|Luvdisc, M|247/247
+-- turn 5
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.30, predicted move (revealed) hits us x1
+  move|p1a: Luvdisc|Surf|p2a: Garchomp
+  -damage|p2a: Garchomp|0 fnt
+  faint|p2a: Garchomp
+  switch|p2a: Skuntank|Skuntank, L84, M|100/100
+-- turn 6
+  WE CHOSE: attack+tera surf - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Luvdisc|Ground
+  move|p1a: Luvdisc|Surf|p2a: Skuntank
+  -damage|p2a: Skuntank|69/100
+  move|p2a: Skuntank|Gunk Shot|p1a: Luvdisc|[miss]
+  -miss|p2a: Skuntank|p1a: Luvdisc
+-- turn 7
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Luvdisc|Surf|p2a: Skuntank
+  -damage|p2a: Skuntank|35/100
+  move|p2a: Skuntank|Gunk Shot|p1a: Luvdisc
+  -resisted|p1a: Luvdisc
+  -damage|p1a: Luvdisc|157/247
+  -damage|p2a: Skuntank|25/100|[from] item: Life Orb
+-- turn 8
+  WE CHOSE: attack surf - our hp 0.64, theirs 0.25, predicted move (revealed) hits us x0.5
+  move|p1a: Luvdisc|Surf|p2a: Skuntank
+  -damage|p2a: Skuntank|0 fnt
+  faint|p2a: Skuntank
+  switch|p2a: Serperior|Serperior, L79, M|100/100
+-- turn 9
+  WE CHOSE: switch to roaringmoon - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Roaring Moon|Roaring Moon, L72|270/270
+  -enditem|p1a: Roaring Moon|Booster Energy
+  -activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+  -start|p1a: Roaring Moon|protosynthesisatk
+  move|p2a: Serperior|Leaf Storm|p1a: Roaring Moon
+  -resisted|p1a: Roaring Moon
+  -damage|p1a: Roaring Moon|205/270
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|91/100|[from] item: Life Orb
+-- turn 10
+  WE CHOSE: setup dragondance - our hp 0.76, theirs 0.91, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to meloetta - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Roaring Moon
+  -resisted|p1a: Roaring Moon
+  -crit|p1a: Roaring Moon
+  -damage|p1a: Roaring Moon|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Roaring Moon
+  -end|p1a: Roaring Moon|Protosynthesis|[silent]
+  -damage|p2a: Serperior|81/100|[from] item: Life Orb
+  switch|p1a: Meloetta|Meloetta, L82|298/298
+-- turn 11
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to meowsticf - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Meloetta
+  -damage|p1a: Meloetta|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Meloetta
+  -damage|p2a: Serperior|71/100|[from] item: Life Orb
+  switch|p1a: Meowstic|Meowstic-F, L89, F|277/277
+-- turn 12
+  WE CHOSE: attack psyshock - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to luvdisc - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Meowstic|Psyshock|p2a: Serperior
+  -damage|p2a: Serperior|24/100
+  -damage|p1a: Meowstic|250/277|[from] item: Life Orb
+  move|p2a: Serperior|Leaf Storm|p1a: Meowstic
+  -damage|p1a: Meowstic|0 fnt
+  faint|p1a: Meowstic
+  -damage|p2a: Serperior|15/100|[from] item: Life Orb
+  switch|p1a: Luvdisc|Luvdisc, M, tera:Ground|157/247
+-- turn 13
+  WE CHOSE: attack endeavor (hand policy: attack surf) - our hp 0.64, theirs 0.15, predicted move (revealed) hits us x2
+  move|p1a: Luvdisc|Endeavor|p2a: Serperior
+  -immune|p2a: Serperior
+  move|p2a: Serperior|Leaf Storm|p1a: Luvdisc
+  -supereffective|p1a: Luvdisc
+  -damage|p1a: Luvdisc|0 fnt
+  faint|p1a: Luvdisc
+  -damage|p2a: Serperior|5/100|[from] item: Life Orb
+  deinit

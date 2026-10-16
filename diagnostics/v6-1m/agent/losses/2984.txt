@@ -1,0 +1,190 @@
+battle 2984 (battle-gen9randombattle-1035830): lost in 19 turns, 2 of theirs left; we are p1
+
+ours:
+  kyuremwhite (fainted; item choicescarf, ability turboblaze; moves dracometeor/icebeam/fusionflare/freezedry)
+  smeargle (fainted; item focussash, ability owntempo; moves ceaselessedge/stickyweb/stealthrock/spore)
+  serperior (fainted; item leftovers, ability contrary; moves leechseed/dragonpulse/substitute/leafstorm)
+  thundurus (fainted; item choicespecs, ability defiant; moves sludgewave/grassknot/uturn/thunderbolt)
+  malamar (fainted; item chestoberry, ability contrary, tera fighting; moves psychocut/knockoff/rest/superpower)
+  dialga (fainted; item leftovers, ability pressure; moves fireblast/dracometeor/thunderwave/heavyslam)
+theirs (as seen):
+  krookodile (fainted; item leftovers, ability intimidate; moves gunkshot/earthquake)
+  victreebel (fainted; item lifeorb, ability ?; moves powerwhip)
+  cryogonal (fainted; item unknown_item, ability levitate; moves freezedry)
+  greedent (fainted; item ?, ability ?; moves doubleedge)
+  volcarona (4%; item unknown_item, ability ?; moves fireblast/bugbuzz)
+
+-- turn 0
+  switch|p1a: Kyurem|Kyurem-White, L73|303/303
+  switch|p2a: Krookodile|Krookodile, L79, F|100/100
+  -ability|p1a: Kyurem|Turboblaze
+  -ability|p2a: Krookodile|Intimidate|boost
+  -unboost|p1a: Kyurem|atk|1
+-- turn 1
+  WE CHOSE: switch to dialga - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dialga|Dialga, L73|266/266
+  -ability|p1a: Dialga|Pressure
+  move|p2a: Krookodile|Gunk Shot|p1a: Dialga
+  -immune|p1a: Dialga
+-- turn 2
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Krookodile|Gunk Shot|p1a: Dialga
+  -immune|p1a: Dialga
+  move|p1a: Dialga|Draco Meteor|p2a: Krookodile|[miss]
+  -miss|p1a: Dialga|p2a: Krookodile
+-- turn 3
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Krookodile|Gunk Shot|p1a: Dialga
+  -immune|p1a: Dialga
+  move|p1a: Dialga|Draco Meteor|p2a: Krookodile
+  -damage|p2a: Krookodile|33/100
+  -unboost|p1a: Dialga|spa|2
+  -heal|p2a: Krookodile|39/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x0
+  move|p2a: Krookodile|Gunk Shot|p1a: Dialga
+  -immune|p1a: Dialga
+  move|p1a: Dialga|Draco Meteor|p2a: Krookodile
+  -damage|p2a: Krookodile|2/100
+  -unboost|p1a: Dialga|spa|2
+  -heal|p2a: Krookodile|8/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x0
+  move|p2a: Krookodile|Earthquake|p1a: Dialga
+  -supereffective|p1a: Dialga
+  -damage|p1a: Dialga|72/266
+  move|p1a: Dialga|Draco Meteor|p2a: Krookodile
+  -damage|p2a: Krookodile|0 fnt
+  -unboost|p1a: Dialga|spa|2
+  faint|p2a: Krookodile
+  -heal|p1a: Dialga|88/266|[from] item: Leftovers
+  switch|p2a: Victreebel|Victreebel, L90, F|100/100
+-- turn 6
+  WE CHOSE: switch to kyuremwhite (hand policy: attack fireblast) - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x0.25
+  switch|p1a: Kyurem|Kyurem-White, L73|303/303
+  -ability|p1a: Kyurem|Turboblaze
+  move|p2a: Victreebel|Power Whip|p1a: Kyurem
+  -resisted|p1a: Kyurem
+  -damage|p1a: Kyurem|180/303
+  -damage|p2a: Victreebel|90/100|[from] item: Life Orb
+-- turn 7
+  WE CHOSE: attack icebeam - our hp 0.59, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p1a: Kyurem|Ice Beam|p2a: Victreebel
+  -supereffective|p2a: Victreebel
+  -damage|p2a: Victreebel|5/100
+  move|p2a: Victreebel|Power Whip|p1a: Kyurem
+  -resisted|p1a: Kyurem
+  -damage|p1a: Kyurem|75/303
+  -damage|p2a: Victreebel|0 fnt|[from] item: Life Orb
+  faint|p2a: Victreebel
+  switch|p2a: Cryogonal|Cryogonal, L89|100/100
+-- turn 8
+  WE CHOSE: attack icebeam - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to malamar - our hp 0.00, theirs 0.88, predicted move (revealed) hits us x1
+  move|p1a: Kyurem|Ice Beam|p2a: Cryogonal
+  -resisted|p2a: Cryogonal
+  -damage|p2a: Cryogonal|88/100
+  move|p2a: Cryogonal|Freeze-Dry|p1a: Kyurem
+  -damage|p1a: Kyurem|0 fnt
+  faint|p1a: Kyurem
+  switch|p1a: Malamar|Malamar, L82, M|275/275
+-- turn 9
+  WE CHOSE: attack+tera superpower - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x1
+  -terastallize|p1a: Malamar|Fighting
+  move|p2a: Cryogonal|Freeze-Dry|p1a: Malamar
+  -damage|p1a: Malamar|173/275
+  move|p1a: Malamar|Superpower|p2a: Cryogonal
+  -supereffective|p2a: Cryogonal
+  -damage|p2a: Cryogonal|0 fnt
+  -boost|p1a: Malamar|atk|1
+  -boost|p1a: Malamar|def|1
+  faint|p2a: Cryogonal
+  switch|p2a: Greedent|Greedent, L86, F|100/100
+-- turn 10
+  WE CHOSE: attack superpower - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Malamar|Superpower|p2a: Greedent
+  -supereffective|p2a: Greedent
+  -damage|p2a: Greedent|13/100
+  -boost|p1a: Malamar|atk|1
+  -boost|p1a: Malamar|def|1
+  -enditem|p2a: Greedent|Sitrus Berry|[eat]
+  -heal|p2a: Greedent|38/100|[from] item: Sitrus Berry
+  -heal|p2a: Greedent|71/100|[from] ability: Cheek Pouch
+  move|p2a: Greedent|Double-Edge|p1a: Malamar
+  -damage|p1a: Malamar|107/275
+  -damage|p2a: Greedent|65/100|[from] Recoil
+-- turn 11
+  WE CHOSE: attack superpower (hand policy: heal rest) - our hp 0.39, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Malamar|Superpower|p2a: Greedent
+  -supereffective|p2a: Greedent
+  -damage|p2a: Greedent|0 fnt
+  -boost|p1a: Malamar|atk|1
+  -boost|p1a: Malamar|def|1
+  faint|p2a: Greedent
+  switch|p2a: Volcarona|Volcarona, L77, M|100/100
+-- turn 12
+  WE CHOSE: heal rest - our hp 0.39, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dialga - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Volcarona|Fire Blast|p1a: Malamar
+  -damage|p1a: Malamar|0 fnt
+  faint|p1a: Malamar
+  switch|p1a: Dialga|Dialga, L73|88/266
+  -ability|p1a: Dialga|Pressure
+-- turn 13
+  WE CHOSE: attack dracometeor - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to thundurus - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Volcarona|Fire Blast|p1a: Dialga
+  -damage|p1a: Dialga|0 fnt
+  faint|p1a: Dialga
+  switch|p1a: Thundurus|Thundurus, L80, M|258/258
+-- turn 14
+  WE CHOSE: attack sludgewave (hand policy: attack thunderbolt) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Thundurus|Sludge Wave|p2a: Volcarona
+  -damage|p2a: Volcarona|57/100
+  move|p2a: Volcarona|Fire Blast|p1a: Thundurus
+  -damage|p1a: Thundurus|113/258
+  -status|p1a: Thundurus|brn
+  -damage|p1a: Thundurus|97/258 brn|[from] brn
+-- turn 15
+  WE CHOSE: attack sludgewave - our hp 0.38, theirs 0.57, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to smeargle - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Thundurus|Sludge Wave|p2a: Volcarona
+  -damage|p2a: Volcarona|13/100
+  move|p2a: Volcarona|Fire Blast|p1a: Thundurus
+  -damage|p1a: Thundurus|0 fnt
+  faint|p1a: Thundurus
+  switch|p1a: Smeargle|Smeargle, L95, F|258/258
+-- turn 16
+  WE CHOSE: attack stealthrock (hand policy: attack ceaselessedge) - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Volcarona|Fire Blast|p1a: Smeargle
+  -damage|p1a: Smeargle|95/258
+  -status|p1a: Smeargle|brn
+  move|p1a: Smeargle|Stealth Rock|p2a: Volcarona
+  -sidestart|p2: e2_132141|move: Stealth Rock
+  -damage|p1a: Smeargle|79/258 brn|[from] brn
+-- turn 17
+  WE CHOSE: attack ceaselessedge - our hp 0.31, theirs 0.13, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to serperior - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Volcarona|Fire Blast|p1a: Smeargle
+  -damage|p1a: Smeargle|0 fnt
+  faint|p1a: Smeargle
+  switch|p1a: Serperior|Serperior, L79, M|248/248
+-- turn 18
+  WE CHOSE: attack leafstorm (hand policy: attack dragonpulse) - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x2
+  move|p1a: Serperior|Leaf Storm|p2a: Volcarona
+  -resisted|p2a: Volcarona
+  -damage|p2a: Volcarona|4/100
+  -boost|p1a: Serperior|spa|2
+  move|p2a: Volcarona|Fire Blast|p1a: Serperior
+  -supereffective|p1a: Serperior
+  -damage|p1a: Serperior|14/248
+  -heal|p1a: Serperior|29/248|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack leechseed (hand policy: attack dragonpulse) - our hp 0.12, theirs 0.04, predicted move (revealed) hits us x2
+  move|p1a: Serperior|Leech Seed|p2a: Volcarona
+  -start|p2a: Volcarona|move: Leech Seed
+  move|p2a: Volcarona|Bug Buzz|p1a: Serperior
+  -supereffective|p1a: Serperior
+  -damage|p1a: Serperior|0 fnt
+  faint|p1a: Serperior
+  deinit

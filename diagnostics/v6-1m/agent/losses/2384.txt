@@ -1,0 +1,358 @@
+battle 2384 (battle-gen9randombattle-1030521): lost in 47 turns, 1 of theirs left; we are p1
+
+ours:
+  zebstrika (fainted; item lifeorb, ability sapsipper, tera ground; moves highhorsepower/voltswitch/supercellslam/overheat)
+  donphan (fainted; item leftovers, ability sturdy; moves stealthrock/rapidspin/icespinner/earthquake)
+  jolteon (fainted; item heavydutyboots, ability voltabsorb; moves calmmind/alluringvoice/thunderbolt/voltswitch)
+  lapras (fainted; item choicespecs, ability waterabsorb; moves hydropump/freezedry/sparklingaria/icebeam)
+  frosmoth (fainted; item heavydutyboots, ability icescales; moves icebeam/quiverdance/hurricane/gigadrain)
+  gothitelle (fainted; item leftovers, ability shadowtag; moves focusblast/thunderbolt/calmmind/psychicnoise)
+theirs (as seen):
+  venomoth (fainted; item unknown_item, ability ?; moves sludgewave)
+  porygon2 (fainted; item unknown_item, ability download; moves terablast)
+  terrakion (fainted; item lifeorb, ability justified; moves closecombat)
+  metagross (fainted; item ?, ability ?; moves earthquake)
+  zarudedada (fainted; item unknown_item, ability leafguard; moves -)
+  luxray (37%; item unknown_item, ability intimidate; moves wildcharge/playrough)
+
+-- turn 0
+  switch|p1a: Zebstrika|Zebstrika, L87, F|272/272
+  switch|p2a: Venomoth|Venomoth, L84, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera overheat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Zebstrika|Ground
+  move|p1a: Zebstrika|Overheat|p2a: Venomoth
+  -supereffective|p2a: Venomoth
+  -damage|p2a: Venomoth|7/100
+  -unboost|p1a: Zebstrika|spa|2
+  -damage|p1a: Zebstrika|245/272|[from] item: Life Orb
+  move|p2a: Venomoth|Sludge Wave|p1a: Zebstrika
+  -resisted|p1a: Zebstrika
+  -damage|p1a: Zebstrika|119/272
+-- turn 2
+  WE CHOSE: attack supercellslam - our hp 0.44, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p1a: Zebstrika|Supercell Slam|p2a: Venomoth
+  -damage|p2a: Venomoth|0 fnt
+  faint|p2a: Venomoth
+  -damage|p1a: Zebstrika|92/272|[from] item: Life Orb
+  switch|p2a: Porygon2|Porygon2, L81|100/100
+  -ability|p2a: Porygon2|Download|boost
+  -boost|p2a: Porygon2|spa|1
+-- turn 3
+  WE CHOSE: switch to lapras - our hp 0.34, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Lapras|Lapras, L87, M|367/367
+  move|p2a: Porygon2|Tera Blast|p1a: Lapras
+  -damage|p1a: Lapras|241/367
+-- turn 4
+  WE CHOSE: attack freezedry (hand policy: attack sparklingaria) - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Lapras|Freeze-Dry|p2a: Porygon2
+  -damage|p2a: Porygon2|74/100
+  move|p2a: Porygon2|Tera Blast|p1a: Lapras
+  -damage|p1a: Lapras|124/367
+-- turn 5
+  WE CHOSE: attack freezedry - our hp 0.34, theirs 0.74, predicted move (revealed) hits us x1
+  move|p1a: Lapras|Freeze-Dry|p2a: Porygon2
+  -damage|p2a: Porygon2|49/100
+  move|p2a: Porygon2|Tera Blast|p1a: Lapras
+  -damage|p1a: Lapras|13/367
+-- turn 6
+  WE CHOSE: switch to gothitelle (hand policy: attack freezedry) - our hp 0.04, theirs 0.49, predicted move (revealed) hits us x1
+  switch|p1a: Gothitelle|Gothitelle, L90, F|272/272
+  move|p2a: Porygon2|Tera Blast|p1a: Gothitelle
+  -damage|p1a: Gothitelle|172/272
+  -heal|p1a: Gothitelle|189/272|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack focusblast - our hp 0.69, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Gothitelle|Focus Blast|p2a: Porygon2
+  -supereffective|p2a: Porygon2
+  -damage|p2a: Porygon2|5/100
+  move|p2a: Porygon2|Tera Blast|p1a: Gothitelle
+  -damage|p1a: Gothitelle|96/272
+  -heal|p1a: Gothitelle|113/272|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack focusblast - our hp 0.42, theirs 0.05, predicted move (revealed) hits us x1
+  move|p1a: Gothitelle|Focus Blast|p2a: Porygon2|[miss]
+  -miss|p1a: Gothitelle|p2a: Porygon2
+  move|p2a: Porygon2|Tera Blast|p1a: Gothitelle
+  -damage|p1a: Gothitelle|8/272
+  -heal|p1a: Gothitelle|25/272|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack focusblast - our hp 0.09, theirs 0.05, predicted move (revealed) hits us x1
+  move|p1a: Gothitelle|Focus Blast|p2a: Porygon2
+  -supereffective|p2a: Porygon2
+  -damage|p2a: Porygon2|0 fnt
+  faint|p2a: Porygon2
+  -heal|p1a: Gothitelle|42/272|[from] item: Leftovers
+  switch|p2a: Terrakion|Terrakion, L79|100/100
+-- turn 10
+  WE CHOSE: attack psychicnoise - our hp 0.15, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to donphan - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Terrakion|Close Combat|p1a: Gothitelle
+  -resisted|p1a: Gothitelle
+  -damage|p1a: Gothitelle|0 fnt
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  faint|p1a: Gothitelle
+  -damage|p2a: Terrakion|91/100|[from] item: Life Orb
+  switch|p1a: Donphan|Donphan, L84, M|288/288
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Terrakion|Close Combat|p1a: Donphan
+  -damage|p1a: Donphan|136/288
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  -damage|p2a: Terrakion|81/100|[from] item: Life Orb
+  move|p1a: Donphan|Earthquake|p2a: Terrakion
+  -supereffective|p2a: Terrakion
+  -damage|p2a: Terrakion|0 fnt
+  faint|p2a: Terrakion
+  -heal|p1a: Donphan|154/288|[from] item: Leftovers
+  switch|p2a: Metagross|Metagross, L79|100/100
+-- turn 12
+  WE CHOSE: attack earthquake - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Metagross|Earthquake|p1a: Donphan
+  -damage|p1a: Donphan|88/288
+  move|p1a: Donphan|Earthquake|p2a: Metagross
+  -supereffective|p2a: Metagross
+  -damage|p2a: Metagross|23/100
+  -enditem|p2a: Metagross|Weakness Policy
+  -boost|p2a: Metagross|atk|2|[from] item: Weakness Policy
+  -boost|p2a: Metagross|spa|2|[from] item: Weakness Policy
+  -heal|p1a: Donphan|106/288|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 0.37, theirs 0.23, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to frosmoth (hand policy: forced: switch to zebstrika) - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Metagross|Earthquake|p1a: Donphan
+  -damage|p1a: Donphan|0 fnt
+  faint|p1a: Donphan
+  switch|p1a: Frosmoth|Frosmoth, L82, M|249/249
+-- turn 14
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p2a: Metagross|Earthquake|p1a: Frosmoth
+  -resisted|p1a: Frosmoth
+  -damage|p1a: Frosmoth|134/249
+  move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+  -boost|p1a: Frosmoth|spa|1
+  -boost|p1a: Frosmoth|spd|1
+  -boost|p1a: Frosmoth|spe|1
+-- turn 15
+  WE CHOSE: attack icebeam (hand policy: setup quiverdance) - our hp 0.54, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p1a: Frosmoth|Ice Beam|p2a: Metagross
+  -resisted|p2a: Metagross
+  -damage|p2a: Metagross|0 fnt
+  faint|p2a: Metagross
+  switch|p2a: Zarude|Zarude-Dada, L77|100/100
+-- turn 16
+  WE CHOSE: attack icebeam - our hp 0.54, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Frosmoth|Ice Beam|p2a: Zarude
+  -supereffective|p2a: Zarude
+  -damage|p2a: Zarude|0 fnt
+  faint|p2a: Zarude
+  switch|p2a: Luxray|Luxray, L88, M|100/100
+  -ability|p2a: Luxray|Intimidate|boost
+  -unboost|p1a: Frosmoth|atk|1
+-- turn 17
+  WE CHOSE: switch to zebstrika - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Zebstrika|Zebstrika, L87, F, tera:Ground|92/272
+  move|p2a: Luxray|Wild Charge|p1a: Zebstrika
+  -immune|p1a: Zebstrika
+-- turn 18
+  WE CHOSE: switch to jolteon (hand policy: attack highhorsepower) - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Jolteon|Jolteon, L84, M|246/246
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 19
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 20
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 21
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 22
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 23
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 24
+  WE CHOSE: switch to zebstrika (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Zebstrika|Zebstrika, L87, F, tera:Ground|92/272
+  move|p2a: Luxray|Wild Charge|p1a: Zebstrika
+  -immune|p1a: Zebstrika
+-- turn 25
+  WE CHOSE: switch to jolteon (hand policy: attack highhorsepower) - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Jolteon|Jolteon, L84, M|246/246
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 26
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 27
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 28
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 29
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 30
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 31
+  WE CHOSE: switch to zebstrika (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Zebstrika|Zebstrika, L87, F, tera:Ground|92/272
+  move|p2a: Luxray|Wild Charge|p1a: Zebstrika
+  -immune|p1a: Zebstrika
+-- turn 32
+  WE CHOSE: switch to jolteon (hand policy: attack highhorsepower) - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Jolteon|Jolteon, L84, M|246/246
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 33
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 34
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 35
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 36
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 37
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 38
+  WE CHOSE: switch to zebstrika (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Zebstrika|Zebstrika, L87, F, tera:Ground|92/272
+  move|p2a: Luxray|Wild Charge|p1a: Zebstrika
+  -immune|p1a: Zebstrika
+-- turn 39
+  WE CHOSE: switch to jolteon (hand policy: attack highhorsepower) - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Jolteon|Jolteon, L84, M|246/246
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 40
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Wild Charge|p1a: Jolteon
+  -immune|p1a: Jolteon|[from] ability: Volt Absorb
+-- turn 41
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Play Rough|p1a: Jolteon
+  -damage|p1a: Jolteon|130/246
+  -unboost|p1a: Jolteon|atk|1
+-- turn 42
+  WE CHOSE: setup calmmind - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Luxray|Play Rough|p1a: Jolteon
+  -damage|p1a: Jolteon|30/246
+-- turn 43
+  WE CHOSE: attack alluringvoice - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to zebstrika - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x0
+  move|p1a: Jolteon|Alluring Voice|p2a: Luxray
+  -damage|p2a: Luxray|64/100
+  move|p2a: Luxray|Play Rough|p1a: Jolteon
+  -damage|p1a: Jolteon|0 fnt
+  faint|p1a: Jolteon
+  switch|p1a: Zebstrika|Zebstrika, L87, F, tera:Ground|92/272
+-- turn 44
+  WE CHOSE: attack overheat (hand policy: attack highhorsepower) - our hp 0.34, theirs 0.64, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to frosmoth - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x0
+  move|p1a: Zebstrika|Overheat|p2a: Luxray|[miss]
+  -miss|p1a: Zebstrika|p2a: Luxray
+  move|p2a: Luxray|Play Rough|p1a: Zebstrika
+  -damage|p1a: Zebstrika|0 fnt
+  faint|p1a: Zebstrika
+  switch|p1a: Frosmoth|Frosmoth, L82, M|134/249
+-- turn 45
+  WE CHOSE: attack icebeam - our hp 0.54, theirs 0.64, predicted move (revealed) hits us x1
+  move|p2a: Luxray|Play Rough|p1a: Frosmoth|[miss]
+  -miss|p2a: Luxray|p1a: Frosmoth
+  move|p1a: Frosmoth|Ice Beam|p2a: Luxray
+  -damage|p2a: Luxray|37/100
+-- turn 46
+  WE CHOSE: attack icebeam - our hp 0.54, theirs 0.37, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lapras - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p2a: Luxray|Play Rough|p1a: Frosmoth
+  -crit|p1a: Frosmoth
+  -damage|p1a: Frosmoth|0 fnt
+  faint|p1a: Frosmoth
+  switch|p1a: Lapras|Lapras, L87, M|13/367
+-- turn 47
+  WE CHOSE: attack sparklingaria - our hp 0.04, theirs 0.37, predicted move (revealed) hits us x2
+  move|p2a: Luxray|Play Rough|p1a: Lapras
+  -damage|p1a: Lapras|0 fnt
+  faint|p1a: Lapras
+  deinit

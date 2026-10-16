@@ -1,0 +1,378 @@
+battle 517 (battle-gen9randombattle-1011083): lost in 42 turns, 1 of theirs left; we are p1
+
+ours:
+  giratinaorigin (fainted; item griseouscore, ability levitate, tera ghost; moves defog/poltergeist/dracometeor/dragontail)
+  toxapex (fainted; item leftovers, ability regenerator; moves recover/liquidation/toxicspikes/haze)
+  wochien (fainted; item leftovers, ability tabletsofruin; moves knockoff/stunspore/ruination/gigadrain)
+  smeargle (fainted; item widelens, ability technician; moves populationbomb/powertrip/spore/shellsmash)
+  gothitelle (fainted; item choicescarf, ability shadowtag; moves psychic/trick/focusblast/darkpulse)
+  diancie (fainted; item leftovers, ability clearbody; moves earthpower/drainingkiss/calmmind/diamondstorm)
+theirs (as seen):
+  garganacl (fainted; item leftovers, ability ?; moves earthquake)
+  vileplume (fainted; item leftovers, ability ?; moves sludgebomb)
+  granbull (fainted; item leftovers, ability intimidate; moves earthquake/playrough)
+  medicham (fainted; item unknown_item, ability ?; moves closecombat)
+  meganium (fainted; item leftovers, ability ?; moves energyball)
+  lapras (55%; item unknown_item, ability ?; moves sparklingaria)
+
+-- turn 0
+  switch|p1a: Giratina|Giratina-Origin, L72|335/335
+  switch|p2a: Garganacl|Garganacl, L80, F|100/100
+-- turn 1
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Giratina|Draco Meteor|p2a: Garganacl
+  -damage|p2a: Garganacl|53/100
+  -unboost|p1a: Giratina|spa|2
+  move|p2a: Garganacl|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Garganacl|59/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack+tera poltergeist - our hp 1.00, theirs 0.59, predicted move (revealed) hits us x0
+  -terastallize|p1a: Giratina|Ghost
+  move|p1a: Giratina|Poltergeist|p2a: Garganacl
+  -activate|p2a: Garganacl|move: Poltergeist|Leftovers
+  -damage|p2a: Garganacl|36/100
+  move|p2a: Garganacl|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Garganacl|42/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 0.42, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Poltergeist|p2a: Garganacl
+  -activate|p2a: Garganacl|move: Poltergeist|Leftovers
+  -damage|p2a: Garganacl|22/100
+  move|p2a: Garganacl|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Garganacl|28/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Poltergeist|p2a: Garganacl
+  -activate|p2a: Garganacl|move: Poltergeist|Leftovers
+  -damage|p2a: Garganacl|7/100
+  move|p2a: Garganacl|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Garganacl|14/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 0.14, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Poltergeist|p2a: Garganacl
+  -activate|p2a: Garganacl|move: Poltergeist|Leftovers
+  -damage|p2a: Garganacl|0 fnt
+  faint|p2a: Garganacl
+  switch|p2a: Vileplume|Vileplume, L85, F|100/100
+-- turn 6
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Giratina|Poltergeist|p2a: Vileplume
+  -activate|p2a: Vileplume|move: Poltergeist|Leftovers
+  -damage|p2a: Vileplume|43/100
+  move|p2a: Vileplume|Sludge Bomb|p1a: Giratina
+  -resisted|p1a: Giratina
+  -damage|p1a: Giratina|279/335
+  -heal|p2a: Vileplume|49/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack poltergeist - our hp 0.83, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p1a: Giratina|Poltergeist|p2a: Vileplume
+  -activate|p2a: Vileplume|move: Poltergeist|Leftovers
+  -damage|p2a: Vileplume|0 fnt
+  faint|p2a: Vileplume
+  switch|p2a: Granbull|Granbull, L88, F|100/100
+  -ability|p2a: Granbull|Intimidate|boost
+  -unboost|p1a: Giratina|atk|1
+-- turn 8
+  WE CHOSE: attack poltergeist - our hp 0.83, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Giratina|Poltergeist|p2a: Granbull
+  -activate|p2a: Granbull|move: Poltergeist|Leftovers
+  -damage|p2a: Granbull|61/100
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Granbull|67/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack poltergeist - our hp 0.83, theirs 0.67, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Poltergeist|p2a: Granbull
+  -activate|p2a: Granbull|move: Poltergeist|Leftovers
+  -damage|p2a: Granbull|30/100
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Granbull|36/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack defog - our hp 0.83, theirs 0.36, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog|p2a: Granbull
+  -unboost|p2a: Granbull|evasion|1
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Granbull|42/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack defog - our hp 0.83, theirs 0.42, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog|p2a: Granbull
+  -unboost|p2a: Granbull|evasion|1
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Granbull|48/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack defog - our hp 0.83, theirs 0.48, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog|p2a: Granbull
+  -unboost|p2a: Granbull|evasion|1
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Granbull|54/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack defog - our hp 0.83, theirs 0.54, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog|p2a: Granbull
+  -unboost|p2a: Granbull|evasion|1
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Granbull|60/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack defog - our hp 0.83, theirs 0.60, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog|p2a: Granbull
+  -unboost|p2a: Granbull|evasion|1
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Granbull|66/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack defog - our hp 0.83, theirs 0.66, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog|p2a: Granbull
+  -unboost|p2a: Granbull|evasion|1
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Granbull|72/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack defog - our hp 0.83, theirs 0.72, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog||[still]
+  -unboost|p2a: Granbull|evasion|0
+  -fail|p1a: Giratina
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Granbull|78/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack defog - our hp 0.83, theirs 0.78, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog||[still]
+  -unboost|p2a: Granbull|evasion|0
+  -fail|p1a: Giratina
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Granbull|84/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack defog - our hp 0.83, theirs 0.84, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog||[still]
+  -unboost|p2a: Granbull|evasion|0
+  -fail|p1a: Giratina
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Granbull|90/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack defog - our hp 0.83, theirs 0.90, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog||[still]
+  -unboost|p2a: Granbull|evasion|0
+  -fail|p1a: Giratina
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Granbull|96/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack defog - our hp 0.83, theirs 0.96, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog||[still]
+  -unboost|p2a: Granbull|evasion|0
+  -fail|p1a: Giratina
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+  -heal|p2a: Granbull|100/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack defog - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog||[still]
+  -unboost|p2a: Granbull|evasion|0
+  -fail|p1a: Giratina
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+-- turn 22
+  WE CHOSE: attack defog - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog||[still]
+  -unboost|p2a: Granbull|evasion|0
+  -fail|p1a: Giratina
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+-- turn 23
+  WE CHOSE: attack defog - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog||[still]
+  -unboost|p2a: Granbull|evasion|0
+  -fail|p1a: Giratina
+  move|p2a: Granbull|Earthquake|p1a: Giratina
+  -immune|p1a: Giratina|[from] ability: Levitate
+-- turn 24
+  WE CHOSE: attack defog - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog||[still]
+  -unboost|p2a: Granbull|evasion|0
+  -fail|p1a: Giratina
+  move|p2a: Granbull|Play Rough|p1a: Giratina
+  -damage|p1a: Giratina|146/335
+-- turn 25
+  WE CHOSE: attack defog - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog||[still]
+  -unboost|p2a: Granbull|evasion|0
+  -fail|p1a: Giratina
+  move|p2a: Granbull|Play Rough|p1a: Giratina
+  -damage|p1a: Giratina|19/335
+-- turn 26
+  WE CHOSE: attack defog - our hp 0.06, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog||[still]
+  -unboost|p2a: Granbull|evasion|0
+  -fail|p1a: Giratina
+  move|p2a: Granbull|Play Rough|p1a: Giratina|[miss]
+  -miss|p2a: Granbull|p1a: Giratina
+-- turn 27
+  WE CHOSE: attack defog - our hp 0.06, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to wochien - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Defog||[still]
+  -unboost|p2a: Granbull|evasion|0
+  -fail|p1a: Giratina
+  move|p2a: Granbull|Play Rough|p1a: Giratina
+  -damage|p1a: Giratina|0 fnt
+  faint|p1a: Giratina
+  switch|p1a: Wo-Chien|Wo-Chien, L83|277/277
+  -ability|p1a: Wo-Chien|Tablets of Ruin
+-- turn 28
+  WE CHOSE: attack gigadrain - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Wo-Chien|Giga Drain|p2a: Granbull
+  -damage|p2a: Granbull|69/100
+  move|p2a: Granbull|Play Rough|p1a: Wo-Chien
+  -supereffective|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|95/277
+  -heal|p1a: Wo-Chien|112/277|[from] item: Leftovers
+  -heal|p2a: Granbull|75/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack gigadrain - our hp 0.40, theirs 0.75, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to gothitelle - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p1a: Wo-Chien|Giga Drain|p2a: Granbull
+  -damage|p2a: Granbull|43/100
+  -heal|p1a: Wo-Chien|161/277|[from] drain|[of] p2a: Granbull
+  move|p2a: Granbull|Play Rough|p1a: Wo-Chien
+  -supereffective|p1a: Wo-Chien
+  -damage|p1a: Wo-Chien|0 fnt
+  faint|p1a: Wo-Chien
+  -heal|p2a: Granbull|49/100|[from] item: Leftovers
+  switch|p1a: Gothitelle|Gothitelle, L90, M|272/272
+-- turn 30
+  WE CHOSE: attack psychic - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Gothitelle|Psychic|p2a: Granbull
+  -damage|p2a: Granbull|4/100
+  move|p2a: Granbull|Play Rough|p1a: Gothitelle
+  -damage|p1a: Gothitelle|170/272
+  -heal|p2a: Granbull|10/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack psychic - our hp 0.62, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Gothitelle|Psychic|p2a: Granbull
+  -damage|p2a: Granbull|0 fnt
+  faint|p2a: Granbull
+  switch|p2a: Medicham|Medicham, L86, F|100/100
+-- turn 32
+  WE CHOSE: attack psychic - our hp 0.62, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Gothitelle|Psychic|p2a: Medicham
+  -damage|p2a: Medicham|53/100
+  move|p2a: Medicham|Close Combat|p1a: Gothitelle
+  -resisted|p1a: Gothitelle
+  -damage|p1a: Gothitelle|53/272
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+-- turn 33
+  WE CHOSE: attack psychic - our hp 0.19, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p1a: Gothitelle|Psychic|p2a: Medicham
+  -damage|p2a: Medicham|0 fnt
+  faint|p2a: Medicham
+  switch|p2a: Meganium|Meganium, L90, F|100/100
+-- turn 34
+  WE CHOSE: attack psychic - our hp 0.19, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to toxapex - our hp 0.00, theirs 0.72, predicted move (revealed) hits us x1
+  move|p1a: Gothitelle|Psychic|p2a: Meganium
+  -damage|p2a: Meganium|66/100
+  move|p2a: Meganium|Energy Ball|p1a: Gothitelle
+  -damage|p1a: Gothitelle|0 fnt
+  faint|p1a: Gothitelle
+  -heal|p2a: Meganium|72/100|[from] item: Leftovers
+  switch|p1a: Toxapex|Toxapex, L82, F|216/216
+-- turn 35
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Toxapex
+  -damage|p1a: Toxapex|146/216
+  move|p1a: Toxapex|Liquidation|p2a: Meganium
+  -resisted|p2a: Meganium
+  -damage|p2a: Meganium|63/100
+  -heal|p2a: Meganium|69/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|159/216|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack liquidation - our hp 0.74, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Toxapex
+  -damage|p1a: Toxapex|92/216
+  -unboost|p1a: Toxapex|spd|1
+  move|p1a: Toxapex|Liquidation|p2a: Meganium
+  -resisted|p2a: Meganium
+  -damage|p2a: Meganium|61/100
+  -heal|p2a: Meganium|67/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|105/216|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: heal recover - our hp 0.49, theirs 0.67, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to smeargle - our hp 0.00, theirs 0.74, predicted move (revealed) hits us x1
+  move|p2a: Meganium|Energy Ball|p1a: Toxapex
+  -damage|p1a: Toxapex|0 fnt
+  faint|p1a: Toxapex
+  -heal|p2a: Meganium|74/100|[from] item: Leftovers
+  switch|p1a: Smeargle|Smeargle, L95, F|258/258
+-- turn 38
+  WE CHOSE: attack populationbomb - our hp 1.00, theirs 0.74, predicted move (revealed) hits us x1
+  move|p1a: Smeargle|Population Bomb|p2a: Meganium
+  -damage|p2a: Meganium|69/100
+  -damage|p2a: Meganium|65/100
+  -damage|p2a: Meganium|59/100
+  -damage|p2a: Meganium|55/100
+  -damage|p2a: Meganium|49/100
+  -damage|p2a: Meganium|45/100
+  -damage|p2a: Meganium|40/100
+  -damage|p2a: Meganium|35/100
+  -damage|p2a: Meganium|31/100
+  -damage|p2a: Meganium|26/100
+  -hitcount|p2a: Meganium|10
+  move|p2a: Meganium|Energy Ball|p1a: Smeargle
+  -damage|p1a: Smeargle|63/258
+  -heal|p2a: Meganium|32/100|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack populationbomb - our hp 0.24, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Smeargle|Population Bomb|p2a: Meganium
+  -damage|p2a: Meganium|27/100
+  -damage|p2a: Meganium|22/100
+  -damage|p2a: Meganium|17/100
+  -damage|p2a: Meganium|12/100
+  -damage|p2a: Meganium|7/100
+  -damage|p2a: Meganium|2/100
+  -damage|p2a: Meganium|0 fnt
+  faint|p2a: Meganium
+  -hitcount|p2: Meganium|7
+  switch|p2a: Lapras|Lapras, L87, F|100/100
+-- turn 40
+  WE CHOSE: attack populationbomb - our hp 0.24, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to diancie - our hp 0.00, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Smeargle|Population Bomb|p2a: Lapras
+  -damage|p2a: Lapras|96/100
+  -damage|p2a: Lapras|90/100
+  -damage|p2a: Lapras|86/100
+  -crit|p2a: Lapras
+  -damage|p2a: Lapras|79/100
+  -damage|p2a: Lapras|74/100
+  -damage|p2a: Lapras|69/100
+  -damage|p2a: Lapras|64/100
+  -damage|p2a: Lapras|59/100
+  -damage|p2a: Lapras|55/100
+  -hitcount|p2a: Lapras|9
+  move|p2a: Lapras|Sparkling Aria|p1a: Smeargle
+  -damage|p1a: Smeargle|0 fnt
+  faint|p1a: Smeargle
+  switch|p1a: Diancie|Diancie, L82|216/216
+-- turn 41
+  WE CHOSE: attack diamondstorm - our hp 1.00, theirs 0.55, predicted move (revealed) hits us x2
+  move|p2a: Lapras|Sparkling Aria|p1a: Diancie
+  -supereffective|p1a: Diancie
+  -damage|p1a: Diancie|82/216
+  move|p1a: Diancie|Diamond Storm|p2a: Lapras|[miss]
+  -miss|p1a: Diancie|p2a: Lapras
+  -heal|p1a: Diancie|95/216|[from] item: Leftovers
+-- turn 42
+  WE CHOSE: attack diamondstorm - our hp 0.44, theirs 0.55, predicted move (revealed) hits us x2
+  move|p2a: Lapras|Sparkling Aria|p1a: Diancie
+  -supereffective|p1a: Diancie
+  -damage|p1a: Diancie|0 fnt
+  faint|p1a: Diancie

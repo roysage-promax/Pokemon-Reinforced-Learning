@@ -1,0 +1,286 @@
+battle 2470 (battle-gen9randombattle-1031402): lost in 31 turns, 1 of theirs left; we are p1
+
+ours:
+  toucannon (fainted; item heavydutyboots, ability skilllink, tera steel; moves bulletseed/boomburst/beakblast/roost)
+  hawlucha (fainted; item ?, ability unburden; moves closecombat/bravebird/swordsdance/acrobatics)
+  polteageist (fainted; item ?, ability cursedbody; moves shadowball/terablast/storedpower/shellsmash)
+  granbull (fainted; item leftovers, ability intimidate; moves earthquake/playrough/thunderwave/encore)
+  deoxysspeed (fainted; item leftovers, ability pressure; moves psychoboost/spikes/knockoff/stealthrock)
+  tinglu (fainted; item leftovers, ability vesselofruin; moves earthquake/whirlwind/throatchop/spikes)
+theirs (as seen):
+  jirachi (fainted; item unknown_item, ability serenegrace; moves bodyslam)
+  revavroom (fainted; item unknown_item, ability ?; moves -)
+  ursaring (fainted; item unknown_item, ability ?; moves earthquake)
+  florgeswhite (fainted; item leftovers, ability ?; moves moonblast)
+  dondozo (fainted; item leftovers, ability ?; moves wavecrash/curse)
+
+-- turn 0
+  switch|p1a: Toucannon|Toucannon, L88, F|284/284
+  switch|p2a: Jirachi|Jirachi, L80|100/100
+-- turn 1
+  WE CHOSE: switch to tinglu - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+  move|p2a: Jirachi|Body Slam|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|320/370
+  -status|p1a: Ting-Lu|par
+  -heal|p1a: Ting-Lu|343/370 par|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to polteageist - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Polteageist|Polteageist, L78|222/222
+  move|p2a: Jirachi|Body Slam|p1a: Polteageist
+  -immune|p1a: Polteageist
+-- turn 3
+  WE CHOSE: setup shellsmash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Jirachi|Body Slam|p1a: Polteageist
+  -immune|p1a: Polteageist
+  move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+  -unboost|p1a: Polteageist|def|1
+  -unboost|p1a: Polteageist|spd|1
+  -boost|p1a: Polteageist|atk|2
+  -boost|p1a: Polteageist|spa|2
+  -boost|p1a: Polteageist|spe|2
+  -enditem|p1a: Polteageist|White Herb
+  -clearnegativeboost|p1a: Polteageist|[silent]
+-- turn 4
+  WE CHOSE: setup shellsmash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+  -unboost|p1a: Polteageist|def|1
+  -unboost|p1a: Polteageist|spd|1
+  -boost|p1a: Polteageist|atk|2
+  -boost|p1a: Polteageist|spa|2
+  -boost|p1a: Polteageist|spe|2
+  move|p2a: Jirachi|Body Slam|p1a: Polteageist
+  -immune|p1a: Polteageist
+-- turn 5
+  WE CHOSE: attack shadowball (hand policy: setup shellsmash) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Polteageist|Shadow Ball|p2a: Jirachi
+  -supereffective|p2a: Jirachi
+  -damage|p2a: Jirachi|0 fnt
+  faint|p2a: Jirachi
+  switch|p2a: Revavroom|Revavroom, L79, F|100/100
+-- turn 6
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Polteageist|Shadow Ball|p2a: Revavroom
+  -damage|p2a: Revavroom|0 fnt
+  faint|p2a: Revavroom
+  switch|p2a: Ursaring|Ursaring, L84, M|100/100
+-- turn 7
+  WE CHOSE: attack terablast (hand policy: setup shellsmash) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Polteageist|Tera Blast|p2a: Ursaring
+  -damage|p2a: Ursaring|53/100
+  move|p2a: Ursaring|Earthquake|p1a: Polteageist
+  -damage|p1a: Polteageist|56/222
+-- turn 8
+  WE CHOSE: switch to hawlucha - our hp 0.25, theirs 0.53, predicted move (revealed) hits us x1
+  switch|p1a: Hawlucha|Hawlucha, L80, F|256/256
+  move|p2a: Ursaring|Earthquake|p1a: Hawlucha
+  -immune|p1a: Hawlucha
+-- turn 9
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x0
+  move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+  -boost|p1a: Hawlucha|atk|2
+  move|p2a: Ursaring|Earthquake|p1a: Hawlucha
+  -immune|p1a: Hawlucha
+-- turn 10
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x0
+  move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+  -boost|p1a: Hawlucha|atk|2
+  move|p2a: Ursaring|Earthquake|p1a: Hawlucha
+  -immune|p1a: Hawlucha
+-- turn 11
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x0
+  move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+  -boost|p1a: Hawlucha|atk|2
+  move|p2a: Ursaring|Earthquake|p1a: Hawlucha
+  -immune|p1a: Hawlucha
+-- turn 12
+  WE CHOSE: switch to toucannon (hand policy: attack closecombat) - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x0
+  switch|p1a: Toucannon|Toucannon, L88, F|284/284
+  move|p2a: Ursaring|Earthquake|p1a: Toucannon
+  -immune|p1a: Toucannon
+-- turn 13
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x0
+  move|p1a: Toucannon|Boomburst|p2a: Ursaring
+  -damage|p2a: Ursaring|15/100
+  move|p2a: Ursaring|Earthquake|p1a: Toucannon
+  -immune|p1a: Toucannon
+-- turn 14
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x0
+  move|p1a: Toucannon|Boomburst|p2a: Ursaring
+  -damage|p2a: Ursaring|0 fnt
+  faint|p2a: Ursaring
+  switch|p2a: Florges|Florges-White, L85, F|100/100
+-- turn 15
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Florges|Moonblast|p1a: Toucannon
+  -damage|p1a: Toucannon|160/284
+  move|p1a: Toucannon|Boomburst|p2a: Florges
+  -damage|p2a: Florges|71/100
+  -heal|p2a: Florges|77/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack+tera boomburst - our hp 0.56, theirs 0.77, predicted move (revealed) hits us x1
+  -terastallize|p1a: Toucannon|Steel
+  move|p2a: Florges|Moonblast|p1a: Toucannon
+  -resisted|p1a: Toucannon
+  -damage|p1a: Toucannon|92/284
+  move|p1a: Toucannon|Boomburst|p2a: Florges
+  -damage|p2a: Florges|47/100
+  -heal|p2a: Florges|53/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack boomburst (hand policy: heal roost) - our hp 0.32, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p2a: Florges|Moonblast|p1a: Toucannon
+  -resisted|p1a: Toucannon
+  -damage|p1a: Toucannon|26/284
+  -unboost|p1a: Toucannon|spa|1
+  move|p1a: Toucannon|Boomburst|p2a: Florges
+  -damage|p2a: Florges|32/100
+  -heal|p2a: Florges|38/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: heal roost - our hp 0.09, theirs 0.38, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to deoxysspeed - our hp 0.00, theirs 0.44, predicted move (revealed) hits us x0.5
+  move|p2a: Florges|Moonblast|p1a: Toucannon
+  -resisted|p1a: Toucannon
+  -damage|p1a: Toucannon|0 fnt
+  faint|p1a: Toucannon
+  -heal|p2a: Florges|44/100|[from] item: Leftovers
+  switch|p1a: Deoxys|Deoxys-Speed, L82|216/216
+  -ability|p1a: Deoxys|Pressure
+-- turn 19
+  WE CHOSE: attack psychoboost - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Florges|[miss]
+  -miss|p1a: Deoxys|p2a: Florges
+  move|p2a: Florges|Moonblast|p1a: Deoxys
+  -damage|p1a: Deoxys|107/216
+  -heal|p1a: Deoxys|120/216|[from] item: Leftovers
+  -heal|p2a: Florges|50/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack psychoboost - our hp 0.56, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Florges
+  -damage|p2a: Florges|16/100
+  -unboost|p1a: Deoxys|spa|2
+  move|p2a: Florges|Moonblast|p1a: Deoxys
+  -damage|p1a: Deoxys|2/216
+  -unboost|p1a: Deoxys|spa|1
+  -heal|p1a: Deoxys|15/216|[from] item: Leftovers
+  -heal|p2a: Florges|22/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack psychoboost - our hp 0.07, theirs 0.22, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to granbull - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Florges
+  -damage|p2a: Florges|8/100
+  -unboost|p1a: Deoxys|spa|2
+  move|p2a: Florges|Moonblast|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  faint|p1a: Deoxys
+  -heal|p2a: Florges|13/100|[from] item: Leftovers
+  switch|p1a: Granbull|Granbull, L88, M|302/302
+  -ability|p1a: Granbull|Intimidate|boost
+  -unboost|p2a: Florges|atk|1
+-- turn 22
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Granbull
+  -damage|p1a: Granbull|149/302
+  -unboost|p1a: Granbull|spa|1
+  move|p1a: Granbull|Play Rough|p2a: Florges|[miss]
+  -miss|p1a: Granbull|p2a: Florges
+  -heal|p2a: Florges|19/100|[from] item: Leftovers
+  -heal|p1a: Granbull|167/302|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack playrough - our hp 0.55, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Granbull
+  -damage|p1a: Granbull|31/302
+  -unboost|p1a: Granbull|spa|1
+  move|p1a: Granbull|Play Rough|p2a: Florges
+  -damage|p2a: Florges|0 fnt
+  faint|p2a: Florges
+  -heal|p1a: Granbull|49/302|[from] item: Leftovers
+  switch|p2a: Dondozo|Dondozo, L78, M|100/100
+-- turn 24
+  WE CHOSE: switch to hawlucha (hand policy: attack playrough) - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Hawlucha|Hawlucha, L80, F|256/256
+  move|p2a: Dondozo|Wave Crash|p1a: Hawlucha
+  -damage|p1a: Hawlucha|118/256
+  -damage|p2a: Dondozo|88/100|[from] Recoil
+  -heal|p2a: Dondozo|94/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack closecombat - our hp 0.46, theirs 0.94, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to granbull - our hp 0.00, theirs 0.59, predicted move (revealed) hits us x1
+  move|p1a: Hawlucha|Close Combat|p2a: Dondozo
+  -damage|p2a: Dondozo|64/100
+  -unboost|p1a: Hawlucha|def|1
+  -unboost|p1a: Hawlucha|spd|1
+  -enditem|p1a: Hawlucha|White Herb
+  -clearnegativeboost|p1a: Hawlucha|[silent]
+  move|p2a: Dondozo|Wave Crash|p1a: Hawlucha
+  -damage|p1a: Hawlucha|0 fnt
+  faint|p1a: Hawlucha
+  -damage|p2a: Dondozo|53/100|[from] Recoil
+  -heal|p2a: Dondozo|59/100|[from] item: Leftovers
+  switch|p1a: Granbull|Granbull, L88, M|49/302
+  -ability|p1a: Granbull|Intimidate|boost
+  -unboost|p2a: Dondozo|atk|1
+-- turn 26
+  WE CHOSE: attack playrough - our hp 0.16, theirs 0.59, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to polteageist - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Granbull|Play Rough|p2a: Dondozo|[miss]
+  -miss|p1a: Granbull|p2a: Dondozo
+  move|p2a: Dondozo|Wave Crash|p1a: Granbull
+  -damage|p1a: Granbull|0 fnt
+  faint|p1a: Granbull
+  -damage|p2a: Dondozo|55/100|[from] Recoil
+  -heal|p2a: Dondozo|61/100|[from] item: Leftovers
+  switch|p1a: Polteageist|Polteageist, L78|56/222
+-- turn 27
+  WE CHOSE: attack shadowball - our hp 0.25, theirs 0.61, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tinglu - our hp 0.00, theirs 0.29, predicted move (revealed) hits us x1
+  move|p1a: Polteageist|Shadow Ball|p2a: Dondozo
+  -damage|p2a: Dondozo|28/100
+  move|p2a: Dondozo|Wave Crash|p1a: Polteageist
+  -damage|p1a: Polteageist|0 fnt
+  -start|p2a: Dondozo|Disable|Wave Crash|[from] ability: Cursed Body|[of] p1a: Polteageist
+  faint|p1a: Polteageist
+  -damage|p2a: Dondozo|23/100|[from] Recoil
+  -heal|p2a: Dondozo|29/100|[from] item: Leftovers
+  switch|p1a: Ting-Lu|Ting-Lu, L78|343/370 par
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+-- turn 28
+  WE CHOSE: attack earthquake - our hp 0.93, theirs 0.29, predicted move (revealed) hits us x2
+  move|p2a: Dondozo|Curse|p2a: Dondozo
+  -unboost|p2a: Dondozo|spe|1
+  -boost|p2a: Dondozo|atk|1
+  -boost|p2a: Dondozo|def|1
+  move|p1a: Ting-Lu|Earthquake|p2a: Dondozo
+  -damage|p2a: Dondozo|13/100
+  -heal|p2a: Dondozo|19/100|[from] item: Leftovers
+  -heal|p1a: Ting-Lu|366/370 par|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack earthquake - our hp 0.99, theirs 0.19, predicted move (revealed) hits us x2
+  move|p2a: Dondozo|Curse|p2a: Dondozo
+  -unboost|p2a: Dondozo|spe|1
+  -boost|p2a: Dondozo|atk|1
+  -boost|p2a: Dondozo|def|1
+  cant|p1a: Ting-Lu|par
+  -heal|p1a: Ting-Lu|370/370 par|[from] item: Leftovers
+  -heal|p2a: Dondozo|25/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x2
+  move|p1a: Ting-Lu|Earthquake|p2a: Dondozo
+  -damage|p2a: Dondozo|12/100
+  move|p2a: Dondozo|Curse|p2a: Dondozo
+  -unboost|p2a: Dondozo|spe|1
+  -boost|p2a: Dondozo|atk|1
+  -boost|p2a: Dondozo|def|1
+  -heal|p2a: Dondozo|18/100|[from] item: Leftovers
+  -end|p2a: Dondozo|Disable
+-- turn 31
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x2
+  cant|p1a: Ting-Lu|par
+  move|p2a: Dondozo|Wave Crash|p1a: Ting-Lu
+  -supereffective|p1a: Ting-Lu
+  -crit|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|0 fnt
+  faint|p1a: Ting-Lu
+  -damage|p2a: Dondozo|0 fnt|[from] Recoil
+  faint|p2a: Dondozo
+  deinit

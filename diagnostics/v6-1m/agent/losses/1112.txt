@@ -1,0 +1,178 @@
+battle 1112 (battle-gen9randombattle-1017585): lost in 19 turns, 1 of theirs left; we are p1
+
+ours:
+  chiyu (fainted; item heavydutyboots, ability beadsofruin; moves nastyplot/fireblast/psychic/darkpulse)
+  ironmoth (fainted; item heavydutyboots, ability quarkdrive, tera grass; moves sludgewave/fierydance/toxicspikes/energyball)
+  kommoo (fainted; item loadeddice, ability soundproof; moves ironhead/scaleshot/closecombat/swordsdance)
+  cramorant (fainted; item heavydutyboots, ability gulpmissile; moves bravebird/surf/defog/roost)
+  furret (fainted; item choiceband, ability frisk; moves trick/knockoff/doubleedge/uturn)
+  espeon (fainted; item choicespecs, ability magicbounce; moves trick/psychic/shadowball/alluringvoice)
+theirs (as seen):
+  noctowl (fainted; item unknown_item, ability ?; moves hurricane)
+  pelipper (fainted; item choicespecs, ability ?; moves hurricane)
+  primarina (fainted; item unknown_item, ability ?; moves hydropump)
+  sneasler (fainted; item unknown_item, ability ?; moves closecombat)
+  rabsca (fainted; item unknown_item, ability ?; moves bugbuzz)
+  sawsbuckautumn (81%; item lifeorb, ability ?; moves doubleedge)
+
+-- turn 0
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  switch|p2a: Noctowl|Noctowl, L95, M|100/100
+  -ability|p1a: Chi-Yu|Beads of Ruin
+-- turn 1
+  WE CHOSE: attack fireblast (hand policy: attack+tera fireblast) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Chi-Yu|Fire Blast|p2a: Noctowl
+  -damage|p2a: Noctowl|63/100
+  move|p2a: Noctowl|Hurricane|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|102/211
+-- turn 2
+  WE CHOSE: attack fireblast (hand policy: attack+tera fireblast) - our hp 0.48, theirs 0.63, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cramorant - our hp 0.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Chi-Yu|Fire Blast|p2a: Noctowl
+  -damage|p2a: Noctowl|22/100
+  move|p2a: Noctowl|Hurricane|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|0 fnt
+  faint|p1a: Chi-Yu
+  switch|p1a: Cramorant|Cramorant, L86, M|261/261
+-- turn 3
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Cramorant|Brave Bird|p2a: Noctowl
+  -damage|p2a: Noctowl|0 fnt
+  faint|p2a: Noctowl
+  -damage|p1a: Cramorant|237/261|[from] Recoil
+  switch|p2a: Pelipper|Pelipper, L86, F|100/100
+  -weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+-- turn 4
+  WE CHOSE: switch to furret (hand policy: attack bravebird) - our hp 0.91, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Furret|Furret, L94, F|312/312
+  -item|p2a: Pelipper|Choice Specs|[from] ability: Frisk|[of] p1a: Furret
+  move|p2a: Pelipper|Hurricane|p1a: Furret
+  -damage|p1a: Furret|72/312
+  -start|p1a: Furret|confusion
+  -weather|RainDance|[upkeep]
+-- turn 5
+  WE CHOSE: attack doubleedge (hand policy: attack+tera doubleedge) - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cramorant - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  -activate|p1a: Furret|confusion
+  -damage|p1a: Furret|41/312|[from] confusion
+  move|p2a: Pelipper|Hurricane|p1a: Furret
+  -damage|p1a: Furret|0 fnt
+  faint|p1a: Furret
+  -weather|RainDance|[upkeep]
+  switch|p1a: Cramorant|Cramorant, L86, M|237/261
+-- turn 6
+  WE CHOSE: attack bravebird - our hp 0.91, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cramorant|Brave Bird|p2a: Pelipper
+  -damage|p2a: Pelipper|59/100
+  -damage|p1a: Cramorant|204/261|[from] Recoil
+  move|p2a: Pelipper|Hurricane|p1a: Cramorant
+  -damage|p1a: Cramorant|29/261
+  -start|p1a: Cramorant|confusion
+  -weather|RainDance|[upkeep]
+-- turn 7
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.11, theirs 0.59, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironmoth - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x1
+  -activate|p1a: Cramorant|confusion
+  move|p1a: Cramorant|Brave Bird|p2a: Pelipper
+  -damage|p2a: Pelipper|18/100
+  -damage|p1a: Cramorant|0 fnt|[from] Recoil
+  faint|p1a: Cramorant
+  move|p2a: Pelipper|Hurricane|p1: Cramorant|[notarget]
+  -fail|p2a: Pelipper
+  -weather|RainDance|[upkeep]
+  switch|p1a: Iron Moth|Iron Moth, L78|253/253
+-- turn 8
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p1a: Iron Moth|Sludge Wave|p2a: Pelipper
+  -damage|p2a: Pelipper|0 fnt
+  faint|p2a: Pelipper
+  -weather|none
+  switch|p2a: Primarina|Primarina, L83, F|100/100
+-- turn 9
+  WE CHOSE: attack+tera sludgewave (hand policy: switch to kommoo) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Iron Moth|Grass
+  move|p1a: Iron Moth|Sludge Wave|p2a: Primarina
+  -supereffective|p2a: Primarina
+  -damage|p2a: Primarina|24/100
+  move|p2a: Primarina|Hydro Pump|p1a: Iron Moth
+  -resisted|p1a: Iron Moth
+  -damage|p1a: Iron Moth|111/253
+-- turn 10
+  WE CHOSE: attack sludgewave - our hp 0.44, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Moth|Sludge Wave|p2a: Primarina
+  -supereffective|p2a: Primarina
+  -damage|p2a: Primarina|0 fnt
+  faint|p2a: Primarina
+  switch|p2a: Sneasler|Sneasler, L74, M|100/100
+-- turn 11
+  WE CHOSE: switch to espeon (hand policy: attack fierydance) - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x1
+  -end|p1a: Iron Moth|Quark Drive|[silent]
+  switch|p1a: Espeon|Espeon, L84, F|246/246
+  move|p2a: Sneasler|Close Combat|p1a: Espeon
+  -resisted|p1a: Espeon
+  -damage|p1a: Espeon|120/246
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+-- turn 12
+  WE CHOSE: attack alluringvoice (hand policy: attack psychic) - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ironmoth - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x0.5
+  move|p1a: Espeon|Alluring Voice|p2a: Sneasler
+  -damage|p2a: Sneasler|25/100
+  move|p2a: Sneasler|Close Combat|p1a: Espeon
+  -resisted|p1a: Espeon
+  -damage|p1a: Espeon|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Espeon
+  switch|p1a: Iron Moth|Iron Moth, L78, tera:Grass|111/253
+-- turn 13
+  WE CHOSE: attack sludgewave (hand policy: attack fierydance) - our hp 0.44, theirs 0.25, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kommoo - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Sneasler|Close Combat|p1a: Iron Moth
+  -damage|p1a: Iron Moth|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Iron Moth
+  -end|p1a: Iron Moth|Quark Drive|[silent]
+  switch|p1a: Kommo-o|Kommo-o, L77, M|242/242
+-- turn 14
+  WE CHOSE: attack ironhead (hand policy: attack closecombat) - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Sneasler|Close Combat|p1a: Kommo-o
+  -damage|p1a: Kommo-o|82/242
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  move|p1a: Kommo-o|Iron Head|p2a: Sneasler
+  -damage|p2a: Sneasler|0 fnt
+  faint|p2a: Sneasler
+  switch|p2a: Rabsca|Rabsca, L91, M|100/100
+-- turn 15
+  WE CHOSE: setup swordsdance (hand policy: attack ironhead) - our hp 0.34, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Kommo-o|Swords Dance|p1a: Kommo-o
+  -boost|p1a: Kommo-o|atk|2
+  move|p2a: Rabsca|Bug Buzz|p1a: Kommo-o
+  -immune|p1a: Kommo-o|[from] ability: Soundproof
+-- turn 16
+  WE CHOSE: attack ironhead - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Kommo-o|Iron Head|p2a: Rabsca
+  -damage|p2a: Rabsca|64/100
+  move|p2a: Rabsca|Bug Buzz|p1a: Kommo-o
+  -immune|p1a: Kommo-o|[from] ability: Soundproof
+-- turn 17
+  WE CHOSE: attack ironhead - our hp 0.34, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p1a: Kommo-o|Iron Head|p2a: Rabsca
+  -damage|p2a: Rabsca|30/100
+  move|p2a: Rabsca|Bug Buzz|p1a: Kommo-o
+  -immune|p1a: Kommo-o|[from] ability: Soundproof
+-- turn 18
+  WE CHOSE: attack ironhead - our hp 0.34, theirs 0.30, predicted move (revealed) hits us x0.5
+  move|p1a: Kommo-o|Iron Head|p2a: Rabsca
+  -damage|p2a: Rabsca|0 fnt
+  faint|p2a: Rabsca
+  switch|p2a: Sawsbuck|Sawsbuck-Autumn, L88, F|100/100
+-- turn 19
+  WE CHOSE: attack closecombat - our hp 0.34, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Kommo-o
+  -damage|p1a: Kommo-o|0 fnt
+  faint|p1a: Kommo-o
+  -damage|p2a: Sawsbuck|91/100|[from] Recoil
+  -damage|p2a: Sawsbuck|81/100|[from] item: Life Orb

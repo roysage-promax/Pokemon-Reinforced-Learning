@@ -1,0 +1,285 @@
+battle 1259 (battle-gen9randombattle-1018125): lost in 30 turns, 1 of theirs left; we are p1
+
+ours:
+  mandibuzz (fainted; item heavydutyboots, ability overcoat; moves foulplay/roost/toxic/defog)
+  decidueyehisui (fainted; item leftovers, ability scrappy; moves leafblade/roost/uturn/triplearrows)
+  weavile (fainted; item choiceband, ability pickpocket; moves iceshard/lowkick/tripleaxel/knockoff)
+  taurospaldeablaze (fainted; item choiceband, ability intimidate, tera fighting; moves stoneedge/wildcharge/closecombat/flareblitz)
+  klefki (fainted; item leftovers, ability prankster; moves spikes/magnetrise/thunderwave/playrough)
+  mausholdfour (fainted; item widelens, ability technician; moves encore/populationbomb/bite/tidyup)
+theirs (as seen):
+  ironhands (fainted; item leftovers, ability quarkdrive; moves drainpunch)
+  gastrodoneast (fainted; item leftovers, ability ?; moves earthquake)
+  bronzong (fainted; item ?, ability ?; moves psychic)
+  arceusice (fainted; item unknown_item, ability multitype; moves judgment)
+  donphan (fainted; item ?, ability ?; moves earthquake)
+  whimsicott (79%; item leftovers, ability ?; moves moonblast)
+
+-- turn 0
+  switch|p1a: Mandibuzz|Mandibuzz, L85, F|326/326
+  switch|p2a: Iron Hands|Iron Hands, L79|100/100
+-- turn 1
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Mandibuzz|Foul Play|p2a: Iron Hands
+  -resisted|p2a: Iron Hands
+  -damage|p2a: Iron Hands|86/100
+  move|p2a: Iron Hands|Drain Punch|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|245/326
+  -heal|p2a: Iron Hands|97/100|[from] drain|[of] p1a: Mandibuzz
+  -heal|p2a: Iron Hands|100/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack foulplay - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Foul Play|p2a: Iron Hands
+  -resisted|p2a: Iron Hands
+  -damage|p2a: Iron Hands|85/100
+  move|p2a: Iron Hands|Drain Punch|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|163/326
+  -heal|p2a: Iron Hands|96/100|[from] drain|[of] p1a: Mandibuzz
+  -heal|p2a: Iron Hands|100/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: heal roost - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+  -heal|p1a: Mandibuzz|326/326
+  -singleturn|p1a: Mandibuzz|move: Roost
+  move|p2a: Iron Hands|Drain Punch|p1a: Mandibuzz
+  -supereffective|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|146/326
+-- turn 4
+  WE CHOSE: heal roost - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+  -heal|p1a: Mandibuzz|309/326
+  -singleturn|p1a: Mandibuzz|move: Roost
+  move|p2a: Iron Hands|Drain Punch|p1a: Mandibuzz
+  -supereffective|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|139/326
+-- turn 5
+  WE CHOSE: heal roost - our hp 0.43, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+  -heal|p1a: Mandibuzz|302/326
+  -singleturn|p1a: Mandibuzz|move: Roost
+  move|p2a: Iron Hands|Drain Punch|p1a: Mandibuzz
+  -supereffective|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|128/326
+-- turn 6
+  WE CHOSE: heal roost - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+  -heal|p1a: Mandibuzz|291/326
+  -singleturn|p1a: Mandibuzz|move: Roost
+  move|p2a: Iron Hands|Drain Punch|p1a: Mandibuzz
+  -supereffective|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|129/326
+-- turn 7
+  WE CHOSE: heal roost - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+  -heal|p1a: Mandibuzz|292/326
+  -singleturn|p1a: Mandibuzz|move: Roost
+  move|p2a: Iron Hands|Drain Punch|p1a: Mandibuzz
+  -supereffective|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|118/326
+-- turn 8
+  WE CHOSE: heal roost - our hp 0.36, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+  -heal|p1a: Mandibuzz|281/326
+  -singleturn|p1a: Mandibuzz|move: Roost
+  move|p2a: Iron Hands|Drain Punch|p1a: Mandibuzz
+  -supereffective|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|129/326
+-- turn 9
+  WE CHOSE: heal roost - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+  -heal|p1a: Mandibuzz|292/326
+  -singleturn|p1a: Mandibuzz|move: Roost
+  move|p2a: Iron Hands|Drain Punch|p1a: Mandibuzz
+  -supereffective|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|130/326
+-- turn 10
+  WE CHOSE: heal roost - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+  -heal|p1a: Mandibuzz|293/326
+  -singleturn|p1a: Mandibuzz|move: Roost
+  move|p2a: Iron Hands|Drain Punch|p1a: Mandibuzz
+  -supereffective|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|123/326
+-- turn 11
+  WE CHOSE: attack foulplay - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Foul Play|p2a: Iron Hands
+  -resisted|p2a: Iron Hands
+  -damage|p2a: Iron Hands|85/100
+  move|p2a: Iron Hands|Drain Punch|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|45/326
+  -heal|p2a: Iron Hands|96/100|[from] drain|[of] p1a: Mandibuzz
+  -heal|p2a: Iron Hands|100/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack foulplay - our hp 0.14, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to klefki - our hp 0.00, theirs 0.98, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Foul Play|p2a: Iron Hands
+  -resisted|p2a: Iron Hands
+  -damage|p2a: Iron Hands|86/100
+  move|p2a: Iron Hands|Drain Punch|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|0 fnt
+  -heal|p2a: Iron Hands|92/100|[from] drain|[of] p1a: Mandibuzz
+  faint|p1a: Mandibuzz
+  -heal|p2a: Iron Hands|98/100|[from] item: Leftovers
+  switch|p1a: Klefki|Klefki, L84, F|233/233
+-- turn 13
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.98, predicted move (revealed) hits us x1
+  move|p1a: Klefki|Play Rough|p2a: Iron Hands
+  -supereffective|p2a: Iron Hands
+  -damage|p2a: Iron Hands|57/100
+  move|p2a: Iron Hands|Drain Punch|p1a: Klefki
+  -damage|p1a: Klefki|146/233
+  -heal|p2a: Iron Hands|68/100|[from] drain|[of] p1a: Klefki
+  -heal|p1a: Klefki|160/233|[from] item: Leftovers
+  -heal|p2a: Iron Hands|74/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack playrough - our hp 0.69, theirs 0.74, predicted move (revealed) hits us x1
+  move|p1a: Klefki|Play Rough|p2a: Iron Hands
+  -supereffective|p2a: Iron Hands
+  -damage|p2a: Iron Hands|36/100
+  move|p2a: Iron Hands|Drain Punch|p1a: Klefki
+  -damage|p1a: Klefki|64/233
+  -heal|p2a: Iron Hands|49/100|[from] drain|[of] p1a: Klefki
+  -heal|p1a: Klefki|78/233|[from] item: Leftovers
+  -heal|p2a: Iron Hands|55/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack playrough - our hp 0.33, theirs 0.55, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to taurospaldeablaze - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Klefki|Play Rough|p2a: Iron Hands
+  -supereffective|p2a: Iron Hands
+  -damage|p2a: Iron Hands|15/100
+  move|p2a: Iron Hands|Drain Punch|p1a: Klefki
+  -damage|p1a: Klefki|0 fnt
+  -heal|p2a: Iron Hands|25/100|[from] drain|[of] p1a: Klefki
+  faint|p1a: Klefki
+  -heal|p2a: Iron Hands|31/100|[from] item: Leftovers
+  switch|p1a: Tauros|Tauros-Paldea-Blaze, L81, M|254/254
+  -ability|p1a: Tauros|Intimidate|boost
+  -unboost|p2a: Iron Hands|atk|1
+-- turn 16
+  WE CHOSE: attack+tera closecombat - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x1
+  -terastallize|p1a: Tauros|Fighting
+  move|p1a: Tauros|Close Combat|p2a: Iron Hands
+  -damage|p2a: Iron Hands|0 fnt
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  faint|p2a: Iron Hands
+  -end|p2a: Iron Hands|Quark Drive|[silent]
+  switch|p2a: Gastrodon|Gastrodon-East, L86, M|100/100
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Tauros|Close Combat|p2a: Gastrodon
+  -damage|p2a: Gastrodon|14/100
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  move|p2a: Gastrodon|Earthquake|p1a: Tauros
+  -damage|p1a: Tauros|68/254
+  -heal|p2a: Gastrodon|20/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack closecombat - our hp 0.27, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Tauros|Close Combat|p2a: Gastrodon
+  -damage|p2a: Gastrodon|0 fnt
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  faint|p2a: Gastrodon
+  switch|p2a: Bronzong|Bronzong, L88|100/100
+-- turn 19
+  WE CHOSE: attack closecombat - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to weavile - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x2
+  move|p1a: Tauros|Close Combat|p2a: Bronzong
+  -damage|p2a: Bronzong|25/100
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  move|p2a: Bronzong|Psychic|p1a: Tauros
+  -supereffective|p1a: Tauros
+  -damage|p1a: Tauros|0 fnt
+  faint|p1a: Tauros
+  -heal|p2a: Bronzong|31/100|[from] item: Leftovers
+  switch|p1a: Weavile|Weavile, L79, M|239/239
+-- turn 20
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x0
+  move|p1a: Weavile|Knock Off|p2a: Bronzong
+  -supereffective|p2a: Bronzong
+  -damage|p2a: Bronzong|0 fnt
+  -enditem|p2a: Bronzong|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+  faint|p2a: Bronzong
+  switch|p2a: Arceus|Arceus-Ice, L72|100/100
+-- turn 21
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Weavile|Knock Off|p2a: Arceus
+  -crit|p2a: Arceus
+  -damage|p2a: Arceus|49/100
+  move|p2a: Arceus|Judgment|p1a: Weavile
+  -resisted|p1a: Weavile
+  -crit|p1a: Weavile
+  -damage|p1a: Weavile|142/239
+-- turn 22
+  WE CHOSE: attack knockoff - our hp 0.59, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Weavile|Knock Off|p2a: Arceus
+  -damage|p2a: Arceus|15/100
+  move|p2a: Arceus|Judgment|p1a: Weavile
+  -resisted|p1a: Weavile
+  -damage|p1a: Weavile|86/239
+-- turn 23
+  WE CHOSE: attack knockoff - our hp 0.36, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Weavile|Knock Off|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  switch|p2a: Donphan|Donphan, L84, F|100/100
+-- turn 24
+  WE CHOSE: attack knockoff - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to decidueyehisui - our hp 0.00, theirs 0.60, predicted move (revealed) hits us x1
+  move|p1a: Weavile|Knock Off|p2a: Donphan
+  -damage|p2a: Donphan|60/100
+  -enditem|p2a: Donphan|Assault Vest|[from] move: Knock Off|[of] p1a: Weavile
+  move|p2a: Donphan|Earthquake|p1a: Weavile
+  -damage|p1a: Weavile|0 fnt
+  faint|p1a: Weavile
+  switch|p1a: Decidueye|Decidueye-Hisui, L87, F|295/295
+-- turn 25
+  WE CHOSE: attack leafblade - our hp 1.00, theirs 0.60, predicted move (revealed) hits us x0.5
+  move|p1a: Decidueye|Leaf Blade|p2a: Donphan
+  -supereffective|p2a: Donphan
+  -damage|p2a: Donphan|0 fnt
+  faint|p2a: Donphan
+  switch|p2a: Whimsicott|Whimsicott, L84, F|100/100
+-- turn 26
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to mausholdfour - our hp 0.44, theirs 0.75, predicted move (revealed) hits us x2
+  move|p2a: Whimsicott|Moonblast|p1a: Decidueye
+  -supereffective|p1a: Decidueye
+  -damage|p1a: Decidueye|131/295
+  move|p1a: Decidueye|U-turn|p2a: Whimsicott
+  -damage|p2a: Whimsicott|75/100
+  switch|p1a: Maushold|Maushold-Four, L76|238/238|[from] U-turn
+  -heal|p2a: Whimsicott|81/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack bite - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Maushold
+  -damage|p1a: Maushold|126/238
+  move|p1a: Maushold|Bite|p2a: Whimsicott
+  -resisted|p2a: Whimsicott
+  -damage|p2a: Whimsicott|71/100
+  -heal|p2a: Whimsicott|77/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack bite - our hp 0.53, theirs 0.77, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Maushold
+  -damage|p1a: Maushold|18/238
+  -unboost|p1a: Maushold|spa|1
+  move|p1a: Maushold|Bite|p2a: Whimsicott
+  -resisted|p2a: Whimsicott
+  -damage|p2a: Whimsicott|67/100
+  -heal|p2a: Whimsicott|73/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack bite - our hp 0.08, theirs 0.73, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to decidueyehisui - our hp 0.00, theirs 0.79, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Maushold
+  -damage|p1a: Maushold|0 fnt
+  faint|p1a: Maushold
+  -heal|p2a: Whimsicott|79/100|[from] item: Leftovers
+  switch|p1a: Decidueye|Decidueye-Hisui, L87, F|131/295
+-- turn 30
+  WE CHOSE: attack uturn - our hp 0.44, theirs 0.79, predicted move (revealed) hits us x2
+  move|p2a: Whimsicott|Moonblast|p1a: Decidueye
+  -supereffective|p1a: Decidueye
+  -damage|p1a: Decidueye|0 fnt
+  faint|p1a: Decidueye

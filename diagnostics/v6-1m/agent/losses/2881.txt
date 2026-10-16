@@ -1,0 +1,212 @@
+battle 2881 (battle-gen9randombattle-1035353): lost in 20 turns, 1 of theirs left; we are p1
+
+ours:
+  torkoal (fainted; item heavydutyboots, ability drought, tera grass; moves rapidspin/solarbeam/yawn/lavaplume)
+  ogerponcornerstone (fainted; item cornerstonemask, ability sturdy; moves powerwhip/synthesis/ivycudgel/superpower)
+  houndstone (fainted; item leftovers, ability fluffy; moves roar/poltergeist/bodypress/shadowsneak)
+  zekrom (fainted; item leftovers, ability teravolt; moves substitute/boltstrike/dragondance/outrage)
+  garchomp (fainted; item loadeddice, ability roughskin; moves earthquake/ironhead/swordsdance/scaleshot)
+  ironvaliant (fainted; item lifeorb, ability quarkdrive; moves closecombat/moonblast/encore/knockoff)
+theirs (as seen):
+  komala (fainted; item unknown_item, ability comatose; moves earthquake)
+  phione (fainted; item leftovers, ability hydration; moves icebeam)
+  spectrier (fainted; item lifeorb, ability grimneigh; moves shadowball)
+  dewgong (fainted; item unknown_item, ability ?; moves icebeam)
+  luxray (fainted; item unknown_item, ability ?; moves supercellslam)
+  heatran (100%; item airballoon, ability ?; moves magmastorm)
+
+-- turn 0
+  switch|p1a: Torkoal|Torkoal, L88, F|266/266
+  switch|p2a: Komala|Komala, L87, F|100/100
+  -ability|p2a: Komala|Comatose
+  -weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+-- turn 1
+  WE CHOSE: attack+tera solarbeam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Torkoal|Grass
+  move|p2a: Komala|Earthquake|p1a: Torkoal
+  -resisted|p1a: Torkoal
+  -damage|p1a: Torkoal|240/266
+  move|p1a: Torkoal|Solar Beam||[still]
+  -prepare|p1a: Torkoal|Solar Beam
+  -anim|p1a: Torkoal|Solar Beam|p2a: Komala
+  -damage|p2a: Komala|69/100
+  -weather|SunnyDay|[upkeep]
+-- turn 2
+  WE CHOSE: attack solarbeam - our hp 0.90, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p2a: Komala|Earthquake|p1a: Torkoal
+  -resisted|p1a: Torkoal
+  -damage|p1a: Torkoal|214/266
+  move|p1a: Torkoal|Solar Beam||[still]
+  -prepare|p1a: Torkoal|Solar Beam
+  -anim|p1a: Torkoal|Solar Beam|p2a: Komala
+  -damage|p2a: Komala|37/100
+  -weather|SunnyDay|[upkeep]
+-- turn 3
+  WE CHOSE: attack solarbeam - our hp 0.80, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p2a: Komala|Earthquake|p1a: Torkoal
+  -resisted|p1a: Torkoal
+  -damage|p1a: Torkoal|188/266
+  move|p1a: Torkoal|Solar Beam||[still]
+  -prepare|p1a: Torkoal|Solar Beam
+  -anim|p1a: Torkoal|Solar Beam|p2a: Komala
+  -damage|p2a: Komala|7/100
+  -weather|SunnyDay|[upkeep]
+-- turn 4
+  WE CHOSE: attack solarbeam - our hp 0.71, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p2a: Komala|Earthquake|p1a: Torkoal
+  -resisted|p1a: Torkoal
+  -damage|p1a: Torkoal|162/266
+  move|p1a: Torkoal|Solar Beam||[still]
+  -prepare|p1a: Torkoal|Solar Beam
+  -anim|p1a: Torkoal|Solar Beam|p2a: Komala
+  -damage|p2a: Komala|0 fnt
+  faint|p2a: Komala
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Phione|Phione, L91|100/100
+-- turn 5
+  WE CHOSE: attack solarbeam - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Phione|Ice Beam|p1a: Torkoal
+  -supereffective|p1a: Torkoal
+  -damage|p1a: Torkoal|20/266
+  move|p1a: Torkoal|Solar Beam||[still]
+  -prepare|p1a: Torkoal|Solar Beam
+  -anim|p1a: Torkoal|Solar Beam|p2a: Phione
+  -supereffective|p2a: Phione
+  -damage|p2a: Phione|10/100
+  -weather|none
+  -heal|p2a: Phione|17/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack solarbeam - our hp 0.08, theirs 0.17, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to ironvaliant - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x2
+  move|p2a: Phione|Ice Beam|p1a: Torkoal
+  -supereffective|p1a: Torkoal
+  -damage|p1a: Torkoal|0 fnt
+  faint|p1a: Torkoal
+  -heal|p2a: Phione|23/100|[from] item: Leftovers
+  switch|p1a: Iron Valiant|Iron Valiant, L78|244/244
+-- turn 7
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Iron Valiant|Close Combat|p2a: Phione
+  -damage|p2a: Phione|0 fnt
+  -unboost|p1a: Iron Valiant|def|1
+  -unboost|p1a: Iron Valiant|spd|1
+  faint|p2a: Phione
+  -damage|p1a: Iron Valiant|220/244|[from] item: Life Orb
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+-- turn 8
+  WE CHOSE: attack knockoff (hand policy: attack moonblast) - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x0.25
+  WE CHOSE: forced: switch to zekrom - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Iron Valiant
+  -damage|p1a: Iron Valiant|0 fnt
+  faint|p1a: Iron Valiant
+  -end|p1a: Iron Valiant|Quark Drive|[silent]
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -damage|p2a: Spectrier|91/100|[from] item: Life Orb
+  switch|p1a: Zekrom|Zekrom, L71|259/259
+  -ability|p1a: Zekrom|Teravolt
+-- turn 9
+  WE CHOSE: attack outrage - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Zekrom
+  -damage|p1a: Zekrom|51/259
+  -damage|p2a: Spectrier|81/100|[from] item: Life Orb
+  move|p1a: Zekrom|Outrage|p2a: Spectrier
+  -damage|p2a: Spectrier|8/100
+  -heal|p1a: Zekrom|67/259|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack outrage - our hp 0.26, theirs 0.08, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ogerponcornerstone - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Zekrom
+  -damage|p1a: Zekrom|0 fnt
+  faint|p1a: Zekrom
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -damage|p2a: Spectrier|0 fnt|[from] item: Life Orb
+  faint|p2a: Spectrier
+  switch|p2a: Dewgong|Dewgong, L94, F|100/100
+  switch|p1a: Ogerpon|Ogerpon-Cornerstone, L76, F|247/247
+-- turn 11
+  WE CHOSE: heal synthesis (hand policy: attack powerwhip) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Ogerpon|Synthesis|p1a: Ogerpon
+  -fail|p1a: Ogerpon|heal
+  move|p2a: Dewgong|Ice Beam|p1a: Ogerpon
+  -supereffective|p1a: Ogerpon
+  -damage|p1a: Ogerpon|61/247
+-- turn 12
+  WE CHOSE: attack powerwhip - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to houndstone - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x2
+  move|p1a: Ogerpon|Power Whip|p2a: Dewgong
+  -supereffective|p2a: Dewgong
+  -damage|p2a: Dewgong|16/100
+  move|p2a: Dewgong|Ice Beam|p1a: Ogerpon
+  -supereffective|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  switch|p1a: Houndstone|Houndstone, L86, M|264/264
+-- turn 13
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x1
+  move|p2a: Dewgong|Ice Beam|p1a: Houndstone
+  -damage|p1a: Houndstone|174/264
+  move|p1a: Houndstone|Body Press|p2a: Dewgong
+  -supereffective|p2a: Dewgong
+  -damage|p2a: Dewgong|0 fnt
+  faint|p2a: Dewgong
+  -heal|p1a: Houndstone|190/264|[from] item: Leftovers
+  switch|p2a: Luxray|Luxray, L88, F|100/100
+-- turn 14
+  WE CHOSE: switch to garchomp - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Garchomp|Garchomp, L74, M|282/282
+  move|p2a: Luxray|Supercell Slam|p1a: Garchomp
+  -immune|p1a: Garchomp
+  -damage|p2a: Luxray|51/100|[from] supercellslam
+  -status|p2a: Luxray|brn|[from] item: Flame Orb
+-- turn 15
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x0
+  move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+  -boost|p1a: Garchomp|atk|2
+  move|p2a: Luxray|Supercell Slam|p1a: Garchomp
+  -immune|p1a: Garchomp
+  -damage|p2a: Luxray|1/100 brn|[from] supercellslam
+  -damage|p2a: Luxray|0 fnt|[from] brn
+  faint|p2a: Luxray
+  switch|p2a: Heatran|Heatran, L79, M|100/100
+  -item|p2a: Heatran|Air Balloon
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Garchomp|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Garchomp
+  -resisted|p1a: Garchomp
+  -damage|p1a: Garchomp|214/282
+  -activate|p1a: Garchomp|move: Magma Storm|[of] p2a: Heatran
+  -damage|p1a: Garchomp|179/282|[from] move: Magma Storm|[partiallytrapped]
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Garchomp|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Garchomp
+  -resisted|p1a: Garchomp
+  -damage|p1a: Garchomp|109/282
+  -damage|p1a: Garchomp|74/282|[from] move: Magma Storm|[partiallytrapped]
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Garchomp|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Garchomp|[miss]
+  -miss|p2a: Heatran|p1a: Garchomp
+  -damage|p1a: Garchomp|39/282|[from] move: Magma Storm|[partiallytrapped]
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 0.14, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to houndstone - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Garchomp|Earthquake|p2a: Heatran
+  -immune|p2a: Heatran
+  move|p2a: Heatran|Magma Storm|p1a: Garchomp
+  -resisted|p1a: Garchomp
+  -damage|p1a: Garchomp|0 fnt
+  faint|p1a: Garchomp
+  switch|p1a: Houndstone|Houndstone, L86, M|190/264
+-- turn 20
+  WE CHOSE: attack bodypress - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heatran|Magma Storm|p1a: Houndstone
+  -damage|p1a: Houndstone|0 fnt
+  faint|p1a: Houndstone

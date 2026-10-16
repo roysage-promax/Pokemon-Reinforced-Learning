@@ -1,0 +1,215 @@
+battle 2087 (battle-gen9randombattle-1025918): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  gothitelle (fainted; item leftovers, ability shadowtag; moves psychicnoise/calmmind/thunderbolt/darkpulse)
+  magcargo (fainted; item heavydutyboots, ability weakarmor; moves fireblast/shellsmash/powergem/earthpower)
+  toxicroak (fainted; item lifeorb, ability dryskin, tera ground; moves earthquake/closecombat/swordsdance/gunkshot)
+  baxcalibur (fainted; item choiceband, ability thermalexchange; moves iciclecrash/glaiverush/earthquake/iceshard)
+  chandelure (fainted; item choicescarf, ability flashfire; moves energyball/trick/shadowball/fireblast)
+  cyclizar (fainted; item heavydutyboots, ability regenerator; moves knockoff/rapidspin/shedtail/dracometeor)
+theirs (as seen):
+  hitmonchan (fainted; item lifeorb, ability ?; moves drainpunch/icepunch)
+  dewgong (fainted; item unknown_item, ability ?; moves surf)
+  clodsire (fainted; item unknown_item, ability ?; moves -)
+  beartic (fainted; item unknown_item, ability ?; moves earthquake)
+  gastrodoneast (fainted; item leftovers, ability ?; moves earthquake)
+  hitmonlee (100%; item ?, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Gothitelle|Gothitelle, L90, F|272/272
+  switch|p2a: Hitmonchan|Hitmonchan, L87, M|100/100
+-- turn 1
+  WE CHOSE: attack psychicnoise - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Hitmonchan|Drain Punch|p1a: Gothitelle
+  -resisted|p1a: Gothitelle
+  -damage|p1a: Gothitelle|210/272
+  -damage|p2a: Hitmonchan|91/100|[from] item: Life Orb
+  move|p1a: Gothitelle|Psychic Noise|p2a: Hitmonchan
+  -supereffective|p2a: Hitmonchan
+  -damage|p2a: Hitmonchan|25/100
+  -start|p2a: Hitmonchan|move: Heal Block
+  -heal|p1a: Gothitelle|227/272|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: setup calmmind - our hp 0.83, theirs 0.25, predicted move (revealed) hits us x0.5
+  move|p2a: Hitmonchan|Ice Punch|p1a: Gothitelle
+  -damage|p1a: Gothitelle|145/272
+  -damage|p2a: Hitmonchan|15/100|[from] item: Life Orb
+  move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+  -boost|p1a: Gothitelle|spa|1
+  -boost|p1a: Gothitelle|spd|1
+  -heal|p1a: Gothitelle|162/272|[from] item: Leftovers
+  -end|p2a: Hitmonchan|move: Heal Block
+-- turn 3
+  WE CHOSE: setup calmmind - our hp 0.60, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p2a: Hitmonchan|Drain Punch|p1a: Gothitelle
+  -resisted|p1a: Gothitelle
+  -damage|p1a: Gothitelle|96/272
+  -heal|p2a: Hitmonchan|29/100|[from] drain|[of] p1a: Gothitelle
+  -damage|p2a: Hitmonchan|20/100|[from] item: Life Orb
+  move|p1a: Gothitelle|Calm Mind|p1a: Gothitelle
+  -boost|p1a: Gothitelle|spa|1
+  -boost|p1a: Gothitelle|spd|1
+  -heal|p1a: Gothitelle|113/272|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack psychicnoise - our hp 0.42, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Hitmonchan|Drain Punch|p1a: Gothitelle
+  -resisted|p1a: Gothitelle
+  -damage|p1a: Gothitelle|51/272
+  -heal|p2a: Hitmonchan|33/100|[from] drain|[of] p1a: Gothitelle
+  -damage|p2a: Hitmonchan|24/100|[from] item: Life Orb
+  move|p1a: Gothitelle|Psychic Noise|p2a: Hitmonchan
+  -supereffective|p2a: Hitmonchan
+  -damage|p2a: Hitmonchan|0 fnt
+  faint|p2a: Hitmonchan
+  -heal|p1a: Gothitelle|68/272|[from] item: Leftovers
+  switch|p2a: Dewgong|Dewgong, L94, M|100/100
+-- turn 5
+  WE CHOSE: switch to toxicroak - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Toxicroak|Toxicroak, L84, F|277/277
+  move|p2a: Dewgong|Surf|p1a: Toxicroak
+  -immune|p1a: Toxicroak|[from] ability: Dry Skin
+-- turn 6
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+  -boost|p1a: Toxicroak|atk|2
+  move|p2a: Dewgong|Surf|p1a: Toxicroak
+  -immune|p1a: Toxicroak|[from] ability: Dry Skin
+-- turn 7
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+  -boost|p1a: Toxicroak|atk|2
+  move|p2a: Dewgong|Surf|p1a: Toxicroak
+  -immune|p1a: Toxicroak|[from] ability: Dry Skin
+-- turn 8
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+  -boost|p1a: Toxicroak|atk|2
+  move|p2a: Dewgong|Surf|p1a: Toxicroak
+  -immune|p1a: Toxicroak|[from] ability: Dry Skin
+-- turn 9
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Toxicroak|Close Combat|p2a: Dewgong
+  -supereffective|p2a: Dewgong
+  -damage|p2a: Dewgong|0 fnt
+  -unboost|p1a: Toxicroak|def|1
+  -unboost|p1a: Toxicroak|spd|1
+  faint|p2a: Dewgong
+  -damage|p1a: Toxicroak|250/277|[from] item: Life Orb
+  switch|p2a: Clodsire|Clodsire, L81, M|100/100
+-- turn 10
+  WE CHOSE: attack+tera earthquake - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x0.5
+  -terastallize|p1a: Toxicroak|Ground
+  move|p1a: Toxicroak|Earthquake|p2a: Clodsire
+  -supereffective|p2a: Clodsire
+  -damage|p2a: Clodsire|0 fnt
+  faint|p2a: Clodsire
+  -damage|p1a: Toxicroak|223/277|[from] item: Life Orb
+  switch|p2a: Beartic|Beartic, L91, F|100/100
+-- turn 11
+  WE CHOSE: switch to chandelure - our hp 0.81, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Chandelure|Chandelure, L83, F|235/235
+  move|p2a: Beartic|Earthquake|p1a: Chandelure
+  -supereffective|p1a: Chandelure
+  -damage|p1a: Chandelure|31/235
+-- turn 12
+  WE CHOSE: attack fireblast - our hp 0.13, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to toxicroak - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Chandelure|Fire Blast|p2a: Beartic|[miss]
+  -miss|p1a: Chandelure|p2a: Beartic
+  move|p2a: Beartic|Earthquake|p1a: Chandelure
+  -supereffective|p1a: Chandelure
+  -damage|p1a: Chandelure|0 fnt
+  faint|p1a: Chandelure
+  switch|p1a: Toxicroak|Toxicroak, L84, F, tera:Ground|223/277
+-- turn 13
+  WE CHOSE: attack closecombat - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Toxicroak|Close Combat|p2a: Beartic
+  -supereffective|p2a: Beartic
+  -damage|p2a: Beartic|0 fnt
+  -unboost|p1a: Toxicroak|def|1
+  -unboost|p1a: Toxicroak|spd|1
+  faint|p2a: Beartic
+  -damage|p1a: Toxicroak|196/277|[from] item: Life Orb
+  switch|p2a: Gastrodon|Gastrodon-East, L86, F|100/100
+-- turn 14
+  WE CHOSE: attack closecombat - our hp 0.71, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to baxcalibur - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Toxicroak|Close Combat|p2a: Gastrodon
+  -damage|p2a: Gastrodon|40/100
+  -unboost|p1a: Toxicroak|def|1
+  -unboost|p1a: Toxicroak|spd|1
+  -damage|p1a: Toxicroak|169/277|[from] item: Life Orb
+  move|p2a: Gastrodon|Earthquake|p1a: Toxicroak
+  -damage|p1a: Toxicroak|0 fnt
+  faint|p1a: Toxicroak
+  -heal|p2a: Gastrodon|46/100|[from] item: Leftovers
+  switch|p1a: Baxcalibur|Baxcalibur, L75, M|295/295
+-- turn 15
+  WE CHOSE: attack glaiverush - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Baxcalibur|Glaive Rush|p2a: Gastrodon
+  -damage|p2a: Gastrodon|0 fnt
+  -singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+  faint|p2a: Gastrodon
+  switch|p2a: Hitmonlee|Hitmonlee, L85, M|100/100
+-- turn 16
+  WE CHOSE: switch to gothitelle - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Gothitelle|Gothitelle, L90, F|68/272
+  move|p2a: Hitmonlee|Close Combat|p1a: Gothitelle
+  -resisted|p1a: Gothitelle
+  -damage|p1a: Gothitelle|2/272
+  -unboost|p2a: Hitmonlee|def|1
+  -unboost|p2a: Hitmonlee|spd|1
+  -enditem|p2a: Hitmonlee|White Herb
+  -clearnegativeboost|p2a: Hitmonlee|[silent]
+  -heal|p1a: Gothitelle|19/272|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack psychicnoise - our hp 0.07, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to baxcalibur - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Hitmonlee|Close Combat|p1a: Gothitelle
+  -resisted|p1a: Gothitelle
+  -damage|p1a: Gothitelle|0 fnt
+  -unboost|p2a: Hitmonlee|def|1
+  -unboost|p2a: Hitmonlee|spd|1
+  faint|p1a: Gothitelle
+  switch|p1a: Baxcalibur|Baxcalibur, L75, M|295/295
+-- turn 18
+  WE CHOSE: attack glaiverush - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to cyclizar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Hitmonlee|Close Combat|p1a: Baxcalibur
+  -supereffective|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|0 fnt
+  -unboost|p2a: Hitmonlee|def|1
+  -unboost|p2a: Hitmonlee|spd|1
+  faint|p1a: Baxcalibur
+  switch|p1a: Cyclizar|Cyclizar, L84, F|255/255
+-- turn 19
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to magcargo - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Hitmonlee|Close Combat|p1a: Cyclizar
+  -supereffective|p1a: Cyclizar
+  -damage|p1a: Cyclizar|0 fnt
+  -unboost|p2a: Hitmonlee|def|1
+  -unboost|p2a: Hitmonlee|spd|1
+  faint|p1a: Cyclizar
+  switch|p1a: Magcargo|Magcargo, L95, M|268/268
+-- turn 20
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Hitmonlee|Close Combat|p1a: Magcargo
+  -supereffective|p1a: Magcargo
+  -damage|p1a: Magcargo|44/268
+  -unboost|p2a: Hitmonlee|def|1
+  -unboost|p2a: Hitmonlee|spd|1
+  -ability|p1a: Magcargo|Weak Armor|boost
+  -unboost|p1a: Magcargo|def|1
+  -boost|p1a: Magcargo|spe|2
+  move|p1a: Magcargo|Fire Blast|p2a: Hitmonlee|[miss]
+  -miss|p1a: Magcargo|p2a: Hitmonlee
+-- turn 21
+  WE CHOSE: attack fireblast - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Hitmonlee|Close Combat|p1a: Magcargo
+  -supereffective|p1a: Magcargo
+  -damage|p1a: Magcargo|0 fnt
+  -unboost|p2a: Hitmonlee|def|1
+  -unboost|p2a: Hitmonlee|spd|1
+  faint|p1a: Magcargo
+  deinit

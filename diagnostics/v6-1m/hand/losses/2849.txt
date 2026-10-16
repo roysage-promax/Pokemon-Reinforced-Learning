@@ -1,0 +1,154 @@
+battle 2849 (battle-gen9randombattle-1033119): lost in 16 turns, 1 of theirs left; we are p1
+
+ours:
+  manaphy (fainted; item leftovers, ability hydration, tera water; moves energyball/surf/tailglow/icebeam)
+  maushold (fainted; item widelens, ability technician; moves populationbomb/bite/encore/tidyup)
+  landorus (fainted; item lifeorb, ability sheerforce; moves earthpower/psychic/nastyplot/sludgewave)
+  charizard (fainted; item heavydutyboots, ability blaze; moves flamethrower/hurricane/willowisp/earthquake)
+  darkrai (fainted; item lifeorb, ability baddreams; moves sludgebomb/hypnosis/darkpulse/nastyplot)
+  smeargle (fainted; item ?, ability owntempo; moves stickyweb/ceaselessedge/spore/whirlwind)
+theirs (as seen):
+  volcarona (fainted; item unknown_item, ability ?; moves bugbuzz)
+  greattusk (fainted; item unknown_item, ability protosynthesis; moves -)
+  oricoriosensu (fainted; item unknown_item, ability dancer; moves hurricane)
+  mienshao (fainted; item lifeorb, ability ?; moves closecombat)
+  landorustherian (fainted; item leftovers, ability intimidate; moves earthquake)
+  inteleon (30%; item unknown_item, ability ?; moves hydropump)
+
+-- turn 0
+  switch|p1a: Manaphy|Manaphy, L78|284/284
+  switch|p2a: Volcarona|Volcarona, L77, M|100/100
+-- turn 1
+  WE CHOSE: setup tailglow - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+  -boost|p1a: Manaphy|spa|3
+  move|p2a: Volcarona|Bug Buzz|p1a: Manaphy
+  -damage|p1a: Manaphy|184/284
+  -heal|p1a: Manaphy|201/284|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack+tera surf - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Manaphy|Water
+  move|p1a: Manaphy|Surf|p2a: Volcarona
+  -supereffective|p2a: Volcarona
+  -crit|p2a: Volcarona
+  -damage|p2a: Volcarona|0 fnt
+  faint|p2a: Volcarona
+  -heal|p1a: Manaphy|218/284|[from] item: Leftovers
+  switch|p2a: Great Tusk|Great Tusk, L77|100/100
+-- turn 3
+  WE CHOSE: attack surf - our hp 0.77, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Manaphy|Surf|p2a: Great Tusk
+  -supereffective|p2a: Great Tusk
+  -damage|p2a: Great Tusk|0 fnt
+  faint|p2a: Great Tusk
+  -end|p2a: Great Tusk|Protosynthesis|[silent]
+  -heal|p1a: Manaphy|235/284|[from] item: Leftovers
+  switch|p2a: Oricorio|Oricorio-Sensu, L85, F|100/100
+-- turn 4
+  WE CHOSE: attack surf - our hp 0.83, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Oricorio|Hurricane|p1a: Manaphy
+  -damage|p1a: Manaphy|120/284
+  move|p1a: Manaphy|Surf|p2a: Oricorio
+  -damage|p2a: Oricorio|0 fnt
+  faint|p2a: Oricorio
+  -heal|p1a: Manaphy|137/284|[from] item: Leftovers
+  switch|p2a: Mienshao|Mienshao, L83, M|100/100
+-- turn 5
+  WE CHOSE: attack surf - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to charizard - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Mienshao|Close Combat|p1a: Manaphy
+  -damage|p1a: Manaphy|0 fnt
+  -unboost|p2a: Mienshao|def|1
+  -unboost|p2a: Mienshao|spd|1
+  faint|p1a: Manaphy
+  -damage|p2a: Mienshao|91/100|[from] item: Life Orb
+  switch|p1a: Charizard|Charizard, L85, F|271/271
+-- turn 6
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Mienshao|Close Combat|p1a: Charizard
+  -resisted|p1a: Charizard
+  -damage|p1a: Charizard|166/271
+  -unboost|p2a: Mienshao|def|1
+  -unboost|p2a: Mienshao|spd|1
+  -damage|p2a: Mienshao|81/100|[from] item: Life Orb
+  move|p1a: Charizard|Hurricane|p2a: Mienshao
+  -supereffective|p2a: Mienshao
+  -damage|p2a: Mienshao|0 fnt
+  faint|p2a: Mienshao
+  switch|p2a: Landorus|Landorus-Therian, L76, M|100/100
+  -ability|p2a: Landorus|Intimidate|boost
+  -unboost|p1a: Charizard|atk|1
+-- turn 7
+  WE CHOSE: attack flamethrower - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Charizard|Flamethrower|p2a: Landorus
+  -damage|p2a: Landorus|50/100
+  -status|p2a: Landorus|brn
+  move|p2a: Landorus|Earthquake|p1a: Charizard
+  -immune|p1a: Charizard
+  -heal|p2a: Landorus|56/100 brn|[from] item: Leftovers
+  -damage|p2a: Landorus|50/100 brn|[from] brn
+-- turn 8
+  WE CHOSE: attack flamethrower - our hp 0.61, theirs 0.50, predicted move (revealed) hits us x0
+  move|p1a: Charizard|Flamethrower|p2a: Landorus
+  -damage|p2a: Landorus|1/100 brn
+  move|p2a: Landorus|Earthquake|p1a: Charizard
+  -immune|p1a: Charizard
+  -heal|p2a: Landorus|7/100 brn|[from] item: Leftovers
+  -damage|p2a: Landorus|1/100 brn|[from] brn
+-- turn 9
+  WE CHOSE: attack flamethrower - our hp 0.61, theirs 0.01, predicted move (revealed) hits us x0
+  move|p1a: Charizard|Flamethrower|p2a: Landorus
+  -damage|p2a: Landorus|0 fnt
+  faint|p2a: Landorus
+  switch|p2a: Inteleon|Inteleon, L81, F|100/100
+-- turn 10
+  WE CHOSE: attack hurricane - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to darkrai - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Inteleon|Hydro Pump|p1a: Charizard
+  -supereffective|p1a: Charizard
+  -damage|p1a: Charizard|0 fnt
+  faint|p1a: Charizard
+  switch|p1a: Darkrai|Darkrai, L77|234/234
+-- turn 11
+  WE CHOSE: attack darkpulse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Darkrai
+  -damage|p1a: Darkrai|24/234
+  move|p1a: Darkrai|Dark Pulse|p2a: Inteleon
+  -damage|p2a: Inteleon|42/100
+  -damage|p1a: Darkrai|1/234|[from] item: Life Orb
+-- turn 12
+  WE CHOSE: attack darkpulse - our hp 0.00, theirs 0.42, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to maushold - our hp 0.00, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Darkrai
+  -damage|p1a: Darkrai|0 fnt
+  faint|p1a: Darkrai
+  switch|p1a: Maushold|Maushold, L76|238/238
+-- turn 13
+  WE CHOSE: attack bite - our hp 1.00, theirs 0.42, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to smeargle - our hp 0.00, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Maushold
+  -damage|p1a: Maushold|0 fnt
+  faint|p1a: Maushold
+  switch|p1a: Smeargle|Smeargle, L95, F|258/258
+-- turn 14
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Smeargle
+  -enditem|p1a: Smeargle|Focus Sash
+  -damage|p1a: Smeargle|1/258
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Inteleon
+  -damage|p2a: Inteleon|30/100
+  -sidestart|p2: e2_132138|Spikes
+-- turn 15
+  WE CHOSE: attack ceaselessedge - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to landorus - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Smeargle
+  -damage|p1a: Smeargle|0 fnt
+  faint|p1a: Smeargle
+  switch|p1a: Landorus|Landorus, L75, M|257/257
+-- turn 16
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.30, predicted move (revealed) hits us x2
+  move|p2a: Inteleon|Hydro Pump|p1a: Landorus
+  -supereffective|p1a: Landorus
+  -damage|p1a: Landorus|0 fnt
+  faint|p1a: Landorus
+  deinit

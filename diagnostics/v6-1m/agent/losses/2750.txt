@@ -1,0 +1,261 @@
+battle 2750 (battle-gen9randombattle-1034318): lost in 28 turns, 2 of theirs left; we are p1
+
+ours:
+  gliscor (fainted; item toxicorb, ability poisonheal; moves protect/toxic/earthquake/substitute)
+  dunsparce (fainted; item eviolite, ability serenegrace; moves coil/bodyslam/earthquake/roost)
+  baxcalibur (fainted; item choiceband, ability thermalexchange; moves iceshard/earthquake/iciclecrash/glaiverush)
+  latias (fainted; item souldew, ability levitate, tera steel; moves dracometeor/calmmind/psyshock/recover)
+  froslass (fainted; item widelens, ability cursedbody; moves spikes/taunt/tripleaxel/poltergeist)
+  bruxish (fainted; item choiceband, ability strongjaw; moves wavecrash/aquajet/crunch/psychicfangs)
+theirs (as seen):
+  milotic (fainted; item leftovers, ability ?; moves icebeam/scald)
+  ragingbolt (fainted; item ?, ability protosynthesis; moves thunderbolt)
+  ironvaliant (fainted; item lifeorb, ability quarkdrive; moves closecombat)
+  roaringmoon (fainted; item unknown_item, ability protosynthesis; moves outrage)
+  bisharp (55%; item unknown_item, ability ?; moves ironhead)
+
+-- turn 0
+  switch|p1a: Gliscor|Gliscor, L76, M|239/239
+  switch|p2a: Milotic|Milotic, L83, F|100/100
+-- turn 1
+  WE CHOSE: switch to froslass - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Froslass|Froslass, L87, F|263/263
+  move|p2a: Milotic|Ice Beam|p1a: Froslass
+  -resisted|p1a: Froslass
+  -damage|p1a: Froslass|228/263
+  -start|p2a: Milotic|Disable|Ice Beam|[from] ability: Cursed Body|[of] p1a: Froslass
+-- turn 2
+  WE CHOSE: attack poltergeist - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Froslass|Poltergeist|p2a: Milotic
+  -activate|p2a: Milotic|move: Poltergeist|Leftovers
+  -damage|p2a: Milotic|60/100
+  move|p2a: Milotic|Scald|p1a: Froslass
+  -damage|p1a: Froslass|137/263
+  -status|p1a: Froslass|brn
+  -heal|p2a: Milotic|66/100|[from] item: Leftovers
+  -damage|p1a: Froslass|121/263 brn|[from] brn
+-- turn 3
+  WE CHOSE: attack poltergeist - our hp 0.46, theirs 0.66, predicted move (revealed) hits us x0.5
+  move|p1a: Froslass|Poltergeist|p2a: Milotic
+  -activate|p2a: Milotic|move: Poltergeist|Leftovers
+  -damage|p2a: Milotic|47/100
+  move|p2a: Milotic|Scald|p1a: Froslass
+  -damage|p1a: Froslass|24/263 brn
+  -heal|p2a: Milotic|53/100|[from] item: Leftovers
+  -damage|p1a: Froslass|8/263 brn|[from] brn
+-- turn 4
+  WE CHOSE: attack poltergeist - our hp 0.03, theirs 0.53, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to bruxish - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Froslass|Poltergeist|p2a: Milotic
+  -activate|p2a: Milotic|move: Poltergeist|Leftovers
+  -damage|p2a: Milotic|32/100
+  move|p2a: Milotic|Scald|p1a: Froslass
+  -damage|p1a: Froslass|0 fnt
+  faint|p1a: Froslass
+  -heal|p2a: Milotic|38/100|[from] item: Leftovers
+  -end|p2a: Milotic|Disable
+  switch|p1a: Bruxish|Bruxish, L85, M|254/254
+-- turn 5
+  WE CHOSE: attack psychicfangs - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Bruxish|Psychic Fangs|p2a: Milotic
+  -damage|p2a: Milotic|0 fnt
+  faint|p2a: Milotic
+  switch|p2a: Raging Bolt|Raging Bolt, L78|100/100
+  -enditem|p2a: Raging Bolt|Booster Energy
+  -activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+  -start|p2a: Raging Bolt|protosynthesisspa
+-- turn 6
+  WE CHOSE: attack psychicfangs (hand policy: attack+tera psychicfangs) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to gliscor - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x2
+  move|p1a: Bruxish|Psychic Fangs|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|34/100
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Bruxish
+  -supereffective|p1a: Bruxish
+  -damage|p1a: Bruxish|0 fnt
+  faint|p1a: Bruxish
+  switch|p1a: Gliscor|Gliscor, L76, M|239/239
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x0
+  move|p1a: Gliscor|Earthquake|p2a: Raging Bolt
+  -supereffective|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|0 fnt
+  faint|p2a: Raging Bolt
+  -end|p2a: Raging Bolt|Protosynthesis|[silent]
+  -status|p1a: Gliscor|tox|[from] item: Toxic Orb
+  switch|p2a: Iron Valiant|Iron Valiant, L78|100/100
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Iron Valiant|Close Combat|p1a: Gliscor
+  -resisted|p1a: Gliscor
+  -damage|p1a: Gliscor|160/239 tox
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+  move|p1a: Gliscor|Earthquake|p2a: Iron Valiant
+  -damage|p2a: Iron Valiant|34/100
+  -heal|p1a: Gliscor|189/239 tox|[from] ability: Poison Heal
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.79, theirs 0.34, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Valiant|Close Combat|p1a: Gliscor
+  -resisted|p1a: Gliscor
+  -damage|p1a: Gliscor|112/239 tox
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|24/100|[from] item: Life Orb
+  move|p1a: Gliscor|Earthquake|p2a: Iron Valiant
+  -damage|p2a: Iron Valiant|0 fnt
+  faint|p2a: Iron Valiant
+  -end|p2a: Iron Valiant|Quark Drive|[silent]
+  -heal|p1a: Gliscor|141/239 tox|[from] ability: Poison Heal
+  switch|p2a: Roaring Moon|Roaring Moon, L72|100/100
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.59, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dunsparce (hand policy: forced: switch to baxcalibur) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Roaring Moon|Outrage|p1a: Gliscor
+  -damage|p1a: Gliscor|0 fnt
+  faint|p1a: Gliscor
+  switch|p1a: Dunsparce|Dunsparce, L86, M|312/312
+-- turn 11
+  WE CHOSE: setup coil (hand policy: attack bodyslam) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Roaring Moon|Outrage|p1a: Dunsparce|[from] lockedmove
+  -damage|p1a: Dunsparce|180/312
+  -start|p2a: Roaring Moon|confusion|[fatigue]
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 12
+  WE CHOSE: attack earthquake (hand policy: attack bodyslam) - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x1
+  -activate|p2a: Roaring Moon|confusion
+  move|p2a: Roaring Moon|Outrage|p1a: Dunsparce
+  -damage|p1a: Dunsparce|77/312
+  move|p1a: Dunsparce|Earthquake|p2a: Roaring Moon
+  -damage|p2a: Roaring Moon|60/100
+-- turn 13
+  WE CHOSE: attack earthquake (hand policy: heal roost) - our hp 0.25, theirs 0.60, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to baxcalibur - our hp 0.00, theirs 0.60, predicted move (revealed) hits us x1
+  -activate|p2a: Roaring Moon|confusion
+  move|p2a: Roaring Moon|Outrage|p1a: Dunsparce|[from] lockedmove
+  -damage|p1a: Dunsparce|0 fnt
+  faint|p1a: Dunsparce
+  switch|p1a: Baxcalibur|Baxcalibur, L75, M|295/295
+-- turn 14
+  WE CHOSE: attack glaiverush - our hp 1.00, theirs 0.60, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to latias - our hp 0.00, theirs 0.60, predicted move (revealed) hits us x2
+  -end|p2a: Roaring Moon|confusion
+  move|p2a: Roaring Moon|Outrage|p1a: Baxcalibur|[from] lockedmove
+  -supereffective|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|0 fnt
+  faint|p1a: Baxcalibur
+  -start|p2a: Roaring Moon|confusion|[fatigue]
+  switch|p1a: Latias|Latias, L79, F|256/256
+-- turn 15
+  WE CHOSE: attack+tera dracometeor - our hp 1.00, theirs 0.60, predicted move (revealed) hits us x2
+  -terastallize|p1a: Latias|Steel
+  move|p1a: Latias|Draco Meteor|p2a: Roaring Moon
+  -supereffective|p2a: Roaring Moon
+  -damage|p2a: Roaring Moon|0 fnt
+  -unboost|p1a: Latias|spa|2
+  faint|p2a: Roaring Moon
+  -end|p2a: Roaring Moon|Protosynthesis|[silent]
+  switch|p2a: Bisharp|Bisharp, L79, F|100/100
+-- turn 16
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Latias|Recover||[still]
+  -fail|p1a: Latias|heal
+  move|p2a: Bisharp|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|208/256
+-- turn 17
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|256/256
+  move|p2a: Bisharp|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|209/256
+-- turn 18
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|256/256
+  move|p2a: Bisharp|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|206/256
+-- turn 19
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|256/256
+  move|p2a: Bisharp|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|207/256
+-- turn 20
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|256/256
+  move|p2a: Bisharp|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|211/256
+-- turn 21
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|256/256
+  move|p2a: Bisharp|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|210/256
+-- turn 22
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|256/256
+  move|p2a: Bisharp|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|207/256
+-- turn 23
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|256/256
+  move|p2a: Bisharp|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|205/256
+-- turn 24
+  WE CHOSE: attack recover (hand policy: setup calmmind) - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Draco Meteor|p2a: Bisharp
+  -resisted|p2a: Bisharp
+  -damage|p2a: Bisharp|87/100
+  -unboost|p1a: Latias|spa|2
+  move|p2a: Bisharp|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|154/256
+-- turn 25
+  WE CHOSE: attack recover (hand policy: setup calmmind) - our hp 0.60, theirs 0.87, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Draco Meteor|p2a: Bisharp
+  -resisted|p2a: Bisharp
+  -damage|p2a: Bisharp|77/100
+  -unboost|p1a: Latias|spa|2
+  move|p2a: Bisharp|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|103/256
+-- turn 26
+  WE CHOSE: attack recover (hand policy: attack dracometeor) - our hp 0.40, theirs 0.77, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Draco Meteor|p2a: Bisharp
+  -resisted|p2a: Bisharp
+  -damage|p2a: Bisharp|69/100
+  move|p2a: Bisharp|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|52/256
+-- turn 27
+  WE CHOSE: attack recover (hand policy: attack dracometeor) - our hp 0.20, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Draco Meteor|p2a: Bisharp
+  -resisted|p2a: Bisharp
+  -damage|p2a: Bisharp|62/100
+  move|p2a: Bisharp|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|3/256
+-- turn 28
+  WE CHOSE: attack recover (hand policy: attack dracometeor) - our hp 0.01, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Draco Meteor|p2a: Bisharp
+  -resisted|p2a: Bisharp
+  -damage|p2a: Bisharp|55/100
+  move|p2a: Bisharp|Iron Head|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|0 fnt
+  faint|p1a: Latias
+  deinit

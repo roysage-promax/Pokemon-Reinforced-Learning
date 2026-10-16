@@ -1,0 +1,191 @@
+battle 1721 (battle-gen9randombattle-1022540): lost in 20 turns, 1 of theirs left; we are p1
+
+ours:
+  salamence (fainted; item heavydutyboots, ability moxie, tera dragon; moves outrage/dualwingbeat/dragondance/earthquake)
+  ironmoth (fainted; item heavydutyboots, ability quarkdrive; moves toxicspikes/fireblast/sludgewave/energyball)
+  mamoswine (fainted; item lifeorb, ability thickfat; moves earthquake/iceshard/stealthrock/iciclecrash)
+  bruxish (fainted; item choiceband, ability strongjaw; moves crunch/aquajet/psychicfangs/wavecrash)
+  grumpig (fainted; item choicespecs, ability thickfat; moves shadowball/psychic/focusblast/earthpower)
+  registeel (fainted; item leftovers, ability clearbody; moves thunderwave/irondefense/bodypress/ironhead)
+theirs (as seen):
+  kilowattrel (fainted; item unknown_item, ability ?; moves hurricane)
+  rhydon (fainted; item unknown_item, ability ?; moves megahorn)
+  kyogre (fainted; item unknown_item, ability drizzle; moves waterspout)
+  pincurchin (fainted; item leftovers, ability ?; moves liquidation)
+  trevenant (fainted; item unknown_item, ability ?; moves woodhammer)
+  lunala (45%; item leftovers, ability shadowshield; moves moongeistbeam)
+
+-- turn 0
+  switch|p1a: Salamence|Salamence, L77, M|273/273
+  switch|p2a: Kilowattrel|Kilowattrel, L83, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera outrage - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Salamence|Dragon
+  move|p2a: Kilowattrel|Hurricane|p1a: Salamence|[miss]
+  -miss|p2a: Kilowattrel|p1a: Salamence
+  move|p1a: Salamence|Outrage|p2a: Kilowattrel
+  -damage|p2a: Kilowattrel|0 fnt
+  faint|p2a: Kilowattrel
+  -ability|p1a: Salamence|Moxie|boost
+  -boost|p1a: Salamence|atk|1
+  switch|p2a: Rhydon|Rhydon, L85, F|100/100
+-- turn 2
+  WE CHOSE: attack outrage - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Salamence|Outrage|p2a: Rhydon|[from] lockedmove
+  -damage|p2a: Rhydon|53/100
+  -start|p1a: Salamence|confusion|[fatigue]
+  move|p2a: Rhydon|Megahorn|p1a: Salamence
+  -damage|p1a: Salamence|139/273
+-- turn 3
+  WE CHOSE: attack outrage - our hp 0.51, theirs 0.53, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironmoth - our hp 0.00, theirs 0.11, predicted move (revealed) hits us x1
+  -activate|p1a: Salamence|confusion
+  move|p1a: Salamence|Outrage|p2a: Rhydon
+  -damage|p2a: Rhydon|11/100
+  move|p2a: Rhydon|Megahorn|p1a: Salamence
+  -damage|p1a: Salamence|0 fnt
+  faint|p1a: Salamence
+  switch|p1a: Iron Moth|Iron Moth, L78|253/253
+-- turn 4
+  WE CHOSE: attack energyball - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x0.25
+  move|p1a: Iron Moth|Energy Ball|p2a: Rhydon
+  -supereffective|p2a: Rhydon
+  -damage|p2a: Rhydon|0 fnt
+  faint|p2a: Rhydon
+  switch|p2a: Kyogre|Kyogre, L71|100/100
+  -weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+-- turn 5
+  WE CHOSE: switch to bruxish - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -end|p1a: Iron Moth|Quark Drive|[silent]
+  switch|p1a: Bruxish|Bruxish, L85, F|254/254
+  move|p2a: Kyogre|Water Spout|p1a: Bruxish
+  -resisted|p1a: Bruxish
+  -damage|p1a: Bruxish|116/254
+  -weather|RainDance|[upkeep]
+-- turn 6
+  WE CHOSE: attack psychicfangs - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to grumpig - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Kyogre|Water Spout|p1a: Bruxish
+  -resisted|p1a: Bruxish
+  -damage|p1a: Bruxish|0 fnt
+  faint|p1a: Bruxish
+  -weather|RainDance|[upkeep]
+  switch|p1a: Grumpig|Grumpig, L92, M|297/297
+-- turn 7
+  WE CHOSE: attack psychic - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Kyogre|Water Spout|p1a: Grumpig
+  -damage|p1a: Grumpig|96/297
+  move|p1a: Grumpig|Psychic|p2a: Kyogre
+  -damage|p2a: Kyogre|52/100
+  -weather|RainDance|[upkeep]
+-- turn 8
+  WE CHOSE: attack psychic - our hp 0.32, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to registeel - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Kyogre|Water Spout|p1a: Grumpig
+  -crit|p1a: Grumpig
+  -damage|p1a: Grumpig|0 fnt
+  faint|p1a: Grumpig
+  -weather|RainDance|[upkeep]
+  switch|p1a: Registeel|Registeel, L81|262/262
+-- turn 9
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Kyogre|Water Spout|p1a: Registeel
+  -damage|p1a: Registeel|178/262
+  move|p1a: Registeel|Body Press|p2a: Kyogre
+  -damage|p2a: Kyogre|21/100
+  -weather|none
+  -heal|p1a: Registeel|194/262|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack bodypress - our hp 0.74, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Kyogre|Water Spout|p1a: Registeel
+  -damage|p1a: Registeel|170/262
+  move|p1a: Registeel|Body Press|p2a: Kyogre
+  -damage|p2a: Kyogre|0 fnt
+  faint|p2a: Kyogre
+  -heal|p1a: Registeel|186/262|[from] item: Leftovers
+  switch|p2a: Pincurchin|Pincurchin, F|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+-- turn 11
+  WE CHOSE: switch to mamoswine - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Mamoswine|Mamoswine, L81, F|311/311
+  move|p2a: Pincurchin|Liquidation|p1a: Mamoswine
+  -supereffective|p1a: Mamoswine
+  -damage|p1a: Mamoswine|107/311
+-- turn 12
+  WE CHOSE: attack earthquake - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to registeel - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x2
+  move|p1a: Mamoswine|Earthquake|p2a: Pincurchin
+  -supereffective|p2a: Pincurchin
+  -damage|p2a: Pincurchin|9/100
+  -damage|p1a: Mamoswine|76/311|[from] item: Life Orb
+  move|p2a: Pincurchin|Liquidation|p1a: Mamoswine
+  -supereffective|p1a: Mamoswine
+  -damage|p1a: Mamoswine|0 fnt
+  faint|p1a: Mamoswine
+  -heal|p2a: Pincurchin|15/100|[from] item: Leftovers
+  switch|p1a: Registeel|Registeel, L81|186/262
+-- turn 13
+  WE CHOSE: attack bodypress - our hp 0.71, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Registeel|Body Press|p2a: Pincurchin
+  -damage|p2a: Pincurchin|0 fnt
+  faint|p2a: Pincurchin
+  -heal|p1a: Registeel|202/262|[from] item: Leftovers
+  switch|p2a: Trevenant|Trevenant, L89, M|100/100
+-- turn 14
+  WE CHOSE: attack ironhead - our hp 0.77, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Trevenant|Wood Hammer|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|125/262
+  -damage|p2a: Trevenant|92/100|[from] Recoil
+  move|p1a: Registeel|Iron Head|p2a: Trevenant
+  -damage|p2a: Trevenant|68/100
+  -heal|p1a: Registeel|141/262|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack ironhead - our hp 0.54, theirs 0.68, predicted move (revealed) hits us x0.5
+  move|p2a: Trevenant|Wood Hammer|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|60/262
+  -damage|p2a: Trevenant|59/100|[from] Recoil
+  move|p1a: Registeel|Iron Head|p2a: Trevenant
+  -damage|p2a: Trevenant|34/100
+  -heal|p1a: Registeel|76/262|[from] item: Leftovers
+  -fieldend|move: Electric Terrain
+-- turn 16
+  WE CHOSE: attack ironhead - our hp 0.29, theirs 0.34, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ironmoth - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x0.5
+  move|p2a: Trevenant|Wood Hammer|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|0 fnt
+  faint|p1a: Registeel
+  -damage|p2a: Trevenant|25/100|[from] Recoil
+  switch|p1a: Iron Moth|Iron Moth, L78|253/253
+-- turn 17
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x0.25
+  move|p1a: Iron Moth|Fire Blast|p2a: Trevenant
+  -supereffective|p2a: Trevenant
+  -damage|p2a: Trevenant|0 fnt
+  faint|p2a: Trevenant
+  switch|p2a: Lunala|Lunala, L70|100/100
+-- turn 18
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Iron Moth|Fire Blast|p2a: Lunala
+  -damage|p2a: Lunala|78/100
+  move|p2a: Lunala|Moongeist Beam|p1a: Iron Moth
+  -damage|p1a: Iron Moth|168/253
+  -heal|p2a: Lunala|85/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack fireblast - our hp 0.66, theirs 0.85, predicted move (revealed) hits us x1
+  move|p1a: Iron Moth|Fire Blast|p2a: Lunala|[miss]
+  -miss|p1a: Iron Moth|p2a: Lunala
+  move|p2a: Lunala|Moongeist Beam|p1a: Iron Moth
+  -damage|p1a: Iron Moth|80/253
+  -heal|p2a: Lunala|91/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack fireblast - our hp 0.32, theirs 0.91, predicted move (revealed) hits us x1
+  move|p1a: Iron Moth|Fire Blast|p2a: Lunala
+  -damage|p2a: Lunala|45/100
+  move|p2a: Lunala|Moongeist Beam|p1a: Iron Moth
+  -damage|p1a: Iron Moth|0 fnt
+  faint|p1a: Iron Moth
+  -end|p1a: Iron Moth|Quark Drive|[silent]
+  deinit

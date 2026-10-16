@@ -1,0 +1,201 @@
+battle 2344 (battle-gen9randombattle-1028390): lost in 16 turns, 1 of theirs left; we are p1
+
+ours:
+  ogerponhearthflame (fainted; item hearthflamemask, ability moldbreaker; moves ivycudgel/trailblaze/swordsdance/powerwhip)
+  farigiraf (fainted; item leftovers, ability sapsipper; moves protect/psychicnoise/wish/bodyslam)
+  seviper (fainted; item choicescarf, ability infiltrator; moves gunkshot/gigadrain/switcheroo/earthquake)
+  ironcrown (fainted; item choicespecs, ability quarkdrive; moves focusblast/voltswitch/psyshock/tachyoncutter)
+  flareon (fainted; item toxicorb, ability guts; moves flareblitz/trailblaze/quickattack/facade)
+  mudsdale (fainted; item leftovers, ability stamina; moves stealthrock/earthquake/roar/heavyslam)
+theirs (as seen):
+  stonjourner (fainted; item lifeorb, ability powerspot; moves earthquake)
+  politoed (fainted; item unknown_item, ability ?; moves focusblast)
+  staraptor (fainted; item unknown_item, ability ?; moves doubleedge)
+  tyranitar (fainted; item leftovers, ability ?; moves stoneedge)
+  hitmontop (fainted; item unknown_item, ability intimidate; moves closecombat)
+  cobalion (36%; item unknown_item, ability justified; moves closecombat)
+
+-- turn 0
+  switch|p1a: Ogerpon|Ogerpon-Hearthflame, L74, F|239/239
+  switch|p2a: Stonjourner|Stonjourner, L91, M|100/100
+  -ability|p1a: Ogerpon|Mold Breaker
+-- turn 1
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Ogerpon|Power Whip|p2a: Stonjourner|[miss]
+  -miss|p1a: Ogerpon|p2a: Stonjourner
+  move|p2a: Stonjourner|Earthquake|p1a: Ogerpon
+  -damage|p1a: Ogerpon|95/239
+  -damage|p2a: Stonjourner|90/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack powerwhip - our hp 0.40, theirs 0.90, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mudsdale - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Power Whip|p2a: Stonjourner
+  -supereffective|p2a: Stonjourner
+  -damage|p2a: Stonjourner|38/100
+  move|p2a: Stonjourner|Earthquake|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  -damage|p2a: Stonjourner|28/100|[from] item: Life Orb
+  switch|p1a: Mudsdale|Mudsdale, L83, F|302/302
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p2a: Stonjourner|Earthquake|p1a: Mudsdale
+  -damage|p1a: Mudsdale|186/302
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  -damage|p2a: Stonjourner|18/100|[from] item: Life Orb
+  move|p1a: Mudsdale|Earthquake|p2a: Stonjourner
+  -supereffective|p2a: Stonjourner
+  -crit|p2a: Stonjourner
+  -damage|p2a: Stonjourner|0 fnt
+  faint|p2a: Stonjourner
+  -heal|p1a: Mudsdale|204/302|[from] item: Leftovers
+  switch|p2a: Politoed|Politoed, L88, M|100/100
+  -weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 0.68, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Politoed|Focus Blast|p1a: Mudsdale
+  -crit|p1a: Mudsdale
+  -damage|p1a: Mudsdale|15/302
+  -ability|p1a: Mudsdale|Stamina|boost
+  -boost|p1a: Mudsdale|def|1
+  move|p1a: Mudsdale|Earthquake|p2a: Politoed
+  -damage|p2a: Politoed|56/100
+  -weather|RainDance|[upkeep]
+  -heal|p1a: Mudsdale|33/302|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 0.11, theirs 0.56, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to seviper - our hp 0.00, theirs 0.56, predicted move (revealed) hits us x1
+  move|p2a: Politoed|Focus Blast|p1a: Mudsdale
+  -damage|p1a: Mudsdale|0 fnt
+  faint|p1a: Mudsdale
+  -weather|RainDance|[upkeep]
+  switch|p1a: Seviper|Seviper, L93, M|287/287
+-- turn 6
+  WE CHOSE: attack gigadrain - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p1a: Seviper|Giga Drain|p2a: Politoed
+  -supereffective|p2a: Politoed
+  -damage|p2a: Politoed|21/100
+  move|p2a: Politoed|Focus Blast|p1a: Seviper
+  -resisted|p1a: Seviper
+  -damage|p1a: Seviper|204/287
+  -weather|RainDance|[upkeep]
+-- turn 7
+  WE CHOSE: attack gigadrain - our hp 0.71, theirs 0.21, predicted move (revealed) hits us x0.5
+  move|p1a: Seviper|Giga Drain|p2a: Politoed
+  -supereffective|p2a: Politoed
+  -damage|p2a: Politoed|0 fnt
+  -heal|p1a: Seviper|236/287|[from] drain|[of] p2a: Politoed
+  faint|p2a: Politoed
+  -weather|RainDance|[upkeep]
+  switch|p2a: Staraptor|Staraptor, L79, F|100/100
+-- turn 8
+  WE CHOSE: attack gigadrain - our hp 0.82, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ironcrown - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Seviper|Giga Drain|p2a: Staraptor
+  -resisted|p2a: Staraptor
+  -damage|p2a: Staraptor|82/100
+  -heal|p1a: Seviper|260/287|[from] drain|[of] p2a: Staraptor
+  move|p2a: Staraptor|Double-Edge|p1a: Seviper
+  -damage|p1a: Seviper|0 fnt
+  faint|p1a: Seviper
+  -damage|p2a: Staraptor|50/100|[from] Recoil
+  -weather|none
+  switch|p1a: Iron Crown|Iron Crown, L78|268/268
+-- turn 9
+  WE CHOSE: attack voltswitch - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to flareon - our hp 0.59, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p2a: Staraptor|Double-Edge|p1a: Iron Crown
+  -resisted|p1a: Iron Crown
+  -damage|p1a: Iron Crown|159/268
+  -damage|p2a: Staraptor|36/100|[from] Recoil
+  move|p1a: Iron Crown|Volt Switch|p2a: Staraptor
+  -supereffective|p2a: Staraptor
+  -damage|p2a: Staraptor|0 fnt
+  faint|p2a: Staraptor
+  -end|p1a: Iron Crown|Quark Drive|[silent]
+  switch|p1a: Flareon|Flareon, L90, M|263/263|[from] Volt Switch
+  -status|p1a: Flareon|tox|[from] item: Toxic Orb
+  switch|p2a: Tyranitar|Tyranitar, L78, F|100/100
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+-- turn 10
+  WE CHOSE: attack trailblaze - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to ironcrown - our hp 0.00, theirs 0.59, predicted move (revealed) hits us x2
+  move|p1a: Flareon|Trailblaze|p2a: Tyranitar
+  -supereffective|p2a: Tyranitar
+  -damage|p2a: Tyranitar|53/100
+  -boost|p1a: Flareon|spe|1
+  move|p2a: Tyranitar|Stone Edge|p1a: Flareon
+  -supereffective|p1a: Flareon
+  -damage|p1a: Flareon|0 fnt
+  faint|p1a: Flareon
+  -weather|Sandstorm|[upkeep]
+  -heal|p2a: Tyranitar|59/100|[from] item: Leftovers
+  switch|p1a: Iron Crown|Iron Crown, L78|159/268
+-- turn 11
+  WE CHOSE: attack focusblast - our hp 0.59, theirs 0.59, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Crown|Focus Blast|p2a: Tyranitar
+  -supereffective|p2a: Tyranitar
+  -damage|p2a: Tyranitar|0 fnt
+  faint|p2a: Tyranitar
+  -weather|Sandstorm|[upkeep]
+  switch|p2a: Hitmontop|Hitmontop, L88, M|100/100
+  -ability|p2a: Hitmontop|Intimidate|boost
+  -unboost|p1a: Iron Crown|atk|1
+-- turn 12
+  WE CHOSE: attack focusblast - our hp 0.59, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Iron Crown|Focus Blast|p2a: Hitmontop
+  -damage|p2a: Hitmontop|70/100
+  move|p2a: Hitmontop|Close Combat|p1a: Iron Crown
+  -damage|p1a: Iron Crown|18/268
+  -unboost|p2a: Hitmontop|def|1
+  -unboost|p2a: Hitmontop|spd|1
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Hitmontop|64/100|[from] Sandstorm
+-- turn 13
+  WE CHOSE: attack focusblast - our hp 0.07, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to farigiraf - our hp 0.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Iron Crown|Focus Blast|p2a: Hitmontop|[miss]
+  -miss|p1a: Iron Crown|p2a: Hitmontop
+  move|p2a: Hitmontop|Close Combat|p1a: Iron Crown
+  -damage|p1a: Iron Crown|0 fnt
+  -unboost|p2a: Hitmontop|def|1
+  -unboost|p2a: Hitmontop|spd|1
+  faint|p1a: Iron Crown
+  -end|p1a: Iron Crown|Quark Drive|[silent]
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Hitmontop|58/100|[from] Sandstorm
+  switch|p1a: Farigiraf|Farigiraf, L90, M|362/362
+-- turn 14
+  WE CHOSE: attack psychicnoise - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Hitmontop|Close Combat|p1a: Farigiraf
+  -damage|p1a: Farigiraf|202/362
+  -unboost|p2a: Hitmontop|def|1
+  -unboost|p2a: Hitmontop|spd|1
+  move|p1a: Farigiraf|Psychic Noise|p2a: Hitmontop
+  -supereffective|p2a: Hitmontop
+  -crit|p2a: Hitmontop
+  -damage|p2a: Hitmontop|0 fnt
+  faint|p2a: Hitmontop
+  -weather|none
+  -heal|p1a: Farigiraf|224/362|[from] item: Leftovers
+  switch|p2a: Cobalion|Cobalion, L80|100/100
+-- turn 15
+  WE CHOSE: attack psychicnoise - our hp 0.62, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Cobalion|Close Combat|p1a: Farigiraf
+  -damage|p1a: Farigiraf|112/362
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  move|p1a: Farigiraf|Psychic Noise|p2a: Cobalion
+  -damage|p2a: Cobalion|36/100
+  -start|p2a: Cobalion|move: Heal Block
+  -heal|p1a: Farigiraf|134/362|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack psychicnoise - our hp 0.37, theirs 0.36, predicted move (revealed) hits us x1
+  move|p2a: Cobalion|Close Combat|p1a: Farigiraf
+  -crit|p1a: Farigiraf
+  -damage|p1a: Farigiraf|0 fnt
+  -unboost|p2a: Cobalion|def|1
+  -unboost|p2a: Cobalion|spd|1
+  faint|p1a: Farigiraf
+  deinit

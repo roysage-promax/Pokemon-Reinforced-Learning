@@ -1,0 +1,166 @@
+battle 2357 (battle-gen9randombattle-1030221): lost in 17 turns, 2 of theirs left; we are p1
+
+ours:
+  sneasler (fainted; item choiceband, ability poisontouch; moves closecombat/throatchop/direclaw/uturn)
+  ironvaliant (fainted; item lifeorb, ability quarkdrive; moves moonblast/closecombat/knockoff/encore)
+  cetitan (fainted; item ?, ability thickfat; moves bellydrum/earthquake/iceshard/icespinner)
+  electrode (fainted; item heavydutyboots, ability soundproof; moves taunt/explosion/thunderbolt/voltswitch)
+  cinderace (fainted; item choiceband, ability libero, tera fighting; moves highjumpkick/pyroball/gunkshot/uturn)
+  granbull (fainted; item leftovers, ability intimidate; moves earthquake/playrough/roar/thunderwave)
+theirs (as seen):
+  toxicroak (fainted; item lifeorb, ability ?; moves gunkshot)
+  comfey (fainted; item leftovers, ability ?; moves terablast)
+  floatzel (fainted; item leftovers, ability ?; moves wavecrash)
+  ariados (fainted; item unknown_item, ability ?; moves megahorn)
+  noctowl (28%; item unknown_item, ability ?; moves hurricane)
+
+-- turn 0
+  switch|p1a: Sneasler|Sneasler, L74, F|240/240
+  switch|p2a: Toxicroak|Toxicroak, L84, F|100/100
+-- turn 1
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Sneasler|Close Combat|p2a: Toxicroak
+  -resisted|p2a: Toxicroak
+  -damage|p2a: Toxicroak|60/100
+  -unboost|p1a: Sneasler|def|1
+  -unboost|p1a: Sneasler|spd|1
+  move|p2a: Toxicroak|Gunk Shot|p1a: Sneasler|[miss]
+  -miss|p2a: Toxicroak|p1a: Sneasler
+-- turn 2
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.60, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to electrode - our hp 0.00, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Sneasler|Close Combat|p2a: Toxicroak
+  -resisted|p2a: Toxicroak
+  -damage|p2a: Toxicroak|21/100
+  -unboost|p1a: Sneasler|def|1
+  -unboost|p1a: Sneasler|spd|1
+  move|p2a: Toxicroak|Gunk Shot|p1a: Sneasler
+  -resisted|p1a: Sneasler
+  -damage|p1a: Sneasler|0 fnt
+  faint|p1a: Sneasler
+  -damage|p2a: Toxicroak|12/100|[from] item: Life Orb
+  switch|p1a: Electrode|Electrode, L93|262/262
+-- turn 3
+  WE CHOSE: attack explosion - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cetitan - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Electrode|Explosion|p2a: Toxicroak
+  -damage|p2a: Toxicroak|0 fnt
+  faint|p1a: Electrode
+  faint|p2a: Toxicroak
+  switch|p1a: Cetitan|Cetitan, L82, M|412/412
+  switch|p2a: Comfey|Comfey, L85, F|100/100
+-- turn 4
+  WE CHOSE: attack icespinner (hand policy: attack+tera icespinner) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Comfey|Tera Blast|p1a: Cetitan
+  -damage|p1a: Cetitan|341/412
+  move|p1a: Cetitan|Ice Spinner|p2a: Comfey
+  -damage|p2a: Comfey|62/100
+  -heal|p2a: Comfey|68/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack icespinner (hand policy: attack+tera icespinner) - our hp 0.83, theirs 0.68, predicted move (revealed) hits us x1
+  move|p2a: Comfey|Tera Blast|p1a: Cetitan
+  -damage|p1a: Cetitan|263/412
+  move|p1a: Cetitan|Ice Spinner|p2a: Comfey
+  -damage|p2a: Comfey|32/100
+  -heal|p2a: Comfey|38/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack icespinner (hand policy: attack+tera icespinner) - our hp 0.64, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Comfey|Tera Blast|p1a: Cetitan
+  -damage|p1a: Cetitan|193/412
+  -enditem|p1a: Cetitan|Sitrus Berry|[eat]
+  -heal|p1a: Cetitan|296/412|[from] item: Sitrus Berry
+  move|p1a: Cetitan|Ice Spinner|p2a: Comfey
+  -damage|p2a: Comfey|0 fnt
+  faint|p2a: Comfey
+  switch|p2a: Floatzel|Floatzel, L86, F|100/100
+-- turn 7
+  WE CHOSE: switch to ironvaliant (hand policy: attack earthquake) - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Iron Valiant|Iron Valiant, L78|244/244
+  move|p2a: Floatzel|Wave Crash|p1a: Iron Valiant
+  -damage|p1a: Iron Valiant|99/244
+  -damage|p2a: Floatzel|84/100|[from] Recoil
+  -heal|p2a: Floatzel|90/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack closecombat (hand policy: attack+tera closecombat) - our hp 0.41, theirs 0.90, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to granbull - our hp 0.00, theirs 0.84, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Iron Valiant
+  -damage|p1a: Iron Valiant|0 fnt
+  faint|p1a: Iron Valiant
+  -end|p1a: Iron Valiant|Quark Drive|[silent]
+  -damage|p2a: Floatzel|78/100|[from] Recoil
+  -heal|p2a: Floatzel|84/100|[from] item: Leftovers
+  switch|p1a: Granbull|Granbull, L88, M|302/302
+  -ability|p1a: Granbull|Intimidate|boost
+  -unboost|p2a: Floatzel|atk|1
+-- turn 9
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.84, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Granbull
+  -damage|p1a: Granbull|199/302
+  -damage|p2a: Floatzel|72/100|[from] Recoil
+  move|p1a: Granbull|Play Rough|p2a: Floatzel|[miss]
+  -miss|p1a: Granbull|p2a: Floatzel
+  -heal|p2a: Floatzel|78/100|[from] item: Leftovers
+  -heal|p1a: Granbull|217/302|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack playrough - our hp 0.72, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Granbull
+  -damage|p1a: Granbull|121/302
+  -damage|p2a: Floatzel|67/100|[from] Recoil
+  move|p1a: Granbull|Play Rough|p2a: Floatzel
+  -damage|p2a: Floatzel|7/100
+  -heal|p2a: Floatzel|13/100|[from] item: Leftovers
+  -heal|p1a: Granbull|139/302|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack playrough - our hp 0.46, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Granbull
+  -damage|p1a: Granbull|46/302
+  -damage|p2a: Floatzel|2/100|[from] Recoil
+  move|p1a: Granbull|Play Rough|p2a: Floatzel
+  -damage|p2a: Floatzel|0 fnt
+  faint|p2a: Floatzel
+  -heal|p1a: Granbull|64/302|[from] item: Leftovers
+  switch|p2a: Ariados|Ariados, L95, F|100/100
+-- turn 12
+  WE CHOSE: switch to cinderace (hand policy: attack earthquake) - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Cinderace|Cinderace, L77, M|249/249
+  move|p2a: Ariados|Megahorn|p1a: Cinderace
+  -resisted|p1a: Cinderace
+  -damage|p1a: Cinderace|159/249
+-- turn 13
+  WE CHOSE: attack+tera pyroball (hand policy: attack pyroball) - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Cinderace|Fighting
+  move|p1a: Cinderace|Pyro Ball|p2a: Ariados
+  -supereffective|p2a: Ariados
+  -damage|p2a: Ariados|0 fnt
+  faint|p2a: Ariados
+  switch|p2a: Noctowl|Noctowl, L95, M|100/100
+-- turn 14
+  WE CHOSE: switch to cetitan (hand policy: attack pyroball) - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Cetitan|Cetitan, L82, M|296/412
+  move|p2a: Noctowl|Hurricane|p1a: Cetitan
+  -damage|p1a: Cetitan|110/412
+-- turn 15
+  WE CHOSE: attack icespinner - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to granbull - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Cetitan
+  -damage|p1a: Cetitan|0 fnt
+  faint|p1a: Cetitan
+  switch|p1a: Granbull|Granbull, L88, M|64/302
+  -ability|p1a: Granbull|Intimidate|boost
+  -unboost|p2a: Noctowl|atk|1
+-- turn 16
+  WE CHOSE: attack playrough - our hp 0.21, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cinderace - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Granbull
+  -damage|p1a: Granbull|0 fnt
+  faint|p1a: Granbull
+  switch|p1a: Cinderace|Cinderace, L77, M, tera:Fighting|159/249
+-- turn 17
+  WE CHOSE: attack highjumpkick - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Cinderace|High Jump Kick|p2a: Noctowl
+  -damage|p2a: Noctowl|28/100
+  move|p2a: Noctowl|Hurricane|p1a: Cinderace
+  -supereffective|p1a: Cinderace
+  -damage|p1a: Cinderace|0 fnt
+  faint|p1a: Cinderace
+  deinit

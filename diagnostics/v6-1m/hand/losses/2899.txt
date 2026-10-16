@@ -1,0 +1,282 @@
+battle 2899 (battle-gen9randombattle-1033588): lost in 31 turns, 1 of theirs left; we are p1
+
+ours:
+  dondozo (fainted; item leftovers, ability unaware; moves rest/sleeptalk/curse/wavecrash)
+  rillaboom (fainted; item choiceband, ability grassysurge; moves highhorsepower/woodhammer/grassyglide/uturn)
+  klawf (fainted; item expertbelt, ability angershell; moves stoneedge/crabhammer/swordsdance/highhorsepower)
+  oranguru (fainted; item lifeorb, ability innerfocus; moves focusblast/hypervoice/nastyplot/psyshock)
+  lumineon (fainted; item heavydutyboots, ability stormdrain; moves encore/icebeam/uturn/hydropump)
+  granbull (fainted; item leftovers, ability intimidate, tera ground; moves earthquake/encore/playrough/thunderwave)
+theirs (as seen):
+  kingdra (fainted; item unknown_item, ability ?; moves outrage)
+  eelektross (fainted; item unknown_item, ability levitate; moves flamethrower)
+  inteleon (fainted; item unknown_item, ability ?; moves hydropump)
+  girafarig (fainted; item unknown_item, ability sapsipper; moves hypervoice)
+  giratinaorigin (fainted; item unknown_item, ability levitate; moves dracometeor)
+  farigiraf (47%; item leftovers, ability ?; moves bodyslam)
+
+-- turn 0
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362
+  switch|p2a: Kingdra|Kingdra, L84, M|100/100
+-- turn 1
+  WE CHOSE: switch to granbull - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Granbull|Granbull, L88, F|302/302
+  -ability|p1a: Granbull|Intimidate|boost
+  -unboost|p2a: Kingdra|atk|1
+  move|p2a: Kingdra|Outrage|p1a: Granbull
+  -immune|p1a: Granbull
+-- turn 2
+  WE CHOSE: attack playrough - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Kingdra|Outrage|p1a: Granbull
+  -immune|p1a: Granbull
+  move|p1a: Granbull|Play Rough|p2a: Kingdra|[miss]
+  -miss|p1a: Granbull|p2a: Kingdra
+-- turn 3
+  WE CHOSE: attack playrough - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Kingdra|Outrage|p1a: Granbull
+  -immune|p1a: Granbull
+  move|p1a: Granbull|Play Rough|p2a: Kingdra
+  -supereffective|p2a: Kingdra
+  -damage|p2a: Kingdra|11/100
+-- turn 4
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x0
+  move|p2a: Kingdra|Outrage|p1a: Granbull
+  -immune|p1a: Granbull
+  move|p1a: Granbull|Play Rough|p2a: Kingdra
+  -supereffective|p2a: Kingdra
+  -damage|p2a: Kingdra|0 fnt
+  faint|p2a: Kingdra
+  switch|p2a: Eelektross|Eelektross, L87, M|100/100
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Granbull
+  -damage|p1a: Granbull|214/302
+  move|p1a: Granbull|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Granbull|232/302|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack+tera earthquake - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Granbull|Ground
+  move|p2a: Eelektross|Flamethrower|p1a: Granbull
+  -damage|p1a: Granbull|141/302
+  -status|p1a: Granbull|brn
+  move|p1a: Granbull|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Granbull|159/302 brn|[from] item: Leftovers
+  -damage|p1a: Granbull|141/302 brn|[from] brn
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.47, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Granbull
+  -damage|p1a: Granbull|47/302 brn
+  move|p1a: Granbull|Earthquake|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  -heal|p1a: Granbull|65/302 brn|[from] item: Leftovers
+  -damage|p1a: Granbull|47/302 brn|[from] brn
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to klawf - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Eelektross|Flamethrower|p1a: Granbull
+  -damage|p1a: Granbull|0 fnt
+  faint|p1a: Granbull
+  switch|p1a: Klawf|Klawf, L90, M|272/272
+-- turn 9
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Klawf|Swords Dance|p1a: Klawf
+  -boost|p1a: Klawf|atk|2
+  move|p2a: Eelektross|Flamethrower|p1a: Klawf
+  -resisted|p1a: Klawf
+  -damage|p1a: Klawf|224/272
+-- turn 10
+  WE CHOSE: attack highhorsepower - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Klawf|High Horsepower|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  move|p2a: Eelektross|Flamethrower|p1a: Klawf
+  -resisted|p1a: Klawf
+  -damage|p1a: Klawf|173/272
+-- turn 11
+  WE CHOSE: attack highhorsepower - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Klawf|High Horsepower|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  move|p2a: Eelektross|Flamethrower|p1a: Klawf
+  -resisted|p1a: Klawf
+  -crit|p1a: Klawf
+  -damage|p1a: Klawf|98/272
+  -ability|p1a: Klawf|Anger Shell|boost
+  -boost|p1a: Klawf|atk|1
+  -boost|p1a: Klawf|spa|1
+  -boost|p1a: Klawf|spe|1
+  -unboost|p1a: Klawf|def|1
+  -unboost|p1a: Klawf|spd|1
+-- turn 12
+  WE CHOSE: attack highhorsepower - our hp 0.36, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Klawf|High Horsepower|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  move|p2a: Eelektross|Flamethrower|p1a: Klawf
+  -resisted|p1a: Klawf
+  -damage|p1a: Klawf|23/272
+-- turn 13
+  WE CHOSE: attack highhorsepower - our hp 0.08, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dondozo - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Klawf|High Horsepower|p2a: Eelektross
+  -immune|p2a: Eelektross|[from] ability: Levitate
+  move|p2a: Eelektross|Flamethrower|p1a: Klawf
+  -resisted|p1a: Klawf
+  -damage|p1a: Klawf|0 fnt
+  faint|p1a: Klawf
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362
+-- turn 14
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|317/362
+  move|p1a: Dondozo|Wave Crash|p2a: Eelektross
+  -damage|p2a: Eelektross|63/100
+  -damage|p1a: Dondozo|281/362|[from] Recoil
+  -heal|p1a: Dondozo|303/362|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack wavecrash - our hp 0.84, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|254/362
+  move|p1a: Dondozo|Wave Crash|p2a: Eelektross
+  -damage|p2a: Eelektross|20/100
+  -damage|p1a: Dondozo|213/362|[from] Recoil
+  -heal|p1a: Dondozo|235/362|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack wavecrash - our hp 0.65, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p2a: Eelektross|Flamethrower|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|188/362
+  move|p1a: Dondozo|Wave Crash|p2a: Eelektross
+  -damage|p2a: Eelektross|0 fnt
+  faint|p2a: Eelektross
+  -damage|p1a: Dondozo|169/362|[from] Recoil
+  -heal|p1a: Dondozo|191/362|[from] item: Leftovers
+  switch|p2a: Inteleon|Inteleon, L81, F|100/100
+-- turn 17
+  WE CHOSE: attack wavecrash - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Inteleon|Hydro Pump|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|68/362
+  move|p1a: Dondozo|Wave Crash|p2a: Inteleon
+  -resisted|p2a: Inteleon
+  -damage|p2a: Inteleon|70/100
+  -damage|p1a: Dondozo|43/362|[from] Recoil
+  -heal|p1a: Dondozo|65/362|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: heal rest - our hp 0.18, theirs 0.70, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to rillaboom - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p2a: Inteleon|Hydro Pump|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|0 fnt
+  faint|p1a: Dondozo
+  switch|p1a: Rillaboom|Rillaboom, L79, M|288/288
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+-- turn 19
+  WE CHOSE: attack woodhammer - our hp 1.00, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p2a: Inteleon|Hydro Pump|p1a: Rillaboom
+  -resisted|p1a: Rillaboom
+  -damage|p1a: Rillaboom|168/288
+  move|p1a: Rillaboom|Wood Hammer|p2a: Inteleon
+  -supereffective|p2a: Inteleon
+  -damage|p2a: Inteleon|0 fnt
+  faint|p2a: Inteleon
+  -damage|p1a: Rillaboom|112/288|[from] Recoil
+  -heal|p1a: Rillaboom|130/288|[from] Grassy Terrain
+  switch|p2a: Girafarig|Girafarig, L89, F|100/100
+-- turn 20
+  WE CHOSE: attack woodhammer - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Girafarig|Hyper Voice|p1a: Rillaboom
+  -damage|p1a: Rillaboom|7/288
+  move|p1a: Rillaboom|Wood Hammer|p2a: Girafarig
+  -ability|p2a: Girafarig|Sap Sipper|boost
+  -boost|p2a: Girafarig|atk|1
+  -heal|p1a: Rillaboom|25/288|[from] Grassy Terrain
+-- turn 21
+  WE CHOSE: attack woodhammer - our hp 0.09, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lumineon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Girafarig|Hyper Voice|p1a: Rillaboom
+  -damage|p1a: Rillaboom|0 fnt
+  faint|p1a: Rillaboom
+  switch|p1a: Lumineon|Lumineon, L93, M|279/279
+-- turn 22
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to oranguru - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Lumineon|U-turn|p2a: Girafarig
+  -supereffective|p2a: Girafarig
+  -damage|p2a: Girafarig|71/100
+  switch|p1a: Oranguru|Oranguru, L92, F|315/315|[from] U-turn
+  move|p2a: Girafarig|Hyper Voice|p1a: Oranguru
+  -damage|p1a: Oranguru|242/315
+  -heal|p2a: Girafarig|77/100|[from] Grassy Terrain
+  -heal|p1a: Oranguru|261/315|[from] Grassy Terrain
+-- turn 23
+  WE CHOSE: attack hypervoice - our hp 0.83, theirs 0.77, predicted move (revealed) hits us x1
+  move|p2a: Girafarig|Hyper Voice|p1a: Oranguru
+  -damage|p1a: Oranguru|179/315
+  move|p1a: Oranguru|Hyper Voice|p2a: Girafarig
+  -damage|p2a: Girafarig|33/100
+  -damage|p1a: Oranguru|148/315|[from] item: Life Orb
+  -heal|p2a: Girafarig|39/100|[from] Grassy Terrain
+  -heal|p1a: Oranguru|167/315|[from] Grassy Terrain
+  -fieldend|move: Grassy Terrain
+-- turn 24
+  WE CHOSE: attack hypervoice - our hp 0.53, theirs 0.39, predicted move (revealed) hits us x1
+  move|p2a: Girafarig|Hyper Voice|p1a: Oranguru
+  -damage|p1a: Oranguru|85/315
+  move|p1a: Oranguru|Hyper Voice|p2a: Girafarig
+  -damage|p2a: Girafarig|1/100
+  -damage|p1a: Oranguru|54/315|[from] item: Life Orb
+-- turn 25
+  WE CHOSE: attack hypervoice - our hp 0.17, theirs 0.01, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lumineon - our hp 0.00, theirs 0.01, predicted move (revealed) hits us x1
+  move|p2a: Girafarig|Hyper Voice|p1a: Oranguru
+  -damage|p1a: Oranguru|0 fnt
+  faint|p1a: Oranguru
+  switch|p1a: Lumineon|Lumineon, L93, M|279/279
+-- turn 26
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.01, predicted move (revealed) hits us x1
+  move|p1a: Lumineon|U-turn|p2a: Girafarig
+  -supereffective|p2a: Girafarig
+  -damage|p2a: Girafarig|0 fnt
+  faint|p2a: Girafarig
+  switch|p2a: Giratina|Giratina-Origin, L72|100/100
+-- turn 27
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Lumineon|Ice Beam|p2a: Giratina
+  -supereffective|p2a: Giratina
+  -damage|p2a: Giratina|60/100
+  move|p2a: Giratina|Draco Meteor|p1a: Lumineon
+  -damage|p1a: Lumineon|146/279
+  -unboost|p2a: Giratina|spa|2
+-- turn 28
+  WE CHOSE: attack icebeam - our hp 0.52, theirs 0.60, predicted move (revealed) hits us x1
+  move|p1a: Lumineon|Ice Beam|p2a: Giratina
+  -supereffective|p2a: Giratina
+  -damage|p2a: Giratina|19/100
+  -status|p2a: Giratina|frz
+  cant|p2a: Giratina|frz
+-- turn 29
+  WE CHOSE: attack icebeam - our hp 0.52, theirs 0.19, predicted move (revealed) hits us x1
+  move|p1a: Lumineon|Ice Beam|p2a: Giratina
+  -supereffective|p2a: Giratina
+  -damage|p2a: Giratina|0 fnt
+  faint|p2a: Giratina
+  switch|p2a: Farigiraf|Farigiraf, L90, F|100/100
+-- turn 30
+  WE CHOSE: attack uturn - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Lumineon|U-turn|p2a: Farigiraf
+  -supereffective|p2a: Farigiraf
+  -damage|p2a: Farigiraf|71/100
+  move|p2a: Farigiraf|Body Slam|p1a: Lumineon
+  -damage|p1a: Lumineon|47/279
+  -heal|p2a: Farigiraf|77/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack uturn - our hp 0.17, theirs 0.77, predicted move (revealed) hits us x1
+  move|p1a: Lumineon|U-turn|p2a: Farigiraf
+  -supereffective|p2a: Farigiraf
+  -damage|p2a: Farigiraf|47/100
+  move|p2a: Farigiraf|Body Slam|p1a: Lumineon
+  -damage|p1a: Lumineon|0 fnt
+  faint|p1a: Lumineon
+  deinit

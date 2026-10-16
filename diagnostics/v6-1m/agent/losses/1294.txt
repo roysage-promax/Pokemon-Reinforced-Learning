@@ -1,0 +1,310 @@
+battle 1294 (battle-gen9randombattle-1019435): lost in 34 turns, 2 of theirs left; we are p1
+
+ours:
+  dachsbun (fainted; item leftovers, ability wellbakedbody, tera steel; moves protect/wish/yawn/playrough)
+  trevenant (fainted; item lifeorb, ability naturalcure; moves drainpunch/woodhammer/rest/poltergeist)
+  zebstrika (fainted; item lifeorb, ability sapsipper; moves overheat/highhorsepower/supercellslam/voltswitch)
+  dragonite (fainted; item heavydutyboots, ability multiscale; moves dragondance/earthquake/outrage/roost)
+  ditto (fainted; item choicescarf, ability voltabsorb; moves scald/thunderwave/icebeam/thunderbolt)
+  orthworm (fainted; item chestoberry, ability eartheater; moves irontail/bodypress/coil/rest)
+theirs (as seen):
+  arcanine (fainted; item unknown_item, ability intimidate; moves flareblitz)
+  ogerponhearthflame (fainted; item unknown_item, ability moldbreaker; moves ivycudgel)
+  florges (fainted; item unknown_item, ability ?; moves moonblast)
+  cresselia (fainted; item leftovers, ability levitate; moves thunderbolt)
+  lanturn (96%; item leftovers, ability voltabsorb; moves icebeam)
+
+-- turn 0
+  switch|p1a: Dachsbun|Dachsbun, L92, F|254/254
+  switch|p2a: Arcanine|Arcanine, L84, F|100/100
+  -ability|p2a: Arcanine|Intimidate|boost
+  -unboost|p1a: Dachsbun|atk|1
+-- turn 1
+  WE CHOSE: switch to trevenant (hand policy: attack playrough) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to dachsbun (hand policy: forced: switch to dragonite) - our hp 0.00, theirs 0.66, predicted move (revealed) hits us x2
+  switch|p1a: Trevenant|Trevenant, L89, F|296/296
+  move|p2a: Arcanine|Flare Blitz|p1a: Trevenant
+  -supereffective|p1a: Trevenant
+  -damage|p1a: Trevenant|0 fnt
+  faint|p1a: Trevenant
+  -damage|p2a: Arcanine|66/100|[from] Recoil
+  switch|p1a: Dachsbun|Dachsbun, L92, F|254/254
+-- turn 2
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x0
+  move|p1a: Dachsbun|Play Rough|p2a: Arcanine
+  -resisted|p2a: Arcanine
+  -damage|p2a: Arcanine|49/100
+  move|p2a: Arcanine|Flare Blitz|p1a: Dachsbun
+  -ability|p1a: Dachsbun|Well-Baked Body|boost
+  -boost|p1a: Dachsbun|def|2
+-- turn 3
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x0
+  move|p1a: Dachsbun|Play Rough|p2a: Arcanine
+  -resisted|p2a: Arcanine
+  -damage|p2a: Arcanine|30/100
+  move|p2a: Arcanine|Flare Blitz|p1a: Dachsbun
+  -ability|p1a: Dachsbun|Well-Baked Body|boost
+  -boost|p1a: Dachsbun|def|2
+-- turn 4
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.30, predicted move (revealed) hits us x0
+  move|p1a: Dachsbun|Play Rough|p2a: Arcanine
+  -resisted|p2a: Arcanine
+  -damage|p2a: Arcanine|12/100
+  move|p2a: Arcanine|Flare Blitz|p1a: Dachsbun
+  -ability|p1a: Dachsbun|Well-Baked Body|boost
+  -boost|p1a: Dachsbun|def|2
+-- turn 5
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x0
+  move|p1a: Dachsbun|Play Rough|p2a: Arcanine
+  -resisted|p2a: Arcanine
+  -damage|p2a: Arcanine|0 fnt
+  faint|p2a: Arcanine
+  switch|p2a: Ogerpon|Ogerpon-Hearthflame, L74, F|100/100
+  -ability|p2a: Ogerpon|Mold Breaker
+-- turn 6
+  WE CHOSE: switch to zebstrika - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Zebstrika|Zebstrika, L87, M|272/272
+  move|p2a: Ogerpon|Ivy Cudgel|p1a: Zebstrika|[anim] Ivy Cudgel Fire
+  -damage|p1a: Zebstrika|121/272
+-- turn 7
+  WE CHOSE: attack overheat - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to dragonite - our hp 0.00, theirs 0.55, predicted move (revealed) hits us x0
+  move|p1a: Zebstrika|Overheat|p2a: Ogerpon
+  -damage|p2a: Ogerpon|55/100
+  -unboost|p1a: Zebstrika|spa|2
+  -damage|p1a: Zebstrika|94/272|[from] item: Life Orb
+  move|p2a: Ogerpon|Ivy Cudgel|p1a: Zebstrika|[anim] Ivy Cudgel Fire
+  -damage|p1a: Zebstrika|0 fnt
+  faint|p1a: Zebstrika
+  switch|p1a: Dragonite|Dragonite, L74, M|257/257
+-- turn 8
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 0.55, predicted move (revealed) hits us x0.25
+  move|p2a: Ogerpon|Ivy Cudgel|p1a: Dragonite|[anim] Ivy Cudgel Fire
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|198/257
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+-- turn 9
+  WE CHOSE: setup dragondance - our hp 0.77, theirs 0.55, predicted move (revealed) hits us x0.25
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Ogerpon|Ivy Cudgel|p1a: Dragonite|[anim] Ivy Cudgel Fire
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|138/257
+-- turn 10
+  WE CHOSE: attack outrage - our hp 0.54, theirs 0.55, predicted move (revealed) hits us x0.25
+  move|p1a: Dragonite|Outrage|p2a: Ogerpon
+  -damage|p2a: Ogerpon|0 fnt
+  faint|p2a: Ogerpon
+  switch|p2a: Florges|Florges, L85, F|100/100
+-- turn 11
+  WE CHOSE: attack outrage - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to orthworm - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Dragonite|Outrage|p2a: Florges|[from] lockedmove
+  -immune|p2a: Florges
+  -start|p1a: Dragonite|confusion|[fatigue]
+  move|p2a: Florges|Moonblast|p1a: Dragonite
+  -supereffective|p1a: Dragonite
+  -damage|p1a: Dragonite|0 fnt
+  faint|p1a: Dragonite
+  switch|p1a: Orthworm|Orthworm, L88, M|266/266
+-- turn 12
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Florges|Moonblast|p1a: Orthworm
+  -resisted|p1a: Orthworm
+  -damage|p1a: Orthworm|189/266
+  move|p1a: Orthworm|Coil|p1a: Orthworm
+  -boost|p1a: Orthworm|atk|1
+  -boost|p1a: Orthworm|def|1
+  -boost|p1a: Orthworm|accuracy|1
+-- turn 13
+  WE CHOSE: attack irontail (hand policy: setup coil) - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Florges|Moonblast|p1a: Orthworm
+  -resisted|p1a: Orthworm
+  -damage|p1a: Orthworm|114/266
+  move|p1a: Orthworm|Iron Tail|p2a: Florges
+  -supereffective|p2a: Florges
+  -damage|p2a: Florges|0 fnt
+  faint|p2a: Florges
+  switch|p2a: Cresselia|Cresselia, L80, F|100/100
+-- turn 14
+  WE CHOSE: attack irontail (hand policy: heal rest) - our hp 0.43, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Cresselia|Thunderbolt|p1a: Orthworm
+  -damage|p1a: Orthworm|46/266
+  -status|p1a: Orthworm|par
+  move|p1a: Orthworm|Iron Tail|p2a: Cresselia
+  -damage|p2a: Cresselia|59/100
+  -heal|p2a: Cresselia|66/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack irontail (hand policy: heal rest) - our hp 0.17, theirs 0.66, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dachsbun - our hp 0.00, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Cresselia|Thunderbolt|p1a: Orthworm
+  -damage|p1a: Orthworm|0 fnt
+  faint|p1a: Orthworm
+  -heal|p2a: Cresselia|72/100|[from] item: Leftovers
+  switch|p1a: Dachsbun|Dachsbun, L92, F|254/254
+-- turn 16
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x1
+  move|p1a: Dachsbun|Play Rough|p2a: Cresselia
+  -damage|p2a: Cresselia|46/100
+  move|p2a: Cresselia|Thunderbolt|p1a: Dachsbun
+  -damage|p1a: Dachsbun|205/254
+  -heal|p1a: Dachsbun|220/254|[from] item: Leftovers
+  -heal|p2a: Cresselia|52/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack playrough - our hp 0.87, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Dachsbun|Play Rough|p2a: Cresselia
+  -damage|p2a: Cresselia|25/100
+  move|p2a: Cresselia|Thunderbolt|p1a: Dachsbun
+  -damage|p1a: Dachsbun|169/254
+  -heal|p1a: Dachsbun|184/254|[from] item: Leftovers
+  -heal|p2a: Cresselia|31/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack playrough - our hp 0.72, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Dachsbun|Play Rough|p2a: Cresselia
+  -damage|p2a: Cresselia|6/100
+  -unboost|p2a: Cresselia|atk|1
+  move|p2a: Cresselia|Thunderbolt|p1a: Dachsbun
+  -damage|p1a: Dachsbun|136/254
+  -heal|p1a: Dachsbun|151/254|[from] item: Leftovers
+  -heal|p2a: Cresselia|13/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack playrough - our hp 0.59, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Dachsbun|Play Rough|p2a: Cresselia
+  -damage|p2a: Cresselia|0 fnt
+  faint|p2a: Cresselia
+  -heal|p1a: Dachsbun|166/254|[from] item: Leftovers
+  switch|p2a: Lanturn|Lanturn, L89, M|100/100
+-- turn 20
+  WE CHOSE: attack playrough - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Dachsbun|Play Rough|p2a: Lanturn
+  -damage|p2a: Lanturn|65/100
+  -unboost|p2a: Lanturn|atk|1
+  move|p2a: Lanturn|Ice Beam|p1a: Dachsbun
+  -damage|p1a: Dachsbun|107/254
+  -heal|p1a: Dachsbun|122/254|[from] item: Leftovers
+  -heal|p2a: Lanturn|71/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack+tera playrough - our hp 0.48, theirs 0.71, predicted move (revealed) hits us x1
+  -terastallize|p1a: Dachsbun|Steel
+  move|p1a: Dachsbun|Play Rough|p2a: Lanturn|[miss]
+  -miss|p1a: Dachsbun|p2a: Lanturn
+  move|p2a: Lanturn|Ice Beam|p1a: Dachsbun
+  -resisted|p1a: Dachsbun
+  -damage|p1a: Dachsbun|95/254
+  -heal|p1a: Dachsbun|110/254|[from] item: Leftovers
+  -heal|p2a: Lanturn|77/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack playrough - our hp 0.43, theirs 0.77, predicted move (revealed) hits us x0.5
+  move|p1a: Dachsbun|Play Rough|p2a: Lanturn
+  -damage|p2a: Lanturn|42/100
+  move|p2a: Lanturn|Ice Beam|p1a: Dachsbun
+  -resisted|p1a: Dachsbun
+  -damage|p1a: Dachsbun|83/254
+  -status|p1a: Dachsbun|frz
+  -heal|p1a: Dachsbun|98/254 frz|[from] item: Leftovers
+  -heal|p2a: Lanturn|48/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack playrough - our hp 0.39, theirs 0.48, predicted move (revealed) hits us x0.5
+  cant|p1a: Dachsbun|frz
+  move|p2a: Lanturn|Ice Beam|p1a: Dachsbun
+  -resisted|p1a: Dachsbun
+  -damage|p1a: Dachsbun|70/254 frz
+  -heal|p1a: Dachsbun|85/254 frz|[from] item: Leftovers
+  -heal|p2a: Lanturn|54/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack playrough - our hp 0.33, theirs 0.54, predicted move (revealed) hits us x0.5
+  cant|p1a: Dachsbun|frz
+  move|p2a: Lanturn|Ice Beam|p1a: Dachsbun
+  -resisted|p1a: Dachsbun
+  -damage|p1a: Dachsbun|58/254 frz
+  -heal|p1a: Dachsbun|73/254 frz|[from] item: Leftovers
+  -heal|p2a: Lanturn|60/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack playrough - our hp 0.29, theirs 0.60, predicted move (revealed) hits us x0.5
+  cant|p1a: Dachsbun|frz
+  move|p2a: Lanturn|Ice Beam|p1a: Dachsbun
+  -resisted|p1a: Dachsbun
+  -crit|p1a: Dachsbun
+  -damage|p1a: Dachsbun|31/254 frz
+  -heal|p1a: Dachsbun|46/254 frz|[from] item: Leftovers
+  -heal|p2a: Lanturn|66/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack playrough - our hp 0.18, theirs 0.66, predicted move (revealed) hits us x0.5
+  cant|p1a: Dachsbun|frz
+  move|p2a: Lanturn|Ice Beam|p1a: Dachsbun
+  -resisted|p1a: Dachsbun
+  -damage|p1a: Dachsbun|18/254 frz
+  -heal|p1a: Dachsbun|33/254 frz|[from] item: Leftovers
+  -heal|p2a: Lanturn|72/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack playrough - our hp 0.13, theirs 0.72, predicted move (revealed) hits us x0.5
+  cant|p1a: Dachsbun|frz
+  move|p2a: Lanturn|Ice Beam|p1a: Dachsbun
+  -resisted|p1a: Dachsbun
+  -damage|p1a: Dachsbun|4/254 frz
+  -heal|p1a: Dachsbun|19/254 frz|[from] item: Leftovers
+  -heal|p2a: Lanturn|78/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack playrough - our hp 0.07, theirs 0.78, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ditto - our hp 0.00, theirs 0.53, predicted move (revealed) hits us x0.5
+  -curestatus|p1a: Dachsbun|frz|[msg]
+  move|p1a: Dachsbun|Play Rough|p2a: Lanturn
+  -damage|p2a: Lanturn|47/100
+  move|p2a: Lanturn|Ice Beam|p1a: Dachsbun
+  -resisted|p1a: Dachsbun
+  -crit|p1a: Dachsbun
+  -damage|p1a: Dachsbun|0 fnt
+  faint|p1a: Dachsbun
+  -heal|p2a: Lanturn|53/100|[from] item: Leftovers
+  switch|p1a: Ditto|Ditto, L87|225/225
+  -transform|p1a: Ditto|p2a: Lanturn|[from] ability: Imposter
+-- turn 29
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Thunderbolt|p2a: Lanturn
+  -heal|p2a: Lanturn|77/100|[from] ability: Volt Absorb|[of] p1a: Ditto
+  move|p2a: Lanturn|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|196/225
+  -heal|p2a: Lanturn|83/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack thunderbolt - our hp 0.87, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Thunderbolt|p2a: Lanturn
+  -heal|p2a: Lanturn|100/100|[from] ability: Volt Absorb|[of] p1a: Ditto
+  move|p2a: Lanturn|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|164/225
+-- turn 31
+  WE CHOSE: attack thunderbolt - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Thunderbolt|p2a: Lanturn
+  -immune|p2a: Lanturn|[from] ability: Volt Absorb
+  move|p2a: Lanturn|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|131/225
+-- turn 32
+  WE CHOSE: attack thunderbolt - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Thunderbolt|p2a: Lanturn
+  -immune|p2a: Lanturn|[from] ability: Volt Absorb
+  move|p2a: Lanturn|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|100/225
+-- turn 33
+  WE CHOSE: attack thunderbolt - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Thunderbolt|p2a: Lanturn
+  -immune|p2a: Lanturn|[from] ability: Volt Absorb
+  move|p2a: Lanturn|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|71/225
+-- turn 34
+  WE CHOSE: attack scald - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x0.5
+  -activate|p1a: Ditto|move: Struggle
+  move|p1a: Ditto|Struggle|p2a: Lanturn
+  -damage|p2a: Lanturn|96/100
+  -damage|p1a: Ditto|15/225|[from] recoil
+  move|p2a: Lanturn|Ice Beam|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|0 fnt
+  faint|p1a: Ditto
+  deinit

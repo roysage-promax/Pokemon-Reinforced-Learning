@@ -1,0 +1,180 @@
+battle 2740 (battle-gen9randombattle-1034238): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  delphox (fainted; item choicespecs, ability blaze; moves psyshock/fireblast/focusblast/grassknot)
+  raichualola (fainted; item choicespecs, ability surgesurfer; moves thunderbolt/focusblast/psychic/surf)
+  ursaring (fainted; item toxicorb, ability quickfeet; moves closecombat/throatchop/facade/swordsdance)
+  luvdisc (fainted; item heavydutyboots, ability swiftswim; moves substitute/endeavor/surf/whirlpool)
+  registeel (fainted; item ?, ability clearbody, tera fighting; moves irondefense/ironhead/rest/bodypress)
+  tatsugiri (fainted; item heavydutyboots, ability stormdrain; moves nastyplot/rapidspin/dracometeor/surf)
+theirs (as seen):
+  morpeko (fainted; item unknown_item, ability hungerswitch; moves aurawheel)
+  hydreigon (fainted; item unknown_item, ability levitate; moves dracometeor)
+  mamoswine (fainted; item lifeorb, ability ?; moves earthquake)
+  braviary (fainted; item unknown_item, ability ?; moves bravebird)
+  masquerain (fainted; item unknown_item, ability intimidate; moves hurricane)
+  luvdisc (61%; item unknown_item, ability ?; moves surf)
+
+-- turn 0
+  switch|p1a: Delphox|Delphox, L84, M|263/263
+  switch|p2a: Morpeko|Morpeko, L88, F|100/100
+-- turn 1
+  WE CHOSE: switch to raichualola (hand policy: attack+tera focusblast) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Raichu|Raichu-Alola, L87, F|246/246
+  move|p2a: Morpeko|Aura Wheel|p1a: Raichu
+  -resisted|p1a: Raichu
+  -damage|p1a: Raichu|162/246
+  -boost|p2a: Morpeko|spe|1
+  -formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+-- turn 2
+  WE CHOSE: attack focusblast - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ursaring - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Morpeko|Aura Wheel|p1a: Raichu
+  -supereffective|p1a: Raichu
+  -damage|p1a: Raichu|0 fnt
+  -boost|p2a: Morpeko|spe|1
+  faint|p1a: Raichu
+  -formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+  switch|p1a: Ursaring|Ursaring, L84, M|288/288
+-- turn 3
+  WE CHOSE: setup swordsdance (hand policy: attack closecombat) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Morpeko|Aura Wheel|p1a: Ursaring
+  -damage|p1a: Ursaring|158/288
+  -boost|p2a: Morpeko|spe|1
+  move|p1a: Ursaring|Swords Dance|p1a: Ursaring
+  -boost|p1a: Ursaring|atk|2
+  -status|p1a: Ursaring|tox|[from] item: Toxic Orb
+  -formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+-- turn 4
+  WE CHOSE: attack facade (hand policy: attack closecombat) - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tatsugiri - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Morpeko|Aura Wheel|p1a: Ursaring
+  -damage|p1a: Ursaring|13/288 tox
+  -boost|p2a: Morpeko|spe|1
+  move|p1a: Ursaring|Facade|p2a: Morpeko
+  -damage|p2a: Morpeko|0 fnt
+  faint|p2a: Morpeko
+  -damage|p1a: Ursaring|0 fnt|[from] psn
+  faint|p1a: Ursaring
+  switch|p2a: Hydreigon|Hydreigon, L79, F|100/100
+  switch|p1a: Tatsugiri|Tatsugiri, L87, M|260/260
+-- turn 5
+  WE CHOSE: switch to registeel - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Registeel|Registeel, L81|262/262
+  move|p2a: Hydreigon|Draco Meteor|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|182/262
+  -unboost|p2a: Hydreigon|spa|2
+-- turn 6
+  WE CHOSE: heal rest (hand policy: attack bodypress) - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Hydreigon|Draco Meteor|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|143/262
+  -unboost|p2a: Hydreigon|spa|2
+  move|p1a: Registeel|Rest|p1a: Registeel
+  -status|p1a: Registeel|slp|[from] move: Rest
+  -heal|p1a: Registeel|262/262 slp|[silent]
+  -enditem|p1a: Registeel|Chesto Berry|[eat]
+  -curestatus|p1a: Registeel|slp|[msg]
+-- turn 7
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Hydreigon|Draco Meteor|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|235/262
+  -unboost|p2a: Hydreigon|spa|2
+  move|p1a: Registeel|Body Press|p2a: Hydreigon
+  -supereffective|p2a: Hydreigon
+  -damage|p2a: Hydreigon|39/100
+-- turn 8
+  WE CHOSE: attack bodypress - our hp 0.90, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p2a: Hydreigon|Draco Meteor|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|217/262
+  move|p1a: Registeel|Body Press|p2a: Hydreigon
+  -supereffective|p2a: Hydreigon
+  -damage|p2a: Hydreigon|0 fnt
+  faint|p2a: Hydreigon
+  switch|p2a: Mamoswine|Mamoswine, L81, M|100/100
+-- turn 9
+  WE CHOSE: attack+tera bodypress (hand policy: attack ironhead) - our hp 0.83, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Registeel|Fighting
+  move|p2a: Mamoswine|Earthquake|p1a: Registeel
+  -damage|p1a: Registeel|114/262
+  -damage|p2a: Mamoswine|91/100|[from] item: Life Orb
+  move|p1a: Registeel|Body Press|p2a: Mamoswine
+  -supereffective|p2a: Mamoswine
+  -damage|p2a: Mamoswine|15/100
+-- turn 10
+  WE CHOSE: attack bodypress (hand policy: heal rest) - our hp 0.44, theirs 0.15, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to luvdisc - our hp 0.00, theirs 0.05, predicted move (revealed) hits us x1
+  move|p2a: Mamoswine|Earthquake|p1a: Registeel
+  -damage|p1a: Registeel|0 fnt
+  faint|p1a: Registeel
+  -damage|p2a: Mamoswine|5/100|[from] item: Life Orb
+  switch|p1a: Luvdisc|Luvdisc, M|247/247
+-- turn 11
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.05, predicted move (revealed) hits us x1
+  move|p1a: Luvdisc|Surf|p2a: Mamoswine
+  -supereffective|p2a: Mamoswine
+  -damage|p2a: Mamoswine|0 fnt
+  faint|p2a: Mamoswine
+  switch|p2a: Braviary|Braviary, L85, M|100/100
+-- turn 12
+  WE CHOSE: attack surf - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Luvdisc|Surf|p2a: Braviary
+  -damage|p2a: Braviary|74/100
+  move|p2a: Braviary|Brave Bird|p1a: Luvdisc
+  -damage|p1a: Luvdisc|70/247
+  -damage|p2a: Braviary|55/100|[from] Recoil
+-- turn 13
+  WE CHOSE: attack surf - our hp 0.28, theirs 0.55, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tatsugiri - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Luvdisc|Surf|p2a: Braviary
+  -damage|p2a: Braviary|31/100
+  move|p2a: Braviary|Brave Bird|p1a: Luvdisc
+  -damage|p1a: Luvdisc|0 fnt
+  faint|p1a: Luvdisc
+  -damage|p2a: Braviary|23/100|[from] Recoil
+  switch|p1a: Tatsugiri|Tatsugiri, L87, M|260/260
+-- turn 14
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Tatsugiri|Draco Meteor|p2a: Braviary|[miss]
+  -miss|p1a: Tatsugiri|p2a: Braviary
+  move|p2a: Braviary|Brave Bird|p1a: Tatsugiri
+  -damage|p1a: Tatsugiri|49/260
+  -damage|p2a: Braviary|0 fnt|[from] Recoil
+  faint|p2a: Braviary
+  switch|p2a: Masquerain|Masquerain, L87, F|100/100
+  -ability|p2a: Masquerain|Intimidate|boost
+  -unboost|p1a: Tatsugiri|atk|1
+-- turn 15
+  WE CHOSE: attack surf (hand policy: attack dracometeor) - our hp 0.19, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to delphox - our hp 0.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Tatsugiri|Surf|p2a: Masquerain
+  -damage|p2a: Masquerain|57/100
+  move|p2a: Masquerain|Hurricane|p1a: Tatsugiri
+  -damage|p1a: Tatsugiri|0 fnt
+  faint|p1a: Tatsugiri
+  switch|p1a: Delphox|Delphox, L84, M|263/263
+-- turn 16
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Delphox|Fire Blast|p2a: Masquerain
+  -supereffective|p2a: Masquerain
+  -damage|p2a: Masquerain|0 fnt
+  faint|p2a: Masquerain
+  switch|p2a: Luvdisc|Luvdisc, F|100/100
+-- turn 17
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Luvdisc|Surf|p1a: Delphox
+  -supereffective|p1a: Delphox
+  -damage|p1a: Delphox|129/263
+  move|p1a: Delphox|Fire Blast|p2a: Luvdisc
+  -resisted|p2a: Luvdisc
+  -damage|p2a: Luvdisc|61/100
+-- turn 18
+  WE CHOSE: attack fireblast - our hp 0.49, theirs 0.61, predicted move (revealed) hits us x2
+  move|p2a: Luvdisc|Surf|p1a: Delphox
+  -supereffective|p1a: Delphox
+  -damage|p1a: Delphox|0 fnt
+  faint|p1a: Delphox
+  deinit

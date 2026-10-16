@@ -1,0 +1,196 @@
+battle 52 (battle-gen9randombattle-1006731): lost in 20 turns, 1 of theirs left; we are p1
+
+ours:
+  hooh (fainted; item heavydutyboots, ability regenerator; moves bravebird/earthquake/sacredfire/recover)
+  gallade (fainted; item choicescarf, ability sharpness; moves sacredsword/nightslash/psychocut/leafblade)
+  dialga (fainted; item leftovers, ability pressure; moves fireblast/heavyslam/stealthrock/dracometeor)
+  rampardos (fainted; item lifeorb, ability sheerforce; moves firepunch/zenheadbutt/rockslide/earthquake)
+  ariados (fainted; item heavydutyboots, ability insomnia; moves poisonjab/stickyweb/megahorn/suckerpunch)
+  hitmontop (fainted; item assaultvest, ability intimidate, tera steel; moves closecombat/rapidspin/stoneedge/suckerpunch)
+theirs (as seen):
+  deoxysattack (fainted; item lifeorb, ability pressure; moves psychoboost)
+  slaking (fainted; item unknown_item, ability truant; moves gigaimpact)
+  persian (fainted; item unknown_item, ability ?; moves doubleedge)
+  eelektross (fainted; item leftovers, ability levitate; moves supercellslam)
+  ludicolo (fainted; item lifeorb, ability ?; moves hydropump/icebeam)
+  arceusice (49%; item unknown_item, ability multitype; moves judgment)
+
+-- turn 0
+  switch|p1a: Ho-Oh|Ho-Oh, L71|268/268
+  switch|p2a: Deoxys|Deoxys-Attack, L72|100/100
+  -ability|p2a: Deoxys|Pressure
+-- turn 1
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Ho-Oh
+  -damage|p1a: Ho-Oh|100/268
+  -unboost|p2a: Deoxys|spa|2
+  -damage|p2a: Deoxys|91/100|[from] item: Life Orb
+  move|p1a: Ho-Oh|Brave Bird|p2a: Deoxys
+  -crit|p2a: Deoxys
+  -damage|p2a: Deoxys|0 fnt
+  faint|p2a: Deoxys
+  -damage|p1a: Ho-Oh|43/268|[from] Recoil
+  switch|p2a: Slaking|Slaking, L84, M|100/100
+-- turn 2
+  WE CHOSE: heal recover - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hitmontop - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Ho-Oh
+  -damage|p1a: Ho-Oh|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Ho-Oh
+  switch|p1a: Hitmontop|Hitmontop, L88, M|231/231
+  -ability|p1a: Hitmontop|Intimidate|boost
+  -unboost|p2a: Slaking|atk|1
+-- turn 3
+  WE CHOSE: attack+tera closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Hitmontop|Steel
+  cant|p2a: Slaking|recharge
+  move|p1a: Hitmontop|Close Combat|p2a: Slaking
+  -supereffective|p2a: Slaking
+  -damage|p2a: Slaking|41/100
+  -unboost|p1a: Hitmontop|def|1
+  -unboost|p1a: Hitmontop|spd|1
+-- turn 4
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p2a: Slaking|Giga Impact|p1a: Hitmontop
+  -resisted|p1a: Hitmontop
+  -damage|p1a: Hitmontop|70/231
+  -mustrecharge|p2a: Slaking
+  move|p1a: Hitmontop|Close Combat|p2a: Slaking
+  -supereffective|p2a: Slaking
+  -damage|p2a: Slaking|0 fnt
+  -unboost|p1a: Hitmontop|def|1
+  -unboost|p1a: Hitmontop|spd|1
+  faint|p2a: Slaking
+  switch|p2a: Persian|Persian, L92, M|100/100
+-- turn 5
+  WE CHOSE: attack closecombat - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to gallade - our hp 0.00, theirs 0.92, predicted move (revealed) hits us x0.5
+  move|p2a: Persian|Double-Edge|p1a: Hitmontop
+  -resisted|p1a: Hitmontop
+  -damage|p1a: Hitmontop|0 fnt
+  faint|p1a: Hitmontop
+  -damage|p2a: Persian|92/100|[from] Recoil
+  switch|p1a: Gallade|Gallade, L80, M|240/240
+-- turn 6
+  WE CHOSE: attack sacredsword - our hp 1.00, theirs 0.92, predicted move (revealed) hits us x1
+  move|p2a: Persian|Double-Edge|p1a: Gallade
+  -damage|p1a: Gallade|14/240
+  -damage|p2a: Persian|64/100|[from] Recoil
+  move|p1a: Gallade|Sacred Sword|p2a: Persian
+  -supereffective|p2a: Persian
+  -damage|p2a: Persian|0 fnt
+  faint|p2a: Persian
+  switch|p2a: Eelektross|Eelektross, L87, M|100/100
+-- turn 7
+  WE CHOSE: attack sacredsword - our hp 0.06, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to dialga - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p1a: Gallade|Sacred Sword|p2a: Eelektross
+  -damage|p2a: Eelektross|45/100
+  move|p2a: Eelektross|Supercell Slam|p1a: Gallade
+  -damage|p1a: Gallade|0 fnt
+  faint|p1a: Gallade
+  -heal|p2a: Eelektross|51/100|[from] item: Leftovers
+  switch|p1a: Dialga|Dialga, L73|266/266
+  -ability|p1a: Dialga|Pressure
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x0.5
+  move|p1a: Dialga|Draco Meteor|p2a: Eelektross|[miss]
+  -miss|p1a: Dialga|p2a: Eelektross
+  move|p2a: Eelektross|Supercell Slam|p1a: Dialga
+  -resisted|p1a: Dialga
+  -damage|p1a: Dialga|208/266
+  -heal|p1a: Dialga|224/266|[from] item: Leftovers
+  -heal|p2a: Eelektross|57/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack dracometeor - our hp 0.84, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p1a: Dialga|Draco Meteor|p2a: Eelektross
+  -damage|p2a: Eelektross|0 fnt
+  -unboost|p1a: Dialga|spa|2
+  faint|p2a: Eelektross
+  -heal|p1a: Dialga|240/266|[from] item: Leftovers
+  switch|p2a: Ludicolo|Ludicolo, L90, M|100/100
+-- turn 10
+  WE CHOSE: attack dracometeor - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p2a: Ludicolo|Hydro Pump|p1a: Dialga
+  -resisted|p1a: Dialga
+  -damage|p1a: Dialga|154/266
+  -damage|p2a: Ludicolo|90/100|[from] item: Life Orb
+  move|p1a: Dialga|Draco Meteor|p2a: Ludicolo|[miss]
+  -miss|p1a: Dialga|p2a: Ludicolo
+  -heal|p1a: Dialga|170/266|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack dracometeor - our hp 0.64, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p2a: Ludicolo|Hydro Pump|p1a: Dialga|[miss]
+  -miss|p2a: Ludicolo|p1a: Dialga
+  move|p1a: Dialga|Draco Meteor|p2a: Ludicolo
+  -damage|p2a: Ludicolo|68/100
+  -unboost|p1a: Dialga|spa|2
+  -heal|p1a: Dialga|186/266|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack dracometeor - our hp 0.70, theirs 0.68, predicted move (revealed) hits us x0.5
+  move|p2a: Ludicolo|Hydro Pump|p1a: Dialga
+  -resisted|p1a: Dialga
+  -damage|p1a: Dialga|99/266
+  -damage|p2a: Ludicolo|58/100|[from] item: Life Orb
+  move|p1a: Dialga|Draco Meteor|p2a: Ludicolo
+  -damage|p2a: Ludicolo|45/100
+  -unboost|p1a: Dialga|spa|2
+  -heal|p1a: Dialga|115/266|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack dracometeor - our hp 0.43, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p2a: Ludicolo|Hydro Pump|p1a: Dialga
+  -resisted|p1a: Dialga
+  -damage|p1a: Dialga|25/266
+  -damage|p2a: Ludicolo|35/100|[from] item: Life Orb
+  move|p1a: Dialga|Draco Meteor|p2a: Ludicolo
+  -damage|p2a: Ludicolo|23/100
+  -heal|p1a: Dialga|41/266|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack dracometeor - our hp 0.15, theirs 0.23, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ariados - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p2a: Ludicolo|Ice Beam|p1a: Dialga
+  -damage|p1a: Dialga|0 fnt
+  faint|p1a: Dialga
+  -damage|p2a: Ludicolo|13/100|[from] item: Life Orb
+  switch|p1a: Ariados|Ariados, L95, M|287/287
+-- turn 15
+  WE CHOSE: attack megahorn - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Ludicolo|Ice Beam|p1a: Ariados
+  -damage|p1a: Ariados|186/287
+  -damage|p2a: Ludicolo|3/100|[from] item: Life Orb
+  move|p1a: Ariados|Megahorn|p2a: Ludicolo
+  -supereffective|p2a: Ludicolo
+  -damage|p2a: Ludicolo|0 fnt
+  faint|p2a: Ludicolo
+  switch|p2a: Arceus|Arceus-Ice, L72|100/100
+-- turn 16
+  WE CHOSE: attack megahorn - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Ariados
+  -damage|p1a: Ariados|69/287
+  move|p1a: Ariados|Megahorn|p2a: Arceus
+  -damage|p2a: Arceus|49/100
+-- turn 17
+  WE CHOSE: attack megahorn - our hp 0.24, theirs 0.49, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rampardos - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Ariados
+  -damage|p1a: Ariados|0 fnt
+  faint|p1a: Ariados
+  switch|p1a: Rampardos|Rampardos, L90, F|321/321
+-- turn 18
+  WE CHOSE: attack rockslide - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Arceus|Judgment|p1a: Rampardos
+  -damage|p1a: Rampardos|164/321
+  move|p1a: Rampardos|Rock Slide|p2a: Arceus|[miss]
+  -miss|p1a: Rampardos|p2a: Arceus
+-- turn 19
+  WE CHOSE: attack rockslide - our hp 0.51, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Arceus|Judgment|p1a: Rampardos
+  -damage|p1a: Rampardos|22/321
+  move|p1a: Rampardos|Rock Slide|p2a: Arceus|[miss]
+  -miss|p1a: Rampardos|p2a: Arceus
+-- turn 20
+  WE CHOSE: attack rockslide - our hp 0.07, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Arceus|Judgment|p1a: Rampardos
+  -damage|p1a: Rampardos|0 fnt
+  faint|p1a: Rampardos

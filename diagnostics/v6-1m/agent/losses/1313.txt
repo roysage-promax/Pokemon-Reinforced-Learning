@@ -1,0 +1,184 @@
+battle 1313 (battle-gen9randombattle-1019628): lost in 16 turns, 2 of theirs left; we are p1
+
+ours:
+  bellibolt (fainted; item leftovers, ability electromorphosis; moves toxic/muddywater/thunderbolt/slackoff)
+  rampardos (fainted; item choicescarf, ability sheerforce; moves headsmash/earthquake/firepunch/rockslide)
+  glastrier (fainted; item heavydutyboots, ability chillingneigh; moves closecombat/iciclecrash/heavyslam/swordsdance)
+  jolteon (fainted; item leftovers, ability voltabsorb; moves thunderbolt/substitute/terablast/calmmind)
+  hippowdon (fainted; item leftovers, ability sandstream, tera steel; moves slackoff/earthquake/stoneedge/curse)
+  floatzel (fainted; item choiceband, ability waterveil; moves flipturn/crunch/icespinner/wavecrash)
+theirs (as seen):
+  staraptor (fainted; item unknown_item, ability ?; moves closecombat)
+  bellossom (fainted; item leftovers, ability ?; moves sludgebomb)
+  alcremierubycream (fainted; item leftovers, ability ?; moves alluringvoice)
+  dunsparce (fainted; item unknown_item, ability ?; moves earthquake)
+  infernape (100%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Bellibolt|Bellibolt, L84, F|320/320
+  switch|p2a: Staraptor|Staraptor, L79, F|100/100
+-- turn 1
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Staraptor|Close Combat|p1a: Bellibolt
+  -damage|p1a: Bellibolt|186/320
+  -unboost|p2a: Staraptor|def|1
+  -unboost|p2a: Staraptor|spd|1
+  -start|p1a: Bellibolt|Charge|Close Combat|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Staraptor
+  -supereffective|p2a: Staraptor
+  -damage|p2a: Staraptor|0 fnt
+  faint|p2a: Staraptor
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|206/320|[from] item: Leftovers
+  switch|p2a: Bellossom|Bellossom, L84, F|100/100
+-- turn 2
+  WE CHOSE: attack thunderbolt - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Bellossom|Sludge Bomb|p1a: Bellibolt
+  -damage|p1a: Bellibolt|143/320
+  -status|p1a: Bellibolt|psn
+  -start|p1a: Bellibolt|Charge|Sludge Bomb|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Bellossom
+  -resisted|p2a: Bellossom
+  -damage|p2a: Bellossom|64/100
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellossom|70/100|[from] item: Leftovers
+  -heal|p1a: Bellibolt|163/320 psn|[from] item: Leftovers
+  -damage|p1a: Bellibolt|123/320 psn|[from] psn
+-- turn 3
+  WE CHOSE: switch to rampardos (hand policy: heal slackoff) - our hp 0.38, theirs 0.70, predicted move (revealed) hits us x1
+  switch|p1a: Rampardos|Rampardos, L90, F|321/321
+  move|p2a: Bellossom|Sludge Bomb|p1a: Rampardos
+  -resisted|p1a: Rampardos
+  -damage|p1a: Rampardos|277/321
+  -heal|p2a: Bellossom|76/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack headsmash (hand policy: attack+tera headsmash) - our hp 0.86, theirs 0.76, predicted move (revealed) hits us x0.5
+  move|p1a: Rampardos|Head Smash|p2a: Bellossom|[miss]
+  -miss|p1a: Rampardos|p2a: Bellossom
+  move|p2a: Bellossom|Sludge Bomb|p1a: Rampardos
+  -resisted|p1a: Rampardos
+  -damage|p1a: Rampardos|235/321
+  -heal|p2a: Bellossom|82/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack headsmash (hand policy: attack+tera headsmash) - our hp 0.73, theirs 0.82, predicted move (revealed) hits us x0.5
+  move|p1a: Rampardos|Head Smash|p2a: Bellossom
+  -damage|p2a: Bellossom|0 fnt
+  faint|p2a: Bellossom
+  -damage|p1a: Rampardos|127/321|[from] Recoil
+  switch|p2a: Alcremie|Alcremie-Ruby-Cream, L90, F|100/100
+-- turn 6
+  WE CHOSE: switch to floatzel (hand policy: attack headsmash) - our hp 0.40, theirs 1.00, predicted move (unknown) hits us x0
+  switch|p1a: Floatzel|Floatzel, L86, F|286/286
+  move|p2a: Alcremie|Alluring Voice|p1a: Floatzel
+  -damage|p1a: Floatzel|133/286
+-- turn 7
+  WE CHOSE: attack wavecrash (hand policy: attack+tera wavecrash) - our hp 0.47, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rampardos - our hp 0.00, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Floatzel|Wave Crash|p2a: Alcremie
+  -damage|p2a: Alcremie|8/100
+  -damage|p1a: Floatzel|53/286|[from] Recoil
+  move|p2a: Alcremie|Alluring Voice|p1a: Floatzel
+  -damage|p1a: Floatzel|0 fnt
+  faint|p1a: Floatzel
+  -heal|p2a: Alcremie|14/100|[from] item: Leftovers
+  switch|p1a: Rampardos|Rampardos, L90, F|127/321
+-- turn 8
+  WE CHOSE: attack headsmash (hand policy: attack+tera headsmash) - our hp 0.40, theirs 0.14, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hippowdon - our hp 0.00, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Rampardos|Head Smash|p2a: Alcremie|[miss]
+  -miss|p1a: Rampardos|p2a: Alcremie
+  move|p2a: Alcremie|Alluring Voice|p1a: Rampardos
+  -damage|p1a: Rampardos|0 fnt
+  faint|p1a: Rampardos
+  -heal|p2a: Alcremie|20/100|[from] item: Leftovers
+  switch|p1a: Hippowdon|Hippowdon, L82, F|311/311
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+-- turn 9
+  WE CHOSE: attack+tera earthquake - our hp 1.00, theirs 0.20, predicted move (revealed) hits us x1
+  -terastallize|p1a: Hippowdon|Steel
+  move|p2a: Alcremie|Alluring Voice|p1a: Hippowdon
+  -resisted|p1a: Hippowdon
+  -damage|p1a: Hippowdon|243/311
+  move|p1a: Hippowdon|Earthquake|p2a: Alcremie
+  -damage|p2a: Alcremie|0 fnt
+  faint|p2a: Alcremie
+  -weather|Sandstorm|[upkeep]
+  -heal|p1a: Hippowdon|262/311|[from] item: Leftovers
+  switch|p2a: Dunsparce|Dunsparce, L86, M|100/100
+-- turn 10
+  WE CHOSE: switch to glastrier (hand policy: attack earthquake) - our hp 0.84, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Glastrier|Glastrier, L86|312/312
+  move|p2a: Dunsparce|Earthquake|p1a: Glastrier
+  -damage|p1a: Glastrier|269/312
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Dunsparce|94/100|[from] Sandstorm
+  -damage|p1a: Glastrier|250/312|[from] Sandstorm
+-- turn 11
+  WE CHOSE: attack closecombat - our hp 0.80, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Dunsparce|Earthquake|p1a: Glastrier
+  -damage|p1a: Glastrier|206/312
+  move|p1a: Glastrier|Close Combat|p2a: Dunsparce
+  -supereffective|p2a: Dunsparce
+  -damage|p2a: Dunsparce|37/100
+  -unboost|p1a: Glastrier|def|1
+  -unboost|p1a: Glastrier|spd|1
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Dunsparce|31/100|[from] Sandstorm
+  -damage|p1a: Glastrier|187/312|[from] Sandstorm
+-- turn 12
+  WE CHOSE: attack closecombat - our hp 0.60, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Dunsparce|Earthquake|p1a: Glastrier
+  -damage|p1a: Glastrier|128/312
+  move|p1a: Glastrier|Close Combat|p2a: Dunsparce
+  -supereffective|p2a: Dunsparce
+  -crit|p2a: Dunsparce
+  -damage|p2a: Dunsparce|0 fnt
+  -unboost|p1a: Glastrier|def|1
+  -unboost|p1a: Glastrier|spd|1
+  faint|p2a: Dunsparce
+  -ability|p1a: Glastrier|Chilling Neigh|boost
+  -boost|p1a: Glastrier|atk|1
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Glastrier|109/312|[from] Sandstorm
+  switch|p2a: Infernape|Infernape, L82, M|100/100
+-- turn 13
+  WE CHOSE: attack closecombat - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to bellibolt - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Infernape|Close Combat|p1a: Glastrier
+  -supereffective|p1a: Glastrier
+  -damage|p1a: Glastrier|0 fnt
+  -unboost|p2a: Infernape|def|1
+  -unboost|p2a: Infernape|spd|1
+  faint|p1a: Glastrier
+  -weather|none
+  switch|p1a: Bellibolt|Bellibolt, L84, F|123/320 psn
+-- turn 14
+  WE CHOSE: heal slackoff - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to jolteon (hand policy: forced: switch to hippowdon) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Infernape|Close Combat|p1a: Bellibolt
+  -damage|p1a: Bellibolt|0 fnt
+  -unboost|p2a: Infernape|def|1
+  -unboost|p2a: Infernape|spd|1
+  faint|p1a: Bellibolt
+  switch|p1a: Jolteon|Jolteon, L84, F|246/246
+-- turn 15
+  WE CHOSE: setup calmmind (hand policy: attack thunderbolt) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hippowdon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Jolteon|Calm Mind|p1a: Jolteon
+  -boost|p1a: Jolteon|spa|1
+  -boost|p1a: Jolteon|spd|1
+  move|p2a: Infernape|Close Combat|p1a: Jolteon
+  -damage|p1a: Jolteon|0 fnt
+  -unboost|p2a: Infernape|def|1
+  -unboost|p2a: Infernape|spd|1
+  faint|p1a: Jolteon
+  switch|p1a: Hippowdon|Hippowdon, L82, F, tera:Steel|262/311
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Infernape|Close Combat|p1a: Hippowdon
+  -supereffective|p1a: Hippowdon
+  -damage|p1a: Hippowdon|0 fnt
+  -unboost|p2a: Infernape|def|1
+  -unboost|p2a: Infernape|spd|1
+  faint|p1a: Hippowdon

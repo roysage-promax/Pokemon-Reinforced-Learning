@@ -1,0 +1,212 @@
+battle 1676 (battle-gen9randombattle-1022105): lost in 23 turns, 2 of theirs left; we are p1
+
+ours:
+  dodrio (fainted; item heavydutyboots, ability earlybird; moves doubleedge/bravebird/swordsdance/drillrun)
+  reuniclus (fainted; item lifeorb, ability magicguard; moves psychic/recover/calmmind/focusblast)
+  vespiquen (fainted; item heavydutyboots, ability pressure; moves spikes/airslash/toxic/roost)
+  ironcrown (fainted; item leftovers, ability quarkdrive; moves psyshock/calmmind/tachyoncutter/focusblast)
+  alomomola (fainted; item heavydutyboots, ability regenerator; moves scald/flipturn/wish/protect)
+  rillaboom (fainted; item lifeorb, ability grassysurge, tera grass; moves swordsdance/highhorsepower/woodhammer/grassyglide)
+theirs (as seen):
+  suicune (fainted; item leftovers, ability pressure; moves scald)
+  vivillonmodern (fainted; item unknown_item, ability ?; moves hurricane)
+  rampardos (fainted; item unknown_item, ability ?; moves earthquake)
+  electrodehisui (fainted; item lifeorb, ability ?; moves thunderbolt)
+  volcanion (22%; item unknown_item, ability waterabsorb; moves steameruption)
+
+-- turn 0
+  switch|p1a: Dodrio|Dodrio, L85, M|241/241
+  switch|p2a: Suicune|Suicune, L82|100/100
+  -ability|p2a: Suicune|Pressure
+-- turn 1
+  WE CHOSE: switch to ironcrown - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Iron Crown|Iron Crown, L78|268/268
+  move|p2a: Suicune|Scald|p1a: Iron Crown
+  -damage|p1a: Iron Crown|199/268
+  -heal|p1a: Iron Crown|215/268|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack psyshock - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Iron Crown|Psyshock|p2a: Suicune
+  -damage|p2a: Suicune|73/100
+  move|p2a: Suicune|Scald|p1a: Iron Crown
+  -damage|p1a: Iron Crown|149/268
+  -heal|p1a: Iron Crown|165/268|[from] item: Leftovers
+  -heal|p2a: Suicune|79/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack psyshock - our hp 0.62, theirs 0.79, predicted move (revealed) hits us x1
+  move|p1a: Iron Crown|Psyshock|p2a: Suicune
+  -damage|p2a: Suicune|55/100
+  move|p2a: Suicune|Scald|p1a: Iron Crown
+  -damage|p1a: Iron Crown|92/268
+  -heal|p1a: Iron Crown|108/268|[from] item: Leftovers
+  -heal|p2a: Suicune|61/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack psyshock - our hp 0.40, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Iron Crown|Psyshock|p2a: Suicune
+  -damage|p2a: Suicune|36/100
+  move|p2a: Suicune|Scald|p1a: Iron Crown
+  -damage|p1a: Iron Crown|39/268
+  -heal|p1a: Iron Crown|55/268|[from] item: Leftovers
+  -heal|p2a: Suicune|42/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack psyshock - our hp 0.21, theirs 0.42, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rillaboom - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Iron Crown|Psyshock|p2a: Suicune
+  -damage|p2a: Suicune|17/100
+  move|p2a: Suicune|Scald|p1a: Iron Crown
+  -damage|p1a: Iron Crown|0 fnt
+  faint|p1a: Iron Crown
+  -end|p1a: Iron Crown|Quark Drive|[silent]
+  -heal|p2a: Suicune|23/100|[from] item: Leftovers
+  switch|p1a: Rillaboom|Rillaboom, L79, M|288/288
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+-- turn 6
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p2a: Suicune|Scald|p1a: Rillaboom
+  -resisted|p1a: Rillaboom
+  -damage|p1a: Rillaboom|243/288
+  move|p1a: Rillaboom|Swords Dance|p1a: Rillaboom
+  -boost|p1a: Rillaboom|atk|2
+  -heal|p2a: Suicune|29/100|[from] Grassy Terrain
+  -heal|p2a: Suicune|35/100|[from] item: Leftovers
+  -heal|p1a: Rillaboom|261/288|[from] Grassy Terrain
+-- turn 7
+  WE CHOSE: attack+tera woodhammer - our hp 0.91, theirs 0.35, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Rillaboom|Grass
+  move|p2a: Suicune|Scald|p1a: Rillaboom
+  -resisted|p1a: Rillaboom
+  -damage|p1a: Rillaboom|215/288
+  move|p1a: Rillaboom|Wood Hammer|p2a: Suicune
+  -supereffective|p2a: Suicune
+  -damage|p2a: Suicune|0 fnt
+  faint|p2a: Suicune
+  -damage|p1a: Rillaboom|181/288|[from] Recoil
+  -damage|p1a: Rillaboom|153/288|[from] item: Life Orb
+  -heal|p1a: Rillaboom|171/288|[from] Grassy Terrain
+  switch|p2a: Vivillon|Vivillon-Modern, L83, M|100/100
+-- turn 8
+  WE CHOSE: attack woodhammer - our hp 0.59, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to dodrio - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Vivillon|Hurricane|p1a: Rillaboom
+  -supereffective|p1a: Rillaboom
+  -damage|p1a: Rillaboom|0 fnt
+  faint|p1a: Rillaboom
+  switch|p1a: Dodrio|Dodrio, L85, M|241/241
+-- turn 9
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Dodrio|Brave Bird|p2a: Vivillon
+  -supereffective|p2a: Vivillon
+  -damage|p2a: Vivillon|0 fnt
+  faint|p2a: Vivillon
+  -damage|p1a: Dodrio|153/241|[from] Recoil
+  switch|p2a: Rampardos|Rampardos, L90, M|100/100
+-- turn 10
+  WE CHOSE: attack drillrun - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Dodrio|Drill Run|p2a: Rampardos
+  -supereffective|p2a: Rampardos
+  -crit|p2a: Rampardos
+  -damage|p2a: Rampardos|21/100
+  move|p2a: Rampardos|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+  -heal|p2a: Rampardos|28/100|[from] Grassy Terrain
+  -fieldend|move: Grassy Terrain
+-- turn 11
+  WE CHOSE: setup swordsdance - our hp 0.63, theirs 0.28, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+  -boost|p1a: Dodrio|atk|2
+  move|p2a: Rampardos|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 12
+  WE CHOSE: setup swordsdance - our hp 0.63, theirs 0.28, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+  -boost|p1a: Dodrio|atk|2
+  move|p2a: Rampardos|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 13
+  WE CHOSE: setup swordsdance - our hp 0.63, theirs 0.28, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+  -boost|p1a: Dodrio|atk|2
+  move|p2a: Rampardos|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 14
+  WE CHOSE: attack drillrun - our hp 0.63, theirs 0.28, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Drill Run|p2a: Rampardos
+  -supereffective|p2a: Rampardos
+  -damage|p2a: Rampardos|0 fnt
+  faint|p2a: Rampardos
+  switch|p2a: Electrode|Electrode-Hisui, L87|100/100
+-- turn 15
+  WE CHOSE: attack doubleedge - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to reuniclus - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x2
+  move|p2a: Electrode|Thunderbolt|p1a: Dodrio
+  -supereffective|p1a: Dodrio
+  -damage|p1a: Dodrio|0 fnt
+  faint|p1a: Dodrio
+  -damage|p2a: Electrode|91/100|[from] item: Life Orb
+  switch|p1a: Reuniclus|Reuniclus, L88, F|337/337
+-- turn 16
+  WE CHOSE: attack psychic - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Reuniclus
+  -damage|p1a: Reuniclus|228/337
+  -status|p1a: Reuniclus|par
+  -damage|p2a: Electrode|81/100|[from] item: Life Orb
+  move|p1a: Reuniclus|Psychic|p2a: Electrode
+  -damage|p2a: Electrode|14/100
+-- turn 17
+  WE CHOSE: attack psychic - our hp 0.68, theirs 0.14, predicted move (revealed) hits us x1
+  move|p2a: Electrode|Thunderbolt|p1a: Reuniclus
+  -damage|p1a: Reuniclus|118/337 par
+  -damage|p2a: Electrode|4/100|[from] item: Life Orb
+  move|p1a: Reuniclus|Psychic|p2a: Electrode
+  -damage|p2a: Electrode|0 fnt
+  faint|p2a: Electrode
+  switch|p2a: Volcanion|Volcanion, L79|100/100
+-- turn 18
+  WE CHOSE: heal recover - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to alomomola - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Volcanion|Steam Eruption|p1a: Reuniclus
+  -damage|p1a: Reuniclus|0 fnt
+  faint|p1a: Reuniclus
+  switch|p1a: Alomomola|Alomomola, L87, M|429/429
+-- turn 19
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Alomomola|Scald|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+  move|p2a: Volcanion|Steam Eruption|p1a: Alomomola
+  -resisted|p1a: Alomomola
+  -damage|p1a: Alomomola|288/429
+-- turn 20
+  WE CHOSE: attack scald - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Alomomola|Scald|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+  move|p2a: Volcanion|Steam Eruption|p1a: Alomomola
+  -resisted|p1a: Alomomola
+  -crit|p1a: Alomomola
+  -damage|p1a: Alomomola|81/429
+-- turn 21
+  WE CHOSE: attack scald - our hp 0.19, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to vespiquen - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Alomomola|Scald|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+  move|p2a: Volcanion|Steam Eruption|p1a: Alomomola
+  -resisted|p1a: Alomomola
+  -damage|p1a: Alomomola|0 fnt
+  faint|p1a: Alomomola
+  switch|p1a: Vespiquen|Vespiquen, L99, F|299/299
+  -ability|p1a: Vespiquen|Pressure
+-- turn 22
+  WE CHOSE: attack airslash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Volcanion|Steam Eruption|p1a: Vespiquen
+  -damage|p1a: Vespiquen|164/299
+  move|p1a: Vespiquen|Air Slash|p2a: Volcanion
+  -damage|p2a: Volcanion|60/100
+-- turn 23
+  WE CHOSE: attack airslash - our hp 0.55, theirs 0.60, predicted move (revealed) hits us x1
+  move|p2a: Volcanion|Steam Eruption|p1a: Vespiquen
+  -damage|p1a: Vespiquen|7/299
+  -status|p1a: Vespiquen|brn
+  move|p1a: Vespiquen|Air Slash|p2a: Volcanion
+  -damage|p2a: Volcanion|22/100
+  -damage|p1a: Vespiquen|0 fnt|[from] brn
+  faint|p1a: Vespiquen
+  deinit

@@ -1,0 +1,174 @@
+battle 528 (battle-gen9randombattle-1011683): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  haxorus (fainted; item loadeddice, ability moldbreaker, tera steel; moves ironhead/swordsdance/scaleshot/closecombat)
+  spidops (fainted; item heavydutyboots, ability stakeout; moves circlethrow/spikes/stickyweb/uturn)
+  swampert (fainted; item leftovers, ability damp; moves stealthrock/earthquake/icebeam/roar)
+  latios (fainted; item souldew, ability levitate; moves recover/lusterpurge/dracometeor/aurasphere)
+  mienshao (fainted; item lifeorb, ability regenerator; moves closecombat/swordsdance/poisonjab/knockoff)
+  entei (fainted; item choiceband, ability innerfocus; moves sacredfire/extremespeed/stompingtantrum/flareblitz)
+theirs (as seen):
+  forretress (fainted; item leftovers, ability ?; moves ironhead)
+  swalot (fainted; item leftovers, ability ?; moves earthquake)
+  regice (fainted; item unknown_item, ability ?; moves icebeam)
+  hitmonlee (fainted; item unknown_item, ability ?; moves highjumpkick)
+  floatzel (fainted; item unknown_item, ability ?; moves wavecrash)
+  mandibuzz (35%; item unknown_item, ability ?; moves bravebird)
+
+-- turn 0
+  switch|p1a: Haxorus|Haxorus, L77, F|244/244
+  switch|p2a: Forretress|Forretress, L84, F|100/100
+  -ability|p1a: Haxorus|Mold Breaker
+-- turn 1
+  WE CHOSE: attack+tera closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Haxorus|Steel
+  move|p1a: Haxorus|Close Combat|p2a: Forretress
+  -damage|p2a: Forretress|76/100
+  -unboost|p1a: Haxorus|def|1
+  -unboost|p1a: Haxorus|spd|1
+  move|p2a: Forretress|Iron Head|p1a: Haxorus
+  -resisted|p1a: Haxorus
+  -crit|p1a: Haxorus
+  -damage|p1a: Haxorus|140/244
+  -heal|p2a: Forretress|82/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: setup swordsdance - our hp 0.57, theirs 0.82, predicted move (revealed) hits us x0.5
+  move|p1a: Haxorus|Swords Dance|p1a: Haxorus
+  -boost|p1a: Haxorus|atk|2
+  move|p2a: Forretress|Iron Head|p1a: Haxorus
+  -resisted|p1a: Haxorus
+  -crit|p1a: Haxorus
+  -damage|p1a: Haxorus|48/244
+  -heal|p2a: Forretress|88/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack closecombat - our hp 0.20, theirs 0.88, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to entei - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p1a: Haxorus|Close Combat|p2a: Forretress
+  -damage|p2a: Forretress|39/100
+  -unboost|p1a: Haxorus|def|1
+  -unboost|p1a: Haxorus|spd|1
+  move|p2a: Forretress|Iron Head|p1a: Haxorus
+  -resisted|p1a: Haxorus
+  -damage|p1a: Haxorus|0 fnt
+  faint|p1a: Haxorus
+  -heal|p2a: Forretress|45/100|[from] item: Leftovers
+  switch|p1a: Entei|Entei, L78|307/307
+-- turn 4
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p1a: Entei|Flare Blitz|p2a: Forretress
+  -supereffective|p2a: Forretress
+  -damage|p2a: Forretress|0 fnt
+  faint|p2a: Forretress
+  -damage|p1a: Entei|268/307|[from] Recoil
+  switch|p2a: Swalot|Swalot, L90, F|100/100
+-- turn 5
+  WE CHOSE: switch to swampert (hand policy: attack flareblitz) - our hp 0.87, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Swampert|Swampert, L83, F|302/302
+  move|p2a: Swalot|Earthquake|p1a: Swampert
+  -damage|p1a: Swampert|236/302
+  -heal|p1a: Swampert|254/302|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: switch to latios - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Latios|Latios, L78, M|253/253
+  move|p2a: Swalot|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+-- turn 7
+  WE CHOSE: attack lusterpurge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Latios|Luster Purge|p2a: Swalot
+  -supereffective|p2a: Swalot
+  -damage|p2a: Swalot|19/100
+  -unboost|p2a: Swalot|spd|1
+  move|p2a: Swalot|Earthquake|p1a: Latios
+  -immune|p1a: Latios|[from] ability: Levitate
+  -heal|p2a: Swalot|25/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack lusterpurge - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x0
+  move|p1a: Latios|Luster Purge|p2a: Swalot
+  -supereffective|p2a: Swalot
+  -damage|p2a: Swalot|0 fnt
+  faint|p2a: Swalot
+  switch|p2a: Regice|Regice, L88|100/100
+-- turn 9
+  WE CHOSE: switch to entei - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Entei|Entei, L78|268/307
+  move|p2a: Regice|Ice Beam|p1a: Entei
+  -resisted|p1a: Entei
+  -damage|p1a: Entei|199/307
+-- turn 10
+  WE CHOSE: attack flareblitz - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Entei|Flare Blitz|p2a: Regice
+  -supereffective|p2a: Regice
+  -damage|p2a: Regice|0 fnt
+  faint|p2a: Regice
+  -damage|p1a: Entei|105/307|[from] Recoil
+  switch|p2a: Hitmonlee|Hitmonlee, L85, M|100/100
+-- turn 11
+  WE CHOSE: switch to latios (hand policy: attack flareblitz) - our hp 0.34, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Latios|Latios, L78, M|253/253
+  move|p2a: Hitmonlee|High Jump Kick|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|85/253
+-- turn 12
+  WE CHOSE: attack lusterpurge (hand policy: heal recover) - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to spidops (hand policy: forced: switch to mienshao) - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x0.5
+  move|p1a: Latios|Luster Purge|p2a: Hitmonlee
+  -supereffective|p2a: Hitmonlee
+  -damage|p2a: Hitmonlee|3/100
+  move|p2a: Hitmonlee|High Jump Kick|p1a: Latios
+  -resisted|p1a: Latios
+  -damage|p1a: Latios|0 fnt
+  faint|p1a: Latios
+  switch|p1a: Spidops|Spidops, L96, M|271/271
+-- turn 13
+  WE CHOSE: attack circlethrow - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x0.5
+  move|p2a: Hitmonlee|High Jump Kick|p1a: Spidops
+  -resisted|p1a: Spidops
+  -damage|p1a: Spidops|139/271
+  move|p1a: Spidops|Circle Throw|p2a: Hitmonlee
+  -damage|p2a: Hitmonlee|0 fnt
+  faint|p2a: Hitmonlee
+  switch|p2a: Floatzel|Floatzel, L86, F|100/100
+-- turn 14
+  WE CHOSE: attack uturn - our hp 0.51, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to mienshao - our hp 0.00, theirs 0.84, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Spidops
+  -damage|p1a: Spidops|0 fnt
+  faint|p1a: Spidops
+  -damage|p2a: Floatzel|84/100|[from] Recoil
+  switch|p1a: Mienshao|Mienshao, L83, F|244/244
+-- turn 15
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.84, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to swampert - our hp 0.00, theirs 0.56, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Mienshao
+  -damage|p1a: Mienshao|0 fnt
+  faint|p1a: Mienshao
+  -damage|p2a: Floatzel|56/100|[from] Recoil
+  switch|p1a: Swampert|Swampert, L83, F|254/302
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 0.84, theirs 0.56, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Swampert
+  -damage|p1a: Swampert|49/302
+  -damage|p2a: Floatzel|32/100|[from] Recoil
+  move|p1a: Swampert|Earthquake|p2a: Floatzel
+  -damage|p2a: Floatzel|0 fnt
+  faint|p2a: Floatzel
+  -heal|p1a: Swampert|67/302|[from] item: Leftovers
+  switch|p2a: Mandibuzz|Mandibuzz, L85, F|100/100
+-- turn 17
+  WE CHOSE: attack icebeam - our hp 0.22, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to entei - our hp 0.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Mandibuzz|Brave Bird|p1a: Swampert
+  -damage|p1a: Swampert|0 fnt
+  faint|p1a: Swampert
+  -damage|p2a: Mandibuzz|94/100|[from] Recoil
+  switch|p1a: Entei|Entei, L78|105/307
+-- turn 18
+  WE CHOSE: attack flareblitz - our hp 0.34, theirs 0.94, predicted move (revealed) hits us x1
+  move|p1a: Entei|Flare Blitz|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|40/100
+  -damage|p1a: Entei|47/307|[from] Recoil
+  move|p2a: Mandibuzz|Brave Bird|p1a: Entei
+  -crit|p1a: Entei
+  -damage|p1a: Entei|0 fnt
+  faint|p1a: Entei
+  -damage|p2a: Mandibuzz|35/100|[from] Recoil

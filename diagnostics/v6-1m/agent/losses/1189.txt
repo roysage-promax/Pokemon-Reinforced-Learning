@@ -1,0 +1,486 @@
+battle 1189 (battle-gen9randombattle-1018362): lost in 54 turns, 2 of theirs left; we are p1
+
+ours:
+  kilowattrel (fainted; item heavydutyboots, ability voltabsorb; moves roost/hurricane/discharge/uturn)
+  salazzle (fainted; item leftovers, ability corrosion; moves flamethrower/toxic/protect/substitute)
+  incineroar (fainted; item heavydutyboots, ability intimidate; moves knockoff/swordsdance/flareblitz/trailblaze)
+  zarudedada (fainted; item lifeorb, ability leafguard; moves powerwhip/closecombat/knockoff/swordsdance)
+  hoopa (fainted; item choicescarf, ability magician; moves focusblast/psychic/shadowball/trick)
+  reuniclus (fainted; item lifeorb, ability magicguard, tera steel; moves calmmind/psyshock/focusblast/recover)
+theirs (as seen):
+  klefki (fainted; item leftovers, ability ?; moves playrough)
+  moltresgalar (fainted; item ?, ability berserk; moves hurricane)
+  bellibolt (fainted; item leftovers, ability ?; moves thunderbolt)
+  hawlucha (fainted; item ?, ability ?; moves closecombat/acrobatics)
+  quagsire (15%; item leftovers, ability ?; moves earthquake)
+
+-- turn 0
+  switch|p1a: Kilowattrel|Kilowattrel, L83, M|252/252
+  switch|p2a: Klefki|Klefki, L84, F|100/100
+-- turn 1
+  WE CHOSE: switch to incineroar (hand policy: attack discharge) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Incineroar|Incineroar, L82, M|290/290
+  -ability|p1a: Incineroar|Intimidate|boost
+  -unboost|p2a: Klefki|atk|1
+  move|p2a: Klefki|Play Rough|p1a: Incineroar
+  -damage|p1a: Incineroar|230/290
+-- turn 2
+  WE CHOSE: switch to salazzle (hand policy: attack flareblitz) - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Salazzle|Salazzle, L83, F|249/249
+  move|p2a: Klefki|Play Rough|p1a: Salazzle
+  -resisted|p1a: Salazzle
+  -damage|p1a: Salazzle|231/249
+  -heal|p1a: Salazzle|246/249|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack flamethrower - our hp 0.99, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Salazzle|Flamethrower|p2a: Klefki
+  -supereffective|p2a: Klefki
+  -damage|p2a: Klefki|10/100
+  move|p2a: Klefki|Play Rough|p1a: Salazzle
+  -resisted|p1a: Salazzle
+  -damage|p1a: Salazzle|226/249
+  -heal|p1a: Salazzle|241/249|[from] item: Leftovers
+  -heal|p2a: Klefki|16/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack flamethrower - our hp 0.97, theirs 0.16, predicted move (revealed) hits us x0.25
+  move|p1a: Salazzle|Flamethrower|p2a: Klefki
+  -supereffective|p2a: Klefki
+  -damage|p2a: Klefki|0 fnt
+  faint|p2a: Klefki
+  -heal|p1a: Salazzle|249/249|[from] item: Leftovers
+  switch|p2a: Moltres|Moltres-Galar, L79|100/100
+-- turn 5
+  WE CHOSE: switch to kilowattrel (hand policy: attack flamethrower) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Kilowattrel|Kilowattrel, L83, M|252/252
+  move|p2a: Moltres|Hurricane|p1a: Kilowattrel|[miss]
+  -miss|p2a: Moltres|p1a: Kilowattrel
+-- turn 6
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Kilowattrel|Discharge|p2a: Moltres
+  -supereffective|p2a: Moltres
+  -damage|p2a: Moltres|49/100
+  -status|p2a: Moltres|par
+  -enditem|p2a: Moltres|Weakness Policy
+  -boost|p2a: Moltres|atk|2|[from] item: Weakness Policy
+  -boost|p2a: Moltres|spa|2|[from] item: Weakness Policy
+  -ability|p2a: Moltres|Berserk|boost
+  -boost|p2a: Moltres|spa|1
+  move|p2a: Moltres|Hurricane|p1a: Kilowattrel|[miss]
+  -miss|p2a: Moltres|p1a: Kilowattrel
+-- turn 7
+  WE CHOSE: attack discharge - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p1a: Kilowattrel|Discharge|p2a: Moltres
+  -supereffective|p2a: Moltres
+  -damage|p2a: Moltres|0 fnt
+  faint|p2a: Moltres
+  switch|p2a: Bellibolt|Bellibolt, L84, F|100/100
+-- turn 8
+  WE CHOSE: switch to zarudedada (hand policy: attack uturn) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Zarude|Zarude-Dada, L77|288/288
+  move|p2a: Bellibolt|Thunderbolt|p1a: Zarude
+  -resisted|p1a: Zarude
+  -damage|p1a: Zarude|240/288
+-- turn 9
+  WE CHOSE: switch to kilowattrel (hand policy: setup swordsdance) - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Kilowattrel|Kilowattrel, L83, M|252/252
+  move|p2a: Bellibolt|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+-- turn 10
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to zarudedada - our hp 1.00, theirs 0.89, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Bellibolt
+  -damage|p2a: Bellibolt|89/100
+  -start|p2a: Bellibolt|Charge|U-turn|[from] ability: Electromorphosis
+  switch|p1a: Zarude|Zarude-Dada, L77|240/288|[from] U-turn
+  move|p2a: Bellibolt|Thunderbolt|p1a: Zarude
+  -resisted|p1a: Zarude
+  -damage|p1a: Zarude|147/288
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|95/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: switch to kilowattrel (hand policy: setup swordsdance) - our hp 0.51, theirs 0.95, predicted move (revealed) hits us x0.5
+  switch|p1a: Kilowattrel|Kilowattrel, L83, M|252/252
+  move|p2a: Bellibolt|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+  -heal|p2a: Bellibolt|100/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to zarudedada - our hp 1.00, theirs 0.89, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Bellibolt
+  -damage|p2a: Bellibolt|89/100
+  -start|p2a: Bellibolt|Charge|U-turn|[from] ability: Electromorphosis
+  switch|p1a: Zarude|Zarude-Dada, L77|147/288|[from] U-turn
+  move|p2a: Bellibolt|Thunderbolt|p1a: Zarude
+  -resisted|p1a: Zarude
+  -damage|p1a: Zarude|43/288
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|95/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: switch to kilowattrel (hand policy: attack powerwhip) - our hp 0.15, theirs 0.95, predicted move (revealed) hits us x0.5
+  switch|p1a: Kilowattrel|Kilowattrel, L83, M|252/252
+  move|p2a: Bellibolt|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+  -heal|p2a: Bellibolt|100/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to zarudedada - our hp 1.00, theirs 0.89, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to kilowattrel - our hp 0.00, theirs 0.95, predicted move (revealed) hits us x0.5
+  move|p1a: Kilowattrel|U-turn|p2a: Bellibolt
+  -damage|p2a: Bellibolt|89/100
+  -start|p2a: Bellibolt|Charge|U-turn|[from] ability: Electromorphosis
+  switch|p1a: Zarude|Zarude-Dada, L77|43/288|[from] U-turn
+  move|p2a: Bellibolt|Thunderbolt|p1a: Zarude
+  -resisted|p1a: Zarude
+  -damage|p1a: Zarude|0 fnt
+  faint|p1a: Zarude
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|95/100|[from] item: Leftovers
+  switch|p1a: Kilowattrel|Kilowattrel, L83, M|252/252
+-- turn 15
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.95, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to incineroar - our hp 1.00, theirs 0.84, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Bellibolt
+  -damage|p2a: Bellibolt|84/100
+  -start|p2a: Bellibolt|Charge|U-turn|[from] ability: Electromorphosis
+  switch|p1a: Incineroar|Incineroar, L82, M|230/290|[from] U-turn
+  -ability|p1a: Incineroar|Intimidate|boost
+  -unboost|p2a: Bellibolt|atk|1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Incineroar
+  -damage|p1a: Incineroar|28/290
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|90/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: switch to kilowattrel - our hp 0.10, theirs 0.90, predicted move (revealed) hits us x1
+  switch|p1a: Kilowattrel|Kilowattrel, L83, M|252/252
+  move|p2a: Bellibolt|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+  -heal|p2a: Bellibolt|96/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.96, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to incineroar - our hp 1.00, theirs 0.84, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to kilowattrel - our hp 0.00, theirs 0.90, predicted move (revealed) hits us x1
+  move|p1a: Kilowattrel|U-turn|p2a: Bellibolt
+  -damage|p2a: Bellibolt|84/100
+  -start|p2a: Bellibolt|Charge|U-turn|[from] ability: Electromorphosis
+  switch|p1a: Incineroar|Incineroar, L82, M|28/290|[from] U-turn
+  -ability|p1a: Incineroar|Intimidate|boost
+  -unboost|p2a: Bellibolt|atk|1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Incineroar
+  -damage|p1a: Incineroar|0 fnt
+  faint|p1a: Incineroar
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|90/100|[from] item: Leftovers
+  switch|p1a: Kilowattrel|Kilowattrel, L83, M|252/252
+-- turn 18
+  WE CHOSE: attack hurricane (hand policy: attack uturn) - our hp 1.00, theirs 0.90, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|Hurricane|p2a: Bellibolt|[miss]
+  -miss|p1a: Kilowattrel|p2a: Bellibolt
+  move|p2a: Bellibolt|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+  -heal|p2a: Bellibolt|96/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack hurricane (hand policy: attack uturn) - our hp 1.00, theirs 0.96, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|Hurricane|p2a: Bellibolt
+  -resisted|p2a: Bellibolt
+  -damage|p2a: Bellibolt|75/100
+  -start|p2a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  move|p2a: Bellibolt|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|81/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack hurricane (hand policy: attack uturn) - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|Hurricane|p2a: Bellibolt
+  -resisted|p2a: Bellibolt
+  -damage|p2a: Bellibolt|61/100
+  -start|p2a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  move|p2a: Bellibolt|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|67/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack hurricane (hand policy: attack uturn) - our hp 1.00, theirs 0.67, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|Hurricane|p2a: Bellibolt|[miss]
+  -miss|p1a: Kilowattrel|p2a: Bellibolt
+  move|p2a: Bellibolt|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+  -heal|p2a: Bellibolt|73/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack hurricane (hand policy: attack uturn) - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|Hurricane|p2a: Bellibolt
+  -resisted|p2a: Bellibolt
+  -damage|p2a: Bellibolt|53/100
+  -start|p2a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  move|p2a: Bellibolt|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|60/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack hurricane (hand policy: attack uturn) - our hp 1.00, theirs 0.60, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|Hurricane|p2a: Bellibolt
+  -resisted|p2a: Bellibolt
+  -damage|p2a: Bellibolt|40/100
+  -start|p2a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  move|p2a: Bellibolt|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|46/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to salazzle - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to kilowattrel - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x1
+  move|p1a: Kilowattrel|U-turn|p2a: Bellibolt
+  -damage|p2a: Bellibolt|34/100
+  -start|p2a: Bellibolt|Charge|U-turn|[from] ability: Electromorphosis
+  switch|p1a: Salazzle|Salazzle, L83, F|249/249|[from] U-turn
+  move|p2a: Bellibolt|Thunderbolt|p1a: Salazzle
+  -damage|p1a: Salazzle|0 fnt
+  faint|p1a: Salazzle
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|40/100|[from] item: Leftovers
+  switch|p1a: Kilowattrel|Kilowattrel, L83, M|252/252
+-- turn 25
+  WE CHOSE: attack hurricane (hand policy: attack uturn) - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|Hurricane|p2a: Bellibolt
+  -resisted|p2a: Bellibolt
+  -damage|p2a: Bellibolt|21/100
+  -start|p2a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  move|p2a: Bellibolt|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|28/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack hurricane (hand policy: attack uturn) - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|Hurricane|p2a: Bellibolt
+  -resisted|p2a: Bellibolt
+  -damage|p2a: Bellibolt|8/100
+  -start|p2a: Bellibolt|Charge|Hurricane|[from] ability: Electromorphosis
+  move|p2a: Bellibolt|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|15/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to hoopa - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Bellibolt
+  -damage|p2a: Bellibolt|3/100
+  -start|p2a: Bellibolt|Charge|U-turn|[from] ability: Electromorphosis
+  switch|p1a: Hoopa|Hoopa, L85|275/275|[from] U-turn
+  move|p2a: Bellibolt|Thunderbolt|p1a: Hoopa
+  -damage|p1a: Hoopa|139/275
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|9/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: switch to kilowattrel - our hp 0.51, theirs 0.09, predicted move (revealed) hits us x1
+  switch|p1a: Kilowattrel|Kilowattrel, L83, M|252/252
+  move|p2a: Bellibolt|Thunderbolt|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel|[from] ability: Volt Absorb
+  -heal|p2a: Bellibolt|15/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to reuniclus (hand policy: forced: switch to hoopa) - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Bellibolt
+  -damage|p2a: Bellibolt|4/100
+  -start|p2a: Bellibolt|Charge|U-turn|[from] ability: Electromorphosis
+  switch|p1a: Reuniclus|Reuniclus, L88, M|337/337|[from] U-turn
+  move|p2a: Bellibolt|Thunderbolt|p1a: Reuniclus
+  -damage|p1a: Reuniclus|145/337
+  -end|p2a: Bellibolt|Charge|[silent]
+  -heal|p2a: Bellibolt|10/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack psyshock (hand policy: switch to kilowattrel) - our hp 0.43, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Bellibolt|Thunderbolt|p1a: Reuniclus
+  -damage|p1a: Reuniclus|45/337
+  move|p1a: Reuniclus|Psyshock|p2a: Bellibolt
+  -damage|p2a: Bellibolt|0 fnt
+  faint|p2a: Bellibolt
+  switch|p2a: Hawlucha|Hawlucha, L80, F|100/100
+-- turn 31
+  WE CHOSE: attack+tera psyshock (hand policy: heal recover) - our hp 0.13, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hoopa - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  -terastallize|p1a: Reuniclus|Steel
+  move|p2a: Hawlucha|Close Combat|p1a: Reuniclus
+  -supereffective|p1a: Reuniclus
+  -damage|p1a: Reuniclus|0 fnt
+  -unboost|p2a: Hawlucha|def|1
+  -unboost|p2a: Hawlucha|spd|1
+  faint|p1a: Reuniclus
+  -enditem|p2a: Hawlucha|White Herb
+  -clearnegativeboost|p2a: Hawlucha|[silent]
+  switch|p1a: Hoopa|Hoopa, L85|139/275
+-- turn 32
+  WE CHOSE: attack trick (hand policy: attack psychic) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Hoopa
+  -immune|p1a: Hoopa
+  move|p1a: Hoopa|Trick|p2a: Hawlucha
+  -activate|p1a: Hoopa|move: Trick|[of] p2a: Hawlucha
+  -item|p2a: Hawlucha|Choice Scarf|[from] move: Trick
+  -enditem|p1a: Hoopa|Choice Scarf|[silent]|[from] move: Trick
+-- turn 33
+  WE CHOSE: attack trick (hand policy: attack psychic) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Hoopa
+  -immune|p1a: Hoopa
+  move|p1a: Hoopa|Trick|p2a: Hawlucha
+  -activate|p1a: Hoopa|move: Trick|[of] p2a: Hawlucha
+  -enditem|p2a: Hawlucha|Choice Scarf|[silent]|[from] move: Trick
+  -item|p1a: Hoopa|Choice Scarf|[from] move: Trick
+-- turn 34
+  WE CHOSE: attack trick (hand policy: attack psychic) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Hoopa
+  -immune|p1a: Hoopa
+  move|p1a: Hoopa|Trick|p2a: Hawlucha
+  -activate|p1a: Hoopa|move: Trick|[of] p2a: Hawlucha
+  -item|p2a: Hawlucha|Choice Scarf|[from] move: Trick
+  -enditem|p1a: Hoopa|Choice Scarf|[silent]|[from] move: Trick
+-- turn 35
+  WE CHOSE: attack trick (hand policy: attack psychic) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Hoopa
+  -immune|p1a: Hoopa
+  move|p1a: Hoopa|Trick|p2a: Hawlucha
+  -activate|p1a: Hoopa|move: Trick|[of] p2a: Hawlucha
+  -enditem|p2a: Hawlucha|Choice Scarf|[silent]|[from] move: Trick
+  -item|p1a: Hoopa|Choice Scarf|[from] move: Trick
+-- turn 36
+  WE CHOSE: attack trick (hand policy: attack psychic) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Hoopa
+  -immune|p1a: Hoopa
+  move|p1a: Hoopa|Trick|p2a: Hawlucha
+  -activate|p1a: Hoopa|move: Trick|[of] p2a: Hawlucha
+  -item|p2a: Hawlucha|Choice Scarf|[from] move: Trick
+  -enditem|p1a: Hoopa|Choice Scarf|[silent]|[from] move: Trick
+-- turn 37
+  WE CHOSE: attack trick (hand policy: attack psychic) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Hoopa
+  -immune|p1a: Hoopa
+  move|p1a: Hoopa|Trick|p2a: Hawlucha
+  -activate|p1a: Hoopa|move: Trick|[of] p2a: Hawlucha
+  -enditem|p2a: Hawlucha|Choice Scarf|[silent]|[from] move: Trick
+  -item|p1a: Hoopa|Choice Scarf|[from] move: Trick
+-- turn 38
+  WE CHOSE: attack trick (hand policy: attack psychic) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Close Combat|p1a: Hoopa
+  -immune|p1a: Hoopa
+  move|p1a: Hoopa|Trick|p2a: Hawlucha
+  -activate|p1a: Hoopa|move: Trick|[of] p2a: Hawlucha
+  -item|p2a: Hawlucha|Choice Scarf|[from] move: Trick
+  -enditem|p1a: Hoopa|Choice Scarf|[silent]|[from] move: Trick
+-- turn 39
+  WE CHOSE: attack trick (hand policy: attack psychic) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Acrobatics|p1a: Hoopa
+  -damage|p1a: Hoopa|69/275
+  move|p1a: Hoopa|Trick|p2a: Hawlucha
+  -activate|p1a: Hoopa|move: Trick|[of] p2a: Hawlucha
+  -enditem|p2a: Hawlucha|Choice Scarf|[silent]|[from] move: Trick
+  -item|p1a: Hoopa|Choice Scarf|[from] move: Trick
+-- turn 40
+  WE CHOSE: attack trick (hand policy: attack psychic) - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to kilowattrel - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Hawlucha|Acrobatics|p1a: Hoopa
+  -damage|p1a: Hoopa|0 fnt
+  faint|p1a: Hoopa
+  switch|p1a: Kilowattrel|Kilowattrel, L83, M|252/252
+-- turn 41
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Hawlucha|Acrobatics|p1a: Kilowattrel
+  -resisted|p1a: Kilowattrel
+  -damage|p1a: Kilowattrel|183/252
+  move|p1a: Kilowattrel|Discharge|p2a: Hawlucha
+  -supereffective|p2a: Hawlucha
+  -damage|p2a: Hawlucha|15/100
+-- turn 42
+  WE CHOSE: attack discharge - our hp 0.73, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p2a: Hawlucha|Acrobatics|p1a: Kilowattrel
+  -resisted|p1a: Kilowattrel
+  -damage|p1a: Kilowattrel|115/252
+  move|p1a: Kilowattrel|Discharge|p2a: Hawlucha
+  -supereffective|p2a: Hawlucha
+  -damage|p2a: Hawlucha|0 fnt
+  faint|p2a: Hawlucha
+  switch|p2a: Quagsire|Quagsire, L84, F|100/100
+-- turn 43
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Quagsire
+  -damage|p2a: Quagsire|87/100
+  move|p2a: Quagsire|Earthquake|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel
+  -heal|p2a: Quagsire|93/100|[from] item: Leftovers
+-- turn 44
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 0.93, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Quagsire
+  -damage|p2a: Quagsire|79/100
+  move|p2a: Quagsire|Earthquake|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel
+  -heal|p2a: Quagsire|85/100|[from] item: Leftovers
+-- turn 45
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 0.85, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Quagsire
+  -damage|p2a: Quagsire|72/100
+  move|p2a: Quagsire|Earthquake|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel
+  -heal|p2a: Quagsire|78/100|[from] item: Leftovers
+-- turn 46
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 0.78, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Quagsire
+  -damage|p2a: Quagsire|64/100
+  move|p2a: Quagsire|Earthquake|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel
+  -heal|p2a: Quagsire|71/100|[from] item: Leftovers
+-- turn 47
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 0.71, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Quagsire
+  -damage|p2a: Quagsire|57/100
+  move|p2a: Quagsire|Earthquake|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel
+  -heal|p2a: Quagsire|63/100|[from] item: Leftovers
+-- turn 48
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 0.63, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Quagsire
+  -damage|p2a: Quagsire|49/100
+  move|p2a: Quagsire|Earthquake|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel
+  -heal|p2a: Quagsire|55/100|[from] item: Leftovers
+-- turn 49
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 0.55, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Quagsire
+  -damage|p2a: Quagsire|41/100
+  move|p2a: Quagsire|Earthquake|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel
+  -heal|p2a: Quagsire|47/100|[from] item: Leftovers
+-- turn 50
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 0.47, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Quagsire
+  -damage|p2a: Quagsire|32/100
+  move|p2a: Quagsire|Earthquake|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel
+  -heal|p2a: Quagsire|38/100|[from] item: Leftovers
+-- turn 51
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 0.38, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Quagsire
+  -damage|p2a: Quagsire|23/100
+  move|p2a: Quagsire|Earthquake|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel
+  -heal|p2a: Quagsire|29/100|[from] item: Leftovers
+-- turn 52
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 0.29, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Quagsire
+  -damage|p2a: Quagsire|17/100
+  move|p2a: Quagsire|Earthquake|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel
+  -heal|p2a: Quagsire|23/100|[from] item: Leftovers
+-- turn 53
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 0.23, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|U-turn|p2a: Quagsire
+  -damage|p2a: Quagsire|9/100
+  move|p2a: Quagsire|Earthquake|p1a: Kilowattrel
+  -immune|p1a: Kilowattrel
+  -heal|p2a: Quagsire|15/100|[from] item: Leftovers
+-- turn 54
+  WE CHOSE: heal roost - our hp 0.46, theirs 0.15, predicted move (revealed) hits us x0
+  move|p1a: Kilowattrel|Roost|p1a: Kilowattrel
+  -heal|p1a: Kilowattrel|241/252
+  -singleturn|p1a: Kilowattrel|move: Roost
+  move|p2a: Quagsire|Earthquake|p1a: Kilowattrel
+  -supereffective|p1a: Kilowattrel
+  -damage|p1a: Kilowattrel|0 fnt
+  faint|p1a: Kilowattrel
+  deinit

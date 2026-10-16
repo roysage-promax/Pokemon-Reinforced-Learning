@@ -1,0 +1,210 @@
+battle 1943 (battle-gen9randombattle-1026051): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  rampardos (fainted; item choicescarf, ability sheerforce; moves earthquake/firepunch/headsmash/rockslide)
+  smeargle (fainted; item focussash, ability owntempo; moves ceaselessedge/spore/whirlwind/stickyweb)
+  deoxysdefense (fainted; item leftovers, ability pressure, tera steel; moves recover/spikes/psychicnoise/stealthrock)
+  malamar (fainted; item chestoberry, ability contrary; moves knockoff/psychocut/superpower/rest)
+  greninja (fainted; item lifeorb, ability protean; moves hydropump/grassknot/icebeam/gunkshot)
+  groudon (fainted; item leftovers, ability drought; moves heatcrash/stoneedge/thunderwave/precipiceblades)
+theirs (as seen):
+  sandslash (fainted; item leftovers, ability ?; moves earthquake)
+  venusaur (fainted; item unknown_item, ability ?; moves energyball)
+  veluza (fainted; item ?, ability ?; moves aquacutter)
+  solgaleo (fainted; item unknown_item, ability fullmetalbody; moves closecombat)
+  smeargle (fainted; item unknown_item, ability ?; moves populationbomb)
+  gliscor (88%; item unknown_item, ability ?; moves earthquake)
+
+-- turn 0
+  switch|p1a: Rampardos|Rampardos, L90, F|321/321
+  switch|p2a: Sandslash|Sandslash, L89, M|100/100
+-- turn 1
+  WE CHOSE: switch to greninja (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Greninja|Greninja, L80, M|246/246
+  move|p2a: Sandslash|Earthquake|p1a: Greninja
+  -damage|p1a: Greninja|86/246
+-- turn 2
+  WE CHOSE: attack hydropump - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to groudon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Greninja|Hydro Pump|p2a: Sandslash|[miss]
+  -start|p1a: Greninja|typechange|Water|[from] ability: Protean
+  -miss|p1a: Greninja|p2a: Sandslash
+  move|p2a: Sandslash|Earthquake|p1a: Greninja
+  -damage|p1a: Greninja|0 fnt
+  faint|p1a: Greninja
+  switch|p1a: Groudon|Groudon, L72|263/263
+  -weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+-- turn 3
+  WE CHOSE: attack precipiceblades - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Groudon|Precipice Blades|p2a: Sandslash
+  -damage|p2a: Sandslash|59/100
+  move|p2a: Sandslash|Earthquake|p1a: Groudon
+  -damage|p1a: Groudon|172/263
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Groudon|188/263|[from] item: Leftovers
+  -heal|p2a: Sandslash|66/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack precipiceblades - our hp 0.71, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Groudon|Precipice Blades|p2a: Sandslash
+  -damage|p2a: Sandslash|27/100
+  move|p2a: Sandslash|Earthquake|p1a: Groudon
+  -damage|p1a: Groudon|85/263
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Groudon|101/263|[from] item: Leftovers
+  -heal|p2a: Sandslash|34/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack precipiceblades - our hp 0.38, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Groudon|Precipice Blades|p2a: Sandslash
+  -damage|p2a: Sandslash|0 fnt
+  faint|p2a: Sandslash
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Groudon|117/263|[from] item: Leftovers
+  switch|p2a: Venusaur|Venusaur, L84, M|100/100
+-- turn 6
+  WE CHOSE: attack precipiceblades - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to deoxysdefense - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Venusaur|Energy Ball|p1a: Groudon
+  -supereffective|p1a: Groudon
+  -damage|p1a: Groudon|0 fnt
+  faint|p1a: Groudon
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Deoxys|Deoxys-Defense, L84|221/221
+  -ability|p1a: Deoxys|Pressure
+-- turn 7
+  WE CHOSE: attack+tera psychicnoise - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Deoxys|Steel
+  move|p1a: Deoxys|Psychic Noise|p2a: Venusaur
+  -supereffective|p2a: Venusaur
+  -crit|p2a: Venusaur
+  -damage|p2a: Venusaur|36/100
+  -start|p2a: Venusaur|move: Heal Block
+  move|p2a: Venusaur|Energy Ball|p1a: Deoxys
+  -resisted|p1a: Deoxys
+  -damage|p1a: Deoxys|190/221
+  -weather|none
+  -heal|p1a: Deoxys|203/221|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack psychicnoise - our hp 0.92, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p1a: Deoxys|Psychic Noise|p2a: Venusaur
+  -supereffective|p2a: Venusaur
+  -damage|p2a: Venusaur|0 fnt
+  faint|p2a: Venusaur
+  -heal|p1a: Deoxys|216/221|[from] item: Leftovers
+  switch|p2a: Veluza|Veluza, L85, M|100/100
+-- turn 9
+  WE CHOSE: heal recover (hand policy: attack psychicnoise) - our hp 0.98, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Deoxys|Recover|p1a: Deoxys
+  -heal|p1a: Deoxys|221/221
+  move|p2a: Veluza|Aqua Cutter|p1a: Deoxys
+  -damage|p1a: Deoxys|152/221
+  -heal|p1a: Deoxys|165/221|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: switch to malamar (hand policy: attack psychicnoise) - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Malamar|Malamar, L82, M|275/275
+  move|p2a: Veluza|Aqua Cutter|p1a: Malamar
+  -damage|p1a: Malamar|155/275
+-- turn 11
+  WE CHOSE: attack knockoff - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Veluza|Aqua Cutter|p1a: Malamar
+  -damage|p1a: Malamar|41/275
+  move|p1a: Malamar|Knock Off|p2a: Veluza
+  -supereffective|p2a: Veluza
+  -damage|p2a: Veluza|28/100
+  -enditem|p2a: Veluza|Sitrus Berry|[from] move: Knock Off|[of] p1a: Malamar
+-- turn 12
+  WE CHOSE: attack knockoff (hand policy: heal rest) - our hp 0.15, theirs 0.28, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to smeargle - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p2a: Veluza|Aqua Cutter|p1a: Malamar
+  -damage|p1a: Malamar|0 fnt
+  faint|p1a: Malamar
+  switch|p1a: Smeargle|Smeargle, L95, F|258/258
+-- turn 13
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Veluza|[miss]
+  -miss|p1a: Smeargle|p2a: Veluza
+  move|p2a: Veluza|Aqua Cutter|p1a: Smeargle
+  -damage|p1a: Smeargle|54/258
+-- turn 14
+  WE CHOSE: attack ceaselessedge - our hp 0.21, theirs 0.28, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to deoxysdefense - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Veluza
+  -supereffective|p2a: Veluza
+  -damage|p2a: Veluza|10/100
+  -sidestart|p2: e2_132141|Spikes
+  move|p2a: Veluza|Aqua Cutter|p1a: Smeargle
+  -damage|p1a: Smeargle|0 fnt
+  faint|p1a: Smeargle
+  switch|p1a: Deoxys|Deoxys-Defense, L84, tera:Steel|165/221
+  -ability|p1a: Deoxys|Pressure
+-- turn 15
+  WE CHOSE: attack psychicnoise - our hp 0.75, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psychic Noise|p2a: Veluza
+  -resisted|p2a: Veluza
+  -damage|p2a: Veluza|0 fnt
+  faint|p2a: Veluza
+  -heal|p1a: Deoxys|178/221|[from] item: Leftovers
+  switch|p2a: Solgaleo|Solgaleo, L74|100/100
+  -damage|p2a: Solgaleo|88/100|[from] Spikes
+-- turn 16
+  WE CHOSE: attack stealthrock (hand policy: attack psychicnoise) - our hp 0.81, theirs 0.88, predicted move (guessed) hits us x2
+  move|p1a: Deoxys|Stealth Rock|p2a: Solgaleo
+  -sidestart|p2: e2_132141|move: Stealth Rock
+  move|p2a: Solgaleo|Close Combat|p1a: Deoxys
+  -supereffective|p1a: Deoxys
+  -damage|p1a: Deoxys|60/221
+  -unboost|p2a: Solgaleo|def|1
+  -unboost|p2a: Solgaleo|spd|1
+  -heal|p1a: Deoxys|73/221|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack stealthrock (hand policy: attack psychicnoise) - our hp 0.33, theirs 0.88, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to rampardos - our hp 0.00, theirs 0.88, predicted move (revealed) hits us x2
+  move|p1a: Deoxys|Stealth Rock||[still]
+  -fail|p1a: Deoxys
+  move|p2a: Solgaleo|Close Combat|p1a: Deoxys
+  -supereffective|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  -unboost|p2a: Solgaleo|def|1
+  -unboost|p2a: Solgaleo|spd|1
+  faint|p1a: Deoxys
+  switch|p1a: Rampardos|Rampardos, L90, F|321/321
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x2
+  move|p1a: Rampardos|Earthquake|p2a: Solgaleo
+  -supereffective|p2a: Solgaleo
+  -damage|p2a: Solgaleo|0 fnt
+  faint|p2a: Solgaleo
+  switch|p2a: Smeargle|Smeargle, L95, M|100/100
+  -damage|p2a: Smeargle|88/100|[from] Spikes
+  -damage|p2a: Smeargle|76/100|[from] Stealth Rock
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.76, predicted move (guessed) hits us x1
+  move|p1a: Rampardos|Earthquake|p2a: Smeargle
+  -damage|p2a: Smeargle|2/100
+  move|p2a: Smeargle|Population Bomb|p1a: Rampardos
+  -resisted|p1a: Rampardos
+  -damage|p1a: Rampardos|312/321
+  -hitcount|p1a: Rampardos|1
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 0.97, theirs 0.02, predicted move (revealed) hits us x0.5
+  move|p1a: Rampardos|Earthquake|p2a: Smeargle
+  -damage|p2a: Smeargle|0 fnt
+  faint|p2a: Smeargle
+  switch|p2a: Gliscor|Gliscor, L76, M|100/100
+  -damage|p2a: Gliscor|88/100|[from] Stealth Rock
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 0.97, theirs 0.88, predicted move (guessed) hits us x2
+  move|p1a: Rampardos|Earthquake|p2a: Gliscor
+  -immune|p2a: Gliscor
+  move|p2a: Gliscor|Earthquake|p1a: Rampardos
+  -supereffective|p1a: Rampardos
+  -damage|p1a: Rampardos|100/321
+  -status|p2a: Gliscor|tox|[from] item: Toxic Orb
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 0.31, theirs 0.88, predicted move (revealed) hits us x2
+  move|p1a: Rampardos|Earthquake|p2a: Gliscor
+  -immune|p2a: Gliscor
+  move|p2a: Gliscor|Earthquake|p1a: Rampardos
+  -supereffective|p1a: Rampardos
+  -damage|p1a: Rampardos|0 fnt
+  faint|p1a: Rampardos
+  deinit

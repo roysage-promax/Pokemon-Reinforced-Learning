@@ -1,0 +1,117 @@
+battle 1551 (battle-gen9randombattle-1020963): lost in 12 turns, 4 of theirs left; we are p1
+
+ours:
+  amoonguss (fainted; item leftovers, ability regenerator; moves gigadrain/spore/toxic/sludgebomb)
+  talonflame (fainted; item heavydutyboots, ability galewings; moves bravebird/swordsdance/terablast/flareblitz)
+  espathra (fainted; item choicespecs, ability speedboost; moves uturn/shadowball/dazzlinggleam/luminacrash)
+  dialgaorigin (fainted; item adamantcrystal, ability pressure; moves flashcannon/fireblast/dracometeor/dragontail)
+  lycanroc (fainted; item lifeorb, ability sandrush, tera fighting; moves closecombat/stoneedge/stealthrock/taunt)
+  lurantis (fainted; item leftovers, ability contrary; moves defog/superpower/synthesis/leafstorm)
+theirs (as seen):
+  arcanine (fainted; item unknown_item, ability intimidate; moves flareblitz)
+  charizard (fainted; item unknown_item, ability ?; moves flareblitz)
+  regidrago (62%; item unknown_item, ability dragonsmaw; moves dragonenergy)
+
+-- turn 0
+  switch|p1a: Amoonguss|Amoonguss, L82, M|321/321
+  switch|p2a: Arcanine|Arcanine, L84, F|100/100
+  -ability|p2a: Arcanine|Intimidate|boost
+  -unboost|p1a: Amoonguss|atk|1
+-- turn 1
+  WE CHOSE: attack sludgebomb - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to lycanroc - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x2
+  move|p2a: Arcanine|Flare Blitz|p1a: Amoonguss
+  -supereffective|p1a: Amoonguss
+  -damage|p1a: Amoonguss|0 fnt
+  faint|p1a: Amoonguss
+  -damage|p2a: Arcanine|64/100|[from] Recoil
+  switch|p1a: Lycanroc|Lycanroc, L86, M|269/269
+-- turn 2
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p1a: Lycanroc|Stone Edge|p2a: Arcanine|[miss]
+  -miss|p1a: Lycanroc|p2a: Arcanine
+  move|p2a: Arcanine|Flare Blitz|p1a: Lycanroc
+  -resisted|p1a: Lycanroc
+  -damage|p1a: Lycanroc|191/269
+  -damage|p2a: Arcanine|55/100|[from] Recoil
+-- turn 3
+  WE CHOSE: attack stoneedge - our hp 0.71, theirs 0.55, predicted move (revealed) hits us x0.5
+  move|p1a: Lycanroc|Stone Edge|p2a: Arcanine
+  -supereffective|p2a: Arcanine
+  -damage|p2a: Arcanine|0 fnt
+  faint|p2a: Arcanine
+  -damage|p1a: Lycanroc|165/269|[from] item: Life Orb
+  switch|p2a: Charizard|Charizard, L85, F|100/100
+-- turn 4
+  WE CHOSE: switch to talonflame - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Talonflame|Talonflame, L83, F|265/265
+  move|p2a: Charizard|Flare Blitz|p1a: Talonflame
+  -resisted|p1a: Talonflame
+  -damage|p1a: Talonflame|199/265
+  -damage|p2a: Charizard|92/100|[from] Recoil
+-- turn 5
+  WE CHOSE: setup swordsdance - our hp 0.75, theirs 0.92, predicted move (revealed) hits us x0.5
+  move|p1a: Talonflame|Swords Dance|p1a: Talonflame
+  -boost|p1a: Talonflame|atk|2
+  move|p2a: Charizard|Flare Blitz|p1a: Talonflame
+  -resisted|p1a: Talonflame
+  -damage|p1a: Talonflame|131/265
+  -damage|p2a: Charizard|84/100|[from] Recoil
+-- turn 6
+  WE CHOSE: attack bravebird - our hp 0.49, theirs 0.84, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to lycanroc - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p1a: Talonflame|Brave Bird|p2a: Charizard
+  -damage|p2a: Charizard|3/100
+  -damage|p1a: Talonflame|59/265|[from] Recoil
+  move|p2a: Charizard|Flare Blitz|p1a: Talonflame
+  -resisted|p1a: Talonflame
+  -damage|p1a: Talonflame|0 fnt
+  faint|p1a: Talonflame
+  -damage|p2a: Charizard|0 fnt|[from] Recoil
+  faint|p2a: Charizard
+  switch|p1a: Lycanroc|Lycanroc, L86, M|165/269
+  switch|p2a: Regidrago|Regidrago, L77|100/100
+-- turn 7
+  WE CHOSE: attack+tera closecombat - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dialgaorigin - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Lycanroc|Fighting
+  move|p2a: Regidrago|Dragon Energy|p1a: Lycanroc
+  -damage|p1a: Lycanroc|0 fnt
+  faint|p1a: Lycanroc
+  switch|p1a: Dialga|Dialga-Origin, L73|266/266
+  -ability|p1a: Dialga|Pressure
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regidrago|Dragon Energy|p1a: Dialga
+  -damage|p1a: Dialga|85/266
+  move|p1a: Dialga|Draco Meteor|p2a: Regidrago|[miss]
+  -miss|p1a: Dialga|p2a: Regidrago
+-- turn 9
+  WE CHOSE: attack dracometeor - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to espathra - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regidrago|Dragon Energy|p1a: Dialga
+  -damage|p1a: Dialga|0 fnt
+  faint|p1a: Dialga
+  switch|p1a: Espathra|Espathra, L80, F|283/283
+-- turn 10
+  WE CHOSE: attack dazzlinggleam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lurantis - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regidrago|Dragon Energy|p1a: Espathra
+  -damage|p1a: Espathra|0 fnt
+  faint|p1a: Espathra
+  switch|p1a: Lurantis|Lurantis, L87, F|264/264
+-- turn 11
+  WE CHOSE: attack superpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regidrago|Dragon Energy|p1a: Lurantis
+  -damage|p1a: Lurantis|63/264
+  move|p1a: Lurantis|Superpower|p2a: Regidrago
+  -damage|p2a: Regidrago|62/100
+  -boost|p1a: Lurantis|atk|1
+  -boost|p1a: Lurantis|def|1
+  -heal|p1a: Lurantis|79/264|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: heal synthesis - our hp 0.30, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Regidrago|Dragon Energy|p1a: Lurantis
+  -damage|p1a: Lurantis|0 fnt
+  faint|p1a: Lurantis
+  deinit
