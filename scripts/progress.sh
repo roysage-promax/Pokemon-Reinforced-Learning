@@ -9,10 +9,10 @@
 set -uo pipefail
 
 LOG_BASE="${CARES_LOG_BASE_DIR:-$HOME/cares_rl_logs}"
-RUN_PREFIX="${RUN_PREFIX:-v6}"
+RUN_PREFIX="${RUN_PREFIX:-v7}"
 now=$(date +%s)
 
-printf "%-10s %-8s %7s %5s %9s %7s  %s\n" run status steps done "time left" memory "eval wins @ latest checkpoints"
+printf "%-16s %-8s %7s %5s %9s %7s  %s\n" run status steps done "time left" memory "eval wins @ latest checkpoints"
 # Runs sit in a folder per algorithm (DQN/, DuelingDQN/, ...)
 for dir in "$LOG_BASE"/*/*-random-max-"$RUN_PREFIX"-*; do
   [[ -d "$dir" ]] || continue
@@ -55,7 +55,7 @@ for dir in "$LOG_BASE"/*/*-random-max-"$RUN_PREFIX"-*; do
                    END { for (k in n) print k, w[k] "/" n[k] }' "$seed_dir/data/eval.csv" 2>/dev/null \
           | sort -n | tail -n 4 | awk '{ printf "%s@%dk  ", $2, $1 / 1000 }')
 
-  printf "%-10s %-8s %7d %4d%% %9s %7s  %s\n" "$name" "$status" "$steps" $(( steps * 100 / STEPS )) "$left" "$mem" "${evals:--}"
+  printf "%-16s %-8s %7d %4d%% %9s %7s  %s\n" "$name" "$status" "$steps" $(( steps * 100 / STEPS )) "$left" "$mem" "${evals:--}"
 done
 
 free -m | awk '/^Mem:/ { printf "\nmachine memory: %d of %d MB used, %d MB available\n", $3, $2, $7 }'

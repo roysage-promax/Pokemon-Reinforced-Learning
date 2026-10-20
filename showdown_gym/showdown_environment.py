@@ -48,6 +48,34 @@ TERA_BONUS = float(os.environ.get("SHOWDOWN_TERA_BONUS", "0.3"))
 SWITCH_BONUS = float(os.environ.get("SHOWDOWN_SWITCH_BONUS", "0"))
 SETUP_BONUS = float(os.environ.get("SHOWDOWN_SETUP_BONUS", "0"))
 
+# v7 reward sweep. The v6-1m agents switched out of a Pokémon immune to or resisting the opponent's
+# predicted move and back in a turn later - 543 times in 186 lost battles (the hand-written policy:
+# 89 times in 137). Switching back in matches the switch rule, and whether its bonus was already
+# paid for this opponent isn't in the observation, so to the agent it looks like it pays every
+# time. Every knob defaults to v6's reward; scripts/train_parallel.sh sets them per run.
+#   SHOWDOWN_SWITCH_ONCE=0      pay SWITCH_BONUS every time the switch rule matches (1: once per
+#                               opposing Pokémon, as in v6)
+#   SHOWDOWN_HEAL_SETUP_ONCE=0  the same for the heal and setup bonus (1: once per pair of active
+#                               Pokémon / pair and boost stage, as in v6)
+#   SHOWDOWN_SWITCH_OUT_COST    taken off switching out of a Pokémon the predicted move hits x0.5
+#                               or less, so switching out and back in nets nothing
+#   SHOWDOWN_SWITCH_COST        taken off any other voluntary switch the switch rule doesn't pay
+#                               (switching on neutral hits gained nothing in scripted_probe.py)
+#   SHOWDOWN_HEAL_COST          taken off using a healing move above half HP
+#   SHOWDOWN_DEALT_WEIGHT, SHOWDOWN_TAKEN_WEIGHT, SHOWDOWN_KO_WEIGHT, SHOWDOWN_WIN_REWARD
+#                               the battle reward's weights (see calc_reward)
+# None of the costs apply when our active has no move that damages the opponent's: switching out is
+# then fair, and "best attack" may be a healing move.
+SWITCH_ONCE = os.environ.get("SHOWDOWN_SWITCH_ONCE", "1") != "0"
+HEAL_SETUP_ONCE = os.environ.get("SHOWDOWN_HEAL_SETUP_ONCE", "1") != "0"
+SWITCH_OUT_COST = float(os.environ.get("SHOWDOWN_SWITCH_OUT_COST", "0"))
+SWITCH_COST = float(os.environ.get("SHOWDOWN_SWITCH_COST", "0"))
+HEAL_COST = float(os.environ.get("SHOWDOWN_HEAL_COST", "0"))
+DEALT_WEIGHT = float(os.environ.get("SHOWDOWN_DEALT_WEIGHT", "0.5"))
+TAKEN_WEIGHT = float(os.environ.get("SHOWDOWN_TAKEN_WEIGHT", "0.25"))
+KO_WEIGHT = float(os.environ.get("SHOWDOWN_KO_WEIGHT", "0.2"))
+WIN_REWARD = float(os.environ.get("SHOWDOWN_WIN_REWARD", "1"))
+
 # Tera types that don't replace the Pokémon's types (Stellar keeps its original ones)
 NO_TYPE_CHANGE_TERA = {PokemonType.STELLAR, PokemonType.THREE_QUESTION_MARKS}
 
@@ -90,6 +118,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
         self._illegal_action = False
         self._bonus = 0.0
         self._bonus_paid = set()
+        self._switched_out = (None, 0)
         self._counts = self._new_counts()
 
     # =========================================================
@@ -386,9 +415,12 @@ class ShowdownEnvironment(BaseShowdownEnv):
                   neutral hits too +1.2 points)
           setup   we resist it and are at half HP or more, attack and special attack both
                   below +2 (+6 when we're immune)
-        Every match is counted (good_switch, good_heal, good_setup); the bonus is paid once per
-        opposing Pokémon for a switch, once per pair of active Pokémon for a heal, and once per
-        pair and boost stage for a setup (switching out resets boosts, so that can't farm it).
+        Every match is counted (good_switch, good_heal, good_setup). With SWITCH_ONCE and
+        HEAL_SETUP_ONCE (v6) the bonus is paid once per opposing Pokémon for a switch, once per
+        pair of active Pokémon for a heal, and once per pair and boost stage for a setup;
+        without, every time. A voluntary switch the rule doesn't pay costs SWITCH_OUT_COST or
+        SWITCH_COST (see _switch_cost), a heal above half HP HEAL_COST (counted as high_heal) -
+        unless our active can't damage the opponent's (_can_damage).
         """
         active = battle.active_pokemon
         opp = battle.opponent_active_pokemon
@@ -404,8 +436,8 @@ class ShowdownEnvironment(BaseShowdownEnv):
             target = list(battle.team.values())[action - N_MOVES]
             target_threat = self._threat(predicted, target)
             if not ((threat >= 2 and target_threat <= 0.5) or (threat >= 1 and target_threat == 0)):
-                return 0.0
-            rule, bonus, key = "switch", SWITCH_BONUS, ("switch", opp.species)
+                return -self._switch_cost(battle, threat)
+            rule, bonus, key, once = "switch", SWITCH_BONUS, ("switch", opp.species), SWITCH_ONCE
         else:
             move = self._move_slots(battle)[action - TERA if action >= TERA else action]
             cap = 6 if threat == 0 else 2
@@ -414,15 +446,38 @@ class ShowdownEnvironment(BaseShowdownEnv):
                 rule, key = "heal", ("heal", opp.species, active.species)
             elif self._is_setup(move) and threat <= 0.5 and hp >= 0.5 and boost < cap:
                 rule, key = "setup", ("setup", opp.species, active.species, boost)
+            elif self._is_heal(move) and hp > 0.5 and self._can_damage(battle):
+                self._counts["high_heal"] += 1
+                return -HEAL_COST
             else:
                 return 0.0
-            bonus = SETUP_BONUS
+            bonus, once = SETUP_BONUS, HEAL_SETUP_ONCE
 
         self._counts[f"good_{rule}"] += 1
-        if key in self._bonus_paid:
-            return 0.0
-        self._bonus_paid.add(key)
+        if once:
+            if key in self._bonus_paid:
+                return 0.0
+            self._bonus_paid.add(key)
         return bonus
+
+    def _switch_cost(self, battle: AbstractBattle, threat: float) -> float:
+        """
+        Cost of a voluntary switch the switch rule doesn't pay: SWITCH_OUT_COST out of a Pokémon
+        the predicted move hits x0.5 or less (resist_switch_out), SWITCH_COST for any other
+        (other_switch). Nothing when our active can't damage the opponent's.
+        """
+        if not self._can_damage(battle):
+            return 0.0
+        if threat <= 0.5:
+            self._counts["resist_switch_out"] += 1
+            return SWITCH_OUT_COST
+        self._counts["other_switch"] += 1
+        return SWITCH_COST
+
+    def _can_damage(self, battle: AbstractBattle) -> bool:
+        """Whether one of our active's usable moves damages the opponent's (expected damage > 0)."""
+        active, opp = battle.active_pokemon, battle.opponent_active_pokemon
+        return any(self._expected_damage(move, active, opp) > 0 for _, move in self._legal_moves(battle))
 
     # =========================================================
     # Reset / Step
@@ -442,6 +497,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
         self._illegal_action = False
         self._bonus = 0.0
         self._bonus_paid = set()
+        self._switched_out = (None, 0)
         self._counts = self._new_counts()
         return super().reset(seed, options)
 
@@ -480,13 +536,15 @@ class ShowdownEnvironment(BaseShowdownEnv):
     # =========================================================
     def calc_reward(self, battle: AbstractBattle) -> float:
         """
-        Reward this step:
-          0.5 * damage dealt - 0.25 * damage taken   (in fractions of a Pokémon's HP)
-          + 0.2 per opponent Pokémon knocked out, - 0.2 per one of ours that faints
-          + 1 for a win / - 1 for a loss
+        Reward this step (weights: v6's defaults, see the v7 knobs at the top):
+          DEALT_WEIGHT (0.5) * damage dealt - TAKEN_WEIGHT (0.25) * damage taken
+                                                     (in fractions of a Pokémon's HP)
+          + KO_WEIGHT (0.2) per opponent Pokémon knocked out, - KO_WEIGHT per one of ours that faints
+          + WIN_REWARD (1) for a win / - WIN_REWARD for a loss
           - ILLEGAL_ACTION_PENALTY if the agent's action couldn't be taken
           + TERA_BONUS for a well-timed tera (_good_tera)
-          + SWITCH_BONUS or SETUP_BONUS for a good switch, setup or heal (_rule_bonus)
+          + SWITCH_BONUS or SETUP_BONUS for a good switch, setup or heal, minus the v7 switch and
+            heal costs (_rule_bonus)
         """
         prior = self._prev_battle_state.get(battle.player_username)
         if prior is None:
@@ -499,12 +557,12 @@ class ShowdownEnvironment(BaseShowdownEnv):
         knocked_out = opp_fainted - prior[3]
         lost = my_fainted - prior[2]
 
-        reward = 0.5 * damage_dealt - 0.25 * damage_taken + 0.2 * (knocked_out - lost)
+        reward = DEALT_WEIGHT * damage_dealt - TAKEN_WEIGHT * damage_taken + KO_WEIGHT * (knocked_out - lost)
 
         if battle.won:
-            reward += 1.0
+            reward += WIN_REWARD
         elif battle.lost:
-            reward -= 1.0
+            reward -= WIN_REWARD
 
         if battle is self.battle1:
             if self._illegal_action:
@@ -692,6 +750,12 @@ class ShowdownEnvironment(BaseShowdownEnv):
             "good_switch": 0,
             "good_setup": 0,
             "good_heal": 0,
+            # v7: voluntary switches back to the Pokémon switched out at most 2 turns before, and
+            # the plays the v7 costs apply to (see _rule_bonus) - counted whatever the costs are
+            "switch_back": 0,
+            "resist_switch_out": 0,
+            "other_switch": 0,
+            "high_heal": 0,
             **{f"{kind}_action": 0 for kind in MACRO_NAMES},
             "action_fallback": 0,
         }
@@ -703,6 +767,11 @@ class ShowdownEnvironment(BaseShowdownEnv):
             self._counts["illegal_tera"] += action >= TERA
         elif N_MOVES <= action < TERA:
             self._counts["forced_switches" if battle.force_switch else "switches"] += 1
+            if not battle.force_switch and battle.active_pokemon is not None:
+                target = list(battle.team.values())[action - N_MOVES]
+                back_from, turn = self._switched_out
+                self._counts["switch_back"] += target.species == back_from and battle.turn - turn <= 2
+                self._switched_out = (battle.active_pokemon.species, battle.turn)
         else:
             if action >= TERA:
                 self._counts["tera"] += 1

@@ -27,8 +27,10 @@ git clone https://github.com/smogon/pokemon-showdown.git "$BASE/pokemon-showdown
 git -C "$BASE/pokemon-showdown" checkout -q "$SHOWDOWN_COMMIT"
 (cd "$BASE/pokemon-showdown" && npm install)
 cp "$BASE/pokemon-showdown/config/config-example.js" "$BASE/pokemon-showdown/config/config.js"
-# Two battle-simulator processes so six parallel runs don't queue behind one
-sed -i 's/^\tsimulator: 1,/\tsimulator: 2,/' "$BASE/pokemon-showdown/config/config.js"
+# A battle-simulator process per ~4 parallel runs (at least 2), so they don't queue behind one:
+# 2 on a c2d-standard-8, 8 on a c2d-standard-32 (train_parallel.sh warns when there are too few)
+sims=$(( ($(nproc) - 2 + 3) / 4 > 2 ? ($(nproc) - 2 + 3) / 4 : 2 ))
+sed -i "s/^\tsimulator: 1,/\tsimulator: $sims,/" "$BASE/pokemon-showdown/config/config.js"
 
 # Python environment; CPU-only torch (same version as locally) instead of the multi-GB CUDA build
 python3 -m venv "$VENV"

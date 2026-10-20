@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # After a batch: test the named runs - or, with no names, every run of one environment version
-# (RUN_PREFIX, default v6) - for EPISODES battles (default 1000), copy the runs and their tests into
+# (RUN_PREFIX, default v7) - for EPISODES battles (default 1000), copy the runs and their tests into
 # runs/, commit and push. train_parallel.sh runs this with the runs it started once training ends
 # when started with TEST_AND_PUSH=1; it can also be run by hand.
 # Needs the Showdown server running. Pushing must work without a prompt (an SSH key or a stored
@@ -14,7 +14,7 @@ cd "$(dirname "$0")/.."
 
 PYTHON="${PYTHON:-python}"
 LOG_BASE="${CARES_LOG_BASE_DIR:-$HOME/cares_rl_logs}"
-export RUN_PREFIX="${RUN_PREFIX:-v6}"
+export RUN_PREFIX="${RUN_PREFIX:-v7}"
 export EPISODES="${EPISODES:-1000}"
 
 echo "== $(date) testing ${*:-the $RUN_PREFIX runs}, $EPISODES battles each"
@@ -47,7 +47,9 @@ if (( $# > 0 )); then
   patterns=()
   for name in "$@"; do patterns+=("-$name-"); done
   scripts/save_runs.sh "${patterns[@]}" || exit 1
-  git commit -q -m "$* + $EPISODES-battle tests (submission check $check)" || exit 1
+  names="$*"
+  if (( $# > 6 )); then names="$# runs, $1 ... ${!#}"; fi
+  git commit -q -m "$names + $EPISODES-battle tests (submission check $check)" || exit 1
 else
   scripts/save_runs.sh "-$RUN_PREFIX-" || exit 1
   git commit -q -m "$RUN_PREFIX runs + $EPISODES-battle tests (submission check $check)" || exit 1

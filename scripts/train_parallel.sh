@@ -17,6 +17,8 @@
 #   RESUME=1 TEST_AND_PUSH=1 DIAGNOSE=1 SHUTDOWN_WHEN_DONE=1 scripts/train_parallel.sh
 #                                                    # carry on with these runs from their last
 #                                                    # checkpoints (finished runs are just tested)
+#   MAX_PARALLEL=6 scripts/train_parallel.sh         # at most 6 runs at once, the rest queued
+#                                                    # (default: one per vCPU, less 2)
 #
 # A watcher then follows the runs (log: $OUT_DIR/after_training.log). It restarts the Showdown
 # server if it dies (SERVER_START) and resumes a run that has logged no battle for STALL_MINUTES
@@ -45,6 +47,9 @@ STALL_SECONDS="${STALL_SECONDS:-$(( STALL_MINUTES * 60 ))}"
 WATCH_INTERVAL="${WATCH_INTERVAL:-60}"  # seconds between the watcher's checks
 MAX_RESUMES="${MAX_RESUMES:-5}"
 STALLED_DIR="${STALLED_DIR:-$HOME/cares_rl_stalled}"
+# Runs training at once; the rest wait in a queue and start as others finish. A run keeps about one
+# vCPU busy, and the Showdown server needs a couple: 30 on a c2d-standard-32, 6 on a c2d-standard-8.
+MAX_PARALLEL="${MAX_PARALLEL:-$(( $(nproc) > 3 ? $(nproc) - 2 : 1 ))}"
 # How the watchdog restarts a dead Showdown server - as scripts/setup_gcp_vm.sh starts it
 SERVER_START="${SERVER_START:-tmux kill-session -t showdown 2> /dev/null; tmux new -d -s showdown 'cd $REPO/../pokemon-showdown && node pokemon-showdown start --no-security'}"
 SHUTDOWN_CMD="${SHUTDOWN_CMD:-sudo shutdown -h now}"
@@ -83,15 +88,45 @@ export OMP_NUM_THREADS=1
 # what v5 reached at 800k-1M, and still rising; tests 92.5 / 93.0 / 92.5%.
 # v6-1m: the same for 1M steps. b128: batch 128 instead of 32 - late in training the win rate
 # swings +-1.5 points between 50k-step windows, so try steadier updates.
+# v6-1m (a5f8bf7): 94.0% over 700k-1M (v5-1m 92.8), tests 94.8 / 93.3 / 94.1, b128 94.4 / 94.5.
+# The hand-written policy wins 95.4-95.7%; taking over its switches (+1.4) or heals (+1.5) closes
+# most of the gap (diagnostics/v6-1m). The agent switches out of a Pokémon immune to or resisting
+# the predicted move and back in a turn later, which the switch bonus pays for once per opponent -
+# hidden from the agent - and heals above half HP while skipping heals below it.
+# v7 reward sweep: v6's environment and network, 12 reward variants x seeds 10 and 20, 400k steps.
+# Compare variants by pooled training win rate over 300-400k (summarize_runs.py's variant table),
+# then run the best few at 1M with new seeds. The knobs are described at the top of
+# showdown_environment.py; every one defaults to v6's reward, so ctrl is v6-s10 / v6-s20 again.
+#   fix      switch bonus every time it matches + the same cost for switching out of a resisted
+#            or immune spot (out and back in nets nothing)
+#   sw05/15  fix + a cost for any other voluntary switch     hc10    fix + a cost for healing above half HP
+#   strict   fix + both costs                                 half / double  every bonus and cost x0.5 / x2
+#   taken50  fix + damage taken weighted like damage dealt    ko50    fix + 0.5 per knockout
+#   win2     fix + 2 for a win                                markov  fix + heal / setup bonus every time too
+# Seed 10 of every variant comes first, so with fewer cores (MAX_PARALLEL) each variant gets one run early.
 DQN3="DQN --use_double_dqn 1 --n_step 3 --lr 0.0003 --decay_steps 200000"
 RULES="SHOWDOWN_TERA_BONUS=0.6 SHOWDOWN_SWITCH_BONUS=0.3 SHOWDOWN_SETUP_BONUS=0.3"
-RUNS=(
-  "v6-1m-s10|10|1000000||$RULES|$DQN3|"
-  "v6-1m-s20|20|1000000||$RULES|$DQN3|"
-  "v6-1m-s30|30|1000000||$RULES|$DQN3|"
-  "v6-1m-b128-s10|10|1000000||$RULES|$DQN3 --batch_size 128|"
-  "v6-1m-b128-s20|20|1000000||$RULES|$DQN3 --batch_size 128|"
+FIX="$RULES SHOWDOWN_SWITCH_ONCE=0 SHOWDOWN_SWITCH_OUT_COST=0.3"
+VARIANTS=(
+  "ctrl|$RULES"
+  "fix|$FIX"
+  "sw05|$FIX SHOWDOWN_SWITCH_COST=0.05"
+  "sw15|$FIX SHOWDOWN_SWITCH_COST=0.15"
+  "hc10|$FIX SHOWDOWN_HEAL_COST=0.1"
+  "strict|$FIX SHOWDOWN_SWITCH_COST=0.1 SHOWDOWN_HEAL_COST=0.1"
+  "half|SHOWDOWN_TERA_BONUS=0.3 SHOWDOWN_SWITCH_BONUS=0.15 SHOWDOWN_SETUP_BONUS=0.15 SHOWDOWN_SWITCH_ONCE=0 SHOWDOWN_SWITCH_OUT_COST=0.15"
+  "double|SHOWDOWN_TERA_BONUS=1.2 SHOWDOWN_SWITCH_BONUS=0.6 SHOWDOWN_SETUP_BONUS=0.6 SHOWDOWN_SWITCH_ONCE=0 SHOWDOWN_SWITCH_OUT_COST=0.6"
+  "taken50|$FIX SHOWDOWN_TAKEN_WEIGHT=0.5"
+  "ko50|$FIX SHOWDOWN_KO_WEIGHT=0.5"
+  "win2|$FIX SHOWDOWN_WIN_REWARD=2"
+  "markov|$FIX SHOWDOWN_HEAL_SETUP_ONCE=0"
 )
+RUNS=()
+for seed in 10 20; do
+  for variant in "${VARIANTS[@]}"; do
+    RUNS+=("v7-${variant%%|*}-s$seed|$seed|||${variant#*|}|$DQN3|")
+  done
+done
 
 server_up() { (exec 3<>/dev/tcp/localhost/8000) 2> /dev/null; }
 
@@ -206,12 +241,24 @@ resume_run() {
   fi
 }
 
-# Wait for the started runs to finish. With WATCHDOG=1, once a minute: restart the Showdown server
+# Start a run that waited in the queue: from scratch, or with RESUME=1 from its last checkpoint
+start_queued() {
+  if [[ "$RESUME" == 1 ]]; then
+    resume_run "$1"
+  elif launch "$1"; then
+    run_pid[$1]=$STARTED_PID
+  else
+    return 1
+  fi
+}
+
+# Wait for the started runs to finish, starting queued ones while fewer than MAX_PARALLEL run.
+# With WATCHDOG=1, once a minute: restart the Showdown server
 # if it's gone, and resume a run that has logged no battle for STALL_MINUTES or ended without a
 # final model, up to MAX_RESUMES times per run. (The server crashed, or dropped one run's
 # connection, three times in v6-1m's first 4 hours; poke_env then waits for a message forever.)
 watch_runs() {
-  local name pid idle active
+  local name pid idle active running
   local -A over=()
   while :; do
     if [[ "$WATCHDOG" == 1 ]] && ! server_up; then
@@ -220,13 +267,19 @@ watch_runs() {
       wait_for_server || echo "$(date) the server didn't come back"
     fi
     active=0
+    running=0
     for name in "${started[@]}"; do
       [[ -n "${over[$name]:-}" ]] && continue
+      if [[ -n "${queued[$name]:-}" ]]; then
+        active=1
+        continue
+      fi
       pid=${run_pid[$name]:-}
       if [[ -n "$pid" ]] && kill -0 "$pid" 2> /dev/null; then
         idle=$(idle_seconds "$name")
         if [[ "$WATCHDOG" != 1 ]] || (( idle < STALL_SECONDS )) || finished "$(run_dir "$name")"; then
           active=1
+          running=$((running + 1))
           continue
         fi
         echo "$(date) $name: no battle logged for $((idle / 60)) min - stopping it (pid $pid)"
@@ -251,8 +304,21 @@ watch_runs() {
       echo "$(date) resuming $name (restart ${resumes[$name]} of at most $MAX_RESUMES)"
       if resume_run "$name"; then
         active=1
+        running=$((running + 1))
       else
         echo "$(date) $name didn't restart - giving up on it"
+        over[$name]=given-up
+      fi
+    done
+    while (( running < MAX_PARALLEL && ${#queue[@]} > 0 )); do
+      name=${queue[0]}
+      queue=("${queue[@]:1}")
+      unset "queued[$name]"
+      echo "$(date) starting $name from the queue (${#queue[@]} still waiting)"
+      if start_queued "$name"; then
+        running=$((running + 1))
+      else
+        echo "$(date) $name didn't start - giving up on it"
         over[$name]=given-up
       fi
     done
@@ -263,8 +329,22 @@ watch_runs() {
 
 wait_for_server || exit 1
 mkdir -p "$OUT_DIR"
-started=()
+started=()  # every run this call is responsible for, queued ones too
 failed=()
+queue=()
+declare -A queued=()
+launched=0
+
+# Showdown simulates battles in `simulator` child processes (config.js; setup_gcp_vm.sh sets 2,
+# enough for 6-8 runs). Many more runs at once queue behind them.
+config="$REPO/../pokemon-showdown/config/config.js"
+sims=$(sed -nE 's/^\tsimulator: ([0-9]+),.*/\1/p' "$config" 2> /dev/null | head -n 1)
+at_once=$(( MAX_PARALLEL < ${#RUNS[@]} ? MAX_PARALLEL : ${#RUNS[@]} ))
+if [[ -n "$sims" ]] && (( sims * 4 < at_once )); then
+  echo "warning: $config has simulator: $sims for up to $at_once runs at once - for more, set" >&2
+  echo "  sed -i 's/^\tsimulator: [0-9]*,/\tsimulator: $(( (at_once + 3) / 4 )),/' $config" >&2
+  echo "  and restart the server (tmux kill-session -t showdown, then start it again)" >&2
+fi
 
 if [[ "$RESUME" == 1 ]]; then
   # An earlier call's watcher would test, push and shut down as soon as its stalled runs are stopped
@@ -288,10 +368,14 @@ for run in "${RUNS[@]}"; do
       echo "stopping $name's old process (pid $pid)"
       stop_run "$pid"
     done
-    if resume_run "$name"; then started+=("$name"); else failed+=("$name"); fi
-  elif launch "$name"; then
-    run_pid[$name]=$STARTED_PID
+  fi
+  if (( launched >= MAX_PARALLEL )); then
+    queue+=("$name")
+    queued[$name]=1
     started+=("$name")
+  elif start_queued "$name"; then
+    started+=("$name")
+    launched=$((launched + 1))
   else
     failed+=("$name")
   fi
@@ -341,3 +425,6 @@ if [[ "$TEST_AND_PUSH" == 1 ]]; then todo+=" then test ${started[*]}, commit and
 if [[ "$DIAGNOSE" == 1 ]]; then todo+=" diagnose, commit and push;"; fi
 if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then todo+=" shut down once every cares-rl run on this machine has ended"; fi
 echo "watching ${started[*]}${todo%;} (log: $OUT_DIR/after_training.log)"
+if (( ${#queue[@]} > 0 )); then
+  echo "${#queue[@]} runs wait in the queue and start as others finish ($MAX_PARALLEL at a time): ${queue[*]}"
+fi
