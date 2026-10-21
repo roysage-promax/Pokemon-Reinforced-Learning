@@ -113,23 +113,20 @@ export OMP_NUM_THREADS=1
 # 24 runs 91.7-94.5%, and the variants differ no more than seeds do (one-way ANOVA F = 0.77); tests
 # pooled 93.3%, spread exactly as luck. fix halves switching out and back in (0.36 -> 0.10-0.22 a
 # battle) without winning more; sw15 came first (93.8%, tests 94.5%) but not significantly.
-# v7-2m: what more training buys, 2M steps. v6-1m gained ~0.15 points per 100k from 400k to 800k
-# (93.3 -> 94.2%), then flat to 1M.
-#   cont     v6-1m-s10/20/30 carried on from 1M with the same settings
-#   lr1e4    the same with the learning rate down from 3e-4 to 1e-4 for the second million
-#   sw15     v7's best-on-paper reward (fix + 0.15 per other voluntary switch), from scratch, new seeds
-#   w128     v6's reward with 128-unit hidden layers (v3's 256 did much worse than 64)
+# v7-2m (9d4478a, wave 1): v6-1m carried on to 2M (cont, lr1e4), sw15 and 128-unit layers at 2M.
+# v8 (wave 2, next to v7-2m on one machine): v7's environment + damage from stats. The agent saw
+# damage only as base power * accuracy * type * STAB relative to its best option - nothing on how
+# much of either side's HP a hit takes, so nothing to time a heal or a switch by (the v6-1m
+# diagnostics: heals +1.5, switches +1.4 of the 2.1 points between the agent and the hand-written
+# policy). 27 new features (111): each move's damage as a fraction of the opponent's HP, the
+# predicted move's on our active (of current and of max HP) and on each teammate, each teammate's
+# best move's on the opponent, real speed. "Best attack" (16, 17) picks by the new estimate, and
+# the opponent's immunity abilities (Levitate...) now count everywhere. Same reward, network and
+# seeds as v6-1m, 1M steps: compare with v6-1m over 700k-1M (94.0%).
 DQN3="DQN --use_double_dqn 1 --n_step 3 --lr 0.0003 --decay_steps 200000"
 RULES="SHOWDOWN_TERA_BONUS=0.6 SHOWDOWN_SWITCH_BONUS=0.3 SHOWDOWN_SETUP_BONUS=0.3"
-FIX="$RULES SHOWDOWN_SWITCH_ONCE=0 SHOWDOWN_SWITCH_OUT_COST=0.3"
-SW15="$FIX SHOWDOWN_SWITCH_COST=0.15"
 RUNS=()
-for seed in 10 20 30; do
-  RUNS+=("v7-2m-cont-s$seed|$seed|2000000||$RULES|$DQN3||v6-1m-s$seed|")
-  RUNS+=("v7-2m-lr1e4-s$seed|$seed|2000000||$RULES|$DQN3||v6-1m-s$seed|0.0001")
-done
-for seed in 30 40 50; do RUNS+=("v7-2m-sw15-s$seed|$seed|2000000||$SW15|$DQN3|"); done
-for seed in 10 20; do RUNS+=("v7-2m-w128-s$seed|$seed|2000000|128|$RULES|$DQN3|"); done
+for seed in 10 20 30; do RUNS+=("v8-s$seed|$seed|1000000||$RULES|$DQN3|"); done
 
 server_up() { (exec 3<>/dev/tcp/localhost/8000) 2> /dev/null; }
 

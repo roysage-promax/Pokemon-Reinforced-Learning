@@ -12,7 +12,7 @@ Runs that differ only in their seed (name ending -s10, -s20...) are also pooled 
 variant, ranked by win rate over each variant's last 100k steps (or --window), with their tests
 pooled too - the table for comparing a sweep such as v7's reward variants.
 
-    python scripts/summarize_runs.py                      # ~/cares_rl_logs, v7 runs
+    python scripts/summarize_runs.py                      # ~/cares_rl_logs, v8 runs
     python scripts/summarize_runs.py runs --prefix v3     # the runs committed to the repo
     python scripts/summarize_runs.py --window 300000 400000
 """
@@ -54,7 +54,7 @@ def win_rate(rows):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("log_dir", nargs="?", default=os.environ.get("CARES_LOG_BASE_DIR", "~/cares_rl_logs"))
-    parser.add_argument("--prefix", default="v7", help="environment version in the run names")
+    parser.add_argument("--prefix", default="v8", help="environment version in the run names")
     parser.add_argument("--window", type=int, nargs=2, metavar=("FROM", "TO"),
                         help="steps the variant table pools (default: each variant's last 100k)")
     args = parser.parse_args()

@@ -9,7 +9,7 @@
 set -uo pipefail
 
 LOG_BASE="${CARES_LOG_BASE_DIR:-$HOME/cares_rl_logs}"
-RUN_PREFIX="${RUN_PREFIX:-v7}"
+RUN_PREFIX="${RUN_PREFIX:-v8}"
 now=$(date +%s)
 
 printf "%-16s %-8s %7s %5s %9s %7s  %s\n" run status steps done "time left" memory "eval wins @ latest checkpoints"

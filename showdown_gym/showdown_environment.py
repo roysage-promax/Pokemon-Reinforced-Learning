@@ -9,7 +9,7 @@ from poke_env import (
     RandomPlayer,
     SimpleHeuristicsPlayer,
 )
-from poke_env.battle import AbstractBattle, Move, MoveCategory, PokemonType, Target
+from poke_env.battle import AbstractBattle, Move, MoveCategory, PokemonType, Status, Target
 from poke_env.environment.single_agent_wrapper import SingleAgentWrapper
 from poke_env.environment.singles_env import ObsType
 from poke_env.player.player import Player
@@ -79,7 +79,8 @@ WIN_REWARD = float(os.environ.get("SHOWDOWN_WIN_REWARD", "1"))
 # Tera types that don't replace the Pokémon's types (Stellar keeps its original ones)
 NO_TYPE_CHANGE_TERA = {PokemonType.STELLAR, PokemonType.THREE_QUESTION_MARKS}
 
-# Our own abilities and items are known, so these immunities are certain
+# Abilities that make a Pokémon immune to a type. Ours are known; the opponent's once revealed,
+# when its species has only one, or from IMMUNE_ABILITY_IDS (random-battle sets) - see _ability
 IMMUNE_ABILITIES = {
     "levitate": "GROUND",
     "eartheater": "GROUND",
@@ -96,6 +97,16 @@ IMMUNE_ABILITIES = {
 
 # Healing moves whose amount isn't in the move data's "heal" field
 EXTRA_HEAL_MOVES = {"moonlight", "morningsun", "synthesis", "shoreup", "strengthsap", "rest"}
+# Moves that take half the target's current HP, whatever its stats
+HALF_HP_MOVES = {"superfang", "ruination", "naturesmadness"}
+# Average of the damage formula's random roll (85-100%)
+RANDOM_ROLL = 0.925
+# Power assumed for damaging moves whose power depends on the battle (Low Kick, Gyro Ball...)
+VARIABLE_POWER = 60
+# Attacking items and abilities _damage counts when it knows them (always for ours): the move
+# category they boost (None: any) and by how much
+POWER_ITEMS = {"choiceband": (MoveCategory.PHYSICAL, 1.5), "choicespecs": (MoveCategory.SPECIAL, 1.5), "lifeorb": (None, 1.3)}
+POWER_ABILITIES = {"hugepower": (MoveCategory.PHYSICAL, 2.0), "purepower": (MoveCategory.PHYSICAL, 2.0)}
 
 
 class ShowdownEnvironment(BaseShowdownEnv):
@@ -249,17 +260,42 @@ class ShowdownEnvironment(BaseShowdownEnv):
                 return slot, True
         return self._best_slot(battle), False
 
+    def _damage_table(self, battle: AbstractBattle) -> dict[int, tuple[np.float32, ...]]:
+        """
+        For each usable move slot, the observation's damage features (float32): relative damage
+        (rough estimate incl. our boosts / the best option's, with and without tera), the same if
+        we terastallize first, damage as a fraction of the opponent's HP (_damage_fraction), the
+        same after terastallizing. The tera ones are 0 when we can't tera now.
+        """
+        active, opp = battle.active_pokemon, battle.opponent_active_pokemon
+        if active is None or opp is None:
+            return {}
+        legal = self._legal_moves(battle)
+        can_tera = battle.can_tera
+        rough = {s: self._expected_damage(m, active, opp, use_boosts=True) for s, m in legal}
+        rough_tera = {s: self._expected_damage(m, active, opp, use_boosts=True, tera=True) if can_tera else 0.0 for s, m in legal}
+        best = max([*rough.values(), *rough_tera.values()], default=0.0) or 1.0
+        table = {}
+        for slot, move in legal:
+            fraction = self._damage_fraction(move, active, opp)
+            tera_fraction = self._damage_fraction(move, active, opp, tera=True) if can_tera else 0.0
+            table[slot] = tuple(np.float32(x) for x in (rough[slot] / best, rough_tera[slot] / best, fraction, tera_fraction))
+        return table
+
     def _best_slot(self, battle: AbstractBattle, tera: bool = False) -> int:
         """
-        The usable move slot with the highest relative damage in the observation (expected
-        damage with our boosts; tera: after terastallizing). 0 when no move is usable.
+        The usable move slot that takes the biggest fraction of the opponent's HP by the stat-based
+        estimate (_damage_fraction, with both sides' boosts; tera: after terastallizing), ties (such
+        as two moves that both knock it out) broken by the rough relative damage, then the lower
+        slot - all from the observation's values, so the agent can tell which move it is. 0 when
+        no move is usable.
         """
-        legal = self._legal_moves(battle)
-        active, opp = battle.active_pokemon, battle.opponent_active_pokemon
-        if not legal or active is None or opp is None:
+        table = self._damage_table(battle)
+        if not table:
             return 0
-        slot, _ = max(legal, key=lambda pair: self._expected_damage(pair[1], active, opp, use_boosts=True, tera=tera))
-        return slot
+        if tera:
+            return max(table, key=lambda slot: (table[slot][3], table[slot][1]))
+        return max(table, key=lambda slot: (table[slot][2], table[slot][0]))
 
     def _switch_target(self, battle: AbstractBattle, safest: bool) -> int | None:
         """
@@ -313,12 +349,103 @@ class ShowdownEnvironment(BaseShowdownEnv):
         Rough damage estimate: base power * accuracy * type multiplier * STAB (* attack boost).
         tera: as if the attacker terastallized first.
         """
-        damage = move.base_power * move.accuracy * defender.damage_multiplier(move) * cls._stab(move, attacker, tera)
+        damage = move.base_power * move.accuracy * cls._threat(move, defender) * cls._stab(move, attacker, tera)
         if use_boosts and move.category != MoveCategory.STATUS:
             stat = "atk" if move.category == MoveCategory.PHYSICAL else "spa"
             stage = attacker.boosts.get(stat, 0)
             damage *= (2 + stage) / 2 if stage >= 0 else 2 / (2 - stage)
         return damage
+
+    @staticmethod
+    def _boost(stage: int) -> float:
+        return (2 + stage) / 2 if stage >= 0 else 2 / (2 - stage)
+
+    @staticmethod
+    def _ours(mon) -> bool:
+        """The server tells us our own Pokémon's stats; poke_env leaves the opponent's at None."""
+        return mon.stats.get("atk") is not None
+
+    @classmethod
+    def _stat(cls, mon, stat: str) -> float:
+        """
+        A stat without boosts: ours from the server, the opponent's estimated the way random
+        battles build sets (the level shown in the battle, 85 EVs and 31 IVs, neutral nature).
+        """
+        if cls._ours(mon) and mon.stats.get(stat):
+            return float(mon.stats[stat])
+        return float((2 * mon.base_stats[stat] + 31 + 21) * mon.level // 100 + 5)
+
+    @classmethod
+    def _max_hp_points(cls, mon) -> float:
+        if cls._ours(mon):
+            return float(mon.max_hp)
+        return float((2 * mon.base_stats["hp"] + 31 + 21) * mon.level // 100 + mon.level + 10)
+
+    @classmethod
+    def _speed(cls, mon) -> float:
+        """Speed with boosts, halved by paralysis (items like Choice Scarf aren't known)."""
+        speed = cls._stat(mon, "spe") * cls._boost(mon.boosts.get("spe", 0))
+        return speed / 2 if mon.status == Status.PAR else speed
+
+    @classmethod
+    def _damage(cls, move, attacker, defender, tera: bool = False, defender_tera: bool = False) -> float:
+        """
+        Expected damage in HP points: the game's damage formula with both Pokémon's levels and
+        stats (see _stat), the attacker's offensive and the defender's defensive boosts, burn,
+        STAB, the type multiplier (with the immunities _threat knows of, on either side),
+        accuracy, the average roll and the expected number of hits, halved for two-turn moves; the
+        attacker's item and ability when known (POWER_ITEMS, POWER_ABILITIES, Technician,
+        Adaptability, Expert Belt). Fixed-damage moves deal their fixed amount. Defensive items
+        and abilities, weather, screens and critical hits are left out.
+        tera / defender_tera: as if that side terastallized first.
+        """
+        if move.category == MoveCategory.STATUS:
+            return 0.0
+        multiplier = cls._threat(move, defender, tera=defender_tera)
+        if multiplier == 0:
+            return 0.0
+        if move.damage == "level":
+            return float(attacker.level) * move.accuracy
+        if isinstance(move.damage, int) and move.damage > 0:
+            return float(move.damage) * move.accuracy
+        if move.id in HALF_HP_MOVES:
+            return defender.current_hp_fraction * cls._max_hp_points(defender) / 2 * move.accuracy
+        physical = move.category == MoveCategory.PHYSICAL
+        offence = move.entry.get("overrideOffensiveStat") or ("atk" if physical else "spa")
+        defence = move.entry.get("overrideDefensiveStat") or ("def" if physical else "spd")
+        # Foul Play uses the target's attack
+        user = defender if move.entry.get("overrideOffensivePokemon") == "target" else attacker
+        attack = cls._stat(user, offence) * cls._boost(user.boosts.get(offence, 0))
+        defend = cls._stat(defender, defence) * cls._boost(defender.boosts.get(defence, 0))
+        power = move.base_power or VARIABLE_POWER
+        ability = cls._ability(attacker)
+        if ability == "technician" and power <= 60:
+            power *= 1.5
+        for category, factor in (POWER_ITEMS.get(attacker.item, (None, None)), POWER_ABILITIES.get(ability, (None, None))):
+            if factor is not None and category in (None, move.category):
+                attack *= factor
+        damage = (2 * attacker.level / 5 + 2) * power * attack / max(defend, 1.0) / 50 + 2
+        stab = cls._stab(move, attacker, tera)
+        if ability == "adaptability" and stab == 1.5:
+            stab = 2.0
+        damage *= stab * multiplier * RANDOM_ROLL * move.expected_hits * move.accuracy
+        if attacker.item == "expertbelt" and multiplier > 1:
+            damage *= 1.2
+        if physical and attacker.status == Status.BRN and attacker.ability != "guts":
+            damage /= 2
+        # Two-turn moves (Meteor Beam without Power Herb, Hyper Beam): half a turn's damage
+        flags = move.entry.get("flags", {})  # a few moves (Struggle, Recharge) have none
+        if ("charge" in flags and attacker.item != "powerherb") or "recharge" in flags:
+            damage /= 2
+        return damage
+
+    @classmethod
+    def _damage_fraction(cls, move, attacker, defender, tera: bool = False, defender_tera: bool = False) -> float:
+        """_damage as a fraction of the defender's current HP, capped at 1 (likely knocks it out)."""
+        hp = defender.current_hp_fraction * cls._max_hp_points(defender)
+        if hp <= 0:
+            return 0.0
+        return min(cls._damage(move, attacker, defender, tera, defender_tera) / hp, 1.0)
 
     @classmethod
     def _stab(cls, move, mon, tera: bool = False) -> float:
@@ -355,13 +482,22 @@ class ShowdownEnvironment(BaseShowdownEnv):
         guess = STRONGEST_MOVES.get(opp.species)
         return guess, guess is not None
 
+    @staticmethod
+    def _ability(mon) -> str | None:
+        """
+        A Pokémon's ability: ours, or the opponent's once revealed or when its species has only
+        one; else the immunity ability every random-battle set of its species has, if any.
+        """
+        return mon.ability or IMMUNE_ABILITY_IDS.get(mon.species)
+
     @classmethod
     def _threat(cls, move: Move, mon, tera: bool = False) -> float:
         """
-        Type multiplier of an opponent's move on one of our Pokemon, counting immunities we know of.
+        Type multiplier of a move on a Pokémon (either side's), counting immunities from abilities
+        (_ability) and Air Balloon (ours, or the opponent's once revealed).
         tera: as if it terastallized first (abilities and items still apply).
         """
-        if IMMUNE_ABILITIES.get(mon.ability) == move.type.name:
+        if IMMUNE_ABILITIES.get(cls._ability(mon)) == move.type.name:
             return 0.0
         if move.type.name == "GROUND" and mon.item == "airballoon":
             return 0.0
@@ -581,7 +717,7 @@ class ShowdownEnvironment(BaseShowdownEnv):
           relative damage  (expected damage incl. our boosts / the best option's, best = 1; the
             options are every legal move, with and without tera)
           expected power   (base_power * accuracy / 150, capped at 1)
-          type effectiveness vs opponent active (multiplier / 4)
+          type effectiveness vs opponent active (multiplier / 4, with the immunities _threat knows)
           raises our attack or special attack (setup move)
           heals us
           relative damage if we terastallize first (0 when we can't tera now)
@@ -617,10 +753,20 @@ class ShowdownEnvironment(BaseShowdownEnv):
           a teammate can come in now (18 and 19 are legal)
           the safest switch's threat (/ 4) and offence, the best-matchup switch's threat (/ 4)
             and offence (same scale as the team slots; 0 when nobody can come in)
+        Damage from stats (_damage: levels, stats, boosts, STAB, types, accuracy, hits), as a
+        fraction of the defender's current HP, capped at 1 (likely knocks it out):
+          each move slot's on the opponent's active (0 when not usable), the same after we
+            terastallize (0 when we can't tera now) - what actions 16 and 17 pick by
+          the predicted move's on our active, the same as a fraction of our active's max HP (how
+            much a heal has to make up), and on our active after we terastallize (0 when we
+            can't tera now)
+          per team slot: the predicted move's on it, its best move's on the opponent's active
+        Speed from stats (levels, boosts, paralysis), per team slot and for our active:
+          faster than the opponent's active
         Nothing is legal on steps where only the opponent chooses (our action is ignored).
-        = 28 + 30 + 6 + 6 + 2 + 3 + 1 + 2 + 6 = 84 features
+        = 28 + 30 + 6 + 6 + 2 + 3 + 1 + 2 + 6 + 8 + 3 + 12 + 7 = 114 features
         """
-        return 84
+        return 114
 
     def embed_battle(self, battle: AbstractBattle) -> np.ndarray:
         obs = np.zeros(self._observation_size(), dtype=np.float32)
@@ -637,31 +783,19 @@ class ShowdownEnvironment(BaseShowdownEnv):
 
         # Move slots
         i = 0
-        if moving:
-            slots = self._move_slots(battle)
-            available = {move.id for move in battle.available_moves}
-            damage = [
-                self._expected_damage(move, active, opp, use_boosts=True) if move.id in available else 0.0
-                for move in slots
-            ]
-            tera_damage = [
-                self._expected_damage(move, active, opp, use_boosts=True, tera=True)
-                if can_tera and move.id in available
-                else 0.0
-                for move in slots
-            ]
-            best = max(damage + tera_damage, default=0.0) or 1.0
-            for slot, move in enumerate(slots):
-                if move.id not in available:
-                    continue  # disabled / out of PP -> all zeros
-                base = 7 * slot
-                obs[base] = 1.0
-                obs[base + 1] = damage[slot] / best
-                obs[base + 2] = min(move.base_power * move.accuracy / 150.0, 1.0)
-                obs[base + 3] = opp.damage_multiplier(move) / 4.0
-                obs[base + 4] = float(self._is_setup(move))
-                obs[base + 5] = float(self._is_heal(move))
-                obs[base + 6] = tera_damage[slot] / best
+        damage_table = self._damage_table(battle) if moving else {}
+        slots = self._move_slots(battle) if moving else []
+        for slot, (relative, relative_tera, _, _) in damage_table.items():
+            # Disabled / out of PP moves aren't in the table -> all zeros
+            move = slots[slot]
+            base = 7 * slot
+            obs[base] = 1.0
+            obs[base + 1] = relative
+            obs[base + 2] = min(move.base_power * move.accuracy / 150.0, 1.0)
+            obs[base + 3] = self._threat(move, opp) / 4.0
+            obs[base + 4] = float(self._is_setup(move))
+            obs[base + 5] = float(self._is_heal(move))
+            obs[base + 6] = relative_tera
         i = 7 * N_MOVES
 
         # Team slots
@@ -731,6 +865,31 @@ class ShowdownEnvironment(BaseShowdownEnv):
             obs[i + 1] = 1.0
             obs[i + 2 : i + 4] = obs[[team_obs + 5 * safest + 2, team_obs + 5 * safest + 3]]
             obs[i + 4 : i + 6] = obs[[team_obs + 5 * matchup + 2, team_obs + 5 * matchup + 3]]
+        i += 6
+
+        # Damage from stats, as a fraction of the defender's current HP
+        for slot, (_, _, fraction, tera_fraction) in damage_table.items():
+            obs[i + slot] = fraction
+            obs[i + N_MOVES + slot] = tera_fraction
+        i += 2 * N_MOVES
+        if predicted is not None and active is not None and not active.fainted:
+            obs[i] = self._damage_fraction(predicted, opp, active)
+            obs[i + 1] = min(self._damage(predicted, opp, active) / max(self._max_hp_points(active), 1.0), 1.0)
+            if can_tera:
+                obs[i + 2] = self._damage_fraction(predicted, opp, active, defender_tera=True)
+        i += 3
+        for slot, mon in enumerate(list(battle.team.values())[:N_SWITCHES]):
+            if mon.fainted:
+                continue
+            if predicted is not None:
+                obs[i + slot] = self._damage_fraction(predicted, opp, mon)
+            obs[i + N_SWITCHES + slot] = max(
+                (self._damage_fraction(move, mon, opp) for move in mon.moves.values()), default=0.0
+            )
+            obs[i + 2 * N_SWITCHES + slot] = float(self._speed(mon) > self._speed(opp))
+        i += 3 * N_SWITCHES
+        if active is not None:
+            obs[i] = float(self._speed(active) > self._speed(opp))
         return obs
 
     # =========================================================
@@ -795,6 +954,28 @@ class ShowdownEnvironment(BaseShowdownEnv):
 # Species -> strongest move in its random-battle movepools, for guessing an opponent's next move
 # before it has attacked (see _predicted_move). Written by scripts/build_strongest_moves.py from
 # Showdown's gen9 random-battle sets; it lives here because only this file is submitted.
+# BEGIN IMMUNE ABILITIES
+IMMUNE_ABILITY_IDS = {
+    "azelf": "levitate", "bronzong": "levitate", "cacturne": "waterabsorb", "chimecho": "levitate",
+    "cresselia": "levitate", "cryogonal": "levitate", "dachsbun": "wellbakedbody",
+    "eelektross": "levitate", "electivire": "motordrive", "farigiraf": "sapsipper",
+    "flygon": "levitate", "gastrodon": "stormdrain", "girafarig": "sapsipper",
+    "giratinaorigin": "levitate", "gogoat": "sapsipper", "goodra": "sapsipper",
+    "goodrahisui": "sapsipper", "heatran": "flashfire", "houndoom": "flashfire",
+    "hydreigon": "levitate", "jolteon": "voltabsorb", "kilowattrel": "voltabsorb",
+    "lanturn": "voltabsorb", "lapras": "waterabsorb", "latias": "levitate", "latios": "levitate",
+    "lumineon": "stormdrain", "mesprit": "levitate", "minun": "voltabsorb",
+    "misdreavus": "levitate", "mismagius": "levitate", "ogerponwellspring": "waterabsorb",
+    "orthworm": "eartheater", "pachirisu": "voltabsorb", "pikachu": "lightningrod",
+    "plusle": "lightningrod", "raichu": "lightningrod", "rhydon": "lightningrod",
+    "rotom": "levitate", "rotomfan": "levitate", "rotomfrost": "levitate", "rotomheat": "levitate",
+    "rotommow": "levitate", "rotomwash": "levitate", "tatsugiri": "stormdrain",
+    "thundurustherian": "voltabsorb", "toxicroak": "dryskin", "uxie": "levitate",
+    "vaporeon": "waterabsorb", "vikavolt": "levitate", "volcanion": "waterabsorb",
+    "weezing": "levitate", "weezinggalar": "levitate", "zebstrika": "sapsipper",
+}
+# END IMMUNE ABILITIES
+
 # BEGIN STRONGEST MOVES
 STRONGEST_MOVE_IDS = {
     "abomasnow": "woodhammer", "alcremie": "alluringvoice", "alomomola": "scald",

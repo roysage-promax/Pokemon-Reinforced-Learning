@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # The grading test - 100 battles against the max expert with --eval_seed 10 - for every run of
-# one environment version (RUN_PREFIX, default v7), in parallel, then a win-rate summary.
+# one environment version (RUN_PREFIX, default v8), in parallel, then a win-rate summary.
 # cares-rl tests a run's models/final, or its highest numbered checkpoint if it has no final one.
 # Needs the Showdown server running.
 #
-#   scripts/test_parallel.sh                        # every v7 run
+#   scripts/test_parallel.sh                        # every v8 run
 #   scripts/test_parallel.sh v6-s10 v6-s20          # only these runs
 #   EPISODES=1000 scripts/test_parallel.sh          # more battles for a tighter estimate
 #   RUN_PREFIX=v3 scripts/test_parallel.sh          # the v3 runs (needs the v3 environment code)
@@ -16,7 +16,7 @@ LOG_BASE="${CARES_LOG_BASE_DIR:-$HOME/cares_rl_logs}"
 CARES_RL="${CARES_RL:-cares-rl}"
 OUT_DIR="${OUT_DIR:-rl_logs}"
 EPISODES="${EPISODES:-100}"
-RUN_PREFIX="${RUN_PREFIX:-v7}"
+RUN_PREFIX="${RUN_PREFIX:-v8}"
 
 export OMP_NUM_THREADS=1
 # Python finds this checkout's showdown_gym before the installed one (see train_parallel.sh)

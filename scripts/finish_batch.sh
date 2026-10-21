@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # After a batch: test the named runs - or, with no names, every run of one environment version
-# (RUN_PREFIX, default v7) - for EPISODES battles (default 1000), copy the runs and their tests into
+# (RUN_PREFIX, default v8) - for EPISODES battles (default 1000), copy the runs and their tests into
 # runs/, commit and push. train_parallel.sh runs this with the runs it started once training ends
 # when started with TEST_AND_PUSH=1; it can also be run by hand.
 # Needs the Showdown server running. Pushing must work without a prompt (an SSH key or a stored
@@ -14,7 +14,7 @@ cd "$(dirname "$0")/.."
 
 PYTHON="${PYTHON:-python}"
 LOG_BASE="${CARES_LOG_BASE_DIR:-$HOME/cares_rl_logs}"
-export RUN_PREFIX="${RUN_PREFIX:-v7}"
+export RUN_PREFIX="${RUN_PREFIX:-v8}"
 export EPISODES="${EPISODES:-1000}"
 
 echo "== $(date) testing ${*:-the $RUN_PREFIX runs}, $EPISODES battles each"

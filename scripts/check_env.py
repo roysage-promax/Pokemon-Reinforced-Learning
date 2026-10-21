@@ -46,6 +46,7 @@ TERA = BOOSTS + 2  # [can tera now, active is terastallized, tera unused]
 FORCED = TERA + 3
 KINDS = FORCED + 1  # [usable healing move, usable setup move]
 MACROS = KINDS + 2  # [best tera damage, can switch, safest threat / 4, offence, best-matchup threat / 4, offence]
+DAMAGE = MACROS + 6  # v8: 4 x [damage / opponent's HP], 4 x [the same after tera], then incoming damage...
 TERA_ACTION = N_MOVES + N_SWITCHES
 
 
@@ -55,6 +56,11 @@ def threat(obs: np.ndarray, j: int) -> float:
 
 def matchup(obs: np.ndarray, j: int) -> float:
     return 2 * obs[TEAM + 5 * j + 3] - threat(obs, j)
+
+
+def best_attack(obs: np.ndarray, legal: list[int]) -> int:
+    """The move slot action 16 uses: the biggest damage / opponent's HP, then relative damage, then the lower slot."""
+    return max(legal, key=lambda s: (obs[DAMAGE + s], obs[MOVE + 7 * s + 1])) if legal else 0
 
 
 def resolve(obs: np.ndarray, action: int) -> int:
@@ -68,11 +74,12 @@ def resolve(obs: np.ndarray, action: int) -> int:
             if obs[MOVE + 7 * s + col]:
                 return s
     if action in (HEAL, SETUP, BEST_ATTACK):
-        return max(legal, key=lambda s: obs[MOVE + 7 * s + 1]) if legal else 0
+        return best_attack(obs, legal)
     if action == BEST_TERA:
         if not obs[TERA]:
             return resolve(obs, BEST_ATTACK)
-        return TERA_ACTION + max(legal, key=lambda s: obs[MOVE + 7 * s + 6]) if legal else TERA_ACTION
+        key = lambda s: (obs[DAMAGE + N_MOVES + s], obs[MOVE + 7 * s + 6])  # noqa: E731
+        return TERA_ACTION + max(legal, key=key) if legal else TERA_ACTION
     switches = [j for j in range(N_SWITCHES) if obs[TEAM + 5 * j]]
     if not switches:
         return N_MOVES
@@ -94,7 +101,7 @@ def policy(obs: np.ndarray, tera: bool, macros: bool = False) -> int:
             return MATCHUP_SWITCH
         return N_MOVES + max(legal_switches, key=lambda j: matchup(obs, j)) if legal_switches else 0
 
-    best_move = BEST_ATTACK if macros else max(legal_moves, key=lambda s: obs[MOVE + 7 * s + 1])
+    best_move = BEST_ATTACK if macros else best_attack(obs, legal_moves)
     if not (obs[PREDICTED] or obs[PREDICTED + 1]):
         return best_move
 
