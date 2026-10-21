@@ -357,16 +357,17 @@ if [[ -n "$sims" ]] && (( sims * 4 < at_once )); then
   echo "  and restart the server (tmux kill-session -t showdown, then start it again)" >&2
 fi
 
-# Each run keeps its replay buffer on disk (~1 GB at 1M steps) and writes a new copy before
-# replacing the old one, so allow 2 GB a run
+# Each run keeps its replay buffer on disk (0.55 GB at 1M steps on the VM) and writes a new copy
+# before replacing the old one, plus logs and models: allow 1.2 GB a run, and 3 GB to spare
 selected=0
 for run in "${RUNS[@]}"; do
   if (( $# == 0 )) || [[ " $* " == *" ${run%%|*} "* ]]; then selected=$((selected + 1)); fi
 done
 mkdir -p "$LOG_BASE"
 free_gb=$(df -Pk "$LOG_BASE" | awk 'NR == 2 { print int($4 / 1048576) }')
-if [[ "${DISK_CHECK:-1}" == 1 ]] && (( free_gb < 2 * selected + 5 )); then
-  echo "only $free_gb GB free under $LOG_BASE for $selected runs (want $(( 2 * selected + 5 )) GB)." >&2
+need_gb=$(( (6 * selected + 4) / 5 + 3 ))
+if [[ "${DISK_CHECK:-1}" == 1 ]] && (( free_gb < need_gb )); then
+  echo "only $free_gb GB free under $LOG_BASE for $selected runs (want $need_gb GB)." >&2
   echo "The biggest replay buffers (a finished run's is only needed to carry it on - v7-2m carries on v6-1m-s10/20/30):" >&2
   du -sh "$LOG_BASE"/*/*/*/memory 2> /dev/null | sort -h | tail -n 8 >&2
   echo "Delete some (rm -rf <run>/<seed>/memory) or start anyway with DISK_CHECK=0." >&2
