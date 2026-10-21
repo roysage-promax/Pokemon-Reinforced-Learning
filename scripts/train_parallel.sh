@@ -53,6 +53,7 @@ MAX_PARALLEL="${MAX_PARALLEL:-$(( $(nproc) > 3 ? $(nproc) - 2 : 1 ))}"
 # How the watchdog restarts a dead Showdown server - as scripts/setup_gcp_vm.sh starts it
 SERVER_START="${SERVER_START:-tmux kill-session -t showdown 2> /dev/null; tmux new -d -s showdown 'cd $REPO/../pokemon-showdown && node pokemon-showdown start --no-security'}"
 SHUTDOWN_CMD="${SHUTDOWN_CMD:-sudo shutdown -h now}"
+SHUTDOWN_WAIT_DIR="${SHUTDOWN_WAIT_DIR:-/tmp/train_parallel_shutdown_wait}"
 
 # Python finds this checkout's showdown_gym before the installed one
 export PYTHONPATH="$REPO${PYTHONPATH:+:$PYTHONPATH}"
@@ -62,7 +63,12 @@ export OMP_NUM_THREADS=1
 
 # name | seed | steps (empty = $STEPS) | hidden layer width (empty = cares-rl's 64) |
 #   environment settings | algorithm and its settings |
-#   v4 checkpoint to start from (empty = from scratch; see scripts/expand_checkpoint.py)
+#   v4 checkpoint to start from (empty = from scratch; see scripts/expand_checkpoint.py) |
+#   earlier run to carry on from (its last checkpoint, replay buffer and logs, up to steps in all;
+#   its own settings, not the algorithm settings here - see scripts/continue_run.py) |
+#   learning rate from there on (empty = the earlier run's)
+# A run to carry on from that's missing on this machine is started from scratch instead, unless it
+# changes the learning rate (then it isn't started).
 # v6 environment: v5 (4 moves, 6 switches, 4 move-and-terastallize actions, 14 "use our healing
 # move", 15 "use our setup move") plus 16 "use our most damaging move", 17 "terastallize and use
 # the most damaging move after tera", 18 "switch to the teammate the predicted move hurts least",
@@ -103,30 +109,27 @@ export OMP_NUM_THREADS=1
 #   strict   fix + both costs                                 half / double  every bonus and cost x0.5 / x2
 #   taken50  fix + damage taken weighted like damage dealt    ko50    fix + 0.5 per knockout
 #   win2     fix + 2 for a win                                markov  fix + heal / setup bonus every time too
-# Seed 10 of every variant comes first, so with fewer cores (MAX_PARALLEL) each variant gets one run early.
+# v7 sweep (c6cd4fb, the VARIANTS list is in e88fffb): no variant beat ctrl. 300-400k win rates of all
+# 24 runs 91.7-94.5%, and the variants differ no more than seeds do (one-way ANOVA F = 0.77); tests
+# pooled 93.3%, spread exactly as luck. fix halves switching out and back in (0.36 -> 0.10-0.22 a
+# battle) without winning more; sw15 came first (93.8%, tests 94.5%) but not significantly.
+# v7-2m: what more training buys, 2M steps. v6-1m gained ~0.15 points per 100k from 400k to 800k
+# (93.3 -> 94.2%), then flat to 1M.
+#   cont     v6-1m-s10/20/30 carried on from 1M with the same settings
+#   lr1e4    the same with the learning rate down from 3e-4 to 1e-4 for the second million
+#   sw15     v7's best-on-paper reward (fix + 0.15 per other voluntary switch), from scratch, new seeds
+#   w128     v6's reward with 128-unit hidden layers (v3's 256 did much worse than 64)
 DQN3="DQN --use_double_dqn 1 --n_step 3 --lr 0.0003 --decay_steps 200000"
 RULES="SHOWDOWN_TERA_BONUS=0.6 SHOWDOWN_SWITCH_BONUS=0.3 SHOWDOWN_SETUP_BONUS=0.3"
 FIX="$RULES SHOWDOWN_SWITCH_ONCE=0 SHOWDOWN_SWITCH_OUT_COST=0.3"
-VARIANTS=(
-  "ctrl|$RULES"
-  "fix|$FIX"
-  "sw05|$FIX SHOWDOWN_SWITCH_COST=0.05"
-  "sw15|$FIX SHOWDOWN_SWITCH_COST=0.15"
-  "hc10|$FIX SHOWDOWN_HEAL_COST=0.1"
-  "strict|$FIX SHOWDOWN_SWITCH_COST=0.1 SHOWDOWN_HEAL_COST=0.1"
-  "half|SHOWDOWN_TERA_BONUS=0.3 SHOWDOWN_SWITCH_BONUS=0.15 SHOWDOWN_SETUP_BONUS=0.15 SHOWDOWN_SWITCH_ONCE=0 SHOWDOWN_SWITCH_OUT_COST=0.15"
-  "double|SHOWDOWN_TERA_BONUS=1.2 SHOWDOWN_SWITCH_BONUS=0.6 SHOWDOWN_SETUP_BONUS=0.6 SHOWDOWN_SWITCH_ONCE=0 SHOWDOWN_SWITCH_OUT_COST=0.6"
-  "taken50|$FIX SHOWDOWN_TAKEN_WEIGHT=0.5"
-  "ko50|$FIX SHOWDOWN_KO_WEIGHT=0.5"
-  "win2|$FIX SHOWDOWN_WIN_REWARD=2"
-  "markov|$FIX SHOWDOWN_HEAL_SETUP_ONCE=0"
-)
+SW15="$FIX SHOWDOWN_SWITCH_COST=0.15"
 RUNS=()
-for seed in 10 20; do
-  for variant in "${VARIANTS[@]}"; do
-    RUNS+=("v7-${variant%%|*}-s$seed|$seed|||${variant#*|}|$DQN3|")
-  done
+for seed in 10 20 30; do
+  RUNS+=("v7-2m-cont-s$seed|$seed|2000000||$RULES|$DQN3||v6-1m-s$seed|")
+  RUNS+=("v7-2m-lr1e4-s$seed|$seed|2000000||$RULES|$DQN3||v6-1m-s$seed|0.0001")
 done
+for seed in 30 40 50; do RUNS+=("v7-2m-sw15-s$seed|$seed|2000000||$SW15|$DQN3|"); done
+for seed in 10 20; do RUNS+=("v7-2m-w128-s$seed|$seed|2000000|128|$RULES|$DQN3|"); done
 
 server_up() { (exec 3<>/dev/tcp/localhost/8000) 2> /dev/null; }
 
@@ -175,9 +178,20 @@ for run in "${RUNS[@]}"; do spec[${run%%|*}]=$run; done
 # launch NAME [DIR]: start one of RUNS, or with DIR resume it from that folder's last checkpoint,
 # replay buffer and logs (cares-rl writes the resumed run to a new folder). Sets STARTED_PID.
 launch() {
-  local name=$1 from=${2:-} seed steps width run_env alg_args transfer config_dir src
+  local name=$1 from=${2:-} seed steps width run_env alg_args transfer carry_on lr config_dir src
   local -a cli_args load command
-  IFS='|' read -r _ seed steps width run_env alg_args transfer <<< "${spec[$name]}"
+  IFS='|' read -r _ seed steps width run_env alg_args transfer carry_on lr <<< "${spec[$name]}"
+  if [[ -z "$from" && -n "$carry_on" ]]; then
+    src=$(run_dir "$carry_on")
+    if [[ -n "$src" ]] && "$PYTHON" "$(dirname "$0")/continue_run.py" "$src" "$OUT_DIR/continue/$name" "${steps:-$STEPS}" "$lr"; then
+      from="$OUT_DIR/continue/$name"
+    elif [[ -n "$lr" ]]; then
+      echo "$name: can't carry on from $carry_on (${src:-no run folder}) - not starting it" >&2
+      return 1
+    else
+      echo "$name: can't carry on from $carry_on (${src:-no run folder}) - training from scratch instead"
+    fi
+  fi
   # By default cares-rl pickles the whole replay buffer and redraws the training plot after every
   # episode, which leaves runs waiting on the disk; checkpoint every ~10k steps instead.
   # alg_args (algorithm name, then its settings) is word-split on purpose
@@ -338,7 +352,7 @@ launched=0
 # Showdown simulates battles in `simulator` child processes (config.js; setup_gcp_vm.sh sets 2,
 # enough for 6-8 runs). Many more runs at once queue behind them.
 config="$REPO/../pokemon-showdown/config/config.js"
-sims=$(sed -nE 's/^\tsimulator: ([0-9]+),.*/\1/p' "$config" 2> /dev/null | head -n 1)
+sims=$(sed -nE 's/^\tsimulator: ([0-9]+),.*/\1/p' "$config" 2> /dev/null | head -n 1 || true)
 at_once=$(( MAX_PARALLEL < ${#RUNS[@]} ? MAX_PARALLEL : ${#RUNS[@]} ))
 if [[ -n "$sims" ]] && (( sims * 4 < at_once )); then
   echo "warning: $config has simulator: $sims for up to $at_once runs at once - for more, set" >&2
@@ -346,10 +360,28 @@ if [[ -n "$sims" ]] && (( sims * 4 < at_once )); then
   echo "  and restart the server (tmux kill-session -t showdown, then start it again)" >&2
 fi
 
+# Each run keeps its replay buffer on disk (~1 GB at 1M steps) and writes a new copy before
+# replacing the old one, so allow 2 GB a run
+selected=0
+for run in "${RUNS[@]}"; do
+  if (( $# == 0 )) || [[ " $* " == *" ${run%%|*} "* ]]; then selected=$((selected + 1)); fi
+done
+mkdir -p "$LOG_BASE"
+free_gb=$(df -Pk "$LOG_BASE" | awk 'NR == 2 { print int($4 / 1048576) }')
+if [[ "${DISK_CHECK:-1}" == 1 ]] && (( free_gb < 2 * selected + 5 )); then
+  echo "only $free_gb GB free under $LOG_BASE for $selected runs (want $(( 2 * selected + 5 )) GB)." >&2
+  echo "The biggest replay buffers (a finished run's is only needed to carry it on - v7-2m carries on v6-1m-s10/20/30):" >&2
+  du -sh "$LOG_BASE"/*/*/*/memory 2> /dev/null | sort -h | tail -n 8 >&2
+  echo "Delete some (rm -rf <run>/<seed>/memory) or start anyway with DISK_CHECK=0." >&2
+  exit 1
+fi
+
 if [[ "$RESUME" == 1 ]]; then
-  # An earlier call's watcher would test, push and shut down as soon as its stalled runs are stopped
+  # An earlier call's watcher would test, push and shut down as soon as its stalled runs are stopped.
+  # Only this checkout's: another checkout's batch may be training next to this one.
   for pid in $(pgrep -f -- '^[^ ]*bash [^ ]*train_parallel\.sh' || true); do
     [[ "$pid" == "$$" ]] && continue
+    [[ "$(readlink "/proc/$pid/cwd" 2> /dev/null)" == "$(pwd -P)" ]] || continue
     kill "$pid" 2> /dev/null && echo "stopped an earlier train_parallel.sh watcher (pid $pid)"
   done
 fi
@@ -407,13 +439,32 @@ prefix="${RUNS[0]%%-*}"
     done
     echo "all runs ended $(date)"
   fi
-  if [[ "$TEST_AND_PUSH" == 1 ]]; then
-    RUN_PREFIX="$prefix" "$(dirname "$0")/finish_batch.sh" "${started[@]}" || echo "finish_batch.sh failed - see above"
+  # Runs that never started (say, nothing to carry on from) have no folder to test or save
+  ran=()
+  for name in "${started[@]}"; do [[ -n "$(run_dir "$name")" ]] && ran+=("$name"); done
+  if [[ "$TEST_AND_PUSH" == 1 && ${#ran[@]} -gt 0 ]]; then
+    RUN_PREFIX="$prefix" "$(dirname "$0")/finish_batch.sh" "${ran[@]}" || echo "finish_batch.sh failed - see above"
   fi
-  if [[ "$DIAGNOSE" == 1 ]]; then
-    "$(dirname "$0")/diagnose_batch.sh" "${started[@]}" || echo "diagnose_batch.sh failed - see above"
+  if [[ "$DIAGNOSE" == 1 && ${#ran[@]} -gt 0 ]]; then
+    "$(dirname "$0")/diagnose_batch.sh" "${ran[@]}" || echo "diagnose_batch.sh failed - see above"
   fi
   if [[ "$SHUTDOWN_WHEN_DONE" == 1 ]]; then
+    # Another checkout's batch may still be training, testing, committing or pushing: wait for its
+    # watcher too - but not for one that's only waiting to shut down as well, or two would wait for
+    # each other forever
+    mkdir -p "$SHUTDOWN_WAIT_DIR"
+    touch "$SHUTDOWN_WAIT_DIR/$BASHPID"
+    while :; do
+      busy=0
+      pgrep -f -- "$CARES_RL (train|transfer|resume|test) .*--run-name" > /dev/null && busy=1
+      for pid in $(pgrep -f -- '^[^ ]*bash [^ ]*train_parallel\.sh' || true); do
+        [[ "$pid" == "$BASHPID" || -e "$SHUTDOWN_WAIT_DIR/$pid" ]] && continue
+        # pgrep also lists the subshell that ran it, gone by now
+        kill -0 "$pid" 2> /dev/null && busy=1
+      done
+      (( busy )) || break
+      sleep "$WATCH_INTERVAL"
+    done
     echo "shutting down $(date)"
     $SHUTDOWN_CMD
   fi

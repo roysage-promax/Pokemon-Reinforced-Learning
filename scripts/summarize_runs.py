@@ -20,6 +20,7 @@ pooled too - the table for comparing a sweep such as v7's reward variants.
 import argparse
 import csv
 import glob
+import gzip
 import json
 import math
 import os
@@ -29,6 +30,13 @@ HABITS = ["switches", "forced_switches", "illegal_actions", "illegal_tera", "set
 DATE = r"-\d{2}_\d{2}_\d{2}_\d{2}-\d{2}-\d{2}$"
 # Per-battle habits in the variant table: what the v7 reward variants try to change
 VARIANT_HABITS = ["switches", "switch_back", "resist_switch_out", "other_switch", "heal_moves", "high_heal", "good_heal", "setup_moves"]
+
+
+def open_csv(path):
+    """A run's CSV log; logs too big for GitHub are stored gzipped (save_runs.sh)"""
+    if not os.path.exists(path) and os.path.exists(path + ".gz"):
+        return gzip.open(path + ".gz", "rt", newline="")
+    return open(path, newline="")
 
 
 def wilson(w, n, z=1.96):
@@ -67,10 +75,10 @@ def main():
         name = re.sub(DATE, "", re.sub(r"^[A-Za-z0-9]+-random-max-", "", os.path.basename(d)))
         seed_dirs = [s for s in glob.glob(f"{d}/*") if os.path.basename(s).isdigit()]
         train_csv = f"{seed_dirs[0]}/data/train.csv" if seed_dirs else ""
-        if not os.path.exists(train_csv):
+        if not (os.path.exists(train_csv) or os.path.exists(train_csv + ".gz")):
             print(f"{name:16s} no train.csv yet")
             continue
-        with open(train_csv) as f:
+        with open_csv(train_csv) as f:
             rows = list(csv.DictReader(f))
         if not rows:
             print(f"{name:16s} no episodes yet")

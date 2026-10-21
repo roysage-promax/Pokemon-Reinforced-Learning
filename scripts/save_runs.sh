@@ -34,7 +34,9 @@ if (( ${#copied[@]} == 0 )); then
   exit 1
 fi
 
-# GitHub rejects files over 100 MB
+# GitHub rejects files over 100 MB. A 2M-step run's train.csv is ~100 MB, so big logs are stored
+# gzipped (train.csv.gz, ~4x smaller; summarize_runs.py reads either - gunzip it for cares-rl-plot)
+(cd "$DEST" && find "${copied[@]}" -type f -name '*.csv' -size +90M -exec gzip -f -9 {} +)
 big=$(cd "$DEST" && find "${copied[@]}" -type f -size +90M)
 if [[ -n "$big" ]]; then
   echo "these files are too big for GitHub - remove them from runs/ first:" >&2
