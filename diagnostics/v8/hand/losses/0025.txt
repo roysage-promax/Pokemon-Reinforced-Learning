@@ -1,0 +1,130 @@
+battle 25 (battle-gen9randombattle-2018598): lost in 14 turns, 4 of theirs left; we are p1
+
+ours:
+  zebstrika (fainted; item lifeorb, ability sapsipper; moves supercellslam/highhorsepower/overheat/voltswitch)
+  regigigas (fainted; item leftovers, ability slowstart; moves substitute/protect/bodyslam/knockoff)
+  regice (fainted; item heavydutyboots, ability clearbody; moves sleeptalk/icebeam/rest/thunderbolt)
+  annihilape (fainted; item leftovers, ability defiant, tera water; moves ragefist/drainpunch/gunkshot/bulkup)
+  alcremiemintcream (fainted; item leftovers, ability aromaveil; moves alluringvoice/recover/calmmind/terablast)
+  entei (fainted; item choiceband, ability innerfocus; moves extremespeed/stompingtantrum/flareblitz/sacredfire)
+theirs (as seen):
+  eiscue (fainted; item ?, ability iceface; moves liquidation)
+  slaking (fainted; item unknown_item, ability truant; moves gigaimpact)
+  overqwil (53%; item unknown_item, ability intimidate; moves gunkshot)
+
+-- turn 0
+  switch|p1a: Zebstrika|Zebstrika, L87, F|272/272
+  switch|p2a: Eiscue|Eiscue, L88, F|100/100
+-- turn 1
+  WE CHOSE: attack overheat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Zebstrika|Overheat|p2a: Eiscue
+  -supereffective|p2a: Eiscue
+  -damage|p2a: Eiscue|21/100
+  -unboost|p1a: Zebstrika|spa|2
+  -enditem|p2a: Eiscue|Sitrus Berry|[eat]
+  -heal|p2a: Eiscue|46/100|[from] item: Sitrus Berry
+  -damage|p1a: Zebstrika|245/272|[from] item: Life Orb
+  move|p2a: Eiscue|Liquidation|p1a: Zebstrika
+  -damage|p1a: Zebstrika|168/272
+-- turn 2
+  WE CHOSE: attack supercellslam - our hp 0.62, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Zebstrika|Supercell Slam|p2a: Eiscue
+  -activate|p2a: Eiscue|ability: Ice Face
+  -damage|p2a: Eiscue|46/100
+  detailschange|p2a: Eiscue|Eiscue-Noice, L88, F
+  -damage|p1a: Zebstrika|141/272|[from] item: Life Orb
+  move|p2a: Eiscue|Liquidation|p1a: Zebstrika
+  -damage|p1a: Zebstrika|65/272
+  -unboost|p1a: Zebstrika|def|1
+-- turn 3
+  WE CHOSE: attack supercellslam - our hp 0.24, theirs 0.46, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to annihilape - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Eiscue|Liquidation|p1a: Zebstrika
+  -damage|p1a: Zebstrika|0 fnt
+  faint|p1a: Zebstrika
+  switch|p1a: Annihilape|Annihilape, L76, M|292/292
+-- turn 4
+  WE CHOSE: attack+tera drainpunch - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x1
+  -terastallize|p1a: Annihilape|Water
+  move|p2a: Eiscue|Liquidation|p1a: Annihilape
+  -resisted|p1a: Annihilape
+  -damage|p1a: Annihilape|260/292
+  move|p1a: Annihilape|Drain Punch|p2a: Eiscue
+  -supereffective|p2a: Eiscue
+  -damage|p2a: Eiscue|0 fnt
+  -heal|p1a: Annihilape|292/292|[from] drain|[of] p2a: Eiscue
+  faint|p2a: Eiscue
+  switch|p2a: Slaking|Slaking, L84, M|100/100
+-- turn 5
+  WE CHOSE: attack drainpunch - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to entei - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Annihilape
+  -damage|p1a: Annihilape|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Annihilape
+  switch|p1a: Entei|Entei, L78|307/307
+-- turn 6
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Entei|Flare Blitz|p2a: Slaking
+  -damage|p2a: Slaking|57/100
+  -damage|p1a: Entei|251/307|[from] Recoil
+-- turn 7
+  WE CHOSE: attack flareblitz - our hp 0.82, theirs 0.57, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to regice - our hp 0.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Entei
+  -damage|p1a: Entei|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Entei
+  switch|p1a: Regice|Regice, L88|284/284
+-- turn 8
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Regice|Ice Beam|p2a: Slaking
+  -damage|p2a: Slaking|24/100
+-- turn 9
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to regigigas - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Regice
+  -damage|p1a: Regice|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Regice
+  switch|p1a: Regigigas|Regigigas, L84|322/322
+  -start|p1a: Regigigas|ability: Slow Start
+-- turn 10
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Regigigas|Body Slam|p2a: Slaking
+  -damage|p2a: Slaking|7/100
+-- turn 11
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Regigigas
+  -damage|p1a: Regigigas|18/322
+  -mustrecharge|p2a: Slaking
+  move|p1a: Regigigas|Body Slam|p2a: Slaking
+  -damage|p2a: Slaking|0 fnt
+  faint|p2a: Slaking
+  -heal|p1a: Regigigas|38/322|[from] item: Leftovers
+  switch|p2a: Overqwil|Overqwil, L82, M|100/100
+  -ability|p2a: Overqwil|Intimidate|boost
+  -unboost|p1a: Regigigas|atk|1
+-- turn 12
+  WE CHOSE: attack bodyslam - our hp 0.12, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to alcremiemintcream - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Overqwil|Gunk Shot|p1a: Regigigas
+  -damage|p1a: Regigigas|0 fnt
+  faint|p1a: Regigigas
+  -end|p1a: Regigigas|Slow Start|[silent]
+  switch|p1a: Alcremie|Alcremie-Mint-Cream, L90, F|263/263
+-- turn 13
+  WE CHOSE: attack alluringvoice - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Overqwil|Gunk Shot|p1a: Alcremie|[miss]
+  -miss|p2a: Overqwil|p1a: Alcremie
+  move|p1a: Alcremie|Alluring Voice|p2a: Overqwil
+  -damage|p2a: Overqwil|53/100
+-- turn 14
+  WE CHOSE: attack alluringvoice - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x2
+  move|p2a: Overqwil|Gunk Shot|p1a: Alcremie
+  -supereffective|p1a: Alcremie
+  -damage|p1a: Alcremie|0 fnt
+  faint|p1a: Alcremie

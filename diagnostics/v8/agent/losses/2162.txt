@@ -1,0 +1,184 @@
+battle 2162 (battle-gen9randombattle-2040648): lost in 20 turns, 3 of theirs left; we are p1
+
+ours:
+  zangoose (fainted; item toxicorb, ability toxicboost; moves facade/closecombat/swordsdance/knockoff)
+  hawlucha (fainted; item whiteherb, ability unburden, tera flying; moves closecombat/swordsdance/encore/bravebird)
+  morpeko (fainted; item leftovers, ability hungerswitch; moves rapidspin/knockoff/aurawheel/protect)
+  duraludon (fainted; item eviolite, ability lightmetal; moves stealthrock/bodypress/dracometeor/flashcannon)
+  calyrexshadow (fainted; item lifeorb, ability asonespectrier; moves nastyplot/astralbarrage/pollenpuff/psyshock)
+  wugtrio (fainted; item choiceband, ability gooey; moves liquidation/aquajet/stompingtantrum/throatchop)
+theirs (as seen):
+  arceuspoison (fainted; item unknown_item, ability multitype; moves gunkshot)
+  whimsicott (fainted; item leftovers, ability ?; moves moonblast)
+  appletun (fainted; item ?, ability ?; moves dracometeor)
+  frosmoth (39%; item unknown_item, ability ?; moves icebeam)
+
+-- turn 0
+  switch|p1a: Zangoose|Zangoose, L85, M|263/263
+  switch|p2a: Arceus|Arceus-Poison, L70|100/100
+-- turn 1
+  WE CHOSE: switch to wugtrio (hand policy: attack+tera facade) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Wugtrio|Wugtrio, L91, M|212/212
+  move|p2a: Arceus|Gunk Shot|p1a: Wugtrio
+  -damage|p1a: Wugtrio|47/212
+-- turn 2
+  WE CHOSE: switch to duraludon - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Duraludon|Duraludon, L82, M|249/249
+  move|p2a: Arceus|Gunk Shot|p1a: Duraludon
+  -immune|p1a: Duraludon
+-- turn 3
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Arceus|Gunk Shot|p1a: Duraludon
+  -immune|p1a: Duraludon
+  move|p1a: Duraludon|Draco Meteor|p2a: Arceus
+  -damage|p2a: Arceus|50/100
+  -unboost|p1a: Duraludon|spa|2
+-- turn 4
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x0
+  move|p2a: Arceus|Gunk Shot|p1a: Duraludon
+  -immune|p1a: Duraludon
+  move|p1a: Duraludon|Draco Meteor|p2a: Arceus
+  -damage|p2a: Arceus|25/100
+  -unboost|p1a: Duraludon|spa|2
+-- turn 5
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x0
+  move|p2a: Arceus|Gunk Shot|p1a: Duraludon
+  -immune|p1a: Duraludon
+  move|p1a: Duraludon|Draco Meteor|p2a: Arceus
+  -damage|p2a: Arceus|9/100
+  -unboost|p1a: Duraludon|spa|2
+-- turn 6
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.09, predicted move (revealed) hits us x0
+  move|p2a: Arceus|Gunk Shot|p1a: Duraludon
+  -immune|p1a: Duraludon
+  move|p1a: Duraludon|Draco Meteor|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  switch|p2a: Whimsicott|Whimsicott, L84, F|100/100
+-- turn 7
+  WE CHOSE: attack flashcannon - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Duraludon
+  -damage|p1a: Duraludon|159/249
+  move|p1a: Duraludon|Flash Cannon|p2a: Whimsicott
+  -supereffective|p2a: Whimsicott
+  -damage|p2a: Whimsicott|77/100
+  -heal|p2a: Whimsicott|83/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: switch to calyrexshadow (hand policy: attack flashcannon) - our hp 0.64, theirs 0.83, predicted move (revealed) hits us x1
+  switch|p1a: Calyrex|Calyrex-Shadow, L64|235/235
+  -ability|p1a: Calyrex|As One
+  -ability|p1a: Calyrex|Unnerve
+  move|p2a: Whimsicott|Moonblast|p1a: Calyrex
+  -crit|p1a: Calyrex
+  -damage|p1a: Calyrex|72/235
+  -heal|p2a: Whimsicott|89/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack astralbarrage - our hp 0.31, theirs 0.89, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to duraludon - our hp 0.00, theirs 0.95, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Calyrex
+  -damage|p1a: Calyrex|0 fnt
+  faint|p1a: Calyrex
+  -heal|p2a: Whimsicott|95/100|[from] item: Leftovers
+  switch|p1a: Duraludon|Duraludon, L82, M|159/249
+-- turn 10
+  WE CHOSE: attack flashcannon - our hp 0.64, theirs 0.95, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Duraludon
+  -damage|p1a: Duraludon|71/249
+  -unboost|p1a: Duraludon|spa|1
+  move|p1a: Duraludon|Flash Cannon|p2a: Whimsicott
+  -supereffective|p2a: Whimsicott
+  -damage|p2a: Whimsicott|31/100
+  -heal|p2a: Whimsicott|37/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack flashcannon - our hp 0.29, theirs 0.37, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to zangoose (hand policy: forced: switch to hawlucha) - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Duraludon
+  -damage|p1a: Duraludon|0 fnt
+  faint|p1a: Duraludon
+  -heal|p2a: Whimsicott|43/100|[from] item: Leftovers
+  switch|p1a: Zangoose|Zangoose, L85, M|263/263
+-- turn 12
+  WE CHOSE: attack facade (hand policy: attack+tera facade) - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Zangoose
+  -damage|p1a: Zangoose|148/263
+  -unboost|p1a: Zangoose|spa|1
+  move|p1a: Zangoose|Facade|p2a: Whimsicott
+  -damage|p2a: Whimsicott|6/100
+  -heal|p2a: Whimsicott|12/100|[from] item: Leftovers
+  -status|p1a: Zangoose|tox|[from] item: Toxic Orb
+-- turn 13
+  WE CHOSE: setup swordsdance (hand policy: attack+tera facade) - our hp 0.56, theirs 0.12, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Zangoose
+  -damage|p1a: Zangoose|42/263 tox
+  move|p1a: Zangoose|Swords Dance|p1a: Zangoose
+  -boost|p1a: Zangoose|atk|2
+  -heal|p2a: Whimsicott|18/100|[from] item: Leftovers
+  -damage|p1a: Zangoose|26/263 tox|[from] psn
+-- turn 14
+  WE CHOSE: switch to wugtrio (hand policy: attack+tera facade) - our hp 0.10, theirs 0.18, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to zangoose (hand policy: forced: switch to hawlucha) - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x1
+  switch|p1a: Wugtrio|Wugtrio, L91, M|47/212
+  move|p2a: Whimsicott|Moonblast|p1a: Wugtrio
+  -damage|p1a: Wugtrio|0 fnt
+  faint|p1a: Wugtrio
+  -heal|p2a: Whimsicott|24/100|[from] item: Leftovers
+  switch|p1a: Zangoose|Zangoose, L85, M|26/263 tox
+-- turn 15
+  WE CHOSE: attack facade (hand policy: attack+tera facade) - our hp 0.10, theirs 0.24, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hawlucha - our hp 0.00, theirs 0.29, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Zangoose
+  -damage|p1a: Zangoose|0 fnt
+  faint|p1a: Zangoose
+  -heal|p2a: Whimsicott|29/100|[from] item: Leftovers
+  switch|p1a: Hawlucha|Hawlucha, L80, F|256/256
+-- turn 16
+  WE CHOSE: attack+tera bravebird - our hp 1.00, theirs 0.29, predicted move (revealed) hits us x2
+  -terastallize|p1a: Hawlucha|Flying
+  move|p2a: Whimsicott|Moonblast|p1a: Hawlucha
+  -crit|p1a: Hawlucha
+  -damage|p1a: Hawlucha|85/256
+  move|p1a: Hawlucha|Brave Bird|p2a: Whimsicott
+  -supereffective|p2a: Whimsicott
+  -damage|p2a: Whimsicott|0 fnt
+  faint|p2a: Whimsicott
+  -damage|p1a: Hawlucha|62/256|[from] Recoil
+  switch|p2a: Appletun|Appletun, L92, M|100/100
+-- turn 17
+  WE CHOSE: attack bravebird - our hp 0.24, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to morpeko - our hp 0.00, theirs 0.29, predicted move (revealed) hits us x1
+  move|p1a: Hawlucha|Brave Bird|p2a: Appletun
+  -supereffective|p2a: Appletun
+  -damage|p2a: Appletun|23/100
+  -damage|p1a: Hawlucha|0 fnt|[from] Recoil
+  faint|p1a: Hawlucha
+  move|p2a: Appletun|Draco Meteor|p1: Hawlucha|[notarget]
+  -fail|p2a: Appletun
+  -heal|p2a: Appletun|29/100|[from] item: Leftovers
+  switch|p1a: Morpeko|Morpeko, L88, F|245/245
+-- turn 18
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.29, predicted move (revealed) hits us x1
+  move|p1a: Morpeko|Knock Off|p2a: Appletun
+  -damage|p2a: Appletun|1/100
+  -enditem|p2a: Appletun|Leftovers|[from] move: Knock Off|[of] p1a: Morpeko
+  move|p2a: Appletun|Draco Meteor|p1a: Morpeko
+  -damage|p1a: Morpeko|41/245
+  -unboost|p2a: Appletun|spa|2
+  -heal|p1a: Morpeko|56/245|[from] item: Leftovers
+  -formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+-- turn 19
+  WE CHOSE: attack knockoff - our hp 0.23, theirs 0.01, predicted move (revealed) hits us x1
+  move|p1a: Morpeko|Knock Off|p2a: Appletun
+  -damage|p2a: Appletun|0 fnt
+  faint|p2a: Appletun
+  -heal|p1a: Morpeko|71/245|[from] item: Leftovers
+  -formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+  switch|p2a: Frosmoth|Frosmoth, L82, M|100/100
+-- turn 20
+  WE CHOSE: attack aurawheel - our hp 0.29, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Morpeko|Aura Wheel|p2a: Frosmoth
+  -damage|p2a: Frosmoth|39/100
+  -boost|p1a: Morpeko|spe|1
+  move|p2a: Frosmoth|Ice Beam|p1a: Morpeko
+  -damage|p1a: Morpeko|0 fnt
+  faint|p1a: Morpeko
+  deinit

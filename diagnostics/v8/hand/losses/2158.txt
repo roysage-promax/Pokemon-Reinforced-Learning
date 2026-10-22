@@ -1,0 +1,206 @@
+battle 2158 (battle-gen9randombattle-2038755): lost in 23 turns, 2 of theirs left; we are p1
+
+ours:
+  lanturn (fainted; item heavydutyboots, ability voltabsorb, tera flying; moves voltswitch/thunderwave/thunderbolt/scald)
+  dunsparce (fainted; item eviolite, ability serenegrace; moves roost/earthquake/coil/bodyslam)
+  heatran (fainted; item ?, ability flashfire; moves lavaplume/heavyslam/stealthrock/earthpower)
+  hypno (fainted; item leftovers, ability insomnia; moves protect/psychicnoise/toxic/focusblast)
+  sunflora (fainted; item lifeorb, ability chlorophyll; moves earthpower/solarbeam/weatherball/sunnyday)
+  inteleon (fainted; item choicespecs, ability torrent; moves scald/hydropump/uturn/icebeam)
+theirs (as seen):
+  perrserker (fainted; item lifeorb, ability ?; moves closecombat)
+  chimecho (fainted; item leftovers, ability levitate; moves dazzlinggleam)
+  flareon (fainted; item unknown_item, ability ?; moves flareblitz)
+  azumarill (fainted; item unknown_item, ability ?; moves playrough)
+  sudowoodo (12%; item unknown_item, ability ?; moves headsmash)
+
+-- turn 0
+  switch|p1a: Lanturn|Lanturn, L89, F|367/367
+  switch|p2a: Perrserker|Perrserker, L89, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera thunderbolt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Lanturn|Flying
+  move|p1a: Lanturn|Thunderbolt|p2a: Perrserker
+  -crit|p2a: Perrserker
+  -damage|p2a: Perrserker|44/100
+  move|p2a: Perrserker|Close Combat|p1a: Lanturn
+  -resisted|p1a: Lanturn
+  -damage|p1a: Lanturn|262/367
+  -unboost|p2a: Perrserker|def|1
+  -unboost|p2a: Perrserker|spd|1
+  -damage|p2a: Perrserker|34/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack thunderbolt - our hp 0.71, theirs 0.34, predicted move (revealed) hits us x0.5
+  move|p1a: Lanturn|Thunderbolt|p2a: Perrserker
+  -damage|p2a: Perrserker|0 fnt
+  faint|p2a: Perrserker
+  switch|p2a: Chimecho|Chimecho, L93, M|100/100
+-- turn 3
+  WE CHOSE: attack thunderbolt - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Chimecho|Dazzling Gleam|p1a: Lanturn
+  -crit|p1a: Lanturn
+  -damage|p1a: Lanturn|144/367
+  move|p1a: Lanturn|Thunderbolt|p2a: Chimecho
+  -damage|p2a: Chimecho|73/100
+  -heal|p2a: Chimecho|79/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack thunderbolt - our hp 0.39, theirs 0.79, predicted move (revealed) hits us x1
+  move|p2a: Chimecho|Dazzling Gleam|p1a: Lanturn
+  -damage|p1a: Lanturn|70/367
+  move|p1a: Lanturn|Thunderbolt|p2a: Chimecho
+  -damage|p2a: Chimecho|54/100
+  -heal|p2a: Chimecho|60/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack thunderbolt - our hp 0.19, theirs 0.60, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to heatran - our hp 0.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Chimecho|Dazzling Gleam|p1a: Lanturn
+  -damage|p1a: Lanturn|0 fnt
+  faint|p1a: Lanturn
+  -heal|p2a: Chimecho|66/100|[from] item: Leftovers
+  switch|p1a: Heatran|Heatran, L79, M|273/273
+  -item|p1a: Heatran|Air Balloon
+-- turn 6
+  WE CHOSE: attack lavaplume - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x0.25
+  move|p2a: Chimecho|Dazzling Gleam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|258/273
+  -enditem|p1a: Heatran|Air Balloon
+  move|p1a: Heatran|Lava Plume|p2a: Chimecho
+  -damage|p2a: Chimecho|37/100
+  -heal|p2a: Chimecho|43/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack lavaplume - our hp 0.95, theirs 0.43, predicted move (revealed) hits us x0.25
+  move|p2a: Chimecho|Dazzling Gleam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|243/273
+  move|p1a: Heatran|Lava Plume|p2a: Chimecho
+  -damage|p2a: Chimecho|13/100
+  -status|p2a: Chimecho|brn
+  -heal|p2a: Chimecho|19/100 brn|[from] item: Leftovers
+  -damage|p2a: Chimecho|13/100 brn|[from] brn
+-- turn 8
+  WE CHOSE: attack lavaplume - our hp 0.89, theirs 0.13, predicted move (revealed) hits us x0.25
+  move|p2a: Chimecho|Dazzling Gleam|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|227/273
+  move|p1a: Heatran|Lava Plume|p2a: Chimecho
+  -damage|p2a: Chimecho|0 fnt
+  faint|p2a: Chimecho
+  switch|p2a: Flareon|Flareon, L90, M|100/100
+-- turn 9
+  WE CHOSE: attack earthpower - our hp 0.83, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Flareon|Flare Blitz|p1a: Heatran
+  -start|p1a: Heatran|ability: Flash Fire
+  move|p1a: Heatran|Earth Power|p2a: Flareon
+  -supereffective|p2a: Flareon
+  -damage|p2a: Flareon|57/100
+  -status|p2a: Flareon|tox|[from] item: Toxic Orb
+-- turn 10
+  WE CHOSE: attack earthpower - our hp 0.83, theirs 0.57, predicted move (revealed) hits us x0
+  move|p2a: Flareon|Flare Blitz|p1a: Heatran
+  -immune|p1a: Heatran|[from] ability: Flash Fire
+  move|p1a: Heatran|Earth Power|p2a: Flareon
+  -supereffective|p2a: Flareon
+  -damage|p2a: Flareon|15/100 tox
+  -damage|p2a: Flareon|8/100 tox|[from] psn
+-- turn 11
+  WE CHOSE: attack earthpower - our hp 0.83, theirs 0.08, predicted move (revealed) hits us x0
+  move|p2a: Flareon|Flare Blitz|p1a: Heatran
+  -immune|p1a: Heatran|[from] ability: Flash Fire
+  move|p1a: Heatran|Earth Power|p2a: Flareon
+  -supereffective|p2a: Flareon
+  -damage|p2a: Flareon|0 fnt
+  faint|p2a: Flareon
+  switch|p2a: Azumarill|Azumarill, L82, F|100/100
+-- turn 12
+  WE CHOSE: switch to hypno - our hp 0.83, theirs 1.00, predicted move (guessed) hits us x2
+  -end|p1a: Heatran|ability: Flash Fire|[silent]
+  switch|p1a: Hypno|Hypno, L95, F|315/315
+  move|p2a: Azumarill|Play Rough|p1a: Hypno
+  -damage|p1a: Hypno|137/315
+  -heal|p1a: Hypno|156/315|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack psychicnoise - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to sunflora - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Hypno|Psychic Noise|p2a: Azumarill
+  -damage|p2a: Azumarill|68/100
+  -start|p2a: Azumarill|move: Heal Block
+  move|p2a: Azumarill|Play Rough|p1a: Hypno
+  -damage|p1a: Hypno|0 fnt
+  faint|p1a: Hypno
+  switch|p1a: Sunflora|Sunflora, M|312/312
+-- turn 14
+  WE CHOSE: attack solarbeam - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p2a: Azumarill|Play Rough|p1a: Sunflora
+  -damage|p1a: Sunflora|131/312
+  move|p1a: Sunflora|Solar Beam||[still]
+  -prepare|p1a: Sunflora|Solar Beam
+  -end|p2a: Azumarill|move: Heal Block
+-- turn 15
+  WE CHOSE: attack solarbeam - our hp 0.42, theirs 0.68, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to heatran - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p2a: Azumarill|Play Rough|p1a: Sunflora
+  -damage|p1a: Sunflora|0 fnt
+  faint|p1a: Sunflora
+  switch|p1a: Heatran|Heatran, L79, M|227/273
+-- turn 16
+  WE CHOSE: attack earthpower - our hp 0.83, theirs 0.68, predicted move (revealed) hits us x0.25
+  move|p1a: Heatran|Earth Power|p2a: Azumarill
+  -damage|p2a: Azumarill|42/100
+  move|p2a: Azumarill|Play Rough|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|189/273
+-- turn 17
+  WE CHOSE: attack earthpower - our hp 0.69, theirs 0.42, predicted move (revealed) hits us x0.25
+  move|p1a: Heatran|Earth Power|p2a: Azumarill
+  -damage|p2a: Azumarill|17/100
+  move|p2a: Azumarill|Play Rough|p1a: Heatran
+  -resisted|p1a: Heatran
+  -damage|p1a: Heatran|153/273
+-- turn 18
+  WE CHOSE: attack earthpower - our hp 0.56, theirs 0.17, predicted move (revealed) hits us x0.25
+  move|p1a: Heatran|Earth Power|p2a: Azumarill
+  -damage|p2a: Azumarill|0 fnt
+  faint|p2a: Azumarill
+  switch|p2a: Sudowoodo|Sudowoodo, L94, M|100/100
+-- turn 19
+  WE CHOSE: attack earthpower - our hp 0.56, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to inteleon - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Heatran|Earth Power|p2a: Sudowoodo
+  -supereffective|p2a: Sudowoodo
+  -damage|p2a: Sudowoodo|41/100
+  move|p2a: Sudowoodo|Head Smash|p1a: Heatran
+  -damage|p1a: Heatran|0 fnt
+  faint|p1a: Heatran
+  switch|p1a: Inteleon|Inteleon, L81, M|246/246
+-- turn 20
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dunsparce - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Inteleon|Hydro Pump|p2a: Sudowoodo|[miss]
+  -miss|p1a: Inteleon|p2a: Sudowoodo
+  move|p2a: Sudowoodo|Head Smash|p1a: Inteleon
+  -damage|p1a: Inteleon|0 fnt
+  faint|p1a: Inteleon
+  switch|p1a: Dunsparce|Dunsparce, L86, M|312/312
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Dunsparce|Earthquake|p2a: Sudowoodo
+  -supereffective|p2a: Sudowoodo
+  -damage|p2a: Sudowoodo|12/100
+  move|p2a: Sudowoodo|Head Smash|p1a: Dunsparce
+  -damage|p1a: Dunsparce|80/312
+-- turn 22
+  WE CHOSE: heal roost - our hp 0.26, theirs 0.12, predicted move (revealed) hits us x1
+  move|p1a: Dunsparce|Roost|p1a: Dunsparce
+  -heal|p1a: Dunsparce|236/312
+  -singleturn|p1a: Dunsparce|move: Roost
+  move|p2a: Sudowoodo|Head Smash|p1a: Dunsparce
+  -damage|p1a: Dunsparce|25/312
+-- turn 23
+  WE CHOSE: heal roost - our hp 0.08, theirs 0.12, predicted move (revealed) hits us x1
+  move|p1a: Dunsparce|Roost|p1a: Dunsparce
+  -heal|p1a: Dunsparce|181/312
+  -singleturn|p1a: Dunsparce|move: Roost
+  move|p2a: Sudowoodo|Head Smash|p1a: Dunsparce
+  -damage|p1a: Dunsparce|0 fnt
+  faint|p1a: Dunsparce

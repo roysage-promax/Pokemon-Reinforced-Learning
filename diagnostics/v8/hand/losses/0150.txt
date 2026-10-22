@@ -1,0 +1,215 @@
+battle 150 (battle-gen9randombattle-2019802): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  haxorus (fainted; item loadeddice, ability moldbreaker; moves closecombat/scaleshot/swordsdance/ironhead)
+  miraidon (fainted; item choicespecs, ability hadronengine, tera electric; moves overheat/voltswitch/dracometeor/electrodrift)
+  swalot (fainted; item leftovers, ability liquidooze; moves protect/sludgebomb/earthquake/toxic)
+  lokix (fainted; item lifeorb, ability tintedlens; moves knockoff/suckerpunch/swordsdance/leechlife)
+  vespiquen (fainted; item heavydutyboots, ability pressure; moves roost/toxicspikes/spikes/hurricane)
+  barraskewda (fainted; item choiceband, ability swiftswim; moves waterfall/throatchop/closecombat/flipturn)
+theirs (as seen):
+  phione (fainted; item leftovers, ability hydration; moves scald)
+  ragingbolt (fainted; item ?, ability protosynthesis; moves thunderbolt)
+  trevenant (fainted; item ?, ability ?; moves poltergeist)
+  cramorant (fainted; item unknown_item, ability gulpmissile; moves bravebird)
+  spidops (48%; item unknown_item, ability ?; moves uturn)
+  charizard (fainted; item unknown_item, ability ?; moves flareblitz)
+
+-- turn 0
+  switch|p1a: Haxorus|Haxorus, L77, F|244/244
+  switch|p2a: Phione|Phione, L91|100/100
+  -ability|p1a: Haxorus|Mold Breaker
+-- turn 1
+  WE CHOSE: switch to barraskewda - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Barraskewda|Barraskewda, L81, F|231/231
+  move|p2a: Phione|Scald|p1a: Barraskewda
+  -resisted|p1a: Barraskewda
+  -damage|p1a: Barraskewda|166/231
+-- turn 2
+  WE CHOSE: attack closecombat - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Barraskewda|Close Combat|p2a: Phione
+  -crit|p2a: Phione
+  -damage|p2a: Phione|26/100
+  -unboost|p1a: Barraskewda|def|1
+  -unboost|p1a: Barraskewda|spd|1
+  move|p2a: Phione|Scald|p1a: Barraskewda
+  -resisted|p1a: Barraskewda
+  -damage|p1a: Barraskewda|67/231
+  -status|p1a: Barraskewda|brn
+  -heal|p2a: Phione|33/100|[from] item: Leftovers
+  -damage|p1a: Barraskewda|53/231 brn|[from] brn
+-- turn 3
+  WE CHOSE: attack closecombat - our hp 0.23, theirs 0.33, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to miraidon - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Barraskewda|Close Combat|p2a: Phione
+  -damage|p2a: Phione|7/100
+  -unboost|p1a: Barraskewda|def|1
+  -unboost|p1a: Barraskewda|spd|1
+  move|p2a: Phione|Scald|p1a: Barraskewda
+  -resisted|p1a: Barraskewda
+  -damage|p1a: Barraskewda|0 fnt
+  faint|p1a: Barraskewda
+  -heal|p2a: Phione|13/100|[from] item: Leftovers
+  switch|p1a: Miraidon|Miraidon, L65|238/238
+  -fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+-- turn 4
+  WE CHOSE: attack electrodrift - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Miraidon|Electro Drift|p2a: Phione
+  -supereffective|p2a: Phione
+  -damage|p2a: Phione|0 fnt
+  faint|p2a: Phione
+  switch|p2a: Raging Bolt|Raging Bolt, L78|100/100
+  -enditem|p2a: Raging Bolt|Booster Energy
+  -activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+  -start|p2a: Raging Bolt|protosynthesisspa
+-- turn 5
+  WE CHOSE: attack+tera electrodrift - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Miraidon|Electric
+  move|p1a: Miraidon|Electro Drift|p2a: Raging Bolt
+  -resisted|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|74/100
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Miraidon
+  -resisted|p1a: Miraidon
+  -damage|p1a: Miraidon|144/238
+-- turn 6
+  WE CHOSE: attack electrodrift - our hp 0.61, theirs 0.74, predicted move (revealed) hits us x0.5
+  move|p1a: Miraidon|Electro Drift|p2a: Raging Bolt
+  -resisted|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|50/100
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Miraidon
+  -resisted|p1a: Miraidon
+  -damage|p1a: Miraidon|47/238
+-- turn 7
+  WE CHOSE: attack electrodrift - our hp 0.20, theirs 0.50, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to swalot - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p1a: Miraidon|Electro Drift|p2a: Raging Bolt
+  -resisted|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|23/100
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Miraidon
+  -resisted|p1a: Miraidon
+  -damage|p1a: Miraidon|0 fnt
+  faint|p1a: Miraidon
+  switch|p1a: Swalot|Swalot, L90, F|326/326
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Raging Bolt|Thunderbolt|p1a: Swalot
+  -damage|p1a: Swalot|157/326
+  move|p1a: Swalot|Earthquake|p2a: Raging Bolt
+  -supereffective|p2a: Raging Bolt
+  -damage|p2a: Raging Bolt|0 fnt
+  faint|p2a: Raging Bolt
+  -end|p2a: Raging Bolt|Protosynthesis|[silent]
+  -heal|p1a: Swalot|177/326|[from] item: Leftovers
+  -fieldend|move: Electric Terrain
+  switch|p2a: Trevenant|Trevenant, L89, M|100/100
+-- turn 9
+  WE CHOSE: attack sludgebomb - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Trevenant|Poltergeist|p1a: Swalot|[miss]
+  -miss|p2a: Trevenant|p1a: Swalot
+  move|p1a: Swalot|Sludge Bomb|p2a: Trevenant
+  -damage|p2a: Trevenant|70/100
+  -heal|p1a: Swalot|197/326|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack sludgebomb - our hp 0.60, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Trevenant|Poltergeist|p1a: Swalot
+  -activate|p1a: Swalot|move: Poltergeist|Leftovers
+  -damage|p1a: Swalot|56/326
+  move|p1a: Swalot|Sludge Bomb|p2a: Trevenant
+  -damage|p2a: Trevenant|38/100
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|63/100|[from] item: Sitrus Berry
+  -heal|p1a: Swalot|76/326|[from] item: Leftovers
+  -item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+-- turn 11
+  WE CHOSE: attack sludgebomb - our hp 0.23, theirs 0.63, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lokix - our hp 0.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Swalot|Sludge Bomb|p2a: Trevenant
+  -damage|p2a: Trevenant|32/100
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|57/100|[from] item: Sitrus Berry
+  move|p2a: Trevenant|Poltergeist|p1a: Swalot
+  -activate|p1a: Swalot|move: Poltergeist|Leftovers
+  -damage|p1a: Swalot|0 fnt
+  faint|p1a: Swalot
+  switch|p1a: Lokix|Lokix, L82, M|251/251
+-- turn 12
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p1a: Lokix|Swords Dance|p1a: Lokix
+  -boost|p1a: Lokix|atk|2
+  move|p2a: Trevenant|Poltergeist|p1a: Lokix
+  -activate|p1a: Lokix|move: Poltergeist|Life Orb
+  -resisted|p1a: Lokix
+  -damage|p1a: Lokix|171/251
+-- turn 13
+  WE CHOSE: attack suckerpunch - our hp 0.68, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p1a: Lokix|Sucker Punch|p2a: Trevenant
+  -supereffective|p2a: Trevenant
+  -damage|p2a: Trevenant|0 fnt
+  faint|p2a: Trevenant
+  -damage|p1a: Lokix|146/251|[from] item: Life Orb
+  switch|p2a: Cramorant|Cramorant, L86, F|100/100
+-- turn 14
+  WE CHOSE: attack suckerpunch - our hp 0.58, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to haxorus - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x2
+  move|p1a: Lokix|Sucker Punch|p2a: Cramorant
+  -damage|p2a: Cramorant|7/100
+  -damage|p1a: Lokix|121/251|[from] item: Life Orb
+  move|p2a: Cramorant|Brave Bird|p1a: Lokix
+  -supereffective|p1a: Lokix
+  -damage|p1a: Lokix|0 fnt
+  faint|p1a: Lokix
+  -damage|p2a: Cramorant|0 fnt|[from] Recoil
+  faint|p2a: Cramorant
+  switch|p1a: Haxorus|Haxorus, L77, F|244/244
+  switch|p2a: Spidops|Spidops, L96, M|100/100
+  -ability|p1a: Haxorus|Mold Breaker
+-- turn 15
+  WE CHOSE: attack scaleshot - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Haxorus|Scale Shot|p2a: Spidops
+  -damage|p2a: Spidops|91/100
+  -damage|p2a: Spidops|82/100
+  -damage|p2a: Spidops|73/100
+  -crit|p2a: Spidops
+  -damage|p2a: Spidops|58/100
+  -damage|p2a: Spidops|48/100
+  -hitcount|p2a: Spidops|5
+  -unboost|p1a: Haxorus|def|1
+  -boost|p1a: Haxorus|spe|1
+  move|p2a: Spidops|U-turn|p1a: Haxorus
+  -damage|p1a: Haxorus|109/244
+  switch|p2a: Charizard|Charizard, L85, F|100/100|[from] U-turn
+-- turn 16
+  WE CHOSE: attack scaleshot - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to vespiquen - our hp 0.00, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p1a: Haxorus|Scale Shot|p2a: Charizard
+  -damage|p2a: Charizard|87/100
+  -damage|p2a: Charizard|74/100
+  -damage|p2a: Charizard|61/100
+  -damage|p2a: Charizard|49/100
+  -hitcount|p2a: Charizard|4
+  -unboost|p1a: Haxorus|def|1
+  -boost|p1a: Haxorus|spe|1
+  move|p2a: Charizard|Flare Blitz|p1a: Haxorus
+  -resisted|p1a: Haxorus
+  -damage|p1a: Haxorus|0 fnt
+  faint|p1a: Haxorus
+  -damage|p2a: Charizard|36/100|[from] Recoil
+  switch|p1a: Vespiquen|Vespiquen, L99, F|299/299
+  -ability|p1a: Vespiquen|Pressure
+-- turn 17
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 0.36, predicted move (revealed) hits us x2
+  move|p2a: Charizard|Flare Blitz|p1a: Vespiquen
+  -supereffective|p1a: Vespiquen
+  -damage|p1a: Vespiquen|129/299
+  -damage|p2a: Charizard|15/100|[from] Recoil
+  move|p1a: Vespiquen|Hurricane|p2a: Charizard|[miss]
+  -miss|p1a: Vespiquen|p2a: Charizard
+-- turn 18
+  WE CHOSE: attack hurricane - our hp 0.43, theirs 0.15, predicted move (revealed) hits us x2
+  move|p2a: Charizard|Flare Blitz|p1a: Vespiquen
+  -supereffective|p1a: Vespiquen
+  -damage|p1a: Vespiquen|0 fnt
+  faint|p1a: Vespiquen
+  -damage|p2a: Charizard|0 fnt|[from] Recoil
+  faint|p2a: Charizard
+  deinit

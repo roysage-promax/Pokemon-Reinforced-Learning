@@ -1,0 +1,220 @@
+battle 2296 (battle-gen9randombattle-2040039): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  entei (fainted; item choiceband, ability innerfocus, tera fire; moves flareblitz/stompingtantrum/extremespeed/sacredfire)
+  hitmonlee (fainted; item ?, ability unburden; moves swordsdance/knockoff/stoneedge/closecombat)
+  tentacruel (fainted; item assaultvest, ability liquidooze; moves surf/flipturn/sludgebomb/rapidspin)
+  stantler (fainted; item eviolite, ability intimidate; moves calmmind/shadowball/terablast/earthpower)
+  registeel (fainted; item leftovers, ability clearbody; moves ironhead/thunderwave/irondefense/bodypress)
+  poliwrath (fainted; item leftovers, ability waterabsorb; moves bulkup/drainpunch/liquidation/poisonjab)
+theirs (as seen):
+  swalot (fainted; item leftovers, ability ?; moves earthquake)
+  jolteon (fainted; item leftovers, ability ?; moves thunderbolt)
+  froslass (fainted; item unknown_item, ability ?; moves poltergeist)
+  gurdurr (fainted; item unknown_item, ability ?; moves drainpunch)
+  darkrai (fainted; item lifeorb, ability baddreams; moves focusblast)
+  rayquaza (13%; item unknown_item, ability airlock; moves dragonascent)
+
+-- turn 0
+  switch|p1a: Entei|Entei, L78|307/307
+  switch|p2a: Swalot|Swalot, L90, F|100/100
+-- turn 1
+  WE CHOSE: switch to registeel - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Registeel|Registeel, L81|262/262
+  move|p2a: Swalot|Earthquake|p1a: Registeel
+  -supereffective|p1a: Registeel
+  -damage|p1a: Registeel|180/262
+  -heal|p1a: Registeel|196/262|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack ironhead - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Swalot|Earthquake|p1a: Registeel
+  -supereffective|p1a: Registeel
+  -damage|p1a: Registeel|100/262
+  move|p1a: Registeel|Iron Head|p2a: Swalot
+  -damage|p2a: Swalot|81/100
+  -heal|p2a: Swalot|87/100|[from] item: Leftovers
+  -heal|p1a: Registeel|116/262|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack ironhead - our hp 0.44, theirs 0.87, predicted move (revealed) hits us x2
+  move|p2a: Swalot|Earthquake|p1a: Registeel
+  -supereffective|p1a: Registeel
+  -damage|p1a: Registeel|26/262
+  move|p1a: Registeel|Iron Head|p2a: Swalot
+  -damage|p2a: Swalot|70/100
+  -heal|p2a: Swalot|76/100|[from] item: Leftovers
+  -heal|p1a: Registeel|42/262|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack ironhead - our hp 0.16, theirs 0.76, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to stantler - our hp 0.00, theirs 0.82, predicted move (revealed) hits us x2
+  move|p2a: Swalot|Earthquake|p1a: Registeel
+  -supereffective|p1a: Registeel
+  -damage|p1a: Registeel|0 fnt
+  faint|p1a: Registeel
+  -heal|p2a: Swalot|82/100|[from] item: Leftovers
+  switch|p1a: Stantler|Stantler, L91, F|281/281
+  -ability|p1a: Stantler|Intimidate|boost
+  -unboost|p2a: Swalot|atk|1
+-- turn 5
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x1
+  move|p1a: Stantler|Earth Power|p2a: Swalot
+  -supereffective|p2a: Swalot
+  -damage|p2a: Swalot|39/100
+  move|p2a: Swalot|Earthquake|p1a: Stantler
+  -damage|p1a: Stantler|245/281
+  -heal|p2a: Swalot|46/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack earthpower - our hp 0.87, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Stantler|Earth Power|p2a: Swalot
+  -supereffective|p2a: Swalot
+  -damage|p2a: Swalot|3/100
+  move|p2a: Swalot|Earthquake|p1a: Stantler
+  -damage|p1a: Stantler|212/281
+  -heal|p2a: Swalot|9/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack earthpower - our hp 0.75, theirs 0.09, predicted move (revealed) hits us x1
+  move|p1a: Stantler|Earth Power|p2a: Swalot
+  -supereffective|p2a: Swalot
+  -damage|p2a: Swalot|0 fnt
+  faint|p2a: Swalot
+  switch|p2a: Jolteon|Jolteon, L84, M|100/100
+-- turn 8
+  WE CHOSE: attack earthpower - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Stantler
+  -damage|p1a: Stantler|134/281
+  move|p1a: Stantler|Earth Power|p2a: Jolteon
+  -supereffective|p2a: Jolteon
+  -damage|p2a: Jolteon|49/100
+  -heal|p2a: Jolteon|55/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack earthpower - our hp 0.48, theirs 0.55, predicted move (revealed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Stantler
+  -damage|p1a: Stantler|49/281
+  -status|p1a: Stantler|par
+  cant|p1a: Stantler|par
+  -heal|p2a: Jolteon|61/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack earthpower - our hp 0.17, theirs 0.61, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to entei - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Stantler
+  -damage|p1a: Stantler|0 fnt
+  faint|p1a: Stantler
+  -heal|p2a: Jolteon|68/100|[from] item: Leftovers
+  switch|p1a: Entei|Entei, L78|307/307
+-- turn 11
+  WE CHOSE: attack+tera flareblitz - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x1
+  -terastallize|p1a: Entei|Fire
+  move|p2a: Jolteon|Thunderbolt|p1a: Entei
+  -damage|p1a: Entei|184/307
+  -status|p1a: Entei|par
+  move|p1a: Entei|Flare Blitz|p2a: Jolteon
+  -damage|p2a: Jolteon|0 fnt
+  faint|p2a: Jolteon
+  -damage|p1a: Entei|130/307 par|[from] Recoil
+  switch|p2a: Froslass|Froslass, L87, F|100/100
+-- turn 12
+  WE CHOSE: attack flareblitz - our hp 0.42, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hitmonlee - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Froslass|Poltergeist|p1a: Entei
+  -activate|p1a: Entei|move: Poltergeist|Choice Band
+  -damage|p1a: Entei|21/307 par
+  move|p1a: Entei|Flare Blitz|p2a: Froslass
+  -supereffective|p2a: Froslass
+  -damage|p2a: Froslass|0 fnt
+  faint|p2a: Froslass
+  -damage|p1a: Entei|0 fnt|[from] Recoil
+  faint|p1a: Entei
+  switch|p2a: Gurdurr|Gurdurr, L85, M|100/100
+  switch|p1a: Hitmonlee|Hitmonlee, L85, M|224/224
+-- turn 13
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Hitmonlee|Close Combat|p2a: Gurdurr
+  -damage|p2a: Gurdurr|66/100
+  -unboost|p1a: Hitmonlee|def|1
+  -unboost|p1a: Hitmonlee|spd|1
+  -enditem|p1a: Hitmonlee|White Herb
+  -clearnegativeboost|p1a: Hitmonlee|[silent]
+  move|p2a: Gurdurr|Drain Punch|p1a: Hitmonlee
+  -damage|p1a: Hitmonlee|103/224
+  -heal|p2a: Gurdurr|87/100|[from] drain|[of] p1a: Hitmonlee
+-- turn 14
+  WE CHOSE: attack closecombat - our hp 0.46, theirs 0.87, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tentacruel - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Hitmonlee|Close Combat|p2a: Gurdurr
+  -damage|p2a: Gurdurr|51/100
+  -unboost|p1a: Hitmonlee|def|1
+  -unboost|p1a: Hitmonlee|spd|1
+  move|p2a: Gurdurr|Drain Punch|p1a: Hitmonlee
+  -damage|p1a: Hitmonlee|0 fnt
+  -heal|p2a: Gurdurr|69/100|[from] drain|[of] p1a: Hitmonlee
+  faint|p1a: Hitmonlee
+  switch|p1a: Tentacruel|Tentacruel, L84, F|272/272
+-- turn 15
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Tentacruel|Surf|p2a: Gurdurr
+  -damage|p2a: Gurdurr|40/100
+  move|p2a: Gurdurr|Drain Punch|p1a: Tentacruel
+  -resisted|p1a: Tentacruel
+  -damage|p1a: Tentacruel|215/272
+  -damage|p2a: Gurdurr|29/100|[from] ability: Liquid Ooze|[of] p1a: Tentacruel
+-- turn 16
+  WE CHOSE: attack surf - our hp 0.79, theirs 0.29, predicted move (revealed) hits us x0.5
+  move|p1a: Tentacruel|Surf|p2a: Gurdurr
+  -damage|p2a: Gurdurr|0 fnt
+  faint|p2a: Gurdurr
+  switch|p2a: Darkrai|Darkrai, L77|100/100
+-- turn 17
+  WE CHOSE: attack surf - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Darkrai|Focus Blast|p1a: Tentacruel
+  -resisted|p1a: Tentacruel
+  -damage|p1a: Tentacruel|184/272
+  -damage|p2a: Darkrai|91/100|[from] item: Life Orb
+  move|p1a: Tentacruel|Surf|p2a: Darkrai
+  -damage|p2a: Darkrai|52/100
+-- turn 18
+  WE CHOSE: attack surf - our hp 0.68, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p2a: Darkrai|Focus Blast|p1a: Tentacruel|[miss]
+  -miss|p2a: Darkrai|p1a: Tentacruel
+  move|p1a: Tentacruel|Surf|p2a: Darkrai
+  -damage|p2a: Darkrai|11/100
+-- turn 19
+  WE CHOSE: attack surf - our hp 0.68, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p2a: Darkrai|Focus Blast|p1a: Tentacruel
+  -resisted|p1a: Tentacruel
+  -damage|p1a: Tentacruel|152/272
+  -unboost|p1a: Tentacruel|spd|1
+  -damage|p2a: Darkrai|1/100|[from] item: Life Orb
+  move|p1a: Tentacruel|Surf|p2a: Darkrai
+  -damage|p2a: Darkrai|0 fnt
+  faint|p2a: Darkrai
+  switch|p2a: Rayquaza|Rayquaza, L72|100/100
+  -ability|p2a: Rayquaza|Air Lock
+-- turn 20
+  WE CHOSE: attack sludgebomb - our hp 0.56, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to poliwrath - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Tentacruel|Sludge Bomb|p2a: Rayquaza
+  -damage|p2a: Rayquaza|65/100
+  move|p2a: Rayquaza|Dragon Ascent|p1a: Tentacruel
+  -damage|p1a: Tentacruel|0 fnt
+  -unboost|p2a: Rayquaza|def|1
+  -unboost|p2a: Rayquaza|spd|1
+  faint|p1a: Tentacruel
+  switch|p1a: Poliwrath|Poliwrath, L88, M|302/302
+-- turn 21
+  WE CHOSE: attack poisonjab - our hp 1.00, theirs 0.65, predicted move (revealed) hits us x2
+  move|p2a: Rayquaza|Dragon Ascent|p1a: Poliwrath
+  -supereffective|p1a: Poliwrath
+  -damage|p1a: Poliwrath|44/302
+  -unboost|p2a: Rayquaza|def|1
+  -unboost|p2a: Rayquaza|spd|1
+  move|p1a: Poliwrath|Poison Jab|p2a: Rayquaza
+  -damage|p2a: Rayquaza|13/100
+  -heal|p1a: Poliwrath|62/302|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack poisonjab - our hp 0.21, theirs 0.13, predicted move (revealed) hits us x2
+  move|p2a: Rayquaza|Dragon Ascent|p1a: Poliwrath
+  -supereffective|p1a: Poliwrath
+  -damage|p1a: Poliwrath|0 fnt
+  -unboost|p2a: Rayquaza|def|1
+  -unboost|p2a: Rayquaza|spd|1
+  faint|p1a: Poliwrath
+  deinit

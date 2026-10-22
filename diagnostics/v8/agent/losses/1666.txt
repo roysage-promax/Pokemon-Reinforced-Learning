@@ -1,0 +1,138 @@
+battle 1666 (battle-gen9randombattle-2035548): lost in 14 turns, 3 of theirs left; we are p1
+
+ours:
+  leafeon (fainted; item leftovers, ability chlorophyll; moves substitute/leafblade/doubleedge/swordsdance)
+  heracross (fainted; item flameorb, ability guts; moves trailblaze/facade/knockoff/closecombat)
+  pyroar (fainted; item heavydutyboots, ability unnerve; moves hypervoice/fireblast/darkpulse/willowisp)
+  banette (fainted; item lifeorb, ability cursedbody, tera poison; moves poltergeist/thunderwave/gunkshot/shadowsneak)
+  krookodile (fainted; item leftovers, ability intimidate; moves earthquake/knockoff/gunkshot/bulkup)
+  sawsbucksummer (fainted; item lifeorb, ability serenegrace; moves hornleech/highhorsepower/swordsdance/headbutt)
+theirs (as seen):
+  ironmoth (fainted; item unknown_item, ability quarkdrive; moves fireblast)
+  pecharunt (fainted; item unknown_item, ability poisonpuppeteer; moves malignantchain)
+  furret (fainted; item unknown_item, ability frisk; moves doubleedge)
+  cinderace (36%; item unknown_item, ability ?; moves highjumpkick)
+
+-- turn 0
+  switch|p1a: Leafeon|Leafeon, L88, F|258/258
+  switch|p2a: Iron Moth|Iron Moth, L78|100/100
+-- turn 1
+  WE CHOSE: switch to krookodile (hand policy: switch to pyroar) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Krookodile|Krookodile, L79, F|280/280
+  -ability|p1a: Krookodile|Intimidate|boost
+  -unboost|p2a: Iron Moth|atk|1
+  move|p2a: Iron Moth|Fire Blast|p1a: Krookodile
+  -damage|p1a: Krookodile|94/280
+  -heal|p1a: Krookodile|111/280|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pyroar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Moth|Fire Blast|p1a: Krookodile
+  -damage|p1a: Krookodile|0 fnt
+  faint|p1a: Krookodile
+  switch|p1a: Pyroar|Pyroar, L88, F|295/295
+  -ability|p1a: Pyroar|Unnerve
+-- turn 3
+  WE CHOSE: attack hypervoice - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Pyroar|Hyper Voice|p2a: Iron Moth
+  -damage|p2a: Iron Moth|60/100
+  move|p2a: Iron Moth|Fire Blast|p1a: Pyroar
+  -resisted|p1a: Pyroar
+  -damage|p1a: Pyroar|209/295
+-- turn 4
+  WE CHOSE: attack hypervoice - our hp 0.71, theirs 0.60, predicted move (revealed) hits us x0.5
+  move|p1a: Pyroar|Hyper Voice|p2a: Iron Moth
+  -damage|p2a: Iron Moth|19/100
+  move|p2a: Iron Moth|Fire Blast|p1a: Pyroar|[miss]
+  -miss|p2a: Iron Moth|p1a: Pyroar
+-- turn 5
+  WE CHOSE: attack darkpulse (hand policy: attack hypervoice) - our hp 0.71, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p1a: Pyroar|Dark Pulse|p2a: Iron Moth
+  -damage|p2a: Iron Moth|0 fnt
+  faint|p2a: Iron Moth
+  -end|p2a: Iron Moth|Quark Drive|[silent]
+  switch|p2a: Pecharunt|Pecharunt, L77|100/100
+-- turn 6
+  WE CHOSE: switch to banette (hand policy: attack darkpulse) - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Banette|Banette, L93, M|270/270
+  move|p2a: Pecharunt|Malignant Chain|p1a: Banette
+  -resisted|p1a: Banette
+  -damage|p1a: Banette|222/270
+-- turn 7
+  WE CHOSE: attack+tera poltergeist (hand policy: attack poltergeist) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Banette|Poison
+  move|p2a: Pecharunt|Malignant Chain|p1a: Banette
+  -resisted|p1a: Banette
+  -damage|p1a: Banette|176/270
+  -start|p2a: Pecharunt|Disable|Malignant Chain|[from] ability: Cursed Body|[of] p1a: Banette
+  move|p1a: Banette|Poltergeist|p2a: Pecharunt
+  -activate|p2a: Pecharunt|move: Poltergeist|Rocky Helmet
+  -supereffective|p2a: Pecharunt
+  -damage|p2a: Pecharunt|0 fnt
+  faint|p2a: Pecharunt
+  -damage|p1a: Banette|149/270|[from] item: Life Orb
+  switch|p2a: Furret|Furret, L94, M|100/100
+  -item|p1a: Banette|Life Orb|[from] ability: Frisk|[of] p2a: Furret
+-- turn 8
+  WE CHOSE: attack gunkshot - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to heracross - our hp 0.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Furret|Double-Edge|p1a: Banette
+  -damage|p1a: Banette|0 fnt
+  faint|p1a: Banette
+  -damage|p2a: Furret|85/100|[from] Recoil
+  switch|p1a: Heracross|Heracross, L80, F|259/259
+-- turn 9
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Furret|Double-Edge|p1a: Heracross
+  -damage|p1a: Heracross|9/259
+  -damage|p2a: Furret|58/100|[from] Recoil
+  move|p1a: Heracross|Close Combat|p2a: Furret
+  -supereffective|p2a: Furret
+  -damage|p2a: Furret|0 fnt
+  -unboost|p1a: Heracross|def|1
+  -unboost|p1a: Heracross|spd|1
+  faint|p2a: Furret
+  -status|p1a: Heracross|brn|[from] item: Flame Orb
+  switch|p2a: Cinderace|Cinderace, L77, M|100/100
+-- turn 10
+  WE CHOSE: attack facade (hand policy: attack closecombat) - our hp 0.03, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to leafeon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cinderace|High Jump Kick|p1a: Heracross
+  -start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+  -resisted|p1a: Heracross
+  -crit|p1a: Heracross
+  -damage|p1a: Heracross|0 fnt
+  faint|p1a: Heracross
+  switch|p1a: Leafeon|Leafeon, L88, F|258/258
+-- turn 11
+  WE CHOSE: setup swordsdance (hand policy: attack leafblade) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cinderace|High Jump Kick|p1a: Leafeon
+  -damage|p1a: Leafeon|117/258
+  move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+  -boost|p1a: Leafeon|atk|2
+  -heal|p1a: Leafeon|133/258|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack leafblade - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pyroar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cinderace|High Jump Kick|p1a: Leafeon
+  -damage|p1a: Leafeon|0 fnt
+  faint|p1a: Leafeon
+  switch|p1a: Pyroar|Pyroar, L88, F|209/295
+  -ability|p1a: Pyroar|Unnerve
+-- turn 13
+  WE CHOSE: attack fireblast - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to sawsbucksummer - our hp 0.00, theirs 0.36, predicted move (revealed) hits us x2
+  move|p1a: Pyroar|Fire Blast|p2a: Cinderace
+  -damage|p2a: Cinderace|36/100
+  move|p2a: Cinderace|High Jump Kick|p1a: Pyroar
+  -supereffective|p1a: Pyroar
+  -damage|p1a: Pyroar|0 fnt
+  faint|p1a: Pyroar
+  switch|p1a: Sawsbuck|Sawsbuck-Summer, L88, F|284/284
+-- turn 14
+  WE CHOSE: attack highhorsepower (hand policy: attack hornleech) - our hp 1.00, theirs 0.36, predicted move (revealed) hits us x2
+  move|p2a: Cinderace|High Jump Kick|p1a: Sawsbuck
+  -supereffective|p1a: Sawsbuck
+  -damage|p1a: Sawsbuck|0 fnt
+  faint|p1a: Sawsbuck
+  deinit

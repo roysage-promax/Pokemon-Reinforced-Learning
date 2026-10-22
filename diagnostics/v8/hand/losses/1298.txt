@@ -1,0 +1,182 @@
+battle 1298 (battle-gen9randombattle-2030573): lost in 18 turns, 2 of theirs left; we are p1
+
+ours:
+  espathra (fainted; item leftovers, ability speedboost, tera fairy; moves dazzlinggleam/calmmind/storedpower/roost)
+  kingdra (fainted; item lumberry, ability sniper; moves dragondance/wavecrash/outrage/waterfall)
+  eiscue (fainted; item sitrusberry, ability iceface; moves liquidation/bellydrum/terablast/icespinner)
+  galvantula (fainted; item heavydutyboots, ability compoundeyes; moves stickyweb/bugbuzz/energyball/thunder)
+  victreebel (fainted; item lifeorb, ability chlorophyll; moves powerwhip/suckerpunch/sludgewave/sleeppowder)
+  kleavor (fainted; item heavydutyboots, ability sharpness; moves stoneaxe/uturn/xscissor/defog)
+theirs (as seen):
+  swanna (fainted; item unknown_item, ability ?; moves bravebird)
+  glaceon (fainted; item unknown_item, ability ?; moves freezedry)
+  orthworm (fainted; item leftovers, ability ?; moves bodypress)
+  samurott (fainted; item unknown_item, ability ?; moves hydropump)
+  pyroar (100%; item unknown_item, ability unnerve; moves fireblast)
+
+-- turn 0
+  switch|p1a: Espathra|Espathra, L80, M|283/283
+  switch|p2a: Swanna|Swanna, L89, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera dazzlinggleam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Espathra|Fairy
+  move|p2a: Swanna|Brave Bird|p1a: Espathra
+  -damage|p1a: Espathra|117/283
+  -damage|p2a: Swanna|81/100|[from] Recoil
+  move|p1a: Espathra|Dazzling Gleam|p2a: Swanna
+  -damage|p2a: Swanna|47/100
+  -heal|p1a: Espathra|134/283|[from] item: Leftovers
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+-- turn 2
+  WE CHOSE: heal roost - our hp 0.47, theirs 0.47, predicted move (revealed) hits us x1
+  move|p1a: Espathra|Roost|p1a: Espathra
+  -heal|p1a: Espathra|276/283
+  move|p2a: Swanna|Brave Bird|p1a: Espathra
+  -damage|p1a: Espathra|84/283
+  -damage|p2a: Swanna|24/100|[from] Recoil
+  -heal|p1a: Espathra|101/283|[from] item: Leftovers
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+-- turn 3
+  WE CHOSE: heal roost - our hp 0.36, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Espathra|Roost|p1a: Espathra
+  -heal|p1a: Espathra|243/283
+  move|p2a: Swanna|Brave Bird|p1a: Espathra
+  -damage|p1a: Espathra|71/283
+  -damage|p2a: Swanna|4/100|[from] Recoil
+  -heal|p1a: Espathra|88/283|[from] item: Leftovers
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+-- turn 4
+  WE CHOSE: heal roost - our hp 0.31, theirs 0.04, predicted move (revealed) hits us x1
+  move|p1a: Espathra|Roost|p1a: Espathra
+  -heal|p1a: Espathra|230/283
+  move|p2a: Swanna|Brave Bird|p1a: Espathra
+  -damage|p1a: Espathra|59/283
+  -damage|p2a: Swanna|0 fnt|[from] Recoil
+  faint|p2a: Swanna
+  -heal|p1a: Espathra|76/283|[from] item: Leftovers
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+  switch|p2a: Glaceon|Glaceon, L94, M|100/100
+-- turn 5
+  WE CHOSE: heal roost - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Espathra|Roost|p1a: Espathra
+  -heal|p1a: Espathra|218/283
+  move|p2a: Glaceon|Freeze-Dry|p1a: Espathra
+  -damage|p1a: Espathra|58/283
+  -heal|p1a: Espathra|75/283|[from] item: Leftovers
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+-- turn 6
+  WE CHOSE: heal roost - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Espathra|Roost|p1a: Espathra
+  -heal|p1a: Espathra|217/283
+  move|p2a: Glaceon|Freeze-Dry|p1a: Espathra
+  -damage|p1a: Espathra|49/283
+  -status|p1a: Espathra|frz
+  -heal|p1a: Espathra|66/283 frz|[from] item: Leftovers
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+-- turn 7
+  WE CHOSE: heal roost - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kingdra - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p1a: Espathra|frz
+  move|p2a: Glaceon|Freeze-Dry|p1a: Espathra
+  -damage|p1a: Espathra|0 fnt
+  faint|p1a: Espathra
+  switch|p1a: Kingdra|Kingdra, L84, F|263/263
+-- turn 8
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kleavor - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Kingdra|Wave Crash|p2a: Glaceon
+  -damage|p2a: Glaceon|68/100
+  -damage|p1a: Kingdra|234/263|[from] Recoil
+  move|p2a: Glaceon|Freeze-Dry|p1a: Kingdra
+  -supereffective|p1a: Kingdra
+  -damage|p1a: Kingdra|0 fnt
+  faint|p1a: Kingdra
+  switch|p1a: Kleavor|Kleavor, L78, F|237/237
+-- turn 9
+  WE CHOSE: attack stoneaxe - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Kleavor|Stone Axe|p2a: Glaceon
+  -supereffective|p2a: Glaceon
+  -damage|p2a: Glaceon|4/100
+  -sidestart|p2: e2_035154|move: Stealth Rock
+  move|p2a: Glaceon|Freeze-Dry|p1a: Kleavor
+  -damage|p1a: Kleavor|96/237
+  -status|p1a: Kleavor|frz
+-- turn 10
+  WE CHOSE: attack stoneaxe - our hp 0.41, theirs 0.04, predicted move (revealed) hits us x1
+  -curestatus|p1a: Kleavor|frz|[msg]
+  move|p1a: Kleavor|Stone Axe|p2a: Glaceon
+  -supereffective|p2a: Glaceon
+  -damage|p2a: Glaceon|0 fnt
+  faint|p2a: Glaceon
+  switch|p2a: Orthworm|Orthworm, L88, M|100/100
+  -damage|p2a: Orthworm|94/100|[from] Stealth Rock
+-- turn 11
+  WE CHOSE: switch to galvantula - our hp 0.41, theirs 0.94, predicted move (guessed) hits us x2
+  switch|p1a: Galvantula|Galvantula, L82, F|249/249
+  move|p2a: Orthworm|Body Press|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|196/249
+  -heal|p2a: Orthworm|100/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack thunder - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Galvantula|Thunder|p2a: Orthworm
+  -damage|p2a: Orthworm|46/100
+  move|p2a: Orthworm|Body Press|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|143/249
+  -heal|p2a: Orthworm|52/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack thunder - our hp 0.57, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p1a: Galvantula|Thunder|p2a: Orthworm
+  -damage|p2a: Orthworm|0 fnt
+  faint|p2a: Orthworm
+  switch|p2a: Samurott|Samurott, L88, F|100/100
+  -damage|p2a: Samurott|88/100|[from] Stealth Rock
+-- turn 14
+  WE CHOSE: attack thunder - our hp 0.57, theirs 0.88, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to victreebel - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Galvantula|Thunder|p2a: Samurott
+  -supereffective|p2a: Samurott
+  -damage|p2a: Samurott|31/100
+  -status|p2a: Samurott|par
+  move|p2a: Samurott|Hydro Pump|p1a: Galvantula
+  -damage|p1a: Galvantula|0 fnt
+  faint|p1a: Galvantula
+  switch|p1a: Victreebel|Victreebel, L90, M|290/290
+-- turn 15
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p1a: Victreebel|Power Whip|p2a: Samurott
+  -supereffective|p2a: Samurott
+  -damage|p2a: Samurott|0 fnt
+  faint|p2a: Samurott
+  -damage|p1a: Victreebel|261/290|[from] item: Life Orb
+  switch|p2a: Pyroar|Pyroar, L88, F|100/100
+  -ability|p2a: Pyroar|Unnerve
+-- turn 16
+  WE CHOSE: attack sludgewave - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to kleavor - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Pyroar|Fire Blast|p1a: Victreebel
+  -supereffective|p1a: Victreebel
+  -damage|p1a: Victreebel|0 fnt
+  faint|p1a: Victreebel
+  switch|p1a: Kleavor|Kleavor, L78, F|96/237
+-- turn 17
+  WE CHOSE: attack stoneaxe - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to eiscue - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Pyroar|Fire Blast|p1a: Kleavor
+  -damage|p1a: Kleavor|0 fnt
+  faint|p1a: Kleavor
+  switch|p1a: Eiscue|Eiscue, L88, F|274/274
+-- turn 18
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Pyroar|Fire Blast|p1a: Eiscue
+  -supereffective|p1a: Eiscue
+  -damage|p1a: Eiscue|0 fnt
+  faint|p1a: Eiscue
+  deinit

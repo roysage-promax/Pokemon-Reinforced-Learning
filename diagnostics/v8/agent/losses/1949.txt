@@ -1,0 +1,168 @@
+battle 1949 (battle-gen9randombattle-2038460): lost in 15 turns, 1 of theirs left; we are p1
+
+ours:
+  dragapult (fainted; item lifeorb, ability clearbody, tera ghost; moves dragondance/dragondarts/terablast/fireblast)
+  copperajah (fainted; item choiceband, ability heavymetal; moves heavyslam/supercellslam/stoneedge/heatcrash)
+  braviaryhisui (fainted; item heavydutyboots, ability tintedlens; moves esperwing/calmmind/hurricane/roost)
+  masquerain (fainted; item heavydutyboots, ability intimidate; moves uturn/hydropump/hurricane/stickyweb)
+  scizor (fainted; item lifeorb, ability technician; moves bugbite/closecombat/bulletpunch/swordsdance)
+  medicham (fainted; item choiceband, ability purepower; moves closecombat/trick/bulletpunch/zenheadbutt)
+theirs (as seen):
+  altaria (fainted; item unknown_item, ability ?; moves bravebird)
+  golurk (fainted; item lifeorb, ability ?; moves poltergeist)
+  koraidon (fainted; item unknown_item, ability orichalcumpulse; moves flareblitz)
+  dudunsparcethreesegment (fainted; item leftovers, ability ?; moves boomburst)
+  infernape (fainted; item lifeorb, ability ?; moves overheat)
+  entei (59%; item unknown_item, ability ?; moves flareblitz)
+
+-- turn 0
+  switch|p1a: Dragapult|Dragapult, L77, F|262/262
+  switch|p2a: Altaria|Altaria, L89, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera dragondarts (hand policy: attack dragondarts) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Dragapult|Ghost
+  move|p1a: Dragapult|Dragon Darts|p2a: Altaria
+  -supereffective|p2a: Altaria
+  -damage|p2a: Altaria|58/100
+  -anim|p1a: Dragapult|Dragon Darts|p2a: Altaria
+  -supereffective|p2a: Altaria
+  -damage|p2a: Altaria|13/100
+  -damage|p1a: Dragapult|236/262|[from] item: Life Orb
+  move|p2a: Altaria|Brave Bird|p1a: Dragapult
+  -damage|p1a: Dragapult|97/262
+  -damage|p2a: Altaria|0 fnt|[from] Recoil
+  faint|p2a: Altaria
+  switch|p2a: Golurk|Golurk, L87|100/100
+-- turn 2
+  WE CHOSE: attack dragondarts - our hp 0.37, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to masquerain - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x2
+  move|p1a: Dragapult|Dragon Darts|p2a: Golurk
+  -damage|p2a: Golurk|77/100
+  -anim|p1a: Dragapult|Dragon Darts|p2a: Golurk
+  -damage|p2a: Golurk|50/100
+  -damage|p1a: Dragapult|71/262|[from] item: Life Orb
+  move|p2a: Golurk|Poltergeist|p1a: Dragapult
+  -activate|p1a: Dragapult|move: Poltergeist|Life Orb
+  -supereffective|p1a: Dragapult
+  -damage|p1a: Dragapult|0 fnt
+  faint|p1a: Dragapult
+  -damage|p2a: Golurk|41/100|[from] item: Life Orb
+  switch|p1a: Masquerain|Masquerain, L87, F|264/264
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Golurk|atk|1
+-- turn 3
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Masquerain|Hydro Pump|p2a: Golurk
+  -supereffective|p2a: Golurk
+  -damage|p2a: Golurk|0 fnt
+  faint|p2a: Golurk
+  switch|p2a: Koraidon|Koraidon, L64|100/100
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+  -activate|p2a: Koraidon|Orichalcum Pulse|[source]
+-- turn 4
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.25
+  WE CHOSE: forced: switch to braviaryhisui - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x2
+  move|p2a: Koraidon|Flare Blitz|p1a: Masquerain
+  -supereffective|p1a: Masquerain
+  -damage|p1a: Masquerain|0 fnt
+  faint|p1a: Masquerain
+  -damage|p2a: Koraidon|63/100|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Braviary|Braviary-Hisui, L85, M|326/326
+-- turn 5
+  WE CHOSE: setup calmmind (hand policy: attack esperwing) - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Koraidon|Flare Blitz|p1a: Braviary
+  -damage|p1a: Braviary|165/326
+  -damage|p2a: Koraidon|41/100|[from] Recoil
+  move|p1a: Braviary|Calm Mind|p1a: Braviary
+  -boost|p1a: Braviary|spa|1
+  -boost|p1a: Braviary|spd|1
+  -weather|SunnyDay|[upkeep]
+-- turn 6
+  WE CHOSE: attack hurricane (hand policy: attack esperwing) - our hp 0.51, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Koraidon|Flare Blitz|p1a: Braviary
+  -damage|p1a: Braviary|25/326
+  -damage|p2a: Koraidon|21/100|[from] Recoil
+  move|p1a: Braviary|Hurricane|p2a: Koraidon|[miss]
+  -miss|p1a: Braviary|p2a: Koraidon
+  -weather|SunnyDay|[upkeep]
+-- turn 7
+  WE CHOSE: attack hurricane (hand policy: heal roost) - our hp 0.08, theirs 0.21, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to medicham - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Koraidon|Flare Blitz|p1a: Braviary
+  -damage|p1a: Braviary|0 fnt
+  faint|p1a: Braviary
+  -damage|p2a: Koraidon|18/100|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Medicham|Medicham, L86, F|243/243
+-- turn 8
+  WE CHOSE: attack bulletpunch (hand policy: attack zenheadbutt) - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p1a: Medicham|Bullet Punch|p2a: Koraidon
+  -damage|p2a: Koraidon|0 fnt
+  faint|p2a: Koraidon
+  -weather|none
+  switch|p2a: Dudunsparce|Dudunsparce-Three-Segment, L83, F|100/100
+-- turn 9
+  WE CHOSE: switch to scizor (hand policy: attack bulletpunch) - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  switch|p1a: Scizor|Scizor, L79, M|240/240
+  move|p2a: Dudunsparce|Boomburst|p1a: Scizor
+  -resisted|p1a: Scizor
+  -damage|p1a: Scizor|168/240
+-- turn 10
+  WE CHOSE: attack closecombat (hand policy: setup swordsdance) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scizor|Close Combat|p2a: Dudunsparce
+  -supereffective|p2a: Dudunsparce
+  -damage|p2a: Dudunsparce|28/100
+  -unboost|p1a: Scizor|def|1
+  -unboost|p1a: Scizor|spd|1
+  -damage|p1a: Scizor|144/240|[from] item: Life Orb
+  move|p2a: Dudunsparce|Boomburst|p1a: Scizor
+  -resisted|p1a: Scizor
+  -damage|p1a: Scizor|38/240
+  -heal|p2a: Dudunsparce|34/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack bulletpunch (hand policy: attack closecombat) - our hp 0.16, theirs 0.34, predicted move (revealed) hits us x0.5
+  move|p1a: Scizor|Bullet Punch|p2a: Dudunsparce
+  -crit|p2a: Dudunsparce
+  -damage|p2a: Dudunsparce|0 fnt
+  faint|p2a: Dudunsparce
+  -damage|p1a: Scizor|14/240|[from] item: Life Orb
+  switch|p2a: Infernape|Infernape, L82, F|100/100
+-- turn 12
+  WE CHOSE: attack bulletpunch (hand policy: attack closecombat) - our hp 0.06, theirs 1.00, predicted move (guessed) hits us x4
+  WE CHOSE: forced: switch to medicham - our hp 0.00, theirs 0.79, predicted move (revealed) hits us x4
+  move|p1a: Scizor|Bullet Punch|p2a: Infernape
+  -resisted|p2a: Infernape
+  -damage|p2a: Infernape|79/100
+  -damage|p1a: Scizor|0 fnt|[from] item: Life Orb
+  faint|p1a: Scizor
+  move|p2a: Infernape|Overheat|p1: Scizor|[notarget]
+  -fail|p2a: Infernape
+  switch|p1a: Medicham|Medicham, L86, F|243/243
+-- turn 13
+  WE CHOSE: attack zenheadbutt - our hp 1.00, theirs 0.79, predicted move (revealed) hits us x1
+  move|p2a: Infernape|Overheat|p1a: Medicham
+  -damage|p1a: Medicham|35/243
+  -unboost|p2a: Infernape|spa|2
+  -damage|p2a: Infernape|69/100|[from] item: Life Orb
+  move|p1a: Medicham|Zen Headbutt|p2a: Infernape
+  -supereffective|p2a: Infernape
+  -damage|p2a: Infernape|0 fnt
+  faint|p2a: Infernape
+  switch|p2a: Entei|Entei, L78|100/100
+-- turn 14
+  WE CHOSE: attack zenheadbutt - our hp 0.14, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to copperajah - our hp 0.00, theirs 0.97, predicted move (revealed) hits us x1
+  move|p2a: Entei|Flare Blitz|p1a: Medicham
+  -damage|p1a: Medicham|0 fnt
+  faint|p1a: Medicham
+  -damage|p2a: Entei|97/100|[from] Recoil
+  switch|p1a: Copperajah|Copperajah, L86, M|349/349
+-- turn 15
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.97, predicted move (revealed) hits us x2
+  move|p2a: Entei|Flare Blitz|p1a: Copperajah
+  -supereffective|p1a: Copperajah
+  -damage|p1a: Copperajah|0 fnt
+  faint|p1a: Copperajah
+  -damage|p2a: Entei|59/100|[from] Recoil
+  deinit

@@ -1,0 +1,326 @@
+battle 55 (battle-gen9randombattle-2018860): lost in 35 turns, 1 of theirs left; we are p1
+
+ours:
+  bisharp (fainted; item eviolite, ability defiant; moves suckerpunch/ironhead/throatchop/swordsdance)
+  amoonguss (fainted; item leftovers, ability regenerator; moves spore/stompingtantrum/gigadrain/sludgebomb)
+  vespiquen (fainted; item heavydutyboots, ability pressure; moves spikes/roost/hurricane/uturn)
+  arcaninehisui (fainted; item choiceband, ability rockhead; moves wildcharge/flareblitz/closecombat/headsmash)
+  dudunsparcethreesegment (fainted; item ?, ability rattled; moves shadowball/boomburst/roost/calmmind)
+  emboar (fainted; item leftovers, ability reckless; moves trailblaze/flareblitz/bulkup/drainpunch)
+theirs (as seen):
+  magmortar (fainted; item unknown_item, ability ?; moves focusblast/fireblast)
+  tinglu (fainted; item leftovers, ability vesselofruin; moves earthquake)
+  sableye (fainted; item leftovers, ability ?; moves knockoff)
+  kyogre (fainted; item unknown_item, ability drizzle; moves waterspout)
+  lurantis (fainted; item leftovers, ability ?; moves leafstorm)
+  hippowdon (34%; item rockyhelmet, ability ?; moves -)
+
+-- turn 0
+  switch|p1a: Bisharp|Bisharp, L79, F|232/232
+  switch|p2a: Magmortar|Magmortar, L88, M|100/100
+-- turn 1
+  WE CHOSE: switch to vespiquen - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Vespiquen|Vespiquen, L99, F|299/299
+  -ability|p1a: Vespiquen|Pressure
+  move|p2a: Magmortar|Focus Blast|p1a: Vespiquen
+  -resisted|p1a: Vespiquen
+  -damage|p1a: Vespiquen|277/299
+-- turn 2
+  WE CHOSE: attack hurricane - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Magmortar|Focus Blast|p1a: Vespiquen
+  -resisted|p1a: Vespiquen
+  -damage|p1a: Vespiquen|254/299
+  move|p1a: Vespiquen|Hurricane|p2a: Magmortar
+  -damage|p2a: Magmortar|57/100
+  -start|p2a: Magmortar|confusion
+-- turn 3
+  WE CHOSE: attack hurricane - our hp 0.85, theirs 0.57, predicted move (revealed) hits us x0.25
+  -activate|p2a: Magmortar|confusion
+  move|p2a: Magmortar|Focus Blast|p1a: Vespiquen
+  -resisted|p1a: Vespiquen
+  -damage|p1a: Vespiquen|234/299
+  move|p1a: Vespiquen|Hurricane|p2a: Magmortar|[miss]
+  -miss|p1a: Vespiquen|p2a: Magmortar
+-- turn 4
+  WE CHOSE: attack hurricane - our hp 0.78, theirs 0.57, predicted move (revealed) hits us x0.25
+  -end|p2a: Magmortar|confusion
+  move|p2a: Magmortar|Focus Blast|p1a: Vespiquen
+  -resisted|p1a: Vespiquen
+  -crit|p1a: Vespiquen
+  -damage|p1a: Vespiquen|200/299
+  move|p1a: Vespiquen|Hurricane|p2a: Magmortar
+  -damage|p2a: Magmortar|10/100
+-- turn 5
+  WE CHOSE: attack hurricane - our hp 0.67, theirs 0.10, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to amoonguss - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x0.25
+  move|p2a: Magmortar|Fire Blast|p1a: Vespiquen
+  -supereffective|p1a: Vespiquen
+  -damage|p1a: Vespiquen|0 fnt
+  faint|p1a: Vespiquen
+  switch|p1a: Amoonguss|Amoonguss, L82, F|321/321
+-- turn 6
+  WE CHOSE: attack stompingtantrum - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to arcaninehisui - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p2a: Magmortar|Fire Blast|p1a: Amoonguss
+  -supereffective|p1a: Amoonguss
+  -damage|p1a: Amoonguss|0 fnt
+  faint|p1a: Amoonguss
+  switch|p1a: Arcanine|Arcanine-Hisui, L79, F|279/279
+-- turn 7
+  WE CHOSE: attack headsmash - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x2
+  move|p2a: Magmortar|Fire Blast|p1a: Arcanine
+  -resisted|p1a: Arcanine
+  -damage|p1a: Arcanine|237/279
+  move|p1a: Arcanine|Head Smash|p2a: Magmortar|[miss]
+  -miss|p1a: Arcanine|p2a: Magmortar
+-- turn 8
+  WE CHOSE: attack headsmash - our hp 0.85, theirs 0.10, predicted move (revealed) hits us x2
+  move|p2a: Magmortar|Fire Blast|p1a: Arcanine|[miss]
+  -miss|p2a: Magmortar|p1a: Arcanine
+  move|p1a: Arcanine|Head Smash|p2a: Magmortar|[miss]
+  -miss|p1a: Arcanine|p2a: Magmortar
+-- turn 9
+  WE CHOSE: attack headsmash - our hp 0.85, theirs 0.10, predicted move (revealed) hits us x2
+  move|p2a: Magmortar|Fire Blast|p1a: Arcanine
+  -resisted|p1a: Arcanine
+  -damage|p1a: Arcanine|195/279
+  move|p1a: Arcanine|Head Smash|p2a: Magmortar
+  -supereffective|p2a: Magmortar
+  -damage|p2a: Magmortar|0 fnt
+  faint|p2a: Magmortar
+  switch|p2a: Ting-Lu|Ting-Lu, L78|100/100
+  -ability|p2a: Ting-Lu|Vessel of Ruin
+-- turn 10
+  WE CHOSE: attack headsmash - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x4
+  WE CHOSE: forced: switch to dudunsparcethreesegment - our hp 0.00, theirs 0.82, predicted move (revealed) hits us x4
+  move|p1a: Arcanine|Head Smash|p2a: Ting-Lu
+  -resisted|p2a: Ting-Lu
+  -damage|p2a: Ting-Lu|76/100
+  move|p2a: Ting-Lu|Earthquake|p1a: Arcanine
+  -supereffective|p1a: Arcanine
+  -damage|p1a: Arcanine|0 fnt
+  faint|p1a: Arcanine
+  -heal|p2a: Ting-Lu|82/100|[from] item: Leftovers
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, F|343/343
+-- turn 11
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Boomburst|p2a: Ting-Lu
+  -damage|p2a: Ting-Lu|49/100
+  move|p2a: Ting-Lu|Earthquake|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|223/343
+  -heal|p1a: Dudunsparce|244/343|[from] item: Leftovers
+  -heal|p2a: Ting-Lu|55/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack boomburst - our hp 0.71, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Boomburst|p2a: Ting-Lu
+  -damage|p2a: Ting-Lu|26/100
+  move|p2a: Ting-Lu|Earthquake|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|124/343
+  -heal|p1a: Dudunsparce|145/343|[from] item: Leftovers
+  -heal|p2a: Ting-Lu|32/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.42, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|317/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Ting-Lu|Earthquake|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|203/343
+  -heal|p1a: Dudunsparce|224/343|[from] item: Leftovers
+  -heal|p2a: Ting-Lu|38/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack boomburst - our hp 0.65, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Boomburst|p2a: Ting-Lu
+  -damage|p2a: Ting-Lu|9/100
+  move|p2a: Ting-Lu|Earthquake|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|109/343
+  -heal|p1a: Dudunsparce|130/343|[from] item: Leftovers
+  -heal|p2a: Ting-Lu|15/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal roost - our hp 0.38, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|302/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Ting-Lu|Earthquake|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|196/343
+  -heal|p1a: Dudunsparce|217/343|[from] item: Leftovers
+  -heal|p2a: Ting-Lu|21/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack boomburst - our hp 0.63, theirs 0.21, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Boomburst|p2a: Ting-Lu
+  -damage|p2a: Ting-Lu|0 fnt
+  faint|p2a: Ting-Lu
+  -heal|p1a: Dudunsparce|238/343|[from] item: Leftovers
+  switch|p2a: Sableye|Sableye, L88, F|100/100
+-- turn 17
+  WE CHOSE: attack shadowball - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Dudunsparce|Shadow Ball|p2a: Sableye
+  -damage|p2a: Sableye|75/100
+  move|p2a: Sableye|Knock Off|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|132/343
+  -ability|p1a: Dudunsparce|Rattled|boost
+  -boost|p1a: Dudunsparce|spe|1
+  -enditem|p1a: Dudunsparce|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+  -heal|p2a: Sableye|81/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: heal roost - our hp 0.38, theirs 0.81, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|304/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Sableye|Knock Off|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|241/343
+  -ability|p1a: Dudunsparce|Rattled|boost
+  -boost|p1a: Dudunsparce|spe|1
+  -heal|p2a: Sableye|87/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack shadowball - our hp 0.70, theirs 0.87, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Shadow Ball|p2a: Sableye
+  -damage|p2a: Sableye|61/100
+  move|p2a: Sableye|Knock Off|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|171/343
+  -ability|p1a: Dudunsparce|Rattled|boost
+  -boost|p1a: Dudunsparce|spe|1
+  -heal|p2a: Sableye|67/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal roost - our hp 0.50, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|343/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Sableye|Knock Off|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|279/343
+  -ability|p1a: Dudunsparce|Rattled|boost
+  -boost|p1a: Dudunsparce|spe|1
+  -heal|p2a: Sableye|73/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack shadowball - our hp 0.81, theirs 0.73, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Shadow Ball|p2a: Sableye
+  -damage|p2a: Sableye|49/100
+  move|p2a: Sableye|Knock Off|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|212/343
+  -ability|p1a: Dudunsparce|Rattled|boost
+  -boost|p1a: Dudunsparce|spe|1
+  -heal|p2a: Sableye|55/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack shadowball - our hp 0.62, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Shadow Ball|p2a: Sableye
+  -damage|p2a: Sableye|27/100
+  move|p2a: Sableye|Knock Off|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|142/343
+  -ability|p1a: Dudunsparce|Rattled|boost
+  -boost|p1a: Dudunsparce|spe|1
+  -heal|p2a: Sableye|33/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal roost - our hp 0.41, theirs 0.33, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|314/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Sableye|Knock Off|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|248/343
+  -heal|p2a: Sableye|39/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack shadowball - our hp 0.72, theirs 0.39, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Shadow Ball|p2a: Sableye
+  -damage|p2a: Sableye|14/100
+  move|p2a: Sableye|Knock Off|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|178/343
+  -heal|p2a: Sableye|20/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack shadowball - our hp 0.52, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Shadow Ball|p2a: Sableye
+  -damage|p2a: Sableye|0 fnt
+  faint|p2a: Sableye
+  switch|p2a: Kyogre|Kyogre, L71|100/100
+  -weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+-- turn 26
+  WE CHOSE: attack boomburst - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Dudunsparce|Boomburst|p2a: Kyogre
+  -damage|p2a: Kyogre|61/100
+  move|p2a: Kyogre|Water Spout|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|18/343
+  -weather|RainDance|[upkeep]
+-- turn 27
+  WE CHOSE: heal roost - our hp 0.05, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|190/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Kyogre|Water Spout|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|37/343
+  -weather|RainDance|[upkeep]
+-- turn 28
+  WE CHOSE: heal roost - our hp 0.11, theirs 0.61, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bisharp - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|209/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  move|p2a: Kyogre|Water Spout|p1a: Dudunsparce
+  -crit|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|0 fnt
+  faint|p1a: Dudunsparce
+  -weather|RainDance|[upkeep]
+  switch|p1a: Bisharp|Bisharp, L79, F|232/232
+-- turn 29
+  WE CHOSE: attack throatchop - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Kyogre|Water Spout|p1a: Bisharp
+  -damage|p1a: Bisharp|106/232
+  move|p1a: Bisharp|Throat Chop|p2a: Kyogre
+  -damage|p2a: Kyogre|23/100
+  -start|p2a: Kyogre|Throat Chop|[silent]
+  -weather|RainDance|[upkeep]
+-- turn 30
+  WE CHOSE: attack throatchop - our hp 0.46, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Kyogre|Water Spout|p1a: Bisharp
+  -damage|p1a: Bisharp|61/232
+  move|p1a: Bisharp|Throat Chop|p2a: Kyogre
+  -damage|p2a: Kyogre|0 fnt
+  faint|p2a: Kyogre
+  -weather|none
+  switch|p2a: Lurantis|Lurantis, L87, F|100/100
+-- turn 31
+  WE CHOSE: attack ironhead - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Bisharp|Iron Head|p2a: Lurantis
+  -damage|p2a: Lurantis|66/100
+  move|p2a: Lurantis|Leaf Storm|p1a: Bisharp
+  -resisted|p1a: Bisharp
+  -damage|p1a: Bisharp|10/232
+  -boost|p2a: Lurantis|spa|2
+  -heal|p2a: Lurantis|72/100|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack ironhead - our hp 0.04, theirs 0.72, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to emboar - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p1a: Bisharp|Iron Head|p2a: Lurantis
+  -damage|p2a: Lurantis|37/100
+  move|p2a: Lurantis|Leaf Storm|p1a: Bisharp
+  -resisted|p1a: Bisharp
+  -damage|p1a: Bisharp|0 fnt
+  -boost|p2a: Lurantis|spa|2
+  faint|p1a: Bisharp
+  -heal|p2a: Lurantis|43/100|[from] item: Leftovers
+  switch|p1a: Emboar|Emboar, L84, F|322/322
+-- turn 33
+  WE CHOSE: setup bulkup - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p1a: Emboar|Bulk Up|p1a: Emboar
+  -boost|p1a: Emboar|atk|1
+  -boost|p1a: Emboar|def|1
+  move|p2a: Lurantis|Leaf Storm|p1a: Emboar
+  -resisted|p1a: Emboar
+  -damage|p1a: Emboar|106/322
+  -boost|p2a: Lurantis|spa|2
+  -heal|p1a: Emboar|126/322|[from] item: Leftovers
+  -heal|p2a: Lurantis|49/100|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack flareblitz - our hp 0.39, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p1a: Emboar|Flare Blitz|p2a: Lurantis
+  -supereffective|p2a: Lurantis
+  -damage|p2a: Lurantis|0 fnt
+  faint|p2a: Lurantis
+  -damage|p1a: Emboar|84/322|[from] Recoil
+  -heal|p1a: Emboar|104/322|[from] item: Leftovers
+  switch|p2a: Hippowdon|Hippowdon, L82, M|100/100
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+-- turn 35
+  WE CHOSE: attack flareblitz - our hp 0.32, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Emboar|Flare Blitz|p2a: Hippowdon
+  -damage|p2a: Hippowdon|34/100
+  -damage|p1a: Emboar|51/322|[from] item: Rocky Helmet|[of] p2a: Hippowdon
+  -damage|p1a: Emboar|0 fnt|[from] Recoil
+  faint|p1a: Emboar
+  deinit

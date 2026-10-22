@@ -1,0 +1,466 @@
+battle 673 (battle-gen9randombattle-2025357): lost in 62 turns, 2 of theirs left; we are p1
+
+ours:
+  banette (fainted; item lifeorb, ability cursedbody; moves shadowsneak/swordsdance/gunkshot/poltergeist)
+  slowbrogalar (fainted; item lifeorb, ability regenerator; moves trickroom/shellsidearm/psychic/fireblast)
+  snorlax (fainted; item leftovers, ability thickfat; moves rest/curse/bodyslam/sleeptalk)
+  leavanny (fainted; item loadeddice, ability chlorophyll; moves knockoff/tripleaxel/bulletseed/stickyweb)
+  whiscash (fainted; item leftovers, ability oblivious, tera poison; moves hydropump/earthquake/icebeam/spikes)
+  giratina (fainted; item ?, ability pressure; moves dragontail/shadowball/rest/defog)
+theirs (as seen):
+  drifblim (fainted; item unknown_item, ability ?; moves shadowball/airslash)
+  qwilfishhisui (fainted; item unknown_item, ability intimidate; moves gunkshot)
+  kommoo (61%; item ?, ability ?; moves boomburst)
+  poliwrath (fainted; item unknown_item, ability ?; moves closecombat/liquidation/knockoff)
+  latias (fainted; item unknown_item, ability levitate; moves dracometeor)
+
+-- turn 0
+  switch|p1a: Banette|Banette, L93, M|270/270
+  switch|p2a: Drifblim|Drifblim, L86, F|100/100
+-- turn 1
+  WE CHOSE: switch to whiscash (hand policy: switch to snorlax) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Whiscash|Whiscash, L88, F|337/337
+  move|p2a: Drifblim|Shadow Ball|p1a: Whiscash
+  -damage|p1a: Whiscash|240/337
+  -heal|p1a: Whiscash|261/337|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to snorlax - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Snorlax|Snorlax, L82, M|397/397
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+-- turn 3
+  WE CHOSE: heal rest - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 4
+  WE CHOSE: heal rest - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 5
+  WE CHOSE: heal rest - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 6
+  WE CHOSE: heal rest - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 7
+  WE CHOSE: heal rest - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 8
+  WE CHOSE: heal rest - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 9
+  WE CHOSE: heal rest - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 10
+  WE CHOSE: heal rest - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 11
+  WE CHOSE: switch to whiscash (hand policy: attack curse) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Whiscash|Whiscash, L88, F|261/337
+  move|p2a: Drifblim|Shadow Ball|p1a: Whiscash
+  -damage|p1a: Whiscash|168/337
+  -unboost|p1a: Whiscash|spd|1
+  -heal|p1a: Whiscash|189/337|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: switch to snorlax - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Snorlax|Snorlax, L82, M|397/397
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+-- turn 13
+  WE CHOSE: attack curse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -unboost|p1a: Snorlax|spe|1
+  -boost|p1a: Snorlax|atk|1
+  -boost|p1a: Snorlax|def|1
+-- turn 14
+  WE CHOSE: attack curse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -unboost|p1a: Snorlax|spe|1
+  -boost|p1a: Snorlax|atk|1
+  -boost|p1a: Snorlax|def|1
+-- turn 15
+  WE CHOSE: attack curse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -unboost|p1a: Snorlax|spe|1
+  -boost|p1a: Snorlax|atk|1
+  -boost|p1a: Snorlax|def|1
+-- turn 16
+  WE CHOSE: attack curse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -unboost|p1a: Snorlax|spe|1
+  -boost|p1a: Snorlax|atk|1
+  -boost|p1a: Snorlax|def|1
+-- turn 17
+  WE CHOSE: attack curse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -unboost|p1a: Snorlax|spe|1
+  -boost|p1a: Snorlax|atk|1
+  -boost|p1a: Snorlax|def|1
+-- turn 18
+  WE CHOSE: attack curse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -unboost|p1a: Snorlax|spe|1
+  -boost|p1a: Snorlax|atk|1
+  -boost|p1a: Snorlax|def|1
+-- turn 19
+  WE CHOSE: attack curse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+-- turn 20
+  WE CHOSE: attack curse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+-- turn 21
+  WE CHOSE: attack curse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+-- turn 22
+  WE CHOSE: attack curse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+-- turn 23
+  WE CHOSE: attack curse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+-- turn 24
+  WE CHOSE: attack curse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+-- turn 25
+  WE CHOSE: attack curse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Snorlax
+  -damage|p1a: Snorlax|325/397
+  cant|p1a: Snorlax|flinch
+  -heal|p1a: Snorlax|349/397|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack curse - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Snorlax
+  -damage|p1a: Snorlax|280/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -heal|p1a: Snorlax|304/397|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack curse - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Snorlax
+  -damage|p1a: Snorlax|237/397
+  cant|p1a: Snorlax|flinch
+  -heal|p1a: Snorlax|261/397|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack curse - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Snorlax
+  -damage|p1a: Snorlax|188/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -heal|p1a: Snorlax|212/397|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack curse - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Snorlax
+  -damage|p1a: Snorlax|142/397
+  cant|p1a: Snorlax|flinch
+  -heal|p1a: Snorlax|166/397|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack curse - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Snorlax
+  -damage|p1a: Snorlax|94/397
+  cant|p1a: Snorlax|flinch
+  -heal|p1a: Snorlax|118/397|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack curse - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Snorlax
+  -damage|p1a: Snorlax|48/397
+  cant|p1a: Snorlax|flinch
+  -heal|p1a: Snorlax|72/397|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack curse - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Snorlax
+  -damage|p1a: Snorlax|8/397
+  cant|p1a: Snorlax|flinch
+  -heal|p1a: Snorlax|32/397|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack curse - our hp 0.08, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to leavanny (hand policy: forced: switch to whiscash) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Snorlax
+  -damage|p1a: Snorlax|0 fnt
+  faint|p1a: Snorlax
+  switch|p1a: Leavanny|Leavanny, L86, M|269/269
+-- turn 34
+  WE CHOSE: attack tripleaxel - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to banette (hand policy: forced: switch to whiscash) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Leavanny|Triple Axel|p2a: Drifblim|[miss]
+  -miss|p1a: Leavanny|p2a: Drifblim
+  move|p2a: Drifblim|Air Slash|p1a: Leavanny
+  -supereffective|p1a: Leavanny
+  -damage|p1a: Leavanny|0 fnt
+  faint|p1a: Leavanny
+  switch|p1a: Banette|Banette, L93, M|270/270
+-- turn 35
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Drifblim|Air Slash|p1a: Banette
+  -damage|p1a: Banette|186/270
+  move|p1a: Banette|Poltergeist|p2a: Drifblim
+  -activate|p2a: Drifblim|move: Poltergeist|Heavy-Duty Boots
+  -supereffective|p2a: Drifblim
+  -damage|p2a: Drifblim|0 fnt
+  faint|p2a: Drifblim
+  -damage|p1a: Banette|159/270|[from] item: Life Orb
+  switch|p2a: Qwilfish|Qwilfish-Hisui, L83, M|100/100
+  -ability|p2a: Qwilfish|Intimidate|boost
+  -unboost|p1a: Banette|atk|1
+-- turn 36
+  WE CHOSE: switch to slowbrogalar (hand policy: setup swordsdance) - our hp 0.59, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Slowbro|Slowbro-Galar, L87, M|307/307
+  move|p2a: Qwilfish|Gunk Shot|p1a: Slowbro
+  -resisted|p1a: Slowbro
+  -damage|p1a: Slowbro|250/307
+-- turn 37
+  WE CHOSE: attack fireblast - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Qwilfish|Gunk Shot|p1a: Slowbro
+  -resisted|p1a: Slowbro
+  -damage|p1a: Slowbro|199/307
+  move|p1a: Slowbro|Fire Blast|p2a: Qwilfish|[miss]
+  -miss|p1a: Slowbro|p2a: Qwilfish
+-- turn 38
+  WE CHOSE: attack fireblast - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Qwilfish|Gunk Shot|p1a: Slowbro
+  -resisted|p1a: Slowbro
+  -damage|p1a: Slowbro|145/307
+  move|p1a: Slowbro|Fire Blast|p2a: Qwilfish
+  -damage|p2a: Qwilfish|57/100
+  -damage|p1a: Slowbro|115/307|[from] item: Life Orb
+-- turn 39
+  WE CHOSE: attack fireblast - our hp 0.37, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p2a: Qwilfish|Gunk Shot|p1a: Slowbro
+  -resisted|p1a: Slowbro
+  -damage|p1a: Slowbro|55/307
+  move|p1a: Slowbro|Fire Blast|p2a: Qwilfish
+  -damage|p2a: Qwilfish|11/100
+  -damage|p1a: Slowbro|25/307|[from] item: Life Orb
+-- turn 40
+  WE CHOSE: attack fireblast - our hp 0.08, theirs 0.11, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to whiscash - our hp 0.00, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p2a: Qwilfish|Gunk Shot|p1a: Slowbro
+  -resisted|p1a: Slowbro
+  -damage|p1a: Slowbro|0 fnt
+  faint|p1a: Slowbro
+  switch|p1a: Whiscash|Whiscash, L88, F|189/337
+-- turn 41
+  WE CHOSE: attack hydropump (hand policy: attack earthquake) - our hp 0.56, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p2a: Qwilfish|Gunk Shot|p1a: Whiscash
+  -resisted|p1a: Whiscash
+  -damage|p1a: Whiscash|119/337
+  move|p1a: Whiscash|Hydro Pump|p2a: Qwilfish
+  -damage|p2a: Qwilfish|0 fnt
+  faint|p2a: Qwilfish
+  -heal|p1a: Whiscash|140/337|[from] item: Leftovers
+  switch|p2a: Kommo-o|Kommo-o, L77, F|100/100
+-- turn 42
+  WE CHOSE: switch to giratina - our hp 0.42, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Giratina|Giratina, L75|349/349
+  -ability|p1a: Giratina|Pressure
+  move|p2a: Kommo-o|Boomburst|p1a: Giratina
+  -immune|p1a: Giratina
+-- turn 43
+  WE CHOSE: attack dragontail - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Kommo-o|Boomburst|p1a: Giratina
+  -immune|p1a: Giratina
+  move|p1a: Giratina|Dragon Tail|p2a: Kommo-o
+  -supereffective|p2a: Kommo-o
+  -damage|p2a: Kommo-o|61/100
+  drag|p2a: Poliwrath|Poliwrath, L88, F|100/100
+-- turn 44
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Giratina|Shadow Ball|p2a: Poliwrath
+  -damage|p2a: Poliwrath|86/100
+  move|p2a: Poliwrath|Close Combat|p1a: Giratina
+  -immune|p1a: Giratina
+-- turn 45
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.86, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Shadow Ball|p2a: Poliwrath
+  -damage|p2a: Poliwrath|71/100
+  move|p2a: Poliwrath|Close Combat|p1a: Giratina
+  -immune|p1a: Giratina
+-- turn 46
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Shadow Ball|p2a: Poliwrath
+  -damage|p2a: Poliwrath|57/100
+  move|p2a: Poliwrath|Close Combat|p1a: Giratina
+  -immune|p1a: Giratina
+-- turn 47
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Shadow Ball|p2a: Poliwrath
+  -damage|p2a: Poliwrath|41/100
+  move|p2a: Poliwrath|Close Combat|p1a: Giratina
+  -immune|p1a: Giratina
+-- turn 48
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Shadow Ball|p2a: Poliwrath
+  -damage|p2a: Poliwrath|27/100
+  move|p2a: Poliwrath|Liquidation|p1a: Giratina
+  -resisted|p1a: Giratina
+  -damage|p1a: Giratina|306/349
+  -heal|p1a: Giratina|327/349|[from] item: Leftovers
+-- turn 49
+  WE CHOSE: attack shadowball - our hp 0.94, theirs 0.27, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Shadow Ball|p2a: Poliwrath
+  -crit|p2a: Poliwrath
+  -damage|p2a: Poliwrath|4/100
+  move|p2a: Poliwrath|Liquidation|p1a: Giratina
+  -resisted|p1a: Giratina
+  -crit|p1a: Giratina
+  -damage|p1a: Giratina|265/349
+  -heal|p1a: Giratina|286/349|[from] item: Leftovers
+-- turn 50
+  WE CHOSE: heal rest (hand policy: attack shadowball) - our hp 0.82, theirs 0.04, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Rest|p1a: Giratina
+  -status|p1a: Giratina|slp|[from] move: Rest
+  -heal|p1a: Giratina|349/349 slp|[silent]
+  move|p2a: Poliwrath|Liquidation|p1a: Giratina
+  -resisted|p1a: Giratina
+  -damage|p1a: Giratina|303/349 slp
+  -heal|p1a: Giratina|324/349 slp|[from] item: Leftovers
+-- turn 51
+  WE CHOSE: heal rest (hand policy: attack shadowball) - our hp 0.93, theirs 0.04, predicted move (revealed) hits us x0
+  cant|p1a: Giratina|slp
+  move|p2a: Poliwrath|Liquidation|p1a: Giratina
+  -resisted|p1a: Giratina
+  -damage|p1a: Giratina|282/349 slp
+  -heal|p1a: Giratina|303/349 slp|[from] item: Leftovers
+-- turn 52
+  WE CHOSE: heal rest (hand policy: attack shadowball) - our hp 0.87, theirs 0.04, predicted move (revealed) hits us x0
+  cant|p1a: Giratina|slp
+  move|p2a: Poliwrath|Liquidation|p1a: Giratina
+  -resisted|p1a: Giratina
+  -damage|p1a: Giratina|260/349 slp
+  -heal|p1a: Giratina|281/349 slp|[from] item: Leftovers
+-- turn 53
+  WE CHOSE: heal rest (hand policy: attack shadowball) - our hp 0.81, theirs 0.04, predicted move (revealed) hits us x0
+  -curestatus|p1a: Giratina|slp|[msg]
+  move|p1a: Giratina|Rest|p1a: Giratina
+  -status|p1a: Giratina|slp|[from] move: Rest
+  -heal|p1a: Giratina|349/349 slp|[silent]
+  move|p2a: Poliwrath|Liquidation|p1a: Giratina
+  -resisted|p1a: Giratina
+  -crit|p1a: Giratina
+  -damage|p1a: Giratina|287/349 slp
+  -unboost|p1a: Giratina|def|1
+  -heal|p1a: Giratina|308/349 slp|[from] item: Leftovers
+-- turn 54
+  WE CHOSE: heal rest (hand policy: attack shadowball) - our hp 0.88, theirs 0.04, predicted move (revealed) hits us x0
+  cant|p1a: Giratina|slp
+  move|p2a: Poliwrath|Liquidation|p1a: Giratina
+  -resisted|p1a: Giratina
+  -damage|p1a: Giratina|240/349 slp
+  -unboost|p1a: Giratina|def|1
+  -heal|p1a: Giratina|261/349 slp|[from] item: Leftovers
+-- turn 55
+  WE CHOSE: heal rest (hand policy: attack shadowball) - our hp 0.75, theirs 0.04, predicted move (revealed) hits us x0
+  cant|p1a: Giratina|slp
+  move|p2a: Poliwrath|Liquidation|p1a: Giratina
+  -resisted|p1a: Giratina
+  -damage|p1a: Giratina|181/349 slp
+  -heal|p1a: Giratina|202/349 slp|[from] item: Leftovers
+-- turn 56
+  WE CHOSE: heal rest (hand policy: attack shadowball) - our hp 0.58, theirs 0.04, predicted move (revealed) hits us x0
+  -curestatus|p1a: Giratina|slp|[msg]
+  move|p1a: Giratina|Rest|p1a: Giratina
+  -status|p1a: Giratina|slp|[from] move: Rest
+  -heal|p1a: Giratina|349/349 slp|[silent]
+  move|p2a: Poliwrath|Knock Off|p1a: Giratina
+  -supereffective|p1a: Giratina
+  -damage|p1a: Giratina|73/349 slp
+  -enditem|p1a: Giratina|Leftovers|[from] move: Knock Off|[of] p2a: Poliwrath
+-- turn 57
+  WE CHOSE: heal rest - our hp 0.21, theirs 0.04, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to banette - our hp 0.00, theirs 0.04, predicted move (revealed) hits us x0
+  cant|p1a: Giratina|slp
+  move|p2a: Poliwrath|Knock Off|p1a: Giratina
+  -supereffective|p1a: Giratina
+  -damage|p1a: Giratina|0 fnt
+  faint|p1a: Giratina
+  switch|p1a: Banette|Banette, L93, M|159/270
+-- turn 58
+  WE CHOSE: attack shadowsneak (hand policy: setup swordsdance) - our hp 0.59, theirs 0.04, predicted move (revealed) hits us x0
+  move|p1a: Banette|Shadow Sneak|p2a: Poliwrath
+  -crit|p2a: Poliwrath
+  -damage|p2a: Poliwrath|0 fnt
+  faint|p2a: Poliwrath
+  -damage|p1a: Banette|132/270|[from] item: Life Orb
+  switch|p2a: Latias|Latias, L79, F|100/100
+-- turn 59
+  WE CHOSE: attack shadowsneak (hand policy: attack poltergeist) - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to whiscash - our hp 0.00, theirs 0.42, predicted move (revealed) hits us x1
+  move|p1a: Banette|Shadow Sneak|p2a: Latias
+  -supereffective|p2a: Latias
+  -damage|p2a: Latias|42/100
+  -damage|p1a: Banette|105/270|[from] item: Life Orb
+  move|p2a: Latias|Draco Meteor|p1a: Banette
+  -damage|p1a: Banette|0 fnt
+  -unboost|p2a: Latias|spa|2
+  faint|p1a: Banette
+  switch|p1a: Whiscash|Whiscash, L88, F|140/337
+-- turn 60
+  WE CHOSE: attack+tera icebeam (hand policy: attack icebeam) - our hp 0.42, theirs 0.42, predicted move (revealed) hits us x1
+  -terastallize|p1a: Whiscash|Poison
+  move|p2a: Latias|Draco Meteor|p1a: Whiscash
+  -damage|p1a: Whiscash|56/337
+  -unboost|p2a: Latias|spa|2
+  move|p1a: Whiscash|Ice Beam|p2a: Latias
+  -supereffective|p2a: Latias
+  -damage|p2a: Latias|2/100
+  -heal|p1a: Whiscash|77/337|[from] item: Leftovers
+-- turn 61
+  WE CHOSE: attack icebeam - our hp 0.23, theirs 0.02, predicted move (revealed) hits us x1
+  move|p2a: Latias|Draco Meteor|p1a: Whiscash
+  -damage|p1a: Whiscash|16/337
+  -unboost|p2a: Latias|spa|2
+  move|p1a: Whiscash|Ice Beam|p2a: Latias
+  -supereffective|p2a: Latias
+  -damage|p2a: Latias|0 fnt
+  faint|p2a: Latias
+  -heal|p1a: Whiscash|37/337|[from] item: Leftovers
+  switch|p2a: Kommo-o|Kommo-o, L77, F|61/100
+-- turn 62
+  WE CHOSE: attack icebeam - our hp 0.11, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Kommo-o|Boomburst|p1a: Whiscash
+  -damage|p1a: Whiscash|0 fnt
+  faint|p1a: Whiscash
+  -enditem|p2a: Kommo-o|Throat Spray
+  deinit

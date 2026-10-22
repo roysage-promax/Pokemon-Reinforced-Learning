@@ -1,0 +1,20 @@
+hand-written policy (variant E + I's heal): 3000 battles in 660s, won 2894 = 96.5% [95.7, 97.1]
+
+per battle          wins  losses
+turns              20.33   22.91
+ours_left           4.07    0.00
+theirs_left         0.00    1.46
+crit_on_us          0.51    1.02
+crit_by_us          0.58    0.63
+miss_by_us          0.49    0.81
+miss_by_them        0.65    0.74
+cant_us             0.30    0.50
+cant_them           0.14    0.33
+attack             13.99   17.25
+attack+tera         0.80    0.92
+switch              1.62    1.10
+forced switch       1.97    5.23
+heal                1.28    2.26
+setup               2.65    1.39
+
+losses by how many of theirs were left: 0: 1, 1: 72, 2: 22, 3: 7, 4: 3, 6: 1

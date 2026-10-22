@@ -1,0 +1,223 @@
+battle 2412 (battle-gen9randombattle-2041162): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  komala (fainted; item assaultvest, ability comatose; moves earthquake/bodyslam/rapidspin/knockoff)
+  venusaur (fainted; item leftovers, ability overgrow; moves energyball/synthesis/sludgebomb/toxic)
+  tatsugiri (fainted; item heavydutyboots, ability stormdrain; moves hydropump/dracometeor/rapidspin/nastyplot)
+  tsareena (fainted; item choicescarf, ability queenlymajesty, tera steel; moves knockoff/uturn/powerwhip/tripleaxel)
+  latias (fainted; item souldew, ability levitate; moves calmmind/psyshock/recover/dracometeor)
+  ursaring (fainted; item eviolite, ability guts; moves bodyslam/rest/throatchop/sleeptalk)
+theirs (as seen):
+  passimian (fainted; item unknown_item, ability ?; moves closecombat)
+  ursaluna (fainted; item unknown_item, ability ?; moves headlongrush)
+  ironbundle (fainted; item unknown_item, ability quarkdrive; moves -)
+  toedscruel (fainted; item leftovers, ability myceliummight; moves earthpower)
+  farigiraf (fainted; item leftovers, ability sapsipper; moves bodyslam)
+  ironvaliant (81%; item lifeorb, ability quarkdrive; moves closecombat)
+
+-- turn 0
+  switch|p1a: Komala|Komala, L87, F|255/255
+  switch|p2a: Passimian|Passimian, L83, M|100/100
+  -ability|p1a: Komala|Comatose
+-- turn 1
+  WE CHOSE: switch to latias - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Latias|Latias, L79, F|256/256
+  move|p2a: Passimian|Close Combat|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|185/256
+  -unboost|p2a: Passimian|def|1
+  -unboost|p2a: Passimian|spd|1
+-- turn 2
+  WE CHOSE: setup calmmind - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Close Combat|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|108/256
+  -unboost|p2a: Passimian|def|1
+  -unboost|p2a: Passimian|spd|1
+  move|p1a: Latias|Calm Mind|p1a: Latias
+  -boost|p1a: Latias|spa|1
+  -boost|p1a: Latias|spd|1
+-- turn 3
+  WE CHOSE: heal recover - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Close Combat|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|26/256
+  -unboost|p2a: Passimian|def|1
+  -unboost|p2a: Passimian|spd|1
+  move|p1a: Latias|Recover|p1a: Latias
+  -heal|p1a: Latias|154/256
+-- turn 4
+  WE CHOSE: setup calmmind - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Close Combat|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|79/256
+  -unboost|p2a: Passimian|def|1
+  -unboost|p2a: Passimian|spd|1
+  move|p1a: Latias|Calm Mind|p1a: Latias
+  -boost|p1a: Latias|spa|1
+  -boost|p1a: Latias|spd|1
+-- turn 5
+  WE CHOSE: heal recover - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to venusaur - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Close Combat|p1a: Latias
+  -resisted|p1a: Latias
+  -crit|p1a: Latias
+  -damage|p1a: Latias|0 fnt
+  -unboost|p2a: Passimian|def|1
+  -unboost|p2a: Passimian|spd|1
+  faint|p1a: Latias
+  switch|p1a: Venusaur|Venusaur, L84, F|272/272
+-- turn 6
+  WE CHOSE: attack energyball - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Close Combat|p1a: Venusaur
+  -resisted|p1a: Venusaur
+  -damage|p1a: Venusaur|197/272
+  -unboost|p2a: Passimian|def|1
+  -unboost|p2a: Passimian|spd|1
+  move|p1a: Venusaur|Energy Ball|p2a: Passimian
+  -damage|p2a: Passimian|0 fnt
+  faint|p2a: Passimian
+  -heal|p1a: Venusaur|214/272|[from] item: Leftovers
+  switch|p2a: Ursaluna|Ursaluna, L79, M|100/100
+-- turn 7
+  WE CHOSE: attack energyball - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Venusaur|Energy Ball|p2a: Ursaluna
+  -supereffective|p2a: Ursaluna
+  -damage|p2a: Ursaluna|32/100
+  move|p2a: Ursaluna|Headlong Rush|p1a: Venusaur
+  -damage|p1a: Venusaur|66/272
+  -unboost|p2a: Ursaluna|def|1
+  -unboost|p2a: Ursaluna|spd|1
+  -heal|p1a: Venusaur|83/272|[from] item: Leftovers
+  -status|p2a: Ursaluna|brn|[from] item: Flame Orb
+-- turn 8
+  WE CHOSE: heal synthesis - our hp 0.31, theirs 0.32, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tsareena - our hp 0.00, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Venusaur|Synthesis|p1a: Venusaur
+  -heal|p1a: Venusaur|219/272
+  move|p2a: Ursaluna|Headlong Rush|p1a: Venusaur
+  -damage|p1a: Venusaur|0 fnt
+  -unboost|p2a: Ursaluna|def|1
+  -unboost|p2a: Ursaluna|spd|1
+  faint|p1a: Venusaur
+  -damage|p2a: Ursaluna|26/100 brn|[from] brn
+  switch|p1a: Tsareena|Tsareena, L87, F|267/267
+-- turn 9
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 0.26, predicted move (revealed) hits us x0.5
+  move|p1a: Tsareena|Power Whip|p2a: Ursaluna|[miss]
+  -miss|p1a: Tsareena|p2a: Ursaluna
+  move|p2a: Ursaluna|Headlong Rush|p1a: Tsareena
+  -resisted|p1a: Tsareena
+  -damage|p1a: Tsareena|164/267
+  -unboost|p2a: Ursaluna|def|1
+  -unboost|p2a: Ursaluna|spd|1
+  -damage|p2a: Ursaluna|20/100 brn|[from] brn
+-- turn 10
+  WE CHOSE: attack powerwhip - our hp 0.61, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p1a: Tsareena|Power Whip|p2a: Ursaluna|[miss]
+  -miss|p1a: Tsareena|p2a: Ursaluna
+  move|p2a: Ursaluna|Headlong Rush|p1a: Tsareena
+  -resisted|p1a: Tsareena
+  -damage|p1a: Tsareena|61/267
+  -unboost|p2a: Ursaluna|def|1
+  -unboost|p2a: Ursaluna|spd|1
+  -damage|p2a: Ursaluna|15/100 brn|[from] brn
+-- turn 11
+  WE CHOSE: attack powerwhip - our hp 0.23, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p1a: Tsareena|Power Whip|p2a: Ursaluna
+  -supereffective|p2a: Ursaluna
+  -damage|p2a: Ursaluna|0 fnt
+  faint|p2a: Ursaluna
+  switch|p2a: Iron Bundle|Iron Bundle, L78|100/100
+-- turn 12
+  WE CHOSE: attack powerwhip - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Tsareena|Power Whip|p2a: Iron Bundle
+  -supereffective|p2a: Iron Bundle
+  -damage|p2a: Iron Bundle|0 fnt
+  faint|p2a: Iron Bundle
+  -end|p2a: Iron Bundle|Quark Drive|[silent]
+  switch|p2a: Toedscruel|Toedscruel, L87, F|100/100
+-- turn 13
+  WE CHOSE: attack powerwhip - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Tsareena|Power Whip|p2a: Toedscruel
+  -damage|p2a: Toedscruel|38/100
+  move|p2a: Toedscruel|Earth Power|p1a: Tsareena
+  -resisted|p1a: Tsareena
+  -damage|p1a: Tsareena|24/267
+  -heal|p2a: Toedscruel|44/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack powerwhip - our hp 0.09, theirs 0.44, predicted move (revealed) hits us x0.5
+  move|p1a: Tsareena|Power Whip|p2a: Toedscruel
+  -crit|p2a: Toedscruel
+  -damage|p2a: Toedscruel|0 fnt
+  faint|p2a: Toedscruel
+  switch|p2a: Farigiraf|Farigiraf, L90, F|100/100
+-- turn 15
+  WE CHOSE: attack+tera powerwhip - our hp 0.09, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to tatsugiri - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Tsareena|Steel
+  move|p1a: Tsareena|Power Whip|p2a: Farigiraf
+  -ability|p2a: Farigiraf|Sap Sipper|boost
+  -boost|p2a: Farigiraf|atk|1
+  move|p2a: Farigiraf|Body Slam|p1a: Tsareena
+  -resisted|p1a: Tsareena
+  -damage|p1a: Tsareena|0 fnt
+  faint|p1a: Tsareena
+  switch|p1a: Tatsugiri|Tatsugiri, L87, F|260/260
+-- turn 16
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Tatsugiri|Draco Meteor|p2a: Farigiraf
+  -damage|p2a: Farigiraf|48/100
+  -unboost|p1a: Tatsugiri|spa|2
+  move|p2a: Farigiraf|Body Slam|p1a: Tatsugiri
+  -damage|p1a: Tatsugiri|89/260
+  -status|p1a: Tatsugiri|par
+  -heal|p2a: Farigiraf|54/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack dracometeor - our hp 0.34, theirs 0.54, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ursaring - our hp 0.00, theirs 0.60, predicted move (revealed) hits us x1
+  move|p2a: Farigiraf|Body Slam|p1a: Tatsugiri
+  -damage|p1a: Tatsugiri|0 fnt
+  faint|p1a: Tatsugiri
+  -heal|p2a: Farigiraf|60/100|[from] item: Leftovers
+  switch|p1a: Ursaring|Ursaring, L84, F|288/288
+-- turn 18
+  WE CHOSE: attack throatchop - our hp 1.00, theirs 0.60, predicted move (revealed) hits us x1
+  move|p2a: Farigiraf|Body Slam|p1a: Ursaring
+  -damage|p1a: Ursaring|174/288
+  move|p1a: Ursaring|Throat Chop|p2a: Farigiraf
+  -supereffective|p2a: Farigiraf
+  -damage|p2a: Farigiraf|17/100
+  -start|p2a: Farigiraf|Throat Chop|[silent]
+  -heal|p2a: Farigiraf|23/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack throatchop - our hp 0.60, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Farigiraf|Body Slam|p1a: Ursaring
+  -damage|p1a: Ursaring|54/288
+  move|p1a: Ursaring|Throat Chop|p2a: Farigiraf
+  -supereffective|p2a: Farigiraf
+  -damage|p2a: Farigiraf|0 fnt
+  faint|p2a: Farigiraf
+  switch|p2a: Iron Valiant|Iron Valiant, L78|100/100
+-- turn 20
+  WE CHOSE: attack bodyslam - our hp 0.19, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to komala - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x2
+  move|p2a: Iron Valiant|Close Combat|p1a: Ursaring
+  -supereffective|p1a: Ursaring
+  -damage|p1a: Ursaring|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Ursaring
+  -damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+  switch|p1a: Komala|Komala, L87, F|255/255
+  -ability|p1a: Komala|Comatose
+-- turn 21
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x2
+  move|p2a: Iron Valiant|Close Combat|p1a: Komala
+  -supereffective|p1a: Komala
+  -damage|p1a: Komala|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Komala
+  -damage|p2a: Iron Valiant|81/100|[from] item: Life Orb
+  deinit

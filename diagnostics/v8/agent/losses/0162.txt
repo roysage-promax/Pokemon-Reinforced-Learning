@@ -1,0 +1,170 @@
+battle 162 (battle-gen9randombattle-2020140): lost in 14 turns, 3 of theirs left; we are p1
+
+ours:
+  mewtwo (fainted; item lifeorb, ability unnerve; moves fireblast/psystrike/nastyplot/darkpulse)
+  articuno (fainted; item heavydutyboots, ability pressure; moves bravebird/freezedry/roost/haze)
+  lokix (fainted; item lifeorb, ability tintedlens; moves knockoff/swordsdance/leechlife/suckerpunch)
+  thundurus (fainted; item heavydutyboots, ability defiant; moves focusblast/thunderbolt/terablast/nastyplot)
+  scrafty (fainted; item leftovers, ability intimidate; moves dragondance/drainpunch/knockoff/poisonjab)
+  regieleki (fainted; item magnet, ability transistor; moves explosion/voltswitch/rapidspin/thunderbolt)
+theirs (as seen):
+  mabosstiff (fainted; item unknown_item, ability ?; moves wildcharge)
+  florgeswhite (fainted; item leftovers, ability ?; moves moonblast)
+  ironvaliant (fainted; item lifeorb, ability quarkdrive; moves closecombat)
+  hitmonlee (5%; item ?, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Mewtwo|Mewtwo, L72|272/272
+  switch|p2a: Mabosstiff|Mabosstiff, L86, M|100/100
+  -ability|p1a: Mewtwo|Unnerve
+-- turn 1
+  WE CHOSE: switch to regieleki (hand policy: attack fireblast) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Regieleki|Regieleki, L79|256/256
+  move|p2a: Mabosstiff|Wild Charge|p1a: Regieleki
+  -resisted|p1a: Regieleki
+  -damage|p1a: Regieleki|76/256
+  -damage|p2a: Mabosstiff|84/100|[from] Recoil
+-- turn 2
+  WE CHOSE: attack explosion - our hp 0.30, theirs 0.84, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to scrafty (hand policy: forced: switch to lokix) - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p1a: Regieleki|Explosion|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|33/100
+  faint|p1a: Regieleki
+  move|p2a: Mabosstiff|Wild Charge|p1: Regieleki|[notarget]
+  -fail|p2a: Mabosstiff
+  switch|p1a: Scrafty|Scrafty, L83, M|244/244
+  -ability|p1a: Scrafty|Intimidate|boost
+  -unboost|p2a: Mabosstiff|atk|1
+-- turn 3
+  WE CHOSE: setup dragondance (hand policy: attack drainpunch) - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Mabosstiff|Wild Charge|p1a: Scrafty
+  -damage|p1a: Scrafty|183/244
+  -damage|p2a: Mabosstiff|27/100|[from] Recoil
+  move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|1
+  -boost|p1a: Scrafty|spe|1
+  -heal|p1a: Scrafty|198/244|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack drainpunch - our hp 0.81, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Scrafty|Drain Punch|p2a: Mabosstiff
+  -supereffective|p2a: Mabosstiff
+  -damage|p2a: Mabosstiff|0 fnt
+  -heal|p1a: Scrafty|236/244|[from] drain|[of] p2a: Mabosstiff
+  faint|p2a: Mabosstiff
+  -heal|p1a: Scrafty|244/244|[from] item: Leftovers
+  switch|p2a: Florges|Florges-White, L85, F|100/100
+-- turn 5
+  WE CHOSE: attack poisonjab - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to thundurus (hand policy: forced: switch to articuno) - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x4
+  move|p1a: Scrafty|Poison Jab|p2a: Florges
+  -supereffective|p2a: Florges
+  -damage|p2a: Florges|34/100
+  -status|p2a: Florges|psn
+  move|p2a: Florges|Moonblast|p1a: Scrafty
+  -supereffective|p1a: Scrafty
+  -damage|p1a: Scrafty|0 fnt
+  faint|p1a: Scrafty
+  -heal|p2a: Florges|40/100 psn|[from] item: Leftovers
+  -damage|p2a: Florges|28/100 psn|[from] psn
+  switch|p1a: Thundurus|Thundurus, L80, M|258/258
+-- turn 6
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p1a: Thundurus|Thunderbolt|p2a: Florges
+  -damage|p2a: Florges|3/100 psn
+  move|p2a: Florges|Moonblast|p1a: Thundurus
+  -damage|p1a: Thundurus|119/258
+  -heal|p2a: Florges|9/100 psn|[from] item: Leftovers
+  -damage|p2a: Florges|0 fnt|[from] psn
+  faint|p2a: Florges
+  switch|p2a: Iron Valiant|Iron Valiant, L78|100/100
+-- turn 7
+  WE CHOSE: attack thunderbolt - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to articuno (hand policy: forced: switch to mewtwo) - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Valiant|Close Combat|p1a: Thundurus
+  -resisted|p1a: Thundurus
+  -crit|p1a: Thundurus
+  -damage|p1a: Thundurus|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Thundurus
+  -damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+  switch|p1a: Articuno|Articuno, L86|295/295
+  -ability|p1a: Articuno|Pressure
+-- turn 8
+  WE CHOSE: switch to mewtwo (hand policy: attack bravebird) - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  switch|p1a: Mewtwo|Mewtwo, L72|272/272
+  -ability|p1a: Mewtwo|Unnerve
+  move|p2a: Iron Valiant|Close Combat|p1a: Mewtwo
+  -resisted|p1a: Mewtwo
+  -damage|p1a: Mewtwo|171/272
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|81/100|[from] item: Life Orb
+-- turn 9
+  WE CHOSE: setup nastyplot - our hp 0.63, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p1a: Mewtwo|Nasty Plot|p1a: Mewtwo
+  -boost|p1a: Mewtwo|spa|2
+  move|p2a: Iron Valiant|Close Combat|p1a: Mewtwo
+  -resisted|p1a: Mewtwo
+  -damage|p1a: Mewtwo|70/272
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|71/100|[from] item: Life Orb
+-- turn 10
+  WE CHOSE: setup nastyplot (hand policy: attack psystrike) - our hp 0.26, theirs 0.71, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to articuno - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x0.5
+  move|p1a: Mewtwo|Nasty Plot|p1a: Mewtwo
+  -boost|p1a: Mewtwo|spa|2
+  move|p2a: Iron Valiant|Close Combat|p1a: Mewtwo
+  -resisted|p1a: Mewtwo
+  -damage|p1a: Mewtwo|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Mewtwo
+  -damage|p2a: Iron Valiant|61/100|[from] item: Life Orb
+  switch|p1a: Articuno|Articuno, L86|295/295
+  -ability|p1a: Articuno|Pressure
+-- turn 11
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Iron Valiant|Close Combat|p1a: Articuno
+  -damage|p1a: Articuno|146/295
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|51/100|[from] item: Life Orb
+  move|p1a: Articuno|Brave Bird|p2a: Iron Valiant
+  -supereffective|p2a: Iron Valiant
+  -damage|p2a: Iron Valiant|0 fnt
+  faint|p2a: Iron Valiant
+  -end|p2a: Iron Valiant|Quark Drive|[silent]
+  -damage|p1a: Articuno|105/295|[from] Recoil
+  switch|p2a: Hitmonlee|Hitmonlee, L85, M|100/100
+-- turn 12
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to lokix - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmonlee|Close Combat|p1a: Articuno
+  -damage|p1a: Articuno|0 fnt
+  -unboost|p2a: Hitmonlee|def|1
+  -unboost|p2a: Hitmonlee|spd|1
+  faint|p1a: Articuno
+  -enditem|p2a: Hitmonlee|White Herb
+  -clearnegativeboost|p2a: Hitmonlee|[silent]
+  switch|p1a: Lokix|Lokix, L82, F|251/251
+-- turn 13
+  WE CHOSE: attack leechlife - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmonlee|Close Combat|p1a: Lokix
+  -damage|p1a: Lokix|76/251
+  -unboost|p2a: Hitmonlee|def|1
+  -unboost|p2a: Hitmonlee|spd|1
+  move|p1a: Lokix|Leech Life|p2a: Hitmonlee
+  -resisted|p2a: Hitmonlee
+  -damage|p2a: Hitmonlee|5/100
+  -heal|p1a: Lokix|183/251|[from] drain|[of] p2a: Hitmonlee
+  -damage|p1a: Lokix|158/251|[from] item: Life Orb
+-- turn 14
+  WE CHOSE: attack leechlife - our hp 0.63, theirs 0.05, predicted move (revealed) hits us x1
+  move|p2a: Hitmonlee|Close Combat|p1a: Lokix
+  -damage|p1a: Lokix|0 fnt
+  -unboost|p2a: Hitmonlee|def|1
+  -unboost|p2a: Hitmonlee|spd|1
+  faint|p1a: Lokix
+  deinit

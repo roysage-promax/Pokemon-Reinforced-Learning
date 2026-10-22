@@ -1,0 +1,200 @@
+battle 1371 (battle-gen9randombattle-2032496): lost in 22 turns, 2 of theirs left; we are p1
+
+ours:
+  flareon (fainted; item toxicorb, ability guts, tera normal; moves facade/trailblaze/quickattack/flareblitz)
+  swampert (fainted; item leftovers, ability torrent; moves roar/flipturn/earthquake/knockoff)
+  palossand (fainted; item leftovers, ability watercompaction; moves earthpower/sludgebomb/shoreup/shadowball)
+  ironhands (fainted; item leftovers, ability quarkdrive; moves drainpunch/thunderpunch/swordsdance/icepunch)
+  ariados (fainted; item heavydutyboots, ability insomnia; moves poisonjab/toxicspikes/megahorn/stickyweb)
+  taurospaldeacombat (fainted; item lifeorb, ability intimidate; moves bulkup/closecombat/earthquake/ironhead)
+theirs (as seen):
+  necrozma (fainted; item lifeorb, ability prismarmor; moves photongeyser)
+  porygon2 (fainted; item unknown_item, ability download; moves icebeam)
+  inteleon (fainted; item unknown_item, ability ?; moves hydropump)
+  munkidori (fainted; item lifeorb, ability ?; moves focusblast/sludgewave)
+  shiftry (13%; item lifeorb, ability ?; moves leafblade)
+
+-- turn 0
+  switch|p1a: Flareon|Flareon, L90, M|263/263
+  switch|p2a: Necrozma|Necrozma, L80|100/100
+-- turn 1
+  WE CHOSE: attack+tera flareblitz (hand policy: attack flareblitz) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Flareon|Normal
+  move|p2a: Necrozma|Photon Geyser|p1a: Flareon
+  -damage|p1a: Flareon|146/263
+  -damage|p2a: Necrozma|91/100|[from] item: Life Orb
+  move|p1a: Flareon|Flare Blitz|p2a: Necrozma
+  -damage|p2a: Necrozma|32/100
+  -damage|p1a: Flareon|90/263|[from] Recoil
+  -status|p1a: Flareon|tox|[from] item: Toxic Orb
+-- turn 2
+  WE CHOSE: attack quickattack (hand policy: attack flareblitz) - our hp 0.34, theirs 0.32, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ariados (hand policy: forced: switch to palossand) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Flareon|Quick Attack|p2a: Necrozma
+  -damage|p2a: Necrozma|3/100
+  move|p2a: Necrozma|Photon Geyser|p1a: Flareon
+  -damage|p1a: Flareon|0 fnt
+  faint|p1a: Flareon
+  -damage|p2a: Necrozma|0 fnt|[from] item: Life Orb
+  faint|p2a: Necrozma
+  switch|p2a: Porygon2|Porygon2, L81|100/100
+  switch|p1a: Ariados|Ariados, L95, M|287/287
+  -ability|p2a: Porygon2|Download|boost
+  -boost|p2a: Porygon2|spa|1
+-- turn 3
+  WE CHOSE: switch to taurospaldeacombat (hand policy: attack megahorn) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Tauros|Tauros-Paldea-Combat, L82, M|257/257
+  -ability|p1a: Tauros|Intimidate|boost
+  -unboost|p2a: Porygon2|atk|1
+  move|p2a: Porygon2|Ice Beam|p1a: Tauros
+  -damage|p1a: Tauros|150/257
+-- turn 4
+  WE CHOSE: attack closecombat - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironhands - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Tauros|Close Combat|p2a: Porygon2
+  -supereffective|p2a: Porygon2
+  -damage|p2a: Porygon2|10/100
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  -damage|p1a: Tauros|125/257|[from] item: Life Orb
+  move|p2a: Porygon2|Ice Beam|p1a: Tauros
+  -damage|p1a: Tauros|0 fnt
+  faint|p1a: Tauros
+  switch|p1a: Iron Hands|Iron Hands, L79|373/373
+-- turn 5
+  WE CHOSE: attack icepunch (hand policy: attack drainpunch) - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Porygon2|Ice Beam|p1a: Iron Hands
+  -damage|p1a: Iron Hands|260/373
+  move|p1a: Iron Hands|Ice Punch|p2a: Porygon2
+  -damage|p2a: Porygon2|0 fnt
+  faint|p2a: Porygon2
+  -heal|p1a: Iron Hands|283/373|[from] item: Leftovers
+  switch|p2a: Inteleon|Inteleon, L81, M|100/100
+-- turn 6
+  WE CHOSE: attack thunderpunch - our hp 0.76, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Iron Hands
+  -damage|p1a: Iron Hands|22/373
+  move|p1a: Iron Hands|Thunder Punch|p2a: Inteleon
+  -supereffective|p2a: Inteleon
+  -damage|p2a: Inteleon|3/100
+  -heal|p1a: Iron Hands|45/373|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack icepunch (hand policy: attack thunderpunch) - our hp 0.12, theirs 0.03, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ariados - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Iron Hands
+  -damage|p1a: Iron Hands|0 fnt
+  faint|p1a: Iron Hands
+  -end|p1a: Iron Hands|Quark Drive|[silent]
+  switch|p1a: Ariados|Ariados, L95, M|287/287
+-- turn 8
+  WE CHOSE: attack megahorn - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to swampert - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Ariados
+  -damage|p1a: Ariados|0 fnt
+  faint|p1a: Ariados
+  switch|p1a: Swampert|Swampert, L83, F|302/302
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Swampert|[miss]
+  -miss|p2a: Inteleon|p1a: Swampert
+  move|p1a: Swampert|Earthquake|p2a: Inteleon
+  -damage|p2a: Inteleon|0 fnt
+  faint|p2a: Inteleon
+  switch|p2a: Munkidori|Munkidori, L79, M|100/100
+-- turn 10
+  WE CHOSE: switch to palossand - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Palossand|Palossand, L89, F|296/296
+  move|p2a: Munkidori|Focus Blast|p1a: Palossand
+  -immune|p1a: Palossand
+-- turn 11
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Munkidori|Focus Blast|p1a: Palossand
+  -immune|p1a: Palossand
+  move|p1a: Palossand|Earth Power|p2a: Munkidori
+  -supereffective|p2a: Munkidori
+  -damage|p2a: Munkidori|13/100
+-- turn 12
+  WE CHOSE: heal shoreup (hand policy: attack earthpower) - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0
+  move|p2a: Munkidori|Focus Blast|p1a: Palossand
+  -immune|p1a: Palossand
+  move|p1a: Palossand|Shore Up|p1a: Palossand
+  -fail|p1a: Palossand|heal
+-- turn 13
+  WE CHOSE: heal shoreup (hand policy: attack earthpower) - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0
+  move|p2a: Munkidori|Focus Blast|p1a: Palossand
+  -immune|p1a: Palossand
+  move|p1a: Palossand|Shore Up|p1a: Palossand
+  -fail|p1a: Palossand|heal
+-- turn 14
+  WE CHOSE: heal shoreup (hand policy: attack earthpower) - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0
+  move|p2a: Munkidori|Focus Blast|p1a: Palossand
+  -immune|p1a: Palossand
+  move|p1a: Palossand|Shore Up|p1a: Palossand
+  -fail|p1a: Palossand|heal
+-- turn 15
+  WE CHOSE: heal shoreup (hand policy: attack earthpower) - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0
+  move|p2a: Munkidori|Focus Blast|p1a: Palossand
+  -immune|p1a: Palossand
+  move|p1a: Palossand|Shore Up|p1a: Palossand
+  -fail|p1a: Palossand|heal
+-- turn 16
+  WE CHOSE: heal shoreup (hand policy: attack earthpower) - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0
+  move|p2a: Munkidori|Focus Blast|p1a: Palossand
+  -immune|p1a: Palossand
+  move|p1a: Palossand|Shore Up|p1a: Palossand
+  -fail|p1a: Palossand|heal
+-- turn 17
+  WE CHOSE: heal shoreup (hand policy: attack earthpower) - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0
+  move|p2a: Munkidori|Focus Blast|p1a: Palossand
+  -immune|p1a: Palossand
+  move|p1a: Palossand|Shore Up|p1a: Palossand
+  -fail|p1a: Palossand|heal
+-- turn 18
+  WE CHOSE: heal shoreup (hand policy: attack earthpower) - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0
+  move|p2a: Munkidori|Sludge Wave|p1a: Palossand
+  -resisted|p1a: Palossand
+  -damage|p1a: Palossand|254/296
+  -status|p1a: Palossand|psn
+  -damage|p2a: Munkidori|3/100|[from] item: Life Orb
+  move|p1a: Palossand|Shore Up|p1a: Palossand
+  -heal|p1a: Palossand|296/296 psn
+  -damage|p1a: Palossand|259/296 psn|[from] psn
+-- turn 19
+  WE CHOSE: heal shoreup (hand policy: attack earthpower) - our hp 0.88, theirs 0.03, predicted move (revealed) hits us x0
+  move|p2a: Munkidori|Sludge Wave|p1a: Palossand
+  -resisted|p1a: Palossand
+  -damage|p1a: Palossand|220/296 psn
+  -damage|p2a: Munkidori|0 fnt|[from] item: Life Orb
+  faint|p2a: Munkidori
+  move|p1a: Palossand|Shore Up|p1a: Palossand
+  -heal|p1a: Palossand|296/296 psn
+  -damage|p1a: Palossand|259/296 psn|[from] psn
+  switch|p2a: Shiftry|Shiftry, L89, F|100/100
+-- turn 20
+  WE CHOSE: attack sludgebomb - our hp 0.88, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Shiftry|Leaf Blade|p1a: Palossand
+  -supereffective|p1a: Palossand
+  -damage|p1a: Palossand|48/296 psn
+  -damage|p2a: Shiftry|91/100|[from] item: Life Orb
+  move|p1a: Palossand|Sludge Bomb|p2a: Shiftry
+  -supereffective|p2a: Shiftry
+  -damage|p2a: Shiftry|32/100
+  -heal|p1a: Palossand|66/296 psn|[from] item: Leftovers
+  -damage|p1a: Palossand|29/296 psn|[from] psn
+-- turn 21
+  WE CHOSE: attack sludgebomb - our hp 0.10, theirs 0.32, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to ariados (hand policy: forced: switch to swampert) - our hp 0.00, theirs 0.22, predicted move (revealed) hits us x2
+  move|p2a: Shiftry|Leaf Blade|p1a: Palossand
+  -supereffective|p1a: Palossand
+  -damage|p1a: Palossand|0 fnt
+  faint|p1a: Palossand
+  -damage|p2a: Shiftry|22/100|[from] item: Life Orb
+  switch|p1a: Swampert|Swampert, L83, F|302/302
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.22, predicted move (revealed) hits us x4
+  move|p2a: Shiftry|Leaf Blade|p1a: Swampert
+  -supereffective|p1a: Swampert
+  -damage|p1a: Swampert|0 fnt
+  faint|p1a: Swampert
+  -damage|p2a: Shiftry|13/100|[from] item: Life Orb
+  deinit

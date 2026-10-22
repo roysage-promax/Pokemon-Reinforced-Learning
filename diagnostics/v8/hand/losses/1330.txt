@@ -1,0 +1,218 @@
+battle 1330 (battle-gen9randombattle-2030878): lost in 24 turns, 1 of theirs left; we are p1
+
+ours:
+  conkeldurr (fainted; item flameorb, ability guts; moves knockoff/closecombat/facade/machpunch)
+  exeggutoralola (fainted; item choicespecs, ability frisk, tera fire; moves leafstorm/flamethrower/dracometeor/gigadrain)
+  noctowl (fainted; item heavydutyboots, ability tintedlens; moves calmmind/hurricane/hypervoice/roost)
+  reuniclus (fainted; item lifeorb, ability magicguard; moves psyshock/recover/calmmind/focusblast)
+  talonflame (fainted; item heavydutyboots, ability flamebody; moves overheat/roost/defog/bravebird)
+  tyranitar (fainted; item assaultvest, ability sandstream; moves stoneedge/icebeam/knockoff/earthquake)
+theirs (as seen):
+  cresselia (fainted; item leftovers, ability levitate; moves thunderbolt)
+  armarouge (fainted; item unknown_item, ability weakarmor; moves focusblast)
+  arcaninehisui (fainted; item unknown_item, ability ?; moves headsmash)
+  ariados (fainted; item unknown_item, ability ?; moves megahorn)
+  chesnaught (fainted; item unknown_item, ability ?; moves -)
+  pikachukalos (13%; item unknown_item, ability ?; moves volttackle)
+
+-- turn 0
+  switch|p1a: Conkeldurr|Conkeldurr, L80, M|299/299
+  switch|p2a: Cresselia|Cresselia, L80, F|100/100
+-- turn 1
+  WE CHOSE: switch to talonflame - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Talonflame|Talonflame, L83, M|265/265
+  move|p2a: Cresselia|Thunderbolt|p1a: Talonflame
+  -supereffective|p1a: Talonflame
+  -damage|p1a: Talonflame|153/265
+  -status|p1a: Talonflame|par
+-- turn 2
+  WE CHOSE: switch to exeggutoralola - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Exeggutor|Exeggutor-Alola, L89, F|314/314
+  -item|p2a: Cresselia|Leftovers|[from] ability: Frisk|[of] p1a: Exeggutor
+  move|p2a: Cresselia|Thunderbolt|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|302/314
+  -status|p1a: Exeggutor|par
+-- turn 3
+  WE CHOSE: attack leafstorm - our hp 0.96, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Cresselia|Thunderbolt|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|290/314 par
+  cant|p1a: Exeggutor|par
+-- turn 4
+  WE CHOSE: attack leafstorm - our hp 0.92, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Cresselia|Thunderbolt|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|277/314 par
+  move|p1a: Exeggutor|Leaf Storm|p2a: Cresselia
+  -damage|p2a: Cresselia|24/100
+  -unboost|p1a: Exeggutor|spa|2
+  -heal|p2a: Cresselia|30/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack leafstorm - our hp 0.88, theirs 0.30, predicted move (revealed) hits us x0.25
+  move|p2a: Cresselia|Thunderbolt|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|265/314 par
+  cant|p1a: Exeggutor|par
+  -heal|p2a: Cresselia|36/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack leafstorm - our hp 0.84, theirs 0.36, predicted move (revealed) hits us x0.25
+  move|p2a: Cresselia|Thunderbolt|p1a: Exeggutor
+  -resisted|p1a: Exeggutor
+  -damage|p1a: Exeggutor|252/314 par
+  move|p1a: Exeggutor|Leaf Storm|p2a: Cresselia
+  -damage|p2a: Cresselia|0 fnt
+  -unboost|p1a: Exeggutor|spa|2
+  faint|p2a: Cresselia
+  switch|p2a: Armarouge|Armarouge, L80, F|100/100
+-- turn 7
+  WE CHOSE: attack+tera leafstorm - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Exeggutor|Fire
+  move|p2a: Armarouge|Focus Blast|p1a: Exeggutor
+  -damage|p1a: Exeggutor|102/314 par
+  move|p1a: Exeggutor|Leaf Storm|p2a: Armarouge
+  -resisted|p2a: Armarouge
+  -damage|p2a: Armarouge|82/100
+  -unboost|p1a: Exeggutor|spa|2
+-- turn 8
+  WE CHOSE: attack leafstorm - our hp 0.32, theirs 0.82, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to talonflame - our hp 0.00, theirs 0.82, predicted move (revealed) hits us x1
+  move|p2a: Armarouge|Focus Blast|p1a: Exeggutor
+  -damage|p1a: Exeggutor|0 fnt
+  faint|p1a: Exeggutor
+  switch|p1a: Talonflame|Talonflame, L83, M|153/265 par
+-- turn 9
+  WE CHOSE: attack bravebird - our hp 0.58, theirs 0.82, predicted move (revealed) hits us x0.5
+  move|p2a: Armarouge|Focus Blast|p1a: Talonflame
+  -resisted|p1a: Talonflame
+  -damage|p1a: Talonflame|68/265 par
+  move|p1a: Talonflame|Brave Bird|p2a: Armarouge
+  -damage|p2a: Armarouge|41/100
+  -ability|p2a: Armarouge|Weak Armor|boost
+  -unboost|p2a: Armarouge|def|1
+  -boost|p2a: Armarouge|spe|2
+  -damage|p1a: Talonflame|32/265 par|[from] Recoil
+-- turn 10
+  WE CHOSE: heal roost - our hp 0.12, theirs 0.41, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to reuniclus - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p2a: Armarouge|Focus Blast|p1a: Talonflame
+  -resisted|p1a: Talonflame
+  -damage|p1a: Talonflame|0 fnt
+  faint|p1a: Talonflame
+  switch|p1a: Reuniclus|Reuniclus, L88, M|337/337
+-- turn 11
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p2a: Armarouge|Focus Blast|p1a: Reuniclus
+  -resisted|p1a: Reuniclus
+  -damage|p1a: Reuniclus|272/337
+  move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+  -boost|p1a: Reuniclus|spa|1
+  -boost|p1a: Reuniclus|spd|1
+-- turn 12
+  WE CHOSE: setup calmmind - our hp 0.81, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p2a: Armarouge|Focus Blast|p1a: Reuniclus
+  -resisted|p1a: Reuniclus
+  -damage|p1a: Reuniclus|225/337
+  move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+  -boost|p1a: Reuniclus|spa|1
+  -boost|p1a: Reuniclus|spd|1
+-- turn 13
+  WE CHOSE: attack psyshock - our hp 0.67, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p2a: Armarouge|Focus Blast|p1a: Reuniclus|[miss]
+  -miss|p2a: Armarouge|p1a: Reuniclus
+  move|p1a: Reuniclus|Psyshock|p2a: Armarouge
+  -resisted|p2a: Armarouge
+  -damage|p2a: Armarouge|0 fnt
+  faint|p2a: Armarouge
+  switch|p2a: Arcanine|Arcanine-Hisui, L79, M|100/100
+-- turn 14
+  WE CHOSE: attack focusblast - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to conkeldurr - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arcanine|Head Smash|p1a: Reuniclus
+  -damage|p1a: Reuniclus|0 fnt
+  faint|p1a: Reuniclus
+  switch|p1a: Conkeldurr|Conkeldurr, L80, M|299/299
+-- turn 15
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Arcanine|Head Smash|p1a: Conkeldurr
+  -resisted|p1a: Conkeldurr
+  -damage|p1a: Conkeldurr|186/299
+  move|p1a: Conkeldurr|Close Combat|p2a: Arcanine
+  -supereffective|p2a: Arcanine
+  -damage|p2a: Arcanine|0 fnt
+  -unboost|p1a: Conkeldurr|def|1
+  -unboost|p1a: Conkeldurr|spd|1
+  faint|p2a: Arcanine
+  -status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+  switch|p2a: Ariados|Ariados, L95, F|100/100
+-- turn 16
+  WE CHOSE: attack facade - our hp 0.62, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Ariados|Megahorn|p1a: Conkeldurr
+  -resisted|p1a: Conkeldurr
+  -damage|p1a: Conkeldurr|68/299 brn
+  move|p1a: Conkeldurr|Facade|p2a: Ariados
+  -damage|p2a: Ariados|35/100
+  -damage|p1a: Conkeldurr|50/299 brn|[from] brn
+-- turn 17
+  WE CHOSE: attack facade - our hp 0.17, theirs 0.35, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to noctowl - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x0.5
+  move|p2a: Ariados|Megahorn|p1a: Conkeldurr
+  -resisted|p1a: Conkeldurr
+  -damage|p1a: Conkeldurr|0 fnt
+  faint|p1a: Conkeldurr
+  switch|p1a: Noctowl|Noctowl, L95, M|344/344
+-- turn 18
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x0.5
+  move|p1a: Noctowl|Calm Mind|p1a: Noctowl
+  -boost|p1a: Noctowl|spa|1
+  -boost|p1a: Noctowl|spd|1
+  move|p2a: Ariados|Megahorn|p1a: Noctowl
+  -resisted|p1a: Noctowl
+  -damage|p1a: Noctowl|244/344
+-- turn 19
+  WE CHOSE: setup calmmind - our hp 0.71, theirs 0.35, predicted move (revealed) hits us x0.5
+  move|p1a: Noctowl|Calm Mind|p1a: Noctowl
+  -boost|p1a: Noctowl|spa|1
+  -boost|p1a: Noctowl|spd|1
+  move|p2a: Ariados|Megahorn|p1a: Noctowl|[miss]
+  -miss|p2a: Ariados|p1a: Noctowl
+-- turn 20
+  WE CHOSE: attack hurricane - our hp 0.71, theirs 0.35, predicted move (revealed) hits us x0.5
+  move|p1a: Noctowl|Hurricane|p2a: Ariados
+  -supereffective|p2a: Ariados
+  -damage|p2a: Ariados|0 fnt
+  faint|p2a: Ariados
+  switch|p2a: Chesnaught|Chesnaught, L84, F|100/100
+-- turn 21
+  WE CHOSE: attack hurricane - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Noctowl|Hurricane|p2a: Chesnaught
+  -supereffective|p2a: Chesnaught
+  -damage|p2a: Chesnaught|0 fnt
+  faint|p2a: Chesnaught
+  switch|p2a: Pikachu|Pikachu-Kalos, L93, M|100/100
+-- turn 22
+  WE CHOSE: attack hypervoice - our hp 0.71, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to tyranitar - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x2
+  move|p2a: Pikachu|Volt Tackle|p1a: Noctowl
+  -supereffective|p1a: Noctowl
+  -damage|p1a: Noctowl|0 fnt
+  faint|p1a: Noctowl
+  -damage|p2a: Pikachu|63/100|[from] Recoil
+  switch|p1a: Tyranitar|Tyranitar, L78, F|284/284
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Pikachu|Volt Tackle|p1a: Tyranitar
+  -damage|p1a: Tyranitar|82/284
+  -status|p1a: Tyranitar|par
+  -damage|p2a: Pikachu|32/100|[from] Recoil
+  cant|p1a: Tyranitar|par
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Pikachu|26/100|[from] Sandstorm
+-- turn 24
+  WE CHOSE: attack earthquake - our hp 0.29, theirs 0.26, predicted move (revealed) hits us x1
+  move|p2a: Pikachu|Volt Tackle|p1a: Tyranitar
+  -damage|p1a: Tyranitar|0 fnt
+  faint|p1a: Tyranitar
+  -damage|p2a: Pikachu|13/100|[from] Recoil
+  deinit

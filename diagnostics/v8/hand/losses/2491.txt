@@ -1,0 +1,81 @@
+battle 2491 (battle-gen9randombattle-2041923): lost in 7 turns, 6 of theirs left; we are p1
+
+ours:
+  palafin (fainted; item leftovers, ability zerotohero; moves bulkup/drainpunch/wavecrash/jetpunch)
+  pincurchin (fainted; item leftovers, ability electricsurge; moves recover/thunderbolt/scald/spikes)
+  volcanion (fainted; item heavydutyboots, ability waterabsorb; moves haze/steameruption/flamethrower/earthpower)
+  flygon (fainted; item choiceband, ability levitate; moves stoneedge/outrage/uturn/earthquake)
+  glimmora (fainted; item ?, ability toxicdebris, tera ground; moves sludgewave/spikes/stealthrock/earthpower)
+  lunala (fainted; item leftovers, ability shadowshield; moves moonlight/psyshock/moongeistbeam/calmmind)
+theirs (as seen):
+  calyrexshadow (52%; item unknown_item, ability grimneigh; moves astralbarrage)
+
+-- turn 0
+  switch|p1a: Palafin|Palafin, L77, M|281/281
+  switch|p2a: Calyrex|Calyrex-Shadow, L64|100/100
+  -ability|p2a: Calyrex|As One
+  -ability|p2a: Calyrex|Unnerve
+-- turn 1
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Calyrex|Astral Barrage|p1a: Palafin
+  -damage|p1a: Palafin|41/281
+  move|p1a: Palafin|Wave Crash|p2a: Calyrex
+  -damage|p2a: Calyrex|52/100
+  -damage|p1a: Palafin|3/281|[from] Recoil
+  -heal|p1a: Palafin|20/281|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack wavecrash - our hp 0.07, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to flygon - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Calyrex|Astral Barrage|p1a: Palafin
+  -damage|p1a: Palafin|0 fnt
+  faint|p1a: Palafin
+  -ability|p2a: Calyrex|Grim Neigh|boost
+  -boost|p2a: Calyrex|spa|1
+  switch|p1a: Flygon|Flygon, L82, F|265/265
+-- turn 3
+  WE CHOSE: attack outrage - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to volcanion - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Calyrex|Astral Barrage|p1a: Flygon
+  -damage|p1a: Flygon|0 fnt
+  faint|p1a: Flygon
+  -ability|p2a: Calyrex|Grim Neigh|boost
+  -boost|p2a: Calyrex|spa|1
+  switch|p1a: Volcanion|Volcanion, L79|256/256
+-- turn 4
+  WE CHOSE: attack steameruption - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pincurchin - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Calyrex|Astral Barrage|p1a: Volcanion
+  -damage|p1a: Volcanion|0 fnt
+  faint|p1a: Volcanion
+  -ability|p2a: Calyrex|Grim Neigh|boost
+  -boost|p2a: Calyrex|spa|1
+  switch|p1a: Pincurchin|Pincurchin, F|258/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 5
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to glimmora - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Calyrex|Astral Barrage|p1a: Pincurchin
+  -damage|p1a: Pincurchin|0 fnt
+  faint|p1a: Pincurchin
+  -ability|p2a: Calyrex|Grim Neigh|boost
+  -boost|p2a: Calyrex|spa|1
+  switch|p1a: Glimmora|Glimmora, L75, F|248/248
+  -item|p1a: Glimmora|Air Balloon
+-- turn 6
+  WE CHOSE: attack+tera earthpower - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lunala - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  -terastallize|p1a: Glimmora|Ground
+  move|p2a: Calyrex|Astral Barrage|p1a: Glimmora
+  -damage|p1a: Glimmora|0 fnt
+  -enditem|p1a: Glimmora|Air Balloon
+  faint|p1a: Glimmora
+  -ability|p2a: Calyrex|Grim Neigh|boost
+  -boost|p2a: Calyrex|spa|1
+  switch|p1a: Lunala|Lunala, L70|308/308
+-- turn 7
+  WE CHOSE: attack moongeistbeam - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x4
+  move|p2a: Calyrex|Astral Barrage|p1a: Lunala
+  -supereffective|p1a: Lunala
+  -damage|p1a: Lunala|0 fnt
+  faint|p1a: Lunala
+  deinit

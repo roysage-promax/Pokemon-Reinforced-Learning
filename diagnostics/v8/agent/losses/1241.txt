@@ -1,0 +1,162 @@
+battle 1241 (battle-gen9randombattle-2031197): lost in 16 turns, 1 of theirs left; we are p1
+
+ours:
+  urshifurapidstrike (fainted; item ?, ability unseenfist, tera water; moves closecombat/aquajet/surgingstrikes/uturn)
+  meowstic (fainted; item leftovers, ability prankster; moves thunderwave/alluringvoice/yawn/psychicnoise)
+  venomoth (fainted; item heavydutyboots, ability tintedlens; moves bugbuzz/quiverdance/sludgewave/sleeppowder)
+  brambleghast (fainted; item ?, ability windrider; moves powerwhip/strengthsap/poltergeist/spikes)
+  galvantula (fainted; item heavydutyboots, ability compoundeyes; moves stickyweb/energyball/bugbuzz/thunder)
+  hooh (fainted; item heavydutyboots, ability regenerator; moves earthquake/bravebird/recover/sacredfire)
+theirs (as seen):
+  incineroar (fainted; item unknown_item, ability intimidate; moves flareblitz)
+  houndstone (fainted; item leftovers, ability ?; moves poltergeist)
+  swanna (fainted; item unknown_item, ability ?; moves bravebird)
+  scizor (fainted; item lifeorb, ability ?; moves knockoff)
+  squawkabilly (fainted; item unknown_item, ability ?; moves bravebird)
+
+-- turn 0
+  switch|p1a: Urshifu|Urshifu-Rapid-Strike, L75, M|274/274
+  switch|p2a: Incineroar|Incineroar, L82, M|100/100
+  -ability|p2a: Incineroar|Intimidate|boost
+  -unboost|p1a: Urshifu|atk|1
+-- turn 1
+  WE CHOSE: attack+tera closecombat (hand policy: attack closecombat) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  -terastallize|p1a: Urshifu|Water
+  move|p1a: Urshifu|Close Combat|p2a: Incineroar
+  -supereffective|p2a: Incineroar
+  -damage|p2a: Incineroar|18/100
+  -unboost|p1a: Urshifu|def|1
+  -unboost|p1a: Urshifu|spd|1
+  move|p2a: Incineroar|Flare Blitz|p1a: Urshifu
+  -resisted|p1a: Urshifu
+  -damage|p1a: Urshifu|163/274
+  -damage|p2a: Incineroar|5/100|[from] Recoil
+-- turn 2
+  WE CHOSE: attack closecombat - our hp 0.59, theirs 0.05, predicted move (revealed) hits us x0.5
+  move|p1a: Urshifu|Close Combat|p2a: Incineroar
+  -supereffective|p2a: Incineroar
+  -damage|p2a: Incineroar|0 fnt
+  -unboost|p1a: Urshifu|def|1
+  -unboost|p1a: Urshifu|spd|1
+  faint|p2a: Incineroar
+  switch|p2a: Houndstone|Houndstone, L86, M|100/100
+-- turn 3
+  WE CHOSE: switch to hooh (hand policy: attack closecombat) - our hp 0.59, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Ho-Oh|Ho-Oh, L71|268/268
+  move|p2a: Houndstone|Poltergeist|p1a: Ho-Oh
+  -activate|p1a: Ho-Oh|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Ho-Oh|123/268
+-- turn 4
+  WE CHOSE: attack sacredfire (hand policy: heal recover) - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Ho-Oh|Sacred Fire|p2a: Houndstone
+  -damage|p2a: Houndstone|36/100
+  -status|p2a: Houndstone|brn
+  move|p2a: Houndstone|Poltergeist|p1a: Ho-Oh
+  -activate|p1a: Ho-Oh|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Ho-Oh|55/268
+  -heal|p2a: Houndstone|42/100 brn|[from] item: Leftovers
+  -damage|p2a: Houndstone|36/100 brn|[from] brn
+-- turn 5
+  WE CHOSE: attack sacredfire (hand policy: heal recover) - our hp 0.21, theirs 0.36, predicted move (revealed) hits us x1
+  move|p1a: Ho-Oh|Sacred Fire|p2a: Houndstone
+  -damage|p2a: Houndstone|0 fnt
+  faint|p2a: Houndstone
+  switch|p2a: Swanna|Swanna, L89, M|100/100
+-- turn 6
+  WE CHOSE: attack sacredfire (hand policy: heal recover) - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to galvantula - our hp 0.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Swanna|Brave Bird|p1a: Ho-Oh
+  -damage|p1a: Ho-Oh|0 fnt
+  faint|p1a: Ho-Oh
+  -damage|p2a: Swanna|94/100|[from] Recoil
+  switch|p1a: Galvantula|Galvantula, L82, M|249/249
+-- turn 7
+  WE CHOSE: attack thunder - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Swanna|Brave Bird|p1a: Galvantula
+  -damage|p1a: Galvantula|84/249
+  -damage|p2a: Swanna|75/100|[from] Recoil
+  move|p1a: Galvantula|Thunder|p2a: Swanna|[miss]
+  -miss|p1a: Galvantula|p2a: Swanna
+-- turn 8
+  WE CHOSE: attack thunder - our hp 0.34, theirs 0.75, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to meowstic - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x1
+  move|p2a: Swanna|Brave Bird|p1a: Galvantula
+  -damage|p1a: Galvantula|0 fnt
+  faint|p1a: Galvantula
+  -damage|p2a: Swanna|65/100|[from] Recoil
+  switch|p1a: Meowstic|Meowstic, L89, M|277/277
+-- turn 9
+  WE CHOSE: attack psychicnoise - our hp 1.00, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Meowstic|Psychic Noise|p2a: Swanna
+  -damage|p2a: Swanna|31/100
+  -start|p2a: Swanna|move: Heal Block
+  move|p2a: Swanna|Brave Bird|p1a: Meowstic
+  -damage|p1a: Meowstic|145/277
+  -damage|p2a: Swanna|15/100|[from] Recoil
+  -heal|p1a: Meowstic|162/277|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack psychicnoise - our hp 0.58, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Meowstic|Psychic Noise|p2a: Swanna
+  -damage|p2a: Swanna|0 fnt
+  faint|p2a: Swanna
+  -heal|p1a: Meowstic|179/277|[from] item: Leftovers
+  switch|p2a: Scizor|Scizor, L79, F|100/100
+-- turn 11
+  WE CHOSE: switch to brambleghast (hand policy: attack psychicnoise) - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to urshifurapidstrike - our hp 0.00, theirs 0.90, predicted move (revealed) hits us x2
+  switch|p1a: Brambleghast|Brambleghast, L88, M|240/240
+  move|p2a: Scizor|Knock Off|p1a: Brambleghast
+  -supereffective|p1a: Brambleghast
+  -damage|p1a: Brambleghast|0 fnt
+  -enditem|p1a: Brambleghast|Leftovers|[from] move: Knock Off|[of] p2a: Scizor
+  faint|p1a: Brambleghast
+  -damage|p2a: Scizor|90/100|[from] item: Life Orb
+  switch|p1a: Urshifu|Urshifu-Rapid-Strike, L75, M, tera:Water|163/274
+-- turn 12
+  WE CHOSE: attack closecombat - our hp 0.59, theirs 0.90, predicted move (revealed) hits us x1
+  move|p1a: Urshifu|Close Combat|p2a: Scizor
+  -damage|p2a: Scizor|18/100
+  -unboost|p1a: Urshifu|def|1
+  -unboost|p1a: Urshifu|spd|1
+  move|p2a: Scizor|Knock Off|p1a: Urshifu
+  -damage|p1a: Urshifu|14/274
+  -enditem|p1a: Urshifu|Choice Band|[from] move: Knock Off|[of] p2a: Scizor
+  -damage|p2a: Scizor|8/100|[from] item: Life Orb
+-- turn 13
+  WE CHOSE: attack closecombat - our hp 0.05, theirs 0.08, predicted move (revealed) hits us x1
+  move|p1a: Urshifu|Close Combat|p2a: Scizor
+  -damage|p2a: Scizor|0 fnt
+  -unboost|p1a: Urshifu|def|1
+  -unboost|p1a: Urshifu|spd|1
+  faint|p2a: Scizor
+  switch|p2a: Squawkabilly|Squawkabilly, L85, M|100/100
+-- turn 14
+  WE CHOSE: attack closecombat - our hp 0.05, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to meowstic - our hp 0.00, theirs 0.99, predicted move (revealed) hits us x1
+  move|p2a: Squawkabilly|Brave Bird|p1a: Urshifu
+  -damage|p1a: Urshifu|0 fnt
+  faint|p1a: Urshifu
+  -damage|p2a: Squawkabilly|99/100|[from] Recoil
+  -status|p2a: Squawkabilly|brn|[from] item: Flame Orb
+  switch|p1a: Meowstic|Meowstic, L89, M|179/277
+-- turn 15
+  WE CHOSE: attack psychicnoise - our hp 0.65, theirs 0.99, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to venomoth - our hp 0.00, theirs 0.29, predicted move (revealed) hits us x1
+  move|p1a: Meowstic|Psychic Noise|p2a: Squawkabilly
+  -damage|p2a: Squawkabilly|56/100 brn
+  -start|p2a: Squawkabilly|move: Heal Block
+  move|p2a: Squawkabilly|Brave Bird|p1a: Meowstic
+  -damage|p1a: Meowstic|0 fnt
+  faint|p1a: Meowstic
+  -damage|p2a: Squawkabilly|35/100 brn|[from] Recoil
+  -damage|p2a: Squawkabilly|29/100 brn|[from] brn
+  switch|p1a: Venomoth|Venomoth, L84, F|255/255
+-- turn 16
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.29, predicted move (revealed) hits us x2
+  move|p2a: Squawkabilly|Brave Bird|p1a: Venomoth
+  -supereffective|p1a: Venomoth
+  -damage|p1a: Venomoth|0 fnt
+  faint|p1a: Venomoth
+  -damage|p2a: Squawkabilly|0 fnt|[from] Recoil
+  faint|p2a: Squawkabilly
+  deinit

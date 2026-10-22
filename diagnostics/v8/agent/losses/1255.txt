@@ -1,0 +1,291 @@
+battle 1255 (battle-gen9randombattle-2031333): lost in 31 turns, 1 of theirs left; we are p1
+
+ours:
+  gallade (fainted; item choiceband, ability sharpness; moves nightslash/psychocut/leafblade/sacredsword)
+  umbreon (fainted; item leftovers, ability synchronize; moves wish/toxic/protect/foulplay)
+  mandibuzz (fainted; item heavydutyboots, ability overcoat; moves roost/foulplay/uturn/defog)
+  calyrex (fainted; item leftovers, ability unnerve, tera steel; moves gigadrain/psychic/bodypress/leechseed)
+  clawitzer (fainted; item assaultvest, ability megalauncher; moves dragonpulse/waterpulse/darkpulse/uturn)
+  glalie (fainted; item heavydutyboots, ability innerfocus; moves freezedry/earthquake/taunt/spikes)
+theirs (as seen):
+  suicune (fainted; item leftovers, ability pressure; moves icebeam)
+  drifblim (fainted; item unknown_item, ability aftermath; moves shadowball)
+  diancie (fainted; item leftovers, ability clearbody; moves diamondstorm)
+  tsareena (fainted; item unknown_item, ability ?; moves highjumpkick)
+  lokix (fainted; item lifeorb, ability ?; moves leechlife)
+  whimsicott (9%; item leftovers, ability ?; moves moonblast)
+
+-- turn 0
+  switch|p1a: Gallade|Gallade, L80, M|240/240
+  switch|p2a: Suicune|Suicune, L82|100/100
+  -ability|p2a: Suicune|Pressure
+-- turn 1
+  WE CHOSE: switch to glalie (hand policy: attack leafblade) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Glalie|Glalie, L96, M|309/309
+  move|p2a: Suicune|Ice Beam|p1a: Glalie
+  -resisted|p1a: Glalie
+  -damage|p1a: Glalie|283/309
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 0.92, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Glalie|Earthquake|p2a: Suicune
+  -damage|p2a: Suicune|80/100
+  move|p2a: Suicune|Ice Beam|p1a: Glalie
+  -resisted|p1a: Glalie
+  -crit|p1a: Glalie
+  -damage|p1a: Glalie|242/309
+  -heal|p2a: Suicune|86/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 0.78, theirs 0.86, predicted move (revealed) hits us x0.5
+  move|p1a: Glalie|Earthquake|p2a: Suicune
+  -damage|p2a: Suicune|64/100
+  move|p2a: Suicune|Ice Beam|p1a: Glalie
+  -resisted|p1a: Glalie
+  -damage|p1a: Glalie|214/309
+  -heal|p2a: Suicune|70/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 0.69, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p1a: Glalie|Earthquake|p2a: Suicune
+  -damage|p2a: Suicune|47/100
+  move|p2a: Suicune|Ice Beam|p1a: Glalie
+  -resisted|p1a: Glalie
+  -damage|p1a: Glalie|188/309
+  -heal|p2a: Suicune|53/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 0.61, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p1a: Glalie|Earthquake|p2a: Suicune
+  -damage|p2a: Suicune|30/100
+  move|p2a: Suicune|Ice Beam|p1a: Glalie
+  -resisted|p1a: Glalie
+  -damage|p1a: Glalie|163/309
+  -heal|p2a: Suicune|36/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 0.53, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p1a: Glalie|Earthquake|p2a: Suicune
+  -damage|p2a: Suicune|14/100
+  move|p2a: Suicune|Ice Beam|p1a: Glalie
+  -resisted|p1a: Glalie
+  -damage|p1a: Glalie|135/309
+  -heal|p2a: Suicune|20/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.44, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p1a: Glalie|Earthquake|p2a: Suicune
+  -damage|p2a: Suicune|0 fnt
+  faint|p2a: Suicune
+  switch|p2a: Drifblim|Drifblim, L86, F|100/100
+-- turn 8
+  WE CHOSE: switch to umbreon (hand policy: attack freezedry) - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Umbreon|Umbreon, L84, F|297/297
+  move|p2a: Drifblim|Shadow Ball|p1a: Umbreon
+  -resisted|p1a: Umbreon
+  -damage|p1a: Umbreon|267/297
+  -unboost|p1a: Umbreon|spd|1
+  -heal|p1a: Umbreon|285/297|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack foulplay - our hp 0.96, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Drifblim|Shadow Ball|p1a: Umbreon
+  -resisted|p1a: Umbreon
+  -damage|p1a: Umbreon|238/297
+  move|p1a: Umbreon|Foul Play|p2a: Drifblim
+  -supereffective|p2a: Drifblim
+  -damage|p2a: Drifblim|48/100
+  -heal|p1a: Umbreon|256/297|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack foulplay - our hp 0.86, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p2a: Drifblim|Shadow Ball|p1a: Umbreon
+  -resisted|p1a: Umbreon
+  -damage|p1a: Umbreon|208/297
+  move|p1a: Umbreon|Foul Play|p2a: Drifblim
+  -supereffective|p2a: Drifblim
+  -damage|p2a: Drifblim|0 fnt
+  -damage|p1a: Umbreon|134/297|[from] ability: Aftermath|[of] p2a: Drifblim
+  faint|p2a: Drifblim
+  -heal|p1a: Umbreon|152/297|[from] item: Leftovers
+  switch|p2a: Diancie|Diancie, L82|100/100
+-- turn 11
+  WE CHOSE: switch to gallade (hand policy: attack foulplay) - our hp 0.51, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Gallade|Gallade, L80, M|240/240
+  move|p2a: Diancie|Diamond Storm|p1a: Gallade
+  -resisted|p1a: Gallade
+  -damage|p1a: Gallade|178/240
+  -boost|p2a: Diancie|def|2
+-- turn 12
+  WE CHOSE: attack leafblade - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Gallade|Leaf Blade|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|50/100
+  move|p2a: Diancie|Diamond Storm|p1a: Gallade
+  -resisted|p1a: Gallade
+  -damage|p1a: Gallade|107/240
+  -boost|p2a: Diancie|def|2
+  -heal|p2a: Diancie|57/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: switch to calyrex (hand policy: attack leafblade) - our hp 0.45, theirs 0.57, predicted move (revealed) hits us x0.5
+  switch|p1a: Calyrex|Calyrex, L93|337/337
+  -ability|p1a: Calyrex|Unnerve
+  move|p2a: Diancie|Diamond Storm|p1a: Calyrex
+  -damage|p1a: Calyrex|237/337
+  -boost|p2a: Diancie|def|2
+  -heal|p1a: Calyrex|258/337|[from] item: Leftovers
+  -heal|p2a: Diancie|63/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack+tera gigadrain - our hp 0.77, theirs 0.63, predicted move (revealed) hits us x1
+  -terastallize|p1a: Calyrex|Steel
+  move|p1a: Calyrex|Giga Drain|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|6/100
+  -heal|p1a: Calyrex|319/337|[from] drain|[of] p2a: Diancie
+  move|p2a: Diancie|Diamond Storm|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|266/337
+  -heal|p1a: Calyrex|287/337|[from] item: Leftovers
+  -heal|p2a: Diancie|12/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack gigadrain - our hp 0.85, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Calyrex|Giga Drain|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|0 fnt
+  -heal|p1a: Calyrex|300/337|[from] drain|[of] p2a: Diancie
+  faint|p2a: Diancie
+  -heal|p1a: Calyrex|321/337|[from] item: Leftovers
+  switch|p2a: Tsareena|Tsareena, L87, F|100/100
+-- turn 16
+  WE CHOSE: switch to gallade - our hp 0.95, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to mandibuzz - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Gallade|Gallade, L80, M|107/240
+  move|p2a: Tsareena|High Jump Kick|p1a: Gallade
+  -resisted|p1a: Gallade
+  -damage|p1a: Gallade|0 fnt
+  faint|p1a: Gallade
+  switch|p1a: Mandibuzz|Mandibuzz, L85, F|326/326
+-- turn 17
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Foul Play|p2a: Tsareena
+  -damage|p2a: Tsareena|57/100
+  move|p2a: Tsareena|High Jump Kick|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|165/326
+-- turn 18
+  WE CHOSE: attack foulplay - our hp 0.51, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Foul Play|p2a: Tsareena
+  -damage|p2a: Tsareena|12/100
+  move|p2a: Tsareena|High Jump Kick|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|4/326
+-- turn 19
+  WE CHOSE: heal roost - our hp 0.01, theirs 0.12, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to clawitzer - our hp 0.00, theirs 0.12, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+  -heal|p1a: Mandibuzz|167/326
+  -singleturn|p1a: Mandibuzz|move: Roost
+  move|p2a: Tsareena|High Jump Kick|p1a: Mandibuzz
+  -supereffective|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|0 fnt
+  faint|p1a: Mandibuzz
+  switch|p1a: Clawitzer|Clawitzer, L87, M|265/265
+-- turn 20
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to calyrex (hand policy: forced: switch to glalie) - our hp 0.37, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Tsareena|High Jump Kick|p1a: Clawitzer
+  -damage|p1a: Clawitzer|98/265
+  move|p1a: Clawitzer|U-turn|p2a: Tsareena
+  -supereffective|p2a: Tsareena
+  -damage|p2a: Tsareena|0 fnt
+  faint|p2a: Tsareena
+  switch|p1a: Calyrex|Calyrex, L93, tera:Steel|321/337|[from] U-turn
+  -ability|p1a: Calyrex|Unnerve
+  -heal|p1a: Calyrex|337/337|[from] item: Leftovers
+  switch|p2a: Lokix|Lokix, L82, M|100/100
+-- turn 21
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Calyrex|Body Press|p2a: Lokix
+  -damage|p2a: Lokix|72/100
+  move|p2a: Lokix|Leech Life|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|236/337
+  -heal|p2a: Lokix|93/100|[from] drain|[of] p1a: Calyrex
+  -damage|p2a: Lokix|83/100|[from] item: Life Orb
+  -heal|p1a: Calyrex|257/337|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack bodypress - our hp 0.76, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p1a: Calyrex|Body Press|p2a: Lokix
+  -damage|p2a: Lokix|55/100
+  move|p2a: Lokix|Leech Life|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|156/337
+  -heal|p2a: Lokix|75/100|[from] drain|[of] p1a: Calyrex
+  -damage|p2a: Lokix|65/100|[from] item: Life Orb
+  -heal|p1a: Calyrex|177/337|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack bodypress - our hp 0.53, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p1a: Calyrex|Body Press|p2a: Lokix
+  -damage|p2a: Lokix|39/100
+  move|p2a: Lokix|Leech Life|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|68/337
+  -heal|p2a: Lokix|61/100|[from] drain|[of] p1a: Calyrex
+  -damage|p2a: Lokix|51/100|[from] item: Life Orb
+  -heal|p1a: Calyrex|89/337|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack bodypress - our hp 0.26, theirs 0.51, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to glalie (hand policy: forced: switch to clawitzer) - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x0.5
+  move|p1a: Calyrex|Body Press|p2a: Lokix
+  -damage|p2a: Lokix|26/100
+  move|p2a: Lokix|Leech Life|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|0 fnt
+  -heal|p2a: Lokix|44/100|[from] drain|[of] p1a: Calyrex
+  faint|p1a: Calyrex
+  -damage|p2a: Lokix|34/100|[from] item: Life Orb
+  switch|p1a: Glalie|Glalie, L96, M|135/309
+-- turn 25
+  WE CHOSE: attack freezedry - our hp 0.44, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Glalie|Freeze-Dry|p2a: Lokix
+  -damage|p2a: Lokix|0 fnt
+  faint|p2a: Lokix
+  switch|p2a: Whimsicott|Whimsicott, L84, F|100/100
+-- turn 26
+  WE CHOSE: attack freezedry - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Glalie
+  -damage|p1a: Glalie|62/309
+  move|p1a: Glalie|Freeze-Dry|p2a: Whimsicott
+  -supereffective|p2a: Whimsicott
+  -damage|p2a: Whimsicott|22/100
+  -heal|p2a: Whimsicott|28/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack earthquake (hand policy: attack freezedry) - our hp 0.20, theirs 0.28, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to clawitzer - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Glalie
+  -damage|p1a: Glalie|0 fnt
+  faint|p1a: Glalie
+  -heal|p2a: Whimsicott|34/100|[from] item: Leftovers
+  switch|p1a: Clawitzer|Clawitzer, L87, M|98/265
+-- turn 28
+  WE CHOSE: attack waterpulse - our hp 0.37, theirs 0.34, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Clawitzer
+  -damage|p1a: Clawitzer|41/265
+  move|p1a: Clawitzer|Water Pulse|p2a: Whimsicott
+  -resisted|p2a: Whimsicott
+  -damage|p2a: Whimsicott|4/100
+  -heal|p2a: Whimsicott|10/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack uturn - our hp 0.15, theirs 0.10, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to umbreon - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Clawitzer
+  -damage|p1a: Clawitzer|0 fnt
+  faint|p1a: Clawitzer
+  -heal|p2a: Whimsicott|16/100|[from] item: Leftovers
+  switch|p1a: Umbreon|Umbreon, L84, F|152/297
+-- turn 30
+  WE CHOSE: attack foulplay - our hp 0.51, theirs 0.16, predicted move (revealed) hits us x2
+  move|p2a: Whimsicott|Moonblast|p1a: Umbreon
+  -supereffective|p1a: Umbreon
+  -damage|p1a: Umbreon|20/297
+  move|p1a: Umbreon|Foul Play|p2a: Whimsicott
+  -resisted|p2a: Whimsicott
+  -damage|p2a: Whimsicott|3/100
+  -heal|p2a: Whimsicott|9/100|[from] item: Leftovers
+  -heal|p1a: Umbreon|38/297|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack foulplay - our hp 0.13, theirs 0.09, predicted move (revealed) hits us x2
+  move|p2a: Whimsicott|Moonblast|p1a: Umbreon
+  -supereffective|p1a: Umbreon
+  -damage|p1a: Umbreon|0 fnt
+  faint|p1a: Umbreon

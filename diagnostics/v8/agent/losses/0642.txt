@@ -1,0 +1,172 @@
+battle 642 (battle-gen9randombattle-2025034): lost in 17 turns, 0 of theirs left; we are p1
+
+ours:
+  revavroom (fainted; item lifeorb, ability filter; moves ironhead/gunkshot/highhorsepower/shiftgear)
+  glalie (fainted; item heavydutyboots, ability innerfocus; moves earthquake/freezedry/taunt/spikes)
+  toedscruel (fainted; item assaultvest, ability myceliummight, tera water; moves knockoff/rapidspin/earthpower/gigadrain)
+  chandelure (fainted; item leftovers, ability flamebody; moves calmmind/fireblast/substitute/shadowball)
+  pawmot (fainted; item lifeorb, ability voltabsorb; moves doubleshock/closecombat/knockoff/revivalblessing)
+  phione (fainted; item leftovers, ability hydration; moves scald/takeheart/rest/sleeptalk)
+theirs (as seen):
+  cryogonal (fainted; item unknown_item, ability levitate; moves icebeam)
+  chimecho (fainted; item unknown_item, ability levitate; moves -)
+  basculin (fainted; item unknown_item, ability ?; moves wavecrash)
+  mienshao (fainted; item unknown_item, ability ?; moves highjumpkick)
+  leafeon (fainted; item lifeorb, ability ?; moves doubleedge)
+  serperior (fainted; item lifeorb, ability ?; moves leafstorm)
+
+-- turn 0
+  switch|p1a: Revavroom|Revavroom, L79, F|256/256
+  switch|p2a: Cryogonal|Cryogonal, L89|100/100
+-- turn 1
+  WE CHOSE: setup shiftgear - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Cryogonal|Ice Beam|p1a: Revavroom
+  -resisted|p1a: Revavroom
+  -damage|p1a: Revavroom|183/256
+  move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+  -boost|p1a: Revavroom|spe|2
+  -boost|p1a: Revavroom|atk|1
+-- turn 2
+  WE CHOSE: setup shiftgear - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+  -boost|p1a: Revavroom|spe|2
+  -boost|p1a: Revavroom|atk|1
+  move|p2a: Cryogonal|Ice Beam|p1a: Revavroom
+  -resisted|p1a: Revavroom
+  -damage|p1a: Revavroom|113/256
+-- turn 3
+  WE CHOSE: setup shiftgear (hand policy: attack ironhead) - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+  -boost|p1a: Revavroom|spe|2
+  -boost|p1a: Revavroom|atk|1
+  move|p2a: Cryogonal|Ice Beam|p1a: Revavroom
+  -resisted|p1a: Revavroom
+  -damage|p1a: Revavroom|47/256
+-- turn 4
+  WE CHOSE: attack ironhead - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Revavroom|Iron Head|p2a: Cryogonal
+  -supereffective|p2a: Cryogonal
+  -damage|p2a: Cryogonal|0 fnt
+  faint|p2a: Cryogonal
+  -damage|p1a: Revavroom|22/256|[from] item: Life Orb
+  switch|p2a: Chimecho|Chimecho, L93, F|100/100
+-- turn 5
+  WE CHOSE: attack gunkshot - our hp 0.09, theirs 1.00, predicted move (guessed) hits us x0.25
+  WE CHOSE: forced: switch to phione (hand policy: forced: switch to chandelure) - our hp 0.00, theirs 0.00, predicted move (guessed) hits us x0.25
+  move|p1a: Revavroom|Gunk Shot|p2a: Chimecho
+  -damage|p2a: Chimecho|0 fnt
+  faint|p2a: Chimecho
+  -damage|p1a: Revavroom|0 fnt|[from] item: Life Orb
+  faint|p1a: Revavroom
+  switch|p1a: Phione|Phione, L91|293/293
+  switch|p2a: Basculin|Basculin, L86, F|100/100
+-- turn 6
+  WE CHOSE: switch to chandelure - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to toedscruel (hand policy: forced: switch to pawmot) - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x2
+  switch|p1a: Chandelure|Chandelure, L83, F|235/235
+  move|p2a: Basculin|Wave Crash|p1a: Chandelure
+  -supereffective|p1a: Chandelure
+  -damage|p1a: Chandelure|0 fnt
+  faint|p1a: Chandelure
+  -damage|p2a: Basculin|71/100|[from] Recoil
+  switch|p1a: Toedscruel|Toedscruel, L87, F|281/281
+-- turn 7
+  WE CHOSE: attack+tera gigadrain - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  -terastallize|p1a: Toedscruel|Water
+  move|p1a: Toedscruel|Giga Drain|p2a: Basculin
+  -supereffective|p2a: Basculin
+  -damage|p2a: Basculin|0 fnt
+  faint|p2a: Basculin
+  switch|p2a: Mienshao|Mienshao, L83, M|100/100
+-- turn 8
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to pawmot - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Toedscruel|Earth Power|p2a: Mienshao
+  -damage|p2a: Mienshao|52/100
+  move|p2a: Mienshao|High Jump Kick|p1a: Toedscruel
+  -damage|p1a: Toedscruel|0 fnt
+  faint|p1a: Toedscruel
+  switch|p1a: Pawmot|Pawmot, L80, F|243/243
+-- turn 9
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Mienshao|High Jump Kick|p1a: Pawmot|[miss]
+  -miss|p2a: Mienshao|p1a: Pawmot
+  -damage|p2a: Mienshao|2/100|[from] highjumpkick
+  move|p1a: Pawmot|Close Combat|p2a: Mienshao
+  -damage|p2a: Mienshao|0 fnt
+  -unboost|p1a: Pawmot|def|1
+  -unboost|p1a: Pawmot|spd|1
+  faint|p2a: Mienshao
+  -damage|p1a: Pawmot|219/243|[from] item: Life Orb
+  switch|p2a: Leafeon|Leafeon, L88, F|100/100
+-- turn 10
+  WE CHOSE: switch to phione (hand policy: attack closecombat) - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Phione|Phione, L91|293/293
+  move|p2a: Leafeon|Double-Edge|p1a: Phione
+  -damage|p1a: Phione|157/293
+  -damage|p2a: Leafeon|83/100|[from] Recoil
+  -damage|p2a: Leafeon|73/100|[from] item: Life Orb
+  -heal|p1a: Phione|175/293|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: heal rest (hand policy: attack scald) - our hp 0.60, theirs 0.73, predicted move (revealed) hits us x1
+  move|p2a: Leafeon|Double-Edge|p1a: Phione
+  -damage|p1a: Phione|31/293
+  -damage|p2a: Leafeon|55/100|[from] Recoil
+  -damage|p2a: Leafeon|45/100|[from] item: Life Orb
+  move|p1a: Phione|Rest|p1a: Phione
+  -status|p1a: Phione|slp|[from] move: Rest
+  -heal|p1a: Phione|293/293 slp|[silent]
+-- turn 12
+  WE CHOSE: attack scald - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Leafeon|Double-Edge|p1a: Phione
+  -damage|p1a: Phione|162/293 slp
+  -damage|p2a: Leafeon|28/100|[from] Recoil
+  -damage|p2a: Leafeon|19/100|[from] item: Life Orb
+  cant|p1a: Phione|slp
+  -heal|p1a: Phione|180/293 slp|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal rest (hand policy: attack scald) - our hp 0.61, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Leafeon|Double-Edge|p1a: Phione
+  -damage|p1a: Phione|51/293 slp
+  -damage|p2a: Leafeon|2/100|[from] Recoil
+  -damage|p2a: Leafeon|0 fnt|[from] item: Life Orb
+  faint|p2a: Leafeon
+  cant|p1a: Phione|slp
+  -heal|p1a: Phione|69/293 slp|[from] item: Leftovers
+  switch|p2a: Serperior|Serperior, L79, M|100/100
+-- turn 14
+  WE CHOSE: heal rest (hand policy: attack scald) - our hp 0.24, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to glalie - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x2
+  move|p2a: Serperior|Leaf Storm|p1a: Phione
+  -supereffective|p1a: Phione
+  -damage|p1a: Phione|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Phione
+  -damage|p2a: Serperior|91/100|[from] item: Life Orb
+  switch|p1a: Glalie|Glalie, L96, M|309/309
+-- turn 15
+  WE CHOSE: attack freezedry - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Glalie
+  -damage|p1a: Glalie|48/309
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|81/100|[from] item: Life Orb
+  move|p1a: Glalie|Freeze-Dry|p2a: Serperior
+  -supereffective|p2a: Serperior
+  -damage|p2a: Serperior|16/100
+-- turn 16
+  WE CHOSE: attack freezedry - our hp 0.16, theirs 0.16, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pawmot - our hp 0.00, theirs 0.06, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Glalie
+  -damage|p1a: Glalie|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Glalie
+  -damage|p2a: Serperior|6/100|[from] item: Life Orb
+  switch|p1a: Pawmot|Pawmot, L80, F|219/243
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 0.90, theirs 0.06, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Pawmot
+  -damage|p1a: Pawmot|0 fnt
+  faint|p1a: Pawmot
+  -damage|p2a: Serperior|0 fnt|[from] item: Life Orb
+  faint|p2a: Serperior
+  deinit

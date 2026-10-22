@@ -1,0 +1,350 @@
+battle 1044 (battle-gen9randombattle-2029177): lost in 43 turns, 1 of theirs left; we are p1
+
+ours:
+  sableye (fainted; item leftovers, ability prankster, tera steel; moves knockoff/thunderwave/encore/recover)
+  decidueye (fainted; item heavydutyboots, ability overgrow; moves defog/spiritshackle/knockoff/leafstorm)
+  milotic (fainted; item leftovers, ability competitive; moves dragontail/recover/scald/icebeam)
+  cloyster (fainted; item whiteherb, ability skilllink; moves shellsmash/drillrun/rockblast/iciclespear)
+  chansey (fainted; item eviolite, ability naturalcure; moves softboiled/thunderwave/stealthrock/seismictoss)
+  hatterene (fainted; item assaultvest, ability magicbounce; moves drainingkiss/psychic/mysticalfire/nuzzle)
+theirs (as seen):
+  ninetales (fainted; item ?, ability ?; moves solarbeam)
+  scyther (fainted; item unknown_item, ability ?; moves closecombat)
+  sylveon (fainted; item leftovers, ability ?; moves hypervoice)
+  goodrahisui (fainted; item unknown_item, ability ?; moves dracometeor/hydropump)
+  dusknoir (fainted; item leftovers, ability frisk; moves poltergeist/earthquake)
+  flareon (18%; item unknown_item, ability ?; moves flareblitz)
+
+-- turn 0
+  switch|p1a: Sableye|Sableye, L88, F|231/231
+  switch|p2a: Ninetales|Ninetales, L85, F|100/100
+  -weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+-- turn 1
+  WE CHOSE: attack+tera knockoff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Sableye|Steel
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|184/231
+  move|p1a: Sableye|Knock Off|p2a: Ninetales
+  -damage|p2a: Ninetales|59/100
+  -enditem|p2a: Ninetales|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Sableye
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Sableye|198/231|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack knockoff - our hp 0.86, theirs 0.59, predicted move (revealed) hits us x0.5
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|153/231
+  move|p1a: Sableye|Knock Off|p2a: Ninetales
+  -damage|p2a: Ninetales|32/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Sableye|167/231|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack knockoff - our hp 0.72, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|122/231
+  move|p1a: Sableye|Knock Off|p2a: Ninetales
+  -damage|p2a: Ninetales|4/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Sableye|136/231|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: heal recover (hand policy: attack knockoff) - our hp 0.59, theirs 0.04, predicted move (revealed) hits us x0.5
+  move|p1a: Sableye|Recover|p1a: Sableye
+  -heal|p1a: Sableye|231/231
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|183/231
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Sableye|197/231|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack knockoff - our hp 0.85, theirs 0.04, predicted move (revealed) hits us x0.5
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Sableye
+  -resisted|p1a: Sableye
+  -damage|p1a: Sableye|154/231
+  move|p1a: Sableye|Knock Off|p2a: Ninetales
+  -damage|p2a: Ninetales|0 fnt
+  faint|p2a: Ninetales
+  -weather|none
+  -heal|p1a: Sableye|168/231|[from] item: Leftovers
+  switch|p2a: Scyther|Scyther, L82, M|100/100
+-- turn 6
+  WE CHOSE: switch to decidueye - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Decidueye|Decidueye, L88, M|281/281
+  move|p2a: Scyther|Close Combat|p1a: Decidueye
+  -immune|p1a: Decidueye
+-- turn 7
+  WE CHOSE: attack spiritshackle - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Scyther|Close Combat|p1a: Decidueye
+  -immune|p1a: Decidueye
+  move|p1a: Decidueye|Spirit Shackle|p2a: Scyther
+  -damage|p2a: Scyther|58/100
+  -activate|p2a: Scyther|trapped
+-- turn 8
+  WE CHOSE: attack spiritshackle - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x0
+  move|p2a: Scyther|Close Combat|p1a: Decidueye
+  -immune|p1a: Decidueye
+  move|p1a: Decidueye|Spirit Shackle|p2a: Scyther
+  -damage|p2a: Scyther|12/100
+-- turn 9
+  WE CHOSE: attack spiritshackle - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x0
+  move|p2a: Scyther|Close Combat|p1a: Decidueye
+  -immune|p1a: Decidueye
+  move|p1a: Decidueye|Spirit Shackle|p2a: Scyther
+  -damage|p2a: Scyther|0 fnt
+  faint|p2a: Scyther
+  switch|p2a: Sylveon|Sylveon, L85, M|100/100
+-- turn 10
+  WE CHOSE: attack spiritshackle - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Decidueye|Spirit Shackle|p2a: Sylveon
+  -damage|p2a: Sylveon|59/100
+  -activate|p2a: Sylveon|trapped
+  move|p2a: Sylveon|Hyper Voice|p1a: Decidueye
+  -damage|p1a: Decidueye|167/281
+  -heal|p2a: Sylveon|65/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack spiritshackle - our hp 0.59, theirs 0.65, predicted move (revealed) hits us x0
+  move|p1a: Decidueye|Spirit Shackle|p2a: Sylveon
+  -damage|p2a: Sylveon|25/100
+  move|p2a: Sylveon|Hyper Voice|p1a: Decidueye
+  -damage|p1a: Decidueye|55/281
+  -heal|p2a: Sylveon|31/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack leafstorm - our hp 0.20, theirs 0.31, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to chansey (hand policy: forced: switch to hatterene) - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x0
+  move|p1a: Decidueye|Leaf Storm|p2a: Sylveon|[miss]
+  -miss|p1a: Decidueye|p2a: Sylveon
+  move|p2a: Sylveon|Hyper Voice|p1a: Decidueye
+  -damage|p1a: Decidueye|0 fnt
+  faint|p1a: Decidueye
+  -heal|p2a: Sylveon|37/100|[from] item: Leftovers
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+-- turn 13
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p2a: Sylveon|Hyper Voice|p1a: Chansey
+  -damage|p1a: Chansey|486/564
+  move|p1a: Chansey|Seismic Toss|p2a: Sylveon
+  -damage|p2a: Sylveon|9/100
+  -heal|p2a: Sylveon|15/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack seismictoss - our hp 0.86, theirs 0.15, predicted move (revealed) hits us x1
+  move|p2a: Sylveon|Hyper Voice|p1a: Chansey
+  -damage|p1a: Chansey|413/564
+  move|p1a: Chansey|Seismic Toss|p2a: Sylveon
+  -damage|p2a: Sylveon|0 fnt
+  faint|p2a: Sylveon
+  switch|p2a: Goodra|Goodra-Hisui, L82, M|100/100
+-- turn 15
+  WE CHOSE: switch to hatterene - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Hatterene|Hatterene, L85, F|236/236
+  move|p2a: Goodra|Draco Meteor|p1a: Hatterene
+  -immune|p1a: Hatterene
+-- turn 16
+  WE CHOSE: attack drainingkiss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Goodra|Draco Meteor|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Draining Kiss|p2a: Goodra
+  -damage|p2a: Goodra|88/100
+-- turn 17
+  WE CHOSE: attack drainingkiss - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x0
+  move|p2a: Goodra|Draco Meteor|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Draining Kiss|p2a: Goodra
+  -damage|p2a: Goodra|76/100
+-- turn 18
+  WE CHOSE: attack drainingkiss - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x0
+  move|p2a: Goodra|Draco Meteor|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Draining Kiss|p2a: Goodra
+  -damage|p2a: Goodra|63/100
+-- turn 19
+  WE CHOSE: attack drainingkiss - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x0
+  move|p2a: Goodra|Draco Meteor|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Draining Kiss|p2a: Goodra
+  -damage|p2a: Goodra|51/100
+-- turn 20
+  WE CHOSE: attack drainingkiss - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x0
+  move|p2a: Goodra|Draco Meteor|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Draining Kiss|p2a: Goodra
+  -damage|p2a: Goodra|39/100
+-- turn 21
+  WE CHOSE: attack drainingkiss - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x0
+  move|p2a: Goodra|Draco Meteor|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Draining Kiss|p2a: Goodra
+  -damage|p2a: Goodra|25/100
+-- turn 22
+  WE CHOSE: attack drainingkiss - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x0
+  move|p2a: Goodra|Draco Meteor|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Draining Kiss|p2a: Goodra
+  -damage|p2a: Goodra|13/100
+-- turn 23
+  WE CHOSE: attack drainingkiss - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0
+  move|p2a: Goodra|Hydro Pump|p1a: Hatterene
+  -damage|p1a: Hatterene|190/236
+  move|p1a: Hatterene|Draining Kiss|p2a: Goodra
+  -damage|p2a: Goodra|1/100
+  -heal|p1a: Hatterene|213/236|[from] drain|[of] p2a: Goodra
+-- turn 24
+  WE CHOSE: attack drainingkiss - our hp 0.90, theirs 0.01, predicted move (revealed) hits us x0
+  move|p2a: Goodra|Hydro Pump|p1a: Hatterene
+  -damage|p1a: Hatterene|167/236
+  move|p1a: Hatterene|Draining Kiss|p2a: Goodra
+  -damage|p2a: Goodra|0 fnt
+  -heal|p1a: Hatterene|169/236|[from] drain|[of] p2a: Goodra
+  faint|p2a: Goodra
+  switch|p2a: Dusknoir|Dusknoir, L89, M|100/100
+  -item|p1a: Hatterene|Assault Vest|[from] ability: Frisk|[of] p2a: Dusknoir
+-- turn 25
+  WE CHOSE: attack psychic - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x0.25
+  WE CHOSE: forced: switch to chansey (hand policy: forced: switch to sableye) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Dusknoir|Poltergeist|p1a: Hatterene
+  -activate|p1a: Hatterene|move: Poltergeist|Assault Vest
+  -supereffective|p1a: Hatterene
+  -damage|p1a: Hatterene|0 fnt
+  faint|p1a: Hatterene
+  switch|p1a: Chansey|Chansey, L85, F|413/564
+-- turn 26
+  WE CHOSE: heal softboiled - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|564/564
+  move|p2a: Dusknoir|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 27
+  WE CHOSE: switch to sableye (hand policy: heal softboiled) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Sableye|Sableye, L88, F, tera:Steel|168/231
+  move|p2a: Dusknoir|Poltergeist|p1a: Sableye
+  -activate|p1a: Sableye|move: Poltergeist|Leftovers
+  -damage|p1a: Sableye|35/231
+  -heal|p1a: Sableye|49/231|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: switch to chansey - our hp 0.21, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Dusknoir|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 29
+  WE CHOSE: switch to sableye (hand policy: heal softboiled) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to chansey - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Sableye|Sableye, L88, F, tera:Steel|49/231
+  move|p2a: Dusknoir|Poltergeist|p1a: Sableye
+  -activate|p1a: Sableye|move: Poltergeist|Leftovers
+  -damage|p1a: Sableye|0 fnt
+  faint|p1a: Sableye
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+-- turn 30
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+  move|p2a: Dusknoir|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 31
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+  move|p2a: Dusknoir|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 32
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+  move|p2a: Dusknoir|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 33
+  WE CHOSE: heal softboiled - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Chansey|Soft-Boiled||[still]
+  -fail|p1a: Chansey|heal
+  move|p2a: Dusknoir|Earthquake|p1a: Chansey
+  -damage|p1a: Chansey|378/564
+-- turn 34
+  WE CHOSE: switch to milotic (hand policy: heal softboiled) - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Milotic|Milotic, L83, F|293/293
+  move|p2a: Dusknoir|Earthquake|p1a: Milotic
+  -damage|p1a: Milotic|200/293
+  -heal|p1a: Milotic|218/293|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: switch to chansey - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|378/564
+  move|p2a: Dusknoir|Earthquake|p1a: Chansey
+  -damage|p1a: Chansey|192/564
+-- turn 36
+  WE CHOSE: switch to milotic (hand policy: heal softboiled) - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Milotic|Milotic, L83, F|218/293
+  move|p2a: Dusknoir|Earthquake|p1a: Milotic
+  -damage|p1a: Milotic|132/293
+  -heal|p1a: Milotic|150/293|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: switch to chansey - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to milotic - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Chansey|Chansey, L85, F|192/564
+  move|p2a: Dusknoir|Earthquake|p1a: Chansey
+  -damage|p1a: Chansey|0 fnt
+  faint|p1a: Chansey
+  switch|p1a: Milotic|Milotic, L83, F|150/293
+-- turn 38
+  WE CHOSE: attack scald - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Milotic|Scald|p2a: Dusknoir
+  -damage|p2a: Dusknoir|76/100
+  move|p2a: Dusknoir|Earthquake|p1a: Milotic
+  -damage|p1a: Milotic|65/293
+  -heal|p1a: Milotic|83/293|[from] item: Leftovers
+  -heal|p2a: Dusknoir|83/100|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack scald (hand policy: heal recover) - our hp 0.28, theirs 0.83, predicted move (revealed) hits us x1
+  move|p1a: Milotic|Scald|p2a: Dusknoir
+  -damage|p2a: Dusknoir|56/100
+  -status|p2a: Dusknoir|brn
+  move|p2a: Dusknoir|Earthquake|p1a: Milotic
+  -damage|p1a: Milotic|36/293
+  -heal|p1a: Milotic|54/293|[from] item: Leftovers
+  -heal|p2a: Dusknoir|62/100 brn|[from] item: Leftovers
+  -damage|p2a: Dusknoir|56/100 brn|[from] brn
+-- turn 40
+  WE CHOSE: attack scald (hand policy: heal recover) - our hp 0.18, theirs 0.56, predicted move (revealed) hits us x1
+  move|p1a: Milotic|Scald|p2a: Dusknoir
+  -damage|p2a: Dusknoir|28/100 brn
+  move|p2a: Dusknoir|Earthquake|p1a: Milotic
+  -damage|p1a: Milotic|7/293
+  -heal|p1a: Milotic|25/293|[from] item: Leftovers
+  -heal|p2a: Dusknoir|34/100 brn|[from] item: Leftovers
+  -damage|p2a: Dusknoir|28/100 brn|[from] brn
+-- turn 41
+  WE CHOSE: attack scald (hand policy: heal recover) - our hp 0.09, theirs 0.28, predicted move (revealed) hits us x1
+  move|p1a: Milotic|Scald|p2a: Dusknoir
+  -damage|p2a: Dusknoir|0 fnt
+  faint|p2a: Dusknoir
+  -heal|p1a: Milotic|43/293|[from] item: Leftovers
+  switch|p2a: Flareon|Flareon, L90, M|100/100
+-- turn 42
+  WE CHOSE: attack scald (hand policy: heal recover) - our hp 0.15, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to cloyster - our hp 0.00, theirs 0.44, predicted move (revealed) hits us x0.5
+  move|p1a: Milotic|Scald|p2a: Flareon
+  -supereffective|p2a: Flareon
+  -damage|p2a: Flareon|50/100
+  move|p2a: Flareon|Flare Blitz|p1a: Milotic
+  -resisted|p1a: Milotic
+  -damage|p1a: Milotic|0 fnt
+  faint|p1a: Milotic
+  -damage|p2a: Flareon|44/100|[from] Recoil
+  -status|p2a: Flareon|tox|[from] item: Toxic Orb
+  switch|p1a: Cloyster|Cloyster, L80, F|211/211
+-- turn 43
+  WE CHOSE: attack drillrun - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x1
+  move|p2a: Flareon|Flare Blitz|p1a: Cloyster
+  -crit|p1a: Cloyster
+  -damage|p1a: Cloyster|0 fnt
+  faint|p1a: Cloyster
+  -damage|p2a: Flareon|18/100 tox|[from] Recoil
+  deinit

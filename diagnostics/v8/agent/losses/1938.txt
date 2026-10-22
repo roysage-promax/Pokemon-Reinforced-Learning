@@ -1,0 +1,246 @@
+battle 1938 (battle-gen9randombattle-2038346): lost in 26 turns, 0 of theirs left; we are p1
+
+ours:
+  uxie (fainted; item leftovers, ability levitate; moves knockoff/psychicnoise/stealthrock/thunderwave)
+  dusknoir (fainted; item leftovers, ability frisk, tera fighting; moves painsplit/substitute/focuspunch/poltergeist)
+  noctowl (fainted; item heavydutyboots, ability tintedlens; moves hypervoice/calmmind/roost/hurricane)
+  goodrahisui (fainted; item ?, ability sapsipper; moves thunderbolt/earthquake/dracometeor/heavyslam)
+  pachirisu (fainted; item assaultvest, ability voltabsorb; moves nuzzle/uturn/thunderbolt/superfang)
+  gliscor (fainted; item toxicorb, ability poisonheal; moves toxic/earthquake/substitute/protect)
+theirs (as seen):
+  munkidori (fainted; item assaultvest, ability ?; moves sludgewave)
+  sableye (fainted; item leftovers, ability ?; moves knockoff)
+  latias (fainted; item souldew, ability levitate; moves dracometeor)
+  cryogonal (fainted; item unknown_item, ability levitate; moves icebeam)
+  dodrio (fainted; item unknown_item, ability ?; moves bravebird)
+  honchkrow (fainted; item ?, ability moxie; moves bravebird)
+
+-- turn 0
+  switch|p1a: Uxie|Uxie, L83|260/260
+  switch|p2a: Munkidori|Munkidori, L79, M|100/100
+-- turn 1
+  WE CHOSE: switch to dusknoir (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Dusknoir|Dusknoir, L89, F|225/225
+  -item|p2a: Munkidori|Assault Vest|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Munkidori|Sludge Wave|p1a: Dusknoir
+  -resisted|p1a: Dusknoir
+  -damage|p1a: Dusknoir|186/225
+  -heal|p1a: Dusknoir|200/225|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to gliscor (hand policy: attack poltergeist) - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Gliscor|Gliscor, L76, F|239/239
+  move|p2a: Munkidori|Sludge Wave|p1a: Gliscor
+  -resisted|p1a: Gliscor
+  -damage|p1a: Gliscor|167/239
+  -status|p1a: Gliscor|tox|[from] item: Toxic Orb
+-- turn 3
+  WE CHOSE: switch to dusknoir (hand policy: attack earthquake) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Dusknoir|Dusknoir, L89, F|200/225
+  -item|p2a: Munkidori|Assault Vest|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Munkidori|Sludge Wave|p1a: Dusknoir
+  -resisted|p1a: Dusknoir
+  -damage|p1a: Dusknoir|161/225
+  -status|p1a: Dusknoir|tox|[from] ability: Toxic Chain|[of] p2a: Munkidori
+  -heal|p1a: Dusknoir|175/225 tox|[from] item: Leftovers
+  -damage|p1a: Dusknoir|161/225 tox|[from] psn
+-- turn 4
+  WE CHOSE: switch to goodrahisui (hand policy: attack poltergeist) - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Goodra|Goodra-Hisui, L82, M|265/265
+  move|p2a: Munkidori|Sludge Wave|p1a: Goodra
+  -immune|p1a: Goodra
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Munkidori|Sludge Wave|p1a: Goodra
+  -immune|p1a: Goodra
+  move|p1a: Goodra|Earthquake|p2a: Munkidori
+  -supereffective|p2a: Munkidori
+  -damage|p2a: Munkidori|31/100
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x0
+  move|p2a: Munkidori|Sludge Wave|p1a: Goodra
+  -immune|p1a: Goodra
+  move|p1a: Goodra|Earthquake|p2a: Munkidori
+  -supereffective|p2a: Munkidori
+  -damage|p2a: Munkidori|0 fnt
+  faint|p2a: Munkidori
+  switch|p2a: Sableye|Sableye, L88, F|100/100
+-- turn 7
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Goodra|Draco Meteor|p2a: Sableye
+  -damage|p2a: Sableye|32/100
+  -unboost|p1a: Goodra|spa|2
+  move|p2a: Sableye|Knock Off|p1a: Goodra
+  -damage|p1a: Goodra|177/265
+  -enditem|p1a: Goodra|Assault Vest|[from] move: Knock Off|[of] p2a: Sableye
+  -heal|p2a: Sableye|38/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack dracometeor (hand policy: attack+tera dracometeor) - our hp 0.67, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Goodra|Draco Meteor|p2a: Sableye
+  -damage|p2a: Sableye|1/100
+  -unboost|p1a: Goodra|spa|2
+  move|p2a: Sableye|Knock Off|p1a: Goodra
+  -damage|p1a: Goodra|119/265
+  -heal|p2a: Sableye|7/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack heavyslam (hand policy: attack+tera earthquake) - our hp 0.45, theirs 0.07, predicted move (revealed) hits us x1
+  move|p1a: Goodra|Heavy Slam|p2a: Sableye
+  -damage|p2a: Sableye|0 fnt
+  faint|p2a: Sableye
+  switch|p2a: Latias|Latias, L79, F|100/100
+-- turn 10
+  WE CHOSE: switch to dusknoir (hand policy: attack dracometeor) - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, F|161/225 tox
+  -item|p2a: Latias|Soul Dew|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Latias|Draco Meteor|p1a: Dusknoir|[miss]
+  -miss|p2a: Latias|p1a: Dusknoir
+  -heal|p1a: Dusknoir|175/225 tox|[from] item: Leftovers
+  -damage|p1a: Dusknoir|161/225 tox|[from] psn
+-- turn 11
+  WE CHOSE: attack+tera poltergeist (hand policy: attack poltergeist) - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Dusknoir|Fighting
+  move|p2a: Latias|Draco Meteor|p1a: Dusknoir
+  -damage|p1a: Dusknoir|61/225 tox
+  -unboost|p2a: Latias|spa|2
+  move|p1a: Dusknoir|Poltergeist|p2a: Latias
+  -activate|p2a: Latias|move: Poltergeist|Soul Dew
+  -supereffective|p2a: Latias
+  -damage|p2a: Latias|0 fnt
+  faint|p2a: Latias
+  -heal|p1a: Dusknoir|75/225 tox|[from] item: Leftovers
+  -damage|p1a: Dusknoir|47/225 tox|[from] psn
+  switch|p2a: Cryogonal|Cryogonal, L89|100/100
+-- turn 12
+  WE CHOSE: attack focuspunch - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to pachirisu (hand policy: forced: switch to goodrahisui) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  -singleturn|p1a: Dusknoir|move: Focus Punch
+  move|p2a: Cryogonal|Ice Beam|p1a: Dusknoir
+  -damage|p1a: Dusknoir|0 fnt
+  faint|p1a: Dusknoir
+  switch|p1a: Pachirisu|Pachirisu, L96, F|271/271
+-- turn 13
+  WE CHOSE: attack thunderbolt (hand policy: attack superfang) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cryogonal|Ice Beam|p1a: Pachirisu
+  -damage|p1a: Pachirisu|211/271
+  move|p1a: Pachirisu|Thunderbolt|p2a: Cryogonal
+  -damage|p2a: Cryogonal|85/100
+-- turn 14
+  WE CHOSE: attack thunderbolt (hand policy: attack superfang) - our hp 0.78, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Cryogonal|Ice Beam|p1a: Pachirisu
+  -damage|p1a: Pachirisu|151/271
+  move|p1a: Pachirisu|Thunderbolt|p2a: Cryogonal
+  -damage|p2a: Cryogonal|66/100
+-- turn 15
+  WE CHOSE: attack thunderbolt (hand policy: attack superfang) - our hp 0.56, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Cryogonal|Ice Beam|p1a: Pachirisu
+  -damage|p1a: Pachirisu|90/271
+  move|p1a: Pachirisu|Thunderbolt|p2a: Cryogonal
+  -damage|p2a: Cryogonal|48/100
+-- turn 16
+  WE CHOSE: attack uturn (hand policy: attack superfang) - our hp 0.33, theirs 0.48, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to goodrahisui - our hp 0.10, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Cryogonal|Ice Beam|p1a: Pachirisu
+  -damage|p1a: Pachirisu|26/271
+  move|p1a: Pachirisu|U-turn|p2a: Cryogonal
+  -damage|p2a: Cryogonal|30/100
+  switch|p1a: Goodra|Goodra-Hisui, L82, M|119/265|[from] U-turn
+-- turn 17
+  WE CHOSE: attack dracometeor - our hp 0.45, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Cryogonal|Ice Beam|p1a: Goodra
+  -damage|p1a: Goodra|47/265
+  move|p1a: Goodra|Draco Meteor|p2a: Cryogonal
+  -damage|p2a: Cryogonal|0 fnt
+  -unboost|p1a: Goodra|spa|2
+  faint|p2a: Cryogonal
+  switch|p2a: Dodrio|Dodrio, L85, F|100/100
+-- turn 18
+  WE CHOSE: attack dracometeor (hand policy: attack thunderbolt) - our hp 0.18, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to pachirisu - our hp 0.00, theirs 0.94, predicted move (revealed) hits us x0.5
+  move|p2a: Dodrio|Brave Bird|p1a: Goodra
+  -resisted|p1a: Goodra
+  -damage|p1a: Goodra|0 fnt
+  faint|p1a: Goodra
+  -damage|p2a: Dodrio|94/100|[from] Recoil
+  switch|p1a: Pachirisu|Pachirisu, L96, F|26/271
+-- turn 19
+  WE CHOSE: attack thunderbolt - our hp 0.10, theirs 0.94, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to uxie (hand policy: forced: switch to noctowl) - our hp 0.00, theirs 0.05, predicted move (revealed) hits us x0.5
+  move|p1a: Pachirisu|Thunderbolt|p2a: Dodrio
+  -supereffective|p2a: Dodrio
+  -damage|p2a: Dodrio|9/100
+  move|p2a: Dodrio|Brave Bird|p1a: Pachirisu
+  -resisted|p1a: Pachirisu
+  -crit|p1a: Pachirisu
+  -damage|p1a: Pachirisu|0 fnt
+  faint|p1a: Pachirisu
+  -damage|p2a: Dodrio|5/100|[from] Recoil
+  switch|p1a: Uxie|Uxie, L83|260/260
+-- turn 20
+  WE CHOSE: attack psychicnoise - our hp 1.00, theirs 0.05, predicted move (revealed) hits us x1
+  move|p2a: Dodrio|Brave Bird|p1a: Uxie
+  -damage|p1a: Uxie|148/260
+  -damage|p2a: Dodrio|0 fnt|[from] Recoil
+  faint|p2a: Dodrio
+  move|p1a: Uxie|Psychic Noise|p2: Dodrio|[notarget]
+  -fail|p1a: Uxie
+  -heal|p1a: Uxie|164/260|[from] item: Leftovers
+  switch|p2a: Honchkrow|Honchkrow, L86, M|100/100
+-- turn 21
+  WE CHOSE: attack knockoff - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Uxie|Knock Off|p2a: Honchkrow
+  -resisted|p2a: Honchkrow
+  -damage|p2a: Honchkrow|88/100
+  -enditem|p2a: Honchkrow|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Uxie
+  move|p2a: Honchkrow|Brave Bird|p1a: Uxie
+  -damage|p1a: Uxie|52/260
+  -damage|p2a: Honchkrow|76/100|[from] Recoil
+  -heal|p1a: Uxie|68/260|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack knockoff - our hp 0.26, theirs 0.76, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to noctowl - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Uxie|Knock Off|p2a: Honchkrow
+  -resisted|p2a: Honchkrow
+  -damage|p2a: Honchkrow|68/100
+  move|p2a: Honchkrow|Brave Bird|p1a: Uxie
+  -damage|p1a: Uxie|0 fnt
+  faint|p1a: Uxie
+  -ability|p2a: Honchkrow|Moxie|boost
+  -boost|p2a: Honchkrow|atk|1
+  -damage|p2a: Honchkrow|61/100|[from] Recoil
+  switch|p1a: Noctowl|Noctowl, L95, M|344/344
+-- turn 23
+  WE CHOSE: heal roost (hand policy: attack hypervoice) - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Noctowl|Roost||[still]
+  -fail|p1a: Noctowl|heal
+  move|p2a: Honchkrow|Brave Bird|p1a: Noctowl
+  -damage|p1a: Noctowl|5/344
+  -damage|p2a: Honchkrow|25/100|[from] Recoil
+-- turn 24
+  WE CHOSE: heal roost - our hp 0.01, theirs 0.25, predicted move (revealed) hits us x1
+  WE CHOSE: forced: attack hypervoice (hand policy: forced: switch to gliscor) - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x1
+  move|p1a: Noctowl|Roost|p1a: Noctowl
+  -heal|p1a: Noctowl|177/344
+  -singleturn|p1a: Noctowl|move: Roost
+  move|p2a: Honchkrow|Brave Bird|p1a: Noctowl
+  -damage|p1a: Noctowl|0 fnt
+  faint|p1a: Noctowl
+  -ability|p2a: Honchkrow|Moxie|boost
+  -boost|p2a: Honchkrow|atk|1
+  -damage|p2a: Honchkrow|7/100|[from] Recoil
+  switch|p1a: Gliscor|Gliscor, L76, F|167/239 tox
+-- turn 25
+  WE CHOSE: attack protect - our hp 0.70, theirs 0.07, predicted move (revealed) hits us x1
+  move|p1a: Gliscor|Protect|p1a: Gliscor
+  -singleturn|p1a: Gliscor|Protect
+  move|p2a: Honchkrow|Brave Bird|p1a: Gliscor
+  -activate|p1a: Gliscor|move: Protect
+  -heal|p1a: Gliscor|196/239 tox|[from] ability: Poison Heal
+-- turn 26
+  WE CHOSE: attack protect - our hp 0.82, theirs 0.07, predicted move (revealed) hits us x1
+  move|p1a: Gliscor|Protect||[still]
+  -fail|p1a: Gliscor
+  move|p2a: Honchkrow|Brave Bird|p1a: Gliscor
+  -damage|p1a: Gliscor|0 fnt
+  faint|p1a: Gliscor
+  -damage|p2a: Honchkrow|0 fnt|[from] Recoil
+  faint|p2a: Honchkrow
+  deinit

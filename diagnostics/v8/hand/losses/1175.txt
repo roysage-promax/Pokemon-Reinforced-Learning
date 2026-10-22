@@ -1,0 +1,156 @@
+battle 1175 (battle-gen9randombattle-2029453): lost in 14 turns, 2 of theirs left; we are p1
+
+ours:
+  sceptile (fainted; item lifeorb, ability overgrow; moves earthquake/focusblast/leafstorm/rockslide)
+  braviaryhisui (fainted; item lifeorb, ability sheerforce, tera steel; moves heatwave/agility/psychic/hurricane)
+  taurospaldeacombat (fainted; item choiceband, ability intimidate; moves earthquake/closecombat/ironhead/throatchop)
+  cacturne (fainted; item lifeorb, ability waterabsorb; moves swordsdance/seedbomb/suckerpunch/knockoff)
+  baxcalibur (fainted; item loadeddice, ability thermalexchange; moves scaleshot/iciclespear/swordsdance/earthquake)
+  mew (fainted; item lifeorb, ability synchronize; moves fireblast/earthpower/psyshock/nastyplot)
+theirs (as seen):
+  spidops (fainted; item unknown_item, ability ?; moves uturn)
+  mightyena (fainted; item leftovers, ability intimidate; moves playrough)
+  kilowattrel (fainted; item unknown_item, ability ?; moves hurricane)
+  veluza (0%; item unknown_item, ability ?; moves focusblast)
+  zoroark (fainted; item unknown_item, ability illusion; moves focusblast)
+  passimian (100%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Sceptile|Sceptile, L87, M|264/264
+  switch|p2a: Spidops|Spidops, L96, M|100/100
+-- turn 1
+  WE CHOSE: switch to taurospaldeacombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Tauros|Tauros-Paldea-Combat, L82, M|257/257
+  -ability|p1a: Tauros|Intimidate|boost
+  -unboost|p2a: Spidops|atk|1
+  move|p2a: Spidops|U-turn|p1a: Tauros
+  -resisted|p1a: Tauros
+  -damage|p1a: Tauros|206/257
+  switch|p2a: Mightyena|Mightyena, L96, F|100/100|[from] U-turn
+  -ability|p2a: Mightyena|Intimidate|boost
+  -unboost|p1a: Tauros|atk|1
+-- turn 2
+  WE CHOSE: attack closecombat - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to sceptile - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x2
+  move|p1a: Tauros|Close Combat|p2a: Mightyena
+  -supereffective|p2a: Mightyena
+  -damage|p2a: Mightyena|7/100
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  move|p2a: Mightyena|Play Rough|p1a: Tauros
+  -supereffective|p1a: Tauros
+  -damage|p1a: Tauros|0 fnt
+  faint|p1a: Tauros
+  -heal|p2a: Mightyena|13/100|[from] item: Leftovers
+  switch|p1a: Sceptile|Sceptile, L87, M|264/264
+-- turn 3
+  WE CHOSE: attack leafstorm - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Sceptile|Leaf Storm|p2a: Mightyena
+  -damage|p2a: Mightyena|0 fnt
+  -unboost|p1a: Sceptile|spa|2
+  faint|p2a: Mightyena
+  -damage|p1a: Sceptile|238/264|[from] item: Life Orb
+  switch|p2a: Spidops|Spidops, L96, M|100/100
+-- turn 4
+  WE CHOSE: attack rockslide - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Sceptile|Rock Slide|p2a: Spidops
+  -supereffective|p2a: Spidops
+  -damage|p2a: Spidops|56/100
+  -damage|p1a: Sceptile|212/264|[from] item: Life Orb
+  move|p2a: Spidops|U-turn|p1a: Sceptile
+  -supereffective|p1a: Sceptile
+  -damage|p1a: Sceptile|20/264
+  switch|p2a: Kilowattrel|Kilowattrel, L83, M|100/100|[from] U-turn
+-- turn 5
+  WE CHOSE: attack rockslide - our hp 0.08, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to braviaryhisui - our hp 0.00, theirs 0.32, predicted move (guessed) hits us x2
+  move|p1a: Sceptile|Rock Slide|p2a: Kilowattrel
+  -supereffective|p2a: Kilowattrel
+  -damage|p2a: Kilowattrel|32/100
+  -damage|p1a: Sceptile|0 fnt|[from] item: Life Orb
+  faint|p1a: Sceptile
+  cant|p2a: Kilowattrel|flinch
+  switch|p1a: Braviary|Braviary-Hisui, L85, M|326/326
+-- turn 6
+  WE CHOSE: attack+tera psychic - our hp 1.00, theirs 0.32, predicted move (guessed) hits us x1
+  -terastallize|p1a: Braviary|Steel
+  move|p2a: Kilowattrel|Hurricane|p1a: Braviary
+  -resisted|p1a: Braviary
+  -damage|p1a: Braviary|258/326
+  move|p1a: Braviary|Psychic|p2a: Kilowattrel
+  -damage|p2a: Kilowattrel|0 fnt
+  faint|p2a: Kilowattrel
+  switch|p2a: Spidops|Spidops, L96, M|56/100
+-- turn 7
+  WE CHOSE: attack hurricane - our hp 0.79, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p1a: Braviary|Hurricane|p2a: Spidops
+  -supereffective|p2a: Spidops
+  -damage|p2a: Spidops|0 fnt
+  faint|p2a: Spidops
+  switch|p2a: Veluza|Veluza, L85, M|100/100
+-- turn 8
+  WE CHOSE: switch to cacturne - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to mew - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Cacturne|Cacturne, L92, M|278/278
+  move|p2a: Veluza|Focus Blast|p1a: Cacturne
+  -supereffective|p1a: Cacturne
+  -damage|p1a: Cacturne|0 fnt
+  faint|p1a: Cacturne
+  switch|p1a: Mew|Mew, L82|298/298
+-- turn 9
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Veluza|Focus Blast|p1a: Mew
+  -resisted|p1a: Mew
+  -damage|p1a: Mew|231/298
+  move|p1a: Mew|Nasty Plot|p1a: Mew
+  -boost|p1a: Mew|spa|2
+-- turn 10
+  WE CHOSE: attack earthpower - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Veluza|Focus Blast|p1a: Mew
+  -resisted|p1a: Mew
+  -damage|p1a: Mew|158/298
+  -unboost|p1a: Mew|spd|1
+  move|p1a: Mew|Earth Power|p2a: Veluza
+  -damage|p2a: Veluza|14/100
+  replace|p2a: Zoroark|Zoroark, L83, F
+  -end|p2a: Zoroark|Illusion
+  -damage|p1a: Mew|129/298|[from] item: Life Orb
+-- turn 11
+  WE CHOSE: attack fireblast - our hp 0.43, theirs 0.14, predicted move (guessed) hits us x0.5
+  move|p2a: Zoroark|Focus Blast|p1a: Mew
+  -resisted|p1a: Mew
+  -damage|p1a: Mew|33/298
+  move|p1a: Mew|Fire Blast|p2a: Zoroark
+  -damage|p2a: Zoroark|0 fnt
+  faint|p2a: Zoroark
+  -damage|p1a: Mew|4/298|[from] item: Life Orb
+  switch|p2a: Passimian|Passimian, L83, F|100/100
+-- turn 12
+  WE CHOSE: attack psyshock - our hp 0.01, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to braviaryhisui - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Close Combat|p1a: Mew
+  -resisted|p1a: Mew
+  -damage|p1a: Mew|0 fnt
+  -unboost|p2a: Passimian|def|1
+  -unboost|p2a: Passimian|spd|1
+  faint|p1a: Mew
+  switch|p1a: Braviary|Braviary-Hisui, L85, M, tera:Steel|258/326
+-- turn 13
+  WE CHOSE: attack psychic - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to baxcalibur - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Passimian|Close Combat|p1a: Braviary
+  -supereffective|p1a: Braviary
+  -damage|p1a: Braviary|0 fnt
+  -unboost|p2a: Passimian|def|1
+  -unboost|p2a: Passimian|spd|1
+  faint|p1a: Braviary
+  switch|p1a: Baxcalibur|Baxcalibur, L75, M|295/295
+-- turn 14
+  WE CHOSE: attack iciclespear - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Passimian|Close Combat|p1a: Baxcalibur
+  -supereffective|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|0 fnt
+  -unboost|p2a: Passimian|def|1
+  -unboost|p2a: Passimian|spd|1
+  faint|p1a: Baxcalibur
+  deinit

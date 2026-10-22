@@ -1,0 +1,407 @@
+battle 2455 (battle-gen9randombattle-2043646): lost in 48 turns, 2 of theirs left; we are p1
+
+ours:
+  gumshoos (fainted; item choiceband, ability stakeout; moves knockoff/uturn/doubleedge/earthquake)
+  meowscarada (fainted; item choiceband, ability protean; moves tripleaxel/uturn/flowertrick/knockoff)
+  magearna (fainted; item leftovers, ability soulheart; moves shiftgear/fleurcannon/flashcannon/calmmind)
+  stantler (fainted; item eviolite, ability intimidate; moves earthquake/throatchop/thunderwave/bodyslam)
+  vespiquen (fainted; item heavydutyboots, ability pressure, tera steel; moves uturn/toxicspikes/roost/hurricane)
+  gliscor (fainted; item toxicorb, ability poisonheal; moves toxic/earthquake/protect/substitute)
+theirs (as seen):
+  carbink (fainted; item unknown_item, ability ?; moves moonblast)
+  volbeat (100%; item unknown_item, ability ?; moves uturn)
+  palkia (fainted; item unknown_item, ability pressure; moves dracometeor/fireblast)
+  mamoswine (fainted; item unknown_item, ability ?; moves earthquake)
+  mandibuzz (fainted; item unknown_item, ability ?; moves foulplay)
+  araquanid (3%; item unknown_item, ability ?; moves hydropump/liquidation)
+
+-- turn 0
+  switch|p1a: Gumshoos|Gumshoos, L95, F|321/321
+  switch|p2a: Carbink|Carbink, L90|100/100
+-- turn 1
+  WE CHOSE: switch to magearna (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Magearna|Magearna, L77|250/250
+  move|p2a: Carbink|Moonblast|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|220/250
+  -unboost|p1a: Magearna|spa|1
+  -heal|p1a: Magearna|235/250|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: setup shiftgear - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|2
+  -boost|p1a: Magearna|atk|1
+  move|p2a: Carbink|Moonblast|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|204/250
+  -heal|p1a: Magearna|219/250|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: setup shiftgear - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|2
+  -boost|p1a: Magearna|atk|1
+  move|p2a: Carbink|Moonblast|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|187/250
+  -unboost|p1a: Magearna|spa|1
+  -heal|p1a: Magearna|202/250|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: setup shiftgear (hand policy: attack flashcannon) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|2
+  -boost|p1a: Magearna|atk|1
+  move|p2a: Carbink|Moonblast|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|168/250
+  -heal|p1a: Magearna|183/250|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: setup shiftgear (hand policy: attack flashcannon) - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|0
+  -boost|p1a: Magearna|atk|1
+  move|p2a: Carbink|Moonblast|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|150/250
+  -heal|p1a: Magearna|165/250|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack flashcannon - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Magearna|Flash Cannon|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|53/100
+  move|p2a: Carbink|Moonblast|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|132/250
+  -heal|p1a: Magearna|147/250|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack flashcannon - our hp 0.59, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p1a: Magearna|Flash Cannon|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|2/100
+  move|p2a: Carbink|Moonblast|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|114/250
+  -unboost|p1a: Magearna|spa|1
+  -heal|p1a: Magearna|129/250|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack flashcannon - our hp 0.52, theirs 0.02, predicted move (revealed) hits us x0.5
+  move|p1a: Magearna|Flash Cannon|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|0 fnt
+  faint|p2a: Carbink
+  -ability|p1a: Magearna|Soul-Heart|boost
+  -boost|p1a: Magearna|spa|1
+  -heal|p1a: Magearna|144/250|[from] item: Leftovers
+  switch|p2a: Volbeat|Volbeat, L90, M|100/100
+-- turn 9
+  WE CHOSE: setup shiftgear (hand policy: attack fleurcannon) - our hp 0.58, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|0
+  -boost|p1a: Magearna|atk|1
+  move|p2a: Volbeat|U-turn|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|129/250
+  switch|p2a: Palkia|Palkia, L75|100/100|[from] U-turn
+  -ability|p2a: Palkia|Pressure
+  -heal|p1a: Magearna|144/250|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: setup shiftgear - our hp 0.58, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|0
+  -boost|p1a: Magearna|atk|1
+  move|p2a: Palkia|Draco Meteor|p1a: Magearna
+  -immune|p1a: Magearna
+  -heal|p1a: Magearna|159/250|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: setup shiftgear (hand policy: attack fleurcannon) - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|0
+  -boost|p1a: Magearna|atk|0
+  move|p2a: Palkia|Draco Meteor|p1a: Magearna
+  -immune|p1a: Magearna
+  -heal|p1a: Magearna|174/250|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: setup shiftgear (hand policy: attack fleurcannon) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|0
+  -boost|p1a: Magearna|atk|0
+  move|p2a: Palkia|Draco Meteor|p1a: Magearna
+  -immune|p1a: Magearna
+  -heal|p1a: Magearna|189/250|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: setup shiftgear (hand policy: attack fleurcannon) - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|0
+  -boost|p1a: Magearna|atk|0
+  move|p2a: Palkia|Draco Meteor|p1a: Magearna
+  -immune|p1a: Magearna
+  -heal|p1a: Magearna|204/250|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: setup shiftgear (hand policy: attack fleurcannon) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|0
+  -boost|p1a: Magearna|atk|0
+  move|p2a: Palkia|Draco Meteor|p1a: Magearna
+  -immune|p1a: Magearna
+  -heal|p1a: Magearna|219/250|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: setup shiftgear (hand policy: attack fleurcannon) - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|0
+  -boost|p1a: Magearna|atk|0
+  move|p2a: Palkia|Draco Meteor|p1a: Magearna
+  -immune|p1a: Magearna
+  -heal|p1a: Magearna|234/250|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: setup shiftgear (hand policy: attack fleurcannon) - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|0
+  -boost|p1a: Magearna|atk|0
+  move|p2a: Palkia|Draco Meteor|p1a: Magearna
+  -immune|p1a: Magearna
+  -heal|p1a: Magearna|249/250|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: setup shiftgear (hand policy: attack fleurcannon) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|0
+  -boost|p1a: Magearna|atk|0
+  move|p2a: Palkia|Draco Meteor|p1a: Magearna
+  -immune|p1a: Magearna
+  -heal|p1a: Magearna|250/250|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: setup shiftgear (hand policy: attack fleurcannon) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Magearna|Shift Gear|p1a: Magearna
+  -boost|p1a: Magearna|spe|0
+  -boost|p1a: Magearna|atk|0
+  move|p2a: Palkia|Fire Blast|p1a: Magearna
+  -supereffective|p1a: Magearna
+  -damage|p1a: Magearna|98/250
+  -heal|p1a: Magearna|113/250|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack fleurcannon - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to meowscarada (hand policy: forced: switch to gumshoos) - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x0
+  move|p1a: Magearna|Fleur Cannon|p2a: Palkia
+  -supereffective|p2a: Palkia
+  -damage|p2a: Palkia|49/100
+  -unboost|p1a: Magearna|spa|2
+  move|p2a: Palkia|Fire Blast|p1a: Magearna
+  -supereffective|p1a: Magearna
+  -damage|p1a: Magearna|0 fnt
+  faint|p1a: Magearna
+  switch|p1a: Meowscarada|Meowscarada, L78, M|247/247
+-- turn 20
+  WE CHOSE: attack flowertrick (hand policy: attack+tera flowertrick) - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Meowscarada|Flower Trick|p2a: Palkia
+  -start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+  -crit|p2a: Palkia
+  -damage|p2a: Palkia|0 fnt
+  faint|p2a: Palkia
+  switch|p2a: Mamoswine|Mamoswine, L81, F|100/100
+-- turn 21
+  WE CHOSE: switch to gliscor (hand policy: attack+tera flowertrick) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Gliscor|Gliscor, L76, M|239/239
+  move|p2a: Mamoswine|Earthquake|p1a: Gliscor
+  -immune|p1a: Gliscor
+  -status|p1a: Gliscor|tox|[from] item: Toxic Orb
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Gliscor|Earthquake|p2a: Mamoswine
+  -damage|p2a: Mamoswine|72/100
+  move|p2a: Mamoswine|Earthquake|p1a: Gliscor
+  -immune|p1a: Gliscor
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x0
+  move|p1a: Gliscor|Earthquake|p2a: Mamoswine
+  -damage|p2a: Mamoswine|39/100
+  move|p2a: Mamoswine|Earthquake|p1a: Gliscor
+  -immune|p1a: Gliscor
+-- turn 24
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x0
+  move|p1a: Gliscor|Earthquake|p2a: Mamoswine
+  -damage|p2a: Mamoswine|8/100
+  move|p2a: Mamoswine|Earthquake|p1a: Gliscor
+  -immune|p1a: Gliscor
+-- turn 25
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x0
+  move|p1a: Gliscor|Earthquake|p2a: Mamoswine
+  -damage|p2a: Mamoswine|0 fnt
+  faint|p2a: Mamoswine
+  switch|p2a: Mandibuzz|Mandibuzz, L85, F|100/100
+-- turn 26
+  WE CHOSE: switch to gumshoos (hand policy: attack toxic) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Gumshoos|Gumshoos, L95, F|321/321
+  move|p2a: Mandibuzz|Foul Play|p1a: Gumshoos
+  -crit|p1a: Gumshoos
+  -damage|p1a: Gumshoos|83/321
+-- turn 27
+  WE CHOSE: switch to meowscarada (hand policy: attack+tera doubleedge) - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Meowscarada|Meowscarada, L78, M|247/247
+  move|p2a: Mandibuzz|Foul Play|p1a: Meowscarada
+  -resisted|p1a: Meowscarada
+  -damage|p1a: Meowscarada|178/247
+-- turn 28
+  WE CHOSE: attack tripleaxel - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to gumshoos - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Meowscarada|Triple Axel|p2a: Mandibuzz|[miss]
+  -start|p1a: Meowscarada|typechange|Ice|[from] ability: Protean
+  -miss|p1a: Meowscarada|p2a: Mandibuzz
+  move|p2a: Mandibuzz|Foul Play|p1a: Meowscarada
+  -crit|p1a: Meowscarada
+  -damage|p1a: Meowscarada|0 fnt
+  faint|p1a: Meowscarada
+  switch|p1a: Gumshoos|Gumshoos, L95, F|83/321
+-- turn 29
+  WE CHOSE: attack doubleedge (hand policy: attack+tera doubleedge) - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to stantler - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Mandibuzz|Foul Play|p1a: Gumshoos
+  -damage|p1a: Gumshoos|0 fnt
+  faint|p1a: Gumshoos
+  switch|p1a: Stantler|Stantler, L91, M|281/281
+  -ability|p1a: Stantler|Intimidate|boost
+  -unboost|p2a: Mandibuzz|atk|1
+-- turn 30
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Stantler|Body Slam|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|71/100
+  move|p2a: Mandibuzz|Foul Play|p1a: Stantler
+  -damage|p1a: Stantler|191/281
+-- turn 31
+  WE CHOSE: attack throatchop (hand policy: attack bodyslam) - our hp 0.68, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Stantler|Throat Chop|p2a: Mandibuzz
+  -resisted|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|62/100
+  -start|p2a: Mandibuzz|Throat Chop|[silent]
+  move|p2a: Mandibuzz|Foul Play|p1a: Stantler
+  -damage|p1a: Stantler|98/281
+-- turn 32
+  WE CHOSE: attack throatchop (hand policy: attack bodyslam) - our hp 0.35, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Stantler|Throat Chop|p2a: Mandibuzz
+  -resisted|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|54/100
+  move|p2a: Mandibuzz|Foul Play|p1a: Stantler
+  -damage|p1a: Stantler|8/281
+  -end|p2a: Mandibuzz|Throat Chop|[silent]
+-- turn 33
+  WE CHOSE: attack throatchop (hand policy: attack bodyslam) - our hp 0.03, theirs 0.54, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to vespiquen - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p1a: Stantler|Throat Chop|p2a: Mandibuzz
+  -resisted|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|45/100
+  -start|p2a: Mandibuzz|Throat Chop|[silent]
+  move|p2a: Mandibuzz|Foul Play|p1a: Stantler
+  -damage|p1a: Stantler|0 fnt
+  faint|p1a: Stantler
+  switch|p1a: Vespiquen|Vespiquen, L99, F|299/299
+  -ability|p1a: Vespiquen|Pressure
+-- turn 34
+  WE CHOSE: attack uturn (hand policy: attack hurricane) - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gliscor - our hp 0.72, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Mandibuzz|Foul Play|p1a: Vespiquen
+  -damage|p1a: Vespiquen|214/299
+  move|p1a: Vespiquen|U-turn|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|23/100
+  switch|p1a: Gliscor|Gliscor, L76, M|239/239 tox|[from] U-turn
+  -end|p2a: Mandibuzz|Throat Chop|[silent]
+-- turn 35
+  WE CHOSE: switch to meowscarada (hand policy: attack toxic) - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Gliscor|Toxic|p2a: Mandibuzz
+  -status|p2a: Mandibuzz|tox
+  move|p2a: Mandibuzz|Foul Play|p1a: Gliscor
+  -damage|p1a: Gliscor|164/239 tox
+  -heal|p1a: Gliscor|193/239 tox|[from] ability: Poison Heal
+  -damage|p2a: Mandibuzz|16/100 tox|[from] psn
+-- turn 36
+  WE CHOSE: switch to meowscarada (hand policy: attack toxic) - our hp 0.81, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Gliscor|Toxic|p2a: Mandibuzz|[miss]
+  -miss|p1a: Gliscor|p2a: Mandibuzz
+  move|p2a: Mandibuzz|Foul Play|p1a: Gliscor
+  -damage|p1a: Gliscor|112/239 tox
+  -heal|p1a: Gliscor|141/239 tox|[from] ability: Poison Heal
+  -damage|p2a: Mandibuzz|4/100 tox|[from] psn
+-- turn 37
+  WE CHOSE: switch to vespiquen (hand policy: attack toxic) - our hp 0.59, theirs 0.04, predicted move (revealed) hits us x1
+  switch|p1a: Vespiquen|Vespiquen, L99, F|214/299
+  -ability|p1a: Vespiquen|Pressure
+  move|p2a: Mandibuzz|Foul Play|p1a: Vespiquen
+  -damage|p1a: Vespiquen|129/299
+  -damage|p2a: Mandibuzz|0 fnt|[from] psn
+  faint|p2a: Mandibuzz
+  switch|p2a: Araquanid|Araquanid, L82, M|100/100
+-- turn 38
+  WE CHOSE: attack+tera hurricane (hand policy: heal roost) - our hp 0.43, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Vespiquen|Steel
+  move|p1a: Vespiquen|Hurricane|p2a: Araquanid
+  -supereffective|p2a: Araquanid
+  -damage|p2a: Araquanid|20/100
+  move|p2a: Araquanid|Hydro Pump|p1a: Vespiquen
+  -damage|p1a: Vespiquen|18/299
+-- turn 39
+  WE CHOSE: heal roost - our hp 0.06, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Vespiquen|Roost|p1a: Vespiquen
+  -heal|p1a: Vespiquen|168/299
+  move|p2a: Araquanid|Hydro Pump|p1a: Vespiquen
+  -damage|p1a: Vespiquen|65/299
+-- turn 40
+  WE CHOSE: heal roost - our hp 0.22, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Vespiquen|Roost|p1a: Vespiquen
+  -heal|p1a: Vespiquen|215/299
+  move|p2a: Araquanid|Hydro Pump|p1a: Vespiquen
+  -damage|p1a: Vespiquen|112/299
+-- turn 41
+  WE CHOSE: heal roost - our hp 0.37, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Vespiquen|Roost|p1a: Vespiquen
+  -heal|p1a: Vespiquen|262/299
+  move|p2a: Araquanid|Hydro Pump|p1a: Vespiquen
+  -crit|p1a: Vespiquen
+  -damage|p1a: Vespiquen|102/299
+-- turn 42
+  WE CHOSE: heal roost - our hp 0.34, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Vespiquen|Roost|p1a: Vespiquen
+  -heal|p1a: Vespiquen|252/299
+  move|p2a: Araquanid|Liquidation|p1a: Vespiquen
+  -damage|p1a: Vespiquen|155/299
+-- turn 43
+  WE CHOSE: heal roost (hand policy: attack hurricane) - our hp 0.52, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Vespiquen|Roost|p1a: Vespiquen
+  -heal|p1a: Vespiquen|299/299
+  move|p2a: Araquanid|Liquidation|p1a: Vespiquen
+  -damage|p1a: Vespiquen|193/299
+  -unboost|p1a: Vespiquen|def|1
+-- turn 44
+  WE CHOSE: heal roost (hand policy: attack hurricane) - our hp 0.65, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Vespiquen|Roost|p1a: Vespiquen
+  -heal|p1a: Vespiquen|299/299
+  move|p2a: Araquanid|Liquidation|p1a: Vespiquen
+  -damage|p1a: Vespiquen|142/299
+  -unboost|p1a: Vespiquen|def|1
+-- turn 45
+  WE CHOSE: heal roost - our hp 0.47, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Vespiquen|Roost|p1a: Vespiquen
+  -heal|p1a: Vespiquen|292/299
+  move|p2a: Araquanid|Liquidation|p1a: Vespiquen
+  -damage|p1a: Vespiquen|106/299
+  -unboost|p1a: Vespiquen|def|1
+-- turn 46
+  WE CHOSE: heal roost - our hp 0.35, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Vespiquen|Roost|p1a: Vespiquen
+  -heal|p1a: Vespiquen|256/299
+  move|p2a: Araquanid|Liquidation|p1a: Vespiquen
+  -damage|p1a: Vespiquen|21/299
+-- turn 47
+  WE CHOSE: attack hurricane - our hp 0.07, theirs 0.20, predicted move (revealed) hits us x1
+  WE CHOSE: forced: attack toxicspikes (hand policy: forced: switch to gliscor) - our hp 0.00, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Vespiquen|Hurricane|p2a: Araquanid|[miss]
+  -miss|p1a: Vespiquen|p2a: Araquanid
+  move|p2a: Araquanid|Liquidation|p1a: Vespiquen
+  -damage|p1a: Vespiquen|0 fnt
+  faint|p1a: Vespiquen
+  switch|p1a: Gliscor|Gliscor, L76, M|141/239 tox
+-- turn 48
+  WE CHOSE: attack earthquake - our hp 0.59, theirs 0.20, predicted move (revealed) hits us x2
+  move|p1a: Gliscor|Earthquake|p2a: Araquanid
+  -resisted|p2a: Araquanid
+  -damage|p2a: Araquanid|3/100
+  move|p2a: Araquanid|Liquidation|p1a: Gliscor
+  -supereffective|p1a: Gliscor
+  -damage|p1a: Gliscor|0 fnt
+  faint|p1a: Gliscor
+  deinit

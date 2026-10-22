@@ -1,0 +1,273 @@
+battle 2642 (battle-gen9randombattle-2045515): lost in 28 turns, 2 of theirs left; we are p1
+
+ours:
+  slaking (fainted; item choicescarf, ability truant; moves gigaimpact/doubleedge/knockoff/earthquake)
+  galvantula (fainted; item heavydutyboots, ability compoundeyes; moves stickyweb/bugbuzz/thunder/voltswitch)
+  gogoat (fainted; item leftovers, ability sapsipper, tera ground; moves earthquake/hornleech/milkdrink/bulkup)
+  ursaring (fainted; item toxicorb, ability quickfeet; moves facade/closecombat/crunch/swordsdance)
+  ironjugulis (fainted; item powerherb, ability quarkdrive; moves hurricane/darkpulse/meteorbeam/earthpower)
+  bellibolt (fainted; item leftovers, ability electromorphosis; moves thunderbolt/muddywater/slackoff/voltswitch)
+theirs (as seen):
+  hariyama (fainted; item unknown_item, ability ?; moves closecombat)
+  torkoal (fainted; item unknown_item, ability ?; moves lavaplume)
+  passimian (fainted; item leftovers, ability ?; moves gunkshot)
+  rotomfan (fainted; item unknown_item, ability levitate; moves thunderbolt)
+  ironthorns (12%; item ?, ability quarkdrive; moves stoneedge)
+
+-- turn 0
+  switch|p1a: Slaking|Slaking, L84, M|389/389
+  switch|p2a: Hariyama|Hariyama, L87, M|100/100
+-- turn 1
+  WE CHOSE: switch to galvantula - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Galvantula|Galvantula, L82, F|249/249
+  move|p2a: Hariyama|Close Combat|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|151/249
+  -unboost|p2a: Hariyama|def|1
+  -unboost|p2a: Hariyama|spd|1
+-- turn 2
+  WE CHOSE: attack thunder - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Galvantula|Thunder|p2a: Hariyama|[miss]
+  -miss|p1a: Galvantula|p2a: Hariyama
+  move|p2a: Hariyama|Close Combat|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|47/249
+  -unboost|p2a: Hariyama|def|1
+  -unboost|p2a: Hariyama|spd|1
+-- turn 3
+  WE CHOSE: attack thunder - our hp 0.19, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ironjugulis - our hp 0.00, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p1a: Galvantula|Thunder|p2a: Hariyama
+  -damage|p2a: Hariyama|57/100
+  -status|p2a: Hariyama|par
+  move|p2a: Hariyama|Close Combat|p1a: Galvantula
+  -resisted|p1a: Galvantula
+  -damage|p1a: Galvantula|0 fnt
+  -unboost|p2a: Hariyama|def|1
+  -unboost|p2a: Hariyama|spd|1
+  faint|p1a: Galvantula
+  switch|p1a: Iron Jugulis|Iron Jugulis, L77|271/271
+-- turn 4
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Iron Jugulis|Hurricane|p2a: Hariyama|[miss]
+  -miss|p1a: Iron Jugulis|p2a: Hariyama
+  move|p2a: Hariyama|Close Combat|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|102/271
+  -unboost|p2a: Hariyama|def|1
+  -unboost|p2a: Hariyama|spd|1
+-- turn 5
+  WE CHOSE: attack hurricane - our hp 0.38, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Iron Jugulis|Hurricane|p2a: Hariyama
+  -supereffective|p2a: Hariyama
+  -crit|p2a: Hariyama
+  -damage|p2a: Hariyama|0 fnt
+  faint|p2a: Hariyama
+  switch|p2a: Torkoal|Torkoal, L88, M|100/100
+  -weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+-- turn 6
+  WE CHOSE: switch to gogoat (hand policy: attack meteorbeam) - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x0.5
+  -end|p1a: Iron Jugulis|Quark Drive|[silent]
+  switch|p1a: Gogoat|Gogoat, L88, F|360/360
+  move|p2a: Torkoal|Lava Plume|p1a: Gogoat
+  -supereffective|p1a: Gogoat
+  -damage|p1a: Gogoat|108/360
+  -status|p1a: Gogoat|brn
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Gogoat|130/360 brn|[from] item: Leftovers
+  -damage|p1a: Gogoat|108/360 brn|[from] brn
+-- turn 7
+  WE CHOSE: setup+tera bulkup (hand policy: attack+tera earthquake) - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to slaking (hand policy: forced: switch to ironjugulis) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Gogoat|Ground
+  move|p1a: Gogoat|Bulk Up|p1a: Gogoat
+  -boost|p1a: Gogoat|atk|1
+  -boost|p1a: Gogoat|def|1
+  move|p2a: Torkoal|Lava Plume|p1a: Gogoat
+  -damage|p1a: Gogoat|0 fnt
+  faint|p1a: Gogoat
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Slaking|Slaking, L84, M|389/389
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Slaking|Earthquake|p2a: Torkoal
+  -supereffective|p2a: Torkoal
+  -damage|p2a: Torkoal|46/100
+  move|p2a: Torkoal|Lava Plume|p1a: Slaking
+  -damage|p1a: Slaking|230/389
+  -weather|SunnyDay|[upkeep]
+-- turn 9
+  WE CHOSE: attack knockoff (hand policy: attack earthquake) - our hp 0.59, theirs 0.46, predicted move (revealed) hits us x1
+  cant|p1a: Slaking|ability: Truant
+  move|p2a: Torkoal|Lava Plume|p1a: Slaking
+  -damage|p1a: Slaking|83/389
+  -weather|SunnyDay|[upkeep]
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.21, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Slaking|Earthquake|p2a: Torkoal
+  -supereffective|p2a: Torkoal
+  -damage|p2a: Torkoal|0 fnt
+  faint|p2a: Torkoal
+  -weather|none
+  switch|p2a: Passimian|Passimian, L83, M, shiny|100/100
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to ironjugulis - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p1a: Slaking|ability: Truant
+  move|p2a: Passimian|Gunk Shot|p1a: Slaking
+  -damage|p1a: Slaking|0 fnt
+  faint|p1a: Slaking
+  switch|p1a: Iron Jugulis|Iron Jugulis, L77|102/271
+-- turn 12
+  WE CHOSE: attack hurricane - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bellibolt - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Iron Jugulis|Hurricane|p2a: Passimian|[miss]
+  -miss|p1a: Iron Jugulis|p2a: Passimian
+  move|p2a: Passimian|Gunk Shot|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|0 fnt
+  faint|p1a: Iron Jugulis
+  -end|p1a: Iron Jugulis|Quark Drive|[silent]
+  switch|p1a: Bellibolt|Bellibolt, L84, F|320/320
+-- turn 13
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Passimian|Gunk Shot|p1a: Bellibolt|[miss]
+  -miss|p2a: Passimian|p1a: Bellibolt
+  move|p1a: Bellibolt|Thunderbolt|p2a: Passimian
+  -damage|p2a: Passimian|57/100
+  -status|p2a: Passimian|par
+  -heal|p2a: Passimian|63/100 par|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Bellibolt|Thunderbolt|p2a: Passimian
+  -damage|p2a: Passimian|18/100 par
+  cant|p2a: Passimian|par
+  -heal|p2a: Passimian|24/100 par|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Bellibolt|Slack Off||[still]
+  -fail|p1a: Bellibolt|heal
+  move|p2a: Passimian|Gunk Shot|p1a: Bellibolt
+  -damage|p1a: Bellibolt|219/320
+  -status|p1a: Bellibolt|psn
+  -start|p1a: Bellibolt|Charge|Gunk Shot|[from] ability: Electromorphosis
+  -heal|p1a: Bellibolt|239/320 psn|[from] item: Leftovers
+  -heal|p2a: Passimian|30/100 par|[from] item: Leftovers
+  -damage|p1a: Bellibolt|199/320 psn|[from] psn
+-- turn 16
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 0.62, theirs 0.30, predicted move (revealed) hits us x1
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320 psn
+  cant|p2a: Passimian|par
+  -heal|p2a: Passimian|36/100 par|[from] item: Leftovers
+  -damage|p1a: Bellibolt|280/320 psn|[from] psn
+-- turn 17
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 0.88, theirs 0.36, predicted move (revealed) hits us x1
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320 psn
+  cant|p2a: Passimian|par
+  -heal|p2a: Passimian|42/100 par|[from] item: Leftovers
+  -damage|p1a: Bellibolt|280/320 psn|[from] psn
+-- turn 18
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 0.88, theirs 0.42, predicted move (revealed) hits us x1
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320 psn
+  cant|p2a: Passimian|par
+  -heal|p2a: Passimian|48/100 par|[from] item: Leftovers
+  -damage|p1a: Bellibolt|280/320 psn|[from] psn
+-- turn 19
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 0.88, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320 psn
+  move|p2a: Passimian|Gunk Shot|p1a: Bellibolt
+  -damage|p1a: Bellibolt|222/320 psn
+  -start|p1a: Bellibolt|Charge|Gunk Shot|[from] ability: Electromorphosis
+  -heal|p1a: Bellibolt|242/320 psn|[from] item: Leftovers
+  -heal|p2a: Passimian|53/100 par|[from] item: Leftovers
+  -damage|p1a: Bellibolt|202/320 psn|[from] psn
+-- turn 20
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 0.63, theirs 0.53, predicted move (revealed) hits us x1
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320 psn
+  move|p2a: Passimian|Gunk Shot|p1a: Bellibolt
+  -damage|p1a: Bellibolt|222/320 psn
+  -start|p1a: Bellibolt|Charge|Gunk Shot|[from] ability: Electromorphosis
+  -heal|p1a: Bellibolt|242/320 psn|[from] item: Leftovers
+  -heal|p2a: Passimian|59/100 par|[from] item: Leftovers
+  -damage|p1a: Bellibolt|202/320 psn|[from] psn
+-- turn 21
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 0.63, theirs 0.59, predicted move (revealed) hits us x1
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320 psn
+  move|p2a: Passimian|Gunk Shot|p1a: Bellibolt|[miss]
+  -miss|p2a: Passimian|p1a: Bellibolt
+  -heal|p2a: Passimian|65/100 par|[from] item: Leftovers
+  -damage|p1a: Bellibolt|280/320 psn|[from] psn
+-- turn 22
+  WE CHOSE: attack thunderbolt - our hp 0.88, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Bellibolt|Thunderbolt|p2a: Passimian
+  -damage|p2a: Passimian|0 fnt
+  faint|p2a: Passimian
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|300/320 psn|[from] item: Leftovers
+  -damage|p1a: Bellibolt|260/320 psn|[from] psn
+  switch|p2a: Rotom|Rotom-Fan, L86|100/100
+-- turn 23
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 0.81, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Rotom|Thunderbolt|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|208/320 psn
+  -start|p1a: Bellibolt|Charge|Thunderbolt|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320 psn
+  -damage|p1a: Bellibolt|280/320 psn|[from] psn
+-- turn 24
+  WE CHOSE: attack thunderbolt - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Rotom|Thunderbolt|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|223/320 psn
+  -start|p1a: Bellibolt|Charge|Thunderbolt|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Rotom
+  -damage|p2a: Rotom|26/100
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|243/320 psn|[from] item: Leftovers
+  -damage|p1a: Bellibolt|203/320 psn|[from] psn
+-- turn 25
+  WE CHOSE: attack thunderbolt - our hp 0.63, theirs 0.26, predicted move (revealed) hits us x0.5
+  move|p2a: Rotom|Thunderbolt|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|147/320 psn
+  -start|p1a: Bellibolt|Charge|Thunderbolt|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Rotom
+  -damage|p2a: Rotom|0 fnt
+  faint|p2a: Rotom
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|167/320 psn|[from] item: Leftovers
+  -damage|p1a: Bellibolt|127/320 psn|[from] psn
+  switch|p2a: Iron Thorns|Iron Thorns, L83|100/100
+  -enditem|p2a: Iron Thorns|Booster Energy
+  -activate|p2a: Iron Thorns|ability: Quark Drive|[fromitem]
+  -start|p2a: Iron Thorns|quarkdriveatk
+-- turn 26
+  WE CHOSE: switch to ursaring (hand policy: attack muddywater) - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Ursaring|Ursaring, L84, F|288/288
+  move|p2a: Iron Thorns|Stone Edge|p1a: Ursaring
+  -damage|p1a: Ursaring|74/288
+  -status|p1a: Ursaring|tox|[from] item: Toxic Orb
+-- turn 27
+  WE CHOSE: attack closecombat - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bellibolt - our hp 0.00, theirs 0.12, predicted move (revealed) hits us x1
+  move|p1a: Ursaring|Close Combat|p2a: Iron Thorns
+  -supereffective|p2a: Iron Thorns
+  -crit|p2a: Iron Thorns
+  -damage|p2a: Iron Thorns|12/100
+  -unboost|p1a: Ursaring|def|1
+  -unboost|p1a: Ursaring|spd|1
+  move|p2a: Iron Thorns|Stone Edge|p1a: Ursaring
+  -damage|p1a: Ursaring|0 fnt
+  faint|p1a: Ursaring
+  switch|p1a: Bellibolt|Bellibolt, L84, F|127/320 psn
+-- turn 28
+  WE CHOSE: attack muddywater - our hp 0.40, theirs 0.12, predicted move (revealed) hits us x1
+  move|p2a: Iron Thorns|Stone Edge|p1a: Bellibolt
+  -damage|p1a: Bellibolt|0 fnt
+  faint|p1a: Bellibolt
+  deinit

@@ -1,0 +1,329 @@
+battle 1579 (battle-gen9randombattle-2034580): lost in 34 turns, 1 of theirs left; we are p1
+
+ours:
+  sylveon (fainted; item ?, ability pixilate, tera steel; moves wish/protect/calmmind/hypervoice)
+  dragalge (fainted; item ?, ability adaptability; moves sludgewave/dracometeor/focusblast/toxic)
+  miniorviolet (fainted; item ?, ability shieldsdown; moves shellsmash/earthquake/acrobatics/powergem)
+  mightyena (fainted; item leftovers, ability intimidate; moves poisonfang/suckerpunch/crunch/taunt)
+  articuno (fainted; item ?, ability pressure; moves uturn/freezedry/bravebird/roost)
+  blissey (fainted; item leftovers, ability naturalcure; moves seismictoss/softboiled/thunderwave/stealthrock)
+theirs (as seen):
+  zangoose (fainted; item unknown_item, ability ?; moves closecombat)
+  vaporeon (fainted; item leftovers, ability ?; moves scald)
+  regigigas (fainted; item leftovers, ability slowstart; moves bodyslam/knockoff)
+  veluza (fainted; item ?, ability ?; moves aquacutter)
+  serperior (fainted; item lifeorb, ability ?; moves leafstorm)
+  ironhands (14%; item leftovers, ability quarkdrive; moves wildcharge)
+
+-- turn 0
+  switch|p1a: Sylveon|Sylveon, L85, M|300/300
+  switch|p2a: Zangoose|Zangoose, L85, M|100/100
+-- turn 1
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Zangoose|Close Combat|p1a: Sylveon
+  -resisted|p1a: Sylveon
+  -damage|p1a: Sylveon|241/300
+  -unboost|p2a: Zangoose|def|1
+  -unboost|p2a: Zangoose|spd|1
+  move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+  -boost|p1a: Sylveon|spa|1
+  -boost|p1a: Sylveon|spd|1
+  -heal|p1a: Sylveon|259/300|[from] item: Leftovers
+  -status|p2a: Zangoose|tox|[from] item: Toxic Orb
+-- turn 2
+  WE CHOSE: setup calmmind - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Zangoose|Close Combat|p1a: Sylveon
+  -resisted|p1a: Sylveon
+  -damage|p1a: Sylveon|167/300
+  -unboost|p2a: Zangoose|def|1
+  -unboost|p2a: Zangoose|spd|1
+  move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+  -boost|p1a: Sylveon|spa|1
+  -boost|p1a: Sylveon|spd|1
+  -heal|p1a: Sylveon|185/300|[from] item: Leftovers
+  -damage|p2a: Zangoose|94/100 tox|[from] psn
+-- turn 3
+  WE CHOSE: attack hypervoice - our hp 0.62, theirs 0.94, predicted move (revealed) hits us x0.5
+  move|p2a: Zangoose|Close Combat|p1a: Sylveon
+  -resisted|p1a: Sylveon
+  -damage|p1a: Sylveon|91/300
+  -unboost|p2a: Zangoose|def|1
+  -unboost|p2a: Zangoose|spd|1
+  move|p1a: Sylveon|Hyper Voice|p2a: Zangoose
+  -damage|p2a: Zangoose|0 fnt
+  faint|p2a: Zangoose
+  -heal|p1a: Sylveon|109/300|[from] item: Leftovers
+  switch|p2a: Vaporeon|Vaporeon, L86, M|100/100
+-- turn 4
+  WE CHOSE: attack+tera hypervoice - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Sylveon|Steel
+  move|p2a: Vaporeon|Scald|p1a: Sylveon
+  -damage|p1a: Sylveon|72/300
+  move|p1a: Sylveon|Hyper Voice|p2a: Vaporeon
+  -damage|p2a: Vaporeon|36/100
+  -heal|p2a: Vaporeon|42/100|[from] item: Leftovers
+  -heal|p1a: Sylveon|90/300|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack hypervoice - our hp 0.30, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Vaporeon|Scald|p1a: Sylveon
+  -damage|p1a: Sylveon|53/300
+  move|p1a: Sylveon|Hyper Voice|p2a: Vaporeon
+  -damage|p2a: Vaporeon|0 fnt
+  faint|p2a: Vaporeon
+  -heal|p1a: Sylveon|71/300|[from] item: Leftovers
+  switch|p2a: Regigigas|Regigigas, L84|100/100
+  -start|p2a: Regigigas|ability: Slow Start
+-- turn 6
+  WE CHOSE: switch to articuno (hand policy: attack hypervoice) - our hp 0.24, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Articuno|Articuno, L86|295/295
+  -ability|p1a: Articuno|Pressure
+  move|p2a: Regigigas|Body Slam|p1a: Articuno
+  -crit|p1a: Articuno
+  -damage|p1a: Articuno|199/295
+-- turn 7
+  WE CHOSE: heal roost (hand policy: attack bravebird) - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Articuno|Roost|p1a: Articuno
+  -heal|p1a: Articuno|295/295
+  -singleturn|p1a: Articuno|move: Roost
+  move|p2a: Regigigas|Body Slam|p1a: Articuno
+  -damage|p1a: Articuno|237/295
+-- turn 8
+  WE CHOSE: heal roost (hand policy: attack bravebird) - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Articuno|Roost|p1a: Articuno
+  -heal|p1a: Articuno|295/295
+  -singleturn|p1a: Articuno|move: Roost
+  move|p2a: Regigigas|Body Slam|p1a: Articuno
+  -damage|p1a: Articuno|229/295
+-- turn 9
+  WE CHOSE: heal roost (hand policy: attack bravebird) - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Articuno|Roost|p1a: Articuno
+  -heal|p1a: Articuno|295/295
+  -singleturn|p1a: Articuno|move: Roost
+  move|p2a: Regigigas|Body Slam|p1a: Articuno
+  -damage|p1a: Articuno|240/295
+-- turn 10
+  WE CHOSE: heal roost (hand policy: attack bravebird) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Articuno|Roost|p1a: Articuno
+  -heal|p1a: Articuno|295/295
+  -singleturn|p1a: Articuno|move: Roost
+  move|p2a: Regigigas|Body Slam|p1a: Articuno
+  -damage|p1a: Articuno|237/295
+  -end|p2a: Regigigas|Slow Start
+-- turn 11
+  WE CHOSE: heal roost (hand policy: attack bravebird) - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Articuno
+  -damage|p1a: Articuno|107/295
+  move|p1a: Articuno|Roost|p1a: Articuno
+  -heal|p1a: Articuno|255/295
+  -singleturn|p1a: Articuno|move: Roost
+-- turn 12
+  WE CHOSE: heal roost (hand policy: attack bravebird) - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Articuno
+  -damage|p1a: Articuno|135/295
+  -status|p1a: Articuno|par
+  move|p1a: Articuno|Roost|p1a: Articuno
+  -heal|p1a: Articuno|283/295 par
+  -singleturn|p1a: Articuno|move: Roost
+-- turn 13
+  WE CHOSE: heal roost (hand policy: attack bravebird) - our hp 0.96, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Articuno
+  -damage|p1a: Articuno|159/295 par
+  move|p1a: Articuno|Roost|p1a: Articuno
+  -heal|p1a: Articuno|295/295 par
+  -singleturn|p1a: Articuno|move: Roost
+-- turn 14
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Articuno
+  -damage|p1a: Articuno|177/295 par
+  move|p1a: Articuno|Brave Bird|p2a: Regigigas
+  -damage|p2a: Regigigas|69/100
+  -damage|p1a: Articuno|143/295 par|[from] Recoil
+  -heal|p2a: Regigigas|75/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal roost - our hp 0.48, theirs 0.75, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Articuno
+  -damage|p1a: Articuno|34/295 par
+  move|p1a: Articuno|Roost|p1a: Articuno
+  -heal|p1a: Articuno|182/295 par
+  -singleturn|p1a: Articuno|move: Roost
+  -heal|p2a: Regigigas|81/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: switch to miniorviolet (hand policy: attack bravebird) - our hp 0.62, theirs 0.81, predicted move (revealed) hits us x1
+  switch|p1a: Minior|Minior-Violet, L79|224/224
+  -formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+  move|p2a: Regigigas|Body Slam|p1a: Minior
+  -resisted|p1a: Minior
+  -damage|p1a: Minior|165/224
+  -heal|p2a: Regigigas|87/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: setup shellsmash - our hp 0.74, theirs 0.87, predicted move (revealed) hits us x0.5
+  move|p2a: Regigigas|Body Slam|p1a: Minior
+  -resisted|p1a: Minior
+  -damage|p1a: Minior|106/224
+  move|p1a: Minior|Shell Smash|p1a: Minior
+  -unboost|p1a: Minior|def|1
+  -unboost|p1a: Minior|spd|1
+  -boost|p1a: Minior|atk|2
+  -boost|p1a: Minior|spa|2
+  -boost|p1a: Minior|spe|2
+  -enditem|p1a: Minior|White Herb
+  -clearnegativeboost|p1a: Minior|[silent]
+  -heal|p2a: Regigigas|93/100|[from] item: Leftovers
+  -formechange|p1a: Minior|Minior-Violet||[from] ability: Shields Down
+-- turn 18
+  WE CHOSE: attack powergem - our hp 0.47, theirs 0.93, predicted move (revealed) hits us x0.5
+  move|p1a: Minior|Power Gem|p2a: Regigigas
+  -damage|p2a: Regigigas|57/100
+  move|p2a: Regigigas|Body Slam|p1a: Minior
+  -resisted|p1a: Minior
+  -damage|p1a: Minior|15/224
+  -heal|p2a: Regigigas|63/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack powergem - our hp 0.07, theirs 0.63, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to sylveon (hand policy: forced: switch to articuno) - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x0.5
+  move|p1a: Minior|Power Gem|p2a: Regigigas
+  -damage|p2a: Regigigas|23/100
+  move|p2a: Regigigas|Body Slam|p1a: Minior
+  -resisted|p1a: Minior
+  -damage|p1a: Minior|0 fnt
+  faint|p1a: Minior
+  -heal|p2a: Regigigas|30/100|[from] item: Leftovers
+  switch|p1a: Sylveon|Sylveon, L85, M, tera:Steel|71/300
+-- turn 20
+  WE CHOSE: attack hypervoice - our hp 0.24, theirs 0.30, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to articuno - our hp 0.00, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p2a: Regigigas|Knock Off|p1a: Sylveon
+  -damage|p1a: Sylveon|0 fnt
+  -enditem|p1a: Sylveon|Leftovers|[from] move: Knock Off|[of] p2a: Regigigas
+  faint|p1a: Sylveon
+  -heal|p2a: Regigigas|36/100|[from] item: Leftovers
+  switch|p1a: Articuno|Articuno, L86|182/295 par
+  -ability|p1a: Articuno|Pressure
+-- turn 21
+  WE CHOSE: attack bravebird - our hp 0.62, theirs 0.36, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Knock Off|p1a: Articuno
+  -damage|p1a: Articuno|86/295 par
+  -enditem|p1a: Articuno|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Regigigas
+  move|p1a: Articuno|Brave Bird|p2a: Regigigas
+  -damage|p2a: Regigigas|7/100
+  -damage|p1a: Articuno|55/295 par|[from] Recoil
+  -heal|p2a: Regigigas|13/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack bravebird - our hp 0.19, theirs 0.13, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dragalge - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Knock Off|p1a: Articuno
+  -damage|p1a: Articuno|0 fnt
+  faint|p1a: Articuno
+  -heal|p2a: Regigigas|19/100|[from] item: Leftovers
+  switch|p1a: Dragalge|Dragalge, L88, F|258/258
+-- turn 23
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Knock Off|p1a: Dragalge
+  -damage|p1a: Dragalge|161/258
+  -enditem|p1a: Dragalge|Leftovers|[from] move: Knock Off|[of] p2a: Regigigas
+  move|p1a: Dragalge|Draco Meteor|p2a: Regigigas
+  -damage|p2a: Regigigas|0 fnt
+  -unboost|p1a: Dragalge|spa|2
+  faint|p2a: Regigigas
+  -end|p2a: Regigigas|Slow Start|[silent]
+  switch|p2a: Veluza|Veluza, L85, F|100/100
+-- turn 24
+  WE CHOSE: attack dracometeor - our hp 0.62, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Veluza|Aqua Cutter|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|107/258
+  move|p1a: Dragalge|Draco Meteor|p2a: Veluza
+  -damage|p2a: Veluza|57/100
+  -unboost|p1a: Dragalge|spa|2
+-- turn 25
+  WE CHOSE: attack dracometeor - our hp 0.41, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p2a: Veluza|Aqua Cutter|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|47/258
+  move|p1a: Dragalge|Draco Meteor|p2a: Veluza
+  -damage|p2a: Veluza|28/100
+  -unboost|p1a: Dragalge|spa|2
+  -enditem|p2a: Veluza|Sitrus Berry|[eat]
+  -heal|p2a: Veluza|53/100|[from] item: Sitrus Berry
+-- turn 26
+  WE CHOSE: attack dracometeor - our hp 0.18, theirs 0.53, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to mightyena - our hp 0.00, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p2a: Veluza|Aqua Cutter|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|0 fnt
+  faint|p1a: Dragalge
+  switch|p1a: Mightyena|Mightyena, L96, M|290/290
+  -ability|p1a: Mightyena|Intimidate|boost
+  -unboost|p2a: Veluza|atk|1
+-- turn 27
+  WE CHOSE: attack crunch - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p1a: Mightyena|Crunch|p2a: Veluza
+  -supereffective|p2a: Veluza
+  -damage|p2a: Veluza|0 fnt
+  faint|p2a: Veluza
+  switch|p2a: Serperior|Serperior, L79, F|100/100
+-- turn 28
+  WE CHOSE: attack crunch - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Mightyena
+  -damage|p1a: Mightyena|130/290
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|91/100|[from] item: Life Orb
+  move|p1a: Mightyena|Crunch|p2a: Serperior
+  -damage|p2a: Serperior|51/100
+  -heal|p1a: Mightyena|148/290|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack crunch - our hp 0.51, theirs 0.51, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to blissey - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Mightyena
+  -damage|p1a: Mightyena|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Mightyena
+  -damage|p2a: Serperior|41/100|[from] item: Life Orb
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+-- turn 30
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Blissey
+  -damage|p1a: Blissey|307/572
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|32/100|[from] item: Life Orb
+  move|p1a: Blissey|Seismic Toss|p2a: Serperior
+  -damage|p2a: Serperior|0 fnt
+  faint|p2a: Serperior
+  -heal|p1a: Blissey|342/572|[from] item: Leftovers
+  switch|p2a: Iron Hands|Iron Hands, L79|100/100
+-- turn 31
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+  move|p2a: Iron Hands|Wild Charge|p1a: Blissey
+  -damage|p1a: Blissey|257/572
+  -damage|p2a: Iron Hands|79/100|[from] Recoil
+  -heal|p1a: Blissey|292/572|[from] item: Leftovers
+  -heal|p2a: Iron Hands|85/100|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 0.51, theirs 0.85, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+  move|p2a: Iron Hands|Wild Charge|p1a: Blissey
+  -damage|p1a: Blissey|265/572
+  -damage|p2a: Iron Hands|65/100|[from] Recoil
+  -heal|p1a: Blissey|300/572|[from] item: Leftovers
+  -heal|p2a: Iron Hands|71/100|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 0.52, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+  -heal|p1a: Blissey|572/572
+  move|p2a: Iron Hands|Wild Charge|p1a: Blissey
+  -damage|p1a: Blissey|221/572
+  -damage|p2a: Iron Hands|47/100|[from] Recoil
+  -heal|p1a: Blissey|256/572|[from] item: Leftovers
+  -heal|p2a: Iron Hands|54/100|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack seismictoss (hand policy: heal softboiled) - our hp 0.45, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Blissey|Seismic Toss|p2a: Iron Hands
+  -damage|p2a: Iron Hands|31/100
+  move|p2a: Iron Hands|Wild Charge|p1a: Blissey
+  -damage|p1a: Blissey|0 fnt
+  faint|p1a: Blissey
+  -damage|p2a: Iron Hands|14/100|[from] Recoil
+  deinit

@@ -1,0 +1,176 @@
+battle 1534 (battle-gen9randombattle-2034121): lost in 19 turns, 2 of theirs left; we are p1
+
+ours:
+  lycanroc (fainted; item choiceband, ability sandrush; moves closecombat/accelerock/psychicfangs/stoneedge)
+  regigigas (fainted; item leftovers, ability slowstart; moves rest/bodyslam/sleeptalk/knockoff)
+  victreebel (fainted; item lifeorb, ability chlorophyll; moves knockoff/sleeppowder/powerwhip/sludgewave)
+  mamoswine (fainted; item choiceband, ability thickfat; moves knockoff/earthquake/iciclecrash/iceshard)
+  volbeat (fainted; item heavydutyboots, ability prankster, tera water; moves roost/encore/thunderwave/uturn)
+  giratinaorigin (fainted; item griseouscore, ability levitate; moves dracometeor/poltergeist/willowisp/shadowsneak)
+theirs (as seen):
+  lugia (fainted; item unknown_item, ability ?; moves aeroblast)
+  gumshoos (fainted; item unknown_item, ability ?; moves doubleedge)
+  entei (fainted; item unknown_item, ability ?; moves flareblitz)
+  regirock (fainted; item leftovers, ability ?; moves stoneedge)
+  basculin (15%; item unknown_item, ability ?; moves wavecrash)
+
+-- turn 0
+  switch|p1a: Lycanroc|Lycanroc, L86, F|269/269
+  switch|p2a: Lugia|Lugia, L73|100/100
+-- turn 1
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Lycanroc|Stone Edge|p2a: Lugia
+  -supereffective|p2a: Lugia
+  -damage|p2a: Lugia|47/100
+  move|p2a: Lugia|Aeroblast|p1a: Lycanroc
+  -resisted|p1a: Lycanroc
+  -damage|p1a: Lycanroc|220/269
+-- turn 2
+  WE CHOSE: attack stoneedge - our hp 0.82, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p1a: Lycanroc|Stone Edge|p2a: Lugia
+  -supereffective|p2a: Lugia
+  -damage|p2a: Lugia|0 fnt
+  faint|p2a: Lugia
+  switch|p2a: Gumshoos|Gumshoos, L95, F|100/100
+-- turn 3
+  WE CHOSE: switch to giratinaorigin (hand policy: attack stoneedge) - our hp 0.82, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Giratina|Giratina-Origin, L72|335/335
+  move|p2a: Gumshoos|Double-Edge|p1a: Giratina
+  -immune|p1a: Giratina
+-- turn 4
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Draco Meteor|p2a: Gumshoos
+  -damage|p2a: Gumshoos|44/100
+  -unboost|p1a: Giratina|spa|2
+  move|p2a: Gumshoos|Double-Edge|p1a: Giratina
+  -immune|p1a: Giratina
+-- turn 5
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x0
+  move|p1a: Giratina|Draco Meteor|p2a: Gumshoos
+  -crit|p2a: Gumshoos
+  -damage|p2a: Gumshoos|0 fnt
+  -unboost|p1a: Giratina|spa|2
+  faint|p2a: Gumshoos
+  switch|p2a: Entei|Entei, L78|100/100
+-- turn 6
+  WE CHOSE: switch to lycanroc (hand policy: attack poltergeist) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Lycanroc|Lycanroc, L86, F|220/269
+  move|p2a: Entei|Flare Blitz|p1a: Lycanroc
+  -resisted|p1a: Lycanroc
+  -damage|p1a: Lycanroc|111/269
+  -damage|p2a: Entei|89/100|[from] Recoil
+-- turn 7
+  WE CHOSE: attack stoneedge - our hp 0.41, theirs 0.89, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to giratinaorigin - our hp 0.00, theirs 0.77, predicted move (revealed) hits us x0.5
+  move|p1a: Lycanroc|Stone Edge|p2a: Entei|[miss]
+  -miss|p1a: Lycanroc|p2a: Entei
+  move|p2a: Entei|Flare Blitz|p1a: Lycanroc
+  -resisted|p1a: Lycanroc
+  -damage|p1a: Lycanroc|0 fnt
+  faint|p1a: Lycanroc
+  -damage|p2a: Entei|77/100|[from] Recoil
+  switch|p1a: Giratina|Giratina-Origin, L72|335/335
+-- turn 8
+  WE CHOSE: attack shadowsneak (hand policy: attack+tera dracometeor) - our hp 1.00, theirs 0.77, predicted move (revealed) hits us x0.5
+  move|p1a: Giratina|Shadow Sneak|p2a: Entei
+  -damage|p2a: Entei|61/100
+  move|p2a: Entei|Flare Blitz|p1a: Giratina
+  -resisted|p1a: Giratina
+  -damage|p1a: Giratina|238/335
+  -damage|p2a: Entei|51/100|[from] Recoil
+-- turn 9
+  WE CHOSE: attack dracometeor (hand policy: attack+tera dracometeor) - our hp 0.71, theirs 0.51, predicted move (revealed) hits us x0.5
+  move|p2a: Entei|Flare Blitz|p1a: Giratina
+  -resisted|p1a: Giratina
+  -crit|p1a: Giratina
+  -damage|p1a: Giratina|76/335
+  -damage|p2a: Entei|33/100|[from] Recoil
+  move|p1a: Giratina|Draco Meteor|p2a: Entei|[miss]
+  -miss|p1a: Giratina|p2a: Entei
+-- turn 10
+  WE CHOSE: attack poltergeist (hand policy: attack+tera dracometeor) - our hp 0.23, theirs 0.33, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to victreebel (hand policy: forced: switch to mamoswine) - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x0.5
+  move|p2a: Entei|Flare Blitz|p1a: Giratina
+  -resisted|p1a: Giratina
+  -damage|p1a: Giratina|0 fnt
+  faint|p1a: Giratina
+  -damage|p2a: Entei|25/100|[from] Recoil
+  switch|p1a: Victreebel|Victreebel, L90, F|290/290
+-- turn 11
+  WE CHOSE: attack powerwhip (hand policy: attack sludgewave) - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to volbeat (hand policy: forced: switch to mamoswine) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x2
+  move|p2a: Entei|Flare Blitz|p1a: Victreebel
+  -supereffective|p1a: Victreebel
+  -damage|p1a: Victreebel|0 fnt
+  faint|p1a: Victreebel
+  -damage|p2a: Entei|0 fnt|[from] Recoil
+  faint|p2a: Entei
+  switch|p2a: Regirock|Regirock, L83|100/100
+  switch|p1a: Volbeat|Volbeat, L90, M|263/263
+-- turn 12
+  WE CHOSE: attack+tera uturn (hand policy: attack uturn) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to mamoswine - our hp 1.00, theirs 0.87, predicted move (guessed) hits us x1
+  -terastallize|p1a: Volbeat|Water
+  move|p1a: Volbeat|U-turn|p2a: Regirock
+  -damage|p2a: Regirock|87/100
+  switch|p1a: Mamoswine|Mamoswine, L81, F|311/311|[from] U-turn
+  move|p2a: Regirock|Stone Edge|p1a: Mamoswine
+  -damage|p1a: Mamoswine|199/311
+  -heal|p2a: Regirock|93/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 0.64, theirs 0.93, predicted move (revealed) hits us x1
+  move|p1a: Mamoswine|Earthquake|p2a: Regirock
+  -supereffective|p2a: Regirock
+  -damage|p2a: Regirock|16/100
+  move|p2a: Regirock|Stone Edge|p1a: Mamoswine
+  -damage|p1a: Mamoswine|70/311
+  -heal|p2a: Regirock|22/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 0.23, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Mamoswine|Earthquake|p2a: Regirock
+  -supereffective|p2a: Regirock
+  -damage|p2a: Regirock|0 fnt
+  faint|p2a: Regirock
+  switch|p2a: Basculin|Basculin, L86, F|100/100
+-- turn 15
+  WE CHOSE: switch to regigigas (hand policy: attack earthquake) - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Regigigas|Regigigas, L84|322/322
+  -start|p1a: Regigigas|ability: Slow Start
+  move|p2a: Basculin|Wave Crash|p1a: Regigigas
+  -damage|p1a: Regigigas|118/322
+  -damage|p2a: Basculin|75/100|[from] Recoil
+  -heal|p1a: Regigigas|138/322|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack bodyslam (hand policy: heal rest) - our hp 0.43, theirs 0.75, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p2a: Basculin|Wave Crash|p1a: Regigigas
+  -damage|p1a: Regigigas|0 fnt
+  faint|p1a: Regigigas
+  -end|p1a: Regigigas|Slow Start|[silent]
+  -damage|p2a: Basculin|57/100|[from] Recoil
+  switch|p1a: Volbeat|Volbeat, L90, M, tera:Water|263/263
+-- turn 17
+  WE CHOSE: heal roost (hand policy: attack uturn) - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Roost||[still]
+  -fail|p1a: Volbeat|heal
+  move|p2a: Basculin|Wave Crash|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|125/263
+  -damage|p2a: Basculin|40/100|[from] Recoil
+-- turn 18
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.48, theirs 0.40, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to mamoswine - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p2a: Basculin|Wave Crash|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|0 fnt
+  faint|p1a: Volbeat
+  -damage|p2a: Basculin|24/100|[from] Recoil
+  switch|p1a: Mamoswine|Mamoswine, L81, F|70/311
+-- turn 19
+  WE CHOSE: attack knockoff (hand policy: attack earthquake) - our hp 0.23, theirs 0.24, predicted move (revealed) hits us x2
+  move|p2a: Basculin|Wave Crash|p1a: Mamoswine
+  -supereffective|p1a: Mamoswine
+  -damage|p1a: Mamoswine|0 fnt
+  faint|p1a: Mamoswine
+  -damage|p2a: Basculin|15/100|[from] Recoil
+  deinit

@@ -1,0 +1,404 @@
+battle 172 (battle-gen9randombattle-2020002): lost in 46 turns, 2 of theirs left; we are p1
+
+ours:
+  espeon (fainted; item lifeorb, ability magicbounce; moves alluringvoice/morningsun/psychic/shadowball)
+  overqwil (fainted; item loadeddice, ability intimidate; moves gunkshot/scaleshot/crunch/swordsdance)
+  ursaring (fainted; item toxicorb, ability quickfeet; moves facade/swordsdance/throatchop/closecombat)
+  dondozo (fainted; item leftovers, ability unaware, tera fairy; moves curse/wavecrash/sleeptalk/rest)
+  hitmonchan (fainted; item leftovers, ability ironfist; moves rapidspin/knockoff/taunt/drainpunch)
+  noivern (fainted; item heavydutyboots, ability infiltrator; moves dracometeor/flamethrower/hurricane/roost)
+theirs (as seen):
+  victreebel (fainted; item unknown_item, ability ?; moves -)
+  oinkolognef (fainted; item leftovers, ability ?; moves doubleedge)
+  electivire (fainted; item unknown_item, ability ?; moves earthquake)
+  sneasler (fainted; item unknown_item, ability ?; moves closecombat)
+  milotic (8%; item leftovers, ability competitive; moves icebeam/scald)
+
+-- turn 0
+  switch|p1a: Espeon|Espeon, L84, M|246/246
+  switch|p2a: Victreebel|Victreebel, L90, M|100/100
+-- turn 1
+  WE CHOSE: attack psychic - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Espeon|Psychic|p2a: Victreebel
+  -supereffective|p2a: Victreebel
+  -damage|p2a: Victreebel|0 fnt
+  faint|p2a: Victreebel
+  -damage|p1a: Espeon|222/246|[from] item: Life Orb
+  switch|p2a: Oinkologne|Oinkologne-F, L91, F|100/100
+-- turn 2
+  WE CHOSE: attack psychic - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Espeon|Psychic|p2a: Oinkologne
+  -damage|p2a: Oinkologne|64/100
+  -damage|p1a: Espeon|198/246|[from] item: Life Orb
+  move|p2a: Oinkologne|Double-Edge|p1a: Espeon
+  -damage|p1a: Espeon|20/246
+  -damage|p2a: Oinkologne|48/100|[from] Recoil
+  -heal|p2a: Oinkologne|54/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: heal morningsun - our hp 0.08, theirs 0.54, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ursaring - our hp 0.00, theirs 0.47, predicted move (revealed) hits us x1
+  move|p1a: Espeon|Morning Sun|p1a: Espeon
+  -heal|p1a: Espeon|143/246
+  move|p2a: Oinkologne|Double-Edge|p1a: Espeon
+  -damage|p1a: Espeon|0 fnt
+  faint|p1a: Espeon
+  -damage|p2a: Oinkologne|41/100|[from] Recoil
+  -heal|p2a: Oinkologne|47/100|[from] item: Leftovers
+  switch|p1a: Ursaring|Ursaring, L84, F|288/288
+-- turn 4
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x1
+  move|p2a: Oinkologne|Double-Edge|p1a: Ursaring
+  -damage|p1a: Ursaring|135/288
+  -damage|p2a: Oinkologne|33/100|[from] Recoil
+  move|p1a: Ursaring|Close Combat|p2a: Oinkologne
+  -supereffective|p2a: Oinkologne
+  -damage|p2a: Oinkologne|0 fnt
+  -unboost|p1a: Ursaring|def|1
+  -unboost|p1a: Ursaring|spd|1
+  faint|p2a: Oinkologne
+  -status|p1a: Ursaring|tox|[from] item: Toxic Orb
+  switch|p2a: Electivire|Electivire, L84, M|100/100
+-- turn 5
+  WE CHOSE: switch to noivern - our hp 0.47, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Noivern|Noivern, L82, M|274/274
+  move|p2a: Electivire|Earthquake|p1a: Noivern
+  -immune|p1a: Noivern
+-- turn 6
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Noivern|Draco Meteor|p2a: Electivire|[miss]
+  -miss|p1a: Noivern|p2a: Electivire
+  move|p2a: Electivire|Earthquake|p1a: Noivern
+  -immune|p1a: Noivern
+-- turn 7
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Noivern|Draco Meteor|p2a: Electivire
+  -damage|p2a: Electivire|47/100
+  -unboost|p1a: Noivern|spa|2
+  move|p2a: Electivire|Earthquake|p1a: Noivern
+  -immune|p1a: Noivern
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x0
+  move|p1a: Noivern|Draco Meteor|p2a: Electivire
+  -damage|p2a: Electivire|21/100
+  -unboost|p1a: Noivern|spa|2
+  move|p2a: Electivire|Earthquake|p1a: Noivern
+  -immune|p1a: Noivern
+-- turn 9
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x0
+  move|p1a: Noivern|Draco Meteor|p2a: Electivire
+  -damage|p2a: Electivire|5/100
+  -unboost|p1a: Noivern|spa|2
+  move|p2a: Electivire|Earthquake|p1a: Noivern
+  -immune|p1a: Noivern
+-- turn 10
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.05, predicted move (revealed) hits us x0
+  move|p1a: Noivern|Draco Meteor|p2a: Electivire
+  -damage|p2a: Electivire|0 fnt
+  faint|p2a: Electivire
+  switch|p2a: Sneasler|Sneasler, L74, F|100/100
+-- turn 11
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Noivern|Hurricane|p2a: Sneasler|[miss]
+  -miss|p1a: Noivern|p2a: Sneasler
+  move|p2a: Sneasler|Close Combat|p1a: Noivern
+  -resisted|p1a: Noivern
+  -damage|p1a: Noivern|176/274
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+-- turn 12
+  WE CHOSE: attack hurricane - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Noivern|Hurricane|p2a: Sneasler
+  -supereffective|p2a: Sneasler
+  -damage|p2a: Sneasler|62/100
+  move|p2a: Sneasler|Close Combat|p1a: Noivern
+  -resisted|p1a: Noivern
+  -damage|p1a: Noivern|75/274
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.27, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p1a: Noivern|Roost|p1a: Noivern
+  -heal|p1a: Noivern|212/274
+  -singleturn|p1a: Noivern|move: Roost
+  move|p2a: Sneasler|Close Combat|p1a: Noivern
+  -damage|p1a: Noivern|2/274
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+-- turn 14
+  WE CHOSE: heal roost - our hp 0.01, theirs 0.62, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dondozo - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p1a: Noivern|Roost|p1a: Noivern
+  -heal|p1a: Noivern|139/274
+  -singleturn|p1a: Noivern|move: Roost
+  move|p2a: Sneasler|Close Combat|p1a: Noivern
+  -damage|p1a: Noivern|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Noivern
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362
+-- turn 15
+  WE CHOSE: attack+tera wavecrash - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x1
+  -terastallize|p1a: Dondozo|Fairy
+  move|p2a: Sneasler|Close Combat|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -crit|p1a: Dondozo
+  -damage|p1a: Dondozo|231/362
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  -status|p1a: Dondozo|psn|[from] ability: Poison Touch|[of] p2a: Sneasler
+  move|p1a: Dondozo|Wave Crash|p2a: Sneasler
+  -damage|p2a: Sneasler|0 fnt
+  faint|p2a: Sneasler
+  -damage|p1a: Dondozo|182/362 psn|[from] Recoil
+  -heal|p1a: Dondozo|204/362 psn|[from] item: Leftovers
+  -damage|p1a: Dondozo|159/362 psn|[from] psn
+  switch|p2a: Milotic|Milotic, L83, M|100/100
+-- turn 16
+  WE CHOSE: heal rest - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|76/362 psn
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+-- turn 17
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|278/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|300/362 slp|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack wavecrash - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|217/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|239/362 slp|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack wavecrash - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|156/362 slp
+  -curestatus|p1a: Dondozo|slp|[msg]
+  move|p1a: Dondozo|Wave Crash|p2a: Milotic
+  -resisted|p2a: Milotic
+  -damage|p2a: Milotic|79/100
+  -damage|p1a: Dondozo|135/362|[from] Recoil
+  -heal|p2a: Milotic|85/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|157/362|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal rest - our hp 0.43, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|73/362
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+  -heal|p2a: Milotic|91/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|270/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p2a: Milotic|97/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|292/362 slp|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack wavecrash - our hp 0.81, theirs 0.97, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|206/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p2a: Milotic|100/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|228/362 slp|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack wavecrash - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|139/362 slp
+  -curestatus|p1a: Dondozo|slp|[msg]
+  move|p1a: Dondozo|Wave Crash|p2a: Milotic
+  -resisted|p2a: Milotic
+  -damage|p2a: Milotic|78/100
+  -damage|p1a: Dondozo|117/362|[from] Recoil
+  -heal|p2a: Milotic|84/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|139/362|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: heal rest - our hp 0.38, theirs 0.84, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|56/362
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+  -heal|p2a: Milotic|90/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.90, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|281/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p2a: Milotic|96/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|303/362 slp|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack wavecrash - our hp 0.84, theirs 0.96, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -crit|p1a: Dondozo
+  -damage|p1a: Dondozo|168/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p2a: Milotic|100/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|190/362 slp|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack wavecrash - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|96/362 slp
+  -curestatus|p1a: Dondozo|slp|[msg]
+  move|p1a: Dondozo|Wave Crash|p2a: Milotic
+  -resisted|p2a: Milotic
+  -damage|p2a: Milotic|81/100
+  -damage|p1a: Dondozo|77/362|[from] Recoil
+  -heal|p2a: Milotic|87/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|99/362|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: heal rest - our hp 0.27, theirs 0.87, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|20/362
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+  -heal|p2a: Milotic|93/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.93, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|283/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p2a: Milotic|99/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|305/362 slp|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack wavecrash - our hp 0.84, theirs 0.99, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|222/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p2a: Milotic|100/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|244/362 slp|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack wavecrash - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Ice Beam|p1a: Dondozo
+  -damage|p1a: Dondozo|165/362 slp
+  -curestatus|p1a: Dondozo|slp|[msg]
+  move|p1a: Dondozo|Wave Crash|p2a: Milotic
+  -resisted|p2a: Milotic
+  -damage|p2a: Milotic|78/100
+  -damage|p1a: Dondozo|143/362|[from] Recoil
+  -heal|p2a: Milotic|84/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|165/362|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: heal rest - our hp 0.46, theirs 0.84, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Scald|p1a: Dondozo
+  -damage|p1a: Dondozo|42/362
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+  -heal|p2a: Milotic|90/100|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.90, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Scald|p1a: Dondozo
+  -damage|p1a: Dondozo|247/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p2a: Milotic|96/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|269/362 slp|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack wavecrash - our hp 0.74, theirs 0.96, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Scald|p1a: Dondozo
+  -damage|p1a: Dondozo|148/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p2a: Milotic|100/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|170/362 slp|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: heal rest - our hp 0.47, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Scald|p1a: Dondozo
+  -damage|p1a: Dondozo|61/362 slp
+  -curestatus|p1a: Dondozo|slp|[msg]
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+-- turn 36
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Scald|p1a: Dondozo
+  -damage|p1a: Dondozo|241/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|263/362 slp|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: attack wavecrash - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Scald|p1a: Dondozo
+  -damage|p1a: Dondozo|154/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|176/362 slp|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: heal rest - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Scald|p1a: Dondozo
+  -damage|p1a: Dondozo|67/362 slp
+  -curestatus|p1a: Dondozo|slp|[msg]
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+-- turn 39
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Scald|p1a: Dondozo
+  -damage|p1a: Dondozo|247/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|269/362 slp|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: attack wavecrash - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Scald|p1a: Dondozo
+  -crit|p1a: Dondozo
+  -damage|p1a: Dondozo|85/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|107/362 slp|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: heal rest - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to overqwil - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Scald|p1a: Dondozo
+  -damage|p1a: Dondozo|0 fnt
+  faint|p1a: Dondozo
+  switch|p1a: Overqwil|Overqwil, L82, F|274/274
+  -ability|p1a: Overqwil|Intimidate|boost
+  -unboost|p2a: Milotic|atk|1
+  -ability|p2a: Milotic|Competitive|boost
+  -boost|p2a: Milotic|spa|2
+-- turn 42
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Overqwil|Gunk Shot|p2a: Milotic|[miss]
+  -miss|p1a: Overqwil|p2a: Milotic
+  move|p2a: Milotic|Scald|p1a: Overqwil
+  -damage|p1a: Overqwil|70/274
+-- turn 43
+  WE CHOSE: attack gunkshot - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ursaring - our hp 0.00, theirs 0.59, predicted move (revealed) hits us x1
+  move|p1a: Overqwil|Gunk Shot|p2a: Milotic
+  -damage|p2a: Milotic|52/100
+  move|p2a: Milotic|Scald|p1a: Overqwil
+  -damage|p1a: Overqwil|0 fnt
+  faint|p1a: Overqwil
+  -heal|p2a: Milotic|59/100|[from] item: Leftovers
+  switch|p1a: Ursaring|Ursaring, L84, F|135/288 tox
+-- turn 44
+  WE CHOSE: attack closecombat - our hp 0.47, theirs 0.59, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hitmonchan - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Ursaring|Close Combat|p2a: Milotic
+  -damage|p2a: Milotic|17/100
+  -unboost|p1a: Ursaring|def|1
+  -unboost|p1a: Ursaring|spd|1
+  move|p2a: Milotic|Scald|p1a: Ursaring
+  -damage|p1a: Ursaring|0 fnt
+  faint|p1a: Ursaring
+  -heal|p2a: Milotic|23/100|[from] item: Leftovers
+  switch|p1a: Hitmonchan|Hitmonchan, L87, M|229/229
+-- turn 45
+  WE CHOSE: attack drainpunch - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Scald|p1a: Hitmonchan
+  -damage|p1a: Hitmonchan|100/229
+  -status|p1a: Hitmonchan|brn
+  move|p1a: Hitmonchan|Drain Punch|p2a: Milotic
+  -damage|p2a: Milotic|2/100
+  -heal|p1a: Hitmonchan|131/229 brn|[from] drain|[of] p2a: Milotic
+  -heal|p2a: Milotic|8/100|[from] item: Leftovers
+  -heal|p1a: Hitmonchan|145/229 brn|[from] item: Leftovers
+  -damage|p1a: Hitmonchan|131/229 brn|[from] brn
+-- turn 46
+  WE CHOSE: attack drainpunch - our hp 0.57, theirs 0.08, predicted move (revealed) hits us x1
+  move|p2a: Milotic|Scald|p1a: Hitmonchan
+  -damage|p1a: Hitmonchan|0 fnt
+  faint|p1a: Hitmonchan
+  deinit

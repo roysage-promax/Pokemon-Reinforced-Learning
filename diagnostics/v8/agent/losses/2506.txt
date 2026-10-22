@@ -1,0 +1,217 @@
+battle 2506 (battle-gen9randombattle-2044159): lost in 21 turns, 2 of theirs left; we are p1
+
+ours:
+  volcarona (fainted; item heavydutyboots, ability flamebody; moves fierydance/bugbuzz/quiverdance/gigadrain)
+  mukalola (fainted; item assaultvest, ability poisontouch; moves drainpunch/knockoff/gunkshot/shadowsneak)
+  magcargo (fainted; item heavydutyboots, ability flamebody; moves powergem/lavaplume/recover/stealthrock)
+  hariyama (fainted; item assaultvest, ability thickfat, tera steel; moves knockoff/heavyslam/bulletpunch/closecombat)
+  raikou (fainted; item heavydutyboots, ability pressure; moves thunderbolt/calmmind/voltswitch/scald)
+  avalugg (fainted; item heavydutyboots, ability sturdy; moves avalanche/rapidspin/bodypress/recover)
+theirs (as seen):
+  dragonite (fainted; item unknown_item, ability ?; moves outrage)
+  golduck (fainted; item unknown_item, ability cloudnine; moves hydropump)
+  houndstone (fainted; item ?, ability ?; moves poltergeist)
+  tentacruel (fainted; item unknown_item, ability liquidooze; moves sludgebomb)
+  taurospaldeacombat (100%; item unknown_item, ability intimidate; moves closecombat)
+
+-- turn 0
+  switch|p1a: Volcarona|Volcarona, L77, M|257/257
+  switch|p2a: Dragonite|Dragonite, L74, M|100/100
+-- turn 1
+  WE CHOSE: switch to avalugg (hand policy: attack bugbuzz) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Avalugg|Avalugg, L88, F|310/310
+  move|p2a: Dragonite|Outrage|p1a: Avalugg
+  -damage|p1a: Avalugg|243/310
+-- turn 2
+  WE CHOSE: attack avalanche - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dragonite|Outrage|p1a: Avalugg|[from] lockedmove
+  -damage|p1a: Avalugg|182/310
+  -start|p2a: Dragonite|confusion|[fatigue]
+  move|p1a: Avalugg|Avalanche|p2a: Dragonite
+  -supereffective|p2a: Dragonite
+  -damage|p2a: Dragonite|0 fnt
+  faint|p2a: Dragonite
+  switch|p2a: Golduck|Golduck, L90, F|100/100
+  -ability|p2a: Golduck|Cloud Nine
+-- turn 3
+  WE CHOSE: switch to raikou (hand policy: attack+tera bodypress) - our hp 0.59, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Raikou|Raikou, L81|278/278
+  -ability|p1a: Raikou|Pressure
+  move|p2a: Golduck|Hydro Pump|p1a: Raikou
+  -damage|p1a: Raikou|95/278
+-- turn 4
+  WE CHOSE: attack voltswitch (hand policy: attack+tera thunderbolt) - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hariyama - our hp 0.34, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Raikou|Volt Switch|p2a: Golduck
+  -supereffective|p2a: Golduck
+  -damage|p2a: Golduck|43/100
+  switch|p1a: Hariyama|Hariyama, L87, F|392/392|[from] Volt Switch
+  move|p2a: Golduck|Hydro Pump|p1a: Hariyama
+  -damage|p1a: Hariyama|229/392
+-- turn 5
+  WE CHOSE: attack closecombat - our hp 0.58, theirs 0.43, predicted move (revealed) hits us x1
+  move|p2a: Golduck|Hydro Pump|p1a: Hariyama|[miss]
+  -miss|p2a: Golduck|p1a: Hariyama
+  move|p1a: Hariyama|Close Combat|p2a: Golduck
+  -damage|p2a: Golduck|0 fnt
+  -unboost|p1a: Hariyama|def|1
+  -unboost|p1a: Hariyama|spd|1
+  faint|p2a: Golduck
+  switch|p2a: Houndstone|Houndstone, L86, M|100/100
+-- turn 6
+  WE CHOSE: switch to mukalola (hand policy: attack knockoff) - our hp 0.58, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Muk|Muk-Alola, L82, M|306/306
+  move|p2a: Houndstone|Poltergeist|p1a: Muk
+  -activate|p1a: Muk|move: Poltergeist|Assault Vest
+  -resisted|p1a: Muk
+  -damage|p1a: Muk|198/306
+-- turn 7
+  WE CHOSE: attack knockoff - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Houndstone|Poltergeist|p1a: Muk
+  -activate|p1a: Muk|move: Poltergeist|Assault Vest
+  -resisted|p1a: Muk
+  -damage|p1a: Muk|90/306
+  move|p1a: Muk|Knock Off|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|64/100
+  -enditem|p2a: Houndstone|Choice Band|[from] move: Knock Off|[of] p1a: Muk
+-- turn 8
+  WE CHOSE: attack knockoff - our hp 0.29, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p2a: Houndstone|Poltergeist|p1a: Muk
+  -activate|p1a: Muk|move: Poltergeist|Assault Vest
+  -resisted|p1a: Muk
+  -damage|p1a: Muk|16/306
+  move|p1a: Muk|Knock Off|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|40/100
+  -status|p2a: Houndstone|psn|[from] ability: Poison Touch|[of] p1a: Muk
+  -damage|p2a: Houndstone|27/100 psn|[from] psn
+-- turn 9
+  WE CHOSE: attack knockoff - our hp 0.05, theirs 0.27, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to raikou - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p2a: Houndstone|Poltergeist|p1a: Muk
+  -activate|p1a: Muk|move: Poltergeist|Assault Vest
+  -resisted|p1a: Muk
+  -damage|p1a: Muk|0 fnt
+  faint|p1a: Muk
+  -damage|p2a: Houndstone|15/100 psn|[from] psn
+  switch|p1a: Raikou|Raikou, L81|95/278
+  -ability|p1a: Raikou|Pressure
+-- turn 10
+  WE CHOSE: attack voltswitch (hand policy: attack+tera thunderbolt) - our hp 0.34, theirs 0.15, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to volcarona (hand policy: forced: switch to hariyama) - our hp 0.34, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Raikou|Volt Switch|p2a: Houndstone
+  -damage|p2a: Houndstone|0 fnt
+  faint|p2a: Houndstone
+  switch|p1a: Volcarona|Volcarona, L77, M|257/257|[from] Volt Switch
+  switch|p2a: Tentacruel|Tentacruel, L84, M|100/100
+-- turn 11
+  WE CHOSE: setup quiverdance (hand policy: attack gigadrain) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Volcarona
+  -damage|p1a: Volcarona|178/257
+  move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+  -boost|p1a: Volcarona|spa|1
+  -boost|p1a: Volcarona|spd|1
+  -boost|p1a: Volcarona|spe|1
+-- turn 12
+  WE CHOSE: setup quiverdance (hand policy: attack gigadrain) - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+  -boost|p1a: Volcarona|spa|1
+  -boost|p1a: Volcarona|spd|1
+  -boost|p1a: Volcarona|spe|1
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Volcarona
+  -damage|p1a: Volcarona|138/257
+-- turn 13
+  WE CHOSE: setup quiverdance (hand policy: attack gigadrain) - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+  -boost|p1a: Volcarona|spa|1
+  -boost|p1a: Volcarona|spd|1
+  -boost|p1a: Volcarona|spe|1
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Volcarona
+  -damage|p1a: Volcarona|108/257
+  -status|p1a: Volcarona|psn
+  -damage|p1a: Volcarona|76/257 psn|[from] psn
+-- turn 14
+  WE CHOSE: setup quiverdance (hand policy: attack gigadrain) - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+  -boost|p1a: Volcarona|spa|1
+  -boost|p1a: Volcarona|spd|1
+  -boost|p1a: Volcarona|spe|1
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Volcarona
+  -damage|p1a: Volcarona|48/257 psn
+  -damage|p1a: Volcarona|16/257 psn|[from] psn
+-- turn 15
+  WE CHOSE: attack gigadrain - our hp 0.06, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hariyama (hand policy: forced: switch to raikou) - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Volcarona|Giga Drain|p2a: Tentacruel
+  -damage|p2a: Tentacruel|64/100
+  -damage|p1a: Volcarona|0 fnt|[from] ability: Liquid Ooze|[of] p2a: Tentacruel
+  faint|p1a: Volcarona
+  move|p2a: Tentacruel|Sludge Bomb|p1: Volcarona|[notarget]
+  -fail|p2a: Tentacruel
+  switch|p1a: Hariyama|Hariyama, L87, F|229/392
+-- turn 16
+  WE CHOSE: attack+tera closecombat - our hp 0.58, theirs 0.64, predicted move (revealed) hits us x1
+  -terastallize|p1a: Hariyama|Steel
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Hariyama
+  -immune|p1a: Hariyama
+  move|p1a: Hariyama|Close Combat|p2a: Tentacruel
+  -resisted|p2a: Tentacruel
+  -damage|p2a: Tentacruel|25/100
+  -unboost|p1a: Hariyama|def|1
+  -unboost|p1a: Hariyama|spd|1
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 0.58, theirs 0.25, predicted move (revealed) hits us x0
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Hariyama
+  -immune|p1a: Hariyama
+  move|p1a: Hariyama|Close Combat|p2a: Tentacruel
+  -resisted|p2a: Tentacruel
+  -damage|p2a: Tentacruel|0 fnt
+  -unboost|p1a: Hariyama|def|1
+  -unboost|p1a: Hariyama|spd|1
+  faint|p2a: Tentacruel
+  switch|p2a: Tauros|Tauros-Paldea-Combat, L82, M|100/100
+  -ability|p2a: Tauros|Intimidate|boost
+  -unboost|p1a: Hariyama|atk|1
+-- turn 18
+  WE CHOSE: attack heavyslam (hand policy: attack closecombat) - our hp 0.58, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to raikou - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Tauros|Close Combat|p1a: Hariyama
+  -supereffective|p1a: Hariyama
+  -damage|p1a: Hariyama|0 fnt
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  faint|p1a: Hariyama
+  switch|p1a: Raikou|Raikou, L81|95/278
+  -ability|p1a: Raikou|Pressure
+-- turn 19
+  WE CHOSE: setup calmmind (hand policy: attack thunderbolt) - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to magcargo - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Raikou|Calm Mind|p1a: Raikou
+  -boost|p1a: Raikou|spa|1
+  -boost|p1a: Raikou|spd|1
+  move|p2a: Tauros|Close Combat|p1a: Raikou
+  -damage|p1a: Raikou|0 fnt
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  faint|p1a: Raikou
+  switch|p1a: Magcargo|Magcargo, L95, F|268/268
+-- turn 20
+  WE CHOSE: attack lavaplume - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to avalugg - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Tauros|Close Combat|p1a: Magcargo
+  -supereffective|p1a: Magcargo
+  -damage|p1a: Magcargo|0 fnt
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  faint|p1a: Magcargo
+  switch|p1a: Avalugg|Avalugg, L88, F|182/310
+-- turn 21
+  WE CHOSE: heal recover (hand policy: attack bodypress) - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Tauros|Close Combat|p1a: Avalugg
+  -supereffective|p1a: Avalugg
+  -damage|p1a: Avalugg|0 fnt
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  faint|p1a: Avalugg
+  deinit

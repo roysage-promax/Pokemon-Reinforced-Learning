@@ -1,0 +1,450 @@
+battle 2910 (battle-gen9randombattle-2045825): lost in 49 turns, 1 of theirs left; we are p1
+
+ours:
+  screamtail (fainted; item leftovers, ability protosynthesis, tera poison; moves thunderwave/wish/protect/dazzlinggleam)
+  deoxysspeed (fainted; item leftovers, ability pressure; moves superpower/taunt/spikes/psychoboost)
+  torterra (fainted; item loadeddice, ability overgrow; moves bulletseed/shellsmash/rockblast/headlongrush)
+  regirock (fainted; item ?, ability clearbody; moves bodypress/irondefense/rest/stoneedge)
+  dragalge (fainted; item choicespecs, ability adaptability; moves dracometeor/flipturn/sludgewave/focusblast)
+  oricoriosensu (fainted; item heavydutyboots, ability dancer; moves revelationdance/quiverdance/hurricane/roost)
+theirs (as seen):
+  decidueyehisui (fainted; item leftovers, ability ?; moves triplearrows)
+  ironcrown (fainted; item leftovers, ability quarkdrive; moves focusblast/psyshock)
+  pecharunt (fainted; item leftovers, ability poisonpuppeteer; moves malignantchain)
+  floatzel (fainted; item unknown_item, ability ?; moves wavecrash)
+  mausholdfour (fainted; item unknown_item, ability ?; moves bite)
+  diancie (89%; item leftovers, ability clearbody; moves diamondstorm/moonblast)
+
+-- turn 0
+  switch|p1a: Scream Tail|Scream Tail, L84|330/330
+  switch|p2a: Decidueye|Decidueye-Hisui, L87, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera dazzlinggleam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Scream Tail|Poison
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Decidueye
+  -supereffective|p2a: Decidueye
+  -damage|p2a: Decidueye|63/100
+  move|p2a: Decidueye|Triple Arrows|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|282/330
+  -unboost|p1a: Scream Tail|def|1
+  -heal|p1a: Scream Tail|302/330|[from] item: Leftovers
+  -heal|p2a: Decidueye|69/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack dazzlinggleam - our hp 0.92, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Decidueye
+  -supereffective|p2a: Decidueye
+  -damage|p2a: Decidueye|29/100
+  move|p2a: Decidueye|Triple Arrows|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|228/330
+  -heal|p1a: Scream Tail|248/330|[from] item: Leftovers
+  -heal|p2a: Decidueye|35/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack dazzlinggleam - our hp 0.75, theirs 0.35, predicted move (revealed) hits us x0.5
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Decidueye
+  -supereffective|p2a: Decidueye
+  -damage|p2a: Decidueye|0 fnt
+  faint|p2a: Decidueye
+  -heal|p1a: Scream Tail|268/330|[from] item: Leftovers
+  switch|p2a: Iron Crown|Iron Crown, L78|100/100
+-- turn 4
+  WE CHOSE: attack dazzlinggleam - our hp 0.81, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Iron Crown
+  -resisted|p2a: Iron Crown
+  -damage|p2a: Iron Crown|90/100
+  move|p2a: Iron Crown|Focus Blast|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|235/330
+  -heal|p1a: Scream Tail|255/330|[from] item: Leftovers
+  -heal|p2a: Iron Crown|96/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack dazzlinggleam - our hp 0.77, theirs 0.96, predicted move (revealed) hits us x0.5
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Iron Crown
+  -resisted|p2a: Iron Crown
+  -damage|p2a: Iron Crown|84/100
+  move|p2a: Iron Crown|Focus Blast|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|220/330
+  -heal|p1a: Scream Tail|240/330|[from] item: Leftovers
+  -heal|p2a: Iron Crown|90/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack dazzlinggleam - our hp 0.73, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Iron Crown
+  -resisted|p2a: Iron Crown
+  -damage|p2a: Iron Crown|80/100
+  move|p2a: Iron Crown|Focus Blast|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|203/330
+  -heal|p1a: Scream Tail|223/330|[from] item: Leftovers
+  -heal|p2a: Iron Crown|86/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack dazzlinggleam - our hp 0.68, theirs 0.86, predicted move (revealed) hits us x0.5
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Iron Crown
+  -resisted|p2a: Iron Crown
+  -damage|p2a: Iron Crown|76/100
+  move|p2a: Iron Crown|Focus Blast|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|188/330
+  -heal|p1a: Scream Tail|208/330|[from] item: Leftovers
+  -heal|p2a: Iron Crown|82/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack dazzlinggleam - our hp 0.63, theirs 0.82, predicted move (revealed) hits us x0.5
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Iron Crown
+  -resisted|p2a: Iron Crown
+  -damage|p2a: Iron Crown|71/100
+  move|p2a: Iron Crown|Focus Blast|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|171/330
+  -unboost|p1a: Scream Tail|spd|1
+  -heal|p1a: Scream Tail|191/330|[from] item: Leftovers
+  -heal|p2a: Iron Crown|77/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack dazzlinggleam - our hp 0.58, theirs 0.77, predicted move (revealed) hits us x0.5
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Iron Crown
+  -resisted|p2a: Iron Crown
+  -damage|p2a: Iron Crown|67/100
+  move|p2a: Iron Crown|Focus Blast|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|137/330
+  -heal|p1a: Scream Tail|157/330|[from] item: Leftovers
+  -heal|p2a: Iron Crown|73/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack dazzlinggleam - our hp 0.48, theirs 0.73, predicted move (revealed) hits us x0.5
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Iron Crown
+  -resisted|p2a: Iron Crown
+  -damage|p2a: Iron Crown|62/100
+  move|p2a: Iron Crown|Focus Blast|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|100/330
+  -heal|p1a: Scream Tail|120/330|[from] item: Leftovers
+  -heal|p2a: Iron Crown|68/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack dazzlinggleam - our hp 0.36, theirs 0.68, predicted move (revealed) hits us x0.5
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Iron Crown
+  -resisted|p2a: Iron Crown
+  -damage|p2a: Iron Crown|56/100
+  move|p2a: Iron Crown|Focus Blast|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|67/330
+  -heal|p1a: Scream Tail|87/330|[from] item: Leftovers
+  -heal|p2a: Iron Crown|62/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack dazzlinggleam - our hp 0.26, theirs 0.62, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to torterra - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x0.5
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Iron Crown
+  -resisted|p2a: Iron Crown
+  -crit|p2a: Iron Crown
+  -damage|p2a: Iron Crown|44/100
+  move|p2a: Iron Crown|Psyshock|p1a: Scream Tail
+  -supereffective|p1a: Scream Tail
+  -damage|p1a: Scream Tail|0 fnt
+  faint|p1a: Scream Tail
+  -end|p1a: Scream Tail|Protosynthesis|[silent]
+  -heal|p2a: Iron Crown|50/100|[from] item: Leftovers
+  switch|p1a: Torterra|Torterra, L78, M|276/276
+-- turn 13
+  WE CHOSE: switch to oricoriosensu - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x1
+  switch|p1a: Oricorio|Oricorio-Sensu, L85, M|266/266
+  move|p2a: Iron Crown|Psyshock|p1a: Oricorio
+  -damage|p1a: Oricorio|166/266
+  -heal|p2a: Iron Crown|56/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: setup quiverdance - our hp 0.62, theirs 0.56, predicted move (revealed) hits us x0
+  move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+  -boost|p1a: Oricorio|spa|1
+  -boost|p1a: Oricorio|spd|1
+  -boost|p1a: Oricorio|spe|1
+  move|p2a: Iron Crown|Psyshock|p1a: Oricorio
+  -damage|p1a: Oricorio|66/266
+  -heal|p2a: Iron Crown|62/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal roost - our hp 0.25, theirs 0.62, predicted move (revealed) hits us x0
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|199/266
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Iron Crown|Psyshock|p1a: Oricorio
+  -damage|p1a: Oricorio|96/266
+  -heal|p2a: Iron Crown|68/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: heal roost - our hp 0.36, theirs 0.68, predicted move (revealed) hits us x0
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|229/266
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Iron Crown|Psyshock|p1a: Oricorio
+  -damage|p1a: Oricorio|135/266
+  -heal|p2a: Iron Crown|74/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: setup quiverdance - our hp 0.51, theirs 0.74, predicted move (revealed) hits us x0
+  move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+  -boost|p1a: Oricorio|spa|1
+  -boost|p1a: Oricorio|spd|1
+  -boost|p1a: Oricorio|spe|1
+  move|p2a: Iron Crown|Psyshock|p1a: Oricorio
+  -damage|p1a: Oricorio|41/266
+  -heal|p2a: Iron Crown|80/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: heal roost - our hp 0.15, theirs 0.80, predicted move (revealed) hits us x0
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|174/266
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Iron Crown|Psyshock|p1a: Oricorio
+  -damage|p1a: Oricorio|72/266
+  -heal|p2a: Iron Crown|86/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: heal roost - our hp 0.27, theirs 0.86, predicted move (revealed) hits us x0
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|205/266
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Iron Crown|Psyshock|p1a: Oricorio
+  -damage|p1a: Oricorio|99/266
+  -heal|p2a: Iron Crown|92/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal roost - our hp 0.37, theirs 0.92, predicted move (revealed) hits us x0
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|232/266
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Iron Crown|Psyshock|p1a: Oricorio
+  -damage|p1a: Oricorio|138/266
+  -heal|p2a: Iron Crown|98/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: setup quiverdance - our hp 0.52, theirs 0.98, predicted move (revealed) hits us x0
+  move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+  -boost|p1a: Oricorio|spa|1
+  -boost|p1a: Oricorio|spd|1
+  -boost|p1a: Oricorio|spe|1
+  move|p2a: Iron Crown|Psyshock|p1a: Oricorio
+  -damage|p1a: Oricorio|27/266
+  -heal|p2a: Iron Crown|100/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal roost - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|160/266
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Iron Crown|Psyshock|p1a: Oricorio
+  -damage|p1a: Oricorio|49/266
+-- turn 23
+  WE CHOSE: heal roost - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|182/266
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Iron Crown|Psyshock|p1a: Oricorio
+  -damage|p1a: Oricorio|71/266
+-- turn 24
+  WE CHOSE: heal roost - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|204/266
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Iron Crown|Psyshock|p1a: Oricorio
+  -damage|p1a: Oricorio|93/266
+-- turn 25
+  WE CHOSE: attack hurricane - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to torterra - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x0
+  move|p1a: Oricorio|Hurricane|p2a: Iron Crown
+  -resisted|p2a: Iron Crown
+  -damage|p2a: Iron Crown|45/100
+  -start|p2a: Iron Crown|confusion
+  -activate|p2a: Iron Crown|confusion
+  move|p2a: Iron Crown|Psyshock|p1a: Oricorio
+  -damage|p1a: Oricorio|0 fnt
+  faint|p1a: Oricorio
+  -heal|p2a: Iron Crown|50/100|[from] item: Leftovers
+  switch|p1a: Torterra|Torterra, L78, M|276/276
+-- turn 26
+  WE CHOSE: attack headlongrush - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x1
+  -activate|p2a: Iron Crown|confusion
+  move|p2a: Iron Crown|Psyshock|p1a: Torterra
+  -damage|p1a: Torterra|185/276
+  move|p1a: Torterra|Headlong Rush|p2a: Iron Crown
+  -supereffective|p2a: Iron Crown
+  -damage|p2a: Iron Crown|0 fnt
+  -unboost|p1a: Torterra|def|1
+  -unboost|p1a: Torterra|spd|1
+  faint|p2a: Iron Crown
+  -end|p2a: Iron Crown|Quark Drive|[silent]
+  switch|p2a: Pecharunt|Pecharunt, L77|100/100
+-- turn 27
+  WE CHOSE: attack headlongrush - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Pecharunt|Malignant Chain|p1a: Torterra
+  -damage|p1a: Torterra|50/276
+  move|p1a: Torterra|Headlong Rush|p2a: Pecharunt
+  -supereffective|p2a: Pecharunt
+  -damage|p2a: Pecharunt|36/100
+  -unboost|p1a: Torterra|def|1
+  -unboost|p1a: Torterra|spd|1
+  -heal|p2a: Pecharunt|42/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack headlongrush - our hp 0.18, theirs 0.42, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to deoxysspeed - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Pecharunt|Malignant Chain|p1a: Torterra
+  -damage|p1a: Torterra|0 fnt
+  faint|p1a: Torterra
+  -heal|p2a: Pecharunt|48/100|[from] item: Leftovers
+  switch|p1a: Deoxys|Deoxys-Speed, L82|216/216
+  -ability|p1a: Deoxys|Pressure
+-- turn 29
+  WE CHOSE: attack psychoboost - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Pecharunt|[miss]
+  -miss|p1a: Deoxys|p2a: Pecharunt
+  move|p2a: Pecharunt|Malignant Chain|p1a: Deoxys
+  -damage|p1a: Deoxys|129/216
+  -heal|p1a: Deoxys|142/216|[from] item: Leftovers
+  -heal|p2a: Pecharunt|54/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack psychoboost - our hp 0.66, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Pecharunt
+  -supereffective|p2a: Pecharunt
+  -damage|p2a: Pecharunt|0 fnt
+  -unboost|p1a: Deoxys|spa|2
+  faint|p2a: Pecharunt
+  -heal|p1a: Deoxys|155/216|[from] item: Leftovers
+  switch|p2a: Floatzel|Floatzel, L86, M|100/100
+-- turn 31
+  WE CHOSE: attack superpower - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dragalge - our hp 0.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Superpower|p2a: Floatzel
+  -crit|p2a: Floatzel
+  -damage|p2a: Floatzel|39/100
+  -unboost|p1a: Deoxys|atk|1
+  -unboost|p1a: Deoxys|def|1
+  move|p2a: Floatzel|Wave Crash|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  faint|p1a: Deoxys
+  -damage|p2a: Floatzel|21/100|[from] Recoil
+  switch|p1a: Dragalge|Dragalge, L88, M|258/258
+-- turn 32
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x0.5
+  move|p2a: Floatzel|Wave Crash|p1a: Dragalge
+  -resisted|p1a: Dragalge
+  -damage|p1a: Dragalge|157/258
+  -damage|p2a: Floatzel|10/100|[from] Recoil
+  move|p1a: Dragalge|Draco Meteor|p2a: Floatzel
+  -damage|p2a: Floatzel|0 fnt
+  -unboost|p1a: Dragalge|spa|2
+  faint|p2a: Floatzel
+  switch|p2a: Maushold|Maushold-Four, L76|100/100
+-- turn 33
+  WE CHOSE: attack dracometeor - our hp 0.61, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Maushold|Bite|p1a: Dragalge
+  -damage|p1a: Dragalge|119/258
+  move|p1a: Dragalge|Draco Meteor|p2a: Maushold
+  -damage|p2a: Maushold|16/100
+  -unboost|p1a: Dragalge|spa|2
+-- turn 34
+  WE CHOSE: attack dracometeor - our hp 0.46, theirs 0.16, predicted move (revealed) hits us x1
+  move|p2a: Maushold|Bite|p1a: Dragalge
+  -damage|p1a: Dragalge|79/258
+  cant|p1a: Dragalge|flinch
+-- turn 35
+  WE CHOSE: attack dracometeor - our hp 0.31, theirs 0.16, predicted move (revealed) hits us x1
+  move|p2a: Maushold|Bite|p1a: Dragalge
+  -damage|p1a: Dragalge|39/258
+  move|p1a: Dragalge|Draco Meteor|p2a: Maushold
+  -damage|p2a: Maushold|0 fnt
+  -unboost|p1a: Dragalge|spa|2
+  faint|p2a: Maushold
+  switch|p2a: Diancie|Diancie, L82|100/100
+-- turn 36
+  WE CHOSE: attack dracometeor - our hp 0.15, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to regirock - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Diancie|Diamond Storm|p1a: Dragalge
+  -damage|p1a: Dragalge|0 fnt
+  -boost|p2a: Diancie|def|2
+  faint|p1a: Dragalge
+  switch|p1a: Regirock|Regirock, L83|268/268
+-- turn 37
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Regirock|Body Press|p2a: Diancie
+  -damage|p2a: Diancie|84/100
+  move|p2a: Diancie|Diamond Storm|p1a: Regirock
+  -damage|p1a: Regirock|217/268
+  -heal|p2a: Diancie|90/100|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: attack bodypress - our hp 0.81, theirs 0.90, predicted move (revealed) hits us x1
+  move|p1a: Regirock|Body Press|p2a: Diancie
+  -damage|p2a: Diancie|75/100
+  move|p2a: Diancie|Diamond Storm|p1a: Regirock
+  -damage|p1a: Regirock|166/268
+  -heal|p2a: Diancie|81/100|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack bodypress - our hp 0.62, theirs 0.81, predicted move (revealed) hits us x1
+  move|p1a: Regirock|Body Press|p2a: Diancie
+  -damage|p2a: Diancie|65/100
+  move|p2a: Diancie|Diamond Storm|p1a: Regirock|[miss]
+  -miss|p2a: Diancie|p1a: Regirock
+  -heal|p2a: Diancie|71/100|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: attack bodypress - our hp 0.62, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Regirock|Body Press|p2a: Diancie
+  -damage|p2a: Diancie|55/100
+  move|p2a: Diancie|Diamond Storm|p1a: Regirock
+  -damage|p1a: Regirock|112/268
+  -heal|p2a: Diancie|61/100|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: heal rest - our hp 0.42, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Regirock|Rest|p1a: Regirock
+  -status|p1a: Regirock|slp|[from] move: Rest
+  -heal|p1a: Regirock|268/268 slp|[silent]
+  -enditem|p1a: Regirock|Chesto Berry|[eat]
+  -curestatus|p1a: Regirock|slp|[msg]
+  move|p2a: Diancie|Diamond Storm|p1a: Regirock
+  -damage|p1a: Regirock|219/268
+  -boost|p2a: Diancie|def|2
+  -heal|p2a: Diancie|67/100|[from] item: Leftovers
+-- turn 42
+  WE CHOSE: attack bodypress - our hp 0.82, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Regirock|Body Press|p2a: Diancie
+  -damage|p2a: Diancie|55/100
+  move|p2a: Diancie|Diamond Storm|p1a: Regirock
+  -damage|p1a: Regirock|170/268
+  -boost|p2a: Diancie|def|2
+  -heal|p2a: Diancie|61/100|[from] item: Leftovers
+-- turn 43
+  WE CHOSE: attack bodypress - our hp 0.63, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Regirock|Body Press|p2a: Diancie
+  -damage|p2a: Diancie|53/100
+  move|p2a: Diancie|Diamond Storm|p1a: Regirock
+  -damage|p1a: Regirock|118/268
+  -heal|p2a: Diancie|59/100|[from] item: Leftovers
+-- turn 44
+  WE CHOSE: heal rest - our hp 0.44, theirs 0.59, predicted move (revealed) hits us x1
+  move|p1a: Regirock|Rest|p1a: Regirock
+  -status|p1a: Regirock|slp|[from] move: Rest
+  -heal|p1a: Regirock|268/268 slp|[silent]
+  move|p2a: Diancie|Moonblast|p1a: Regirock
+  -damage|p1a: Regirock|172/268 slp
+  -heal|p2a: Diancie|65/100|[from] item: Leftovers
+-- turn 45
+  WE CHOSE: attack bodypress - our hp 0.64, theirs 0.65, predicted move (revealed) hits us x1
+  cant|p1a: Regirock|slp
+  move|p2a: Diancie|Moonblast|p1a: Regirock
+  -damage|p1a: Regirock|88/268 slp
+  -heal|p2a: Diancie|71/100|[from] item: Leftovers
+-- turn 46
+  WE CHOSE: heal rest - our hp 0.33, theirs 0.71, predicted move (revealed) hits us x1
+  cant|p1a: Regirock|slp
+  move|p2a: Diancie|Moonblast|p1a: Regirock
+  -damage|p1a: Regirock|4/268 slp
+  -heal|p2a: Diancie|77/100|[from] item: Leftovers
+-- turn 47
+  WE CHOSE: heal rest - our hp 0.01, theirs 0.77, predicted move (revealed) hits us x1
+  -curestatus|p1a: Regirock|slp|[msg]
+  move|p1a: Regirock|Rest|p1a: Regirock
+  -status|p1a: Regirock|slp|[from] move: Rest
+  -heal|p1a: Regirock|268/268 slp|[silent]
+  move|p2a: Diancie|Moonblast|p1a: Regirock
+  -damage|p1a: Regirock|175/268 slp
+  -heal|p2a: Diancie|83/100|[from] item: Leftovers
+-- turn 48
+  WE CHOSE: attack bodypress - our hp 0.65, theirs 0.83, predicted move (revealed) hits us x1
+  cant|p1a: Regirock|slp
+  move|p2a: Diancie|Moonblast|p1a: Regirock
+  -damage|p1a: Regirock|81/268 slp
+  -heal|p2a: Diancie|89/100|[from] item: Leftovers
+-- turn 49
+  WE CHOSE: heal rest - our hp 0.30, theirs 0.89, predicted move (revealed) hits us x1
+  cant|p1a: Regirock|slp
+  move|p2a: Diancie|Moonblast|p1a: Regirock
+  -damage|p1a: Regirock|0 fnt
+  faint|p1a: Regirock
+  deinit

@@ -1,0 +1,369 @@
+battle 2658 (battle-gen9randombattle-2045716): lost in 47 turns, 3 of theirs left; we are p1
+
+ours:
+  gastrodoneast (fainted; item leftovers, ability stormdrain; moves recover/earthquake/surf/stealthrock)
+  koraidon (fainted; item choiceband, ability orichalcumpulse; moves closecombat/uturn/outrage/flareblitz)
+  dunsparce (fainted; item eviolite, ability serenegrace; moves coil/bodyslam/earthquake/roost)
+  mienshao (fainted; item lifeorb, ability regenerator, tera dark; moves poisonjab/swordsdance/knockoff/closecombat)
+  toedscruel (fainted; item leftovers, ability myceliummight; moves earthpower/leafstorm/toxic/rapidspin)
+  golemalola (fainted; item lifeorb, ability galvanize; moves stoneedge/rockpolish/earthquake/doubleedge)
+theirs (as seen):
+  garganacl (fainted; item leftovers, ability ?; moves earthquake)
+  drifblim (fainted; item ?, ability aftermath; moves shadowball/airslash)
+  inteleon (fainted; item unknown_item, ability ?; moves hydropump)
+  passimian (100%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Gastrodon|Gastrodon-East, L86, M|331/331
+  switch|p2a: Garganacl|Garganacl, L80, M|100/100
+-- turn 1
+  WE CHOSE: switch to toedscruel (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Toedscruel|Toedscruel, L87, F|281/281
+  move|p2a: Garganacl|Earthquake|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|245/281
+  -heal|p1a: Toedscruel|262/281|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack leafstorm - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Leaf Storm|p2a: Garganacl
+  -supereffective|p2a: Garganacl
+  -damage|p2a: Garganacl|6/100
+  -unboost|p1a: Toedscruel|spa|2
+  move|p2a: Garganacl|Earthquake|p1a: Toedscruel
+  -resisted|p1a: Toedscruel
+  -damage|p1a: Toedscruel|225/281
+  -heal|p1a: Toedscruel|242/281|[from] item: Leftovers
+  -heal|p2a: Garganacl|12/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack leafstorm - our hp 0.86, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Toedscruel|Leaf Storm|p2a: Garganacl
+  -supereffective|p2a: Garganacl
+  -damage|p2a: Garganacl|0 fnt
+  -unboost|p1a: Toedscruel|spa|2
+  faint|p2a: Garganacl
+  -heal|p1a: Toedscruel|259/281|[from] item: Leftovers
+  switch|p2a: Drifblim|Drifblim, L86, F|100/100
+-- turn 4
+  WE CHOSE: switch to dunsparce - our hp 0.92, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dunsparce|Dunsparce, L86, M|312/312
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+-- turn 5
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 6
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 7
+  WE CHOSE: switch to golemalola (hand policy: setup coil) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Golem|Golem-Alola, L93, M|300/300
+  move|p2a: Drifblim|Shadow Ball|p1a: Golem
+  -damage|p1a: Golem|210/300
+-- turn 8
+  WE CHOSE: switch to koraidon (hand policy: switch to dunsparce) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Koraidon|Koraidon, L64|235/235
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+  -activate|p1a: Koraidon|Orichalcum Pulse|[source]
+  move|p2a: Drifblim|Shadow Ball|p1a: Koraidon
+  -damage|p1a: Koraidon|129/235
+  -weather|SunnyDay|[upkeep]
+-- turn 9
+  WE CHOSE: switch to dunsparce - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dunsparce|Dunsparce, L86, M|312/312
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  -weather|SunnyDay|[upkeep]
+-- turn 10
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+  -weather|SunnyDay|[upkeep]
+-- turn 11
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+  -weather|SunnyDay|[upkeep]
+-- turn 12
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+  -weather|none
+-- turn 13
+  WE CHOSE: switch to golemalola (hand policy: setup coil) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Golem|Golem-Alola, L93, M|210/300
+  move|p2a: Drifblim|Shadow Ball|p1a: Golem
+  -damage|p1a: Golem|114/300
+  -unboost|p1a: Golem|spd|1
+-- turn 14
+  WE CHOSE: switch to dunsparce - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dunsparce|Dunsparce, L86, M|312/312
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+-- turn 15
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 16
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 17
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 18
+  WE CHOSE: switch to golemalola (hand policy: setup coil) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Golem|Golem-Alola, L93, M|114/300
+  move|p2a: Drifblim|Shadow Ball|p1a: Golem
+  -damage|p1a: Golem|24/300
+-- turn 19
+  WE CHOSE: switch to dunsparce - our hp 0.08, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dunsparce|Dunsparce, L86, M|312/312
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+-- turn 20
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 21
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 22
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 23
+  WE CHOSE: switch to golemalola (hand policy: setup coil) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to dunsparce (hand policy: forced: switch to koraidon) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Golem|Golem-Alola, L93, M|24/300
+  move|p2a: Drifblim|Shadow Ball|p1a: Golem
+  -damage|p1a: Golem|0 fnt
+  faint|p1a: Golem
+  switch|p1a: Dunsparce|Dunsparce, L86, M|312/312
+-- turn 24
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 25
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 26
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 27
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Shadow Ball|p1a: Dunsparce
+  -immune|p1a: Dunsparce
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 28
+  WE CHOSE: heal roost (hand policy: setup coil) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Dunsparce
+  -damage|p1a: Dunsparce|251/312
+  move|p1a: Dunsparce|Roost|p1a: Dunsparce
+  -heal|p1a: Dunsparce|312/312
+  -singleturn|p1a: Dunsparce|move: Roost
+-- turn 29
+  WE CHOSE: heal roost (hand policy: setup coil) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Dunsparce
+  -damage|p1a: Dunsparce|246/312
+  move|p1a: Dunsparce|Roost|p1a: Dunsparce
+  -heal|p1a: Dunsparce|312/312
+  -singleturn|p1a: Dunsparce|move: Roost
+-- turn 30
+  WE CHOSE: heal roost (hand policy: setup coil) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Dunsparce
+  -damage|p1a: Dunsparce|249/312
+  move|p1a: Dunsparce|Roost|p1a: Dunsparce
+  -heal|p1a: Dunsparce|312/312
+  -singleturn|p1a: Dunsparce|move: Roost
+-- turn 31
+  WE CHOSE: heal roost (hand policy: setup coil) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Dunsparce
+  -damage|p1a: Dunsparce|245/312
+  move|p1a: Dunsparce|Roost|p1a: Dunsparce
+  -heal|p1a: Dunsparce|312/312
+  -singleturn|p1a: Dunsparce|move: Roost
+-- turn 32
+  WE CHOSE: heal roost (hand policy: setup coil) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Dunsparce
+  -damage|p1a: Dunsparce|242/312
+  cant|p1a: Dunsparce|flinch
+-- turn 33
+  WE CHOSE: heal roost (hand policy: setup coil) - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Dunsparce
+  -damage|p1a: Dunsparce|176/312
+  cant|p1a: Dunsparce|flinch
+-- turn 34
+  WE CHOSE: heal roost (hand policy: setup coil) - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Dunsparce
+  -damage|p1a: Dunsparce|112/312
+  cant|p1a: Dunsparce|flinch
+-- turn 35
+  WE CHOSE: heal roost - our hp 0.36, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Drifblim|Air Slash|p1a: Dunsparce
+  -damage|p1a: Dunsparce|51/312
+  cant|p1a: Dunsparce|flinch
+-- turn 36
+  WE CHOSE: switch to gastrodoneast (hand policy: heal roost) - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon-East, L86, M|331/331
+  move|p2a: Drifblim|Air Slash|p1a: Gastrodon
+  -damage|p1a: Gastrodon|243/331
+  -heal|p1a: Gastrodon|263/331|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: switch to koraidon (hand policy: switch to dunsparce) - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dunsparce - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Koraidon|Koraidon, L64|129/235
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+  -activate|p1a: Koraidon|Orichalcum Pulse|[source]
+  move|p2a: Drifblim|Air Slash|p1a: Koraidon
+  -supereffective|p1a: Koraidon
+  -damage|p1a: Koraidon|0 fnt
+  faint|p1a: Koraidon
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Dunsparce|Dunsparce, L86, M|51/312
+-- turn 38
+  WE CHOSE: switch to gastrodoneast (hand policy: heal roost) - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gastrodon|Gastrodon-East, L86, M|263/331
+  move|p2a: Drifblim|Air Slash|p1a: Gastrodon
+  -damage|p1a: Gastrodon|187/331
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Gastrodon|207/331|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: switch to dunsparce - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gastrodoneast - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Dunsparce|Dunsparce, L86, M|51/312
+  move|p2a: Drifblim|Air Slash|p1a: Dunsparce
+  -damage|p1a: Dunsparce|0 fnt
+  faint|p1a: Dunsparce
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Gastrodon|Gastrodon-East, L86, M|207/331
+-- turn 40
+  WE CHOSE: attack surf - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Drifblim|Air Slash|p1a: Gastrodon
+  -damage|p1a: Gastrodon|128/331
+  move|p1a: Gastrodon|Surf|p2a: Drifblim
+  -damage|p2a: Drifblim|85/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Gastrodon|148/331|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: attack surf (hand policy: heal recover) - our hp 0.45, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Drifblim|Air Slash|p1a: Gastrodon
+  -damage|p1a: Gastrodon|66/331
+  move|p1a: Gastrodon|Surf|p2a: Drifblim
+  -damage|p2a: Drifblim|68/100
+  -weather|none
+  -heal|p1a: Gastrodon|86/331|[from] item: Leftovers
+-- turn 42
+  WE CHOSE: attack surf (hand policy: heal recover) - our hp 0.26, theirs 0.68, predicted move (revealed) hits us x1
+  move|p2a: Drifblim|Air Slash|p1a: Gastrodon
+  -damage|p1a: Gastrodon|2/331
+  cant|p1a: Gastrodon|flinch
+  -heal|p1a: Gastrodon|22/331|[from] item: Leftovers
+-- turn 43
+  WE CHOSE: attack surf (hand policy: heal recover) - our hp 0.07, theirs 0.68, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mienshao - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p2a: Drifblim|Air Slash|p1a: Gastrodon
+  -damage|p1a: Gastrodon|0 fnt
+  faint|p1a: Gastrodon
+  switch|p1a: Mienshao|Mienshao, L83, M|244/244
+-- turn 44
+  WE CHOSE: attack+tera knockoff - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x1
+  -terastallize|p1a: Mienshao|Dark
+  move|p1a: Mienshao|Knock Off|p2a: Drifblim
+  -supereffective|p2a: Drifblim
+  -damage|p2a: Drifblim|0 fnt
+  -damage|p1a: Mienshao|183/244|[from] ability: Aftermath|[of] p2a: Drifblim
+  -enditem|p2a: Drifblim|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mienshao
+  faint|p2a: Drifblim
+  -damage|p1a: Mienshao|159/244|[from] item: Life Orb
+  switch|p2a: Inteleon|Inteleon, L81, M|100/100
+-- turn 45
+  WE CHOSE: attack closecombat - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to toedscruel - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Mienshao
+  -damage|p1a: Mienshao|0 fnt
+  faint|p1a: Mienshao
+  switch|p1a: Toedscruel|Toedscruel, L87, F|259/281
+-- turn 46
+  WE CHOSE: attack leafstorm - our hp 0.92, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Toedscruel
+  -damage|p1a: Toedscruel|117/281
+  move|p1a: Toedscruel|Leaf Storm|p2a: Inteleon
+  -supereffective|p2a: Inteleon
+  -damage|p2a: Inteleon|0 fnt
+  -unboost|p1a: Toedscruel|spa|2
+  faint|p2a: Inteleon
+  -heal|p1a: Toedscruel|134/281|[from] item: Leftovers
+  switch|p2a: Passimian|Passimian, L83, F|100/100
+-- turn 47
+  WE CHOSE: attack leafstorm - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Passimian|Close Combat|p1a: Toedscruel
+  -damage|p1a: Toedscruel|0 fnt
+  -unboost|p2a: Passimian|def|1
+  -unboost|p2a: Passimian|spd|1
+  faint|p1a: Toedscruel
+  deinit

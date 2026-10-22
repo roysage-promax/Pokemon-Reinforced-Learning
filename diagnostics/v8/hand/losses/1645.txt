@@ -1,0 +1,206 @@
+battle 1645 (battle-gen9randombattle-2033956): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  haxorus (fainted; item loadeddice, ability moldbreaker; moves swordsdance/closecombat/scaleshot/ironhead)
+  deoxysspeed (fainted; item lifeorb, ability pressure; moves focusblast/darkpulse/nastyplot/psychoboost)
+  lokix (fainted; item lifeorb, ability tintedlens; moves swordsdance/suckerpunch/knockoff/leechlife)
+  skarmory (fainted; item leftovers, ability sturdy, tera dragon; moves bodypress/roost/stealthrock/bravebird)
+  malamar (fainted; item leftovers, ability contrary; moves rest/superpower/knockoff/sleeptalk)
+  volcarona (fainted; item heavydutyboots, ability flamebody; moves gigadrain/fierydance/quiverdance/terablast)
+theirs (as seen):
+  chandelure (fainted; item unknown_item, ability ?; moves fireblast)
+  amoonguss (fainted; item leftovers, ability ?; moves sludgebomb)
+  primarina (fainted; item leftovers, ability ?; moves sparklingaria)
+  koraidon (fainted; item unknown_item, ability orichalcumpulse; moves closecombat)
+  oricoriopau (fainted; item ?, ability dancer; moves hurricane)
+  dachsbun (73%; item leftovers, ability ?; moves playrough)
+
+-- turn 0
+  switch|p1a: Haxorus|Haxorus, L77, M|244/244
+  switch|p2a: Chandelure|Chandelure, L83, F|100/100
+  -ability|p1a: Haxorus|Mold Breaker
+-- turn 1
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Chandelure|Fire Blast|p1a: Haxorus|[miss]
+  -miss|p2a: Chandelure|p1a: Haxorus
+  move|p1a: Haxorus|Swords Dance|p1a: Haxorus
+  -boost|p1a: Haxorus|atk|2
+-- turn 2
+  WE CHOSE: attack scaleshot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Chandelure|Fire Blast|p1a: Haxorus
+  -resisted|p1a: Haxorus
+  -damage|p1a: Haxorus|142/244
+  move|p1a: Haxorus|Scale Shot|p2a: Chandelure
+  -damage|p2a: Chandelure|72/100
+  -damage|p2a: Chandelure|43/100
+  -damage|p2a: Chandelure|17/100
+  -damage|p2a: Chandelure|0 fnt
+  faint|p2a: Chandelure
+  -hitcount|p2: Chandelure|4
+  -unboost|p1a: Haxorus|def|1
+  -boost|p1a: Haxorus|spe|1
+  switch|p2a: Amoonguss|Amoonguss, L82, F|100/100
+-- turn 3
+  WE CHOSE: switch to skarmory - our hp 0.58, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Skarmory|Skarmory, L80, F|235/235
+  move|p2a: Amoonguss|Sludge Bomb|p1a: Skarmory
+  -immune|p1a: Skarmory
+-- turn 4
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Skarmory|Brave Bird|p2a: Amoonguss
+  -supereffective|p2a: Amoonguss
+  -damage|p2a: Amoonguss|28/100
+  -damage|p1a: Skarmory|158/235|[from] Recoil
+  move|p2a: Amoonguss|Sludge Bomb|p1a: Skarmory
+  -immune|p1a: Skarmory
+  -heal|p1a: Skarmory|172/235|[from] item: Leftovers
+  -heal|p2a: Amoonguss|34/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack bravebird - our hp 0.73, theirs 0.34, predicted move (revealed) hits us x0
+  move|p1a: Skarmory|Brave Bird|p2a: Amoonguss
+  -supereffective|p2a: Amoonguss
+  -damage|p2a: Amoonguss|0 fnt
+  faint|p2a: Amoonguss
+  -damage|p1a: Skarmory|137/235|[from] Recoil
+  -heal|p1a: Skarmory|151/235|[from] item: Leftovers
+  switch|p2a: Primarina|Primarina, L83, F|100/100
+-- turn 6
+  WE CHOSE: attack+tera bravebird - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to deoxysspeed - our hp 0.00, theirs 0.39, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Skarmory|Dragon
+  move|p1a: Skarmory|Brave Bird|p2a: Primarina
+  -crit|p2a: Primarina
+  -damage|p2a: Primarina|33/100
+  -damage|p1a: Skarmory|91/235|[from] Recoil
+  move|p2a: Primarina|Sparkling Aria|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|0 fnt
+  faint|p1a: Skarmory
+  -heal|p2a: Primarina|39/100|[from] item: Leftovers
+  switch|p1a: Deoxys|Deoxys-Speed, L82|216/216
+  -ability|p1a: Deoxys|Pressure
+-- turn 7
+  WE CHOSE: attack psychoboost - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Primarina
+  -damage|p2a: Primarina|0 fnt
+  -unboost|p1a: Deoxys|spa|2
+  faint|p2a: Primarina
+  -damage|p1a: Deoxys|195/216|[from] item: Life Orb
+  switch|p2a: Koraidon|Koraidon, L64|100/100
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+  -activate|p2a: Koraidon|Orichalcum Pulse|[source]
+-- turn 8
+  WE CHOSE: setup nastyplot - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Deoxys|Nasty Plot|p1a: Deoxys
+  -boost|p1a: Deoxys|spa|2
+  move|p2a: Koraidon|Close Combat|p1a: Deoxys
+  -resisted|p1a: Deoxys
+  -crit|p1a: Deoxys
+  -damage|p1a: Deoxys|42/216
+  -unboost|p2a: Koraidon|def|1
+  -unboost|p2a: Koraidon|spd|1
+  -weather|SunnyDay|[upkeep]
+-- turn 9
+  WE CHOSE: attack psychoboost - our hp 0.19, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to volcarona - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Deoxys|Psycho Boost|p2a: Koraidon|[miss]
+  -miss|p1a: Deoxys|p2a: Koraidon
+  move|p2a: Koraidon|Close Combat|p1a: Deoxys
+  -resisted|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  -unboost|p2a: Koraidon|def|1
+  -unboost|p2a: Koraidon|spd|1
+  faint|p1a: Deoxys
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Volcarona|Volcarona, L77, F|257/257
+-- turn 10
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Koraidon|Close Combat|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|127/257
+  -unboost|p2a: Koraidon|def|1
+  -unboost|p2a: Koraidon|spd|1
+  move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+  -boost|p1a: Volcarona|spa|1
+  -boost|p1a: Volcarona|spd|1
+  -boost|p1a: Volcarona|spe|1
+  -weather|SunnyDay|[upkeep]
+-- turn 11
+  WE CHOSE: attack terablast - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Tera Blast|p2a: Koraidon
+  -damage|p2a: Koraidon|0 fnt
+  faint|p2a: Koraidon
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Oricorio|Oricorio-Pa'u, L87, M|100/100
+-- turn 12
+  WE CHOSE: attack fierydance - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to malamar - our hp 0.00, theirs 0.11, predicted move (revealed) hits us x2
+  move|p1a: Volcarona|Fiery Dance|p2a: Oricorio
+  -damage|p2a: Oricorio|11/100
+  -activate|p2a: Oricorio|ability: Dancer
+  move|p2a: Oricorio|Fiery Dance|p1a: Volcarona|[from] ability: Dancer
+  -damage|p1a: Volcarona|71/257
+  move|p2a: Oricorio|Hurricane|p1a: Volcarona
+  -supereffective|p1a: Volcarona
+  -damage|p1a: Volcarona|0 fnt
+  faint|p1a: Volcarona
+  -weather|none
+  switch|p1a: Malamar|Malamar, L82, F|275/275
+-- turn 13
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x1
+  move|p2a: Oricorio|Hurricane|p1a: Malamar|[miss]
+  -miss|p2a: Oricorio|p1a: Malamar
+  move|p1a: Malamar|Knock Off|p2a: Oricorio
+  -supereffective|p2a: Oricorio
+  -damage|p2a: Oricorio|0 fnt
+  -enditem|p2a: Oricorio|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Malamar
+  faint|p2a: Oricorio
+  switch|p2a: Dachsbun|Dachsbun, L92, M|100/100
+-- turn 14
+  WE CHOSE: attack superpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Dachsbun|Play Rough|p1a: Malamar
+  -supereffective|p1a: Malamar
+  -damage|p1a: Malamar|65/275
+  move|p1a: Malamar|Superpower|p2a: Dachsbun
+  -resisted|p2a: Dachsbun
+  -damage|p2a: Dachsbun|89/100
+  -boost|p1a: Malamar|atk|1
+  -boost|p1a: Malamar|def|1
+  -heal|p2a: Dachsbun|95/100|[from] item: Leftovers
+  -heal|p1a: Malamar|82/275|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack superpower - our hp 0.30, theirs 0.95, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to haxorus - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Dachsbun|Play Rough|p1a: Malamar
+  -supereffective|p1a: Malamar
+  -damage|p1a: Malamar|0 fnt
+  faint|p1a: Malamar
+  -heal|p2a: Dachsbun|100/100|[from] item: Leftovers
+  switch|p1a: Haxorus|Haxorus, L77, M|142/244
+  -ability|p1a: Haxorus|Mold Breaker
+-- turn 16
+  WE CHOSE: attack ironhead - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to lokix - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Dachsbun|Play Rough|p1a: Haxorus
+  -supereffective|p1a: Haxorus
+  -damage|p1a: Haxorus|0 fnt
+  faint|p1a: Haxorus
+  switch|p1a: Lokix|Lokix, L82, F|251/251
+-- turn 17
+  WE CHOSE: attack leechlife - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Dachsbun|Play Rough|p1a: Lokix
+  -supereffective|p1a: Lokix
+  -damage|p1a: Lokix|35/251
+  move|p1a: Lokix|Leech Life|p2a: Dachsbun
+  -resisted|p2a: Dachsbun
+  -damage|p2a: Dachsbun|67/100
+  -heal|p1a: Lokix|78/251|[from] drain|[of] p2a: Dachsbun
+  -damage|p1a: Lokix|53/251|[from] item: Life Orb
+  -heal|p2a: Dachsbun|73/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack leechlife - our hp 0.21, theirs 0.73, predicted move (revealed) hits us x2
+  move|p2a: Dachsbun|Play Rough|p1a: Lokix
+  -supereffective|p1a: Lokix
+  -damage|p1a: Lokix|0 fnt
+  faint|p1a: Lokix
+  deinit

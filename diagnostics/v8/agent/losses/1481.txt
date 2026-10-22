@@ -1,0 +1,159 @@
+battle 1481 (battle-gen9randombattle-2033590): lost in 16 turns, 5 of theirs left; we are p1
+
+ours:
+  glalie (fainted; item heavydutyboots, ability innerfocus, tera ground; moves taunt/earthquake/freezedry/spikes)
+  ursaring (fainted; item toxicorb, ability quickfeet; moves closecombat/swordsdance/facade/crunch)
+  mesprit (fainted; item choicespecs, ability levitate; moves dazzlinggleam/uturn/psychic/thunderbolt)
+  charizard (fainted; item heavydutyboots, ability blaze; moves swordsdance/outrage/flareblitz/earthquake)
+  mienshao (fainted; item lifeorb, ability regenerator; moves swordsdance/closecombat/poisonjab/knockoff)
+  blastoise (fainted; item whiteherb, ability torrent; moves hydropump/terablast/shellsmash/icebeam)
+theirs (as seen):
+  cinccino (fainted; item unknown_item, ability ?; moves tailslap)
+  jirachi (26%; item leftovers, ability serenegrace; moves bodyslam)
+
+-- turn 0
+  switch|p1a: Glalie|Glalie, L96, M|309/309
+  switch|p2a: Cinccino|Cinccino, L83, M|100/100
+-- turn 1
+  WE CHOSE: switch to charizard (hand policy: attack freezedry) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Charizard|Charizard, L85, M|271/271
+  move|p2a: Cinccino|Tail Slap|p1a: Charizard
+  -damage|p1a: Charizard|226/271
+  -damage|p1a: Charizard|184/271
+  -damage|p1a: Charizard|144/271
+  -damage|p1a: Charizard|99/271
+  -hitcount|p1a: Charizard|4
+-- turn 2
+  WE CHOSE: attack flareblitz - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mienshao - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cinccino|Tail Slap|p1a: Charizard
+  -damage|p1a: Charizard|60/271
+  -damage|p1a: Charizard|15/271
+  -damage|p1a: Charizard|0 fnt
+  faint|p1a: Charizard
+  -hitcount|p1: Charizard|3
+  switch|p1a: Mienshao|Mienshao, L83, F|244/244
+-- turn 3
+  WE CHOSE: attack closecombat (hand policy: attack+tera closecombat) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ursaring - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cinccino|Tail Slap|p1a: Mienshao
+  -damage|p1a: Mienshao|187/244
+  -damage|p1a: Mienshao|132/244
+  -damage|p1a: Mienshao|84/244
+  -damage|p1a: Mienshao|29/244
+  -damage|p1a: Mienshao|0 fnt
+  faint|p1a: Mienshao
+  -hitcount|p1: Mienshao|5
+  switch|p1a: Ursaring|Ursaring, L84, M|288/288
+-- turn 4
+  WE CHOSE: attack crunch (hand policy: attack closecombat) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cinccino|Tail Slap|p1a: Ursaring
+  -damage|p1a: Ursaring|246/288
+  -damage|p1a: Ursaring|201/288
+  -damage|p1a: Ursaring|158/288
+  -damage|p1a: Ursaring|115/288
+  -hitcount|p1a: Ursaring|4
+  move|p1a: Ursaring|Crunch|p2a: Cinccino
+  -damage|p2a: Cinccino|66/100
+  -status|p1a: Ursaring|tox|[from] item: Toxic Orb
+-- turn 5
+  WE CHOSE: attack facade (hand policy: attack closecombat) - our hp 0.40, theirs 0.66, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mesprit - our hp 0.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Cinccino|Tail Slap|p1a: Ursaring
+  -damage|p1a: Ursaring|73/288 tox
+  -damage|p1a: Ursaring|25/288 tox
+  -damage|p1a: Ursaring|0 fnt
+  faint|p1a: Ursaring
+  -hitcount|p1: Ursaring|3
+  switch|p1a: Mesprit|Mesprit, L85|275/275
+-- turn 6
+  WE CHOSE: attack dazzlinggleam (hand policy: attack psychic) - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Cinccino|Tail Slap|p1a: Mesprit
+  -damage|p1a: Mesprit|242/275
+  -damage|p1a: Mesprit|209/275
+  -damage|p1a: Mesprit|173/275
+  -damage|p1a: Mesprit|139/275
+  -damage|p1a: Mesprit|106/275
+  -hitcount|p1a: Mesprit|5
+  move|p1a: Mesprit|Dazzling Gleam|p2a: Cinccino
+  -damage|p2a: Cinccino|17/100
+-- turn 7
+  WE CHOSE: attack dazzlinggleam (hand policy: attack+tera dazzlinggleam) - our hp 0.39, theirs 0.17, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to blastoise - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p2a: Cinccino|Tail Slap|p1a: Mesprit
+  -damage|p1a: Mesprit|70/275
+  -damage|p1a: Mesprit|37/275
+  -damage|p1a: Mesprit|1/275
+  -damage|p1a: Mesprit|0 fnt
+  faint|p1a: Mesprit
+  -hitcount|p1: Mesprit|4
+  switch|p1a: Blastoise|Blastoise, L80, M|258/258
+-- turn 8
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p2a: Cinccino|Tail Slap|p1a: Blastoise
+  -damage|p1a: Blastoise|225/258
+  -damage|p1a: Blastoise|191/258
+  -damage|p1a: Blastoise|154/258
+  -damage|p1a: Blastoise|120/258
+  -damage|p1a: Blastoise|81/258
+  -hitcount|p1a: Blastoise|5
+  move|p1a: Blastoise|Hydro Pump|p2a: Cinccino
+  -damage|p2a: Cinccino|0 fnt
+  faint|p2a: Cinccino
+  switch|p2a: Jirachi|Jirachi, L80|100/100
+-- turn 9
+  WE CHOSE: attack hydropump - our hp 0.31, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Jirachi|Body Slam|p1a: Blastoise
+  -damage|p1a: Blastoise|25/258
+  -status|p1a: Blastoise|par
+  cant|p1a: Blastoise|par
+-- turn 10
+  WE CHOSE: attack hydropump - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to glalie - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Jirachi|Body Slam|p1a: Blastoise
+  -damage|p1a: Blastoise|0 fnt
+  faint|p1a: Blastoise
+  switch|p1a: Glalie|Glalie, L96, M|309/309
+-- turn 11
+  WE CHOSE: attack earthquake (hand policy: attack+tera earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Glalie|Earthquake|p2a: Jirachi
+  -supereffective|p2a: Jirachi
+  -damage|p2a: Jirachi|50/100
+  move|p2a: Jirachi|Body Slam|p1a: Glalie
+  -damage|p1a: Glalie|255/309
+  -status|p1a: Glalie|par
+  -heal|p2a: Jirachi|57/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack spikes (hand policy: attack+tera earthquake) - our hp 0.83, theirs 0.57, predicted move (revealed) hits us x1
+  move|p2a: Jirachi|Body Slam|p1a: Glalie
+  -damage|p1a: Glalie|201/309 par
+  cant|p1a: Glalie|par
+  -heal|p2a: Jirachi|63/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack earthquake (hand policy: attack+tera earthquake) - our hp 0.65, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Jirachi|Body Slam|p1a: Glalie
+  -damage|p1a: Glalie|147/309 par
+  cant|p1a: Glalie|par
+  -heal|p2a: Jirachi|69/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack earthquake (hand policy: attack+tera earthquake) - our hp 0.48, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Jirachi|Body Slam|p1a: Glalie
+  -damage|p1a: Glalie|92/309 par
+  move|p1a: Glalie|Earthquake|p2a: Jirachi
+  -supereffective|p2a: Jirachi
+  -damage|p2a: Jirachi|14/100
+  -heal|p2a: Jirachi|20/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack+tera spikes (hand policy: attack+tera earthquake) - our hp 0.30, theirs 0.20, predicted move (revealed) hits us x1
+  -terastallize|p1a: Glalie|Ground
+  move|p2a: Jirachi|Body Slam|p1a: Glalie
+  -crit|p1a: Glalie
+  -damage|p1a: Glalie|15/309 par
+  cant|p1a: Glalie|par
+  -heal|p2a: Jirachi|26/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack spikes (hand policy: attack earthquake) - our hp 0.05, theirs 0.26, predicted move (revealed) hits us x1
+  move|p2a: Jirachi|Body Slam|p1a: Glalie
+  -damage|p1a: Glalie|0 fnt
+  faint|p1a: Glalie
+  deinit

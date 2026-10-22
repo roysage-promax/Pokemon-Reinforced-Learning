@@ -1,0 +1,158 @@
+battle 2975 (battle-gen9randombattle-2047774): lost in 15 turns, 4 of theirs left; we are p1
+
+ours:
+  virizion (fainted; item lifeorb, ability justified; moves stoneedge/closecombat/swordsdance/leafblade)
+  regice (fainted; item heavydutyboots, ability clearbody, tera electric; moves sleeptalk/rest/icebeam/thunderbolt)
+  glaceon (fainted; item heavydutyboots, ability icebody; moves calmmind/protect/freezedry/wish)
+  passimian (fainted; item leftovers, ability defiant; moves drainpunch/knockoff/gunkshot/bulkup)
+  ogerponhearthflame (fainted; item hearthflamemask, ability moldbreaker; moves swordsdance/ivycudgel/knockoff/powerwhip)
+  komala (fainted; item assaultvest, ability comatose; moves knockoff/rapidspin/earthquake/bodyslam)
+theirs (as seen):
+  vigoroth (fainted; item unknown_item, ability vitalspirit; moves earthquake)
+  ironvaliant (fainted; item lifeorb, ability quarkdrive; moves closecombat)
+  gurdurr (66%; item unknown_item, ability ?; moves drainpunch)
+
+-- turn 0
+  switch|p1a: Virizion|Virizion, L82|283/283
+  switch|p2a: Vigoroth|Vigoroth, L85, F|100/100
+-- turn 1
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Virizion|Swords Dance|p1a: Virizion
+  -boost|p1a: Virizion|atk|2
+  move|p2a: Vigoroth|Earthquake|p1a: Virizion
+  -resisted|p1a: Virizion
+  -damage|p1a: Virizion|249/283
+-- turn 2
+  WE CHOSE: attack closecombat - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Virizion|Close Combat|p2a: Vigoroth
+  -supereffective|p2a: Vigoroth
+  -damage|p2a: Vigoroth|0 fnt
+  -unboost|p1a: Virizion|def|1
+  -unboost|p1a: Virizion|spd|1
+  faint|p2a: Vigoroth
+  -damage|p1a: Virizion|221/283|[from] item: Life Orb
+  switch|p2a: Iron Valiant|Iron Valiant, L78|100/100
+-- turn 3
+  WE CHOSE: switch to passimian (hand policy: attack leafblade) - our hp 0.78, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Passimian|Passimian, L83, F|302/302
+  move|p2a: Iron Valiant|Close Combat|p1a: Passimian
+  -damage|p1a: Passimian|117/302
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+  -heal|p1a: Passimian|135/302|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack gunkshot - our hp 0.45, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ogerponhearthflame - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Iron Valiant|Close Combat|p1a: Passimian
+  -damage|p1a: Passimian|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Passimian
+  -damage|p2a: Iron Valiant|81/100|[from] item: Life Orb
+  switch|p1a: Ogerpon|Ogerpon-Hearthflame, L74, F|239/239
+  -ability|p1a: Ogerpon|Mold Breaker
+-- turn 5
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Iron Valiant|Close Combat|p1a: Ogerpon
+  -damage|p1a: Ogerpon|12/239
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|71/100|[from] item: Life Orb
+  move|p1a: Ogerpon|Power Whip|p2a: Iron Valiant|[miss]
+  -miss|p1a: Ogerpon|p2a: Iron Valiant
+-- turn 6
+  WE CHOSE: attack ivycudgel (hand policy: attack powerwhip) - our hp 0.05, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to virizion - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Iron Valiant|Close Combat|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Ogerpon
+  -damage|p2a: Iron Valiant|61/100|[from] item: Life Orb
+  switch|p1a: Virizion|Virizion, L82|221/283
+-- turn 7
+  WE CHOSE: attack leafblade - our hp 0.78, theirs 0.61, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to passimian (hand policy: forced: switch to regice) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Valiant|Close Combat|p1a: Virizion
+  -damage|p1a: Virizion|5/283
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|51/100|[from] item: Life Orb
+  move|p1a: Virizion|Leaf Blade|p2a: Iron Valiant
+  -damage|p2a: Iron Valiant|0 fnt
+  faint|p2a: Iron Valiant
+  -end|p2a: Iron Valiant|Quark Drive|[silent]
+  -damage|p1a: Virizion|0 fnt|[from] item: Life Orb
+  faint|p1a: Virizion
+  switch|p2a: Gurdurr|Gurdurr, L85, M|100/100
+  switch|p1a: Regice|Regice, L88|284/284
+-- turn 8
+  WE CHOSE: attack+tera thunderbolt (hand policy: attack icebeam) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Regice|Electric
+  move|p1a: Regice|Thunderbolt|p2a: Gurdurr
+  -damage|p2a: Gurdurr|62/100
+  move|p2a: Gurdurr|Drain Punch|p1a: Regice
+  -damage|p1a: Regice|211/284
+  -heal|p2a: Gurdurr|75/100|[from] drain|[of] p1a: Regice
+-- turn 9
+  WE CHOSE: heal rest (hand policy: attack icebeam) - our hp 0.74, theirs 0.75, predicted move (revealed) hits us x1
+  move|p1a: Regice|Rest|p1a: Regice
+  -status|p1a: Regice|slp|[from] move: Rest
+  -heal|p1a: Regice|284/284 slp|[silent]
+  move|p2a: Gurdurr|Drain Punch|p1a: Regice
+  -damage|p1a: Regice|211/284 slp
+  -heal|p2a: Gurdurr|88/100|[from] drain|[of] p1a: Regice
+-- turn 10
+  WE CHOSE: heal rest (hand policy: attack icebeam) - our hp 0.74, theirs 0.88, predicted move (revealed) hits us x1
+  cant|p1a: Regice|slp
+  move|p2a: Gurdurr|Drain Punch|p1a: Regice
+  -damage|p1a: Regice|127/284 slp
+  -heal|p2a: Gurdurr|100/100|[from] drain|[of] p1a: Regice
+-- turn 11
+  WE CHOSE: attack icebeam (hand policy: heal rest) - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p1a: Regice|slp
+  move|p2a: Gurdurr|Drain Punch|p1a: Regice
+  -damage|p1a: Regice|48/284 slp
+-- turn 12
+  WE CHOSE: attack icebeam (hand policy: heal rest) - our hp 0.17, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to komala - our hp 0.00, theirs 0.75, predicted move (revealed) hits us x1
+  -curestatus|p1a: Regice|slp|[msg]
+  move|p1a: Regice|Ice Beam|p2a: Gurdurr
+  -damage|p2a: Gurdurr|66/100
+  move|p2a: Gurdurr|Drain Punch|p1a: Regice
+  -damage|p1a: Regice|0 fnt
+  -heal|p2a: Gurdurr|75/100|[from] drain|[of] p1a: Regice
+  faint|p1a: Regice
+  switch|p1a: Komala|Komala, L87, M|255/255
+  -ability|p1a: Komala|Comatose
+-- turn 13
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to glaceon - our hp 0.00, theirs 0.93, predicted move (revealed) hits us x2
+  move|p1a: Komala|Body Slam|p2a: Gurdurr
+  -damage|p2a: Gurdurr|48/100
+  -status|p2a: Gurdurr|par
+  move|p2a: Gurdurr|Drain Punch|p1a: Komala
+  -supereffective|p1a: Komala
+  -damage|p1a: Komala|0 fnt
+  -heal|p2a: Gurdurr|93/100 par|[from] drain|[of] p1a: Komala
+  faint|p1a: Komala
+  switch|p1a: Glaceon|Glaceon, L94, F|275/275
+-- turn 14
+  WE CHOSE: attack freezedry - our hp 1.00, theirs 0.93, predicted move (revealed) hits us x2
+  move|p1a: Glaceon|Freeze-Dry|p2a: Gurdurr
+  -damage|p2a: Gurdurr|56/100 par
+  move|p2a: Gurdurr|Drain Punch|p1a: Glaceon
+  -supereffective|p1a: Glaceon
+  -damage|p1a: Glaceon|93/275
+  -heal|p2a: Gurdurr|88/100 par|[from] drain|[of] p1a: Glaceon
+-- turn 15
+  WE CHOSE: attack freezedry - our hp 0.34, theirs 0.88, predicted move (revealed) hits us x2
+  move|p1a: Glaceon|Freeze-Dry|p2a: Gurdurr
+  -damage|p2a: Gurdurr|49/100 par
+  move|p2a: Gurdurr|Drain Punch|p1a: Glaceon
+  -supereffective|p1a: Glaceon
+  -damage|p1a: Glaceon|0 fnt
+  -heal|p2a: Gurdurr|66/100 par|[from] drain|[of] p1a: Glaceon
+  faint|p1a: Glaceon
+  deinit

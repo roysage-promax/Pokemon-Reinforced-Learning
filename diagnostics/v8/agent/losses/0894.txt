@@ -1,0 +1,160 @@
+battle 894 (battle-gen9randombattle-2027582): lost in 15 turns, 3 of theirs left; we are p1
+
+ours:
+  polteageistantique (fainted; item ?, ability cursedbody; moves shellsmash/storedpower/terablast/shadowball)
+  regidrago (fainted; item lumberry, ability dragonsmaw; moves earthquake/outrage/dragondance/dracometeor)
+  snorlax (fainted; item chestoberry, ability thickfat; moves bodyslam/rest/earthquake/curse)
+  solgaleo (fainted; item weaknesspolicy, ability fullmetalbody, tera ground; moves flamecharge/psychic/earthquake/sunsteelstrike)
+  cloyster (fainted; item ?, ability skilllink; moves shellsmash/rockblast/hydropump/iciclespear)
+  fezandipiti (fainted; item leftovers, ability toxicchain; moves moonblast/beatup/roost/gunkshot)
+theirs (as seen):
+  rampardos (fainted; item unknown_item, ability ?; moves headsmash)
+  gyarados (fainted; item unknown_item, ability intimidate; moves earthquake)
+  deoxysspeed (fainted; item lifeorb, ability pressure; moves psychoboost)
+  skuntank (90%; item lifeorb, ability ?; moves gunkshot)
+
+-- turn 0
+  switch|p1a: Polteageist|Polteageist-Antique, L78|222/222
+  switch|p2a: Rampardos|Rampardos, L90, M|100/100
+-- turn 1
+  WE CHOSE: switch to solgaleo (hand policy: attack+tera shadowball) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Solgaleo|Solgaleo, L74|325/325
+  move|p2a: Rampardos|Head Smash|p1a: Solgaleo
+  -resisted|p1a: Solgaleo
+  -crit|p1a: Solgaleo
+  -damage|p1a: Solgaleo|129/325
+  -damage|p2a: Rampardos|70/100|[from] Recoil
+-- turn 2
+  WE CHOSE: attack+tera earthquake (hand policy: attack sunsteelstrike) - our hp 0.40, theirs 0.70, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to regidrago - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Solgaleo|Ground
+  move|p2a: Rampardos|Head Smash|p1a: Solgaleo
+  -resisted|p1a: Solgaleo
+  -damage|p1a: Solgaleo|0 fnt
+  faint|p1a: Solgaleo
+  -damage|p2a: Rampardos|50/100|[from] Recoil
+  switch|p1a: Regidrago|Regidrago, L77|435/435
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to polteageistantique (hand policy: forced: switch to snorlax) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Rampardos|Head Smash|p1a: Regidrago
+  -damage|p1a: Regidrago|0 fnt
+  faint|p1a: Regidrago
+  -damage|p2a: Rampardos|0 fnt|[from] Recoil
+  faint|p2a: Rampardos
+  switch|p1a: Polteageist|Polteageist-Antique, L78|222/222
+  switch|p2a: Gyarados|Gyarados, L79, F|100/100
+  -ability|p2a: Gyarados|Intimidate|boost
+  -unboost|p1a: Polteageist|atk|1
+  -enditem|p1a: Polteageist|White Herb
+  -clearnegativeboost|p1a: Polteageist|[silent]
+-- turn 4
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Gyarados|Earthquake|p1a: Polteageist
+  -crit|p1a: Polteageist
+  -damage|p1a: Polteageist|70/222
+  move|p1a: Polteageist|Shadow Ball|p2a: Gyarados
+  -damage|p2a: Gyarados|69/100
+  -unboost|p2a: Gyarados|spd|1
+-- turn 5
+  WE CHOSE: attack shadowball - our hp 0.32, theirs 0.69, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to snorlax - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Gyarados|Earthquake|p1a: Polteageist
+  -damage|p1a: Polteageist|0 fnt
+  faint|p1a: Polteageist
+  switch|p1a: Snorlax|Snorlax, L82, M|397/397
+-- turn 6
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Gyarados|Earthquake|p1a: Snorlax
+  -damage|p1a: Snorlax|302/397
+  move|p1a: Snorlax|Body Slam|p2a: Gyarados
+  -damage|p2a: Gyarados|32/100
+-- turn 7
+  WE CHOSE: attack bodyslam - our hp 0.76, theirs 0.32, predicted move (revealed) hits us x1
+  move|p2a: Gyarados|Earthquake|p1a: Snorlax
+  -crit|p1a: Snorlax
+  -damage|p1a: Snorlax|143/397
+  move|p1a: Snorlax|Body Slam|p2a: Gyarados
+  -damage|p2a: Gyarados|0 fnt
+  faint|p2a: Gyarados
+  switch|p2a: Deoxys|Deoxys-Speed, L82|100/100
+  -ability|p2a: Deoxys|Pressure
+-- turn 8
+  WE CHOSE: heal rest - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to fezandipiti (hand policy: forced: switch to cloyster) - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Snorlax
+  -damage|p1a: Snorlax|0 fnt
+  -unboost|p2a: Deoxys|spa|2
+  faint|p1a: Snorlax
+  -damage|p2a: Deoxys|91/100|[from] item: Life Orb
+  switch|p1a: Fezandipiti|Fezandipiti, L82, M|278/278
+-- turn 9
+  WE CHOSE: heal roost (hand policy: attack gunkshot) - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x2
+  move|p2a: Deoxys|Psycho Boost|p1a: Fezandipiti
+  -supereffective|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|145/278
+  -unboost|p2a: Deoxys|spa|2
+  -damage|p2a: Deoxys|81/100|[from] item: Life Orb
+  move|p1a: Fezandipiti|Roost|p1a: Fezandipiti
+  -heal|p1a: Fezandipiti|278/278
+  -singleturn|p1a: Fezandipiti|move: Roost
+-- turn 10
+  WE CHOSE: heal roost (hand policy: attack gunkshot) - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x2
+  move|p2a: Deoxys|Psycho Boost|p1a: Fezandipiti
+  -supereffective|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|190/278
+  -unboost|p2a: Deoxys|spa|2
+  -damage|p2a: Deoxys|71/100|[from] item: Life Orb
+  move|p1a: Fezandipiti|Roost|p1a: Fezandipiti
+  -heal|p1a: Fezandipiti|278/278
+  -singleturn|p1a: Fezandipiti|move: Roost
+-- turn 11
+  WE CHOSE: heal roost (hand policy: attack gunkshot) - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x2
+  move|p2a: Deoxys|Psycho Boost|p1a: Fezandipiti
+  -supereffective|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|213/278
+  -damage|p2a: Deoxys|62/100|[from] item: Life Orb
+  move|p1a: Fezandipiti|Roost|p1a: Fezandipiti
+  -heal|p1a: Fezandipiti|278/278
+  -singleturn|p1a: Fezandipiti|move: Roost
+-- turn 12
+  WE CHOSE: heal roost (hand policy: attack gunkshot) - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to cloyster - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x2
+  move|p2a: Deoxys|Psycho Boost|p1a: Fezandipiti
+  -supereffective|p1a: Fezandipiti
+  -crit|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|0 fnt
+  faint|p1a: Fezandipiti
+  -damage|p2a: Deoxys|52/100|[from] item: Life Orb
+  switch|p1a: Cloyster|Cloyster, L80, F|211/211
+-- turn 13
+  WE CHOSE: setup shellsmash (hand policy: attack iciclespear) - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Cloyster
+  -damage|p1a: Cloyster|129/211
+  -damage|p2a: Deoxys|42/100|[from] item: Life Orb
+  move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+  -unboost|p1a: Cloyster|def|1
+  -unboost|p1a: Cloyster|spd|1
+  -boost|p1a: Cloyster|atk|2
+  -boost|p1a: Cloyster|spa|2
+  -boost|p1a: Cloyster|spe|2
+  -enditem|p1a: Cloyster|White Herb
+  -clearnegativeboost|p1a: Cloyster|[silent]
+-- turn 14
+  WE CHOSE: attack hydropump - our hp 0.61, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Cloyster
+  -damage|p1a: Cloyster|54/211
+  -damage|p2a: Deoxys|32/100|[from] item: Life Orb
+  move|p1a: Cloyster|Hydro Pump|p2a: Deoxys
+  -damage|p2a: Deoxys|0 fnt
+  faint|p2a: Deoxys
+  switch|p2a: Skuntank|Skuntank, L84, M|100/100
+-- turn 15
+  WE CHOSE: attack hydropump - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Cloyster|Hydro Pump|p2a: Skuntank|[miss]
+  -miss|p1a: Cloyster|p2a: Skuntank
+  move|p2a: Skuntank|Gunk Shot|p1a: Cloyster
+  -damage|p1a: Cloyster|0 fnt
+  faint|p1a: Cloyster
+  -damage|p2a: Skuntank|90/100|[from] item: Life Orb
+  deinit

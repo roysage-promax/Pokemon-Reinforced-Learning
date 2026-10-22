@@ -1,0 +1,276 @@
+battle 1024 (battle-gen9randombattle-2028043): lost in 28 turns, 1 of theirs left; we are p1
+
+ours:
+  gastrodon (fainted; item leftovers, ability stormdrain; moves surf/earthquake/stealthrock/recover)
+  hoopa (fainted; item choicescarf, ability magician, tera psychic; moves psychic/focusblast/shadowball/trick)
+  flapple (fainted; item lumberry, ability hustle; moves terablast/dragondance/gravapple/outrage)
+  gallade (fainted; item lifeorb, ability sharpness; moves nightslash/agility/sacredsword/psychocut)
+  blastoise (fainted; item whiteherb, ability torrent; moves icebeam/earthquake/hydropump/shellsmash)
+  passimian (fainted; item choiceband, ability defiant; moves knockoff/earthquake/closecombat/rockslide)
+theirs (as seen):
+  ironvaliant (fainted; item lifeorb, ability quarkdrive; moves psychic/closecombat)
+  munkidori (fainted; item unknown_item, ability ?; moves sludgewave)
+  vileplume (fainted; item leftovers, ability ?; moves sludgebomb)
+  greattusk (fainted; item ?, ability protosynthesis; moves closecombat)
+  uxie (fainted; item ?, ability levitate; moves psychicnoise)
+
+-- turn 0
+  switch|p1a: Gastrodon|Gastrodon, L86, F|331/331
+  switch|p2a: Iron Valiant|Iron Valiant, L78|100/100
+-- turn 1
+  WE CHOSE: switch to hoopa - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Hoopa|Hoopa, L85|275/275
+  move|p2a: Iron Valiant|Psychic|p1a: Hoopa
+  -resisted|p1a: Hoopa
+  -damage|p1a: Hoopa|243/275
+  -damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack+tera psychic - our hp 0.88, theirs 0.91, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Hoopa|Psychic
+  move|p1a: Hoopa|Psychic|p2a: Iron Valiant
+  -immune|p2a: Iron Valiant
+  move|p2a: Iron Valiant|Psychic|p1a: Hoopa
+  -resisted|p1a: Hoopa
+  -damage|p1a: Hoopa|207/275
+  -damage|p2a: Iron Valiant|81/100|[from] item: Life Orb
+-- turn 3
+  WE CHOSE: attack psychic - our hp 0.75, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p1a: Hoopa|Psychic|p2a: Iron Valiant
+  -immune|p2a: Iron Valiant
+  move|p2a: Iron Valiant|Psychic|p1a: Hoopa
+  -resisted|p1a: Hoopa
+  -damage|p1a: Hoopa|171/275
+  -damage|p2a: Iron Valiant|71/100|[from] item: Life Orb
+-- turn 4
+  WE CHOSE: attack psychic - our hp 0.62, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p1a: Hoopa|Psychic|p2a: Iron Valiant
+  -immune|p2a: Iron Valiant
+  move|p2a: Iron Valiant|Psychic|p1a: Hoopa
+  -resisted|p1a: Hoopa
+  -damage|p1a: Hoopa|136/275
+  -damage|p2a: Iron Valiant|61/100|[from] item: Life Orb
+-- turn 5
+  WE CHOSE: attack psychic - our hp 0.49, theirs 0.61, predicted move (revealed) hits us x0.5
+  move|p1a: Hoopa|Psychic|p2a: Iron Valiant
+  -immune|p2a: Iron Valiant
+  move|p2a: Iron Valiant|Psychic|p1a: Hoopa
+  -resisted|p1a: Hoopa
+  -damage|p1a: Hoopa|104/275
+  -damage|p2a: Iron Valiant|52/100|[from] item: Life Orb
+-- turn 6
+  WE CHOSE: attack psychic - our hp 0.38, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p1a: Hoopa|Psychic|p2a: Iron Valiant
+  -immune|p2a: Iron Valiant
+  move|p2a: Iron Valiant|Psychic|p1a: Hoopa
+  -resisted|p1a: Hoopa
+  -damage|p1a: Hoopa|69/275
+  -damage|p2a: Iron Valiant|42/100|[from] item: Life Orb
+-- turn 7
+  WE CHOSE: attack psychic - our hp 0.25, theirs 0.42, predicted move (revealed) hits us x0.5
+  move|p1a: Hoopa|Psychic|p2a: Iron Valiant
+  -immune|p2a: Iron Valiant
+  move|p2a: Iron Valiant|Psychic|p1a: Hoopa
+  -resisted|p1a: Hoopa
+  -damage|p1a: Hoopa|37/275
+  -damage|p2a: Iron Valiant|32/100|[from] item: Life Orb
+-- turn 8
+  WE CHOSE: attack psychic - our hp 0.13, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p1a: Hoopa|Psychic|p2a: Iron Valiant
+  -immune|p2a: Iron Valiant
+  move|p2a: Iron Valiant|Psychic|p1a: Hoopa
+  -resisted|p1a: Hoopa
+  -damage|p1a: Hoopa|5/275
+  -damage|p2a: Iron Valiant|22/100|[from] item: Life Orb
+-- turn 9
+  WE CHOSE: attack psychic - our hp 0.02, theirs 0.22, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to gallade - our hp 0.00, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Hoopa|Psychic|p2a: Iron Valiant
+  -immune|p2a: Iron Valiant
+  move|p2a: Iron Valiant|Psychic|p1a: Hoopa
+  -resisted|p1a: Hoopa
+  -damage|p1a: Hoopa|0 fnt
+  faint|p1a: Hoopa
+  -damage|p2a: Iron Valiant|12/100|[from] item: Life Orb
+  switch|p1a: Gallade|Gallade, L80, M|240/240
+-- turn 10
+  WE CHOSE: attack psychocut - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x1
+  move|p2a: Iron Valiant|Psychic|p1a: Gallade
+  -damage|p1a: Gallade|158/240
+  -damage|p2a: Iron Valiant|3/100|[from] item: Life Orb
+  move|p1a: Gallade|Psycho Cut|p2a: Iron Valiant
+  -immune|p2a: Iron Valiant
+-- turn 11
+  WE CHOSE: attack psychocut - our hp 0.66, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Iron Valiant|Psychic|p1a: Gallade
+  -damage|p1a: Gallade|68/240
+  -damage|p2a: Iron Valiant|0 fnt|[from] item: Life Orb
+  faint|p2a: Iron Valiant
+  move|p1a: Gallade|Psycho Cut|p2: Zoroark|[notarget]
+  -fail|p1a: Gallade
+  switch|p2a: Munkidori|Munkidori, L79, M|100/100
+-- turn 12
+  WE CHOSE: attack nightslash - our hp 0.28, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to gastrodon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Munkidori|Sludge Wave|p1a: Gallade
+  -damage|p1a: Gallade|0 fnt
+  faint|p1a: Gallade
+  switch|p1a: Gastrodon|Gastrodon, L86, F|331/331
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Munkidori|Sludge Wave|p1a: Gastrodon
+  -resisted|p1a: Gastrodon
+  -damage|p1a: Gastrodon|277/331
+  -status|p1a: Gastrodon|tox|[from] ability: Toxic Chain|[of] p2a: Munkidori
+  move|p1a: Gastrodon|Earthquake|p2a: Munkidori
+  -supereffective|p2a: Munkidori
+  -damage|p2a: Munkidori|6/100
+  -heal|p1a: Gastrodon|297/331 tox|[from] item: Leftovers
+  -damage|p1a: Gastrodon|277/331 tox|[from] psn
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 0.84, theirs 0.06, predicted move (revealed) hits us x0.5
+  move|p2a: Munkidori|Sludge Wave|p1a: Gastrodon
+  -resisted|p1a: Gastrodon
+  -damage|p1a: Gastrodon|220/331 tox
+  move|p1a: Gastrodon|Earthquake|p2a: Munkidori
+  -supereffective|p2a: Munkidori
+  -crit|p2a: Munkidori
+  -damage|p2a: Munkidori|0 fnt
+  faint|p2a: Munkidori
+  -heal|p1a: Gastrodon|240/331 tox|[from] item: Leftovers
+  -damage|p1a: Gastrodon|200/331 tox|[from] psn
+  switch|p2a: Vileplume|Vileplume, L85, M|100/100
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Vileplume|Sludge Bomb|p1a: Gastrodon
+  -resisted|p1a: Gastrodon
+  -damage|p1a: Gastrodon|146/331 tox
+  move|p1a: Gastrodon|Earthquake|p2a: Vileplume
+  -damage|p2a: Vileplume|63/100
+  -heal|p2a: Vileplume|69/100|[from] item: Leftovers
+  -heal|p1a: Gastrodon|166/331 tox|[from] item: Leftovers
+  -damage|p1a: Gastrodon|106/331 tox|[from] psn
+-- turn 16
+  WE CHOSE: heal recover - our hp 0.32, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p2a: Vileplume|Sludge Bomb|p1a: Gastrodon
+  -resisted|p1a: Gastrodon
+  -damage|p1a: Gastrodon|49/331 tox
+  move|p1a: Gastrodon|Recover|p1a: Gastrodon
+  -heal|p1a: Gastrodon|215/331 tox
+  -heal|p2a: Vileplume|75/100|[from] item: Leftovers
+  -heal|p1a: Gastrodon|235/331 tox|[from] item: Leftovers
+  -damage|p1a: Gastrodon|155/331 tox|[from] psn
+-- turn 17
+  WE CHOSE: heal recover - our hp 0.47, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p2a: Vileplume|Sludge Bomb|p1a: Gastrodon
+  -resisted|p1a: Gastrodon
+  -damage|p1a: Gastrodon|101/331 tox
+  move|p1a: Gastrodon|Recover|p1a: Gastrodon
+  -heal|p1a: Gastrodon|267/331 tox
+  -heal|p2a: Vileplume|81/100|[from] item: Leftovers
+  -heal|p1a: Gastrodon|287/331 tox|[from] item: Leftovers
+  -damage|p1a: Gastrodon|187/331 tox|[from] psn
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 0.56, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p2a: Vileplume|Sludge Bomb|p1a: Gastrodon
+  -resisted|p1a: Gastrodon
+  -damage|p1a: Gastrodon|134/331 tox
+  move|p1a: Gastrodon|Earthquake|p2a: Vileplume
+  -damage|p2a: Vileplume|45/100
+  -heal|p2a: Vileplume|51/100|[from] item: Leftovers
+  -heal|p1a: Gastrodon|154/331 tox|[from] item: Leftovers
+  -damage|p1a: Gastrodon|34/331 tox|[from] psn
+-- turn 19
+  WE CHOSE: heal recover - our hp 0.10, theirs 0.51, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to blastoise - our hp 0.00, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p2a: Vileplume|Sludge Bomb|p1a: Gastrodon
+  -resisted|p1a: Gastrodon
+  -damage|p1a: Gastrodon|0 fnt
+  faint|p1a: Gastrodon
+  -heal|p2a: Vileplume|57/100|[from] item: Leftovers
+  switch|p1a: Blastoise|Blastoise, L80, M|258/258
+-- turn 20
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Blastoise|Ice Beam|p2a: Vileplume
+  -supereffective|p2a: Vileplume
+  -damage|p2a: Vileplume|19/100
+  move|p2a: Vileplume|Sludge Bomb|p1a: Blastoise
+  -damage|p1a: Blastoise|164/258
+  -heal|p2a: Vileplume|25/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack icebeam - our hp 0.64, theirs 0.25, predicted move (revealed) hits us x1
+  move|p1a: Blastoise|Ice Beam|p2a: Vileplume
+  -supereffective|p2a: Vileplume
+  -crit|p2a: Vileplume
+  -damage|p2a: Vileplume|0 fnt
+  faint|p2a: Vileplume
+  switch|p2a: Great Tusk|Great Tusk, L77|100/100
+  -enditem|p2a: Great Tusk|Booster Energy
+  -activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+  -start|p2a: Great Tusk|protosynthesisatk
+-- turn 22
+  WE CHOSE: attack hydropump - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Great Tusk|Close Combat|p1a: Blastoise
+  -damage|p1a: Blastoise|8/258
+  -unboost|p2a: Great Tusk|def|1
+  -unboost|p2a: Great Tusk|spd|1
+  move|p1a: Blastoise|Hydro Pump|p2a: Great Tusk
+  -supereffective|p2a: Great Tusk
+  -damage|p2a: Great Tusk|0 fnt
+  faint|p2a: Great Tusk
+  -end|p2a: Great Tusk|Protosynthesis|[silent]
+  switch|p2a: Uxie|Uxie, L83|100/100
+-- turn 23
+  WE CHOSE: attack hydropump - our hp 0.03, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to flapple - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Blastoise
+  -damage|p1a: Blastoise|0 fnt
+  faint|p1a: Blastoise
+  switch|p1a: Flapple|Flapple, L88, F|266/266
+-- turn 24
+  WE CHOSE: attack outrage - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Flapple
+  -crit|p1a: Flapple
+  -damage|p1a: Flapple|134/266
+  -start|p1a: Flapple|move: Heal Block
+  move|p1a: Flapple|Outrage|p2a: Uxie
+  -damage|p2a: Uxie|31/100
+  -heal|p2a: Uxie|37/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack outrage - our hp 0.50, theirs 0.37, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Flapple
+  -crit|p1a: Flapple
+  -damage|p1a: Flapple|14/266
+  move|p1a: Flapple|Outrage|p2a: Uxie|[from] lockedmove|[miss]
+  -miss|p1a: Flapple|p2a: Uxie
+  -heal|p2a: Uxie|43/100|[from] item: Leftovers
+  -end|p1a: Flapple|move: Heal Block
+-- turn 26
+  WE CHOSE: attack outrage - our hp 0.05, theirs 0.43, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to passimian - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Flapple
+  -crit|p1a: Flapple
+  -damage|p1a: Flapple|0 fnt
+  faint|p1a: Flapple
+  -heal|p2a: Uxie|49/100|[from] item: Leftovers
+  switch|p1a: Passimian|Passimian, L83, M|302/302
+-- turn 27
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x2
+  move|p2a: Uxie|Psychic Noise|p1a: Passimian
+  -supereffective|p1a: Passimian
+  -damage|p1a: Passimian|116/302
+  -start|p1a: Passimian|move: Heal Block
+  move|p1a: Passimian|Knock Off|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -damage|p2a: Uxie|0 fnt
+  -enditem|p2a: Uxie|Leftovers|[from] move: Knock Off|[of] p1a: Passimian
+  faint|p2a: Uxie
+  switch|p2a: Iron Valiant|Iron Valiant, L78|100/100
+-- turn 28
+  WE CHOSE: attack knockoff - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Iron Valiant|Close Combat|p1a: Passimian
+  -damage|p1a: Passimian|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Passimian
+  -damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+  deinit

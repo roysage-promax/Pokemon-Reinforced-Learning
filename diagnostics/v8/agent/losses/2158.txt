@@ -1,0 +1,260 @@
+battle 2158 (battle-gen9randombattle-2040607): lost in 25 turns, 2 of theirs left; we are p1
+
+ours:
+  alcremiesaltedcream (fainted; item leftovers, ability aromaveil, tera ground; moves alluringvoice/calmmind/recover/terablast)
+  brutebonnet (fainted; item leftovers, ability protosynthesis; moves suckerpunch/closecombat/crunch/spore)
+  glastrier (fainted; item heavydutyboots, ability chillingneigh; moves closecombat/swordsdance/iciclecrash/highhorsepower)
+  arcanine (fainted; item heavydutyboots, ability intimidate; moves extremespeed/flareblitz/morningsun/closecombat)
+  jirachi (fainted; item leftovers, ability serenegrace; moves ironhead/drainpunch/uturn/stealthrock)
+  palafin (fainted; item leftovers, ability zerotohero; moves bulkup/drainpunch/icepunch/jetpunch)
+theirs (as seen):
+  arcaninehisui (fainted; item unknown_item, ability ?; moves headsmash)
+  slaking (fainted; item unknown_item, ability truant; moves gigaimpact)
+  oranguru (fainted; item lifeorb, ability ?; moves focusblast)
+  azelf (fainted; item lifeorb, ability levitate; moves fireblast)
+  gurdurr (100%; item unknown_item, ability ?; moves drainpunch)
+
+-- turn 0
+  switch|p1a: Alcremie|Alcremie-Salted-Cream, L90, F|263/263
+  switch|p2a: Arcanine|Arcanine-Hisui, L79, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera alluringvoice - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Alcremie|Ground
+  move|p2a: Arcanine|Head Smash|p1a: Alcremie|[miss]
+  -miss|p2a: Arcanine|p1a: Alcremie
+  move|p1a: Alcremie|Alluring Voice|p2a: Arcanine
+  -resisted|p2a: Arcanine
+  -damage|p2a: Arcanine|77/100
+-- turn 2
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.77, predicted move (revealed) hits us x0.5
+  move|p2a: Arcanine|Head Smash|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|175/263
+  move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+  -boost|p1a: Alcremie|spa|1
+  -boost|p1a: Alcremie|spd|1
+  -heal|p1a: Alcremie|191/263|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack alluringvoice (hand policy: setup calmmind) - our hp 0.73, theirs 0.77, predicted move (revealed) hits us x0.5
+  move|p2a: Arcanine|Head Smash|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|108/263
+  move|p1a: Alcremie|Alluring Voice|p2a: Arcanine
+  -resisted|p2a: Arcanine
+  -damage|p2a: Arcanine|42/100
+  -heal|p1a: Alcremie|124/263|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack alluringvoice (hand policy: heal recover) - our hp 0.47, theirs 0.42, predicted move (revealed) hits us x0.5
+  move|p2a: Arcanine|Head Smash|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|47/263
+  move|p1a: Alcremie|Alluring Voice|p2a: Arcanine
+  -resisted|p2a: Arcanine
+  -damage|p2a: Arcanine|12/100
+  -heal|p1a: Alcremie|63/263|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: heal recover - our hp 0.24, theirs 0.12, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to jirachi (hand policy: forced: switch to palafin) - our hp 0.00, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p2a: Arcanine|Head Smash|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|0 fnt
+  faint|p1a: Alcremie
+  switch|p1a: Jirachi|Jirachi, L80|291/291
+-- turn 6
+  WE CHOSE: attack drainpunch - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Jirachi|Drain Punch|p2a: Arcanine
+  -supereffective|p2a: Arcanine
+  -damage|p2a: Arcanine|0 fnt
+  faint|p2a: Arcanine
+  switch|p2a: Slaking|Slaking, L84, M|100/100
+-- turn 7
+  WE CHOSE: attack drainpunch - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Slaking|Giga Impact|p1a: Jirachi
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|127/291
+  -mustrecharge|p2a: Slaking
+  move|p1a: Jirachi|Drain Punch|p2a: Slaking
+  -supereffective|p2a: Slaking
+  -damage|p2a: Slaking|78/100
+  -heal|p1a: Jirachi|171/291|[from] drain|[of] p2a: Slaking
+  -heal|p1a: Jirachi|189/291|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack drainpunch - our hp 0.65, theirs 0.78, predicted move (revealed) hits us x0.5
+  cant|p2a: Slaking|recharge
+  move|p1a: Jirachi|Drain Punch|p2a: Slaking
+  -supereffective|p2a: Slaking
+  -damage|p2a: Slaking|56/100
+  -heal|p1a: Jirachi|232/291|[from] drain|[of] p2a: Slaking
+  -heal|p1a: Jirachi|250/291|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack drainpunch - our hp 0.86, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p2a: Slaking|Giga Impact|p1a: Jirachi
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|84/291
+  -mustrecharge|p2a: Slaking
+  move|p1a: Jirachi|Drain Punch|p2a: Slaking
+  -supereffective|p2a: Slaking
+  -damage|p2a: Slaking|31/100
+  -heal|p1a: Jirachi|133/291|[from] drain|[of] p2a: Slaking
+  -heal|p1a: Jirachi|151/291|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack drainpunch - our hp 0.52, theirs 0.31, predicted move (revealed) hits us x0.5
+  cant|p2a: Slaking|recharge
+  move|p1a: Jirachi|Drain Punch|p2a: Slaking
+  -supereffective|p2a: Slaking
+  -damage|p2a: Slaking|8/100
+  -heal|p1a: Jirachi|195/291|[from] drain|[of] p2a: Slaking
+  -heal|p1a: Jirachi|213/291|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack drainpunch - our hp 0.73, theirs 0.08, predicted move (revealed) hits us x0.5
+  move|p2a: Slaking|Giga Impact|p1a: Jirachi
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|30/291
+  -mustrecharge|p2a: Slaking
+  move|p1a: Jirachi|Drain Punch|p2a: Slaking
+  -supereffective|p2a: Slaking
+  -damage|p2a: Slaking|0 fnt
+  -heal|p1a: Jirachi|45/291|[from] drain|[of] p2a: Slaking
+  faint|p2a: Slaking
+  -heal|p1a: Jirachi|63/291|[from] item: Leftovers
+  switch|p2a: Oranguru|Oranguru, L92, F|100/100
+-- turn 12
+  WE CHOSE: switch to arcanine (hand policy: attack uturn) - our hp 0.22, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Arcanine|Arcanine, L84, M|288/288
+  -ability|p1a: Arcanine|Intimidate|boost
+  -fail|p2a: Oranguru|unboost|Attack|[from] ability: Inner Focus|[of] p2a: Oranguru
+  move|p2a: Oranguru|Focus Blast|p1a: Arcanine
+  -damage|p1a: Arcanine|153/288
+  -damage|p2a: Oranguru|91/100|[from] item: Life Orb
+-- turn 13
+  WE CHOSE: attack flareblitz - our hp 0.53, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to jirachi - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Arcanine|Flare Blitz|p2a: Oranguru
+  -damage|p2a: Oranguru|47/100
+  -damage|p1a: Arcanine|107/288|[from] Recoil
+  move|p2a: Oranguru|Focus Blast|p1a: Arcanine
+  -damage|p1a: Arcanine|0 fnt
+  faint|p1a: Arcanine
+  -damage|p2a: Oranguru|37/100|[from] item: Life Orb
+  switch|p1a: Jirachi|Jirachi, L80|63/291
+-- turn 14
+  WE CHOSE: attack uturn - our hp 0.22, theirs 0.37, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to brutebonnet - our hp 0.22, theirs 0.07, predicted move (revealed) hits us x1
+  move|p1a: Jirachi|U-turn|p2a: Oranguru
+  -supereffective|p2a: Oranguru
+  -damage|p2a: Oranguru|7/100
+  switch|p1a: Brute Bonnet|Brute Bonnet, L80|309/309|[from] U-turn
+  move|p2a: Oranguru|Focus Blast|p1a: Brute Bonnet
+  -supereffective|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|83/309
+  -damage|p2a: Oranguru|0 fnt|[from] item: Life Orb
+  faint|p2a: Oranguru
+  -heal|p1a: Brute Bonnet|102/309|[from] item: Leftovers
+  switch|p2a: Azelf|Azelf, L82|100/100
+-- turn 15
+  WE CHOSE: attack crunch - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to palafin - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x2
+  move|p2a: Azelf|Fire Blast|p1a: Brute Bonnet
+  -supereffective|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|0 fnt
+  faint|p1a: Brute Bonnet
+  -end|p1a: Brute Bonnet|Protosynthesis|[silent]
+  -damage|p2a: Azelf|91/100|[from] item: Life Orb
+  switch|p1a: Palafin|Palafin, L77, M|281/281
+-- turn 16
+  WE CHOSE: setup bulkup - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Azelf|Fire Blast|p1a: Palafin
+  -resisted|p1a: Palafin
+  -damage|p1a: Palafin|206/281
+  -status|p1a: Palafin|brn
+  -damage|p2a: Azelf|81/100|[from] item: Life Orb
+  move|p1a: Palafin|Bulk Up|p1a: Palafin
+  -boost|p1a: Palafin|atk|1
+  -boost|p1a: Palafin|def|1
+  -heal|p1a: Palafin|223/281 brn|[from] item: Leftovers
+  -damage|p1a: Palafin|206/281 brn|[from] brn
+-- turn 17
+  WE CHOSE: attack jetpunch (hand policy: setup bulkup) - our hp 0.73, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p1a: Palafin|Jet Punch|p2a: Azelf
+  -damage|p2a: Azelf|66/100
+  move|p2a: Azelf|Fire Blast|p1a: Palafin
+  -resisted|p1a: Palafin
+  -damage|p1a: Palafin|124/281 brn
+  -damage|p2a: Azelf|56/100|[from] item: Life Orb
+  -heal|p1a: Palafin|141/281 brn|[from] item: Leftovers
+  -damage|p1a: Palafin|124/281 brn|[from] brn
+-- turn 18
+  WE CHOSE: attack jetpunch - our hp 0.44, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p1a: Palafin|Jet Punch|p2a: Azelf
+  -damage|p2a: Azelf|41/100
+  move|p2a: Azelf|Fire Blast|p1a: Palafin
+  -resisted|p1a: Palafin
+  -damage|p1a: Palafin|49/281 brn
+  -damage|p2a: Azelf|32/100|[from] item: Life Orb
+  -heal|p1a: Palafin|66/281 brn|[from] item: Leftovers
+  -damage|p1a: Palafin|49/281 brn|[from] brn
+-- turn 19
+  WE CHOSE: attack jetpunch - our hp 0.17, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p1a: Palafin|Jet Punch|p2a: Azelf
+  -damage|p2a: Azelf|18/100
+  move|p2a: Azelf|Fire Blast|p1a: Palafin|[miss]
+  -miss|p2a: Azelf|p1a: Palafin
+  -heal|p1a: Palafin|66/281 brn|[from] item: Leftovers
+  -damage|p1a: Palafin|49/281 brn|[from] brn
+-- turn 20
+  WE CHOSE: attack jetpunch - our hp 0.17, theirs 0.18, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to alcremiesaltedcream (hand policy: forced: switch to jirachi) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p1a: Palafin|Jet Punch|p2a: Azelf
+  -damage|p2a: Azelf|3/100
+  move|p2a: Azelf|Fire Blast|p1a: Palafin
+  -resisted|p1a: Palafin
+  -damage|p1a: Palafin|0 fnt
+  faint|p1a: Palafin
+  -damage|p2a: Azelf|0 fnt|[from] item: Life Orb
+  faint|p2a: Azelf
+  switch|p2a: Gurdurr|Gurdurr, L85, F|100/100
+  switch|p1a: Jirachi|Jirachi, L80|63/291
+-- turn 21
+  WE CHOSE: attack drainpunch (hand policy: attack ironhead) - our hp 0.22, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Jirachi|Drain Punch|p2a: Gurdurr
+  -damage|p2a: Gurdurr|88/100
+  -heal|p1a: Jirachi|81/291|[from] drain|[of] p2a: Gurdurr
+  move|p2a: Gurdurr|Drain Punch|p1a: Jirachi
+  -damage|p1a: Jirachi|3/291
+  -heal|p2a: Gurdurr|100/100|[from] drain|[of] p1a: Jirachi
+  -heal|p1a: Jirachi|21/291|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack ironhead - our hp 0.07, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Jirachi|Iron Head|p2a: Gurdurr
+  -damage|p2a: Gurdurr|81/100
+  cant|p2a: Gurdurr|flinch
+  -heal|p1a: Jirachi|39/291|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack drainpunch (hand policy: attack ironhead) - our hp 0.13, theirs 0.81, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to glastrier - our hp 0.00, theirs 0.79, predicted move (revealed) hits us x1
+  move|p1a: Jirachi|Drain Punch|p2a: Gurdurr
+  -damage|p2a: Gurdurr|69/100
+  -heal|p1a: Jirachi|57/291|[from] drain|[of] p2a: Gurdurr
+  move|p2a: Gurdurr|Drain Punch|p1a: Jirachi
+  -damage|p1a: Jirachi|0 fnt
+  -heal|p2a: Gurdurr|79/100|[from] drain|[of] p1a: Jirachi
+  faint|p1a: Jirachi
+  switch|p1a: Glastrier|Glastrier, L86|312/312
+-- turn 24
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.79, predicted move (revealed) hits us x2
+  move|p2a: Gurdurr|Drain Punch|p1a: Glastrier
+  -supereffective|p1a: Glastrier
+  -damage|p1a: Glastrier|180/312
+  -heal|p2a: Gurdurr|100/100|[from] drain|[of] p1a: Glastrier
+  move|p1a: Glastrier|Close Combat|p2a: Gurdurr
+  -damage|p2a: Gurdurr|73/100
+  -unboost|p1a: Glastrier|def|1
+  -unboost|p1a: Glastrier|spd|1
+-- turn 25
+  WE CHOSE: attack closecombat - our hp 0.58, theirs 0.73, predicted move (revealed) hits us x2
+  move|p2a: Gurdurr|Drain Punch|p1a: Glastrier
+  -supereffective|p1a: Glastrier
+  -damage|p1a: Glastrier|0 fnt
+  -heal|p2a: Gurdurr|100/100|[from] drain|[of] p1a: Glastrier
+  faint|p1a: Glastrier
+  deinit

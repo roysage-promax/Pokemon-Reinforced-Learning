@@ -1,0 +1,296 @@
+battle 861 (battle-gen9randombattle-2027257): lost in 32 turns, 2 of theirs left; we are p1
+
+ours:
+  roaringmoon (fainted; item choiceband, ability protosynthesis; moves ironhead/knockoff/uturn/outrage)
+  comfey (fainted; item leftovers, ability triage; moves drainingkiss/calmmind/storedpower/gigadrain)
+  cyclizar (fainted; item heavydutyboots, ability regenerator, tera dragon; moves taunt/rapidspin/shedtail/dracometeor)
+  primarina (fainted; item choicespecs, ability torrent; moves psychic/hydropump/flipturn/moonblast)
+  ogerpon (fainted; item lifeorb, ability defiant; moves ivycudgel/swordsdance/superpower/knockoff)
+  magmortar (fainted; item heavydutyboots, ability flamebody; moves taunt/thunderbolt/knockoff/fireblast)
+theirs (as seen):
+  deoxysdefense (fainted; item ?, ability pressure; moves storedpower)
+  raikou (fainted; item leftovers, ability pressure; moves thunderbolt)
+  ogerponcornerstone (fainted; item unknown_item, ability sturdy; moves powerwhip)
+  carbink (fainted; item leftovers, ability ?; moves moonblast)
+  seviper (44%; item leftovers, ability ?; moves gunkshot)
+
+-- turn 0
+  switch|p1a: Roaring Moon|Roaring Moon, L72|270/270
+  switch|p2a: Deoxys|Deoxys-Defense, L84|100/100
+  -ability|p2a: Deoxys|Pressure
+-- turn 1
+  WE CHOSE: attack knockoff (hand policy: attack+tera knockoff) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Roaring Moon|Knock Off|p2a: Deoxys
+  -supereffective|p2a: Deoxys
+  -damage|p2a: Deoxys|11/100
+  -enditem|p2a: Deoxys|Leftovers|[from] move: Knock Off|[of] p1a: Roaring Moon
+  move|p2a: Deoxys|Stored Power|p1a: Roaring Moon
+  -immune|p1a: Roaring Moon
+-- turn 2
+  WE CHOSE: attack knockoff (hand policy: attack+tera knockoff) - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x0
+  move|p1a: Roaring Moon|Knock Off|p2a: Deoxys
+  -supereffective|p2a: Deoxys
+  -damage|p2a: Deoxys|0 fnt
+  faint|p2a: Deoxys
+  switch|p2a: Raikou|Raikou, L81|100/100
+  -ability|p2a: Raikou|Pressure
+-- turn 3
+  WE CHOSE: switch to cyclizar (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  -end|p1a: Roaring Moon|Protosynthesis|[silent]
+  switch|p1a: Cyclizar|Cyclizar, L84, M|255/255
+  move|p2a: Raikou|Thunderbolt|p1a: Cyclizar
+  -resisted|p1a: Cyclizar
+  -damage|p1a: Cyclizar|190/255
+  -status|p1a: Cyclizar|par
+-- turn 4
+  WE CHOSE: attack dracometeor (hand policy: attack+tera dracometeor) - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Raikou|Thunderbolt|p1a: Cyclizar
+  -resisted|p1a: Cyclizar
+  -damage|p1a: Cyclizar|129/255 par
+  cant|p1a: Cyclizar|par
+-- turn 5
+  WE CHOSE: switch to roaringmoon (hand policy: attack+tera dracometeor) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Roaring Moon|Roaring Moon, L72|270/270
+  move|p2a: Raikou|Thunderbolt|p1a: Roaring Moon
+  -resisted|p1a: Roaring Moon
+  -damage|p1a: Roaring Moon|213/270
+  -status|p1a: Roaring Moon|par
+-- turn 6
+  WE CHOSE: switch to cyclizar (hand policy: attack outrage) - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.5
+  -end|p1a: Roaring Moon|Protosynthesis|[silent]
+  switch|p1a: Cyclizar|Cyclizar, L84, M|214/255 par
+  move|p2a: Raikou|Thunderbolt|p1a: Cyclizar
+  -resisted|p1a: Cyclizar
+  -damage|p1a: Cyclizar|150/255 par
+-- turn 7
+  WE CHOSE: attack+tera dracometeor - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Cyclizar|Dragon
+  move|p2a: Raikou|Thunderbolt|p1a: Cyclizar
+  -resisted|p1a: Cyclizar
+  -damage|p1a: Cyclizar|89/255 par
+  cant|p1a: Cyclizar|par
+-- turn 8
+  WE CHOSE: switch to roaringmoon (hand policy: attack dracometeor) - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Roaring Moon|Roaring Moon, L72|213/270 par
+  move|p2a: Raikou|Thunderbolt|p1a: Roaring Moon
+  -resisted|p1a: Roaring Moon
+  -damage|p1a: Roaring Moon|158/270 par
+-- turn 9
+  WE CHOSE: attack outrage - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Raikou|Thunderbolt|p1a: Roaring Moon
+  -resisted|p1a: Roaring Moon
+  -damage|p1a: Roaring Moon|108/270 par
+  move|p1a: Roaring Moon|Outrage|p2a: Raikou
+  -damage|p2a: Raikou|21/100
+  -heal|p2a: Raikou|27/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack outrage - our hp 0.40, theirs 0.27, predicted move (revealed) hits us x0.5
+  move|p2a: Raikou|Thunderbolt|p1a: Roaring Moon
+  -resisted|p1a: Roaring Moon
+  -damage|p1a: Roaring Moon|52/270 par
+  move|p1a: Roaring Moon|Outrage|p2a: Raikou|[from] lockedmove
+  -damage|p2a: Raikou|0 fnt
+  faint|p2a: Raikou
+  -start|p1a: Roaring Moon|confusion|[fatigue]
+  switch|p2a: Ogerpon|Ogerpon-Cornerstone, L76, F|100/100
+-- turn 11
+  WE CHOSE: switch to ogerpon (hand policy: attack outrage) - our hp 0.19, theirs 1.00, predicted move (guessed) hits us x0.5
+  -end|p1a: Roaring Moon|Protosynthesis|[silent]
+  switch|p1a: Ogerpon|Ogerpon, L80, F|259/259
+  move|p2a: Ogerpon|Power Whip|p1a: Ogerpon
+  -resisted|p1a: Ogerpon
+  -damage|p1a: Ogerpon|173/259
+-- turn 12
+  WE CHOSE: setup swordsdance - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+  -boost|p1a: Ogerpon|atk|2
+  move|p2a: Ogerpon|Power Whip|p1a: Ogerpon
+  -resisted|p1a: Ogerpon
+  -damage|p1a: Ogerpon|89/259
+-- turn 13
+  WE CHOSE: attack superpower - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to cyclizar - our hp 0.00, theirs 0.01, predicted move (revealed) hits us x0.5
+  move|p1a: Ogerpon|Superpower|p2a: Ogerpon
+  -supereffective|p2a: Ogerpon
+  -ability|p2a: Ogerpon|Sturdy
+  -damage|p2a: Ogerpon|1/100
+  -unboost|p1a: Ogerpon|atk|1
+  -unboost|p1a: Ogerpon|def|1
+  -damage|p1a: Ogerpon|64/259|[from] item: Life Orb
+  move|p2a: Ogerpon|Power Whip|p1a: Ogerpon
+  -resisted|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  switch|p1a: Cyclizar|Cyclizar, L84, M, tera:Dragon|174/255 par
+-- turn 14
+  WE CHOSE: attack dracometeor - our hp 0.68, theirs 0.01, predicted move (revealed) hits us x0.5
+  move|p2a: Ogerpon|Power Whip|p1a: Cyclizar
+  -resisted|p1a: Cyclizar
+  -damage|p1a: Cyclizar|76/255 par
+  move|p1a: Cyclizar|Draco Meteor|p2a: Ogerpon
+  -damage|p2a: Ogerpon|0 fnt
+  -unboost|p1a: Cyclizar|spa|2
+  faint|p2a: Ogerpon
+  switch|p2a: Carbink|Carbink, L90|100/100
+-- turn 15
+  WE CHOSE: switch to magmortar - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Magmortar|Magmortar, L88, F|275/275
+  move|p2a: Carbink|Moonblast|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|242/275
+  -unboost|p1a: Magmortar|spa|1
+-- turn 16
+  WE CHOSE: attack thunderbolt - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Magmortar|Thunderbolt|p2a: Carbink
+  -damage|p2a: Carbink|86/100
+  move|p2a: Carbink|Moonblast|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|212/275
+  -heal|p2a: Carbink|92/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack thunderbolt - our hp 0.77, theirs 0.92, predicted move (revealed) hits us x0.5
+  move|p1a: Magmortar|Thunderbolt|p2a: Carbink
+  -damage|p2a: Carbink|75/100
+  move|p2a: Carbink|Moonblast|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -crit|p1a: Magmortar
+  -damage|p1a: Magmortar|164/275
+  -unboost|p1a: Magmortar|spa|1
+  -heal|p2a: Carbink|81/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack thunderbolt - our hp 0.60, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p1a: Magmortar|Thunderbolt|p2a: Carbink
+  -damage|p2a: Carbink|71/100
+  move|p2a: Carbink|Moonblast|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|134/275
+  -unboost|p1a: Magmortar|spa|1
+  -heal|p2a: Carbink|77/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack thunderbolt - our hp 0.49, theirs 0.77, predicted move (revealed) hits us x0.5
+  move|p1a: Magmortar|Thunderbolt|p2a: Carbink
+  -damage|p2a: Carbink|67/100
+  move|p2a: Carbink|Moonblast|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|103/275
+  -heal|p2a: Carbink|73/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack thunderbolt - our hp 0.37, theirs 0.73, predicted move (revealed) hits us x0.5
+  move|p1a: Magmortar|Thunderbolt|p2a: Carbink
+  -damage|p2a: Carbink|64/100
+  move|p2a: Carbink|Moonblast|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|68/275
+  -heal|p2a: Carbink|70/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack thunderbolt - our hp 0.25, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p1a: Magmortar|Thunderbolt|p2a: Carbink
+  -damage|p2a: Carbink|61/100
+  move|p2a: Carbink|Moonblast|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|38/275
+  -heal|p2a: Carbink|67/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack thunderbolt - our hp 0.14, theirs 0.67, predicted move (revealed) hits us x0.5
+  move|p1a: Magmortar|Thunderbolt|p2a: Carbink
+  -damage|p2a: Carbink|57/100
+  move|p2a: Carbink|Moonblast|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|7/275
+  -heal|p2a: Carbink|63/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack thunderbolt - our hp 0.03, theirs 0.63, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to comfey (hand policy: forced: switch to primarina) - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p1a: Magmortar|Thunderbolt|p2a: Carbink
+  -crit|p2a: Carbink
+  -damage|p2a: Carbink|31/100
+  move|p2a: Carbink|Moonblast|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|0 fnt
+  faint|p1a: Magmortar
+  -heal|p2a: Carbink|37/100|[from] item: Leftovers
+  switch|p1a: Comfey|Comfey, L85, M|225/225
+-- turn 24
+  WE CHOSE: setup calmmind (hand policy: attack gigadrain) - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Calm Mind|p1a: Comfey
+  -boost|p1a: Comfey|spa|1
+  -boost|p1a: Comfey|spd|1
+  move|p2a: Carbink|Moonblast|p1a: Comfey
+  -damage|p1a: Comfey|183/225
+  -heal|p1a: Comfey|197/225|[from] item: Leftovers
+  -heal|p2a: Carbink|43/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack gigadrain - our hp 0.88, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Giga Drain|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|4/100
+  -heal|p1a: Comfey|225/225|[from] drain|[of] p2a: Carbink
+  move|p2a: Carbink|Moonblast|p1a: Comfey
+  -damage|p1a: Comfey|186/225
+  -unboost|p1a: Comfey|spa|1
+  -heal|p1a: Comfey|200/225|[from] item: Leftovers
+  -heal|p2a: Carbink|10/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: setup calmmind (hand policy: attack gigadrain) - our hp 0.89, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Calm Mind|p1a: Comfey
+  -boost|p1a: Comfey|spa|1
+  -boost|p1a: Comfey|spd|1
+  move|p2a: Carbink|Moonblast|p1a: Comfey
+  -damage|p1a: Comfey|170/225
+  -unboost|p1a: Comfey|spa|1
+  -heal|p1a: Comfey|184/225|[from] item: Leftovers
+  -heal|p2a: Carbink|16/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: setup calmmind (hand policy: attack gigadrain) - our hp 0.82, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Calm Mind|p1a: Comfey
+  -boost|p1a: Comfey|spa|1
+  -boost|p1a: Comfey|spd|1
+  move|p2a: Carbink|Moonblast|p1a: Comfey
+  -damage|p1a: Comfey|157/225
+  -heal|p1a: Comfey|171/225|[from] item: Leftovers
+  -heal|p2a: Carbink|22/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack gigadrain - our hp 0.76, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Comfey|Giga Drain|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|0 fnt
+  -heal|p1a: Comfey|197/225|[from] drain|[of] p2a: Carbink
+  faint|p2a: Carbink
+  -heal|p1a: Comfey|211/225|[from] item: Leftovers
+  switch|p2a: Seviper|Seviper, L93, M|100/100
+-- turn 29
+  WE CHOSE: attack storedpower - our hp 0.94, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to cyclizar - our hp 0.00, theirs 0.32, predicted move (revealed) hits us x2
+  move|p1a: Comfey|Stored Power|p2a: Seviper
+  -supereffective|p2a: Seviper
+  -damage|p2a: Seviper|26/100
+  move|p2a: Seviper|Gunk Shot|p1a: Comfey
+  -supereffective|p1a: Comfey
+  -damage|p1a: Comfey|0 fnt
+  faint|p1a: Comfey
+  -heal|p2a: Seviper|32/100|[from] item: Leftovers
+  switch|p1a: Cyclizar|Cyclizar, L84, M, tera:Dragon|161/255 par
+-- turn 30
+  WE CHOSE: attack dracometeor - our hp 0.63, theirs 0.32, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to roaringmoon - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Seviper|Gunk Shot|p1a: Cyclizar
+  -damage|p1a: Cyclizar|0 fnt
+  faint|p1a: Cyclizar
+  -heal|p2a: Seviper|38/100|[from] item: Leftovers
+  switch|p1a: Roaring Moon|Roaring Moon, L72|52/270 par
+-- turn 31
+  WE CHOSE: attack ironhead (hand policy: attack outrage) - our hp 0.19, theirs 0.38, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to primarina - our hp 0.00, theirs 0.44, predicted move (revealed) hits us x1
+  move|p2a: Seviper|Gunk Shot|p1a: Roaring Moon
+  -damage|p1a: Roaring Moon|0 fnt
+  faint|p1a: Roaring Moon
+  -end|p1a: Roaring Moon|Protosynthesis|[silent]
+  -heal|p2a: Seviper|44/100|[from] item: Leftovers
+  switch|p1a: Primarina|Primarina, L83, F|268/268
+-- turn 32
+  WE CHOSE: attack psychic - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x2
+  move|p2a: Seviper|Gunk Shot|p1a: Primarina
+  -supereffective|p1a: Primarina
+  -damage|p1a: Primarina|0 fnt
+  faint|p1a: Primarina
+  deinit

@@ -1,0 +1,206 @@
+battle 1903 (battle-gen9randombattle-2037988): lost in 22 turns, 4 of theirs left; we are p1
+
+ours:
+  sceptile (fainted; item lifeorb, ability overgrow; moves swordsdance/rockslide/leafblade/earthquake)
+  glaceon (fainted; item heavydutyboots, ability icebody; moves protect/freezedry/mudshot/wish)
+  pawmot (fainted; item lifeorb, ability ironfist; moves icepunch/closecombat/doubleshock/revivalblessing)
+  gurdurr (fainted; item eviolite, ability guts; moves bulkup/knockoff/machpunch/drainpunch)
+  tornadus (fainted; item choicespecs, ability defiant; moves uturn/heatwave/bleakwindstorm/grassknot)
+  illumise (fainted; item heavydutyboots, ability prankster, tera steel; moves encore/bugbuzz/roost/thunderwave)
+theirs (as seen):
+  necrozmadawnwings (fainted; item leftovers, ability prismarmor; moves photongeyser/moongeistbeam)
+  pecharunt (fainted; item ?, ability poisonpuppeteer; moves malignantchain)
+  gumshoos (65%; item unknown_item, ability ?; moves doubleedge)
+
+-- turn 0
+  switch|p1a: Sceptile|Sceptile, L87, M|264/264
+  switch|p2a: Necrozma|Necrozma-Dawn-Wings, L76|100/100
+-- turn 1
+  WE CHOSE: attack leafblade - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Sceptile|Leaf Blade|p2a: Necrozma
+  -damage|p2a: Necrozma|62/100
+  -damage|p1a: Sceptile|238/264|[from] item: Life Orb
+  move|p2a: Necrozma|Photon Geyser|p1a: Sceptile
+  -damage|p1a: Sceptile|115/264
+  -heal|p2a: Necrozma|68/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack leafblade - our hp 0.44, theirs 0.68, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to illumise - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Sceptile|Leaf Blade|p2a: Necrozma
+  -damage|p2a: Necrozma|25/100
+  -damage|p1a: Sceptile|89/264|[from] item: Life Orb
+  move|p2a: Necrozma|Photon Geyser|p1a: Sceptile
+  -damage|p1a: Sceptile|0 fnt
+  faint|p1a: Sceptile
+  -heal|p2a: Necrozma|31/100|[from] item: Leftovers
+  switch|p1a: Illumise|Illumise, L91, F|266/266
+-- turn 3
+  WE CHOSE: heal+tera roost (hand policy: attack+tera bugbuzz) - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x1
+  -terastallize|p1a: Illumise|Steel
+  move|p1a: Illumise|Roost||[still]
+  -fail|p1a: Illumise|heal
+  move|p2a: Necrozma|Photon Geyser|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|206/266
+  -heal|p2a: Necrozma|37/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: heal roost (hand policy: attack bugbuzz) - our hp 0.77, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|266/266
+  move|p2a: Necrozma|Photon Geyser|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|209/266
+  -heal|p2a: Necrozma|44/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: heal roost (hand policy: attack bugbuzz) - our hp 0.79, theirs 0.44, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|266/266
+  move|p2a: Necrozma|Photon Geyser|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|206/266
+  -heal|p2a: Necrozma|50/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: heal roost (hand policy: attack bugbuzz) - our hp 0.77, theirs 0.50, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|266/266
+  move|p2a: Necrozma|Photon Geyser|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|203/266
+  -heal|p2a: Necrozma|56/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: heal roost (hand policy: attack bugbuzz) - our hp 0.76, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|266/266
+  move|p2a: Necrozma|Photon Geyser|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|200/266
+  -heal|p2a: Necrozma|62/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: heal roost (hand policy: attack bugbuzz) - our hp 0.75, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|266/266
+  move|p2a: Necrozma|Photon Geyser|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|208/266
+  -heal|p2a: Necrozma|69/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: heal roost (hand policy: attack bugbuzz) - our hp 0.78, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|266/266
+  move|p2a: Necrozma|Moongeist Beam|p1a: Illumise
+  -damage|p1a: Illumise|136/266
+  -heal|p2a: Necrozma|75/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: heal roost (hand policy: attack bugbuzz) - our hp 0.51, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Roost|p1a: Illumise
+  -heal|p1a: Illumise|266/266
+  move|p2a: Necrozma|Moongeist Beam|p1a: Illumise
+  -damage|p1a: Illumise|145/266
+  -heal|p2a: Necrozma|81/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack bugbuzz - our hp 0.55, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Necrozma
+  -damage|p2a: Necrozma|53/100
+  move|p2a: Necrozma|Moongeist Beam|p1a: Illumise
+  -damage|p1a: Illumise|33/266
+  -heal|p2a: Necrozma|59/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack bugbuzz - our hp 0.12, theirs 0.59, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to tornadus - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Necrozma
+  -damage|p2a: Necrozma|30/100
+  move|p2a: Necrozma|Moongeist Beam|p1a: Illumise
+  -damage|p1a: Illumise|0 fnt
+  faint|p1a: Illumise
+  -heal|p2a: Necrozma|37/100|[from] item: Leftovers
+  switch|p1a: Tornadus|Tornadus, L82, M|263/263
+-- turn 13
+  WE CHOSE: attack bleakwindstorm - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Tornadus|Bleakwind Storm|p2a: Necrozma
+  -damage|p2a: Necrozma|0 fnt
+  faint|p2a: Necrozma
+  switch|p2a: Pecharunt|Pecharunt, L77|100/100
+-- turn 14
+  WE CHOSE: attack bleakwindstorm - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Tornadus|Bleakwind Storm|p2a: Pecharunt|[miss]
+  -miss|p1a: Tornadus|p2a: Pecharunt
+  move|p2a: Pecharunt|Malignant Chain|p1a: Tornadus
+  -damage|p1a: Tornadus|167/263
+  -status|p1a: Tornadus|tox
+  -start|p1a: Tornadus|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+  -damage|p1a: Tornadus|151/263 tox|[from] psn
+-- turn 15
+  WE CHOSE: attack bleakwindstorm - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x1
+  -activate|p1a: Tornadus|confusion
+  move|p1a: Tornadus|Bleakwind Storm|p2a: Pecharunt|[miss]
+  -miss|p1a: Tornadus|p2a: Pecharunt
+  move|p2a: Pecharunt|Malignant Chain|p1a: Tornadus
+  -damage|p1a: Tornadus|54/263 tox
+  -damage|p1a: Tornadus|22/263 tox|[from] psn
+-- turn 16
+  WE CHOSE: attack bleakwindstorm - our hp 0.08, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pawmot - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  -activate|p1a: Tornadus|confusion
+  -damage|p1a: Tornadus|0 fnt|[from] confusion
+  faint|p1a: Tornadus
+  move|p2a: Pecharunt|Malignant Chain|p1: Tornadus|[notarget]
+  -fail|p2a: Pecharunt
+  switch|p1a: Pawmot|Pawmot, L80, F|243/243
+-- turn 17
+  WE CHOSE: attack doubleshock - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Pawmot|Double Shock|p2a: Pecharunt
+  -damage|p2a: Pecharunt|57/100
+  -start|p1a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+  -damage|p1a: Pawmot|219/243|[from] item: Life Orb
+  move|p2a: Pecharunt|Malignant Chain|p1a: Pawmot
+  -damage|p1a: Pawmot|111/243
+  -heal|p2a: Pecharunt|63/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack doubleshock - our hp 0.46, theirs 0.63, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gurdurr - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Pawmot|Double Shock||[still]
+  -fail|p1a: Pawmot|move: Double Shock
+  move|p2a: Pecharunt|Malignant Chain|p1a: Pawmot
+  -damage|p1a: Pawmot|0 fnt
+  faint|p1a: Pawmot
+  -heal|p2a: Pecharunt|69/100|[from] item: Leftovers
+  switch|p1a: Gurdurr|Gurdurr, L85, M|283/283
+-- turn 19
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Pecharunt|Malignant Chain|p1a: Gurdurr
+  -damage|p1a: Gurdurr|198/283
+  -status|p1a: Gurdurr|tox
+  -start|p1a: Gurdurr|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+  -activate|p1a: Gurdurr|confusion
+  move|p1a: Gurdurr|Knock Off|p2a: Pecharunt
+  -supereffective|p2a: Pecharunt
+  -damage|p2a: Pecharunt|12/100
+  -enditem|p2a: Pecharunt|Leftovers|[from] move: Knock Off|[of] p1a: Gurdurr
+  -damage|p1a: Gurdurr|181/283 tox|[from] psn
+-- turn 20
+  WE CHOSE: attack knockoff - our hp 0.64, theirs 0.12, predicted move (revealed) hits us x1
+  move|p2a: Pecharunt|Malignant Chain|p1a: Gurdurr
+  -damage|p1a: Gurdurr|106/283 tox
+  -activate|p1a: Gurdurr|confusion
+  move|p1a: Gurdurr|Knock Off|p2a: Pecharunt
+  -supereffective|p2a: Pecharunt
+  -damage|p2a: Pecharunt|0 fnt
+  faint|p2a: Pecharunt
+  -damage|p1a: Gurdurr|72/283 tox|[from] psn
+  switch|p2a: Gumshoos|Gumshoos, L95, F|100/100
+-- turn 21
+  WE CHOSE: switch to glaceon (hand policy: attack drainpunch) - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to gurdurr - our hp 0.00, theirs 0.72, predicted move (revealed) hits us x1
+  switch|p1a: Glaceon|Glaceon, L94, F|275/275
+  move|p2a: Gumshoos|Double-Edge|p1a: Glaceon
+  -damage|p1a: Glaceon|0 fnt
+  faint|p1a: Glaceon
+  -damage|p2a: Gumshoos|72/100|[from] Recoil
+  switch|p1a: Gurdurr|Gurdurr, L85, M|72/283 tox
+-- turn 22
+  WE CHOSE: attack drainpunch - our hp 0.25, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Gumshoos|Double-Edge|p1a: Gurdurr
+  -damage|p1a: Gurdurr|0 fnt
+  faint|p1a: Gurdurr
+  -damage|p2a: Gumshoos|65/100|[from] Recoil
+  deinit

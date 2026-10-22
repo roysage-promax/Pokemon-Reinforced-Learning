@@ -1,0 +1,275 @@
+battle 1932 (battle-gen9randombattle-2038289): lost in 31 turns, 1 of theirs left; we are p1
+
+ours:
+  toxapex (fainted; item rockyhelmet, ability regenerator, tera fairy; moves haze/recover/toxicspikes/liquidation)
+  hoopa (fainted; item choicescarf, ability magician; moves focusblast/trick/shadowball/psyshock)
+  zekrom (fainted; item leftovers, ability teravolt; moves outrage/boltstrike/substitute/dragondance)
+  swampert (fainted; item leftovers, ability damp; moves knockoff/roar/earthquake/stealthrock)
+  koraidon (fainted; item choiceband, ability orichalcumpulse; moves flareblitz/closecombat/uturn/outrage)
+  grumpig (fainted; item choicescarf, ability thickfat; moves focusblast/shadowball/psyshock/trick)
+theirs (as seen):
+  salamence (fainted; item unknown_item, ability intimidate; moves outrage)
+  bellossom (fainted; item leftovers, ability ?; moves sludgebomb)
+  florgesorange (fainted; item leftovers, ability ?; moves moonblast)
+  veluza (fainted; item unknown_item, ability ?; moves psychocut)
+  calyrex (fainted; item leftovers, ability unnerve; moves psyshock)
+  salazzle (55%; item leftovers, ability ?; moves flamethrower)
+
+-- turn 0
+  switch|p1a: Toxapex|Toxapex, L82, M|216/216
+  switch|p2a: Salamence|Salamence, L77, F|100/100
+  -ability|p2a: Salamence|Intimidate|boost
+  -unboost|p1a: Toxapex|atk|1
+-- turn 1
+  WE CHOSE: attack+tera liquidation - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Toxapex|Fairy
+  move|p2a: Salamence|Outrage|p1a: Toxapex
+  -immune|p1a: Toxapex
+  move|p1a: Toxapex|Liquidation|p2a: Salamence
+  -resisted|p2a: Salamence
+  -damage|p2a: Salamence|91/100
+-- turn 2
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0
+  move|p2a: Salamence|Outrage|p1a: Toxapex
+  -immune|p1a: Toxapex
+  move|p1a: Toxapex|Liquidation|p2a: Salamence
+  -resisted|p2a: Salamence
+  -damage|p2a: Salamence|82/100
+-- turn 3
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Salamence|Outrage|p1a: Toxapex
+  -immune|p1a: Toxapex
+  move|p1a: Toxapex|Liquidation|p2a: Salamence
+  -resisted|p2a: Salamence
+  -damage|p2a: Salamence|74/100
+-- turn 4
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.74, predicted move (revealed) hits us x0
+  move|p2a: Salamence|Outrage|p1a: Toxapex
+  -immune|p1a: Toxapex
+  move|p1a: Toxapex|Liquidation|p2a: Salamence
+  -resisted|p2a: Salamence
+  -damage|p2a: Salamence|65/100
+  -unboost|p2a: Salamence|def|1
+-- turn 5
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.65, predicted move (revealed) hits us x0
+  move|p2a: Salamence|Outrage|p1a: Toxapex
+  -immune|p1a: Toxapex
+  move|p1a: Toxapex|Liquidation|p2a: Salamence
+  -resisted|p2a: Salamence
+  -damage|p2a: Salamence|52/100
+-- turn 6
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x0
+  move|p2a: Salamence|Outrage|p1a: Toxapex
+  -immune|p1a: Toxapex
+  move|p1a: Toxapex|Liquidation|p2a: Salamence
+  -resisted|p2a: Salamence
+  -damage|p2a: Salamence|39/100
+  -unboost|p2a: Salamence|def|1
+-- turn 7
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x0
+  move|p2a: Salamence|Outrage|p1a: Toxapex
+  -immune|p1a: Toxapex
+  move|p1a: Toxapex|Liquidation|p2a: Salamence
+  -resisted|p2a: Salamence
+  -damage|p2a: Salamence|23/100
+  -unboost|p2a: Salamence|def|1
+-- turn 8
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x0
+  move|p2a: Salamence|Outrage|p1a: Toxapex
+  -immune|p1a: Toxapex
+  move|p1a: Toxapex|Liquidation|p2a: Salamence
+  -resisted|p2a: Salamence
+  -damage|p2a: Salamence|1/100
+-- turn 9
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.01, predicted move (revealed) hits us x0
+  move|p2a: Salamence|Outrage|p1a: Toxapex
+  -immune|p1a: Toxapex
+  move|p1a: Toxapex|Liquidation|p2a: Salamence
+  -resisted|p2a: Salamence
+  -damage|p2a: Salamence|0 fnt
+  faint|p2a: Salamence
+  switch|p2a: Bellossom|Bellossom, L84, F|100/100
+-- turn 10
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Bellossom|Sludge Bomb|p1a: Toxapex
+  -supereffective|p1a: Toxapex
+  -damage|p1a: Toxapex|132/216
+  -status|p1a: Toxapex|psn
+  move|p1a: Toxapex|Liquidation|p2a: Bellossom
+  -resisted|p2a: Bellossom
+  -damage|p2a: Bellossom|93/100
+  -unboost|p2a: Bellossom|def|1
+  -heal|p2a: Bellossom|99/100|[from] item: Leftovers
+  -damage|p1a: Toxapex|105/216 psn|[from] psn
+-- turn 11
+  WE CHOSE: switch to hoopa - our hp 0.49, theirs 0.99, predicted move (revealed) hits us x2
+  switch|p1a: Hoopa|Hoopa, L85|275/275
+  move|p2a: Bellossom|Sludge Bomb|p1a: Hoopa
+  -resisted|p1a: Hoopa
+  -damage|p1a: Hoopa|253/275
+  -heal|p2a: Bellossom|100/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack psyshock - our hp 0.92, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Hoopa|Psyshock|p2a: Bellossom
+  -damage|p2a: Bellossom|30/100
+  move|p2a: Bellossom|Sludge Bomb|p1a: Hoopa
+  -resisted|p1a: Hoopa
+  -damage|p1a: Hoopa|230/275
+  -heal|p2a: Bellossom|36/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack psyshock - our hp 0.84, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p1a: Hoopa|Psyshock|p2a: Bellossom
+  -damage|p2a: Bellossom|0 fnt
+  faint|p2a: Bellossom
+  switch|p2a: Florges|Florges-Orange, L85, F|100/100
+-- turn 14
+  WE CHOSE: switch to swampert (hand policy: attack psyshock) - our hp 0.84, theirs 1.00, predicted move (unknown) hits us x0
+  switch|p1a: Swampert|Swampert, L83, M|302/302
+  move|p2a: Florges|Moonblast|p1a: Swampert
+  -crit|p1a: Swampert
+  -damage|p1a: Swampert|116/302
+  -unboost|p1a: Swampert|spa|1
+  -heal|p1a: Swampert|134/302|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: switch to toxapex (hand policy: attack earthquake) - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Toxapex|Toxapex, L82, M, tera:Fairy|177/216 psn
+  move|p2a: Florges|Moonblast|p1a: Toxapex
+  -damage|p1a: Toxapex|101/216 psn
+  -damage|p1a: Toxapex|74/216 psn|[from] psn
+-- turn 16
+  WE CHOSE: heal recover - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to swampert - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Toxapex
+  -damage|p1a: Toxapex|0 fnt
+  faint|p1a: Toxapex
+  switch|p1a: Swampert|Swampert, L83, M|134/302
+-- turn 17
+  WE CHOSE: attack roar (hand policy: attack earthquake) - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Swampert
+  -damage|p1a: Swampert|11/302
+  move|p1a: Swampert|Roar|p2a: Florges
+  drag|p2a: Veluza|Veluza, L85, M|100/100
+  -heal|p1a: Swampert|29/302|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: switch to zekrom (hand policy: attack earthquake) - our hp 0.10, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Zekrom|Zekrom, L71|259/259
+  -ability|p1a: Zekrom|Teravolt
+  move|p2a: Veluza|Psycho Cut|p1a: Zekrom
+  -damage|p1a: Zekrom|154/259
+  -heal|p1a: Zekrom|170/259|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack boltstrike - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Veluza|Psycho Cut|p1a: Zekrom
+  -damage|p1a: Zekrom|62/259
+  move|p1a: Zekrom|Bolt Strike|p2a: Veluza
+  -supereffective|p2a: Veluza
+  -damage|p2a: Veluza|0 fnt
+  faint|p2a: Veluza
+  -heal|p1a: Zekrom|78/259|[from] item: Leftovers
+  switch|p2a: Calyrex|Calyrex, L93|100/100
+  -ability|p2a: Calyrex|Unnerve
+-- turn 20
+  WE CHOSE: attack outrage - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hoopa - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Calyrex|Psyshock|p1a: Zekrom
+  -damage|p1a: Zekrom|0 fnt
+  faint|p1a: Zekrom
+  switch|p1a: Hoopa|Hoopa, L85|230/275
+-- turn 21
+  WE CHOSE: attack shadowball - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Hoopa|Shadow Ball|p2a: Calyrex
+  -supereffective|p2a: Calyrex
+  -damage|p2a: Calyrex|27/100
+  move|p2a: Calyrex|Psyshock|p1a: Hoopa
+  -resisted|p1a: Hoopa
+  -damage|p1a: Hoopa|172/275
+  -heal|p2a: Calyrex|33/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack shadowball - our hp 0.63, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p1a: Hoopa|Shadow Ball|p2a: Calyrex
+  -supereffective|p2a: Calyrex
+  -damage|p2a: Calyrex|0 fnt
+  faint|p2a: Calyrex
+  switch|p2a: Florges|Florges-Orange, L85, F|100/100
+-- turn 23
+  WE CHOSE: attack shadowball - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Hoopa|Shadow Ball|p2a: Florges
+  -damage|p2a: Florges|70/100
+  move|p2a: Florges|Moonblast|p1a: Hoopa
+  -damage|p1a: Hoopa|82/275
+  -heal|p2a: Florges|75/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack shadowball - our hp 0.30, theirs 0.75, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to swampert - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p1a: Hoopa|Shadow Ball|p2a: Florges
+  -damage|p2a: Florges|46/100
+  move|p2a: Florges|Moonblast|p1a: Hoopa
+  -damage|p1a: Hoopa|0 fnt
+  faint|p1a: Hoopa
+  -heal|p2a: Florges|51/100|[from] item: Leftovers
+  switch|p1a: Swampert|Swampert, L83, M|29/302
+-- turn 25
+  WE CHOSE: attack earthquake - our hp 0.10, theirs 0.51, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to grumpig - our hp 0.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Swampert
+  -damage|p1a: Swampert|0 fnt
+  faint|p1a: Swampert
+  -heal|p2a: Florges|57/100|[from] item: Leftovers
+  switch|p1a: Grumpig|Grumpig, L92, M|297/297
+-- turn 26
+  WE CHOSE: attack shadowball (hand policy: attack psyshock) - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Grumpig|Shadow Ball|p2a: Florges
+  -damage|p2a: Florges|44/100
+  move|p2a: Florges|Moonblast|p1a: Grumpig
+  -damage|p1a: Grumpig|210/297
+  -unboost|p1a: Grumpig|spa|1
+  -heal|p2a: Florges|50/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack shadowball - our hp 0.71, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Grumpig|Shadow Ball|p2a: Florges
+  -damage|p2a: Florges|39/100
+  -unboost|p2a: Florges|spd|1
+  move|p2a: Florges|Moonblast|p1a: Grumpig
+  -damage|p1a: Grumpig|114/297
+  -heal|p2a: Florges|45/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack shadowball - our hp 0.38, theirs 0.45, predicted move (revealed) hits us x1
+  WE CHOSE: forced: attack shadowball (hand policy: forced: switch to koraidon) - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p1a: Grumpig|Shadow Ball|p2a: Florges
+  -crit|p2a: Florges
+  -damage|p2a: Florges|13/100
+  -unboost|p2a: Florges|spd|1
+  move|p2a: Florges|Moonblast|p1a: Grumpig
+  -crit|p1a: Grumpig
+  -damage|p1a: Grumpig|0 fnt
+  faint|p1a: Grumpig
+  -heal|p2a: Florges|19/100|[from] item: Leftovers
+  switch|p1a: Koraidon|Koraidon, L64|235/235
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+  -activate|p1a: Koraidon|Orichalcum Pulse|[source]
+-- turn 29
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 0.19, predicted move (revealed) hits us x4
+  move|p1a: Koraidon|Flare Blitz|p2a: Florges
+  -damage|p2a: Florges|0 fnt
+  faint|p2a: Florges
+  -damage|p1a: Koraidon|219/235|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Salazzle|Salazzle, L83, F|100/100
+-- turn 30
+  WE CHOSE: attack flareblitz - our hp 0.93, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Salazzle|Flamethrower|p1a: Koraidon
+  -resisted|p1a: Koraidon
+  -damage|p1a: Koraidon|123/235
+  move|p1a: Koraidon|Flare Blitz|p2a: Salazzle
+  -resisted|p2a: Salazzle
+  -damage|p2a: Salazzle|49/100
+  -damage|p1a: Koraidon|81/235|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Salazzle|55/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack flareblitz - our hp 0.34, theirs 0.55, predicted move (revealed) hits us x0.5
+  move|p2a: Salazzle|Flamethrower|p1a: Koraidon
+  -resisted|p1a: Koraidon
+  -damage|p1a: Koraidon|0 fnt
+  faint|p1a: Koraidon
+  deinit

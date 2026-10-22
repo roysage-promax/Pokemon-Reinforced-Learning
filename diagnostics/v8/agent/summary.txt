@@ -1,0 +1,20 @@
+network /home/rossyao10/cares_rl_logs/DQN/DQN-random-max-v8-s30-26_10_21_11-27-12/30/models/final/DQN_checkpoint.pth: 3000 battles in 703s, won 2860 = 95.3% [94.5, 96.0]
+
+per battle          wins  losses
+turns              21.96   27.36
+ours_left           4.47    0.00
+theirs_left         0.00    1.70
+crit_on_us          0.51    1.01
+crit_by_us          0.54    0.44
+miss_by_us          0.46    0.54
+miss_by_them        0.73    0.79
+cant_us             0.32    0.99
+cant_them           0.15    0.30
+attack             12.13   16.59
+attack+tera         0.95    0.94
+switch              4.65    4.40
+forced switch       1.61    5.18
+heal                1.09    2.74
+setup               3.17    2.75
+
+losses by how many of theirs were left: 0: 4, 1: 64, 2: 49, 3: 18, 4: 3, 5: 2

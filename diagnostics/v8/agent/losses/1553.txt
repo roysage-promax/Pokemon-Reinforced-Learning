@@ -1,0 +1,200 @@
+battle 1553 (battle-gen9randombattle-2034318): lost in 21 turns, 3 of theirs left; we are p1
+
+ours:
+  ditto (fainted; item choicescarf, ability imposter; moves transform)
+  empoleon (fainted; item leftovers, ability competitive; moves roar/flipturn/surf/roost)
+  solgaleo (fainted; item rockyhelmet, ability fullmetalbody, tera water; moves teleport/morningsun/earthquake/sunsteelstrike)
+  meowscarada (fainted; item heavydutyboots, ability protean; moves knockoff/uturn/toxicspikes/flowertrick)
+  samurott (fainted; item lifeorb, ability torrent; moves sacredsword/megahorn/swordsdance/liquidation)
+  ironboulder (fainted; item ?, ability quarkdrive; moves zenheadbutt/closecombat/swordsdance/mightycleave)
+theirs (as seen):
+  vivillonelegant (fainted; item unknown_item, ability ?; moves hurricane)
+  grimmsnarl (fainted; item unknown_item, ability ?; moves spiritbreak)
+  ampharos (fainted; item unknown_item, ability ?; moves discharge)
+  slitherwing (15%; item ?, ability protosynthesis; moves closecombat)
+
+-- turn 0
+  switch|p1a: Ditto|Ditto, L87|225/225
+  switch|p2a: Vivillon|Vivillon-Elegant, L83, M|100/100
+  -transform|p1a: Ditto|p2a: Vivillon|[from] ability: Imposter
+-- turn 1
+  WE CHOSE: setup quiverdance (hand policy: attack hurricane) - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Ditto|Quiver Dance|p1a: Ditto
+  -boost|p1a: Ditto|spa|1
+  -boost|p1a: Ditto|spd|1
+  -boost|p1a: Ditto|spe|1
+  move|p2a: Vivillon|Hurricane|p1a: Ditto|[miss]
+  -miss|p2a: Vivillon|p1a: Ditto
+-- turn 2
+  WE CHOSE: switch to ironboulder - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Iron Boulder|Iron Boulder, L77|265/265
+  -enditem|p1a: Iron Boulder|Booster Energy
+  -activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+  -start|p1a: Iron Boulder|quarkdrivespe
+  move|p2a: Vivillon|Hurricane|p1a: Iron Boulder
+  -resisted|p1a: Iron Boulder
+  -damage|p1a: Iron Boulder|211/265
+-- turn 3
+  WE CHOSE: setup swordsdance - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Boulder|Swords Dance|p1a: Iron Boulder
+  -boost|p1a: Iron Boulder|atk|2
+  move|p2a: Vivillon|Hurricane|p1a: Iron Boulder
+  -resisted|p1a: Iron Boulder
+  -damage|p1a: Iron Boulder|162/265
+-- turn 4
+  WE CHOSE: attack mightycleave - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Boulder|Mighty Cleave|p2a: Vivillon
+  -supereffective|p2a: Vivillon
+  -damage|p2a: Vivillon|0 fnt
+  faint|p2a: Vivillon
+  switch|p2a: Grimmsnarl|Grimmsnarl, L83, M|100/100
+-- turn 5
+  WE CHOSE: switch to solgaleo (hand policy: attack mightycleave) - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x1
+  -end|p1a: Iron Boulder|Quark Drive|[silent]
+  switch|p1a: Solgaleo|Solgaleo, L74|325/325
+  move|p2a: Grimmsnarl|Spirit Break|p1a: Solgaleo
+  -resisted|p1a: Solgaleo
+  -damage|p1a: Solgaleo|283/325
+  -damage|p2a: Grimmsnarl|84/100|[from] item: Rocky Helmet|[of] p1a: Solgaleo
+-- turn 6
+  WE CHOSE: attack sunsteelstrike - our hp 0.87, theirs 0.84, predicted move (revealed) hits us x0.5
+  move|p1a: Solgaleo|Sunsteel Strike|p2a: Grimmsnarl
+  -supereffective|p2a: Grimmsnarl
+  -damage|p2a: Grimmsnarl|0 fnt
+  faint|p2a: Grimmsnarl
+  switch|p2a: Ampharos|Ampharos, L88, M|100/100
+-- turn 7
+  WE CHOSE: switch to ditto (hand policy: attack earthquake) - our hp 0.87, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Ditto|Ditto, L87|225/225
+  -transform|p1a: Ditto|p2a: Ampharos|[from] ability: Imposter
+  move|p2a: Ampharos|Discharge|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|172/225
+-- turn 8
+  WE CHOSE: switch to solgaleo (hand policy: attack dazzlinggleam) - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Solgaleo|Solgaleo, L74|283/325
+  move|p2a: Ampharos|Discharge|p1a: Solgaleo
+  -damage|p1a: Solgaleo|159/325
+-- turn 9
+  WE CHOSE: switch to meowscarada (hand policy: heal morningsun) - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Meowscarada|Meowscarada, L78, M|247/247
+  move|p2a: Ampharos|Discharge|p1a: Meowscarada
+  -resisted|p1a: Meowscarada
+  -damage|p1a: Meowscarada|184/247
+-- turn 10
+  WE CHOSE: attack flowertrick (hand policy: attack+tera flowertrick) - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Meowscarada|Flower Trick|p2a: Ampharos
+  -start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+  -crit|p2a: Ampharos
+  -damage|p2a: Ampharos|65/100
+  move|p2a: Ampharos|Discharge|p1a: Meowscarada
+  -resisted|p1a: Meowscarada
+  -damage|p1a: Meowscarada|115/247
+-- turn 11
+  WE CHOSE: attack flowertrick (hand policy: attack+tera flowertrick) - our hp 0.47, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p1a: Meowscarada|Flower Trick|p2a: Ampharos
+  -crit|p2a: Ampharos
+  -damage|p2a: Ampharos|32/100
+  move|p2a: Ampharos|Discharge|p1a: Meowscarada
+  -resisted|p1a: Meowscarada
+  -damage|p1a: Meowscarada|41/247
+  -status|p1a: Meowscarada|par
+-- turn 12
+  WE CHOSE: attack flowertrick (hand policy: attack+tera flowertrick) - our hp 0.17, theirs 0.32, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ditto (hand policy: forced: switch to solgaleo) - our hp 0.00, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p2a: Ampharos|Discharge|p1a: Meowscarada
+  -resisted|p1a: Meowscarada
+  -damage|p1a: Meowscarada|0 fnt
+  faint|p1a: Meowscarada
+  switch|p1a: Ditto|Ditto, L87|172/225
+  -transform|p1a: Ditto|p2a: Ampharos|[from] ability: Imposter
+-- turn 13
+  WE CHOSE: attack dazzlinggleam - our hp 0.76, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Dazzling Gleam|p2a: Ampharos
+  -damage|p2a: Ampharos|18/100
+  move|p2a: Ampharos|Discharge|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|123/225
+-- turn 14
+  WE CHOSE: attack dazzlinggleam - our hp 0.55, theirs 0.18, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Dazzling Gleam|p2a: Ampharos
+  -damage|p2a: Ampharos|3/100
+  move|p2a: Ampharos|Discharge|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|71/225
+-- turn 15
+  WE CHOSE: attack dazzlinggleam - our hp 0.32, theirs 0.03, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Dazzling Gleam|p2a: Ampharos
+  -damage|p2a: Ampharos|0 fnt
+  faint|p2a: Ampharos
+  switch|p2a: Slither Wing|Slither Wing, L81|100/100
+  -enditem|p2a: Slither Wing|Booster Energy
+  -activate|p2a: Slither Wing|ability: Protosynthesis|[fromitem]
+  -start|p2a: Slither Wing|protosynthesisatk
+-- turn 16
+  WE CHOSE: switch to ironboulder (hand policy: attack dazzlinggleam) - our hp 0.32, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to solgaleo - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Iron Boulder|Iron Boulder, L77|162/265
+  move|p2a: Slither Wing|Close Combat|p1a: Iron Boulder
+  -crit|p1a: Iron Boulder
+  -damage|p1a: Iron Boulder|0 fnt
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+  faint|p1a: Iron Boulder
+  -end|p1a: Iron Boulder|Quark Drive|[silent]
+  switch|p1a: Solgaleo|Solgaleo, L74|159/325
+-- turn 17
+  WE CHOSE: attack+tera sunsteelstrike (hand policy: heal morningsun) - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to samurott - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x1
+  -terastallize|p1a: Solgaleo|Water
+  move|p1a: Solgaleo|Sunsteel Strike|p2a: Slither Wing
+  -damage|p2a: Slither Wing|31/100
+  move|p2a: Slither Wing|Close Combat|p1a: Solgaleo
+  -crit|p1a: Solgaleo
+  -damage|p1a: Solgaleo|0 fnt
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+  -damage|p2a: Slither Wing|15/100|[from] item: Rocky Helmet|[of] p1a: Solgaleo
+  faint|p1a: Solgaleo
+  switch|p1a: Samurott|Samurott, L88, F|310/310
+-- turn 18
+  WE CHOSE: setup swordsdance (hand policy: attack liquidation) - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x1
+  move|p2a: Slither Wing|Close Combat|p1a: Samurott
+  -damage|p1a: Samurott|106/310
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+  move|p1a: Samurott|Swords Dance|p1a: Samurott
+  -boost|p1a: Samurott|atk|2
+-- turn 19
+  WE CHOSE: attack liquidation - our hp 0.34, theirs 0.15, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ditto - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x1
+  move|p2a: Slither Wing|Close Combat|p1a: Samurott
+  -damage|p1a: Samurott|0 fnt
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+  faint|p1a: Samurott
+  switch|p1a: Ditto|Ditto, L87|71/225
+  -transform|p1a: Ditto|p2a: Slither Wing|[from] ability: Imposter
+-- turn 20
+  WE CHOSE: setup bulkup (hand policy: attack acrobatics) - our hp 0.32, theirs 0.15, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to empoleon - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p1a: Ditto|Bulk Up|p1a: Ditto
+  -boost|p1a: Ditto|atk|1
+  -boost|p1a: Ditto|def|1
+  move|p2a: Slither Wing|Close Combat|p1a: Ditto
+  -resisted|p1a: Ditto
+  -damage|p1a: Ditto|0 fnt
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+  faint|p1a: Ditto
+  -end|p1a: Ditto|Protosynthesis|[silent]
+  switch|p1a: Empoleon|Empoleon, L84, M|278/278
+-- turn 21
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x2
+  move|p2a: Slither Wing|Close Combat|p1a: Empoleon
+  -supereffective|p1a: Empoleon
+  -damage|p1a: Empoleon|0 fnt
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+  faint|p1a: Empoleon
+  deinit

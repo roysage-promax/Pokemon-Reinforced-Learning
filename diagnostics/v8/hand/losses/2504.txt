@@ -1,0 +1,260 @@
+battle 2504 (battle-gen9randombattle-2042034): lost in 29 turns, 1 of theirs left; we are p1
+
+ours:
+  spiritomb (fainted; item leftovers, ability infiltrator; moves painsplit/shadowsneak/foulplay/poltergeist)
+  articunogalar (fainted; item heavydutyboots, ability competitive; moves recover/freezingglare/hurricane/calmmind)
+  yanmega (fainted; item choicespecs, ability tintedlens; moves gigadrain/airslash/uturn/bugbuzz)
+  minun (fainted; item ?, ability voltabsorb, tera electric; moves nastyplot/grassknot/alluringvoice/thunderbolt)
+  bellossom (fainted; item leftovers, ability chlorophyll; moves gigadrain/sludgebomb/quiverdance/strengthsap)
+  dedenne (fainted; item ?, ability cheekpouch; moves dazzlinggleam/uturn/thunderbolt/superfang)
+theirs (as seen):
+  taurospaldeablaze (fainted; item ?, ability ?; moves closecombat/ragingbull)
+  heatran (fainted; item ?, ability ?; moves magmastorm)
+  leavanny (fainted; item unknown_item, ability ?; moves knockoff)
+  exeggutor (fainted; item ?, ability ?; moves psychicnoise)
+  porygonz (fainted; item lifeorb, ability ?; moves terablast)
+
+-- turn 0
+  switch|p1a: Spiritomb|Spiritomb, L89, F|234/234
+  switch|p2a: Tauros|Tauros-Paldea-Blaze, L81, M|100/100
+-- turn 1
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Tauros|Close Combat|p1a: Spiritomb
+  -immune|p1a: Spiritomb
+  move|p1a: Spiritomb|Poltergeist|p2a: Tauros
+  -activate|p2a: Tauros|move: Poltergeist|Sitrus Berry
+  -damage|p2a: Tauros|54/100
+-- turn 2
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 0.54, predicted move (revealed) hits us x0
+  move|p2a: Tauros|Close Combat|p1a: Spiritomb
+  -immune|p1a: Spiritomb
+  move|p1a: Spiritomb|Poltergeist|p2a: Tauros
+  -activate|p2a: Tauros|move: Poltergeist|Sitrus Berry
+  -damage|p2a: Tauros|8/100
+  -enditem|p2a: Tauros|Sitrus Berry|[eat]
+  -heal|p2a: Tauros|33/100|[from] item: Sitrus Berry
+-- turn 3
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x0
+  move|p2a: Tauros|Close Combat|p1a: Spiritomb
+  -immune|p1a: Spiritomb
+  move|p1a: Spiritomb|Poltergeist||[still]
+  -fail|p1a: Spiritomb
+  -activate|p2a: Tauros|ability: Cud Chew
+  -enditem|p2a: Tauros|Sitrus Berry|[eat]
+  -heal|p2a: Tauros|58/100|[from] item: Sitrus Berry
+-- turn 4
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x0
+  move|p2a: Tauros|Close Combat|p1a: Spiritomb
+  -immune|p1a: Spiritomb
+  move|p1a: Spiritomb|Poltergeist||[still]
+  -fail|p1a: Spiritomb
+-- turn 5
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x0
+  move|p2a: Tauros|Close Combat|p1a: Spiritomb
+  -immune|p1a: Spiritomb
+  move|p1a: Spiritomb|Poltergeist||[still]
+  -fail|p1a: Spiritomb
+-- turn 6
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x0
+  move|p2a: Tauros|Close Combat|p1a: Spiritomb
+  -immune|p1a: Spiritomb
+  move|p1a: Spiritomb|Poltergeist||[still]
+  -fail|p1a: Spiritomb
+-- turn 7
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x0
+  move|p2a: Tauros|Close Combat|p1a: Spiritomb
+  -immune|p1a: Spiritomb
+  move|p1a: Spiritomb|Poltergeist||[still]
+  -fail|p1a: Spiritomb
+-- turn 8
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x0
+  move|p2a: Tauros|Close Combat|p1a: Spiritomb
+  -immune|p1a: Spiritomb
+  move|p1a: Spiritomb|Poltergeist||[still]
+  -fail|p1a: Spiritomb
+-- turn 9
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x0
+  move|p2a: Tauros|Raging Bull|p1a: Spiritomb
+  -damage|p1a: Spiritomb|152/234
+  move|p1a: Spiritomb|Foul Play|p2a: Tauros
+  -resisted|p2a: Tauros
+  -damage|p2a: Tauros|38/100
+  -heal|p1a: Spiritomb|166/234|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack foulplay - our hp 0.71, theirs 0.38, predicted move (revealed) hits us x0
+  move|p2a: Tauros|Raging Bull|p1a: Spiritomb
+  -crit|p1a: Spiritomb
+  -damage|p1a: Spiritomb|57/234
+  move|p1a: Spiritomb|Foul Play|p2a: Tauros
+  -resisted|p2a: Tauros
+  -damage|p2a: Tauros|17/100
+  -heal|p1a: Spiritomb|71/234|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack foulplay - our hp 0.30, theirs 0.17, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to articunogalar - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x0
+  move|p2a: Tauros|Raging Bull|p1a: Spiritomb
+  -crit|p1a: Spiritomb
+  -damage|p1a: Spiritomb|0 fnt
+  faint|p1a: Spiritomb
+  switch|p1a: Articuno|Articuno-Galar, L84|288/288
+-- turn 12
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.17, predicted move (revealed) hits us x0.25
+  move|p2a: Tauros|Raging Bull|p1a: Articuno
+  -damage|p1a: Articuno|186/288
+  move|p1a: Articuno|Calm Mind|p1a: Articuno
+  -boost|p1a: Articuno|spa|1
+  -boost|p1a: Articuno|spd|1
+-- turn 13
+  WE CHOSE: setup calmmind - our hp 0.65, theirs 0.17, predicted move (revealed) hits us x0.25
+  move|p2a: Tauros|Raging Bull|p1a: Articuno
+  -damage|p1a: Articuno|87/288
+  move|p1a: Articuno|Calm Mind|p1a: Articuno
+  -boost|p1a: Articuno|spa|1
+  -boost|p1a: Articuno|spd|1
+-- turn 14
+  WE CHOSE: heal recover - our hp 0.30, theirs 0.17, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to yanmega - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x0.25
+  move|p2a: Tauros|Raging Bull|p1a: Articuno
+  -damage|p1a: Articuno|0 fnt
+  faint|p1a: Articuno
+  switch|p1a: Yanmega|Yanmega, L82, F|275/275
+-- turn 15
+  WE CHOSE: attack airslash - our hp 1.00, theirs 0.17, predicted move (revealed) hits us x0.25
+  move|p2a: Tauros|Raging Bull|p1a: Yanmega
+  -supereffective|p1a: Yanmega
+  -damage|p1a: Yanmega|63/275
+  move|p1a: Yanmega|Air Slash|p2a: Tauros
+  -supereffective|p2a: Tauros
+  -damage|p2a: Tauros|0 fnt
+  faint|p2a: Tauros
+  switch|p2a: Heatran|Heatran, L79, F|100/100
+  -item|p2a: Heatran|Air Balloon
+-- turn 16
+  WE CHOSE: attack airslash - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Yanmega|Air Slash|p2a: Heatran
+  -resisted|p2a: Heatran
+  -damage|p2a: Heatran|59/100
+  -enditem|p2a: Heatran|Air Balloon
+  move|p2a: Heatran|Magma Storm|p1a: Yanmega|[miss]
+  -miss|p2a: Heatran|p1a: Yanmega
+-- turn 17
+  WE CHOSE: attack airslash - our hp 0.23, theirs 0.59, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to minun - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x2
+  move|p1a: Yanmega|Air Slash|p2a: Heatran
+  -resisted|p2a: Heatran
+  -damage|p2a: Heatran|18/100
+  move|p2a: Heatran|Magma Storm|p1a: Yanmega
+  -supereffective|p1a: Yanmega
+  -damage|p1a: Yanmega|0 fnt
+  faint|p1a: Yanmega
+  switch|p1a: Minun|Minun, L95, M|268/268
+-- turn 18
+  WE CHOSE: attack+tera thunderbolt - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x1
+  -terastallize|p1a: Minun|Electric
+  move|p1a: Minun|Thunderbolt|p2a: Heatran
+  -damage|p2a: Heatran|0 fnt
+  faint|p2a: Heatran
+  -damage|p1a: Minun|242/268|[from] item: Life Orb
+  switch|p2a: Leavanny|Leavanny, L86, M|100/100
+-- turn 19
+  WE CHOSE: attack thunderbolt - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Minun|Thunderbolt|p2a: Leavanny
+  -resisted|p2a: Leavanny
+  -damage|p2a: Leavanny|69/100
+  -damage|p1a: Minun|216/268|[from] item: Life Orb
+  move|p2a: Leavanny|Knock Off|p1a: Minun
+  -damage|p1a: Minun|121/268
+  -enditem|p1a: Minun|Life Orb|[from] move: Knock Off|[of] p2a: Leavanny
+-- turn 20
+  WE CHOSE: attack thunderbolt - our hp 0.45, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Minun|Thunderbolt|p2a: Leavanny
+  -resisted|p2a: Leavanny
+  -damage|p2a: Leavanny|42/100
+  move|p2a: Leavanny|Knock Off|p1a: Minun
+  -damage|p1a: Minun|60/268
+-- turn 21
+  WE CHOSE: attack thunderbolt - our hp 0.22, theirs 0.42, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dedenne - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p1a: Minun|Thunderbolt|p2a: Leavanny
+  -resisted|p2a: Leavanny
+  -damage|p2a: Leavanny|17/100
+  move|p2a: Leavanny|Knock Off|p1a: Minun
+  -damage|p1a: Minun|0 fnt
+  faint|p1a: Minun
+  switch|p1a: Dedenne|Dedenne, L88, M|261/261
+-- turn 22
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.17, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to bellossom - our hp 1.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p1a: Dedenne|U-turn|p2a: Leavanny
+  -supereffective|p2a: Leavanny
+  -damage|p2a: Leavanny|0 fnt
+  faint|p2a: Leavanny
+  switch|p1a: Bellossom|Bellossom, L84, F|263/263|[from] U-turn
+  switch|p2a: Exeggutor|Exeggutor, L89, M|100/100
+-- turn 23
+  WE CHOSE: attack sludgebomb - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Exeggutor|Psychic Noise|p1a: Bellossom
+  -damage|p1a: Bellossom|161/263
+  -start|p1a: Bellossom|move: Heal Block
+  move|p1a: Bellossom|Sludge Bomb|p2a: Exeggutor
+  -supereffective|p2a: Exeggutor
+  -damage|p2a: Exeggutor|56/100
+-- turn 24
+  WE CHOSE: attack sludgebomb - our hp 0.61, theirs 0.56, predicted move (revealed) hits us x1
+  move|p2a: Exeggutor|Psychic Noise|p1a: Bellossom
+  -damage|p1a: Bellossom|65/263
+  move|p1a: Bellossom|Sludge Bomb|p2a: Exeggutor
+  -supereffective|p2a: Exeggutor
+  -damage|p2a: Exeggutor|14/100
+  -enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+  -heal|p2a: Exeggutor|39/100|[from] item: Sitrus Berry
+  -end|p1a: Bellossom|move: Heal Block
+  -item|p2a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+  -enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+  -heal|p2a: Exeggutor|64/100|[from] item: Sitrus Berry
+-- turn 25
+  WE CHOSE: heal strengthsap - our hp 0.25, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dedenne - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p2a: Exeggutor|Psychic Noise|p1a: Bellossom
+  -damage|p1a: Bellossom|0 fnt
+  faint|p1a: Bellossom
+  switch|p1a: Dedenne|Dedenne, L88, M|261/261
+-- turn 26
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Dedenne|U-turn|p2a: Exeggutor
+  -supereffective|p2a: Exeggutor
+  -damage|p2a: Exeggutor|19/100
+  move|p2a: Exeggutor|Psychic Noise|p1a: Dedenne
+  -damage|p1a: Dedenne|123/261
+  -start|p1a: Dedenne|move: Heal Block
+  -item|p2a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+  -enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+  -heal|p2a: Exeggutor|44/100|[from] item: Sitrus Berry
+-- turn 27
+  WE CHOSE: attack uturn - our hp 0.47, theirs 0.44, predicted move (revealed) hits us x1
+  move|p1a: Dedenne|U-turn|p2a: Exeggutor
+  -supereffective|p2a: Exeggutor
+  -damage|p2a: Exeggutor|0 fnt
+  faint|p2a: Exeggutor
+  -end|p1a: Dedenne|move: Heal Block
+  -enditem|p1a: Dedenne|Sitrus Berry|[eat]
+  -heal|p1a: Dedenne|188/261|[from] item: Sitrus Berry
+  -heal|p1a: Dedenne|261/261|[from] ability: Cheek Pouch
+  switch|p2a: Porygon-Z|Porygon-Z, L83|100/100
+-- turn 28
+  WE CHOSE: attack superfang - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Dedenne|Super Fang|p2a: Porygon-Z
+  -damage|p2a: Porygon-Z|51/100
+  move|p2a: Porygon-Z|Tera Blast|p1a: Dedenne
+  -damage|p1a: Dedenne|35/261
+  -damage|p2a: Porygon-Z|41/100|[from] item: Life Orb
+-- turn 29
+  WE CHOSE: attack thunderbolt - our hp 0.13, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Dedenne|Thunderbolt|p2a: Porygon-Z
+  -damage|p2a: Porygon-Z|2/100
+  move|p2a: Porygon-Z|Tera Blast|p1a: Dedenne
+  -damage|p1a: Dedenne|0 fnt
+  faint|p1a: Dedenne
+  -damage|p2a: Porygon-Z|0 fnt|[from] item: Life Orb
+  faint|p2a: Porygon-Z
+  deinit

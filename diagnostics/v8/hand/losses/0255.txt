@@ -1,0 +1,248 @@
+battle 255 (battle-gen9randombattle-2020782): lost in 26 turns, 2 of theirs left; we are p1
+
+ours:
+  ogerponwellspring (fainted; item wellspringmask, ability waterabsorb; moves ivycudgel/woodhammer/synthesis/encore)
+  flareon (fainted; item toxicorb, ability guts, tera normal; moves flareblitz/facade/willowisp/trailblaze)
+  skarmory (fainted; item leftovers, ability sturdy; moves bravebird/stealthrock/roost/spikes)
+  frosmoth (fainted; item heavydutyboots, ability icescales; moves terablast/icebeam/quiverdance/gigadrain)
+  volbeat (fainted; item heavydutyboots, ability prankster; moves uturn/encore/roost/thunderwave)
+  barraskewda (fainted; item choiceband, ability swiftswim; moves waterfall/flipturn/closecombat/throatchop)
+theirs (as seen):
+  luvdisc (fainted; item unknown_item, ability ?; moves surf)
+  hariyama (fainted; item unknown_item, ability ?; moves closecombat)
+  lycanroc (fainted; item lifeorb, ability ?; moves closecombat)
+  meganium (fainted; item leftovers, ability ?; moves earthquake)
+  reshiram (36%; item unknown_item, ability turboblaze; moves outrage)
+
+-- turn 0
+  switch|p1a: Ogerpon|Ogerpon-Wellspring, L76, F|247/247
+  switch|p2a: Luvdisc|Luvdisc, F|100/100
+-- turn 1
+  WE CHOSE: attack woodhammer - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Luvdisc|Surf|p1a: Ogerpon
+  -immune|p1a: Ogerpon|[from] ability: Water Absorb
+  move|p1a: Ogerpon|Wood Hammer|p2a: Luvdisc
+  -supereffective|p2a: Luvdisc
+  -damage|p2a: Luvdisc|0 fnt
+  faint|p2a: Luvdisc
+  -damage|p1a: Ogerpon|165/247|[from] Recoil
+  switch|p2a: Hariyama|Hariyama, L87, F|100/100
+-- turn 2
+  WE CHOSE: attack woodhammer - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to skarmory - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Wood Hammer|p2a: Hariyama
+  -crit|p2a: Hariyama
+  -damage|p2a: Hariyama|34/100
+  -damage|p1a: Ogerpon|79/247|[from] Recoil
+  move|p2a: Hariyama|Close Combat|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  -unboost|p2a: Hariyama|def|1
+  -unboost|p2a: Hariyama|spd|1
+  faint|p1a: Ogerpon
+  switch|p1a: Skarmory|Skarmory, L80, M|235/235
+-- turn 3
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Skarmory|Brave Bird|p2a: Hariyama
+  -supereffective|p2a: Hariyama
+  -damage|p2a: Hariyama|0 fnt
+  faint|p2a: Hariyama
+  -damage|p1a: Skarmory|192/235|[from] Recoil
+  -heal|p1a: Skarmory|206/235|[from] item: Leftovers
+  switch|p2a: Lycanroc|Lycanroc, L86, M|100/100
+-- turn 4
+  WE CHOSE: attack bravebird - our hp 0.88, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Lycanroc|Close Combat|p1a: Skarmory
+  -damage|p1a: Skarmory|106/235
+  -unboost|p2a: Lycanroc|def|1
+  -unboost|p2a: Lycanroc|spd|1
+  -damage|p2a: Lycanroc|91/100|[from] item: Life Orb
+  move|p1a: Skarmory|Brave Bird|p2a: Lycanroc
+  -resisted|p2a: Lycanroc
+  -damage|p2a: Lycanroc|57/100
+  -damage|p1a: Skarmory|76/235|[from] Recoil
+  -heal|p1a: Skarmory|90/235|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: heal roost - our hp 0.38, theirs 0.57, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to barraskewda - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Lycanroc|Close Combat|p1a: Skarmory
+  -damage|p1a: Skarmory|0 fnt
+  -unboost|p2a: Lycanroc|def|1
+  -unboost|p2a: Lycanroc|spd|1
+  faint|p1a: Skarmory
+  -damage|p2a: Lycanroc|48/100|[from] item: Life Orb
+  switch|p1a: Barraskewda|Barraskewda, L81, M|231/231
+-- turn 6
+  WE CHOSE: attack waterfall - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Barraskewda|Waterfall|p2a: Lycanroc
+  -supereffective|p2a: Lycanroc
+  -damage|p2a: Lycanroc|0 fnt
+  faint|p2a: Lycanroc
+  switch|p2a: Meganium|Meganium, L90, F|100/100
+-- turn 7
+  WE CHOSE: attack waterfall - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Barraskewda|Waterfall|p2a: Meganium
+  -resisted|p2a: Meganium
+  -damage|p2a: Meganium|80/100
+  move|p2a: Meganium|Earthquake|p1a: Barraskewda
+  -damage|p1a: Barraskewda|139/231
+  -heal|p2a: Meganium|87/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack waterfall - our hp 0.60, theirs 0.87, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to frosmoth - our hp 0.00, theirs 0.73, predicted move (revealed) hits us x1
+  move|p1a: Barraskewda|Waterfall|p2a: Meganium
+  -resisted|p2a: Meganium
+  -damage|p2a: Meganium|67/100
+  move|p2a: Meganium|Earthquake|p1a: Barraskewda
+  -crit|p1a: Barraskewda
+  -damage|p1a: Barraskewda|0 fnt
+  faint|p1a: Barraskewda
+  -heal|p2a: Meganium|73/100|[from] item: Leftovers
+  switch|p1a: Frosmoth|Frosmoth, L82, F|249/249
+-- turn 9
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x0.5
+  move|p2a: Meganium|Earthquake|p1a: Frosmoth
+  -resisted|p1a: Frosmoth
+  -damage|p1a: Frosmoth|202/249
+  move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+  -boost|p1a: Frosmoth|spa|1
+  -boost|p1a: Frosmoth|spd|1
+  -boost|p1a: Frosmoth|spe|1
+  -heal|p2a: Meganium|79/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: setup quiverdance - our hp 0.81, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+  -boost|p1a: Frosmoth|spa|1
+  -boost|p1a: Frosmoth|spd|1
+  -boost|p1a: Frosmoth|spe|1
+  move|p2a: Meganium|Earthquake|p1a: Frosmoth
+  -resisted|p1a: Frosmoth
+  -crit|p1a: Frosmoth
+  -damage|p1a: Frosmoth|133/249
+  -heal|p2a: Meganium|86/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack icebeam - our hp 0.53, theirs 0.86, predicted move (revealed) hits us x0.5
+  move|p1a: Frosmoth|Ice Beam|p2a: Meganium
+  -supereffective|p2a: Meganium
+  -damage|p2a: Meganium|0 fnt
+  faint|p2a: Meganium
+  switch|p2a: Reshiram|Reshiram, L76|100/100
+  -ability|p2a: Reshiram|Turboblaze
+-- turn 12
+  WE CHOSE: switch to flareon - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Flareon|Flareon, L90, F|263/263
+  move|p2a: Reshiram|Outrage|p1a: Flareon
+  -damage|p1a: Flareon|104/263
+  -status|p1a: Flareon|tox|[from] item: Toxic Orb
+-- turn 13
+  WE CHOSE: attack+tera facade - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to frosmoth - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Flareon|Normal
+  move|p2a: Reshiram|Outrage|p1a: Flareon|[from] lockedmove
+  -damage|p1a: Flareon|0 fnt
+  faint|p1a: Flareon
+  switch|p1a: Frosmoth|Frosmoth, L82, F|133/249
+-- turn 14
+  WE CHOSE: attack icebeam - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Reshiram|Outrage|p1a: Frosmoth|[from] lockedmove
+  -damage|p1a: Frosmoth|0 fnt
+  faint|p1a: Frosmoth
+  -start|p2a: Reshiram|confusion|[fatigue]
+  switch|p1a: Volbeat|Volbeat, L90, M|263/263
+-- turn 15
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|U-turn|p2a: Reshiram
+  -resisted|p2a: Reshiram
+  -crit|p2a: Reshiram
+  -damage|p2a: Reshiram|82/100
+  -activate|p2a: Reshiram|confusion
+  move|p2a: Reshiram|Outrage|p1a: Volbeat
+  -damage|p1a: Volbeat|137/263
+-- turn 16
+  WE CHOSE: attack uturn - our hp 0.52, theirs 0.82, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|U-turn|p2a: Reshiram
+  -resisted|p2a: Reshiram
+  -damage|p2a: Reshiram|70/100
+  -activate|p2a: Reshiram|confusion
+  move|p2a: Reshiram|Outrage|p1a: Volbeat|[from] lockedmove
+  -damage|p1a: Volbeat|16/263
+-- turn 17
+  WE CHOSE: heal roost - our hp 0.06, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|148/263
+  -singleturn|p1a: Volbeat|move: Roost
+  -activate|p2a: Reshiram|confusion
+  move|p2a: Reshiram|Outrage|p1a: Volbeat|[from] lockedmove
+  -damage|p1a: Volbeat|21/263
+-- turn 18
+  WE CHOSE: heal roost - our hp 0.08, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|153/263
+  -singleturn|p1a: Volbeat|move: Roost
+  -end|p2a: Reshiram|confusion
+  move|p2a: Reshiram|Outrage|p1a: Volbeat
+  -damage|p1a: Volbeat|29/263
+-- turn 19
+  WE CHOSE: heal roost - our hp 0.11, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|161/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Reshiram|Outrage|p1a: Volbeat|[from] lockedmove
+  -damage|p1a: Volbeat|31/263
+-- turn 20
+  WE CHOSE: heal roost - our hp 0.12, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|163/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Reshiram|Outrage|p1a: Volbeat|[from] lockedmove
+  -damage|p1a: Volbeat|30/263
+  -start|p2a: Reshiram|confusion|[fatigue]
+-- turn 21
+  WE CHOSE: heal roost - our hp 0.11, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|162/263
+  -singleturn|p1a: Volbeat|move: Roost
+  -activate|p2a: Reshiram|confusion
+  move|p2a: Reshiram|Outrage|p1a: Volbeat
+  -damage|p1a: Volbeat|42/263
+-- turn 22
+  WE CHOSE: heal roost - our hp 0.16, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|174/263
+  -singleturn|p1a: Volbeat|move: Roost
+  -activate|p2a: Reshiram|confusion
+  move|p2a: Reshiram|Outrage|p1a: Volbeat|[from] lockedmove
+  -damage|p1a: Volbeat|39/263
+-- turn 23
+  WE CHOSE: heal roost - our hp 0.15, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|171/263
+  -singleturn|p1a: Volbeat|move: Roost
+  -activate|p2a: Reshiram|confusion
+  -damage|p2a: Reshiram|60/100|[from] confusion
+-- turn 24
+  WE CHOSE: attack uturn - our hp 0.65, theirs 0.60, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|U-turn|p2a: Reshiram
+  -resisted|p2a: Reshiram
+  -damage|p2a: Reshiram|48/100
+  -activate|p2a: Reshiram|confusion
+  move|p2a: Reshiram|Outrage|p1a: Volbeat
+  -damage|p1a: Volbeat|44/263
+-- turn 25
+  WE CHOSE: heal roost - our hp 0.17, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|176/263
+  -singleturn|p1a: Volbeat|move: Roost
+  -end|p2a: Reshiram|confusion
+  move|p2a: Reshiram|Outrage|p1a: Volbeat|[from] lockedmove
+  -damage|p1a: Volbeat|53/263
+-- turn 26
+  WE CHOSE: attack uturn - our hp 0.20, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|U-turn|p2a: Reshiram
+  -resisted|p2a: Reshiram
+  -damage|p2a: Reshiram|36/100
+  move|p2a: Reshiram|Outrage|p1a: Volbeat|[from] lockedmove
+  -damage|p1a: Volbeat|0 fnt
+  faint|p1a: Volbeat
+  -start|p2a: Reshiram|confusion|[fatigue]
+  deinit

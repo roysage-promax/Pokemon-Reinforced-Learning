@@ -1,0 +1,388 @@
+battle 348 (battle-gen9randombattle-2022035): lost in 44 turns, 0 of theirs left; we are p1
+
+ours:
+  spidops (fainted; item heavydutyboots, ability stakeout, tera ghost; moves knockoff/stickyweb/circlethrow/spikes)
+  duraludon (fainted; item eviolite, ability lightmetal; moves bodypress/dracometeor/flashcannon/irondefense)
+  chienpao (fainted; item choiceband, ability swordofruin; moves iciclecrash/throatchop/iceshard/sacredsword)
+  klefki (fainted; item leftovers, ability prankster; moves dazzlinggleam/foulplay/spikes/thunderwave)
+  staraptor (fainted; item choiceband, ability reckless; moves uturn/quickattack/closecombat/bravebird)
+  quagsire (fainted; item leftovers, ability unaware; moves earthquake/recover/icebeam/toxic)
+theirs (as seen):
+  poliwrath (fainted; item lifeorb, ability ?; moves closecombat)
+  malamar (fainted; item ?, ability ?; moves superpower)
+  ludicolo (fainted; item unknown_item, ability ?; moves leafstorm)
+  rotommow (fainted; item leftovers, ability levitate; moves leafstorm)
+  magcargo (fainted; item unknown_item, ability weakarmor; moves fireblast)
+  klefki (fainted; item leftovers, ability ?; moves playrough)
+
+-- turn 0
+  switch|p1a: Spidops|Spidops, L96, F|271/271
+  switch|p2a: Poliwrath|Poliwrath, L88, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera circlethrow (hand policy: attack circlethrow) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  -terastallize|p1a: Spidops|Ghost
+  move|p2a: Poliwrath|Close Combat|p1a: Spidops
+  -immune|p1a: Spidops
+  move|p1a: Spidops|Circle Throw|p2a: Poliwrath
+  -damage|p2a: Poliwrath|86/100
+  drag|p2a: Malamar|Malamar, L82, M|100/100
+-- turn 2
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Malamar|Superpower|p1a: Spidops
+  -immune|p1a: Spidops
+  move|p1a: Spidops|Knock Off|p2a: Malamar
+  -damage|p2a: Malamar|73/100
+  -enditem|p2a: Malamar|Leftovers|[from] move: Knock Off|[of] p1a: Spidops
+-- turn 3
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x0
+  move|p2a: Malamar|Superpower|p1a: Spidops
+  -immune|p1a: Spidops
+  move|p1a: Spidops|Knock Off|p2a: Malamar
+  -damage|p2a: Malamar|53/100
+-- turn 4
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x0
+  move|p2a: Malamar|Superpower|p1a: Spidops
+  -immune|p1a: Spidops
+  move|p1a: Spidops|Knock Off|p2a: Malamar
+  -damage|p2a: Malamar|34/100
+-- turn 5
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x0
+  move|p2a: Malamar|Superpower|p1a: Spidops
+  -immune|p1a: Spidops
+  move|p1a: Spidops|Knock Off|p2a: Malamar
+  -damage|p2a: Malamar|15/100
+-- turn 6
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x0
+  move|p2a: Malamar|Superpower|p1a: Spidops
+  -immune|p1a: Spidops
+  move|p1a: Spidops|Knock Off|p2a: Malamar
+  -damage|p2a: Malamar|0 fnt
+  faint|p2a: Malamar
+  switch|p2a: Ludicolo|Ludicolo, L90, F|100/100
+-- turn 7
+  WE CHOSE: switch to duraludon (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Duraludon|Duraludon, L82, M|249/249
+  move|p2a: Ludicolo|Leaf Storm|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|188/249
+  -unboost|p2a: Ludicolo|spa|2
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Duraludon|Draco Meteor|p2a: Ludicolo
+  -crit|p2a: Ludicolo
+  -damage|p2a: Ludicolo|38/100
+  -unboost|p1a: Duraludon|spa|2
+  move|p2a: Ludicolo|Leaf Storm|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|158/249
+  -unboost|p2a: Ludicolo|spa|2
+-- turn 9
+  WE CHOSE: attack dracometeor (hand policy: attack bodypress) - our hp 0.63, theirs 0.38, predicted move (revealed) hits us x0.25
+  move|p1a: Duraludon|Draco Meteor|p2a: Ludicolo
+  -damage|p2a: Ludicolo|15/100
+  -unboost|p1a: Duraludon|spa|2
+  move|p2a: Ludicolo|Leaf Storm|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|140/249
+  -unboost|p2a: Ludicolo|spa|2
+-- turn 10
+  WE CHOSE: attack dracometeor (hand policy: attack bodypress) - our hp 0.56, theirs 0.15, predicted move (revealed) hits us x0.25
+  move|p1a: Duraludon|Draco Meteor|p2a: Ludicolo
+  -damage|p2a: Ludicolo|1/100
+  -unboost|p1a: Duraludon|spa|2
+  move|p2a: Ludicolo|Leaf Storm|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|125/249
+-- turn 11
+  WE CHOSE: attack dracometeor (hand policy: attack bodypress) - our hp 0.50, theirs 0.01, predicted move (revealed) hits us x0.25
+  move|p1a: Duraludon|Draco Meteor|p2a: Ludicolo
+  -damage|p2a: Ludicolo|0 fnt
+  faint|p2a: Ludicolo
+  switch|p2a: Rotom|Rotom-Mow, L87|100/100
+-- turn 12
+  WE CHOSE: switch to staraptor (hand policy: attack bodypress) - our hp 0.50, theirs 1.00, predicted move (guessed) hits us x0.25
+  switch|p1a: Staraptor|Staraptor, L79, F|263/263
+  move|p2a: Rotom|Leaf Storm|p1a: Staraptor
+  -resisted|p1a: Staraptor
+  -damage|p1a: Staraptor|155/263
+  -unboost|p2a: Rotom|spa|2
+-- turn 13
+  WE CHOSE: switch to duraludon (hand policy: attack bravebird) - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Duraludon|Duraludon, L82, M|125/249
+  move|p2a: Rotom|Leaf Storm|p1a: Duraludon|[miss]
+  -miss|p2a: Rotom|p1a: Duraludon
+-- turn 14
+  WE CHOSE: attack dracometeor - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Rotom|Leaf Storm|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|106/249
+  -unboost|p2a: Rotom|spa|2
+  move|p1a: Duraludon|Draco Meteor|p2a: Rotom
+  -damage|p2a: Rotom|47/100
+  -unboost|p1a: Duraludon|spa|2
+  -heal|p2a: Rotom|53/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack dracometeor - our hp 0.43, theirs 0.53, predicted move (revealed) hits us x0.25
+  move|p2a: Rotom|Leaf Storm|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|94/249
+  -unboost|p2a: Rotom|spa|2
+  move|p1a: Duraludon|Draco Meteor|p2a: Rotom
+  -damage|p2a: Rotom|25/100
+  -unboost|p1a: Duraludon|spa|2
+  -heal|p2a: Rotom|31/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack dracometeor (hand policy: attack bodypress) - our hp 0.38, theirs 0.31, predicted move (revealed) hits us x0.25
+  move|p2a: Rotom|Leaf Storm|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|85/249
+  move|p1a: Duraludon|Draco Meteor|p2a: Rotom
+  -damage|p2a: Rotom|11/100
+  -unboost|p1a: Duraludon|spa|2
+  -heal|p2a: Rotom|18/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack dracometeor (hand policy: attack bodypress) - our hp 0.34, theirs 0.18, predicted move (revealed) hits us x0.25
+  move|p2a: Rotom|Leaf Storm|p1a: Duraludon
+  -resisted|p1a: Duraludon
+  -damage|p1a: Duraludon|76/249
+  move|p1a: Duraludon|Draco Meteor|p2a: Rotom
+  -damage|p2a: Rotom|3/100
+  -heal|p2a: Rotom|9/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: switch to staraptor (hand policy: attack bodypress) - our hp 0.31, theirs 0.09, predicted move (revealed) hits us x0.25
+  switch|p1a: Staraptor|Staraptor, L79, F|155/263
+  move|p2a: Rotom|Leaf Storm|p1a: Staraptor
+  -resisted|p1a: Staraptor
+  -damage|p1a: Staraptor|130/263
+  -heal|p2a: Rotom|15/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack bravebird - our hp 0.49, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p1a: Staraptor|Brave Bird|p2a: Rotom
+  -damage|p2a: Rotom|0 fnt
+  faint|p2a: Rotom
+  -damage|p1a: Staraptor|119/263|[from] Recoil
+  switch|p2a: Poliwrath|Poliwrath, L88, F|86/100
+-- turn 20
+  WE CHOSE: switch to spidops - our hp 0.45, theirs 0.86, predicted move (revealed) hits us x1
+  switch|p1a: Spidops|Spidops, L96, F, tera:Ghost|271/271
+  move|p2a: Poliwrath|Close Combat|p1a: Spidops
+  -immune|p1a: Spidops
+-- turn 21
+  WE CHOSE: attack circlethrow - our hp 1.00, theirs 0.86, predicted move (revealed) hits us x0
+  move|p2a: Poliwrath|Close Combat|p1a: Spidops
+  -immune|p1a: Spidops
+  move|p1a: Spidops|Circle Throw|p2a: Poliwrath
+  -damage|p2a: Poliwrath|72/100
+  drag|p2a: Magcargo|Magcargo, L95, M|100/100
+-- turn 22
+  WE CHOSE: switch to quagsire (hand policy: attack circlethrow) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Quagsire|Quagsire, L84, F|297/297
+  move|p2a: Magcargo|Fire Blast|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|206/297
+  -status|p1a: Quagsire|brn
+  -heal|p1a: Quagsire|224/297 brn|[from] item: Leftovers
+  -damage|p1a: Quagsire|206/297 brn|[from] brn
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Magcargo|Fire Blast|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|116/297 brn
+  move|p1a: Quagsire|Earthquake|p2a: Magcargo
+  -supereffective|p2a: Magcargo
+  -damage|p2a: Magcargo|53/100
+  -ability|p2a: Magcargo|Weak Armor|boost
+  -unboost|p2a: Magcargo|def|1
+  -boost|p2a: Magcargo|spe|2
+  -heal|p1a: Quagsire|134/297 brn|[from] item: Leftovers
+  -damage|p1a: Quagsire|116/297 brn|[from] brn
+-- turn 24
+  WE CHOSE: attack earthquake (hand policy: heal recover) - our hp 0.39, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p2a: Magcargo|Fire Blast|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|29/297 brn
+  move|p1a: Quagsire|Earthquake|p2a: Magcargo
+  -supereffective|p2a: Magcargo
+  -damage|p2a: Magcargo|1/100
+  -ability|p2a: Magcargo|Weak Armor|boost
+  -unboost|p2a: Magcargo|def|1
+  -boost|p2a: Magcargo|spe|2
+  -heal|p1a: Quagsire|47/297 brn|[from] item: Leftovers
+  -damage|p1a: Quagsire|29/297 brn|[from] brn
+-- turn 25
+  WE CHOSE: attack earthquake (hand policy: heal recover) - our hp 0.10, theirs 0.01, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to staraptor - our hp 0.00, theirs 0.01, predicted move (revealed) hits us x0.5
+  move|p2a: Magcargo|Fire Blast|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|0 fnt
+  faint|p1a: Quagsire
+  switch|p1a: Staraptor|Staraptor, L79, F|119/263
+-- turn 26
+  WE CHOSE: switch to duraludon (hand policy: attack closecombat) - our hp 0.45, theirs 0.01, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to staraptor - our hp 0.00, theirs 0.01, predicted move (revealed) hits us x1
+  switch|p1a: Duraludon|Duraludon, L82, M|76/249
+  move|p2a: Magcargo|Fire Blast|p1a: Duraludon
+  -damage|p1a: Duraludon|0 fnt
+  faint|p1a: Duraludon
+  switch|p1a: Staraptor|Staraptor, L79, F|119/263
+-- turn 27
+  WE CHOSE: attack closecombat - our hp 0.45, theirs 0.01, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to spidops - our hp 0.00, theirs 0.01, predicted move (revealed) hits us x1
+  move|p2a: Magcargo|Fire Blast|p1a: Staraptor
+  -damage|p1a: Staraptor|0 fnt
+  faint|p1a: Staraptor
+  switch|p1a: Spidops|Spidops, L96, F, tera:Ghost|271/271
+-- turn 28
+  WE CHOSE: attack circlethrow - our hp 1.00, theirs 0.01, predicted move (revealed) hits us x1
+  move|p2a: Magcargo|Fire Blast|p1a: Spidops
+  -damage|p1a: Spidops|136/271
+  move|p1a: Spidops|Circle Throw|p2a: Magcargo
+  -supereffective|p2a: Magcargo
+  -damage|p2a: Magcargo|0 fnt
+  faint|p2a: Magcargo
+  switch|p2a: Poliwrath|Poliwrath, L88, F|72/100
+-- turn 29
+  WE CHOSE: attack circlethrow - our hp 0.50, theirs 0.72, predicted move (revealed) hits us x0
+  move|p2a: Poliwrath|Close Combat|p1a: Spidops
+  -immune|p1a: Spidops
+  move|p1a: Spidops|Circle Throw|p2a: Poliwrath
+  -damage|p2a: Poliwrath|58/100
+  drag|p2a: Klefki|Klefki, L84, F|100/100
+-- turn 30
+  WE CHOSE: switch to chienpao - our hp 0.50, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Chien-Pao|Chien-Pao, L72|234/234
+  -ability|p1a: Chien-Pao|Sword of Ruin
+  move|p2a: Klefki|Play Rough|p1a: Chien-Pao
+  -supereffective|p1a: Chien-Pao
+  -damage|p1a: Chien-Pao|28/234
+-- turn 31
+  WE CHOSE: switch to klefki - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Klefki|Klefki, L84, F|233/233
+  move|p2a: Klefki|Play Rough|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|191/233
+  -heal|p1a: Klefki|205/233|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack dazzlinggleam - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Klefki|Play Rough|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|166/233
+  move|p1a: Klefki|Dazzling Gleam|p2a: Klefki
+  -resisted|p2a: Klefki
+  -damage|p2a: Klefki|85/100
+  -heal|p2a: Klefki|91/100|[from] item: Leftovers
+  -heal|p1a: Klefki|180/233|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack dazzlinggleam - our hp 0.77, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p1a: Klefki|Dazzling Gleam|p2a: Klefki
+  -resisted|p2a: Klefki
+  -damage|p2a: Klefki|74/100
+  move|p2a: Klefki|Play Rough|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|137/233
+  -heal|p1a: Klefki|151/233|[from] item: Leftovers
+  -heal|p2a: Klefki|80/100|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack dazzlinggleam - our hp 0.65, theirs 0.80, predicted move (revealed) hits us x0.5
+  move|p1a: Klefki|Dazzling Gleam|p2a: Klefki
+  -resisted|p2a: Klefki
+  -damage|p2a: Klefki|65/100
+  move|p2a: Klefki|Play Rough|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|109/233
+  -unboost|p1a: Klefki|atk|1
+  -heal|p1a: Klefki|123/233|[from] item: Leftovers
+  -heal|p2a: Klefki|71/100|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: attack dazzlinggleam - our hp 0.53, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p2a: Klefki|Play Rough|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|81/233
+  move|p1a: Klefki|Dazzling Gleam|p2a: Klefki
+  -resisted|p2a: Klefki
+  -damage|p2a: Klefki|56/100
+  -heal|p2a: Klefki|62/100|[from] item: Leftovers
+  -heal|p1a: Klefki|95/233|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack dazzlinggleam - our hp 0.41, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p1a: Klefki|Dazzling Gleam|p2a: Klefki
+  -resisted|p2a: Klefki
+  -damage|p2a: Klefki|47/100
+  move|p2a: Klefki|Play Rough|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|57/233
+  -heal|p1a: Klefki|71/233|[from] item: Leftovers
+  -heal|p2a: Klefki|53/100|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: attack dazzlinggleam - our hp 0.30, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p1a: Klefki|Dazzling Gleam|p2a: Klefki
+  -resisted|p2a: Klefki
+  -damage|p2a: Klefki|37/100
+  move|p2a: Klefki|Play Rough|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|29/233
+  -heal|p2a: Klefki|43/100|[from] item: Leftovers
+  -heal|p1a: Klefki|43/233|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: attack dazzlinggleam - our hp 0.18, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p1a: Klefki|Dazzling Gleam|p2a: Klefki
+  -resisted|p2a: Klefki
+  -damage|p2a: Klefki|28/100
+  move|p2a: Klefki|Play Rough|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|2/233
+  -unboost|p1a: Klefki|atk|1
+  -heal|p1a: Klefki|16/233|[from] item: Leftovers
+  -heal|p2a: Klefki|34/100|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack dazzlinggleam - our hp 0.07, theirs 0.34, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to spidops - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p2a: Klefki|Play Rough|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|0 fnt
+  faint|p1a: Klefki
+  -heal|p2a: Klefki|40/100|[from] item: Leftovers
+  switch|p1a: Spidops|Spidops, L96, F, tera:Ghost|136/271
+-- turn 40
+  WE CHOSE: attack circlethrow - our hp 0.50, theirs 0.40, predicted move (revealed) hits us x1
+  move|p2a: Klefki|Play Rough|p1a: Spidops
+  -damage|p1a: Spidops|63/271
+  move|p1a: Spidops|Circle Throw|p2a: Klefki
+  -damage|p2a: Klefki|21/100
+  drag|p2a: Poliwrath|Poliwrath, L88, F|58/100
+-- turn 41
+  WE CHOSE: attack circlethrow - our hp 0.23, theirs 0.58, predicted move (revealed) hits us x0
+  move|p2a: Poliwrath|Close Combat|p1a: Spidops
+  -immune|p1a: Spidops
+  move|p1a: Spidops|Circle Throw|p2a: Poliwrath
+  -damage|p2a: Poliwrath|43/100
+  drag|p2a: Klefki|Klefki, L84, F|21/100
+  -heal|p2a: Klefki|27/100|[from] item: Leftovers
+-- turn 42
+  WE CHOSE: attack circlethrow - our hp 0.23, theirs 0.27, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to chienpao - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Klefki|Play Rough|p1a: Spidops
+  -damage|p1a: Spidops|0 fnt
+  faint|p1a: Spidops
+  -heal|p2a: Klefki|33/100|[from] item: Leftovers
+  switch|p1a: Chien-Pao|Chien-Pao, L72|28/234
+  -ability|p1a: Chien-Pao|Sword of Ruin
+-- turn 43
+  WE CHOSE: attack sacredsword - our hp 0.12, theirs 0.33, predicted move (revealed) hits us x2
+  move|p1a: Chien-Pao|Sacred Sword|p2a: Klefki
+  -damage|p2a: Klefki|0 fnt
+  faint|p2a: Klefki
+  switch|p2a: Poliwrath|Poliwrath, L88, F|43/100
+-- turn 44
+  WE CHOSE: attack sacredsword - our hp 0.12, theirs 0.43, predicted move (revealed) hits us x4
+  move|p1a: Chien-Pao|Sacred Sword|p2a: Poliwrath
+  -damage|p2a: Poliwrath|10/100
+  move|p2a: Poliwrath|Close Combat|p1a: Chien-Pao
+  -supereffective|p1a: Chien-Pao
+  -damage|p1a: Chien-Pao|0 fnt
+  -unboost|p2a: Poliwrath|def|1
+  -unboost|p2a: Poliwrath|spd|1
+  faint|p1a: Chien-Pao
+  -damage|p2a: Poliwrath|0 fnt|[from] item: Life Orb
+  faint|p2a: Poliwrath
+  deinit

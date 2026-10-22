@@ -1,0 +1,222 @@
+battle 1963 (battle-gen9randombattle-2036941): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  ironjugulis (fainted; item powerherb, ability quarkdrive, tera dark; moves hurricane/meteorbeam/darkpulse/earthpower)
+  pyroar (fainted; item heavydutyboots, ability unnerve; moves fireblast/taunt/hypervoice/willowisp)
+  darkrai (fainted; item leftovers, ability baddreams; moves substitute/darkpulse/nastyplot/sludgebomb)
+  kyogre (fainted; item choicescarf, ability drizzle; moves icebeam/waterspout/thunder/originpulse)
+  tsareena (fainted; item assaultvest, ability queenlymajesty; moves rapidspin/powerwhip/knockoff/uturn)
+  glastrier (fainted; item choiceband, ability chillingneigh; moves closecombat/highhorsepower/iciclecrash/heavyslam)
+theirs (as seen):
+  regigigas (fainted; item leftovers, ability slowstart; moves bodyslam)
+  indeedee (fainted; item unknown_item, ability ?; moves hypervoice)
+  hariyama (fainted; item unknown_item, ability ?; moves closecombat)
+  ninetalesalola (fainted; item unknown_item, ability ?; moves blizzard)
+  bronzong (fainted; item ?, ability ?; moves ironhead)
+  florgesorange (20%; item leftovers, ability ?; moves moonblast)
+
+-- turn 0
+  switch|p1a: Iron Jugulis|Iron Jugulis, L77|271/271
+  switch|p2a: Regigigas|Regigigas, L84|100/100
+  -start|p2a: Regigigas|ability: Slow Start
+-- turn 1
+  WE CHOSE: attack+tera darkpulse - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Iron Jugulis|Dark
+  move|p1a: Iron Jugulis|Dark Pulse|p2a: Regigigas
+  -damage|p2a: Regigigas|72/100
+  move|p2a: Regigigas|Body Slam|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|199/271
+  -heal|p2a: Regigigas|78/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack darkpulse - our hp 0.73, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Iron Jugulis|Dark Pulse|p2a: Regigigas
+  -damage|p2a: Regigigas|48/100
+  move|p2a: Regigigas|Body Slam|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|117/271
+  -heal|p2a: Regigigas|54/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack darkpulse - our hp 0.43, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Iron Jugulis|Dark Pulse|p2a: Regigigas
+  -damage|p2a: Regigigas|24/100
+  move|p2a: Regigigas|Body Slam|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|38/271
+  -status|p1a: Iron Jugulis|par
+  -heal|p2a: Regigigas|30/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack darkpulse - our hp 0.14, theirs 0.30, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to glastrier - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|0 fnt
+  faint|p1a: Iron Jugulis
+  -end|p1a: Iron Jugulis|Quark Drive|[silent]
+  -heal|p2a: Regigigas|37/100|[from] item: Leftovers
+  switch|p1a: Glastrier|Glastrier, L86|311/311
+-- turn 5
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Glastrier
+  -damage|p1a: Glastrier|266/311
+  move|p1a: Glastrier|Close Combat|p2a: Regigigas
+  -supereffective|p2a: Regigigas
+  -damage|p2a: Regigigas|0 fnt
+  -unboost|p1a: Glastrier|def|1
+  -unboost|p1a: Glastrier|spd|1
+  faint|p2a: Regigigas
+  -end|p2a: Regigigas|Slow Start|[silent]
+  -ability|p1a: Glastrier|Chilling Neigh|boost
+  -boost|p1a: Glastrier|atk|1
+  switch|p2a: Indeedee|Indeedee, L84, M|100/100
+  -fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+-- turn 6
+  WE CHOSE: attack closecombat - our hp 0.86, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Indeedee|Hyper Voice|p1a: Glastrier
+  -damage|p1a: Glastrier|131/311
+  move|p1a: Glastrier|Close Combat|p2a: Indeedee
+  -damage|p2a: Indeedee|0 fnt
+  -unboost|p1a: Glastrier|def|1
+  -unboost|p1a: Glastrier|spd|1
+  faint|p2a: Indeedee
+  -ability|p1a: Glastrier|Chilling Neigh|boost
+  -boost|p1a: Glastrier|atk|1
+  switch|p2a: Hariyama|Hariyama, L87, M|100/100
+-- turn 7
+  WE CHOSE: attack closecombat - our hp 0.42, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to kyogre - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Hariyama|Close Combat|p1a: Glastrier
+  -supereffective|p1a: Glastrier
+  -damage|p1a: Glastrier|0 fnt
+  -unboost|p2a: Hariyama|def|1
+  -unboost|p2a: Hariyama|spd|1
+  faint|p1a: Glastrier
+  switch|p1a: Kyogre|Kyogre, L71|259/259
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Kyogre
+-- turn 8
+  WE CHOSE: attack waterspout - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Kyogre|Water Spout|p2a: Hariyama
+  -damage|p2a: Hariyama|19/100
+  move|p2a: Hariyama|Close Combat|p1a: Kyogre
+  -damage|p1a: Kyogre|69/259
+  -unboost|p2a: Hariyama|def|1
+  -unboost|p2a: Hariyama|spd|1
+  -weather|RainDance|[upkeep]
+-- turn 9
+  WE CHOSE: attack waterspout - our hp 0.27, theirs 0.19, predicted move (revealed) hits us x1
+  move|p1a: Kyogre|Water Spout|p2a: Hariyama
+  -damage|p2a: Hariyama|0 fnt
+  faint|p2a: Hariyama
+  -weather|RainDance|[upkeep]
+  switch|p2a: Ninetales|Ninetales-Alola, L78, M|100/100
+  -weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+-- turn 10
+  WE CHOSE: attack waterspout - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Kyogre|Water Spout|p2a: Ninetales
+  -damage|p2a: Ninetales|84/100
+  move|p2a: Ninetales|Blizzard|p1a: Kyogre
+  -resisted|p1a: Kyogre
+  -damage|p1a: Kyogre|31/259
+  -weather|Snowscape|[upkeep]
+  -fieldend|move: Psychic Terrain
+-- turn 11
+  WE CHOSE: attack waterspout - our hp 0.12, theirs 0.84, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to pyroar - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x0.5
+  move|p1a: Kyogre|Water Spout|p2a: Ninetales
+  -damage|p2a: Ninetales|76/100
+  move|p2a: Ninetales|Blizzard|p1a: Kyogre
+  -resisted|p1a: Kyogre
+  -damage|p1a: Kyogre|0 fnt
+  faint|p1a: Kyogre
+  -weather|Snowscape|[upkeep]
+  switch|p1a: Pyroar|Pyroar, L88, F|295/295
+  -ability|p1a: Pyroar|Unnerve
+-- turn 12
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x0.5
+  move|p1a: Pyroar|Fire Blast|p2a: Ninetales
+  -supereffective|p2a: Ninetales
+  -damage|p2a: Ninetales|0 fnt
+  faint|p2a: Ninetales
+  -weather|Snowscape|[upkeep]
+  switch|p2a: Bronzong|Bronzong, L88|100/100
+-- turn 13
+  WE CHOSE: switch to tsareena - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Tsareena|Tsareena, L87, F|267/267
+  move|p2a: Bronzong|Iron Head|p1a: Tsareena
+  -damage|p1a: Tsareena|191/267
+  -weather|Snowscape|[upkeep]
+-- turn 14
+  WE CHOSE: attack knockoff - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Tsareena|Knock Off|p2a: Bronzong
+  -supereffective|p2a: Bronzong
+  -damage|p2a: Bronzong|51/100
+  -enditem|p2a: Bronzong|Leftovers|[from] move: Knock Off|[of] p1a: Tsareena
+  move|p2a: Bronzong|Iron Head|p1a: Tsareena
+  -damage|p1a: Tsareena|110/267
+  -weather|none
+-- turn 15
+  WE CHOSE: attack knockoff - our hp 0.41, theirs 0.51, predicted move (revealed) hits us x1
+  move|p1a: Tsareena|Knock Off|p2a: Bronzong
+  -supereffective|p2a: Bronzong
+  -damage|p2a: Bronzong|16/100
+  move|p2a: Bronzong|Iron Head|p1a: Tsareena
+  -damage|p1a: Tsareena|38/267
+-- turn 16
+  WE CHOSE: attack knockoff - our hp 0.14, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Tsareena|Knock Off|p2a: Bronzong
+  -supereffective|p2a: Bronzong
+  -damage|p2a: Bronzong|0 fnt
+  faint|p2a: Bronzong
+  switch|p2a: Florges|Florges-Orange, L85, F|100/100
+-- turn 17
+  WE CHOSE: attack powerwhip - our hp 0.14, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to pyroar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Florges|Moonblast|p1a: Tsareena
+  -damage|p1a: Tsareena|0 fnt
+  faint|p1a: Tsareena
+  switch|p1a: Pyroar|Pyroar, L88, F|295/295
+  -ability|p1a: Pyroar|Unnerve
+-- turn 18
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Pyroar|Fire Blast|p2a: Florges
+  -damage|p2a: Florges|70/100
+  move|p2a: Florges|Moonblast|p1a: Pyroar
+  -resisted|p1a: Pyroar
+  -damage|p1a: Pyroar|223/295
+  -unboost|p1a: Pyroar|spa|1
+  -heal|p2a: Florges|76/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack fireblast - our hp 0.76, theirs 0.76, predicted move (revealed) hits us x0.5
+  move|p1a: Pyroar|Fire Blast|p2a: Florges
+  -damage|p2a: Florges|55/100
+  move|p2a: Florges|Moonblast|p1a: Pyroar
+  -resisted|p1a: Pyroar
+  -crit|p1a: Pyroar
+  -damage|p1a: Pyroar|112/295
+  -unboost|p1a: Pyroar|spa|1
+  -heal|p2a: Florges|61/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack fireblast - our hp 0.38, theirs 0.61, predicted move (revealed) hits us x0.5
+  move|p1a: Pyroar|Fire Blast|p2a: Florges
+  -damage|p2a: Florges|43/100
+  move|p2a: Florges|Moonblast|p1a: Pyroar
+  -resisted|p1a: Pyroar
+  -damage|p1a: Pyroar|47/295
+  -unboost|p1a: Pyroar|spa|1
+  -heal|p2a: Florges|48/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack fireblast - our hp 0.16, theirs 0.48, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to darkrai - our hp 0.00, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p1a: Pyroar|Fire Blast|p2a: Florges|[miss]
+  -miss|p1a: Pyroar|p2a: Florges
+  move|p2a: Florges|Moonblast|p1a: Pyroar
+  -resisted|p1a: Pyroar
+  -damage|p1a: Pyroar|0 fnt
+  faint|p1a: Pyroar
+  -heal|p2a: Florges|54/100|[from] item: Leftovers
+  switch|p1a: Darkrai|Darkrai, L77|234/234
+-- turn 22
+  WE CHOSE: attack sludgebomb - our hp 1.00, theirs 0.54, predicted move (revealed) hits us x2
+  move|p1a: Darkrai|Sludge Bomb|p2a: Florges
+  -supereffective|p2a: Florges
+  -damage|p2a: Florges|20/100
+  move|p2a: Florges|Moonblast|p1a: Darkrai
+  -supereffective|p1a: Darkrai
+  -damage|p1a: Darkrai|0 fnt
+  faint|p1a: Darkrai

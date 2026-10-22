@@ -1,0 +1,299 @@
+battle 2997 (battle-gen9randombattle-2047796): lost in 36 turns, 2 of theirs left; we are p1
+
+ours:
+  dedenne (fainted; item ?, ability cheekpouch, tera flying; moves dazzlinggleam/superfang/thunderbolt/uturn)
+  toucannon (fainted; item heavydutyboots, ability skilllink; moves boomburst/roost/beakblast/bulletseed)
+  beartic (fainted; item heavydutyboots, ability slushrush; moves swordsdance/iciclecrash/snowscape/earthquake)
+  munkidori (fainted; item lifeorb, ability toxicchain; moves focusblast/nastyplot/sludgewave/psyshock)
+  stantler (fainted; item eviolite, ability intimidate; moves shadowball/calmmind/terablast/earthpower)
+  drifblim (fainted; item ?, ability unburden; moves strengthsap/calmmind/airslash/shadowball)
+theirs (as seen):
+  skeledirge (fainted; item unknown_item, ability ?; moves torchsong)
+  oricoriosensu (fainted; item unknown_item, ability dancer; moves hurricane)
+  oranguru (fainted; item leftovers, ability ?; moves focusblast/thunderbolt)
+  persianalola (fainted; item leftovers, ability ?; moves thunderbolt)
+  baxcalibur (100%; item unknown_item, ability ?; moves glaiverush)
+
+-- turn 0
+  switch|p1a: Dedenne|Dedenne, L88, F|261/261
+  switch|p2a: Skeledirge|Skeledirge, L79, F|100/100
+-- turn 1
+  WE CHOSE: switch to stantler - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Stantler|Stantler, L91, F|281/281
+  -ability|p1a: Stantler|Intimidate|boost
+  -unboost|p2a: Skeledirge|atk|1
+  move|p2a: Skeledirge|Torch Song|p1a: Stantler
+  -damage|p1a: Stantler|223/281
+  -boost|p2a: Skeledirge|spa|1
+-- turn 2
+  WE CHOSE: attack earthpower - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Stantler|Earth Power|p2a: Skeledirge
+  -supereffective|p2a: Skeledirge
+  -damage|p2a: Skeledirge|48/100
+  move|p2a: Skeledirge|Torch Song|p1a: Stantler
+  -damage|p1a: Stantler|123/281
+  -boost|p2a: Skeledirge|spa|1
+-- turn 3
+  WE CHOSE: attack earthpower - our hp 0.44, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Stantler|Earth Power|p2a: Skeledirge
+  -supereffective|p2a: Skeledirge
+  -damage|p2a: Skeledirge|0 fnt
+  faint|p2a: Skeledirge
+  switch|p2a: Oricorio|Oricorio-Sensu, L85, M|100/100
+-- turn 4
+  WE CHOSE: switch to dedenne (hand policy: attack shadowball) - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dedenne|Dedenne, L88, F|261/261
+  move|p2a: Oricorio|Hurricane|p1a: Dedenne
+  -resisted|p1a: Dedenne
+  -damage|p1a: Dedenne|191/261
+-- turn 5
+  WE CHOSE: attack thunderbolt - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Dedenne|Thunderbolt|p2a: Oricorio
+  -supereffective|p2a: Oricorio
+  -damage|p2a: Oricorio|24/100
+  move|p2a: Oricorio|Hurricane|p1a: Dedenne
+  -resisted|p1a: Dedenne
+  -damage|p1a: Dedenne|114/261
+  -start|p1a: Dedenne|confusion
+  -enditem|p1a: Dedenne|Sitrus Berry|[eat]
+  -heal|p1a: Dedenne|179/261|[from] item: Sitrus Berry
+  -heal|p1a: Dedenne|261/261|[from] ability: Cheek Pouch
+-- turn 6
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x0.5
+  -activate|p1a: Dedenne|confusion
+  move|p1a: Dedenne|Thunderbolt|p2a: Oricorio
+  -supereffective|p2a: Oricorio
+  -damage|p2a: Oricorio|0 fnt
+  faint|p2a: Oricorio
+  switch|p2a: Oranguru|Oranguru, L92, M|100/100
+-- turn 7
+  WE CHOSE: switch to drifblim (hand policy: attack superfang) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Drifblim|Drifblim, L86, F|396/396
+  move|p2a: Oranguru|Focus Blast|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 8
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Oranguru|Focus Blast|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 9
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Oranguru|Focus Blast|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 10
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Oranguru|Focus Blast|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 11
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Oranguru|Focus Blast|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 12
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Oranguru|Focus Blast|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 13
+  WE CHOSE: switch to munkidori (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Munkidori|Munkidori, L79, M|269/269
+  move|p2a: Oranguru|Focus Blast|p1a: Munkidori
+  -resisted|p1a: Munkidori
+  -damage|p1a: Munkidori|246/269
+  -unboost|p1a: Munkidori|spd|1
+-- turn 14
+  WE CHOSE: setup nastyplot - our hp 0.91, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Munkidori|Nasty Plot|p1a: Munkidori
+  -boost|p1a: Munkidori|spa|2
+  move|p2a: Oranguru|Focus Blast|p1a: Munkidori|[miss]
+  -miss|p2a: Oranguru|p1a: Munkidori
+-- turn 15
+  WE CHOSE: setup nastyplot (hand policy: attack sludgewave) - our hp 0.91, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Munkidori|Nasty Plot|p1a: Munkidori
+  -boost|p1a: Munkidori|spa|2
+  move|p2a: Oranguru|Thunderbolt|p1a: Munkidori
+  -damage|p1a: Munkidori|128/269
+-- turn 16
+  WE CHOSE: switch to drifblim (hand policy: attack sludgewave) - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x0.25
+  switch|p1a: Drifblim|Drifblim, L86, F|396/396
+  move|p2a: Oranguru|Thunderbolt|p1a: Drifblim
+  -supereffective|p1a: Drifblim
+  -damage|p1a: Drifblim|202/396
+-- turn 17
+  WE CHOSE: setup calmmind - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Oranguru|Thunderbolt|p1a: Drifblim
+  -supereffective|p1a: Drifblim
+  -damage|p1a: Drifblim|80/396
+  -enditem|p1a: Drifblim|Sitrus Berry|[eat]
+  -heal|p1a: Drifblim|179/396|[from] item: Sitrus Berry
+-- turn 18
+  WE CHOSE: setup calmmind (hand policy: heal strengthsap) - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+  -boost|p1a: Drifblim|spa|1
+  -boost|p1a: Drifblim|spd|1
+  move|p2a: Oranguru|Thunderbolt|p1a: Drifblim
+  -supereffective|p1a: Drifblim
+  -damage|p1a: Drifblim|75/396
+-- turn 19
+  WE CHOSE: heal strengthsap - our hp 0.19, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Strength Sap|p2a: Oranguru
+  -unboost|p2a: Oranguru|atk|1
+  -heal|p1a: Drifblim|190/396
+  move|p2a: Oranguru|Thunderbolt|p1a: Drifblim
+  -supereffective|p1a: Drifblim
+  -damage|p1a: Drifblim|88/396
+-- turn 20
+  WE CHOSE: heal strengthsap - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Strength Sap|p2a: Oranguru
+  -unboost|p2a: Oranguru|atk|1
+  -heal|p1a: Drifblim|164/396
+  move|p2a: Oranguru|Thunderbolt|p1a: Drifblim
+  -supereffective|p1a: Drifblim
+  -damage|p1a: Drifblim|72/396
+-- turn 21
+  WE CHOSE: heal strengthsap - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Strength Sap|p2a: Oranguru
+  -unboost|p2a: Oranguru|atk|1
+  -heal|p1a: Drifblim|129/396
+  move|p2a: Oranguru|Thunderbolt|p1a: Drifblim
+  -supereffective|p1a: Drifblim
+  -damage|p1a: Drifblim|39/396
+-- turn 22
+  WE CHOSE: heal strengthsap - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to munkidori - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Strength Sap|p2a: Oranguru
+  -unboost|p2a: Oranguru|atk|1
+  -heal|p1a: Drifblim|85/396
+  move|p2a: Oranguru|Thunderbolt|p1a: Drifblim
+  -supereffective|p1a: Drifblim
+  -damage|p1a: Drifblim|0 fnt
+  faint|p1a: Drifblim
+  switch|p1a: Munkidori|Munkidori, L79, M|128/269
+-- turn 23
+  WE CHOSE: setup nastyplot (hand policy: attack sludgewave) - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Munkidori|Nasty Plot|p1a: Munkidori
+  -boost|p1a: Munkidori|spa|2
+  move|p2a: Oranguru|Thunderbolt|p1a: Munkidori
+  -damage|p1a: Munkidori|57/269
+  -status|p1a: Munkidori|par
+-- turn 24
+  WE CHOSE: attack sludgewave - our hp 0.21, theirs 1.00, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to dedenne - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Oranguru|Thunderbolt|p1a: Munkidori
+  -damage|p1a: Munkidori|0 fnt
+  faint|p1a: Munkidori
+  switch|p1a: Dedenne|Dedenne, L88, F|261/261
+-- turn 25
+  WE CHOSE: attack+tera superfang (hand policy: attack superfang) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Dedenne|Flying
+  move|p1a: Dedenne|Super Fang|p2a: Oranguru
+  -damage|p2a: Oranguru|51/100
+  move|p2a: Oranguru|Thunderbolt|p1a: Dedenne
+  -supereffective|p1a: Dedenne
+  -damage|p1a: Dedenne|93/261
+  -heal|p2a: Oranguru|57/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack superfang - our hp 0.36, theirs 0.57, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to toucannon - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x0.5
+  move|p1a: Dedenne|Super Fang|p2a: Oranguru
+  -damage|p2a: Oranguru|29/100
+  move|p2a: Oranguru|Thunderbolt|p1a: Dedenne
+  -supereffective|p1a: Dedenne
+  -damage|p1a: Dedenne|0 fnt
+  faint|p1a: Dedenne
+  -heal|p2a: Oranguru|35/100|[from] item: Leftovers
+  switch|p1a: Toucannon|Toucannon, L88, M|284/284
+-- turn 27
+  WE CHOSE: attack beakblast - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  -singleturn|p1a: Toucannon|move: Beak Blast
+  move|p2a: Oranguru|Thunderbolt|p1a: Toucannon
+  -supereffective|p1a: Toucannon
+  -damage|p1a: Toucannon|124/284
+  move|p1a: Toucannon|Beak Blast|p2a: Oranguru
+  -damage|p2a: Oranguru|0 fnt
+  faint|p2a: Oranguru
+  switch|p2a: Persian|Persian-Alola, L86, M|100/100
+-- turn 28
+  WE CHOSE: attack beakblast (hand policy: heal roost) - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to stantler - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  -singleturn|p1a: Toucannon|move: Beak Blast
+  move|p2a: Persian|Thunderbolt|p1a: Toucannon
+  -supereffective|p1a: Toucannon
+  -damage|p1a: Toucannon|0 fnt
+  faint|p1a: Toucannon
+  switch|p1a: Stantler|Stantler, L91, F|123/281
+  -ability|p1a: Stantler|Intimidate|boost
+  -unboost|p2a: Persian|atk|1
+-- turn 29
+  WE CHOSE: attack terablast - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Persian|Thunderbolt|p1a: Stantler
+  -damage|p1a: Stantler|82/281
+  move|p1a: Stantler|Tera Blast|p2a: Persian
+  -damage|p2a: Persian|55/100
+  -heal|p2a: Persian|61/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack terablast - our hp 0.29, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Persian|Thunderbolt|p1a: Stantler
+  -damage|p1a: Stantler|42/281
+  -status|p1a: Stantler|par
+  cant|p1a: Stantler|par
+  -heal|p2a: Persian|67/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack terablast - our hp 0.15, theirs 0.67, predicted move (revealed) hits us x1
+  move|p2a: Persian|Thunderbolt|p1a: Stantler
+  -damage|p1a: Stantler|2/281 par
+  move|p1a: Stantler|Tera Blast|p2a: Persian
+  -damage|p2a: Persian|23/100
+  -heal|p2a: Persian|29/100|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack terablast - our hp 0.01, theirs 0.29, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to beartic - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Persian|Thunderbolt|p1a: Stantler
+  -damage|p1a: Stantler|0 fnt
+  faint|p1a: Stantler
+  -heal|p2a: Persian|35/100|[from] item: Leftovers
+  switch|p1a: Beartic|Beartic, L91, F|321/321
+-- turn 33
+  WE CHOSE: attack iciclecrash - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Persian|Thunderbolt|p1a: Beartic
+  -damage|p1a: Beartic|265/321
+  move|p1a: Beartic|Icicle Crash|p2a: Persian|[miss]
+  -miss|p1a: Beartic|p2a: Persian
+  -heal|p2a: Persian|41/100|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack iciclecrash - our hp 0.83, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Persian|Thunderbolt|p1a: Beartic
+  -damage|p1a: Beartic|208/321
+  move|p1a: Beartic|Icicle Crash|p2a: Persian
+  -damage|p2a: Persian|7/100
+  -heal|p2a: Persian|13/100|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: attack earthquake (hand policy: attack iciclecrash) - our hp 0.65, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Persian|Thunderbolt|p1a: Beartic
+  -damage|p1a: Beartic|154/321
+  move|p1a: Beartic|Earthquake|p2a: Persian
+  -damage|p2a: Persian|0 fnt
+  faint|p2a: Persian
+  switch|p2a: Baxcalibur|Baxcalibur, L75, F|100/100
+-- turn 36
+  WE CHOSE: attack iciclecrash - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Baxcalibur|Glaive Rush|p1a: Beartic
+  -damage|p1a: Beartic|0 fnt
+  -singlemove|p2a: Baxcalibur|Glaive Rush|[silent]
+  faint|p1a: Beartic
+  deinit

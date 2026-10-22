@@ -1,0 +1,316 @@
+battle 2208 (battle-gen9randombattle-2041094): lost in 38 turns, 2 of theirs left; we are p1
+
+ours:
+  forretress (fainted; item leftovers, ability sturdy; moves ironhead/stealthrock/bodypress/spikes)
+  ironjugulis (fainted; item choicespecs, ability quarkdrive; moves darkpulse/hurricane/fireblast/earthpower)
+  komala (fainted; item assaultvest, ability comatose; moves earthquake/rapidspin/bodyslam/knockoff)
+  leafeon (fainted; item lifeorb, ability chlorophyll; moves swordsdance/synthesis/leafblade/knockoff)
+  lugia (fainted; item heavydutyboots, ability multiscale; moves aeroblast/recover/psychicnoise/calmmind)
+  dondozo (fainted; item leftovers, ability unaware; moves sleeptalk/curse/wavecrash/rest)
+theirs (as seen):
+  moltres (fainted; item unknown_item, ability ?; moves bravebird)
+  glalie (fainted; item unknown_item, ability ?; moves earthquake/freezedry)
+  luvdisc (fainted; item unknown_item, ability ?; moves surf)
+  zekrom (fainted; item leftovers, ability teravolt; moves boltstrike)
+  deoxys (91%; item lifeorb, ability pressure; moves psychoboost)
+
+-- turn 0
+  switch|p1a: Forretress|Forretress, L84, M|263/263
+  switch|p2a: Moltres|Moltres, L81|100/100
+-- turn 1
+  WE CHOSE: switch to dondozo (hand policy: attack ironhead) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362
+  move|p2a: Moltres|Brave Bird|p1a: Dondozo
+  -damage|p1a: Dondozo|256/362
+  -damage|p2a: Moltres|88/100|[from] Recoil
+  -heal|p1a: Dondozo|278/362|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack wavecrash - our hp 0.77, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Moltres|Brave Bird|p1a: Dondozo
+  -damage|p1a: Dondozo|178/362
+  -damage|p2a: Moltres|76/100|[from] Recoil
+  move|p1a: Dondozo|Wave Crash|p2a: Moltres
+  -supereffective|p2a: Moltres
+  -damage|p2a: Moltres|0 fnt
+  -status|p1a: Dondozo|brn|[from] ability: Flame Body|[of] p2a: Moltres
+  faint|p2a: Moltres
+  -damage|p1a: Dondozo|109/362 brn|[from] Recoil
+  -heal|p1a: Dondozo|131/362 brn|[from] item: Leftovers
+  -damage|p1a: Dondozo|109/362 brn|[from] brn
+  switch|p2a: Glalie|Glalie, L96, M|100/100
+-- turn 3
+  WE CHOSE: switch to ironjugulis - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Iron Jugulis|Iron Jugulis, L77|271/271
+  move|p2a: Glalie|Earthquake|p1a: Iron Jugulis
+  -immune|p1a: Iron Jugulis
+-- turn 4
+  WE CHOSE: switch to lugia (hand policy: attack fireblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  -end|p1a: Iron Jugulis|Quark Drive|[silent]
+  switch|p1a: Lugia|Lugia, L73|275/275
+  move|p2a: Glalie|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+-- turn 5
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+-- turn 6
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+-- turn 7
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+-- turn 8
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+-- turn 9
+  WE CHOSE: switch to ironjugulis (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Iron Jugulis|Iron Jugulis, L77|271/271
+  move|p2a: Glalie|Earthquake|p1a: Iron Jugulis
+  -immune|p1a: Iron Jugulis
+-- turn 10
+  WE CHOSE: switch to lugia (hand policy: attack fireblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  -end|p1a: Iron Jugulis|Quark Drive|[silent]
+  switch|p1a: Lugia|Lugia, L73|275/275
+  move|p2a: Glalie|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+-- turn 11
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+-- turn 12
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+-- turn 13
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+-- turn 14
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+-- turn 15
+  WE CHOSE: switch to ironjugulis (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Iron Jugulis|Iron Jugulis, L77|271/271
+  move|p2a: Glalie|Earthquake|p1a: Iron Jugulis
+  -immune|p1a: Iron Jugulis
+-- turn 16
+  WE CHOSE: switch to lugia (hand policy: attack fireblast) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  -end|p1a: Iron Jugulis|Quark Drive|[silent]
+  switch|p1a: Lugia|Lugia, L73|275/275
+  move|p2a: Glalie|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+-- turn 17
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+-- turn 18
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+-- turn 19
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Freeze-Dry|p1a: Lugia
+  -supereffective|p1a: Lugia
+  -damage|p1a: Lugia|247/275
+  -status|p1a: Lugia|frz
+  -curestatus|p1a: Lugia|frz|[msg]
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+-- turn 20
+  WE CHOSE: switch to ironjugulis (hand policy: setup calmmind) - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Iron Jugulis|Iron Jugulis, L77|271/271
+  move|p2a: Glalie|Freeze-Dry|p1a: Iron Jugulis
+  -supereffective|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|73/271
+-- turn 21
+  WE CHOSE: attack fireblast - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to lugia - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x0
+  move|p1a: Iron Jugulis|Fire Blast|p2a: Glalie
+  -supereffective|p2a: Glalie
+  -damage|p2a: Glalie|34/100
+  -status|p2a: Glalie|brn
+  move|p2a: Glalie|Freeze-Dry|p1a: Iron Jugulis
+  -supereffective|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|0 fnt
+  faint|p1a: Iron Jugulis
+  -end|p1a: Iron Jugulis|Quark Drive|[silent]
+  -damage|p2a: Glalie|28/100 brn|[from] brn
+  switch|p1a: Lugia|Lugia, L73|247/275
+-- turn 22
+  WE CHOSE: setup calmmind - our hp 0.90, theirs 0.28, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Freeze-Dry|p1a: Lugia
+  -supereffective|p1a: Lugia
+  -damage|p1a: Lugia|113/275
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+  -damage|p2a: Glalie|22/100 brn|[from] brn
+-- turn 23
+  WE CHOSE: setup calmmind (hand policy: heal recover) - our hp 0.41, theirs 0.22, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Freeze-Dry|p1a: Lugia
+  -supereffective|p1a: Lugia
+  -damage|p1a: Lugia|27/275
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+  -damage|p2a: Glalie|16/100 brn|[from] brn
+-- turn 24
+  WE CHOSE: attack psychicnoise (hand policy: heal recover) - our hp 0.10, theirs 0.16, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to forretress - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x0
+  move|p2a: Glalie|Freeze-Dry|p1a: Lugia
+  -supereffective|p1a: Lugia
+  -damage|p1a: Lugia|0 fnt
+  faint|p1a: Lugia
+  -damage|p2a: Glalie|10/100 brn|[from] brn
+  switch|p1a: Forretress|Forretress, L84, M|263/263
+-- turn 25
+  WE CHOSE: switch to leafeon (hand policy: attack ironhead) - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x1
+  switch|p1a: Leafeon|Leafeon, L88, F|258/258
+  move|p2a: Glalie|Freeze-Dry|p1a: Leafeon
+  -supereffective|p1a: Leafeon
+  -damage|p1a: Leafeon|52/258
+  -damage|p2a: Glalie|4/100 brn|[from] brn
+-- turn 26
+  WE CHOSE: attack leafblade (hand policy: heal synthesis) - our hp 0.20, theirs 0.04, predicted move (revealed) hits us x0.5
+  move|p1a: Leafeon|Leaf Blade|p2a: Glalie
+  -damage|p2a: Glalie|0 fnt
+  faint|p2a: Glalie
+  -damage|p1a: Leafeon|27/258|[from] item: Life Orb
+  switch|p2a: Luvdisc|Luvdisc, M|100/100
+-- turn 27
+  WE CHOSE: attack leafblade (hand policy: heal synthesis) - our hp 0.10, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to dondozo - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Luvdisc|Surf|p1a: Leafeon
+  -resisted|p1a: Leafeon
+  -damage|p1a: Leafeon|0 fnt
+  faint|p1a: Leafeon
+  switch|p1a: Dondozo|Dondozo, L78, F|109/362 brn
+-- turn 28
+  WE CHOSE: attack wavecrash (hand policy: heal rest) - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Luvdisc|Surf|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|55/362 brn
+  move|p1a: Dondozo|Wave Crash|p2a: Luvdisc
+  -resisted|p2a: Luvdisc
+  -damage|p2a: Luvdisc|87/100
+  -damage|p1a: Dondozo|44/362 brn|[from] Recoil
+  -heal|p1a: Dondozo|66/362 brn|[from] item: Leftovers
+  -damage|p1a: Dondozo|44/362 brn|[from] brn
+-- turn 29
+  WE CHOSE: heal rest - our hp 0.12, theirs 0.87, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to komala - our hp 0.00, theirs 0.87, predicted move (revealed) hits us x0.5
+  move|p2a: Luvdisc|Surf|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|0 fnt
+  faint|p1a: Dondozo
+  switch|p1a: Komala|Komala, L87, M|255/255
+  -ability|p1a: Komala|Comatose
+-- turn 30
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.87, predicted move (revealed) hits us x1
+  move|p2a: Luvdisc|Surf|p1a: Komala
+  -damage|p1a: Komala|210/255
+  move|p1a: Komala|Body Slam|p2a: Luvdisc
+  -damage|p2a: Luvdisc|36/100
+-- turn 31
+  WE CHOSE: attack bodyslam - our hp 0.82, theirs 0.36, predicted move (revealed) hits us x1
+  move|p2a: Luvdisc|Surf|p1a: Komala
+  -damage|p1a: Komala|164/255
+  move|p1a: Komala|Body Slam|p2a: Luvdisc
+  -damage|p2a: Luvdisc|0 fnt
+  faint|p2a: Luvdisc
+  switch|p2a: Zekrom|Zekrom, L71|100/100
+  -ability|p2a: Zekrom|Teravolt
+-- turn 32
+  WE CHOSE: attack earthquake - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Zekrom|Bolt Strike|p1a: Komala
+  -damage|p1a: Komala|2/255
+  move|p1a: Komala|Earthquake|p2a: Zekrom
+  -supereffective|p2a: Zekrom
+  -damage|p2a: Zekrom|39/100
+  -heal|p2a: Zekrom|46/100|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack earthquake - our hp 0.01, theirs 0.46, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to forretress - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Zekrom|Bolt Strike|p1a: Komala
+  -damage|p1a: Komala|0 fnt
+  faint|p1a: Komala
+  -heal|p2a: Zekrom|52/100|[from] item: Leftovers
+  switch|p1a: Forretress|Forretress, L84, M|263/263
+-- turn 34
+  WE CHOSE: attack bodypress (hand policy: attack+tera bodypress) - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Zekrom|Bolt Strike|p1a: Forretress
+  -damage|p1a: Forretress|172/263
+  -status|p1a: Forretress|par
+  move|p1a: Forretress|Body Press|p2a: Zekrom
+  -damage|p2a: Zekrom|25/100
+  -heal|p2a: Zekrom|31/100|[from] item: Leftovers
+  -heal|p1a: Forretress|188/263 par|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: attack bodypress (hand policy: attack+tera bodypress) - our hp 0.71, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Zekrom|Bolt Strike|p1a: Forretress|[miss]
+  -miss|p2a: Zekrom|p1a: Forretress
+  cant|p1a: Forretress|par
+  -heal|p2a: Zekrom|37/100|[from] item: Leftovers
+  -heal|p1a: Forretress|204/263 par|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack bodypress (hand policy: attack+tera bodypress) - our hp 0.78, theirs 0.37, predicted move (revealed) hits us x1
+  move|p2a: Zekrom|Bolt Strike|p1a: Forretress
+  -damage|p1a: Forretress|108/263 par
+  move|p1a: Forretress|Body Press|p2a: Zekrom
+  -damage|p2a: Zekrom|12/100
+  -heal|p2a: Zekrom|18/100|[from] item: Leftovers
+  -heal|p1a: Forretress|124/263 par|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: attack bodypress (hand policy: attack+tera bodypress) - our hp 0.47, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Zekrom|Bolt Strike|p1a: Forretress
+  -damage|p1a: Forretress|30/263 par
+  move|p1a: Forretress|Body Press|p2a: Zekrom
+  -damage|p2a: Zekrom|0 fnt
+  faint|p2a: Zekrom
+  -heal|p1a: Forretress|46/263 par|[from] item: Leftovers
+  switch|p2a: Deoxys|Deoxys, L74|100/100
+  -ability|p2a: Deoxys|Pressure
+-- turn 38
+  WE CHOSE: attack ironhead - our hp 0.17, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Deoxys|Psycho Boost|p1a: Forretress
+  -resisted|p1a: Forretress
+  -damage|p1a: Forretress|0 fnt
+  -unboost|p2a: Deoxys|spa|2
+  faint|p1a: Forretress
+  -damage|p2a: Deoxys|91/100|[from] item: Life Orb
+  deinit

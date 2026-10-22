@@ -1,0 +1,331 @@
+battle 1095 (battle-gen9randombattle-2028726): lost in 37 turns, 1 of theirs left; we are p1
+
+ours:
+  hawlucha (fainted; item whiteherb, ability unburden; moves throatchop/swordsdance/acrobatics/closecombat)
+  crabominable (fainted; item assaultvest, ability ironfist, tera ground; moves knockoff/drainpunch/icehammer/earthquake)
+  greninja (fainted; item lifeorb, ability protean; moves icebeam/darkpulse/gunkshot/hydropump)
+  manaphy (fainted; item leftovers, ability hydration; moves tailglow/energyball/hydropump/icebeam)
+  raichualola (fainted; item lifeorb, ability surgesurfer; moves psyshock/nastyplot/thunderbolt/focusblast)
+  arceusground (fainted; item earthplate, ability multitype; moves calmmind/judgment/fireblast/recover)
+theirs (as seen):
+  hawlucha (fainted; item unknown_item, ability ?; moves bravebird)
+  camerupt (fainted; item leftovers, ability ?; moves overheat)
+  medicham (fainted; item unknown_item, ability ?; moves closecombat)
+  weezinggalar (fainted; item leftovers, ability levitate; moves gunkshot/fireblast/strangesteam)
+  deoxys (fainted; item lifeorb, ability pressure; moves psychoboost)
+  rotommow (100%; item unknown_item, ability levitate; moves leafstorm)
+
+-- turn 0
+  switch|p1a: Hawlucha|Hawlucha, L80, M|256/256
+  switch|p2a: Hawlucha|Hawlucha, L80, M|100/100
+-- turn 1
+  WE CHOSE: switch to raichualola - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Raichu|Raichu-Alola, L87, F|246/246
+  move|p2a: Hawlucha|Brave Bird|p1a: Raichu
+  -resisted|p1a: Raichu
+  -damage|p1a: Raichu|171/246
+  -damage|p2a: Hawlucha|91/100|[from] Recoil
+-- turn 2
+  WE CHOSE: setup nastyplot - our hp 0.70, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p1a: Raichu|Nasty Plot|p1a: Raichu
+  -boost|p1a: Raichu|spa|2
+  move|p2a: Hawlucha|Brave Bird|p1a: Raichu
+  -resisted|p1a: Raichu
+  -damage|p1a: Raichu|87/246
+  -damage|p2a: Hawlucha|80/100|[from] Recoil
+-- turn 3
+  WE CHOSE: attack thunderbolt - our hp 0.35, theirs 0.80, predicted move (revealed) hits us x0.5
+  move|p1a: Raichu|Thunderbolt|p2a: Hawlucha
+  -supereffective|p2a: Hawlucha
+  -damage|p2a: Hawlucha|0 fnt
+  faint|p2a: Hawlucha
+  -damage|p1a: Raichu|63/246|[from] item: Life Orb
+  switch|p2a: Camerupt|Camerupt, L91, M|100/100
+-- turn 4
+  WE CHOSE: attack psyshock - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to greninja - our hp 0.00, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Raichu|Psyshock|p2a: Camerupt
+  -damage|p2a: Camerupt|14/100
+  -damage|p1a: Raichu|39/246|[from] item: Life Orb
+  move|p2a: Camerupt|Overheat|p1a: Raichu
+  -damage|p1a: Raichu|0 fnt
+  -unboost|p2a: Camerupt|spa|2
+  faint|p1a: Raichu
+  -heal|p2a: Camerupt|20/100|[from] item: Leftovers
+  switch|p1a: Greninja|Greninja, L80, M|246/246
+-- turn 5
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.20, predicted move (revealed) hits us x0.5
+  move|p1a: Greninja|Hydro Pump|p2a: Camerupt
+  -start|p1a: Greninja|typechange|Water|[from] ability: Protean
+  -supereffective|p2a: Camerupt
+  -crit|p2a: Camerupt
+  -damage|p2a: Camerupt|0 fnt
+  faint|p2a: Camerupt
+  -damage|p1a: Greninja|222/246|[from] item: Life Orb
+  switch|p2a: Medicham|Medicham, L86, F|100/100
+-- turn 6
+  WE CHOSE: attack hydropump - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hawlucha - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x2
+  move|p1a: Greninja|Hydro Pump|p2a: Medicham
+  -damage|p2a: Medicham|33/100
+  -damage|p1a: Greninja|198/246|[from] item: Life Orb
+  move|p2a: Medicham|Close Combat|p1a: Greninja
+  -damage|p1a: Greninja|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Greninja
+  switch|p1a: Hawlucha|Hawlucha, L80, M|256/256
+-- turn 7
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+  -boost|p1a: Hawlucha|atk|2
+  move|p2a: Medicham|Close Combat|p1a: Hawlucha
+  -resisted|p1a: Hawlucha
+  -damage|p1a: Hawlucha|83/256
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+-- turn 8
+  WE CHOSE: attack acrobatics - our hp 0.32, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p1a: Hawlucha|Acrobatics|p2a: Medicham
+  -supereffective|p2a: Medicham
+  -damage|p2a: Medicham|0 fnt
+  faint|p2a: Medicham
+  switch|p2a: Weezing|Weezing-Galar, L86, F|100/100
+-- turn 9
+  WE CHOSE: attack acrobatics - our hp 0.32, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to arceusground - our hp 0.00, theirs 0.60, predicted move (revealed) hits us x1
+  move|p1a: Hawlucha|Acrobatics|p2a: Weezing
+  -crit|p2a: Weezing
+  -damage|p2a: Weezing|54/100
+  move|p2a: Weezing|Gunk Shot|p1a: Hawlucha
+  -damage|p1a: Hawlucha|0 fnt
+  faint|p1a: Hawlucha
+  -heal|p2a: Weezing|60/100|[from] item: Leftovers
+  switch|p1a: Arceus|Arceus-Ground, L70|284/284
+-- turn 10
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.60, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Calm Mind|p1a: Arceus
+  -boost|p1a: Arceus|spa|1
+  -boost|p1a: Arceus|spd|1
+  move|p2a: Weezing|Gunk Shot|p1a: Arceus
+  -resisted|p1a: Arceus
+  -damage|p1a: Arceus|230/284
+  -heal|p2a: Weezing|66/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: setup calmmind - our hp 0.81, theirs 0.66, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Calm Mind|p1a: Arceus
+  -boost|p1a: Arceus|spa|1
+  -boost|p1a: Arceus|spd|1
+  move|p2a: Weezing|Gunk Shot|p1a: Arceus|[miss]
+  -miss|p2a: Weezing|p1a: Arceus
+  -heal|p2a: Weezing|72/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack judgment - our hp 0.81, theirs 0.72, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Judgment|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Arceus
+  -resisted|p1a: Arceus
+  -damage|p1a: Arceus|167/284
+  -heal|p2a: Weezing|78/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack judgment - our hp 0.59, theirs 0.78, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Judgment|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Arceus
+  -resisted|p1a: Arceus
+  -damage|p1a: Arceus|111/284
+  -heal|p2a: Weezing|84/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal recover - our hp 0.39, theirs 0.84, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|253/284
+  move|p2a: Weezing|Gunk Shot|p1a: Arceus
+  -resisted|p1a: Arceus
+  -damage|p1a: Arceus|189/284
+  -heal|p2a: Weezing|90/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack judgment - our hp 0.67, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Judgment|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Gunk Shot|p1a: Arceus
+  -resisted|p1a: Arceus
+  -damage|p1a: Arceus|128/284
+  -heal|p2a: Weezing|96/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: heal recover - our hp 0.45, theirs 0.96, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|270/284
+  move|p2a: Weezing|Gunk Shot|p1a: Arceus
+  -resisted|p1a: Arceus
+  -damage|p1a: Arceus|210/284
+  -status|p1a: Arceus|psn
+  -heal|p2a: Weezing|100/100|[from] item: Leftovers
+  -damage|p1a: Arceus|175/284 psn|[from] psn
+-- turn 17
+  WE CHOSE: attack judgment - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Judgment|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Fire Blast|p1a: Arceus
+  -damage|p1a: Arceus|143/284 psn
+  -damage|p1a: Arceus|108/284 psn|[from] psn
+-- turn 18
+  WE CHOSE: heal recover - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|250/284 psn
+  move|p2a: Weezing|Fire Blast|p1a: Arceus
+  -damage|p1a: Arceus|213/284 psn
+  -damage|p1a: Arceus|178/284 psn|[from] psn
+-- turn 19
+  WE CHOSE: attack judgment - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Judgment|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Fire Blast|p1a: Arceus
+  -damage|p1a: Arceus|144/284 psn
+  -damage|p1a: Arceus|109/284 psn|[from] psn
+-- turn 20
+  WE CHOSE: heal recover - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|251/284 psn
+  move|p2a: Weezing|Fire Blast|p1a: Arceus
+  -damage|p1a: Arceus|215/284 psn
+  -damage|p1a: Arceus|180/284 psn|[from] psn
+-- turn 21
+  WE CHOSE: attack judgment - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Judgment|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Fire Blast|p1a: Arceus
+  -damage|p1a: Arceus|146/284 psn
+  -damage|p1a: Arceus|111/284 psn|[from] psn
+-- turn 22
+  WE CHOSE: heal recover - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|253/284 psn
+  move|p2a: Weezing|Fire Blast|p1a: Arceus
+  -damage|p1a: Arceus|218/284 psn
+  -damage|p1a: Arceus|183/284 psn|[from] psn
+-- turn 23
+  WE CHOSE: attack judgment - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Judgment|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Fire Blast|p1a: Arceus
+  -damage|p1a: Arceus|148/284 psn
+  -damage|p1a: Arceus|113/284 psn|[from] psn
+-- turn 24
+  WE CHOSE: heal recover - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|255/284 psn
+  move|p2a: Weezing|Fire Blast|p1a: Arceus|[miss]
+  -miss|p2a: Weezing|p1a: Arceus
+  -damage|p1a: Arceus|220/284 psn|[from] psn
+-- turn 25
+  WE CHOSE: attack judgment - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Judgment|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Strange Steam|p1a: Arceus
+  -damage|p1a: Arceus|178/284 psn
+  -damage|p1a: Arceus|143/284 psn|[from] psn
+-- turn 26
+  WE CHOSE: attack judgment - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Judgment|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Strange Steam|p1a: Arceus
+  -damage|p1a: Arceus|101/284 psn
+  -damage|p1a: Arceus|66/284 psn|[from] psn
+-- turn 27
+  WE CHOSE: heal recover - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|208/284 psn
+  move|p2a: Weezing|Strange Steam|p1a: Arceus
+  -damage|p1a: Arceus|162/284 psn
+  -start|p1a: Arceus|confusion
+  -damage|p1a: Arceus|127/284 psn|[from] psn
+-- turn 28
+  WE CHOSE: heal recover - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x0.5
+  -activate|p1a: Arceus|confusion
+  -damage|p1a: Arceus|110/284 psn|[from] confusion
+  move|p2a: Weezing|Strange Steam|p1a: Arceus
+  -damage|p1a: Arceus|70/284 psn
+  -damage|p1a: Arceus|35/284 psn|[from] psn
+-- turn 29
+  WE CHOSE: heal recover - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x0.5
+  -activate|p1a: Arceus|confusion
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|177/284 psn
+  move|p2a: Weezing|Strange Steam|p1a: Arceus
+  -damage|p1a: Arceus|135/284 psn
+  -damage|p1a: Arceus|100/284 psn|[from] psn
+-- turn 30
+  WE CHOSE: attack judgment - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x0.5
+  -activate|p1a: Arceus|confusion
+  move|p1a: Arceus|Judgment|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Strange Steam|p1a: Arceus|[miss]
+  -miss|p2a: Weezing|p1a: Arceus
+  -damage|p1a: Arceus|65/284 psn|[from] psn
+-- turn 31
+  WE CHOSE: attack judgment - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to crabominable - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  -activate|p1a: Arceus|confusion
+  move|p1a: Arceus|Judgment|p2a: Weezing
+  -immune|p2a: Weezing|[from] ability: Levitate
+  move|p2a: Weezing|Strange Steam|p1a: Arceus
+  -damage|p1a: Arceus|19/284 psn
+  -damage|p1a: Arceus|0 fnt|[from] psn
+  faint|p1a: Arceus
+  switch|p1a: Crabominable|Crabominable, L90, M|321/321
+-- turn 32
+  WE CHOSE: attack+tera icehammer - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Crabominable|Ground
+  move|p2a: Weezing|Strange Steam|p1a: Crabominable
+  -damage|p1a: Crabominable|258/321
+  move|p1a: Crabominable|Ice Hammer|p2a: Weezing|[miss]
+  -miss|p1a: Crabominable|p2a: Weezing
+-- turn 33
+  WE CHOSE: attack icehammer - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Weezing|Strange Steam|p1a: Crabominable
+  -damage|p1a: Crabominable|183/321
+  -start|p1a: Crabominable|confusion
+  -activate|p1a: Crabominable|confusion
+  move|p1a: Crabominable|Ice Hammer|p2a: Weezing
+  -damage|p2a: Weezing|40/100
+  -unboost|p1a: Crabominable|spe|1
+  -heal|p2a: Weezing|46/100|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack icehammer - our hp 0.57, theirs 0.46, predicted move (revealed) hits us x0.5
+  move|p2a: Weezing|Strange Steam|p1a: Crabominable
+  -damage|p1a: Crabominable|116/321
+  -end|p1a: Crabominable|confusion
+  move|p1a: Crabominable|Ice Hammer|p2a: Weezing
+  -damage|p2a: Weezing|0 fnt
+  -unboost|p1a: Crabominable|spe|1
+  faint|p2a: Weezing
+  switch|p2a: Deoxys|Deoxys, L74|100/100
+  -ability|p2a: Deoxys|Pressure
+-- turn 35
+  WE CHOSE: attack earthquake - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to manaphy - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Crabominable
+  -damage|p1a: Crabominable|0 fnt
+  -unboost|p2a: Deoxys|spa|2
+  faint|p1a: Crabominable
+  -damage|p2a: Deoxys|91/100|[from] item: Life Orb
+  switch|p1a: Manaphy|Manaphy, L78|284/284
+-- turn 36
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Manaphy
+  -damage|p1a: Manaphy|179/284
+  -unboost|p2a: Deoxys|spa|2
+  -damage|p2a: Deoxys|81/100|[from] item: Life Orb
+  move|p1a: Manaphy|Hydro Pump|p2a: Deoxys
+  -damage|p2a: Deoxys|0 fnt
+  faint|p2a: Deoxys
+  -heal|p1a: Manaphy|196/284|[from] item: Leftovers
+  switch|p2a: Rotom|Rotom-Mow, L87|100/100
+-- turn 37
+  WE CHOSE: attack icebeam - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Rotom|Leaf Storm|p1a: Manaphy
+  -supereffective|p1a: Manaphy
+  -damage|p1a: Manaphy|0 fnt
+  -unboost|p2a: Rotom|spa|2
+  faint|p1a: Manaphy
+  deinit

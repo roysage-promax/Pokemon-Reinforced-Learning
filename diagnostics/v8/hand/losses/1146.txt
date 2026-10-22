@@ -1,0 +1,223 @@
+battle 1146 (battle-gen9randombattle-2029184): lost in 23 turns, 1 of theirs left; we are p1
+
+ours:
+  kricketune (fainted; item ?, ability technician, tera ghost; moves stickyweb/pounce/taunt/knockoff)
+  bellossom (fainted; item leftovers, ability chlorophyll; moves quiverdance/terablast/gigadrain/strengthsap)
+  cloyster (fainted; item whiteherb, ability skilllink; moves rockblast/iciclespear/shellsmash/drillrun)
+  dudunsparce (fainted; item leftovers, ability serenegrace; moves headbutt/glare/earthquake/roost)
+  manaphy (fainted; item leftovers, ability hydration; moves energyball/hydropump/icebeam/tailglow)
+  eelektross (fainted; item assaultvest, ability levitate; moves gigadrain/flamethrower/uturn/discharge)
+theirs (as seen):
+  basculinbluestriped (fainted; item unknown_item, ability ?; moves wavecrash)
+  swalot (fainted; item ?, ability ?; moves gunkshot)
+  terrakion (fainted; item lifeorb, ability justified; moves closecombat)
+  granbull (fainted; item leftovers, ability intimidate; moves earthquake)
+  mightyena (fainted; item unknown_item, ability intimidate; moves playrough)
+  serperior (33%; item lifeorb, ability ?; moves leafstorm)
+
+-- turn 0
+  switch|p1a: Kricketune|Kricketune, L99, M|311/311
+  switch|p2a: Basculin|Basculin-Blue-Striped, L86, F|100/100
+-- turn 1
+  WE CHOSE: attack pounce - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Basculin|Wave Crash|p1a: Kricketune
+  -enditem|p1a: Kricketune|Focus Sash
+  -damage|p1a: Kricketune|1/311
+  -damage|p2a: Basculin|61/100|[from] Recoil
+  move|p1a: Kricketune|Pounce|p2a: Basculin
+  -damage|p2a: Basculin|17/100
+  -unboost|p2a: Basculin|spe|1
+-- turn 2
+  WE CHOSE: attack pounce - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p1a: Kricketune|Pounce|p2a: Basculin
+  -damage|p2a: Basculin|0 fnt
+  faint|p2a: Basculin
+  switch|p2a: Swalot|Swalot, L90, F|100/100
+-- turn 3
+  WE CHOSE: attack+tera knockoff - our hp 0.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dudunsparce - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Kricketune|Ghost
+  move|p1a: Kricketune|Knock Off|p2a: Swalot
+  -damage|p2a: Swalot|76/100
+  -enditem|p2a: Swalot|Leftovers|[from] move: Knock Off|[of] p1a: Kricketune
+  move|p2a: Swalot|Gunk Shot|p1a: Kricketune
+  -resisted|p1a: Kricketune
+  -damage|p1a: Kricketune|0 fnt
+  faint|p1a: Kricketune
+  switch|p1a: Dudunsparce|Dudunsparce, L83, M|343/343
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p2a: Swalot|Gunk Shot|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|211/343
+  move|p1a: Dudunsparce|Earthquake|p2a: Swalot
+  -supereffective|p2a: Swalot
+  -damage|p2a: Swalot|36/100
+  -heal|p1a: Dudunsparce|232/343|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 0.68, theirs 0.36, predicted move (revealed) hits us x1
+  move|p2a: Swalot|Gunk Shot|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|109/343
+  move|p1a: Dudunsparce|Earthquake|p2a: Swalot
+  -supereffective|p2a: Swalot
+  -damage|p2a: Swalot|0 fnt
+  faint|p2a: Swalot
+  -heal|p1a: Dudunsparce|130/343|[from] item: Leftovers
+  switch|p2a: Terrakion|Terrakion, L79|100/100
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to manaphy - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x2
+  move|p2a: Terrakion|Close Combat|p1a: Dudunsparce
+  -supereffective|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|0 fnt
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  faint|p1a: Dudunsparce
+  -damage|p2a: Terrakion|91/100|[from] item: Life Orb
+  switch|p1a: Manaphy|Manaphy, L78|284/284
+-- turn 7
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Terrakion|Close Combat|p1a: Manaphy
+  -damage|p1a: Manaphy|109/284
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  -damage|p2a: Terrakion|81/100|[from] item: Life Orb
+  move|p1a: Manaphy|Hydro Pump|p2a: Terrakion
+  -supereffective|p2a: Terrakion
+  -damage|p2a: Terrakion|0 fnt
+  faint|p2a: Terrakion
+  -heal|p1a: Manaphy|126/284|[from] item: Leftovers
+  switch|p2a: Granbull|Granbull, L88, F|100/100
+  -ability|p2a: Granbull|Intimidate|boost
+  -unboost|p1a: Manaphy|atk|1
+-- turn 8
+  WE CHOSE: switch to eelektross - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Eelektross|Eelektross, L87, F|290/290
+  move|p2a: Granbull|Earthquake|p1a: Eelektross
+  -immune|p1a: Eelektross|[from] ability: Levitate
+-- turn 9
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Eelektross|Discharge|p2a: Granbull
+  -crit|p2a: Granbull
+  -damage|p2a: Granbull|42/100
+  -status|p2a: Granbull|par
+  cant|p2a: Granbull|par
+  -heal|p2a: Granbull|48/100 par|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack discharge - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x0
+  move|p1a: Eelektross|Discharge|p2a: Granbull
+  -damage|p2a: Granbull|11/100 par
+  move|p2a: Granbull|Earthquake|p1a: Eelektross
+  -immune|p1a: Eelektross|[from] ability: Levitate
+  -heal|p2a: Granbull|17/100 par|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack discharge - our hp 1.00, theirs 0.17, predicted move (revealed) hits us x0
+  move|p1a: Eelektross|Discharge|p2a: Granbull
+  -damage|p2a: Granbull|0 fnt
+  faint|p2a: Granbull
+  switch|p2a: Mightyena|Mightyena, L96, M|100/100
+  -ability|p2a: Mightyena|Intimidate|boost
+  -unboost|p1a: Eelektross|atk|1
+-- turn 12
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Mightyena|Play Rough|p1a: Eelektross
+  -damage|p1a: Eelektross|211/290
+  move|p1a: Eelektross|Discharge|p2a: Mightyena
+  -damage|p2a: Mightyena|75/100
+-- turn 13
+  WE CHOSE: attack discharge - our hp 0.73, theirs 0.75, predicted move (revealed) hits us x1
+  move|p2a: Mightyena|Play Rough|p1a: Eelektross
+  -damage|p1a: Eelektross|127/290
+  move|p1a: Eelektross|Discharge|p2a: Mightyena
+  -damage|p2a: Mightyena|49/100
+  -status|p2a: Mightyena|par
+-- turn 14
+  WE CHOSE: attack discharge - our hp 0.44, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Eelektross|Discharge|p2a: Mightyena
+  -damage|p2a: Mightyena|26/100 par
+  move|p2a: Mightyena|Play Rough|p1a: Eelektross
+  -damage|p1a: Eelektross|53/290
+-- turn 15
+  WE CHOSE: attack discharge - our hp 0.18, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Eelektross|Discharge|p2a: Mightyena
+  -damage|p2a: Mightyena|2/100 par
+  cant|p2a: Mightyena|par
+-- turn 16
+  WE CHOSE: attack discharge - our hp 0.18, theirs 0.02, predicted move (revealed) hits us x1
+  move|p1a: Eelektross|Discharge|p2a: Mightyena
+  -crit|p2a: Mightyena
+  -damage|p2a: Mightyena|0 fnt
+  faint|p2a: Mightyena
+  switch|p2a: Serperior|Serperior, L79, M|100/100
+-- turn 17
+  WE CHOSE: attack flamethrower - our hp 0.18, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to bellossom - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Eelektross
+  -damage|p1a: Eelektross|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Eelektross
+  -damage|p2a: Serperior|91/100|[from] item: Life Orb
+  switch|p1a: Bellossom|Bellossom, L84, M|263/263
+-- turn 18
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Bellossom
+  -resisted|p1a: Bellossom
+  -damage|p1a: Bellossom|150/263
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|81/100|[from] item: Life Orb
+  move|p1a: Bellossom|Quiver Dance|p1a: Bellossom
+  -boost|p1a: Bellossom|spa|1
+  -boost|p1a: Bellossom|spd|1
+  -boost|p1a: Bellossom|spe|1
+  -heal|p1a: Bellossom|166/263|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: setup quiverdance - our hp 0.63, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Bellossom
+  -resisted|p1a: Bellossom
+  -damage|p1a: Bellossom|44/263
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|71/100|[from] item: Life Orb
+  move|p1a: Bellossom|Quiver Dance|p1a: Bellossom
+  -boost|p1a: Bellossom|spa|1
+  -boost|p1a: Bellossom|spd|1
+  -boost|p1a: Bellossom|spe|1
+  -heal|p1a: Bellossom|60/263|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal strengthsap - our hp 0.23, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p1a: Bellossom|Strength Sap|p2a: Serperior
+  -boost|p2a: Serperior|atk|1
+  -heal|p1a: Bellossom|224/263
+  move|p2a: Serperior|Leaf Storm|p1a: Bellossom
+  -resisted|p1a: Bellossom
+  -damage|p1a: Bellossom|106/263
+  -damage|p2a: Serperior|62/100|[from] item: Life Orb
+  -heal|p1a: Bellossom|122/263|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal strengthsap - our hp 0.46, theirs 0.62, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to manaphy - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p1a: Bellossom|Strength Sap|p2a: Serperior
+  -boost|p2a: Serperior|atk|1
+  -heal|p1a: Bellossom|263/263
+  move|p2a: Serperior|Leaf Storm|p1a: Bellossom
+  -resisted|p1a: Bellossom
+  -crit|p1a: Bellossom
+  -damage|p1a: Bellossom|0 fnt
+  faint|p1a: Bellossom
+  -damage|p2a: Serperior|52/100|[from] item: Life Orb
+  switch|p1a: Manaphy|Manaphy, L78|126/284
+-- turn 22
+  WE CHOSE: attack icebeam - our hp 0.44, theirs 0.52, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to cloyster - our hp 0.00, theirs 0.42, predicted move (revealed) hits us x2
+  move|p2a: Serperior|Leaf Storm|p1a: Manaphy
+  -supereffective|p1a: Manaphy
+  -damage|p1a: Manaphy|0 fnt
+  faint|p1a: Manaphy
+  -damage|p2a: Serperior|42/100|[from] item: Life Orb
+  switch|p1a: Cloyster|Cloyster, L80, M|211/211
+-- turn 23
+  WE CHOSE: attack iciclespear - our hp 1.00, theirs 0.42, predicted move (revealed) hits us x2
+  move|p2a: Serperior|Leaf Storm|p1a: Cloyster
+  -supereffective|p1a: Cloyster
+  -damage|p1a: Cloyster|0 fnt
+  faint|p1a: Cloyster
+  -damage|p2a: Serperior|33/100|[from] item: Life Orb
+  deinit

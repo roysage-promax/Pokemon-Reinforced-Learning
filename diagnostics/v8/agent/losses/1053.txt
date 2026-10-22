@@ -1,0 +1,845 @@
+battle 1053 (battle-gen9randombattle-2029274): lost in 109 turns, 1 of theirs left; we are p1
+
+ours:
+  pincurchin (fainted; item leftovers, ability electricsurge; moves spikes/recover/scald/discharge)
+  venomoth (fainted; item heavydutyboots, ability tintedlens, tera bug; moves quiverdance/sludgewave/bugbuzz/sleeppowder)
+  dragonite (fainted; item heavydutyboots, ability multiscale; moves roost/earthquake/outrage/dragondance)
+  zamazenta (fainted; item ?, ability dauntlessshield; moves rest/bodypress/ironhead/irondefense)
+  lugia (fainted; item heavydutyboots, ability multiscale; moves calmmind/recover/psychicnoise/aeroblast)
+  bastiodon (fainted; item chestoberry, ability soundproof; moves bodypress/rest/foulplay/irondefense)
+theirs (as seen):
+  avalugg (fainted; item unknown_item, ability ?; moves bodypress)
+  gliscor (fainted; item unknown_item, ability ?; moves earthquake/toxic/protect/substitute)
+  lurantis (fainted; item leftovers, ability ?; moves leafstorm)
+  terapagos (fainted; item unknown_item, ability terashell; moves terastarstorm)
+  glimmora (fainted; item ?, ability ?; moves meteorbeam)
+  oinkologne (100%; item leftovers, ability ?; moves highhorsepower/bodyslam)
+
+-- turn 0
+  switch|p1a: Pincurchin|Pincurchin, F|258/258
+  switch|p2a: Avalugg|Avalugg, L88, M|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 1
+  WE CHOSE: switch to dragonite (hand policy: attack discharge) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dragonite|Dragonite, L74, F|257/257
+  move|p2a: Avalugg|Body Press|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|228/257
+-- turn 2
+  WE CHOSE: setup dragondance - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Avalugg|Body Press|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|176/257
+-- turn 3
+  WE CHOSE: switch to venomoth (hand policy: setup dragondance) - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Venomoth|Venomoth, L84, F|255/255
+  move|p2a: Avalugg|Body Press|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|219/255
+-- turn 4
+  WE CHOSE: setup quiverdance - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+  -boost|p1a: Venomoth|spa|1
+  -boost|p1a: Venomoth|spd|1
+  -boost|p1a: Venomoth|spe|1
+  move|p2a: Avalugg|Body Press|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|185/255
+-- turn 5
+  WE CHOSE: setup quiverdance - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+  -boost|p1a: Venomoth|spa|1
+  -boost|p1a: Venomoth|spd|1
+  -boost|p1a: Venomoth|spe|1
+  move|p2a: Avalugg|Body Press|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|151/255
+  -fieldend|move: Electric Terrain
+-- turn 6
+  WE CHOSE: attack sludgewave - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Venomoth|Sludge Wave|p2a: Avalugg
+  -damage|p2a: Avalugg|5/100
+  move|p2a: Avalugg|Body Press|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|117/255
+-- turn 7
+  WE CHOSE: attack bugbuzz (hand policy: attack sludgewave) - our hp 0.46, theirs 0.05, predicted move (revealed) hits us x0.25
+  move|p1a: Venomoth|Bug Buzz|p2a: Avalugg
+  -damage|p2a: Avalugg|0 fnt
+  faint|p2a: Avalugg
+  switch|p2a: Gliscor|Gliscor, L76, F|100/100
+-- turn 8
+  WE CHOSE: switch to dragonite - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dragonite|Dragonite, L74, F|176/257
+  move|p2a: Gliscor|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+  -status|p2a: Gliscor|tox|[from] item: Toxic Orb
+-- turn 9
+  WE CHOSE: setup dragondance - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Gliscor|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+-- turn 10
+  WE CHOSE: setup dragondance - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Gliscor|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 11
+  WE CHOSE: setup dragondance - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Gliscor|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 12
+  WE CHOSE: switch to lugia (hand policy: setup dragondance) - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Lugia|Lugia, L73|275/275
+  move|p2a: Gliscor|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+-- turn 13
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+  move|p2a: Gliscor|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+-- turn 14
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+  move|p2a: Gliscor|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+-- turn 15
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+  move|p2a: Gliscor|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+-- turn 16
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+  move|p2a: Gliscor|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+-- turn 17
+  WE CHOSE: switch to dragonite (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Dragonite|Dragonite, L74, F|176/257
+  move|p2a: Gliscor|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 18
+  WE CHOSE: setup dragondance - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Gliscor|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+-- turn 19
+  WE CHOSE: setup dragondance - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Gliscor|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 20
+  WE CHOSE: setup dragondance - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Gliscor|Earthquake|p1a: Dragonite
+  -immune|p1a: Dragonite
+-- turn 21
+  WE CHOSE: switch to lugia (hand policy: setup dragondance) - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Lugia|Lugia, L73|275/275
+  move|p2a: Gliscor|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+-- turn 22
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+  move|p2a: Gliscor|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+-- turn 23
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+  move|p2a: Gliscor|Earthquake|p1a: Lugia
+  -immune|p1a: Lugia
+-- turn 24
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+  move|p2a: Gliscor|Toxic|p1a: Lugia
+  -status|p1a: Lugia|tox
+  -damage|p1a: Lugia|258/275 tox|[from] psn
+-- turn 25
+  WE CHOSE: setup calmmind - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+  move|p2a: Gliscor|Toxic|p1a: Lugia
+  -fail|p1a: Lugia|tox
+  -damage|p1a: Lugia|224/275 tox|[from] psn
+-- turn 26
+  WE CHOSE: switch to dragonite (hand policy: setup calmmind) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Dragonite|Dragonite, L74, F|176/257
+  move|p2a: Gliscor|Toxic|p1a: Dragonite
+  -status|p1a: Dragonite|tox
+  -damage|p1a: Dragonite|160/257 tox|[from] psn
+-- turn 27
+  WE CHOSE: setup dragondance - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Gliscor|Toxic|p1a: Dragonite
+  -fail|p1a: Dragonite|tox
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  -damage|p1a: Dragonite|128/257 tox|[from] psn
+-- turn 28
+  WE CHOSE: setup dragondance (hand policy: heal roost) - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+  -boost|p1a: Dragonite|atk|1
+  -boost|p1a: Dragonite|spe|1
+  move|p2a: Gliscor|Toxic|p1a: Dragonite
+  -fail|p1a: Dragonite|tox
+  -damage|p1a: Dragonite|80/257 tox|[from] psn
+-- turn 29
+  WE CHOSE: attack earthquake (hand policy: heal roost) - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Earthquake|p2a: Gliscor
+  -immune|p2a: Gliscor
+  move|p2a: Gliscor|Toxic|p1a: Dragonite
+  -fail|p1a: Dragonite|tox
+  -damage|p1a: Dragonite|16/257 tox|[from] psn
+-- turn 30
+  WE CHOSE: attack earthquake (hand policy: heal roost) - our hp 0.06, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to lugia - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragonite|Earthquake|p2a: Gliscor
+  -immune|p2a: Gliscor
+  move|p2a: Gliscor|Toxic|p1a: Dragonite
+  -fail|p1a: Dragonite|tox
+  -damage|p1a: Dragonite|0 fnt|[from] psn
+  faint|p1a: Dragonite
+  switch|p1a: Lugia|Lugia, L73|224/275 tox
+-- turn 31
+  WE CHOSE: setup calmmind - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+  move|p2a: Gliscor|Toxic|p1a: Lugia
+  -fail|p1a: Lugia|tox
+  -damage|p1a: Lugia|207/275 tox|[from] psn
+-- turn 32
+  WE CHOSE: setup calmmind - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+  move|p2a: Gliscor|Toxic|p1a: Lugia
+  -fail|p1a: Lugia|tox
+  -damage|p1a: Lugia|173/275 tox|[from] psn
+-- turn 33
+  WE CHOSE: setup calmmind - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Calm Mind|p1a: Lugia
+  -boost|p1a: Lugia|spa|1
+  -boost|p1a: Lugia|spd|1
+  move|p2a: Gliscor|Toxic|p1a: Lugia|[miss]
+  -miss|p2a: Gliscor|p1a: Lugia
+  -damage|p1a: Lugia|122/275 tox|[from] psn
+-- turn 34
+  WE CHOSE: heal recover - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Recover|p1a: Lugia
+  -heal|p1a: Lugia|260/275 tox
+  move|p2a: Gliscor|Toxic|p1a: Lugia
+  -fail|p1a: Lugia|tox
+  -damage|p1a: Lugia|192/275 tox|[from] psn
+-- turn 35
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Recover|p1a: Lugia
+  -heal|p1a: Lugia|275/275 tox
+  move|p2a: Gliscor|Toxic|p1a: Lugia
+  -fail|p1a: Lugia|tox
+  -damage|p1a: Lugia|190/275 tox|[from] psn
+-- turn 36
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Recover|p1a: Lugia
+  -heal|p1a: Lugia|275/275 tox
+  move|p2a: Gliscor|Toxic|p1a: Lugia
+  -fail|p1a: Lugia|tox
+  -damage|p1a: Lugia|173/275 tox|[from] psn
+-- turn 37
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Recover|p1a: Lugia
+  -heal|p1a: Lugia|275/275 tox
+  move|p2a: Gliscor|Toxic|p1a: Lugia
+  -fail|p1a: Lugia|tox
+  -damage|p1a: Lugia|156/275 tox|[from] psn
+-- turn 38
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Recover|p1a: Lugia
+  -heal|p1a: Lugia|275/275 tox
+  move|p2a: Gliscor|Toxic|p1a: Lugia
+  -fail|p1a: Lugia|tox
+  -damage|p1a: Lugia|139/275 tox|[from] psn
+-- turn 39
+  WE CHOSE: heal recover (hand policy: setup calmmind) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lugia|Recover|p1a: Lugia
+  -heal|p1a: Lugia|275/275 tox
+  move|p2a: Gliscor|Toxic|p1a: Lugia
+  -fail|p1a: Lugia|tox
+  -damage|p1a: Lugia|122/275 tox|[from] psn
+-- turn 40
+  WE CHOSE: heal recover - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Gliscor|Protect|p2a: Gliscor
+  -singleturn|p2a: Gliscor|Protect
+  move|p1a: Lugia|Recover|p1a: Lugia
+  -heal|p1a: Lugia|260/275 tox
+  -damage|p1a: Lugia|90/275 tox|[from] psn
+-- turn 41
+  WE CHOSE: heal recover - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Gliscor|Protect||[still]
+  -fail|p2a: Gliscor
+  move|p1a: Lugia|Recover|p1a: Lugia
+  -heal|p1a: Lugia|228/275 tox
+  -damage|p1a: Lugia|41/275 tox|[from] psn
+-- turn 42
+  WE CHOSE: attack psychicnoise (hand policy: attack aeroblast) - our hp 0.15, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to zamazenta - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Gliscor|Protect|p2a: Gliscor
+  -singleturn|p2a: Gliscor|Protect
+  move|p1a: Lugia|Psychic Noise|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Protect
+  -damage|p1a: Lugia|0 fnt|[from] psn
+  faint|p1a: Lugia
+  switch|p1a: Zamazenta|Zamazenta, L71|248/248
+  -ability|p1a: Zamazenta|Dauntless Shield|boost
+  -boost|p1a: Zamazenta|def|1
+-- turn 43
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gliscor|Protect||[still]
+  -fail|p2a: Gliscor
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|82/100 tox
+  -heal|p2a: Gliscor|94/100 tox|[from] ability: Poison Heal
+-- turn 44
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Gliscor|Protect|p2a: Gliscor
+  -singleturn|p2a: Gliscor|Protect
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Protect
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 45
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gliscor|Protect||[still]
+  -fail|p2a: Gliscor
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|82/100 tox
+  -heal|p2a: Gliscor|94/100 tox|[from] ability: Poison Heal
+-- turn 46
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Gliscor|Protect|p2a: Gliscor
+  -singleturn|p2a: Gliscor|Protect
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Protect
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 47
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gliscor|Protect||[still]
+  -fail|p2a: Gliscor
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|83/100 tox
+  -heal|p2a: Gliscor|95/100 tox|[from] ability: Poison Heal
+-- turn 48
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.95, predicted move (revealed) hits us x1
+  move|p2a: Gliscor|Protect|p2a: Gliscor
+  -singleturn|p2a: Gliscor|Protect
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Protect
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 49
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gliscor|Protect|p2a: Gliscor
+  -singleturn|p2a: Gliscor|Protect
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Protect
+-- turn 50
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gliscor|Protect||[still]
+  -fail|p2a: Gliscor
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|81/100 tox
+  -heal|p2a: Gliscor|93/100 tox|[from] ability: Poison Heal
+-- turn 51
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.93, predicted move (revealed) hits us x1
+  move|p2a: Gliscor|Protect|p2a: Gliscor
+  -singleturn|p2a: Gliscor|Protect
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Protect
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 52
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gliscor|Protect||[still]
+  -fail|p2a: Gliscor
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|81/100 tox
+  -heal|p2a: Gliscor|93/100 tox|[from] ability: Poison Heal
+-- turn 53
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.93, predicted move (revealed) hits us x1
+  move|p2a: Gliscor|Protect|p2a: Gliscor
+  -singleturn|p2a: Gliscor|Protect
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Protect
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 54
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gliscor|Protect||[still]
+  -fail|p2a: Gliscor
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|81/100 tox
+  -heal|p2a: Gliscor|93/100 tox|[from] ability: Poison Heal
+-- turn 55
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.93, predicted move (revealed) hits us x1
+  move|p2a: Gliscor|Protect|p2a: Gliscor
+  -singleturn|p2a: Gliscor|Protect
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Protect
+  -heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+-- turn 56
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -damage|p2a: Gliscor|82/100 tox
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|57/100 tox
+  -heal|p2a: Gliscor|69/100 tox|[from] ability: Poison Heal
+-- turn 57
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|81/100 tox|[from] ability: Poison Heal
+-- turn 58
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Gliscor
+  -resisted|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|57/100 tox
+  -heal|p2a: Gliscor|69/100 tox|[from] ability: Poison Heal
+-- turn 59
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|81/100 tox|[from] ability: Poison Heal
+-- turn 60
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|56/100 tox
+  -heal|p2a: Gliscor|68/100 tox|[from] ability: Poison Heal
+-- turn 61
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|80/100 tox|[from] ability: Poison Heal
+-- turn 62
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.80, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|56/100 tox
+  -heal|p2a: Gliscor|68/100 tox|[from] ability: Poison Heal
+-- turn 63
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|80/100 tox|[from] ability: Poison Heal
+-- turn 64
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.80, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|55/100 tox
+  -heal|p2a: Gliscor|67/100 tox|[from] ability: Poison Heal
+-- turn 65
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|80/100 tox|[from] ability: Poison Heal
+-- turn 66
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.80, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|55/100 tox
+  -heal|p2a: Gliscor|67/100 tox|[from] ability: Poison Heal
+-- turn 67
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|79/100 tox|[from] ability: Poison Heal
+-- turn 68
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.79, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|54/100 tox
+  -heal|p2a: Gliscor|67/100 tox|[from] ability: Poison Heal
+-- turn 69
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|79/100 tox|[from] ability: Poison Heal
+-- turn 70
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.79, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -start|p2a: Gliscor|Substitute
+  -damage|p2a: Gliscor|54/100 tox
+  -heal|p2a: Gliscor|66/100 tox|[from] ability: Poison Heal
+-- turn 71
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -activate|p2a: Gliscor|move: Substitute|[damage]
+  move|p2a: Gliscor|Substitute|p2a: Gliscor
+  -fail|p2a: Gliscor|move: Substitute
+  -heal|p2a: Gliscor|78/100 tox|[from] ability: Poison Heal
+-- turn 72
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -end|p2a: Gliscor|Substitute
+  -activate|p2a: Gliscor|move: Struggle
+  move|p2a: Gliscor|Struggle|p1a: Zamazenta
+  -damage|p1a: Zamazenta|231/248
+  -damage|p2a: Gliscor|53/100 tox|[from] recoil
+  -heal|p2a: Gliscor|65/100 tox|[from] ability: Poison Heal
+-- turn 73
+  WE CHOSE: attack ironhead - our hp 0.93, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -damage|p2a: Gliscor|47/100 tox
+  -activate|p2a: Gliscor|move: Struggle
+  move|p2a: Gliscor|Struggle|p1a: Zamazenta
+  -damage|p1a: Zamazenta|213/248
+  -damage|p2a: Gliscor|22/100 tox|[from] recoil
+  -heal|p2a: Gliscor|34/100 tox|[from] ability: Poison Heal
+-- turn 74
+  WE CHOSE: attack ironhead - our hp 0.86, theirs 0.34, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Gliscor
+  -damage|p2a: Gliscor|16/100 tox
+  -activate|p2a: Gliscor|move: Struggle
+  move|p2a: Gliscor|Struggle|p1a: Zamazenta
+  -damage|p1a: Zamazenta|196/248
+  -damage|p2a: Gliscor|0 fnt|[from] recoil
+  faint|p2a: Gliscor
+  switch|p2a: Lurantis|Lurantis, L87, F|100/100
+-- turn 75
+  WE CHOSE: switch to venomoth (hand policy: attack+tera ironhead) - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Venomoth|Venomoth, L84, F|117/255
+  move|p2a: Lurantis|Leaf Storm|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|80/255
+  -boost|p2a: Lurantis|spa|2
+-- turn 76
+  WE CHOSE: attack sludgewave - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Venomoth|Sludge Wave|p2a: Lurantis
+  -supereffective|p2a: Lurantis
+  -damage|p2a: Lurantis|35/100
+  move|p2a: Lurantis|Leaf Storm|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|11/255
+  -boost|p2a: Lurantis|spa|2
+  -heal|p2a: Lurantis|41/100|[from] item: Leftovers
+-- turn 77
+  WE CHOSE: attack+tera bugbuzz (hand policy: attack sludgewave) - our hp 0.04, theirs 0.41, predicted move (revealed) hits us x0.25
+  -terastallize|p1a: Venomoth|Bug
+  move|p1a: Venomoth|Bug Buzz|p2a: Lurantis
+  -supereffective|p2a: Lurantis
+  -damage|p2a: Lurantis|0 fnt
+  faint|p2a: Lurantis
+  switch|p2a: Terapagos|Terapagos, L77, F|100/100
+  -activate|p2a: Terapagos|ability: Tera Shift
+  detailschange|p2a: Terapagos|Terapagos-Terastal, L77, F
+  -heal|p2a: Terapagos|100/100|[silent]
+-- turn 78
+  WE CHOSE: switch to bastiodon (hand policy: attack bugbuzz) - our hp 0.04, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Bastiodon|Bastiodon, L89, F|252/252
+  move|p2a: Terapagos|Tera Starstorm|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|234/252
+-- turn 79
+  WE CHOSE: attack bodypress - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Terapagos|Tera Starstorm|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|216/252
+  move|p1a: Bastiodon|Body Press|p2a: Terapagos
+  -activate|p2a: Terapagos|ability: Tera Shell
+  -resisted|p2a: Terapagos
+  -damage|p2a: Terapagos|84/100
+-- turn 80
+  WE CHOSE: attack bodypress - our hp 0.86, theirs 0.84, predicted move (revealed) hits us x0.25
+  move|p2a: Terapagos|Tera Starstorm|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|199/252
+  move|p1a: Bastiodon|Body Press|p2a: Terapagos
+  -supereffective|p2a: Terapagos
+  -damage|p2a: Terapagos|16/100
+-- turn 81
+  WE CHOSE: attack bodypress - our hp 0.79, theirs 0.16, predicted move (revealed) hits us x0.25
+  move|p2a: Terapagos|Tera Starstorm|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|180/252
+  move|p1a: Bastiodon|Body Press|p2a: Terapagos
+  -supereffective|p2a: Terapagos
+  -damage|p2a: Terapagos|0 fnt
+  faint|p2a: Terapagos
+  switch|p2a: Glimmora|Glimmora, L75, F|100/100
+-- turn 82
+  WE CHOSE: attack bodypress - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Glimmora|Meteor Beam||[still]
+  -prepare|p2a: Glimmora|Meteor Beam
+  -boost|p2a: Glimmora|spa|1
+  -enditem|p2a: Glimmora|Power Herb
+  -anim|p2a: Glimmora|Meteor Beam|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|117/252
+  move|p1a: Bastiodon|Body Press|p2a: Glimmora
+  -damage|p2a: Glimmora|55/100
+  -activate|p2a: Glimmora|ability: Toxic Debris
+  -sidestart|p1: e1_035157|move: Toxic Spikes
+-- turn 83
+  WE CHOSE: attack bodypress (hand policy: heal rest) - our hp 0.46, theirs 0.55, predicted move (revealed) hits us x0.5
+  move|p2a: Glimmora|Meteor Beam||[still]
+  -prepare|p2a: Glimmora|Meteor Beam
+  -boost|p2a: Glimmora|spa|1
+  move|p1a: Bastiodon|Body Press|p2a: Glimmora
+  -damage|p2a: Glimmora|10/100
+  -activate|p2a: Glimmora|ability: Toxic Debris
+  -sidestart|p1: e1_035157|move: Toxic Spikes
+-- turn 84
+  WE CHOSE: attack foulplay (hand policy: heal rest) - our hp 0.46, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p2a: Glimmora|Meteor Beam|p1a: Bastiodon|[from] lockedmove|[miss]
+  -miss|p2a: Glimmora|p1a: Bastiodon
+  move|p1a: Bastiodon|Foul Play|p2a: Glimmora
+  -damage|p2a: Glimmora|0 fnt
+  faint|p2a: Glimmora
+  switch|p2a: Oinkologne|Oinkologne, L92, M|100/100
+-- turn 85
+  WE CHOSE: attack bodypress (hand policy: heal rest) - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x0.25
+  WE CHOSE: forced: switch to zamazenta (hand policy: forced: switch to venomoth) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x4
+  move|p2a: Oinkologne|High Horsepower|p1a: Bastiodon
+  -supereffective|p1a: Bastiodon
+  -damage|p1a: Bastiodon|0 fnt
+  faint|p1a: Bastiodon
+  switch|p1a: Zamazenta|Zamazenta, L71|196/248
+  -status|p1a: Zamazenta|tox
+-- turn 86
+  WE CHOSE: attack ironhead - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Oinkologne
+  -damage|p2a: Oinkologne|87/100
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|122/248 tox
+  -heal|p2a: Oinkologne|93/100|[from] item: Leftovers
+  -damage|p1a: Zamazenta|107/248 tox|[from] psn
+-- turn 87
+  WE CHOSE: switch to venomoth (hand policy: heal rest) - our hp 0.43, theirs 0.93, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to zamazenta - our hp 0.00, theirs 0.99, predicted move (revealed) hits us x0.5
+  switch|p1a: Venomoth|Venomoth, L84, F, tera:Bug|11/255
+  move|p2a: Oinkologne|High Horsepower|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|0 fnt
+  faint|p1a: Venomoth
+  -heal|p2a: Oinkologne|99/100|[from] item: Leftovers
+  switch|p1a: Zamazenta|Zamazenta, L71|107/248 tox
+-- turn 88
+  WE CHOSE: heal rest - our hp 0.43, theirs 0.99, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Rest|p1a: Zamazenta
+  -status|p1a: Zamazenta|slp|[from] move: Rest
+  -heal|p1a: Zamazenta|248/248 slp|[silent]
+  -enditem|p1a: Zamazenta|Chesto Berry|[eat]
+  -curestatus|p1a: Zamazenta|slp|[msg]
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|175/248
+  -heal|p2a: Oinkologne|100/100|[from] item: Leftovers
+-- turn 89
+  WE CHOSE: attack ironhead - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Iron Head|p2a: Oinkologne
+  -damage|p2a: Oinkologne|86/100
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|99/248
+  -heal|p2a: Oinkologne|92/100|[from] item: Leftovers
+-- turn 90
+  WE CHOSE: heal rest - our hp 0.40, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Rest|p1a: Zamazenta
+  -status|p1a: Zamazenta|slp|[from] move: Rest
+  -heal|p1a: Zamazenta|248/248 slp|[silent]
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|172/248 slp
+  -heal|p2a: Oinkologne|99/100|[from] item: Leftovers
+-- turn 91
+  WE CHOSE: heal rest (hand policy: attack ironhead) - our hp 0.69, theirs 0.99, predicted move (revealed) hits us x1
+  cant|p1a: Zamazenta|slp
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|93/248 slp
+  -heal|p2a: Oinkologne|100/100|[from] item: Leftovers
+-- turn 92
+  WE CHOSE: heal rest - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p1a: Zamazenta|slp
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|10/248 slp
+-- turn 93
+  WE CHOSE: heal rest - our hp 0.04, theirs 1.00, predicted move (revealed) hits us x1
+  -curestatus|p1a: Zamazenta|slp|[msg]
+  move|p1a: Zamazenta|Rest|p1a: Zamazenta
+  -status|p1a: Zamazenta|slp|[from] move: Rest
+  -heal|p1a: Zamazenta|248/248 slp|[silent]
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|163/248 slp
+-- turn 94
+  WE CHOSE: heal rest (hand policy: attack ironhead) - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p1a: Zamazenta|slp
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|84/248 slp
+-- turn 95
+  WE CHOSE: heal rest - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p1a: Zamazenta|slp
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|1/248 slp
+-- turn 96
+  WE CHOSE: heal rest - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  -curestatus|p1a: Zamazenta|slp|[msg]
+  move|p1a: Zamazenta|Rest|p1a: Zamazenta
+  -status|p1a: Zamazenta|slp|[from] move: Rest
+  -heal|p1a: Zamazenta|248/248 slp|[silent]
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|166/248 slp
+-- turn 97
+  WE CHOSE: heal rest (hand policy: attack ironhead) - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p1a: Zamazenta|slp
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|87/248 slp
+-- turn 98
+  WE CHOSE: heal rest - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p1a: Zamazenta|slp
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|2/248 slp
+-- turn 99
+  WE CHOSE: heal rest - our hp 0.01, theirs 1.00, predicted move (revealed) hits us x1
+  -curestatus|p1a: Zamazenta|slp|[msg]
+  move|p1a: Zamazenta|Rest|p1a: Zamazenta
+  -status|p1a: Zamazenta|slp|[from] move: Rest
+  -heal|p1a: Zamazenta|248/248 slp|[silent]
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|172/248 slp
+-- turn 100
+  WE CHOSE: attack ironhead - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p1a: Zamazenta|slp
+  move|p2a: Oinkologne|High Horsepower|p1a: Zamazenta
+  -damage|p1a: Zamazenta|95/248 slp
+-- turn 101
+  WE CHOSE: heal rest - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pincurchin - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p1a: Zamazenta|slp
+  move|p2a: Oinkologne|Body Slam|p1a: Zamazenta
+  -damage|p1a: Zamazenta|0 fnt
+  faint|p1a: Zamazenta
+  switch|p1a: Pincurchin|Pincurchin, F|258/258
+  -status|p1a: Pincurchin|tox
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 102
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Oinkologne|Body Slam|p1a: Pincurchin
+  -damage|p1a: Pincurchin|167/258 tox
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|258/258 tox
+  -damage|p1a: Pincurchin|242/258 tox|[from] psn
+-- turn 103
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Oinkologne|Body Slam|p1a: Pincurchin
+  -damage|p1a: Pincurchin|163/258 tox
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|258/258 tox
+  -damage|p1a: Pincurchin|226/258 tox|[from] psn
+-- turn 104
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Oinkologne|Body Slam|p1a: Pincurchin
+  -damage|p1a: Pincurchin|133/258 tox
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|258/258 tox
+  -damage|p1a: Pincurchin|210/258 tox|[from] psn
+-- turn 105
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Oinkologne|Body Slam|p1a: Pincurchin
+  -damage|p1a: Pincurchin|117/258 tox
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|246/258 tox
+  -heal|p1a: Pincurchin|258/258 tox|[from] item: Leftovers
+  -damage|p1a: Pincurchin|194/258 tox|[from] psn
+-- turn 106
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Oinkologne|Body Slam|p1a: Pincurchin
+  -damage|p1a: Pincurchin|104/258 tox
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|233/258 tox
+  -heal|p1a: Pincurchin|249/258 tox|[from] item: Leftovers
+  -damage|p1a: Pincurchin|169/258 tox|[from] psn
+  -fieldend|move: Electric Terrain
+-- turn 107
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Oinkologne|Body Slam|p1a: Pincurchin
+  -damage|p1a: Pincurchin|90/258 tox
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|219/258 tox
+  -heal|p1a: Pincurchin|235/258 tox|[from] item: Leftovers
+  -damage|p1a: Pincurchin|139/258 tox|[from] psn
+-- turn 108
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Oinkologne|Body Slam|p1a: Pincurchin
+  -damage|p1a: Pincurchin|58/258 tox
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|187/258 tox
+  -heal|p1a: Pincurchin|203/258 tox|[from] item: Leftovers
+  -damage|p1a: Pincurchin|91/258 tox|[from] psn
+-- turn 109
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Oinkologne|Body Slam|p1a: Pincurchin
+  -damage|p1a: Pincurchin|0 fnt
+  faint|p1a: Pincurchin
+  deinit

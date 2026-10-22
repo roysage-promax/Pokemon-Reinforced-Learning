@@ -1,0 +1,188 @@
+battle 2554 (battle-gen9randombattle-2042483): lost in 16 turns, 1 of theirs left; we are p1
+
+ours:
+  fluttermane (fainted; item lifeorb, ability protosynthesis; moves shadowball/moonblast/mysticalfire/calmmind)
+  alomomola (fainted; item heavydutyboots, ability regenerator; moves flipturn/wish/protect/scald)
+  scrafty (fainted; item leftovers, ability shedskin; moves bulkup/drainpunch/knockoff/rest)
+  tinglu (fainted; item leftovers, ability vesselofruin; moves whirlwind/throatchop/earthquake/stealthrock)
+  pecharunt (fainted; item rockyhelmet, ability poisonpuppeteer; moves malignantchain/shadowball/partingshot/recover)
+  swampert (fainted; item leftovers, ability torrent, tera steel; moves earthquake/icebeam/yawn/flipturn)
+theirs (as seen):
+  swanna (fainted; item unknown_item, ability ?; moves bravebird)
+  masquerain (fainted; item unknown_item, ability intimidate; moves hurricane)
+  ambipom (fainted; item unknown_item, ability ?; moves doubleedge)
+  perrserker (fainted; item lifeorb, ability ?; moves closecombat)
+  lilliganthisui (fainted; item unknown_item, ability ?; moves closecombat)
+  deoxysdefense (100%; item unknown_item, ability pressure; moves storedpower)
+
+-- turn 0
+  switch|p1a: Flutter Mane|Flutter Mane, L74|203/203
+  switch|p2a: Swanna|Swanna, L89, M|100/100
+-- turn 1
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to pecharunt - our hp 0.00, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Flutter Mane|Moonblast|p2a: Swanna
+  -damage|p2a: Swanna|42/100
+  -unboost|p2a: Swanna|spa|1
+  -damage|p1a: Flutter Mane|183/203|[from] item: Life Orb
+  move|p2a: Swanna|Brave Bird|p1a: Flutter Mane
+  -damage|p1a: Flutter Mane|0 fnt
+  faint|p1a: Flutter Mane
+  -end|p1a: Flutter Mane|Protosynthesis|[silent]
+  -damage|p2a: Swanna|20/100|[from] Recoil
+  switch|p1a: Pecharunt|Pecharunt, L77|262/262
+-- turn 2
+  WE CHOSE: attack malignantchain - our hp 1.00, theirs 0.20, predicted move (revealed) hits us x1
+  move|p2a: Swanna|Brave Bird|p1a: Pecharunt
+  -crit|p1a: Pecharunt
+  -damage|p1a: Pecharunt|123/262
+  -damage|p2a: Swanna|3/100|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+  -damage|p2a: Swanna|0 fnt|[from] Recoil
+  faint|p2a: Swanna
+  move|p1a: Pecharunt|Malignant Chain|p2: Swanna|[notarget]
+  -fail|p1a: Pecharunt
+  switch|p2a: Masquerain|Masquerain, L87, F|100/100
+  -ability|p2a: Masquerain|Intimidate|boost
+  -unboost|p1a: Pecharunt|atk|1
+-- turn 3
+  WE CHOSE: heal recover - our hp 0.47, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to swampert - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Masquerain|Hurricane|p1a: Pecharunt
+  -damage|p1a: Pecharunt|0 fnt
+  faint|p1a: Pecharunt
+  switch|p1a: Swampert|Swampert, L83, F|302/302
+-- turn 4
+  WE CHOSE: attack+tera icebeam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Swampert|Steel
+  move|p2a: Masquerain|Hurricane|p1a: Swampert|[miss]
+  -miss|p2a: Masquerain|p1a: Swampert
+  move|p1a: Swampert|Ice Beam|p2a: Masquerain
+  -supereffective|p2a: Masquerain
+  -damage|p2a: Masquerain|58/100
+-- turn 5
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x0.5
+  move|p2a: Masquerain|Hurricane|p1a: Swampert
+  -resisted|p1a: Swampert
+  -damage|p1a: Swampert|242/302
+  move|p1a: Swampert|Ice Beam|p2a: Masquerain
+  -supereffective|p2a: Masquerain
+  -damage|p2a: Masquerain|13/100
+  -heal|p1a: Swampert|260/302|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack icebeam - our hp 0.86, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p2a: Masquerain|Hurricane|p1a: Swampert
+  -resisted|p1a: Swampert
+  -damage|p1a: Swampert|200/302
+  move|p1a: Swampert|Ice Beam|p2a: Masquerain
+  -supereffective|p2a: Masquerain
+  -damage|p2a: Masquerain|0 fnt
+  faint|p2a: Masquerain
+  -heal|p1a: Swampert|218/302|[from] item: Leftovers
+  switch|p2a: Ambipom|Ambipom, L84, F|100/100
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Ambipom|Double-Edge|p1a: Swampert
+  -resisted|p1a: Swampert
+  -damage|p1a: Swampert|145/302
+  -damage|p2a: Ambipom|91/100|[from] Recoil
+  move|p1a: Swampert|Earthquake|p2a: Ambipom
+  -damage|p2a: Ambipom|35/100
+  -heal|p1a: Swampert|163/302|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 0.54, theirs 0.35, predicted move (revealed) hits us x0.5
+  move|p2a: Ambipom|Double-Edge|p1a: Swampert
+  -resisted|p1a: Swampert
+  -damage|p1a: Swampert|91/302
+  -damage|p2a: Ambipom|26/100|[from] Recoil
+  move|p1a: Swampert|Earthquake|p2a: Ambipom
+  -damage|p2a: Ambipom|0 fnt
+  faint|p2a: Ambipom
+  -heal|p1a: Swampert|109/302|[from] item: Leftovers
+  switch|p2a: Perrserker|Perrserker, L89, M|100/100
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to tinglu - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x2
+  move|p1a: Swampert|Earthquake|p2a: Perrserker
+  -supereffective|p2a: Perrserker
+  -damage|p2a: Perrserker|27/100
+  move|p2a: Perrserker|Close Combat|p1a: Swampert
+  -supereffective|p1a: Swampert
+  -damage|p1a: Swampert|0 fnt
+  -unboost|p2a: Perrserker|def|1
+  -unboost|p2a: Perrserker|spd|1
+  faint|p1a: Swampert
+  -damage|p2a: Perrserker|17/100|[from] item: Life Orb
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.17, predicted move (revealed) hits us x2
+  move|p2a: Perrserker|Close Combat|p1a: Ting-Lu
+  -supereffective|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|87/370
+  -unboost|p2a: Perrserker|def|1
+  -unboost|p2a: Perrserker|spd|1
+  -damage|p2a: Perrserker|8/100|[from] item: Life Orb
+  move|p1a: Ting-Lu|Earthquake|p2a: Perrserker
+  -supereffective|p2a: Perrserker
+  -damage|p2a: Perrserker|0 fnt
+  faint|p2a: Perrserker
+  -heal|p1a: Ting-Lu|110/370|[from] item: Leftovers
+  switch|p2a: Lilligant|Lilligant-Hisui, L79, F|100/100
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to alomomola - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Lilligant|Close Combat|p1a: Ting-Lu
+  -supereffective|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|0 fnt
+  -unboost|p2a: Lilligant|def|1
+  -unboost|p2a: Lilligant|spd|1
+  faint|p1a: Ting-Lu
+  switch|p1a: Alomomola|Alomomola, L87, M|429/429
+-- turn 12
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to scrafty - our hp 0.56, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Lilligant|Close Combat|p1a: Alomomola
+  -damage|p1a: Alomomola|242/429
+  -unboost|p2a: Lilligant|def|1
+  -unboost|p2a: Lilligant|spd|1
+  move|p1a: Alomomola|Flip Turn|p2a: Lilligant
+  -resisted|p2a: Lilligant
+  -damage|p2a: Lilligant|71/100
+  switch|p1a: Scrafty|Scrafty, L83, F|244/244|[from] Flip Turn
+-- turn 13
+  WE CHOSE: attack drainpunch - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to alomomola - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x2
+  move|p2a: Lilligant|Close Combat|p1a: Scrafty
+  -supereffective|p1a: Scrafty
+  -damage|p1a: Scrafty|0 fnt
+  -unboost|p2a: Lilligant|def|1
+  -unboost|p2a: Lilligant|spd|1
+  faint|p1a: Scrafty
+  switch|p1a: Alomomola|Alomomola, L87, M|385/429
+-- turn 14
+  WE CHOSE: attack flipturn - our hp 0.90, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Lilligant|Close Combat|p1a: Alomomola
+  -damage|p1a: Alomomola|205/429
+  -unboost|p2a: Lilligant|def|1
+  -unboost|p2a: Lilligant|spd|1
+  move|p1a: Alomomola|Flip Turn|p2a: Lilligant
+  -resisted|p2a: Lilligant
+  -damage|p2a: Lilligant|32/100
+-- turn 15
+  WE CHOSE: attack scald - our hp 0.48, theirs 0.32, predicted move (revealed) hits us x1
+  move|p2a: Lilligant|Close Combat|p1a: Alomomola
+  -damage|p1a: Alomomola|7/429
+  -unboost|p2a: Lilligant|def|1
+  -unboost|p2a: Lilligant|spd|1
+  move|p1a: Alomomola|Scald|p2a: Lilligant
+  -resisted|p2a: Lilligant
+  -damage|p2a: Lilligant|0 fnt
+  faint|p2a: Lilligant
+  switch|p2a: Deoxys|Deoxys-Defense, L84|100/100
+  -ability|p2a: Deoxys|Pressure
+-- turn 16
+  WE CHOSE: attack flipturn - our hp 0.02, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Deoxys|Stored Power|p1a: Alomomola
+  -damage|p1a: Alomomola|0 fnt
+  faint|p1a: Alomomola
+  deinit

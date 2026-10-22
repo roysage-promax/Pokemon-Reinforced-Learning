@@ -1,0 +1,230 @@
+battle 891 (battle-gen9randombattle-2027551): lost in 25 turns, 2 of theirs left; we are p1
+
+ours:
+  miniorviolet (fainted; item ?, ability shieldsdown, tera flying; moves powergem/acrobatics/earthquake/shellsmash)
+  spiritomb (fainted; item leftovers, ability infiltrator; moves suckerpunch/willowisp/foulplay/poltergeist)
+  dipplin (fainted; item eviolite, ability stickyhold; moves dragonpulse/recover/gigadrain/suckerpunch)
+  cyclizar (fainted; item heavydutyboots, ability regenerator; moves shedtail/rapidspin/knockoff/dracometeor)
+  oinkolognef (fainted; item leftovers, ability thickfat; moves curse/bodyslam/lashout/highhorsepower)
+  volcanion (fainted; item assaultvest, ability waterabsorb; moves flamecharge/steameruption/sludgebomb/flamethrower)
+theirs (as seen):
+  mightyena (fainted; item unknown_item, ability intimidate; moves playrough)
+  flamigo (fainted; item lifeorb, ability ?; moves closecombat)
+  donphan (fainted; item leftovers, ability ?; moves earthquake)
+  chimecho (fainted; item ?, ability levitate; moves psychicnoise)
+  gardevoir (48%; item unknown_item, ability regenerator; moves moonblast)
+
+-- turn 0
+  switch|p1a: Minior|Minior-Violet, L79|224/224
+  switch|p2a: Mightyena|Mightyena, L96, F|100/100
+  -ability|p2a: Mightyena|Intimidate|boost
+  -unboost|p1a: Minior|atk|1
+  -formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+  -enditem|p1a: Minior|White Herb
+  -clearnegativeboost|p1a: Minior|[silent]
+-- turn 1
+  WE CHOSE: switch to volcanion (hand policy: attack powergem) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Volcanion|Volcanion, L79|255/255
+  move|p2a: Mightyena|Play Rough|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|221/255
+-- turn 2
+  WE CHOSE: attack steameruption - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Mightyena|Play Rough|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|190/255
+  move|p1a: Volcanion|Steam Eruption|p2a: Mightyena
+  -damage|p2a: Mightyena|64/100
+  -status|p2a: Mightyena|brn
+  -damage|p2a: Mightyena|58/100 brn|[from] brn
+-- turn 3
+  WE CHOSE: attack steameruption - our hp 0.75, theirs 0.58, predicted move (revealed) hits us x0.5
+  move|p2a: Mightyena|Play Rough|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -crit|p1a: Volcanion
+  -damage|p1a: Volcanion|164/255
+  move|p1a: Volcanion|Steam Eruption|p2a: Mightyena
+  -damage|p2a: Mightyena|22/100 brn
+  -damage|p2a: Mightyena|15/100 brn|[from] brn
+-- turn 4
+  WE CHOSE: attack steameruption - our hp 0.64, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p2a: Mightyena|Play Rough|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|149/255
+  move|p1a: Volcanion|Steam Eruption|p2a: Mightyena
+  -damage|p2a: Mightyena|0 fnt
+  faint|p2a: Mightyena
+  switch|p2a: Flamigo|Flamigo, L82, M|100/100
+-- turn 5
+  WE CHOSE: switch to miniorviolet (hand policy: attack steameruption) - our hp 0.58, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Minior|Minior-Violet, L79|224/224
+  -formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+  move|p2a: Flamigo|Close Combat|p1a: Minior
+  -damage|p1a: Minior|55/224
+  -unboost|p2a: Flamigo|def|1
+  -unboost|p2a: Flamigo|spd|1
+  -damage|p2a: Flamigo|91/100|[from] item: Life Orb
+  -formechange|p1a: Minior|Minior-Violet||[from] ability: Shields Down
+-- turn 6
+  WE CHOSE: switch to spiritomb - our hp 0.25, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to miniorviolet - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x0
+  switch|p1a: Spiritomb|Spiritomb, L89, M|234/234
+  move|p2a: Flamigo|Close Combat|p1a: Spiritomb
+  -supereffective|p1a: Spiritomb
+  -damage|p1a: Spiritomb|0 fnt
+  -unboost|p2a: Flamigo|def|1
+  -unboost|p2a: Flamigo|spd|1
+  faint|p1a: Spiritomb
+  -damage|p2a: Flamigo|81/100|[from] item: Life Orb
+  switch|p1a: Minior|Minior-Violet, L79|55/224
+-- turn 7
+  WE CHOSE: attack+tera acrobatics - our hp 0.25, theirs 0.81, predicted move (revealed) hits us x1
+  -terastallize|p1a: Minior|Flying
+  move|p1a: Minior|Acrobatics|p2a: Flamigo
+  -supereffective|p2a: Flamigo
+  -damage|p2a: Flamigo|0 fnt
+  faint|p2a: Flamigo
+  switch|p2a: Donphan|Donphan, L84, M|100/100
+-- turn 8
+  WE CHOSE: setup shellsmash (hand policy: attack acrobatics) - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Minior|Shell Smash|p1a: Minior
+  -unboost|p1a: Minior|def|1
+  -unboost|p1a: Minior|spd|1
+  -boost|p1a: Minior|atk|2
+  -boost|p1a: Minior|spa|2
+  -boost|p1a: Minior|spe|2
+  move|p2a: Donphan|Earthquake|p1a: Minior
+  -immune|p1a: Minior
+-- turn 9
+  WE CHOSE: attack acrobatics - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Minior|Acrobatics|p2a: Donphan
+  -damage|p2a: Donphan|19/100
+  move|p2a: Donphan|Earthquake|p1a: Minior
+  -immune|p1a: Minior
+  -heal|p2a: Donphan|25/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack acrobatics - our hp 0.25, theirs 0.25, predicted move (revealed) hits us x0
+  move|p1a: Minior|Acrobatics|p2a: Donphan
+  -damage|p2a: Donphan|0 fnt
+  faint|p2a: Donphan
+  switch|p2a: Chimecho|Chimecho, L93, F|100/100
+-- turn 11
+  WE CHOSE: switch to volcanion (hand policy: attack acrobatics) - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Volcanion|Volcanion, L79|149/255
+  move|p2a: Chimecho|Psychic Noise|p1a: Volcanion
+  -damage|p1a: Volcanion|76/255
+  -start|p1a: Volcanion|move: Heal Block
+-- turn 12
+  WE CHOSE: switch to oinkolognef (hand policy: attack steameruption) - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Oinkologne|Oinkologne-F, L91, F|357/357
+  move|p2a: Chimecho|Psychic Noise|p1a: Oinkologne
+  -crit|p1a: Oinkologne
+  -damage|p1a: Oinkologne|224/357
+  -start|p1a: Oinkologne|move: Heal Block
+-- turn 13
+  WE CHOSE: attack lashout - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Chimecho|Psychic Noise|p1a: Oinkologne
+  -damage|p1a: Oinkologne|136/357
+  move|p1a: Oinkologne|Lash Out|p2a: Chimecho
+  -supereffective|p2a: Chimecho
+  -damage|p2a: Chimecho|64/100
+  -heal|p2a: Chimecho|70/100|[from] item: Leftovers
+  -end|p1a: Oinkologne|move: Heal Block
+-- turn 14
+  WE CHOSE: attack lashout - our hp 0.38, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Chimecho|Psychic Noise|p1a: Oinkologne
+  -damage|p1a: Oinkologne|54/357
+  -start|p1a: Oinkologne|move: Heal Block
+  move|p1a: Oinkologne|Lash Out|p2a: Chimecho
+  -supereffective|p2a: Chimecho
+  -damage|p2a: Chimecho|34/100
+  -heal|p2a: Chimecho|40/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack lashout - our hp 0.15, theirs 0.40, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cyclizar - our hp 0.00, theirs 0.47, predicted move (revealed) hits us x1
+  move|p2a: Chimecho|Psychic Noise|p1a: Oinkologne
+  -damage|p1a: Oinkologne|0 fnt
+  faint|p1a: Oinkologne
+  -heal|p2a: Chimecho|47/100|[from] item: Leftovers
+  switch|p1a: Cyclizar|Cyclizar, L84, M|255/255
+-- turn 16
+  WE CHOSE: attack knockoff (hand policy: attack dracometeor) - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x1
+  move|p1a: Cyclizar|Knock Off|p2a: Chimecho
+  -supereffective|p2a: Chimecho
+  -damage|p2a: Chimecho|1/100
+  -enditem|p2a: Chimecho|Leftovers|[from] move: Knock Off|[of] p1a: Cyclizar
+  move|p2a: Chimecho|Psychic Noise|p1a: Cyclizar
+  -damage|p1a: Cyclizar|125/255
+  -start|p1a: Cyclizar|move: Heal Block
+-- turn 17
+  WE CHOSE: attack dracometeor - our hp 0.49, theirs 0.01, predicted move (revealed) hits us x1
+  move|p1a: Cyclizar|Draco Meteor|p2a: Chimecho
+  -damage|p2a: Chimecho|0 fnt
+  -unboost|p1a: Cyclizar|spa|2
+  faint|p2a: Chimecho
+  -end|p1a: Cyclizar|move: Heal Block
+  switch|p2a: Gardevoir|Gardevoir, L83, F|100/100
+  -ability|p2a: Gardevoir|Regenerator|Trace|[from] ability: Trace|[of] p1a: Cyclizar
+-- turn 18
+  WE CHOSE: switch to miniorviolet - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to volcanion - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Minior|Minior-Violet, L79, tera:Flying|55/224
+  move|p2a: Gardevoir|Moonblast|p1a: Minior
+  -damage|p1a: Minior|0 fnt
+  faint|p1a: Minior
+  switch|p1a: Volcanion|Volcanion, L79|76/255
+-- turn 19
+  WE CHOSE: attack sludgebomb - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Gardevoir|Moonblast|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|35/255
+  -unboost|p1a: Volcanion|spa|1
+  move|p1a: Volcanion|Sludge Bomb|p2a: Gardevoir
+  -supereffective|p2a: Gardevoir
+  -damage|p2a: Gardevoir|68/100
+-- turn 20
+  WE CHOSE: attack sludgebomb - our hp 0.14, theirs 0.68, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dipplin - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x0.5
+  move|p2a: Gardevoir|Moonblast|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|0 fnt
+  faint|p1a: Volcanion
+  switch|p1a: Dipplin|Dipplin, L88, F|284/284
+-- turn 21
+  WE CHOSE: heal recover (hand policy: attack gigadrain) - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x2
+  move|p2a: Gardevoir|Moonblast|p1a: Dipplin
+  -supereffective|p1a: Dipplin
+  -damage|p1a: Dipplin|114/284
+  move|p1a: Dipplin|Recover|p1a: Dipplin
+  -heal|p1a: Dipplin|256/284
+-- turn 22
+  WE CHOSE: heal recover (hand policy: attack gigadrain) - our hp 0.90, theirs 0.68, predicted move (revealed) hits us x2
+  move|p2a: Gardevoir|Moonblast|p1a: Dipplin
+  -supereffective|p1a: Dipplin
+  -damage|p1a: Dipplin|94/284
+  -unboost|p1a: Dipplin|spa|1
+  move|p1a: Dipplin|Recover|p1a: Dipplin
+  -heal|p1a: Dipplin|236/284
+-- turn 23
+  WE CHOSE: attack gigadrain (hand policy: attack suckerpunch) - our hp 0.83, theirs 0.68, predicted move (revealed) hits us x2
+  move|p2a: Gardevoir|Moonblast|p1a: Dipplin
+  -supereffective|p1a: Dipplin
+  -damage|p1a: Dipplin|60/284
+  move|p1a: Dipplin|Giga Drain|p2a: Gardevoir
+  -damage|p2a: Gardevoir|48/100
+  -heal|p1a: Dipplin|86/284|[from] drain|[of] p2a: Gardevoir
+-- turn 24
+  WE CHOSE: attack gigadrain (hand policy: attack suckerpunch) - our hp 0.30, theirs 0.48, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to cyclizar - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x2
+  move|p2a: Gardevoir|Moonblast|p1a: Dipplin
+  -supereffective|p1a: Dipplin
+  -damage|p1a: Dipplin|0 fnt
+  faint|p1a: Dipplin
+  switch|p1a: Cyclizar|Cyclizar, L84, M|210/255
+-- turn 25
+  WE CHOSE: attack knockoff (hand policy: attack rapidspin) - our hp 0.82, theirs 0.48, predicted move (revealed) hits us x2
+  move|p2a: Gardevoir|Moonblast|p1a: Cyclizar
+  -supereffective|p1a: Cyclizar
+  -damage|p1a: Cyclizar|0 fnt
+  faint|p1a: Cyclizar
+  deinit

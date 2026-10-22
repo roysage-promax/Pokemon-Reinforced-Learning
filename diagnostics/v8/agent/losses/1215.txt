@@ -1,0 +1,247 @@
+battle 1215 (battle-gen9randombattle-2030928): lost in 25 turns, 1 of theirs left; we are p1
+
+ours:
+  passimian (fainted; item leftovers, ability defiant; moves gunkshot/drainpunch/bulkup/knockoff)
+  lurantis (fainted; item leftovers, ability contrary; moves synthesis/defog/superpower/leafstorm)
+  ironhands (fainted; item leftovers, ability quarkdrive; moves wildcharge/drainpunch/swordsdance/icepunch)
+  kingdra (fainted; item lifeorb, ability swiftswim; moves wavecrash/hurricane/raindance/dracometeor)
+  empoleon (fainted; item leftovers, ability competitive, tera grass; moves icebeam/roost/surf/roar)
+  klawf (fainted; item lifeorb, ability regenerator; moves crabhammer/stealthrock/knockoff/stoneedge)
+theirs (as seen):
+  vivillonmodern (fainted; item unknown_item, ability ?; moves hurricane)
+  bisharp (fainted; item unknown_item, ability ?; moves ironhead)
+  delphox (fainted; item unknown_item, ability ?; moves focusblast)
+  tentacruel (fainted; item unknown_item, ability ?; moves sludgebomb)
+  illumise (fainted; item unknown_item, ability ?; moves bugbuzz)
+  phione (32%; item leftovers, ability hydration; moves icebeam)
+
+-- turn 0
+  switch|p1a: Passimian|Passimian, L83, F|302/302
+  switch|p2a: Vivillon|Vivillon-Modern, L83, F|100/100
+-- turn 1
+  WE CHOSE: setup bulkup (hand policy: attack gunkshot) - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Vivillon|Hurricane|p1a: Passimian
+  -supereffective|p1a: Passimian
+  -damage|p1a: Passimian|30/302
+  -start|p1a: Passimian|confusion
+  -activate|p1a: Passimian|confusion
+  move|p1a: Passimian|Bulk Up|p1a: Passimian
+  -boost|p1a: Passimian|atk|1
+  -boost|p1a: Passimian|def|1
+  -heal|p1a: Passimian|48/302|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to klawf - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Klawf|Klawf, L90, M|272/272
+  move|p2a: Vivillon|Hurricane|p1a: Klawf
+  -resisted|p1a: Klawf
+  -damage|p1a: Klawf|205/272
+-- turn 3
+  WE CHOSE: attack stoneedge (hand policy: attack+tera stoneedge) - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vivillon|Hurricane|p1a: Klawf
+  -resisted|p1a: Klawf
+  -damage|p1a: Klawf|134/272
+  move|p1a: Klawf|Stone Edge|p2a: Vivillon
+  -supereffective|p2a: Vivillon
+  -damage|p2a: Vivillon|0 fnt
+  faint|p2a: Vivillon
+  -damage|p1a: Klawf|107/272|[from] item: Life Orb
+  switch|p2a: Bisharp|Bisharp, L79, M|100/100
+-- turn 4
+  WE CHOSE: switch to empoleon - our hp 0.39, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Empoleon|Empoleon, L84, M|278/278
+  move|p2a: Bisharp|Iron Head|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|256/278
+  -heal|p1a: Empoleon|273/278|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack surf - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Bisharp|Iron Head|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|250/278
+  move|p1a: Empoleon|Surf|p2a: Bisharp
+  -damage|p2a: Bisharp|61/100
+  -heal|p1a: Empoleon|267/278|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack surf - our hp 0.96, theirs 0.61, predicted move (revealed) hits us x0.25
+  move|p2a: Bisharp|Iron Head|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|244/278
+  cant|p1a: Empoleon|flinch
+  -heal|p1a: Empoleon|261/278|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack surf - our hp 0.94, theirs 0.61, predicted move (revealed) hits us x0.25
+  move|p2a: Bisharp|Iron Head|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|240/278
+  move|p1a: Empoleon|Surf|p2a: Bisharp
+  -damage|p2a: Bisharp|26/100
+  -heal|p1a: Empoleon|257/278|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack surf - our hp 0.92, theirs 0.26, predicted move (revealed) hits us x0.25
+  move|p2a: Bisharp|Iron Head|p1a: Empoleon
+  -resisted|p1a: Empoleon
+  -damage|p1a: Empoleon|234/278
+  move|p1a: Empoleon|Surf|p2a: Bisharp
+  -damage|p2a: Bisharp|0 fnt
+  faint|p2a: Bisharp
+  -heal|p1a: Empoleon|251/278|[from] item: Leftovers
+  switch|p2a: Delphox|Delphox, L84, F|100/100
+-- turn 9
+  WE CHOSE: attack+tera surf (hand policy: attack surf) - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Empoleon|Grass
+  move|p2a: Delphox|Focus Blast|p1a: Empoleon
+  -damage|p1a: Empoleon|164/278
+  move|p1a: Empoleon|Surf|p2a: Delphox
+  -supereffective|p2a: Delphox
+  -damage|p2a: Delphox|21/100
+  -heal|p1a: Empoleon|181/278|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack surf - our hp 0.65, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Delphox|Focus Blast|p1a: Empoleon
+  -crit|p1a: Empoleon
+  -damage|p1a: Empoleon|42/278
+  move|p1a: Empoleon|Surf|p2a: Delphox
+  -supereffective|p2a: Delphox
+  -damage|p2a: Delphox|0 fnt
+  faint|p2a: Delphox
+  -heal|p1a: Empoleon|59/278|[from] item: Leftovers
+  switch|p2a: Tentacruel|Tentacruel, L84, M|100/100
+-- turn 11
+  WE CHOSE: switch to klawf - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Klawf|Klawf, L90, M|197/272
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Klawf
+  -resisted|p1a: Klawf
+  -damage|p1a: Klawf|146/272
+  -status|p1a: Klawf|psn
+  -damage|p1a: Klawf|112/272 psn|[from] psn
+-- turn 12
+  WE CHOSE: attack stoneedge - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ironhands - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x0.5
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Klawf
+  -resisted|p1a: Klawf
+  -damage|p1a: Klawf|58/272 psn
+  move|p1a: Klawf|Stone Edge|p2a: Tentacruel
+  -damage|p2a: Tentacruel|30/100
+  -damage|p1a: Klawf|31/272 psn|[from] item: Life Orb
+  -damage|p1a: Klawf|0 fnt|[from] psn
+  faint|p1a: Klawf
+  switch|p1a: Iron Hands|Iron Hands, L79|373/373
+-- turn 13
+  WE CHOSE: setup swordsdance (hand policy: attack wildcharge) - our hp 1.00, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Iron Hands
+  -damage|p1a: Iron Hands|274/373
+  move|p1a: Iron Hands|Swords Dance|p1a: Iron Hands
+  -boost|p1a: Iron Hands|atk|2
+  -heal|p1a: Iron Hands|297/373|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack wildcharge - our hp 0.80, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Iron Hands
+  -damage|p1a: Iron Hands|183/373
+  move|p1a: Iron Hands|Wild Charge|p2a: Tentacruel
+  -supereffective|p2a: Tentacruel
+  -damage|p2a: Tentacruel|0 fnt
+  faint|p2a: Tentacruel
+  -damage|p1a: Iron Hands|163/373|[from] Recoil
+  -heal|p1a: Iron Hands|186/373|[from] item: Leftovers
+  switch|p2a: Illumise|Illumise, L91, F|100/100
+-- turn 15
+  WE CHOSE: attack wildcharge - our hp 0.50, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Illumise|Bug Buzz|p1a: Iron Hands
+  -resisted|p1a: Iron Hands
+  -damage|p1a: Iron Hands|128/373
+  move|p1a: Iron Hands|Wild Charge|p2a: Illumise
+  -damage|p2a: Illumise|7/100
+  -damage|p1a: Iron Hands|66/373|[from] Recoil
+  -heal|p1a: Iron Hands|89/373|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack drainpunch (hand policy: attack wildcharge) - our hp 0.24, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p2a: Illumise|Bug Buzz|p1a: Iron Hands
+  -resisted|p1a: Iron Hands
+  -damage|p1a: Iron Hands|31/373
+  move|p1a: Iron Hands|Drain Punch|p2a: Illumise
+  -resisted|p2a: Illumise
+  -damage|p2a: Illumise|0 fnt
+  -heal|p1a: Iron Hands|40/373|[from] drain|[of] p2a: Illumise
+  faint|p2a: Illumise
+  -heal|p1a: Iron Hands|63/373|[from] item: Leftovers
+  switch|p2a: Phione|Phione, L91|100/100
+-- turn 17
+  WE CHOSE: attack wildcharge - our hp 0.17, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to kingdra - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Phione|Ice Beam|p1a: Iron Hands
+  -damage|p1a: Iron Hands|0 fnt
+  faint|p1a: Iron Hands
+  -end|p1a: Iron Hands|Quark Drive|[silent]
+  switch|p1a: Kingdra|Kingdra, L84, M|263/263
+-- turn 18
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Phione|Ice Beam|p1a: Kingdra
+  -damage|p1a: Kingdra|205/263
+  move|p1a: Kingdra|Draco Meteor|p2a: Phione
+  -damage|p2a: Phione|43/100
+  -unboost|p1a: Kingdra|spa|2
+  -damage|p1a: Kingdra|179/263|[from] item: Life Orb
+  -heal|p2a: Phione|49/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack wavecrash - our hp 0.68, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Phione|Ice Beam|p1a: Kingdra
+  -damage|p1a: Kingdra|123/263
+  move|p1a: Kingdra|Wave Crash|p2a: Phione
+  -resisted|p2a: Phione
+  -damage|p2a: Phione|21/100
+  -damage|p1a: Kingdra|96/263|[from] Recoil
+  -damage|p1a: Kingdra|70/263|[from] item: Life Orb
+  -heal|p2a: Phione|27/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack wavecrash - our hp 0.27, theirs 0.27, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to passimian (hand policy: forced: switch to lurantis) - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x1
+  move|p2a: Phione|Ice Beam|p1a: Kingdra
+  -damage|p1a: Kingdra|12/263
+  move|p1a: Kingdra|Wave Crash|p2a: Phione
+  -resisted|p2a: Phione
+  -damage|p2a: Phione|1/100
+  -damage|p1a: Kingdra|0 fnt|[from] Recoil
+  faint|p1a: Kingdra
+  -heal|p2a: Phione|7/100|[from] item: Leftovers
+  switch|p1a: Passimian|Passimian, L83, F|48/302
+-- turn 21
+  WE CHOSE: setup bulkup (hand policy: attack drainpunch) - our hp 0.16, theirs 0.07, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lurantis - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Phione|Ice Beam|p1a: Passimian
+  -damage|p1a: Passimian|0 fnt
+  faint|p1a: Passimian
+  -heal|p2a: Phione|13/100|[from] item: Leftovers
+  switch|p1a: Lurantis|Lurantis, L87, F|264/264
+-- turn 22
+  WE CHOSE: attack leafstorm - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x2
+  move|p2a: Phione|Ice Beam|p1a: Lurantis
+  -supereffective|p1a: Lurantis
+  -damage|p1a: Lurantis|132/264
+  -status|p1a: Lurantis|frz
+  cant|p1a: Lurantis|frz
+  -heal|p2a: Phione|20/100|[from] item: Leftovers
+  -heal|p1a: Lurantis|148/264 frz|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack leafstorm - our hp 0.56, theirs 0.20, predicted move (revealed) hits us x2
+  move|p2a: Phione|Ice Beam|p1a: Lurantis
+  -supereffective|p1a: Lurantis
+  -damage|p1a: Lurantis|36/264 frz
+  cant|p1a: Lurantis|frz
+  -heal|p2a: Phione|26/100|[from] item: Leftovers
+  -heal|p1a: Lurantis|52/264 frz|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: heal synthesis (hand policy: attack leafstorm) - our hp 0.20, theirs 0.26, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to empoleon - our hp 0.00, theirs 0.32, predicted move (revealed) hits us x2
+  move|p2a: Phione|Ice Beam|p1a: Lurantis
+  -supereffective|p1a: Lurantis
+  -damage|p1a: Lurantis|0 fnt
+  faint|p1a: Lurantis
+  -heal|p2a: Phione|32/100|[from] item: Leftovers
+  switch|p1a: Empoleon|Empoleon, L84, M, tera:Grass|59/278
+-- turn 25
+  WE CHOSE: attack surf - our hp 0.21, theirs 0.32, predicted move (revealed) hits us x2
+  move|p2a: Phione|Ice Beam|p1a: Empoleon
+  -supereffective|p1a: Empoleon
+  -damage|p1a: Empoleon|0 fnt
+  faint|p1a: Empoleon
+  deinit

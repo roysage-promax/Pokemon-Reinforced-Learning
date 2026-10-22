@@ -1,0 +1,202 @@
+battle 1201 (battle-gen9randombattle-2030779): lost in 18 turns, 2 of theirs left; we are p1
+
+ours:
+  taurospaldeablaze (fainted; item choiceband, ability intimidate; moves stoneedge/wildcharge/flareblitz/closecombat)
+  meloetta (fainted; item lifeorb, ability serenegrace; moves relicsong/knockoff/tripleaxel/closecombat)
+  urshifurapidstrike (fainted; item choiceband, ability unseenfist; moves surgingstrikes/aquajet/closecombat/icespinner)
+  haxorus (fainted; item lumberry, ability moldbreaker; moves outrage/dragondance/closecombat/ironhead)
+  gumshoos (fainted; item choiceband, ability adaptability, tera ground; moves knockoff/doubleedge/uturn/earthquake)
+  abomasnow (fainted; item lightclay, ability snowwarning; moves blizzard/auroraveil/woodhammer/earthquake)
+theirs (as seen):
+  garchomp (fainted; item rockyhelmet, ability roughskin; moves -)
+  gothitelle (fainted; item unknown_item, ability ?; moves focusblast)
+  arboliva (fainted; item leftovers, ability ?; moves energyball)
+  dachsbun (fainted; item leftovers, ability ?; moves playrough)
+  shaymin (11%; item leftovers, ability naturalcure; moves seedflare)
+
+-- turn 0
+  switch|p1a: Tauros|Tauros-Paldea-Blaze, L81, M|254/254
+  switch|p2a: Garchomp|Garchomp, L74, F|100/100
+  -ability|p1a: Tauros|Intimidate|boost
+  -unboost|p2a: Garchomp|atk|1
+-- turn 1
+  WE CHOSE: attack closecombat (hand policy: attack+tera closecombat) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Tauros|Close Combat|p2a: Garchomp
+  -crit|p2a: Garchomp
+  -damage|p2a: Garchomp|0 fnt
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  -damage|p1a: Tauros|223/254|[from] ability: Rough Skin|[of] p2a: Garchomp
+  -damage|p1a: Tauros|181/254|[from] item: Rocky Helmet|[of] p2a: Garchomp
+  faint|p2a: Garchomp
+  switch|p2a: Gothitelle|Gothitelle, L90, M|100/100
+-- turn 2
+  WE CHOSE: switch to haxorus (hand policy: attack+tera closecombat) - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: attack closecombat (hand policy: attack+tera closecombat) - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to gumshoos (hand policy: forced: switch to haxorus) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gothitelle|Focus Blast|p1a: Tauros
+  -damage|p1a: Tauros|0 fnt
+  faint|p1a: Tauros
+  switch|p1a: Gumshoos|Gumshoos, L95, F|321/321
+-- turn 3
+  WE CHOSE: attack+tera doubleedge (hand policy: attack doubleedge) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  -terastallize|p1a: Gumshoos|Ground
+  move|p2a: Gothitelle|Focus Blast|p1a: Gumshoos|[miss]
+  -miss|p2a: Gothitelle|p1a: Gumshoos
+  move|p1a: Gumshoos|Double-Edge|p2a: Gothitelle
+  -damage|p2a: Gothitelle|10/100
+  -damage|p1a: Gumshoos|239/321|[from] Recoil
+-- turn 4
+  WE CHOSE: switch to haxorus (hand policy: attack doubleedge) - our hp 0.74, theirs 0.10, predicted move (revealed) hits us x1
+  WE CHOSE: attack doubleedge - our hp 0.74, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Gothitelle|Focus Blast|p1a: Gumshoos
+  -damage|p1a: Gumshoos|121/321
+  move|p1a: Gumshoos|Double-Edge|p2a: Gothitelle
+  -damage|p2a: Gothitelle|0 fnt
+  faint|p2a: Gothitelle
+  -damage|p1a: Gumshoos|113/321|[from] Recoil
+  switch|p2a: Arboliva|Arboliva, L91, M|100/100
+-- turn 5
+  WE CHOSE: switch to abomasnow (hand policy: attack doubleedge) - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Abomasnow|Abomasnow, L84, M|287/287
+  -weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+  move|p2a: Arboliva|Energy Ball|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|216/287
+  -weather|Snowscape|[upkeep]
+-- turn 6
+  WE CHOSE: attack blizzard - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Abomasnow|Blizzard|p2a: Arboliva
+  -supereffective|p2a: Arboliva
+  -damage|p2a: Arboliva|36/100
+  -fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Arboliva
+  move|p2a: Arboliva|Energy Ball|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|129/287
+  -weather|Snowscape|[upkeep]
+  -heal|p1a: Abomasnow|146/287|[from] Grassy Terrain
+  -heal|p2a: Arboliva|43/100|[from] Grassy Terrain
+  -heal|p2a: Arboliva|49/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack blizzard - our hp 0.51, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p1a: Abomasnow|Blizzard|p2a: Arboliva
+  -supereffective|p2a: Arboliva
+  -damage|p2a: Arboliva|0 fnt
+  faint|p2a: Arboliva
+  -weather|Snowscape|[upkeep]
+  -heal|p1a: Abomasnow|163/287|[from] Grassy Terrain
+  switch|p2a: Dachsbun|Dachsbun, L92, F|100/100
+-- turn 8
+  WE CHOSE: switch to gumshoos (hand policy: attack woodhammer) - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Gumshoos|Gumshoos, L95, F, tera:Ground|113/321
+  move|p2a: Dachsbun|Play Rough|p1a: Gumshoos|[miss]
+  -miss|p2a: Dachsbun|p1a: Gumshoos
+  -weather|Snowscape|[upkeep]
+  -heal|p1a: Gumshoos|133/321|[from] Grassy Terrain
+-- turn 9
+  WE CHOSE: attack earthquake (hand policy: attack doubleedge) - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Gumshoos
+  -damage|p1a: Gumshoos|24/321
+  move|p1a: Gumshoos|Earthquake|p2a: Dachsbun
+  -damage|p2a: Dachsbun|48/100
+  -weather|none
+  -heal|p2a: Dachsbun|54/100|[from] Grassy Terrain
+  -heal|p2a: Dachsbun|60/100|[from] item: Leftovers
+  -heal|p1a: Gumshoos|44/321|[from] Grassy Terrain
+-- turn 10
+  WE CHOSE: switch to abomasnow (hand policy: attack earthquake) - our hp 0.14, theirs 0.60, predicted move (revealed) hits us x1
+  switch|p1a: Abomasnow|Abomasnow, L84, M|163/287
+  -weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+  move|p2a: Dachsbun|Play Rough|p1a: Abomasnow
+  -damage|p1a: Abomasnow|85/287
+  -weather|Snowscape|[upkeep]
+  -heal|p2a: Dachsbun|65/100|[from] Grassy Terrain
+  -heal|p2a: Dachsbun|71/100|[from] item: Leftovers
+  -heal|p1a: Abomasnow|102/287|[from] Grassy Terrain
+  -fieldend|move: Grassy Terrain
+-- turn 11
+  WE CHOSE: attack woodhammer - our hp 0.36, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gumshoos - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Abomasnow
+  -damage|p1a: Abomasnow|30/287
+  move|p1a: Abomasnow|Wood Hammer|p2a: Dachsbun
+  -damage|p2a: Dachsbun|32/100
+  -damage|p1a: Abomasnow|0 fnt|[from] Recoil
+  faint|p1a: Abomasnow
+  -weather|Snowscape|[upkeep]
+  -heal|p2a: Dachsbun|38/100|[from] item: Leftovers
+  switch|p1a: Gumshoos|Gumshoos, L95, F, tera:Ground|44/321
+-- turn 12
+  WE CHOSE: attack earthquake (hand policy: attack doubleedge) - our hp 0.14, theirs 0.38, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to meloetta - our hp 0.00, theirs 0.44, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Gumshoos
+  -damage|p1a: Gumshoos|0 fnt
+  faint|p1a: Gumshoos
+  -weather|Snowscape|[upkeep]
+  -heal|p2a: Dachsbun|44/100|[from] item: Leftovers
+  switch|p1a: Meloetta|Meloetta, L82|298/298
+-- turn 13
+  WE CHOSE: attack relicsong - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Meloetta
+  -damage|p1a: Meloetta|190/298
+  move|p1a: Meloetta|Relic Song|p2a: Dachsbun
+  -damage|p2a: Dachsbun|0 fnt
+  faint|p2a: Dachsbun
+  -formechange|p1a: Meloetta|Meloetta-Pirouette|[msg]
+  -damage|p1a: Meloetta|161/298|[from] item: Life Orb
+  -weather|Snowscape|[upkeep]
+  switch|p2a: Shaymin|Shaymin, L82|100/100
+-- turn 14
+  WE CHOSE: attack closecombat (hand policy: attack tripleaxel) - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to haxorus - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p1a: Meloetta|Close Combat|p2a: Shaymin
+  -damage|p2a: Shaymin|45/100
+  -unboost|p1a: Meloetta|def|1
+  -unboost|p1a: Meloetta|spd|1
+  -damage|p1a: Meloetta|132/298|[from] item: Life Orb
+  move|p2a: Shaymin|Seed Flare|p1a: Meloetta
+  -damage|p1a: Meloetta|0 fnt
+  faint|p1a: Meloetta
+  -weather|none
+  -heal|p2a: Shaymin|51/100|[from] item: Leftovers
+  switch|p1a: Haxorus|Haxorus, L77, F|244/244
+  -ability|p1a: Haxorus|Mold Breaker
+-- turn 15
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x0.5
+  move|p2a: Shaymin|Seed Flare|p1a: Haxorus
+  -resisted|p1a: Haxorus
+  -damage|p1a: Haxorus|168/244
+  move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+  -boost|p1a: Haxorus|atk|1
+  -boost|p1a: Haxorus|spe|1
+  -heal|p2a: Shaymin|57/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: setup dragondance - our hp 0.69, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+  -boost|p1a: Haxorus|atk|1
+  -boost|p1a: Haxorus|spe|1
+  move|p2a: Shaymin|Seed Flare|p1a: Haxorus
+  -resisted|p1a: Haxorus
+  -damage|p1a: Haxorus|82/244
+  -unboost|p1a: Haxorus|spd|2
+  -heal|p2a: Shaymin|63/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack closecombat (hand policy: attack outrage) - our hp 0.34, theirs 0.63, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to urshifurapidstrike - our hp 0.00, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Haxorus|Close Combat|p2a: Shaymin
+  -damage|p2a: Shaymin|5/100
+  -unboost|p1a: Haxorus|def|1
+  -unboost|p1a: Haxorus|spd|1
+  move|p2a: Shaymin|Seed Flare|p1a: Haxorus
+  -resisted|p1a: Haxorus
+  -damage|p1a: Haxorus|0 fnt
+  faint|p1a: Haxorus
+  -heal|p2a: Shaymin|11/100|[from] item: Leftovers
+  switch|p1a: Urshifu|Urshifu-Rapid-Strike, L75, M|274/274
+-- turn 18
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x2
+  move|p2a: Shaymin|Seed Flare|p1a: Urshifu
+  -supereffective|p1a: Urshifu
+  -damage|p1a: Urshifu|0 fnt
+  faint|p1a: Urshifu
+  deinit

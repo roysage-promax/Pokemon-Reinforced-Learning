@@ -1,0 +1,207 @@
+battle 149 (battle-gen9randombattle-2019791): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  hitmontop (fainted; item assaultvest, ability intimidate; moves earthquake/rapidspin/closecombat/stoneedge)
+  dragapult (fainted; item choicespecs, ability infiltrator, tera dragon; moves dracometeor/shadowball/fireblast/uturn)
+  masquerain (fainted; item heavydutyboots, ability intimidate; moves quiverdance/hurricane/bugbuzz/hydropump)
+  dusknoir (fainted; item leftovers, ability frisk; moves painsplit/substitute/poltergeist/focuspunch)
+  thundurus (fainted; item heavydutyboots, ability prankster; moves thunderbolt/grassknot/thunderwave/sludgewave)
+  pawmot (fainted; item lifeorb, ability ironfist; moves revivalblessing/icepunch/closecombat/doubleshock)
+theirs (as seen):
+  oricoriopompom (fainted; item unknown_item, ability dancer; moves hurricane)
+  chiyu (fainted; item unknown_item, ability beadsofruin; moves fireblast)
+  kommoo (fainted; item unknown_item, ability ?; moves closecombat)
+  victreebel (fainted; item lifeorb, ability ?; moves powerwhip)
+  farigiraf (fainted; item leftovers, ability ?; moves bodyslam)
+  inteleon (27%; item unknown_item, ability ?; moves hydropump)
+
+-- turn 0
+  switch|p1a: Hitmontop|Hitmontop, L88, M|231/231
+  switch|p2a: Oricorio|Oricorio-Pom-Pom, L82, M|100/100
+  -ability|p1a: Hitmontop|Intimidate|boost
+  -unboost|p2a: Oricorio|atk|1
+-- turn 1
+  WE CHOSE: switch to thundurus - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Thundurus|Thundurus, L80, M|258/258
+  move|p2a: Oricorio|Hurricane|p1a: Thundurus
+  -resisted|p1a: Thundurus
+  -damage|p1a: Thundurus|200/258
+  -start|p1a: Thundurus|confusion
+-- turn 2
+  WE CHOSE: attack thunderbolt - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  -activate|p1a: Thundurus|confusion
+  -damage|p1a: Thundurus|166/258|[from] confusion
+  move|p2a: Oricorio|Hurricane|p1a: Thundurus|[miss]
+  -miss|p2a: Oricorio|p1a: Thundurus
+-- turn 3
+  WE CHOSE: attack thunderbolt - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  -activate|p1a: Thundurus|confusion
+  move|p1a: Thundurus|Thunderbolt|p2a: Oricorio
+  -damage|p2a: Oricorio|50/100
+  move|p2a: Oricorio|Hurricane|p1a: Thundurus
+  -resisted|p1a: Thundurus
+  -damage|p1a: Thundurus|106/258
+-- turn 4
+  WE CHOSE: attack thunderbolt - our hp 0.41, theirs 0.50, predicted move (revealed) hits us x0.5
+  -end|p1a: Thundurus|confusion
+  move|p1a: Thundurus|Thunderbolt|p2a: Oricorio
+  -damage|p2a: Oricorio|0 fnt
+  faint|p2a: Oricorio
+  switch|p2a: Chi-Yu|Chi-Yu, L77|100/100
+  -ability|p2a: Chi-Yu|Beads of Ruin
+-- turn 5
+  WE CHOSE: attack thunderbolt - our hp 0.41, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hitmontop - our hp 0.00, theirs 0.59, predicted move (revealed) hits us x1
+  move|p1a: Thundurus|Thunderbolt|p2a: Chi-Yu
+  -damage|p2a: Chi-Yu|59/100
+  move|p2a: Chi-Yu|Fire Blast|p1a: Thundurus
+  -damage|p1a: Thundurus|0 fnt
+  faint|p1a: Thundurus
+  switch|p1a: Hitmontop|Hitmontop, L88, M|231/231
+  -ability|p1a: Hitmontop|Intimidate|boost
+  -unboost|p2a: Chi-Yu|atk|1
+-- turn 6
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.59, predicted move (revealed) hits us x1
+  move|p2a: Chi-Yu|Fire Blast|p1a: Hitmontop
+  -damage|p1a: Hitmontop|135/231
+  move|p1a: Hitmontop|Close Combat|p2a: Chi-Yu
+  -supereffective|p2a: Chi-Yu
+  -damage|p2a: Chi-Yu|0 fnt
+  -unboost|p1a: Hitmontop|def|1
+  -unboost|p1a: Hitmontop|spd|1
+  faint|p2a: Chi-Yu
+  switch|p2a: Kommo-o|Kommo-o, L77, F|100/100
+-- turn 7
+  WE CHOSE: switch to dragapult - our hp 0.58, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dragapult|Dragapult, L77, M|262/262
+  move|p2a: Kommo-o|Close Combat|p1a: Dragapult
+  -immune|p1a: Dragapult
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragapult|Draco Meteor|p2a: Kommo-o
+  -supereffective|p2a: Kommo-o
+  -damage|p2a: Kommo-o|0 fnt
+  -unboost|p1a: Dragapult|spa|2
+  faint|p2a: Kommo-o
+  switch|p2a: Victreebel|Victreebel, L90, M|100/100
+-- turn 9
+  WE CHOSE: attack+tera dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  -terastallize|p1a: Dragapult|Dragon
+  move|p1a: Dragapult|Draco Meteor|p2a: Victreebel
+  -damage|p2a: Victreebel|56/100
+  -unboost|p1a: Dragapult|spa|2
+  move|p2a: Victreebel|Power Whip|p1a: Dragapult
+  -resisted|p1a: Dragapult
+  -damage|p1a: Dragapult|141/262
+  -damage|p2a: Victreebel|46/100|[from] item: Life Orb
+-- turn 10
+  WE CHOSE: attack dracometeor - our hp 0.54, theirs 0.46, predicted move (revealed) hits us x0.5
+  move|p1a: Dragapult|Draco Meteor|p2a: Victreebel|[miss]
+  -miss|p1a: Dragapult|p2a: Victreebel
+  move|p2a: Victreebel|Power Whip|p1a: Dragapult
+  -resisted|p1a: Dragapult
+  -damage|p1a: Dragapult|20/262
+  -damage|p2a: Victreebel|36/100|[from] item: Life Orb
+-- turn 11
+  WE CHOSE: attack dracometeor - our hp 0.08, theirs 0.36, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to masquerain - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p1a: Dragapult|Draco Meteor|p2a: Victreebel
+  -damage|p2a: Victreebel|6/100
+  -unboost|p1a: Dragapult|spa|2
+  move|p2a: Victreebel|Power Whip|p1a: Dragapult
+  -resisted|p1a: Dragapult
+  -damage|p1a: Dragapult|0 fnt
+  faint|p1a: Dragapult
+  -damage|p2a: Victreebel|0 fnt|[from] item: Life Orb
+  faint|p2a: Victreebel
+  switch|p1a: Masquerain|Masquerain, L87, M|264/264
+  switch|p2a: Farigiraf|Farigiraf, L90, F|100/100
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Farigiraf|atk|1
+-- turn 12
+  WE CHOSE: switch to dusknoir - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dusknoir|Dusknoir, L89, M|225/225
+  -item|p2a: Farigiraf|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Farigiraf|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+-- turn 13
+  WE CHOSE: attack focuspunch - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  -singleturn|p1a: Dusknoir|move: Focus Punch
+  move|p2a: Farigiraf|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  move|p1a: Dusknoir|Focus Punch|p2a: Farigiraf
+  -damage|p2a: Farigiraf|66/100
+  -heal|p2a: Farigiraf|72/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack focuspunch - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x0
+  -singleturn|p1a: Dusknoir|move: Focus Punch
+  move|p2a: Farigiraf|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  move|p1a: Dusknoir|Focus Punch|p2a: Farigiraf
+  -damage|p2a: Farigiraf|33/100
+  -heal|p2a: Farigiraf|39/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack focuspunch - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x0
+  -singleturn|p1a: Dusknoir|move: Focus Punch
+  move|p2a: Farigiraf|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  move|p1a: Dusknoir|Focus Punch|p2a: Farigiraf
+  -damage|p2a: Farigiraf|3/100
+  -heal|p2a: Farigiraf|9/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack focuspunch - our hp 1.00, theirs 0.09, predicted move (revealed) hits us x0
+  -singleturn|p1a: Dusknoir|move: Focus Punch
+  move|p2a: Farigiraf|Body Slam|p1a: Dusknoir
+  -immune|p1a: Dusknoir
+  move|p1a: Dusknoir|Focus Punch|p2a: Farigiraf
+  -damage|p2a: Farigiraf|0 fnt
+  faint|p2a: Farigiraf
+  switch|p2a: Inteleon|Inteleon, L81, M|100/100
+-- turn 17
+  WE CHOSE: attack focuspunch - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -singleturn|p1a: Dusknoir|move: Focus Punch
+  move|p2a: Inteleon|Hydro Pump|p1a: Dusknoir
+  -damage|p1a: Dusknoir|92/225
+  cant|p1a: Dusknoir|Focus Punch|Focus Punch
+  -heal|p1a: Dusknoir|106/225|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack focuspunch - our hp 0.47, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pawmot - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  -singleturn|p1a: Dusknoir|move: Focus Punch
+  move|p2a: Inteleon|Hydro Pump|p1a: Dusknoir
+  -damage|p1a: Dusknoir|0 fnt
+  faint|p1a: Dusknoir
+  switch|p1a: Pawmot|Pawmot, L80, M|243/243
+-- turn 19
+  WE CHOSE: attack doubleshock - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hitmontop - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Pawmot
+  -damage|p1a: Pawmot|0 fnt
+  faint|p1a: Pawmot
+  switch|p1a: Hitmontop|Hitmontop, L88, M|135/231
+  -ability|p1a: Hitmontop|Intimidate|boost
+  -unboost|p2a: Inteleon|atk|1
+-- turn 20
+  WE CHOSE: attack closecombat - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Hitmontop
+  -damage|p1a: Hitmontop|36/231
+  move|p1a: Hitmontop|Close Combat|p2a: Inteleon
+  -damage|p2a: Inteleon|27/100
+  -unboost|p1a: Hitmontop|def|1
+  -unboost|p1a: Hitmontop|spd|1
+-- turn 21
+  WE CHOSE: attack closecombat - our hp 0.16, theirs 0.27, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to masquerain - our hp 0.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Hitmontop
+  -damage|p1a: Hitmontop|0 fnt
+  faint|p1a: Hitmontop
+  switch|p1a: Masquerain|Masquerain, L87, M|264/264
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Inteleon|atk|1
+-- turn 22
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Masquerain
+  -crit|p1a: Masquerain
+  -damage|p1a: Masquerain|0 fnt
+  faint|p1a: Masquerain
+  deinit

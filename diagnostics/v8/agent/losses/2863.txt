@@ -1,0 +1,196 @@
+battle 2863 (battle-gen9randombattle-2047322): lost in 20 turns, 2 of theirs left; we are p1
+
+ours:
+  chansey (fainted; item eviolite, ability naturalcure; moves stealthrock/seismictoss/thunderwave/softboiled)
+  breloom (fainted; item lifeorb, ability technician; moves bulletseed/spore/machpunch/rocktomb)
+  enamorus (fainted; item heavydutyboots, ability cutecharm; moves earthpower/mysticalfire/moonblast/calmmind)
+  dragonite (fainted; item heavydutyboots, ability multiscale, tera steel; moves earthquake/dragondance/outrage/ironhead)
+  grimmsnarl (fainted; item lightclay, ability prankster; moves lightscreen/thunderwave/reflect/spiritbreak)
+  volcarona (fainted; item heavydutyboots, ability swarm; moves bugbuzz/fireblast/terablast/quiverdance)
+theirs (as seen):
+  gengar (fainted; item lifeorb, ability cursedbody; moves focusblast)
+  slaking (fainted; item unknown_item, ability truant; moves gigaimpact)
+  gastrodon (fainted; item unknown_item, ability ?; moves earthquake)
+  skarmory (fainted; item leftovers, ability ?; moves bravebird)
+  terrakion (100%; item unknown_item, ability justified; moves closecombat)
+
+-- turn 0
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  switch|p2a: Gengar|Gengar, L81, M|100/100
+-- turn 1
+  WE CHOSE: switch to enamorus - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Enamorus|Enamorus, L79, F|247/247
+  move|p2a: Gengar|Focus Blast|p1a: Enamorus|[miss]
+  -miss|p2a: Gengar|p1a: Enamorus
+-- turn 2
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Gengar|Focus Blast|p1a: Enamorus
+  -resisted|p1a: Enamorus
+  -damage|p1a: Enamorus|212/247
+  -unboost|p1a: Enamorus|spd|1
+  -damage|p2a: Gengar|90/100|[from] item: Life Orb
+  move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+  -boost|p1a: Enamorus|spa|1
+  -boost|p1a: Enamorus|spd|1
+-- turn 3
+  WE CHOSE: setup calmmind - our hp 0.86, theirs 0.90, predicted move (revealed) hits us x0.25
+  move|p2a: Gengar|Focus Blast|p1a: Enamorus
+  -resisted|p1a: Enamorus
+  -damage|p1a: Enamorus|176/247
+  -unboost|p1a: Enamorus|spd|1
+  -damage|p2a: Gengar|80/100|[from] item: Life Orb
+  move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+  -boost|p1a: Enamorus|spa|1
+  -boost|p1a: Enamorus|spd|1
+-- turn 4
+  WE CHOSE: attack earthpower - our hp 0.71, theirs 0.80, predicted move (revealed) hits us x0.25
+  move|p2a: Gengar|Focus Blast|p1a: Enamorus
+  -resisted|p1a: Enamorus
+  -damage|p1a: Enamorus|141/247
+  -damage|p2a: Gengar|70/100|[from] item: Life Orb
+  move|p1a: Enamorus|Earth Power|p2a: Gengar
+  -supereffective|p2a: Gengar
+  -damage|p2a: Gengar|0 fnt
+  faint|p2a: Gengar
+  switch|p2a: Slaking|Slaking, L84, F|100/100
+-- turn 5
+  WE CHOSE: attack moonblast - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dragonite - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Enamorus
+  -damage|p1a: Enamorus|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Enamorus
+  switch|p1a: Dragonite|Dragonite, L74, M|257/257
+-- turn 6
+  WE CHOSE: attack+tera outrage - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Dragonite|Steel
+  cant|p2a: Slaking|recharge
+  move|p1a: Dragonite|Outrage|p2a: Slaking
+  -damage|p2a: Slaking|72/100
+-- turn 7
+  WE CHOSE: attack outrage - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x0.5
+  move|p2a: Slaking|Giga Impact|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -crit|p1a: Dragonite
+  -damage|p1a: Dragonite|119/257
+  -mustrecharge|p2a: Slaking
+  move|p1a: Dragonite|Outrage|p2a: Slaking|[from] lockedmove
+  -damage|p2a: Slaking|42/100
+-- turn 8
+  WE CHOSE: attack outrage - our hp 0.46, theirs 0.42, predicted move (revealed) hits us x0.5
+  cant|p2a: Slaking|recharge
+  move|p1a: Dragonite|Outrage|p2a: Slaking|[from] lockedmove
+  -damage|p2a: Slaking|9/100
+  -start|p1a: Dragonite|confusion|[fatigue]
+-- turn 9
+  WE CHOSE: attack outrage - our hp 0.46, theirs 0.09, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to volcarona - our hp 0.00, theirs 0.09, predicted move (revealed) hits us x0.5
+  move|p2a: Slaking|Giga Impact|p1a: Dragonite
+  -resisted|p1a: Dragonite
+  -damage|p1a: Dragonite|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Dragonite
+  switch|p1a: Volcarona|Volcarona, L77, M|257/257
+-- turn 10
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 0.09, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Volcarona|Fire Blast|p2a: Slaking
+  -damage|p2a: Slaking|0 fnt
+  faint|p2a: Slaking
+  switch|p2a: Gastrodon|Gastrodon, L86, M|100/100
+-- turn 11
+  WE CHOSE: switch to breloom (hand policy: attack bugbuzz) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Breloom|Breloom, L83, F|235/235
+  move|p2a: Gastrodon|Earthquake|p1a: Breloom
+  -resisted|p1a: Breloom
+  -damage|p1a: Breloom|183/235
+-- turn 12
+  WE CHOSE: attack bulletseed - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Breloom|Bullet Seed|p2a: Gastrodon
+  -supereffective|p2a: Gastrodon
+  -damage|p2a: Gastrodon|9/100
+  -supereffective|p2a: Gastrodon
+  -damage|p2a: Gastrodon|0 fnt
+  faint|p2a: Gastrodon
+  -hitcount|p2: Gastrodon|2
+  -damage|p1a: Breloom|160/235|[from] item: Life Orb
+  switch|p2a: Skarmory|Skarmory, L80, M|100/100
+-- turn 13
+  WE CHOSE: attack machpunch - our hp 0.68, theirs 1.00, predicted move (guessed) hits us x4
+  WE CHOSE: forced: switch to chansey (hand policy: forced: switch to volcarona) - our hp 0.00, theirs 0.58, predicted move (revealed) hits us x4
+  move|p1a: Breloom|Mach Punch|p2a: Skarmory
+  -damage|p2a: Skarmory|72/100
+  -damage|p1a: Breloom|137/235|[from] item: Life Orb
+  move|p2a: Skarmory|Brave Bird|p1a: Breloom
+  -supereffective|p1a: Breloom
+  -damage|p1a: Breloom|0 fnt
+  faint|p1a: Breloom
+  -damage|p2a: Skarmory|52/100|[from] Recoil
+  -heal|p2a: Skarmory|58/100|[from] item: Leftovers
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+-- turn 14
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Skarmory|Brave Bird|p1a: Chansey
+  -crit|p1a: Chansey
+  -damage|p1a: Chansey|227/564
+  -damage|p2a: Skarmory|11/100|[from] Recoil
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|509/564
+  -heal|p2a: Skarmory|17/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 0.90, theirs 0.17, predicted move (revealed) hits us x1
+  move|p2a: Skarmory|Brave Bird|p1a: Chansey
+  -damage|p1a: Chansey|256/564
+  -damage|p2a: Skarmory|0 fnt|[from] Recoil
+  faint|p2a: Skarmory
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|538/564
+  switch|p2a: Terrakion|Terrakion, L79|100/100
+-- turn 16
+  WE CHOSE: switch to grimmsnarl (hand policy: switch to volcarona) - our hp 0.95, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Grimmsnarl|Grimmsnarl, L83, M|293/293
+  move|p2a: Terrakion|Close Combat|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|41/293
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+-- turn 17
+  WE CHOSE: attack spiritbreak - our hp 0.14, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to volcarona - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Terrakion|Close Combat|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|0 fnt
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  faint|p1a: Grimmsnarl
+  switch|p1a: Volcarona|Volcarona, L77, M|257/257
+-- turn 18
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Terrakion|Close Combat|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|121/257
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+  -boost|p1a: Volcarona|spa|1
+  -boost|p1a: Volcarona|spd|1
+  -boost|p1a: Volcarona|spe|1
+-- turn 19
+  WE CHOSE: attack fireblast - our hp 0.47, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to chansey - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Fire Blast|p2a: Terrakion|[miss]
+  -miss|p1a: Volcarona|p2a: Terrakion
+  move|p2a: Terrakion|Close Combat|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|0 fnt
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  faint|p1a: Volcarona
+  switch|p1a: Chansey|Chansey, L85, F|538/564
+-- turn 20
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 0.95, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Terrakion|Close Combat|p1a: Chansey
+  -supereffective|p1a: Chansey
+  -damage|p1a: Chansey|0 fnt
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  faint|p1a: Chansey
+  deinit

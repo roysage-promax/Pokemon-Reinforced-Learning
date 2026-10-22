@@ -1,0 +1,244 @@
+battle 2315 (battle-gen9randombattle-2042187): lost in 25 turns, 2 of theirs left; we are p1
+
+ours:
+  haxorus (fainted; item ?, ability moldbreaker; moves outrage/closecombat/ironhead/dragondance)
+  reshiram (fainted; item heavydutyboots, ability turboblaze; moves outrage/stoneedge/flareblitz/dragondance)
+  clawitzer (fainted; item assaultvest, ability megalauncher; moves aurasphere/dragonpulse/waterpulse/uturn)
+  blastoise (fainted; item whiteherb, ability torrent; moves shellsmash/earthquake/icebeam/hydropump)
+  electrodehisui (fainted; item lifeorb, ability soundproof, tera grass; moves thunderbolt/thunderwave/gigadrain/taunt)
+  slitherwing (fainted; item heavydutyboots, ability protosynthesis; moves willowisp/closecombat/morningsun/uturn)
+theirs (as seen):
+  ceruledge (fainted; item unknown_item, ability weakarmor; moves closecombat/poltergeist)
+  golurk (fainted; item unknown_item, ability ?; moves poltergeist)
+  arceussteel (fainted; item unknown_item, ability multitype; moves judgment)
+  okidogi (fainted; item unknown_item, ability ?; moves gunkshot)
+  dachsbun (27%; item leftovers, ability ?; moves playrough)
+
+-- turn 0
+  switch|p1a: Haxorus|Haxorus, L77, M|244/244
+  switch|p2a: Ceruledge|Ceruledge, L78, M|100/100
+  -ability|p1a: Haxorus|Mold Breaker
+-- turn 1
+  WE CHOSE: switch to slitherwing (hand policy: attack outrage) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Slither Wing|Slither Wing, L81|270/270
+  move|p2a: Ceruledge|Close Combat|p1a: Slither Wing
+  -resisted|p1a: Slither Wing
+  -damage|p1a: Slither Wing|220/270
+  -unboost|p2a: Ceruledge|def|1
+  -unboost|p2a: Ceruledge|spd|1
+-- turn 2
+  WE CHOSE: heal morningsun (hand policy: attack uturn) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Slither Wing|Morning Sun|p1a: Slither Wing
+  -heal|p1a: Slither Wing|270/270
+  move|p2a: Ceruledge|Close Combat|p1a: Slither Wing
+  -resisted|p1a: Slither Wing
+  -crit|p1a: Slither Wing
+  -damage|p1a: Slither Wing|190/270
+  -unboost|p2a: Ceruledge|def|1
+  -unboost|p2a: Ceruledge|spd|1
+-- turn 3
+  WE CHOSE: heal morningsun (hand policy: attack uturn) - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Slither Wing|Morning Sun|p1a: Slither Wing
+  -heal|p1a: Slither Wing|270/270
+  move|p2a: Ceruledge|Close Combat|p1a: Slither Wing
+  -resisted|p1a: Slither Wing
+  -damage|p1a: Slither Wing|223/270
+  -unboost|p2a: Ceruledge|def|1
+  -unboost|p2a: Ceruledge|spd|1
+-- turn 4
+  WE CHOSE: heal morningsun (hand policy: attack uturn) - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Slither Wing|Morning Sun|p1a: Slither Wing
+  -heal|p1a: Slither Wing|270/270
+  move|p2a: Ceruledge|Close Combat|p1a: Slither Wing
+  -resisted|p1a: Slither Wing
+  -damage|p1a: Slither Wing|222/270
+  -unboost|p2a: Ceruledge|def|1
+  -unboost|p2a: Ceruledge|spd|1
+-- turn 5
+  WE CHOSE: heal morningsun (hand policy: attack uturn) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Slither Wing|Morning Sun|p1a: Slither Wing
+  -heal|p1a: Slither Wing|270/270
+  move|p2a: Ceruledge|Close Combat|p1a: Slither Wing
+  -resisted|p1a: Slither Wing
+  -damage|p1a: Slither Wing|220/270
+  -unboost|p2a: Ceruledge|def|1
+  -unboost|p2a: Ceruledge|spd|1
+-- turn 6
+  WE CHOSE: heal morningsun (hand policy: attack uturn) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Ceruledge|Close Combat|p1a: Slither Wing
+  -resisted|p1a: Slither Wing
+  -damage|p1a: Slither Wing|167/270
+  -unboost|p2a: Ceruledge|def|1
+  -unboost|p2a: Ceruledge|spd|1
+  move|p1a: Slither Wing|Morning Sun|p1a: Slither Wing
+  -heal|p1a: Slither Wing|270/270
+-- turn 7
+  WE CHOSE: heal morningsun (hand policy: attack uturn) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Ceruledge|Close Combat|p1a: Slither Wing
+  -resisted|p1a: Slither Wing
+  -damage|p1a: Slither Wing|222/270
+  move|p1a: Slither Wing|Morning Sun|p1a: Slither Wing
+  -heal|p1a: Slither Wing|270/270
+-- turn 8
+  WE CHOSE: heal morningsun (hand policy: attack uturn) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Ceruledge|Close Combat|p1a: Slither Wing
+  -resisted|p1a: Slither Wing
+  -damage|p1a: Slither Wing|220/270
+  move|p1a: Slither Wing|Morning Sun|p1a: Slither Wing
+  -heal|p1a: Slither Wing|270/270
+-- turn 9
+  WE CHOSE: heal morningsun (hand policy: attack uturn) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Slither Wing|Morning Sun|p1a: Slither Wing
+  -fail|p1a: Slither Wing|heal
+  move|p2a: Ceruledge|Poltergeist|p1a: Slither Wing
+  -activate|p1a: Slither Wing|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Slither Wing|140/270
+-- turn 10
+  WE CHOSE: attack uturn - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to blastoise - our hp 0.52, theirs 0.59, predicted move (revealed) hits us x0.5
+  move|p1a: Slither Wing|U-turn|p2a: Ceruledge
+  -resisted|p2a: Ceruledge
+  -damage|p2a: Ceruledge|59/100
+  -ability|p2a: Ceruledge|Weak Armor|boost
+  -boost|p2a: Ceruledge|spe|2
+  -end|p1a: Slither Wing|Protosynthesis|[silent]
+  switch|p1a: Blastoise|Blastoise, L80, F|258/258|[from] U-turn
+  move|p2a: Ceruledge|Poltergeist|p1a: Blastoise
+  -activate|p1a: Blastoise|move: Poltergeist|White Herb
+  -damage|p1a: Blastoise|134/258
+-- turn 11
+  WE CHOSE: attack hydropump (hand policy: attack+tera hydropump) - our hp 0.52, theirs 0.59, predicted move (revealed) hits us x1
+  move|p2a: Ceruledge|Poltergeist|p1a: Blastoise
+  -activate|p1a: Blastoise|move: Poltergeist|White Herb
+  -damage|p1a: Blastoise|22/258
+  move|p1a: Blastoise|Hydro Pump|p2a: Ceruledge
+  -supereffective|p2a: Ceruledge
+  -damage|p2a: Ceruledge|0 fnt
+  faint|p2a: Ceruledge
+  switch|p2a: Golurk|Golurk, L87|100/100
+-- turn 12
+  WE CHOSE: attack hydropump (hand policy: attack+tera hydropump) - our hp 0.09, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to electrodehisui - our hp 0.00, theirs 0.01, predicted move (revealed) hits us x1
+  move|p1a: Blastoise|Hydro Pump|p2a: Golurk
+  -supereffective|p2a: Golurk
+  -damage|p2a: Golurk|1/100
+  move|p2a: Golurk|Poltergeist|p1a: Blastoise
+  -activate|p1a: Blastoise|move: Poltergeist|White Herb
+  -damage|p1a: Blastoise|0 fnt
+  faint|p1a: Blastoise
+  switch|p1a: Electrode|Electrode-Hisui, L87|246/246
+-- turn 13
+  WE CHOSE: attack gigadrain (hand policy: attack+tera gigadrain) - our hp 1.00, theirs 0.01, predicted move (revealed) hits us x1
+  move|p1a: Electrode|Giga Drain|p2a: Golurk
+  -supereffective|p2a: Golurk
+  -damage|p2a: Golurk|0 fnt
+  faint|p2a: Golurk
+  -damage|p1a: Electrode|222/246|[from] item: Life Orb
+  switch|p2a: Arceus|Arceus-Steel, L70|100/100
+-- turn 14
+  WE CHOSE: attack+tera thunderbolt - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Electrode|Grass
+  move|p1a: Electrode|Thunderbolt|p2a: Arceus
+  -damage|p2a: Arceus|64/100
+  -damage|p1a: Electrode|198/246|[from] item: Life Orb
+  move|p2a: Arceus|Judgment|p1a: Electrode
+  -damage|p1a: Electrode|84/246
+-- turn 15
+  WE CHOSE: attack thunderbolt - our hp 0.34, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to reshiram - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Electrode|Thunderbolt|p2a: Arceus
+  -damage|p2a: Arceus|23/100
+  -damage|p1a: Electrode|60/246|[from] item: Life Orb
+  move|p2a: Arceus|Judgment|p1a: Electrode
+  -damage|p1a: Electrode|0 fnt
+  faint|p1a: Electrode
+  switch|p1a: Reshiram|Reshiram, L76|277/277
+  -ability|p1a: Reshiram|Turboblaze
+-- turn 16
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Reshiram
+  -resisted|p1a: Reshiram
+  -damage|p1a: Reshiram|227/277
+  move|p1a: Reshiram|Flare Blitz|p2a: Arceus
+  -supereffective|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  -damage|p1a: Reshiram|206/277|[from] Recoil
+  switch|p2a: Okidogi|Okidogi, L77, M|100/100
+-- turn 17
+  WE CHOSE: attack outrage - our hp 0.74, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Reshiram|Outrage|p2a: Okidogi
+  -damage|p2a: Okidogi|60/100
+  move|p2a: Okidogi|Gunk Shot|p1a: Reshiram
+  -damage|p1a: Reshiram|79/277
+  -status|p1a: Reshiram|psn
+  -damage|p1a: Reshiram|45/277 psn|[from] psn
+-- turn 18
+  WE CHOSE: attack outrage - our hp 0.16, theirs 0.60, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to haxorus - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p1a: Reshiram|Outrage|p2a: Okidogi|[from] lockedmove
+  -damage|p2a: Okidogi|19/100
+  -start|p1a: Reshiram|confusion|[fatigue]
+  move|p2a: Okidogi|Gunk Shot|p1a: Reshiram
+  -damage|p1a: Reshiram|0 fnt
+  faint|p1a: Reshiram
+  switch|p1a: Haxorus|Haxorus, L77, M|244/244
+  -ability|p1a: Haxorus|Mold Breaker
+-- turn 19
+  WE CHOSE: attack outrage - our hp 1.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p1a: Haxorus|Outrage|p2a: Okidogi
+  -damage|p2a: Okidogi|0 fnt
+  faint|p2a: Okidogi
+  switch|p2a: Dachsbun|Dachsbun, L92, M|100/100
+-- turn 20
+  WE CHOSE: attack outrage - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Dachsbun|Play Rough|p1a: Haxorus
+  -supereffective|p1a: Haxorus
+  -damage|p1a: Haxorus|26/244
+  move|p1a: Haxorus|Outrage|p2a: Dachsbun|[from] lockedmove
+  -immune|p2a: Dachsbun
+  -start|p1a: Haxorus|confusion|[fatigue]
+  -enditem|p1a: Haxorus|Lum Berry|[eat]
+  -end|p1a: Haxorus|confusion
+-- turn 21
+  WE CHOSE: attack ironhead - our hp 0.11, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to clawitzer - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Dachsbun|Play Rough|p1a: Haxorus
+  -supereffective|p1a: Haxorus
+  -damage|p1a: Haxorus|0 fnt
+  faint|p1a: Haxorus
+  switch|p1a: Clawitzer|Clawitzer, L87, F|265/265
+-- turn 22
+  WE CHOSE: attack waterpulse - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dachsbun|Play Rough|p1a: Clawitzer
+  -damage|p1a: Clawitzer|172/265
+  move|p1a: Clawitzer|Water Pulse|p2a: Dachsbun
+  -damage|p2a: Dachsbun|54/100
+  -start|p2a: Dachsbun|confusion
+  -heal|p2a: Dachsbun|60/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack waterpulse - our hp 0.65, theirs 0.60, predicted move (revealed) hits us x1
+  -activate|p2a: Dachsbun|confusion
+  move|p2a: Dachsbun|Play Rough|p1a: Clawitzer
+  -damage|p1a: Clawitzer|78/265
+  -unboost|p1a: Clawitzer|atk|1
+  move|p1a: Clawitzer|Water Pulse|p2a: Dachsbun
+  -damage|p2a: Dachsbun|15/100
+  -heal|p2a: Dachsbun|21/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack waterpulse - our hp 0.29, theirs 0.21, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to slitherwing - our hp 0.00, theirs 0.27, predicted move (revealed) hits us x1
+  -end|p2a: Dachsbun|confusion
+  move|p2a: Dachsbun|Play Rough|p1a: Clawitzer
+  -damage|p1a: Clawitzer|0 fnt
+  faint|p1a: Clawitzer
+  -heal|p2a: Dachsbun|27/100|[from] item: Leftovers
+  switch|p1a: Slither Wing|Slither Wing, L81|140/270
+-- turn 25
+  WE CHOSE: attack closecombat - our hp 0.52, theirs 0.27, predicted move (revealed) hits us x2
+  move|p2a: Dachsbun|Play Rough|p1a: Slither Wing
+  -supereffective|p1a: Slither Wing
+  -damage|p1a: Slither Wing|0 fnt
+  faint|p1a: Slither Wing
+  -end|p1a: Slither Wing|Protosynthesis|[silent]
+  deinit

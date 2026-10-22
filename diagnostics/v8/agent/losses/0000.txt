@@ -1,0 +1,186 @@
+battle 0 (battle-gen9randombattle-2018484): lost in 17 turns, 1 of theirs left; we are p1
+
+ours:
+  salazzle (fainted; item heavydutyboots, ability corrosion; moves nastyplot/terablast/fireblast/sludgewave)
+  lurantis (fainted; item leftovers, ability contrary; moves leafstorm/defog/superpower/synthesis)
+  basculinbluestriped (fainted; item choiceband, ability adaptability; moves flipturn/aquajet/wavecrash/doubleedge)
+  sudowoodo (fainted; item leftovers, ability rockhead; moves earthquake/stealthrock/headsmash/suckerpunch)
+  hitmontop (fainted; item leftovers, ability technician, tera ice; moves tripleaxel/closecombat/bulkup/rapidspin)
+  vikavolt (fainted; item heavydutyboots, ability levitate; moves thunderbolt/energyball/bugbuzz/stickyweb)
+theirs (as seen):
+  meowsticf (fainted; item lifeorb, ability ?; moves psychic)
+  clefable (fainted; item unknown_item, ability ?; moves fireblast)
+  decidueyehisui (fainted; item leftovers, ability ?; moves leafblade)
+  typhlosionhisui (fainted; item unknown_item, ability ?; moves eruption)
+  staraptor (fainted; item unknown_item, ability ?; moves closecombat)
+  tentacruel (72%; item leftovers, ability ?; moves sludgebomb)
+
+-- turn 0
+  switch|p1a: Salazzle|Salazzle, L83, F|249/249
+  switch|p2a: Meowstic|Meowstic-F, L89, F|100/100
+-- turn 1
+  WE CHOSE: attack fireblast (hand policy: attack sludgewave) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to vikavolt - our hp 0.00, theirs 0.44, predicted move (revealed) hits us x2
+  move|p1a: Salazzle|Fire Blast|p2a: Meowstic
+  -damage|p2a: Meowstic|54/100
+  move|p2a: Meowstic|Psychic|p1a: Salazzle
+  -supereffective|p1a: Salazzle
+  -damage|p1a: Salazzle|0 fnt
+  faint|p1a: Salazzle
+  -damage|p2a: Meowstic|44/100|[from] item: Life Orb
+  switch|p1a: Vikavolt|Vikavolt, L83, F|263/263
+-- turn 2
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x1
+  move|p2a: Meowstic|Psychic|p1a: Vikavolt
+  -damage|p1a: Vikavolt|129/263
+  -damage|p2a: Meowstic|34/100|[from] item: Life Orb
+  move|p1a: Vikavolt|Bug Buzz|p2a: Meowstic
+  -supereffective|p2a: Meowstic
+  -damage|p2a: Meowstic|0 fnt
+  faint|p2a: Meowstic
+  switch|p2a: Clefable|Clefable, L83, F|100/100
+-- turn 3
+  WE CHOSE: switch to basculinbluestriped - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Basculin|Basculin-Blue-Striped, L86, M|261/261
+  move|p2a: Clefable|Fire Blast|p1a: Basculin
+  -resisted|p1a: Basculin
+  -damage|p1a: Basculin|214/261
+-- turn 4
+  WE CHOSE: attack wavecrash (hand policy: attack+tera wavecrash) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Basculin|Wave Crash|p2a: Clefable
+  -damage|p2a: Clefable|0 fnt
+  faint|p2a: Clefable
+  -damage|p1a: Basculin|117/261|[from] Recoil
+  switch|p2a: Decidueye|Decidueye-Hisui, L87, M|100/100
+-- turn 5
+  WE CHOSE: attack wavecrash (hand policy: switch to vikavolt) - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to hitmontop (hand policy: forced: switch to vikavolt) - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x2
+  move|p1a: Basculin|Wave Crash|p2a: Decidueye
+  -resisted|p2a: Decidueye
+  -damage|p2a: Decidueye|56/100
+  -damage|p1a: Basculin|74/261|[from] Recoil
+  move|p2a: Decidueye|Leaf Blade|p1a: Basculin
+  -supereffective|p1a: Basculin
+  -damage|p1a: Basculin|0 fnt
+  faint|p1a: Basculin
+  -heal|p2a: Decidueye|62/100|[from] item: Leftovers
+  switch|p1a: Hitmontop|Hitmontop, L88, M|231/231
+-- turn 6
+  WE CHOSE: attack+tera tripleaxel (hand policy: attack tripleaxel) - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x1
+  -terastallize|p1a: Hitmontop|Ice
+  move|p1a: Hitmontop|Triple Axel|p2a: Decidueye|[miss]
+  -miss|p1a: Hitmontop|p2a: Decidueye
+  move|p2a: Decidueye|Leaf Blade|p1a: Hitmontop
+  -damage|p1a: Hitmontop|132/231
+  -heal|p1a: Hitmontop|146/231|[from] item: Leftovers
+  -heal|p2a: Decidueye|68/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack tripleaxel - our hp 0.63, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Hitmontop|Triple Axel|p2a: Decidueye
+  -supereffective|p2a: Decidueye
+  -damage|p2a: Decidueye|43/100
+  -supereffective|p2a: Decidueye
+  -damage|p2a: Decidueye|0 fnt
+  faint|p2a: Decidueye
+  -hitcount|p2: Decidueye|2
+  -heal|p1a: Hitmontop|160/231|[from] item: Leftovers
+  switch|p2a: Typhlosion|Typhlosion-Hisui, L83, F|100/100
+-- turn 8
+  WE CHOSE: switch to sudowoodo - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Sudowoodo|Sudowoodo, L94, F|284/284
+  move|p2a: Typhlosion|Eruption|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|173/284
+  -heal|p1a: Sudowoodo|190/284|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack headsmash - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Typhlosion|Eruption|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|92/284
+  move|p1a: Sudowoodo|Head Smash|p2a: Typhlosion
+  -supereffective|p2a: Typhlosion
+  -crit|p2a: Typhlosion
+  -damage|p2a: Typhlosion|0 fnt
+  faint|p2a: Typhlosion
+  -heal|p1a: Sudowoodo|109/284|[from] item: Leftovers
+  switch|p2a: Staraptor|Staraptor, L79, F|100/100
+-- turn 10
+  WE CHOSE: attack headsmash - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to vikavolt - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Staraptor|Close Combat|p1a: Sudowoodo
+  -supereffective|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|0 fnt
+  -unboost|p2a: Staraptor|def|1
+  -unboost|p2a: Staraptor|spd|1
+  faint|p1a: Sudowoodo
+  switch|p1a: Vikavolt|Vikavolt, L83, F|129/263
+-- turn 11
+  WE CHOSE: attack thunderbolt - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Staraptor|Close Combat|p1a: Vikavolt
+  -resisted|p1a: Vikavolt
+  -damage|p1a: Vikavolt|86/263
+  -unboost|p2a: Staraptor|def|1
+  -unboost|p2a: Staraptor|spd|1
+  move|p1a: Vikavolt|Thunderbolt|p2a: Staraptor
+  -supereffective|p2a: Staraptor
+  -damage|p2a: Staraptor|0 fnt
+  faint|p2a: Staraptor
+  switch|p2a: Tentacruel|Tentacruel, L84, M|100/100
+-- turn 12
+  WE CHOSE: attack energyball (hand policy: attack thunderbolt) - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hitmontop - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Vikavolt
+  -damage|p1a: Vikavolt|0 fnt
+  faint|p1a: Vikavolt
+  switch|p1a: Hitmontop|Hitmontop, L88, M, tera:Ice|160/231
+-- turn 13
+  WE CHOSE: attack tripleaxel - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Hitmontop
+  -damage|p1a: Hitmontop|96/231
+  move|p1a: Hitmontop|Triple Axel|p2a: Tentacruel
+  -resisted|p2a: Tentacruel
+  -damage|p2a: Tentacruel|92/100
+  -hitcount|p2a: Tentacruel|1
+  -heal|p2a: Tentacruel|99/100|[from] item: Leftovers
+  -heal|p1a: Hitmontop|110/231|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack tripleaxel - our hp 0.48, theirs 0.99, predicted move (revealed) hits us x1
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Hitmontop
+  -damage|p1a: Hitmontop|38/231
+  move|p1a: Hitmontop|Triple Axel|p2a: Tentacruel
+  -resisted|p2a: Tentacruel
+  -damage|p2a: Tentacruel|91/100
+  -resisted|p2a: Tentacruel
+  -damage|p2a: Tentacruel|76/100
+  -resisted|p2a: Tentacruel
+  -damage|p2a: Tentacruel|53/100
+  -hitcount|p2a: Tentacruel|3
+  -heal|p2a: Tentacruel|59/100|[from] item: Leftovers
+  -heal|p1a: Hitmontop|52/231|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack tripleaxel - our hp 0.23, theirs 0.59, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lurantis - our hp 0.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Hitmontop
+  -damage|p1a: Hitmontop|0 fnt
+  faint|p1a: Hitmontop
+  -heal|p2a: Tentacruel|66/100|[from] item: Leftovers
+  switch|p1a: Lurantis|Lurantis, L87, M|264/264
+-- turn 16
+  WE CHOSE: attack defog (hand policy: attack leafstorm) - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x2
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Lurantis
+  -supereffective|p1a: Lurantis
+  -crit|p1a: Lurantis
+  -damage|p1a: Lurantis|46/264
+  -status|p1a: Lurantis|psn
+  move|p1a: Lurantis|Defog|p2a: Tentacruel
+  -unboost|p2a: Tentacruel|evasion|1
+  -heal|p2a: Tentacruel|72/100|[from] item: Leftovers
+  -heal|p1a: Lurantis|62/264 psn|[from] item: Leftovers
+  -damage|p1a: Lurantis|29/264 psn|[from] psn
+-- turn 17
+  WE CHOSE: heal synthesis (hand policy: attack leafstorm) - our hp 0.11, theirs 0.72, predicted move (revealed) hits us x2
+  move|p2a: Tentacruel|Sludge Bomb|p1a: Lurantis
+  -supereffective|p1a: Lurantis
+  -damage|p1a: Lurantis|0 fnt
+  faint|p1a: Lurantis
+  deinit

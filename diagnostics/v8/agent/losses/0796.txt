@@ -1,0 +1,298 @@
+battle 796 (battle-gen9randombattle-2026615): lost in 33 turns, 2 of theirs left; we are p1
+
+ours:
+  dedenne (fainted; item ?, ability cheekpouch, tera flying; moves nuzzle/thunderbolt/dazzlinggleam/superfang)
+  ragingbolt (fainted; item assaultvest, ability protosynthesis; moves thunderbolt/voltswitch/thunderclap/dracometeor)
+  dragapult (fainted; item lifeorb, ability clearbody; moves fireblast/dragondarts/dragondance/terablast)
+  pelipper (fainted; item choicespecs, ability drizzle; moves weatherball/uturn/hydropump/hurricane)
+  regirock (fainted; item leftovers, ability clearbody; moves stoneedge/thunderwave/stealthrock/bodypress)
+  sinistchamasterpiece (fainted; item leftovers, ability heatproof; moves matchagotcha/calmmind/shadowball/strengthsap)
+theirs (as seen):
+  ludicolo (fainted; item unknown_item, ability ?; moves leafstorm)
+  pincurchin (fainted; item leftovers, ability ?; moves thunderbolt)
+  ironcrown (fainted; item leftovers, ability quarkdrive; moves focusblast/psyshock)
+  deoxysattack (fainted; item lifeorb, ability pressure; moves psychoboost)
+  flapple (62%; item unknown_item, ability ?; moves outrage)
+
+-- turn 0
+  switch|p1a: Dedenne|Dedenne, L88, M|261/261
+  switch|p2a: Ludicolo|Ludicolo, L90, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera superfang - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Dedenne|Flying
+  move|p1a: Dedenne|Super Fang|p2a: Ludicolo
+  -damage|p2a: Ludicolo|50/100
+  move|p2a: Ludicolo|Leaf Storm|p1a: Dedenne
+  -resisted|p1a: Dedenne
+  -damage|p1a: Dedenne|124/261
+  -unboost|p2a: Ludicolo|spa|2
+  -enditem|p1a: Dedenne|Sitrus Berry|[eat]
+  -heal|p1a: Dedenne|189/261|[from] item: Sitrus Berry
+  -heal|p1a: Dedenne|261/261|[from] ability: Cheek Pouch
+-- turn 2
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x0.5
+  move|p1a: Dedenne|Thunderbolt|p2a: Ludicolo
+  -damage|p2a: Ludicolo|23/100
+  move|p2a: Ludicolo|Leaf Storm|p1a: Dedenne
+  -resisted|p1a: Dedenne
+  -damage|p1a: Dedenne|197/261
+  -unboost|p2a: Ludicolo|spa|2
+-- turn 3
+  WE CHOSE: attack thunderbolt - our hp 0.75, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p1a: Dedenne|Thunderbolt|p2a: Ludicolo
+  -damage|p2a: Ludicolo|0 fnt
+  faint|p2a: Ludicolo
+  switch|p2a: Pincurchin|Pincurchin, F|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+-- turn 4
+  WE CHOSE: switch to ragingbolt - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Raging Bolt|Raging Bolt, L78|323/323
+  move|p2a: Pincurchin|Thunderbolt|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|292/323
+-- turn 5
+  WE CHOSE: attack dracometeor - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Raging Bolt|Draco Meteor|p2a: Pincurchin
+  -damage|p2a: Pincurchin|44/100
+  -unboost|p1a: Raging Bolt|spa|2
+  move|p2a: Pincurchin|Thunderbolt|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|265/323
+  -heal|p2a: Pincurchin|50/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack dracometeor - our hp 0.82, theirs 0.50, predicted move (revealed) hits us x0.25
+  move|p1a: Raging Bolt|Draco Meteor|p2a: Pincurchin
+  -damage|p2a: Pincurchin|25/100
+  -unboost|p1a: Raging Bolt|spa|2
+  move|p2a: Pincurchin|Thunderbolt|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|235/323
+  -heal|p2a: Pincurchin|31/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack dracometeor - our hp 0.73, theirs 0.31, predicted move (revealed) hits us x0.25
+  move|p1a: Raging Bolt|Draco Meteor|p2a: Pincurchin|[miss]
+  -miss|p1a: Raging Bolt|p2a: Pincurchin
+  move|p2a: Pincurchin|Thunderbolt|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|208/323
+  -heal|p2a: Pincurchin|37/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 0.64, theirs 0.37, predicted move (revealed) hits us x0.25
+  move|p1a: Raging Bolt|Draco Meteor|p2a: Pincurchin
+  -damage|p2a: Pincurchin|19/100
+  -unboost|p1a: Raging Bolt|spa|2
+  move|p2a: Pincurchin|Thunderbolt|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|178/323
+  -heal|p2a: Pincurchin|26/100|[from] item: Leftovers
+  -fieldend|move: Electric Terrain
+-- turn 9
+  WE CHOSE: attack dracometeor - our hp 0.55, theirs 0.26, predicted move (revealed) hits us x0.25
+  move|p1a: Raging Bolt|Draco Meteor|p2a: Pincurchin
+  -damage|p2a: Pincurchin|13/100
+  move|p2a: Pincurchin|Thunderbolt|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -crit|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|144/323
+  -heal|p2a: Pincurchin|19/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack dracometeor - our hp 0.45, theirs 0.19, predicted move (revealed) hits us x0.25
+  move|p1a: Raging Bolt|Draco Meteor|p2a: Pincurchin
+  -damage|p2a: Pincurchin|5/100
+  move|p2a: Pincurchin|Thunderbolt|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|123/323
+  -heal|p2a: Pincurchin|11/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack dracometeor - our hp 0.38, theirs 0.11, predicted move (revealed) hits us x0.25
+  move|p1a: Raging Bolt|Draco Meteor|p2a: Pincurchin
+  -damage|p2a: Pincurchin|0 fnt
+  faint|p2a: Pincurchin
+  switch|p2a: Iron Crown|Iron Crown, L78|100/100
+-- turn 12
+  WE CHOSE: switch to sinistchamasterpiece - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x1
+  -end|p1a: Raging Bolt|Protosynthesis|[silent]
+  switch|p1a: Sinistcha|Sinistcha-Masterpiece, L83|254/254
+  move|p2a: Iron Crown|Focus Blast|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+-- turn 13
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Iron Crown|Focus Blast|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+-- turn 14
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Iron Crown|Focus Blast|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+-- turn 15
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Iron Crown|Focus Blast|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+-- turn 16
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Iron Crown|Focus Blast|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+-- turn 17
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Iron Crown|Focus Blast|p1a: Sinistcha
+  -immune|p1a: Sinistcha
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+-- turn 18
+  WE CHOSE: switch to dragapult (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Dragapult|Dragapult, L77, M|262/262
+  move|p2a: Iron Crown|Focus Blast|p1a: Dragapult
+  -immune|p1a: Dragapult
+-- turn 19
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+  -boost|p1a: Dragapult|atk|1
+  -boost|p1a: Dragapult|spe|1
+  move|p2a: Iron Crown|Focus Blast|p1a: Dragapult
+  -immune|p1a: Dragapult
+-- turn 20
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+  -boost|p1a: Dragapult|atk|1
+  -boost|p1a: Dragapult|spe|1
+  move|p2a: Iron Crown|Psyshock|p1a: Dragapult
+  -damage|p1a: Dragapult|150/262
+-- turn 21
+  WE CHOSE: setup dragondance - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+  -boost|p1a: Dragapult|atk|1
+  -boost|p1a: Dragapult|spe|1
+  move|p2a: Iron Crown|Psyshock|p1a: Dragapult
+  -damage|p1a: Dragapult|41/262
+-- turn 22
+  WE CHOSE: attack dragondarts - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to sinistchamasterpiece - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x0
+  move|p1a: Dragapult|Dragon Darts|p2a: Iron Crown
+  -resisted|p2a: Iron Crown
+  -damage|p2a: Iron Crown|72/100
+  -anim|p1a: Dragapult|Dragon Darts|p2a: Iron Crown
+  -resisted|p2a: Iron Crown
+  -damage|p2a: Iron Crown|39/100
+  -damage|p1a: Dragapult|15/262|[from] item: Life Orb
+  move|p2a: Iron Crown|Psyshock|p1a: Dragapult
+  -damage|p1a: Dragapult|0 fnt
+  faint|p1a: Dragapult
+  -heal|p2a: Iron Crown|45/100|[from] item: Leftovers
+  switch|p1a: Sinistcha|Sinistcha-Masterpiece, L83|254/254
+-- turn 23
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x0
+  move|p2a: Iron Crown|Psyshock|p1a: Sinistcha
+  -damage|p1a: Sinistcha|181/254
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+  -heal|p2a: Iron Crown|51/100|[from] item: Leftovers
+  -heal|p1a: Sinistcha|196/254|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: setup calmmind - our hp 0.77, theirs 0.51, predicted move (revealed) hits us x0
+  move|p2a: Iron Crown|Psyshock|p1a: Sinistcha
+  -damage|p1a: Sinistcha|120/254
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+  -heal|p2a: Iron Crown|57/100|[from] item: Leftovers
+  -heal|p1a: Sinistcha|135/254|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: setup calmmind - our hp 0.53, theirs 0.57, predicted move (revealed) hits us x0
+  move|p2a: Iron Crown|Psyshock|p1a: Sinistcha
+  -damage|p1a: Sinistcha|56/254
+  move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+  -boost|p1a: Sinistcha|spa|1
+  -boost|p1a: Sinistcha|spd|1
+  -heal|p2a: Iron Crown|63/100|[from] item: Leftovers
+  -heal|p1a: Sinistcha|71/254|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack shadowball (hand policy: heal strengthsap) - our hp 0.28, theirs 0.63, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to pelipper (hand policy: forced: switch to dedenne) - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x0
+  move|p2a: Iron Crown|Psyshock|p1a: Sinistcha
+  -damage|p1a: Sinistcha|0 fnt
+  faint|p1a: Sinistcha
+  -heal|p2a: Iron Crown|69/100|[from] item: Leftovers
+  switch|p1a: Pelipper|Pelipper, L86, M|243/243
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+-- turn 27
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Crown|Psyshock|p1a: Pelipper
+  -damage|p1a: Pelipper|156/243
+  move|p1a: Pelipper|Hydro Pump|p2a: Iron Crown
+  -damage|p2a: Iron Crown|0 fnt
+  faint|p2a: Iron Crown
+  -end|p2a: Iron Crown|Quark Drive|[silent]
+  -weather|RainDance|[upkeep]
+  switch|p2a: Deoxys|Deoxys-Attack, L72|100/100
+  -ability|p2a: Deoxys|Pressure
+-- turn 28
+  WE CHOSE: attack hydropump - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ragingbolt - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Pelipper
+  -damage|p1a: Pelipper|0 fnt
+  -unboost|p2a: Deoxys|spa|2
+  faint|p1a: Pelipper
+  -damage|p2a: Deoxys|91/100|[from] item: Life Orb
+  -weather|RainDance|[upkeep]
+  switch|p1a: Raging Bolt|Raging Bolt, L78|123/323
+-- turn 29
+  WE CHOSE: attack dracometeor - our hp 0.38, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|44/323
+  -unboost|p2a: Deoxys|spa|2
+  -damage|p2a: Deoxys|81/100|[from] item: Life Orb
+  move|p1a: Raging Bolt|Draco Meteor|p2a: Deoxys
+  -damage|p2a: Deoxys|0 fnt
+  -unboost|p1a: Raging Bolt|spa|2
+  faint|p2a: Deoxys
+  -weather|RainDance|[upkeep]
+  switch|p2a: Flapple|Flapple, L88, M|100/100
+-- turn 30
+  WE CHOSE: switch to dedenne (hand policy: attack thunderbolt) - our hp 0.14, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to regirock (hand policy: forced: switch to ragingbolt) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  -end|p1a: Raging Bolt|Protosynthesis|[silent]
+  switch|p1a: Dedenne|Dedenne, L88, M, tera:Flying|197/261
+  move|p2a: Flapple|Outrage|p1a: Dedenne
+  -damage|p1a: Dedenne|0 fnt
+  faint|p1a: Dedenne
+  -weather|RainDance|[upkeep]
+  switch|p1a: Regirock|Regirock, L83|268/268
+-- turn 31
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Flapple|Outrage|p1a: Regirock|[from] lockedmove
+  -damage|p1a: Regirock|82/268
+  move|p1a: Regirock|Body Press|p2a: Flapple
+  -damage|p2a: Flapple|62/100
+  -weather|none
+  -heal|p1a: Regirock|98/268|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack bodypress - our hp 0.37, theirs 0.62, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ragingbolt - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Flapple|Outrage|p1a: Regirock|[from] lockedmove
+  -crit|p1a: Regirock
+  -damage|p1a: Regirock|0 fnt
+  faint|p1a: Regirock
+  -start|p2a: Flapple|confusion|[fatigue]
+  switch|p1a: Raging Bolt|Raging Bolt, L78|44/323
+-- turn 33
+  WE CHOSE: attack voltswitch (hand policy: attack thunderbolt) - our hp 0.14, theirs 0.62, predicted move (revealed) hits us x2
+  -activate|p2a: Flapple|confusion
+  move|p2a: Flapple|Outrage|p1a: Raging Bolt
+  -supereffective|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|0 fnt
+  faint|p1a: Raging Bolt
+  -end|p1a: Raging Bolt|Protosynthesis|[silent]
+  deinit

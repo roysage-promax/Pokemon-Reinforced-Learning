@@ -1,0 +1,254 @@
+battle 2209 (battle-gen9randombattle-2041109): lost in 29 turns, 3 of theirs left; we are p1
+
+ours:
+  deoxysdefense (fainted; item leftovers, ability pressure; moves cosmicpower/storedpower/nightshade/recover)
+  volcarona (fainted; item heavydutyboots, ability flamebody; moves terablast/gigadrain/quiverdance/fierydance)
+  pawmot (fainted; item leppaberry, ability voltabsorb; moves doubleshock/closecombat/nuzzle/revivalblessing)
+  toxtricity (fainted; item throatspray, ability punkrock; moves gunkshot/overdrive/boomburst/shiftgear)
+  dachsbun (fainted; item leftovers, ability wellbakedbody; moves wish/protect/playrough/bodypress)
+  mandibuzz (fainted; item heavydutyboots, ability overcoat, tera steel; moves defog/roost/foulplay/uturn)
+theirs (as seen):
+  wugtrio (fainted; item unknown_item, ability gooey; moves liquidation)
+  suicune (fainted; item leftovers, ability pressure; moves scald)
+  clodsire (fainted; item leftovers, ability ?; moves gunkshot/earthquake)
+  golurk (43%; item unknown_item, ability ?; moves poltergeist)
+
+-- turn 0
+  switch|p1a: Deoxys|Deoxys-Defense, L84|221/221
+  switch|p2a: Wugtrio|Wugtrio, L91, M|100/100
+  -ability|p1a: Deoxys|Pressure
+-- turn 1
+  WE CHOSE: attack nightshade - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Wugtrio|Liquidation|p1a: Deoxys
+  -damage|p1a: Deoxys|124/221
+  -unboost|p1a: Deoxys|def|1
+  move|p1a: Deoxys|Night Shade|p2a: Wugtrio
+  -damage|p2a: Wugtrio|61/100
+  -heal|p1a: Deoxys|137/221|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to pawmot (hand policy: attack nightshade) - our hp 0.62, theirs 0.61, predicted move (revealed) hits us x1
+  switch|p1a: Pawmot|Pawmot, L80, F|243/243
+  move|p2a: Wugtrio|Liquidation|p1a: Pawmot
+  -damage|p1a: Pawmot|42/243
+-- turn 3
+  WE CHOSE: attack nuzzle (hand policy: attack+tera doubleshock) - our hp 0.17, theirs 0.61, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to toxtricity - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Wugtrio|Liquidation|p1a: Pawmot
+  -damage|p1a: Pawmot|0 fnt
+  faint|p1a: Pawmot
+  switch|p1a: Toxtricity|Toxtricity, L82, F|257/257
+-- turn 4
+  WE CHOSE: attack overdrive - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mandibuzz - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Wugtrio|Liquidation|p1a: Toxtricity
+  -crit|p1a: Toxtricity
+  -damage|p1a: Toxtricity|0 fnt
+  faint|p1a: Toxtricity
+  switch|p1a: Mandibuzz|Mandibuzz, L85, F|326/326
+-- turn 5
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Wugtrio|Liquidation|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|188/326
+  move|p1a: Mandibuzz|Foul Play|p2a: Wugtrio
+  -damage|p2a: Wugtrio|0 fnt
+  -ability|p2a: Wugtrio|Gooey
+  -unboost|p1a: Mandibuzz|spe|1
+  faint|p2a: Wugtrio
+  switch|p2a: Suicune|Suicune, L82|100/100
+  -ability|p2a: Suicune|Pressure
+-- turn 6
+  WE CHOSE: heal+tera roost (hand policy: switch to volcarona) - our hp 0.58, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Mandibuzz|Steel
+  move|p2a: Suicune|Scald|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|122/326
+  move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+  -heal|p1a: Mandibuzz|285/326
+-- turn 7
+  WE CHOSE: attack foulplay - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Suicune|Scald|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|207/326
+  move|p1a: Mandibuzz|Foul Play|p2a: Suicune
+  -damage|p2a: Suicune|83/100
+  -heal|p2a: Suicune|89/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack foulplay - our hp 0.63, theirs 0.89, predicted move (revealed) hits us x1
+  move|p2a: Suicune|Scald|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|132/326
+  move|p1a: Mandibuzz|Foul Play|p2a: Suicune
+  -damage|p2a: Suicune|71/100
+  -heal|p2a: Suicune|77/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack foulplay (hand policy: heal roost) - our hp 0.40, theirs 0.77, predicted move (revealed) hits us x1
+  move|p2a: Suicune|Scald|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|65/326
+  move|p1a: Mandibuzz|Foul Play|p2a: Suicune
+  -damage|p2a: Suicune|58/100
+  -heal|p2a: Suicune|64/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack foulplay (hand policy: heal roost) - our hp 0.20, theirs 0.64, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to deoxysdefense (hand policy: forced: switch to dachsbun) - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Suicune|Scald|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|0 fnt
+  faint|p1a: Mandibuzz
+  -heal|p2a: Suicune|70/100|[from] item: Leftovers
+  switch|p1a: Deoxys|Deoxys-Defense, L84|137/221
+  -ability|p1a: Deoxys|Pressure
+-- turn 11
+  WE CHOSE: attack nightshade - our hp 0.62, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Night Shade|p2a: Suicune
+  -damage|p2a: Suicune|42/100
+  move|p2a: Suicune|Scald|p1a: Deoxys
+  -damage|p1a: Deoxys|85/221
+  -heal|p1a: Deoxys|98/221|[from] item: Leftovers
+  -heal|p2a: Suicune|48/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack nightshade (hand policy: heal recover) - our hp 0.44, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Night Shade|p2a: Suicune
+  -damage|p2a: Suicune|20/100
+  move|p2a: Suicune|Scald|p1a: Deoxys
+  -damage|p1a: Deoxys|52/221
+  -status|p1a: Deoxys|brn
+  -heal|p1a: Deoxys|65/221 brn|[from] item: Leftovers
+  -heal|p2a: Suicune|26/100|[from] item: Leftovers
+  -damage|p1a: Deoxys|52/221 brn|[from] brn
+-- turn 13
+  WE CHOSE: heal recover - our hp 0.24, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Recover|p1a: Deoxys
+  -heal|p1a: Deoxys|163/221 brn
+  move|p2a: Suicune|Scald|p1a: Deoxys
+  -damage|p1a: Deoxys|114/221 brn
+  -heal|p1a: Deoxys|127/221 brn|[from] item: Leftovers
+  -heal|p2a: Suicune|32/100|[from] item: Leftovers
+  -damage|p1a: Deoxys|114/221 brn|[from] brn
+-- turn 14
+  WE CHOSE: attack nightshade - our hp 0.52, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Night Shade|p2a: Suicune
+  -damage|p2a: Suicune|4/100
+  move|p2a: Suicune|Scald|p1a: Deoxys
+  -damage|p1a: Deoxys|63/221 brn
+  -heal|p1a: Deoxys|76/221 brn|[from] item: Leftovers
+  -heal|p2a: Suicune|10/100|[from] item: Leftovers
+  -damage|p1a: Deoxys|63/221 brn|[from] brn
+-- turn 15
+  WE CHOSE: attack nightshade (hand policy: heal recover) - our hp 0.29, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Night Shade|p2a: Suicune
+  -damage|p2a: Suicune|0 fnt
+  faint|p2a: Suicune
+  -heal|p1a: Deoxys|76/221 brn|[from] item: Leftovers
+  -damage|p1a: Deoxys|63/221 brn|[from] brn
+  switch|p2a: Clodsire|Clodsire, L81, F|100/100
+-- turn 16
+  WE CHOSE: heal recover - our hp 0.29, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Deoxys|Recover|p1a: Deoxys
+  -heal|p1a: Deoxys|174/221 brn
+  move|p2a: Clodsire|Gunk Shot|p1a: Deoxys
+  -damage|p1a: Deoxys|111/221 brn
+  -heal|p1a: Deoxys|124/221 brn|[from] item: Leftovers
+  -damage|p1a: Deoxys|111/221 brn|[from] brn
+-- turn 17
+  WE CHOSE: attack nightshade - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Night Shade|p2a: Clodsire
+  -damage|p2a: Clodsire|76/100
+  move|p2a: Clodsire|Gunk Shot|p1a: Deoxys|[miss]
+  -miss|p2a: Clodsire|p1a: Deoxys
+  -heal|p1a: Deoxys|124/221 brn|[from] item: Leftovers
+  -heal|p2a: Clodsire|82/100|[from] item: Leftovers
+  -damage|p1a: Deoxys|111/221 brn|[from] brn
+-- turn 18
+  WE CHOSE: attack nightshade - our hp 0.50, theirs 0.82, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Night Shade|p2a: Clodsire
+  -damage|p2a: Clodsire|58/100
+  move|p2a: Clodsire|Gunk Shot|p1a: Deoxys|[miss]
+  -miss|p2a: Clodsire|p1a: Deoxys
+  -heal|p1a: Deoxys|124/221 brn|[from] item: Leftovers
+  -heal|p2a: Clodsire|64/100|[from] item: Leftovers
+  -damage|p1a: Deoxys|111/221 brn|[from] brn
+-- turn 19
+  WE CHOSE: attack nightshade - our hp 0.50, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Night Shade|p2a: Clodsire
+  -damage|p2a: Clodsire|39/100
+  move|p2a: Clodsire|Gunk Shot|p1a: Deoxys
+  -damage|p1a: Deoxys|48/221 brn
+  -heal|p1a: Deoxys|61/221 brn|[from] item: Leftovers
+  -heal|p2a: Clodsire|45/100|[from] item: Leftovers
+  -damage|p1a: Deoxys|48/221 brn|[from] brn
+-- turn 20
+  WE CHOSE: attack nightshade (hand policy: heal recover) - our hp 0.22, theirs 0.45, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to volcarona - our hp 0.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Night Shade|p2a: Clodsire
+  -damage|p2a: Clodsire|21/100
+  move|p2a: Clodsire|Earthquake|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  faint|p1a: Deoxys
+  -heal|p2a: Clodsire|27/100|[from] item: Leftovers
+  switch|p1a: Volcarona|Volcarona, L77, F|257/257
+-- turn 21
+  WE CHOSE: attack fierydance - our hp 1.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Volcarona|Fiery Dance|p2a: Clodsire
+  -damage|p2a: Clodsire|3/100
+  -boost|p1a: Volcarona|spa|1
+  move|p2a: Clodsire|Earthquake|p1a: Volcarona
+  -damage|p1a: Volcarona|152/257
+  -heal|p2a: Clodsire|9/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack gigadrain (hand policy: attack fierydance) - our hp 0.59, theirs 0.09, predicted move (revealed) hits us x1
+  move|p1a: Volcarona|Giga Drain|p2a: Clodsire
+  -damage|p2a: Clodsire|0 fnt
+  -heal|p1a: Volcarona|167/257|[from] drain|[of] p2a: Clodsire
+  faint|p2a: Clodsire
+  switch|p2a: Golurk|Golurk, L87|100/100
+-- turn 23
+  WE CHOSE: attack gigadrain - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dachsbun - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Volcarona|Giga Drain|p2a: Golurk
+  -supereffective|p2a: Golurk
+  -damage|p2a: Golurk|43/100
+  -heal|p1a: Volcarona|252/257|[from] drain|[of] p2a: Golurk
+  move|p2a: Golurk|Poltergeist|p1a: Volcarona
+  -activate|p1a: Volcarona|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Volcarona|0 fnt
+  faint|p1a: Volcarona
+  switch|p1a: Dachsbun|Dachsbun, L92, F|254/254
+-- turn 24
+  WE CHOSE: attack protect (hand policy: attack playrough) - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Dachsbun|Protect|p1a: Dachsbun
+  -singleturn|p1a: Dachsbun|Protect
+  move|p2a: Golurk|Poltergeist|p1a: Dachsbun
+  -activate|p1a: Dachsbun|move: Protect
+-- turn 25
+  WE CHOSE: attack protect (hand policy: attack playrough) - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Dachsbun|Protect|p1a: Dachsbun
+  -singleturn|p1a: Dachsbun|Protect
+  move|p2a: Golurk|Poltergeist|p1a: Dachsbun
+  -activate|p1a: Dachsbun|move: Protect
+-- turn 26
+  WE CHOSE: attack protect (hand policy: attack playrough) - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Dachsbun|Protect||[still]
+  -fail|p1a: Dachsbun
+  move|p2a: Golurk|Poltergeist|p1a: Dachsbun
+  -activate|p1a: Dachsbun|move: Poltergeist|Leftovers
+  -damage|p1a: Dachsbun|83/254
+  -heal|p1a: Dachsbun|98/254|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack protect (hand policy: attack playrough) - our hp 0.39, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Dachsbun|Protect|p1a: Dachsbun
+  -singleturn|p1a: Dachsbun|Protect
+  move|p2a: Golurk|Poltergeist|p1a: Dachsbun
+  -activate|p1a: Dachsbun|move: Protect
+  -heal|p1a: Dachsbun|113/254|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack protect (hand policy: attack playrough) - our hp 0.44, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Dachsbun|Protect|p1a: Dachsbun
+  -singleturn|p1a: Dachsbun|Protect
+  move|p2a: Golurk|Poltergeist|p1a: Dachsbun
+  -activate|p1a: Dachsbun|move: Protect
+  -heal|p1a: Dachsbun|128/254|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack protect (hand policy: attack playrough) - our hp 0.50, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Dachsbun|Protect||[still]
+  -fail|p1a: Dachsbun
+  move|p2a: Golurk|Poltergeist|p1a: Dachsbun
+  -activate|p1a: Dachsbun|move: Poltergeist|Leftovers
+  -damage|p1a: Dachsbun|0 fnt
+  faint|p1a: Dachsbun
+  deinit

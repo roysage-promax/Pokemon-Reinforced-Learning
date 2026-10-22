@@ -1,0 +1,181 @@
+battle 464 (battle-gen9randombattle-2022777): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  victreebel (fainted; item lifeorb, ability chlorophyll; moves knockoff/sludgewave/strengthsap/powerwhip)
+  basculinbluestriped (fainted; item choiceband, ability adaptability, tera water; moves aquajet/wavecrash/flipturn/doubleedge)
+  quagsire (fainted; item leftovers, ability unaware; moves earthquake/recover/toxic/icebeam)
+  cyclizar (fainted; item heavydutyboots, ability regenerator; moves taunt/rapidspin/shedtail/dracometeor)
+  mabosstiff (fainted; item choiceband, ability stakeout; moves playrough/wildcharge/psychicfangs/crunch)
+  glalie (fainted; item heavydutyboots, ability innerfocus; moves taunt/freezedry/earthquake/spikes)
+theirs (as seen):
+  sandslashalola (fainted; item lifeorb, ability ?; moves earthquake)
+  salazzle (fainted; item unknown_item, ability ?; moves fireblast)
+  amoonguss (fainted; item unknown_item, ability ?; moves sludgebomb)
+  arceusice (fainted; item unknown_item, ability multitype; moves judgment)
+  primarina (fainted; item leftovers, ability ?; moves moonblast)
+  diancie (53%; item unknown_item, ability clearbody; moves diamondstorm)
+
+-- turn 0
+  switch|p1a: Victreebel|Victreebel, L90, M|290/290
+  switch|p2a: Sandslash|Sandslash-Alola, L88, M|100/100
+-- turn 1
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Victreebel|Power Whip|p2a: Sandslash|[miss]
+  -miss|p1a: Victreebel|p2a: Sandslash
+  move|p2a: Sandslash|Earthquake|p1a: Victreebel
+  -damage|p1a: Victreebel|167/290
+  -damage|p2a: Sandslash|91/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack powerwhip - our hp 0.58, theirs 0.91, predicted move (revealed) hits us x1
+  move|p1a: Victreebel|Power Whip|p2a: Sandslash
+  -resisted|p2a: Sandslash
+  -damage|p2a: Sandslash|61/100
+  -damage|p1a: Victreebel|138/290|[from] item: Life Orb
+  move|p2a: Sandslash|Earthquake|p1a: Victreebel
+  -damage|p1a: Victreebel|26/290
+  -damage|p2a: Sandslash|51/100|[from] item: Life Orb
+-- turn 3
+  WE CHOSE: heal strengthsap - our hp 0.09, theirs 0.51, predicted move (revealed) hits us x1
+  move|p1a: Victreebel|Strength Sap|p2a: Sandslash
+  -unboost|p2a: Sandslash|atk|1
+  -heal|p1a: Victreebel|252/290
+  move|p2a: Sandslash|Earthquake|p1a: Victreebel
+  -damage|p1a: Victreebel|170/290
+  -damage|p2a: Sandslash|41/100|[from] item: Life Orb
+-- turn 4
+  WE CHOSE: attack powerwhip - our hp 0.59, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Victreebel|Power Whip|p2a: Sandslash
+  -resisted|p2a: Sandslash
+  -crit|p2a: Sandslash
+  -damage|p2a: Sandslash|0 fnt
+  faint|p2a: Sandslash
+  -damage|p1a: Victreebel|141/290|[from] item: Life Orb
+  switch|p2a: Salazzle|Salazzle, L83, F|100/100
+-- turn 5
+  WE CHOSE: switch to basculinbluestriped - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Basculin|Basculin-Blue-Striped, L86, F|261/261
+  move|p2a: Salazzle|Fire Blast|p1a: Basculin
+  -resisted|p1a: Basculin
+  -damage|p1a: Basculin|174/261
+-- turn 6
+  WE CHOSE: attack+tera wavecrash - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to quagsire - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Basculin|Water
+  move|p2a: Salazzle|Fire Blast|p1a: Basculin
+  -resisted|p1a: Basculin
+  -crit|p1a: Basculin
+  -damage|p1a: Basculin|46/261
+  move|p1a: Basculin|Wave Crash|p2a: Salazzle
+  -supereffective|p2a: Salazzle
+  -damage|p2a: Salazzle|0 fnt
+  faint|p2a: Salazzle
+  -damage|p1a: Basculin|0 fnt|[from] Recoil
+  faint|p1a: Basculin
+  switch|p2a: Amoonguss|Amoonguss, L82, F|100/100
+  switch|p1a: Quagsire|Quagsire, L84, M|297/297
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Quagsire|Earthquake|p2a: Amoonguss
+  -crit|p2a: Amoonguss
+  -damage|p2a: Amoonguss|50/100
+  move|p2a: Amoonguss|Sludge Bomb|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|249/297
+  -status|p1a: Quagsire|psn
+  -heal|p1a: Quagsire|267/297 psn|[from] item: Leftovers
+  -damage|p1a: Quagsire|230/297 psn|[from] psn
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 0.77, theirs 0.50, predicted move (revealed) hits us x0.5
+  move|p1a: Quagsire|Earthquake|p2a: Amoonguss
+  -damage|p2a: Amoonguss|12/100
+  move|p2a: Amoonguss|Sludge Bomb|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|176/297 psn
+  -heal|p1a: Quagsire|194/297 psn|[from] item: Leftovers
+  -damage|p1a: Quagsire|157/297 psn|[from] psn
+-- turn 9
+  WE CHOSE: attack icebeam - our hp 0.53, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Quagsire|Ice Beam|p2a: Amoonguss
+  -supereffective|p2a: Amoonguss
+  -damage|p2a: Amoonguss|0 fnt
+  faint|p2a: Amoonguss
+  -heal|p1a: Quagsire|175/297 psn|[from] item: Leftovers
+  -damage|p1a: Quagsire|138/297 psn|[from] psn
+  switch|p2a: Arceus|Arceus-Ice, L72|100/100
+-- turn 10
+  WE CHOSE: heal recover - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to cyclizar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Quagsire
+  -damage|p1a: Quagsire|0 fnt
+  faint|p1a: Quagsire
+  switch|p1a: Cyclizar|Cyclizar, L84, M|255/255
+-- turn 11
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to victreebel - our hp 0.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Cyclizar|Draco Meteor|p2a: Arceus
+  -damage|p2a: Arceus|58/100
+  -unboost|p1a: Cyclizar|spa|2
+  move|p2a: Arceus|Judgment|p1a: Cyclizar
+  -supereffective|p1a: Cyclizar
+  -damage|p1a: Cyclizar|0 fnt
+  faint|p1a: Cyclizar
+  switch|p1a: Victreebel|Victreebel, L90, M|141/290
+-- turn 12
+  WE CHOSE: heal strengthsap - our hp 0.49, theirs 0.58, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mabosstiff - our hp 0.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Victreebel
+  -supereffective|p1a: Victreebel
+  -damage|p1a: Victreebel|0 fnt
+  faint|p1a: Victreebel
+  switch|p1a: Mabosstiff|Mabosstiff, L86, F|278/278
+-- turn 13
+  WE CHOSE: attack crunch - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Mabosstiff
+  -damage|p1a: Mabosstiff|155/278
+  move|p1a: Mabosstiff|Crunch|p2a: Arceus
+  -damage|p2a: Arceus|11/100
+-- turn 14
+  WE CHOSE: attack crunch - our hp 0.56, theirs 0.11, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Judgment|p1a: Mabosstiff
+  -damage|p1a: Mabosstiff|16/278
+  move|p1a: Mabosstiff|Crunch|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  switch|p2a: Primarina|Primarina, L83, F|100/100
+-- turn 15
+  WE CHOSE: attack crunch - our hp 0.06, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to glalie - our hp 0.00, theirs 0.75, predicted move (revealed) hits us x2
+  move|p1a: Mabosstiff|Crunch|p2a: Primarina
+  -resisted|p2a: Primarina
+  -damage|p2a: Primarina|69/100
+  -unboost|p2a: Primarina|def|1
+  move|p2a: Primarina|Moonblast|p1a: Mabosstiff
+  -supereffective|p1a: Mabosstiff
+  -damage|p1a: Mabosstiff|0 fnt
+  faint|p1a: Mabosstiff
+  -heal|p2a: Primarina|75/100|[from] item: Leftovers
+  switch|p1a: Glalie|Glalie, L96, F|309/309
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x1
+  move|p1a: Glalie|Earthquake|p2a: Primarina
+  -damage|p2a: Primarina|21/100
+  move|p2a: Primarina|Moonblast|p1a: Glalie
+  -damage|p1a: Glalie|192/309
+  -heal|p2a: Primarina|27/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 0.62, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Glalie|Earthquake|p2a: Primarina
+  -damage|p2a: Primarina|0 fnt
+  faint|p2a: Primarina
+  switch|p2a: Diancie|Diancie, L82|100/100
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 0.62, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Glalie|Earthquake|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|53/100
+  move|p2a: Diancie|Diamond Storm|p1a: Glalie
+  -supereffective|p1a: Glalie
+  -damage|p1a: Glalie|0 fnt
+  -boost|p2a: Diancie|def|2
+  faint|p1a: Glalie
+  deinit

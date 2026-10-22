@@ -1,0 +1,227 @@
+battle 1003 (battle-gen9randombattle-2027853): lost in 25 turns, 1 of theirs left; we are p1
+
+ours:
+  leavanny (fainted; item loadeddice, ability chlorophyll; moves bulletseed/knockoff/stickyweb/tripleaxel)
+  lapras (fainted; item choicespecs, ability waterabsorb; moves sparklingaria/hydropump/freezedry/icebeam)
+  swanna (fainted; item heavydutyboots, ability hydration; moves defog/hydropump/bravebird/roost)
+  hatterene (fainted; item leftovers, ability magicbounce; moves psyshock/calmmind/mysticalfire/drainingkiss)
+  flygon (fainted; item lumberry, ability levitate; moves outrage/dragondance/earthquake/stoneedge)
+  infernape (fainted; item lifeorb, ability blaze; moves gunkshot/closecombat/knockoff/overheat)
+theirs (as seen):
+  hitmontop (fainted; item leftovers, ability ?; moves closecombat)
+  munkidori (fainted; item unknown_item, ability ?; moves sludgewave)
+  glaceon (fainted; item unknown_item, ability ?; moves freezedry)
+  clawitzer (fainted; item unknown_item, ability megalauncher; moves dragonpulse)
+  morpeko (fainted; item unknown_item, ability hungerswitch; moves aurawheel)
+  calyrexshadow (100%; item unknown_item, ability grimneigh; moves astralbarrage)
+
+-- turn 0
+  switch|p1a: Leavanny|Leavanny, L86, F|269/269
+  switch|p2a: Hitmontop|Hitmontop, L88, M|100/100
+-- turn 1
+  WE CHOSE: attack bulletseed - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Leavanny|Bullet Seed|p2a: Hitmontop
+  -damage|p2a: Hitmontop|90/100
+  -damage|p2a: Hitmontop|78/100
+  -damage|p2a: Hitmontop|66/100
+  -damage|p2a: Hitmontop|55/100
+  -damage|p2a: Hitmontop|44/100
+  -hitcount|p2a: Hitmontop|5
+  move|p2a: Hitmontop|Close Combat|p1a: Leavanny
+  -resisted|p1a: Leavanny
+  -damage|p1a: Leavanny|197/269
+  -unboost|p2a: Hitmontop|def|1
+  -unboost|p2a: Hitmontop|spd|1
+  -heal|p2a: Hitmontop|50/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack bulletseed - our hp 0.73, theirs 0.50, predicted move (revealed) hits us x0.5
+  move|p1a: Leavanny|Bullet Seed|p2a: Hitmontop
+  -damage|p2a: Hitmontop|33/100
+  -damage|p2a: Hitmontop|15/100
+  -damage|p2a: Hitmontop|0 fnt
+  faint|p2a: Hitmontop
+  -hitcount|p2: Hitmontop|3
+  switch|p2a: Munkidori|Munkidori, L79, M|100/100
+-- turn 3
+  WE CHOSE: attack knockoff - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to flygon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Munkidori|Sludge Wave|p1a: Leavanny
+  -supereffective|p1a: Leavanny
+  -damage|p1a: Leavanny|0 fnt
+  faint|p1a: Leavanny
+  switch|p1a: Flygon|Flygon, L82, F|265/265
+-- turn 4
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Munkidori|Sludge Wave|p1a: Flygon
+  -resisted|p1a: Flygon
+  -damage|p1a: Flygon|201/265
+  move|p1a: Flygon|Dragon Dance|p1a: Flygon
+  -boost|p1a: Flygon|atk|1
+  -boost|p1a: Flygon|spe|1
+-- turn 5
+  WE CHOSE: setup dragondance - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Flygon|Dragon Dance|p1a: Flygon
+  -boost|p1a: Flygon|atk|1
+  -boost|p1a: Flygon|spe|1
+  move|p2a: Munkidori|Sludge Wave|p1a: Flygon
+  -resisted|p1a: Flygon
+  -damage|p1a: Flygon|135/265
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Flygon|Earthquake|p2a: Munkidori
+  -supereffective|p2a: Munkidori
+  -damage|p2a: Munkidori|0 fnt
+  faint|p2a: Munkidori
+  switch|p2a: Glaceon|Glaceon, L94, M|100/100
+-- turn 7
+  WE CHOSE: switch to lapras - our hp 0.51, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Lapras|Lapras, L87, F|367/367
+  move|p2a: Glaceon|Freeze-Dry|p1a: Lapras
+  -damage|p1a: Lapras|262/367
+-- turn 8
+  WE CHOSE: attack sparklingaria - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Glaceon|Freeze-Dry|p1a: Lapras
+  -damage|p1a: Lapras|156/367
+  move|p1a: Lapras|Sparkling Aria|p2a: Glaceon
+  -damage|p2a: Glaceon|58/100
+-- turn 9
+  WE CHOSE: attack sparklingaria - our hp 0.43, theirs 0.58, predicted move (revealed) hits us x0.25
+  move|p2a: Glaceon|Freeze-Dry|p1a: Lapras
+  -damage|p1a: Lapras|42/367
+  move|p1a: Lapras|Sparkling Aria|p2a: Glaceon
+  -damage|p2a: Glaceon|15/100
+-- turn 10
+  WE CHOSE: attack sparklingaria - our hp 0.11, theirs 0.15, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to infernape - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x0.25
+  move|p2a: Glaceon|Freeze-Dry|p1a: Lapras
+  -crit|p1a: Lapras
+  -damage|p1a: Lapras|0 fnt
+  faint|p1a: Lapras
+  switch|p1a: Infernape|Infernape, L82, M|259/259
+-- turn 11
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p1a: Infernape|Close Combat|p2a: Glaceon
+  -supereffective|p2a: Glaceon
+  -damage|p2a: Glaceon|0 fnt
+  -unboost|p1a: Infernape|def|1
+  -unboost|p1a: Infernape|spd|1
+  faint|p2a: Glaceon
+  -damage|p1a: Infernape|234/259|[from] item: Life Orb
+  switch|p2a: Clawitzer|Clawitzer, L87, M|100/100
+-- turn 12
+  WE CHOSE: attack closecombat - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to hatterene - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Infernape|Close Combat|p2a: Clawitzer
+  -damage|p2a: Clawitzer|41/100
+  -unboost|p1a: Infernape|def|1
+  -unboost|p1a: Infernape|spd|1
+  -damage|p1a: Infernape|209/259|[from] item: Life Orb
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Infernape
+  -damage|p1a: Infernape|0 fnt
+  faint|p1a: Infernape
+  switch|p1a: Hatterene|Hatterene, L85, F|236/236
+-- turn 13
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+  -boost|p1a: Hatterene|spa|1
+  -boost|p1a: Hatterene|spd|1
+-- turn 14
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+  -boost|p1a: Hatterene|spa|1
+  -boost|p1a: Hatterene|spd|1
+-- turn 15
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+  -boost|p1a: Hatterene|spa|1
+  -boost|p1a: Hatterene|spd|1
+-- turn 16
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+  -boost|p1a: Hatterene|spa|1
+  -boost|p1a: Hatterene|spd|1
+-- turn 17
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+  -boost|p1a: Hatterene|spa|1
+  -boost|p1a: Hatterene|spd|1
+-- turn 18
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+  -boost|p1a: Hatterene|spa|1
+  -boost|p1a: Hatterene|spd|1
+-- turn 19
+  WE CHOSE: attack psyshock - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x0
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Hatterene
+  -immune|p1a: Hatterene
+  move|p1a: Hatterene|Psyshock|p2a: Clawitzer
+  -damage|p2a: Clawitzer|0 fnt
+  faint|p2a: Clawitzer
+  switch|p2a: Morpeko|Morpeko, L88, M|100/100
+-- turn 20
+  WE CHOSE: switch to flygon - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Flygon|Flygon, L82, F|135/265
+  move|p2a: Morpeko|Aura Wheel|p1a: Flygon
+  -immune|p1a: Flygon
+  -formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+-- turn 21
+  WE CHOSE: setup dragondance - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to hatterene - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Morpeko|Aura Wheel|p1a: Flygon
+  -damage|p1a: Flygon|0 fnt
+  -boost|p2a: Morpeko|spe|1
+  faint|p1a: Flygon
+  -formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+  switch|p1a: Hatterene|Hatterene, L85, F|236/236
+-- turn 22
+  WE CHOSE: attack drainingkiss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Morpeko|Aura Wheel|p1a: Hatterene
+  -damage|p1a: Hatterene|110/236
+  -boost|p2a: Morpeko|spe|1
+  move|p1a: Hatterene|Draining Kiss|p2a: Morpeko
+  -supereffective|p2a: Morpeko
+  -damage|p2a: Morpeko|21/100
+  -heal|p1a: Hatterene|236/236|[from] drain|[of] p2a: Morpeko
+  -formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+-- turn 23
+  WE CHOSE: attack drainingkiss - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Morpeko|Aura Wheel|p1a: Hatterene
+  -damage|p1a: Hatterene|127/236
+  -boost|p2a: Morpeko|spe|1
+  move|p1a: Hatterene|Draining Kiss|p2a: Morpeko
+  -supereffective|p2a: Morpeko
+  -damage|p2a: Morpeko|0 fnt
+  -heal|p1a: Hatterene|165/236|[from] drain|[of] p2a: Morpeko
+  faint|p2a: Morpeko
+  -heal|p1a: Hatterene|179/236|[from] item: Leftovers
+  switch|p2a: Calyrex|Calyrex-Shadow, L64|100/100
+  -ability|p2a: Calyrex|As One
+  -ability|p2a: Calyrex|Unnerve
+-- turn 24
+  WE CHOSE: attack drainingkiss - our hp 0.76, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to swanna - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Calyrex|Astral Barrage|p1a: Hatterene
+  -supereffective|p1a: Hatterene
+  -damage|p1a: Hatterene|0 fnt
+  faint|p1a: Hatterene
+  -ability|p2a: Calyrex|Grim Neigh|boost
+  -boost|p2a: Calyrex|spa|1
+  switch|p1a: Swanna|Swanna, L89, F|278/278
+-- turn 25
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Calyrex|Astral Barrage|p1a: Swanna
+  -damage|p1a: Swanna|0 fnt
+  faint|p1a: Swanna
+  deinit

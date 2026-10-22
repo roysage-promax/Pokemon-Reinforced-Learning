@@ -1,0 +1,194 @@
+battle 237 (battle-gen9randombattle-2020920): lost in 18 turns, 2 of theirs left; we are p1
+
+ours:
+  leafeon (fainted; item leftovers, ability chlorophyll; moves swordsdance/doubleedge/leafblade/substitute)
+  overqwil (fainted; item choiceband, ability intimidate; moves crunch/gunkshot/aquajet/liquidation)
+  regirock (fainted; item leftovers, ability clearbody, tera fighting; moves thunderwave/bodypress/stealthrock/stoneedge)
+  rillaboom (fainted; item lifeorb, ability grassysurge; moves woodhammer/grassyglide/swordsdance/knockoff)
+  tauros (fainted; item lifeorb, ability sheerforce; moves bodyslam/closecombat/zenheadbutt/throatchop)
+  beartic (fainted; item heavydutyboots, ability slushrush; moves closecombat/swordsdance/earthquake/iciclecrash)
+theirs (as seen):
+  emboar (fainted; item leftovers, ability ?; moves flareblitz)
+  gardevoir (fainted; item lifeorb, ability clearbody; moves moonblast)
+  mightyena (fainted; item unknown_item, ability intimidate; moves playrough)
+  meowsticf (fainted; item lifeorb, ability ?; moves thunderbolt)
+  volcanion (13%; item unknown_item, ability waterabsorb; moves steameruption)
+
+-- turn 0
+  switch|p1a: Leafeon|Leafeon, L88, M|258/258
+  switch|p2a: Emboar|Emboar, L84, M|100/100
+-- turn 1
+  WE CHOSE: setup swordsdance (hand policy: attack+tera doubleedge) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to tauros (hand policy: forced: switch to regirock) - our hp 0.00, theirs 0.80, predicted move (revealed) hits us x2
+  move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+  -boost|p1a: Leafeon|atk|2
+  move|p2a: Emboar|Flare Blitz|p1a: Leafeon
+  -supereffective|p1a: Leafeon
+  -damage|p1a: Leafeon|0 fnt
+  faint|p1a: Leafeon
+  -damage|p2a: Emboar|74/100|[from] Recoil
+  -heal|p2a: Emboar|80/100|[from] item: Leftovers
+  switch|p1a: Tauros|Tauros, L82, M|257/257
+-- turn 2
+  WE CHOSE: attack zenheadbutt (hand policy: attack+tera zenheadbutt) - our hp 1.00, theirs 0.80, predicted move (revealed) hits us x1
+  move|p1a: Tauros|Zen Headbutt|p2a: Emboar|[miss]
+  -miss|p1a: Tauros|p2a: Emboar
+  move|p2a: Emboar|Flare Blitz|p1a: Tauros
+  -damage|p1a: Tauros|92/257
+  -status|p1a: Tauros|brn
+  -damage|p2a: Emboar|64/100|[from] Recoil
+  -heal|p2a: Emboar|70/100|[from] item: Leftovers
+  -damage|p1a: Tauros|76/257 brn|[from] brn
+-- turn 3
+  WE CHOSE: switch to regirock (hand policy: attack+tera zenheadbutt) - our hp 0.30, theirs 0.70, predicted move (revealed) hits us x1
+  switch|p1a: Regirock|Regirock, L83|268/268
+  move|p2a: Emboar|Flare Blitz|p1a: Regirock
+  -resisted|p1a: Regirock
+  -damage|p1a: Regirock|221/268
+  -damage|p2a: Emboar|65/100|[from] Recoil
+  -heal|p2a: Emboar|71/100|[from] item: Leftovers
+  -heal|p1a: Regirock|237/268|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack bodypress - our hp 0.88, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p2a: Emboar|Flare Blitz|p1a: Regirock
+  -resisted|p1a: Regirock
+  -damage|p1a: Regirock|193/268
+  -damage|p2a: Emboar|66/100|[from] Recoil
+  move|p1a: Regirock|Body Press|p2a: Emboar
+  -damage|p2a: Emboar|27/100
+  -heal|p2a: Emboar|33/100|[from] item: Leftovers
+  -heal|p1a: Regirock|209/268|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack stoneedge - our hp 0.78, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p2a: Emboar|Flare Blitz|p1a: Regirock
+  -resisted|p1a: Regirock
+  -damage|p1a: Regirock|161/268
+  -damage|p2a: Emboar|28/100|[from] Recoil
+  move|p1a: Regirock|Stone Edge|p2a: Emboar
+  -damage|p2a: Emboar|0 fnt
+  faint|p2a: Emboar
+  -heal|p1a: Regirock|177/268|[from] item: Leftovers
+  switch|p2a: Gardevoir|Gardevoir, L83, F|100/100
+  -ability|p2a: Gardevoir|Clear Body|Trace|[from] ability: Trace|[of] p1a: Regirock
+-- turn 6
+  WE CHOSE: attack+tera stoneedge (hand policy: attack stoneedge) - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to overqwil - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x2
+  -terastallize|p1a: Regirock|Fighting
+  move|p2a: Gardevoir|Moonblast|p1a: Regirock
+  -supereffective|p1a: Regirock
+  -damage|p1a: Regirock|0 fnt
+  faint|p1a: Regirock
+  -damage|p2a: Gardevoir|91/100|[from] item: Life Orb
+  switch|p1a: Overqwil|Overqwil, L82, M|274/274
+  -ability|p1a: Overqwil|Intimidate|boost
+  -fail|p2a: Gardevoir|unboost|[from] ability: Clear Body|[of] p2a: Gardevoir
+-- turn 7
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p1a: Overqwil|Gunk Shot|p2a: Gardevoir
+  -supereffective|p2a: Gardevoir
+  -damage|p2a: Gardevoir|0 fnt
+  faint|p2a: Gardevoir
+  switch|p2a: Mightyena|Mightyena, L96, F|100/100
+  -ability|p2a: Mightyena|Intimidate|boost
+  -unboost|p1a: Overqwil|atk|1
+-- turn 8
+  WE CHOSE: switch to rillaboom (hand policy: attack gunkshot) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Rillaboom|Rillaboom, L79, F|288/288
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+  move|p2a: Mightyena|Play Rough|p1a: Rillaboom
+  -damage|p1a: Rillaboom|208/288
+  -heal|p1a: Rillaboom|226/288|[from] Grassy Terrain
+-- turn 9
+  WE CHOSE: attack woodhammer - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Mightyena|Play Rough|p1a: Rillaboom
+  -damage|p1a: Rillaboom|142/288
+  move|p1a: Rillaboom|Wood Hammer|p2a: Mightyena
+  -damage|p2a: Mightyena|15/100
+  -damage|p1a: Rillaboom|60/288|[from] Recoil
+  -damage|p1a: Rillaboom|32/288|[from] item: Life Orb
+  -heal|p2a: Mightyena|22/100|[from] Grassy Terrain
+  -heal|p1a: Rillaboom|50/288|[from] Grassy Terrain
+-- turn 10
+  WE CHOSE: attack woodhammer - our hp 0.17, theirs 0.22, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tauros - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p2a: Mightyena|Play Rough|p1a: Rillaboom
+  -damage|p1a: Rillaboom|0 fnt
+  faint|p1a: Rillaboom
+  -heal|p2a: Mightyena|28/100|[from] Grassy Terrain
+  switch|p1a: Tauros|Tauros, L82, M|76/257 brn
+-- turn 11
+  WE CHOSE: attack closecombat - our hp 0.30, theirs 0.28, predicted move (revealed) hits us x1
+  move|p1a: Tauros|Close Combat|p2a: Mightyena
+  -supereffective|p2a: Mightyena
+  -damage|p2a: Mightyena|0 fnt
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  faint|p2a: Mightyena
+  -damage|p1a: Tauros|51/257 brn|[from] item: Life Orb
+  -heal|p1a: Tauros|67/257 brn|[from] Grassy Terrain
+  -damage|p1a: Tauros|51/257 brn|[from] brn
+  switch|p2a: Meowstic|Meowstic-F, L89, F|100/100
+-- turn 12
+  WE CHOSE: switch to beartic (hand policy: switch to overqwil) - our hp 0.20, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Beartic|Beartic, L91, M|321/321
+  move|p2a: Meowstic|Thunderbolt|p1a: Beartic
+  -damage|p1a: Beartic|237/321
+  -damage|p2a: Meowstic|91/100|[from] item: Life Orb
+  -heal|p2a: Meowstic|97/100|[from] Grassy Terrain
+  -heal|p1a: Beartic|257/321|[from] Grassy Terrain
+  -fieldend|move: Grassy Terrain
+-- turn 13
+  WE CHOSE: setup swordsdance (hand policy: attack iciclecrash) - our hp 0.80, theirs 0.97, predicted move (revealed) hits us x1
+  move|p2a: Meowstic|Thunderbolt|p1a: Beartic
+  -damage|p1a: Beartic|176/321
+  -damage|p2a: Meowstic|87/100|[from] item: Life Orb
+  move|p1a: Beartic|Swords Dance|p1a: Beartic
+  -boost|p1a: Beartic|atk|2
+-- turn 14
+  WE CHOSE: attack earthquake (hand policy: attack iciclecrash) - our hp 0.55, theirs 0.87, predicted move (revealed) hits us x1
+  move|p2a: Meowstic|Thunderbolt|p1a: Beartic
+  -damage|p1a: Beartic|101/321
+  -damage|p2a: Meowstic|77/100|[from] item: Life Orb
+  move|p1a: Beartic|Earthquake|p2a: Meowstic
+  -damage|p2a: Meowstic|0 fnt
+  faint|p2a: Meowstic
+  switch|p2a: Volcanion|Volcanion, L79|100/100
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.31, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to overqwil - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Volcanion|Steam Eruption|p1a: Beartic
+  -crit|p1a: Beartic
+  -damage|p1a: Beartic|0 fnt
+  faint|p1a: Beartic
+  switch|p1a: Overqwil|Overqwil, L82, M|274/274
+  -ability|p1a: Overqwil|Intimidate|boost
+  -unboost|p2a: Volcanion|atk|1
+-- turn 16
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Overqwil|Gunk Shot|p2a: Volcanion
+  -damage|p2a: Volcanion|37/100
+  move|p2a: Volcanion|Steam Eruption|p1a: Overqwil
+  -damage|p1a: Overqwil|28/274
+  -status|p1a: Overqwil|brn
+  -damage|p1a: Overqwil|11/274 brn|[from] brn
+-- turn 17
+  WE CHOSE: attack gunkshot - our hp 0.04, theirs 0.37, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tauros - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Overqwil|Gunk Shot|p2a: Volcanion|[miss]
+  -miss|p1a: Overqwil|p2a: Volcanion
+  move|p2a: Volcanion|Steam Eruption|p1a: Overqwil
+  -damage|p1a: Overqwil|0 fnt
+  faint|p1a: Overqwil
+  switch|p1a: Tauros|Tauros, L82, M|51/257 brn
+-- turn 18
+  WE CHOSE: attack closecombat (hand policy: attack bodyslam) - our hp 0.20, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Tauros|Close Combat|p2a: Volcanion
+  -crit|p2a: Volcanion
+  -damage|p2a: Volcanion|13/100
+  -unboost|p1a: Tauros|def|1
+  -unboost|p1a: Tauros|spd|1
+  -damage|p1a: Tauros|26/257 brn|[from] item: Life Orb
+  move|p2a: Volcanion|Steam Eruption|p1a: Tauros
+  -damage|p1a: Tauros|0 fnt
+  faint|p1a: Tauros
+  deinit

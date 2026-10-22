@@ -1,0 +1,183 @@
+battle 1456 (battle-gen9randombattle-2033339): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  dudunsparcethreesegment (fainted; item leftovers, ability rattled; moves boomburst/roost/shadowball/calmmind)
+  shiftry (fainted; item lifeorb, ability windrider; moves knockoff/willowisp/leafstorm/suckerpunch)
+  stantler (fainted; item eviolite, ability intimidate; moves shadowball/terablast/earthpower/calmmind)
+  flareon (fainted; item toxicorb, ability guts; moves trailblaze/flareblitz/facade/willowisp)
+  forretress (fainted; item leftovers, ability sturdy; moves stealthrock/rapidspin/ironhead/spikes)
+  cramorant (fainted; item heavydutyboots, ability gulpmissile, tera ground; moves roost/bravebird/defog/surf)
+theirs (as seen):
+  dragalge (fainted; item unknown_item, ability ?; moves dracometeor)
+  abomasnow (fainted; item unknown_item, ability ?; moves -)
+  uxie (fainted; item ?, ability levitate; moves psychicnoise)
+  toucannon (fainted; item unknown_item, ability ?; moves boomburst)
+  irontreads (fainted; item unknown_item, ability quarkdrive; moves earthquake)
+  lilliganthisui (24%; item lifeorb, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, M|343/343
+  switch|p2a: Dragalge|Dragalge, L88, F|100/100
+-- turn 1
+  WE CHOSE: switch to forretress (hand policy: attack boomburst) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Forretress|Forretress, L84, M|263/263
+  move|p2a: Dragalge|Draco Meteor|p1a: Forretress
+  -resisted|p1a: Forretress
+  -damage|p1a: Forretress|51/263
+  -unboost|p2a: Dragalge|spa|2
+  -heal|p1a: Forretress|67/263|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack ironhead - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to flareon (hand policy: forced: switch to dudunsparcethreesegment) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Dragalge|Draco Meteor|p1a: Forretress
+  -resisted|p1a: Forretress
+  -crit|p1a: Forretress
+  -damage|p1a: Forretress|0 fnt
+  -unboost|p2a: Dragalge|spa|2
+  faint|p1a: Forretress
+  switch|p1a: Flareon|Flareon, L90, F|263/263
+-- turn 3
+  WE CHOSE: attack facade (hand policy: attack flareblitz) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Flareon|Facade|p2a: Dragalge
+  -damage|p2a: Dragalge|75/100
+  move|p2a: Dragalge|Draco Meteor|p1a: Flareon
+  -damage|p1a: Flareon|177/263
+  -unboost|p2a: Dragalge|spa|2
+  -status|p1a: Flareon|tox|[from] item: Toxic Orb
+-- turn 4
+  WE CHOSE: attack facade (hand policy: attack flareblitz) - our hp 0.67, theirs 0.75, predicted move (revealed) hits us x1
+  move|p1a: Flareon|Facade|p2a: Dragalge
+  -damage|p2a: Dragalge|0 fnt
+  faint|p2a: Dragalge
+  -damage|p1a: Flareon|161/263 tox|[from] psn
+  switch|p2a: Abomasnow|Abomasnow, L84, M|100/100
+  -weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+-- turn 5
+  WE CHOSE: attack flareblitz - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Flareon|Flare Blitz|p2a: Abomasnow
+  -supereffective|p2a: Abomasnow
+  -damage|p2a: Abomasnow|0 fnt
+  faint|p2a: Abomasnow
+  -damage|p1a: Flareon|66/263 tox|[from] Recoil
+  -weather|Snowscape|[upkeep]
+  -damage|p1a: Flareon|34/263 tox|[from] psn
+  switch|p2a: Uxie|Uxie, L83|100/100
+-- turn 6
+  WE CHOSE: switch to shiftry - our hp 0.13, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Shiftry|Shiftry, L89, F|305/305
+  move|p2a: Uxie|Psychic Noise|p1a: Shiftry
+  -immune|p1a: Shiftry
+  -weather|Snowscape|[upkeep]
+-- turn 7
+  WE CHOSE: attack knockoff (hand policy: attack+tera suckerpunch) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Uxie|Psychic Noise|p1a: Shiftry
+  -immune|p1a: Shiftry
+  move|p1a: Shiftry|Knock Off|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -damage|p2a: Uxie|19/100
+  -enditem|p2a: Uxie|Leftovers|[from] move: Knock Off|[of] p1a: Shiftry
+  -damage|p1a: Shiftry|275/305|[from] item: Life Orb
+  -weather|Snowscape|[upkeep]
+-- turn 8
+  WE CHOSE: attack suckerpunch (hand policy: attack+tera suckerpunch) - our hp 0.90, theirs 0.19, predicted move (revealed) hits us x0
+  move|p1a: Shiftry|Sucker Punch|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -crit|p2a: Uxie
+  -damage|p2a: Uxie|0 fnt
+  faint|p2a: Uxie
+  -damage|p1a: Shiftry|245/305|[from] item: Life Orb
+  -weather|Snowscape|[upkeep]
+  switch|p2a: Toucannon|Toucannon, L88, M|100/100
+-- turn 9
+  WE CHOSE: attack leafstorm (hand policy: attack+tera suckerpunch) - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to cramorant (hand policy: forced: switch to dudunsparcethreesegment) - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Shiftry|Leaf Storm|p2a: Toucannon
+  -resisted|p2a: Toucannon
+  -damage|p2a: Toucannon|62/100
+  -unboost|p1a: Shiftry|spa|2
+  -damage|p1a: Shiftry|215/305|[from] item: Life Orb
+  move|p2a: Toucannon|Boomburst|p1a: Shiftry
+  -crit|p1a: Shiftry
+  -damage|p1a: Shiftry|0 fnt
+  faint|p1a: Shiftry
+  -weather|none
+  switch|p1a: Cramorant|Cramorant, L86, F|261/261
+-- turn 10
+  WE CHOSE: attack+tera bravebird (hand policy: attack bravebird) - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x1
+  -terastallize|p1a: Cramorant|Ground
+  move|p1a: Cramorant|Brave Bird|p2a: Toucannon
+  -damage|p2a: Toucannon|14/100
+  -damage|p1a: Cramorant|215/261|[from] Recoil
+  move|p2a: Toucannon|Boomburst|p1a: Cramorant
+  -damage|p1a: Cramorant|83/261
+-- turn 11
+  WE CHOSE: attack surf (hand policy: heal roost) - our hp 0.32, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Cramorant|Surf|p2a: Toucannon
+  -formechange|p1a: Cramorant|Cramorant-Gorging|
+  -damage|p2a: Toucannon|0 fnt
+  faint|p2a: Toucannon
+  switch|p2a: Iron Treads|Iron Treads, L77|100/100
+-- turn 12
+  WE CHOSE: heal roost - our hp 0.32, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to stantler - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Earthquake|p1a: Cramorant
+  -damage|p1a: Cramorant|0 fnt
+  -damage|p2a: Iron Treads|76/100|[from] ability: Gulp Missile|[of] p1a: Cramorant
+  -status|p2a: Iron Treads|par
+  -formechange|p1a: Cramorant|Cramorant|
+  faint|p1a: Cramorant
+  switch|p1a: Stantler|Stantler, L91, M|281/281
+  -ability|p1a: Stantler|Intimidate|boost
+  -unboost|p2a: Iron Treads|atk|1
+-- turn 13
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Stantler|Earth Power|p2a: Iron Treads
+  -supereffective|p2a: Iron Treads
+  -damage|p2a: Iron Treads|30/100 par
+  move|p2a: Iron Treads|Earthquake|p1a: Stantler
+  -damage|p1a: Stantler|224/281
+-- turn 14
+  WE CHOSE: attack earthpower - our hp 0.80, theirs 0.30, predicted move (revealed) hits us x1
+  move|p1a: Stantler|Earth Power|p2a: Iron Treads
+  -supereffective|p2a: Iron Treads
+  -damage|p2a: Iron Treads|0 fnt
+  faint|p2a: Iron Treads
+  -end|p2a: Iron Treads|Quark Drive|[silent]
+  switch|p2a: Lilligant|Lilligant-Hisui, L79, F|100/100
+-- turn 15
+  WE CHOSE: attack terablast - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Lilligant|Close Combat|p1a: Stantler|[miss]
+  -miss|p2a: Lilligant|p1a: Stantler
+  move|p1a: Stantler|Tera Blast|p2a: Lilligant
+  -damage|p2a: Lilligant|54/100
+-- turn 16
+  WE CHOSE: attack terablast - our hp 0.80, theirs 0.54, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to flareon - our hp 0.00, theirs 0.44, predicted move (revealed) hits us x2
+  move|p2a: Lilligant|Close Combat|p1a: Stantler
+  -supereffective|p1a: Stantler
+  -damage|p1a: Stantler|0 fnt
+  -unboost|p2a: Lilligant|def|1
+  -unboost|p2a: Lilligant|spd|1
+  faint|p1a: Stantler
+  -damage|p2a: Lilligant|44/100|[from] item: Life Orb
+  switch|p1a: Flareon|Flareon, L90, F|34/263 tox
+-- turn 17
+  WE CHOSE: attack flareblitz - our hp 0.13, theirs 0.44, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dudunsparcethreesegment - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p2a: Lilligant|Close Combat|p1a: Flareon
+  -damage|p1a: Flareon|0 fnt
+  -unboost|p2a: Lilligant|def|1
+  -unboost|p2a: Lilligant|spd|1
+  faint|p1a: Flareon
+  -damage|p2a: Lilligant|34/100|[from] item: Life Orb
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, M|343/343
+-- turn 18
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 0.34, predicted move (revealed) hits us x2
+  move|p2a: Lilligant|Close Combat|p1a: Dudunsparce
+  -supereffective|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|0 fnt
+  -unboost|p2a: Lilligant|def|1
+  -unboost|p2a: Lilligant|spd|1
+  faint|p1a: Dudunsparce
+  -damage|p2a: Lilligant|24/100|[from] item: Life Orb
+  deinit

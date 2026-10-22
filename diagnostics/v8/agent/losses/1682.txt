@@ -1,0 +1,466 @@
+battle 1682 (battle-gen9randombattle-2035705): lost in 58 turns, 1 of theirs left; we are p1
+
+ours:
+  ironbundle (fainted; item heavydutyboots, ability quarkdrive, tera ice; moves freezedry/encore/icebeam/hydropump)
+  greninja (fainted; item lifeorb, ability protean; moves gunkshot/icebeam/hydropump/darkpulse)
+  masquerain (fainted; item heavydutyboots, ability intimidate; moves bugbuzz/hurricane/quiverdance/hydropump)
+  magmortar (fainted; item heavydutyboots, ability flamebody; moves taunt/focusblast/thunderbolt/fireblast)
+  florgesyellow (fainted; item leftovers, ability flowerveil; moves moonblast/synthesis/terablast/calmmind)
+  magearnaoriginal (fainted; item leftovers, ability soulheart; moves aurasphere/spikes/fleurcannon/flashcannon)
+theirs (as seen):
+  florgesorange (fainted; item leftovers, ability ?; moves moonblast)
+  goodrahisui (fainted; item unknown_item, ability ?; moves dracometeor/hydropump/dragontail/heavyslam)
+  quaquaval (fainted; item unknown_item, ability ?; moves closecombat)
+  mudsdale (fainted; item unknown_item, ability ?; moves stoneedge)
+  veluza (fainted; item unknown_item, ability ?; moves psychocut)
+  bastiodon (40%; item unknown_item, ability ?; moves foulplay)
+
+-- turn 0
+  switch|p1a: Iron Bundle|Iron Bundle, L78|215/215
+  switch|p2a: Florges|Florges-Orange, L85, F|100/100
+-- turn 1
+  WE CHOSE: switch to magearnaoriginal (hand policy: attack icebeam) - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  -end|p1a: Iron Bundle|Quark Drive|[silent]
+  switch|p1a: Magearna|Magearna-Original, L77|250/250
+  move|p2a: Florges|Moonblast|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|195/250
+  -unboost|p1a: Magearna|spa|1
+  -heal|p1a: Magearna|210/250|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack flashcannon - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Florges|Moonblast|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|160/250
+  move|p1a: Magearna|Flash Cannon|p2a: Florges
+  -supereffective|p2a: Florges
+  -damage|p2a: Florges|73/100
+  -heal|p2a: Florges|79/100|[from] item: Leftovers
+  -heal|p1a: Magearna|175/250|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack flashcannon - our hp 0.70, theirs 0.79, predicted move (revealed) hits us x0.5
+  move|p2a: Florges|Moonblast|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|124/250
+  -unboost|p1a: Magearna|spa|1
+  move|p1a: Magearna|Flash Cannon|p2a: Florges
+  -supereffective|p2a: Florges
+  -damage|p2a: Florges|56/100
+  -heal|p2a: Florges|62/100|[from] item: Leftovers
+  -heal|p1a: Magearna|139/250|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack flashcannon - our hp 0.56, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p2a: Florges|Moonblast|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|91/250
+  move|p1a: Magearna|Flash Cannon|p2a: Florges
+  -supereffective|p2a: Florges
+  -damage|p2a: Florges|40/100
+  -heal|p2a: Florges|46/100|[from] item: Leftovers
+  -heal|p1a: Magearna|106/250|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack flashcannon - our hp 0.42, theirs 0.46, predicted move (revealed) hits us x0.5
+  move|p2a: Florges|Moonblast|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|58/250
+  -unboost|p1a: Magearna|spa|1
+  move|p1a: Magearna|Flash Cannon|p2a: Florges
+  -supereffective|p2a: Florges
+  -damage|p2a: Florges|28/100
+  -heal|p2a: Florges|34/100|[from] item: Leftovers
+  -heal|p1a: Magearna|73/250|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: switch to magmortar (hand policy: attack flashcannon) - our hp 0.29, theirs 0.34, predicted move (revealed) hits us x0.5
+  switch|p1a: Magmortar|Magmortar, L88, F|275/275
+  move|p2a: Florges|Moonblast|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|221/275
+  -heal|p2a: Florges|40/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack fireblast - our hp 0.80, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Magmortar|Fire Blast|p2a: Florges
+  -damage|p2a: Florges|1/100
+  move|p2a: Florges|Moonblast|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|165/275
+  -heal|p2a: Florges|7/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack fireblast - our hp 0.60, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p1a: Magmortar|Fire Blast|p2a: Florges
+  -damage|p2a: Florges|0 fnt
+  faint|p2a: Florges
+  switch|p2a: Goodra|Goodra-Hisui, L82, M|100/100
+-- turn 9
+  WE CHOSE: switch to magearnaoriginal - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Magearna|Magearna-Original, L77|73/250
+  move|p2a: Goodra|Draco Meteor|p1a: Magearna
+  -immune|p1a: Magearna
+  -heal|p1a: Magearna|88/250|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: switch to florgesyellow (hand policy: attack fleurcannon) - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Florges|Florges-Yellow, L85, F|271/271
+  move|p2a: Goodra|Draco Meteor|p1a: Florges
+  -immune|p1a: Florges
+-- turn 11
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Draco Meteor|p1a: Florges
+  -immune|p1a: Florges
+-- turn 12
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Draco Meteor|p1a: Florges
+  -immune|p1a: Florges
+-- turn 13
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Draco Meteor|p1a: Florges
+  -immune|p1a: Florges
+-- turn 14
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Draco Meteor|p1a: Florges
+  -immune|p1a: Florges
+-- turn 15
+  WE CHOSE: switch to magearnaoriginal (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Magearna|Magearna-Original, L77|88/250
+  move|p2a: Goodra|Draco Meteor|p1a: Magearna
+  -immune|p1a: Magearna
+  -heal|p1a: Magearna|103/250|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: switch to florgesyellow (hand policy: attack fleurcannon) - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Florges|Florges-Yellow, L85, F|271/271
+  move|p2a: Goodra|Draco Meteor|p1a: Florges
+  -immune|p1a: Florges
+-- turn 17
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Hydro Pump|p1a: Florges|[miss]
+  -miss|p2a: Goodra|p1a: Florges
+-- turn 18
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Hydro Pump|p1a: Florges
+  -damage|p1a: Florges|246/271
+  -heal|p1a: Florges|262/271|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: setup calmmind - our hp 0.97, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Hydro Pump|p1a: Florges
+  -damage|p1a: Florges|239/271
+  -heal|p1a: Florges|255/271|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: setup calmmind - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Hydro Pump|p1a: Florges
+  -damage|p1a: Florges|236/271
+  -heal|p1a: Florges|252/271|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: switch to magearnaoriginal (hand policy: setup calmmind) - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Magearna|Magearna-Original, L77|103/250
+  move|p2a: Goodra|Hydro Pump|p1a: Magearna
+  -damage|p1a: Magearna|25/250
+  -heal|p1a: Magearna|40/250|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: switch to florgesyellow (hand policy: attack fleurcannon) - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Florges|Florges-Yellow, L85, F|252/271
+  move|p2a: Goodra|Hydro Pump|p1a: Florges
+  -damage|p1a: Florges|197/271
+  -heal|p1a: Florges|213/271|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: setup calmmind - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Hydro Pump|p1a: Florges
+  -damage|p1a: Florges|181/271
+  -heal|p1a: Florges|197/271|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: setup calmmind - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Hydro Pump|p1a: Florges
+  -damage|p1a: Florges|170/271
+  -heal|p1a: Florges|186/271|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: setup calmmind - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Dragon Tail|p1a: Florges
+  -immune|p1a: Florges
+  -heal|p1a: Florges|202/271|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: switch to magearnaoriginal (hand policy: setup calmmind) - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Magearna|Magearna-Original, L77|40/250
+  move|p2a: Goodra|Dragon Tail|p1a: Magearna
+  -immune|p1a: Magearna
+  -heal|p1a: Magearna|55/250|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: switch to florgesyellow (hand policy: attack fleurcannon) - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Florges|Florges-Yellow, L85, F|202/271
+  move|p2a: Goodra|Dragon Tail|p1a: Florges
+  -immune|p1a: Florges
+  -heal|p1a: Florges|218/271|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: setup calmmind - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Dragon Tail|p1a: Florges
+  -immune|p1a: Florges
+  -heal|p1a: Florges|234/271|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: setup calmmind - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Dragon Tail|p1a: Florges
+  -immune|p1a: Florges
+  -heal|p1a: Florges|250/271|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: setup calmmind - our hp 0.92, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Dragon Tail|p1a: Florges
+  -immune|p1a: Florges
+  -heal|p1a: Florges|266/271|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: setup calmmind - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Dragon Tail|p1a: Florges
+  -immune|p1a: Florges
+  -heal|p1a: Florges|271/271|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: switch to magearnaoriginal (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Magearna|Magearna-Original, L77|55/250
+  move|p2a: Goodra|Dragon Tail|p1a: Magearna
+  -immune|p1a: Magearna
+  -heal|p1a: Magearna|70/250|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: switch to florgesyellow (hand policy: attack fleurcannon) - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Florges|Florges-Yellow, L85, F|271/271
+  move|p2a: Goodra|Dragon Tail|p1a: Florges
+  -immune|p1a: Florges
+-- turn 34
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Dragon Tail|p1a: Florges
+  -immune|p1a: Florges
+-- turn 35
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Dragon Tail|p1a: Florges
+  -immune|p1a: Florges
+-- turn 36
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Dragon Tail|p1a: Florges
+  -immune|p1a: Florges
+-- turn 37
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Dragon Tail|p1a: Florges
+  -immune|p1a: Florges
+-- turn 38
+  WE CHOSE: switch to magearnaoriginal (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Magearna|Magearna-Original, L77|70/250
+  move|p2a: Goodra|Dragon Tail|p1a: Magearna
+  -immune|p1a: Magearna
+  -heal|p1a: Magearna|85/250|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: switch to florgesyellow (hand policy: attack fleurcannon) - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Florges|Florges-Yellow, L85, F|271/271
+  move|p2a: Goodra|Dragon Tail|p1a: Florges
+  -immune|p1a: Florges
+-- turn 40
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Dragon Tail|p1a: Florges
+  -immune|p1a: Florges
+-- turn 41
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  move|p2a: Goodra|Heavy Slam|p1a: Florges
+  -supereffective|p1a: Florges
+  -damage|p1a: Florges|1/271
+  -heal|p1a: Florges|17/271|[from] item: Leftovers
+-- turn 42
+  WE CHOSE: attack moonblast (hand policy: heal synthesis) - our hp 0.06, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to magearnaoriginal - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x0
+  move|p1a: Florges|Moonblast|p2a: Goodra
+  -damage|p2a: Goodra|62/100
+  move|p2a: Goodra|Heavy Slam|p1a: Florges
+  -supereffective|p1a: Florges
+  -damage|p1a: Florges|0 fnt
+  faint|p1a: Florges
+  switch|p1a: Magearna|Magearna-Original, L77|85/250
+-- turn 43
+  WE CHOSE: attack fleurcannon - our hp 0.34, theirs 0.62, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to magmortar - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x0
+  move|p2a: Goodra|Heavy Slam|p1a: Magearna
+  -damage|p1a: Magearna|0 fnt
+  faint|p1a: Magearna
+  switch|p1a: Magmortar|Magmortar, L88, F|165/275
+-- turn 44
+  WE CHOSE: attack focusblast (hand policy: attack+tera focusblast) - our hp 0.60, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Magmortar|Focus Blast|p2a: Goodra
+  -supereffective|p2a: Goodra
+  -damage|p2a: Goodra|20/100
+  move|p2a: Goodra|Heavy Slam|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|102/275
+-- turn 45
+  WE CHOSE: attack focusblast (hand policy: attack+tera focusblast) - our hp 0.37, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Magmortar|Focus Blast|p2a: Goodra
+  -supereffective|p2a: Goodra
+  -damage|p2a: Goodra|0 fnt
+  faint|p2a: Goodra
+  switch|p2a: Quaquaval|Quaquaval, L79, F|100/100
+-- turn 46
+  WE CHOSE: switch to masquerain (hand policy: attack thunderbolt) - our hp 0.37, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Masquerain|Masquerain, L87, M|264/264
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Quaquaval|atk|1
+  move|p2a: Quaquaval|Close Combat|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|236/264
+  -unboost|p2a: Quaquaval|def|1
+  -unboost|p2a: Quaquaval|spd|1
+-- turn 47
+  WE CHOSE: setup quiverdance - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Quiver Dance|p1a: Masquerain
+  -boost|p1a: Masquerain|spa|1
+  -boost|p1a: Masquerain|spd|1
+  -boost|p1a: Masquerain|spe|1
+  move|p2a: Quaquaval|Close Combat|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|206/264
+  -unboost|p2a: Quaquaval|def|1
+  -unboost|p2a: Quaquaval|spd|1
+-- turn 48
+  WE CHOSE: setup quiverdance - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Quiver Dance|p1a: Masquerain
+  -boost|p1a: Masquerain|spa|1
+  -boost|p1a: Masquerain|spd|1
+  -boost|p1a: Masquerain|spe|1
+  move|p2a: Quaquaval|Close Combat|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|177/264
+  -unboost|p2a: Quaquaval|def|1
+  -unboost|p2a: Quaquaval|spd|1
+-- turn 49
+  WE CHOSE: attack hurricane - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Hurricane|p2a: Quaquaval
+  -supereffective|p2a: Quaquaval
+  -damage|p2a: Quaquaval|0 fnt
+  faint|p2a: Quaquaval
+  switch|p2a: Mudsdale|Mudsdale, L83, M|100/100
+-- turn 50
+  WE CHOSE: setup quiverdance - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x0
+  WE CHOSE: forced: switch to greninja - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x4
+  move|p1a: Masquerain|Quiver Dance|p1a: Masquerain
+  -boost|p1a: Masquerain|spa|1
+  -boost|p1a: Masquerain|spd|1
+  -boost|p1a: Masquerain|spe|1
+  move|p2a: Mudsdale|Stone Edge|p1a: Masquerain
+  -supereffective|p1a: Masquerain
+  -damage|p1a: Masquerain|0 fnt
+  faint|p1a: Masquerain
+  switch|p1a: Greninja|Greninja, L80, M|246/246
+-- turn 51
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Greninja|Hydro Pump|p2a: Mudsdale
+  -start|p1a: Greninja|typechange|Water|[from] ability: Protean
+  -supereffective|p2a: Mudsdale
+  -damage|p2a: Mudsdale|0 fnt
+  faint|p2a: Mudsdale
+  -damage|p1a: Greninja|222/246|[from] item: Life Orb
+  switch|p2a: Veluza|Veluza, L85, F|100/100
+-- turn 52
+  WE CHOSE: attack darkpulse - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Veluza|Psycho Cut|p1a: Greninja
+  -damage|p1a: Greninja|56/246
+  move|p1a: Greninja|Dark Pulse|p2a: Veluza
+  -supereffective|p2a: Veluza
+  -damage|p2a: Veluza|43/100
+  -damage|p1a: Greninja|32/246|[from] item: Life Orb
+-- turn 53
+  WE CHOSE: attack darkpulse - our hp 0.13, theirs 0.43, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to magmortar - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x0
+  move|p2a: Veluza|Psycho Cut|p1a: Greninja
+  -damage|p1a: Greninja|0 fnt
+  faint|p1a: Greninja
+  switch|p1a: Magmortar|Magmortar, L88, F|102/275
+-- turn 54
+  WE CHOSE: attack thunderbolt - our hp 0.37, theirs 0.43, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironbundle - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p2a: Veluza|Psycho Cut|p1a: Magmortar
+  -crit|p1a: Magmortar
+  -damage|p1a: Magmortar|0 fnt
+  faint|p1a: Magmortar
+  switch|p1a: Iron Bundle|Iron Bundle, L78|215/215
+-- turn 55
+  WE CHOSE: attack+tera icebeam - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x1
+  -terastallize|p1a: Iron Bundle|Ice
+  move|p1a: Iron Bundle|Ice Beam|p2a: Veluza
+  -resisted|p2a: Veluza
+  -damage|p2a: Veluza|15/100
+  move|p2a: Veluza|Psycho Cut|p1a: Iron Bundle
+  -crit|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|56/215
+-- turn 56
+  WE CHOSE: attack icebeam - our hp 0.26, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Iron Bundle|Ice Beam|p2a: Veluza
+  -resisted|p2a: Veluza
+  -damage|p2a: Veluza|0 fnt
+  faint|p2a: Veluza
+  switch|p2a: Bastiodon|Bastiodon, L89, F|100/100
+-- turn 57
+  WE CHOSE: attack hydropump - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Iron Bundle|Hydro Pump|p2a: Bastiodon
+  -supereffective|p2a: Bastiodon
+  -damage|p2a: Bastiodon|40/100
+  move|p2a: Bastiodon|Foul Play|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|19/215
+-- turn 58
+  WE CHOSE: attack encore (hand policy: attack hydropump) - our hp 0.09, theirs 0.40, predicted move (revealed) hits us x1
+  move|p1a: Iron Bundle|Encore|p2a: Bastiodon
+  -start|p2a: Bastiodon|Encore
+  move|p2a: Bastiodon|Foul Play|p1a: Iron Bundle
+  -damage|p1a: Iron Bundle|0 fnt
+  faint|p1a: Iron Bundle
+  -end|p1a: Iron Bundle|Quark Drive|[silent]
+  deinit

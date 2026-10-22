@@ -1,0 +1,212 @@
+battle 655 (battle-gen9randombattle-2024576): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  veluza (fainted; item choicescarf, ability sharpness, tera water; moves flipturn/aquacutter/nightslash/psychocut)
+  trevenant (fainted; item ?, ability harvest; moves drainpunch/protect/poltergeist/toxic)
+  venomoth (fainted; item heavydutyboots, ability tintedlens; moves sludgewave/bugbuzz/sleeppowder/quiverdance)
+  skeledirge (fainted; item heavydutyboots, ability unaware; moves shadowball/flamecharge/slackoff/torchsong)
+  gumshoos (fainted; item choiceband, ability stakeout; moves knockoff/earthquake/uturn/doubleedge)
+  skuntank (fainted; item lifeorb, ability aftermath; moves knockoff/taunt/gunkshot/fireblast)
+theirs (as seen):
+  florgesorange (fainted; item leftovers, ability ?; moves moonblast)
+  rampardos (fainted; item unknown_item, ability ?; moves -)
+  volcanion (fainted; item unknown_item, ability waterabsorb; moves steameruption)
+  phione (fainted; item leftovers, ability hydration; moves icebeam)
+  zekrom (fainted; item leftovers, ability teravolt; moves boltstrike)
+  hippowdon (31%; item unknown_item, ability ?; moves stoneedge)
+
+-- turn 0
+  switch|p1a: Veluza|Veluza, L85, M|292/292
+  switch|p2a: Florges|Florges-Orange, L85, F|100/100
+-- turn 1
+  WE CHOSE: attack aquacutter - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Veluza|Aqua Cutter|p2a: Florges
+  -damage|p2a: Florges|49/100
+  move|p2a: Florges|Moonblast|p1a: Veluza
+  -damage|p1a: Veluza|136/292
+  -unboost|p1a: Veluza|spa|1
+  -heal|p2a: Florges|55/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack+tera aquacutter - our hp 0.47, theirs 0.55, predicted move (revealed) hits us x1
+  -terastallize|p1a: Veluza|Water
+  move|p1a: Veluza|Aqua Cutter|p2a: Florges
+  -damage|p2a: Florges|0 fnt
+  faint|p2a: Florges
+  switch|p2a: Rampardos|Rampardos, L90, M|100/100
+-- turn 3
+  WE CHOSE: attack aquacutter - our hp 0.47, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Veluza|Aqua Cutter|p2a: Rampardos
+  -supereffective|p2a: Rampardos
+  -damage|p2a: Rampardos|0 fnt
+  faint|p2a: Rampardos
+  switch|p2a: Volcanion|Volcanion, L79|100/100
+-- turn 4
+  WE CHOSE: attack aquacutter - our hp 0.47, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to trevenant - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Veluza|Aqua Cutter|p2a: Volcanion
+  -immune|p2a: Volcanion|[from] ability: Water Absorb
+  move|p2a: Volcanion|Steam Eruption|p1a: Veluza
+  -resisted|p1a: Veluza
+  -damage|p1a: Veluza|13/292
+  -status|p1a: Veluza|brn
+  -damage|p1a: Veluza|0 fnt|[from] brn
+  faint|p1a: Veluza
+  switch|p1a: Trevenant|Trevenant, L89, F|296/296
+-- turn 5
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Volcanion|Steam Eruption|p1a: Trevenant
+  -resisted|p1a: Trevenant
+  -damage|p1a: Trevenant|203/296
+  move|p1a: Trevenant|Poltergeist|p2a: Volcanion
+  -activate|p2a: Volcanion|move: Poltergeist|Choice Specs
+  -damage|p2a: Volcanion|55/100
+-- turn 6
+  WE CHOSE: attack poltergeist - our hp 0.69, theirs 0.55, predicted move (revealed) hits us x0.5
+  move|p2a: Volcanion|Steam Eruption|p1a: Trevenant
+  -resisted|p1a: Trevenant
+  -damage|p1a: Trevenant|98/296
+  -status|p1a: Trevenant|brn
+  -enditem|p1a: Trevenant|Sitrus Berry|[eat]
+  -heal|p1a: Trevenant|172/296 brn|[from] item: Sitrus Berry
+  move|p1a: Trevenant|Poltergeist|p2a: Volcanion
+  -activate|p2a: Volcanion|move: Poltergeist|Choice Specs
+  -damage|p2a: Volcanion|29/100
+  -damage|p1a: Trevenant|154/296 brn|[from] brn
+-- turn 7
+  WE CHOSE: attack poltergeist - our hp 0.52, theirs 0.29, predicted move (revealed) hits us x0.5
+  move|p2a: Volcanion|Steam Eruption|p1a: Trevenant
+  -resisted|p1a: Trevenant
+  -damage|p1a: Trevenant|52/296 brn
+  move|p1a: Trevenant|Poltergeist|p2a: Volcanion
+  -activate|p2a: Volcanion|move: Poltergeist|Choice Specs
+  -damage|p2a: Volcanion|8/100
+  -damage|p1a: Trevenant|34/296 brn|[from] brn
+  -item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+  -enditem|p1a: Trevenant|Sitrus Berry|[eat]
+  -heal|p1a: Trevenant|108/296 brn|[from] item: Sitrus Berry
+-- turn 8
+  WE CHOSE: attack poltergeist - our hp 0.36, theirs 0.08, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to gumshoos - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p2a: Volcanion|Steam Eruption|p1a: Trevenant
+  -resisted|p1a: Trevenant
+  -damage|p1a: Trevenant|10/296 brn
+  move|p1a: Trevenant|Poltergeist|p2a: Volcanion
+  -activate|p2a: Volcanion|move: Poltergeist|Choice Specs
+  -damage|p2a: Volcanion|0 fnt
+  faint|p2a: Volcanion
+  -damage|p1a: Trevenant|0 fnt|[from] brn
+  faint|p1a: Trevenant
+  switch|p2a: Phione|Phione, L91|100/100
+  switch|p1a: Gumshoos|Gumshoos, L95, F|321/321
+-- turn 9
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Phione|Ice Beam|p1a: Gumshoos
+  -damage|p1a: Gumshoos|247/321
+  move|p1a: Gumshoos|Double-Edge|p2a: Phione
+  -damage|p2a: Phione|5/100
+  -damage|p1a: Gumshoos|155/321|[from] Recoil
+  -heal|p2a: Phione|11/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack doubleedge - our hp 0.48, theirs 0.11, predicted move (revealed) hits us x1
+  move|p2a: Phione|Ice Beam|p1a: Gumshoos
+  -damage|p1a: Gumshoos|73/321
+  -status|p1a: Gumshoos|frz
+  cant|p1a: Gumshoos|frz
+  -heal|p2a: Phione|18/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack doubleedge - our hp 0.23, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Phione|Ice Beam|p1a: Gumshoos
+  -damage|p1a: Gumshoos|1/321 frz
+  cant|p1a: Gumshoos|frz
+  -heal|p2a: Phione|24/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack doubleedge - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to skeledirge - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Phione|Ice Beam|p1a: Gumshoos
+  -damage|p1a: Gumshoos|0 fnt
+  faint|p1a: Gumshoos
+  -heal|p2a: Phione|30/100|[from] item: Leftovers
+  switch|p1a: Skeledirge|Skeledirge, L79, M|294/294
+-- turn 13
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 0.30, predicted move (revealed) hits us x0.5
+  move|p2a: Phione|Ice Beam|p1a: Skeledirge
+  -resisted|p1a: Skeledirge
+  -damage|p1a: Skeledirge|259/294
+  move|p1a: Skeledirge|Shadow Ball|p2a: Phione
+  -damage|p2a: Phione|3/100
+  -unboost|p2a: Phione|spd|1
+  -heal|p2a: Phione|9/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack shadowball - our hp 0.88, theirs 0.09, predicted move (revealed) hits us x0.5
+  move|p2a: Phione|Ice Beam|p1a: Skeledirge
+  -resisted|p1a: Skeledirge
+  -damage|p1a: Skeledirge|221/294
+  move|p1a: Skeledirge|Shadow Ball|p2a: Phione
+  -damage|p2a: Phione|0 fnt
+  faint|p2a: Phione
+  switch|p2a: Zekrom|Zekrom, L71|100/100
+  -ability|p2a: Zekrom|Teravolt
+-- turn 15
+  WE CHOSE: attack shadowball - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Zekrom|Bolt Strike|p1a: Skeledirge|[miss]
+  -miss|p2a: Zekrom|p1a: Skeledirge
+  move|p1a: Skeledirge|Shadow Ball|p2a: Zekrom
+  -damage|p2a: Zekrom|67/100
+  -heal|p2a: Zekrom|73/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack shadowball - our hp 0.75, theirs 0.73, predicted move (revealed) hits us x1
+  move|p2a: Zekrom|Bolt Strike|p1a: Skeledirge
+  -damage|p1a: Skeledirge|77/294
+  move|p1a: Skeledirge|Shadow Ball|p2a: Zekrom
+  -damage|p2a: Zekrom|38/100
+  -heal|p2a: Zekrom|44/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: heal slackoff - our hp 0.26, theirs 0.44, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to skuntank - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Zekrom|Bolt Strike|p1a: Skeledirge
+  -damage|p1a: Skeledirge|0 fnt
+  faint|p1a: Skeledirge
+  -heal|p2a: Zekrom|50/100|[from] item: Leftovers
+  switch|p1a: Skuntank|Skuntank, L84, M|310/310
+-- turn 18
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p1a: Skuntank|Gunk Shot|p2a: Zekrom|[miss]
+  -miss|p1a: Skuntank|p2a: Zekrom
+  move|p2a: Zekrom|Bolt Strike|p1a: Skuntank
+  -damage|p1a: Skuntank|145/310
+  -status|p1a: Skuntank|par
+  -heal|p2a: Zekrom|56/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack gunkshot - our hp 0.47, theirs 0.56, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to venomoth - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Zekrom|Bolt Strike|p1a: Skuntank
+  -damage|p1a: Skuntank|0 fnt
+  -damage|p2a: Zekrom|31/100|[from] ability: Aftermath|[of] p1a: Skuntank
+  faint|p1a: Skuntank
+  -heal|p2a: Zekrom|38/100|[from] item: Leftovers
+  switch|p1a: Venomoth|Venomoth, L84, F|255/255
+-- turn 20
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p1a: Venomoth|Sludge Wave|p2a: Zekrom
+  -damage|p2a: Zekrom|0 fnt
+  faint|p2a: Zekrom
+  switch|p2a: Hippowdon|Hippowdon, L82, F|100/100
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+-- turn 21
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Venomoth|Bug Buzz|p2a: Hippowdon
+  -damage|p2a: Hippowdon|65/100
+  move|p2a: Hippowdon|Stone Edge|p1a: Venomoth
+  -supereffective|p1a: Venomoth
+  -damage|p1a: Venomoth|53/255
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Venomoth|38/255|[from] Sandstorm
+-- turn 22
+  WE CHOSE: attack bugbuzz - our hp 0.15, theirs 0.65, predicted move (revealed) hits us x2
+  move|p1a: Venomoth|Bug Buzz|p2a: Hippowdon
+  -damage|p2a: Hippowdon|31/100
+  move|p2a: Hippowdon|Stone Edge|p1a: Venomoth
+  -supereffective|p1a: Venomoth
+  -damage|p1a: Venomoth|0 fnt
+  faint|p1a: Venomoth
+  deinit

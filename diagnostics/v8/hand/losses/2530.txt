@@ -1,0 +1,199 @@
+battle 2530 (battle-gen9randombattle-2042271): lost in 20 turns, 1 of theirs left; we are p1
+
+ours:
+  bellossom (fainted; item leftovers, ability chlorophyll, tera poison; moves gigadrain/quiverdance/strengthsap/sludgebomb)
+  veluza (fainted; item choiceband, ability sharpness; moves aquacutter/nightslash/aquajet/psychocut)
+  lucario (fainted; item lifeorb, ability innerfocus; moves focusblast/nastyplot/flashcannon/vacuumwave)
+  crabominable (fainted; item choiceband, ability ironfist; moves icehammer/earthquake/gunkshot/closecombat)
+  flareon (fainted; item toxicorb, ability guts; moves facade/trailblaze/flareblitz/willowisp)
+  araquanid (fainted; item heavydutyboots, ability waterbubble; moves liquidation/stickyweb/hydropump/leechlife)
+theirs (as seen):
+  tauros (fainted; item lifeorb, ability ?; moves closecombat)
+  ursaring (fainted; item unknown_item, ability ?; moves closecombat)
+  mewtwo (fainted; item lifeorb, ability unnerve; moves psystrike)
+  raikou (fainted; item leftovers, ability pressure; moves thunderbolt)
+  gardevoir (fainted; item unknown_item, ability ironfist; moves focusblast)
+  zapdos (18%; item unknown_item, ability ?; moves hurricane)
+
+-- turn 0
+  switch|p1a: Bellossom|Bellossom, L84, F|263/263
+  switch|p2a: Tauros|Tauros, L82, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera gigadrain - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Bellossom|Poison
+  move|p2a: Tauros|Close Combat|p1a: Bellossom
+  -resisted|p1a: Bellossom
+  -damage|p1a: Bellossom|214/263
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  -damage|p2a: Tauros|91/100|[from] item: Life Orb
+  move|p1a: Bellossom|Giga Drain|p2a: Tauros
+  -damage|p2a: Tauros|37/100
+  -heal|p1a: Bellossom|263/263|[from] drain|[of] p2a: Tauros
+-- turn 2
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p2a: Tauros|Close Combat|p1a: Bellossom
+  -resisted|p1a: Bellossom
+  -damage|p1a: Bellossom|212/263
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  -damage|p2a: Tauros|27/100|[from] item: Life Orb
+  move|p1a: Bellossom|Quiver Dance|p1a: Bellossom
+  -boost|p1a: Bellossom|spa|1
+  -boost|p1a: Bellossom|spd|1
+  -boost|p1a: Bellossom|spe|1
+  -heal|p1a: Bellossom|228/263|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: setup quiverdance - our hp 0.87, theirs 0.27, predicted move (revealed) hits us x0.5
+  move|p2a: Tauros|Close Combat|p1a: Bellossom
+  -resisted|p1a: Bellossom
+  -damage|p1a: Bellossom|175/263
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  -damage|p2a: Tauros|17/100|[from] item: Life Orb
+  move|p1a: Bellossom|Quiver Dance|p1a: Bellossom
+  -boost|p1a: Bellossom|spa|1
+  -boost|p1a: Bellossom|spd|1
+  -boost|p1a: Bellossom|spe|1
+  -heal|p1a: Bellossom|191/263|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack sludgebomb - our hp 0.73, theirs 0.17, predicted move (revealed) hits us x0.5
+  move|p1a: Bellossom|Sludge Bomb|p2a: Tauros
+  -damage|p2a: Tauros|0 fnt
+  faint|p2a: Tauros
+  -heal|p1a: Bellossom|207/263|[from] item: Leftovers
+  switch|p2a: Ursaring|Ursaring, L84, F|100/100
+-- turn 5
+  WE CHOSE: attack sludgebomb - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Bellossom|Sludge Bomb|p2a: Ursaring
+  -damage|p2a: Ursaring|27/100
+  move|p2a: Ursaring|Close Combat|p1a: Bellossom
+  -resisted|p1a: Bellossom
+  -damage|p1a: Bellossom|158/263
+  -unboost|p2a: Ursaring|def|1
+  -unboost|p2a: Ursaring|spd|1
+  -heal|p1a: Bellossom|174/263|[from] item: Leftovers
+  -status|p2a: Ursaring|tox|[from] item: Toxic Orb
+-- turn 6
+  WE CHOSE: attack sludgebomb - our hp 0.66, theirs 0.27, predicted move (revealed) hits us x0.5
+  move|p1a: Bellossom|Sludge Bomb|p2a: Ursaring
+  -damage|p2a: Ursaring|0 fnt
+  faint|p2a: Ursaring
+  -heal|p1a: Bellossom|190/263|[from] item: Leftovers
+  switch|p2a: Mewtwo|Mewtwo, L72|100/100
+  -ability|p2a: Mewtwo|Unnerve
+-- turn 7
+  WE CHOSE: attack sludgebomb - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to araquanid - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x2
+  move|p1a: Bellossom|Sludge Bomb|p2a: Mewtwo
+  -damage|p2a: Mewtwo|21/100
+  -status|p2a: Mewtwo|psn
+  move|p2a: Mewtwo|Psystrike|p1a: Bellossom
+  -supereffective|p1a: Bellossom
+  -damage|p1a: Bellossom|0 fnt
+  faint|p1a: Bellossom
+  -damage|p2a: Mewtwo|11/100 psn|[from] item: Life Orb
+  -damage|p2a: Mewtwo|0 fnt|[from] psn
+  faint|p2a: Mewtwo
+  switch|p2a: Raikou|Raikou, L81|100/100
+  switch|p1a: Araquanid|Araquanid, L82, M|246/246
+  -ability|p2a: Raikou|Pressure
+-- turn 8
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Raikou|Thunderbolt|p1a: Araquanid
+  -supereffective|p1a: Araquanid
+  -damage|p1a: Araquanid|88/246
+  move|p1a: Araquanid|Liquidation|p2a: Raikou
+  -damage|p2a: Raikou|41/100
+  -heal|p2a: Raikou|47/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack liquidation - our hp 0.36, theirs 0.47, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to crabominable - our hp 0.00, theirs 0.53, predicted move (revealed) hits us x2
+  move|p2a: Raikou|Thunderbolt|p1a: Araquanid
+  -supereffective|p1a: Araquanid
+  -crit|p1a: Araquanid
+  -damage|p1a: Araquanid|0 fnt
+  faint|p1a: Araquanid
+  -heal|p2a: Raikou|53/100|[from] item: Leftovers
+  switch|p1a: Crabominable|Crabominable, L90, F|321/321
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Crabominable
+  -damage|p1a: Crabominable|197/321
+  move|p1a: Crabominable|Earthquake|p2a: Raikou
+  -supereffective|p2a: Raikou
+  -damage|p2a: Raikou|0 fnt
+  faint|p2a: Raikou
+  switch|p2a: Gardevoir|Gardevoir, L83, F|100/100
+  -ability|p2a: Gardevoir|Iron Fist|Trace|[from] ability: Trace|[of] p1a: Crabominable
+-- turn 11
+  WE CHOSE: switch to veluza - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Veluza|Veluza, L85, F|292/292
+  move|p2a: Gardevoir|Focus Blast|p1a: Veluza
+  -resisted|p1a: Veluza
+  -damage|p1a: Veluza|227/292
+-- turn 12
+  WE CHOSE: attack aquacutter - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Gardevoir|Focus Blast|p1a: Veluza
+  -resisted|p1a: Veluza
+  -damage|p1a: Veluza|164/292
+  move|p1a: Veluza|Aqua Cutter|p2a: Gardevoir
+  -damage|p2a: Gardevoir|8/100
+-- turn 13
+  WE CHOSE: attack aquacutter - our hp 0.56, theirs 0.08, predicted move (revealed) hits us x0.5
+  move|p2a: Gardevoir|Focus Blast|p1a: Veluza
+  -resisted|p1a: Veluza
+  -damage|p1a: Veluza|99/292
+  move|p1a: Veluza|Aqua Cutter|p2a: Gardevoir
+  -damage|p2a: Gardevoir|0 fnt
+  faint|p2a: Gardevoir
+  switch|p2a: Zapdos|Zapdos, L78|100/100
+-- turn 14
+  WE CHOSE: attack aquacutter - our hp 0.34, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to flareon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Zapdos|Hurricane|p1a: Veluza
+  -damage|p1a: Veluza|0 fnt
+  faint|p1a: Veluza
+  switch|p1a: Flareon|Flareon, L90, M|263/263
+-- turn 15
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Zapdos|Hurricane|p1a: Flareon
+  -damage|p1a: Flareon|167/263
+  move|p1a: Flareon|Flare Blitz|p2a: Zapdos
+  -damage|p2a: Zapdos|18/100
+  -damage|p1a: Flareon|94/263|[from] Recoil
+  -status|p1a: Flareon|tox|[from] item: Toxic Orb
+-- turn 16
+  WE CHOSE: attack flareblitz - our hp 0.36, theirs 0.18, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to crabominable - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Zapdos|Hurricane|p1a: Flareon
+  -damage|p1a: Flareon|0 fnt
+  faint|p1a: Flareon
+  switch|p1a: Crabominable|Crabominable, L90, F|197/321
+-- turn 17
+  WE CHOSE: attack icehammer - our hp 0.61, theirs 0.18, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to lucario - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x2
+  move|p2a: Zapdos|Hurricane|p1a: Crabominable
+  -supereffective|p1a: Crabominable
+  -damage|p1a: Crabominable|0 fnt
+  faint|p1a: Crabominable
+  switch|p1a: Lucario|Lucario, L84, M|255/255
+-- turn 18
+  WE CHOSE: attack focusblast - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Zapdos|Hurricane|p1a: Lucario
+  -damage|p1a: Lucario|99/255
+  -start|p1a: Lucario|confusion
+  -activate|p1a: Lucario|confusion
+  -damage|p1a: Lucario|71/255|[from] confusion
+-- turn 19
+  WE CHOSE: attack focusblast - our hp 0.28, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Zapdos|Hurricane|p1a: Lucario|[miss]
+  -miss|p2a: Zapdos|p1a: Lucario
+  -activate|p1a: Lucario|confusion
+  -damage|p1a: Lucario|39/255|[from] confusion
+-- turn 20
+  WE CHOSE: attack focusblast - our hp 0.15, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Zapdos|Hurricane|p1a: Lucario
+  -damage|p1a: Lucario|0 fnt
+  faint|p1a: Lucario
+  deinit

@@ -1,0 +1,295 @@
+battle 129 (battle-gen9randombattle-2019600): lost in 34 turns, 1 of theirs left; we are p1
+
+ours:
+  perrserker (fainted; item lifeorb, ability toughclaws; moves ironhead/knockoff/stealthrock/closecombat)
+  furret (fainted; item choiceband, ability frisk; moves uturn/knockoff/trick/doubleedge)
+  registeel (fainted; item leftovers, ability clearbody, tera fighting; moves ironhead/irondefense/thunderwave/bodypress)
+  gliscor (fainted; item toxicorb, ability poisonheal; moves knockoff/toxic/earthquake/protect)
+  decidueyehisui (fainted; item leftovers, ability scrappy; moves defog/leafblade/triplearrows/roost)
+  kommoo (fainted; item loadeddice, ability soundproof; moves swordsdance/scaleshot/closecombat/ironhead)
+theirs (as seen):
+  lurantis (fainted; item leftovers, ability ?; moves leafstorm)
+  thundurustherian (fainted; item ?, ability voltabsorb; moves focusblast)
+  regidrago (fainted; item unknown_item, ability dragonsmaw; moves dragonenergy)
+  heracross (fainted; item unknown_item, ability ?; moves megahorn)
+  taurospaldeablaze (fainted; item choiceband, ability intimidate; moves flareblitz)
+  lunala (86%; item leftovers, ability shadowshield; moves moongeistbeam/psyshock)
+
+-- turn 0
+  switch|p1a: Perrserker|Perrserker, L89, M|269/269
+  switch|p2a: Lurantis|Lurantis, L87, M|100/100
+-- turn 1
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Perrserker|Iron Head|p2a: Lurantis
+  -damage|p2a: Lurantis|41/100
+  -damage|p1a: Perrserker|243/269|[from] item: Life Orb
+  move|p2a: Lurantis|Leaf Storm|p1a: Perrserker
+  -resisted|p1a: Perrserker
+  -damage|p1a: Perrserker|162/269
+  -boost|p2a: Lurantis|spa|2
+  -heal|p2a: Lurantis|47/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack ironhead - our hp 0.60, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p1a: Perrserker|Iron Head|p2a: Lurantis
+  -damage|p2a: Lurantis|0 fnt
+  faint|p2a: Lurantis
+  -damage|p1a: Perrserker|136/269|[from] item: Life Orb
+  switch|p2a: Thundurus|Thundurus-Therian, L80, M|100/100
+-- turn 3
+  WE CHOSE: switch to gliscor - our hp 0.51, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Gliscor|Gliscor, L76, F|239/239
+  move|p2a: Thundurus|Focus Blast|p1a: Gliscor
+  -resisted|p1a: Gliscor
+  -damage|p1a: Gliscor|174/239
+  -status|p1a: Gliscor|tox|[from] item: Toxic Orb
+-- turn 4
+  WE CHOSE: attack knockoff - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Thundurus|Focus Blast|p1a: Gliscor
+  -resisted|p1a: Gliscor
+  -damage|p1a: Gliscor|106/239 tox
+  move|p1a: Gliscor|Knock Off|p2a: Thundurus
+  -damage|p2a: Thundurus|75/100
+  -enditem|p2a: Thundurus|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Gliscor
+  -heal|p1a: Gliscor|135/239 tox|[from] ability: Poison Heal
+-- turn 5
+  WE CHOSE: attack knockoff - our hp 0.56, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p2a: Thundurus|Focus Blast|p1a: Gliscor
+  -resisted|p1a: Gliscor
+  -damage|p1a: Gliscor|63/239 tox
+  move|p1a: Gliscor|Knock Off|p2a: Thundurus
+  -damage|p2a: Thundurus|57/100
+  -heal|p1a: Gliscor|92/239 tox|[from] ability: Poison Heal
+-- turn 6
+  WE CHOSE: attack knockoff - our hp 0.38, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p2a: Thundurus|Focus Blast|p1a: Gliscor
+  -resisted|p1a: Gliscor
+  -damage|p1a: Gliscor|27/239 tox
+  move|p1a: Gliscor|Knock Off|p2a: Thundurus
+  -damage|p2a: Thundurus|40/100
+  -heal|p1a: Gliscor|56/239 tox|[from] ability: Poison Heal
+-- turn 7
+  WE CHOSE: attack knockoff - our hp 0.23, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p2a: Thundurus|Focus Blast|p1a: Gliscor|[miss]
+  -miss|p2a: Thundurus|p1a: Gliscor
+  move|p1a: Gliscor|Knock Off|p2a: Thundurus
+  -damage|p2a: Thundurus|22/100
+  -heal|p1a: Gliscor|85/239 tox|[from] ability: Poison Heal
+-- turn 8
+  WE CHOSE: attack knockoff - our hp 0.36, theirs 0.22, predicted move (revealed) hits us x0.5
+  move|p2a: Thundurus|Focus Blast|p1a: Gliscor
+  -resisted|p1a: Gliscor
+  -damage|p1a: Gliscor|22/239 tox
+  -unboost|p1a: Gliscor|spd|1
+  move|p1a: Gliscor|Knock Off|p2a: Thundurus
+  -damage|p2a: Thundurus|3/100
+  -heal|p1a: Gliscor|51/239 tox|[from] ability: Poison Heal
+-- turn 9
+  WE CHOSE: attack knockoff - our hp 0.21, theirs 0.03, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to kommoo - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x0.5
+  move|p2a: Thundurus|Focus Blast|p1a: Gliscor
+  -resisted|p1a: Gliscor
+  -damage|p1a: Gliscor|0 fnt
+  faint|p1a: Gliscor
+  switch|p1a: Kommo-o|Kommo-o, L77, M|242/242
+-- turn 10
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Thundurus|Focus Blast|p1a: Kommo-o
+  -damage|p1a: Kommo-o|136/242
+  move|p1a: Kommo-o|Close Combat|p2a: Thundurus
+  -resisted|p2a: Thundurus
+  -damage|p2a: Thundurus|0 fnt
+  -unboost|p1a: Kommo-o|def|1
+  -unboost|p1a: Kommo-o|spd|1
+  faint|p2a: Thundurus
+  switch|p2a: Regidrago|Regidrago, L77|100/100
+-- turn 11
+  WE CHOSE: switch to perrserker - our hp 0.56, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to registeel - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Perrserker|Perrserker, L89, M|136/269
+  move|p2a: Regidrago|Dragon Energy|p1a: Perrserker
+  -resisted|p1a: Perrserker
+  -crit|p1a: Perrserker
+  -damage|p1a: Perrserker|0 fnt
+  faint|p1a: Perrserker
+  switch|p1a: Registeel|Registeel, L81|262/262
+-- turn 12
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Regidrago|Dragon Energy|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|198/262
+  move|p1a: Registeel|Body Press|p2a: Regidrago
+  -damage|p2a: Regidrago|72/100
+  -heal|p1a: Registeel|214/262|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack bodypress - our hp 0.82, theirs 0.72, predicted move (revealed) hits us x0.5
+  move|p2a: Regidrago|Dragon Energy|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|165/262
+  move|p1a: Registeel|Body Press|p2a: Regidrago
+  -damage|p2a: Regidrago|43/100
+  -heal|p1a: Registeel|181/262|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack bodypress - our hp 0.69, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p2a: Regidrago|Dragon Energy|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|150/262
+  move|p1a: Registeel|Body Press|p2a: Regidrago
+  -damage|p2a: Regidrago|16/100
+  -heal|p1a: Registeel|166/262|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack ironhead - our hp 0.63, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p2a: Regidrago|Dragon Energy|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|154/262
+  move|p1a: Registeel|Iron Head|p2a: Regidrago
+  -damage|p2a: Regidrago|0 fnt
+  faint|p2a: Regidrago
+  -heal|p1a: Registeel|170/262|[from] item: Leftovers
+  switch|p2a: Heracross|Heracross, L80, M|100/100
+-- turn 16
+  WE CHOSE: attack ironhead - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Heracross|Megahorn|p1a: Registeel|[miss]
+  -miss|p2a: Heracross|p1a: Registeel
+  move|p1a: Registeel|Iron Head|p2a: Heracross
+  -damage|p2a: Heracross|69/100
+  -heal|p1a: Registeel|186/262|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack ironhead - our hp 0.71, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p2a: Heracross|Megahorn|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|141/262
+  move|p1a: Registeel|Iron Head|p2a: Heracross
+  -damage|p2a: Heracross|36/100
+  -heal|p1a: Registeel|157/262|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack ironhead - our hp 0.60, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p2a: Heracross|Megahorn|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|109/262
+  move|p1a: Registeel|Iron Head|p2a: Heracross
+  -damage|p2a: Heracross|7/100
+  -heal|p1a: Registeel|125/262|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack ironhead - our hp 0.48, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p2a: Heracross|Megahorn|p1a: Registeel
+  -resisted|p1a: Registeel
+  -crit|p1a: Registeel
+  -damage|p1a: Registeel|49/262
+  move|p1a: Registeel|Iron Head|p2a: Heracross
+  -crit|p2a: Heracross
+  -damage|p2a: Heracross|0 fnt
+  faint|p2a: Heracross
+  -heal|p1a: Registeel|65/262|[from] item: Leftovers
+  switch|p2a: Tauros|Tauros-Paldea-Blaze, L81, M|100/100
+  -ability|p2a: Tauros|Intimidate|boost
+  -fail|p1a: Registeel|unboost|[from] ability: Clear Body|[of] p1a: Registeel
+-- turn 20
+  WE CHOSE: attack+tera bodypress - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to kommoo - our hp 0.00, theirs 0.92, predicted move (revealed) hits us x1
+  -terastallize|p1a: Registeel|Fighting
+  move|p2a: Tauros|Flare Blitz|p1a: Registeel
+  -damage|p1a: Registeel|0 fnt
+  faint|p1a: Registeel
+  -damage|p2a: Tauros|92/100|[from] Recoil
+  switch|p1a: Kommo-o|Kommo-o, L77, M|136/242
+-- turn 21
+  WE CHOSE: setup swordsdance - our hp 0.56, theirs 0.92, predicted move (revealed) hits us x0.5
+  move|p2a: Tauros|Flare Blitz|p1a: Kommo-o
+  -resisted|p1a: Kommo-o
+  -damage|p1a: Kommo-o|58/242
+  -damage|p2a: Tauros|82/100|[from] Recoil
+  move|p1a: Kommo-o|Swords Dance|p1a: Kommo-o
+  -boost|p1a: Kommo-o|atk|2
+-- turn 22
+  WE CHOSE: attack closecombat - our hp 0.24, theirs 0.82, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to furret - our hp 0.00, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p2a: Tauros|Flare Blitz|p1a: Kommo-o
+  -resisted|p1a: Kommo-o
+  -damage|p1a: Kommo-o|0 fnt
+  faint|p1a: Kommo-o
+  -damage|p2a: Tauros|75/100|[from] Recoil
+  switch|p1a: Furret|Furret, L94, F|312/312
+  -item|p2a: Tauros|Choice Band|[from] ability: Frisk|[of] p1a: Furret
+-- turn 23
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x1
+  move|p1a: Furret|Double-Edge|p2a: Tauros
+  -damage|p2a: Tauros|8/100
+  -damage|p1a: Furret|257/312|[from] Recoil
+  move|p2a: Tauros|Flare Blitz|p1a: Furret
+  -damage|p1a: Furret|49/312
+  -damage|p2a: Tauros|0 fnt|[from] Recoil
+  faint|p2a: Tauros
+  switch|p2a: Lunala|Lunala, L70|100/100
+-- turn 24
+  WE CHOSE: attack doubleedge - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Furret|Double-Edge|p2a: Lunala
+  -immune|p2a: Lunala
+  move|p2a: Lunala|Moongeist Beam|p1a: Furret
+  -immune|p1a: Furret
+-- turn 25
+  WE CHOSE: attack doubleedge - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Furret|Double-Edge|p2a: Lunala
+  -immune|p2a: Lunala
+  move|p2a: Lunala|Moongeist Beam|p1a: Furret
+  -immune|p1a: Furret
+-- turn 26
+  WE CHOSE: attack doubleedge - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Furret|Double-Edge|p2a: Lunala
+  -immune|p2a: Lunala
+  move|p2a: Lunala|Moongeist Beam|p1a: Furret
+  -immune|p1a: Furret
+-- turn 27
+  WE CHOSE: attack doubleedge - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Furret|Double-Edge|p2a: Lunala
+  -immune|p2a: Lunala
+  move|p2a: Lunala|Moongeist Beam|p1a: Furret
+  -immune|p1a: Furret
+-- turn 28
+  WE CHOSE: attack doubleedge - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Furret|Double-Edge|p2a: Lunala
+  -immune|p2a: Lunala
+  move|p2a: Lunala|Moongeist Beam|p1a: Furret
+  -immune|p1a: Furret
+-- turn 29
+  WE CHOSE: attack doubleedge - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Furret|Double-Edge|p2a: Lunala
+  -immune|p2a: Lunala
+  move|p2a: Lunala|Moongeist Beam|p1a: Furret
+  -immune|p1a: Furret
+-- turn 30
+  WE CHOSE: attack doubleedge - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Furret|Double-Edge|p2a: Lunala
+  -immune|p2a: Lunala
+  move|p2a: Lunala|Moongeist Beam|p1a: Furret
+  -immune|p1a: Furret
+-- turn 31
+  WE CHOSE: attack doubleedge - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Furret|Double-Edge|p2a: Lunala
+  -immune|p2a: Lunala
+  move|p2a: Lunala|Moongeist Beam|p1a: Furret
+  -immune|p1a: Furret
+-- turn 32
+  WE CHOSE: attack doubleedge - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to decidueyehisui - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Furret|Double-Edge|p2a: Lunala
+  -immune|p2a: Lunala
+  move|p2a: Lunala|Psyshock|p1a: Furret
+  -damage|p1a: Furret|0 fnt
+  faint|p1a: Furret
+  switch|p1a: Decidueye|Decidueye-Hisui, L87, F|295/295
+-- turn 33
+  WE CHOSE: attack leafblade - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Lunala|Psyshock|p1a: Decidueye
+  -supereffective|p1a: Decidueye
+  -damage|p1a: Decidueye|119/295
+  move|p1a: Decidueye|Leaf Blade|p2a: Lunala
+  -damage|p2a: Lunala|79/100
+  -heal|p2a: Lunala|86/100|[from] item: Leftovers
+  -heal|p1a: Decidueye|137/295|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: heal roost - our hp 0.46, theirs 0.86, predicted move (revealed) hits us x1
+  move|p2a: Lunala|Psyshock|p1a: Decidueye
+  -supereffective|p1a: Decidueye
+  -damage|p1a: Decidueye|0 fnt
+  faint|p1a: Decidueye
+  deinit

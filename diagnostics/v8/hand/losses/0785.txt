@@ -1,0 +1,200 @@
+battle 785 (battle-gen9randombattle-2025822): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  pikachuworld (fainted; item lightball, ability lightningrod, tera water; moves voltswitch/knockoff/surf/volttackle)
+  ursaring (fainted; item eviolite, ability guts; moves sleeptalk/bodyslam/rest/earthquake)
+  farigiraf (fainted; item leftovers, ability sapsipper; moves protect/wish/bodyslam/psychicnoise)
+  trevenant (fainted; item lifeorb, ability naturalcure; moves willowisp/poltergeist/drainpunch/hornleech)
+  ariados (fainted; item heavydutyboots, ability swarm; moves poisonjab/megahorn/knockoff/stickyweb)
+  veluza (fainted; item choiceband, ability sharpness; moves psychocut/aquajet/aquacutter/nightslash)
+theirs (as seen):
+  sunflora (fainted; item unknown_item, ability ?; moves solarbeam)
+  tyranitar (fainted; item unknown_item, ability ?; moves earthquake)
+  vigoroth (fainted; item unknown_item, ability vitalspirit; moves bodyslam)
+  trevenant (fainted; item unknown_item, ability ?; moves -)
+  glaceon (fainted; item unknown_item, ability ?; moves freezedry)
+  braviary (13%; item unknown_item, ability ?; moves bravebird)
+
+-- turn 0
+  switch|p1a: Pikachu|Pikachu-World, L93, M|216/216
+  switch|p2a: Sunflora|Sunflora, M|100/100
+-- turn 1
+  WE CHOSE: switch to farigiraf - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Farigiraf|Farigiraf, L90, F|362/362
+  move|p2a: Sunflora|Solar Beam||[still]
+  -prepare|p2a: Sunflora|Solar Beam
+-- turn 2
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Farigiraf|Body Slam|p2a: Sunflora
+  -damage|p2a: Sunflora|64/100
+  move|p2a: Sunflora|Solar Beam|p1a: Farigiraf|[from] lockedmove
+  -ability|p1a: Farigiraf|Sap Sipper|boost
+  -boost|p1a: Farigiraf|atk|1
+-- turn 3
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x0
+  move|p1a: Farigiraf|Body Slam|p2a: Sunflora
+  -damage|p2a: Sunflora|11/100
+  move|p2a: Sunflora|Solar Beam||[still]
+  -prepare|p2a: Sunflora|Solar Beam
+-- turn 4
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x0
+  move|p1a: Farigiraf|Body Slam|p2a: Sunflora
+  -damage|p2a: Sunflora|0 fnt
+  faint|p2a: Sunflora
+  switch|p2a: Tyranitar|Tyranitar, L78, F|100/100
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+-- turn 5
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Farigiraf|Body Slam|p2a: Tyranitar
+  -resisted|p2a: Tyranitar
+  -damage|p2a: Tyranitar|78/100
+  move|p2a: Tyranitar|Earthquake|p1a: Farigiraf
+  -damage|p1a: Farigiraf|267/362
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Farigiraf|245/362|[from] Sandstorm
+  -heal|p1a: Farigiraf|267/362|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack bodyslam - our hp 0.74, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Farigiraf|Body Slam|p2a: Tyranitar
+  -resisted|p2a: Tyranitar
+  -damage|p2a: Tyranitar|55/100
+  move|p2a: Tyranitar|Earthquake|p1a: Farigiraf
+  -damage|p1a: Farigiraf|177/362
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Farigiraf|155/362|[from] Sandstorm
+  -heal|p1a: Farigiraf|177/362|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack bodyslam - our hp 0.49, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Farigiraf|Body Slam|p2a: Tyranitar
+  -resisted|p2a: Tyranitar
+  -damage|p2a: Tyranitar|30/100
+  move|p2a: Tyranitar|Earthquake|p1a: Farigiraf
+  -damage|p1a: Farigiraf|90/362
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Farigiraf|68/362|[from] Sandstorm
+  -heal|p1a: Farigiraf|90/362|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack bodyslam - our hp 0.25, theirs 0.30, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to trevenant - our hp 0.00, theirs 0.06, predicted move (revealed) hits us x1
+  move|p1a: Farigiraf|Body Slam|p2a: Tyranitar
+  -resisted|p2a: Tyranitar
+  -damage|p2a: Tyranitar|6/100
+  move|p2a: Tyranitar|Earthquake|p1a: Farigiraf
+  -damage|p1a: Farigiraf|4/362
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Farigiraf|0 fnt|[from] Sandstorm
+  faint|p1a: Farigiraf
+  switch|p1a: Trevenant|Trevenant, L89, M|296/296
+-- turn 9
+  WE CHOSE: attack drainpunch - our hp 1.00, theirs 0.06, predicted move (revealed) hits us x0.5
+  move|p1a: Trevenant|Drain Punch|p2a: Tyranitar
+  -supereffective|p2a: Tyranitar
+  -damage|p2a: Tyranitar|0 fnt
+  faint|p2a: Tyranitar
+  -damage|p1a: Trevenant|267/296|[from] item: Life Orb
+  -weather|none
+  switch|p2a: Vigoroth|Vigoroth, L85, M|100/100
+-- turn 10
+  WE CHOSE: attack drainpunch - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Vigoroth|Body Slam|p1a: Trevenant
+  -immune|p1a: Trevenant
+  move|p1a: Trevenant|Drain Punch|p2a: Vigoroth
+  -supereffective|p2a: Vigoroth
+  -damage|p2a: Vigoroth|58/100
+  -heal|p1a: Trevenant|296/296|[from] drain|[of] p2a: Vigoroth
+  -damage|p1a: Trevenant|267/296|[from] item: Life Orb
+-- turn 11
+  WE CHOSE: attack drainpunch - our hp 0.90, theirs 0.58, predicted move (revealed) hits us x0
+  move|p2a: Vigoroth|Body Slam|p1a: Trevenant
+  -immune|p1a: Trevenant
+  move|p1a: Trevenant|Drain Punch|p2a: Vigoroth
+  -supereffective|p2a: Vigoroth
+  -damage|p2a: Vigoroth|12/100
+  -heal|p1a: Trevenant|296/296|[from] drain|[of] p2a: Vigoroth
+  -damage|p1a: Trevenant|267/296|[from] item: Life Orb
+-- turn 12
+  WE CHOSE: attack drainpunch - our hp 0.90, theirs 0.12, predicted move (revealed) hits us x0
+  move|p2a: Vigoroth|Body Slam|p1a: Trevenant
+  -immune|p1a: Trevenant
+  move|p1a: Trevenant|Drain Punch|p2a: Vigoroth
+  -supereffective|p2a: Vigoroth
+  -damage|p2a: Vigoroth|0 fnt
+  -heal|p1a: Trevenant|284/296|[from] drain|[of] p2a: Vigoroth
+  faint|p2a: Vigoroth
+  -damage|p1a: Trevenant|255/296|[from] item: Life Orb
+  switch|p2a: Trevenant|Trevenant, L89, F|100/100
+-- turn 13
+  WE CHOSE: attack poltergeist - our hp 0.86, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Trevenant|Poltergeist|p2a: Trevenant
+  -activate|p2a: Trevenant|move: Poltergeist|Sitrus Berry
+  -supereffective|p2a: Trevenant
+  -damage|p2a: Trevenant|0 fnt
+  faint|p2a: Trevenant
+  -damage|p1a: Trevenant|226/296|[from] item: Life Orb
+  switch|p2a: Glaceon|Glaceon, L94, M|100/100
+-- turn 14
+  WE CHOSE: switch to veluza - our hp 0.76, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to pikachuworld - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Veluza|Veluza, L85, M|292/292
+  move|p2a: Glaceon|Freeze-Dry|p1a: Veluza
+  -supereffective|p1a: Veluza
+  -damage|p1a: Veluza|0 fnt
+  faint|p1a: Veluza
+  switch|p1a: Pikachu|Pikachu-World, L93, M|216/216
+-- turn 15
+  WE CHOSE: attack+tera volttackle - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ariados - our hp 0.00, theirs 0.47, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Pikachu|Water
+  move|p1a: Pikachu|Volt Tackle|p2a: Glaceon
+  -damage|p2a: Glaceon|47/100
+  -damage|p1a: Pikachu|167/216|[from] Recoil
+  move|p2a: Glaceon|Freeze-Dry|p1a: Pikachu
+  -supereffective|p1a: Pikachu
+  -damage|p1a: Pikachu|0 fnt
+  faint|p1a: Pikachu
+  switch|p1a: Ariados|Ariados, L95, F|287/287
+-- turn 16
+  WE CHOSE: attack megahorn - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Ariados
+  -damage|p1a: Ariados|169/287
+  move|p1a: Ariados|Megahorn|p2a: Glaceon
+  -damage|p2a: Glaceon|2/100
+-- turn 17
+  WE CHOSE: attack megahorn - our hp 0.59, theirs 0.02, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ursaring - our hp 0.00, theirs 0.02, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Ariados
+  -crit|p1a: Ariados
+  -damage|p1a: Ariados|0 fnt
+  faint|p1a: Ariados
+  switch|p1a: Ursaring|Ursaring, L84, F|288/288
+-- turn 18
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.02, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Ursaring
+  -damage|p1a: Ursaring|201/288
+  move|p1a: Ursaring|Body Slam|p2a: Glaceon
+  -damage|p2a: Glaceon|0 fnt
+  faint|p2a: Glaceon
+  switch|p2a: Braviary|Braviary, L85, M|100/100
+-- turn 19
+  WE CHOSE: attack bodyslam - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Braviary|Brave Bird|p1a: Ursaring
+  -crit|p1a: Ursaring
+  -damage|p1a: Ursaring|35/288
+  -damage|p2a: Braviary|83/100|[from] Recoil
+  move|p1a: Ursaring|Body Slam|p2a: Braviary
+  -damage|p2a: Braviary|42/100
+-- turn 20
+  WE CHOSE: heal rest - our hp 0.12, theirs 0.42, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to trevenant - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Braviary|Brave Bird|p1a: Ursaring
+  -damage|p1a: Ursaring|0 fnt
+  faint|p1a: Ursaring
+  -damage|p2a: Braviary|38/100|[from] Recoil
+  switch|p1a: Trevenant|Trevenant, L89, M|226/296
+-- turn 21
+  WE CHOSE: attack drainpunch - our hp 0.76, theirs 0.38, predicted move (revealed) hits us x2
+  move|p2a: Braviary|Brave Bird|p1a: Trevenant
+  -supereffective|p1a: Trevenant
+  -damage|p1a: Trevenant|0 fnt
+  faint|p1a: Trevenant
+  -damage|p2a: Braviary|13/100|[from] Recoil

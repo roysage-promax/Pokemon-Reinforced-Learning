@@ -1,0 +1,129 @@
+battle 930 (battle-gen9randombattle-2027989): lost in 13 turns, 5 of theirs left; we are p1
+
+ours:
+  mienshao (fainted; item assaultvest, ability regenerator, tera poison; moves uturn/fakeout/closecombat/knockoff)
+  zoroark (fainted; item lifeorb, ability illusion; moves darkpulse/sludgebomb/nastyplot/encore)
+  landorustherian (fainted; item leftovers, ability intimidate; moves earthquake/stoneedge/taunt/uturn)
+  hitmontop (fainted; item assaultvest, ability intimidate; moves stoneedge/rapidspin/suckerpunch/closecombat)
+  lapras (fainted; item choicespecs, ability waterabsorb; moves hydropump/icebeam/sparklingaria/freezedry)
+  rotomwash (fainted; item leftovers, ability levitate; moves painsplit/voltswitch/hydropump/thunderbolt)
+theirs (as seen):
+  clodsire (fainted; item leftovers, ability ?; moves gunkshot)
+  serperior (8%; item leftovers, ability ?; moves leafstorm/dragonpulse)
+
+-- turn 0
+  switch|p1a: Mienshao|Mienshao, L83, F|235/235
+  switch|p2a: Clodsire|Clodsire, L81, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera darkpulse - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Mienshao|Poison
+  move|p1a: Mienshao|Dark Pulse|p2a: Clodsire
+  -damage|p2a: Clodsire|63/100
+  -damage|p1a: Mienshao|212/235|[from] item: Life Orb
+  move|p2a: Clodsire|Gunk Shot|p1a: Mienshao|[miss]
+  -miss|p2a: Clodsire|p1a: Mienshao
+  -heal|p2a: Clodsire|69/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to landorustherian (hand policy: attack darkpulse) - our hp 0.90, theirs 0.69, predicted move (revealed) hits us x1
+  switch|p1a: Landorus|Landorus-Therian, L76, M|260/260
+  -ability|p1a: Landorus|Intimidate|boost
+  -unboost|p2a: Clodsire|atk|1
+  move|p2a: Clodsire|Gunk Shot|p1a: Landorus
+  -resisted|p1a: Landorus
+  -damage|p1a: Landorus|225/260
+  -heal|p1a: Landorus|241/260|[from] item: Leftovers
+  -heal|p2a: Clodsire|75/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 0.93, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p1a: Landorus|Earthquake|p2a: Clodsire
+  -supereffective|p2a: Clodsire
+  -damage|p2a: Clodsire|0 fnt
+  faint|p2a: Clodsire
+  -heal|p1a: Landorus|257/260|[from] item: Leftovers
+  switch|p2a: Serperior|Serperior, L79, F|100/100
+-- turn 4
+  WE CHOSE: switch to mienshao (hand policy: attack uturn) - our hp 0.99, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Mienshao|Mienshao, L83, F|244/244
+  move|p2a: Serperior|Leaf Storm|p1a: Mienshao
+  -damage|p1a: Mienshao|153/244
+  -boost|p2a: Serperior|spa|2
+-- turn 5
+  WE CHOSE: attack closecombat - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to lapras (hand policy: forced: switch to zoroark) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Mienshao
+  -damage|p1a: Mienshao|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Mienshao
+  switch|p1a: Lapras|Lapras, L87, F|367/367
+-- turn 6
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to zoroark - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Serperior|Leaf Storm|p1a: Lapras
+  -supereffective|p1a: Lapras
+  -damage|p1a: Lapras|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Lapras
+  switch|p1a: Landorus|Landorus-Therian, L76, M, tera:Poison|212/235
+-- turn 7
+  WE CHOSE: attack sludgebomb - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: attack nastyplot (hand policy: forced: switch to hitmontop) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Landorus
+  -resisted|p1a: Landorus
+  -damage|p1a: Landorus|0 fnt
+  replace|p1a: Zoroark|Zoroark, L83, F
+  -end|p1a: Zoroark|Illusion
+  faint|p1a: Zoroark
+  switch|p1a: Hitmontop|Hitmontop, L88, M|231/231
+  -ability|p1a: Hitmontop|Intimidate|boost
+  -boost|p2a: Serperior|atk|1
+-- turn 8
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Hitmontop
+  -damage|p1a: Hitmontop|32/231
+  move|p1a: Hitmontop|Close Combat|p2a: Serperior
+  -damage|p2a: Serperior|47/100
+  -unboost|p1a: Hitmontop|def|1
+  -unboost|p1a: Hitmontop|spd|1
+  -heal|p2a: Serperior|53/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack closecombat - our hp 0.14, theirs 0.53, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rotomwash - our hp 0.00, theirs 0.59, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Hitmontop
+  -damage|p1a: Hitmontop|0 fnt
+  faint|p1a: Hitmontop
+  -heal|p2a: Serperior|59/100|[from] item: Leftovers
+  switch|p1a: Rotom|Rotom-Wash, L82|216/216
+-- turn 10
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.59, predicted move (revealed) hits us x2
+  move|p2a: Serperior|Leaf Storm|p1a: Rotom|[miss]
+  -miss|p2a: Serperior|p1a: Rotom
+  move|p1a: Rotom|Thunderbolt|p2a: Serperior
+  -resisted|p2a: Serperior
+  -damage|p2a: Serperior|38/100
+  -heal|p2a: Serperior|44/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to mienshao (hand policy: forced: attack painsplit) - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x2
+  move|p2a: Serperior|Leaf Storm|p1a: Rotom
+  -supereffective|p1a: Rotom
+  -damage|p1a: Rotom|0 fnt
+  faint|p1a: Rotom
+  -heal|p2a: Serperior|50/100|[from] item: Leftovers
+  switch|p1a: Landorus|Landorus-Therian, L76, M|257/260
+  -ability|p1a: Landorus|Intimidate|boost
+  -boost|p2a: Serperior|atk|1
+-- turn 12
+  WE CHOSE: attack uturn - our hp 0.99, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Dragon Pulse|p1a: Landorus
+  -damage|p1a: Landorus|61/260
+  move|p1a: Landorus|U-turn|p2a: Serperior
+  -supereffective|p2a: Serperior
+  -damage|p2a: Serperior|2/100
+  -heal|p2a: Serperior|8/100|[from] item: Leftovers
+  -heal|p1a: Landorus|77/260|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack uturn - our hp 0.30, theirs 0.08, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Dragon Pulse|p1a: Landorus
+  -damage|p1a: Landorus|0 fnt
+  faint|p1a: Landorus
+  deinit

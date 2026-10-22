@@ -1,0 +1,226 @@
+battle 2760 (battle-gen9randombattle-2044433): lost in 23 turns, 2 of theirs left; we are p1
+
+ours:
+  dusknoir (fainted; item choiceband, ability frisk, tera ghost; moves shadowsneak/poltergeist/leechlife/trick)
+  beartic (fainted; item heavydutyboots, ability slushrush; moves iciclecrash/swordsdance/snowscape/earthquake)
+  clawitzer (fainted; item choicespecs, ability megalauncher; moves icebeam/waterpulse/aurasphere/dragonpulse)
+  mamoswine (fainted; item choiceband, ability thickfat; moves knockoff/iciclecrash/iceshard/earthquake)
+  pawmot (fainted; item lifeorb, ability ironfist; moves closecombat/revivalblessing/icepunch/doubleshock)
+  corviknight (fainted; item leftovers, ability mirrorarmor; moves roost/uturn/bravebird/defog)
+theirs (as seen):
+  regieleki (fainted; item magnet, ability transistor; moves thunderbolt)
+  moltres (fainted; item unknown_item, ability ?; moves bravebird)
+  dusknoir (fainted; item leftovers, ability frisk; moves poltergeist)
+  kyurem (fainted; item unknown_item, ability pressure; moves outrage)
+  politoed (37%; item leftovers, ability ?; moves hydropump)
+
+-- turn 0
+  switch|p1a: Dusknoir|Dusknoir, L89, F|225/225
+  switch|p2a: Regieleki|Regieleki, L79|100/100
+  -item|p2a: Regieleki|Magnet|[from] ability: Frisk|[of] p1a: Dusknoir
+-- turn 1
+  WE CHOSE: attack+tera poltergeist - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  -terastallize|p1a: Dusknoir|Ghost
+  move|p2a: Regieleki|Thunderbolt|p1a: Dusknoir
+  -damage|p1a: Dusknoir|138/225
+  move|p1a: Dusknoir|Poltergeist|p2a: Regieleki|[miss]
+  -miss|p1a: Dusknoir|p2a: Regieleki
+-- turn 2
+  WE CHOSE: switch to mamoswine - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Mamoswine|Mamoswine, L81, M|311/311
+  move|p2a: Regieleki|Thunderbolt|p1a: Mamoswine
+  -immune|p1a: Mamoswine
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Regieleki|Thunderbolt|p1a: Mamoswine
+  -immune|p1a: Mamoswine
+  move|p1a: Mamoswine|Earthquake|p2a: Regieleki
+  -supereffective|p2a: Regieleki
+  -damage|p2a: Regieleki|0 fnt
+  faint|p2a: Regieleki
+  switch|p2a: Moltres|Moltres, L81|100/100
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Moltres|Brave Bird|p1a: Mamoswine
+  -damage|p1a: Mamoswine|182/311
+  -damage|p2a: Moltres|85/100|[from] Recoil
+  move|p1a: Mamoswine|Earthquake|p2a: Moltres
+  -immune|p2a: Moltres
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 0.59, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Moltres|Brave Bird|p1a: Mamoswine
+  -damage|p1a: Mamoswine|46/311
+  -damage|p2a: Moltres|69/100|[from] Recoil
+  move|p1a: Mamoswine|Earthquake|p2a: Moltres
+  -immune|p2a: Moltres
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 0.15, theirs 0.69, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pawmot - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Moltres|Brave Bird|p1a: Mamoswine
+  -damage|p1a: Mamoswine|0 fnt
+  faint|p1a: Mamoswine
+  -damage|p2a: Moltres|63/100|[from] Recoil
+  switch|p1a: Pawmot|Pawmot, L80, M|243/243
+-- turn 7
+  WE CHOSE: attack doubleshock - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Pawmot|Double Shock|p2a: Moltres
+  -supereffective|p2a: Moltres
+  -damage|p2a: Moltres|0 fnt
+  -start|p1a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+  faint|p2a: Moltres
+  -damage|p1a: Pawmot|219/243|[from] item: Life Orb
+  switch|p2a: Dusknoir|Dusknoir, L89, F|100/100
+  -item|p1a: Pawmot|Life Orb|[from] ability: Frisk|[of] p2a: Dusknoir
+-- turn 8
+  WE CHOSE: switch to dusknoir - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to pawmot - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Dusknoir|Dusknoir, L89, F, tera:Ghost|138/225
+  -item|p2a: Dusknoir|Leftovers|[from] ability: Frisk|[of] p1a: Dusknoir
+  move|p2a: Dusknoir|Poltergeist|p1a: Dusknoir
+  -activate|p1a: Dusknoir|move: Poltergeist|Choice Band
+  -supereffective|p1a: Dusknoir
+  -damage|p1a: Dusknoir|0 fnt
+  faint|p1a: Dusknoir
+  switch|p1a: Pawmot|Pawmot, L80, M|219/243
+-- turn 9
+  WE CHOSE: attack doubleshock - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Pawmot|Double Shock|p2a: Dusknoir
+  -damage|p2a: Dusknoir|47/100
+  -start|p1a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+  -damage|p1a: Pawmot|195/243|[from] item: Life Orb
+  move|p2a: Dusknoir|Poltergeist|p1a: Pawmot
+  -activate|p1a: Pawmot|move: Poltergeist|Life Orb
+  -damage|p1a: Pawmot|17/243
+  -heal|p2a: Dusknoir|53/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack doubleshock - our hp 0.07, theirs 0.53, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to corviknight - our hp 0.00, theirs 0.59, predicted move (revealed) hits us x1
+  move|p1a: Pawmot|Double Shock||[still]
+  -fail|p1a: Pawmot|move: Double Shock
+  move|p2a: Dusknoir|Poltergeist|p1a: Pawmot
+  -activate|p1a: Pawmot|move: Poltergeist|Life Orb
+  -damage|p1a: Pawmot|0 fnt
+  faint|p1a: Pawmot
+  -heal|p2a: Dusknoir|59/100|[from] item: Leftovers
+  switch|p1a: Corviknight|Corviknight, L80, F|288/288
+-- turn 11
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.59, predicted move (revealed) hits us x1
+  move|p1a: Corviknight|Brave Bird|p2a: Dusknoir
+  -damage|p2a: Dusknoir|25/100
+  -damage|p1a: Corviknight|263/288|[from] Recoil
+  move|p2a: Dusknoir|Poltergeist|p1a: Corviknight
+  -activate|p1a: Corviknight|move: Poltergeist|Leftovers
+  -damage|p1a: Corviknight|140/288
+  -heal|p1a: Corviknight|158/288|[from] item: Leftovers
+  -heal|p2a: Dusknoir|32/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack bravebird - our hp 0.55, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Corviknight|Brave Bird|p2a: Dusknoir
+  -damage|p2a: Dusknoir|2/100
+  -damage|p1a: Corviknight|136/288|[from] Recoil
+  move|p2a: Dusknoir|Poltergeist|p1a: Corviknight
+  -activate|p1a: Corviknight|move: Poltergeist|Leftovers
+  -damage|p1a: Corviknight|10/288
+  -heal|p1a: Corviknight|28/288|[from] item: Leftovers
+  -heal|p2a: Dusknoir|8/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.10, theirs 0.08, predicted move (revealed) hits us x1
+  move|p1a: Corviknight|Roost|p1a: Corviknight
+  -heal|p1a: Corviknight|172/288
+  -singleturn|p1a: Corviknight|move: Roost
+  move|p2a: Dusknoir|Poltergeist|p1a: Corviknight
+  -activate|p1a: Corviknight|move: Poltergeist|Leftovers
+  -damage|p1a: Corviknight|52/288
+  -heal|p1a: Corviknight|70/288|[from] item: Leftovers
+  -heal|p2a: Dusknoir|14/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal roost - our hp 0.24, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Corviknight|Roost|p1a: Corviknight
+  -heal|p1a: Corviknight|214/288
+  -singleturn|p1a: Corviknight|move: Roost
+  move|p2a: Dusknoir|Poltergeist|p1a: Corviknight|[miss]
+  -miss|p2a: Dusknoir|p1a: Corviknight
+  -heal|p1a: Corviknight|232/288|[from] item: Leftovers
+  -heal|p2a: Dusknoir|20/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack bravebird - our hp 0.81, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Corviknight|Brave Bird|p2a: Dusknoir
+  -damage|p2a: Dusknoir|0 fnt
+  faint|p2a: Dusknoir
+  -damage|p1a: Corviknight|217/288|[from] Recoil
+  -heal|p1a: Corviknight|235/288|[from] item: Leftovers
+  switch|p2a: Kyurem|Kyurem, L77|100/100
+  -ability|p2a: Kyurem|Pressure
+-- turn 16
+  WE CHOSE: attack bravebird - our hp 0.82, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Kyurem|Outrage|p1a: Corviknight
+  -resisted|p1a: Corviknight
+  -damage|p1a: Corviknight|172/288
+  move|p1a: Corviknight|Brave Bird|p2a: Kyurem
+  -damage|p2a: Kyurem|64/100
+  -damage|p1a: Corviknight|133/288|[from] Recoil
+  -heal|p1a: Corviknight|151/288|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack bravebird - our hp 0.52, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p2a: Kyurem|Outrage|p1a: Corviknight|[from] lockedmove
+  -resisted|p1a: Corviknight
+  -damage|p1a: Corviknight|90/288
+  move|p1a: Corviknight|Brave Bird|p2a: Kyurem
+  -crit|p2a: Kyurem
+  -damage|p2a: Kyurem|7/100
+  -damage|p1a: Corviknight|31/288|[from] Recoil
+  -heal|p1a: Corviknight|49/288|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: heal roost - our hp 0.17, theirs 0.07, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to clawitzer - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p2a: Kyurem|Outrage|p1a: Corviknight|[from] lockedmove
+  -resisted|p1a: Corviknight
+  -damage|p1a: Corviknight|0 fnt
+  faint|p1a: Corviknight
+  -start|p2a: Kyurem|confusion|[fatigue]
+  switch|p1a: Clawitzer|Clawitzer, L87, M|265/265
+-- turn 19
+  WE CHOSE: attack dragonpulse - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x1
+  -activate|p2a: Kyurem|confusion
+  move|p2a: Kyurem|Outrage|p1a: Clawitzer
+  -damage|p1a: Clawitzer|129/265
+  move|p1a: Clawitzer|Dragon Pulse|p2a: Kyurem
+  -supereffective|p2a: Kyurem
+  -damage|p2a: Kyurem|0 fnt
+  faint|p2a: Kyurem
+  switch|p2a: Politoed|Politoed, L88, M|100/100
+  -weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+-- turn 20
+  WE CHOSE: attack dragonpulse - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Politoed|Hydro Pump|p1a: Clawitzer
+  -resisted|p1a: Clawitzer
+  -damage|p1a: Clawitzer|41/265
+  move|p1a: Clawitzer|Dragon Pulse|p2a: Politoed
+  -damage|p2a: Politoed|54/100
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Politoed|60/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack dragonpulse - our hp 0.15, theirs 0.60, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to beartic - our hp 0.00, theirs 0.66, predicted move (revealed) hits us x0.5
+  move|p2a: Politoed|Hydro Pump|p1a: Clawitzer
+  -resisted|p1a: Clawitzer
+  -damage|p1a: Clawitzer|0 fnt
+  faint|p1a: Clawitzer
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Politoed|66/100|[from] item: Leftovers
+  switch|p1a: Beartic|Beartic, L91, M|321/321
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Politoed|Hydro Pump|p1a: Beartic
+  -crit|p1a: Beartic
+  -damage|p1a: Beartic|51/321
+  move|p1a: Beartic|Earthquake|p2a: Politoed
+  -damage|p2a: Politoed|31/100
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Politoed|37/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 0.16, theirs 0.37, predicted move (revealed) hits us x1
+  move|p2a: Politoed|Hydro Pump|p1a: Beartic
+  -damage|p1a: Beartic|0 fnt
+  faint|p1a: Beartic
+  deinit

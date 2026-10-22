@@ -1,0 +1,139 @@
+battle 241 (battle-gen9randombattle-2020967): lost in 17 turns, 2 of theirs left; we are p1
+
+ours:
+  cinderace (fainted; item heavydutyboots, ability libero; moves highjumpkick/courtchange/gunkshot/pyroball)
+  falinks (fainted; item lifeorb, ability defiant; moves knockoff/closecombat/noretreat/ironhead)
+  mesprit (fainted; item choicescarf, ability levitate; moves shadowball/psychic/icebeam/dazzlinggleam)
+  tatsugiri (fainted; item heavydutyboots, ability stormdrain; moves rapidspin/nastyplot/dracometeor/surf)
+  mabosstiff (fainted; item choiceband, ability stakeout, tera fairy; moves playrough/crunch/wildcharge/psychicfangs)
+  vivillontundra (fainted; item heavydutyboots, ability compoundeyes; moves quiverdance/sleeppowder/hurricane/terablast)
+theirs (as seen):
+  overqwil (fainted; item unknown_item, ability intimidate; moves gunkshot)
+  mismagius (fainted; item lifeorb, ability levitate; moves thunderbolt)
+  golurk (fainted; item unknown_item, ability ?; moves -)
+  raikou (fainted; item unknown_item, ability pressure; moves thunderbolt)
+  regirock (71%; item leftovers, ability ?; moves stoneedge)
+
+-- turn 0
+  switch|p1a: Cinderace|Cinderace, L77, F|249/249
+  switch|p2a: Overqwil|Overqwil, L82, F|100/100
+  -ability|p2a: Overqwil|Intimidate|boost
+  -unboost|p1a: Cinderace|atk|1
+-- turn 1
+  WE CHOSE: switch to falinks (hand policy: attack pyroball) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Falinks|Falinks, L84|246/246
+  move|p2a: Overqwil|Gunk Shot|p1a: Falinks
+  -damage|p1a: Falinks|114/246
+-- turn 2
+  WE CHOSE: switch to tatsugiri (hand policy: attack closecombat) - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Tatsugiri|Tatsugiri, L87, F|260/260
+  move|p2a: Overqwil|Gunk Shot|p1a: Tatsugiri
+  -damage|p1a: Tatsugiri|79/260
+-- turn 3
+  WE CHOSE: attack surf (hand policy: attack dracometeor) - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Tatsugiri|Surf|p2a: Overqwil
+  -damage|p2a: Overqwil|45/100
+  move|p2a: Overqwil|Gunk Shot|p1a: Tatsugiri|[miss]
+  -miss|p2a: Overqwil|p1a: Tatsugiri
+-- turn 4
+  WE CHOSE: attack surf (hand policy: attack dracometeor) - our hp 0.30, theirs 0.45, predicted move (revealed) hits us x1
+  move|p1a: Tatsugiri|Surf|p2a: Overqwil
+  -damage|p2a: Overqwil|0 fnt
+  faint|p2a: Overqwil
+  switch|p2a: Mismagius|Mismagius, L86, F|100/100
+-- turn 5
+  WE CHOSE: switch to mabosstiff (hand policy: attack dracometeor) - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Mabosstiff|Mabosstiff, L86, F|278/278
+  move|p2a: Mismagius|Thunderbolt|p1a: Mabosstiff
+  -damage|p1a: Mabosstiff|174/278
+  -damage|p2a: Mismagius|91/100|[from] item: Life Orb
+-- turn 6
+  WE CHOSE: attack+tera crunch (hand policy: attack crunch) - our hp 0.63, theirs 0.91, predicted move (revealed) hits us x1
+  -terastallize|p1a: Mabosstiff|Fairy
+  move|p2a: Mismagius|Thunderbolt|p1a: Mabosstiff
+  -damage|p1a: Mabosstiff|65/278
+  -damage|p2a: Mismagius|81/100|[from] item: Life Orb
+  move|p1a: Mabosstiff|Crunch|p2a: Mismagius
+  -supereffective|p2a: Mismagius
+  -damage|p2a: Mismagius|0 fnt
+  faint|p2a: Mismagius
+  switch|p2a: Golurk|Golurk, L87|100/100
+-- turn 7
+  WE CHOSE: attack crunch - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Mabosstiff|Crunch|p2a: Golurk
+  -supereffective|p2a: Golurk
+  -damage|p2a: Golurk|0 fnt
+  faint|p2a: Golurk
+  switch|p2a: Raikou|Raikou, L81|100/100
+  -ability|p2a: Raikou|Pressure
+-- turn 8
+  WE CHOSE: attack crunch - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to falinks - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Mabosstiff
+  -damage|p1a: Mabosstiff|0 fnt
+  faint|p1a: Mabosstiff
+  switch|p1a: Falinks|Falinks, L84|114/246
+-- turn 9
+  WE CHOSE: attack closecombat - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tatsugiri - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Falinks
+  -damage|p1a: Falinks|0 fnt
+  faint|p1a: Falinks
+  switch|p1a: Tatsugiri|Tatsugiri, L87, F|79/260
+-- turn 10
+  WE CHOSE: attack dracometeor - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cinderace - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Tatsugiri
+  -damage|p1a: Tatsugiri|0 fnt
+  faint|p1a: Tatsugiri
+  switch|p1a: Cinderace|Cinderace, L77, F|249/249
+-- turn 11
+  WE CHOSE: attack pyroball - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Cinderace
+  -damage|p1a: Cinderace|62/249
+  move|p1a: Cinderace|Pyro Ball|p2a: Raikou|[miss]
+  -miss|p1a: Cinderace|p2a: Raikou
+-- turn 12
+  WE CHOSE: attack pyroball - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mesprit - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Cinderace
+  -damage|p1a: Cinderace|0 fnt
+  faint|p1a: Cinderace
+  switch|p1a: Mesprit|Mesprit, L85|275/275
+-- turn 13
+  WE CHOSE: attack psychic - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mesprit|Psychic|p2a: Raikou
+  -damage|p2a: Raikou|65/100
+  move|p2a: Raikou|Thunderbolt|p1a: Mesprit
+  -damage|p1a: Mesprit|139/275
+-- turn 14
+  WE CHOSE: attack psychic - our hp 0.51, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Mesprit|Psychic|p2a: Raikou
+  -damage|p2a: Raikou|29/100
+  move|p2a: Raikou|Thunderbolt|p1a: Mesprit
+  -damage|p1a: Mesprit|9/275
+-- turn 15
+  WE CHOSE: attack psychic - our hp 0.03, theirs 0.29, predicted move (revealed) hits us x1
+  move|p1a: Mesprit|Psychic|p2a: Raikou
+  -damage|p2a: Raikou|0 fnt
+  faint|p2a: Raikou
+  switch|p2a: Regirock|Regirock, L83|100/100
+-- turn 16
+  WE CHOSE: attack psychic - our hp 0.03, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: attack psychic (hand policy: forced: switch to vivillontundra) - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Mesprit|Psychic|p2a: Regirock
+  -damage|p2a: Regirock|65/100
+  move|p2a: Regirock|Stone Edge|p1a: Mesprit
+  -damage|p1a: Mesprit|0 fnt
+  faint|p1a: Mesprit
+  -heal|p2a: Regirock|71/100|[from] item: Leftovers
+  switch|p1a: Vivillon|Vivillon-Tundra, L83, M|268/268
+-- turn 17
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x4
+  move|p1a: Vivillon|Hurricane|p2a: Regirock|[miss]
+  -miss|p1a: Vivillon|p2a: Regirock
+  move|p2a: Regirock|Stone Edge|p1a: Vivillon
+  -supereffective|p1a: Vivillon
+  -damage|p1a: Vivillon|0 fnt
+  faint|p1a: Vivillon
+  deinit

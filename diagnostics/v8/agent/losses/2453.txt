@@ -1,0 +1,197 @@
+battle 2453 (battle-gen9randombattle-2043629): lost in 17 turns, 1 of theirs left; we are p1
+
+ours:
+  bruxish (fainted; item lifeorb, ability strongjaw, tera psychic; moves icefang/wavecrash/swordsdance/psychicfangs)
+  munkidori (fainted; item assaultvest, ability toxicchain; moves psychicnoise/fakeout/uturn/sludgewave)
+  overqwil (fainted; item loadeddice, ability intimidate; moves gunkshot/scaleshot/swordsdance/crunch)
+  scrafty (fainted; item leftovers, ability intimidate; moves dragondance/drainpunch/knockoff/poisonjab)
+  hariyama (fainted; item assaultvest, ability thickfat; moves heavyslam/stoneedge/closecombat/knockoff)
+  miraidon (fainted; item lifeorb, ability hadronengine; moves dragonpulse/dracometeor/electrodrift/calmmind)
+theirs (as seen):
+  lycanrocdusk (fainted; item lifeorb, ability toughclaws; moves closecombat)
+  decidueyehisui (fainted; item leftovers, ability ?; moves triplearrows)
+  tatsugiri (fainted; item unknown_item, ability ?; moves dracometeor)
+  hitmontop (fainted; item unknown_item, ability intimidate; moves closecombat)
+  ogerponcornerstone (fainted; item unknown_item, ability sturdy; moves superpower)
+  wigglytuff (13%; item leftovers, ability competitive; moves alluringvoice)
+
+-- turn 0
+  switch|p1a: Bruxish|Bruxish, L85, M|254/254
+  switch|p2a: Lycanroc|Lycanroc-Dusk, L81, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera wavecrash (hand policy: setup swordsdance) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  -terastallize|p1a: Bruxish|Psychic
+  move|p2a: Lycanroc|Close Combat|p1a: Bruxish
+  -resisted|p1a: Bruxish
+  -damage|p1a: Bruxish|164/254
+  -unboost|p2a: Lycanroc|def|1
+  -unboost|p2a: Lycanroc|spd|1
+  -damage|p2a: Lycanroc|91/100|[from] item: Life Orb
+  move|p1a: Bruxish|Wave Crash|p2a: Lycanroc
+  -supereffective|p2a: Lycanroc
+  -damage|p2a: Lycanroc|0 fnt
+  faint|p2a: Lycanroc
+  -damage|p1a: Bruxish|88/254|[from] Recoil
+  -damage|p1a: Bruxish|63/254|[from] item: Life Orb
+  switch|p2a: Decidueye|Decidueye-Hisui, L87, F|100/100
+-- turn 2
+  WE CHOSE: switch to overqwil (hand policy: attack psychicfangs) - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Overqwil|Overqwil, L82, M|274/274
+  -ability|p1a: Overqwil|Intimidate|boost
+  -fail|p2a: Decidueye|unboost|Attack|[from] ability: Scrappy|[of] p2a: Decidueye
+  move|p2a: Decidueye|Triple Arrows|p1a: Overqwil
+  -damage|p1a: Overqwil|166/274
+-- turn 3
+  WE CHOSE: switch to munkidori (hand policy: attack gunkshot) - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Munkidori|Munkidori, L79, M|269/269
+  move|p2a: Decidueye|Triple Arrows|p1a: Munkidori
+  -resisted|p1a: Munkidori
+  -damage|p1a: Munkidori|232/269
+  -unboost|p1a: Munkidori|def|1
+-- turn 4
+  WE CHOSE: attack sludgewave - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Munkidori|Sludge Wave|p2a: Decidueye
+  -supereffective|p2a: Decidueye
+  -damage|p2a: Decidueye|37/100
+  -status|p2a: Decidueye|psn
+  move|p2a: Decidueye|Triple Arrows|p1a: Munkidori
+  -resisted|p1a: Munkidori
+  -damage|p1a: Munkidori|172/269
+  -heal|p2a: Decidueye|43/100 psn|[from] item: Leftovers
+  -damage|p2a: Decidueye|31/100 psn|[from] psn
+-- turn 5
+  WE CHOSE: attack sludgewave - our hp 0.64, theirs 0.31, predicted move (revealed) hits us x0.25
+  move|p1a: Munkidori|Sludge Wave|p2a: Decidueye
+  -supereffective|p2a: Decidueye
+  -damage|p2a: Decidueye|0 fnt
+  faint|p2a: Decidueye
+  switch|p2a: Tatsugiri|Tatsugiri, L87, M|100/100
+-- turn 6
+  WE CHOSE: attack sludgewave - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Munkidori|Sludge Wave|p2a: Tatsugiri
+  -damage|p2a: Tatsugiri|60/100
+  move|p2a: Tatsugiri|Draco Meteor|p1a: Munkidori
+  -damage|p1a: Munkidori|45/269
+  -unboost|p2a: Tatsugiri|spa|2
+-- turn 7
+  WE CHOSE: attack sludgewave - our hp 0.17, theirs 0.60, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hariyama - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p1a: Munkidori|Sludge Wave|p2a: Tatsugiri
+  -damage|p2a: Tatsugiri|24/100
+  -status|p2a: Tatsugiri|tox|[from] ability: Toxic Chain|[of] p1a: Munkidori
+  move|p2a: Tatsugiri|Draco Meteor|p1a: Munkidori
+  -damage|p1a: Munkidori|0 fnt
+  -unboost|p2a: Tatsugiri|spa|2
+  faint|p1a: Munkidori
+  -damage|p2a: Tatsugiri|18/100 tox|[from] psn
+  switch|p1a: Hariyama|Hariyama, L87, M|392/392
+-- turn 8
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Tatsugiri|Draco Meteor|p1a: Hariyama
+  -damage|p1a: Hariyama|346/392
+  -unboost|p2a: Tatsugiri|spa|2
+  move|p1a: Hariyama|Close Combat|p2a: Tatsugiri
+  -damage|p2a: Tatsugiri|0 fnt
+  -unboost|p1a: Hariyama|def|1
+  -unboost|p1a: Hariyama|spd|1
+  faint|p2a: Tatsugiri
+  switch|p2a: Hitmontop|Hitmontop, L88, M|100/100
+  -ability|p2a: Hitmontop|Intimidate|boost
+  -unboost|p1a: Hariyama|atk|1
+-- turn 9
+  WE CHOSE: switch to bruxish (hand policy: attack closecombat) - our hp 0.88, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hariyama - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Bruxish|Bruxish, L85, M, tera:Psychic|63/254
+  move|p2a: Hitmontop|Close Combat|p1a: Bruxish
+  -resisted|p1a: Bruxish
+  -damage|p1a: Bruxish|0 fnt
+  -unboost|p2a: Hitmontop|def|1
+  -unboost|p2a: Hitmontop|spd|1
+  faint|p1a: Bruxish
+  switch|p1a: Hariyama|Hariyama, L87, M|346/392
+-- turn 10
+  WE CHOSE: attack closecombat - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmontop|Close Combat|p1a: Hariyama
+  -damage|p1a: Hariyama|175/392
+  -unboost|p2a: Hitmontop|def|1
+  -unboost|p2a: Hitmontop|spd|1
+  move|p1a: Hariyama|Close Combat|p2a: Hitmontop
+  -damage|p2a: Hitmontop|0 fnt
+  -unboost|p1a: Hariyama|def|1
+  -unboost|p1a: Hariyama|spd|1
+  faint|p2a: Hitmontop
+  switch|p2a: Ogerpon|Ogerpon-Cornerstone, L76, F|100/100
+-- turn 11
+  WE CHOSE: switch to miraidon (hand policy: attack closecombat) - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Miraidon|Miraidon, L65|238/238
+  -fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+  move|p2a: Ogerpon|Superpower|p1a: Miraidon
+  -damage|p1a: Miraidon|131/238
+  -unboost|p2a: Ogerpon|atk|1
+  -unboost|p2a: Ogerpon|def|1
+-- turn 12
+  WE CHOSE: attack dracometeor - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Miraidon|Draco Meteor|p2a: Ogerpon
+  -damage|p2a: Ogerpon|23/100
+  -unboost|p1a: Miraidon|spa|2
+  -damage|p1a: Miraidon|108/238|[from] item: Life Orb
+  move|p2a: Ogerpon|Superpower|p1a: Miraidon
+  -damage|p1a: Miraidon|27/238
+  -unboost|p2a: Ogerpon|atk|1
+  -unboost|p2a: Ogerpon|def|1
+-- turn 13
+  WE CHOSE: attack dracometeor - our hp 0.11, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Miraidon|Draco Meteor|p2a: Ogerpon
+  -damage|p2a: Ogerpon|0 fnt
+  -unboost|p1a: Miraidon|spa|2
+  faint|p2a: Ogerpon
+  -damage|p1a: Miraidon|4/238|[from] item: Life Orb
+  switch|p2a: Wigglytuff|Wigglytuff, L96, F|100/100
+-- turn 14
+  WE CHOSE: switch to overqwil (hand policy: attack electrodrift) - our hp 0.02, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to hariyama - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Overqwil|Overqwil, L82, M|166/274
+  -ability|p1a: Overqwil|Intimidate|boost
+  -unboost|p2a: Wigglytuff|atk|1
+  -ability|p2a: Wigglytuff|Competitive|boost
+  -boost|p2a: Wigglytuff|spa|2
+  move|p2a: Wigglytuff|Alluring Voice|p1a: Overqwil
+  -damage|p1a: Overqwil|0 fnt
+  faint|p1a: Overqwil
+  switch|p1a: Hariyama|Hariyama, L87, M|175/392
+-- turn 15
+  WE CHOSE: attack closecombat - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to miraidon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Wigglytuff|Alluring Voice|p1a: Hariyama
+  -supereffective|p1a: Hariyama
+  -damage|p1a: Hariyama|0 fnt
+  faint|p1a: Hariyama
+  -fieldend|move: Electric Terrain
+  switch|p1a: Miraidon|Miraidon, L65|4/238
+  -fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+-- turn 16
+  WE CHOSE: attack electrodrift - our hp 0.02, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to scrafty - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x2
+  move|p1a: Miraidon|Electro Drift|p2a: Wigglytuff
+  -damage|p2a: Wigglytuff|43/100
+  -damage|p1a: Miraidon|0 fnt|[from] item: Life Orb
+  faint|p1a: Miraidon
+  move|p2a: Wigglytuff|Alluring Voice|p1: Miraidon|[notarget]
+  -fail|p2a: Wigglytuff
+  -heal|p2a: Wigglytuff|50/100|[from] item: Leftovers
+  switch|p1a: Scrafty|Scrafty, L83, F|244/244
+  -ability|p1a: Scrafty|Intimidate|boost
+  -unboost|p2a: Wigglytuff|atk|1
+  -ability|p2a: Wigglytuff|Competitive|boost
+  -boost|p2a: Wigglytuff|spa|2
+-- turn 17
+  WE CHOSE: attack poisonjab - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x4
+  move|p1a: Scrafty|Poison Jab|p2a: Wigglytuff
+  -supereffective|p2a: Wigglytuff
+  -damage|p2a: Wigglytuff|13/100
+  -status|p2a: Wigglytuff|psn
+  move|p2a: Wigglytuff|Alluring Voice|p1a: Scrafty
+  -supereffective|p1a: Scrafty
+  -damage|p1a: Scrafty|0 fnt
+  faint|p1a: Scrafty
+  deinit

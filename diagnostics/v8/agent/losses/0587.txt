@@ -1,0 +1,700 @@
+battle 587 (battle-gen9randombattle-2024475): lost in 94 turns, 2 of theirs left; we are p1
+
+ours:
+  tentacruel (fainted; item assaultvest, ability liquidooze; moves rapidspin/knockoff/surf/sludgebomb)
+  suicune (fainted; item leftovers, ability pressure; moves calmmind/sleeptalk/scald/rest)
+  snorlax (fainted; item leftovers, ability thickfat; moves sleeptalk/rest/bodyslam/curse)
+  pachirisu (fainted; item heavydutyboots, ability voltabsorb; moves superfang/uturn/discharge/encore)
+  groudon (fainted; item leftovers, ability drought; moves stoneedge/heatcrash/precipiceblades/willowisp)
+  gumshoos (fainted; item choiceband, ability adaptability, tera ground; moves earthquake/knockoff/uturn/doubleedge)
+theirs (as seen):
+  eternatus (fainted; item leftovers, ability pressure; moves dynamaxcannon)
+  ceruledge (fainted; item unknown_item, ability ?; moves poltergeist/bitterblade/shadowsneak)
+  ditto (fainted; item unknown_item, ability pressure; moves scald)
+  enamorus (fainted; item leftovers, ability ?; moves moonblast)
+  stantler (51%; item unknown_item, ability intimidate; moves earthquake/bodyslam)
+
+-- turn 0
+  switch|p1a: Tentacruel|Tentacruel, L84, F|272/272
+  switch|p2a: Eternatus|Eternatus, L69|100/100
+  -ability|p2a: Eternatus|Pressure
+-- turn 1
+  WE CHOSE: switch to groudon (hand policy: attack surf) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Groudon|Groudon, L72|263/263
+  -weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Groudon
+  -damage|p1a: Groudon|148/263
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Groudon|164/263|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack precipiceblades - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Groudon
+  -damage|p1a: Groudon|52/263
+  move|p1a: Groudon|Precipice Blades|p2a: Eternatus
+  -supereffective|p2a: Eternatus
+  -damage|p2a: Eternatus|10/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Eternatus|16/100|[from] item: Leftovers
+  -heal|p1a: Groudon|68/263|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack precipiceblades - our hp 0.26, theirs 0.16, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gumshoos - our hp 0.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Groudon
+  -damage|p1a: Groudon|0 fnt
+  faint|p1a: Groudon
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Eternatus|23/100|[from] item: Leftovers
+  switch|p1a: Gumshoos|Gumshoos, L95, F|321/321
+-- turn 4
+  WE CHOSE: attack+tera earthquake - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  -terastallize|p1a: Gumshoos|Ground
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Gumshoos
+  -damage|p1a: Gumshoos|207/321
+  move|p1a: Gumshoos|Earthquake|p2a: Eternatus
+  -supereffective|p2a: Eternatus
+  -crit|p2a: Eternatus
+  -damage|p2a: Eternatus|0 fnt
+  faint|p2a: Eternatus
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Ceruledge|Ceruledge, L78, F|100/100
+-- turn 5
+  WE CHOSE: switch to tentacruel (hand policy: attack earthquake) - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Tentacruel|Tentacruel, L84, F|272/272
+  move|p2a: Ceruledge|Poltergeist|p1a: Tentacruel
+  -activate|p1a: Tentacruel|move: Poltergeist|Assault Vest
+  -damage|p1a: Tentacruel|122/272
+  -weather|none
+-- turn 6
+  WE CHOSE: switch to snorlax - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Snorlax|Snorlax, L82, M|397/397
+  move|p2a: Ceruledge|Poltergeist|p1a: Snorlax
+  -immune|p1a: Snorlax
+-- turn 7
+  WE CHOSE: heal rest (hand policy: attack sleeptalk) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Poltergeist|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 8
+  WE CHOSE: heal rest (hand policy: attack sleeptalk) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Poltergeist|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 9
+  WE CHOSE: heal rest (hand policy: attack sleeptalk) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Poltergeist|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 10
+  WE CHOSE: heal rest (hand policy: attack sleeptalk) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Poltergeist|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 11
+  WE CHOSE: heal rest (hand policy: attack sleeptalk) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Poltergeist|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 12
+  WE CHOSE: heal rest (hand policy: attack sleeptalk) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Poltergeist|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -fail|p1a: Snorlax|heal
+-- turn 13
+  WE CHOSE: heal rest (hand policy: attack sleeptalk) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|337/397
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -status|p1a: Snorlax|slp|[from] move: Rest
+  -heal|p1a: Snorlax|397/397 slp|[silent]
+-- turn 14
+  WE CHOSE: heal rest (hand policy: attack sleeptalk) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|331/397 slp
+  cant|p1a: Snorlax|slp
+  -heal|p1a: Snorlax|355/397 slp|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal rest (hand policy: attack sleeptalk) - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|292/397 slp
+  cant|p1a: Snorlax|slp
+  -heal|p1a: Snorlax|316/397 slp|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: heal rest (hand policy: attack sleeptalk) - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|256/397 slp
+  -curestatus|p1a: Snorlax|slp|[msg]
+  move|p1a: Snorlax|Rest|p1a: Snorlax
+  -status|p1a: Snorlax|slp|[from] move: Rest
+  -heal|p1a: Snorlax|397/397 slp|[silent]
+-- turn 17
+  WE CHOSE: attack sleeptalk - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|333/397 slp
+  cant|p1a: Snorlax|slp
+  move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+  move|p1a: Snorlax|Curse|p1a: Snorlax|[from] move: Sleep Talk
+  -unboost|p1a: Snorlax|spe|1
+  -boost|p1a: Snorlax|atk|1
+  -boost|p1a: Snorlax|def|1
+  -heal|p1a: Snorlax|357/397 slp|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack sleeptalk - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|314/397 slp
+  cant|p1a: Snorlax|slp
+  move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge|[from] move: Sleep Talk
+  -immune|p2a: Ceruledge
+  -heal|p1a: Snorlax|338/397 slp|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack sleeptalk - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|293/397 slp
+  -curestatus|p1a: Snorlax|slp|[msg]
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|317/397|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack sleeptalk - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|269/397
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|293/397|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack sleeptalk - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|250/397
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|274/397|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack sleeptalk - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|228/397
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|252/397|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack sleeptalk - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -crit|p1a: Snorlax
+  -damage|p1a: Snorlax|149/397
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|173/397|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack sleeptalk - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|130/397
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|154/397|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack sleeptalk - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|108/397
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|132/397|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack sleeptalk - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|90/397
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|114/397|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack sleeptalk - our hp 0.29, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|68/397
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|92/397|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack sleeptalk - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Bitter Blade|p1a: Snorlax
+  -damage|p1a: Snorlax|49/397
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|73/397|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack sleeptalk - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|97/397|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack sleeptalk - our hp 0.24, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|121/397|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack sleeptalk - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|145/397|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack sleeptalk - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Sleep Talk||[still]
+  -fail|p1a: Snorlax
+  -heal|p1a: Snorlax|169/397|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: switch to gumshoos (hand policy: attack bodyslam) - our hp 0.43, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gumshoos|Gumshoos, L95, F, tera:Ground|207/321
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Gumshoos
+  -damage|p1a: Gumshoos|156/321
+-- turn 34
+  WE CHOSE: switch to snorlax - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Snorlax|Snorlax, L82, M|169/397
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  -heal|p1a: Snorlax|193/397|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: attack bodyslam - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+  -heal|p1a: Snorlax|217/397|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack bodyslam - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+  -heal|p1a: Snorlax|241/397|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: switch to gumshoos (hand policy: attack bodyslam) - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gumshoos|Gumshoos, L95, F, tera:Ground|156/321
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Gumshoos
+  -damage|p1a: Gumshoos|107/321
+-- turn 38
+  WE CHOSE: switch to snorlax - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Snorlax|Snorlax, L82, M|241/397
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  -heal|p1a: Snorlax|265/397|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack bodyslam - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+  -heal|p1a: Snorlax|289/397|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: attack bodyslam - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+  -heal|p1a: Snorlax|313/397|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: attack bodyslam - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+  -heal|p1a: Snorlax|337/397|[from] item: Leftovers
+-- turn 42
+  WE CHOSE: switch to gumshoos (hand policy: attack bodyslam) - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Gumshoos|Gumshoos, L95, F, tera:Ground|107/321
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Gumshoos
+  -damage|p1a: Gumshoos|52/321
+-- turn 43
+  WE CHOSE: switch to snorlax - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Snorlax|Snorlax, L82, M|337/397
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  -heal|p1a: Snorlax|361/397|[from] item: Leftovers
+-- turn 44
+  WE CHOSE: attack bodyslam - our hp 0.91, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+  -heal|p1a: Snorlax|385/397|[from] item: Leftovers
+-- turn 45
+  WE CHOSE: switch to gumshoos (hand policy: attack bodyslam) - our hp 0.97, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to snorlax (hand policy: forced: switch to tentacruel) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Gumshoos|Gumshoos, L95, F, tera:Ground|52/321
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Gumshoos
+  -damage|p1a: Gumshoos|0 fnt
+  faint|p1a: Gumshoos
+  switch|p1a: Snorlax|Snorlax, L82, M|385/397
+-- turn 46
+  WE CHOSE: attack bodyslam - our hp 0.97, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+  -heal|p1a: Snorlax|397/397|[from] item: Leftovers
+-- turn 47
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 48
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 49
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 50
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 51
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 52
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 53
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 54
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 55
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 56
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 57
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 58
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 59
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 60
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 61
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 62
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 63
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Snorlax
+  -immune|p1a: Snorlax
+  move|p1a: Snorlax|Body Slam|p2a: Ceruledge
+  -immune|p2a: Ceruledge
+-- turn 64
+  WE CHOSE: switch to tentacruel (hand policy: attack curse) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Tentacruel|Tentacruel, L84, F|122/272
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Tentacruel
+  -damage|p1a: Tentacruel|68/272
+-- turn 65
+  WE CHOSE: attack surf (hand policy: switch to snorlax) - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Tentacruel
+  -damage|p1a: Tentacruel|13/272
+  move|p1a: Tentacruel|Surf|p2a: Ceruledge
+  -supereffective|p2a: Ceruledge
+  -damage|p2a: Ceruledge|32/100
+-- turn 66
+  WE CHOSE: attack surf (hand policy: switch to snorlax) - our hp 0.05, theirs 0.32, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to suicune - our hp 0.00, theirs 0.32, predicted move (revealed) hits us x1
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Tentacruel
+  -damage|p1a: Tentacruel|0 fnt
+  faint|p1a: Tentacruel
+  switch|p1a: Suicune|Suicune, L82|298/298
+  -ability|p1a: Suicune|Pressure
+-- turn 67
+  WE CHOSE: attack scald (hand policy: switch to snorlax) - our hp 1.00, theirs 0.32, predicted move (revealed) hits us x1
+  move|p2a: Ceruledge|Shadow Sneak|p1a: Suicune
+  -damage|p1a: Suicune|262/298
+  move|p1a: Suicune|Scald|p2a: Ceruledge
+  -supereffective|p2a: Ceruledge
+  -damage|p2a: Ceruledge|0 fnt
+  faint|p2a: Ceruledge
+  -heal|p1a: Suicune|280/298|[from] item: Leftovers
+  switch|p2a: Ditto|Ditto, L87|100/100
+  -transform|p2a: Ditto|p1a: Suicune|[from] ability: Imposter
+  -ability|p2a: Ditto|Pressure
+-- turn 68
+  WE CHOSE: setup calmmind (hand policy: attack scald) - our hp 0.94, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Ditto|Scald|p1a: Suicune
+  -resisted|p1a: Suicune
+  -damage|p1a: Suicune|246/298
+  -status|p1a: Suicune|brn
+  move|p1a: Suicune|Calm Mind|p1a: Suicune
+  -boost|p1a: Suicune|spa|1
+  -boost|p1a: Suicune|spd|1
+  -heal|p1a: Suicune|264/298 brn|[from] item: Leftovers
+  -damage|p1a: Suicune|246/298 brn|[from] brn
+-- turn 69
+  WE CHOSE: setup calmmind - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Ditto|Scald|p1a: Suicune
+  -resisted|p1a: Suicune
+  -crit|p1a: Suicune
+  -damage|p1a: Suicune|199/298 brn
+  move|p1a: Suicune|Calm Mind|p1a: Suicune
+  -boost|p1a: Suicune|spa|1
+  -boost|p1a: Suicune|spd|1
+  -heal|p1a: Suicune|217/298 brn|[from] item: Leftovers
+  -damage|p1a: Suicune|199/298 brn|[from] brn
+-- turn 70
+  WE CHOSE: attack scald - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Ditto|Scald|p1a: Suicune
+  -resisted|p1a: Suicune
+  -damage|p1a: Suicune|182/298 brn
+  move|p1a: Suicune|Scald|p2a: Ditto
+  -resisted|p2a: Ditto
+  -damage|p2a: Ditto|75/100
+  -heal|p1a: Suicune|200/298 brn|[from] item: Leftovers
+  -damage|p1a: Suicune|182/298 brn|[from] brn
+-- turn 71
+  WE CHOSE: attack scald - our hp 0.61, theirs 0.75, predicted move (revealed) hits us x0.5
+  -activate|p2a: Ditto|move: Struggle
+  move|p2a: Ditto|Struggle|p1a: Suicune
+  -damage|p1a: Suicune|163/298 brn
+  -damage|p2a: Ditto|50/100|[from] recoil
+  move|p1a: Suicune|Scald|p2a: Ditto
+  -resisted|p2a: Ditto
+  -damage|p2a: Ditto|24/100
+  -status|p2a: Ditto|brn
+  -heal|p1a: Suicune|181/298 brn|[from] item: Leftovers
+  -damage|p2a: Ditto|17/100 brn|[from] brn
+  -damage|p1a: Suicune|163/298 brn|[from] brn
+-- turn 72
+  WE CHOSE: attack scald - our hp 0.55, theirs 0.17, predicted move (revealed) hits us x0.5
+  -activate|p2a: Ditto|move: Struggle
+  move|p2a: Ditto|Struggle|p1a: Suicune
+  -damage|p1a: Suicune|154/298 brn
+  -damage|p2a: Ditto|0 fnt|[from] recoil
+  faint|p2a: Ditto
+  move|p1a: Suicune|Scald|p2: Ditto|[notarget]
+  -fail|p1a: Suicune
+  -heal|p1a: Suicune|172/298 brn|[from] item: Leftovers
+  -damage|p1a: Suicune|154/298 brn|[from] brn
+  switch|p2a: Enamorus|Enamorus, L79, F|100/100
+-- turn 73
+  WE CHOSE: attack scald - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Enamorus|Moonblast|p1a: Suicune
+  -damage|p1a: Suicune|109/298 brn
+  move|p1a: Suicune|Scald|p2a: Enamorus
+  -damage|p2a: Enamorus|35/100
+  -heal|p2a: Enamorus|41/100|[from] item: Leftovers
+  -heal|p1a: Suicune|127/298 brn|[from] item: Leftovers
+  -damage|p1a: Suicune|109/298 brn|[from] brn
+-- turn 74
+  WE CHOSE: switch to pachirisu (hand policy: heal rest) - our hp 0.37, theirs 0.41, predicted move (revealed) hits us x1
+  switch|p1a: Pachirisu|Pachirisu, L96, M|271/271
+  move|p2a: Enamorus|Moonblast|p1a: Pachirisu
+  -damage|p1a: Pachirisu|178/271
+  -heal|p2a: Enamorus|47/100|[from] item: Leftovers
+-- turn 75
+  WE CHOSE: attack discharge - our hp 0.66, theirs 0.47, predicted move (revealed) hits us x1
+  move|p1a: Pachirisu|Discharge|p2a: Enamorus
+  -supereffective|p2a: Enamorus
+  -damage|p2a: Enamorus|0 fnt
+  faint|p2a: Enamorus
+  switch|p2a: Stantler|Stantler, L91, F|100/100
+  -ability|p2a: Stantler|Intimidate|boost
+  -unboost|p1a: Pachirisu|atk|1
+-- turn 76
+  WE CHOSE: attack superfang - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to snorlax - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x2
+  move|p1a: Pachirisu|Super Fang|p2a: Stantler
+  -damage|p2a: Stantler|51/100
+  move|p2a: Stantler|Earthquake|p1a: Pachirisu
+  -supereffective|p1a: Pachirisu
+  -damage|p1a: Pachirisu|0 fnt
+  faint|p1a: Pachirisu
+  switch|p1a: Snorlax|Snorlax, L82, M|397/397
+-- turn 77
+  WE CHOSE: switch to suicune (hand policy: attack curse) - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x1
+  switch|p1a: Suicune|Suicune, L82|109/298 brn
+  -ability|p1a: Suicune|Pressure
+  move|p2a: Stantler|Earthquake|p1a: Suicune
+  -damage|p1a: Suicune|44/298 brn
+  -heal|p1a: Suicune|62/298 brn|[from] item: Leftovers
+  -damage|p1a: Suicune|44/298 brn|[from] brn
+-- turn 78
+  WE CHOSE: heal rest - our hp 0.15, theirs 0.51, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to snorlax - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Suicune
+  -damage|p1a: Suicune|0 fnt
+  faint|p1a: Suicune
+  switch|p1a: Snorlax|Snorlax, L82, M|397/397
+-- turn 79
+  WE CHOSE: attack curse - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Snorlax
+  -damage|p1a: Snorlax|290/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -unboost|p1a: Snorlax|spe|1
+  -boost|p1a: Snorlax|atk|1
+  -boost|p1a: Snorlax|def|1
+  -heal|p1a: Snorlax|314/397|[from] item: Leftovers
+-- turn 80
+  WE CHOSE: attack curse - our hp 0.79, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Snorlax
+  -damage|p1a: Snorlax|239/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -unboost|p1a: Snorlax|spe|1
+  -boost|p1a: Snorlax|atk|1
+  -boost|p1a: Snorlax|def|1
+  -heal|p1a: Snorlax|263/397|[from] item: Leftovers
+-- turn 81
+  WE CHOSE: attack curse - our hp 0.66, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Snorlax
+  -damage|p1a: Snorlax|210/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -unboost|p1a: Snorlax|spe|1
+  -boost|p1a: Snorlax|atk|1
+  -boost|p1a: Snorlax|def|1
+  -heal|p1a: Snorlax|234/397|[from] item: Leftovers
+-- turn 82
+  WE CHOSE: attack curse - our hp 0.59, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Snorlax
+  -damage|p1a: Snorlax|195/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -unboost|p1a: Snorlax|spe|1
+  -boost|p1a: Snorlax|atk|1
+  -boost|p1a: Snorlax|def|1
+  -heal|p1a: Snorlax|219/397|[from] item: Leftovers
+-- turn 83
+  WE CHOSE: attack curse - our hp 0.55, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Snorlax
+  -damage|p1a: Snorlax|186/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -unboost|p1a: Snorlax|spe|1
+  -boost|p1a: Snorlax|atk|1
+  -boost|p1a: Snorlax|def|1
+  -heal|p1a: Snorlax|210/397|[from] item: Leftovers
+-- turn 84
+  WE CHOSE: attack curse - our hp 0.53, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Snorlax
+  -damage|p1a: Snorlax|177/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -unboost|p1a: Snorlax|spe|1
+  -boost|p1a: Snorlax|atk|1
+  -boost|p1a: Snorlax|def|1
+  -heal|p1a: Snorlax|201/397|[from] item: Leftovers
+-- turn 85
+  WE CHOSE: attack curse - our hp 0.51, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Snorlax
+  -damage|p1a: Snorlax|175/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -heal|p1a: Snorlax|199/397|[from] item: Leftovers
+-- turn 86
+  WE CHOSE: attack curse - our hp 0.50, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Snorlax
+  -damage|p1a: Snorlax|175/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -heal|p1a: Snorlax|199/397|[from] item: Leftovers
+-- turn 87
+  WE CHOSE: attack curse - our hp 0.50, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Snorlax
+  -damage|p1a: Snorlax|173/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -heal|p1a: Snorlax|197/397|[from] item: Leftovers
+-- turn 88
+  WE CHOSE: attack curse - our hp 0.50, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Snorlax
+  -crit|p1a: Snorlax
+  -damage|p1a: Snorlax|42/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -heal|p1a: Snorlax|66/397|[from] item: Leftovers
+-- turn 89
+  WE CHOSE: attack curse - our hp 0.17, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Earthquake|p1a: Snorlax
+  -damage|p1a: Snorlax|38/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -heal|p1a: Snorlax|62/397|[from] item: Leftovers
+-- turn 90
+  WE CHOSE: attack curse - our hp 0.16, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Body Slam|p1a: Snorlax
+  -damage|p1a: Snorlax|28/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -heal|p1a: Snorlax|52/397|[from] item: Leftovers
+-- turn 91
+  WE CHOSE: attack curse - our hp 0.13, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Body Slam|p1a: Snorlax
+  -damage|p1a: Snorlax|18/397
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -heal|p1a: Snorlax|42/397|[from] item: Leftovers
+-- turn 92
+  WE CHOSE: attack curse - our hp 0.11, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Body Slam|p1a: Snorlax
+  -damage|p1a: Snorlax|11/397
+  -status|p1a: Snorlax|par
+  cant|p1a: Snorlax|par
+  -heal|p1a: Snorlax|35/397 par|[from] item: Leftovers
+-- turn 93
+  WE CHOSE: attack curse - our hp 0.09, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Body Slam|p1a: Snorlax
+  -damage|p1a: Snorlax|1/397 par
+  move|p1a: Snorlax|Curse|p1a: Snorlax
+  -heal|p1a: Snorlax|25/397 par|[from] item: Leftovers
+-- turn 94
+  WE CHOSE: attack curse - our hp 0.06, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Stantler|Body Slam|p1a: Snorlax
+  -damage|p1a: Snorlax|0 fnt
+  faint|p1a: Snorlax
+  deinit

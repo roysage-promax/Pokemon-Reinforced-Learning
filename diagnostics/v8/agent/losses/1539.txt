@@ -1,0 +1,166 @@
+battle 1539 (battle-gen9randombattle-2034168): lost in 16 turns, 1 of theirs left; we are p1
+
+ours:
+  glimmora (fainted; item heavydutyboots, ability toxicdebris; moves mortalspin/spikes/earthpower/sludgewave)
+  terapagosterastal (fainted; item chestoberry, ability terashell; moves calmmind/darkpulse/rest/terastarstorm)
+  ursaluna (fainted; item flameorb, ability guts; moves trailblaze/crunch/headlongrush/facade)
+  morpeko (fainted; item heavydutyboots, ability hungerswitch; moves protect/aurawheel/rapidspin/partingshot)
+  falinks (fainted; item lifeorb, ability defiant, tera dark; moves ironhead/knockoff/noretreat/closecombat)
+  skuntank (fainted; item lifeorb, ability aftermath; moves knockoff/taunt/fireblast/gunkshot)
+theirs (as seen):
+  shiftry (fainted; item lifeorb, ability ?; moves leafblade)
+  quagsire (fainted; item unknown_item, ability ?; moves earthquake)
+  sandyshocks (fainted; item unknown_item, ability protosynthesis; moves thunderbolt)
+  floatzel (fainted; item unknown_item, ability ?; moves wavecrash)
+  glaceon (fainted; item unknown_item, ability ?; moves freezedry)
+  frosmoth (10%; item unknown_item, ability ?; moves icebeam)
+
+-- turn 0
+  switch|p1a: Glimmora|Glimmora, L75, F|248/248
+  switch|p2a: Shiftry|Shiftry, L89, M|100/100
+-- turn 1
+  WE CHOSE: switch to skuntank (hand policy: attack sludgewave) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Skuntank|Skuntank, L84, M|310/310
+  move|p2a: Shiftry|Leaf Blade|p1a: Skuntank
+  -resisted|p1a: Skuntank
+  -damage|p1a: Skuntank|228/310
+  -damage|p2a: Shiftry|91/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack gunkshot - our hp 0.74, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Shiftry|Leaf Blade|p1a: Skuntank
+  -resisted|p1a: Skuntank
+  -damage|p1a: Skuntank|146/310
+  -damage|p2a: Shiftry|81/100|[from] item: Life Orb
+  move|p1a: Skuntank|Gunk Shot|p2a: Shiftry
+  -supereffective|p2a: Shiftry
+  -damage|p2a: Shiftry|0 fnt
+  faint|p2a: Shiftry
+  -damage|p1a: Skuntank|115/310|[from] item: Life Orb
+  switch|p2a: Quagsire|Quagsire, L84, M|100/100
+-- turn 3
+  WE CHOSE: switch to ursaluna (hand policy: attack+tera knockoff) - our hp 0.37, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Ursaluna|Ursaluna, L79, F|335/335
+  move|p2a: Quagsire|Earthquake|p1a: Ursaluna
+  -damage|p1a: Ursaluna|238/335
+  -status|p1a: Ursaluna|brn|[from] item: Flame Orb
+-- turn 4
+  WE CHOSE: attack trailblaze - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Ursaluna|Trailblaze|p2a: Quagsire
+  -supereffective|p2a: Quagsire
+  -crit|p2a: Quagsire
+  -damage|p2a: Quagsire|0 fnt
+  -boost|p1a: Ursaluna|spe|1
+  faint|p2a: Quagsire
+  -damage|p1a: Ursaluna|218/335 brn|[from] brn
+  switch|p2a: Sandy Shocks|Sandy Shocks, L80|100/100
+-- turn 5
+  WE CHOSE: attack headlongrush - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Sandy Shocks|Thunderbolt|p1a: Ursaluna
+  -immune|p1a: Ursaluna
+  move|p1a: Ursaluna|Headlong Rush|p2a: Sandy Shocks
+  -supereffective|p2a: Sandy Shocks
+  -damage|p2a: Sandy Shocks|0 fnt
+  -unboost|p1a: Ursaluna|def|1
+  -unboost|p1a: Ursaluna|spd|1
+  faint|p2a: Sandy Shocks
+  -end|p2a: Sandy Shocks|Protosynthesis|[silent]
+  -damage|p1a: Ursaluna|198/335 brn|[from] brn
+  switch|p2a: Floatzel|Floatzel, L86, M|100/100
+-- turn 6
+  WE CHOSE: switch to morpeko (hand policy: attack headlongrush) - our hp 0.59, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to falinks (hand policy: forced: switch to terapagos) - our hp 0.00, theirs 0.72, predicted move (revealed) hits us x1
+  switch|p1a: Morpeko|Morpeko, L88, F|245/245
+  move|p2a: Floatzel|Wave Crash|p1a: Morpeko
+  -damage|p1a: Morpeko|0 fnt
+  faint|p1a: Morpeko
+  -damage|p2a: Floatzel|72/100|[from] Recoil
+  switch|p1a: Falinks|Falinks, L84|246/246
+-- turn 7
+  WE CHOSE: attack+tera closecombat (hand policy: attack closecombat) - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x1
+  -terastallize|p1a: Falinks|Dark
+  move|p2a: Floatzel|Wave Crash|p1a: Falinks
+  -damage|p1a: Falinks|45/246
+  -damage|p2a: Floatzel|49/100|[from] Recoil
+  move|p1a: Falinks|Close Combat|p2a: Floatzel
+  -damage|p2a: Floatzel|0 fnt
+  -unboost|p1a: Falinks|def|1
+  -unboost|p1a: Falinks|spd|1
+  faint|p2a: Floatzel
+  -damage|p1a: Falinks|21/246|[from] item: Life Orb
+  switch|p2a: Glaceon|Glaceon, L94, M|100/100
+-- turn 8
+  WE CHOSE: attack closecombat - our hp 0.09, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to skuntank - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Falinks
+  -damage|p1a: Falinks|0 fnt
+  faint|p1a: Falinks
+  switch|p1a: Skuntank|Skuntank, L84, M|115/310
+-- turn 9
+  WE CHOSE: attack gunkshot (hand policy: attack fireblast) - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to terapagos - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Skuntank|Gunk Shot|p2a: Glaceon
+  -damage|p2a: Glaceon|61/100
+  -status|p2a: Glaceon|psn
+  -damage|p1a: Skuntank|84/310|[from] item: Life Orb
+  move|p2a: Glaceon|Freeze-Dry|p1a: Skuntank
+  -damage|p1a: Skuntank|0 fnt
+  faint|p1a: Skuntank
+  -damage|p2a: Glaceon|48/100 psn|[from] psn
+  switch|p1a: Terapagos|Terapagos, L77, F|265/265
+  -activate|p1a: Terapagos|ability: Tera Shift
+  detailschange|p1a: Terapagos|Terapagos-Terastal, L77, F
+  -heal|p1a: Terapagos|273/273|[silent]
+-- turn 10
+  WE CHOSE: attack terastarstorm - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Terapagos
+  -activate|p1a: Terapagos|ability: Tera Shell
+  -resisted|p1a: Terapagos
+  -damage|p1a: Terapagos|224/273
+  move|p1a: Terapagos|Tera Starstorm|p2a: Glaceon
+  -damage|p2a: Glaceon|14/100 psn
+  -damage|p2a: Glaceon|2/100 psn|[from] psn
+-- turn 11
+  WE CHOSE: attack terastarstorm - our hp 0.82, theirs 0.02, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Terapagos
+  -damage|p1a: Terapagos|119/273
+  move|p1a: Terapagos|Tera Starstorm|p2a: Glaceon
+  -damage|p2a: Glaceon|0 fnt
+  faint|p2a: Glaceon
+  switch|p2a: Frosmoth|Frosmoth, L82, F|100/100
+-- turn 12
+  WE CHOSE: attack terastarstorm (hand policy: heal rest) - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Terapagos|Tera Starstorm|p2a: Frosmoth
+  -damage|p2a: Frosmoth|78/100
+  move|p2a: Frosmoth|Ice Beam|p1a: Terapagos
+  -damage|p1a: Terapagos|22/273
+-- turn 13
+  WE CHOSE: attack terastarstorm (hand policy: heal rest) - our hp 0.08, theirs 0.78, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to glimmora - our hp 0.00, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Terapagos|Tera Starstorm|p2a: Frosmoth
+  -damage|p2a: Frosmoth|54/100
+  move|p2a: Frosmoth|Ice Beam|p1a: Terapagos
+  -damage|p1a: Terapagos|0 fnt
+  faint|p1a: Terapagos
+  switch|p1a: Glimmora|Glimmora, L75, F|248/248
+-- turn 14
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Glimmora|Sludge Wave|p2a: Frosmoth
+  -damage|p2a: Frosmoth|32/100
+  move|p2a: Frosmoth|Ice Beam|p1a: Glimmora
+  -damage|p1a: Glimmora|115/248
+-- turn 15
+  WE CHOSE: attack sludgewave - our hp 0.46, theirs 0.32, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ursaluna - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Glimmora|Sludge Wave|p2a: Frosmoth
+  -damage|p2a: Frosmoth|10/100
+  move|p2a: Frosmoth|Ice Beam|p1a: Glimmora
+  -damage|p1a: Glimmora|0 fnt
+  faint|p1a: Glimmora
+  switch|p1a: Ursaluna|Ursaluna, L79, F|198/335 brn
+-- turn 16
+  WE CHOSE: attack facade - our hp 0.59, theirs 0.10, predicted move (revealed) hits us x2
+  move|p2a: Frosmoth|Ice Beam|p1a: Ursaluna
+  -supereffective|p1a: Ursaluna
+  -damage|p1a: Ursaluna|0 fnt
+  faint|p1a: Ursaluna
+  deinit

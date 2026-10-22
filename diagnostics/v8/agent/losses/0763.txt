@@ -1,0 +1,227 @@
+battle 763 (battle-gen9randombattle-2026305): lost in 25 turns, 1 of theirs left; we are p1
+
+ours:
+  okidogi (fainted; item leftovers, ability toxicchain; moves drainpunch/bulkup/knockoff/gunkshot)
+  rhydon (fainted; item eviolite, ability lightningrod; moves stealthrock/megahorn/earthquake/stoneedge)
+  floatzel (fainted; item choiceband, ability waterveil; moves flipturn/wavecrash/icespinner/crunch)
+  vivillonhighplains (fainted; item heavydutyboots, ability compoundeyes; moves bugbuzz/sleeppowder/quiverdance/hurricane)
+  sandyshocks (fainted; item heavydutyboots, ability protosynthesis; moves thunderwave/thunderbolt/voltswitch/earthpower)
+  dudunsparcethreesegment (fainted; item leftovers, ability rattled, tera ghost; moves toxic/earthquake/roost/boomburst)
+theirs (as seen):
+  spectrier (fainted; item leftovers, ability grimneigh; moves terablast)
+  miraidon (fainted; item unknown_item, ability hadronengine; moves dracometeor)
+  porygonz (fainted; item lifeorb, ability ?; moves thunderbolt)
+  azelf (fainted; item unknown_item, ability levitate; moves fireblast)
+  conkeldurr (fainted; item unknown_item, ability ?; moves closecombat)
+  houndstone (25%; item unknown_item, ability ?; moves poltergeist)
+
+-- turn 0
+  switch|p1a: Okidogi|Okidogi, L77, M|262/262
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+-- turn 1
+  WE CHOSE: setup bulkup - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Spectrier|Tera Blast|p1a: Okidogi
+  -damage|p1a: Okidogi|196/262
+  move|p1a: Okidogi|Bulk Up|p1a: Okidogi
+  -boost|p1a: Okidogi|atk|1
+  -boost|p1a: Okidogi|def|1
+  -heal|p1a: Okidogi|212/262|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to rhydon (hand policy: attack+tera knockoff) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Rhydon|Rhydon, L85, F|317/317
+  move|p2a: Spectrier|Tera Blast|p1a: Rhydon
+  -resisted|p1a: Rhydon
+  -damage|p1a: Rhydon|282/317
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Spectrier|Tera Blast|p1a: Rhydon
+  -resisted|p1a: Rhydon
+  -damage|p1a: Rhydon|249/317
+  move|p1a: Rhydon|Earthquake|p2a: Spectrier
+  -damage|p2a: Spectrier|33/100
+  -heal|p2a: Spectrier|39/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 0.79, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p2a: Spectrier|Tera Blast|p1a: Rhydon
+  -resisted|p1a: Rhydon
+  -damage|p1a: Rhydon|218/317
+  move|p1a: Rhydon|Earthquake|p2a: Spectrier
+  -damage|p2a: Spectrier|0 fnt
+  faint|p2a: Spectrier
+  switch|p2a: Miraidon|Miraidon, L65|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to sandyshocks - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Miraidon|Draco Meteor|p1a: Rhydon
+  -damage|p1a: Rhydon|0 fnt
+  -unboost|p2a: Miraidon|spa|2
+  faint|p1a: Rhydon
+  switch|p1a: Sandy Shocks|Sandy Shocks, L80|267/267
+-- turn 6
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Miraidon|Draco Meteor|p1a: Sandy Shocks|[miss]
+  -miss|p2a: Miraidon|p1a: Sandy Shocks
+  move|p1a: Sandy Shocks|Earth Power|p2a: Miraidon
+  -supereffective|p2a: Miraidon
+  -damage|p2a: Miraidon|4/100
+-- turn 7
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x1
+  move|p2a: Miraidon|Draco Meteor|p1a: Sandy Shocks
+  -damage|p1a: Sandy Shocks|141/267
+  -unboost|p2a: Miraidon|spa|2
+  move|p1a: Sandy Shocks|Earth Power|p2a: Miraidon
+  -supereffective|p2a: Miraidon
+  -damage|p2a: Miraidon|0 fnt
+  faint|p2a: Miraidon
+  switch|p2a: Porygon-Z|Porygon-Z, L83|100/100
+-- turn 8
+  WE CHOSE: switch to floatzel - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to sandyshocks - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x2
+  -end|p1a: Sandy Shocks|Protosynthesis|[silent]
+  switch|p1a: Floatzel|Floatzel, L86, F|286/286
+  move|p2a: Porygon-Z|Thunderbolt|p1a: Floatzel
+  -supereffective|p1a: Floatzel
+  -damage|p1a: Floatzel|0 fnt
+  faint|p1a: Floatzel
+  -damage|p2a: Porygon-Z|91/100|[from] item: Life Orb
+  switch|p1a: Sandy Shocks|Sandy Shocks, L80|141/267
+-- turn 9
+  WE CHOSE: attack thunderbolt - our hp 0.53, theirs 0.91, predicted move (revealed) hits us x0
+  move|p1a: Sandy Shocks|Thunderbolt|p2a: Porygon-Z
+  -damage|p2a: Porygon-Z|37/100
+  move|p2a: Porygon-Z|Thunderbolt|p1a: Sandy Shocks
+  -immune|p1a: Sandy Shocks
+  -fieldend|move: Electric Terrain
+-- turn 10
+  WE CHOSE: attack voltswitch (hand policy: attack thunderbolt) - our hp 0.53, theirs 0.37, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to okidogi - our hp 0.53, theirs 0.04, predicted move (revealed) hits us x0
+  move|p1a: Sandy Shocks|Volt Switch|p2a: Porygon-Z
+  -damage|p2a: Porygon-Z|4/100
+  -end|p1a: Sandy Shocks|Protosynthesis|[silent]
+  switch|p1a: Okidogi|Okidogi, L77, M|212/262|[from] Volt Switch
+  move|p2a: Porygon-Z|Thunderbolt|p1a: Okidogi
+  -damage|p1a: Okidogi|92/262
+  -damage|p2a: Porygon-Z|0 fnt|[from] item: Life Orb
+  faint|p2a: Porygon-Z
+  -heal|p1a: Okidogi|108/262|[from] item: Leftovers
+  switch|p2a: Azelf|Azelf, L82|100/100
+-- turn 11
+  WE CHOSE: attack knockoff (hand policy: attack gunkshot) - our hp 0.41, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dudunsparcethreesegment - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Azelf|Fire Blast|p1a: Okidogi
+  -damage|p1a: Okidogi|0 fnt
+  faint|p1a: Okidogi
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, F|343/343
+-- turn 12
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Azelf|Fire Blast|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|199/343
+  move|p1a: Dudunsparce|Boomburst|p2a: Azelf
+  -damage|p2a: Azelf|35/100
+  -heal|p1a: Dudunsparce|220/343|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 0.64, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Azelf|Fire Blast|p1a: Dudunsparce|[miss]
+  -miss|p2a: Azelf|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|343/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+-- turn 14
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Azelf|Fire Blast|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|196/343
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|343/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+-- turn 15
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Azelf|Fire Blast|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|182/343
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|343/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+-- turn 16
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Azelf|Fire Blast|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|182/343
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|343/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+-- turn 17
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Azelf|Fire Blast|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|186/343
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|343/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+-- turn 18
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Azelf|Fire Blast|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|201/343
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|343/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+-- turn 19
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  -activate|p2a: Azelf|move: Struggle
+  move|p2a: Azelf|Struggle|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|294/343
+  -damage|p2a: Azelf|10/100|[from] recoil
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|343/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+-- turn 20
+  WE CHOSE: heal roost (hand policy: attack boomburst) - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x1
+  -activate|p2a: Azelf|move: Struggle
+  move|p2a: Azelf|Struggle|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|302/343
+  -damage|p2a: Azelf|0 fnt|[from] recoil
+  faint|p2a: Azelf
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|343/343
+  -singleturn|p1a: Dudunsparce|move: Roost
+  switch|p2a: Conkeldurr|Conkeldurr, L80, F|100/100
+-- turn 21
+  WE CHOSE: attack+tera boomburst (hand policy: switch to vivillonhighplains) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Dudunsparce|Ghost
+  move|p1a: Dudunsparce|Boomburst|p2a: Conkeldurr
+  -damage|p2a: Conkeldurr|39/100
+  move|p2a: Conkeldurr|Close Combat|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  -status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+-- turn 22
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x0
+  move|p1a: Dudunsparce|Boomburst|p2a: Conkeldurr
+  -damage|p2a: Conkeldurr|0 fnt
+  faint|p2a: Conkeldurr
+  switch|p2a: Houndstone|Houndstone, L86, F|100/100
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to sandyshocks - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Houndstone|Poltergeist|p1a: Dudunsparce
+  -activate|p1a: Dudunsparce|move: Poltergeist|Leftovers
+  -supereffective|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|0 fnt
+  faint|p1a: Dudunsparce
+  switch|p1a: Sandy Shocks|Sandy Shocks, L80|141/267
+-- turn 24
+  WE CHOSE: attack thunderbolt - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to vivillonhighplains - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Sandy Shocks|Thunderbolt|p2a: Houndstone
+  -damage|p2a: Houndstone|63/100
+  move|p2a: Houndstone|Poltergeist|p1a: Sandy Shocks
+  -activate|p1a: Sandy Shocks|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Sandy Shocks|0 fnt
+  faint|p1a: Sandy Shocks
+  -end|p1a: Sandy Shocks|Protosynthesis|[silent]
+  switch|p1a: Vivillon|Vivillon-High Plains, L83, M|268/268
+-- turn 25
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Vivillon|Hurricane|p2a: Houndstone
+  -damage|p2a: Houndstone|25/100
+  move|p2a: Houndstone|Poltergeist|p1a: Vivillon
+  -activate|p1a: Vivillon|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Vivillon|0 fnt
+  faint|p1a: Vivillon
+  deinit

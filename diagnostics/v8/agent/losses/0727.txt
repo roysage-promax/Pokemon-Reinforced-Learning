@@ -1,0 +1,170 @@
+battle 727 (battle-gen9randombattle-2025932): lost in 17 turns, 3 of theirs left; we are p1
+
+ours:
+  magmortar (fainted; item heavydutyboots, ability flamebody; moves fireblast/focusblast/thunderbolt/willowisp)
+  noctowl (fainted; item heavydutyboots, ability tintedlens; moves hypervoice/roost/hurricane/defog)
+  probopass (fainted; item leftovers, ability magnetpull, tera fighting; moves irondefense/flashcannon/thunderwave/bodypress)
+  manaphy (fainted; item leftovers, ability hydration; moves tailglow/surf/energyball/icebeam)
+  chiyu (fainted; item heavydutyboots, ability beadsofruin; moves fireblast/darkpulse/psychic/nastyplot)
+  wyrdeer (fainted; item leftovers, ability intimidate; moves bodyslam/earthquake/thunderwave/psychicnoise)
+theirs (as seen):
+  vespiquen (fainted; item unknown_item, ability pressure; moves hurricane)
+  minun (fainted; item lifeorb, ability ?; moves thunderbolt)
+  medicham (fainted; item unknown_item, ability ?; moves closecombat)
+  zangoose (25%; item unknown_item, ability ?; moves facade)
+
+-- turn 0
+  switch|p1a: Magmortar|Magmortar, L88, F|275/275
+  switch|p2a: Vespiquen|Vespiquen, L99, F|100/100
+  -ability|p2a: Vespiquen|Pressure
+-- turn 1
+  WE CHOSE: switch to probopass (hand policy: attack fireblast) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Probopass|Probopass, L91, M|257/257
+  move|p2a: Vespiquen|Hurricane|p1a: Probopass
+  -resisted|p1a: Probopass
+  -damage|p1a: Probopass|235/257
+  -heal|p1a: Probopass|251/257|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack flashcannon - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Vespiquen|Hurricane|p1a: Probopass
+  -resisted|p1a: Probopass
+  -damage|p1a: Probopass|230/257
+  move|p1a: Probopass|Flash Cannon|p2a: Vespiquen
+  -damage|p2a: Vespiquen|78/100
+  -heal|p1a: Probopass|246/257|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack flashcannon - our hp 0.96, theirs 0.78, predicted move (revealed) hits us x0.25
+  move|p2a: Vespiquen|Hurricane|p1a: Probopass|[miss]
+  -miss|p2a: Vespiquen|p1a: Probopass
+  move|p1a: Probopass|Flash Cannon|p2a: Vespiquen
+  -damage|p2a: Vespiquen|59/100
+  -heal|p1a: Probopass|257/257|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack flashcannon - our hp 1.00, theirs 0.59, predicted move (revealed) hits us x0.25
+  move|p2a: Vespiquen|Hurricane|p1a: Probopass
+  -resisted|p1a: Probopass
+  -damage|p1a: Probopass|236/257
+  move|p1a: Probopass|Flash Cannon|p2a: Vespiquen
+  -damage|p2a: Vespiquen|39/100
+  -heal|p1a: Probopass|252/257|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack flashcannon - our hp 0.98, theirs 0.39, predicted move (revealed) hits us x0.25
+  move|p2a: Vespiquen|Hurricane|p1a: Probopass
+  -resisted|p1a: Probopass
+  -damage|p1a: Probopass|232/257
+  move|p1a: Probopass|Flash Cannon|p2a: Vespiquen
+  -damage|p2a: Vespiquen|19/100
+  -heal|p1a: Probopass|248/257|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack flashcannon - our hp 0.96, theirs 0.19, predicted move (revealed) hits us x0.25
+  move|p2a: Vespiquen|Hurricane|p1a: Probopass
+  -resisted|p1a: Probopass
+  -damage|p1a: Probopass|229/257
+  -start|p1a: Probopass|confusion
+  -activate|p1a: Probopass|confusion
+  move|p1a: Probopass|Flash Cannon|p2a: Vespiquen
+  -damage|p2a: Vespiquen|0 fnt
+  faint|p2a: Vespiquen
+  -heal|p1a: Probopass|245/257|[from] item: Leftovers
+  switch|p2a: Minun|Minun, L95, M|100/100
+-- turn 7
+  WE CHOSE: attack bodypress (hand policy: attack+tera bodypress) - our hp 0.95, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Minun|Thunderbolt|p1a: Probopass
+  -damage|p1a: Probopass|170/257
+  -damage|p2a: Minun|91/100|[from] item: Life Orb
+  -end|p1a: Probopass|confusion
+  move|p1a: Probopass|Body Press|p2a: Minun
+  -damage|p2a: Minun|45/100
+  -heal|p1a: Probopass|186/257|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack bodypress (hand policy: attack+tera bodypress) - our hp 0.72, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Minun|Thunderbolt|p1a: Probopass
+  -damage|p1a: Probopass|103/257
+  -status|p1a: Probopass|par
+  -damage|p2a: Minun|35/100|[from] item: Life Orb
+  move|p1a: Probopass|Body Press|p2a: Minun
+  -damage|p2a: Minun|0 fnt
+  faint|p2a: Minun
+  -heal|p1a: Probopass|119/257 par|[from] item: Leftovers
+  switch|p2a: Medicham|Medicham, L86, M|100/100
+-- turn 9
+  WE CHOSE: attack+tera flashcannon (hand policy: attack flashcannon) - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x4
+  WE CHOSE: forced: switch to noctowl - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Probopass|Fighting
+  move|p2a: Medicham|Close Combat|p1a: Probopass
+  -damage|p1a: Probopass|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Probopass
+  switch|p1a: Noctowl|Noctowl, L95, F|344/344
+-- turn 10
+  WE CHOSE: attack hurricane - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Medicham|Close Combat|p1a: Noctowl
+  -damage|p1a: Noctowl|91/344
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  move|p1a: Noctowl|Hurricane|p2a: Medicham|[miss]
+  -miss|p1a: Noctowl|p2a: Medicham
+-- turn 11
+  WE CHOSE: attack hurricane (hand policy: heal roost) - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to magmortar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Medicham|Close Combat|p1a: Noctowl
+  -damage|p1a: Noctowl|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Noctowl
+  switch|p1a: Magmortar|Magmortar, L88, F|275/275
+-- turn 12
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Medicham|Close Combat|p1a: Magmortar
+  -damage|p1a: Magmortar|74/275
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  -status|p2a: Medicham|brn|[from] ability: Flame Body|[of] p1a: Magmortar
+  move|p1a: Magmortar|Fire Blast|p2a: Medicham
+  -damage|p2a: Medicham|0 fnt
+  faint|p2a: Medicham
+  switch|p2a: Zangoose|Zangoose, L85, F|100/100
+-- turn 13
+  WE CHOSE: attack focusblast - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to manaphy (hand policy: forced: switch to chiyu) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Zangoose|Facade|p1a: Magmortar
+  -damage|p1a: Magmortar|0 fnt
+  faint|p1a: Magmortar
+  -status|p2a: Zangoose|tox|[from] item: Toxic Orb
+  switch|p1a: Manaphy|Manaphy, L78|284/284
+-- turn 14
+  WE CHOSE: attack surf - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Zangoose|Facade|p1a: Manaphy
+  -damage|p1a: Manaphy|44/284
+  move|p1a: Manaphy|Surf|p2a: Zangoose
+  -damage|p2a: Zangoose|62/100 tox
+  -heal|p1a: Manaphy|61/284|[from] item: Leftovers
+  -damage|p2a: Zangoose|56/100 tox|[from] psn
+-- turn 15
+  WE CHOSE: switch to chiyu (hand policy: attack surf) - our hp 0.21, theirs 0.56, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to manaphy - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+  move|p2a: Zangoose|Facade|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|0 fnt
+  faint|p1a: Chi-Yu
+  -damage|p2a: Zangoose|43/100 tox|[from] psn
+  switch|p1a: Manaphy|Manaphy, L78|61/284
+-- turn 16
+  WE CHOSE: attack surf - our hp 0.21, theirs 0.43, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to wyrdeer - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Zangoose|Facade|p1a: Manaphy
+  -damage|p1a: Manaphy|0 fnt
+  faint|p1a: Manaphy
+  -damage|p2a: Zangoose|25/100 tox|[from] psn
+  switch|p1a: Wyrdeer|Wyrdeer, L87, M|321/321
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Zangoose|atk|1
+-- turn 17
+  WE CHOSE: attack earthquake (hand policy: attack bodyslam) - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Zangoose|Facade|p1a: Wyrdeer
+  -crit|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|0 fnt
+  faint|p1a: Wyrdeer
+  deinit

@@ -1,0 +1,268 @@
+battle 1692 (battle-gen9randombattle-2034388): lost in 27 turns, 1 of theirs left; we are p1
+
+ours:
+  dudunsparcethreesegment (fainted; item leftovers, ability rattled, tera poison; moves calmmind/boomburst/earthpower/roost)
+  frosmoth (fainted; item heavydutyboots, ability icescales; moves icebeam/quiverdance/gigadrain/hurricane)
+  rotom (fainted; item lifeorb, ability levitate; moves nastyplot/shadowball/willowisp/thunderbolt)
+  grimmsnarl (fainted; item lightclay, ability prankster; moves thunderwave/spiritbreak/lightscreen/reflect)
+  inteleon (fainted; item choicespecs, ability torrent; moves uturn/icebeam/scald/hydropump)
+  tropius (fainted; item ?, ability harvest; moves airslash/protect/leechseed/substitute)
+theirs (as seen):
+  shiftry (fainted; item lifeorb, ability ?; moves leafblade)
+  sylveon (fainted; item leftovers, ability ?; moves hypervoice)
+  zapdosgalar (fainted; item lifeorb, ability defiant; moves closecombat)
+  zangoose (fainted; item unknown_item, ability ?; moves closecombat)
+  houndstone (fainted; item unknown_item, ability ?; moves poltergeist)
+  galvantula (23%; item unknown_item, ability ?; moves thunder)
+
+-- turn 0
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, M|343/343
+  switch|p2a: Shiftry|Shiftry, L89, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera boomburst - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Dudunsparce|Poison
+  move|p2a: Shiftry|Leaf Blade|p1a: Dudunsparce
+  -resisted|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|266/343
+  -damage|p2a: Shiftry|91/100|[from] item: Life Orb
+  move|p1a: Dudunsparce|Boomburst|p2a: Shiftry
+  -damage|p2a: Shiftry|41/100
+  -heal|p1a: Dudunsparce|287/343|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: setup calmmind - our hp 0.84, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p2a: Shiftry|Leaf Blade|p1a: Dudunsparce
+  -resisted|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|208/343
+  -damage|p2a: Shiftry|31/100|[from] item: Life Orb
+  move|p1a: Dudunsparce|Calm Mind|p1a: Dudunsparce
+  -boost|p1a: Dudunsparce|spa|1
+  -boost|p1a: Dudunsparce|spd|1
+  -heal|p1a: Dudunsparce|229/343|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: setup calmmind - our hp 0.67, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p2a: Shiftry|Leaf Blade|p1a: Dudunsparce
+  -resisted|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|147/343
+  -damage|p2a: Shiftry|21/100|[from] item: Life Orb
+  move|p1a: Dudunsparce|Calm Mind|p1a: Dudunsparce
+  -boost|p1a: Dudunsparce|spa|1
+  -boost|p1a: Dudunsparce|spd|1
+  -heal|p1a: Dudunsparce|168/343|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: heal roost - our hp 0.49, theirs 0.21, predicted move (revealed) hits us x0.5
+  move|p2a: Shiftry|Leaf Blade|p1a: Dudunsparce
+  -resisted|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|90/343
+  -damage|p2a: Shiftry|12/100|[from] item: Life Orb
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|262/343
+  -heal|p1a: Dudunsparce|283/343|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack boomburst - our hp 0.83, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p2a: Shiftry|Leaf Blade|p1a: Dudunsparce
+  -resisted|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|209/343
+  -damage|p2a: Shiftry|2/100|[from] item: Life Orb
+  move|p1a: Dudunsparce|Boomburst|p2a: Shiftry
+  -damage|p2a: Shiftry|0 fnt
+  faint|p2a: Shiftry
+  -heal|p1a: Dudunsparce|230/343|[from] item: Leftovers
+  switch|p2a: Sylveon|Sylveon, L85, F|100/100
+-- turn 6
+  WE CHOSE: switch to rotom - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Rotom|Rotom, L88|231/231
+  move|p2a: Sylveon|Hyper Voice|p1a: Rotom
+  -damage|p1a: Rotom|89/231
+-- turn 7
+  WE CHOSE: attack thunderbolt - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Thunderbolt|p2a: Sylveon
+  -damage|p2a: Sylveon|70/100
+  -status|p2a: Sylveon|par
+  -damage|p1a: Rotom|66/231|[from] item: Life Orb
+  cant|p2a: Sylveon|par
+  -heal|p2a: Sylveon|76/100 par|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack thunderbolt - our hp 0.29, theirs 0.76, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to dudunsparcethreesegment - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x0
+  move|p1a: Rotom|Thunderbolt|p2a: Sylveon
+  -damage|p2a: Sylveon|43/100 par
+  -damage|p1a: Rotom|43/231|[from] item: Life Orb
+  move|p2a: Sylveon|Hyper Voice|p1a: Rotom
+  -damage|p1a: Rotom|0 fnt
+  faint|p1a: Rotom
+  -heal|p2a: Sylveon|49/100 par|[from] item: Leftovers
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, M, tera:Poison|230/343
+-- turn 9
+  WE CHOSE: attack boomburst - our hp 0.67, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Boomburst|p2a: Sylveon
+  -damage|p2a: Sylveon|14/100 par
+  cant|p2a: Sylveon|par
+  -heal|p1a: Dudunsparce|251/343|[from] item: Leftovers
+  -heal|p2a: Sylveon|20/100 par|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack boomburst - our hp 0.73, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Dudunsparce|Boomburst|p2a: Sylveon
+  -damage|p2a: Sylveon|0 fnt
+  faint|p2a: Sylveon
+  -heal|p1a: Dudunsparce|272/343|[from] item: Leftovers
+  switch|p2a: Zapdos|Zapdos-Galar, L77|100/100
+-- turn 11
+  WE CHOSE: attack boomburst - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Zapdos|Close Combat|p1a: Dudunsparce
+  -resisted|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|178/343
+  -unboost|p2a: Zapdos|def|1
+  -unboost|p2a: Zapdos|spd|1
+  -damage|p2a: Zapdos|91/100|[from] item: Life Orb
+  move|p1a: Dudunsparce|Boomburst|p2a: Zapdos
+  -damage|p2a: Zapdos|16/100
+  -heal|p1a: Dudunsparce|199/343|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: setup calmmind - our hp 0.58, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p2a: Zapdos|Close Combat|p1a: Dudunsparce
+  -resisted|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|105/343
+  -unboost|p2a: Zapdos|def|1
+  -unboost|p2a: Zapdos|spd|1
+  -damage|p2a: Zapdos|6/100|[from] item: Life Orb
+  move|p1a: Dudunsparce|Calm Mind|p1a: Dudunsparce
+  -boost|p1a: Dudunsparce|spa|1
+  -boost|p1a: Dudunsparce|spd|1
+  -heal|p1a: Dudunsparce|126/343|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.37, theirs 0.06, predicted move (revealed) hits us x0.5
+  move|p2a: Zapdos|Close Combat|p1a: Dudunsparce
+  -resisted|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|30/343
+  -unboost|p2a: Zapdos|def|1
+  -unboost|p2a: Zapdos|spd|1
+  -damage|p2a: Zapdos|0 fnt|[from] item: Life Orb
+  faint|p2a: Zapdos
+  move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+  -heal|p1a: Dudunsparce|202/343
+  -heal|p1a: Dudunsparce|223/343|[from] item: Leftovers
+  switch|p2a: Zangoose|Zangoose, L85, M|100/100
+-- turn 14
+  WE CHOSE: setup calmmind - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Zangoose|Close Combat|p1a: Dudunsparce
+  -resisted|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|170/343
+  -unboost|p2a: Zangoose|def|1
+  -unboost|p2a: Zangoose|spd|1
+  move|p1a: Dudunsparce|Calm Mind|p1a: Dudunsparce
+  -boost|p1a: Dudunsparce|spa|1
+  -boost|p1a: Dudunsparce|spd|1
+  -heal|p1a: Dudunsparce|191/343|[from] item: Leftovers
+  -status|p2a: Zangoose|tox|[from] item: Toxic Orb
+-- turn 15
+  WE CHOSE: attack boomburst - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Zangoose|Close Combat|p1a: Dudunsparce
+  -resisted|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|116/343
+  -unboost|p2a: Zangoose|def|1
+  -unboost|p2a: Zangoose|spd|1
+  move|p1a: Dudunsparce|Boomburst|p2a: Zangoose
+  -damage|p2a: Zangoose|0 fnt
+  faint|p2a: Zangoose
+  -heal|p1a: Dudunsparce|137/343|[from] item: Leftovers
+  switch|p2a: Houndstone|Houndstone, L86, F|100/100
+-- turn 16
+  WE CHOSE: heal roost - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to grimmsnarl - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Houndstone|Poltergeist|p1a: Dudunsparce
+  -activate|p1a: Dudunsparce|move: Poltergeist|Leftovers
+  -damage|p1a: Dudunsparce|0 fnt
+  faint|p1a: Dudunsparce
+  switch|p1a: Grimmsnarl|Grimmsnarl, L83, M|293/293
+-- turn 17
+  WE CHOSE: attack spiritbreak - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Houndstone|Poltergeist|p1a: Grimmsnarl
+  -activate|p1a: Grimmsnarl|move: Poltergeist|Light Clay
+  -resisted|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|174/293
+  move|p1a: Grimmsnarl|Spirit Break|p2a: Houndstone
+  -damage|p2a: Houndstone|85/100
+  -unboost|p2a: Houndstone|spa|1
+-- turn 18
+  WE CHOSE: attack spiritbreak - our hp 0.59, theirs 0.85, predicted move (revealed) hits us x0.5
+  move|p2a: Houndstone|Poltergeist|p1a: Grimmsnarl|[miss]
+  -miss|p2a: Houndstone|p1a: Grimmsnarl
+  move|p1a: Grimmsnarl|Spirit Break|p2a: Houndstone
+  -damage|p2a: Houndstone|69/100
+  -unboost|p2a: Houndstone|spa|1
+-- turn 19
+  WE CHOSE: attack spiritbreak - our hp 0.59, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p2a: Houndstone|Poltergeist|p1a: Grimmsnarl
+  -activate|p1a: Grimmsnarl|move: Poltergeist|Light Clay
+  -resisted|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|49/293
+  move|p1a: Grimmsnarl|Spirit Break|p2a: Houndstone
+  -damage|p2a: Houndstone|52/100
+  -unboost|p2a: Houndstone|spa|1
+-- turn 20
+  WE CHOSE: attack spiritbreak - our hp 0.17, theirs 0.52, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to frosmoth - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p2a: Houndstone|Poltergeist|p1a: Grimmsnarl
+  -activate|p1a: Grimmsnarl|move: Poltergeist|Light Clay
+  -resisted|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|0 fnt
+  faint|p1a: Grimmsnarl
+  switch|p1a: Frosmoth|Frosmoth, L82, M|249/249
+-- turn 21
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to inteleon - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Houndstone|Poltergeist|p1a: Frosmoth
+  -activate|p1a: Frosmoth|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Frosmoth|0 fnt
+  faint|p1a: Frosmoth
+  switch|p1a: Inteleon|Inteleon, L81, F|246/246
+-- turn 22
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tropius - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Inteleon|Hydro Pump|p2a: Houndstone|[miss]
+  -miss|p1a: Inteleon|p2a: Houndstone
+  move|p2a: Houndstone|Poltergeist|p1a: Inteleon
+  -activate|p1a: Inteleon|move: Poltergeist|Choice Specs
+  -damage|p1a: Inteleon|0 fnt
+  faint|p1a: Inteleon
+  switch|p1a: Tropius|Tropius, L91, F|328/328
+-- turn 23
+  WE CHOSE: attack airslash - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Houndstone|Poltergeist|p1a: Tropius
+  -activate|p1a: Tropius|move: Poltergeist|Sitrus Berry
+  -damage|p1a: Tropius|151/328
+  -enditem|p1a: Tropius|Sitrus Berry|[eat]
+  -heal|p1a: Tropius|233/328|[from] item: Sitrus Berry
+  move|p1a: Tropius|Air Slash|p2a: Houndstone
+  -damage|p2a: Houndstone|26/100
+-- turn 24
+  WE CHOSE: attack airslash - our hp 0.71, theirs 0.26, predicted move (revealed) hits us x1
+  -activate|p2a: Houndstone|move: Struggle
+  move|p2a: Houndstone|Struggle|p1a: Tropius
+  -crit|p1a: Tropius
+  -damage|p1a: Tropius|156/328
+  -damage|p2a: Houndstone|1/100|[from] recoil
+  move|p1a: Tropius|Air Slash|p2a: Houndstone
+  -damage|p2a: Houndstone|0 fnt
+  faint|p2a: Houndstone
+  switch|p2a: Galvantula|Galvantula, L82, F|100/100
+-- turn 25
+  WE CHOSE: attack airslash - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Galvantula|Thunder|p1a: Tropius
+  -damage|p1a: Tropius|60/328
+  move|p1a: Tropius|Air Slash|p2a: Galvantula
+  -damage|p2a: Galvantula|63/100
+  -item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+  -enditem|p1a: Tropius|Sitrus Berry|[eat]
+  -heal|p1a: Tropius|142/328|[from] item: Sitrus Berry
+-- turn 26
+  WE CHOSE: attack airslash - our hp 0.43, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Galvantula|Thunder|p1a: Tropius
+  -damage|p1a: Tropius|30/328
+  move|p1a: Tropius|Air Slash|p2a: Galvantula
+  -damage|p2a: Galvantula|23/100
+-- turn 27
+  WE CHOSE: attack airslash - our hp 0.09, theirs 0.23, predicted move (revealed) hits us x1
+  move|p2a: Galvantula|Thunder|p1a: Tropius
+  -damage|p1a: Tropius|0 fnt
+  faint|p1a: Tropius

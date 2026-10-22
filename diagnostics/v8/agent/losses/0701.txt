@@ -1,0 +1,208 @@
+battle 701 (battle-gen9randombattle-2025630): lost in 24 turns, 2 of theirs left; we are p1
+
+ours:
+  ninetales (fainted; item heavydutyboots, ability drought, tera grass; moves fireblast/solarbeam/scorchingsands/nastyplot)
+  morpeko (fainted; item leftovers, ability hungerswitch; moves protect/aurawheel/knockoff/rapidspin)
+  ironjugulis (fainted; item powerherb, ability quarkdrive; moves darkpulse/meteorbeam/hurricane/earthpower)
+  arceuselectric (fainted; item zapplate, ability multitype; moves calmmind/icebeam/judgment/recover)
+  venusaur (fainted; item leftovers, ability chlorophyll; moves earthpower/synthesis/knockoff/sludgebomb)
+  screamtail (fainted; item leftovers, ability protosynthesis; moves encore/protect/dazzlinggleam/wish)
+theirs (as seen):
+  calyrexice (fainted; item unknown_item, ability unnerve; moves glaciallance)
+  rampardos (fainted; item unknown_item, ability ?; moves headsmash)
+  falinks (fainted; item lifeorb, ability ?; moves closecombat)
+  frosmoth (fainted; item unknown_item, ability ?; moves hurricane)
+  clawitzer (10%; item unknown_item, ability megalauncher; moves dragonpulse)
+
+-- turn 0
+  switch|p1a: Ninetales|Ninetales, L85, M|263/263
+  switch|p2a: Calyrex|Calyrex-Ice, L72|100/100
+  -ability|p2a: Calyrex|As One
+  -ability|p2a: Calyrex|Unnerve
+  -weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+-- turn 1
+  WE CHOSE: switch to screamtail (hand policy: attack fireblast) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Scream Tail|Scream Tail, L84|330/330
+  -activate|p1a: Scream Tail|ability: Protosynthesis
+  -start|p1a: Scream Tail|protosynthesisspd
+  move|p2a: Calyrex|Glacial Lance|p1a: Scream Tail
+  -damage|p1a: Scream Tail|194/330
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Scream Tail|214/330|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: switch to ninetales (hand policy: attack+tera dazzlinggleam) - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x1
+  -end|p1a: Scream Tail|Protosynthesis|[silent]
+  switch|p1a: Ninetales|Ninetales, L85, M|263/263
+  move|p2a: Calyrex|Glacial Lance|p1a: Ninetales
+  -resisted|p1a: Ninetales
+  -damage|p1a: Ninetales|188/263
+  -weather|SunnyDay|[upkeep]
+-- turn 3
+  WE CHOSE: setup nastyplot - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+  -boost|p1a: Ninetales|spa|2
+  move|p2a: Calyrex|Glacial Lance|p1a: Ninetales
+  -resisted|p1a: Ninetales
+  -damage|p1a: Ninetales|111/263
+  -weather|SunnyDay|[upkeep]
+-- turn 4
+  WE CHOSE: attack fireblast - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Ninetales|Fire Blast|p2a: Calyrex|[miss]
+  -miss|p1a: Ninetales|p2a: Calyrex
+  move|p2a: Calyrex|Glacial Lance|p1a: Ninetales
+  -resisted|p1a: Ninetales
+  -damage|p1a: Ninetales|24/263
+  -weather|SunnyDay|[upkeep]
+-- turn 5
+  WE CHOSE: attack fireblast - our hp 0.09, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Ninetales|Fire Blast|p2a: Calyrex
+  -supereffective|p2a: Calyrex
+  -damage|p2a: Calyrex|0 fnt
+  faint|p2a: Calyrex
+  -weather|none
+  switch|p2a: Rampardos|Rampardos, L90, F|100/100
+-- turn 6
+  WE CHOSE: attack+tera solarbeam (hand policy: attack+tera scorchingsands) - our hp 0.09, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to venusaur - our hp 0.00, theirs 0.97, predicted move (revealed) hits us x1
+  -terastallize|p1a: Ninetales|Grass
+  move|p2a: Rampardos|Head Smash|p1a: Ninetales
+  -damage|p1a: Ninetales|0 fnt
+  faint|p1a: Ninetales
+  -damage|p2a: Rampardos|97/100|[from] Recoil
+  switch|p1a: Venusaur|Venusaur, L84, F|272/272
+-- turn 7
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.97, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to morpeko - our hp 0.00, theirs 0.54, predicted move (revealed) hits us x1
+  move|p2a: Rampardos|Head Smash|p1a: Venusaur
+  -damage|p1a: Venusaur|0 fnt
+  faint|p1a: Venusaur
+  -damage|p2a: Rampardos|54/100|[from] Recoil
+  switch|p1a: Morpeko|Morpeko, L88, M|245/245
+-- turn 8
+  WE CHOSE: attack aurawheel - our hp 1.00, theirs 0.54, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to arceuselectric (hand policy: forced: switch to screamtail) - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x1
+  move|p2a: Rampardos|Head Smash|p1a: Morpeko
+  -damage|p1a: Morpeko|0 fnt
+  faint|p1a: Morpeko
+  -damage|p2a: Rampardos|16/100|[from] Recoil
+  switch|p1a: Arceus|Arceus-Electric, L70|284/284
+-- turn 9
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x1
+  WE CHOSE: forced: attack icebeam (hand policy: forced: switch to screamtail) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Rampardos|Head Smash|p1a: Arceus
+  -crit|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  faint|p1a: Arceus
+  -damage|p2a: Rampardos|0 fnt|[from] Recoil
+  faint|p2a: Rampardos
+  switch|p1a: Iron Jugulis|Iron Jugulis, L77|271/271
+  switch|p2a: Falinks|Falinks, L84|100/100
+-- turn 10
+  WE CHOSE: switch to screamtail (hand policy: attack hurricane) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -end|p1a: Iron Jugulis|Quark Drive|[silent]
+  switch|p1a: Scream Tail|Scream Tail, L84|214/330
+  move|p2a: Falinks|Close Combat|p1a: Scream Tail
+  -resisted|p1a: Scream Tail
+  -damage|p1a: Scream Tail|174/330
+  -unboost|p2a: Falinks|def|1
+  -unboost|p2a: Falinks|spd|1
+  -damage|p2a: Falinks|91/100|[from] item: Life Orb
+  -heal|p1a: Scream Tail|194/330|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack dazzlinggleam - our hp 0.59, theirs 0.91, predicted move (revealed) hits us x0.25
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Falinks
+  -supereffective|p2a: Falinks
+  -damage|p2a: Falinks|0 fnt
+  faint|p2a: Falinks
+  -heal|p1a: Scream Tail|214/330|[from] item: Leftovers
+  switch|p2a: Frosmoth|Frosmoth, L82, M|100/100
+-- turn 12
+  WE CHOSE: attack dazzlinggleam - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Frosmoth
+  -damage|p2a: Frosmoth|88/100
+  move|p2a: Frosmoth|Hurricane|p1a: Scream Tail|[miss]
+  -miss|p2a: Frosmoth|p1a: Scream Tail
+  -heal|p1a: Scream Tail|234/330|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack dazzlinggleam - our hp 0.71, theirs 0.88, predicted move (revealed) hits us x1
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Frosmoth
+  -damage|p2a: Frosmoth|76/100
+  move|p2a: Frosmoth|Hurricane|p1a: Scream Tail
+  -damage|p1a: Scream Tail|158/330
+  -heal|p1a: Scream Tail|178/330|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack dazzlinggleam - our hp 0.54, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Frosmoth
+  -damage|p2a: Frosmoth|63/100
+  move|p2a: Frosmoth|Hurricane|p1a: Scream Tail|[miss]
+  -miss|p2a: Frosmoth|p1a: Scream Tail
+  -heal|p1a: Scream Tail|198/330|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack dazzlinggleam - our hp 0.60, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Frosmoth
+  -damage|p2a: Frosmoth|51/100
+  move|p2a: Frosmoth|Hurricane|p1a: Scream Tail
+  -damage|p1a: Scream Tail|124/330
+  -start|p1a: Scream Tail|confusion
+  -heal|p1a: Scream Tail|144/330|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack dazzlinggleam - our hp 0.44, theirs 0.51, predicted move (revealed) hits us x1
+  -activate|p1a: Scream Tail|confusion
+  -damage|p1a: Scream Tail|129/330|[from] confusion
+  move|p2a: Frosmoth|Hurricane|p1a: Scream Tail
+  -damage|p1a: Scream Tail|49/330
+  -heal|p1a: Scream Tail|69/330|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack dazzlinggleam - our hp 0.21, theirs 0.51, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironjugulis - our hp 0.00, theirs 0.39, predicted move (revealed) hits us x1
+  -activate|p1a: Scream Tail|confusion
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Frosmoth
+  -damage|p2a: Frosmoth|39/100
+  move|p2a: Frosmoth|Hurricane|p1a: Scream Tail
+  -damage|p1a: Scream Tail|0 fnt
+  faint|p1a: Scream Tail
+  -end|p1a: Scream Tail|Protosynthesis|[silent]
+  switch|p1a: Iron Jugulis|Iron Jugulis, L77|271/271
+-- turn 18
+  WE CHOSE: attack darkpulse (hand policy: attack meteorbeam) - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x1
+  move|p1a: Iron Jugulis|Dark Pulse|p2a: Frosmoth
+  -damage|p2a: Frosmoth|23/100
+  move|p2a: Frosmoth|Hurricane|p1a: Iron Jugulis|[miss]
+  -miss|p2a: Frosmoth|p1a: Iron Jugulis
+-- turn 19
+  WE CHOSE: attack darkpulse (hand policy: attack meteorbeam) - our hp 1.00, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Iron Jugulis|Dark Pulse|p2a: Frosmoth
+  -damage|p2a: Frosmoth|7/100
+  cant|p2a: Frosmoth|flinch
+-- turn 20
+  WE CHOSE: attack darkpulse (hand policy: attack meteorbeam) - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x1
+  move|p1a: Iron Jugulis|Dark Pulse|p2a: Frosmoth
+  -damage|p2a: Frosmoth|0 fnt
+  faint|p2a: Frosmoth
+  switch|p2a: Clawitzer|Clawitzer, L87, F|100/100
+-- turn 21
+  WE CHOSE: attack darkpulse - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Iron Jugulis|Dark Pulse|p2a: Clawitzer
+  -damage|p2a: Clawitzer|81/100
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|149/271
+-- turn 22
+  WE CHOSE: attack darkpulse - our hp 0.55, theirs 0.81, predicted move (revealed) hits us x1
+  move|p1a: Iron Jugulis|Dark Pulse|p2a: Clawitzer
+  -damage|p2a: Clawitzer|62/100
+  cant|p2a: Clawitzer|flinch
+-- turn 23
+  WE CHOSE: attack darkpulse - our hp 0.55, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Iron Jugulis|Dark Pulse|p2a: Clawitzer
+  -damage|p2a: Clawitzer|40/100
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|10/271
+-- turn 24
+  WE CHOSE: attack hurricane (hand policy: attack darkpulse) - our hp 0.04, theirs 0.40, predicted move (revealed) hits us x1
+  move|p1a: Iron Jugulis|Hurricane|p2a: Clawitzer
+  -damage|p2a: Clawitzer|10/100
+  move|p2a: Clawitzer|Dragon Pulse|p1a: Iron Jugulis
+  -damage|p1a: Iron Jugulis|0 fnt
+  faint|p1a: Iron Jugulis
+  -end|p1a: Iron Jugulis|Quark Drive|[silent]
+  deinit

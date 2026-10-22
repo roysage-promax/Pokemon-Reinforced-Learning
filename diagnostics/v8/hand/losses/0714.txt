@@ -1,0 +1,216 @@
+battle 714 (battle-gen9randombattle-2025132): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  shaymin (fainted; item leftovers, ability naturalcure; moves airslash/seedflare/leechseed/substitute)
+  skuntank (fainted; item lifeorb, ability aftermath; moves toxicspikes/gunkshot/knockoff/fireblast)
+  excadrill (fainted; item assaultvest, ability moldbreaker; moves ironhead/earthquake/rockslide/rapidspin)
+  slaking (fainted; item choiceband, ability truant; moves gigaimpact/doubleedge/knockoff/earthquake)
+  mamoswine (fainted; item lifeorb, ability thickfat; moves iciclecrash/iceshard/stealthrock/earthquake)
+  barraskewda (fainted; item choiceband, ability swiftswim, tera fighting; moves closecombat/poisonjab/waterfall/flipturn)
+theirs (as seen):
+  calyrex (fainted; item leftovers, ability unnerve; moves psychic)
+  perrserker (fainted; item unknown_item, ability ?; moves closecombat)
+  swampert (fainted; item leftovers, ability ?; moves earthquake)
+  scrafty (fainted; item leftovers, ability ?; moves drainpunch)
+  bastiodon (fainted; item unknown_item, ability ?; moves foulplay)
+  hitmonchan (35%; item leftovers, ability ?; moves drainpunch)
+
+-- turn 0
+  switch|p1a: Shaymin|Shaymin, L82|298/298
+  switch|p2a: Calyrex|Calyrex, L93|100/100
+  -ability|p2a: Calyrex|Unnerve
+-- turn 1
+  WE CHOSE: switch to skuntank - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Skuntank|Skuntank, L84, M|310/310
+  move|p2a: Calyrex|Psychic|p1a: Skuntank
+  -immune|p1a: Skuntank
+-- turn 2
+  WE CHOSE: attack gunkshot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Calyrex|Psychic|p1a: Skuntank
+  -immune|p1a: Skuntank
+  move|p1a: Skuntank|Gunk Shot|p2a: Calyrex
+  -supereffective|p2a: Calyrex
+  -damage|p2a: Calyrex|9/100
+  -damage|p1a: Skuntank|279/310|[from] item: Life Orb
+  -heal|p2a: Calyrex|16/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack gunkshot - our hp 0.90, theirs 0.16, predicted move (revealed) hits us x0
+  move|p2a: Calyrex|Psychic|p1a: Skuntank
+  -immune|p1a: Skuntank
+  move|p1a: Skuntank|Gunk Shot|p2a: Calyrex
+  -supereffective|p2a: Calyrex
+  -damage|p2a: Calyrex|0 fnt
+  faint|p2a: Calyrex
+  -damage|p1a: Skuntank|248/310|[from] item: Life Orb
+  switch|p2a: Perrserker|Perrserker, L89, F|100/100
+-- turn 4
+  WE CHOSE: attack fireblast - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to barraskewda - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Skuntank|Fire Blast|p2a: Perrserker
+  -supereffective|p2a: Perrserker
+  -damage|p2a: Perrserker|20/100
+  -damage|p1a: Skuntank|217/310|[from] item: Life Orb
+  move|p2a: Perrserker|Close Combat|p1a: Skuntank
+  -damage|p1a: Skuntank|0 fnt
+  -unboost|p2a: Perrserker|def|1
+  -unboost|p2a: Perrserker|spd|1
+  -damage|p2a: Perrserker|0 fnt|[from] ability: Aftermath|[of] p1a: Skuntank
+  faint|p1a: Skuntank
+  faint|p2a: Perrserker
+  switch|p1a: Barraskewda|Barraskewda, L81, F|231/231
+  switch|p2a: Swampert|Swampert, L83, F|100/100
+-- turn 5
+  WE CHOSE: attack+tera waterfall - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Barraskewda|Fighting
+  move|p1a: Barraskewda|Waterfall|p2a: Swampert
+  -damage|p2a: Swampert|52/100
+  move|p2a: Swampert|Earthquake|p1a: Barraskewda
+  -damage|p1a: Barraskewda|77/231
+  -heal|p2a: Swampert|58/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack waterfall - our hp 0.33, theirs 0.58, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to shaymin - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Barraskewda|Waterfall|p2a: Swampert
+  -damage|p2a: Swampert|10/100
+  move|p2a: Swampert|Earthquake|p1a: Barraskewda
+  -damage|p1a: Barraskewda|0 fnt
+  faint|p1a: Barraskewda
+  -heal|p2a: Swampert|16/100|[from] item: Leftovers
+  switch|p1a: Shaymin|Shaymin, L82|298/298
+-- turn 7
+  WE CHOSE: attack seedflare - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p1a: Shaymin|Seed Flare|p2a: Swampert
+  -supereffective|p2a: Swampert
+  -damage|p2a: Swampert|0 fnt
+  faint|p2a: Swampert
+  switch|p2a: Scrafty|Scrafty, L83, F|100/100
+-- turn 8
+  WE CHOSE: switch to excadrill - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Excadrill|Excadrill, L79, F|303/303
+  -ability|p1a: Excadrill|Mold Breaker
+  move|p2a: Scrafty|Drain Punch|p1a: Excadrill
+  -supereffective|p1a: Excadrill
+  -damage|p1a: Excadrill|87/303
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.29, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to shaymin - our hp 0.00, theirs 0.85, predicted move (revealed) hits us x2
+  move|p1a: Excadrill|Earthquake|p2a: Scrafty
+  -damage|p2a: Scrafty|61/100
+  move|p2a: Scrafty|Drain Punch|p1a: Excadrill
+  -supereffective|p1a: Excadrill
+  -crit|p1a: Excadrill
+  -damage|p1a: Excadrill|0 fnt
+  -heal|p2a: Scrafty|79/100|[from] drain|[of] p1a: Excadrill
+  faint|p1a: Excadrill
+  -heal|p2a: Scrafty|85/100|[from] item: Leftovers
+  switch|p1a: Shaymin|Shaymin, L82|298/298
+-- turn 10
+  WE CHOSE: attack seedflare - our hp 1.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p1a: Shaymin|Seed Flare|p2a: Scrafty
+  -damage|p2a: Scrafty|47/100
+  move|p2a: Scrafty|Drain Punch|p1a: Shaymin
+  -crit|p1a: Shaymin
+  -damage|p1a: Shaymin|190/298
+  -heal|p2a: Scrafty|69/100|[from] drain|[of] p1a: Shaymin
+  -heal|p1a: Shaymin|208/298|[from] item: Leftovers
+  -heal|p2a: Scrafty|75/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack seedflare - our hp 0.70, theirs 0.75, predicted move (revealed) hits us x1
+  move|p1a: Shaymin|Seed Flare|p2a: Scrafty
+  -damage|p2a: Scrafty|32/100
+  move|p2a: Scrafty|Drain Punch|p1a: Shaymin
+  -damage|p1a: Shaymin|132/298
+  -heal|p2a: Scrafty|48/100|[from] drain|[of] p1a: Shaymin
+  -heal|p1a: Shaymin|150/298|[from] item: Leftovers
+  -heal|p2a: Scrafty|54/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack seedflare - our hp 0.50, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Shaymin|Seed Flare|p2a: Scrafty
+  -damage|p2a: Scrafty|16/100
+  move|p2a: Scrafty|Drain Punch|p1a: Shaymin
+  -damage|p1a: Shaymin|80/298
+  -heal|p2a: Scrafty|30/100|[from] drain|[of] p1a: Shaymin
+  -heal|p1a: Shaymin|98/298|[from] item: Leftovers
+  -heal|p2a: Scrafty|37/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack seedflare - our hp 0.33, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Shaymin|Seed Flare|p2a: Scrafty|[miss]
+  -miss|p1a: Shaymin|p2a: Scrafty
+  move|p2a: Scrafty|Drain Punch|p1a: Shaymin
+  -damage|p1a: Shaymin|28/298
+  -heal|p2a: Scrafty|51/100|[from] drain|[of] p1a: Shaymin
+  -heal|p1a: Shaymin|46/298|[from] item: Leftovers
+  -heal|p2a: Scrafty|57/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack seedflare - our hp 0.15, theirs 0.57, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to slaking - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p1a: Shaymin|Seed Flare|p2a: Scrafty
+  -damage|p2a: Scrafty|15/100
+  move|p2a: Scrafty|Drain Punch|p1a: Shaymin
+  -damage|p1a: Shaymin|0 fnt
+  -heal|p2a: Scrafty|25/100|[from] drain|[of] p1a: Shaymin
+  faint|p1a: Shaymin
+  -heal|p2a: Scrafty|31/100|[from] item: Leftovers
+  switch|p1a: Slaking|Slaking, L84, F|389/389
+-- turn 15
+  WE CHOSE: attack gigaimpact - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x2
+  move|p1a: Slaking|Giga Impact|p2a: Scrafty
+  -damage|p2a: Scrafty|0 fnt
+  -mustrecharge|p1a: Slaking
+  faint|p2a: Scrafty
+  switch|p2a: Bastiodon|Bastiodon, L89, F|100/100
+-- turn 16
+  WE CHOSE: attack gigaimpact - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  cant|p1a: Slaking|recharge
+  move|p2a: Bastiodon|Foul Play|p1a: Slaking
+  -damage|p1a: Slaking|287/389
+-- turn 17
+  WE CHOSE: attack gigaimpact - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Slaking|Giga Impact|p2a: Bastiodon
+  -resisted|p2a: Bastiodon
+  -crit|p2a: Bastiodon
+  -damage|p2a: Bastiodon|72/100
+  -mustrecharge|p1a: Slaking
+  move|p2a: Bastiodon|Foul Play|p1a: Slaking
+  -damage|p1a: Slaking|197/389
+-- turn 18
+  WE CHOSE: attack gigaimpact - our hp 0.51, theirs 0.72, predicted move (revealed) hits us x1
+  cant|p1a: Slaking|recharge
+  move|p2a: Bastiodon|Foul Play|p1a: Slaking
+  -damage|p1a: Slaking|96/389
+-- turn 19
+  WE CHOSE: attack gigaimpact - our hp 0.25, theirs 0.72, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mamoswine - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Slaking|Giga Impact|p2a: Bastiodon
+  -resisted|p2a: Bastiodon
+  -damage|p2a: Bastiodon|52/100
+  -mustrecharge|p1a: Slaking
+  move|p2a: Bastiodon|Foul Play|p1a: Slaking
+  -damage|p1a: Slaking|0 fnt
+  faint|p1a: Slaking
+  switch|p1a: Mamoswine|Mamoswine, L81, F|311/311
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Mamoswine|Earthquake|p2a: Bastiodon
+  -supereffective|p2a: Bastiodon
+  -damage|p2a: Bastiodon|0 fnt
+  faint|p2a: Bastiodon
+  -damage|p1a: Mamoswine|280/311|[from] item: Life Orb
+  switch|p2a: Hitmonchan|Hitmonchan, L87, M|100/100
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Hitmonchan|Drain Punch|p1a: Mamoswine
+  -supereffective|p1a: Mamoswine
+  -damage|p1a: Mamoswine|40/311
+  move|p1a: Mamoswine|Earthquake|p2a: Hitmonchan
+  -damage|p2a: Hitmonchan|27/100
+  -damage|p1a: Mamoswine|9/311|[from] item: Life Orb
+  -heal|p2a: Hitmonchan|33/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 0.03, theirs 0.33, predicted move (revealed) hits us x2
+  move|p2a: Hitmonchan|Drain Punch|p1a: Mamoswine
+  -supereffective|p1a: Mamoswine
+  -damage|p1a: Mamoswine|0 fnt
+  -heal|p2a: Hitmonchan|35/100|[from] drain|[of] p1a: Mamoswine
+  faint|p1a: Mamoswine
+  deinit

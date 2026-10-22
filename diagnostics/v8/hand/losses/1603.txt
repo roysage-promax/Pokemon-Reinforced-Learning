@@ -1,0 +1,157 @@
+battle 1603 (battle-gen9randombattle-2033542): lost in 15 turns, 1 of theirs left; we are p1
+
+ours:
+  lumineon (fainted; item lifeorb, ability stormdrain, tera water; moves encore/hydropump/alluringvoice/icebeam)
+  flygon (fainted; item ?, ability levitate; moves dragondance/outrage/stoneedge/earthquake)
+  toxtricity (fainted; item throatspray, ability punkrock; moves overdrive/shiftgear/boomburst/gunkshot)
+  tinkaton (fainted; item leftovers, ability moldbreaker; moves knockoff/encore/playrough/gigatonhammer)
+  sceptile (fainted; item lifeorb, ability overgrow; moves earthquake/rockslide/leafblade/swordsdance)
+  glaceon (fainted; item heavydutyboots, ability icebody; moves freezedry/wish/calmmind/protect)
+theirs (as seen):
+  calyrexshadow (fainted; item lifeorb, ability unnerve; moves astralbarrage)
+  volcarona (fainted; item unknown_item, ability ?; moves -)
+  ironvaliant (fainted; item lifeorb, ability quarkdrive; moves closecombat)
+  kommoo (fainted; item unknown_item, ability ?; moves closecombat)
+  bisharp (fainted; item unknown_item, ability ?; moves ironhead)
+  typhlosion (100%; item unknown_item, ability ?; moves eruption)
+
+-- turn 0
+  switch|p1a: Lumineon|Lumineon, L93, F|279/279
+  switch|p2a: Calyrex|Calyrex-Shadow, L64|100/100
+  -ability|p2a: Calyrex|As One
+  -ability|p2a: Calyrex|Unnerve
+-- turn 1
+  WE CHOSE: attack+tera hydropump - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Lumineon|Water
+  move|p2a: Calyrex|Astral Barrage|p1a: Lumineon
+  -damage|p1a: Lumineon|137/279
+  -damage|p2a: Calyrex|91/100|[from] item: Life Orb
+  move|p1a: Lumineon|Hydro Pump|p2a: Calyrex
+  -damage|p2a: Calyrex|0 fnt
+  faint|p2a: Calyrex
+  -damage|p1a: Lumineon|110/279|[from] item: Life Orb
+  switch|p2a: Volcarona|Volcarona, L77, M|100/100
+-- turn 2
+  WE CHOSE: attack hydropump - our hp 0.39, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Lumineon|Hydro Pump|p2a: Volcarona
+  -supereffective|p2a: Volcarona
+  -damage|p2a: Volcarona|0 fnt
+  faint|p2a: Volcarona
+  -damage|p1a: Lumineon|83/279|[from] item: Life Orb
+  switch|p2a: Iron Valiant|Iron Valiant, L78|100/100
+-- turn 3
+  WE CHOSE: attack hydropump - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to toxtricity - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Iron Valiant|Close Combat|p1a: Lumineon
+  -damage|p1a: Lumineon|0 fnt
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  faint|p1a: Lumineon
+  -damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+  switch|p1a: Toxtricity|Toxtricity, L82, M|257/257
+-- turn 4
+  WE CHOSE: setup shiftgear - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Valiant|Close Combat|p1a: Toxtricity
+  -resisted|p1a: Toxtricity
+  -damage|p1a: Toxtricity|137/257
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|81/100|[from] item: Life Orb
+  move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+  -boost|p1a: Toxtricity|spe|2
+  -boost|p1a: Toxtricity|atk|1
+-- turn 5
+  WE CHOSE: setup shiftgear - our hp 0.53, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+  -boost|p1a: Toxtricity|spe|2
+  -boost|p1a: Toxtricity|atk|1
+  move|p2a: Iron Valiant|Close Combat|p1a: Toxtricity
+  -resisted|p1a: Toxtricity
+  -damage|p1a: Toxtricity|36/257
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|71/100|[from] item: Life Orb
+-- turn 6
+  WE CHOSE: attack gunkshot - our hp 0.14, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p1a: Toxtricity|Gunk Shot|p2a: Iron Valiant
+  -supereffective|p2a: Iron Valiant
+  -damage|p2a: Iron Valiant|0 fnt
+  faint|p2a: Iron Valiant
+  -end|p2a: Iron Valiant|Quark Drive|[silent]
+  switch|p2a: Kommo-o|Kommo-o, L77, F|100/100
+-- turn 7
+  WE CHOSE: attack gunkshot - our hp 0.14, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to flygon - our hp 0.00, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Toxtricity|Gunk Shot|p2a: Kommo-o
+  -damage|p2a: Kommo-o|12/100
+  move|p2a: Kommo-o|Close Combat|p1a: Toxtricity
+  -resisted|p1a: Toxtricity
+  -damage|p1a: Toxtricity|0 fnt
+  -unboost|p2a: Kommo-o|def|1
+  -unboost|p2a: Kommo-o|spd|1
+  faint|p1a: Toxtricity
+  switch|p1a: Flygon|Flygon, L82, F|265/265
+-- turn 8
+  WE CHOSE: attack outrage - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x1
+  move|p1a: Flygon|Outrage|p2a: Kommo-o
+  -supereffective|p2a: Kommo-o
+  -damage|p2a: Kommo-o|0 fnt
+  faint|p2a: Kommo-o
+  switch|p2a: Bisharp|Bisharp, L79, F|100/100
+-- turn 9
+  WE CHOSE: attack outrage - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Flygon|Outrage|p2a: Bisharp|[from] lockedmove
+  -resisted|p2a: Bisharp
+  -damage|p2a: Bisharp|83/100
+  move|p2a: Bisharp|Iron Head|p1a: Flygon
+  -damage|p1a: Flygon|168/265
+-- turn 10
+  WE CHOSE: attack outrage - our hp 0.63, theirs 0.83, predicted move (revealed) hits us x1
+  move|p1a: Flygon|Outrage|p2a: Bisharp|[from] lockedmove
+  -resisted|p2a: Bisharp
+  -damage|p2a: Bisharp|65/100
+  -start|p1a: Flygon|confusion|[fatigue]
+  -enditem|p1a: Flygon|Lum Berry|[eat]
+  -end|p1a: Flygon|confusion
+  move|p2a: Bisharp|Iron Head|p1a: Flygon
+  -damage|p1a: Flygon|60/265
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 0.23, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Flygon|Earthquake|p2a: Bisharp
+  -supereffective|p2a: Bisharp
+  -crit|p2a: Bisharp
+  -damage|p2a: Bisharp|0 fnt
+  faint|p2a: Bisharp
+  switch|p2a: Typhlosion|Typhlosion, L84, M|100/100
+-- turn 12
+  WE CHOSE: attack earthquake - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to sceptile - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Typhlosion|Eruption|p1a: Flygon
+  -resisted|p1a: Flygon
+  -damage|p1a: Flygon|0 fnt
+  faint|p1a: Flygon
+  switch|p1a: Sceptile|Sceptile, L87, F|264/264
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to tinkaton - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Typhlosion|Eruption|p1a: Sceptile
+  -supereffective|p1a: Sceptile
+  -damage|p1a: Sceptile|0 fnt
+  faint|p1a: Sceptile
+  switch|p1a: Tinkaton|Tinkaton, L82, F|274/274
+  -ability|p1a: Tinkaton|Mold Breaker
+-- turn 14
+  WE CHOSE: attack gigatonhammer - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to glaceon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Typhlosion|Eruption|p1a: Tinkaton
+  -supereffective|p1a: Tinkaton
+  -damage|p1a: Tinkaton|0 fnt
+  faint|p1a: Tinkaton
+  switch|p1a: Glaceon|Glaceon, L94, M|275/275
+-- turn 15
+  WE CHOSE: attack freezedry - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Typhlosion|Eruption|p1a: Glaceon
+  -supereffective|p1a: Glaceon
+  -damage|p1a: Glaceon|0 fnt
+  faint|p1a: Glaceon
+  deinit

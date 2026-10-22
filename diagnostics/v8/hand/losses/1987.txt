@@ -1,0 +1,257 @@
+battle 1987 (battle-gen9randombattle-2037185): lost in 31 turns, 1 of theirs left; we are p1
+
+ours:
+  cobalion (fainted; item leftovers, ability justified; moves bodypress/thunderwave/ironhead/irondefense)
+  scovillain (fainted; item leftovers, ability chlorophyll; moves flamethrower/leechseed/protect/substitute)
+  banette (fainted; item lifeorb, ability cursedbody; moves swordsdance/shadowsneak/gunkshot/poltergeist)
+  jirachi (fainted; item assaultvest, ability serenegrace; moves ironhead/uturn/drainpunch/bodyslam)
+  dondozo (fainted; item leftovers, ability unaware, tera fairy; moves wavecrash/curse/sleeptalk/rest)
+  ribombee (fainted; item heavydutyboots, ability shielddust; moves bugbuzz/quiverdance/terablast/moonblast)
+theirs (as seen):
+  swampert (fainted; item leftovers, ability ?; moves earthquake)
+  greattusk (fainted; item ?, ability protosynthesis; moves closecombat/earthquake)
+  keldeoresolute (fainted; item unknown_item, ability justified; moves hydropump)
+  salamence (fainted; item unknown_item, ability ?; moves outrage)
+  hooh (fainted; item unknown_item, ability ?; moves bravebird)
+  delphox (77%; item unknown_item, ability ?; moves fireblast)
+
+-- turn 0
+  switch|p1a: Cobalion|Cobalion, L80|277/277
+  switch|p2a: Swampert|Swampert, L83, F|100/100
+-- turn 1
+  WE CHOSE: switch to ribombee - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Ribombee|Ribombee, L83, M|235/235
+  move|p2a: Swampert|Earthquake|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|155/235
+-- turn 2
+  WE CHOSE: setup quiverdance - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+  -boost|p1a: Ribombee|spa|1
+  -boost|p1a: Ribombee|spd|1
+  -boost|p1a: Ribombee|spe|1
+  move|p2a: Swampert|Earthquake|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|81/235
+-- turn 3
+  WE CHOSE: attack moonblast - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Ribombee|Moonblast|p2a: Swampert
+  -damage|p2a: Swampert|51/100
+  move|p2a: Swampert|Earthquake|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|9/235
+  -heal|p2a: Swampert|57/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack moonblast - our hp 0.04, theirs 0.57, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dondozo - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p1a: Ribombee|Moonblast|p2a: Swampert
+  -damage|p2a: Swampert|9/100
+  -unboost|p2a: Swampert|spa|1
+  move|p2a: Swampert|Earthquake|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|0 fnt
+  faint|p1a: Ribombee
+  -heal|p2a: Swampert|15/100|[from] item: Leftovers
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362
+-- turn 5
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x1
+  move|p2a: Swampert|Earthquake|p1a: Dondozo
+  -damage|p1a: Dondozo|257/362
+  move|p1a: Dondozo|Wave Crash|p2a: Swampert
+  -damage|p2a: Swampert|0 fnt
+  faint|p2a: Swampert
+  -damage|p1a: Dondozo|242/362|[from] Recoil
+  -heal|p1a: Dondozo|264/362|[from] item: Leftovers
+  switch|p2a: Great Tusk|Great Tusk, L77|100/100
+  -enditem|p2a: Great Tusk|Booster Energy
+  -activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+  -start|p2a: Great Tusk|protosynthesisatk
+-- turn 6
+  WE CHOSE: switch to banette - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Banette|Banette, L93, F|270/270
+  move|p2a: Great Tusk|Close Combat|p1a: Banette
+  -immune|p1a: Banette
+-- turn 7
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Banette
+  -immune|p1a: Banette
+  move|p1a: Banette|Swords Dance|p1a: Banette
+  -boost|p1a: Banette|atk|2
+-- turn 8
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Banette
+  -immune|p1a: Banette
+  move|p1a: Banette|Swords Dance|p1a: Banette
+  -boost|p1a: Banette|atk|2
+-- turn 9
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Banette
+  -immune|p1a: Banette
+  move|p1a: Banette|Swords Dance|p1a: Banette
+  -boost|p1a: Banette|atk|2
+-- turn 10
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Banette
+  -immune|p1a: Banette
+  move|p1a: Banette|Poltergeist||[still]
+  -fail|p1a: Banette
+-- turn 11
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Banette
+  -immune|p1a: Banette
+  move|p1a: Banette|Poltergeist||[still]
+  -fail|p1a: Banette
+-- turn 12
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Banette
+  -immune|p1a: Banette
+  move|p1a: Banette|Poltergeist||[still]
+  -fail|p1a: Banette
+-- turn 13
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Close Combat|p1a: Banette
+  -immune|p1a: Banette
+  move|p1a: Banette|Poltergeist||[still]
+  -fail|p1a: Banette
+-- turn 14
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Earthquake|p1a: Banette
+  -damage|p1a: Banette|98/270
+  move|p1a: Banette|Poltergeist||[still]
+  -fail|p1a: Banette
+-- turn 15
+  WE CHOSE: attack poltergeist - our hp 0.36, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to dondozo - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Great Tusk|Earthquake|p1a: Banette
+  -damage|p1a: Banette|0 fnt
+  faint|p1a: Banette
+  switch|p1a: Dondozo|Dondozo, L78, F|264/362
+-- turn 16
+  WE CHOSE: attack+tera wavecrash - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Dondozo|Fairy
+  move|p2a: Great Tusk|Earthquake|p1a: Dondozo
+  -damage|p1a: Dondozo|143/362
+  move|p1a: Dondozo|Wave Crash|p2a: Great Tusk
+  -supereffective|p2a: Great Tusk
+  -damage|p2a: Great Tusk|39/100
+  -damage|p1a: Dondozo|82/362|[from] Recoil
+  -heal|p1a: Dondozo|104/362|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: heal rest - our hp 0.29, theirs 0.39, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to scovillain - our hp 0.00, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p2a: Great Tusk|Earthquake|p1a: Dondozo
+  -damage|p1a: Dondozo|0 fnt
+  faint|p1a: Dondozo
+  switch|p1a: Scovillain|Scovillain, L91, F|266/266
+-- turn 18
+  WE CHOSE: attack flamethrower - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x1
+  move|p1a: Scovillain|Flamethrower|p2a: Great Tusk
+  -damage|p2a: Great Tusk|0 fnt
+  faint|p2a: Great Tusk
+  -end|p2a: Great Tusk|Protosynthesis|[silent]
+  switch|p2a: Keldeo|Keldeo-Resolute, L79|100/100
+-- turn 19
+  WE CHOSE: attack flamethrower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Keldeo|Hydro Pump|p1a: Scovillain
+  -damage|p1a: Scovillain|43/266
+  move|p1a: Scovillain|Flamethrower|p2a: Keldeo
+  -resisted|p2a: Keldeo
+  -damage|p2a: Keldeo|79/100
+  -status|p2a: Keldeo|brn
+  -heal|p1a: Scovillain|59/266|[from] item: Leftovers
+  -damage|p2a: Keldeo|72/100 brn|[from] brn
+-- turn 20
+  WE CHOSE: attack flamethrower - our hp 0.22, theirs 0.72, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cobalion - our hp 0.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Keldeo|Hydro Pump|p1a: Scovillain
+  -damage|p1a: Scovillain|0 fnt
+  faint|p1a: Scovillain
+  -damage|p2a: Keldeo|66/100 brn|[from] brn
+  switch|p1a: Cobalion|Cobalion, L80|277/277
+-- turn 21
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Cobalion|Body Press|p2a: Keldeo
+  -damage|p2a: Keldeo|29/100 brn
+  move|p2a: Keldeo|Hydro Pump|p1a: Cobalion
+  -damage|p1a: Cobalion|31/277
+  -heal|p1a: Cobalion|48/277|[from] item: Leftovers
+  -damage|p2a: Keldeo|22/100 brn|[from] brn
+-- turn 22
+  WE CHOSE: attack bodypress - our hp 0.17, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Cobalion|Body Press|p2a: Keldeo
+  -damage|p2a: Keldeo|0 fnt
+  faint|p2a: Keldeo
+  -heal|p1a: Cobalion|65/277|[from] item: Leftovers
+  switch|p2a: Salamence|Salamence, L77, M|100/100
+-- turn 23
+  WE CHOSE: attack ironhead - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Cobalion|Iron Head|p2a: Salamence
+  -damage|p2a: Salamence|70/100
+  move|p2a: Salamence|Outrage|p1a: Cobalion
+  -resisted|p1a: Cobalion
+  -damage|p1a: Cobalion|8/277
+  -heal|p1a: Cobalion|25/277|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack ironhead - our hp 0.09, theirs 0.70, predicted move (revealed) hits us x0.5
+  move|p1a: Cobalion|Iron Head|p2a: Salamence
+  -damage|p2a: Salamence|40/100
+  cant|p2a: Salamence|flinch
+  -heal|p1a: Cobalion|42/277|[from] item: Leftovers
+  -start|p2a: Salamence|confusion|[fatigue]
+-- turn 25
+  WE CHOSE: attack ironhead - our hp 0.15, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Cobalion|Iron Head|p2a: Salamence
+  -damage|p2a: Salamence|9/100
+  -activate|p2a: Salamence|confusion
+  -damage|p2a: Salamence|0 fnt|[from] confusion
+  faint|p2a: Salamence
+  -heal|p1a: Cobalion|59/277|[from] item: Leftovers
+  switch|p2a: Ho-Oh|Ho-Oh, L71|100/100
+-- turn 26
+  WE CHOSE: attack bodypress - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to jirachi - our hp 0.00, theirs 0.72, predicted move (revealed) hits us x1
+  move|p1a: Cobalion|Body Press|p2a: Ho-Oh
+  -resisted|p2a: Ho-Oh
+  -damage|p2a: Ho-Oh|79/100
+  move|p2a: Ho-Oh|Brave Bird|p1a: Cobalion
+  -damage|p1a: Cobalion|0 fnt
+  faint|p1a: Cobalion
+  -damage|p2a: Ho-Oh|72/100|[from] Recoil
+  switch|p1a: Jirachi|Jirachi, L80|291/291
+-- turn 27
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x0.5
+  move|p1a: Jirachi|Body Slam|p2a: Ho-Oh
+  -damage|p2a: Ho-Oh|46/100
+  move|p2a: Ho-Oh|Brave Bird|p1a: Jirachi
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|240/291
+  -damage|p2a: Ho-Oh|40/100|[from] Recoil
+-- turn 28
+  WE CHOSE: attack bodyslam - our hp 0.82, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Jirachi|Body Slam|p2a: Ho-Oh
+  -damage|p2a: Ho-Oh|15/100
+  -status|p2a: Ho-Oh|par
+  move|p2a: Ho-Oh|Brave Bird|p1a: Jirachi
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|189/291
+  -damage|p2a: Ho-Oh|9/100 par|[from] Recoil
+-- turn 29
+  WE CHOSE: attack bodyslam - our hp 0.65, theirs 0.09, predicted move (revealed) hits us x0.5
+  move|p1a: Jirachi|Body Slam|p2a: Ho-Oh
+  -damage|p2a: Ho-Oh|0 fnt
+  faint|p2a: Ho-Oh
+  switch|p2a: Delphox|Delphox, L84, M|100/100
+-- turn 30
+  WE CHOSE: attack bodyslam - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Delphox|Fire Blast|p1a: Jirachi
+  -supereffective|p1a: Jirachi
+  -damage|p1a: Jirachi|21/291
+  move|p1a: Jirachi|Body Slam|p2a: Delphox
+  -damage|p2a: Delphox|77/100
+-- turn 31
+  WE CHOSE: attack bodyslam - our hp 0.07, theirs 0.77, predicted move (revealed) hits us x2
+  move|p2a: Delphox|Fire Blast|p1a: Jirachi
+  -supereffective|p1a: Jirachi
+  -damage|p1a: Jirachi|0 fnt
+  faint|p1a: Jirachi
+  deinit

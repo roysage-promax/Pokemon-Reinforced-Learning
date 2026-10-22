@@ -1,0 +1,214 @@
+battle 2041 (battle-gen9randombattle-2037664): lost in 20 turns, 1 of theirs left; we are p1
+
+ours:
+  breloom (fainted; item lifeorb, ability technician, tera rock; moves bulletseed/swordsdance/rocktomb/machpunch)
+  garganacl (fainted; item leftovers, ability purifyingsalt; moves earthquake/stealthrock/recover/saltcure)
+  ragingbolt (fainted; item ?, ability protosynthesis; moves thunderbolt/dragonpulse/calmmind/thunderclap)
+  bellossom (fainted; item leftovers, ability chlorophyll; moves strengthsap/gigadrain/terablast/quiverdance)
+  spidops (fainted; item heavydutyboots, ability stakeout; moves spikes/stickyweb/circlethrow/toxicspikes)
+  dewgong (fainted; item heavydutyboots, ability thickfat; moves encore/surf/tripleaxel/flipturn)
+theirs (as seen):
+  jumpluff (fainted; item unknown_item, ability ?; moves acrobatics)
+  floatzel (fainted; item unknown_item, ability ?; moves wavecrash)
+  groudon (fainted; item unknown_item, ability drought; moves -)
+  chiyu (fainted; item unknown_item, ability beadsofruin; moves fireblast)
+  calyrexshadow (fainted; item lifeorb, ability grimneigh; moves astralbarrage)
+  entei (44%; item unknown_item, ability ?; moves flareblitz)
+
+-- turn 0
+  switch|p1a: Breloom|Breloom, L83, M|235/235
+  switch|p2a: Jumpluff|Jumpluff, L87, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera rocktomb - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Breloom|Rock
+  move|p2a: Jumpluff|Acrobatics|p1a: Breloom
+  -resisted|p1a: Breloom
+  -damage|p1a: Breloom|190/235
+  move|p1a: Breloom|Rock Tomb|p2a: Jumpluff
+  -supereffective|p2a: Jumpluff
+  -damage|p2a: Jumpluff|0 fnt
+  faint|p2a: Jumpluff
+  -damage|p1a: Breloom|167/235|[from] item: Life Orb
+  switch|p2a: Floatzel|Floatzel, L86, F|100/100
+-- turn 2
+  WE CHOSE: switch to ragingbolt - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Raging Bolt|Raging Bolt, L78|323/323
+  -enditem|p1a: Raging Bolt|Booster Energy
+  -activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+  -start|p1a: Raging Bolt|protosynthesisspa
+  move|p2a: Floatzel|Wave Crash|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|206/323
+  -damage|p2a: Floatzel|87/100|[from] Recoil
+-- turn 3
+  WE CHOSE: setup calmmind - our hp 0.64, theirs 0.87, predicted move (revealed) hits us x0.5
+  move|p2a: Floatzel|Wave Crash|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|97/323
+  -damage|p2a: Floatzel|74/100|[from] Recoil
+  move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+  -boost|p1a: Raging Bolt|spa|1
+  -boost|p1a: Raging Bolt|spd|1
+-- turn 4
+  WE CHOSE: attack thunderbolt - our hp 0.30, theirs 0.74, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to bellossom - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p2a: Floatzel|Wave Crash|p1a: Raging Bolt
+  -resisted|p1a: Raging Bolt
+  -damage|p1a: Raging Bolt|0 fnt
+  faint|p1a: Raging Bolt
+  -end|p1a: Raging Bolt|Protosynthesis|[silent]
+  -damage|p2a: Floatzel|63/100|[from] Recoil
+  switch|p1a: Bellossom|Bellossom, L84, F|263/263
+-- turn 5
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p2a: Floatzel|Wave Crash|p1a: Bellossom
+  -resisted|p1a: Bellossom
+  -damage|p1a: Bellossom|161/263
+  -damage|p2a: Floatzel|51/100|[from] Recoil
+  move|p1a: Bellossom|Quiver Dance|p1a: Bellossom
+  -boost|p1a: Bellossom|spa|1
+  -boost|p1a: Bellossom|spd|1
+  -boost|p1a: Bellossom|spe|1
+  -heal|p1a: Bellossom|177/263|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: setup quiverdance - our hp 0.67, theirs 0.51, predicted move (revealed) hits us x0.5
+  move|p2a: Floatzel|Wave Crash|p1a: Bellossom
+  -resisted|p1a: Bellossom
+  -damage|p1a: Bellossom|83/263
+  -damage|p2a: Floatzel|40/100|[from] Recoil
+  move|p1a: Bellossom|Quiver Dance|p1a: Bellossom
+  -boost|p1a: Bellossom|spa|1
+  -boost|p1a: Bellossom|spd|1
+  -boost|p1a: Bellossom|spe|1
+  -heal|p1a: Bellossom|99/263|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: heal strengthsap - our hp 0.38, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p1a: Bellossom|Strength Sap|p2a: Floatzel
+  -unboost|p2a: Floatzel|atk|1
+  -heal|p1a: Bellossom|263/263
+  move|p2a: Floatzel|Wave Crash|p1a: Bellossom
+  -resisted|p1a: Bellossom
+  -damage|p1a: Bellossom|197/263
+  -damage|p2a: Floatzel|33/100|[from] Recoil
+  -heal|p1a: Bellossom|213/263|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack gigadrain - our hp 0.81, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p1a: Bellossom|Giga Drain|p2a: Floatzel
+  -supereffective|p2a: Floatzel
+  -damage|p2a: Floatzel|0 fnt
+  -heal|p1a: Bellossom|259/263|[from] drain|[of] p2a: Floatzel
+  faint|p2a: Floatzel
+  -heal|p1a: Bellossom|263/263|[from] item: Leftovers
+  switch|p2a: Groudon|Groudon, L72|100/100
+  -weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+-- turn 9
+  WE CHOSE: attack gigadrain - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Bellossom|Giga Drain|p2a: Groudon
+  -supereffective|p2a: Groudon
+  -damage|p2a: Groudon|0 fnt
+  faint|p2a: Groudon
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Chi-Yu|Chi-Yu, L77|100/100
+  -ability|p2a: Chi-Yu|Beads of Ruin
+-- turn 10
+  WE CHOSE: switch to garganacl - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Garganacl|Garganacl, L80, M|291/291
+  move|p2a: Chi-Yu|Fire Blast|p1a: Garganacl
+  -resisted|p1a: Garganacl
+  -damage|p1a: Garganacl|167/291
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Garganacl|185/291|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Chi-Yu|Fire Blast|p1a: Garganacl
+  -resisted|p1a: Garganacl
+  -damage|p1a: Garganacl|51/291
+  move|p1a: Garganacl|Earthquake|p2a: Chi-Yu
+  -supereffective|p2a: Chi-Yu
+  -damage|p2a: Chi-Yu|30/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Garganacl|69/291|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: heal recover - our hp 0.24, theirs 0.30, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dewgong - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x0.5
+  move|p2a: Chi-Yu|Fire Blast|p1a: Garganacl
+  -resisted|p1a: Garganacl
+  -damage|p1a: Garganacl|0 fnt
+  faint|p1a: Garganacl
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Dewgong|Dewgong, L94, F|322/322
+-- turn 13
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Chi-Yu|Fire Blast|p1a: Dewgong
+  -damage|p1a: Dewgong|214/322
+  move|p1a: Dewgong|Surf|p2a: Chi-Yu
+  -supereffective|p2a: Chi-Yu
+  -damage|p2a: Chi-Yu|0 fnt
+  faint|p2a: Chi-Yu
+  -weather|none
+  switch|p2a: Calyrex|Calyrex-Shadow, L64|100/100
+  -ability|p2a: Calyrex|As One
+  -ability|p2a: Calyrex|Unnerve
+-- turn 14
+  WE CHOSE: attack tripleaxel - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Calyrex|Astral Barrage|p1a: Dewgong
+  -damage|p1a: Dewgong|93/322
+  -damage|p2a: Calyrex|91/100|[from] item: Life Orb
+  move|p1a: Dewgong|Triple Axel|p2a: Calyrex
+  -damage|p2a: Calyrex|79/100
+  -damage|p2a: Calyrex|54/100
+  -damage|p2a: Calyrex|15/100
+  -hitcount|p2a: Calyrex|3
+-- turn 15
+  WE CHOSE: attack surf - our hp 0.29, theirs 0.15, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bellossom - our hp 0.00, theirs 0.06, predicted move (revealed) hits us x1
+  move|p2a: Calyrex|Astral Barrage|p1a: Dewgong
+  -damage|p1a: Dewgong|0 fnt
+  faint|p1a: Dewgong
+  -ability|p2a: Calyrex|Grim Neigh|boost
+  -boost|p2a: Calyrex|spa|1
+  -damage|p2a: Calyrex|6/100|[from] item: Life Orb
+  switch|p1a: Bellossom|Bellossom, L84, F|263/263
+-- turn 16
+  WE CHOSE: attack gigadrain - our hp 1.00, theirs 0.06, predicted move (revealed) hits us x1
+  move|p2a: Calyrex|Astral Barrage|p1a: Bellossom
+  -damage|p1a: Bellossom|68/263
+  -damage|p2a: Calyrex|0 fnt|[from] item: Life Orb
+  faint|p2a: Calyrex
+  move|p1a: Bellossom|Giga Drain|p2: Calyrex|[notarget]
+  -fail|p1a: Bellossom
+  -heal|p1a: Bellossom|84/263|[from] item: Leftovers
+  switch|p2a: Entei|Entei, L78|100/100
+-- turn 17
+  WE CHOSE: switch to breloom - our hp 0.32, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Breloom|Breloom, L83, M, tera:Rock|167/235
+  move|p2a: Entei|Flare Blitz|p1a: Breloom
+  -resisted|p1a: Breloom
+  -damage|p1a: Breloom|60/235
+  -damage|p2a: Entei|89/100|[from] Recoil
+-- turn 18
+  WE CHOSE: attack rocktomb - our hp 0.26, theirs 0.89, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to bellossom - our hp 0.00, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p2a: Entei|Flare Blitz|p1a: Breloom
+  -resisted|p1a: Breloom
+  -damage|p1a: Breloom|0 fnt
+  faint|p1a: Breloom
+  -damage|p2a: Entei|83/100|[from] Recoil
+  switch|p1a: Bellossom|Bellossom, L84, F|84/263
+-- turn 19
+  WE CHOSE: attack terablast - our hp 0.32, theirs 0.83, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to spidops - our hp 0.00, theirs 0.73, predicted move (revealed) hits us x2
+  move|p2a: Entei|Flare Blitz|p1a: Bellossom
+  -supereffective|p1a: Bellossom
+  -damage|p1a: Bellossom|0 fnt
+  faint|p1a: Bellossom
+  -damage|p2a: Entei|73/100|[from] Recoil
+  switch|p1a: Spidops|Spidops, L96, M|271/271
+-- turn 20
+  WE CHOSE: attack circlethrow - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x2
+  move|p2a: Entei|Flare Blitz|p1a: Spidops
+  -supereffective|p1a: Spidops
+  -damage|p1a: Spidops|0 fnt
+  faint|p1a: Spidops
+  -damage|p2a: Entei|44/100|[from] Recoil
+  deinit

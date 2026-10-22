@@ -1,0 +1,203 @@
+battle 208 (battle-gen9randombattle-2020623): lost in 19 turns, 1 of theirs left; we are p1
+
+ours:
+  staraptor (fainted; item choiceband, ability reckless, tera flying; moves closecombat/quickattack/doubleedge/bravebird)
+  flapple (fainted; item choiceband, ability hustle; moves uturn/gravapple/suckerpunch/outrage)
+  morpeko (fainted; item heavydutyboots, ability hungerswitch; moves protect/aurawheel/partingshot/rapidspin)
+  volbeat (fainted; item heavydutyboots, ability prankster; moves uturn/thunderwave/roost/encore)
+  abomasnow (fainted; item lightclay, ability snowwarning; moves blizzard/earthquake/auroraveil/woodhammer)
+  dunsparce (fainted; item eviolite, ability serenegrace; moves coil/earthquake/bodyslam/roost)
+theirs (as seen):
+  giratinaorigin (fainted; item unknown_item, ability levitate; moves dracometeor)
+  medicham (fainted; item unknown_item, ability ?; moves closecombat)
+  sandaconda (fainted; item leftovers, ability ?; moves earthquake)
+  emboar (fainted; item unknown_item, ability ?; moves closecombat)
+  farigiraf (fainted; item leftovers, ability ?; moves bodyslam)
+  ariados (56%; item unknown_item, ability ?; moves megahorn)
+
+-- turn 0
+  switch|p1a: Staraptor|Staraptor, L79, F|263/263
+  switch|p2a: Giratina|Giratina-Origin, L72|100/100
+-- turn 1
+  WE CHOSE: attack+tera bravebird - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to abomasnow - our hp 0.00, theirs 0.06, predicted move (revealed) hits us x1
+  -terastallize|p1a: Staraptor|Flying
+  move|p1a: Staraptor|Brave Bird|p2a: Giratina
+  -damage|p2a: Giratina|6/100
+  -damage|p1a: Staraptor|158/263|[from] Recoil
+  move|p2a: Giratina|Draco Meteor|p1a: Staraptor
+  -damage|p1a: Staraptor|0 fnt
+  -unboost|p2a: Giratina|spa|2
+  faint|p1a: Staraptor
+  switch|p1a: Abomasnow|Abomasnow, L84, F|287/287
+  -weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+-- turn 2
+  WE CHOSE: attack blizzard - our hp 1.00, theirs 0.06, predicted move (revealed) hits us x1
+  move|p2a: Giratina|Draco Meteor|p1a: Abomasnow
+  -damage|p1a: Abomasnow|211/287
+  -unboost|p2a: Giratina|spa|2
+  move|p1a: Abomasnow|Blizzard|p2a: Giratina
+  -supereffective|p2a: Giratina
+  -damage|p2a: Giratina|0 fnt
+  faint|p2a: Giratina
+  -weather|Snowscape|[upkeep]
+  switch|p2a: Medicham|Medicham, L86, M|100/100
+-- turn 3
+  WE CHOSE: switch to volbeat - our hp 0.74, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Volbeat|Volbeat, L90, M|263/263
+  move|p2a: Medicham|Close Combat|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|120/263
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  -weather|Snowscape|[upkeep]
+-- turn 4
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to flapple - our hp 0.46, theirs 0.52, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|U-turn|p2a: Medicham
+  -damage|p2a: Medicham|52/100
+  switch|p1a: Flapple|Flapple, L88, F|266/266|[from] U-turn
+  move|p2a: Medicham|Close Combat|p1a: Flapple
+  -damage|p1a: Flapple|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Flapple
+  -weather|Snowscape|[upkeep]
+  switch|p1a: Volbeat|Volbeat, L90, M|120/263
+-- turn 5
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 0.52, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to morpeko (hand policy: forced: switch to abomasnow) - our hp 0.46, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Medicham
+  -damage|p2a: Medicham|0 fnt
+  faint|p2a: Medicham
+  switch|p1a: Morpeko|Morpeko, L88, F|245/245|[from] U-turn
+  -weather|Snowscape|[upkeep]
+  -formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+  switch|p2a: Sandaconda|Sandaconda, L84, F|100/100
+-- turn 6
+  WE CHOSE: switch to abomasnow - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Abomasnow|Abomasnow, L84, F|211/287
+  move|p2a: Sandaconda|Earthquake|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|171/287
+  -weather|none
+-- turn 7
+  WE CHOSE: attack woodhammer - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Sandaconda|Earthquake|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|111/287
+  move|p1a: Abomasnow|Wood Hammer|p2a: Sandaconda
+  -supereffective|p2a: Sandaconda
+  -damage|p2a: Sandaconda|35/100
+  -damage|p1a: Abomasnow|55/287|[from] Recoil
+  -heal|p2a: Sandaconda|41/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack woodhammer - our hp 0.19, theirs 0.41, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 0.47, predicted move (revealed) hits us x0.5
+  move|p2a: Sandaconda|Earthquake|p1a: Abomasnow
+  -resisted|p1a: Abomasnow
+  -damage|p1a: Abomasnow|0 fnt
+  faint|p1a: Abomasnow
+  -heal|p2a: Sandaconda|47/100|[from] item: Leftovers
+  switch|p1a: Volbeat|Volbeat, L90, M|120/263
+-- turn 9
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.46, theirs 0.47, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dunsparce - our hp 0.46, theirs 0.26, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Sandaconda
+  -damage|p2a: Sandaconda|26/100
+  switch|p1a: Dunsparce|Dunsparce, L86, M|312/312|[from] U-turn
+  move|p2a: Sandaconda|Earthquake|p1a: Dunsparce
+  -damage|p1a: Dunsparce|228/312
+  -heal|p2a: Sandaconda|32/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack bodyslam - our hp 0.73, theirs 0.32, predicted move (revealed) hits us x1
+  move|p2a: Sandaconda|Earthquake|p1a: Dunsparce
+  -crit|p1a: Dunsparce
+  -damage|p1a: Dunsparce|95/312
+  move|p1a: Dunsparce|Body Slam|p2a: Sandaconda
+  -damage|p2a: Sandaconda|9/100
+  -heal|p2a: Sandaconda|16/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: heal roost - our hp 0.30, theirs 0.16, predicted move (revealed) hits us x1
+  move|p2a: Sandaconda|Earthquake|p1a: Dunsparce
+  -damage|p1a: Dunsparce|13/312
+  move|p1a: Dunsparce|Roost|p1a: Dunsparce
+  -heal|p1a: Dunsparce|169/312
+  -singleturn|p1a: Dunsparce|move: Roost
+  -heal|p2a: Sandaconda|22/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack bodyslam - our hp 0.54, theirs 0.22, predicted move (revealed) hits us x1
+  move|p2a: Sandaconda|Earthquake|p1a: Dunsparce
+  -damage|p1a: Dunsparce|78/312
+  move|p1a: Dunsparce|Body Slam|p2a: Sandaconda
+  -damage|p2a: Sandaconda|0 fnt
+  faint|p2a: Sandaconda
+  switch|p2a: Emboar|Emboar, L84, F|100/100
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Emboar|Close Combat|p1a: Dunsparce
+  -supereffective|p1a: Dunsparce
+  -damage|p1a: Dunsparce|0 fnt
+  -unboost|p2a: Emboar|def|1
+  -unboost|p2a: Emboar|spd|1
+  faint|p1a: Dunsparce
+  switch|p1a: Volbeat|Volbeat, L90, M|120/263
+-- turn 14
+  WE CHOSE: attack thunderwave (hand policy: heal roost) - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Thunder Wave|p2a: Emboar
+  -status|p2a: Emboar|par
+  move|p2a: Emboar|Close Combat|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|42/263
+  -unboost|p2a: Emboar|def|1
+  -unboost|p2a: Emboar|spd|1
+-- turn 15
+  WE CHOSE: attack encore (hand policy: heal roost) - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to morpeko - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|Encore|p2a: Emboar
+  -start|p2a: Emboar|Encore
+  move|p2a: Emboar|Close Combat|p1a: Volbeat
+  -resisted|p1a: Volbeat
+  -damage|p1a: Volbeat|0 fnt
+  -unboost|p2a: Emboar|def|1
+  -unboost|p2a: Emboar|spd|1
+  faint|p1a: Volbeat
+  switch|p1a: Morpeko|Morpeko, L88, F|245/245
+-- turn 16
+  WE CHOSE: attack aurawheel - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Morpeko|Aura Wheel|p2a: Emboar
+  -damage|p2a: Emboar|0 fnt
+  -boost|p1a: Morpeko|spe|1
+  faint|p2a: Emboar
+  -formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+  switch|p2a: Farigiraf|Farigiraf, L90, F|100/100
+-- turn 17
+  WE CHOSE: attack aurawheel - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Morpeko|Aura Wheel|p2a: Farigiraf
+  -supereffective|p2a: Farigiraf
+  -damage|p2a: Farigiraf|29/100
+  -boost|p1a: Morpeko|spe|1
+  move|p2a: Farigiraf|Body Slam|p1a: Morpeko
+  -damage|p1a: Morpeko|119/245
+  -heal|p2a: Farigiraf|35/100|[from] item: Leftovers
+  -formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+-- turn 18
+  WE CHOSE: attack aurawheel - our hp 0.49, theirs 0.35, predicted move (revealed) hits us x1
+  move|p1a: Morpeko|Aura Wheel|p2a: Farigiraf
+  -damage|p2a: Farigiraf|0 fnt
+  -boost|p1a: Morpeko|spe|1
+  faint|p2a: Farigiraf
+  -formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+  switch|p2a: Ariados|Ariados, L95, F|100/100
+-- turn 19
+  WE CHOSE: attack aurawheel - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Morpeko|Aura Wheel|p2a: Ariados
+  -damage|p2a: Ariados|56/100
+  -boost|p1a: Morpeko|spe|1
+  move|p2a: Ariados|Megahorn|p1a: Morpeko
+  -supereffective|p1a: Morpeko
+  -damage|p1a: Morpeko|0 fnt
+  faint|p1a: Morpeko
+  deinit

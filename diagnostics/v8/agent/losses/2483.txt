@@ -1,0 +1,272 @@
+battle 2483 (battle-gen9randombattle-2043915): lost in 30 turns, 1 of theirs left; we are p1
+
+ours:
+  porygon2 (fainted; item eviolite, ability download; moves recover/shadowball/thunderwave/terablast)
+  ludicolo (fainted; item choicespecs, ability swiftswim; moves hydropump/leafstorm/icebeam/gigadrain)
+  drednaw (fainted; item whiteherb, ability shellarmor; moves shellsmash/stoneedge/earthquake/liquidation)
+  cinccino (fainted; item loadeddice, ability technician; moves bulletseed/tailslap/tidyup/tripleaxel)
+  lurantis (fainted; item assaultvest, ability contrary, tera steel; moves leafstorm/superpower/leechlife/knockoff)
+  muk (fainted; item assaultvest, ability poisontouch; moves drainpunch/poisonjab/icepunch/knockoff)
+theirs (as seen):
+  deoxysattack (fainted; item lifeorb, ability pressure; moves sludgebomb/psychoboost)
+  zoroark (fainted; item ?, ability illusion; moves sludgebomb)
+  alcremiematchacream (fainted; item leftovers, ability ?; moves alluringvoice)
+  spiritomb (fainted; item leftovers, ability ?; moves poltergeist/foulplay)
+  carbink (fainted; item unknown_item, ability ?; moves moonblast)
+  excadrill (64%; item unknown_item, ability moldbreaker; moves earthquake)
+
+-- turn 0
+  switch|p1a: Porygon2|Porygon2, L81|270/270
+  switch|p2a: Deoxys|Deoxys-Attack, L72|100/100
+  -ability|p1a: Porygon2|Download|boost
+  -boost|p1a: Porygon2|spa|1
+-- turn 1
+  WE CHOSE: heal recover (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Deoxys|Sludge Bomb|p1a: Porygon2
+  -damage|p1a: Porygon2|197/270
+  move|p1a: Porygon2|Recover|p1a: Porygon2
+  -heal|p1a: Porygon2|270/270
+-- turn 2
+  WE CHOSE: switch to muk (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Muk|Muk, L86, M|321/321
+  move|p2a: Deoxys|Sludge Bomb|p1a: Muk
+  -resisted|p1a: Muk
+  -damage|p1a: Muk|285/321
+-- turn 3
+  WE CHOSE: attack knockoff - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Deoxys|Sludge Bomb|p1a: Muk
+  -resisted|p1a: Muk
+  -damage|p1a: Muk|253/321
+  move|p1a: Muk|Knock Off|p2a: Deoxys
+  -resisted|p2a: Deoxys
+  -damage|p2a: Deoxys|78/100
+  replace|p2a: Zoroark|Zoroark, L83, F
+  -end|p2a: Zoroark|Illusion
+  -enditem|p2a: Zoroark|Choice Specs|[from] move: Knock Off|[of] p1a: Muk
+-- turn 4
+  WE CHOSE: attack drainpunch - our hp 0.79, theirs 0.78, predicted move (guessed) hits us x0.5
+  move|p2a: Zoroark|Sludge Bomb|p1a: Muk
+  -resisted|p1a: Muk
+  -damage|p1a: Muk|229/321
+  move|p1a: Muk|Drain Punch|p2a: Zoroark
+  -supereffective|p2a: Zoroark
+  -damage|p2a: Zoroark|16/100
+  -heal|p1a: Muk|302/321|[from] drain|[of] p2a: Zoroark
+-- turn 5
+  WE CHOSE: attack drainpunch - our hp 0.94, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p2a: Zoroark|Sludge Bomb|p1a: Muk
+  -resisted|p1a: Muk
+  -damage|p1a: Muk|280/321
+  move|p1a: Muk|Drain Punch|p2a: Zoroark
+  -supereffective|p2a: Zoroark
+  -damage|p2a: Zoroark|0 fnt
+  -heal|p1a: Muk|299/321|[from] drain|[of] p2a: Zoroark
+  faint|p2a: Zoroark
+  switch|p2a: Alcremie|Alcremie-Matcha-Cream, L90, F|100/100
+-- turn 6
+  WE CHOSE: attack poisonjab - our hp 0.93, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Alcremie|Alluring Voice|p1a: Muk
+  -resisted|p1a: Muk
+  -damage|p1a: Muk|268/321
+  move|p1a: Muk|Poison Jab|p2a: Alcremie
+  -supereffective|p2a: Alcremie
+  -damage|p2a: Alcremie|22/100
+  -status|p2a: Alcremie|psn
+  -heal|p2a: Alcremie|28/100 psn|[from] item: Leftovers
+  -damage|p2a: Alcremie|16/100 psn|[from] psn
+-- turn 7
+  WE CHOSE: attack poisonjab - our hp 0.83, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p2a: Alcremie|Alluring Voice|p1a: Muk
+  -resisted|p1a: Muk
+  -damage|p1a: Muk|235/321
+  move|p1a: Muk|Poison Jab|p2a: Alcremie
+  -supereffective|p2a: Alcremie
+  -damage|p2a: Alcremie|0 fnt
+  faint|p2a: Alcremie
+  switch|p2a: Spiritomb|Spiritomb, L89, F|100/100
+-- turn 8
+  WE CHOSE: switch to porygon2 - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Porygon2|Porygon2, L81|270/270
+  -ability|p1a: Porygon2|Download|boost
+  -boost|p1a: Porygon2|spa|1
+  move|p2a: Spiritomb|Poltergeist|p1a: Porygon2
+  -immune|p1a: Porygon2
+-- turn 9
+  WE CHOSE: switch to ludicolo (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ludicolo|Ludicolo, L90, M|290/290
+  move|p2a: Spiritomb|Poltergeist|p1a: Ludicolo
+  -activate|p1a: Ludicolo|move: Poltergeist|Choice Specs
+  -damage|p1a: Ludicolo|152/290
+-- turn 10
+  WE CHOSE: switch to porygon2 - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Porygon2|Porygon2, L81|270/270
+  -ability|p1a: Porygon2|Download|boost
+  -boost|p1a: Porygon2|spa|1
+  move|p2a: Spiritomb|Poltergeist|p1a: Porygon2
+  -immune|p1a: Porygon2
+-- turn 11
+  WE CHOSE: switch to ludicolo (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Ludicolo|Ludicolo, L90, M|152/290
+  move|p2a: Spiritomb|Poltergeist|p1a: Ludicolo
+  -activate|p1a: Ludicolo|move: Poltergeist|Choice Specs
+  -damage|p1a: Ludicolo|14/290
+-- turn 12
+  WE CHOSE: switch to porygon2 - our hp 0.05, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Porygon2|Porygon2, L81|270/270
+  -ability|p1a: Porygon2|Download|boost
+  -boost|p1a: Porygon2|spa|1
+  move|p2a: Spiritomb|Poltergeist|p1a: Porygon2
+  -immune|p1a: Porygon2
+-- turn 13
+  WE CHOSE: switch to ludicolo (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to porygon2 - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Ludicolo|Ludicolo, L90, M|14/290
+  move|p2a: Spiritomb|Poltergeist|p1a: Ludicolo
+  -activate|p1a: Ludicolo|move: Poltergeist|Choice Specs
+  -damage|p1a: Ludicolo|0 fnt
+  faint|p1a: Ludicolo
+  switch|p1a: Porygon2|Porygon2, L81|270/270
+  -ability|p1a: Porygon2|Download|boost
+  -boost|p1a: Porygon2|spa|1
+-- turn 14
+  WE CHOSE: switch to lurantis (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Lurantis|Lurantis, L87, M|264/264
+  move|p2a: Spiritomb|Poltergeist|p1a: Lurantis
+  -activate|p1a: Lurantis|move: Poltergeist|Assault Vest
+  -damage|p1a: Lurantis|143/264
+-- turn 15
+  WE CHOSE: switch to porygon2 - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Porygon2|Porygon2, L81|270/270
+  -ability|p1a: Porygon2|Download|boost
+  -boost|p1a: Porygon2|spa|1
+  move|p2a: Spiritomb|Poltergeist|p1a: Porygon2
+  -immune|p1a: Porygon2
+-- turn 16
+  WE CHOSE: switch to lurantis (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Lurantis|Lurantis, L87, M|143/264
+  move|p2a: Spiritomb|Foul Play|p1a: Lurantis
+  -damage|p1a: Lurantis|31/264
+-- turn 17
+  WE CHOSE: switch to porygon2 - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Porygon2|Porygon2, L81|270/270
+  -ability|p1a: Porygon2|Download|boost
+  -boost|p1a: Porygon2|spa|1
+  move|p2a: Spiritomb|Foul Play|p1a: Porygon2
+  -damage|p1a: Porygon2|210/270
+-- turn 18
+  WE CHOSE: attack shadowball - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Porygon2|Shadow Ball|p2a: Spiritomb
+  -damage|p2a: Spiritomb|74/100
+  move|p2a: Spiritomb|Foul Play|p1a: Porygon2
+  -damage|p1a: Porygon2|149/270
+  -heal|p2a: Spiritomb|80/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack shadowball - our hp 0.55, theirs 0.80, predicted move (revealed) hits us x0
+  move|p1a: Porygon2|Shadow Ball|p2a: Spiritomb
+  -damage|p2a: Spiritomb|50/100
+  move|p2a: Spiritomb|Foul Play|p1a: Porygon2
+  -damage|p1a: Porygon2|85/270
+  -heal|p2a: Spiritomb|56/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack shadowball (hand policy: heal recover) - our hp 0.31, theirs 0.56, predicted move (revealed) hits us x0
+  move|p1a: Porygon2|Shadow Ball|p2a: Spiritomb
+  -damage|p2a: Spiritomb|28/100
+  -unboost|p2a: Spiritomb|spd|1
+  move|p2a: Spiritomb|Foul Play|p1a: Porygon2
+  -damage|p1a: Porygon2|21/270
+  -heal|p2a: Spiritomb|34/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack shadowball (hand policy: heal recover) - our hp 0.08, theirs 0.34, predicted move (revealed) hits us x0
+  move|p1a: Porygon2|Shadow Ball|p2a: Spiritomb
+  -damage|p2a: Spiritomb|0 fnt
+  faint|p2a: Spiritomb
+  switch|p2a: Carbink|Carbink, L90|100/100
+-- turn 22
+  WE CHOSE: attack thunderwave (hand policy: heal recover) - our hp 0.08, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to lurantis - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Porygon2|Thunder Wave|p2a: Carbink
+  -status|p2a: Carbink|par
+  move|p2a: Carbink|Moonblast|p1a: Porygon2
+  -damage|p1a: Porygon2|0 fnt
+  faint|p1a: Porygon2
+  switch|p1a: Lurantis|Lurantis, L87, M|31/264
+-- turn 23
+  WE CHOSE: attack+tera leafstorm - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Lurantis|Steel
+  move|p1a: Lurantis|Leaf Storm|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|32/100 par
+  -boost|p1a: Lurantis|spa|2
+  move|p2a: Carbink|Moonblast|p1a: Lurantis
+  -resisted|p1a: Lurantis
+  -damage|p1a: Lurantis|7/264
+-- turn 24
+  WE CHOSE: switch to drednaw (hand policy: attack leafstorm) - our hp 0.03, theirs 0.32, predicted move (revealed) hits us x0.5
+  switch|p1a: Drednaw|Drednaw, L81, M|278/278
+  move|p2a: Carbink|Moonblast|p1a: Drednaw
+  -damage|p1a: Drednaw|188/278
+-- turn 25
+  WE CHOSE: attack earthquake (hand policy: attack liquidation) - our hp 0.68, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Drednaw|Earthquake|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|0 fnt
+  faint|p2a: Carbink
+  switch|p2a: Deoxys|Deoxys-Attack, L72|100/100
+  -ability|p2a: Deoxys|Pressure
+-- turn 26
+  WE CHOSE: switch to lurantis (hand policy: setup shellsmash) - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to cinccino (hand policy: forced: switch to drednaw) - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  switch|p1a: Lurantis|Lurantis, L87, M, tera:Steel|7/264
+  move|p2a: Deoxys|Psycho Boost|p1a: Lurantis
+  -resisted|p1a: Lurantis
+  -damage|p1a: Lurantis|0 fnt
+  -unboost|p2a: Deoxys|spa|2
+  faint|p1a: Lurantis
+  -damage|p2a: Deoxys|91/100|[from] item: Life Orb
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+-- turn 27
+  WE CHOSE: attack tailslap - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Cinccino
+  -damage|p1a: Cinccino|118/260
+  -unboost|p2a: Deoxys|spa|2
+  -damage|p2a: Deoxys|81/100|[from] item: Life Orb
+  move|p1a: Cinccino|Tail Slap|p2a: Deoxys
+  -damage|p2a: Deoxys|25/100
+  -damage|p2a: Deoxys|0 fnt
+  faint|p2a: Deoxys
+  -hitcount|p2: Deoxys|2
+  switch|p2a: Excadrill|Excadrill, L79, M|100/100
+  -ability|p2a: Excadrill|Mold Breaker
+-- turn 28
+  WE CHOSE: attack tailslap (hand policy: attack tripleaxel) - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to drednaw - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Cinccino|Tail Slap|p2a: Excadrill
+  -resisted|p2a: Excadrill
+  -damage|p2a: Excadrill|93/100
+  -resisted|p2a: Excadrill
+  -damage|p2a: Excadrill|84/100
+  -resisted|p2a: Excadrill
+  -crit|p2a: Excadrill
+  -damage|p2a: Excadrill|72/100
+  -resisted|p2a: Excadrill
+  -damage|p2a: Excadrill|64/100
+  -hitcount|p2a: Excadrill|4
+  move|p2a: Excadrill|Earthquake|p1a: Cinccino
+  -damage|p1a: Cinccino|0 fnt
+  faint|p1a: Cinccino
+  switch|p1a: Drednaw|Drednaw, L81, M|188/278
+-- turn 29
+  WE CHOSE: attack liquidation - our hp 0.68, theirs 0.64, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to muk - our hp 0.00, theirs 0.64, predicted move (revealed) hits us x2
+  move|p2a: Excadrill|Earthquake|p1a: Drednaw
+  -supereffective|p1a: Drednaw
+  -damage|p1a: Drednaw|0 fnt
+  faint|p1a: Drednaw
+  switch|p1a: Muk|Muk, L86, M|235/321
+-- turn 30
+  WE CHOSE: attack drainpunch - our hp 0.73, theirs 0.64, predicted move (revealed) hits us x2
+  move|p2a: Excadrill|Earthquake|p1a: Muk
+  -supereffective|p1a: Muk
+  -damage|p1a: Muk|0 fnt
+  faint|p1a: Muk
+  deinit

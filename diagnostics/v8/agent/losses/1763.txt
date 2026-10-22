@@ -1,0 +1,135 @@
+battle 1763 (battle-gen9randombattle-2036581): lost in 13 turns, 2 of theirs left; we are p1
+
+ours:
+  smeargle (fainted; item ?, ability owntempo; moves stealthrock/ceaselessedge/stickyweb/spore)
+  barraskewda (fainted; item choiceband, ability swiftswim; moves throatchop/closecombat/flipturn/waterfall)
+  lycanrocdusk (fainted; item choiceband, ability toughclaws, tera fighting; moves closecombat/stoneedge/accelerock/psychicfangs)
+  lunala (fainted; item leftovers, ability shadowshield; moves psyshock/moonlight/moongeistbeam/calmmind)
+  greninja (fainted; item lifeorb, ability protean; moves gunkshot/icebeam/hydropump/spikes)
+  wigglytuff (fainted; item leftovers, ability competitive; moves thunderwave/protect/wish/dazzlinggleam)
+theirs (as seen):
+  sunflora (fainted; item lifeorb, ability ?; moves solarbeam)
+  palafin (fainted; item unknown_item, ability zerotohero; moves -)
+  glaceon (fainted; item unknown_item, ability ?; moves freezedry)
+  ampharos (fainted; item unknown_item, ability ?; moves focusblast)
+  pikachuhoenn (7%; item unknown_item, ability ?; moves volttackle)
+
+-- turn 0
+  switch|p1a: Smeargle|Smeargle, L95, M|258/258
+  switch|p2a: Sunflora|Sunflora, F|100/100
+-- turn 1
+  WE CHOSE: switch to lunala (hand policy: attack ceaselessedge) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Lunala|Lunala, L70|308/308
+  move|p2a: Sunflora|Solar Beam||[still]
+  -prepare|p2a: Sunflora|Solar Beam
+-- turn 2
+  WE CHOSE: attack psyshock - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Lunala|Psyshock|p2a: Sunflora
+  -damage|p2a: Sunflora|72/100
+  move|p2a: Sunflora|Solar Beam|p1a: Lunala|[from] lockedmove
+  -damage|p1a: Lunala|175/308
+  -damage|p2a: Sunflora|62/100|[from] item: Life Orb
+  -heal|p1a: Lunala|194/308|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack moongeistbeam (hand policy: attack psyshock) - our hp 0.63, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Lunala|Moongeist Beam|p2a: Sunflora
+  -damage|p2a: Sunflora|36/100
+  move|p2a: Sunflora|Solar Beam||[still]
+  -prepare|p2a: Sunflora|Solar Beam
+  -heal|p1a: Lunala|213/308|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack psyshock - our hp 0.69, theirs 0.36, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lycanrocdusk (hand policy: forced: switch to wigglytuff) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Lunala|Psyshock|p2a: Sunflora
+  -damage|p2a: Sunflora|9/100
+  move|p2a: Sunflora|Solar Beam|p1a: Lunala|[from] lockedmove
+  -damage|p1a: Lunala|0 fnt
+  faint|p1a: Lunala
+  -damage|p2a: Sunflora|0 fnt|[from] item: Life Orb
+  faint|p2a: Sunflora
+  switch|p1a: Lycanroc|Lycanroc-Dusk, L81, M|254/254
+  switch|p2a: Palafin|Palafin, L77, M|100/100
+-- turn 5
+  WE CHOSE: attack+tera closecombat (hand policy: attack+tera stoneedge) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Lycanroc|Fighting
+  move|p1a: Lycanroc|Close Combat|p2a: Palafin
+  -damage|p2a: Palafin|0 fnt
+  -unboost|p1a: Lycanroc|def|1
+  -unboost|p1a: Lycanroc|spd|1
+  faint|p2a: Palafin
+  switch|p2a: Glaceon|Glaceon, L94, F|100/100
+-- turn 6
+  WE CHOSE: switch to barraskewda (hand policy: attack closecombat) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to greninja (hand policy: forced: switch to lycanrocdusk) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Barraskewda|Barraskewda, L81, M|231/231
+  move|p2a: Glaceon|Freeze-Dry|p1a: Barraskewda
+  -supereffective|p1a: Barraskewda
+  -damage|p1a: Barraskewda|0 fnt
+  faint|p1a: Barraskewda
+  switch|p1a: Greninja|Greninja, L80, M|246/246
+-- turn 7
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to lycanrocdusk - our hp 0.00, theirs 0.55, predicted move (revealed) hits us x0.5
+  move|p1a: Greninja|Hydro Pump|p2a: Glaceon
+  -start|p1a: Greninja|typechange|Water|[from] ability: Protean
+  -damage|p2a: Glaceon|55/100
+  -damage|p1a: Greninja|222/246|[from] item: Life Orb
+  move|p2a: Glaceon|Freeze-Dry|p1a: Greninja
+  -supereffective|p1a: Greninja
+  -damage|p1a: Greninja|0 fnt
+  faint|p1a: Greninja
+  switch|p1a: Lycanroc|Lycanroc-Dusk, L81, M, tera:Fighting|254/254
+-- turn 8
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Lycanroc|Close Combat|p2a: Glaceon
+  -supereffective|p2a: Glaceon
+  -damage|p2a: Glaceon|0 fnt
+  -unboost|p1a: Lycanroc|def|1
+  -unboost|p1a: Lycanroc|spd|1
+  faint|p2a: Glaceon
+  switch|p2a: Ampharos|Ampharos, L88, F|100/100
+-- turn 9
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to wigglytuff - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Lycanroc|Close Combat|p2a: Ampharos
+  -damage|p2a: Ampharos|13/100
+  -unboost|p1a: Lycanroc|def|1
+  -unboost|p1a: Lycanroc|spd|1
+  move|p2a: Ampharos|Focus Blast|p1a: Lycanroc
+  -damage|p1a: Lycanroc|0 fnt
+  faint|p1a: Lycanroc
+  switch|p1a: Wigglytuff|Wigglytuff, L96, M|424/424
+-- turn 10
+  WE CHOSE: attack dazzlinggleam - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Ampharos|Focus Blast|p1a: Wigglytuff
+  -damage|p1a: Wigglytuff|217/424
+  move|p1a: Wigglytuff|Dazzling Gleam|p2a: Ampharos
+  -damage|p2a: Ampharos|0 fnt
+  faint|p2a: Ampharos
+  -heal|p1a: Wigglytuff|243/424|[from] item: Leftovers
+  switch|p2a: Pikachu|Pikachu-Hoenn, L93, F|100/100
+-- turn 11
+  WE CHOSE: attack dazzlinggleam - our hp 0.57, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to smeargle - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Pikachu|Volt Tackle|p1a: Wigglytuff
+  -damage|p1a: Wigglytuff|0 fnt
+  faint|p1a: Wigglytuff
+  -damage|p2a: Pikachu|63/100|[from] Recoil
+  switch|p1a: Smeargle|Smeargle, L95, M|258/258
+-- turn 12
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Pikachu|Volt Tackle|p1a: Smeargle
+  -crit|p1a: Smeargle
+  -enditem|p1a: Smeargle|Focus Sash
+  -damage|p1a: Smeargle|1/258
+  -damage|p2a: Pikachu|24/100|[from] Recoil
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Pikachu
+  -damage|p2a: Pikachu|8/100
+  -sidestart|p2: e2_035157|Spikes
+-- turn 13
+  WE CHOSE: attack stickyweb (hand policy: attack ceaselessedge) - our hp 0.00, theirs 0.08, predicted move (revealed) hits us x1
+  move|p2a: Pikachu|Volt Tackle|p1a: Smeargle
+  -damage|p1a: Smeargle|0 fnt
+  faint|p1a: Smeargle
+  -damage|p2a: Pikachu|7/100|[from] Recoil
+  deinit

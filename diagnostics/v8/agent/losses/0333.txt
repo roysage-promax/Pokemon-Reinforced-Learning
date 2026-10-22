@@ -1,0 +1,195 @@
+battle 333 (battle-gen9randombattle-2021884): lost in 17 turns, 2 of theirs left; we are p1
+
+ours:
+  rhyperior (fainted; item ?, ability solidrock, tera bug; moves earthquake/stoneedge/megahorn/rockpolish)
+  vileplume (fainted; item leftovers, ability effectspore; moves gigadrain/sleeppowder/strengthsap/sludgebomb)
+  passimian (fainted; item choiceband, ability defiant; moves closecombat/uturn/knockoff/rockslide)
+  galvantula (fainted; item heavydutyboots, ability compoundeyes; moves thunder/voltswitch/bugbuzz/stickyweb)
+  rillaboom (fainted; item lifeorb, ability grassysurge; moves swordsdance/grassyglide/knockoff/woodhammer)
+  deoxysspeed (fainted; item lifeorb, ability pressure; moves nastyplot/darkpulse/psychoboost/focusblast)
+theirs (as seen):
+  ironvaliant (fainted; item lifeorb, ability quarkdrive; moves closecombat)
+  spectrier (fainted; item ?, ability grimneigh; moves terablast)
+  koraidon (fainted; item unknown_item, ability orichalcumpulse; moves flareblitz)
+  goodra (fainted; item unknown_item, ability ?; moves dracometeor)
+  porygonz (55%; item lifeorb, ability download; moves icebeam)
+
+-- turn 0
+  switch|p1a: Rhyperior|Rhyperior, L82, M|323/323
+  switch|p2a: Iron Valiant|Iron Valiant, L78|100/100
+-- turn 1
+  WE CHOSE: attack+tera earthquake (hand policy: switch to deoxysspeed) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Rhyperior|Bug
+  move|p2a: Iron Valiant|Close Combat|p1a: Rhyperior
+  -resisted|p1a: Rhyperior
+  -damage|p1a: Rhyperior|249/323
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+  move|p1a: Rhyperior|Earthquake|p2a: Iron Valiant
+  -damage|p2a: Iron Valiant|10/100
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 0.77, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Valiant|Close Combat|p1a: Rhyperior
+  -resisted|p1a: Rhyperior
+  -damage|p1a: Rhyperior|178/323
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|0 fnt|[from] item: Life Orb
+  faint|p2a: Iron Valiant
+  -end|p2a: Iron Valiant|Quark Drive|[silent]
+  move|p1a: Rhyperior|Earthquake|p2: Iron Valiant|[notarget]
+  -fail|p1a: Rhyperior
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+-- turn 3
+  WE CHOSE: switch to passimian (hand policy: attack earthquake) - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Passimian|Passimian, L83, M|302/302
+  move|p2a: Spectrier|Tera Blast|p1a: Passimian
+  -damage|p1a: Passimian|193/302
+  -damage|p2a: Spectrier|91/100|[from] item: Life Orb
+-- turn 4
+  WE CHOSE: attack knockoff - our hp 0.64, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Tera Blast|p1a: Passimian
+  -damage|p1a: Passimian|86/302
+  -damage|p2a: Spectrier|81/100|[from] item: Life Orb
+  move|p1a: Passimian|Knock Off|p2a: Spectrier
+  -supereffective|p2a: Spectrier
+  -damage|p2a: Spectrier|0 fnt
+  -enditem|p2a: Spectrier|Life Orb|[from] move: Knock Off|[of] p1a: Passimian
+  faint|p2a: Spectrier
+  switch|p2a: Koraidon|Koraidon, L64|100/100
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+  -activate|p2a: Koraidon|Orichalcum Pulse|[source]
+-- turn 5
+  WE CHOSE: switch to deoxysspeed (hand policy: attack knockoff) - our hp 0.28, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Deoxys|Deoxys-Speed, L82|216/216
+  -ability|p1a: Deoxys|Pressure
+  move|p2a: Koraidon|Flare Blitz|p1a: Deoxys
+  -damage|p1a: Deoxys|94/216
+  -damage|p2a: Koraidon|83/100|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+-- turn 6
+  WE CHOSE: attack psychoboost - our hp 0.44, theirs 0.83, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to passimian - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Koraidon|[miss]
+  -miss|p1a: Deoxys|p2a: Koraidon
+  move|p2a: Koraidon|Flare Blitz|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  faint|p1a: Deoxys
+  -damage|p2a: Koraidon|70/100|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Passimian|Passimian, L83, M|86/302
+-- turn 7
+  WE CHOSE: attack closecombat - our hp 0.28, theirs 0.70, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rillaboom (hand policy: forced: switch to rhyperior) - our hp 0.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Koraidon|Flare Blitz|p1a: Passimian
+  -damage|p1a: Passimian|0 fnt
+  faint|p1a: Passimian
+  -damage|p2a: Koraidon|58/100|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Rillaboom|Rillaboom, L79, M|288/288
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+-- turn 8
+  WE CHOSE: attack woodhammer - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to rhyperior - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x2
+  move|p2a: Koraidon|Flare Blitz|p1a: Rillaboom
+  -supereffective|p1a: Rillaboom
+  -damage|p1a: Rillaboom|0 fnt
+  faint|p1a: Rillaboom
+  -damage|p2a: Koraidon|18/100|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Koraidon|24/100|[from] Grassy Terrain
+  switch|p1a: Rhyperior|Rhyperior, L82, M, tera:Bug|178/323
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.55, theirs 0.24, predicted move (revealed) hits us x2
+  move|p2a: Koraidon|Flare Blitz|p1a: Rhyperior
+  -supereffective|p1a: Rhyperior
+  -damage|p1a: Rhyperior|31/323
+  -enditem|p1a: Rhyperior|Weakness Policy
+  -boost|p1a: Rhyperior|atk|2|[from] item: Weakness Policy
+  -boost|p1a: Rhyperior|spa|2|[from] item: Weakness Policy
+  -damage|p2a: Koraidon|3/100|[from] Recoil
+  move|p1a: Rhyperior|Earthquake|p2a: Koraidon
+  -damage|p2a: Koraidon|0 fnt
+  faint|p2a: Koraidon
+  -weather|none
+  -heal|p1a: Rhyperior|51/323|[from] Grassy Terrain
+  switch|p2a: Goodra|Goodra, L85, F|100/100
+-- turn 10
+  WE CHOSE: switch to vileplume (hand policy: attack megahorn) - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Vileplume|Vileplume, L85, F|266/266
+  move|p2a: Goodra|Draco Meteor|p1a: Vileplume
+  -damage|p1a: Vileplume|112/266
+  -unboost|p2a: Goodra|spa|2
+  -heal|p1a: Vileplume|128/266|[from] Grassy Terrain
+  -heal|p1a: Vileplume|144/266|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack sludgebomb - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Goodra|Draco Meteor|p1a: Vileplume
+  -damage|p1a: Vileplume|66/266
+  -unboost|p2a: Goodra|spa|2
+  move|p1a: Vileplume|Sludge Bomb|p2a: Goodra
+  -damage|p2a: Goodra|86/100
+  -status|p2a: Goodra|psn
+  -heal|p2a: Goodra|92/100 psn|[from] Grassy Terrain
+  -heal|p1a: Vileplume|82/266|[from] Grassy Terrain
+  -heal|p1a: Vileplume|98/266|[from] item: Leftovers
+  -damage|p2a: Goodra|80/100 psn|[from] psn
+-- turn 12
+  WE CHOSE: attack sludgebomb (hand policy: heal strengthsap) - our hp 0.37, theirs 0.80, predicted move (revealed) hits us x1
+  move|p2a: Goodra|Draco Meteor|p1a: Vileplume
+  -damage|p1a: Vileplume|44/266
+  -unboost|p2a: Goodra|spa|2
+  move|p1a: Vileplume|Sludge Bomb|p2a: Goodra
+  -damage|p2a: Goodra|63/100 psn
+  -heal|p2a: Goodra|69/100 psn|[from] Grassy Terrain
+  -heal|p1a: Vileplume|60/266|[from] Grassy Terrain
+  -heal|p1a: Vileplume|76/266|[from] item: Leftovers
+  -damage|p2a: Goodra|57/100 psn|[from] psn
+  -fieldend|move: Grassy Terrain
+-- turn 13
+  WE CHOSE: attack sludgebomb (hand policy: heal strengthsap) - our hp 0.29, theirs 0.57, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rhyperior - our hp 0.00, theirs 0.44, predicted move (revealed) hits us x1
+  move|p2a: Goodra|Draco Meteor|p1a: Vileplume
+  -crit|p1a: Vileplume
+  -damage|p1a: Vileplume|0 fnt
+  faint|p1a: Vileplume
+  -damage|p2a: Goodra|44/100 psn|[from] psn
+  switch|p1a: Rhyperior|Rhyperior, L82, M, tera:Bug|51/323
+-- turn 14
+  WE CHOSE: attack stoneedge (hand policy: attack megahorn) - our hp 0.16, theirs 0.44, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to galvantula - our hp 0.00, theirs 0.32, predicted move (revealed) hits us x1
+  move|p2a: Goodra|Draco Meteor|p1a: Rhyperior
+  -damage|p1a: Rhyperior|0 fnt
+  faint|p1a: Rhyperior
+  -damage|p2a: Goodra|32/100 psn|[from] psn
+  switch|p1a: Galvantula|Galvantula, L82, M|249/249
+-- turn 15
+  WE CHOSE: attack voltswitch (hand policy: attack bugbuzz) - our hp 1.00, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Galvantula|Volt Switch|p2a: Goodra
+  -resisted|p2a: Goodra
+  -damage|p2a: Goodra|27/100 psn
+  move|p2a: Goodra|Draco Meteor|p1a: Galvantula
+  -damage|p1a: Galvantula|197/249
+  -damage|p2a: Goodra|15/100 psn|[from] psn
+-- turn 16
+  WE CHOSE: attack voltswitch (hand policy: attack bugbuzz) - our hp 0.79, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Galvantula|Volt Switch|p2a: Goodra
+  -resisted|p2a: Goodra
+  -damage|p2a: Goodra|9/100 psn
+  move|p2a: Goodra|Draco Meteor|p1a: Galvantula
+  -damage|p1a: Galvantula|142/249
+  -damage|p2a: Goodra|0 fnt|[from] psn
+  faint|p2a: Goodra
+  switch|p2a: Porygon-Z|Porygon-Z, L83|100/100
+  -ability|p2a: Porygon-Z|Download|boost
+  -boost|p2a: Porygon-Z|spa|1
+-- turn 17
+  WE CHOSE: attack bugbuzz - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Galvantula|Bug Buzz|p2a: Porygon-Z
+  -damage|p2a: Porygon-Z|65/100
+  move|p2a: Porygon-Z|Ice Beam|p1a: Galvantula
+  -damage|p1a: Galvantula|0 fnt
+  faint|p1a: Galvantula
+  -damage|p2a: Porygon-Z|55/100|[from] item: Life Orb
+  deinit

@@ -1,0 +1,210 @@
+battle 2635 (battle-gen9randombattle-2043261): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  terapagosterastal (fainted; item heavydutyboots, ability terashell; moves calmmind/darkpulse/rapidspin/terastarstorm)
+  toxapex (fainted; item rockyhelmet, ability regenerator; moves haze/recover/toxicspikes/liquidation)
+  kricketune (fainted; item heavydutyboots, ability technician; moves stickyweb/taunt/knockoff/pounce)
+  luxray (fainted; item assaultvest, ability intimidate; moves wildcharge/throatchop/voltswitch/playrough)
+  meowsticf (fainted; item lifeorb, ability competitive; moves darkpulse/thunderbolt/nastyplot/psychic)
+  froslass (fainted; item widelens, ability cursedbody; moves poltergeist/tripleaxel/spikes/taunt)
+theirs (as seen):
+  pincurchin (fainted; item leftovers, ability ?; moves thunderbolt)
+  arceusdragon (fainted; item unknown_item, ability multitype; moves outrage)
+  solgaleo (fainted; item ?, ability fullmetalbody; moves earthquake)
+  sawsbucksummer (fainted; item lifeorb, ability ?; moves highhorsepower)
+  chandelure (fainted; item unknown_item, ability ?; moves fireblast)
+  meowscarada (34%; item unknown_item, ability ?; moves flowertrick)
+
+-- turn 0
+  switch|p1a: Terapagos|Terapagos, L77, M|265/265
+  switch|p2a: Pincurchin|Pincurchin, M|100/100
+  -activate|p1a: Terapagos|ability: Tera Shift
+  detailschange|p1a: Terapagos|Terapagos-Terastal, L77, M
+  -heal|p1a: Terapagos|273/273|[silent]
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+-- turn 1
+  WE CHOSE: attack terastarstorm - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Terapagos|Tera Starstorm|p2a: Pincurchin
+  -damage|p2a: Pincurchin|61/100
+  move|p2a: Pincurchin|Thunderbolt|p1a: Terapagos
+  -activate|p1a: Terapagos|ability: Tera Shell
+  -resisted|p1a: Terapagos
+  -damage|p1a: Terapagos|190/273
+  -heal|p2a: Pincurchin|67/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack terastarstorm - our hp 0.70, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Terapagos|Tera Starstorm|p2a: Pincurchin
+  -damage|p2a: Pincurchin|31/100
+  move|p2a: Pincurchin|Thunderbolt|p1a: Terapagos
+  -damage|p1a: Terapagos|43/273
+  -heal|p2a: Pincurchin|37/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack terastarstorm - our hp 0.16, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Terapagos|Tera Starstorm|p2a: Pincurchin
+  -damage|p2a: Pincurchin|0 fnt
+  faint|p2a: Pincurchin
+  switch|p2a: Arceus|Arceus-Dragon, L71|100/100
+-- turn 4
+  WE CHOSE: attack terastarstorm - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to luxray - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Outrage|p1a: Terapagos
+  -damage|p1a: Terapagos|0 fnt
+  faint|p1a: Terapagos
+  switch|p1a: Luxray|Luxray, L88, F|284/284
+  -ability|p1a: Luxray|Intimidate|boost
+  -unboost|p2a: Arceus|atk|1
+-- turn 5
+  WE CHOSE: attack playrough - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arceus|Outrage|p1a: Luxray|[from] lockedmove
+  -damage|p1a: Luxray|199/284
+  -start|p2a: Arceus|confusion|[fatigue]
+  move|p1a: Luxray|Play Rough|p2a: Arceus|[miss]
+  -miss|p1a: Luxray|p2a: Arceus
+  -fieldend|move: Electric Terrain
+-- turn 6
+  WE CHOSE: attack playrough - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x1
+  -activate|p2a: Arceus|confusion
+  move|p2a: Arceus|Outrage|p1a: Luxray
+  -damage|p1a: Luxray|106/284
+  move|p1a: Luxray|Play Rough|p2a: Arceus
+  -supereffective|p2a: Arceus
+  -crit|p2a: Arceus
+  -damage|p2a: Arceus|17/100
+-- turn 7
+  WE CHOSE: attack playrough - our hp 0.37, theirs 0.17, predicted move (revealed) hits us x1
+  -activate|p2a: Arceus|confusion
+  move|p2a: Arceus|Outrage|p1a: Luxray|[from] lockedmove
+  -damage|p1a: Luxray|15/284
+  move|p1a: Luxray|Play Rough|p2a: Arceus
+  -supereffective|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  switch|p2a: Solgaleo|Solgaleo, L74|100/100
+-- turn 8
+  WE CHOSE: switch to froslass - our hp 0.05, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Froslass|Froslass, L87, F|263/263
+  move|p2a: Solgaleo|Earthquake|p1a: Froslass
+  -damage|p1a: Froslass|183/263
+-- turn 9
+  WE CHOSE: attack poltergeist - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Froslass|Poltergeist|p2a: Solgaleo
+  -activate|p2a: Solgaleo|move: Poltergeist|Weakness Policy
+  -supereffective|p2a: Solgaleo
+  -damage|p2a: Solgaleo|37/100
+  -enditem|p2a: Solgaleo|Weakness Policy
+  -boost|p2a: Solgaleo|atk|2|[from] item: Weakness Policy
+  -boost|p2a: Solgaleo|spa|2|[from] item: Weakness Policy
+  move|p2a: Solgaleo|Earthquake|p1a: Froslass
+  -damage|p1a: Froslass|6/263
+-- turn 10
+  WE CHOSE: attack poltergeist - our hp 0.02, theirs 0.37, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kricketune - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Froslass|Poltergeist||[still]
+  -fail|p1a: Froslass
+  move|p2a: Solgaleo|Earthquake|p1a: Froslass
+  -damage|p1a: Froslass|0 fnt
+  faint|p1a: Froslass
+  switch|p1a: Kricketune|Kricketune, L99, M|312/312
+-- turn 11
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p2a: Solgaleo|Earthquake|p1a: Kricketune
+  -resisted|p1a: Kricketune
+  -damage|p1a: Kricketune|227/312
+  move|p1a: Kricketune|Knock Off|p2a: Solgaleo
+  -supereffective|p2a: Solgaleo
+  -damage|p2a: Solgaleo|1/100
+-- turn 12
+  WE CHOSE: attack knockoff - our hp 0.73, theirs 0.01, predicted move (revealed) hits us x0.5
+  move|p2a: Solgaleo|Earthquake|p1a: Kricketune
+  -resisted|p1a: Kricketune
+  -damage|p1a: Kricketune|141/312
+  move|p1a: Kricketune|Knock Off|p2a: Solgaleo
+  -supereffective|p2a: Solgaleo
+  -damage|p2a: Solgaleo|0 fnt
+  faint|p2a: Solgaleo
+  switch|p2a: Sawsbuck|Sawsbuck-Summer, L88, F|100/100
+-- turn 13
+  WE CHOSE: attack pounce - our hp 0.45, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Sawsbuck|High Horsepower|p1a: Kricketune
+  -resisted|p1a: Kricketune
+  -damage|p1a: Kricketune|83/312
+  -damage|p2a: Sawsbuck|91/100|[from] item: Life Orb
+  move|p1a: Kricketune|Pounce|p2a: Sawsbuck
+  -supereffective|p2a: Sawsbuck
+  -damage|p2a: Sawsbuck|5/100
+  -unboost|p2a: Sawsbuck|spe|1
+-- turn 14
+  WE CHOSE: attack pounce - our hp 0.27, theirs 0.05, predicted move (revealed) hits us x0.5
+  move|p1a: Kricketune|Pounce|p2a: Sawsbuck
+  -supereffective|p2a: Sawsbuck
+  -damage|p2a: Sawsbuck|0 fnt
+  faint|p2a: Sawsbuck
+  switch|p2a: Chandelure|Chandelure, L83, M|100/100
+-- turn 15
+  WE CHOSE: switch to toxapex - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Toxapex|Toxapex, L82, M|216/216
+  move|p2a: Chandelure|Fire Blast|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|162/216
+-- turn 16
+  WE CHOSE: attack liquidation - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Chandelure|Fire Blast|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|109/216
+  move|p1a: Toxapex|Liquidation|p2a: Chandelure
+  -supereffective|p2a: Chandelure
+  -damage|p2a: Chandelure|49/100
+-- turn 17
+  WE CHOSE: attack liquidation - our hp 0.50, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Chandelure|Fire Blast|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|54/216
+  move|p1a: Toxapex|Liquidation|p2a: Chandelure
+  -supereffective|p2a: Chandelure
+  -damage|p2a: Chandelure|0 fnt
+  -status|p1a: Toxapex|brn|[from] ability: Flame Body|[of] p2a: Chandelure
+  faint|p2a: Chandelure
+  -damage|p1a: Toxapex|41/216 brn|[from] brn
+  switch|p2a: Meowscarada|Meowscarada, L78, M|100/100
+-- turn 18
+  WE CHOSE: heal recover - our hp 0.19, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to kricketune - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meowscarada|Flower Trick|p1a: Toxapex
+  -start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+  -crit|p1a: Toxapex
+  -damage|p1a: Toxapex|0 fnt
+  faint|p1a: Toxapex
+  switch|p1a: Kricketune|Kricketune, L99, M|83/312
+-- turn 19
+  WE CHOSE: attack pounce - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to meowsticf - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Meowscarada|Flower Trick|p1a: Kricketune
+  -resisted|p1a: Kricketune
+  -crit|p1a: Kricketune
+  -damage|p1a: Kricketune|0 fnt
+  faint|p1a: Kricketune
+  switch|p1a: Meowstic|Meowstic-F, L89, F|277/277
+-- turn 20
+  WE CHOSE: attack psychic - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meowscarada|Flower Trick|p1a: Meowstic
+  -crit|p1a: Meowstic
+  -damage|p1a: Meowstic|111/277
+  move|p1a: Meowstic|Psychic|p2a: Meowscarada
+  -damage|p2a: Meowscarada|34/100
+  -damage|p1a: Meowstic|84/277|[from] item: Life Orb
+-- turn 21
+  WE CHOSE: attack psychic - our hp 0.30, theirs 0.34, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to luxray - our hp 0.00, theirs 0.34, predicted move (revealed) hits us x1
+  move|p2a: Meowscarada|Flower Trick|p1a: Meowstic
+  -crit|p1a: Meowstic
+  -damage|p1a: Meowstic|0 fnt
+  faint|p1a: Meowstic
+  switch|p1a: Luxray|Luxray, L88, F|15/284
+  -ability|p1a: Luxray|Intimidate|boost
+  -unboost|p2a: Meowscarada|atk|1
+-- turn 22
+  WE CHOSE: attack playrough - our hp 0.05, theirs 0.34, predicted move (revealed) hits us x1
+  move|p2a: Meowscarada|Flower Trick|p1a: Luxray
+  -crit|p1a: Luxray
+  -damage|p1a: Luxray|0 fnt
+  faint|p1a: Luxray

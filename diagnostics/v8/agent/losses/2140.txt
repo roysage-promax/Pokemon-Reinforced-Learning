@@ -1,0 +1,183 @@
+battle 2140 (battle-gen9randombattle-2040434): lost in 19 turns, 1 of theirs left; we are p1
+
+ours:
+  conkeldurr (fainted; item flameorb, ability guts; moves knockoff/closecombat/machpunch/facade)
+  cyclizar (fainted; item heavydutyboots, ability regenerator; moves rapidspin/knockoff/dracometeor/shedtail)
+  greedent (fainted; item ?, ability cheekpouch; moves doubleedge/swordsdance/earthquake/knockoff)
+  zekrom (fainted; item leftovers, ability teravolt; moves substitute/dragondance/outrage/boltstrike)
+  feraligatr (fainted; item lifeorb, ability sheerforce; moves liquidation/icepunch/crunch/dragondance)
+  revavroom (fainted; item lifeorb, ability filter, tera ground; moves highhorsepower/ironhead/shiftgear/gunkshot)
+theirs (as seen):
+  terrakion (fainted; item unknown_item, ability justified; moves closecombat)
+  delphox (fainted; item unknown_item, ability ?; moves focusblast)
+  hariyama (fainted; item unknown_item, ability ?; moves closecombat)
+  slaking (fainted; item unknown_item, ability truant; moves gigaimpact)
+  irontreads (fainted; item unknown_item, ability quarkdrive; moves earthquake)
+  ludicolo (5%; item lifeorb, ability ?; moves hydropump)
+
+-- turn 0
+  switch|p1a: Conkeldurr|Conkeldurr, L80, M|299/299
+  switch|p2a: Terrakion|Terrakion, L79|100/100
+-- turn 1
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Terrakion|Close Combat|p1a: Conkeldurr
+  -damage|p1a: Conkeldurr|80/299
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  move|p1a: Conkeldurr|Close Combat|p2a: Terrakion
+  -supereffective|p2a: Terrakion
+  -damage|p2a: Terrakion|0 fnt
+  -unboost|p1a: Conkeldurr|def|1
+  -unboost|p1a: Conkeldurr|spd|1
+  faint|p2a: Terrakion
+  -status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+  switch|p2a: Delphox|Delphox, L84, M|100/100
+-- turn 2
+  WE CHOSE: switch to feraligatr (hand policy: attack knockoff) - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Feraligatr|Feraligatr, L79, M|264/264
+  move|p2a: Delphox|Focus Blast|p1a: Feraligatr
+  -damage|p1a: Feraligatr|94/264
+-- turn 3
+  WE CHOSE: attack liquidation - our hp 0.36, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to revavroom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Delphox|Focus Blast|p1a: Feraligatr
+  -damage|p1a: Feraligatr|0 fnt
+  faint|p1a: Feraligatr
+  switch|p1a: Revavroom|Revavroom, L79, F|256/256
+-- turn 4
+  WE CHOSE: attack+tera highhorsepower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Revavroom|Ground
+  move|p2a: Delphox|Focus Blast|p1a: Revavroom
+  -damage|p1a: Revavroom|85/256
+  move|p1a: Revavroom|High Horsepower|p2a: Delphox
+  -supereffective|p2a: Delphox
+  -damage|p2a: Delphox|0 fnt
+  faint|p2a: Delphox
+  -damage|p1a: Revavroom|60/256|[from] item: Life Orb
+  switch|p2a: Hariyama|Hariyama, L87, F|100/100
+-- turn 5
+  WE CHOSE: attack gunkshot - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to conkeldurr - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Revavroom|Gunk Shot|p2a: Hariyama
+  -damage|p2a: Hariyama|46/100
+  -damage|p1a: Revavroom|35/256|[from] item: Life Orb
+  move|p2a: Hariyama|Close Combat|p1a: Revavroom
+  -damage|p1a: Revavroom|0 fnt
+  -unboost|p2a: Hariyama|def|1
+  -unboost|p2a: Hariyama|spd|1
+  faint|p1a: Revavroom
+  switch|p1a: Conkeldurr|Conkeldurr, L80, M|80/299 brn
+-- turn 6
+  WE CHOSE: attack closecombat - our hp 0.27, theirs 0.46, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to zekrom - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Hariyama|Close Combat|p1a: Conkeldurr
+  -damage|p1a: Conkeldurr|0 fnt
+  -unboost|p2a: Hariyama|def|1
+  -unboost|p2a: Hariyama|spd|1
+  faint|p1a: Conkeldurr
+  switch|p1a: Zekrom|Zekrom, L71|259/259
+  -ability|p1a: Zekrom|Teravolt
+-- turn 7
+  WE CHOSE: attack outrage - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Zekrom|Outrage|p2a: Hariyama
+  -damage|p2a: Hariyama|0 fnt
+  faint|p2a: Hariyama
+  switch|p2a: Slaking|Slaking, L84, F|100/100
+-- turn 8
+  WE CHOSE: attack outrage - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Zekrom
+  -damage|p1a: Zekrom|51/259
+  -mustrecharge|p2a: Slaking
+  move|p1a: Zekrom|Outrage|p2a: Slaking|[from] lockedmove
+  -damage|p2a: Slaking|71/100
+  -start|p1a: Zekrom|confusion|[fatigue]
+  -heal|p1a: Zekrom|67/259|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack outrage - our hp 0.26, theirs 0.71, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  -activate|p1a: Zekrom|confusion
+  move|p1a: Zekrom|Outrage|p2a: Slaking
+  -damage|p2a: Slaking|40/100
+  -heal|p1a: Zekrom|83/259|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack outrage - our hp 0.32, theirs 0.40, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to greedent - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Zekrom
+  -damage|p1a: Zekrom|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Zekrom
+  switch|p1a: Greedent|Greedent, L86, F|347/347
+-- turn 11
+  WE CHOSE: setup swordsdance (hand policy: attack doubleedge) - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Greedent|Swords Dance|p1a: Greedent
+  -boost|p1a: Greedent|atk|2
+-- turn 12
+  WE CHOSE: attack earthquake (hand policy: attack doubleedge) - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Greedent
+  -damage|p1a: Greedent|139/347
+  -mustrecharge|p2a: Slaking
+  -enditem|p1a: Greedent|Sitrus Berry|[eat]
+  -heal|p1a: Greedent|225/347|[from] item: Sitrus Berry
+  -heal|p1a: Greedent|340/347|[from] ability: Cheek Pouch
+  move|p1a: Greedent|Earthquake|p2a: Slaking
+  -damage|p2a: Slaking|4/100
+-- turn 13
+  WE CHOSE: attack earthquake (hand policy: attack doubleedge) - our hp 0.98, theirs 0.04, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Greedent|Earthquake|p2a: Slaking
+  -damage|p2a: Slaking|0 fnt
+  faint|p2a: Slaking
+  switch|p2a: Iron Treads|Iron Treads, L77|100/100
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 0.98, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Iron Treads|Earthquake|p1a: Greedent
+  -damage|p1a: Greedent|241/347
+  move|p1a: Greedent|Earthquake|p2a: Iron Treads
+  -supereffective|p2a: Iron Treads
+  -damage|p2a: Iron Treads|1/100
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.69, theirs 0.01, predicted move (revealed) hits us x1
+  move|p2a: Iron Treads|Earthquake|p1a: Greedent
+  -damage|p1a: Greedent|147/347
+  move|p1a: Greedent|Earthquake|p2a: Iron Treads
+  -supereffective|p2a: Iron Treads
+  -damage|p2a: Iron Treads|0 fnt
+  faint|p2a: Iron Treads
+  -end|p2a: Iron Treads|Quark Drive|[silent]
+  switch|p2a: Ludicolo|Ludicolo, L90, F|100/100
+-- turn 16
+  WE CHOSE: switch to cyclizar (hand policy: attack doubleedge) - our hp 0.42, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Cyclizar|Cyclizar, L84, M|255/255
+  move|p2a: Ludicolo|Hydro Pump|p1a: Cyclizar
+  -resisted|p1a: Cyclizar
+  -damage|p1a: Cyclizar|150/255
+  -damage|p2a: Ludicolo|90/100|[from] item: Life Orb
+-- turn 17
+  WE CHOSE: attack dracometeor - our hp 0.59, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p1a: Cyclizar|Draco Meteor|p2a: Ludicolo
+  -damage|p2a: Ludicolo|54/100
+  -unboost|p1a: Cyclizar|spa|2
+  move|p2a: Ludicolo|Hydro Pump|p1a: Cyclizar
+  -resisted|p1a: Cyclizar
+  -damage|p1a: Cyclizar|41/255
+  -damage|p2a: Ludicolo|44/100|[from] item: Life Orb
+-- turn 18
+  WE CHOSE: attack rapidspin - our hp 0.16, theirs 0.44, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to greedent - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p1a: Cyclizar|Rapid Spin|p2a: Ludicolo
+  -damage|p2a: Ludicolo|25/100
+  -boost|p1a: Cyclizar|spe|1
+  move|p2a: Ludicolo|Hydro Pump|p1a: Cyclizar
+  -resisted|p1a: Cyclizar
+  -damage|p1a: Cyclizar|0 fnt
+  faint|p1a: Cyclizar
+  -damage|p2a: Ludicolo|15/100|[from] item: Life Orb
+  switch|p1a: Greedent|Greedent, L86, F|147/347
+-- turn 19
+  WE CHOSE: attack doubleedge - our hp 0.42, theirs 0.15, predicted move (revealed) hits us x1
+  move|p2a: Ludicolo|Hydro Pump|p1a: Greedent
+  -damage|p1a: Greedent|0 fnt
+  faint|p1a: Greedent
+  -damage|p2a: Ludicolo|5/100|[from] item: Life Orb
+  deinit

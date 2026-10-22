@@ -1,0 +1,318 @@
+battle 675 (battle-gen9randombattle-2025383): lost in 39 turns, 3 of theirs left; we are p1
+
+ours:
+  registeel (fainted; item leftovers, ability clearbody; moves thunderwave/stealthrock/ironhead/bodypress)
+  bronzong (fainted; item leftovers, ability levitate, tera water; moves hypnosis/earthquake/psychicnoise/ironhead)
+  hitmonchan (fainted; item leftovers, ability ironfist; moves taunt/rapidspin/drainpunch/knockoff)
+  raichu (fainted; item lifeorb, ability lightningrod; moves focusblast/thunderbolt/nastyplot/terablast)
+  kyurem (fainted; item heavydutyboots, ability pressure; moves outrage/freezedry/dracometeor/earthpower)
+  chansey (fainted; item eviolite, ability naturalcure; moves seismictoss/healbell/thunderwave/softboiled)
+theirs (as seen):
+  gougingfire (fainted; item unknown_item, ability protosynthesis; moves outrage)
+  swalot (fainted; item unknown_item, ability ?; moves gunkshot/earthquake)
+  froslass (fainted; item unknown_item, ability ?; moves poltergeist/tripleaxel)
+  sinistchamasterpiece (30%; item leftovers, ability ?; moves shadowball)
+
+-- turn 0
+  switch|p1a: Registeel|Registeel, L81|262/262
+  switch|p2a: Gouging Fire|Gouging Fire, L74|100/100
+-- turn 1
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Gouging Fire|Outrage|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|222/262
+  move|p1a: Registeel|Body Press|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|76/100
+  -heal|p1a: Registeel|238/262|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack bodypress - our hp 0.91, theirs 0.76, predicted move (revealed) hits us x0.5
+  move|p2a: Gouging Fire|Outrage|p1a: Registeel|[from] lockedmove
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|199/262
+  -start|p2a: Gouging Fire|confusion|[fatigue]
+  move|p1a: Registeel|Body Press|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|51/100
+  -heal|p1a: Registeel|215/262|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack bodypress - our hp 0.82, theirs 0.51, predicted move (revealed) hits us x0.5
+  -activate|p2a: Gouging Fire|confusion
+  -damage|p2a: Gouging Fire|42/100|[from] confusion
+  move|p1a: Registeel|Body Press|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|19/100
+  -heal|p1a: Registeel|231/262|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack bodypress - our hp 0.88, theirs 0.19, predicted move (revealed) hits us x0.5
+  -activate|p2a: Gouging Fire|confusion
+  -damage|p2a: Gouging Fire|11/100|[from] confusion
+  move|p1a: Registeel|Body Press|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|0 fnt
+  faint|p2a: Gouging Fire
+  -end|p2a: Gouging Fire|Protosynthesis|[silent]
+  -heal|p1a: Registeel|247/262|[from] item: Leftovers
+  switch|p2a: Swalot|Swalot, L90, F|100/100
+-- turn 5
+  WE CHOSE: switch to bronzong (hand policy: attack ironhead) - our hp 0.94, theirs 1.00, predicted move (guessed) hits us x0
+  switch|p1a: Bronzong|Bronzong, L88|261/261
+  move|p2a: Swalot|Gunk Shot|p1a: Bronzong
+  -immune|p1a: Bronzong
+-- turn 6
+  WE CHOSE: switch to registeel (hand policy: attack psychicnoise) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Registeel|Registeel, L81|247/262
+  move|p2a: Swalot|Gunk Shot|p1a: Registeel
+  -immune|p1a: Registeel
+  -heal|p1a: Registeel|262/262|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: switch to bronzong (hand policy: attack ironhead) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Bronzong|Bronzong, L88|261/261
+  move|p2a: Swalot|Gunk Shot|p1a: Bronzong
+  -immune|p1a: Bronzong
+-- turn 8
+  WE CHOSE: switch to registeel (hand policy: attack psychicnoise) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Registeel|Registeel, L81|262/262
+  move|p2a: Swalot|Gunk Shot|p1a: Registeel
+  -immune|p1a: Registeel
+-- turn 9
+  WE CHOSE: switch to bronzong (hand policy: attack ironhead) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Bronzong|Bronzong, L88|261/261
+  move|p2a: Swalot|Gunk Shot|p1a: Bronzong
+  -immune|p1a: Bronzong
+-- turn 10
+  WE CHOSE: switch to registeel (hand policy: attack psychicnoise) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Registeel|Registeel, L81|262/262
+  move|p2a: Swalot|Gunk Shot|p1a: Registeel
+  -immune|p1a: Registeel
+-- turn 11
+  WE CHOSE: switch to bronzong (hand policy: attack ironhead) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Bronzong|Bronzong, L88|261/261
+  move|p2a: Swalot|Gunk Shot|p1a: Bronzong
+  -immune|p1a: Bronzong
+-- turn 12
+  WE CHOSE: switch to registeel (hand policy: attack psychicnoise) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Registeel|Registeel, L81|262/262
+  move|p2a: Swalot|Gunk Shot|p1a: Registeel
+  -immune|p1a: Registeel
+-- turn 13
+  WE CHOSE: switch to bronzong (hand policy: attack ironhead) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Bronzong|Bronzong, L88|261/261
+  move|p2a: Swalot|Earthquake|p1a: Bronzong
+  -immune|p1a: Bronzong|[from] ability: Levitate
+-- turn 14
+  WE CHOSE: switch to registeel (hand policy: attack psychicnoise) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Registeel|Registeel, L81|262/262
+  move|p2a: Swalot|Earthquake|p1a: Registeel
+  -supereffective|p1a: Registeel
+  -damage|p1a: Registeel|170/262
+  -heal|p1a: Registeel|186/262|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: switch to bronzong (hand policy: attack ironhead) - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Bronzong|Bronzong, L88|261/261
+  move|p2a: Swalot|Earthquake|p1a: Bronzong
+  -immune|p1a: Bronzong|[from] ability: Levitate
+-- turn 16
+  WE CHOSE: attack psychicnoise - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Swalot|Earthquake|p1a: Bronzong
+  -immune|p1a: Bronzong|[from] ability: Levitate
+  move|p1a: Bronzong|Psychic Noise|p2a: Swalot
+  -supereffective|p2a: Swalot
+  -damage|p2a: Swalot|56/100
+  -start|p2a: Swalot|move: Heal Block
+-- turn 17
+  WE CHOSE: attack psychicnoise - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x0
+  move|p2a: Swalot|Earthquake|p1a: Bronzong
+  -immune|p1a: Bronzong|[from] ability: Levitate
+  move|p1a: Bronzong|Psychic Noise|p2a: Swalot
+  -supereffective|p2a: Swalot
+  -damage|p2a: Swalot|8/100
+  -end|p2a: Swalot|move: Heal Block
+-- turn 18
+  WE CHOSE: attack psychicnoise - our hp 1.00, theirs 0.08, predicted move (revealed) hits us x0
+  move|p2a: Swalot|Earthquake|p1a: Bronzong
+  -immune|p1a: Bronzong|[from] ability: Levitate
+  move|p1a: Bronzong|Psychic Noise|p2a: Swalot
+  -supereffective|p2a: Swalot
+  -damage|p2a: Swalot|0 fnt
+  faint|p2a: Swalot
+  switch|p2a: Froslass|Froslass, L87, F|100/100
+-- turn 19
+  WE CHOSE: switch to chansey - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Froslass|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 20
+  WE CHOSE: switch to registeel (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Registeel|Registeel, L81|186/262
+  move|p2a: Froslass|Poltergeist|p1a: Registeel
+  -activate|p1a: Registeel|move: Poltergeist|Leftovers
+  -damage|p1a: Registeel|114/262
+  -heal|p1a: Registeel|130/262|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: switch to chansey - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Froslass|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 22
+  WE CHOSE: switch to registeel (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Registeel|Registeel, L81|130/262
+  move|p2a: Froslass|Poltergeist|p1a: Registeel
+  -activate|p1a: Registeel|move: Poltergeist|Leftovers
+  -damage|p1a: Registeel|55/262
+  -heal|p1a: Registeel|71/262|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: switch to chansey - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Froslass|Poltergeist|p1a: Chansey
+  -immune|p1a: Chansey
+-- turn 24
+  WE CHOSE: switch to registeel (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to chansey (hand policy: forced: switch to kyurem) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Registeel|Registeel, L81|71/262
+  move|p2a: Froslass|Poltergeist|p1a: Registeel
+  -activate|p1a: Registeel|move: Poltergeist|Leftovers
+  -damage|p1a: Registeel|0 fnt
+  faint|p1a: Registeel
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+-- turn 25
+  WE CHOSE: switch to kyurem (hand policy: attack seismictoss) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Kyurem|Kyurem, L77|319/319
+  -ability|p1a: Kyurem|Pressure
+  move|p2a: Froslass|Poltergeist|p1a: Kyurem
+  -activate|p1a: Kyurem|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Kyurem|198/319
+-- turn 26
+  WE CHOSE: switch to chansey - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+  move|p2a: Froslass|Triple Axel|p1a: Chansey
+  -damage|p1a: Chansey|513/564
+  -damage|p1a: Chansey|420/564
+  -damage|p1a: Chansey|285/564
+  -hitcount|p1a: Chansey|3
+-- turn 27
+  WE CHOSE: switch to kyurem (hand policy: attack seismictoss) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Kyurem|Kyurem, L77|198/319
+  -ability|p1a: Kyurem|Pressure
+  move|p2a: Froslass|Triple Axel|p1a: Kyurem
+  -damage|p1a: Kyurem|179/319
+  -damage|p1a: Kyurem|136/319
+  -damage|p1a: Kyurem|70/319
+  -hitcount|p1a: Kyurem|3
+-- turn 28
+  WE CHOSE: switch to chansey - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Chansey|Chansey, L85, F|285/564
+  move|p2a: Froslass|Triple Axel|p1a: Chansey
+  -damage|p1a: Chansey|237/564
+  -damage|p1a: Chansey|140/564
+  -damage|p1a: Chansey|4/564
+  -hitcount|p1a: Chansey|3
+-- turn 29
+  WE CHOSE: switch to kyurem (hand policy: heal softboiled) - our hp 0.01, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to chansey - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Kyurem|Kyurem, L77|70/319
+  -ability|p1a: Kyurem|Pressure
+  move|p2a: Froslass|Triple Axel|p1a: Kyurem
+  -damage|p1a: Kyurem|51/319
+  -damage|p1a: Kyurem|8/319
+  -damage|p1a: Kyurem|0 fnt
+  faint|p1a: Kyurem
+  -hitcount|p1: Kyurem|3
+  switch|p1a: Chansey|Chansey, L85, F|4/564
+-- turn 30
+  WE CHOSE: switch to raichu (hand policy: heal softboiled) - our hp 0.01, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Raichu|Raichu, L88, M|249/249
+  move|p2a: Froslass|Triple Axel|p1a: Raichu
+  -damage|p1a: Raichu|221/249
+  -damage|p1a: Raichu|167/249
+  -damage|p1a: Raichu|94/249
+  -hitcount|p1a: Raichu|3
+-- turn 31
+  WE CHOSE: switch to chansey - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to raichu - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Chansey|Chansey, L85, F|4/564
+  move|p2a: Froslass|Triple Axel|p1a: Chansey
+  -damage|p1a: Chansey|0 fnt
+  faint|p1a: Chansey
+  -hitcount|p1: Chansey|1
+  switch|p1a: Raichu|Raichu, L88, M|94/249
+-- turn 32
+  WE CHOSE: attack thunderbolt - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hitmonchan - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Raichu|Thunderbolt|p2a: Froslass
+  -crit|p2a: Froslass
+  -damage|p2a: Froslass|13/100
+  -start|p1a: Raichu|Disable|Thunderbolt|[from] ability: Cursed Body|[of] p2a: Froslass
+  -damage|p1a: Raichu|70/249|[from] item: Life Orb
+  move|p2a: Froslass|Triple Axel|p1a: Raichu
+  -damage|p1a: Raichu|43/249
+  -damage|p1a: Raichu|0 fnt
+  faint|p1a: Raichu
+  -hitcount|p1: Raichu|2
+  switch|p1a: Hitmonchan|Hitmonchan, L87, M|229/229
+-- turn 33
+  WE CHOSE: switch to hitmonchan (hand policy: attack knockoff) - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Froslass|Triple Axel|p1a: Hitmonchan
+  -damage|p1a: Hitmonchan|207/229
+  -damage|p1a: Hitmonchan|165/229
+  -damage|p1a: Hitmonchan|105/229
+  -hitcount|p1a: Hitmonchan|3
+  move|p1a: Hitmonchan|Taunt|p2a: Froslass
+  -start|p2a: Froslass|move: Taunt
+  -heal|p1a: Hitmonchan|119/229|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: switch to hitmonchan (hand policy: attack knockoff) - our hp 0.52, theirs 0.13, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bronzong - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Froslass|Triple Axel|p1a: Hitmonchan
+  -damage|p1a: Hitmonchan|98/229
+  -damage|p1a: Hitmonchan|58/229
+  -damage|p1a: Hitmonchan|0 fnt
+  faint|p1a: Hitmonchan
+  -hitcount|p1: Hitmonchan|3
+  switch|p1a: Bronzong|Bronzong, L88|261/261
+-- turn 35
+  WE CHOSE: attack+tera ironhead (hand policy: attack ironhead) - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x2
+  -terastallize|p1a: Bronzong|Water
+  move|p2a: Froslass|Triple Axel|p1a: Bronzong
+  -resisted|p1a: Bronzong
+  -damage|p1a: Bronzong|254/261
+  -resisted|p1a: Bronzong
+  -damage|p1a: Bronzong|238/261
+  -resisted|p1a: Bronzong
+  -damage|p1a: Bronzong|213/261
+  -hitcount|p1a: Bronzong|3
+  move|p1a: Bronzong|Iron Head|p2a: Froslass
+  -supereffective|p2a: Froslass
+  -damage|p2a: Froslass|0 fnt
+  -start|p1a: Bronzong|Disable|Iron Head|[from] ability: Cursed Body|[of] p2a: Froslass
+  faint|p2a: Froslass
+  -heal|p1a: Bronzong|229/261|[from] item: Leftovers
+  switch|p2a: Sinistcha|Sinistcha-Masterpiece, L83|100/100
+-- turn 36
+  WE CHOSE: attack earthquake (hand policy: attack psychicnoise) - our hp 0.88, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Sinistcha|Shadow Ball|p1a: Bronzong
+  -damage|p1a: Bronzong|157/261
+  move|p1a: Bronzong|Earthquake|p2a: Sinistcha
+  -resisted|p2a: Sinistcha
+  -damage|p2a: Sinistcha|88/100
+  -heal|p2a: Sinistcha|94/100|[from] item: Leftovers
+  -heal|p1a: Bronzong|173/261|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: attack psychicnoise - our hp 0.66, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Sinistcha|Shadow Ball|p1a: Bronzong
+  -damage|p1a: Bronzong|95/261
+  move|p1a: Bronzong|Psychic Noise|p2a: Sinistcha
+  -damage|p2a: Sinistcha|60/100
+  -start|p2a: Sinistcha|move: Heal Block
+  -heal|p1a: Bronzong|111/261|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: attack psychicnoise - our hp 0.43, theirs 0.60, predicted move (revealed) hits us x1
+  move|p2a: Sinistcha|Shadow Ball|p1a: Bronzong
+  -damage|p1a: Bronzong|36/261
+  move|p1a: Bronzong|Psychic Noise|p2a: Sinistcha
+  -damage|p2a: Sinistcha|30/100
+  -heal|p1a: Bronzong|52/261|[from] item: Leftovers
+  -end|p1a: Bronzong|Disable
+  -end|p2a: Sinistcha|move: Heal Block
+-- turn 39
+  WE CHOSE: attack ironhead - our hp 0.20, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Sinistcha|Shadow Ball|p1a: Bronzong
+  -damage|p1a: Bronzong|0 fnt
+  faint|p1a: Bronzong
+  deinit

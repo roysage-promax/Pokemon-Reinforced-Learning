@@ -1,0 +1,167 @@
+battle 982 (battle-gen9randombattle-2027678): lost in 17 turns, 3 of theirs left; we are p1
+
+ours:
+  arceusrock (fainted; item stoneplate, ability multitype, tera ground; moves stoneedge/recover/earthquake/swordsdance)
+  zebstrika (fainted; item lifeorb, ability sapsipper; moves supercellslam/voltswitch/overheat/highhorsepower)
+  hatterene (fainted; item leftovers, ability magicbounce; moves psyshock/mysticalfire/calmmind/drainingkiss)
+  golduck (fainted; item leftovers, ability cloudnine; moves nastyplot/grassknot/icebeam/hydropump)
+  porygon2 (fainted; item eviolite, ability download; moves recover/triattack/icebeam/discharge)
+  glimmora (fainted; item ?, ability toxicdebris; moves sludgewave/meteorbeam/earthpower/energyball)
+theirs (as seen):
+  lanturn (fainted; item unknown_item, ability ?; moves thunderbolt)
+  mimikyu (fainted; item lifeorb, ability disguise; moves playrough)
+  tinglu (fainted; item leftovers, ability vesselofruin; moves earthquake)
+  heracross (21%; item unknown_item, ability moxie; moves megahorn)
+
+-- turn 0
+  switch|p1a: Arceus|Arceus-Rock, L74|300/300
+  switch|p2a: Lanturn|Lanturn, L89, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Arceus|Ground
+  move|p1a: Arceus|Earthquake|p2a: Lanturn
+  -supereffective|p2a: Lanturn
+  -damage|p2a: Lanturn|35/100
+  move|p2a: Lanturn|Thunderbolt|p1a: Arceus
+  -immune|p1a: Arceus
+-- turn 2
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x0
+  move|p1a: Arceus|Swords Dance|p1a: Arceus
+  -boost|p1a: Arceus|atk|2
+  move|p2a: Lanturn|Thunderbolt|p1a: Arceus
+  -immune|p1a: Arceus
+-- turn 3
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x0
+  move|p1a: Arceus|Swords Dance|p1a: Arceus
+  -boost|p1a: Arceus|atk|2
+  move|p2a: Lanturn|Thunderbolt|p1a: Arceus
+  -immune|p1a: Arceus
+-- turn 4
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x0
+  move|p1a: Arceus|Swords Dance|p1a: Arceus
+  -boost|p1a: Arceus|atk|2
+  move|p2a: Lanturn|Thunderbolt|p1a: Arceus
+  -immune|p1a: Arceus
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x0
+  move|p1a: Arceus|Earthquake|p2a: Lanturn
+  -supereffective|p2a: Lanturn
+  -damage|p2a: Lanturn|0 fnt
+  faint|p2a: Lanturn
+  switch|p2a: Mimikyu|Mimikyu, L79, M|100/100
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Arceus|Earthquake|p2a: Mimikyu
+  -activate|p2a: Mimikyu|ability: Disguise
+  -damage|p2a: Mimikyu|100/100
+  detailschange|p2a: Mimikyu|Mimikyu-Busted, L79, M
+  -damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+  move|p2a: Mimikyu|Play Rough|p1a: Arceus
+  -damage|p1a: Arceus|206/300
+  -damage|p2a: Mimikyu|78/100|[from] item: Life Orb
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.69, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Earthquake|p2a: Mimikyu
+  -damage|p2a: Mimikyu|0 fnt
+  faint|p2a: Mimikyu
+  switch|p2a: Ting-Lu|Ting-Lu, L78|100/100
+  -ability|p2a: Ting-Lu|Vessel of Ruin
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Arceus|Earthquake|p2a: Ting-Lu
+  -damage|p2a: Ting-Lu|19/100
+  move|p2a: Ting-Lu|Earthquake|p1a: Arceus
+  -damage|p1a: Arceus|112/300
+  -heal|p2a: Ting-Lu|26/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: heal recover - our hp 0.37, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|262/300
+  move|p2a: Ting-Lu|Earthquake|p1a: Arceus
+  -damage|p1a: Arceus|169/300
+  -heal|p2a: Ting-Lu|32/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.56, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Earthquake|p2a: Ting-Lu
+  -damage|p2a: Ting-Lu|0 fnt
+  faint|p2a: Ting-Lu
+  switch|p2a: Heracross|Heracross, L80, M|100/100
+-- turn 11
+  WE CHOSE: attack stoneedge - our hp 0.56, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hatterene - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Stone Edge|p2a: Heracross|[miss]
+  -miss|p1a: Arceus|p2a: Heracross
+  move|p2a: Heracross|Megahorn|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  faint|p1a: Arceus
+  -ability|p2a: Heracross|Moxie|boost
+  -boost|p2a: Heracross|atk|1
+  switch|p1a: Hatterene|Hatterene, L85, F|236/236
+-- turn 12
+  WE CHOSE: attack psyshock - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to glimmora - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Heracross|Megahorn|p1a: Hatterene
+  -damage|p1a: Hatterene|0 fnt
+  faint|p1a: Hatterene
+  -ability|p2a: Heracross|Moxie|boost
+  -boost|p2a: Heracross|atk|1
+  switch|p1a: Glimmora|Glimmora, L75, F|248/248
+-- turn 13
+  WE CHOSE: attack meteorbeam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heracross|Megahorn|p1a: Glimmora
+  -resisted|p1a: Glimmora
+  -damage|p1a: Glimmora|33/248
+  -activate|p1a: Glimmora|ability: Toxic Debris
+  -sidestart|p2: e2_035154|move: Toxic Spikes
+  move|p1a: Glimmora|Meteor Beam||[still]
+  -prepare|p1a: Glimmora|Meteor Beam
+  -boost|p1a: Glimmora|spa|1
+  -enditem|p1a: Glimmora|Power Herb
+  -anim|p1a: Glimmora|Meteor Beam|p2a: Heracross|[miss]
+  -miss|p1a: Glimmora|p2a: Heracross
+-- turn 14
+  WE CHOSE: attack sludgewave - our hp 0.13, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to zebstrika - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Heracross|Megahorn|p1a: Glimmora
+  -resisted|p1a: Glimmora
+  -damage|p1a: Glimmora|0 fnt
+  -activate|p1a: Glimmora|ability: Toxic Debris
+  -sidestart|p2: e2_035154|move: Toxic Spikes
+  faint|p1a: Glimmora
+  -ability|p2a: Heracross|Moxie|boost
+  -boost|p2a: Heracross|atk|1
+  switch|p1a: Zebstrika|Zebstrika, L87, M|272/272
+-- turn 15
+  WE CHOSE: attack overheat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to golduck - our hp 0.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p1a: Zebstrika|Overheat|p2a: Heracross
+  -supereffective|p2a: Heracross
+  -damage|p2a: Heracross|21/100
+  -unboost|p1a: Zebstrika|spa|2
+  -damage|p1a: Zebstrika|245/272|[from] item: Life Orb
+  move|p2a: Heracross|Megahorn|p1a: Zebstrika
+  -damage|p1a: Zebstrika|0 fnt
+  faint|p1a: Zebstrika
+  -ability|p2a: Heracross|Moxie|boost
+  -boost|p2a: Heracross|atk|1
+  switch|p1a: Golduck|Golduck, L90, F|290/290
+  -ability|p1a: Golduck|Cloud Nine
+-- turn 16
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to porygon2 - our hp 0.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p1a: Golduck|Hydro Pump|p2a: Heracross|[miss]
+  -miss|p1a: Golduck|p2a: Heracross
+  move|p2a: Heracross|Megahorn|p1a: Golduck
+  -damage|p1a: Golduck|0 fnt
+  faint|p1a: Golduck
+  -ability|p2a: Heracross|Moxie|boost
+  -boost|p2a: Heracross|atk|1
+  switch|p1a: Porygon2|Porygon2, L81|270/270
+  -ability|p1a: Porygon2|Download|boost
+  -boost|p1a: Porygon2|atk|1
+-- turn 17
+  WE CHOSE: attack triattack - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Heracross|Megahorn|p1a: Porygon2
+  -damage|p1a: Porygon2|0 fnt
+  faint|p1a: Porygon2
+  deinit

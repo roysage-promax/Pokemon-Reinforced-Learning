@@ -1,0 +1,186 @@
+battle 2558 (battle-gen9randombattle-2044698): lost in 19 turns, 2 of theirs left; we are p1
+
+ours:
+  sudowoodo (fainted; item leftovers, ability rockhead, tera rock; moves stealthrock/headsmash/earthquake/woodhammer)
+  glimmora (fainted; item ?, ability toxicdebris; moves powergem/sludgewave/earthpower/spikes)
+  weezing (fainted; item leftovers, ability levitate; moves gunkshot/willowisp/fireblast/painsplit)
+  lokix (fainted; item lifeorb, ability tintedlens; moves suckerpunch/knockoff/firstimpression/leechlife)
+  gurdurr (fainted; item eviolite, ability guts; moves drainpunch/bulkup/knockoff/machpunch)
+  spidops (fainted; item heavydutyboots, ability stakeout; moves stickyweb/uturn/circlethrow/knockoff)
+theirs (as seen):
+  raikou (fainted; item unknown_item, ability pressure; moves thunderbolt)
+  meowstic (fainted; item leftovers, ability ?; moves alluringvoice)
+  feraligatr (fainted; item ?, ability ?; moves liquidation)
+  luxray (fainted; item ?, ability ?; moves supercellslam)
+  arbok (91%; item lifeorb, ability intimidate; moves gunkshot)
+
+-- turn 0
+  switch|p1a: Sudowoodo|Sudowoodo, L94, F|284/284
+  switch|p2a: Raikou|Raikou, L81|100/100
+  -ability|p2a: Raikou|Pressure
+-- turn 1
+  WE CHOSE: attack+tera headsmash (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Sudowoodo|Rock
+  move|p2a: Raikou|Thunderbolt|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|167/284
+  move|p1a: Sudowoodo|Head Smash|p2a: Raikou
+  -damage|p2a: Raikou|0 fnt
+  faint|p2a: Raikou
+  -heal|p1a: Sudowoodo|184/284|[from] item: Leftovers
+  switch|p2a: Meowstic|Meowstic, L89, M|100/100
+-- turn 2
+  WE CHOSE: switch to weezing (hand policy: attack headsmash) - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Weezing|Weezing, L88, M|258/258
+  move|p2a: Meowstic|Alluring Voice|p1a: Weezing
+  -resisted|p1a: Weezing
+  -damage|p1a: Weezing|224/258
+  -heal|p1a: Weezing|240/258|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack gunkshot - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Meowstic|Alluring Voice|p1a: Weezing
+  -resisted|p1a: Weezing
+  -crit|p1a: Weezing
+  -damage|p1a: Weezing|196/258
+  move|p1a: Weezing|Gunk Shot|p2a: Meowstic
+  -damage|p2a: Meowstic|52/100
+  -status|p2a: Meowstic|psn
+  -heal|p2a: Meowstic|58/100 psn|[from] item: Leftovers
+  -heal|p1a: Weezing|212/258|[from] item: Leftovers
+  -damage|p2a: Meowstic|46/100 psn|[from] psn
+-- turn 4
+  WE CHOSE: attack gunkshot - our hp 0.82, theirs 0.46, predicted move (revealed) hits us x0.5
+  move|p2a: Meowstic|Alluring Voice|p1a: Weezing
+  -resisted|p1a: Weezing
+  -damage|p1a: Weezing|182/258
+  move|p1a: Weezing|Gunk Shot|p2a: Meowstic
+  -damage|p2a: Meowstic|0 fnt
+  faint|p2a: Meowstic
+  -heal|p1a: Weezing|198/258|[from] item: Leftovers
+  switch|p2a: Feraligatr|Feraligatr, L79, F|100/100
+-- turn 5
+  WE CHOSE: attack gunkshot - our hp 0.77, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Feraligatr|Liquidation|p1a: Weezing
+  -damage|p1a: Weezing|88/258
+  move|p1a: Weezing|Gunk Shot|p2a: Feraligatr|[miss]
+  -miss|p1a: Weezing|p2a: Feraligatr
+  -heal|p1a: Weezing|104/258|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack gunkshot - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lokix - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Feraligatr|Liquidation|p1a: Weezing
+  -damage|p1a: Weezing|0 fnt
+  faint|p1a: Weezing
+  switch|p1a: Lokix|Lokix, L82, F|251/251
+-- turn 7
+  WE CHOSE: attack firstimpression - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Lokix|First Impression|p2a: Feraligatr
+  -damage|p2a: Feraligatr|53/100
+  -damage|p1a: Lokix|226/251|[from] item: Life Orb
+  move|p2a: Feraligatr|Liquidation|p1a: Lokix
+  -damage|p1a: Lokix|58/251
+-- turn 8
+  WE CHOSE: attack firstimpression - our hp 0.23, theirs 0.53, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gurdurr - our hp 0.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p1a: Lokix|First Impression||[still]
+  -fail|p1a: Lokix
+  move|p2a: Feraligatr|Liquidation|p1a: Lokix
+  -damage|p1a: Lokix|0 fnt
+  faint|p1a: Lokix
+  switch|p1a: Gurdurr|Gurdurr, L85, M|283/283
+-- turn 9
+  WE CHOSE: setup bulkup (hand policy: attack drainpunch) - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Feraligatr|Liquidation|p1a: Gurdurr
+  -damage|p1a: Gurdurr|186/283
+  move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+  -boost|p1a: Gurdurr|atk|1
+  -boost|p1a: Gurdurr|def|1
+-- turn 10
+  WE CHOSE: attack drainpunch - our hp 0.66, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Feraligatr|Liquidation|p1a: Gurdurr
+  -damage|p1a: Gurdurr|126/283
+  move|p1a: Gurdurr|Drain Punch|p2a: Feraligatr
+  -damage|p2a: Feraligatr|3/100
+  -heal|p1a: Gurdurr|193/283|[from] drain|[of] p2a: Feraligatr
+-- turn 11
+  WE CHOSE: attack knockoff (hand policy: attack drainpunch) - our hp 0.68, theirs 0.03, predicted move (revealed) hits us x1
+  move|p2a: Feraligatr|Liquidation|p1a: Gurdurr
+  -damage|p1a: Gurdurr|127/283
+  move|p1a: Gurdurr|Knock Off|p2a: Feraligatr
+  -damage|p2a: Feraligatr|0 fnt
+  -enditem|p2a: Feraligatr|Life Orb|[from] move: Knock Off|[of] p1a: Gurdurr
+  faint|p2a: Feraligatr
+  switch|p2a: Luxray|Luxray, L88, F|100/100
+-- turn 12
+  WE CHOSE: setup bulkup (hand policy: attack drainpunch) - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Luxray|Supercell Slam|p1a: Gurdurr
+  -damage|p1a: Gurdurr|64/283
+  move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+  -boost|p1a: Gurdurr|atk|1
+  -boost|p1a: Gurdurr|def|1
+  -status|p2a: Luxray|brn|[from] item: Flame Orb
+-- turn 13
+  WE CHOSE: attack drainpunch - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to glimmora (hand policy: forced: switch to sudowoodo) - our hp 0.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Luxray|Supercell Slam|p1a: Gurdurr
+  -damage|p1a: Gurdurr|0 fnt
+  faint|p1a: Gurdurr
+  -damage|p2a: Luxray|94/100 brn|[from] brn
+  switch|p1a: Glimmora|Glimmora, L75, M|248/248
+  -item|p1a: Glimmora|Air Balloon
+-- turn 14
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p1a: Glimmora|Earth Power|p2a: Luxray
+  -supereffective|p2a: Luxray
+  -damage|p2a: Luxray|46/100 brn
+  move|p2a: Luxray|Supercell Slam|p1a: Glimmora
+  -damage|p1a: Glimmora|11/248
+  -activate|p1a: Glimmora|ability: Toxic Debris
+  -sidestart|p2: e2_035157|move: Toxic Spikes
+  -enditem|p1a: Glimmora|Air Balloon
+  -damage|p2a: Luxray|40/100 brn|[from] brn
+-- turn 15
+  WE CHOSE: switch to sudowoodo (hand policy: attack earthpower) - our hp 0.04, theirs 0.40, predicted move (revealed) hits us x1
+  switch|p1a: Sudowoodo|Sudowoodo, L94, F, tera:Rock|184/284
+  move|p2a: Luxray|Supercell Slam|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|42/284
+  -heal|p1a: Sudowoodo|59/284|[from] item: Leftovers
+  -damage|p2a: Luxray|34/100 brn|[from] brn
+-- turn 16
+  WE CHOSE: attack headsmash - our hp 0.21, theirs 0.34, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to glimmora - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p2a: Luxray|Supercell Slam|p1a: Sudowoodo
+  -crit|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|0 fnt
+  faint|p1a: Sudowoodo
+  -damage|p2a: Luxray|28/100 brn|[from] brn
+  switch|p1a: Glimmora|Glimmora, L75, M|11/248
+-- turn 17
+  WE CHOSE: attack powergem (hand policy: attack earthpower) - our hp 0.04, theirs 0.28, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to spidops - our hp 0.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p2a: Luxray|Supercell Slam|p1a: Glimmora
+  -damage|p1a: Glimmora|0 fnt
+  -activate|p1a: Glimmora|ability: Toxic Debris
+  -sidestart|p2: e2_035157|move: Toxic Spikes
+  faint|p1a: Glimmora
+  -damage|p2a: Luxray|22/100 brn|[from] brn
+  switch|p1a: Spidops|Spidops, L96, F|271/271
+-- turn 18
+  WE CHOSE: attack knockoff (hand policy: attack uturn) - our hp 1.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p2a: Luxray|Supercell Slam|p1a: Spidops
+  -crit|p1a: Spidops
+  -damage|p1a: Spidops|18/271
+  move|p1a: Spidops|Knock Off|p2a: Luxray
+  -damage|p2a: Luxray|0 fnt
+  -enditem|p2a: Luxray|Flame Orb|[from] move: Knock Off|[of] p1a: Spidops
+  faint|p2a: Luxray
+  switch|p2a: Arbok|Arbok, L87, F|100/100
+  -sideend|p2: e2_035157|move: Toxic Spikes|[of] p2a: Arbok
+  -ability|p2a: Arbok|Intimidate|boost
+  -unboost|p1a: Spidops|atk|1
+-- turn 19
+  WE CHOSE: attack knockoff - our hp 0.07, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Arbok|Gunk Shot|p1a: Spidops
+  -damage|p1a: Spidops|0 fnt
+  faint|p1a: Spidops
+  -damage|p2a: Arbok|91/100|[from] item: Life Orb
+  deinit

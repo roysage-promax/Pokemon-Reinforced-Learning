@@ -1,0 +1,194 @@
+battle 2048 (battle-gen9randombattle-2039511): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  lunala (fainted; item ?, ability shadowshield, tera fighting; moves calmmind/moongeistbeam/focusblast/moonlight)
+  latias (fainted; item souldew, ability levitate; moves recover/dracometeor/psyshock/calmmind)
+  klefki (fainted; item leftovers, ability prankster; moves spikes/foulplay/dazzlinggleam/thunderwave)
+  dudunsparce (fainted; item leftovers, ability rattled; moves roost/shadowball/boomburst/calmmind)
+  regice (fainted; item heavydutyboots, ability clearbody; moves bodypress/icebeam/thunderwave/thunderbolt)
+  dunsparce (fainted; item eviolite, ability serenegrace; moves earthquake/bodyslam/coil/roost)
+theirs (as seen):
+  weavile (fainted; item unknown_item, ability ?; moves knockoff)
+  leafeon (fainted; item lifeorb, ability ?; moves leafblade)
+  scovillain (fainted; item unknown_item, ability ?; moves fireblast)
+  ironthorns (fainted; item ?, ability quarkdrive; moves stoneedge)
+  rabsca (fainted; item unknown_item, ability ?; moves bugbuzz)
+  fluttermane (81%; item lifeorb, ability protosynthesis; moves moonblast)
+
+-- turn 0
+  switch|p1a: Lunala|Lunala, L70|308/308
+  switch|p2a: Weavile|Weavile, L79, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera focusblast (hand policy: switch to klefki) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x4
+  -terastallize|p1a: Lunala|Fighting
+  move|p2a: Weavile|Knock Off|p1a: Lunala
+  -resisted|p1a: Lunala
+  -damage|p1a: Lunala|259/308
+  -enditem|p1a: Lunala|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+  move|p1a: Lunala|Focus Blast|p2a: Weavile
+  -supereffective|p2a: Weavile
+  -damage|p2a: Weavile|0 fnt
+  faint|p2a: Weavile
+  switch|p2a: Leafeon|Leafeon, L88, M|100/100
+-- turn 2
+  WE CHOSE: switch to regice (hand policy: attack moongeistbeam) - our hp 0.84, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Regice|Regice, L88|284/284
+  move|p2a: Leafeon|Leaf Blade|p1a: Regice
+  -damage|p1a: Regice|159/284
+  -damage|p2a: Leafeon|91/100|[from] item: Life Orb
+-- turn 3
+  WE CHOSE: switch to latias (hand policy: attack icebeam) - our hp 0.56, theirs 0.91, predicted move (revealed) hits us x1
+  switch|p1a: Latias|Latias, L79, F|256/256
+  move|p2a: Leafeon|Leaf Blade|p1a: Latias
+  -resisted|p1a: Latias
+  -crit|p1a: Latias
+  -damage|p1a: Latias|131/256
+  -damage|p2a: Leafeon|81/100|[from] item: Life Orb
+-- turn 4
+  WE CHOSE: setup calmmind - our hp 0.51, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Calm Mind|p1a: Latias
+  -boost|p1a: Latias|spa|1
+  -boost|p1a: Latias|spd|1
+  move|p2a: Leafeon|Leaf Blade|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|49/256
+  -damage|p2a: Leafeon|71/100|[from] item: Life Orb
+-- turn 5
+  WE CHOSE: attack dracometeor (hand policy: heal recover) - our hp 0.19, theirs 0.71, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to klefki (hand policy: forced: switch to regice) - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p1a: Latias|Draco Meteor|p2a: Leafeon|[miss]
+  -miss|p1a: Latias|p2a: Leafeon
+  move|p2a: Leafeon|Leaf Blade|p1a: Latias
+  -resisted|p1a: Latias
+  -damage|p1a: Latias|0 fnt
+  faint|p1a: Latias
+  -damage|p2a: Leafeon|62/100|[from] item: Life Orb
+  switch|p1a: Klefki|Klefki, L84, F|233/233
+-- turn 6
+  WE CHOSE: attack dazzlinggleam - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p2a: Leafeon|Leaf Blade|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|163/233
+  -damage|p2a: Leafeon|52/100|[from] item: Life Orb
+  move|p1a: Klefki|Dazzling Gleam|p2a: Leafeon
+  -damage|p2a: Leafeon|17/100
+  -heal|p1a: Klefki|177/233|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack dazzlinggleam - our hp 0.76, theirs 0.17, predicted move (revealed) hits us x0.5
+  move|p2a: Leafeon|Leaf Blade|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|107/233
+  -damage|p2a: Leafeon|7/100|[from] item: Life Orb
+  move|p1a: Klefki|Dazzling Gleam|p2a: Leafeon
+  -damage|p2a: Leafeon|0 fnt
+  faint|p2a: Leafeon
+  -heal|p1a: Klefki|121/233|[from] item: Leftovers
+  switch|p2a: Scovillain|Scovillain, L91, F|100/100
+-- turn 8
+  WE CHOSE: attack foulplay - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to dudunsparce - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Scovillain|Fire Blast|p1a: Klefki
+  -supereffective|p1a: Klefki
+  -damage|p1a: Klefki|0 fnt
+  faint|p1a: Klefki
+  switch|p1a: Dudunsparce|Dudunsparce, L83, F|343/343
+-- turn 9
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Scovillain|Fire Blast|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|177/343
+  move|p1a: Dudunsparce|Boomburst|p2a: Scovillain
+  -damage|p2a: Scovillain|41/100
+  -heal|p1a: Dudunsparce|198/343|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack boomburst - our hp 0.58, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Scovillain|Fire Blast|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|29/343
+  move|p1a: Dudunsparce|Boomburst|p2a: Scovillain
+  -damage|p2a: Scovillain|0 fnt
+  faint|p2a: Scovillain
+  -heal|p1a: Dudunsparce|50/343|[from] item: Leftovers
+  switch|p2a: Iron Thorns|Iron Thorns, L83|100/100
+  -enditem|p2a: Iron Thorns|Booster Energy
+  -activate|p2a: Iron Thorns|ability: Quark Drive|[fromitem]
+  -start|p2a: Iron Thorns|quarkdriveatk
+-- turn 11
+  WE CHOSE: heal roost - our hp 0.15, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dunsparce (hand policy: forced: switch to lunala) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Thorns|Stone Edge|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|0 fnt
+  faint|p1a: Dudunsparce
+  switch|p1a: Dunsparce|Dunsparce, L86, M|312/312
+-- turn 12
+  WE CHOSE: setup coil (hand policy: attack earthquake) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Thorns|Stone Edge|p1a: Dunsparce
+  -damage|p1a: Dunsparce|171/312
+  move|p1a: Dunsparce|Coil|p1a: Dunsparce
+  -boost|p1a: Dunsparce|atk|1
+  -boost|p1a: Dunsparce|def|1
+  -boost|p1a: Dunsparce|accuracy|1
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Thorns|Stone Edge|p1a: Dunsparce
+  -damage|p1a: Dunsparce|75/312
+  move|p1a: Dunsparce|Earthquake|p2a: Iron Thorns
+  -supereffective|p2a: Iron Thorns
+  -damage|p2a: Iron Thorns|5/100
+-- turn 14
+  WE CHOSE: attack bodyslam (hand policy: heal roost) - our hp 0.24, theirs 0.05, predicted move (revealed) hits us x1
+  move|p2a: Iron Thorns|Stone Edge|p1a: Dunsparce|[miss]
+  -miss|p2a: Iron Thorns|p1a: Dunsparce
+  move|p1a: Dunsparce|Body Slam|p2a: Iron Thorns
+  -resisted|p2a: Iron Thorns
+  -damage|p2a: Iron Thorns|0 fnt
+  faint|p2a: Iron Thorns
+  -end|p2a: Iron Thorns|Quark Drive|[silent]
+  switch|p2a: Rabsca|Rabsca, L91, M|100/100
+-- turn 15
+  WE CHOSE: heal roost - our hp 0.24, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to regice (hand policy: forced: switch to lunala) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Rabsca|Bug Buzz|p1a: Dunsparce
+  -damage|p1a: Dunsparce|0 fnt
+  faint|p1a: Dunsparce
+  switch|p1a: Regice|Regice, L88|159/284
+-- turn 16
+  WE CHOSE: attack icebeam - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Regice|Ice Beam|p2a: Rabsca
+  -damage|p2a: Rabsca|70/100
+  -status|p2a: Rabsca|frz
+  cant|p2a: Rabsca|frz
+-- turn 17
+  WE CHOSE: attack icebeam - our hp 0.56, theirs 0.70, predicted move (revealed) hits us x1
+  move|p1a: Regice|Ice Beam|p2a: Rabsca
+  -damage|p2a: Rabsca|36/100 frz
+  -curestatus|p2a: Rabsca|frz|[msg]
+  move|p2a: Rabsca|Bug Buzz|p1a: Regice
+  -damage|p1a: Regice|96/284
+-- turn 18
+  WE CHOSE: attack icebeam - our hp 0.34, theirs 0.36, predicted move (revealed) hits us x1
+  move|p1a: Regice|Ice Beam|p2a: Rabsca
+  -damage|p2a: Rabsca|4/100
+  move|p2a: Rabsca|Bug Buzz|p1a: Regice
+  -damage|p1a: Regice|33/284
+-- turn 19
+  WE CHOSE: attack icebeam - our hp 0.12, theirs 0.04, predicted move (revealed) hits us x1
+  move|p1a: Regice|Ice Beam|p2a: Rabsca
+  -crit|p2a: Rabsca
+  -damage|p2a: Rabsca|0 fnt
+  faint|p2a: Rabsca
+  switch|p2a: Flutter Mane|Flutter Mane, L74|100/100
+-- turn 20
+  WE CHOSE: attack icebeam - our hp 0.12, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to lunala - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Flutter Mane|Moonblast|p1a: Regice
+  -damage|p1a: Regice|0 fnt
+  faint|p1a: Regice
+  -damage|p2a: Flutter Mane|91/100|[from] item: Life Orb
+  switch|p1a: Lunala|Lunala, L70, tera:Fighting|259/308
+-- turn 21
+  WE CHOSE: attack moongeistbeam - our hp 0.84, theirs 0.91, predicted move (revealed) hits us x2
+  move|p2a: Flutter Mane|Moonblast|p1a: Lunala
+  -supereffective|p1a: Lunala
+  -damage|p1a: Lunala|0 fnt
+  faint|p1a: Lunala
+  -damage|p2a: Flutter Mane|81/100|[from] item: Life Orb
+  deinit

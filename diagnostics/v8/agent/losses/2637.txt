@@ -1,0 +1,213 @@
+battle 2637 (battle-gen9randombattle-2045469): lost in 22 turns, 2 of theirs left; we are p1
+
+ours:
+  goodrahisui (fainted; item assaultvest, ability sapsipper, tera flying; moves dracometeor/fireblast/earthquake/heavyslam)
+  cinderace (fainted; item heavydutyboots, ability libero; moves courtchange/uturn/pyroball/willowisp)
+  chansey (fainted; item eviolite, ability naturalcure; moves softboiled/seismictoss/healbell/thunderwave)
+  ironhands (fainted; item assaultvest, ability quarkdrive; moves icepunch/drainpunch/wildcharge/voltswitch)
+  politoed (fainted; item chestoberry, ability drizzle; moves rest/hypnosis/hydropump/icebeam)
+  conkeldurr (fainted; item flameorb, ability guts; moves machpunch/facade/knockoff/closecombat)
+theirs (as seen):
+  enamorus (19%; item unknown_item, ability ?; moves focusblast/superpower)
+  zoroarkhisui (fainted; item lifeorb, ability illusion; moves focusblast)
+  mesprit (fainted; item unknown_item, ability levitate; moves thunderbolt)
+  ironvaliant (fainted; item lifeorb, ability quarkdrive; moves closecombat)
+  rotomfan (fainted; item unknown_item, ability levitate; moves thunderbolt)
+
+-- turn 0
+  switch|p1a: Goodra|Goodra-Hisui, L82, F|265/265
+  switch|p2a: Enamorus|Enamorus, L79, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera heavyslam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Goodra|Flying
+  move|p2a: Enamorus|Focus Blast|p1a: Goodra|[miss]
+  -miss|p2a: Enamorus|p1a: Goodra
+  move|p1a: Goodra|Heavy Slam|p2a: Enamorus
+  -damage|p2a: Enamorus|40/100
+  replace|p2a: Zoroark|Zoroark-Hisui, L80, F
+  -end|p2a: Zoroark|Illusion
+-- turn 2
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.40, predicted move (guessed) hits us x0.5
+  move|p2a: Zoroark|Focus Blast|p1a: Goodra
+  -resisted|p1a: Goodra
+  -damage|p1a: Goodra|236/265
+  -damage|p2a: Zoroark|30/100|[from] item: Life Orb
+  move|p1a: Goodra|Draco Meteor|p2a: Zoroark
+  -damage|p2a: Zoroark|0 fnt
+  -unboost|p1a: Goodra|spa|2
+  faint|p2a: Zoroark
+  switch|p2a: Mesprit|Mesprit, L85|100/100
+-- turn 3
+  WE CHOSE: switch to cinderace - our hp 0.89, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Cinderace|Cinderace, L77, M|250/250
+  move|p2a: Mesprit|Thunderbolt|p1a: Cinderace
+  -damage|p1a: Cinderace|167/250
+-- turn 4
+  WE CHOSE: switch to ironhands (hand policy: attack pyroball) - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Iron Hands|Iron Hands, L79|373/373
+  move|p2a: Mesprit|Thunderbolt|p1a: Iron Hands
+  -resisted|p1a: Iron Hands
+  -damage|p1a: Iron Hands|343/373
+-- turn 5
+  WE CHOSE: attack wildcharge - our hp 0.92, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Mesprit|Thunderbolt|p1a: Iron Hands
+  -resisted|p1a: Iron Hands
+  -damage|p1a: Iron Hands|314/373
+  move|p1a: Iron Hands|Wild Charge|p2a: Mesprit
+  -damage|p2a: Mesprit|67/100
+  -damage|p1a: Iron Hands|291/373|[from] Recoil
+-- turn 6
+  WE CHOSE: attack wildcharge - our hp 0.78, theirs 0.67, predicted move (revealed) hits us x0.5
+  move|p2a: Mesprit|Thunderbolt|p1a: Iron Hands
+  -resisted|p1a: Iron Hands
+  -damage|p1a: Iron Hands|259/373
+  move|p1a: Iron Hands|Wild Charge|p2a: Mesprit
+  -damage|p2a: Mesprit|31/100
+  -damage|p1a: Iron Hands|234/373|[from] Recoil
+-- turn 7
+  WE CHOSE: attack wildcharge - our hp 0.63, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p2a: Mesprit|Thunderbolt|p1a: Iron Hands
+  -resisted|p1a: Iron Hands
+  -damage|p1a: Iron Hands|205/373
+  move|p1a: Iron Hands|Wild Charge|p2a: Mesprit
+  -damage|p2a: Mesprit|0 fnt
+  faint|p2a: Mesprit
+  -damage|p1a: Iron Hands|184/373|[from] Recoil
+  switch|p2a: Iron Valiant|Iron Valiant, L78|100/100
+-- turn 8
+  WE CHOSE: switch to goodrahisui (hand policy: attack wildcharge) - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x1
+  -end|p1a: Iron Hands|Quark Drive|[silent]
+  switch|p1a: Goodra|Goodra-Hisui, L82, F, tera:Flying|236/265
+  move|p2a: Iron Valiant|Close Combat|p1a: Goodra
+  -resisted|p1a: Goodra
+  -damage|p1a: Goodra|146/265
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+-- turn 9
+  WE CHOSE: attack heavyslam - our hp 0.55, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Valiant|Close Combat|p1a: Goodra
+  -resisted|p1a: Goodra
+  -damage|p1a: Goodra|55/265
+  -unboost|p2a: Iron Valiant|def|1
+  -unboost|p2a: Iron Valiant|spd|1
+  -damage|p2a: Iron Valiant|81/100|[from] item: Life Orb
+  move|p1a: Goodra|Heavy Slam|p2a: Iron Valiant
+  -supereffective|p2a: Iron Valiant
+  -damage|p2a: Iron Valiant|0 fnt
+  faint|p2a: Iron Valiant
+  -end|p2a: Iron Valiant|Quark Drive|[silent]
+  switch|p2a: Rotom|Rotom-Fan, L86|100/100
+-- turn 10
+  WE CHOSE: switch to ironhands - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Iron Hands|Iron Hands, L79|184/373
+  move|p2a: Rotom|Thunderbolt|p1a: Iron Hands
+  -resisted|p1a: Iron Hands
+  -damage|p1a: Iron Hands|139/373
+-- turn 11
+  WE CHOSE: attack icepunch - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Rotom|Thunderbolt|p1a: Iron Hands
+  -resisted|p1a: Iron Hands
+  -damage|p1a: Iron Hands|92/373
+  move|p1a: Iron Hands|Ice Punch|p2a: Rotom
+  -supereffective|p2a: Rotom
+  -damage|p2a: Rotom|49/100
+-- turn 12
+  WE CHOSE: attack icepunch - our hp 0.25, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Rotom|Thunderbolt|p1a: Iron Hands
+  -resisted|p1a: Iron Hands
+  -damage|p1a: Iron Hands|46/373
+  move|p1a: Iron Hands|Ice Punch|p2a: Rotom
+  -supereffective|p2a: Rotom
+  -damage|p2a: Rotom|6/100
+-- turn 13
+  WE CHOSE: attack icepunch - our hp 0.12, theirs 0.06, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to cinderace - our hp 0.00, theirs 0.06, predicted move (revealed) hits us x0.5
+  move|p2a: Rotom|Thunderbolt|p1a: Iron Hands
+  -resisted|p1a: Iron Hands
+  -damage|p1a: Iron Hands|0 fnt
+  faint|p1a: Iron Hands
+  -end|p1a: Iron Hands|Quark Drive|[silent]
+  switch|p1a: Cinderace|Cinderace, L77, M|167/250
+-- turn 14
+  WE CHOSE: attack pyroball - our hp 0.67, theirs 0.06, predicted move (revealed) hits us x1
+  move|p1a: Cinderace|Pyro Ball|p2a: Rotom
+  -damage|p2a: Rotom|0 fnt
+  faint|p2a: Rotom
+  switch|p2a: Enamorus|Enamorus, L79, F|100/100
+-- turn 15
+  WE CHOSE: switch to politoed (hand policy: attack pyroball) - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Politoed|Politoed, L88, F|302/302
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+  move|p2a: Enamorus|Superpower|p1a: Politoed
+  -damage|p1a: Politoed|214/302
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  -weather|RainDance|[upkeep]
+-- turn 16
+  WE CHOSE: attack icebeam - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Enamorus|Superpower|p1a: Politoed
+  -damage|p1a: Politoed|68/302
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  move|p1a: Politoed|Ice Beam|p2a: Enamorus
+  -supereffective|p2a: Enamorus
+  -damage|p2a: Enamorus|38/100
+  -weather|RainDance|[upkeep]
+-- turn 17
+  WE CHOSE: heal rest - our hp 0.23, theirs 0.38, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to goodrahisui - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Enamorus|Superpower|p1a: Politoed
+  -damage|p1a: Politoed|0 fnt
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  faint|p1a: Politoed
+  -weather|RainDance|[upkeep]
+  switch|p1a: Goodra|Goodra-Hisui, L82, F, tera:Flying|55/265
+-- turn 18
+  WE CHOSE: attack heavyslam (hand policy: attack fireblast) - our hp 0.21, theirs 0.38, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to cinderace - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p2a: Enamorus|Superpower|p1a: Goodra
+  -resisted|p1a: Goodra
+  -damage|p1a: Goodra|0 fnt
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  faint|p1a: Goodra
+  -weather|RainDance|[upkeep]
+  switch|p1a: Cinderace|Cinderace, L77, M|167/250
+-- turn 19
+  WE CHOSE: attack pyroball - our hp 0.67, theirs 0.38, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to conkeldurr - our hp 0.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Cinderace|Pyro Ball|p2a: Enamorus
+  -damage|p2a: Enamorus|27/100
+  move|p2a: Enamorus|Superpower|p1a: Cinderace
+  -damage|p1a: Cinderace|0 fnt
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  faint|p1a: Cinderace
+  -weather|none
+  switch|p1a: Conkeldurr|Conkeldurr, L80, F|299/299
+-- turn 20
+  WE CHOSE: attack facade - our hp 1.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p2a: Enamorus|Superpower|p1a: Conkeldurr
+  -damage|p1a: Conkeldurr|19/299
+  -boost|p2a: Enamorus|atk|1
+  -boost|p2a: Enamorus|def|1
+  move|p1a: Conkeldurr|Facade|p2a: Enamorus
+  -damage|p2a: Enamorus|19/100
+  -status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+-- turn 21
+  WE CHOSE: attack facade - our hp 0.06, theirs 0.19, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to chansey - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Enamorus|Superpower|p1a: Conkeldurr
+  -crit|p1a: Conkeldurr
+  -damage|p1a: Conkeldurr|0 fnt
+  faint|p1a: Conkeldurr
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+-- turn 22
+  WE CHOSE: heal softboiled (hand policy: attack seismictoss) - our hp 1.00, theirs 0.19, predicted move (revealed) hits us x2
+  move|p2a: Enamorus|Superpower|p1a: Chansey
+  -supereffective|p1a: Chansey
+  -damage|p1a: Chansey|0 fnt
+  faint|p1a: Chansey
+  deinit

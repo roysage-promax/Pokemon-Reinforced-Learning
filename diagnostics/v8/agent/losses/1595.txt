@@ -1,0 +1,249 @@
+battle 1595 (battle-gen9randombattle-2034758): lost in 28 turns, 1 of theirs left; we are p1
+
+ours:
+  ninetales (fainted; item heavydutyboots, ability drought, tera fire; moves fireblast/scorchingsands/solarbeam/nastyplot)
+  cyclizar (fainted; item heavydutyboots, ability regenerator; moves knockoff/shedtail/dracometeor/rapidspin)
+  clodsire (fainted; item leftovers, ability unaware; moves recover/poisonjab/earthquake/stealthrock)
+  reuniclus (fainted; item lifeorb, ability magicguard; moves calmmind/focusblast/psyshock/recover)
+  uxie (fainted; item leftovers, ability levitate; moves thunderwave/psychicnoise/uturn/knockoff)
+  luxray (fainted; item assaultvest, ability intimidate; moves voltswitch/wildcharge/playrough/throatchop)
+theirs (as seen):
+  trevenant (fainted; item unknown_item, ability ?; moves -)
+  slowking (fainted; item unknown_item, ability ?; moves futuresight)
+  flapple (fainted; item unknown_item, ability ?; moves outrage)
+  volbeat (33%; item unknown_item, ability ?; moves uturn)
+  registeel (fainted; item ?, ability ?; moves ironhead)
+  gardevoir (fainted; item unknown_item, ability levitate; moves moonblast)
+
+-- turn 0
+  switch|p1a: Ninetales|Ninetales, L85, M|263/263
+  switch|p2a: Trevenant|Trevenant, L89, F|100/100
+  -weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+-- turn 1
+  WE CHOSE: attack+tera fireblast (hand policy: setup nastyplot) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  -terastallize|p1a: Ninetales|Fire
+  move|p1a: Ninetales|Fire Blast|p2a: Trevenant
+  -supereffective|p2a: Trevenant
+  -damage|p2a: Trevenant|0 fnt
+  faint|p2a: Trevenant
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Slowking|Slowking, L88, F|100/100
+-- turn 2
+  WE CHOSE: attack solarbeam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Ninetales|Solar Beam||[still]
+  -prepare|p1a: Ninetales|Solar Beam
+  -anim|p1a: Ninetales|Solar Beam|p2a: Slowking
+  -supereffective|p2a: Slowking
+  -damage|p2a: Slowking|62/100
+  move|p2a: Slowking|Future Sight|p1a: Ninetales
+  -start|p2a: Slowking|move: Future Sight
+  -weather|SunnyDay|[upkeep]
+-- turn 3
+  WE CHOSE: attack solarbeam - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Ninetales|Solar Beam||[still]
+  -prepare|p1a: Ninetales|Solar Beam
+  -anim|p1a: Ninetales|Solar Beam|p2a: Slowking
+  -supereffective|p2a: Slowking
+  -damage|p2a: Slowking|24/100
+  move|p2a: Slowking|Future Sight||[still]
+  -fail|p2a: Slowking
+  -weather|SunnyDay|[upkeep]
+-- turn 4
+  WE CHOSE: attack solarbeam - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Ninetales|Solar Beam||[still]
+  -prepare|p1a: Ninetales|Solar Beam
+  -anim|p1a: Ninetales|Solar Beam|p2a: Slowking
+  -supereffective|p2a: Slowking
+  -damage|p2a: Slowking|0 fnt
+  faint|p2a: Slowking
+  -weather|SunnyDay|[upkeep]
+  -end|p1a: Ninetales|move: Future Sight
+  -damage|p1a: Ninetales|134/263
+  switch|p2a: Flapple|Flapple, L88, M|100/100
+-- turn 5
+  WE CHOSE: attack fireblast - our hp 0.51, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to clodsire - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Ninetales|Fire Blast|p2a: Flapple|[miss]
+  -miss|p1a: Ninetales|p2a: Flapple
+  move|p2a: Flapple|Outrage|p1a: Ninetales
+  -damage|p1a: Ninetales|0 fnt
+  faint|p1a: Ninetales
+  -weather|none
+  switch|p1a: Clodsire|Clodsire, L81, M|343/343
+-- turn 6
+  WE CHOSE: attack poisonjab - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Flapple|Outrage|p1a: Clodsire|[from] lockedmove
+  -damage|p1a: Clodsire|21/343
+  -start|p2a: Flapple|confusion|[fatigue]
+  move|p1a: Clodsire|Poison Jab|p2a: Flapple
+  -supereffective|p2a: Flapple
+  -damage|p2a: Flapple|50/100
+  -heal|p1a: Clodsire|42/343|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack poisonjab (hand policy: heal recover) - our hp 0.12, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to uxie (hand policy: forced: switch to luxray) - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x1
+  -activate|p2a: Flapple|confusion
+  move|p2a: Flapple|Outrage|p1a: Clodsire
+  -damage|p1a: Clodsire|0 fnt
+  faint|p1a: Clodsire
+  switch|p1a: Uxie|Uxie, L83|260/260
+-- turn 8
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to reuniclus (hand policy: forced: switch to luxray) - our hp 1.00, theirs 0.21, predicted move (revealed) hits us x1
+  move|p1a: Uxie|U-turn|p2a: Flapple
+  -supereffective|p2a: Flapple
+  -damage|p2a: Flapple|21/100
+  switch|p1a: Reuniclus|Reuniclus, L88, F|337/337|[from] U-turn
+  -activate|p2a: Flapple|confusion
+  -damage|p2a: Flapple|7/100|[from] confusion
+-- turn 9
+  WE CHOSE: heal recover (hand policy: attack psyshock) - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x1
+  -activate|p2a: Flapple|confusion
+  move|p2a: Flapple|Outrage|p1a: Reuniclus
+  -damage|p1a: Reuniclus|84/337
+  move|p1a: Reuniclus|Recover|p1a: Reuniclus
+  -heal|p1a: Reuniclus|253/337
+-- turn 10
+  WE CHOSE: heal recover (hand policy: attack psyshock) - our hp 0.75, theirs 0.07, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to uxie (hand policy: forced: switch to luxray) - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x1
+  -activate|p2a: Flapple|confusion
+  move|p2a: Flapple|Outrage|p1a: Reuniclus|[from] lockedmove
+  -damage|p1a: Reuniclus|0 fnt
+  faint|p1a: Reuniclus
+  switch|p1a: Uxie|Uxie, L83|260/260
+-- turn 11
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cyclizar (hand policy: forced: switch to luxray) - our hp 1.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Uxie|U-turn|p2a: Flapple
+  -supereffective|p2a: Flapple
+  -damage|p2a: Flapple|0 fnt
+  faint|p2a: Flapple
+  switch|p1a: Cyclizar|Cyclizar, L84, F|255/255|[from] U-turn
+  switch|p2a: Volbeat|Volbeat, L90, M|100/100
+-- turn 12
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Cyclizar|Draco Meteor|p2a: Volbeat
+  -damage|p2a: Volbeat|54/100
+  -unboost|p1a: Cyclizar|spa|2
+  move|p2a: Volbeat|U-turn|p1a: Cyclizar
+  -damage|p1a: Cyclizar|168/255
+  switch|p2a: Registeel|Registeel, L81|100/100|[from] U-turn
+-- turn 13
+  WE CHOSE: switch to uxie - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Uxie|Uxie, L83|260/260
+  move|p2a: Registeel|Iron Head|p1a: Uxie
+  -damage|p1a: Uxie|215/260
+  -heal|p1a: Uxie|231/260|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack knockoff - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Uxie|Knock Off|p2a: Registeel
+  -damage|p2a: Registeel|86/100
+  -enditem|p2a: Registeel|Chesto Berry|[from] move: Knock Off|[of] p1a: Uxie
+  move|p2a: Registeel|Iron Head|p1a: Uxie
+  -damage|p1a: Uxie|183/260
+  -heal|p1a: Uxie|199/260|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack knockoff - our hp 0.77, theirs 0.86, predicted move (revealed) hits us x1
+  move|p1a: Uxie|Knock Off|p2a: Registeel
+  -crit|p2a: Registeel
+  -damage|p2a: Registeel|72/100
+  move|p2a: Registeel|Iron Head|p1a: Uxie
+  -damage|p1a: Uxie|153/260
+  -heal|p1a: Uxie|169/260|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack knockoff - our hp 0.65, theirs 0.72, predicted move (revealed) hits us x1
+  move|p1a: Uxie|Knock Off|p2a: Registeel
+  -damage|p2a: Registeel|62/100
+  move|p2a: Registeel|Iron Head|p1a: Uxie
+  -damage|p1a: Uxie|121/260
+  -heal|p1a: Uxie|137/260|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack knockoff - our hp 0.53, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Uxie|Knock Off|p2a: Registeel
+  -damage|p2a: Registeel|52/100
+  move|p2a: Registeel|Iron Head|p1a: Uxie
+  -damage|p1a: Uxie|89/260
+  -heal|p1a: Uxie|105/260|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack knockoff - our hp 0.40, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Uxie|Knock Off|p2a: Registeel
+  -damage|p2a: Registeel|42/100
+  move|p2a: Registeel|Iron Head|p1a: Uxie
+  -damage|p1a: Uxie|60/260
+  -heal|p1a: Uxie|76/260|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack knockoff - our hp 0.29, theirs 0.42, predicted move (revealed) hits us x1
+  move|p1a: Uxie|Knock Off|p2a: Registeel
+  -damage|p2a: Registeel|32/100
+  move|p2a: Registeel|Iron Head|p1a: Uxie
+  -damage|p1a: Uxie|30/260
+  -heal|p1a: Uxie|46/260|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: switch to cyclizar (hand policy: attack knockoff) - our hp 0.18, theirs 0.32, predicted move (revealed) hits us x1
+  switch|p1a: Cyclizar|Cyclizar, L84, F|253/255
+  move|p2a: Registeel|Iron Head|p1a: Cyclizar
+  -damage|p1a: Cyclizar|175/255
+-- turn 21
+  WE CHOSE: attack dracometeor - our hp 0.69, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Cyclizar|Draco Meteor|p2a: Registeel
+  -resisted|p2a: Registeel
+  -damage|p2a: Registeel|15/100
+  -unboost|p1a: Cyclizar|spa|2
+  move|p2a: Registeel|Iron Head|p1a: Cyclizar
+  -damage|p1a: Cyclizar|88/255
+-- turn 22
+  WE CHOSE: attack knockoff - our hp 0.35, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Cyclizar|Knock Off|p2a: Registeel
+  -damage|p2a: Registeel|4/100
+  move|p2a: Registeel|Iron Head|p1a: Cyclizar
+  -damage|p1a: Cyclizar|3/255
+-- turn 23
+  WE CHOSE: attack knockoff - our hp 0.01, theirs 0.04, predicted move (revealed) hits us x1
+  move|p1a: Cyclizar|Knock Off|p2a: Registeel
+  -damage|p2a: Registeel|0 fnt
+  faint|p2a: Registeel
+  switch|p2a: Volbeat|Volbeat, L90, M|54/100
+-- turn 24
+  WE CHOSE: attack rapidspin - our hp 0.01, theirs 0.54, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to uxie - our hp 0.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Cyclizar|Rapid Spin|p2a: Volbeat
+  -damage|p2a: Volbeat|33/100
+  -boost|p1a: Cyclizar|spe|1
+  move|p2a: Volbeat|U-turn|p1a: Cyclizar
+  -crit|p1a: Cyclizar
+  -damage|p1a: Cyclizar|0 fnt
+  faint|p1a: Cyclizar
+  switch|p2a: Gardevoir|Gardevoir, L83, M|100/100|[from] U-turn
+  switch|p1a: Uxie|Uxie, L83|46/260
+  -ability|p2a: Gardevoir|Levitate|Trace|[from] ability: Trace|[of] p1a: Uxie
+-- turn 25
+  WE CHOSE: attack uturn - our hp 0.18, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to luxray - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Uxie
+  -damage|p1a: Uxie|0 fnt
+  faint|p1a: Uxie
+  switch|p1a: Luxray|Luxray, L88, M|284/284
+  -ability|p1a: Luxray|Intimidate|boost
+  -unboost|p2a: Gardevoir|atk|1
+-- turn 26
+  WE CHOSE: attack wildcharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Luxray
+  -damage|p1a: Luxray|199/284
+  move|p1a: Luxray|Wild Charge|p2a: Gardevoir
+  -damage|p2a: Gardevoir|37/100
+  -damage|p1a: Luxray|160/284|[from] Recoil
+-- turn 27
+  WE CHOSE: attack wildcharge - our hp 0.56, theirs 0.37, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Luxray
+  -damage|p1a: Luxray|76/284
+  move|p1a: Luxray|Wild Charge|p2a: Gardevoir
+  -damage|p2a: Gardevoir|0 fnt
+  faint|p2a: Gardevoir
+  -damage|p1a: Luxray|53/284|[from] Recoil
+  switch|p2a: Volbeat|Volbeat, L90, M|33/100
+-- turn 28
+  WE CHOSE: attack wildcharge - our hp 0.19, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Volbeat|U-turn|p1a: Luxray
+  -damage|p1a: Luxray|0 fnt
+  faint|p1a: Luxray
+  deinit

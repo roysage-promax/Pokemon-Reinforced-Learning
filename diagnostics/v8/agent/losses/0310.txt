@@ -1,0 +1,275 @@
+battle 310 (battle-gen9randombattle-2021648): lost in 34 turns, 2 of theirs left; we are p1
+
+ours:
+  arceusice (fainted; item icicleplate, ability multitype, tera electric; moves recover/calmmind/thunderbolt/judgment)
+  espathra (fainted; item ?, ability speedboost; moves luminacrash/dazzlinggleam/shadowball/uturn)
+  lucario (fainted; item lifeorb, ability innerfocus; moves vacuumwave/flashcannon/focusblast/nastyplot)
+  garganacl (fainted; item ?, ability purifyingsalt; moves recover/stealthrock/bodypress/saltcure)
+  ogerponhearthflame (fainted; item hearthflamemask, ability moldbreaker; moves ivycudgel/powerwhip/knockoff/swordsdance)
+  bombirdier (fainted; item heavydutyboots, ability bigpecks; moves suckerpunch/roost/knockoff/bravebird)
+theirs (as seen):
+  meloetta (fainted; item leftovers, ability serenegrace; moves focusblast)
+  landorus (fainted; item unknown_item, ability ?; moves sludgewave)
+  azelf (fainted; item unknown_item, ability levitate; moves fireblast)
+  pawmot (fainted; item unknown_item, ability ?; moves closecombat)
+  sableye (100%; item leftovers, ability ?; moves knockoff)
+
+-- turn 0
+  switch|p1a: Arceus|Arceus-Ice, L72|291/291
+  switch|p2a: Meloetta|Meloetta, L82|100/100
+-- turn 1
+  WE CHOSE: attack+tera thunderbolt (hand policy: switch to espathra) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Arceus|Electric
+  move|p1a: Arceus|Thunderbolt|p2a: Meloetta
+  -damage|p2a: Meloetta|79/100
+  move|p2a: Meloetta|Focus Blast|p1a: Arceus
+  -damage|p1a: Arceus|195/291
+  -heal|p2a: Meloetta|85/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack thunderbolt - our hp 0.67, theirs 0.85, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Thunderbolt|p2a: Meloetta
+  -damage|p2a: Meloetta|65/100
+  move|p2a: Meloetta|Focus Blast|p1a: Arceus
+  -damage|p1a: Arceus|107/291
+  -heal|p2a: Meloetta|71/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack thunderbolt (hand policy: heal recover) - our hp 0.37, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Thunderbolt|p2a: Meloetta
+  -damage|p2a: Meloetta|52/100
+  move|p2a: Meloetta|Focus Blast|p1a: Arceus
+  -damage|p1a: Arceus|8/291
+  -heal|p2a: Meloetta|58/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack thunderbolt (hand policy: heal recover) - our hp 0.03, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Thunderbolt|p2a: Meloetta
+  -damage|p2a: Meloetta|35/100
+  move|p2a: Meloetta|Focus Blast|p1a: Arceus|[miss]
+  -miss|p2a: Meloetta|p1a: Arceus
+  -heal|p2a: Meloetta|41/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack thunderbolt (hand policy: heal recover) - our hp 0.03, theirs 0.41, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ogerponhearthflame (hand policy: forced: switch to espathra) - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Thunderbolt|p2a: Meloetta
+  -damage|p2a: Meloetta|19/100
+  move|p2a: Meloetta|Focus Blast|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  faint|p1a: Arceus
+  -heal|p2a: Meloetta|25/100|[from] item: Leftovers
+  switch|p1a: Ogerpon|Ogerpon-Hearthflame, L74, F|239/239
+  -ability|p1a: Ogerpon|Mold Breaker
+-- turn 6
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Power Whip|p2a: Meloetta
+  -damage|p2a: Meloetta|0 fnt
+  faint|p2a: Meloetta
+  switch|p2a: Landorus|Landorus, L75, M|100/100
+-- turn 7
+  WE CHOSE: setup swordsdance (hand policy: attack powerwhip) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+  -boost|p1a: Ogerpon|atk|2
+  move|p2a: Landorus|Sludge Wave|p1a: Ogerpon
+  -supereffective|p1a: Ogerpon
+  -damage|p1a: Ogerpon|34/239
+-- turn 8
+  WE CHOSE: switch to lucario - our hp 0.14, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Lucario|Lucario, L84, M|255/255
+  move|p2a: Landorus|Sludge Wave|p1a: Lucario
+  -immune|p1a: Lucario
+-- turn 9
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lucario|Nasty Plot|p1a: Lucario
+  -boost|p1a: Lucario|spa|2
+  move|p2a: Landorus|Sludge Wave|p1a: Lucario
+  -immune|p1a: Lucario
+-- turn 10
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lucario|Nasty Plot|p1a: Lucario
+  -boost|p1a: Lucario|spa|2
+  move|p2a: Landorus|Sludge Wave|p1a: Lucario
+  -immune|p1a: Lucario
+-- turn 11
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lucario|Nasty Plot|p1a: Lucario
+  -boost|p1a: Lucario|spa|2
+  move|p2a: Landorus|Sludge Wave|p1a: Lucario
+  -immune|p1a: Lucario
+-- turn 12
+  WE CHOSE: attack flashcannon - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Lucario|Flash Cannon|p2a: Landorus
+  -damage|p2a: Landorus|0 fnt
+  faint|p2a: Landorus
+  -damage|p1a: Lucario|230/255|[from] item: Life Orb
+  switch|p2a: Azelf|Azelf, L82|100/100
+-- turn 13
+  WE CHOSE: attack flashcannon - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to bombirdier - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Azelf|Fire Blast|p1a: Lucario
+  -supereffective|p1a: Lucario
+  -damage|p1a: Lucario|0 fnt
+  faint|p1a: Lucario
+  switch|p1a: Bombirdier|Bombirdier, L85, F|258/258
+-- turn 14
+  WE CHOSE: attack suckerpunch - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Bombirdier|Sucker Punch|p2a: Azelf
+  -supereffective|p2a: Azelf
+  -damage|p2a: Azelf|25/100
+  move|p2a: Azelf|Fire Blast|p1a: Bombirdier
+  -damage|p1a: Bombirdier|113/258
+-- turn 15
+  WE CHOSE: attack knockoff (hand policy: heal roost) - our hp 0.44, theirs 0.25, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to garganacl (hand policy: forced: switch to espathra) - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Azelf|Fire Blast|p1a: Bombirdier
+  -damage|p1a: Bombirdier|0 fnt
+  faint|p1a: Bombirdier
+  switch|p1a: Garganacl|Garganacl, L80, F|291/291
+-- turn 16
+  WE CHOSE: attack saltcure - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x0.5
+  move|p2a: Azelf|Fire Blast|p1a: Garganacl
+  -resisted|p1a: Garganacl
+  -damage|p1a: Garganacl|222/291
+  move|p1a: Garganacl|Salt Cure|p2a: Azelf
+  -damage|p2a: Azelf|4/100
+  -start|p2a: Azelf|Salt Cure
+  -heal|p1a: Garganacl|240/291|[from] item: Leftovers
+  -damage|p2a: Azelf|0 fnt|[from] Salt Cure
+  faint|p2a: Azelf
+  switch|p2a: Pawmot|Pawmot, L80, F|100/100
+-- turn 17
+  WE CHOSE: switch to espathra - our hp 0.82, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Espathra|Espathra, L80, M|283/283
+  move|p2a: Pawmot|Close Combat|p1a: Espathra
+  -resisted|p1a: Espathra
+  -damage|p1a: Espathra|184/283
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+-- turn 18
+  WE CHOSE: attack luminacrash - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Pawmot|Close Combat|p1a: Espathra
+  -resisted|p1a: Espathra
+  -damage|p1a: Espathra|86/283
+  -unboost|p2a: Pawmot|def|1
+  -unboost|p2a: Pawmot|spd|1
+  move|p1a: Espathra|Lumina Crash|p2a: Pawmot
+  -supereffective|p2a: Pawmot
+  -damage|p2a: Pawmot|0 fnt
+  faint|p2a: Pawmot
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+  switch|p2a: Sableye|Sableye, L88, M|100/100
+-- turn 19
+  WE CHOSE: attack shadowball - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to ogerponhearthflame - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Espathra|Lumina Crash|p2a: Sableye
+  -immune|p2a: Sableye
+  move|p2a: Sableye|Knock Off|p1a: Espathra
+  -supereffective|p1a: Espathra
+  -damage|p1a: Espathra|0 fnt
+  -enditem|p1a: Espathra|Choice Specs|[from] move: Knock Off|[of] p2a: Sableye
+  faint|p1a: Espathra
+  switch|p1a: Ogerpon|Ogerpon-Hearthflame, L74, F|34/239
+  -ability|p1a: Ogerpon|Mold Breaker
+-- turn 20
+  WE CHOSE: attack powerwhip - our hp 0.14, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to garganacl - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Power Whip|p2a: Sableye
+  -damage|p2a: Sableye|39/100
+  move|p2a: Sableye|Knock Off|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  -heal|p2a: Sableye|45/100|[from] item: Leftovers
+  switch|p1a: Garganacl|Garganacl, L80, F|240/291
+-- turn 21
+  WE CHOSE: heal recover (hand policy: attack saltcure) - our hp 0.82, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|168/291
+  -enditem|p1a: Garganacl|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+  -heal|p2a: Sableye|51/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal recover (hand policy: attack saltcure) - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|239/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+  -heal|p2a: Sableye|57/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal recover (hand policy: attack saltcure) - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|239/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+  -heal|p2a: Sableye|63/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: heal recover (hand policy: attack saltcure) - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|242/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+  -heal|p2a: Sableye|69/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: heal recover (hand policy: attack saltcure) - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|243/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+  -heal|p2a: Sableye|75/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: heal recover (hand policy: attack saltcure) - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|243/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+  -heal|p2a: Sableye|81/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: heal recover (hand policy: attack saltcure) - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|246/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+  -heal|p2a: Sableye|88/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: heal recover (hand policy: attack saltcure) - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|240/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|291/291
+  -heal|p2a: Sableye|94/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack stealthrock (hand policy: attack saltcure) - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|237/291
+  move|p1a: Garganacl|Stealth Rock|p2a: Sableye
+  -sidestart|p2: e2_035157|move: Stealth Rock
+  -heal|p2a: Sableye|99/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack stealthrock (hand policy: attack saltcure) - our hp 0.81, theirs 0.99, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|185/291
+  move|p1a: Garganacl|Stealth Rock||[still]
+  -fail|p1a: Garganacl
+  -heal|p2a: Sableye|100/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack stealthrock (hand policy: attack saltcure) - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|133/291
+  move|p1a: Garganacl|Stealth Rock||[still]
+  -fail|p1a: Garganacl
+-- turn 32
+  WE CHOSE: attack stealthrock (hand policy: attack saltcure) - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|81/291
+  move|p1a: Garganacl|Stealth Rock||[still]
+  -fail|p1a: Garganacl
+-- turn 33
+  WE CHOSE: attack stealthrock (hand policy: attack saltcure) - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|36/291
+  move|p1a: Garganacl|Stealth Rock||[still]
+  -fail|p1a: Garganacl
+-- turn 34
+  WE CHOSE: attack stealthrock (hand policy: attack saltcure) - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Sableye|Knock Off|p1a: Garganacl
+  -damage|p1a: Garganacl|0 fnt
+  faint|p1a: Garganacl
+  deinit

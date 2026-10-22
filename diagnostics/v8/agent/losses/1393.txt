@@ -1,0 +1,175 @@
+battle 1393 (battle-gen9randombattle-2032719): lost in 17 turns, 1 of theirs left; we are p1
+
+ours:
+  cramorant (fainted; item heavydutyboots, ability gulpmissile, tera ground; moves bravebird/roost/surf/defog)
+  rampardos (fainted; item choicescarf, ability sheerforce; moves earthquake/rockslide/firepunch/headsmash)
+  drifblim (fainted; item ?, ability unburden; moves shadowball/airslash/strengthsap/calmmind)
+  greninja (fainted; item lifeorb, ability battlebond; moves hydropump/darkpulse/gunkshot/icebeam)
+  virizion (fainted; item lifeorb, ability justified; moves leafblade/closecombat/swordsdance/stoneedge)
+  volcarona (fainted; item heavydutyboots, ability flamebody; moves quiverdance/gigadrain/fireblast/bugbuzz)
+theirs (as seen):
+  spiritomb (fainted; item leftovers, ability ?; moves poltergeist)
+  venusaur (fainted; item unknown_item, ability ?; moves sludgebomb)
+  azumarill (fainted; item unknown_item, ability ?; moves playrough)
+  spectrier (fainted; item lifeorb, ability grimneigh; moves shadowball)
+  beartic (fainted; item unknown_item, ability ?; moves closecombat)
+  cinccino (100%; item unknown_item, ability ?; moves tailslap)
+
+-- turn 0
+  switch|p1a: Cramorant|Cramorant, L86, F|261/261
+  switch|p2a: Spiritomb|Spiritomb, L89, M|100/100
+-- turn 1
+  WE CHOSE: switch to greninja (hand policy: attack bravebird) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Greninja|Greninja, L80, M|246/246
+  move|p2a: Spiritomb|Poltergeist|p1a: Greninja|[miss]
+  -miss|p2a: Spiritomb|p1a: Greninja
+-- turn 2
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Greninja|Hydro Pump|p2a: Spiritomb
+  -damage|p2a: Spiritomb|49/100
+  -damage|p1a: Greninja|222/246|[from] item: Life Orb
+  move|p2a: Spiritomb|Poltergeist|p1a: Greninja
+  -activate|p1a: Greninja|move: Poltergeist|Life Orb
+  -resisted|p1a: Greninja
+  -crit|p1a: Greninja
+  -damage|p1a: Greninja|108/246
+  -heal|p2a: Spiritomb|55/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack hydropump - our hp 0.44, theirs 0.55, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to cramorant - our hp 0.00, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Greninja|Hydro Pump|p2a: Spiritomb
+  -damage|p2a: Spiritomb|5/100
+  -damage|p1a: Greninja|84/246|[from] item: Life Orb
+  move|p2a: Spiritomb|Poltergeist|p1a: Greninja
+  -activate|p1a: Greninja|move: Poltergeist|Life Orb
+  -resisted|p1a: Greninja
+  -damage|p1a: Greninja|0 fnt
+  faint|p1a: Greninja
+  -heal|p2a: Spiritomb|11/100|[from] item: Leftovers
+  switch|p1a: Cramorant|Cramorant, L86, F|261/261
+-- turn 4
+  WE CHOSE: attack surf (hand policy: attack bravebird) - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x1
+  move|p1a: Cramorant|Surf|p2a: Spiritomb
+  -formechange|p1a: Cramorant|Cramorant-Gulping|
+  -damage|p2a: Spiritomb|0 fnt
+  faint|p2a: Spiritomb
+  switch|p2a: Venusaur|Venusaur, L84, M|100/100
+-- turn 5
+  WE CHOSE: attack+tera bravebird - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Cramorant|Ground
+  move|p1a: Cramorant|Brave Bird|p2a: Venusaur
+  -supereffective|p2a: Venusaur
+  -damage|p2a: Venusaur|12/100
+  -damage|p1a: Cramorant|182/261|[from] Recoil
+  move|p2a: Venusaur|Sludge Bomb|p1a: Cramorant
+  -resisted|p1a: Cramorant
+  -damage|p1a: Cramorant|136/261
+  -status|p1a: Cramorant|psn
+  -damage|p2a: Venusaur|0 fnt|[from] ability: Gulp Missile|[of] p1a: Cramorant
+  -formechange|p1a: Cramorant|Cramorant|
+  faint|p2a: Venusaur
+  -damage|p1a: Cramorant|104/261 psn|[from] psn
+  switch|p2a: Azumarill|Azumarill, L82, F|100/100
+-- turn 6
+  WE CHOSE: switch to drifblim - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Drifblim|Drifblim, L86, M|396/396
+  move|p2a: Azumarill|Play Rough|p1a: Drifblim
+  -damage|p1a: Drifblim|110/396
+  -enditem|p1a: Drifblim|Sitrus Berry|[eat]
+  -heal|p1a: Drifblim|209/396|[from] item: Sitrus Berry
+-- turn 7
+  WE CHOSE: attack shadowball - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rampardos (hand policy: forced: switch to volcarona) - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Drifblim|Shadow Ball|p2a: Azumarill
+  -damage|p2a: Azumarill|71/100
+  move|p2a: Azumarill|Play Rough|p1a: Drifblim
+  -damage|p1a: Drifblim|0 fnt
+  faint|p1a: Drifblim
+  switch|p1a: Rampardos|Rampardos, L90, F|321/321
+-- turn 8
+  WE CHOSE: attack headsmash - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Rampardos|Head Smash|p2a: Azumarill|[miss]
+  -miss|p1a: Rampardos|p2a: Azumarill
+  move|p2a: Azumarill|Play Rough|p1a: Rampardos
+  -damage|p1a: Rampardos|119/321
+-- turn 9
+  WE CHOSE: attack headsmash - our hp 0.37, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Rampardos|Head Smash|p2a: Azumarill
+  -damage|p2a: Azumarill|0 fnt
+  faint|p2a: Azumarill
+  -damage|p1a: Rampardos|14/321|[from] Recoil
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+-- turn 10
+  WE CHOSE: switch to virizion (hand policy: attack headsmash) - our hp 0.04, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Virizion|Virizion, L82|283/283
+  move|p2a: Spectrier|Shadow Ball|p1a: Virizion
+  -damage|p1a: Virizion|192/283
+  -damage|p2a: Spectrier|91/100|[from] item: Life Orb
+-- turn 11
+  WE CHOSE: attack leafblade - our hp 0.68, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Virizion
+  -damage|p1a: Virizion|102/283
+  -damage|p2a: Spectrier|81/100|[from] item: Life Orb
+  move|p1a: Virizion|Leaf Blade|p2a: Spectrier
+  -damage|p2a: Spectrier|21/100
+  -damage|p1a: Virizion|74/283|[from] item: Life Orb
+-- turn 12
+  WE CHOSE: switch to cramorant (hand policy: attack leafblade) - our hp 0.26, theirs 0.21, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to volcarona (hand policy: forced: switch to rampardos) - our hp 0.00, theirs 0.11, predicted move (revealed) hits us x1
+  switch|p1a: Cramorant|Cramorant, L86, F, tera:Ground|104/261 psn
+  move|p2a: Spectrier|Shadow Ball|p1a: Cramorant
+  -damage|p1a: Cramorant|0 fnt
+  faint|p1a: Cramorant
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -damage|p2a: Spectrier|11/100|[from] item: Life Orb
+  switch|p1a: Volcarona|Volcarona, L77, M|257/257
+-- turn 13
+  WE CHOSE: attack gigadrain (hand policy: attack fireblast) - our hp 1.00, theirs 0.11, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Volcarona
+  -damage|p1a: Volcarona|76/257
+  -damage|p2a: Spectrier|1/100|[from] item: Life Orb
+  move|p1a: Volcarona|Giga Drain|p2a: Spectrier
+  -crit|p2a: Spectrier
+  -damage|p2a: Spectrier|0 fnt
+  -heal|p1a: Volcarona|77/257|[from] drain|[of] p2a: Spectrier
+  faint|p2a: Spectrier
+  switch|p2a: Beartic|Beartic, L91, F|100/100
+-- turn 14
+  WE CHOSE: attack fireblast - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to rampardos (hand policy: forced: switch to virizion) - our hp 0.00, theirs 0.21, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Fire Blast|p2a: Beartic
+  -supereffective|p2a: Beartic
+  -damage|p2a: Beartic|21/100
+  move|p2a: Beartic|Close Combat|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|0 fnt
+  -unboost|p2a: Beartic|def|1
+  -unboost|p2a: Beartic|spd|1
+  faint|p1a: Volcarona
+  switch|p1a: Rampardos|Rampardos, L90, F|14/321
+-- turn 15
+  WE CHOSE: attack firepunch (hand policy: attack headsmash) - our hp 0.04, theirs 0.21, predicted move (revealed) hits us x2
+  move|p1a: Rampardos|Fire Punch|p2a: Beartic
+  -supereffective|p2a: Beartic
+  -damage|p2a: Beartic|0 fnt
+  faint|p2a: Beartic
+  switch|p2a: Cinccino|Cinccino, L83, F|100/100
+-- turn 16
+  WE CHOSE: attack firepunch - our hp 0.04, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to virizion - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cinccino|Tail Slap|p1a: Rampardos
+  -resisted|p1a: Rampardos
+  -damage|p1a: Rampardos|0 fnt
+  faint|p1a: Rampardos
+  -hitcount|p1: Rampardos|1
+  switch|p1a: Virizion|Virizion, L82|74/283
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cinccino|Tail Slap|p1a: Virizion
+  -damage|p1a: Virizion|31/283
+  -crit|p1a: Virizion
+  -damage|p1a: Virizion|0 fnt
+  faint|p1a: Virizion
+  -hitcount|p1: Virizion|2
+  deinit

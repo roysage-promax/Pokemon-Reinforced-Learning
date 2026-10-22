@@ -1,0 +1,229 @@
+battle 2066 (battle-gen9randombattle-2039692): lost in 23 turns, 1 of theirs left; we are p1
+
+ours:
+  pawmot (fainted; item lifeorb, ability voltabsorb; moves doubleshock/knockoff/revivalblessing/closecombat)
+  mausholdfour (fainted; item widelens, ability technician; moves encore/bite/tidyup/populationbomb)
+  entei (fainted; item choiceband, ability innerfocus, tera fire; moves stoneedge/extremespeed/sacredfire/flareblitz)
+  metagross (fainted; item weaknesspolicy, ability clearbody; moves earthquake/knockoff/heavyslam/agility)
+  beartic (fainted; item heavydutyboots, ability slushrush; moves closecombat/earthquake/iciclecrash/swordsdance)
+  terapagosterastal (fainted; item ?, ability terashell; moves calmmind/earthpower/terastarstorm/rest)
+theirs (as seen):
+  taurospaldeacombat (fainted; item lifeorb, ability intimidate; moves closecombat)
+  manaphy (fainted; item leftovers, ability hydration; moves hydropump/energyball)
+  corviknight (fainted; item unknown_item, ability pressure; moves bravebird)
+  uxie (fainted; item unknown_item, ability levitate; moves psychicnoise)
+  arboliva (fainted; item unknown_item, ability ?; moves -)
+  rillaboom (40%; item unknown_item, ability ?; moves woodhammer)
+
+-- turn 0
+  switch|p1a: Pawmot|Pawmot, L80, F|243/243
+  switch|p2a: Tauros|Tauros-Paldea-Combat, L82, M|100/100
+  -ability|p2a: Tauros|Intimidate|boost
+  -unboost|p1a: Pawmot|atk|1
+-- turn 1
+  WE CHOSE: attack doubleshock (hand policy: attack+tera doubleshock) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Pawmot|Double Shock|p2a: Tauros
+  -damage|p2a: Tauros|60/100
+  -start|p1a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+  -damage|p1a: Pawmot|219/243|[from] item: Life Orb
+  move|p2a: Tauros|Close Combat|p1a: Pawmot
+  -damage|p1a: Pawmot|8/243
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  -damage|p2a: Tauros|50/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack doubleshock (hand policy: attack+tera doubleshock) - our hp 0.03, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to entei - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x1
+  move|p1a: Pawmot|Double Shock||[still]
+  -fail|p1a: Pawmot|move: Double Shock
+  move|p2a: Tauros|Close Combat|p1a: Pawmot
+  -damage|p1a: Pawmot|0 fnt
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  faint|p1a: Pawmot
+  -damage|p2a: Tauros|40/100|[from] item: Life Orb
+  switch|p1a: Entei|Entei, L78|307/307
+-- turn 3
+  WE CHOSE: attack+tera flareblitz - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to metagross - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Entei|Fire
+  move|p2a: Tauros|Close Combat|p1a: Entei
+  -crit|p1a: Entei
+  -damage|p1a: Entei|22/307
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  -damage|p2a: Tauros|30/100|[from] item: Life Orb
+  move|p1a: Entei|Flare Blitz|p2a: Tauros
+  -damage|p2a: Tauros|0 fnt
+  faint|p2a: Tauros
+  -damage|p1a: Entei|0 fnt|[from] Recoil
+  faint|p1a: Entei
+  switch|p2a: Manaphy|Manaphy, L78|100/100
+  switch|p1a: Metagross|Metagross, L79|256/256
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Manaphy|Hydro Pump|p1a: Metagross
+  -damage|p1a: Metagross|154/256
+  move|p1a: Metagross|Earthquake|p2a: Manaphy
+  -damage|p2a: Manaphy|73/100
+  -heal|p2a: Manaphy|79/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 0.60, theirs 0.79, predicted move (revealed) hits us x1
+  move|p2a: Manaphy|Hydro Pump|p1a: Metagross|[miss]
+  -miss|p2a: Manaphy|p1a: Metagross
+  move|p1a: Metagross|Earthquake|p2a: Manaphy
+  -damage|p2a: Manaphy|52/100
+  -heal|p2a: Manaphy|58/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 0.60, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Manaphy|Hydro Pump|p1a: Metagross
+  -damage|p1a: Metagross|43/256
+  move|p1a: Metagross|Earthquake|p2a: Manaphy
+  -damage|p2a: Manaphy|30/100
+  -heal|p2a: Manaphy|36/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.17, theirs 0.36, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to terapagos - our hp 0.00, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Manaphy|Hydro Pump|p1a: Metagross
+  -damage|p1a: Metagross|0 fnt
+  faint|p1a: Metagross
+  -heal|p2a: Manaphy|42/100|[from] item: Leftovers
+  switch|p1a: Terapagos|Terapagos, L77, M|265/265
+  -activate|p1a: Terapagos|ability: Tera Shift
+  detailschange|p1a: Terapagos|Terapagos-Terastal, L77, M
+  -heal|p1a: Terapagos|273/273|[silent]
+-- turn 8
+  WE CHOSE: setup calmmind (hand policy: attack terastarstorm) - our hp 1.00, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Manaphy|Hydro Pump|p1a: Terapagos
+  -activate|p1a: Terapagos|ability: Tera Shell
+  -resisted|p1a: Terapagos
+  -damage|p1a: Terapagos|226/273
+  move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+  -boost|p1a: Terapagos|spa|1
+  -boost|p1a: Terapagos|spd|1
+  -heal|p2a: Manaphy|48/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: setup calmmind (hand policy: attack terastarstorm) - our hp 0.83, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Manaphy|Hydro Pump|p1a: Terapagos
+  -damage|p1a: Terapagos|163/273
+  move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+  -boost|p1a: Terapagos|spa|1
+  -boost|p1a: Terapagos|spd|1
+  -heal|p2a: Manaphy|54/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: setup calmmind (hand policy: attack terastarstorm) - our hp 0.60, theirs 0.54, predicted move (revealed) hits us x1
+  move|p2a: Manaphy|Hydro Pump|p1a: Terapagos
+  -damage|p1a: Terapagos|111/273
+  move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+  -boost|p1a: Terapagos|spa|1
+  -boost|p1a: Terapagos|spd|1
+  -heal|p2a: Manaphy|60/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: heal rest - our hp 0.41, theirs 0.60, predicted move (revealed) hits us x1
+  move|p2a: Manaphy|Hydro Pump|p1a: Terapagos
+  -damage|p1a: Terapagos|68/273
+  move|p1a: Terapagos|Rest|p1a: Terapagos
+  -status|p1a: Terapagos|slp|[from] move: Rest
+  -heal|p1a: Terapagos|273/273 slp|[silent]
+  -enditem|p1a: Terapagos|Chesto Berry|[eat]
+  -curestatus|p1a: Terapagos|slp|[msg]
+  -heal|p2a: Manaphy|66/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: setup calmmind (hand policy: attack terastarstorm) - our hp 1.00, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Manaphy|Energy Ball|p1a: Terapagos
+  -activate|p1a: Terapagos|ability: Tera Shell
+  -resisted|p1a: Terapagos
+  -damage|p1a: Terapagos|263/273
+  move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+  -boost|p1a: Terapagos|spa|1
+  -boost|p1a: Terapagos|spd|1
+  -heal|p2a: Manaphy|72/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: setup calmmind (hand policy: attack terastarstorm) - our hp 0.96, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Manaphy|Energy Ball|p1a: Terapagos
+  -damage|p1a: Terapagos|246/273
+  move|p1a: Terapagos|Calm Mind|p1a: Terapagos
+  -boost|p1a: Terapagos|spa|1
+  -boost|p1a: Terapagos|spd|1
+  -heal|p2a: Manaphy|78/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack terastarstorm - our hp 0.90, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Manaphy|Energy Ball|p1a: Terapagos
+  -damage|p1a: Terapagos|232/273
+  move|p1a: Terapagos|Tera Starstorm|p2a: Manaphy
+  -damage|p2a: Manaphy|0 fnt
+  faint|p2a: Manaphy
+  switch|p2a: Corviknight|Corviknight, L80, F|100/100
+  -ability|p2a: Corviknight|Pressure
+-- turn 15
+  WE CHOSE: attack terastarstorm - our hp 0.85, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Terapagos|Tera Starstorm|p2a: Corviknight
+  -resisted|p2a: Corviknight
+  -damage|p2a: Corviknight|33/100
+  move|p2a: Corviknight|Brave Bird|p1a: Terapagos
+  -damage|p1a: Terapagos|127/273
+  -damage|p2a: Corviknight|21/100|[from] Recoil
+-- turn 16
+  WE CHOSE: attack terastarstorm (hand policy: heal rest) - our hp 0.47, theirs 0.21, predicted move (revealed) hits us x1
+  move|p1a: Terapagos|Tera Starstorm|p2a: Corviknight
+  -resisted|p2a: Corviknight
+  -damage|p2a: Corviknight|0 fnt
+  faint|p2a: Corviknight
+  switch|p2a: Uxie|Uxie, L83|100/100
+-- turn 17
+  WE CHOSE: heal rest - our hp 0.47, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Terapagos
+  -damage|p1a: Terapagos|109/273
+  -start|p1a: Terapagos|move: Heal Block
+  cant|p1a: Terapagos|move: Heal Block|Rest
+-- turn 18
+  WE CHOSE: attack terastarstorm - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Terapagos
+  -damage|p1a: Terapagos|91/273
+  move|p1a: Terapagos|Tera Starstorm|p2a: Uxie
+  -damage|p2a: Uxie|0 fnt
+  faint|p2a: Uxie
+  -end|p1a: Terapagos|move: Heal Block
+  switch|p2a: Arboliva|Arboliva, L91, M|100/100
+-- turn 19
+  WE CHOSE: attack terastarstorm (hand policy: heal rest) - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Terapagos|Tera Starstorm|p2a: Arboliva
+  -damage|p2a: Arboliva|0 fnt
+  -fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Arboliva
+  faint|p2a: Arboliva
+  -heal|p1a: Terapagos|108/273|[from] Grassy Terrain
+  switch|p2a: Rillaboom|Rillaboom, L79, M|100/100
+-- turn 20
+  WE CHOSE: switch to mausholdfour (hand policy: heal rest) - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to beartic - our hp 0.00, theirs 0.79, predicted move (revealed) hits us x1
+  switch|p1a: Maushold|Maushold-Four, L76|238/238
+  move|p2a: Rillaboom|Wood Hammer|p1a: Maushold
+  -damage|p1a: Maushold|0 fnt
+  faint|p1a: Maushold
+  -damage|p2a: Rillaboom|73/100|[from] Recoil
+  -heal|p2a: Rillaboom|79/100|[from] Grassy Terrain
+  switch|p1a: Beartic|Beartic, L91, M|321/321
+-- turn 21
+  WE CHOSE: attack iciclecrash - our hp 1.00, theirs 0.79, predicted move (revealed) hits us x1
+  move|p2a: Rillaboom|Wood Hammer|p1a: Beartic
+  -damage|p1a: Beartic|74/321
+  -damage|p2a: Rillaboom|51/100|[from] Recoil
+  move|p1a: Beartic|Icicle Crash|p2a: Rillaboom|[miss]
+  -miss|p1a: Beartic|p2a: Rillaboom
+  -heal|p2a: Rillaboom|57/100|[from] Grassy Terrain
+  -heal|p1a: Beartic|94/321|[from] Grassy Terrain
+-- turn 22
+  WE CHOSE: attack iciclecrash - our hp 0.29, theirs 0.57, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to terapagosterastal - our hp 0.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Rillaboom|Wood Hammer|p1a: Beartic
+  -damage|p1a: Beartic|0 fnt
+  faint|p1a: Beartic
+  -damage|p2a: Rillaboom|46/100|[from] Recoil
+  -heal|p2a: Rillaboom|53/100|[from] Grassy Terrain
+  switch|p1a: Terapagos|Terapagos-Terastal, L77, M|108/273
+-- turn 23
+  WE CHOSE: heal rest - our hp 0.40, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Rillaboom|Wood Hammer|p1a: Terapagos
+  -damage|p1a: Terapagos|0 fnt
+  faint|p1a: Terapagos
+  -damage|p2a: Rillaboom|40/100|[from] Recoil

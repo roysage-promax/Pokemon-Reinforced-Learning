@@ -1,0 +1,146 @@
+battle 1164 (battle-gen9randombattle-2030378): lost in 13 turns, 2 of theirs left; we are p1
+
+ours:
+  veluza (fainted; item sitrusberry, ability sharpness; moves aquacutter/nightslash/psychocut/filletaway)
+  meowscarada (fainted; item heavydutyboots, ability protean; moves uturn/knockoff/toxicspikes/flowertrick)
+  smeargle (fainted; item focussash, ability owntempo; moves ceaselessedge/stealthrock/stickyweb/spore)
+  spiritomb (fainted; item leftovers, ability infiltrator; moves poltergeist/foulplay/suckerpunch/toxic)
+  azumarill (fainted; item choiceband, ability hugepower; moves liquidation/playrough/aquajet/knockoff)
+  typhlosionhisui (fainted; item heavydutyboots, ability blaze, tera fighting; moves fireblast/calmmind/shadowball/focusblast)
+theirs (as seen):
+  serperior (fainted; item lifeorb, ability ?; moves leafstorm)
+  dugtrio (fainted; item unknown_item, ability ?; moves stoneedge)
+  cramorant (fainted; item unknown_item, ability gulpmissile; moves bravebird)
+  moltresgalar (fainted; item unknown_item, ability berserk; moves hurricane)
+  morpeko (100%; item unknown_item, ability hungerswitch; moves aurawheel)
+
+-- turn 0
+  switch|p1a: Veluza|Veluza, L85, F|292/292
+  switch|p2a: Serperior|Serperior, L79, M|100/100
+-- turn 1
+  WE CHOSE: switch to typhlosionhisui - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Typhlosion|Typhlosion-Hisui, L83, M|257/257
+  move|p2a: Serperior|Leaf Storm|p1a: Typhlosion
+  -resisted|p1a: Typhlosion
+  -crit|p1a: Typhlosion
+  -damage|p1a: Typhlosion|148/257
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|91/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: setup calmmind - our hp 0.58, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Typhlosion
+  -resisted|p1a: Typhlosion
+  -damage|p1a: Typhlosion|5/257
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|81/100|[from] item: Life Orb
+  move|p1a: Typhlosion|Calm Mind|p1a: Typhlosion
+  -boost|p1a: Typhlosion|spa|1
+  -boost|p1a: Typhlosion|spd|1
+-- turn 3
+  WE CHOSE: attack+tera fireblast (hand policy: attack fireblast) - our hp 0.02, theirs 0.81, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to meowscarada - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  -terastallize|p1a: Typhlosion|Fighting
+  move|p2a: Serperior|Leaf Storm|p1a: Typhlosion
+  -damage|p1a: Typhlosion|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Typhlosion
+  -damage|p2a: Serperior|71/100|[from] item: Life Orb
+  switch|p1a: Meowscarada|Meowscarada, L78, F|247/247
+-- turn 4
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to spiritomb - our hp 1.00, theirs 0.09, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to meowscarada - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Meowscarada|U-turn|p2a: Serperior
+  -start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+  -supereffective|p2a: Serperior
+  -damage|p2a: Serperior|9/100
+  switch|p1a: Spiritomb|Spiritomb, L89, F|234/234|[from] U-turn
+  move|p2a: Serperior|Leaf Storm|p1a: Spiritomb
+  -damage|p1a: Spiritomb|0 fnt
+  faint|p1a: Spiritomb
+  -damage|p2a: Serperior|0 fnt|[from] item: Life Orb
+  faint|p2a: Serperior
+  switch|p2a: Dugtrio|Dugtrio, L84, M|100/100
+  switch|p1a: Meowscarada|Meowscarada, L78, F|247/247
+-- turn 5
+  WE CHOSE: attack flowertrick - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Dugtrio|Stone Edge|p1a: Meowscarada
+  -crit|p1a: Meowscarada
+  -damage|p1a: Meowscarada|51/247
+  move|p1a: Meowscarada|Flower Trick|p2a: Dugtrio
+  -start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+  -supereffective|p2a: Dugtrio
+  -crit|p2a: Dugtrio
+  -damage|p2a: Dugtrio|0 fnt
+  faint|p2a: Dugtrio
+  switch|p2a: Cramorant|Cramorant, L86, F|100/100
+-- turn 6
+  WE CHOSE: attack flowertrick - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to veluza (hand policy: forced: switch to azumarill) - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x2
+  move|p1a: Meowscarada|Flower Trick|p2a: Cramorant
+  -crit|p2a: Cramorant
+  -damage|p2a: Cramorant|45/100
+  move|p2a: Cramorant|Brave Bird|p1a: Meowscarada
+  -supereffective|p1a: Meowscarada
+  -damage|p1a: Meowscarada|0 fnt
+  faint|p1a: Meowscarada
+  -damage|p2a: Cramorant|38/100|[from] Recoil
+  switch|p1a: Veluza|Veluza, L85, F|292/292
+-- turn 7
+  WE CHOSE: attack psychocut - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x1
+  move|p2a: Cramorant|Brave Bird|p1a: Veluza
+  -damage|p1a: Veluza|148/292
+  -damage|p2a: Cramorant|20/100|[from] Recoil
+  move|p1a: Veluza|Psycho Cut|p2a: Cramorant
+  -damage|p2a: Cramorant|0 fnt
+  faint|p2a: Cramorant
+  switch|p2a: Moltres|Moltres-Galar, L79|100/100
+-- turn 8
+  WE CHOSE: switch to azumarill (hand policy: attack aquacutter) - our hp 0.51, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Azumarill|Azumarill, L82, F|298/298
+  move|p2a: Moltres|Hurricane|p1a: Azumarill
+  -damage|p1a: Azumarill|178/298
+-- turn 9
+  WE CHOSE: attack playrough - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Moltres|Hurricane|p1a: Azumarill|[miss]
+  -miss|p2a: Moltres|p1a: Azumarill
+  move|p1a: Azumarill|Play Rough|p2a: Moltres
+  -supereffective|p2a: Moltres
+  -damage|p2a: Moltres|0 fnt
+  faint|p2a: Moltres
+  switch|p2a: Morpeko|Morpeko, L88, M|100/100
+-- turn 10
+  WE CHOSE: attack playrough - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to smeargle - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Morpeko|Aura Wheel|p1a: Azumarill
+  -supereffective|p1a: Azumarill
+  -damage|p1a: Azumarill|0 fnt
+  -boost|p2a: Morpeko|spe|1
+  faint|p1a: Azumarill
+  -formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+  switch|p1a: Smeargle|Smeargle, L95, M|258/258
+-- turn 11
+  WE CHOSE: attack stickyweb (hand policy: attack ceaselessedge) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Morpeko|Aura Wheel|p1a: Smeargle
+  -damage|p1a: Smeargle|66/258
+  -boost|p2a: Morpeko|spe|1
+  move|p1a: Smeargle|Sticky Web|p2a: Morpeko
+  -sidestart|p2: e2_035157|move: Sticky Web
+  -formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+-- turn 12
+  WE CHOSE: attack stickyweb (hand policy: attack ceaselessedge) - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to veluza - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Morpeko|Aura Wheel|p1a: Smeargle
+  -damage|p1a: Smeargle|0 fnt
+  -boost|p2a: Morpeko|spe|1
+  faint|p1a: Smeargle
+  -formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+  switch|p1a: Veluza|Veluza, L85, F|148/292
+-- turn 13
+  WE CHOSE: attack aquacutter - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Morpeko|Aura Wheel|p1a: Veluza
+  -supereffective|p1a: Veluza
+  -damage|p1a: Veluza|0 fnt
+  -boost|p2a: Morpeko|spe|1
+  faint|p1a: Veluza
+  deinit

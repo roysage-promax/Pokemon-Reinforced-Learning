@@ -1,0 +1,149 @@
+battle 2591 (battle-gen9randombattle-2042836): lost in 14 turns, 2 of theirs left; we are p1
+
+ours:
+  gumshoos (fainted; item choiceband, ability stakeout, tera normal; moves knockoff/uturn/earthquake/doubleedge)
+  garchomp (fainted; item rockyhelmet, ability roughskin; moves stealthrock/outrage/spikes/earthquake)
+  flareon (fainted; item toxicorb, ability guts; moves facade/willowisp/flareblitz/trailblaze)
+  passimian (fainted; item leftovers, ability defiant; moves bulkup/drainpunch/knockoff/gunkshot)
+  rhydon (fainted; item eviolite, ability lightningrod; moves megahorn/earthquake/swordsdance/stoneedge)
+  scovillain (fainted; item heavydutyboots, ability chlorophyll; moves energyball/fireblast/sunnyday/stompingtantrum)
+theirs (as seen):
+  regigigas (fainted; item leftovers, ability slowstart; moves bodyslam)
+  magcargo (fainted; item unknown_item, ability weakarmor; moves fireblast)
+  espathra (fainted; item unknown_item, ability speedboost; moves luminacrash)
+  dodrio (fainted; item unknown_item, ability ?; moves doubleedge)
+
+-- turn 0
+  switch|p1a: Gumshoos|Gumshoos, L95, M|321/321
+  switch|p2a: Regigigas|Regigigas, L84|100/100
+  -start|p2a: Regigigas|ability: Slow Start
+-- turn 1
+  WE CHOSE: attack+tera doubleedge - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Gumshoos|Normal
+  move|p1a: Gumshoos|Double-Edge|p2a: Regigigas
+  -damage|p2a: Regigigas|4/100
+  -damage|p1a: Gumshoos|219/321|[from] Recoil
+  move|p2a: Regigigas|Body Slam|p1a: Gumshoos
+  -damage|p1a: Gumshoos|140/321
+  -heal|p2a: Regigigas|10/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack doubleedge - our hp 0.44, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Gumshoos|Double-Edge|p2a: Regigigas
+  -damage|p2a: Regigigas|0 fnt
+  faint|p2a: Regigigas
+  -end|p2a: Regigigas|Slow Start|[silent]
+  -damage|p1a: Gumshoos|129/321|[from] Recoil
+  switch|p2a: Magcargo|Magcargo, L95, M|100/100
+-- turn 3
+  WE CHOSE: attack doubleedge - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to garchomp - our hp 0.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Gumshoos|Double-Edge|p2a: Magcargo
+  -resisted|p2a: Magcargo
+  -damage|p2a: Magcargo|57/100
+  -ability|p2a: Magcargo|Weak Armor|boost
+  -unboost|p2a: Magcargo|def|1
+  -boost|p2a: Magcargo|spe|2
+  -damage|p1a: Gumshoos|91/321|[from] Recoil
+  move|p2a: Magcargo|Fire Blast|p1a: Gumshoos
+  -damage|p1a: Gumshoos|0 fnt
+  faint|p1a: Gumshoos
+  switch|p1a: Garchomp|Garchomp, L74, F|282/282
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p2a: Magcargo|Fire Blast|p1a: Garchomp
+  -resisted|p1a: Garchomp
+  -damage|p1a: Garchomp|206/282
+  move|p1a: Garchomp|Earthquake|p2a: Magcargo
+  -supereffective|p2a: Magcargo
+  -damage|p2a: Magcargo|0 fnt
+  faint|p2a: Magcargo
+  switch|p2a: Espathra|Espathra, L80, F|100/100
+-- turn 5
+  WE CHOSE: switch to flareon - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Flareon|Flareon, L90, M|263/263
+  move|p2a: Espathra|Lumina Crash|p1a: Flareon
+  -damage|p1a: Flareon|166/263
+  -unboost|p1a: Flareon|spd|2
+  -ability|p2a: Espathra|Speed Boost|boost
+  -boost|p2a: Espathra|spe|1
+  -status|p1a: Flareon|tox|[from] item: Toxic Orb
+-- turn 6
+  WE CHOSE: attack flareblitz - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rhydon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Espathra|Lumina Crash|p1a: Flareon
+  -damage|p1a: Flareon|0 fnt
+  faint|p1a: Flareon
+  -ability|p2a: Espathra|Speed Boost|boost
+  -boost|p2a: Espathra|spe|1
+  switch|p1a: Rhydon|Rhydon, L85, M|317/317
+-- turn 7
+  WE CHOSE: attack megahorn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Espathra|Lumina Crash|p1a: Rhydon
+  -damage|p1a: Rhydon|193/317
+  -unboost|p1a: Rhydon|spd|2
+  move|p1a: Rhydon|Megahorn|p2a: Espathra|[miss]
+  -miss|p1a: Rhydon|p2a: Espathra
+  -ability|p2a: Espathra|Speed Boost|boost
+  -boost|p2a: Espathra|spe|1
+-- turn 8
+  WE CHOSE: attack megahorn - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to garchomp - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Espathra|Lumina Crash|p1a: Rhydon
+  -damage|p1a: Rhydon|0 fnt
+  faint|p1a: Rhydon
+  -ability|p2a: Espathra|Speed Boost|boost
+  -boost|p2a: Espathra|spe|1
+  switch|p1a: Garchomp|Garchomp, L74, F|206/282
+-- turn 9
+  WE CHOSE: attack outrage - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Espathra|Lumina Crash|p1a: Garchomp
+  -damage|p1a: Garchomp|76/282
+  -unboost|p1a: Garchomp|spd|2
+  move|p1a: Garchomp|Outrage|p2a: Espathra
+  -damage|p2a: Espathra|35/100
+  -ability|p2a: Espathra|Speed Boost|boost
+  -boost|p2a: Espathra|spe|1
+-- turn 10
+  WE CHOSE: attack outrage - our hp 0.27, theirs 0.35, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to scovillain - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Espathra|Lumina Crash|p1a: Garchomp
+  -damage|p1a: Garchomp|0 fnt
+  faint|p1a: Garchomp
+  -ability|p2a: Espathra|Speed Boost|boost
+  -boost|p2a: Espathra|spe|1
+  switch|p1a: Scovillain|Scovillain, L91, F|266/266
+-- turn 11
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Espathra|Lumina Crash|p1a: Scovillain
+  -damage|p1a: Scovillain|134/266
+  -unboost|p1a: Scovillain|spd|2
+  move|p1a: Scovillain|Fire Blast|p2a: Espathra
+  -crit|p2a: Espathra
+  -damage|p2a: Espathra|0 fnt
+  faint|p2a: Espathra
+  switch|p2a: Dodrio|Dodrio, L85, M|100/100
+-- turn 12
+  WE CHOSE: attack fireblast - our hp 0.50, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to passimian - our hp 0.00, theirs 0.82, predicted move (revealed) hits us x1
+  move|p2a: Dodrio|Double-Edge|p1a: Scovillain
+  -damage|p1a: Scovillain|0 fnt
+  faint|p1a: Scovillain
+  -damage|p2a: Dodrio|82/100|[from] Recoil
+  switch|p1a: Passimian|Passimian, L83, M|302/302
+-- turn 13
+  WE CHOSE: attack drainpunch - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x1
+  move|p2a: Dodrio|Double-Edge|p1a: Passimian
+  -damage|p1a: Passimian|83/302
+  -damage|p2a: Dodrio|52/100|[from] Recoil
+  move|p1a: Passimian|Drain Punch|p2a: Dodrio
+  -damage|p2a: Dodrio|8/100
+  -heal|p1a: Passimian|137/302|[from] drain|[of] p2a: Dodrio
+  -heal|p1a: Passimian|155/302|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack drainpunch - our hp 0.51, theirs 0.08, predicted move (revealed) hits us x1
+  move|p2a: Dodrio|Double-Edge|p1a: Passimian
+  -damage|p1a: Passimian|0 fnt
+  faint|p1a: Passimian
+  -damage|p2a: Dodrio|0 fnt|[from] Recoil
+  faint|p2a: Dodrio
+  deinit

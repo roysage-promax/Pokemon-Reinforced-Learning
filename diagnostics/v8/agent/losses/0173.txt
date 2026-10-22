@@ -1,0 +1,182 @@
+battle 173 (battle-gen9randombattle-2020252): lost in 19 turns, 3 of theirs left; we are p1
+
+ours:
+  smeargle (fainted; item focussash, ability owntempo; moves spore/stickyweb/ceaselessedge/whirlwind)
+  azelf (fainted; item lifeorb, ability levitate, tera fire; moves nastyplot/dazzlinggleam/fireblast/psyshock)
+  rillaboom (fainted; item choiceband, ability grassysurge; moves knockoff/grassyglide/woodhammer/uturn)
+  volbeat (fainted; item heavydutyboots, ability prankster; moves encore/thunderwave/uturn/roost)
+  bastiodon (fainted; item chestoberry, ability soundproof; moves rest/foulplay/irondefense/bodypress)
+  ditto (fainted; item choicescarf, ability imposter; moves transform)
+theirs (as seen):
+  gougingfire (fainted; item unknown_item, ability protosynthesis; moves outrage)
+  fluttermane (fainted; item lifeorb, ability protosynthesis; moves moonblast)
+  tornadustherian (fainted; item unknown_item, ability regenerator; moves bleakwindstorm)
+  azelf (4%; item unknown_item, ability levitate; moves fireblast)
+
+-- turn 0
+  switch|p1a: Smeargle|Smeargle, L95, F|258/258
+  switch|p2a: Gouging Fire|Gouging Fire, L74|100/100
+-- turn 1
+  WE CHOSE: switch to bastiodon (hand policy: attack ceaselessedge) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Bastiodon|Bastiodon, L89, F|252/252
+  move|p2a: Gouging Fire|Outrage|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|217/252
+-- turn 2
+  WE CHOSE: attack bodypress - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Gouging Fire|Outrage|p1a: Bastiodon|[from] lockedmove
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|187/252
+  move|p1a: Bastiodon|Body Press|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|69/100
+-- turn 3
+  WE CHOSE: attack bodypress - our hp 0.74, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p2a: Gouging Fire|Outrage|p1a: Bastiodon|[from] lockedmove
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|152/252
+  -start|p2a: Gouging Fire|confusion|[fatigue]
+  move|p1a: Bastiodon|Body Press|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|37/100
+-- turn 4
+  WE CHOSE: attack bodypress - our hp 0.60, theirs 0.37, predicted move (revealed) hits us x0.5
+  -activate|p2a: Gouging Fire|confusion
+  move|p2a: Gouging Fire|Outrage|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|122/252
+  move|p1a: Bastiodon|Body Press|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|4/100
+-- turn 5
+  WE CHOSE: attack foulplay (hand policy: heal rest) - our hp 0.48, theirs 0.04, predicted move (revealed) hits us x0.5
+  -activate|p2a: Gouging Fire|confusion
+  -damage|p2a: Gouging Fire|0 fnt|[from] confusion
+  faint|p2a: Gouging Fire
+  -end|p2a: Gouging Fire|Protosynthesis|[silent]
+  move|p1a: Bastiodon|Foul Play|p2: Gouging Fire|[notarget]
+  -fail|p1a: Bastiodon
+  switch|p2a: Flutter Mane|Flutter Mane, L74|100/100
+-- turn 6
+  WE CHOSE: attack foulplay (hand policy: heal rest) - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Flutter Mane|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|75/252
+  -damage|p2a: Flutter Mane|91/100|[from] item: Life Orb
+  move|p1a: Bastiodon|Foul Play|p2a: Flutter Mane
+  -damage|p2a: Flutter Mane|69/100
+-- turn 7
+  WE CHOSE: attack foulplay (hand policy: heal rest) - our hp 0.30, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p2a: Flutter Mane|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|31/252
+  -damage|p2a: Flutter Mane|60/100|[from] item: Life Orb
+  move|p1a: Bastiodon|Foul Play|p2a: Flutter Mane
+  -crit|p2a: Flutter Mane
+  -damage|p2a: Flutter Mane|26/100
+-- turn 8
+  WE CHOSE: attack foulplay (hand policy: heal rest) - our hp 0.12, theirs 0.26, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to rillaboom - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p2a: Flutter Mane|Moonblast|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|0 fnt
+  faint|p1a: Bastiodon
+  -damage|p2a: Flutter Mane|16/100|[from] item: Life Orb
+  switch|p1a: Rillaboom|Rillaboom, L79, F|288/288
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+-- turn 9
+  WE CHOSE: switch to azelf (hand policy: attack+tera woodhammer) - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x1
+  switch|p1a: Azelf|Azelf, L82|257/257
+  move|p2a: Flutter Mane|Moonblast|p1a: Azelf
+  -damage|p1a: Azelf|88/257
+  -damage|p2a: Flutter Mane|6/100|[from] item: Life Orb
+  -heal|p2a: Flutter Mane|12/100|[from] Grassy Terrain
+-- turn 10
+  WE CHOSE: attack+tera fireblast (hand policy: attack+tera psyshock) - our hp 0.34, theirs 0.12, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bastiodon (hand policy: forced: switch to rillaboom) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Azelf|Fire
+  move|p2a: Flutter Mane|Moonblast|p1a: Azelf
+  -resisted|p1a: Azelf
+  -damage|p1a: Azelf|9/257
+  -unboost|p1a: Azelf|spa|1
+  -damage|p2a: Flutter Mane|2/100|[from] item: Life Orb
+  move|p1a: Azelf|Fire Blast|p2a: Flutter Mane
+  -damage|p2a: Flutter Mane|0 fnt
+  faint|p2a: Flutter Mane
+  -end|p2a: Flutter Mane|Protosynthesis|[silent]
+  -damage|p1a: Azelf|0 fnt|[from] item: Life Orb
+  faint|p1a: Azelf
+  switch|p2a: Tornadus|Tornadus-Therian, L79, M|100/100
+  switch|p1a: Rillaboom|Rillaboom, L79, F|288/288
+-- turn 11
+  WE CHOSE: attack woodhammer - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to smeargle - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x2
+  move|p2a: Tornadus|Bleakwind Storm|p1a: Rillaboom
+  -supereffective|p1a: Rillaboom
+  -damage|p1a: Rillaboom|46/288
+  move|p1a: Rillaboom|Wood Hammer|p2a: Tornadus
+  -resisted|p2a: Tornadus
+  -damage|p2a: Tornadus|45/100
+  -damage|p1a: Rillaboom|0 fnt|[from] Recoil
+  faint|p1a: Rillaboom
+  switch|p1a: Smeargle|Smeargle, L95, F|258/258
+-- turn 12
+  WE CHOSE: attack ceaselessedge - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Tornadus|Bleakwind Storm|p1a: Smeargle
+  -damage|p1a: Smeargle|108/258
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Tornadus
+  -damage|p2a: Tornadus|35/100
+  -sidestart|p2: e2_035157|Spikes
+  -heal|p1a: Smeargle|124/258|[from] Grassy Terrain
+-- turn 13
+  WE CHOSE: attack ceaselessedge - our hp 0.48, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Tornadus|Bleakwind Storm|p1a: Smeargle|[miss]
+  -miss|p2a: Tornadus|p1a: Smeargle
+  move|p1a: Smeargle|Ceaseless Edge|p2a: Tornadus
+  -damage|p2a: Tornadus|25/100
+  -sidestart|p2: e2_035157|Spikes
+  -heal|p1a: Smeargle|140/258|[from] Grassy Terrain
+  -fieldend|move: Grassy Terrain
+-- turn 14
+  WE CHOSE: attack ceaselessedge - our hp 0.54, theirs 0.25, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ditto - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Tornadus|Bleakwind Storm|p1a: Smeargle
+  -damage|p1a: Smeargle|0 fnt
+  faint|p1a: Smeargle
+  switch|p1a: Ditto|Ditto, L87|225/225
+  -transform|p1a: Ditto|p2a: Tornadus|[from] ability: Imposter
+-- turn 15
+  WE CHOSE: attack heatwave (hand policy: attack bleakwindstorm) - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p1a: Ditto|Heat Wave|p2a: Tornadus
+  -damage|p2a: Tornadus|6/100
+  move|p2a: Tornadus|Bleakwind Storm|p1a: Ditto
+  -damage|p1a: Ditto|125/225
+  -unboost|p1a: Ditto|spe|1
+-- turn 16
+  WE CHOSE: attack bleakwindstorm (hand policy: attack heatwave) - our hp 0.56, theirs 0.06, predicted move (revealed) hits us x1
+  move|p2a: Tornadus|Bleakwind Storm|p1a: Ditto
+  -damage|p1a: Ditto|19/225
+  move|p1a: Ditto|Heat Wave|p2a: Tornadus
+  -damage|p2a: Tornadus|0 fnt
+  faint|p2a: Tornadus
+  switch|p2a: Azelf|Azelf, L82|100/100
+-- turn 17
+  WE CHOSE: attack bleakwindstorm (hand policy: attack heatwave) - our hp 0.08, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Ditto|Heat Wave|p2a: Azelf
+  -damage|p2a: Azelf|68/100
+  move|p2a: Azelf|Fire Blast|p1a: Ditto
+  -damage|p1a: Ditto|0 fnt
+  faint|p1a: Ditto
+  switch|p1a: Volbeat|Volbeat, L90, M|263/263
+-- turn 18
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x2
+  move|p2a: Azelf|Fire Blast|p1a: Volbeat|[miss]
+  -miss|p2a: Azelf|p1a: Volbeat
+  move|p1a: Volbeat|U-turn|p2a: Azelf
+  -supereffective|p2a: Azelf
+  -damage|p2a: Azelf|4/100
+-- turn 19
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x2
+  move|p2a: Azelf|Fire Blast|p1a: Volbeat
+  -supereffective|p1a: Volbeat
+  -damage|p1a: Volbeat|0 fnt
+  faint|p1a: Volbeat
+  deinit

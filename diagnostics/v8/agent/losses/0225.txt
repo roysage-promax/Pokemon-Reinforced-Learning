@@ -1,0 +1,216 @@
+battle 225 (battle-gen9randombattle-2020801): lost in 23 turns, 1 of theirs left; we are p1
+
+ours:
+  altaria (fainted; item heavydutyboots, ability naturalcure; moves dragondance/earthquake/bravebird/roost)
+  shiftry (fainted; item lifeorb, ability windrider; moves leafblade/knockoff/suckerpunch/swordsdance)
+  magcargo (fainted; item heavydutyboots, ability weakarmor; moves fireblast/earthpower/powergem/shellsmash)
+  zangoose (fainted; item toxicorb, ability toxicboost, tera normal; moves knockoff/facade/swordsdance/quickattack)
+  golurk (fainted; item lifeorb, ability noguard; moves poltergeist/stealthrock/dynamicpunch/earthquake)
+  forretress (fainted; item leftovers, ability sturdy; moves toxicspikes/voltswitch/rapidspin/ironhead)
+theirs (as seen):
+  perrserker (fainted; item lifeorb, ability ?; moves closecombat)
+  clefable (fainted; item unknown_item, ability ?; moves fireblast)
+  polteageist (fainted; item ?, ability ?; moves shadowball)
+  roaringmoon (fainted; item ?, ability protosynthesis; moves outrage)
+  bruxish (fainted; item unknown_item, ability ?; moves wavecrash)
+
+-- turn 0
+  switch|p1a: Altaria|Altaria, L89, F|278/278
+  switch|p2a: Perrserker|Perrserker, L89, M|100/100
+-- turn 1
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Altaria|Dragon Dance|p1a: Altaria
+  -boost|p1a: Altaria|atk|1
+  -boost|p1a: Altaria|spe|1
+  move|p2a: Perrserker|Close Combat|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|201/278
+  -unboost|p2a: Perrserker|def|1
+  -unboost|p2a: Perrserker|spd|1
+  -damage|p2a: Perrserker|91/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack earthquake (hand policy: setup dragondance) - our hp 0.72, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p1a: Altaria|Earthquake|p2a: Perrserker
+  -supereffective|p2a: Perrserker
+  -damage|p2a: Perrserker|9/100
+  move|p2a: Perrserker|Close Combat|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|119/278
+  -unboost|p2a: Perrserker|def|1
+  -unboost|p2a: Perrserker|spd|1
+  -damage|p2a: Perrserker|0 fnt|[from] item: Life Orb
+  faint|p2a: Perrserker
+  switch|p2a: Clefable|Clefable, L83, F|100/100
+-- turn 3
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.43, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Altaria|Brave Bird|p2a: Clefable
+  -damage|p2a: Clefable|30/100
+  -damage|p1a: Altaria|50/278|[from] Recoil
+  move|p2a: Clefable|Fire Blast|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|12/278
+-- turn 4
+  WE CHOSE: switch to magcargo (hand policy: heal roost) - our hp 0.04, theirs 0.30, predicted move (revealed) hits us x0.5
+  switch|p1a: Magcargo|Magcargo, L95, M|268/268
+  move|p2a: Clefable|Fire Blast|p1a: Magcargo
+  -resisted|p1a: Magcargo
+  -damage|p1a: Magcargo|247/268
+-- turn 5
+  WE CHOSE: setup shellsmash - our hp 0.92, theirs 0.30, predicted move (revealed) hits us x0.25
+  move|p2a: Clefable|Fire Blast|p1a: Magcargo
+  -resisted|p1a: Magcargo
+  -damage|p1a: Magcargo|226/268
+  move|p1a: Magcargo|Shell Smash|p1a: Magcargo
+  -unboost|p1a: Magcargo|def|1
+  -unboost|p1a: Magcargo|spd|1
+  -boost|p1a: Magcargo|atk|2
+  -boost|p1a: Magcargo|spa|2
+  -boost|p1a: Magcargo|spe|2
+-- turn 6
+  WE CHOSE: attack fireblast - our hp 0.84, theirs 0.30, predicted move (revealed) hits us x0.25
+  move|p1a: Magcargo|Fire Blast|p2a: Clefable
+  -damage|p2a: Clefable|0 fnt
+  faint|p2a: Clefable
+  switch|p2a: Polteageist|Polteageist, L78|100/100
+-- turn 7
+  WE CHOSE: switch to shiftry (hand policy: switch to zangoose) - our hp 0.84, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Shiftry|Shiftry, L89, F|305/305
+  move|p2a: Polteageist|Shadow Ball|p1a: Shiftry
+  -resisted|p1a: Shiftry
+  -damage|p1a: Shiftry|248/305
+-- turn 8
+  WE CHOSE: switch to zangoose (hand policy: setup swordsdance) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Zangoose|Zangoose, L85, F|263/263
+  move|p2a: Polteageist|Shadow Ball|p1a: Zangoose
+  -immune|p1a: Zangoose
+  -status|p1a: Zangoose|tox|[from] item: Toxic Orb
+-- turn 9
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Zangoose|Swords Dance|p1a: Zangoose
+  -boost|p1a: Zangoose|atk|2
+  move|p2a: Polteageist|Shadow Ball|p1a: Zangoose
+  -immune|p1a: Zangoose
+  -damage|p1a: Zangoose|247/263 tox|[from] psn
+-- turn 10
+  WE CHOSE: setup swordsdance - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Zangoose|Swords Dance|p1a: Zangoose
+  -boost|p1a: Zangoose|atk|2
+  move|p2a: Polteageist|Shadow Ball|p1a: Zangoose
+  -immune|p1a: Zangoose
+  -damage|p1a: Zangoose|215/263 tox|[from] psn
+-- turn 11
+  WE CHOSE: setup swordsdance - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Zangoose|Swords Dance|p1a: Zangoose
+  -boost|p1a: Zangoose|atk|2
+  move|p2a: Polteageist|Shadow Ball|p1a: Zangoose
+  -immune|p1a: Zangoose
+  -damage|p1a: Zangoose|167/263 tox|[from] psn
+-- turn 12
+  WE CHOSE: attack+tera knockoff (hand policy: attack knockoff) - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0
+  -terastallize|p1a: Zangoose|Normal
+  move|p1a: Zangoose|Knock Off|p2a: Polteageist
+  -supereffective|p2a: Polteageist
+  -damage|p2a: Polteageist|0 fnt
+  -enditem|p2a: Polteageist|White Herb|[from] move: Knock Off|[of] p1a: Zangoose
+  faint|p2a: Polteageist
+  -damage|p1a: Zangoose|103/263 tox|[from] psn
+  switch|p2a: Roaring Moon|Roaring Moon, L72|100/100
+  -enditem|p2a: Roaring Moon|Booster Energy
+  -activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+  -start|p2a: Roaring Moon|protosynthesisatk
+-- turn 13
+  WE CHOSE: switch to forretress (hand policy: attack facade) - our hp 0.39, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Forretress|Forretress, L84, F|263/263
+  move|p2a: Roaring Moon|Outrage|p1a: Forretress
+  -resisted|p1a: Forretress
+  -damage|p1a: Forretress|206/263
+  -heal|p1a: Forretress|222/263|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack ironhead - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Roaring Moon|Outrage|p1a: Forretress|[from] lockedmove
+  -resisted|p1a: Forretress
+  -damage|p1a: Forretress|164/263
+  move|p1a: Forretress|Iron Head|p2a: Roaring Moon
+  -damage|p2a: Roaring Moon|61/100
+  -heal|p1a: Forretress|180/263|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack ironhead - our hp 0.68, theirs 0.61, predicted move (revealed) hits us x0.5
+  move|p2a: Roaring Moon|Outrage|p1a: Forretress|[from] lockedmove
+  -resisted|p1a: Forretress
+  -damage|p1a: Forretress|125/263
+  -start|p2a: Roaring Moon|confusion|[fatigue]
+  move|p1a: Forretress|Iron Head|p2a: Roaring Moon
+  -damage|p2a: Roaring Moon|18/100
+  -heal|p1a: Forretress|141/263|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack ironhead - our hp 0.54, theirs 0.18, predicted move (revealed) hits us x0.5
+  -activate|p2a: Roaring Moon|confusion
+  move|p2a: Roaring Moon|Outrage|p1a: Forretress
+  -resisted|p1a: Forretress
+  -damage|p1a: Forretress|90/263
+  move|p1a: Forretress|Iron Head|p2a: Roaring Moon
+  -damage|p2a: Roaring Moon|0 fnt
+  faint|p2a: Roaring Moon
+  -end|p2a: Roaring Moon|Protosynthesis|[silent]
+  -heal|p1a: Forretress|106/263|[from] item: Leftovers
+  switch|p2a: Bruxish|Bruxish, L85, M|100/100
+-- turn 17
+  WE CHOSE: switch to shiftry (hand policy: attack voltswitch) - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Shiftry|Shiftry, L89, F|248/305
+  move|p2a: Bruxish|Wave Crash|p1a: Shiftry
+  -resisted|p1a: Shiftry
+  -damage|p1a: Shiftry|114/305
+  -damage|p2a: Bruxish|83/100|[from] Recoil
+-- turn 18
+  WE CHOSE: attack leafblade - our hp 0.37, theirs 0.83, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to altaria - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x0.5
+  move|p2a: Bruxish|Wave Crash|p1a: Shiftry
+  -resisted|p1a: Shiftry
+  -crit|p1a: Shiftry
+  -damage|p1a: Shiftry|0 fnt
+  faint|p1a: Shiftry
+  -damage|p2a: Bruxish|68/100|[from] Recoil
+  switch|p1a: Altaria|Altaria, L89, F|12/278
+-- turn 19
+  WE CHOSE: heal roost - our hp 0.04, theirs 0.68, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to zangoose (hand policy: forced: switch to golurk) - our hp 0.00, theirs 0.67, predicted move (revealed) hits us x0.5
+  move|p2a: Bruxish|Wave Crash|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|0 fnt
+  faint|p1a: Altaria
+  -damage|p2a: Bruxish|67/100|[from] Recoil
+  switch|p1a: Zangoose|Zangoose, L85, F, tera:Normal|103/263 tox
+-- turn 20
+  WE CHOSE: attack facade - our hp 0.39, theirs 0.67, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to forretress (hand policy: forced: switch to golurk) - our hp 0.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Bruxish|Wave Crash|p1a: Zangoose
+  -damage|p1a: Zangoose|0 fnt
+  faint|p1a: Zangoose
+  -damage|p2a: Bruxish|53/100|[from] Recoil
+  switch|p1a: Forretress|Forretress, L84, F|106/263
+-- turn 21
+  WE CHOSE: attack voltswitch - our hp 0.40, theirs 0.53, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to golurk - our hp 0.00, theirs 0.39, predicted move (revealed) hits us x1
+  move|p2a: Bruxish|Wave Crash|p1a: Forretress
+  -damage|p1a: Forretress|0 fnt
+  faint|p1a: Forretress
+  -damage|p2a: Bruxish|39/100|[from] Recoil
+  switch|p1a: Golurk|Golurk, L87|297/297
+-- turn 22
+  WE CHOSE: attack earthquake (hand policy: attack poltergeist) - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to golurk (hand policy: forced: switch to magcargo) - our hp 0.00, theirs 0.01, predicted move (revealed) hits us x2
+  move|p2a: Bruxish|Wave Crash|p1a: Golurk
+  -supereffective|p1a: Golurk
+  -damage|p1a: Golurk|0 fnt
+  faint|p1a: Golurk
+  -damage|p2a: Bruxish|1/100|[from] Recoil
+  switch|p1a: Magcargo|Magcargo, L95, M|226/268
+-- turn 23
+  WE CHOSE: attack earthpower (hand policy: attack powergem) - our hp 0.84, theirs 0.01, predicted move (revealed) hits us x4
+  move|p2a: Bruxish|Wave Crash|p1a: Magcargo
+  -supereffective|p1a: Magcargo
+  -damage|p1a: Magcargo|0 fnt
+  faint|p1a: Magcargo
+  -damage|p2a: Bruxish|0 fnt|[from] Recoil
+  faint|p2a: Bruxish
+  deinit

@@ -1,0 +1,303 @@
+battle 2789 (battle-gen9randombattle-2046825): lost in 35 turns, 2 of theirs left; we are p1
+
+ours:
+  dudunsparcethreesegment (fainted; item leftovers, ability rattled; moves boomburst/shadowball/calmmind/roost)
+  annihilape (fainted; item chestoberry, ability defiant; moves rest/bulkup/drainpunch/ragefist)
+  palkia (fainted; item choicespecs, ability pressure; moves dracometeor/fireblast/hydropump/spacialrend)
+  sunflora (fainted; item choicespecs, ability chlorophyll; moves dazzlinggleam/sludgebomb/earthpower/leafstorm)
+  volcanion (fainted; item choicescarf, ability waterabsorb, tera water; moves earthpower/steameruption/flamethrower/sludgebomb)
+  klawf (fainted; item ?, ability angershell; moves crabhammer/swordsdance/knockoff/stoneedge)
+theirs (as seen):
+  manaphy (fainted; item leftovers, ability hydration; moves hydropump/icebeam)
+  azelf (fainted; item unknown_item, ability levitate; moves fireblast)
+  raikou (fainted; item leftovers, ability pressure; moves thunderbolt)
+  bellibolt (fainted; item leftovers, ability ?; moves muddywater)
+  dugtrio (100%; item unknown_item, ability ?; moves earthquake)
+
+-- turn 0
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, M|343/343
+  switch|p2a: Manaphy|Manaphy, L78|100/100
+-- turn 1
+  WE CHOSE: switch to volcanion - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Volcanion|Volcanion, L79|255/255
+  move|p2a: Manaphy|Hydro Pump|p1a: Volcanion
+  -immune|p1a: Volcanion|[from] ability: Water Absorb
+-- turn 2
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Volcanion|Earth Power|p2a: Manaphy
+  -crit|p2a: Manaphy
+  -damage|p2a: Manaphy|64/100
+  move|p2a: Manaphy|Hydro Pump|p1a: Volcanion
+  -immune|p1a: Volcanion|[from] ability: Water Absorb
+  -heal|p2a: Manaphy|70/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: switch to sunflora (hand policy: attack earthpower) - our hp 1.00, theirs 0.70, predicted move (revealed) hits us x0
+  switch|p1a: Sunflora|Sunflora, M|312/312
+  move|p2a: Manaphy|Hydro Pump|p1a: Sunflora
+  -resisted|p1a: Sunflora
+  -damage|p1a: Sunflora|264/312
+  -heal|p2a: Manaphy|76/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: switch to palkia (hand policy: attack leafstorm) - our hp 0.85, theirs 0.76, predicted move (revealed) hits us x0.5
+  switch|p1a: Palkia|Palkia, L75|259/259
+  -ability|p1a: Palkia|Pressure
+  move|p2a: Manaphy|Hydro Pump|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|237/259
+  -heal|p2a: Manaphy|82/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: switch to sunflora (hand policy: attack dracometeor) - our hp 0.92, theirs 0.82, predicted move (revealed) hits us x0.25
+  switch|p1a: Sunflora|Sunflora, M|264/312
+  move|p2a: Manaphy|Hydro Pump|p1a: Sunflora
+  -resisted|p1a: Sunflora
+  -damage|p1a: Sunflora|218/312
+  -heal|p2a: Manaphy|88/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: switch to palkia (hand policy: attack leafstorm) - our hp 0.70, theirs 0.88, predicted move (revealed) hits us x0.5
+  switch|p1a: Palkia|Palkia, L75|237/259
+  -ability|p1a: Palkia|Pressure
+  move|p2a: Manaphy|Hydro Pump|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|214/259
+  -heal|p2a: Manaphy|94/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: switch to sunflora (hand policy: attack dracometeor) - our hp 0.83, theirs 0.94, predicted move (revealed) hits us x0.25
+  switch|p1a: Sunflora|Sunflora, M|218/312
+  move|p2a: Manaphy|Ice Beam|p1a: Sunflora
+  -supereffective|p1a: Sunflora
+  -damage|p1a: Sunflora|116/312
+  -heal|p2a: Manaphy|99/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: switch to volcanion (hand policy: attack leafstorm) - our hp 0.37, theirs 0.99, predicted move (revealed) hits us x0.5
+  switch|p1a: Volcanion|Volcanion, L79|255/255
+  move|p2a: Manaphy|Ice Beam|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|240/255
+  -heal|p2a: Manaphy|100/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack earthpower - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Volcanion|Earth Power|p2a: Manaphy
+  -damage|p2a: Manaphy|77/100
+  move|p2a: Manaphy|Ice Beam|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|227/255
+  -heal|p2a: Manaphy|83/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack earthpower - our hp 0.89, theirs 0.83, predicted move (revealed) hits us x0
+  move|p1a: Volcanion|Earth Power|p2a: Manaphy
+  -damage|p2a: Manaphy|56/100
+  move|p2a: Manaphy|Ice Beam|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|214/255
+  -status|p1a: Volcanion|frz
+  -heal|p2a: Manaphy|62/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack earthpower - our hp 0.84, theirs 0.62, predicted move (revealed) hits us x0
+  cant|p1a: Volcanion|frz
+  move|p2a: Manaphy|Ice Beam|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|200/255 frz
+  -heal|p2a: Manaphy|68/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack earthpower - our hp 0.78, theirs 0.68, predicted move (revealed) hits us x0
+  cant|p1a: Volcanion|frz
+  move|p2a: Manaphy|Ice Beam|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -crit|p1a: Volcanion
+  -damage|p1a: Volcanion|180/255 frz
+  -heal|p2a: Manaphy|74/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack earthpower - our hp 0.71, theirs 0.74, predicted move (revealed) hits us x0
+  cant|p1a: Volcanion|frz
+  move|p2a: Manaphy|Ice Beam|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|166/255 frz
+  -heal|p2a: Manaphy|80/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack+tera earthpower (hand policy: attack earthpower) - our hp 0.65, theirs 0.80, predicted move (revealed) hits us x0
+  -terastallize|p1a: Volcanion|Water
+  cant|p1a: Volcanion|frz
+  move|p2a: Manaphy|Ice Beam|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|138/255 frz
+  -heal|p2a: Manaphy|86/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack earthpower - our hp 0.54, theirs 0.86, predicted move (revealed) hits us x0
+  cant|p1a: Volcanion|frz
+  move|p2a: Manaphy|Ice Beam|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|107/255 frz
+  -heal|p2a: Manaphy|92/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack earthpower - our hp 0.42, theirs 0.92, predicted move (revealed) hits us x0
+  -curestatus|p1a: Volcanion|frz|[msg]
+  move|p1a: Volcanion|Earth Power|p2a: Manaphy
+  -damage|p2a: Manaphy|67/100
+  move|p2a: Manaphy|Ice Beam|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|76/255
+  -heal|p2a: Manaphy|73/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack earthpower - our hp 0.30, theirs 0.73, predicted move (revealed) hits us x0
+  move|p1a: Volcanion|Earth Power|p2a: Manaphy
+  -damage|p2a: Manaphy|46/100
+  move|p2a: Manaphy|Ice Beam|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|44/255
+  -heal|p2a: Manaphy|52/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack earthpower - our hp 0.17, theirs 0.52, predicted move (revealed) hits us x0
+  move|p1a: Volcanion|Earth Power|p2a: Manaphy
+  -damage|p2a: Manaphy|29/100
+  move|p2a: Manaphy|Ice Beam|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -crit|p1a: Volcanion
+  -damage|p1a: Volcanion|1/255
+  -heal|p2a: Manaphy|35/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack earthpower - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to sunflora - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x0
+  move|p1a: Volcanion|Earth Power|p2a: Manaphy
+  -damage|p2a: Manaphy|9/100
+  -unboost|p2a: Manaphy|spd|1
+  move|p2a: Manaphy|Ice Beam|p1a: Volcanion
+  -resisted|p1a: Volcanion
+  -damage|p1a: Volcanion|0 fnt
+  faint|p1a: Volcanion
+  -heal|p2a: Manaphy|15/100|[from] item: Leftovers
+  switch|p1a: Sunflora|Sunflora, M|116/312
+-- turn 20
+  WE CHOSE: attack leafstorm - our hp 0.37, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p2a: Manaphy|Ice Beam|p1a: Sunflora
+  -supereffective|p1a: Sunflora
+  -damage|p1a: Sunflora|16/312
+  move|p1a: Sunflora|Leaf Storm|p2a: Manaphy
+  -supereffective|p2a: Manaphy
+  -damage|p2a: Manaphy|0 fnt
+  -unboost|p1a: Sunflora|spa|2
+  faint|p2a: Manaphy
+  switch|p2a: Azelf|Azelf, L82|100/100
+-- turn 21
+  WE CHOSE: switch to annihilape - our hp 0.05, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Annihilape|Annihilape, L76, F|292/292
+  move|p2a: Azelf|Fire Blast|p1a: Annihilape
+  -damage|p1a: Annihilape|144/292
+-- turn 22
+  WE CHOSE: switch to palkia (hand policy: heal rest) - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Palkia|Palkia, L75|214/259
+  -ability|p1a: Palkia|Pressure
+  move|p2a: Azelf|Fire Blast|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|184/259
+-- turn 23
+  WE CHOSE: attack dracometeor - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Azelf|Fire Blast|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|154/259
+  move|p1a: Palkia|Draco Meteor|p2a: Azelf
+  -damage|p2a: Azelf|0 fnt
+  -unboost|p1a: Palkia|spa|2
+  faint|p2a: Azelf
+  switch|p2a: Raikou|Raikou, L81|100/100
+  -ability|p2a: Raikou|Pressure
+-- turn 24
+  WE CHOSE: switch to sunflora (hand policy: attack dracometeor) - our hp 0.59, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to klawf (hand policy: forced: switch to dudunsparcethreesegment) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Sunflora|Sunflora, M|16/312
+  move|p2a: Raikou|Thunderbolt|p1a: Sunflora
+  -resisted|p1a: Sunflora
+  -damage|p1a: Sunflora|0 fnt
+  faint|p1a: Sunflora
+  switch|p1a: Klawf|Klawf, L90, F|272/272
+-- turn 25
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Klawf
+  -damage|p1a: Klawf|149/272
+  move|p1a: Klawf|Stone Edge|p2a: Raikou
+  -damage|p2a: Raikou|47/100
+  -heal|p2a: Raikou|53/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack stoneedge - our hp 0.55, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Klawf
+  -damage|p1a: Klawf|22/272
+  -ability|p1a: Klawf|Anger Shell|boost
+  -boost|p1a: Klawf|atk|1
+  -boost|p1a: Klawf|spa|1
+  -boost|p1a: Klawf|spe|1
+  -unboost|p1a: Klawf|def|1
+  -unboost|p1a: Klawf|spd|1
+  -enditem|p1a: Klawf|Sitrus Berry|[eat]
+  -heal|p1a: Klawf|90/272|[from] item: Sitrus Berry
+  move|p1a: Klawf|Stone Edge|p2a: Raikou
+  -damage|p2a: Raikou|0 fnt
+  faint|p2a: Raikou
+  switch|p2a: Bellibolt|Bellibolt, L84, F|100/100
+-- turn 27
+  WE CHOSE: switch to palkia - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Palkia|Palkia, L75|154/259
+  -ability|p1a: Palkia|Pressure
+  move|p2a: Bellibolt|Muddy Water|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|141/259
+-- turn 28
+  WE CHOSE: attack dracometeor - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Palkia|Draco Meteor|p2a: Bellibolt
+  -damage|p2a: Bellibolt|25/100
+  -unboost|p1a: Palkia|spa|2
+  -start|p2a: Bellibolt|Charge|Draco Meteor|[from] ability: Electromorphosis
+  move|p2a: Bellibolt|Muddy Water|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|128/259
+  -heal|p2a: Bellibolt|31/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack dracometeor - our hp 0.49, theirs 0.31, predicted move (revealed) hits us x0.25
+  move|p1a: Palkia|Draco Meteor|p2a: Bellibolt
+  -damage|p2a: Bellibolt|0 fnt
+  -unboost|p1a: Palkia|spa|2
+  faint|p2a: Bellibolt
+  switch|p2a: Dugtrio|Dugtrio, L84, F|100/100
+-- turn 30
+  WE CHOSE: switch to dudunsparcethreesegment (hand policy: attack dracometeor) - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: switch to dudunsparcethreesegment (hand policy: attack dracometeor) - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dudunsparcethreesegment - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dugtrio|Earthquake|p1a: Palkia
+  -damage|p1a: Palkia|0 fnt
+  faint|p1a: Palkia
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, M|343/343
+-- turn 31
+  WE CHOSE: setup calmmind (hand policy: attack boomburst) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dugtrio|Earthquake|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|168/343
+  move|p1a: Dudunsparce|Calm Mind|p1a: Dudunsparce
+  -boost|p1a: Dudunsparce|spa|1
+  -boost|p1a: Dudunsparce|spd|1
+  -heal|p1a: Dudunsparce|189/343|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: setup calmmind (hand policy: attack boomburst) - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dugtrio|Earthquake|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|2/343
+  move|p1a: Dudunsparce|Calm Mind|p1a: Dudunsparce
+  -boost|p1a: Dudunsparce|spa|1
+  -boost|p1a: Dudunsparce|spd|1
+  -heal|p1a: Dudunsparce|23/343|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack boomburst (hand policy: heal roost) - our hp 0.07, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to annihilape - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dugtrio|Earthquake|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|0 fnt
+  faint|p1a: Dudunsparce
+  switch|p1a: Annihilape|Annihilape, L76, F|144/292
+-- turn 34
+  WE CHOSE: attack drainpunch (hand policy: heal rest) - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to klawf - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dugtrio|Earthquake|p1a: Annihilape
+  -damage|p1a: Annihilape|0 fnt
+  faint|p1a: Annihilape
+  switch|p1a: Klawf|Klawf, L90, F|90/272
+-- turn 35
+  WE CHOSE: attack crabhammer - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Dugtrio|Earthquake|p1a: Klawf
+  -supereffective|p1a: Klawf
+  -damage|p1a: Klawf|0 fnt
+  faint|p1a: Klawf
+  deinit

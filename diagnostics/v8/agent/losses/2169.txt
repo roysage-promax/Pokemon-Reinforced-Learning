@@ -1,0 +1,234 @@
+battle 2169 (battle-gen9randombattle-2040711): lost in 24 turns, 1 of theirs left; we are p1
+
+ours:
+  quaquaval (fainted; item choiceband, ability moxie; moves closecombat/uturn/tripleaxel/aquastep)
+  scizor (fainted; item lifeorb, ability technician; moves swordsdance/bulletpunch/knockoff/closecombat)
+  poliwrath (fainted; item assaultvest, ability waterabsorb, tera fighting; moves closecombat/knockoff/circlethrow/liquidation)
+  altaria (fainted; item heavydutyboots, ability naturalcure; moves earthquake/defog/roost/bravebird)
+  kleavor (fainted; item heavydutyboots, ability sharpness; moves xscissor/swordsdance/stoneaxe/closecombat)
+  flareon (fainted; item toxicorb, ability guts; moves facade/willowisp/flareblitz/trailblaze)
+theirs (as seen):
+  carbink (fainted; item unknown_item, ability ?; moves moonblast)
+  urshifu (fainted; item lifeorb, ability unseenfist; moves closecombat)
+  zekrom (fainted; item leftovers, ability teravolt; moves boltstrike/outrage)
+  torkoal (fainted; item unknown_item, ability ?; moves solarbeam)
+  cresselia (fainted; item ?, ability levitate; moves thunderbolt)
+  deoxys (91%; item lifeorb, ability pressure; moves psychoboost)
+
+-- turn 0
+  switch|p1a: Quaquaval|Quaquaval, L79, F|264/264
+  switch|p2a: Carbink|Carbink, L90|100/100
+-- turn 1
+  WE CHOSE: switch to scizor - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Scizor|Scizor, L79, F|240/240
+  move|p2a: Carbink|Moonblast|p1a: Scizor
+  -resisted|p1a: Scizor
+  -crit|p1a: Scizor
+  -damage|p1a: Scizor|177/240
+-- turn 2
+  WE CHOSE: setup swordsdance - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scizor|Swords Dance|p1a: Scizor
+  -boost|p1a: Scizor|atk|2
+  move|p2a: Carbink|Moonblast|p1a: Scizor
+  -resisted|p1a: Scizor
+  -damage|p1a: Scizor|135/240
+-- turn 3
+  WE CHOSE: attack bulletpunch (hand policy: attack+tera bulletpunch) - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Scizor|Bullet Punch|p2a: Carbink
+  -supereffective|p2a: Carbink
+  -damage|p2a: Carbink|0 fnt
+  faint|p2a: Carbink
+  -damage|p1a: Scizor|111/240|[from] item: Life Orb
+  switch|p2a: Urshifu|Urshifu, L74, M|100/100
+-- turn 4
+  WE CHOSE: switch to altaria (hand policy: attack closecombat) - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Altaria|Altaria, L89, F|278/278
+  move|p2a: Urshifu|Close Combat|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|197/278
+  -unboost|p2a: Urshifu|def|1
+  -unboost|p2a: Urshifu|spd|1
+  -damage|p2a: Urshifu|90/100|[from] item: Life Orb
+-- turn 5
+  WE CHOSE: attack bravebird - our hp 0.71, theirs 0.90, predicted move (revealed) hits us x0.5
+  move|p1a: Altaria|Brave Bird|p2a: Urshifu
+  -supereffective|p2a: Urshifu
+  -damage|p2a: Urshifu|0 fnt
+  faint|p2a: Urshifu
+  -damage|p1a: Altaria|117/278|[from] Recoil
+  switch|p2a: Zekrom|Zekrom, L71|100/100
+  -ability|p2a: Zekrom|Teravolt
+-- turn 6
+  WE CHOSE: heal roost - our hp 0.42, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Altaria|Roost|p1a: Altaria
+  -heal|p1a: Altaria|256/278
+  -singleturn|p1a: Altaria|move: Roost
+  move|p2a: Zekrom|Bolt Strike|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|186/278
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Altaria|Earthquake|p2a: Zekrom
+  -supereffective|p2a: Zekrom
+  -damage|p2a: Zekrom|55/100
+  move|p2a: Zekrom|Bolt Strike|p1a: Altaria
+  -damage|p1a: Altaria|50/278
+  -heal|p2a: Zekrom|61/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: heal roost - our hp 0.18, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Altaria|Roost|p1a: Altaria
+  -heal|p1a: Altaria|189/278
+  -singleturn|p1a: Altaria|move: Roost
+  move|p2a: Zekrom|Bolt Strike|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|129/278
+  -heal|p2a: Zekrom|67/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack earthquake (hand policy: heal roost) - our hp 0.46, theirs 0.67, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to scizor - our hp 0.00, theirs 0.29, predicted move (revealed) hits us x1
+  move|p1a: Altaria|Earthquake|p2a: Zekrom
+  -supereffective|p2a: Zekrom
+  -damage|p2a: Zekrom|23/100
+  move|p2a: Zekrom|Bolt Strike|p1a: Altaria
+  -damage|p1a: Altaria|0 fnt
+  faint|p1a: Altaria
+  -heal|p2a: Zekrom|29/100|[from] item: Leftovers
+  switch|p1a: Scizor|Scizor, L79, F|111/240
+-- turn 10
+  WE CHOSE: attack closecombat - our hp 0.46, theirs 0.29, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kleavor - our hp 0.00, theirs 0.36, predicted move (revealed) hits us x1
+  move|p2a: Zekrom|Bolt Strike|p1a: Scizor
+  -damage|p1a: Scizor|0 fnt
+  faint|p1a: Scizor
+  -heal|p2a: Zekrom|36/100|[from] item: Leftovers
+  switch|p1a: Kleavor|Kleavor, L78, F|237/237
+-- turn 11
+  WE CHOSE: attack stoneaxe (hand policy: attack+tera xscissor) - our hp 1.00, theirs 0.36, predicted move (revealed) hits us x1
+  move|p1a: Kleavor|Stone Axe|p2a: Zekrom|[miss]
+  -miss|p1a: Kleavor|p2a: Zekrom
+  move|p2a: Zekrom|Bolt Strike|p1a: Kleavor
+  -damage|p1a: Kleavor|95/237
+  -heal|p2a: Zekrom|42/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack stoneaxe (hand policy: attack+tera xscissor) - our hp 0.40, theirs 0.42, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to flareon - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Kleavor|Stone Axe|p2a: Zekrom|[miss]
+  -miss|p1a: Kleavor|p2a: Zekrom
+  move|p2a: Zekrom|Bolt Strike|p1a: Kleavor
+  -damage|p1a: Kleavor|0 fnt
+  faint|p1a: Kleavor
+  -heal|p2a: Zekrom|48/100|[from] item: Leftovers
+  switch|p1a: Flareon|Flareon, L90, F|263/263
+-- turn 13
+  WE CHOSE: attack flareblitz - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Zekrom|Bolt Strike|p1a: Flareon
+  -damage|p1a: Flareon|85/263
+  move|p1a: Flareon|Flare Blitz|p2a: Zekrom
+  -resisted|p2a: Zekrom
+  -damage|p2a: Zekrom|18/100
+  -damage|p1a: Flareon|59/263|[from] Recoil
+  -heal|p2a: Zekrom|24/100|[from] item: Leftovers
+  -status|p1a: Flareon|tox|[from] item: Toxic Orb
+-- turn 14
+  WE CHOSE: attack flareblitz - our hp 0.22, theirs 0.24, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to poliwrath (hand policy: forced: switch to quaquaval) - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Zekrom|Outrage|p1a: Flareon
+  -damage|p1a: Flareon|0 fnt
+  faint|p1a: Flareon
+  -heal|p2a: Zekrom|30/100|[from] item: Leftovers
+  switch|p1a: Poliwrath|Poliwrath, L88, F|302/302
+-- turn 15
+  WE CHOSE: attack+tera closecombat - our hp 1.00, theirs 0.30, predicted move (revealed) hits us x2
+  -terastallize|p1a: Poliwrath|Fighting
+  move|p1a: Poliwrath|Close Combat|p2a: Zekrom
+  -damage|p2a: Zekrom|0 fnt
+  -unboost|p1a: Poliwrath|def|1
+  -unboost|p1a: Poliwrath|spd|1
+  faint|p2a: Zekrom
+  switch|p2a: Torkoal|Torkoal, L88, F|100/100
+  -weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+-- turn 16
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Poliwrath|Liquidation|p2a: Torkoal
+  -supereffective|p2a: Torkoal
+  -damage|p2a: Torkoal|76/100
+  move|p2a: Torkoal|Solar Beam||[still]
+  -prepare|p2a: Torkoal|Solar Beam
+  -anim|p2a: Torkoal|Solar Beam|p1a: Poliwrath
+  -damage|p1a: Poliwrath|222/302
+  -weather|SunnyDay|[upkeep]
+-- turn 17
+  WE CHOSE: attack liquidation - our hp 0.74, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Poliwrath|Liquidation|p2a: Torkoal
+  -supereffective|p2a: Torkoal
+  -crit|p2a: Torkoal
+  -damage|p2a: Torkoal|37/100
+  move|p2a: Torkoal|Solar Beam||[still]
+  -prepare|p2a: Torkoal|Solar Beam
+  -anim|p2a: Torkoal|Solar Beam|p1a: Poliwrath
+  -damage|p1a: Poliwrath|143/302
+  -weather|SunnyDay|[upkeep]
+-- turn 18
+  WE CHOSE: attack liquidation - our hp 0.47, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Poliwrath|Liquidation|p2a: Torkoal
+  -supereffective|p2a: Torkoal
+  -damage|p2a: Torkoal|15/100
+  move|p2a: Torkoal|Solar Beam||[still]
+  -prepare|p2a: Torkoal|Solar Beam
+  -anim|p2a: Torkoal|Solar Beam|p1a: Poliwrath
+  -damage|p1a: Poliwrath|68/302
+  -weather|SunnyDay|[upkeep]
+-- turn 19
+  WE CHOSE: attack liquidation - our hp 0.23, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Poliwrath|Liquidation|p2a: Torkoal
+  -supereffective|p2a: Torkoal
+  -damage|p2a: Torkoal|0 fnt
+  faint|p2a: Torkoal
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Cresselia|Cresselia, L80, F|100/100
+-- turn 20
+  WE CHOSE: attack knockoff - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Cresselia|Thunderbolt|p1a: Poliwrath
+  -damage|p1a: Poliwrath|23/302
+  move|p1a: Poliwrath|Knock Off|p2a: Cresselia
+  -supereffective|p2a: Cresselia
+  -damage|p2a: Cresselia|63/100
+  -enditem|p2a: Cresselia|Leftovers|[from] move: Knock Off|[of] p1a: Poliwrath
+  -weather|none
+-- turn 21
+  WE CHOSE: attack knockoff - our hp 0.08, theirs 0.63, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to quaquaval - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p2a: Cresselia|Thunderbolt|p1a: Poliwrath
+  -damage|p1a: Poliwrath|0 fnt
+  faint|p1a: Poliwrath
+  switch|p1a: Quaquaval|Quaquaval, L79, F|264/264
+-- turn 22
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x2
+  move|p2a: Cresselia|Thunderbolt|p1a: Quaquaval
+  -supereffective|p1a: Quaquaval
+  -damage|p1a: Quaquaval|142/264
+  move|p1a: Quaquaval|U-turn|p2a: Cresselia
+  -supereffective|p2a: Cresselia
+  -damage|p2a: Cresselia|23/100
+-- turn 23
+  WE CHOSE: attack uturn - our hp 0.54, theirs 0.23, predicted move (revealed) hits us x2
+  move|p2a: Cresselia|Thunderbolt|p1a: Quaquaval
+  -supereffective|p1a: Quaquaval
+  -damage|p1a: Quaquaval|34/264
+  move|p1a: Quaquaval|U-turn|p2a: Cresselia
+  -supereffective|p2a: Cresselia
+  -damage|p2a: Cresselia|0 fnt
+  faint|p2a: Cresselia
+  -ability|p1a: Quaquaval|Moxie|boost
+  -boost|p1a: Quaquaval|atk|1
+  switch|p2a: Deoxys|Deoxys, L74|100/100
+  -ability|p2a: Deoxys|Pressure
+-- turn 24
+  WE CHOSE: attack uturn - our hp 0.13, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Deoxys|Psycho Boost|p1a: Quaquaval
+  -supereffective|p1a: Quaquaval
+  -damage|p1a: Quaquaval|0 fnt
+  -unboost|p2a: Deoxys|spa|2
+  faint|p1a: Quaquaval
+  -damage|p2a: Deoxys|91/100|[from] item: Life Orb
+  deinit

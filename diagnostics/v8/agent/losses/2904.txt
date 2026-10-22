@@ -1,0 +1,922 @@
+battle 2904 (battle-gen9randombattle-2047534): lost in 126 turns, 1 of theirs left; we are p1
+
+ours:
+  seviper (fainted; item lifeorb, ability infiltrator; moves flamethrower/gunkshot/knockoff/glare)
+  zamazenta (fainted; item chestoberry, ability dauntlessshield; moves stoneedge/rest/bodypress/irondefense)
+  uxie (fainted; item leftovers, ability levitate; moves psychicnoise/yawn/stealthrock/uturn)
+  piloswine (fainted; item eviolite, ability thickfat; moves iceshard/earthquake/roar/iciclecrash)
+  meowsticf (fainted; item lifeorb, ability competitive, tera electric; moves nastyplot/psychic/thunderbolt/darkpulse)
+  dondozo (fainted; item leftovers, ability unaware; moves wavecrash/sleeptalk/rest/curse)
+theirs (as seen):
+  jumpluff (fainted; item unknown_item, ability ?; moves acrobatics)
+  delibird (fainted; item unknown_item, ability ?; moves bravebird)
+  infernape (fainted; item unknown_item, ability ?; moves closecombat)
+  meowscarada (fainted; item unknown_item, ability ?; moves flowertrick)
+  vaporeon (fainted; item leftovers, ability waterabsorb; moves scald/roar/wish/protect)
+  rhydon (41%; item unknown_item, ability ?; moves megahorn/earthquake)
+
+-- turn 0
+  switch|p1a: Seviper|Seviper, L93, F|287/287
+  switch|p2a: Jumpluff|Jumpluff, L87, F|100/100
+-- turn 1
+  WE CHOSE: attack gunkshot (hand policy: attack+tera gunkshot) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Jumpluff|Acrobatics|p1a: Seviper
+  -damage|p1a: Seviper|184/287
+  move|p1a: Seviper|Gunk Shot|p2a: Jumpluff
+  -supereffective|p2a: Jumpluff
+  -damage|p2a: Jumpluff|0 fnt
+  faint|p2a: Jumpluff
+  -damage|p1a: Seviper|156/287|[from] item: Life Orb
+  switch|p2a: Delibird|Delibird, M|100/100
+-- turn 2
+  WE CHOSE: switch to meowsticf (hand policy: attack flamethrower) - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Meowstic|Meowstic-F, L89, F|277/277
+  move|p2a: Delibird|Brave Bird|p1a: Meowstic
+  -damage|p1a: Meowstic|96/277
+  -damage|p2a: Delibird|77/100|[from] Recoil
+-- turn 3
+  WE CHOSE: attack+tera thunderbolt - our hp 0.35, theirs 0.77, predicted move (revealed) hits us x1
+  -terastallize|p1a: Meowstic|Electric
+  move|p1a: Meowstic|Thunderbolt|p2a: Delibird
+  -supereffective|p2a: Delibird
+  -damage|p2a: Delibird|0 fnt
+  faint|p2a: Delibird
+  -damage|p1a: Meowstic|69/277|[from] item: Life Orb
+  switch|p2a: Infernape|Infernape, L82, M|100/100
+-- turn 4
+  WE CHOSE: attack psychic - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dondozo (hand policy: forced: switch to uxie) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Infernape|Close Combat|p1a: Meowstic
+  -damage|p1a: Meowstic|0 fnt
+  -unboost|p2a: Infernape|def|1
+  -unboost|p2a: Infernape|spd|1
+  faint|p1a: Meowstic
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362
+-- turn 5
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Infernape|Close Combat|p1a: Dondozo
+  -damage|p1a: Dondozo|242/362
+  -unboost|p2a: Infernape|def|1
+  -unboost|p2a: Infernape|spd|1
+  move|p1a: Dondozo|Wave Crash|p2a: Infernape
+  -supereffective|p2a: Infernape
+  -damage|p2a: Infernape|0 fnt
+  faint|p2a: Infernape
+  -damage|p1a: Dondozo|157/362|[from] Recoil
+  -heal|p1a: Dondozo|179/362|[from] item: Leftovers
+  switch|p2a: Meowscarada|Meowscarada, L78, M|100/100
+-- turn 6
+  WE CHOSE: switch to seviper - our hp 0.49, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Seviper|Seviper, L93, F|156/287
+  move|p2a: Meowscarada|Flower Trick|p1a: Seviper
+  -start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+  -resisted|p1a: Seviper
+  -crit|p1a: Seviper
+  -damage|p1a: Seviper|86/287
+-- turn 7
+  WE CHOSE: attack gunkshot - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to uxie - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p2a: Meowscarada|Flower Trick|p1a: Seviper
+  -resisted|p1a: Seviper
+  -crit|p1a: Seviper
+  -damage|p1a: Seviper|21/287
+  move|p1a: Seviper|Gunk Shot|p2a: Meowscarada
+  -supereffective|p2a: Meowscarada
+  -damage|p2a: Meowscarada|0 fnt
+  faint|p2a: Meowscarada
+  -damage|p1a: Seviper|0 fnt|[from] item: Life Orb
+  faint|p1a: Seviper
+  switch|p2a: Vaporeon|Vaporeon, L86, F|100/100
+  switch|p1a: Uxie|Uxie, L83|260/260
+-- turn 8
+  WE CHOSE: attack psychicnoise - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Uxie|Psychic Noise|p2a: Vaporeon
+  -damage|p2a: Vaporeon|85/100
+  -start|p2a: Vaporeon|move: Heal Block
+  move|p2a: Vaporeon|Scald|p1a: Uxie
+  -damage|p1a: Uxie|182/260
+  -heal|p1a: Uxie|198/260|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack psychicnoise - our hp 0.76, theirs 0.85, predicted move (revealed) hits us x1
+  move|p1a: Uxie|Psychic Noise|p2a: Vaporeon
+  -damage|p2a: Vaporeon|69/100
+  move|p2a: Vaporeon|Scald|p1a: Uxie
+  -damage|p1a: Uxie|120/260
+  -status|p1a: Uxie|brn
+  -heal|p1a: Uxie|136/260 brn|[from] item: Leftovers
+  -damage|p1a: Uxie|120/260 brn|[from] brn
+  -end|p2a: Vaporeon|move: Heal Block
+-- turn 10
+  WE CHOSE: attack psychicnoise - our hp 0.46, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Uxie|Psychic Noise|p2a: Vaporeon
+  -damage|p2a: Vaporeon|53/100
+  -start|p2a: Vaporeon|move: Heal Block
+  move|p2a: Vaporeon|Scald|p1a: Uxie
+  -damage|p1a: Uxie|39/260 brn
+  -heal|p1a: Uxie|55/260 brn|[from] item: Leftovers
+  -damage|p1a: Uxie|39/260 brn|[from] brn
+-- turn 11
+  WE CHOSE: attack psychicnoise - our hp 0.15, theirs 0.53, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dondozo (hand policy: forced: switch to zamazenta) - our hp 0.00, theirs 0.36, predicted move (revealed) hits us x1
+  move|p1a: Uxie|Psychic Noise|p2a: Vaporeon
+  -damage|p2a: Vaporeon|36/100
+  move|p2a: Vaporeon|Scald|p1a: Uxie
+  -damage|p1a: Uxie|0 fnt
+  faint|p1a: Uxie
+  -end|p2a: Vaporeon|move: Heal Block
+  switch|p1a: Dondozo|Dondozo, L78, F|179/362
+-- turn 12
+  WE CHOSE: heal rest - our hp 0.49, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|109/362
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+  -heal|p2a: Vaporeon|42/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 1.00, theirs 0.42, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|295/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p2a: Vaporeon|48/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|317/362 slp|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 0.88, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|257/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p2a: Vaporeon|54/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|279/362 slp|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack wavecrash - our hp 0.77, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|213/362 slp
+  -curestatus|p1a: Dondozo|slp|[msg]
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -heal|p2a: Vaporeon|79/100|[from] ability: Water Absorb|[of] p1a: Dondozo
+  -heal|p2a: Vaporeon|85/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|235/362|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack wavecrash - our hp 0.65, theirs 0.85, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|169/362
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -heal|p2a: Vaporeon|100/100|[from] ability: Water Absorb|[of] p1a: Dondozo
+  -heal|p1a: Dondozo|191/362|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack wavecrash - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|125/362
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -immune|p2a: Vaporeon|[from] ability: Water Absorb
+  -heal|p1a: Dondozo|147/362|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: heal rest - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|82/362
+  -status|p1a: Dondozo|brn
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+-- turn 19
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|299/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|321/362 slp|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|252/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|274/362 slp|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|205/362 slp
+  -curestatus|p1a: Dondozo|slp|[msg]
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+-- turn 22
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|301/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|323/362 slp|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|260/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|282/362 slp|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|222/362 slp
+  -curestatus|p1a: Dondozo|slp|[msg]
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+-- turn 25
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|299/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|321/362 slp|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|257/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|279/362 slp|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 0.77, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|211/362 slp
+  -curestatus|p1a: Dondozo|slp|[msg]
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+-- turn 28
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|301/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|323/362 slp|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -crit|p1a: Dondozo
+  -damage|p1a: Dondozo|218/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|240/362 slp|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack wavecrash - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|169/362 slp
+  -curestatus|p1a: Dondozo|slp|[msg]
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -immune|p2a: Vaporeon|[from] ability: Water Absorb
+  -heal|p1a: Dondozo|191/362|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack wavecrash - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Scald|p1a: Dondozo
+  -resisted|p1a: Dondozo
+  -damage|p1a: Dondozo|125/362
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -immune|p2a: Vaporeon|[from] ability: Water Absorb
+  -heal|p1a: Dondozo|147/362|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: heal rest - our hp 0.41, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+-- turn 33
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -ability|p1a: Zamazenta|Dauntless Shield|boost
+  -boost|p1a: Zamazenta|def|1
+-- turn 34
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|61/100
+  move|p2a: Vaporeon|Roar|p1a: Zamazenta
+  drag|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  -heal|p2a: Vaporeon|67/100|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.67, predicted move (revealed) hits us x0.5
+  cant|p1a: Dondozo|slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -heal|p2a: Vaporeon|73/100|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|47/100
+  move|p2a: Vaporeon|Roar|p1a: Zamazenta
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|53/100|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -heal|p2a: Vaporeon|59/100|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.59, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|34/100
+  move|p2a: Vaporeon|Roar|p1a: Zamazenta
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|40/100|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -heal|p2a: Vaporeon|46/100|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: heal rest (hand policy: attack bodypress) - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Rest|p1a: Zamazenta
+  -fail|p1a: Zamazenta|heal
+  move|p2a: Vaporeon|Roar|p1a: Zamazenta
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|52/100|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|58/100|[from] item: Leftovers
+-- turn 42
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -heal|p2a: Vaporeon|64/100|[from] item: Leftovers
+-- turn 43
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|38/100
+  move|p2a: Vaporeon|Roar|p1a: Zamazenta
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|44/100|[from] item: Leftovers
+-- turn 44
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|50/100|[from] item: Leftovers
+-- turn 45
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -heal|p2a: Vaporeon|56/100|[from] item: Leftovers
+-- turn 46
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|29/100
+  move|p2a: Vaporeon|Roar|p1a: Zamazenta
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|35/100|[from] item: Leftovers
+-- turn 47
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -heal|p2a: Vaporeon|41/100|[from] item: Leftovers
+-- turn 48
+  WE CHOSE: heal rest (hand policy: attack bodypress) - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Rest|p1a: Zamazenta
+  -fail|p1a: Zamazenta|heal
+  move|p2a: Vaporeon|Roar|p1a: Zamazenta
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|47/100|[from] item: Leftovers
+-- turn 49
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -heal|p2a: Vaporeon|53/100|[from] item: Leftovers
+-- turn 50
+  WE CHOSE: heal rest (hand policy: attack bodypress) - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Rest|p1a: Zamazenta
+  -fail|p1a: Zamazenta|heal
+  move|p2a: Vaporeon|Roar|p1a: Zamazenta
+  drag|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  -heal|p2a: Vaporeon|59/100|[from] item: Leftovers
+-- turn 51
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.59, predicted move (revealed) hits us x0.5
+  cant|p1a: Dondozo|slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|65/100|[from] item: Leftovers
+-- turn 52
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.65, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -heal|p2a: Vaporeon|71/100|[from] item: Leftovers
+-- turn 53
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|44/100
+  move|p2a: Vaporeon|Roar|p1a: Zamazenta
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|50/100|[from] item: Leftovers
+-- turn 54
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -heal|p2a: Vaporeon|56/100|[from] item: Leftovers
+-- turn 55
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.56, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|32/100
+  move|p2a: Vaporeon|Roar|p1a: Zamazenta
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|38/100|[from] item: Leftovers
+-- turn 56
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -heal|p2a: Vaporeon|44/100|[from] item: Leftovers
+-- turn 57
+  WE CHOSE: heal rest (hand policy: attack bodypress) - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Rest|p1a: Zamazenta
+  -fail|p1a: Zamazenta|heal
+  move|p2a: Vaporeon|Roar|p1a: Zamazenta
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|50/100|[from] item: Leftovers
+-- turn 58
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|57/100|[from] item: Leftovers
+-- turn 59
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -heal|p2a: Vaporeon|63/100|[from] item: Leftovers
+-- turn 60
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|36/100
+  move|p2a: Vaporeon|Roar|p1a: Zamazenta
+  drag|p1a: Dondozo|Dondozo, L78, F|362/362 slp
+  -heal|p2a: Vaporeon|42/100|[from] item: Leftovers
+-- turn 61
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 1.00, theirs 0.42, predicted move (revealed) hits us x0.5
+  -curestatus|p1a: Dondozo|slp|[msg]
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -fail|p1a: Dondozo|heal
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -heal|p2a: Vaporeon|48/100|[from] item: Leftovers
+-- turn 62
+  WE CHOSE: heal rest (hand policy: attack bodypress) - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Rest|p1a: Zamazenta
+  -fail|p1a: Zamazenta|heal
+  move|p2a: Vaporeon|Roar|p1a: Zamazenta
+  drag|p1a: Piloswine|Piloswine, L85, F|309/309
+  -heal|p2a: Vaporeon|54/100|[from] item: Leftovers
+-- turn 63
+  WE CHOSE: switch to dondozo - our hp 1.00, theirs 0.54, predicted move (revealed) hits us x2
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362
+  move|p2a: Vaporeon|Roar|p1a: Dondozo
+  drag|p1a: Zamazenta|Zamazenta, L71|248/248
+  -heal|p2a: Vaporeon|60/100|[from] item: Leftovers
+-- turn 64
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.60, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|36/100
+  move|p2a: Vaporeon|Wish|p2a: Vaporeon
+  -heal|p2a: Vaporeon|42/100|[from] item: Leftovers
+-- turn 65
+  WE CHOSE: heal rest (hand policy: attack bodypress) - our hp 1.00, theirs 0.42, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Rest|p1a: Zamazenta
+  -fail|p1a: Zamazenta|heal
+  move|p2a: Vaporeon|Wish||[still]
+  -fail|p2a: Vaporeon
+  -heal|p2a: Vaporeon|92/100|[from] move: Wish|[wisher] Vaporeon
+  -heal|p2a: Vaporeon|98/100|[from] item: Leftovers
+-- turn 66
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.98, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|75/100
+  move|p2a: Vaporeon|Wish|p2a: Vaporeon
+  -heal|p2a: Vaporeon|81/100|[from] item: Leftovers
+-- turn 67
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|57/100
+  move|p2a: Vaporeon|Wish||[still]
+  -fail|p2a: Vaporeon
+  -heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+-- turn 68
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|77/100
+  move|p2a: Vaporeon|Wish|p2a: Vaporeon
+  -heal|p2a: Vaporeon|83/100|[from] item: Leftovers
+-- turn 69
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.83, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|58/100
+  move|p2a: Vaporeon|Wish||[still]
+  -fail|p2a: Vaporeon
+  -heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+-- turn 70
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|75/100
+  move|p2a: Vaporeon|Wish|p2a: Vaporeon
+  -heal|p2a: Vaporeon|82/100|[from] item: Leftovers
+-- turn 71
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|56/100
+  move|p2a: Vaporeon|Wish||[still]
+  -fail|p2a: Vaporeon
+  -heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+-- turn 72
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Body Press|p2a: Vaporeon
+  -damage|p2a: Vaporeon|73/100
+  move|p2a: Vaporeon|Wish|p2a: Vaporeon
+  -heal|p2a: Vaporeon|79/100|[from] item: Leftovers
+-- turn 73
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.79, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Stone Edge|p2a: Vaporeon
+  -damage|p2a: Vaporeon|57/100
+  move|p2a: Vaporeon|Wish||[still]
+  -fail|p2a: Vaporeon
+  -heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+-- turn 74
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Stone Edge|p2a: Vaporeon
+  -damage|p2a: Vaporeon|80/100
+  move|p2a: Vaporeon|Wish|p2a: Vaporeon
+  -heal|p2a: Vaporeon|86/100|[from] item: Leftovers
+-- turn 75
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.86, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Stone Edge|p2a: Vaporeon
+  -damage|p2a: Vaporeon|63/100
+  move|p2a: Vaporeon|Wish||[still]
+  -fail|p2a: Vaporeon
+  -heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+-- turn 76
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Stone Edge|p2a: Vaporeon|[miss]
+  -miss|p1a: Zamazenta|p2a: Vaporeon
+  move|p2a: Vaporeon|Wish|p2a: Vaporeon
+-- turn 77
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Stone Edge|p2a: Vaporeon|[miss]
+  -miss|p1a: Zamazenta|p2a: Vaporeon
+  move|p2a: Vaporeon|Wish||[still]
+  -fail|p2a: Vaporeon
+-- turn 78
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Stone Edge|p2a: Vaporeon
+  -damage|p2a: Vaporeon|80/100
+  move|p2a: Vaporeon|Wish|p2a: Vaporeon
+  -heal|p2a: Vaporeon|86/100|[from] item: Leftovers
+-- turn 79
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.86, predicted move (revealed) hits us x1
+  move|p1a: Zamazenta|Stone Edge|p2a: Vaporeon
+  -damage|p2a: Vaporeon|67/100
+  move|p2a: Vaporeon|Wish||[still]
+  -fail|p2a: Vaporeon
+  -heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+-- turn 80
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Vaporeon|Protect|p2a: Vaporeon
+  -singleturn|p2a: Vaporeon|Protect
+  move|p1a: Zamazenta|Stone Edge|p2a: Vaporeon
+  -activate|p2a: Vaporeon|move: Protect
+-- turn 81
+  WE CHOSE: heal rest - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Vaporeon|Protect||[still]
+  -fail|p2a: Vaporeon
+  move|p1a: Zamazenta|Rest|p1a: Zamazenta
+  -fail|p1a: Zamazenta|heal
+-- turn 82
+  WE CHOSE: heal rest - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Vaporeon|Protect|p2a: Vaporeon
+  -singleturn|p2a: Vaporeon|Protect
+  move|p1a: Zamazenta|Rest|p1a: Zamazenta
+  -fail|p1a: Zamazenta|heal
+-- turn 83
+  WE CHOSE: switch to dondozo (hand policy: attack irondefense) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362
+  move|p2a: Vaporeon|Protect||[still]
+  -fail|p2a: Vaporeon
+-- turn 84
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Protect|p2a: Vaporeon
+  -singleturn|p2a: Vaporeon|Protect
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -fail|p1a: Dondozo|heal
+-- turn 85
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Protect||[still]
+  -fail|p2a: Vaporeon
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -immune|p2a: Vaporeon|[from] ability: Water Absorb
+-- turn 86
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Protect|p2a: Vaporeon
+  -singleturn|p2a: Vaporeon|Protect
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -activate|p2a: Vaporeon|move: Protect
+-- turn 87
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Protect||[still]
+  -fail|p2a: Vaporeon
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -immune|p2a: Vaporeon|[from] ability: Water Absorb
+-- turn 88
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Protect|p2a: Vaporeon
+  -singleturn|p2a: Vaporeon|Protect
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -activate|p2a: Vaporeon|move: Protect
+-- turn 89
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Protect||[still]
+  -fail|p2a: Vaporeon
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -immune|p2a: Vaporeon|[from] ability: Water Absorb
+-- turn 90
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Protect|p2a: Vaporeon
+  -singleturn|p2a: Vaporeon|Protect
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -activate|p2a: Vaporeon|move: Protect
+-- turn 91
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Protect||[still]
+  -fail|p2a: Vaporeon
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -immune|p2a: Vaporeon|[from] ability: Water Absorb
+-- turn 92
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Protect|p2a: Vaporeon
+  -singleturn|p2a: Vaporeon|Protect
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -activate|p2a: Vaporeon|move: Protect
+-- turn 93
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Protect||[still]
+  -fail|p2a: Vaporeon
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -immune|p2a: Vaporeon|[from] ability: Water Absorb
+-- turn 94
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Protect|p2a: Vaporeon
+  -singleturn|p2a: Vaporeon|Protect
+  move|p1a: Dondozo|Wave Crash|p2a: Vaporeon
+  -activate|p2a: Vaporeon|move: Protect
+-- turn 95
+  WE CHOSE: attack sleeptalk - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Vaporeon|Protect||[still]
+  -fail|p2a: Vaporeon
+  move|p1a: Dondozo|Sleep Talk||[still]
+  -fail|p1a: Dondozo
+-- turn 96
+  WE CHOSE: attack sleeptalk - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  -activate|p2a: Vaporeon|move: Struggle
+  move|p2a: Vaporeon|Struggle|p1a: Dondozo
+  -damage|p1a: Dondozo|344/362
+  -damage|p2a: Vaporeon|75/100|[from] recoil
+  move|p1a: Dondozo|Sleep Talk||[still]
+  -fail|p1a: Dondozo
+  -heal|p2a: Vaporeon|82/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|362/362|[from] item: Leftovers
+-- turn 97
+  WE CHOSE: attack sleeptalk - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0.5
+  -activate|p2a: Vaporeon|move: Struggle
+  move|p2a: Vaporeon|Struggle|p1a: Dondozo
+  -damage|p1a: Dondozo|343/362
+  -damage|p2a: Vaporeon|57/100|[from] recoil
+  move|p1a: Dondozo|Sleep Talk||[still]
+  -fail|p1a: Dondozo
+  -heal|p2a: Vaporeon|63/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|362/362|[from] item: Leftovers
+-- turn 98
+  WE CHOSE: attack sleeptalk - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x0.5
+  -activate|p2a: Vaporeon|move: Struggle
+  move|p2a: Vaporeon|Struggle|p1a: Dondozo
+  -damage|p1a: Dondozo|345/362
+  -damage|p2a: Vaporeon|38/100|[from] recoil
+  move|p1a: Dondozo|Sleep Talk||[still]
+  -fail|p1a: Dondozo
+  -heal|p2a: Vaporeon|44/100|[from] item: Leftovers
+  -heal|p1a: Dondozo|362/362|[from] item: Leftovers
+-- turn 99
+  WE CHOSE: switch to zamazenta (hand policy: attack sleeptalk) - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x0.5
+  switch|p1a: Zamazenta|Zamazenta, L71|248/248
+  -activate|p2a: Vaporeon|move: Struggle
+  move|p2a: Vaporeon|Struggle|p1a: Zamazenta
+  -damage|p1a: Zamazenta|230/248
+  -damage|p2a: Vaporeon|19/100|[from] recoil
+  -heal|p2a: Vaporeon|25/100|[from] item: Leftovers
+-- turn 100
+  WE CHOSE: switch to dondozo (hand policy: attack irondefense) - our hp 0.93, theirs 0.25, predicted move (revealed) hits us x1
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362
+  -activate|p2a: Vaporeon|move: Struggle
+  move|p2a: Vaporeon|Struggle|p1a: Dondozo
+  -damage|p1a: Dondozo|345/362
+  -damage|p2a: Vaporeon|0 fnt|[from] recoil
+  faint|p2a: Vaporeon
+  -heal|p1a: Dondozo|362/362|[from] item: Leftovers
+  switch|p2a: Rhydon|Rhydon, L85, F|100/100
+-- turn 101
+  WE CHOSE: switch to zamazenta (hand policy: attack sleeptalk) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Zamazenta|Zamazenta, L71|230/248
+  move|p2a: Rhydon|Megahorn|p1a: Zamazenta|[miss]
+  -miss|p2a: Rhydon|p1a: Zamazenta
+-- turn 102
+  WE CHOSE: switch to piloswine (hand policy: attack irondefense) - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Piloswine|Piloswine, L85, F|309/309
+  move|p2a: Rhydon|Megahorn|p1a: Piloswine
+  -damage|p1a: Piloswine|228/309
+-- turn 103
+  WE CHOSE: switch to zamazenta (hand policy: attack earthquake) - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Zamazenta|Zamazenta, L71|230/248
+  move|p2a: Rhydon|Megahorn|p1a: Zamazenta
+  -resisted|p1a: Zamazenta
+  -damage|p1a: Zamazenta|181/248
+-- turn 104
+  WE CHOSE: switch to piloswine (hand policy: attack irondefense) - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Piloswine|Piloswine, L85, F|228/309
+  move|p2a: Rhydon|Megahorn|p1a: Piloswine
+  -damage|p1a: Piloswine|143/309
+-- turn 105
+  WE CHOSE: switch to dondozo (hand policy: attack earthquake) - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dondozo|Dondozo, L78, F|362/362
+  move|p2a: Rhydon|Megahorn|p1a: Dondozo
+  -damage|p1a: Dondozo|272/362
+  -heal|p1a: Dondozo|294/362|[from] item: Leftovers
+-- turn 106
+  WE CHOSE: switch to zamazenta (hand policy: attack sleeptalk) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Zamazenta|Zamazenta, L71|181/248
+  move|p2a: Rhydon|Megahorn|p1a: Zamazenta
+  -resisted|p1a: Zamazenta
+  -damage|p1a: Zamazenta|129/248
+-- turn 107
+  WE CHOSE: switch to piloswine (hand policy: attack irondefense) - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Piloswine|Piloswine, L85, F|143/309
+  move|p2a: Rhydon|Megahorn|p1a: Piloswine
+  -damage|p1a: Piloswine|67/309
+-- turn 108
+  WE CHOSE: attack iciclecrash (hand policy: attack earthquake) - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Piloswine|Icicle Crash|p2a: Rhydon
+  -supereffective|p2a: Rhydon
+  -damage|p2a: Rhydon|70/100
+  cant|p2a: Rhydon|flinch
+-- turn 109
+  WE CHOSE: attack iciclecrash (hand policy: attack earthquake) - our hp 0.22, theirs 0.70, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to zamazenta - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x1
+  move|p1a: Piloswine|Icicle Crash|p2a: Rhydon
+  -supereffective|p2a: Rhydon
+  -damage|p2a: Rhydon|41/100
+  move|p2a: Rhydon|Megahorn|p1a: Piloswine
+  -damage|p1a: Piloswine|0 fnt
+  faint|p1a: Piloswine
+  switch|p1a: Zamazenta|Zamazenta, L71|129/248
+-- turn 110
+  WE CHOSE: attack irondefense - our hp 0.52, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+  -boost|p1a: Zamazenta|def|2
+  move|p2a: Rhydon|Megahorn|p1a: Zamazenta|[miss]
+  -miss|p2a: Rhydon|p1a: Zamazenta
+-- turn 111
+  WE CHOSE: switch to dondozo (hand policy: attack irondefense) - our hp 0.52, theirs 0.41, predicted move (revealed) hits us x0.5
+  switch|p1a: Dondozo|Dondozo, L78, F|294/362
+  move|p2a: Rhydon|Megahorn|p1a: Dondozo|[miss]
+  -miss|p2a: Rhydon|p1a: Dondozo
+  -heal|p1a: Dondozo|316/362|[from] item: Leftovers
+-- turn 112
+  WE CHOSE: switch to zamazenta (hand policy: attack sleeptalk) - our hp 0.87, theirs 0.41, predicted move (revealed) hits us x1
+  switch|p1a: Zamazenta|Zamazenta, L71|129/248
+  move|p2a: Rhydon|Megahorn|p1a: Zamazenta
+  -resisted|p1a: Zamazenta
+  -damage|p1a: Zamazenta|74/248
+-- turn 113
+  WE CHOSE: attack irondefense - our hp 0.30, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+  -boost|p1a: Zamazenta|def|2
+  move|p2a: Rhydon|Megahorn|p1a: Zamazenta
+  -resisted|p1a: Zamazenta
+  -damage|p1a: Zamazenta|49/248
+-- turn 114
+  WE CHOSE: attack irondefense - our hp 0.20, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+  -boost|p1a: Zamazenta|def|2
+  move|p2a: Rhydon|Megahorn|p1a: Zamazenta|[miss]
+  -miss|p2a: Rhydon|p1a: Zamazenta
+-- turn 115
+  WE CHOSE: attack irondefense - our hp 0.20, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+  -boost|p1a: Zamazenta|def|2
+  move|p2a: Rhydon|Megahorn|p1a: Zamazenta
+  -resisted|p1a: Zamazenta
+  -damage|p1a: Zamazenta|35/248
+-- turn 116
+  WE CHOSE: attack irondefense - our hp 0.14, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+  -boost|p1a: Zamazenta|def|0
+  move|p2a: Rhydon|Megahorn|p1a: Zamazenta|[miss]
+  -miss|p2a: Rhydon|p1a: Zamazenta
+-- turn 117
+  WE CHOSE: attack irondefense - our hp 0.14, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+  -boost|p1a: Zamazenta|def|0
+  move|p2a: Rhydon|Megahorn|p1a: Zamazenta
+  -resisted|p1a: Zamazenta
+  -damage|p1a: Zamazenta|23/248
+-- turn 118
+  WE CHOSE: attack irondefense - our hp 0.09, theirs 0.41, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dondozo - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+  -boost|p1a: Zamazenta|def|0
+  move|p2a: Rhydon|Earthquake|p1a: Zamazenta
+  -damage|p1a: Zamazenta|0 fnt
+  faint|p1a: Zamazenta
+  switch|p1a: Dondozo|Dondozo, L78, F|316/362
+-- turn 119
+  WE CHOSE: attack curse - our hp 0.87, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Rhydon|Earthquake|p1a: Dondozo
+  -damage|p1a: Dondozo|196/362
+  move|p1a: Dondozo|Curse|p1a: Dondozo
+  -unboost|p1a: Dondozo|spe|1
+  -boost|p1a: Dondozo|atk|1
+  -boost|p1a: Dondozo|def|1
+  -heal|p1a: Dondozo|218/362|[from] item: Leftovers
+-- turn 120
+  WE CHOSE: attack curse - our hp 0.60, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Rhydon|Earthquake|p1a: Dondozo
+  -damage|p1a: Dondozo|139/362
+  move|p1a: Dondozo|Curse|p1a: Dondozo
+  -unboost|p1a: Dondozo|spe|1
+  -boost|p1a: Dondozo|atk|1
+  -boost|p1a: Dondozo|def|1
+  -heal|p1a: Dondozo|161/362|[from] item: Leftovers
+-- turn 121
+  WE CHOSE: attack curse - our hp 0.44, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Rhydon|Earthquake|p1a: Dondozo
+  -damage|p1a: Dondozo|95/362
+  move|p1a: Dondozo|Curse|p1a: Dondozo
+  -unboost|p1a: Dondozo|spe|1
+  -boost|p1a: Dondozo|atk|1
+  -boost|p1a: Dondozo|def|1
+  -heal|p1a: Dondozo|117/362|[from] item: Leftovers
+-- turn 122
+  WE CHOSE: attack curse - our hp 0.32, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Rhydon|Earthquake|p1a: Dondozo
+  -damage|p1a: Dondozo|71/362
+  move|p1a: Dondozo|Curse|p1a: Dondozo
+  -unboost|p1a: Dondozo|spe|1
+  -boost|p1a: Dondozo|atk|1
+  -boost|p1a: Dondozo|def|1
+  -heal|p1a: Dondozo|93/362|[from] item: Leftovers
+-- turn 123
+  WE CHOSE: attack sleeptalk - our hp 0.26, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Rhydon|Earthquake|p1a: Dondozo
+  -damage|p1a: Dondozo|53/362
+  move|p1a: Dondozo|Sleep Talk||[still]
+  -fail|p1a: Dondozo
+  -heal|p1a: Dondozo|75/362|[from] item: Leftovers
+-- turn 124
+  WE CHOSE: attack sleeptalk - our hp 0.21, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Rhydon|Earthquake|p1a: Dondozo
+  -damage|p1a: Dondozo|32/362
+  move|p1a: Dondozo|Sleep Talk||[still]
+  -fail|p1a: Dondozo
+  -heal|p1a: Dondozo|54/362|[from] item: Leftovers
+-- turn 125
+  WE CHOSE: attack curse - our hp 0.15, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Rhydon|Earthquake|p1a: Dondozo
+  -damage|p1a: Dondozo|9/362
+  move|p1a: Dondozo|Curse|p1a: Dondozo
+  -unboost|p1a: Dondozo|spe|1
+  -boost|p1a: Dondozo|atk|1
+  -boost|p1a: Dondozo|def|1
+  -heal|p1a: Dondozo|31/362|[from] item: Leftovers
+-- turn 126
+  WE CHOSE: attack curse - our hp 0.09, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Rhydon|Earthquake|p1a: Dondozo
+  -damage|p1a: Dondozo|0 fnt
+  faint|p1a: Dondozo
+  deinit

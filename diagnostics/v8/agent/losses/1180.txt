@@ -1,0 +1,235 @@
+battle 1180 (battle-gen9randombattle-2030574): lost in 26 turns, 1 of theirs left; we are p1
+
+ours:
+  venusaur (fainted; item leftovers, ability overgrow; moves leechseed/sludgebomb/gigadrain/substitute)
+  weezinggalar (fainted; item leftovers, ability levitate; moves painsplit/gunkshot/defog/strangesteam)
+  sceptile (fainted; item lifeorb, ability overgrow; moves swordsdance/rockslide/leafblade/earthquake)
+  articunogalar (fainted; item heavydutyboots, ability competitive; moves recover/hurricane/calmmind/freezingglare)
+  rotomfrost (fainted; item heavydutyboots, ability levitate, tera electric; moves thunderbolt/blizzard/willowisp/nastyplot)
+  screamtail (fainted; item leftovers, ability protosynthesis; moves playrough/encore/wish/protect)
+theirs (as seen):
+  leafeon (fainted; item unknown_item, ability ?; moves doubleedge)
+  giratina (fainted; item unknown_item, ability pressure; moves shadowball)
+  delphox (fainted; item unknown_item, ability ?; moves focusblast)
+  terapagos (fainted; item unknown_item, ability terashell; moves terastarstorm)
+  meowscarada (fainted; item unknown_item, ability ?; moves flowertrick)
+  pincurchin (45%; item leftovers, ability ?; moves liquidation)
+
+-- turn 0
+  switch|p1a: Venusaur|Venusaur, L84, F|272/272
+  switch|p2a: Leafeon|Leafeon, L88, M|100/100
+-- turn 1
+  WE CHOSE: attack sludgebomb - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Leafeon|Double-Edge|p1a: Venusaur
+  -damage|p1a: Venusaur|172/272
+  -damage|p2a: Leafeon|88/100|[from] Recoil
+  move|p1a: Venusaur|Sludge Bomb|p2a: Leafeon
+  -supereffective|p2a: Leafeon
+  -damage|p2a: Leafeon|0 fnt
+  faint|p2a: Leafeon
+  -heal|p1a: Venusaur|189/272|[from] item: Leftovers
+  switch|p2a: Giratina|Giratina, L75|100/100
+  -ability|p2a: Giratina|Pressure
+-- turn 2
+  WE CHOSE: switch to weezinggalar - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Weezing|Weezing-Galar, L86, F|252/252
+  move|p2a: Giratina|Shadow Ball|p1a: Weezing
+  -damage|p1a: Weezing|173/252
+  -heal|p1a: Weezing|188/252|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: switch to rotomfrost (hand policy: attack strangesteam) - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Rotom|Rotom-Frost, L87|229/229
+  move|p2a: Giratina|Shadow Ball|p1a: Rotom
+  -damage|p1a: Rotom|169/229
+-- turn 4
+  WE CHOSE: setup nastyplot (hand policy: attack blizzard) - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Rotom|Nasty Plot|p1a: Rotom
+  -boost|p1a: Rotom|spa|2
+  move|p2a: Giratina|Shadow Ball|p1a: Rotom
+  -damage|p1a: Rotom|108/229
+-- turn 5
+  WE CHOSE: attack+tera blizzard (hand policy: attack blizzard) - our hp 0.47, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Rotom|Electric
+  move|p1a: Rotom|Blizzard|p2a: Giratina
+  -supereffective|p2a: Giratina
+  -damage|p2a: Giratina|0 fnt
+  faint|p2a: Giratina
+  switch|p2a: Delphox|Delphox, L84, M|100/100
+-- turn 6
+  WE CHOSE: switch to weezinggalar (hand policy: attack thunderbolt) - our hp 0.47, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Weezing|Weezing-Galar, L86, F|188/252
+  move|p2a: Delphox|Focus Blast|p1a: Weezing
+  -resisted|p1a: Weezing
+  -damage|p1a: Weezing|159/252
+  -heal|p1a: Weezing|174/252|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack gunkshot - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Delphox|Focus Blast|p1a: Weezing
+  -resisted|p1a: Weezing
+  -damage|p1a: Weezing|147/252
+  move|p1a: Weezing|Gunk Shot|p2a: Delphox|[miss]
+  -miss|p1a: Weezing|p2a: Delphox
+  -heal|p1a: Weezing|162/252|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack gunkshot - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Delphox|Focus Blast|p1a: Weezing|[miss]
+  -miss|p2a: Delphox|p1a: Weezing
+  move|p1a: Weezing|Gunk Shot|p2a: Delphox
+  -damage|p2a: Delphox|47/100
+  -heal|p1a: Weezing|177/252|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack gunkshot - our hp 0.70, theirs 0.47, predicted move (revealed) hits us x0.25
+  move|p2a: Delphox|Focus Blast|p1a: Weezing|[miss]
+  -miss|p2a: Delphox|p1a: Weezing
+  move|p1a: Weezing|Gunk Shot|p2a: Delphox
+  -crit|p2a: Delphox
+  -damage|p2a: Delphox|0 fnt
+  faint|p2a: Delphox
+  -heal|p1a: Weezing|192/252|[from] item: Leftovers
+  switch|p2a: Terapagos|Terapagos, L77, M|100/100
+  -activate|p2a: Terapagos|ability: Tera Shift
+  detailschange|p2a: Terapagos|Terapagos-Terastal, L77, M
+  -heal|p2a: Terapagos|100/100|[silent]
+-- turn 10
+  WE CHOSE: switch to rotomfrost (hand policy: attack gunkshot) - our hp 0.76, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Rotom|Rotom-Frost, L87, tera:Electric|108/229
+  move|p2a: Terapagos|Tera Starstorm|p1a: Rotom
+  -damage|p1a: Rotom|8/229
+-- turn 11
+  WE CHOSE: attack thunderbolt - our hp 0.03, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to weezinggalar - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Rotom|Thunderbolt|p2a: Terapagos
+  -activate|p2a: Terapagos|ability: Tera Shell
+  -resisted|p2a: Terapagos
+  -damage|p2a: Terapagos|76/100
+  move|p2a: Terapagos|Tera Starstorm|p1a: Rotom
+  -damage|p1a: Rotom|0 fnt
+  faint|p1a: Rotom
+  switch|p1a: Weezing|Weezing-Galar, L86, F|192/252
+-- turn 12
+  WE CHOSE: switch to venusaur (hand policy: attack gunkshot) - our hp 0.76, theirs 0.76, predicted move (revealed) hits us x1
+  switch|p1a: Venusaur|Venusaur, L84, F|189/272
+  move|p2a: Terapagos|Tera Starstorm|p1a: Venusaur
+  -damage|p1a: Venusaur|78/272
+  -heal|p1a: Venusaur|95/272|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack sludgebomb - our hp 0.35, theirs 0.76, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to weezinggalar - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Venusaur|Sludge Bomb|p2a: Terapagos
+  -damage|p2a: Terapagos|46/100
+  move|p2a: Terapagos|Tera Starstorm|p1a: Venusaur
+  -damage|p1a: Venusaur|0 fnt
+  faint|p1a: Venusaur
+  switch|p1a: Weezing|Weezing-Galar, L86, F|192/252
+-- turn 14
+  WE CHOSE: attack gunkshot - our hp 0.76, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Terapagos|Tera Starstorm|p1a: Weezing
+  -damage|p1a: Weezing|53/252
+  move|p1a: Weezing|Gunk Shot|p2a: Terapagos|[miss]
+  -miss|p1a: Weezing|p2a: Terapagos
+  -heal|p1a: Weezing|68/252|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: switch to sceptile (hand policy: attack gunkshot) - our hp 0.27, theirs 0.46, predicted move (revealed) hits us x1
+  switch|p1a: Sceptile|Sceptile, L87, F|264/264
+  move|p2a: Terapagos|Tera Starstorm|p1a: Sceptile
+  -damage|p1a: Sceptile|144/264
+-- turn 16
+  WE CHOSE: attack leafblade - our hp 0.55, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Sceptile|Leaf Blade|p2a: Terapagos
+  -damage|p2a: Terapagos|7/100
+  -damage|p1a: Sceptile|118/264|[from] item: Life Orb
+  move|p2a: Terapagos|Tera Starstorm|p1a: Sceptile
+  -damage|p1a: Sceptile|1/264
+-- turn 17
+  WE CHOSE: attack leafblade - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to screamtail (hand policy: forced: switch to weezinggalar) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Sceptile|Leaf Blade|p2a: Terapagos
+  -damage|p2a: Terapagos|0 fnt
+  faint|p2a: Terapagos
+  -damage|p1a: Sceptile|0 fnt|[from] item: Life Orb
+  faint|p1a: Sceptile
+  switch|p1a: Scream Tail|Scream Tail, L84|330/330
+  switch|p2a: Meowscarada|Meowscarada, L78, F|100/100
+-- turn 18
+  WE CHOSE: switch to weezinggalar (hand policy: attack playrough) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -end|p1a: Scream Tail|Protosynthesis|[silent]
+  switch|p1a: Weezing|Weezing-Galar, L86, F|68/252
+  move|p2a: Meowscarada|Flower Trick|p1a: Weezing
+  -start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+  -resisted|p1a: Weezing
+  -crit|p1a: Weezing
+  -damage|p1a: Weezing|27/252
+  -heal|p1a: Weezing|42/252|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack gunkshot - our hp 0.17, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to articunogalar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Meowscarada|Flower Trick|p1a: Weezing
+  -resisted|p1a: Weezing
+  -crit|p1a: Weezing
+  -damage|p1a: Weezing|0 fnt
+  faint|p1a: Weezing
+  switch|p1a: Articuno|Articuno-Galar, L84|288/288
+-- turn 20
+  WE CHOSE: attack hurricane (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Meowscarada|Flower Trick|p1a: Articuno
+  -resisted|p1a: Articuno
+  -crit|p1a: Articuno
+  -damage|p1a: Articuno|237/288
+  move|p1a: Articuno|Hurricane|p2a: Meowscarada|[miss]
+  -miss|p1a: Articuno|p2a: Meowscarada
+-- turn 21
+  WE CHOSE: attack hurricane (hand policy: setup calmmind) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Meowscarada|Flower Trick|p1a: Articuno
+  -resisted|p1a: Articuno
+  -crit|p1a: Articuno
+  -damage|p1a: Articuno|181/288
+  move|p1a: Articuno|Hurricane|p2a: Meowscarada
+  -supereffective|p2a: Meowscarada
+  -damage|p2a: Meowscarada|0 fnt
+  faint|p2a: Meowscarada
+  switch|p2a: Pincurchin|Pincurchin, F|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+-- turn 22
+  WE CHOSE: setup calmmind (hand policy: attack freezingglare) - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Articuno|Calm Mind|p1a: Articuno
+  -boost|p1a: Articuno|spa|1
+  -boost|p1a: Articuno|spd|1
+  move|p2a: Pincurchin|Liquidation|p1a: Articuno
+  -damage|p1a: Articuno|93/288
+-- turn 23
+  WE CHOSE: setup calmmind (hand policy: heal recover) - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to screamtail - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Articuno|Calm Mind|p1a: Articuno
+  -boost|p1a: Articuno|spa|1
+  -boost|p1a: Articuno|spd|1
+  move|p2a: Pincurchin|Liquidation|p1a: Articuno
+  -damage|p1a: Articuno|0 fnt
+  faint|p1a: Articuno
+  switch|p1a: Scream Tail|Scream Tail, L84|330/330
+-- turn 24
+  WE CHOSE: attack playrough - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Scream Tail|Play Rough|p2a: Pincurchin
+  -damage|p2a: Pincurchin|77/100
+  move|p2a: Pincurchin|Liquidation|p1a: Scream Tail
+  -crit|p1a: Scream Tail
+  -damage|p1a: Scream Tail|205/330
+  -unboost|p1a: Scream Tail|def|1
+  -heal|p1a: Scream Tail|225/330|[from] item: Leftovers
+  -heal|p2a: Pincurchin|83/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack playrough - our hp 0.68, theirs 0.83, predicted move (revealed) hits us x1
+  move|p1a: Scream Tail|Play Rough|p2a: Pincurchin
+  -damage|p2a: Pincurchin|61/100
+  move|p2a: Pincurchin|Liquidation|p1a: Scream Tail
+  -damage|p1a: Scream Tail|101/330
+  -heal|p1a: Scream Tail|121/330|[from] item: Leftovers
+  -heal|p2a: Pincurchin|67/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack playrough - our hp 0.37, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Scream Tail|Play Rough|p2a: Pincurchin
+  -damage|p2a: Pincurchin|45/100
+  move|p2a: Pincurchin|Liquidation|p1a: Scream Tail
+  -damage|p1a: Scream Tail|0 fnt
+  faint|p1a: Scream Tail
+  -end|p1a: Scream Tail|Protosynthesis|[silent]
+  deinit

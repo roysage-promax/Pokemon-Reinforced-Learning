@@ -1,0 +1,238 @@
+battle 2107 (battle-gen9randombattle-2038282): lost in 23 turns, 1 of theirs left; we are p1
+
+ours:
+  braviary (fainted; item heavydutyboots, ability defiant, tera steel; moves closecombat/bravebird/bulkup/roost)
+  florgesyellow (fainted; item leftovers, ability flowerveil; moves wish/protect/calmmind/moonblast)
+  greattusk (fainted; item assaultvest, ability protosynthesis; moves closecombat/stoneedge/rapidspin/headlongrush)
+  copperajah (fainted; item lifeorb, ability sheerforce; moves superpower/playrough/rockslide/ironhead)
+  orthworm (fainted; item leftovers, ability eartheater; moves spikes/heavyslam/stealthrock/bodypress)
+  espeon (fainted; item lifeorb, ability magicbounce; moves psychic/alluringvoice/calmmind/shadowball)
+theirs (as seen):
+  skarmory (fainted; item leftovers, ability ?; moves bravebird)
+  salazzle (fainted; item unknown_item, ability ?; moves fireblast)
+  ludicolo (fainted; item unknown_item, ability ?; moves leafstorm)
+  meloetta (fainted; item unknown_item, ability serenegrace; moves focusblast)
+  chiyu (fainted; item unknown_item, ability beadsofruin; moves fireblast)
+  tsareena (72%; item unknown_item, ability ?; moves highjumpkick)
+
+-- turn 0
+  switch|p1a: Braviary|Braviary, L85, M|309/309
+  switch|p2a: Skarmory|Skarmory, L80, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera closecombat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Braviary|Steel
+  move|p1a: Braviary|Close Combat|p2a: Skarmory
+  -damage|p2a: Skarmory|69/100
+  -unboost|p1a: Braviary|def|1
+  -unboost|p1a: Braviary|spd|1
+  move|p2a: Skarmory|Brave Bird|p1a: Braviary
+  -resisted|p1a: Braviary
+  -damage|p1a: Braviary|217/309
+  -damage|p2a: Skarmory|57/100|[from] Recoil
+  -heal|p2a: Skarmory|63/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: setup bulkup - our hp 0.70, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p1a: Braviary|Bulk Up|p1a: Braviary
+  -boost|p1a: Braviary|atk|1
+  -boost|p1a: Braviary|def|1
+  move|p2a: Skarmory|Brave Bird|p1a: Braviary
+  -resisted|p1a: Braviary
+  -damage|p1a: Braviary|166/309
+  -damage|p2a: Skarmory|55/100|[from] Recoil
+  -heal|p2a: Skarmory|61/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: setup bulkup - our hp 0.54, theirs 0.61, predicted move (revealed) hits us x0.5
+  move|p1a: Braviary|Bulk Up|p1a: Braviary
+  -boost|p1a: Braviary|atk|1
+  -boost|p1a: Braviary|def|1
+  move|p2a: Skarmory|Brave Bird|p1a: Braviary
+  -resisted|p1a: Braviary
+  -damage|p1a: Braviary|126/309
+  -damage|p2a: Skarmory|56/100|[from] Recoil
+  -heal|p2a: Skarmory|62/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: heal roost - our hp 0.41, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p1a: Braviary|Roost|p1a: Braviary
+  -heal|p1a: Braviary|281/309
+  move|p2a: Skarmory|Brave Bird|p1a: Braviary
+  -resisted|p1a: Braviary
+  -damage|p1a: Braviary|247/309
+  -damage|p2a: Skarmory|57/100|[from] Recoil
+  -heal|p2a: Skarmory|63/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack closecombat - our hp 0.80, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p1a: Braviary|Close Combat|p2a: Skarmory
+  -damage|p2a: Skarmory|0 fnt
+  -unboost|p1a: Braviary|def|1
+  -unboost|p1a: Braviary|spd|1
+  faint|p2a: Skarmory
+  switch|p2a: Salazzle|Salazzle, L83, F|100/100
+-- turn 6
+  WE CHOSE: attack bravebird - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to greattusk - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Salazzle|Fire Blast|p1a: Braviary
+  -supereffective|p1a: Braviary
+  -damage|p1a: Braviary|0 fnt
+  faint|p1a: Braviary
+  switch|p1a: Great Tusk|Great Tusk, L77|304/304
+-- turn 7
+  WE CHOSE: attack headlongrush - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Salazzle|Fire Blast|p1a: Great Tusk
+  -damage|p1a: Great Tusk|166/304
+  move|p1a: Great Tusk|Headlong Rush|p2a: Salazzle
+  -supereffective|p2a: Salazzle
+  -damage|p2a: Salazzle|0 fnt
+  -unboost|p1a: Great Tusk|def|1
+  -unboost|p1a: Great Tusk|spd|1
+  faint|p2a: Salazzle
+  switch|p2a: Ludicolo|Ludicolo, L90, F|100/100
+-- turn 8
+  WE CHOSE: switch to copperajah - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x2
+  -end|p1a: Great Tusk|Protosynthesis|[silent]
+  switch|p1a: Copperajah|Copperajah, L86, M|350/350
+  move|p2a: Ludicolo|Leaf Storm|p1a: Copperajah
+  -resisted|p1a: Copperajah
+  -damage|p1a: Copperajah|224/350
+  -unboost|p2a: Ludicolo|spa|2
+-- turn 9
+  WE CHOSE: attack superpower - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Ludicolo|Leaf Storm|p1a: Copperajah
+  -resisted|p1a: Copperajah
+  -damage|p1a: Copperajah|156/350
+  -unboost|p2a: Ludicolo|spa|2
+  move|p1a: Copperajah|Superpower|p2a: Ludicolo
+  -damage|p2a: Ludicolo|48/100
+  -unboost|p1a: Copperajah|atk|1
+  -unboost|p1a: Copperajah|def|1
+  -damage|p1a: Copperajah|121/350|[from] item: Life Orb
+-- turn 10
+  WE CHOSE: attack superpower - our hp 0.35, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p2a: Ludicolo|Leaf Storm|p1a: Copperajah
+  -resisted|p1a: Copperajah
+  -damage|p1a: Copperajah|81/350
+  -unboost|p2a: Ludicolo|spa|2
+  move|p1a: Copperajah|Superpower|p2a: Ludicolo
+  -damage|p2a: Ludicolo|8/100
+  -unboost|p1a: Copperajah|atk|1
+  -unboost|p1a: Copperajah|def|1
+  -damage|p1a: Copperajah|46/350|[from] item: Life Orb
+-- turn 11
+  WE CHOSE: attack superpower - our hp 0.13, theirs 0.08, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to orthworm - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p2a: Ludicolo|Leaf Storm|p1a: Copperajah
+  -resisted|p1a: Copperajah
+  -damage|p1a: Copperajah|11/350
+  move|p1a: Copperajah|Superpower|p2a: Ludicolo
+  -damage|p2a: Ludicolo|0 fnt
+  -unboost|p1a: Copperajah|atk|1
+  -unboost|p1a: Copperajah|def|1
+  faint|p2a: Ludicolo
+  -damage|p1a: Copperajah|0 fnt|[from] item: Life Orb
+  faint|p1a: Copperajah
+  switch|p2a: Meloetta|Meloetta, L82|100/100
+  switch|p1a: Orthworm|Orthworm, L88, F|266/266
+-- turn 12
+  WE CHOSE: switch to florgesyellow - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Florges|Florges-Yellow, L85, F|271/271
+  move|p2a: Meloetta|Focus Blast|p1a: Florges
+  -resisted|p1a: Florges
+  -damage|p1a: Florges|223/271
+  -unboost|p1a: Florges|spd|1
+  -heal|p1a: Florges|239/271|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: setup calmmind - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Meloetta|Focus Blast|p1a: Florges
+  -resisted|p1a: Florges
+  -damage|p1a: Florges|173/271
+  -unboost|p1a: Florges|spd|1
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  -heal|p1a: Florges|189/271|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: setup calmmind - our hp 0.70, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Meloetta|Focus Blast|p1a: Florges
+  -resisted|p1a: Florges
+  -damage|p1a: Florges|115/271
+  move|p1a: Florges|Calm Mind|p1a: Florges
+  -boost|p1a: Florges|spa|1
+  -boost|p1a: Florges|spd|1
+  -heal|p1a: Florges|131/271|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack moonblast - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Meloetta|Focus Blast|p1a: Florges
+  -resisted|p1a: Florges
+  -damage|p1a: Florges|84/271
+  move|p1a: Florges|Moonblast|p2a: Meloetta
+  -damage|p2a: Meloetta|43/100
+  -unboost|p2a: Meloetta|spa|1
+  -heal|p1a: Florges|100/271|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack moonblast - our hp 0.37, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p2a: Meloetta|Focus Blast|p1a: Florges
+  -resisted|p1a: Florges
+  -damage|p1a: Florges|67/271
+  move|p1a: Florges|Moonblast|p2a: Meloetta
+  -damage|p2a: Meloetta|0 fnt
+  faint|p2a: Meloetta
+  -heal|p1a: Florges|83/271|[from] item: Leftovers
+  switch|p2a: Chi-Yu|Chi-Yu, L77|100/100
+  -ability|p2a: Chi-Yu|Beads of Ruin
+-- turn 17
+  WE CHOSE: attack moonblast - our hp 0.31, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to greattusk - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Chi-Yu|Fire Blast|p1a: Florges
+  -crit|p1a: Florges
+  -damage|p1a: Florges|0 fnt
+  faint|p1a: Florges
+  switch|p1a: Great Tusk|Great Tusk, L77|166/304
+-- turn 18
+  WE CHOSE: attack closecombat - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to espeon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Chi-Yu|Fire Blast|p1a: Great Tusk
+  -damage|p1a: Great Tusk|0 fnt
+  faint|p1a: Great Tusk
+  -end|p1a: Great Tusk|Protosynthesis|[silent]
+  switch|p1a: Espeon|Espeon, L84, F|246/246
+-- turn 19
+  WE CHOSE: attack alluringvoice - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Espeon|Alluring Voice|p2a: Chi-Yu
+  -damage|p2a: Chi-Yu|62/100
+  -damage|p1a: Espeon|222/246|[from] item: Life Orb
+  move|p2a: Chi-Yu|Fire Blast|p1a: Espeon|[miss]
+  -miss|p2a: Chi-Yu|p1a: Espeon
+-- turn 20
+  WE CHOSE: attack alluringvoice - our hp 0.90, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Espeon|Alluring Voice|p2a: Chi-Yu
+  -damage|p2a: Chi-Yu|24/100
+  -damage|p1a: Espeon|198/246|[from] item: Life Orb
+  move|p2a: Chi-Yu|Fire Blast|p1a: Espeon
+  -damage|p1a: Espeon|45/246
+  -status|p1a: Espeon|brn
+  -damage|p1a: Espeon|30/246 brn|[from] brn
+-- turn 21
+  WE CHOSE: attack alluringvoice - our hp 0.12, theirs 0.24, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to orthworm - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Espeon|Alluring Voice|p2a: Chi-Yu
+  -damage|p2a: Chi-Yu|0 fnt
+  faint|p2a: Chi-Yu
+  -damage|p1a: Espeon|6/246 brn|[from] item: Life Orb
+  -damage|p1a: Espeon|0 fnt|[from] brn
+  faint|p1a: Espeon
+  switch|p1a: Orthworm|Orthworm, L88, F|266/266
+  switch|p2a: Tsareena|Tsareena, L87, F|100/100
+-- turn 22
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Tsareena|High Jump Kick|p1a: Orthworm
+  -supereffective|p1a: Orthworm
+  -damage|p1a: Orthworm|120/266
+  move|p1a: Orthworm|Body Press|p2a: Tsareena
+  -damage|p2a: Tsareena|72/100
+  -heal|p1a: Orthworm|136/266|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack bodypress - our hp 0.51, theirs 0.72, predicted move (revealed) hits us x2
+  move|p2a: Tsareena|High Jump Kick|p1a: Orthworm
+  -supereffective|p1a: Orthworm
+  -damage|p1a: Orthworm|0 fnt
+  faint|p1a: Orthworm
+  deinit

@@ -1,0 +1,337 @@
+battle 2315 (battle-gen9randombattle-2040226): lost in 42 turns, 2 of theirs left; we are p1
+
+ours:
+  glimmora (fainted; item powerherb, ability toxicdebris, tera grass; moves earthpower/meteorbeam/sludgewave/energyball)
+  hippowdon (fainted; item leftovers, ability sandstream; moves earthquake/slackoff/stealthrock/whirlwind)
+  weavile (fainted; item choiceband, ability pickpocket; moves tripleaxel/lowkick/iceshard/knockoff)
+  ariados (fainted; item heavydutyboots, ability insomnia; moves stickyweb/poisonjab/megahorn/knockoff)
+  lucario (fainted; item lifeorb, ability justified; moves extremespeed/swordsdance/closecombat/meteormash)
+  hatterene (fainted; item leftovers, ability magicbounce; moves calmmind/drainingkiss/psychic/mysticalfire)
+theirs (as seen):
+  gallade (fainted; item lifeorb, ability ?; moves sacredsword)
+  meloetta (fainted; item lifeorb, ability serenegrace; moves closecombat)
+  excadrill (fainted; item unknown_item, ability moldbreaker; moves earthquake)
+  rotomfan (fainted; item unknown_item, ability levitate; moves thunderbolt/airslash)
+  entei (4%; item unknown_item, ability ?; moves flareblitz)
+
+-- turn 0
+  switch|p1a: Glimmora|Glimmora, L75, F|248/248
+  switch|p2a: Gallade|Gallade, L80, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera sludgewave - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Glimmora|Grass
+  move|p2a: Gallade|Sacred Sword|p1a: Glimmora
+  -damage|p1a: Glimmora|28/248
+  -activate|p1a: Glimmora|ability: Toxic Debris
+  -sidestart|p2: e2_035154|move: Toxic Spikes
+  -damage|p2a: Gallade|90/100|[from] item: Life Orb
+  move|p1a: Glimmora|Sludge Wave|p2a: Gallade
+  -damage|p2a: Gallade|53/100
+-- turn 2
+  WE CHOSE: attack sludgewave - our hp 0.11, theirs 0.53, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ariados - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p2a: Gallade|Sacred Sword|p1a: Glimmora
+  -damage|p1a: Glimmora|0 fnt
+  -activate|p1a: Glimmora|ability: Toxic Debris
+  -sidestart|p2: e2_035154|move: Toxic Spikes
+  faint|p1a: Glimmora
+  -damage|p2a: Gallade|43/100|[from] item: Life Orb
+  switch|p1a: Ariados|Ariados, L95, M|287/287
+-- turn 3
+  WE CHOSE: attack megahorn - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x0.25
+  move|p2a: Gallade|Sacred Sword|p1a: Ariados
+  -resisted|p1a: Ariados
+  -damage|p1a: Ariados|235/287
+  -damage|p2a: Gallade|33/100|[from] item: Life Orb
+  move|p1a: Ariados|Megahorn|p2a: Gallade
+  -damage|p2a: Gallade|0 fnt
+  faint|p2a: Gallade
+  switch|p2a: Meloetta|Meloetta, L82|100/100
+  -status|p2a: Meloetta|tox
+-- turn 4
+  WE CHOSE: attack megahorn - our hp 0.82, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p2a: Meloetta|Close Combat|p1a: Ariados
+  -resisted|p1a: Ariados
+  -crit|p1a: Ariados
+  -damage|p1a: Ariados|200/287
+  -unboost|p2a: Meloetta|def|1
+  -unboost|p2a: Meloetta|spd|1
+  -damage|p2a: Meloetta|91/100 tox|[from] item: Life Orb
+  move|p1a: Ariados|Megahorn|p2a: Meloetta|[miss]
+  -miss|p1a: Ariados|p2a: Meloetta
+  -damage|p2a: Meloetta|85/100 tox|[from] psn
+-- turn 5
+  WE CHOSE: attack megahorn - our hp 0.70, theirs 0.85, predicted move (revealed) hits us x0.25
+  move|p2a: Meloetta|Close Combat|p1a: Ariados
+  -resisted|p1a: Ariados
+  -damage|p1a: Ariados|179/287
+  -unboost|p2a: Meloetta|def|1
+  -unboost|p2a: Meloetta|spd|1
+  -damage|p2a: Meloetta|75/100 tox|[from] item: Life Orb
+  move|p1a: Ariados|Megahorn|p2a: Meloetta
+  -supereffective|p2a: Meloetta
+  -damage|p2a: Meloetta|0 fnt
+  faint|p2a: Meloetta
+  switch|p2a: Excadrill|Excadrill, L79, M|100/100
+  -ability|p2a: Excadrill|Mold Breaker
+-- turn 6
+  WE CHOSE: attack megahorn - our hp 0.62, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Excadrill|Earthquake|p1a: Ariados
+  -damage|p1a: Ariados|41/287
+  move|p1a: Ariados|Megahorn|p2a: Excadrill
+  -resisted|p2a: Excadrill
+  -damage|p2a: Excadrill|68/100
+-- turn 7
+  WE CHOSE: attack megahorn - our hp 0.14, theirs 0.68, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hippowdon - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p2a: Excadrill|Earthquake|p1a: Ariados
+  -damage|p1a: Ariados|0 fnt
+  faint|p1a: Ariados
+  switch|p1a: Hippowdon|Hippowdon, L82, M|311/311
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p2a: Excadrill|Earthquake|p1a: Hippowdon
+  -damage|p1a: Hippowdon|208/311
+  move|p1a: Hippowdon|Earthquake|p2a: Excadrill
+  -supereffective|p2a: Excadrill
+  -damage|p2a: Excadrill|0 fnt
+  faint|p2a: Excadrill
+  -weather|Sandstorm|[upkeep]
+  -heal|p1a: Hippowdon|227/311|[from] item: Leftovers
+  switch|p2a: Rotom|Rotom-Fan, L86|100/100
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Rotom|94/100|[from] Sandstorm
+  -heal|p1a: Hippowdon|246/311|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.79, theirs 0.94, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Rotom|88/100|[from] Sandstorm
+  -heal|p1a: Hippowdon|265/311|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 0.85, theirs 0.88, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Rotom|82/100|[from] Sandstorm
+  -heal|p1a: Hippowdon|284/311|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack earthquake - our hp 0.91, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+  -weather|none
+  -heal|p1a: Hippowdon|303/311|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 0.97, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+  -heal|p1a: Hippowdon|311/311|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+-- turn 18
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+-- turn 19
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Earthquake|p2a: Rotom
+  -immune|p2a: Rotom
+-- turn 24
+  WE CHOSE: heal slackoff - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Slack Off||[still]
+  -fail|p1a: Hippowdon|heal
+-- turn 25
+  WE CHOSE: heal slackoff - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Slack Off||[still]
+  -fail|p1a: Hippowdon|heal
+-- turn 26
+  WE CHOSE: heal slackoff - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Slack Off||[still]
+  -fail|p1a: Hippowdon|heal
+-- turn 27
+  WE CHOSE: heal slackoff - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Slack Off||[still]
+  -fail|p1a: Hippowdon|heal
+-- turn 28
+  WE CHOSE: heal slackoff - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Slack Off||[still]
+  -fail|p1a: Hippowdon|heal
+-- turn 29
+  WE CHOSE: heal slackoff - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Slack Off||[still]
+  -fail|p1a: Hippowdon|heal
+-- turn 30
+  WE CHOSE: heal slackoff - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Slack Off||[still]
+  -fail|p1a: Hippowdon|heal
+-- turn 31
+  WE CHOSE: heal slackoff - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Slack Off||[still]
+  -fail|p1a: Hippowdon|heal
+-- turn 32
+  WE CHOSE: attack stealthrock - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Thunderbolt|p1a: Hippowdon
+  -immune|p1a: Hippowdon
+  move|p1a: Hippowdon|Stealth Rock|p2a: Rotom
+  -sidestart|p2: e2_035154|move: Stealth Rock
+-- turn 33
+  WE CHOSE: attack stealthrock - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Air Slash|p1a: Hippowdon
+  -damage|p1a: Hippowdon|197/311
+  move|p1a: Hippowdon|Stealth Rock||[still]
+  -fail|p1a: Hippowdon
+  -heal|p1a: Hippowdon|216/311|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack stealthrock - our hp 0.69, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Air Slash|p1a: Hippowdon
+  -damage|p1a: Hippowdon|117/311
+  move|p1a: Hippowdon|Stealth Rock||[still]
+  -fail|p1a: Hippowdon
+  -heal|p1a: Hippowdon|136/311|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: attack stealthrock - our hp 0.44, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Air Slash|p1a: Hippowdon
+  -damage|p1a: Hippowdon|27/311
+  move|p1a: Hippowdon|Stealth Rock||[still]
+  -fail|p1a: Hippowdon
+  -heal|p1a: Hippowdon|46/311|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack stealthrock - our hp 0.15, theirs 0.82, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to hatterene - our hp 0.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p2a: Rotom|Air Slash|p1a: Hippowdon
+  -damage|p1a: Hippowdon|0 fnt
+  faint|p1a: Hippowdon
+  switch|p1a: Hatterene|Hatterene, L85, F|236/236
+-- turn 37
+  WE CHOSE: attack psychic - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Air Slash|p1a: Hatterene
+  -damage|p1a: Hatterene|164/236
+  move|p1a: Hatterene|Psychic|p2a: Rotom
+  -damage|p2a: Rotom|35/100
+  -heal|p1a: Hatterene|178/236|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: attack psychic - our hp 0.75, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Air Slash|p1a: Hatterene
+  -crit|p1a: Hatterene
+  -damage|p1a: Hatterene|51/236
+  cant|p1a: Hatterene|flinch
+  -heal|p1a: Hatterene|65/236|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack psychic - our hp 0.28, theirs 0.35, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to weavile - our hp 0.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p2a: Rotom|Air Slash|p1a: Hatterene
+  -damage|p1a: Hatterene|0 fnt
+  faint|p1a: Hatterene
+  switch|p1a: Weavile|Weavile, L79, F|239/239
+-- turn 40
+  WE CHOSE: attack iceshard - our hp 1.00, theirs 0.35, predicted move (revealed) hits us x1
+  move|p1a: Weavile|Ice Shard|p2a: Rotom
+  -supereffective|p2a: Rotom
+  -damage|p2a: Rotom|0 fnt
+  faint|p2a: Rotom
+  switch|p2a: Entei|Entei, L78|100/100
+  -status|p2a: Entei|tox
+  -damage|p2a: Entei|76/100 tox|[from] Stealth Rock
+-- turn 41
+  WE CHOSE: attack iceshard - our hp 1.00, theirs 0.76, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to lucario - our hp 0.00, theirs 0.32, predicted move (revealed) hits us x2
+  move|p1a: Weavile|Ice Shard|p2a: Entei
+  -resisted|p2a: Entei
+  -damage|p2a: Entei|64/100 tox
+  move|p2a: Entei|Flare Blitz|p1a: Weavile
+  -supereffective|p1a: Weavile
+  -damage|p1a: Weavile|0 fnt
+  faint|p1a: Weavile
+  -damage|p2a: Entei|38/100 tox|[from] Recoil
+  -damage|p2a: Entei|32/100 tox|[from] psn
+  switch|p1a: Lucario|Lucario, L84, F|255/255
+-- turn 42
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.32, predicted move (revealed) hits us x2
+  move|p2a: Entei|Flare Blitz|p1a: Lucario
+  -supereffective|p1a: Lucario
+  -damage|p1a: Lucario|0 fnt
+  faint|p1a: Lucario
+  -damage|p2a: Entei|4/100 tox|[from] Recoil
+  deinit

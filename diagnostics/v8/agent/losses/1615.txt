@@ -1,0 +1,256 @@
+battle 1615 (battle-gen9randombattle-2034965): lost in 26 turns, 1 of theirs left; we are p1
+
+ours:
+  dondozo (fainted; item leftovers, ability unaware; moves sleeptalk/curse/rest/wavecrash)
+  hariyama (fainted; item assaultvest, ability thickfat, tera steel; moves closecombat/heavyslam/knockoff/headlongrush)
+  talonflame (fainted; item heavydutyboots, ability flamebody; moves roost/bravebird/overheat/defog)
+  shaymin (fainted; item leftovers, ability naturalcure; moves airslash/synthesis/seedflare/earthpower)
+  pelipper (fainted; item choicespecs, ability drizzle; moves uturn/hydropump/weatherball/hurricane)
+  pincurchin (fainted; item leftovers, ability electricsurge; moves recover/scald/spikes/discharge)
+theirs (as seen):
+  regirock (fainted; item unknown_item, ability ?; moves stoneedge)
+  bronzong (fainted; item leftovers, ability ?; moves ironhead)
+  latias (fainted; item unknown_item, ability levitate; moves dracometeor)
+  froslass (fainted; item ?, ability ?; moves poltergeist)
+  galvantula (fainted; item unknown_item, ability ?; moves thunder)
+  sneasler (100%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Dondozo|Dondozo, L78, M|362/362
+  switch|p2a: Regirock|Regirock, L83|100/100
+-- turn 1
+  WE CHOSE: switch to hariyama (hand policy: attack wavecrash) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Hariyama|Hariyama, L87, M|392/392
+  move|p2a: Regirock|Stone Edge|p1a: Hariyama
+  -resisted|p1a: Hariyama
+  -damage|p1a: Hariyama|325/392
+-- turn 2
+  WE CHOSE: attack closecombat - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Hariyama|Close Combat|p2a: Regirock
+  -supereffective|p2a: Regirock
+  -damage|p2a: Regirock|44/100
+  -unboost|p1a: Hariyama|def|1
+  -unboost|p1a: Hariyama|spd|1
+  move|p2a: Regirock|Stone Edge|p1a: Hariyama
+  -resisted|p1a: Hariyama
+  -damage|p1a: Hariyama|223/392
+-- turn 3
+  WE CHOSE: attack closecombat - our hp 0.57, theirs 0.44, predicted move (revealed) hits us x0.5
+  move|p1a: Hariyama|Close Combat|p2a: Regirock
+  -supereffective|p2a: Regirock
+  -damage|p2a: Regirock|0 fnt
+  -unboost|p1a: Hariyama|def|1
+  -unboost|p1a: Hariyama|spd|1
+  faint|p2a: Regirock
+  switch|p2a: Bronzong|Bronzong, L88|100/100
+-- turn 4
+  WE CHOSE: switch to talonflame - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Talonflame|Talonflame, L83, M|265/265
+  move|p2a: Bronzong|Iron Head|p1a: Talonflame
+  -resisted|p1a: Talonflame
+  -damage|p1a: Talonflame|211/265
+-- turn 5
+  WE CHOSE: attack overheat - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Talonflame|Overheat|p2a: Bronzong
+  -supereffective|p2a: Bronzong
+  -damage|p2a: Bronzong|38/100
+  -unboost|p1a: Talonflame|spa|2
+  move|p2a: Bronzong|Iron Head|p1a: Talonflame
+  -resisted|p1a: Talonflame
+  -damage|p1a: Talonflame|164/265
+  -status|p2a: Bronzong|brn|[from] ability: Flame Body|[of] p1a: Talonflame
+  -heal|p2a: Bronzong|44/100 brn|[from] item: Leftovers
+  -damage|p2a: Bronzong|38/100 brn|[from] brn
+-- turn 6
+  WE CHOSE: attack overheat - our hp 0.62, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Talonflame|Overheat|p2a: Bronzong
+  -supereffective|p2a: Bronzong
+  -damage|p2a: Bronzong|7/100 brn
+  -unboost|p1a: Talonflame|spa|2
+  move|p2a: Bronzong|Iron Head|p1a: Talonflame
+  -resisted|p1a: Talonflame
+  -damage|p1a: Talonflame|139/265
+  -heal|p2a: Bronzong|13/100 brn|[from] item: Leftovers
+  -damage|p2a: Bronzong|7/100 brn|[from] brn
+-- turn 7
+  WE CHOSE: attack bravebird (hand policy: attack overheat) - our hp 0.52, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p1a: Talonflame|Brave Bird|p2a: Bronzong
+  -resisted|p2a: Bronzong
+  -damage|p2a: Bronzong|0 fnt
+  faint|p2a: Bronzong
+  -damage|p1a: Talonflame|133/265|[from] Recoil
+  switch|p2a: Latias|Latias, L79, F|100/100
+-- turn 8
+  WE CHOSE: attack overheat (hand policy: attack bravebird) - our hp 0.50, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Talonflame|Overheat|p2a: Latias
+  -resisted|p2a: Latias
+  -damage|p2a: Latias|95/100
+  -unboost|p1a: Talonflame|spa|2
+  move|p2a: Latias|Draco Meteor|p1a: Talonflame|[miss]
+  -miss|p2a: Latias|p1a: Talonflame
+-- turn 9
+  WE CHOSE: attack bravebird - our hp 0.50, theirs 0.95, predicted move (revealed) hits us x1
+  move|p1a: Talonflame|Brave Bird|p2a: Latias
+  -damage|p2a: Latias|54/100
+  -damage|p1a: Talonflame|98/265|[from] Recoil
+  move|p2a: Latias|Draco Meteor|p1a: Talonflame|[miss]
+  -miss|p2a: Latias|p1a: Talonflame
+-- turn 10
+  WE CHOSE: switch to pelipper (hand policy: heal roost) - our hp 0.37, theirs 0.54, predicted move (revealed) hits us x1
+  switch|p1a: Pelipper|Pelipper, L86, M|243/243
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+  move|p2a: Latias|Draco Meteor|p1a: Pelipper
+  -damage|p1a: Pelipper|68/243
+  -unboost|p2a: Latias|spa|2
+  -weather|RainDance|[upkeep]
+-- turn 11
+  WE CHOSE: attack hurricane - our hp 0.28, theirs 0.54, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to talonflame - our hp 0.00, theirs 0.54, predicted move (revealed) hits us x1
+  move|p2a: Latias|Draco Meteor|p1a: Pelipper
+  -damage|p1a: Pelipper|0 fnt
+  -unboost|p2a: Latias|spa|2
+  faint|p1a: Pelipper
+  -weather|RainDance|[upkeep]
+  switch|p1a: Talonflame|Talonflame, L83, M|98/265
+-- turn 12
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.37, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Talonflame|Brave Bird|p2a: Latias
+  -damage|p2a: Latias|11/100
+  -damage|p1a: Talonflame|62/265|[from] Recoil
+  move|p2a: Latias|Draco Meteor|p1a: Talonflame
+  -damage|p1a: Talonflame|2/265
+  -unboost|p2a: Latias|spa|2
+  -weather|RainDance|[upkeep]
+-- turn 13
+  WE CHOSE: attack overheat (hand policy: heal roost) - our hp 0.01, theirs 0.11, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hariyama - our hp 0.00, theirs 0.03, predicted move (revealed) hits us x1
+  move|p1a: Talonflame|Overheat|p2a: Latias
+  -resisted|p2a: Latias
+  -damage|p2a: Latias|3/100
+  -unboost|p1a: Talonflame|spa|2
+  move|p2a: Latias|Draco Meteor|p1a: Talonflame
+  -damage|p1a: Talonflame|0 fnt
+  faint|p1a: Talonflame
+  -weather|RainDance|[upkeep]
+  switch|p1a: Hariyama|Hariyama, L87, M|223/392
+-- turn 14
+  WE CHOSE: attack+tera closecombat (hand policy: attack+tera knockoff) - our hp 0.57, theirs 0.03, predicted move (revealed) hits us x1
+  -terastallize|p1a: Hariyama|Steel
+  move|p2a: Latias|Draco Meteor|p1a: Hariyama
+  -resisted|p1a: Hariyama
+  -damage|p1a: Hariyama|204/392
+  move|p1a: Hariyama|Close Combat|p2a: Latias
+  -resisted|p2a: Latias
+  -damage|p2a: Latias|0 fnt
+  -unboost|p1a: Hariyama|def|1
+  -unboost|p1a: Hariyama|spd|1
+  faint|p2a: Latias
+  -weather|none
+  switch|p2a: Froslass|Froslass, L87, F|100/100
+-- turn 15
+  WE CHOSE: attack knockoff (hand policy: attack heavyslam) - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Froslass|Poltergeist|p1a: Hariyama
+  -activate|p1a: Hariyama|move: Poltergeist|Assault Vest
+  -damage|p1a: Hariyama|17/392
+  move|p1a: Hariyama|Knock Off|p2a: Froslass
+  -supereffective|p2a: Froslass
+  -damage|p2a: Froslass|26/100
+  -enditem|p2a: Froslass|Wide Lens|[from] move: Knock Off|[of] p1a: Hariyama
+-- turn 16
+  WE CHOSE: attack knockoff - our hp 0.04, theirs 0.26, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dondozo - our hp 0.00, theirs 0.26, predicted move (revealed) hits us x1
+  move|p2a: Froslass|Poltergeist|p1a: Hariyama
+  -activate|p1a: Hariyama|move: Poltergeist|Assault Vest
+  -damage|p1a: Hariyama|0 fnt
+  faint|p1a: Hariyama
+  switch|p1a: Dondozo|Dondozo, L78, M|362/362
+-- turn 17
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.26, predicted move (revealed) hits us x1
+  move|p2a: Froslass|Poltergeist|p1a: Dondozo
+  -activate|p1a: Dondozo|move: Poltergeist|Leftovers
+  -damage|p1a: Dondozo|271/362
+  move|p1a: Dondozo|Wave Crash|p2a: Froslass
+  -damage|p2a: Froslass|0 fnt
+  -start|p1a: Dondozo|Disable|Wave Crash|[from] ability: Cursed Body|[of] p2a: Froslass
+  faint|p2a: Froslass
+  -damage|p1a: Dondozo|249/362|[from] Recoil
+  -heal|p1a: Dondozo|271/362|[from] item: Leftovers
+  switch|p2a: Galvantula|Galvantula, L82, F|100/100
+-- turn 18
+  WE CHOSE: switch to shaymin - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Shaymin|Shaymin, L82|298/298
+  move|p2a: Galvantula|Thunder|p1a: Shaymin
+  -resisted|p1a: Shaymin
+  -damage|p1a: Shaymin|245/298
+  -heal|p1a: Shaymin|263/298|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack earthpower - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Galvantula|Thunder|p1a: Shaymin
+  -resisted|p1a: Shaymin
+  -damage|p1a: Shaymin|210/298
+  move|p1a: Shaymin|Earth Power|p2a: Galvantula
+  -damage|p2a: Galvantula|69/100
+  -heal|p1a: Shaymin|228/298|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack earthpower - our hp 0.77, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p2a: Galvantula|Thunder|p1a: Shaymin
+  -resisted|p1a: Shaymin
+  -damage|p1a: Shaymin|174/298
+  move|p1a: Shaymin|Earth Power|p2a: Galvantula
+  -damage|p2a: Galvantula|33/100
+  -heal|p1a: Shaymin|192/298|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack earthpower - our hp 0.64, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p2a: Galvantula|Thunder|p1a: Shaymin
+  -resisted|p1a: Shaymin
+  -damage|p1a: Shaymin|138/298
+  move|p1a: Shaymin|Earth Power|p2a: Galvantula
+  -damage|p2a: Galvantula|0 fnt
+  faint|p2a: Galvantula
+  -heal|p1a: Shaymin|156/298|[from] item: Leftovers
+  switch|p2a: Sneasler|Sneasler, L74, F|100/100
+-- turn 22
+  WE CHOSE: attack earthpower - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to pincurchin (hand policy: forced: switch to dondozo) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Sneasler|Close Combat|p1a: Shaymin
+  -damage|p1a: Shaymin|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Shaymin
+  switch|p1a: Pincurchin|Pincurchin, M|258/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 23
+  WE CHOSE: attack spikes (hand policy: attack discharge) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Sneasler|Close Combat|p1a: Pincurchin
+  -damage|p1a: Pincurchin|105/258
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  move|p1a: Pincurchin|Spikes|p2a: Sneasler
+  -sidestart|p2: e2_035157|Spikes
+  -heal|p1a: Pincurchin|121/258|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack discharge (hand policy: heal recover) - our hp 0.47, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dondozo - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Sneasler|Close Combat|p1a: Pincurchin
+  -damage|p1a: Pincurchin|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Pincurchin
+  switch|p1a: Dondozo|Dondozo, L78, M|271/362
+-- turn 25
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Sneasler|Close Combat|p1a: Dondozo
+  -damage|p1a: Dondozo|111/362
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  move|p1a: Dondozo|Rest||[still]
+  -activate|p1a: Dondozo|move: Electric Terrain
+  -fail|p1a: Dondozo
+  -heal|p1a: Dondozo|133/362|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: heal rest - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Sneasler|Close Combat|p1a: Dondozo
+  -damage|p1a: Dondozo|0 fnt
+  -unboost|p2a: Sneasler|def|1
+  -unboost|p2a: Sneasler|spd|1
+  faint|p1a: Dondozo

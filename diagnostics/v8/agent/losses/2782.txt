@@ -1,0 +1,291 @@
+battle 2782 (battle-gen9randombattle-2046773): lost in 35 turns, 1 of theirs left; we are p1
+
+ours:
+  drifblim (fainted; item heavydutyboots, ability aftermath; moves strengthsap/airslash/defog/shadowball)
+  bisharp (fainted; item eviolite, ability defiant; moves suckerpunch/throatchop/swordsdance/ironhead)
+  palkiaorigin (fainted; item lustrousglobe, ability pressure, tera dragon; moves fireblast/thunderwave/dracometeor/hydropump)
+  dodrio (fainted; item choiceband, ability earlybird; moves knockoff/bravebird/drillrun/doubleedge)
+  sandyshocks (fainted; item leftovers, ability protosynthesis; moves stealthrock/earthpower/thunderwave/thunderbolt)
+  garganacl (fainted; item leftovers, ability purifyingsalt; moves protect/saltcure/recover/bodypress)
+theirs (as seen):
+  azelf (fainted; item lifeorb, ability levitate; moves fireblast)
+  slaking (fainted; item unknown_item, ability truant; moves gigaimpact)
+  greedent (fainted; item ?, ability ?; moves earthquake)
+  hitmontop (fainted; item unknown_item, ability intimidate; moves closecombat)
+  floatzel (fainted; item unknown_item, ability ?; moves wavecrash)
+  sandaconda (55%; item leftovers, ability ?; moves earthquake)
+
+-- turn 0
+  switch|p1a: Drifblim|Drifblim, L86, F|398/398
+  switch|p2a: Azelf|Azelf, L82|100/100
+-- turn 1
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Azelf|Fire Blast|p1a: Drifblim
+  -damage|p1a: Drifblim|237/398
+  -damage|p2a: Azelf|91/100|[from] item: Life Orb
+  move|p1a: Drifblim|Shadow Ball|p2a: Azelf
+  -supereffective|p2a: Azelf
+  -damage|p2a: Azelf|8/100
+-- turn 2
+  WE CHOSE: switch to palkiaorigin (hand policy: attack shadowball) - our hp 0.60, theirs 0.08, predicted move (revealed) hits us x1
+  switch|p1a: Palkia|Palkia-Origin, L72|249/249
+  -ability|p1a: Palkia|Pressure
+  move|p2a: Azelf|Fire Blast|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|223/249
+  -status|p1a: Palkia|brn
+  -damage|p2a: Azelf|0 fnt|[from] item: Life Orb
+  faint|p2a: Azelf
+  -damage|p1a: Palkia|208/249 brn|[from] brn
+  switch|p2a: Slaking|Slaking, L84, M|100/100
+-- turn 3
+  WE CHOSE: switch to drifblim - our hp 0.84, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Drifblim|Drifblim, L86, F|237/398
+  move|p2a: Slaking|Giga Impact|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 4
+  WE CHOSE: attack airslash - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x0
+  cant|p2a: Slaking|ability: Truant
+  move|p1a: Drifblim|Air Slash|p2a: Slaking
+  -damage|p2a: Slaking|76/100
+-- turn 5
+  WE CHOSE: attack airslash - our hp 0.60, theirs 0.76, predicted move (revealed) hits us x0
+  move|p2a: Slaking|Giga Impact|p1a: Drifblim
+  -immune|p1a: Drifblim
+  move|p1a: Drifblim|Air Slash|p2a: Slaking
+  -damage|p2a: Slaking|53/100
+-- turn 6
+  WE CHOSE: attack airslash - our hp 0.60, theirs 0.53, predicted move (revealed) hits us x0
+  cant|p2a: Slaking|ability: Truant
+  move|p1a: Drifblim|Air Slash|p2a: Slaking
+  -damage|p2a: Slaking|28/100
+-- turn 7
+  WE CHOSE: attack airslash - our hp 0.60, theirs 0.28, predicted move (revealed) hits us x0
+  move|p2a: Slaking|Giga Impact|p1a: Drifblim
+  -immune|p1a: Drifblim
+  move|p1a: Drifblim|Air Slash|p2a: Slaking
+  -damage|p2a: Slaking|3/100
+-- turn 8
+  WE CHOSE: attack airslash - our hp 0.60, theirs 0.03, predicted move (revealed) hits us x0
+  cant|p2a: Slaking|ability: Truant
+  move|p1a: Drifblim|Air Slash|p2a: Slaking
+  -damage|p2a: Slaking|0 fnt
+  faint|p2a: Slaking
+  switch|p2a: Greedent|Greedent, L86, F|100/100
+-- turn 9
+  WE CHOSE: attack airslash - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Drifblim|Air Slash|p2a: Greedent
+  -damage|p2a: Greedent|76/100
+  move|p2a: Greedent|Earthquake|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 10
+  WE CHOSE: switch to dodrio (hand policy: attack airslash) - our hp 0.60, theirs 0.76, predicted move (revealed) hits us x0
+  switch|p1a: Dodrio|Dodrio, L85, M|241/241
+  move|p2a: Greedent|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 11
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Brave Bird|p2a: Greedent
+  -damage|p2a: Greedent|14/100
+  -enditem|p2a: Greedent|Sitrus Berry|[eat]
+  -heal|p2a: Greedent|39/100|[from] item: Sitrus Berry
+  -heal|p2a: Greedent|72/100|[from] ability: Cheek Pouch
+  -damage|p1a: Dodrio|170/241|[from] Recoil
+  move|p2a: Greedent|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 12
+  WE CHOSE: switch to drifblim (hand policy: attack bravebird) - our hp 0.71, theirs 0.72, predicted move (revealed) hits us x0
+  switch|p1a: Drifblim|Drifblim, L86, F|237/398
+  move|p2a: Greedent|Earthquake|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 13
+  WE CHOSE: switch to dodrio (hand policy: attack airslash) - our hp 0.60, theirs 0.72, predicted move (revealed) hits us x0
+  switch|p1a: Dodrio|Dodrio, L85, M|170/241
+  move|p2a: Greedent|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 14
+  WE CHOSE: attack bravebird - our hp 0.71, theirs 0.72, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Brave Bird|p2a: Greedent
+  -damage|p2a: Greedent|11/100
+  -damage|p1a: Dodrio|99/241|[from] Recoil
+  move|p2a: Greedent|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 15
+  WE CHOSE: attack bravebird - our hp 0.41, theirs 0.11, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Brave Bird|p2a: Greedent
+  -damage|p2a: Greedent|0 fnt
+  faint|p2a: Greedent
+  -damage|p1a: Dodrio|87/241|[from] Recoil
+  switch|p2a: Hitmontop|Hitmontop, L88, M|100/100
+  -ability|p2a: Hitmontop|Intimidate|boost
+  -unboost|p1a: Dodrio|atk|1
+-- turn 16
+  WE CHOSE: switch to drifblim - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Drifblim|Drifblim, L86, F|237/398
+  move|p2a: Hitmontop|Close Combat|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 17
+  WE CHOSE: attack airslash - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Air Slash|p2a: Hitmontop
+  -supereffective|p2a: Hitmontop
+  -damage|p2a: Hitmontop|62/100
+  cant|p2a: Hitmontop|flinch
+-- turn 18
+  WE CHOSE: attack airslash - our hp 0.60, theirs 0.62, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Air Slash|p2a: Hitmontop
+  -supereffective|p2a: Hitmontop
+  -damage|p2a: Hitmontop|25/100
+  move|p2a: Hitmontop|Close Combat|p1a: Drifblim
+  -immune|p1a: Drifblim
+-- turn 19
+  WE CHOSE: attack airslash - our hp 0.60, theirs 0.25, predicted move (revealed) hits us x0
+  move|p1a: Drifblim|Air Slash|p2a: Hitmontop
+  -supereffective|p2a: Hitmontop
+  -damage|p2a: Hitmontop|0 fnt
+  faint|p2a: Hitmontop
+  switch|p2a: Floatzel|Floatzel, L86, F|100/100
+-- turn 20
+  WE CHOSE: switch to palkiaorigin (hand policy: attack shadowball) - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Palkia|Palkia-Origin, L72|208/249 brn
+  -ability|p1a: Palkia|Pressure
+  move|p2a: Floatzel|Wave Crash|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|154/249 brn
+  -damage|p2a: Floatzel|94/100|[from] Recoil
+  -damage|p1a: Palkia|139/249 brn|[from] brn
+-- turn 21
+  WE CHOSE: attack+tera dracometeor (hand policy: attack dracometeor) - our hp 0.56, theirs 0.94, predicted move (revealed) hits us x0.25
+  -terastallize|p1a: Palkia|Dragon
+  move|p2a: Floatzel|Wave Crash|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|23/249 brn
+  -damage|p2a: Floatzel|81/100|[from] Recoil
+  move|p1a: Palkia|Draco Meteor|p2a: Floatzel|[miss]
+  -miss|p1a: Palkia|p2a: Floatzel
+  -damage|p1a: Palkia|8/249 brn|[from] brn
+-- turn 22
+  WE CHOSE: attack hydropump (hand policy: attack dracometeor) - our hp 0.03, theirs 0.81, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dodrio - our hp 0.00, theirs 0.80, predicted move (revealed) hits us x0.5
+  move|p2a: Floatzel|Wave Crash|p1a: Palkia
+  -resisted|p1a: Palkia
+  -damage|p1a: Palkia|0 fnt
+  faint|p1a: Palkia
+  -damage|p2a: Floatzel|80/100|[from] Recoil
+  switch|p1a: Dodrio|Dodrio, L85, M|87/241
+-- turn 23
+  WE CHOSE: attack doubleedge - our hp 0.36, theirs 0.80, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to drifblim - our hp 0.00, theirs 0.70, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Dodrio
+  -damage|p1a: Dodrio|0 fnt
+  faint|p1a: Dodrio
+  -damage|p2a: Floatzel|70/100|[from] Recoil
+  switch|p1a: Drifblim|Drifblim, L86, F|237/398
+-- turn 24
+  WE CHOSE: attack shadowball - our hp 0.60, theirs 0.70, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bisharp - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Drifblim
+  -damage|p1a: Drifblim|0 fnt
+  -damage|p2a: Floatzel|45/100|[from] ability: Aftermath|[of] p1a: Drifblim
+  faint|p1a: Drifblim
+  -damage|p2a: Floatzel|18/100|[from] Recoil
+  switch|p1a: Bisharp|Bisharp, L79, M|232/232
+-- turn 25
+  WE CHOSE: attack throatchop - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Floatzel|Wave Crash|p1a: Bisharp
+  -damage|p1a: Bisharp|106/232
+  -damage|p2a: Floatzel|3/100|[from] Recoil
+  move|p1a: Bisharp|Throat Chop|p2a: Floatzel
+  -damage|p2a: Floatzel|0 fnt
+  faint|p2a: Floatzel
+  switch|p2a: Sandaconda|Sandaconda, L84, F|100/100
+-- turn 26
+  WE CHOSE: attack throatchop - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to sandyshocks - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Sandaconda|Earthquake|p1a: Bisharp
+  -supereffective|p1a: Bisharp
+  -damage|p1a: Bisharp|0 fnt
+  faint|p1a: Bisharp
+  switch|p1a: Sandy Shocks|Sandy Shocks, L80|267/267
+-- turn 27
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Sandy Shocks|Earth Power|p2a: Sandaconda
+  -damage|p2a: Sandaconda|52/100
+  move|p2a: Sandaconda|Earthquake|p1a: Sandy Shocks
+  -supereffective|p1a: Sandy Shocks
+  -damage|p1a: Sandy Shocks|25/267
+  -heal|p1a: Sandy Shocks|41/267|[from] item: Leftovers
+  -heal|p2a: Sandaconda|59/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack earthpower - our hp 0.15, theirs 0.59, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to garganacl - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x2
+  move|p1a: Sandy Shocks|Earth Power|p2a: Sandaconda
+  -damage|p2a: Sandaconda|12/100
+  move|p2a: Sandaconda|Earthquake|p1a: Sandy Shocks
+  -supereffective|p1a: Sandy Shocks
+  -damage|p1a: Sandy Shocks|0 fnt
+  faint|p1a: Sandy Shocks
+  -end|p1a: Sandy Shocks|Protosynthesis|[silent]
+  -heal|p2a: Sandaconda|18/100|[from] item: Leftovers
+  switch|p1a: Garganacl|Garganacl, L80, F|291/291
+-- turn 29
+  WE CHOSE: heal recover (hand policy: attack bodypress) - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x2
+  move|p2a: Sandaconda|Earthquake|p1a: Garganacl
+  -supereffective|p1a: Garganacl
+  -damage|p1a: Garganacl|109/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|255/291
+  -heal|p2a: Sandaconda|24/100|[from] item: Leftovers
+  -heal|p1a: Garganacl|273/291|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: heal recover (hand policy: attack bodypress) - our hp 0.94, theirs 0.24, predicted move (revealed) hits us x2
+  move|p2a: Sandaconda|Earthquake|p1a: Garganacl
+  -supereffective|p1a: Garganacl
+  -damage|p1a: Garganacl|85/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|231/291
+  -heal|p2a: Sandaconda|30/100|[from] item: Leftovers
+  -heal|p1a: Garganacl|249/291|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: heal recover (hand policy: attack bodypress) - our hp 0.86, theirs 0.30, predicted move (revealed) hits us x2
+  move|p2a: Sandaconda|Earthquake|p1a: Garganacl
+  -supereffective|p1a: Garganacl
+  -damage|p1a: Garganacl|61/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|207/291
+  -heal|p2a: Sandaconda|37/100|[from] item: Leftovers
+  -heal|p1a: Garganacl|225/291|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: heal recover (hand policy: attack bodypress) - our hp 0.77, theirs 0.37, predicted move (revealed) hits us x2
+  move|p2a: Sandaconda|Earthquake|p1a: Garganacl
+  -supereffective|p1a: Garganacl
+  -damage|p1a: Garganacl|37/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|183/291
+  -heal|p2a: Sandaconda|43/100|[from] item: Leftovers
+  -heal|p1a: Garganacl|201/291|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: heal recover (hand policy: attack bodypress) - our hp 0.69, theirs 0.43, predicted move (revealed) hits us x2
+  move|p2a: Sandaconda|Earthquake|p1a: Garganacl
+  -supereffective|p1a: Garganacl
+  -damage|p1a: Garganacl|27/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|173/291
+  -heal|p2a: Sandaconda|49/100|[from] item: Leftovers
+  -heal|p1a: Garganacl|191/291|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: heal recover (hand policy: attack bodypress) - our hp 0.66, theirs 0.49, predicted move (revealed) hits us x2
+  move|p2a: Sandaconda|Earthquake|p1a: Garganacl
+  -supereffective|p1a: Garganacl
+  -damage|p1a: Garganacl|29/291
+  move|p1a: Garganacl|Recover|p1a: Garganacl
+  -heal|p1a: Garganacl|175/291
+  -heal|p2a: Sandaconda|55/100|[from] item: Leftovers
+  -heal|p1a: Garganacl|193/291|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: heal recover (hand policy: attack bodypress) - our hp 0.66, theirs 0.55, predicted move (revealed) hits us x2
+  move|p2a: Sandaconda|Earthquake|p1a: Garganacl
+  -supereffective|p1a: Garganacl
+  -crit|p1a: Garganacl
+  -damage|p1a: Garganacl|0 fnt
+  faint|p1a: Garganacl
+  deinit

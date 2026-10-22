@@ -1,0 +1,179 @@
+battle 2670 (battle-gen9randombattle-2043593): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  registeel (fainted; item chestoberry, ability clearbody, tera fighting; moves bodypress/ironhead/rest/irondefense)
+  squawkabillywhite (fainted; item choiceband, ability hustle; moves foulplay/bravebird/doubleedge/quickattack)
+  ogerponwellspring (fainted; item wellspringmask, ability waterabsorb; moves ivycudgel/powerwhip/swordsdance/playrough)
+  grimmsnarl (fainted; item lightclay, ability prankster; moves thunderwave/spiritbreak/lightscreen/reflect)
+  chansey (fainted; item eviolite, ability naturalcure; moves seismictoss/softboiled/thunderwave/healbell)
+  arceusghost (fainted; item spookyplate, ability multitype; moves judgment/focusblast/calmmind/recover)
+theirs (as seen):
+  klefki (fainted; item leftovers, ability ?; moves playrough)
+  espathra (fainted; item unknown_item, ability ?; moves -)
+  chiyu (fainted; item unknown_item, ability beadsofruin; moves overheat)
+  ambipom (fainted; item unknown_item, ability ?; moves doubleedge)
+  luvdisc (fainted; item unknown_item, ability ?; moves surf)
+  grimmsnarl (71%; item unknown_item, ability ?; moves spiritbreak)
+
+-- turn 0
+  switch|p1a: Registeel|Registeel, L81|262/262
+  switch|p2a: Klefki|Klefki, L84, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera bodypress - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Registeel|Fighting
+  move|p2a: Klefki|Play Rough|p1a: Registeel
+  -supereffective|p1a: Registeel
+  -damage|p1a: Registeel|142/262
+  move|p1a: Registeel|Body Press|p2a: Klefki
+  -damage|p2a: Klefki|54/100
+  -heal|p2a: Klefki|60/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack bodypress - our hp 0.54, theirs 0.60, predicted move (revealed) hits us x2
+  move|p2a: Klefki|Play Rough|p1a: Registeel
+  -supereffective|p1a: Registeel
+  -damage|p1a: Registeel|20/262
+  move|p1a: Registeel|Body Press|p2a: Klefki
+  -damage|p2a: Klefki|10/100
+  -heal|p2a: Klefki|16/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack bodypress - our hp 0.08, theirs 0.16, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to squawkabillywhite - our hp 0.00, theirs 0.22, predicted move (revealed) hits us x2
+  move|p2a: Klefki|Play Rough|p1a: Registeel
+  -supereffective|p1a: Registeel
+  -damage|p1a: Registeel|0 fnt
+  faint|p1a: Registeel
+  -heal|p2a: Klefki|22/100|[from] item: Leftovers
+  switch|p1a: Squawkabilly|Squawkabilly-White, L89, M|291/291
+-- turn 4
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Squawkabilly|Brave Bird|p2a: Klefki|[miss]
+  -miss|p1a: Squawkabilly|p2a: Klefki
+  move|p2a: Klefki|Play Rough|p1a: Squawkabilly
+  -damage|p1a: Squawkabilly|186/291
+  -heal|p2a: Klefki|28/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack bravebird - our hp 0.64, theirs 0.28, predicted move (revealed) hits us x1
+  move|p1a: Squawkabilly|Brave Bird|p2a: Klefki
+  -resisted|p2a: Klefki
+  -damage|p2a: Klefki|0 fnt
+  faint|p2a: Klefki
+  -damage|p1a: Squawkabilly|165/291|[from] Recoil
+  switch|p2a: Espathra|Espathra, L80, F|100/100
+-- turn 6
+  WE CHOSE: attack bravebird - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Squawkabilly|Brave Bird|p2a: Espathra
+  -damage|p2a: Espathra|0 fnt
+  faint|p2a: Espathra
+  -damage|p1a: Squawkabilly|72/291|[from] Recoil
+  switch|p2a: Chi-Yu|Chi-Yu, L77|100/100
+  -ability|p2a: Chi-Yu|Beads of Ruin
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to arceusghost - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Chi-Yu|Overheat|p1a: Squawkabilly
+  -damage|p1a: Squawkabilly|0 fnt
+  -unboost|p2a: Chi-Yu|spa|2
+  faint|p1a: Squawkabilly
+  switch|p1a: Arceus|Arceus-Ghost, L69|280/280
+-- turn 8
+  WE CHOSE: attack focusblast - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Chi-Yu|Overheat|p1a: Arceus
+  -crit|p1a: Arceus
+  -damage|p1a: Arceus|18/280
+  -unboost|p2a: Chi-Yu|spa|2
+  move|p1a: Arceus|Focus Blast|p2a: Chi-Yu|[miss]
+  -miss|p1a: Arceus|p2a: Chi-Yu
+-- turn 9
+  WE CHOSE: heal recover - our hp 0.06, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to grimmsnarl - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Chi-Yu|Overheat|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  -unboost|p2a: Chi-Yu|spa|2
+  faint|p1a: Arceus
+  switch|p1a: Grimmsnarl|Grimmsnarl, L83, M|293/293
+-- turn 10
+  WE CHOSE: attack spiritbreak - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Chi-Yu|Overheat|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|239/293
+  move|p1a: Grimmsnarl|Spirit Break|p2a: Chi-Yu
+  -damage|p2a: Chi-Yu|50/100
+-- turn 11
+  WE CHOSE: attack spiritbreak - our hp 0.82, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Chi-Yu|Overheat|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|178/293
+  move|p1a: Grimmsnarl|Spirit Break|p2a: Chi-Yu
+  -damage|p2a: Chi-Yu|0 fnt
+  faint|p2a: Chi-Yu
+  switch|p2a: Ambipom|Ambipom, L84, F|100/100
+-- turn 12
+  WE CHOSE: attack spiritbreak - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ogerponwellspring - our hp 0.00, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Ambipom|Double-Edge|p1a: Grimmsnarl
+  -damage|p1a: Grimmsnarl|0 fnt
+  faint|p1a: Grimmsnarl
+  -damage|p2a: Ambipom|78/100|[from] Recoil
+  switch|p1a: Ogerpon|Ogerpon-Wellspring, L76, F|247/247
+-- turn 13
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Ambipom|Double-Edge|p1a: Ogerpon
+  -damage|p1a: Ogerpon|79/247
+  -damage|p2a: Ambipom|57/100|[from] Recoil
+  move|p1a: Ogerpon|Power Whip|p2a: Ambipom|[miss]
+  -miss|p1a: Ogerpon|p2a: Ambipom
+-- turn 14
+  WE CHOSE: attack powerwhip - our hp 0.32, theirs 0.57, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to chansey - our hp 0.00, theirs 0.47, predicted move (revealed) hits us x1
+  move|p2a: Ambipom|Double-Edge|p1a: Ogerpon
+  -crit|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  -damage|p2a: Ambipom|47/100|[from] Recoil
+  switch|p1a: Chansey|Chansey, L85, F|564/564
+-- turn 15
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x1
+  move|p2a: Ambipom|Double-Edge|p1a: Chansey
+  -damage|p1a: Chansey|213/564
+  -damage|p2a: Ambipom|3/100|[from] Recoil
+  move|p1a: Chansey|Seismic Toss|p2a: Ambipom
+  -damage|p2a: Ambipom|0 fnt
+  faint|p2a: Ambipom
+  switch|p2a: Luvdisc|Luvdisc, M|100/100
+-- turn 16
+  WE CHOSE: heal softboiled - our hp 0.38, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Luvdisc|Surf|p1a: Chansey
+  -damage|p1a: Chansey|170/564
+  move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+  -heal|p1a: Chansey|452/564
+-- turn 17
+  WE CHOSE: attack seismictoss - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Luvdisc|Surf|p1a: Chansey
+  -damage|p1a: Chansey|406/564
+  move|p1a: Chansey|Seismic Toss|p2a: Luvdisc
+  -damage|p2a: Luvdisc|66/100
+-- turn 18
+  WE CHOSE: attack seismictoss - our hp 0.72, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Luvdisc|Surf|p1a: Chansey
+  -damage|p1a: Chansey|360/564
+  move|p1a: Chansey|Seismic Toss|p2a: Luvdisc
+  -damage|p2a: Luvdisc|32/100
+-- turn 19
+  WE CHOSE: attack seismictoss - our hp 0.64, theirs 0.32, predicted move (revealed) hits us x1
+  move|p2a: Luvdisc|Surf|p1a: Chansey
+  -crit|p1a: Chansey
+  -damage|p1a: Chansey|300/564
+  move|p1a: Chansey|Seismic Toss|p2a: Luvdisc
+  -damage|p2a: Luvdisc|0 fnt
+  faint|p2a: Luvdisc
+  switch|p2a: Grimmsnarl|Grimmsnarl, L83, M|100/100
+-- turn 20
+  WE CHOSE: attack seismictoss - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Grimmsnarl|Spirit Break|p1a: Chansey
+  -damage|p1a: Chansey|75/564
+  -unboost|p1a: Chansey|spa|1
+  move|p1a: Chansey|Seismic Toss|p2a: Grimmsnarl
+  -damage|p2a: Grimmsnarl|71/100
+-- turn 21
+  WE CHOSE: heal softboiled - our hp 0.13, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Grimmsnarl|Spirit Break|p1a: Chansey
+  -damage|p1a: Chansey|0 fnt
+  faint|p1a: Chansey

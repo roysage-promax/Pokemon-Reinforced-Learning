@@ -1,0 +1,136 @@
+battle 1300 (battle-gen9randombattle-2030595): lost in 11 turns, 3 of theirs left; we are p1
+
+ours:
+  ironthorns (fainted; item ?, ability quarkdrive; moves wildcharge/spikes/stealthrock/stoneedge)
+  sandyshocks (fainted; item heavydutyboots, ability protosynthesis; moves voltswitch/spikes/thunderbolt/earthpower)
+  skarmory (fainted; item leftovers, ability sturdy; moves roost/bravebird/bodypress/spikes)
+  brambleghast (fainted; item leftovers, ability windrider; moves substitute/powerwhip/poltergeist/leechseed)
+  dragapult (fainted; item heavydutyboots, ability infiltrator; moves hex/willowisp/uturn/dragondarts)
+  eiscue (fainted; item sitrusberry, ability iceface; moves terablast/icespinner/liquidation/bellydrum)
+theirs (as seen):
+  salamence (fainted; item unknown_item, ability intimidate; moves outrage)
+  comfey (fainted; item leftovers, ability ?; moves gigadrain)
+  spectrier (fainted; item lifeorb, ability grimneigh; moves shadowball)
+
+-- turn 0
+  switch|p1a: Iron Thorns|Iron Thorns, L83|302/302
+  switch|p2a: Salamence|Salamence, L77, M|100/100
+  -ability|p2a: Salamence|Intimidate|boost
+  -unboost|p1a: Iron Thorns|atk|1
+  -item|p1a: Iron Thorns|Air Balloon
+-- turn 1
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Salamence|Outrage|p1a: Iron Thorns
+  -damage|p1a: Iron Thorns|188/302
+  -enditem|p1a: Iron Thorns|Air Balloon
+  move|p1a: Iron Thorns|Stone Edge|p2a: Salamence
+  -supereffective|p2a: Salamence
+  -damage|p2a: Salamence|21/100
+-- turn 2
+  WE CHOSE: attack stoneedge - our hp 0.62, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Salamence|Outrage|p1a: Iron Thorns|[from] lockedmove
+  -crit|p1a: Iron Thorns
+  -damage|p1a: Iron Thorns|20/302
+  -start|p2a: Salamence|confusion|[fatigue]
+  move|p1a: Iron Thorns|Stone Edge|p2a: Salamence
+  -supereffective|p2a: Salamence
+  -damage|p2a: Salamence|0 fnt
+  faint|p2a: Salamence
+  switch|p2a: Comfey|Comfey, L85, F|100/100
+-- turn 3
+  WE CHOSE: attack wildcharge - our hp 0.07, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to skarmory - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Comfey|Giga Drain|p1a: Iron Thorns
+  -supereffective|p1a: Iron Thorns
+  -damage|p1a: Iron Thorns|0 fnt
+  faint|p1a: Iron Thorns
+  -end|p1a: Iron Thorns|Quark Drive|[silent]
+  switch|p1a: Skarmory|Skarmory, L80, M|235/235
+-- turn 4
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Comfey|Giga Drain|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|221/235
+  move|p1a: Skarmory|Brave Bird|p2a: Comfey
+  -damage|p2a: Comfey|56/100
+  -damage|p1a: Skarmory|188/235|[from] Recoil
+  -heal|p2a: Comfey|62/100|[from] item: Leftovers
+  -heal|p1a: Skarmory|202/235|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack bravebird - our hp 0.86, theirs 0.62, predicted move (revealed) hits us x0.25
+  move|p2a: Comfey|Giga Drain|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|186/235
+  -heal|p2a: Comfey|66/100|[from] drain|[of] p1a: Skarmory
+  move|p1a: Skarmory|Brave Bird|p2a: Comfey
+  -damage|p2a: Comfey|22/100
+  -damage|p1a: Skarmory|153/235|[from] Recoil
+  -heal|p2a: Comfey|28/100|[from] item: Leftovers
+  -heal|p1a: Skarmory|167/235|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack bravebird - our hp 0.71, theirs 0.28, predicted move (revealed) hits us x0.25
+  move|p2a: Comfey|Giga Drain|p1a: Skarmory
+  -resisted|p1a: Skarmory
+  -damage|p1a: Skarmory|152/235
+  -heal|p2a: Comfey|32/100|[from] drain|[of] p1a: Skarmory
+  move|p1a: Skarmory|Brave Bird|p2a: Comfey
+  -damage|p2a: Comfey|0 fnt
+  faint|p2a: Comfey
+  -damage|p1a: Skarmory|129/235|[from] Recoil
+  -heal|p1a: Skarmory|143/235|[from] item: Leftovers
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to brambleghast - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Skarmory
+  -damage|p1a: Skarmory|0 fnt
+  faint|p1a: Skarmory
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -damage|p2a: Spectrier|91/100|[from] item: Life Orb
+  switch|p1a: Brambleghast|Brambleghast, L88, M|240/240
+-- turn 8
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to sandyshocks - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x2
+  move|p2a: Spectrier|Shadow Ball|p1a: Brambleghast
+  -supereffective|p1a: Brambleghast
+  -damage|p1a: Brambleghast|0 fnt
+  faint|p1a: Brambleghast
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -damage|p2a: Spectrier|81/100|[from] item: Life Orb
+  switch|p1a: Sandy Shocks|Sandy Shocks, L80|267/267
+-- turn 9
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to eiscue - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Sandy Shocks
+  -damage|p1a: Sandy Shocks|0 fnt
+  faint|p1a: Sandy Shocks
+  -end|p1a: Sandy Shocks|Protosynthesis|[silent]
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -damage|p2a: Spectrier|71/100|[from] item: Life Orb
+  switch|p1a: Eiscue|Eiscue, L88, M|274/274
+-- turn 10
+  WE CHOSE: attack icespinner - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dragapult - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Eiscue
+  -damage|p1a: Eiscue|0 fnt
+  faint|p1a: Eiscue
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -damage|p2a: Spectrier|61/100|[from] item: Life Orb
+  switch|p1a: Dragapult|Dragapult, L77, F|262/262
+-- turn 11
+  WE CHOSE: attack dragondarts - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x2
+  move|p1a: Dragapult|Dragon Darts|p2a: Spectrier
+  -damage|p2a: Spectrier|35/100
+  -anim|p1a: Dragapult|Dragon Darts|p2a: Spectrier
+  -damage|p2a: Spectrier|5/100
+  move|p2a: Spectrier|Shadow Ball|p1a: Dragapult
+  -supereffective|p1a: Dragapult
+  -damage|p1a: Dragapult|0 fnt
+  faint|p1a: Dragapult
+  -damage|p2a: Spectrier|0 fnt|[from] item: Life Orb
+  faint|p2a: Spectrier
+  deinit

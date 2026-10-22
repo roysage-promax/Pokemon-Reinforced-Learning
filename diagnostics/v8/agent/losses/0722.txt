@@ -1,0 +1,168 @@
+battle 722 (battle-gen9randombattle-2025879): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  koraidon (fainted; item loadeddice, ability orichalcumpulse, tera fire; moves flareblitz/swordsdance/scaleshot/collisioncourse)
+  swanna (fainted; item heavydutyboots, ability hydration; moves roost/hydropump/bravebird/defog)
+  cinderace (fainted; item heavydutyboots, ability libero; moves uturn/willowisp/pyroball/courtchange)
+  raichu (fainted; item assaultvest, ability lightningrod; moves nuzzle/thunderbolt/grassknot/surf)
+  magearnaoriginal (fainted; item leftovers, ability soulheart; moves painsplit/spikes/flashcannon/fleurcannon)
+  brutebonnet (fainted; item leftovers, ability protosynthesis; moves suckerpunch/crunch/seedbomb/spore)
+theirs (as seen):
+  gumshoos (fainted; item unknown_item, ability ?; moves doubleedge)
+  weezinggalar (fainted; item leftovers, ability ?; moves gunkshot)
+  landorus (fainted; item unknown_item, ability ?; moves focusblast)
+  klawf (fainted; item unknown_item, ability ?; moves -)
+  slaking (fainted; item unknown_item, ability truant; moves gigaimpact)
+  charizard (9%; item unknown_item, ability ?; moves hurricane)
+
+-- turn 0
+  switch|p1a: Koraidon|Koraidon, L64|235/235
+  switch|p2a: Gumshoos|Gumshoos, L95, M|100/100
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+  -activate|p1a: Koraidon|Orichalcum Pulse|[source]
+-- turn 1
+  WE CHOSE: switch to magearnaoriginal (hand policy: attack collisioncourse) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Magearna|Magearna-Original, L77|250/250
+  move|p2a: Gumshoos|Double-Edge|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|1/250
+  -damage|p2a: Gumshoos|75/100|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Magearna|16/250|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack fleurcannon - our hp 0.06, theirs 0.75, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to koraidon - our hp 0.00, theirs 0.73, predicted move (revealed) hits us x0.5
+  move|p1a: Magearna|Fleur Cannon|p2a: Gumshoos|[miss]
+  -miss|p1a: Magearna|p2a: Gumshoos
+  move|p2a: Gumshoos|Double-Edge|p1a: Magearna
+  -resisted|p1a: Magearna
+  -damage|p1a: Magearna|0 fnt
+  faint|p1a: Magearna
+  -damage|p2a: Gumshoos|73/100|[from] Recoil
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Koraidon|Koraidon, L64|235/235
+  -activate|p1a: Koraidon|ability: Orichalcum Pulse
+-- turn 3
+  WE CHOSE: attack collisioncourse - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x1
+  move|p1a: Koraidon|Collision Course|p2a: Gumshoos
+  -supereffective|p2a: Gumshoos
+  -damage|p2a: Gumshoos|0 fnt
+  faint|p2a: Gumshoos
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Weezing|Weezing-Galar, L86, F|100/100
+-- turn 4
+  WE CHOSE: attack+tera flareblitz - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Koraidon|Fire
+  move|p1a: Koraidon|Flare Blitz|p2a: Weezing
+  -damage|p2a: Weezing|44/100
+  -damage|p1a: Koraidon|188/235|[from] Recoil
+  move|p2a: Weezing|Gunk Shot|p1a: Koraidon
+  -damage|p1a: Koraidon|43/235
+  -status|p1a: Koraidon|psn
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Weezing|50/100|[from] item: Leftovers
+  -damage|p1a: Koraidon|14/235 psn|[from] psn
+-- turn 5
+  WE CHOSE: attack flareblitz - our hp 0.06, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cinderace (hand policy: forced: switch to swanna) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Koraidon|Flare Blitz|p2a: Weezing
+  -damage|p2a: Weezing|0 fnt
+  faint|p2a: Weezing
+  -damage|p1a: Koraidon|0 fnt|[from] Recoil
+  faint|p1a: Koraidon
+  -weather|none
+  switch|p1a: Cinderace|Cinderace, L77, M|250/250
+  switch|p2a: Landorus|Landorus, L75, M|100/100
+-- turn 6
+  WE CHOSE: switch to swanna (hand policy: attack pyroball) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Swanna|Swanna, L89, M|278/278
+  move|p2a: Landorus|Focus Blast|p1a: Swanna
+  -resisted|p1a: Swanna
+  -damage|p1a: Swanna|201/278
+-- turn 7
+  WE CHOSE: attack hydropump - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Swanna|Hydro Pump|p2a: Landorus
+  -supereffective|p2a: Landorus
+  -damage|p2a: Landorus|0 fnt
+  faint|p2a: Landorus
+  switch|p2a: Klawf|Klawf, L90, F|100/100
+-- turn 8
+  WE CHOSE: attack hydropump - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Swanna|Hydro Pump|p2a: Klawf
+  -supereffective|p2a: Klawf
+  -damage|p2a: Klawf|0 fnt
+  faint|p2a: Klawf
+  switch|p2a: Slaking|Slaking, L84, F|100/100
+-- turn 9
+  WE CHOSE: attack hydropump - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to cinderace - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Swanna
+  -damage|p1a: Swanna|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Swanna
+  switch|p1a: Cinderace|Cinderace, L77, M|250/250
+-- turn 10
+  WE CHOSE: attack pyroball - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Cinderace|Pyro Ball|p2a: Slaking
+  -damage|p2a: Slaking|72/100
+-- turn 11
+  WE CHOSE: attack pyroball - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to raichu - our hp 0.00, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Cinderace
+  -damage|p1a: Cinderace|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Cinderace
+  switch|p1a: Raichu|Raichu, L88, F|249/249
+-- turn 12
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Raichu|Thunderbolt|p2a: Slaking
+  -damage|p2a: Slaking|40/100
+-- turn 13
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to brutebonnet - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Raichu
+  -damage|p1a: Raichu|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Raichu
+  switch|p1a: Brute Bonnet|Brute Bonnet, L80|309/309
+-- turn 14
+  WE CHOSE: attack crunch - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Brute Bonnet|Crunch|p2a: Slaking
+  -damage|p2a: Slaking|18/100
+  -unboost|p2a: Slaking|def|1
+-- turn 15
+  WE CHOSE: attack crunch - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|78/309
+  -mustrecharge|p2a: Slaking
+  move|p1a: Brute Bonnet|Crunch|p2a: Slaking
+  -damage|p2a: Slaking|0 fnt
+  faint|p2a: Slaking
+  -heal|p1a: Brute Bonnet|97/309|[from] item: Leftovers
+  switch|p2a: Charizard|Charizard, L85, M|100/100
+-- turn 16
+  WE CHOSE: attack crunch - our hp 0.31, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Charizard|Hurricane|p1a: Brute Bonnet|[miss]
+  -miss|p2a: Charizard|p1a: Brute Bonnet
+  move|p1a: Brute Bonnet|Crunch|p2a: Charizard
+  -crit|p2a: Charizard
+  -damage|p2a: Charizard|45/100
+  -heal|p1a: Brute Bonnet|116/309|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack crunch - our hp 0.38, theirs 0.45, predicted move (revealed) hits us x2
+  move|p2a: Charizard|Hurricane|p1a: Brute Bonnet|[miss]
+  -miss|p2a: Charizard|p1a: Brute Bonnet
+  move|p1a: Brute Bonnet|Crunch|p2a: Charizard
+  -damage|p2a: Charizard|9/100
+  -heal|p1a: Brute Bonnet|135/309|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack seedbomb (hand policy: attack crunch) - our hp 0.44, theirs 0.09, predicted move (revealed) hits us x2
+  move|p2a: Charizard|Hurricane|p1a: Brute Bonnet
+  -supereffective|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|0 fnt
+  faint|p1a: Brute Bonnet
+  -end|p1a: Brute Bonnet|Protosynthesis|[silent]
+  deinit

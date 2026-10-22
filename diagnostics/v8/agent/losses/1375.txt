@@ -1,0 +1,178 @@
+battle 1375 (battle-gen9randombattle-2032537): lost in 19 turns, 1 of theirs left; we are p1
+
+ours:
+  banette (fainted; item lifeorb, ability insomnia; moves shadowsneak/poltergeist/gunkshot/thunderwave)
+  victreebel (fainted; item lifeorb, ability chlorophyll; moves sleeppowder/knockoff/powerwhip/sludgewave)
+  gallade (fainted; item lifeorb, ability sharpness, tera fighting; moves agility/psychocut/sacredsword/nightslash)
+  indeedeef (fainted; item choicescarf, ability psychicsurge; moves dazzlinggleam/healingwish/hypervoice/psychic)
+  jolteon (fainted; item heavydutyboots, ability voltabsorb; moves voltswitch/alluringvoice/calmmind/thunderbolt)
+  cacturne (fainted; item lifeorb, ability waterabsorb; moves suckerpunch/toxicspikes/leafstorm/knockoff)
+theirs (as seen):
+  mamoswine (fainted; item lifeorb, ability ?; moves earthquake)
+  glaceon (fainted; item unknown_item, ability ?; moves freezedry)
+  ribombee (fainted; item unknown_item, ability ?; moves moonblast)
+  persianalola (fainted; item unknown_item, ability ?; moves foulplay)
+  eelektross (fainted; item unknown_item, ability levitate; moves closecombat)
+  miraidon (27%; item lifeorb, ability hadronengine; moves dracometeor)
+
+-- turn 0
+  switch|p1a: Banette|Banette, L93, F|270/270
+  switch|p2a: Mamoswine|Mamoswine, L81, F|100/100
+-- turn 1
+  WE CHOSE: switch to cacturne (hand policy: attack poltergeist) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Cacturne|Cacturne, L92, M|278/278
+  move|p2a: Mamoswine|Earthquake|p1a: Cacturne
+  -resisted|p1a: Cacturne
+  -damage|p1a: Cacturne|188/278
+  -damage|p2a: Mamoswine|91/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack leafstorm (hand policy: attack+tera leafstorm) - our hp 0.68, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Mamoswine|Earthquake|p1a: Cacturne
+  -resisted|p1a: Cacturne
+  -damage|p1a: Cacturne|98/278
+  -damage|p2a: Mamoswine|81/100|[from] item: Life Orb
+  move|p1a: Cacturne|Leaf Storm|p2a: Mamoswine
+  -supereffective|p2a: Mamoswine
+  -damage|p2a: Mamoswine|0 fnt
+  -unboost|p1a: Cacturne|spa|2
+  faint|p2a: Mamoswine
+  -damage|p1a: Cacturne|71/278|[from] item: Life Orb
+  switch|p2a: Glaceon|Glaceon, L94, M|100/100
+-- turn 3
+  WE CHOSE: switch to gallade (hand policy: attack suckerpunch) - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Gallade|Gallade, L80, M|240/240
+  move|p2a: Glaceon|Freeze-Dry|p1a: Gallade
+  -damage|p1a: Gallade|141/240
+-- turn 4
+  WE CHOSE: attack+tera sacredsword - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Gallade|Fighting
+  move|p2a: Glaceon|Freeze-Dry|p1a: Gallade
+  -damage|p1a: Gallade|47/240
+  -status|p1a: Gallade|frz
+  cant|p1a: Gallade|frz
+-- turn 5
+  WE CHOSE: attack sacredsword - our hp 0.20, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to banette - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Gallade
+  -damage|p1a: Gallade|0 fnt
+  faint|p1a: Gallade
+  switch|p1a: Banette|Banette, L93, F|270/270
+-- turn 6
+  WE CHOSE: attack poltergeist - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Banette
+  -damage|p1a: Banette|132/270
+  move|p1a: Banette|Poltergeist|p2a: Glaceon
+  -activate|p2a: Glaceon|move: Poltergeist|Heavy-Duty Boots
+  -damage|p2a: Glaceon|42/100
+  -damage|p1a: Banette|105/270|[from] item: Life Orb
+-- turn 7
+  WE CHOSE: attack poltergeist - our hp 0.39, theirs 0.42, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to jolteon (hand policy: forced: switch to indeedeef) - our hp 0.00, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Banette
+  -damage|p1a: Banette|0 fnt
+  faint|p1a: Banette
+  switch|p1a: Jolteon|Jolteon, L84, F|246/246
+-- turn 8
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.42, predicted move (revealed) hits us x1
+  move|p1a: Jolteon|Thunderbolt|p2a: Glaceon
+  -damage|p2a: Glaceon|10/100
+  move|p2a: Glaceon|Freeze-Dry|p1a: Jolteon
+  -damage|p1a: Jolteon|128/246
+-- turn 9
+  WE CHOSE: attack thunderbolt - our hp 0.52, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Jolteon|Thunderbolt|p2a: Glaceon
+  -damage|p2a: Glaceon|0 fnt
+  faint|p2a: Glaceon
+  switch|p2a: Ribombee|Ribombee, L83, F|100/100
+-- turn 10
+  WE CHOSE: attack thunderbolt - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to victreebel - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Jolteon|Thunderbolt|p2a: Ribombee
+  -damage|p2a: Ribombee|49/100
+  move|p2a: Ribombee|Moonblast|p1a: Jolteon
+  -crit|p1a: Jolteon
+  -damage|p1a: Jolteon|0 fnt
+  faint|p1a: Jolteon
+  switch|p1a: Victreebel|Victreebel, L90, M|290/290
+-- turn 11
+  WE CHOSE: attack powerwhip (hand policy: attack sludgewave) - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Ribombee|Moonblast|p1a: Victreebel
+  -resisted|p1a: Victreebel
+  -damage|p1a: Victreebel|237/290
+  move|p1a: Victreebel|Power Whip|p2a: Ribombee
+  -resisted|p2a: Ribombee
+  -damage|p2a: Ribombee|0 fnt
+  faint|p2a: Ribombee
+  -damage|p1a: Victreebel|208/290|[from] item: Life Orb
+  switch|p2a: Persian|Persian-Alola, L86, F|100/100
+-- turn 12
+  WE CHOSE: attack powerwhip - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Persian|Foul Play|p1a: Victreebel
+  -damage|p1a: Victreebel|67/290
+  move|p1a: Victreebel|Power Whip|p2a: Persian
+  -damage|p2a: Persian|43/100
+  -damage|p1a: Victreebel|38/290|[from] item: Life Orb
+-- turn 13
+  WE CHOSE: attack powerwhip - our hp 0.13, theirs 0.43, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to indeedeef (hand policy: forced: switch to cacturne) - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p2a: Persian|Foul Play|p1a: Victreebel
+  -damage|p1a: Victreebel|0 fnt
+  faint|p1a: Victreebel
+  switch|p1a: Indeedee|Indeedee-F, L90, F|272/272
+  -fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+-- turn 14
+  WE CHOSE: attack dazzlinggleam (hand policy: switch to cacturne) - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x2
+  move|p1a: Indeedee|Dazzling Gleam|p2a: Persian
+  -supereffective|p2a: Persian
+  -crit|p2a: Persian
+  -damage|p2a: Persian|0 fnt
+  faint|p2a: Persian
+  switch|p2a: Eelektross|Eelektross, L87, M|100/100
+-- turn 15
+  WE CHOSE: attack dazzlinggleam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Indeedee|Dazzling Gleam|p2a: Eelektross
+  -damage|p2a: Eelektross|85/100
+  move|p2a: Eelektross|Close Combat|p1a: Indeedee
+  -damage|p1a: Indeedee|162/272
+  -unboost|p2a: Eelektross|def|1
+  -unboost|p2a: Eelektross|spd|1
+-- turn 16
+  WE CHOSE: attack dazzlinggleam - our hp 0.60, theirs 0.85, predicted move (revealed) hits us x1
+  move|p1a: Indeedee|Dazzling Gleam|p2a: Eelektross
+  -damage|p2a: Eelektross|60/100
+  move|p2a: Eelektross|Close Combat|p1a: Indeedee
+  -damage|p1a: Indeedee|38/272
+  -unboost|p2a: Eelektross|def|1
+  -unboost|p2a: Eelektross|spd|1
+-- turn 17
+  WE CHOSE: attack dazzlinggleam - our hp 0.14, theirs 0.60, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cacturne - our hp 0.00, theirs 0.30, predicted move (revealed) hits us x1
+  move|p1a: Indeedee|Dazzling Gleam|p2a: Eelektross
+  -damage|p2a: Eelektross|30/100
+  move|p2a: Eelektross|Close Combat|p1a: Indeedee
+  -damage|p1a: Indeedee|0 fnt
+  -unboost|p2a: Eelektross|def|1
+  -unboost|p2a: Eelektross|spd|1
+  faint|p1a: Indeedee
+  switch|p1a: Cacturne|Cacturne, L92, M|71/278
+-- turn 18
+  WE CHOSE: attack leafstorm - our hp 0.26, theirs 0.30, predicted move (revealed) hits us x2
+  move|p1a: Cacturne|Leaf Storm|p2a: Eelektross
+  -damage|p2a: Eelektross|0 fnt
+  -unboost|p1a: Cacturne|spa|2
+  faint|p2a: Eelektross
+  -damage|p1a: Cacturne|44/278|[from] item: Life Orb
+  -fieldend|move: Psychic Terrain
+  switch|p2a: Miraidon|Miraidon, L65|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+-- turn 19
+  WE CHOSE: attack suckerpunch - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Cacturne|Sucker Punch|p2a: Miraidon
+  -damage|p2a: Miraidon|36/100
+  -damage|p1a: Cacturne|17/278|[from] item: Life Orb
+  move|p2a: Miraidon|Draco Meteor|p1a: Cacturne
+  -damage|p1a: Cacturne|0 fnt
+  -unboost|p2a: Miraidon|spa|2
+  faint|p1a: Cacturne
+  -damage|p2a: Miraidon|27/100|[from] item: Life Orb
+  deinit

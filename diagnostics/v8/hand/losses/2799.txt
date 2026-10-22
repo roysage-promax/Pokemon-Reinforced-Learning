@@ -1,0 +1,152 @@
+battle 2799 (battle-gen9randombattle-2044792): lost in 16 turns, 1 of theirs left; we are p1
+
+ours:
+  mesprit (fainted; item ?, ability levitate; moves uturn/encore/thunderwave/psychicnoise)
+  camerupt (fainted; item ?, ability solidrock; moves overheat/roar/stealthrock/earthquake)
+  dodrio (fainted; item choiceband, ability earlybird; moves doubleedge/bravebird/drillrun/knockoff)
+  spectrier (fainted; item lifeorb, ability grimneigh; moves nastyplot/terablast/willowisp/shadowball)
+  glalie (fainted; item heavydutyboots, ability innerfocus, tera water; moves freezedry/earthquake/taunt/spikes)
+  ironmoth (fainted; item heavydutyboots, ability quarkdrive; moves energyball/sludgewave/fierydance/morningsun)
+theirs (as seen):
+  weavile (fainted; item unknown_item, ability ?; moves knockoff)
+  dusknoir (fainted; item unknown_item, ability ?; moves poltergeist)
+  leavanny (fainted; item unknown_item, ability ?; moves -)
+  samurott (fainted; item unknown_item, ability ?; moves hydropump)
+  gardevoir (fainted; item unknown_item, ability innerfocus; moves moonblast)
+  garchomp (72%; item unknown_item, ability ?; moves outrage)
+
+-- turn 0
+  switch|p1a: Mesprit|Mesprit, L85|275/275
+  switch|p2a: Weavile|Weavile, L79, F|100/100
+-- turn 1
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to camerupt - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Weavile|Knock Off|p1a: Mesprit
+  -supereffective|p1a: Mesprit
+  -damage|p1a: Mesprit|0 fnt
+  -enditem|p1a: Mesprit|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+  faint|p1a: Mesprit
+  switch|p1a: Camerupt|Camerupt, L91, M|275/275
+-- turn 2
+  WE CHOSE: attack overheat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Weavile|Knock Off|p1a: Camerupt
+  -crit|p1a: Camerupt
+  -damage|p1a: Camerupt|19/275
+  -enditem|p1a: Camerupt|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+  move|p1a: Camerupt|Overheat|p2a: Weavile
+  -supereffective|p2a: Weavile
+  -damage|p2a: Weavile|0 fnt
+  -unboost|p1a: Camerupt|spa|2
+  faint|p2a: Weavile
+  switch|p2a: Dusknoir|Dusknoir, L89, F|100/100
+-- turn 3
+  WE CHOSE: switch to spectrier - our hp 0.07, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dodrio - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Spectrier|Spectrier, L75|274/274
+  move|p2a: Dusknoir|Poltergeist|p1a: Spectrier
+  -activate|p1a: Spectrier|move: Poltergeist|Life Orb
+  -supereffective|p1a: Spectrier
+  -damage|p1a: Spectrier|0 fnt
+  faint|p1a: Spectrier
+  switch|p1a: Dodrio|Dodrio, L85, F|241/241
+-- turn 4
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Brave Bird|p2a: Dusknoir
+  -damage|p2a: Dusknoir|39/100
+  -damage|p1a: Dodrio|195/241|[from] Recoil
+  move|p2a: Dusknoir|Poltergeist|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 5
+  WE CHOSE: attack bravebird - our hp 0.81, theirs 0.39, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Brave Bird|p2a: Dusknoir
+  -damage|p2a: Dusknoir|0 fnt
+  faint|p2a: Dusknoir
+  -damage|p1a: Dodrio|166/241|[from] Recoil
+  switch|p2a: Leavanny|Leavanny, L86, F|100/100
+-- turn 6
+  WE CHOSE: attack bravebird - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Dodrio|Brave Bird|p2a: Leavanny
+  -supereffective|p2a: Leavanny
+  -damage|p2a: Leavanny|0 fnt
+  faint|p2a: Leavanny
+  -damage|p1a: Dodrio|77/241|[from] Recoil
+  switch|p2a: Samurott|Samurott, L88, F|100/100
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 0.32, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to glalie - our hp 0.00, theirs 0.36, predicted move (revealed) hits us x1
+  move|p1a: Dodrio|Brave Bird|p2a: Samurott
+  -damage|p2a: Samurott|36/100
+  -damage|p1a: Dodrio|11/241|[from] Recoil
+  move|p2a: Samurott|Hydro Pump|p1a: Dodrio
+  -damage|p1a: Dodrio|0 fnt
+  faint|p1a: Dodrio
+  switch|p1a: Glalie|Glalie, L96, M|309/309
+-- turn 8
+  WE CHOSE: attack+tera earthquake - our hp 1.00, theirs 0.36, predicted move (revealed) hits us x1
+  -terastallize|p1a: Glalie|Water
+  move|p1a: Glalie|Earthquake|p2a: Samurott
+  -damage|p2a: Samurott|11/100
+  move|p2a: Samurott|Hydro Pump|p1a: Glalie
+  -resisted|p1a: Glalie
+  -damage|p1a: Glalie|203/309
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.66, theirs 0.11, predicted move (revealed) hits us x0.5
+  move|p1a: Glalie|Earthquake|p2a: Samurott
+  -damage|p2a: Samurott|0 fnt
+  faint|p2a: Samurott
+  switch|p2a: Gardevoir|Gardevoir, L83, F|100/100
+  -ability|p2a: Gardevoir|Inner Focus|Trace|[from] ability: Trace|[of] p1a: Glalie
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Glalie
+  -damage|p1a: Glalie|86/309
+  move|p1a: Glalie|Earthquake|p2a: Gardevoir
+  -damage|p2a: Gardevoir|61/100
+-- turn 11
+  WE CHOSE: attack earthquake - our hp 0.28, theirs 0.61, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironmoth - our hp 0.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Glalie
+  -damage|p1a: Glalie|0 fnt
+  faint|p1a: Glalie
+  switch|p1a: Iron Moth|Iron Moth, L78|253/253
+-- turn 12
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x0.25
+  move|p2a: Gardevoir|Moonblast|p1a: Iron Moth
+  -resisted|p1a: Iron Moth
+  -damage|p1a: Iron Moth|226/253
+  move|p1a: Iron Moth|Sludge Wave|p2a: Gardevoir
+  -supereffective|p2a: Gardevoir
+  -crit|p2a: Gardevoir
+  -damage|p2a: Gardevoir|0 fnt
+  faint|p2a: Gardevoir
+  switch|p2a: Garchomp|Garchomp, L74, M|100/100
+-- turn 13
+  WE CHOSE: attack energyball - our hp 0.89, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Iron Moth|Energy Ball|p2a: Garchomp
+  -damage|p2a: Garchomp|72/100
+  move|p2a: Garchomp|Outrage|p1a: Iron Moth
+  -damage|p1a: Iron Moth|46/253
+-- turn 14
+  WE CHOSE: heal morningsun - our hp 0.18, theirs 0.72, predicted move (revealed) hits us x1
+  move|p1a: Iron Moth|Morning Sun|p1a: Iron Moth
+  -heal|p1a: Iron Moth|172/253
+  move|p2a: Garchomp|Outrage|p1a: Iron Moth|[from] lockedmove
+  -damage|p1a: Iron Moth|3/253
+-- turn 15
+  WE CHOSE: heal morningsun - our hp 0.01, theirs 0.72, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to camerupt - our hp 0.00, theirs 0.72, predicted move (revealed) hits us x1
+  move|p1a: Iron Moth|Morning Sun|p1a: Iron Moth
+  -heal|p1a: Iron Moth|129/253
+  move|p2a: Garchomp|Outrage|p1a: Iron Moth|[from] lockedmove
+  -damage|p1a: Iron Moth|0 fnt
+  faint|p1a: Iron Moth
+  -end|p1a: Iron Moth|Quark Drive|[silent]
+  -start|p2a: Garchomp|confusion|[fatigue]
+  switch|p1a: Camerupt|Camerupt, L91, M|19/275
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 0.07, theirs 0.72, predicted move (revealed) hits us x1
+  -activate|p2a: Garchomp|confusion
+  move|p2a: Garchomp|Outrage|p1a: Camerupt
+  -damage|p1a: Camerupt|0 fnt
+  faint|p1a: Camerupt
+  deinit

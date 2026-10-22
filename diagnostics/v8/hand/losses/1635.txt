@@ -1,0 +1,433 @@
+battle 1635 (battle-gen9randombattle-2033833): lost in 43 turns, 1 of theirs left; we are p1
+
+ours:
+  greedent (fainted; item ?, ability cheekpouch, tera ground; moves earthquake/knockoff/bodyslam/swordsdance)
+  mewtwo (fainted; item lifeorb, ability pressure; moves psystrike/nastyplot/aurasphere/fireblast)
+  decidueyehisui (fainted; item leftovers, ability scrappy; moves roost/leafblade/defog/triplearrows)
+  volcarona (fainted; item heavydutyboots, ability flamebody; moves gigadrain/quiverdance/morningsun/fierydance)
+  whimsicott (fainted; item leftovers, ability prankster; moves leechseed/substitute/moonblast/encore)
+  carbink (fainted; item chestoberry, ability sturdy; moves rest/irondefense/moonblast/bodypress)
+theirs (as seen):
+  vivillonsun (fainted; item unknown_item, ability ?; moves hurricane)
+  pyroar (fainted; item unknown_item, ability unnerve; moves fireblast)
+  noivern (fainted; item unknown_item, ability ?; moves boomburst)
+  trevenant (fainted; item ?, ability ?; moves poltergeist/drainpunch/toxic)
+  samurott (fainted; item lifeorb, ability ?; moves megahorn)
+
+-- turn 0
+  switch|p1a: Greedent|Greedent, L86, F|347/347
+  switch|p2a: Vivillon|Vivillon-Sun, L83, F|100/100
+-- turn 1
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Vivillon|Hurricane|p1a: Greedent
+  -damage|p1a: Greedent|221/347
+  move|p1a: Greedent|Body Slam|p2a: Vivillon
+  -damage|p2a: Vivillon|53/100
+-- turn 2
+  WE CHOSE: attack bodyslam - our hp 0.64, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Vivillon|Hurricane|p1a: Greedent
+  -damage|p1a: Greedent|109/347
+  -enditem|p1a: Greedent|Sitrus Berry|[eat]
+  -heal|p1a: Greedent|195/347|[from] item: Sitrus Berry
+  -heal|p1a: Greedent|310/347|[from] ability: Cheek Pouch
+  move|p1a: Greedent|Body Slam|p2a: Vivillon
+  -damage|p2a: Vivillon|5/100
+-- turn 3
+  WE CHOSE: attack bodyslam - our hp 0.89, theirs 0.05, predicted move (revealed) hits us x1
+  move|p2a: Vivillon|Hurricane|p1a: Greedent
+  -damage|p1a: Greedent|198/347
+  move|p1a: Greedent|Body Slam|p2a: Vivillon
+  -crit|p2a: Vivillon
+  -damage|p2a: Vivillon|0 fnt
+  faint|p2a: Vivillon
+  switch|p2a: Pyroar|Pyroar, L88, F|100/100
+  -ability|p2a: Pyroar|Unnerve
+-- turn 4
+  WE CHOSE: attack+tera earthquake - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Greedent|Ground
+  move|p2a: Pyroar|Fire Blast|p1a: Greedent
+  -damage|p1a: Greedent|47/347
+  -status|p1a: Greedent|brn
+  move|p1a: Greedent|Earthquake|p2a: Pyroar
+  -supereffective|p2a: Pyroar
+  -damage|p2a: Pyroar|57/100
+  -damage|p1a: Greedent|26/347 brn|[from] brn
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 0.07, theirs 0.57, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to carbink - our hp 0.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p2a: Pyroar|Fire Blast|p1a: Greedent
+  -damage|p1a: Greedent|0 fnt
+  faint|p1a: Greedent
+  switch|p1a: Carbink|Carbink, L90|236/236
+-- turn 6
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p2a: Pyroar|Fire Blast|p1a: Carbink|[miss]
+  -miss|p2a: Pyroar|p1a: Carbink
+  move|p1a: Carbink|Body Press|p2a: Pyroar
+  -supereffective|p2a: Pyroar
+  -damage|p2a: Pyroar|0 fnt
+  faint|p2a: Pyroar
+  switch|p2a: Noivern|Noivern, L82, F|100/100
+-- turn 7
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Noivern|Boomburst|p1a: Carbink
+  -resisted|p1a: Carbink
+  -damage|p1a: Carbink|191/236
+  move|p1a: Carbink|Moonblast|p2a: Noivern
+  -supereffective|p2a: Noivern
+  -damage|p2a: Noivern|36/100
+-- turn 8
+  WE CHOSE: attack moonblast - our hp 0.81, theirs 0.36, predicted move (revealed) hits us x0.5
+  move|p2a: Noivern|Boomburst|p1a: Carbink
+  -resisted|p1a: Carbink
+  -damage|p1a: Carbink|151/236
+  move|p1a: Carbink|Moonblast|p2a: Noivern
+  -supereffective|p2a: Noivern
+  -damage|p2a: Noivern|0 fnt
+  faint|p2a: Noivern
+  switch|p2a: Trevenant|Trevenant, L89, M|100/100
+-- turn 9
+  WE CHOSE: switch to volcarona - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Volcarona|Volcarona, L77, M|257/257
+  move|p2a: Trevenant|Poltergeist|p1a: Volcarona
+  -activate|p1a: Volcarona|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Volcarona|77/257
+-- turn 10
+  WE CHOSE: heal morningsun - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volcarona|Morning Sun|p1a: Volcarona
+  -heal|p1a: Volcarona|205/257
+  move|p2a: Trevenant|Poltergeist|p1a: Volcarona
+  -activate|p1a: Volcarona|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Volcarona|27/257
+-- turn 11
+  WE CHOSE: heal morningsun - our hp 0.11, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to whimsicott - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volcarona|Morning Sun|p1a: Volcarona
+  -heal|p1a: Volcarona|155/257
+  move|p2a: Trevenant|Poltergeist|p1a: Volcarona
+  -activate|p1a: Volcarona|move: Poltergeist|Heavy-Duty Boots
+  -damage|p1a: Volcarona|0 fnt
+  faint|p1a: Volcarona
+  switch|p1a: Whimsicott|Whimsicott, L84, F|238/238
+-- turn 12
+  WE CHOSE: attack moonblast - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Whimsicott|Moonblast|p2a: Trevenant
+  -damage|p2a: Trevenant|69/100
+  -unboost|p2a: Trevenant|spa|1
+  move|p2a: Trevenant|Poltergeist|p1a: Whimsicott
+  -activate|p1a: Whimsicott|move: Poltergeist|Leftovers
+  -damage|p1a: Whimsicott|87/238
+  -heal|p1a: Whimsicott|101/238|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack moonblast - our hp 0.42, theirs 0.69, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to carbink - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Whimsicott|Moonblast|p2a: Trevenant
+  -damage|p2a: Trevenant|40/100
+  -unboost|p2a: Trevenant|spa|1
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|65/100|[from] item: Sitrus Berry
+  move|p2a: Trevenant|Poltergeist|p1a: Whimsicott
+  -activate|p1a: Whimsicott|move: Poltergeist|Leftovers
+  -damage|p1a: Whimsicott|0 fnt
+  faint|p1a: Whimsicott
+  switch|p1a: Carbink|Carbink, L90|151/236
+-- turn 14
+  WE CHOSE: attack moonblast - our hp 0.64, theirs 0.65, predicted move (revealed) hits us x1
+  move|p2a: Trevenant|Poltergeist|p1a: Carbink
+  -activate|p1a: Carbink|move: Poltergeist|Chesto Berry
+  -damage|p1a: Carbink|69/236
+  move|p1a: Carbink|Moonblast|p2a: Trevenant
+  -damage|p2a: Trevenant|42/100
+-- turn 15
+  WE CHOSE: heal rest - our hp 0.29, theirs 0.42, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to decidueyehisui - our hp 0.00, theirs 0.67, predicted move (revealed) hits us x1
+  move|p2a: Trevenant|Poltergeist|p1a: Carbink
+  -activate|p1a: Carbink|move: Poltergeist|Chesto Berry
+  -damage|p1a: Carbink|0 fnt
+  faint|p1a: Carbink
+  -item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|67/100|[from] item: Sitrus Berry
+  switch|p1a: Decidueye|Decidueye-Hisui, L87, F|295/295
+-- turn 16
+  WE CHOSE: attack leafblade - our hp 1.00, theirs 0.67, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|46/100
+  move|p2a: Trevenant|Poltergeist|p1a: Decidueye
+  -activate|p1a: Decidueye|move: Poltergeist|Leftovers
+  -damage|p1a: Decidueye|142/295
+  -heal|p1a: Decidueye|160/295|[from] item: Leftovers
+  -item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|71/100|[from] item: Sitrus Berry
+-- turn 17
+  WE CHOSE: attack leafblade - our hp 0.54, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|49/100
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|93/295
+  -heal|p2a: Trevenant|61/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|111/295|[from] item: Leftovers
+  -item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+-- turn 18
+  WE CHOSE: heal roost - our hp 0.38, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Roost|p1a: Decidueye
+  -heal|p1a: Decidueye|259/295
+  -singleturn|p1a: Decidueye|move: Roost
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|186/295
+  -heal|p2a: Trevenant|73/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|204/295|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack leafblade - our hp 0.69, theirs 0.73, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -crit|p2a: Trevenant
+  -damage|p2a: Trevenant|41/100
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|66/100|[from] item: Sitrus Berry
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|130/295
+  -heal|p2a: Trevenant|79/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|148/295|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack leafblade - our hp 0.50, theirs 0.79, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|60/100
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|84/295
+  -heal|p2a: Trevenant|71/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|102/295|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal roost - our hp 0.35, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Roost|p1a: Decidueye
+  -heal|p1a: Decidueye|250/295
+  -singleturn|p1a: Decidueye|move: Roost
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|179/295
+  -heal|p2a: Trevenant|83/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|197/295|[from] item: Leftovers
+  -item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+-- turn 22
+  WE CHOSE: attack leafblade - our hp 0.67, theirs 0.83, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|63/100
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|127/295
+  -heal|p2a: Trevenant|74/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|145/295|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal roost - our hp 0.49, theirs 0.74, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Roost|p1a: Decidueye
+  -heal|p1a: Decidueye|293/295
+  -singleturn|p1a: Decidueye|move: Roost
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|231/295
+  -heal|p2a: Trevenant|85/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|249/295|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack leafblade - our hp 0.84, theirs 0.85, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|66/100
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|183/295
+  -heal|p2a: Trevenant|78/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|201/295|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack leafblade - our hp 0.68, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -crit|p2a: Trevenant
+  -damage|p2a: Trevenant|50/100
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|75/100|[from] item: Sitrus Berry
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|139/295
+  -heal|p2a: Trevenant|85/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|157/295|[from] item: Leftovers
+  -item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+-- turn 26
+  WE CHOSE: attack leafblade - our hp 0.53, theirs 0.85, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -crit|p2a: Trevenant
+  -damage|p2a: Trevenant|54/100
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|88/295
+  -heal|p2a: Trevenant|66/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|106/295|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: heal roost - our hp 0.36, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Roost|p1a: Decidueye
+  -heal|p1a: Decidueye|254/295
+  -singleturn|p1a: Decidueye|move: Roost
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|188/295
+  -heal|p2a: Trevenant|77/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|206/295|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack leafblade - our hp 0.70, theirs 0.77, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|59/100
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|134/295
+  -heal|p2a: Trevenant|71/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|152/295|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack leafblade - our hp 0.52, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|49/100
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|74/100|[from] item: Sitrus Berry
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -crit|p1a: Decidueye
+  -damage|p1a: Decidueye|58/295
+  -heal|p2a: Trevenant|90/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|76/295|[from] item: Leftovers
+  -item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+-- turn 30
+  WE CHOSE: heal roost - our hp 0.26, theirs 0.90, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Roost|p1a: Decidueye
+  -heal|p1a: Decidueye|224/295
+  -singleturn|p1a: Decidueye|move: Roost
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|156/295
+  -heal|p2a: Trevenant|100/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|174/295|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack leafblade - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|79/100
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -damage|p1a: Decidueye|108/295
+  -heal|p2a: Trevenant|90/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|126/295|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: heal roost - our hp 0.43, theirs 0.90, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Roost|p1a: Decidueye
+  -heal|p1a: Decidueye|274/295
+  -singleturn|p1a: Decidueye|move: Roost
+  move|p2a: Trevenant|Drain Punch|p1a: Decidueye
+  -crit|p1a: Decidueye
+  -damage|p1a: Decidueye|178/295
+  -heal|p2a: Trevenant|100/100|[from] drain|[of] p1a: Decidueye
+  -heal|p1a: Decidueye|196/295|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack leafblade - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|81/100
+  move|p2a: Trevenant|Toxic|p1a: Decidueye
+  -status|p1a: Decidueye|tox
+  -heal|p1a: Decidueye|214/295 tox|[from] item: Leftovers
+  -damage|p1a: Decidueye|196/295 tox|[from] psn
+-- turn 34
+  WE CHOSE: attack leafblade - our hp 0.66, theirs 0.81, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|61/100
+  move|p2a: Trevenant|Toxic|p1a: Decidueye
+  -fail|p1a: Decidueye|tox
+  -heal|p1a: Decidueye|214/295 tox|[from] item: Leftovers
+  -damage|p1a: Decidueye|178/295 tox|[from] psn
+-- turn 35
+  WE CHOSE: attack leafblade - our hp 0.60, theirs 0.61, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|40/100
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|65/100|[from] item: Sitrus Berry
+  move|p2a: Trevenant|Toxic|p1a: Decidueye
+  -fail|p1a: Decidueye|tox
+  -heal|p1a: Decidueye|196/295 tox|[from] item: Leftovers
+  -damage|p1a: Decidueye|142/295 tox|[from] psn
+  -item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+-- turn 36
+  WE CHOSE: heal roost - our hp 0.48, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Roost|p1a: Decidueye
+  -heal|p1a: Decidueye|290/295 tox
+  -singleturn|p1a: Decidueye|move: Roost
+  move|p2a: Trevenant|Toxic|p1a: Decidueye
+  -fail|p1a: Decidueye|tox
+  -heal|p1a: Decidueye|295/295 tox|[from] item: Leftovers
+  -damage|p1a: Decidueye|223/295 tox|[from] psn
+-- turn 37
+  WE CHOSE: attack leafblade - our hp 0.76, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|44/100
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|69/100|[from] item: Sitrus Berry
+  move|p2a: Trevenant|Toxic|p1a: Decidueye
+  -fail|p1a: Decidueye|tox
+  -heal|p1a: Decidueye|241/295 tox|[from] item: Leftovers
+  -damage|p1a: Decidueye|151/295 tox|[from] psn
+-- turn 38
+  WE CHOSE: attack leafblade - our hp 0.51, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|49/100
+  move|p2a: Trevenant|Toxic|p1a: Decidueye
+  -fail|p1a: Decidueye|tox
+  -heal|p1a: Decidueye|169/295 tox|[from] item: Leftovers
+  -damage|p1a: Decidueye|61/295 tox|[from] psn
+-- turn 39
+  WE CHOSE: heal roost - our hp 0.21, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Roost|p1a: Decidueye
+  -heal|p1a: Decidueye|209/295 tox
+  -singleturn|p1a: Decidueye|move: Roost
+  move|p2a: Trevenant|Toxic|p1a: Decidueye
+  -fail|p1a: Decidueye|tox
+  -heal|p1a: Decidueye|227/295 tox|[from] item: Leftovers
+  -damage|p1a: Decidueye|101/295 tox|[from] psn
+-- turn 40
+  WE CHOSE: attack leafblade - our hp 0.34, theirs 0.49, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mewtwo - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Decidueye|Leaf Blade|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -damage|p2a: Trevenant|27/100
+  move|p2a: Trevenant|Toxic|p1a: Decidueye
+  -fail|p1a: Decidueye|tox
+  -heal|p1a: Decidueye|119/295 tox|[from] item: Leftovers
+  -damage|p1a: Decidueye|0 fnt|[from] psn
+  faint|p1a: Decidueye
+  -item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|52/100|[from] item: Sitrus Berry
+  switch|p1a: Mewtwo|Mewtwo, L72|272/272
+  -ability|p1a: Mewtwo|Pressure
+-- turn 41
+  WE CHOSE: attack fireblast - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x2
+  move|p1a: Mewtwo|Fire Blast|p2a: Trevenant
+  -supereffective|p2a: Trevenant
+  -damage|p2a: Trevenant|0 fnt
+  faint|p2a: Trevenant
+  -damage|p1a: Mewtwo|245/272|[from] item: Life Orb
+  switch|p2a: Samurott|Samurott, L88, F|100/100
+-- turn 42
+  WE CHOSE: attack psystrike - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Mewtwo|Psystrike|p2a: Samurott
+  -damage|p2a: Samurott|56/100
+  -damage|p1a: Mewtwo|218/272|[from] item: Life Orb
+  move|p2a: Samurott|Megahorn|p1a: Mewtwo|[miss]
+  -miss|p2a: Samurott|p1a: Mewtwo
+-- turn 43
+  WE CHOSE: attack psystrike - our hp 0.80, theirs 0.56, predicted move (revealed) hits us x2
+  move|p1a: Mewtwo|Psystrike|p2a: Samurott
+  -damage|p2a: Samurott|10/100
+  -damage|p1a: Mewtwo|191/272|[from] item: Life Orb
+  move|p2a: Samurott|Megahorn|p1a: Mewtwo
+  -supereffective|p1a: Mewtwo
+  -damage|p1a: Mewtwo|0 fnt
+  faint|p1a: Mewtwo
+  -damage|p2a: Samurott|0 fnt|[from] item: Life Orb
+  faint|p2a: Samurott
+  deinit

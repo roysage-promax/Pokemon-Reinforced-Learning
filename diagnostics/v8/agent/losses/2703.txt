@@ -1,0 +1,230 @@
+battle 2703 (battle-gen9randombattle-2046093): lost in 23 turns, 1 of theirs left; we are p1
+
+ours:
+  toxapex (fainted; item leftovers, ability regenerator; moves liquidation/toxic/haze/recover)
+  slowbro (fainted; item assaultvest, ability regenerator; moves futuresight/icebeam/bodypress/scald)
+  regidrago (fainted; item lumberry, ability dragonsmaw; moves dragondance/earthquake/outrage/dracometeor)
+  venomoth (fainted; item heavydutyboots, ability tintedlens; moves bugbuzz/sludgewave/sleeppowder/quiverdance)
+  forretress (fainted; item leftovers, ability sturdy; moves thunderwave/spikes/rapidspin/ironhead)
+  arcanine (fainted; item heavydutyboots, ability intimidate, tera normal; moves willowisp/extremespeed/morningsun/flareblitz)
+theirs (as seen):
+  vespiquen (fainted; item unknown_item, ability pressure; moves hurricane)
+  arbok (fainted; item unknown_item, ability intimidate; moves gunkshot)
+  calyrexice (fainted; item unknown_item, ability unnerve; moves closecombat)
+  infernape (fainted; item lifeorb, ability ?; moves overheat)
+  gougingfire (fainted; item unknown_item, ability protosynthesis; moves outrage)
+  kommoo (63%; item ?, ability ?; moves clangingscales)
+
+-- turn 0
+  switch|p1a: Toxapex|Toxapex, L82, M|216/216
+  switch|p2a: Vespiquen|Vespiquen, L99, F|100/100
+  -ability|p2a: Vespiquen|Pressure
+-- turn 1
+  WE CHOSE: switch to arcanine (hand policy: attack liquidation) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Arcanine|Arcanine, L84, F|288/288
+  -ability|p1a: Arcanine|Intimidate|boost
+  -unboost|p2a: Vespiquen|atk|1
+  move|p2a: Vespiquen|Hurricane|p1a: Arcanine
+  -damage|p1a: Arcanine|153/288
+-- turn 2
+  WE CHOSE: attack+tera flareblitz (hand policy: attack flareblitz) - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to forretress (hand policy: forced: switch to slowbro) - our hp 0.00, theirs 0.32, predicted move (revealed) hits us x1
+  -terastallize|p1a: Arcanine|Normal
+  move|p1a: Arcanine|Flare Blitz|p2a: Vespiquen
+  -supereffective|p2a: Vespiquen
+  -damage|p2a: Vespiquen|32/100
+  -damage|p1a: Arcanine|85/288|[from] Recoil
+  move|p2a: Vespiquen|Hurricane|p1a: Arcanine
+  -damage|p1a: Arcanine|0 fnt
+  faint|p1a: Arcanine
+  switch|p1a: Forretress|Forretress, L84, M|263/263
+-- turn 3
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.32, predicted move (revealed) hits us x1
+  move|p2a: Vespiquen|Hurricane|p1a: Forretress
+  -damage|p1a: Forretress|94/263
+  move|p1a: Forretress|Iron Head|p2a: Vespiquen
+  -damage|p2a: Vespiquen|10/100
+  -heal|p1a: Forretress|110/263|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack rapidspin (hand policy: attack ironhead) - our hp 0.42, theirs 0.10, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to slowbro - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Vespiquen|Hurricane|p1a: Forretress
+  -damage|p1a: Forretress|0 fnt
+  faint|p1a: Forretress
+  switch|p1a: Slowbro|Slowbro, L85, M|300/300
+-- turn 5
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Vespiquen|Hurricane|p1a: Slowbro|[miss]
+  -miss|p2a: Vespiquen|p1a: Slowbro
+  move|p1a: Slowbro|Ice Beam|p2a: Vespiquen
+  -supereffective|p2a: Vespiquen
+  -crit|p2a: Vespiquen
+  -damage|p2a: Vespiquen|0 fnt
+  faint|p2a: Vespiquen
+  switch|p2a: Arbok|Arbok, L87, F|100/100
+  -ability|p2a: Arbok|Intimidate|boost
+  -unboost|p1a: Slowbro|atk|1
+-- turn 6
+  WE CHOSE: attack futuresight - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Arbok|Gunk Shot|p1a: Slowbro|[miss]
+  -miss|p2a: Arbok|p1a: Slowbro
+  move|p1a: Slowbro|Future Sight|p2a: Arbok
+  -start|p1a: Slowbro|move: Future Sight
+-- turn 7
+  WE CHOSE: attack futuresight - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arbok|Gunk Shot|p1a: Slowbro
+  -damage|p1a: Slowbro|182/300
+  move|p1a: Slowbro|Future Sight||[still]
+  -fail|p1a: Slowbro
+-- turn 8
+  WE CHOSE: attack futuresight - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Arbok|Gunk Shot|p1a: Slowbro
+  -damage|p1a: Slowbro|71/300
+  -status|p1a: Slowbro|psn
+  move|p1a: Slowbro|Future Sight||[still]
+  -fail|p1a: Slowbro
+  -end|p2a: Arbok|move: Future Sight
+  -supereffective|p2a: Arbok
+  -damage|p2a: Arbok|0 fnt
+  faint|p2a: Arbok
+  -damage|p1a: Slowbro|34/300 psn|[from] psn
+  switch|p2a: Calyrex|Calyrex-Ice, L72|100/100
+  -ability|p2a: Calyrex|As One
+  -ability|p2a: Calyrex|Unnerve
+-- turn 9
+  WE CHOSE: switch to venomoth (hand policy: attack scald) - our hp 0.11, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Venomoth|Venomoth, L84, F|255/255
+  move|p2a: Calyrex|Close Combat|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|224/255
+  -unboost|p2a: Calyrex|def|1
+  -unboost|p2a: Calyrex|spd|1
+-- turn 10
+  WE CHOSE: setup quiverdance - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+  -boost|p1a: Venomoth|spa|1
+  -boost|p1a: Venomoth|spd|1
+  -boost|p1a: Venomoth|spe|1
+  move|p2a: Calyrex|Close Combat|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|191/255
+  -unboost|p2a: Calyrex|def|1
+  -unboost|p2a: Calyrex|spd|1
+-- turn 11
+  WE CHOSE: setup quiverdance - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+  -boost|p1a: Venomoth|spa|1
+  -boost|p1a: Venomoth|spd|1
+  -boost|p1a: Venomoth|spe|1
+  move|p2a: Calyrex|Close Combat|p1a: Venomoth
+  -resisted|p1a: Venomoth
+  -damage|p1a: Venomoth|159/255
+  -unboost|p2a: Calyrex|def|1
+  -unboost|p2a: Calyrex|spd|1
+-- turn 12
+  WE CHOSE: attack sludgewave (hand policy: attack bugbuzz) - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Venomoth|Sludge Wave|p2a: Calyrex
+  -damage|p2a: Calyrex|0 fnt
+  faint|p2a: Calyrex
+  switch|p2a: Infernape|Infernape, L82, M|100/100
+-- turn 13
+  WE CHOSE: switch to slowbro - our hp 0.62, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Slowbro|Slowbro, L85, M|134/300 psn
+  move|p2a: Infernape|Overheat|p1a: Slowbro
+  -resisted|p1a: Slowbro
+  -damage|p1a: Slowbro|73/300 psn
+  -unboost|p2a: Infernape|spa|2
+  -damage|p2a: Infernape|91/100|[from] item: Life Orb
+  -damage|p1a: Slowbro|36/300 psn|[from] psn
+-- turn 14
+  WE CHOSE: attack futuresight - our hp 0.12, theirs 0.91, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to toxapex - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Infernape|Overheat|p1a: Slowbro|[miss]
+  -miss|p2a: Infernape|p1a: Slowbro
+  move|p1a: Slowbro|Future Sight|p2a: Infernape
+  -start|p1a: Slowbro|move: Future Sight
+  -damage|p1a: Slowbro|0 fnt|[from] psn
+  faint|p1a: Slowbro
+  switch|p1a: Toxapex|Toxapex, L82, M|216/216
+-- turn 15
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Infernape|Overheat|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|185/216
+  -unboost|p2a: Infernape|spa|2
+  -damage|p2a: Infernape|81/100|[from] item: Life Orb
+  move|p1a: Toxapex|Liquidation|p2a: Infernape
+  -supereffective|p2a: Infernape
+  -damage|p2a: Infernape|23/100
+  -heal|p1a: Toxapex|198/216|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack liquidation - our hp 0.92, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p2a: Infernape|Overheat|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|167/216
+  -unboost|p2a: Infernape|spa|2
+  -damage|p2a: Infernape|14/100|[from] item: Life Orb
+  move|p1a: Toxapex|Liquidation|p2a: Infernape
+  -supereffective|p2a: Infernape
+  -damage|p2a: Infernape|0 fnt
+  faint|p2a: Infernape
+  -heal|p1a: Toxapex|180/216|[from] item: Leftovers
+  switch|p2a: Gouging Fire|Gouging Fire, L74|100/100
+-- turn 17
+  WE CHOSE: attack liquidation - our hp 0.83, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Gouging Fire|Outrage|p1a: Toxapex
+  -damage|p1a: Toxapex|101/216
+  move|p1a: Toxapex|Liquidation|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|80/100
+  -heal|p1a: Toxapex|114/216|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack toxic (hand policy: attack liquidation) - our hp 0.53, theirs 0.80, predicted move (revealed) hits us x1
+  move|p2a: Gouging Fire|Outrage|p1a: Toxapex|[from] lockedmove
+  -damage|p1a: Toxapex|36/216
+  move|p1a: Toxapex|Toxic|p2a: Gouging Fire
+  -status|p2a: Gouging Fire|tox
+  -heal|p1a: Toxapex|49/216|[from] item: Leftovers
+  -damage|p2a: Gouging Fire|74/100 tox|[from] psn
+-- turn 19
+  WE CHOSE: attack toxic (hand policy: heal recover) - our hp 0.23, theirs 0.74, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to venomoth (hand policy: forced: switch to regidrago) - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Gouging Fire|Outrage|p1a: Toxapex|[from] lockedmove
+  -damage|p1a: Toxapex|0 fnt
+  faint|p1a: Toxapex
+  -start|p2a: Gouging Fire|confusion|[fatigue]
+  -damage|p2a: Gouging Fire|62/100 tox|[from] psn
+  switch|p1a: Venomoth|Venomoth, L84, F|159/255
+-- turn 20
+  WE CHOSE: attack sludgewave - our hp 0.62, theirs 0.62, predicted move (revealed) hits us x1
+  move|p1a: Venomoth|Sludge Wave|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|26/100 tox
+  -activate|p2a: Gouging Fire|confusion
+  move|p2a: Gouging Fire|Outrage|p1a: Venomoth
+  -damage|p1a: Venomoth|5/255
+  -damage|p2a: Gouging Fire|8/100 tox|[from] psn
+-- turn 21
+  WE CHOSE: attack sludgewave - our hp 0.02, theirs 0.08, predicted move (revealed) hits us x1
+  move|p1a: Venomoth|Sludge Wave|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|0 fnt
+  faint|p2a: Gouging Fire
+  -end|p2a: Gouging Fire|Protosynthesis|[silent]
+  switch|p2a: Kommo-o|Kommo-o, L77, F|100/100
+-- turn 22
+  WE CHOSE: attack sludgewave - our hp 0.02, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to regidrago - our hp 0.00, theirs 0.63, predicted move (revealed) hits us x1
+  move|p1a: Venomoth|Sludge Wave|p2a: Kommo-o
+  -damage|p2a: Kommo-o|63/100
+  move|p2a: Kommo-o|Clanging Scales|p1a: Venomoth
+  -damage|p1a: Venomoth|0 fnt
+  faint|p1a: Venomoth
+  -unboost|p2a: Kommo-o|def|1
+  -enditem|p2a: Kommo-o|Throat Spray
+  -boost|p2a: Kommo-o|spa|1|[from] item: Throat Spray
+  switch|p1a: Regidrago|Regidrago, L77|435/435
+-- turn 23
+  WE CHOSE: attack outrage - our hp 1.00, theirs 0.63, predicted move (revealed) hits us x2
+  move|p2a: Kommo-o|Clanging Scales|p1a: Regidrago
+  -supereffective|p1a: Regidrago
+  -damage|p1a: Regidrago|0 fnt
+  faint|p1a: Regidrago
+  deinit

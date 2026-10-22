@@ -1,0 +1,238 @@
+battle 323 (battle-gen9randombattle-2021434): lost in 26 turns, 1 of theirs left; we are p1
+
+ours:
+  drednaw (fainted; item ?, ability shellarmor; moves shellsmash/earthquake/liquidation/stoneedge)
+  ironcrown (fainted; item ?, ability quarkdrive; moves psyshock/calmmind/tachyoncutter/focusblast)
+  torkoal (fainted; item heavydutyboots, ability drought, tera grass; moves rapidspin/yawn/lavaplume/stealthrock)
+  mandibuzz (fainted; item heavydutyboots, ability overcoat; moves foulplay/toxic/uturn/roost)
+  hatterene (fainted; item leftovers, ability magicbounce; moves mysticalfire/calmmind/drainingkiss/psyshock)
+  beartic (fainted; item heavydutyboots, ability slushrush; moves iciclecrash/swordsdance/earthquake/snowscape)
+theirs (as seen):
+  electrodehisui (fainted; item lifeorb, ability ?; moves thunderbolt)
+  dedenne (fainted; item unknown_item, ability ?; moves thunderbolt)
+  politoed (fainted; item leftovers, ability ?; moves hydropump)
+  baxcalibur (fainted; item unknown_item, ability ?; moves glaiverush)
+  kricketune (fainted; item unknown_item, ability ?; moves knockoff)
+  illumise (2%; item unknown_item, ability ?; moves bugbuzz)
+
+-- turn 0
+  switch|p1a: Drednaw|Drednaw, L81, M|278/278
+  switch|p2a: Electrode|Electrode-Hisui, L87|100/100
+-- turn 1
+  WE CHOSE: switch to torkoal - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Torkoal|Torkoal, L88, M|266/266
+  -weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+  move|p2a: Electrode|Thunderbolt|p1a: Torkoal
+  -damage|p1a: Torkoal|148/266
+  -status|p1a: Torkoal|par
+  -damage|p2a: Electrode|91/100|[from] item: Life Orb
+  -weather|SunnyDay|[upkeep]
+-- turn 2
+  WE CHOSE: attack+tera lavaplume - our hp 0.56, theirs 0.91, predicted move (revealed) hits us x1
+  -terastallize|p1a: Torkoal|Grass
+  move|p2a: Electrode|Thunderbolt|p1a: Torkoal
+  -resisted|p1a: Torkoal
+  -damage|p1a: Torkoal|82/266 par
+  -damage|p2a: Electrode|81/100|[from] item: Life Orb
+  move|p1a: Torkoal|Lava Plume|p2a: Electrode
+  -supereffective|p2a: Electrode
+  -damage|p2a: Electrode|0 fnt
+  faint|p2a: Electrode
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Dedenne|Dedenne, L88, F|100/100
+-- turn 3
+  WE CHOSE: attack lavaplume - our hp 0.31, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Dedenne|Thunderbolt|p1a: Torkoal
+  -resisted|p1a: Torkoal
+  -damage|p1a: Torkoal|26/266 par
+  cant|p1a: Torkoal|par
+  -weather|SunnyDay|[upkeep]
+-- turn 4
+  WE CHOSE: attack lavaplume - our hp 0.10, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to beartic - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Dedenne|Thunderbolt|p1a: Torkoal
+  -resisted|p1a: Torkoal
+  -damage|p1a: Torkoal|0 fnt
+  faint|p1a: Torkoal
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Beartic|Beartic, L91, M|321/321
+-- turn 5
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dedenne|Thunderbolt|p1a: Beartic
+  -damage|p1a: Beartic|234/321
+  move|p1a: Beartic|Earthquake|p2a: Dedenne
+  -supereffective|p2a: Dedenne
+  -damage|p2a: Dedenne|0 fnt
+  faint|p2a: Dedenne
+  -weather|none
+  switch|p2a: Politoed|Politoed, L88, M|100/100
+  -weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+-- turn 6
+  WE CHOSE: switch to hatterene - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Hatterene|Hatterene, L85, F|236/236
+  move|p2a: Politoed|Hydro Pump|p1a: Hatterene
+  -damage|p1a: Hatterene|85/236
+  -weather|RainDance|[upkeep]
+  -heal|p1a: Hatterene|99/236|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack psyshock - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mandibuzz - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Politoed|Hydro Pump|p1a: Hatterene
+  -damage|p1a: Hatterene|0 fnt
+  faint|p1a: Hatterene
+  -weather|RainDance|[upkeep]
+  switch|p1a: Mandibuzz|Mandibuzz, L85, F|326/326
+-- turn 8
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Foul Play|p2a: Politoed
+  -damage|p2a: Politoed|78/100
+  move|p2a: Politoed|Hydro Pump|p1a: Mandibuzz|[miss]
+  -miss|p2a: Politoed|p1a: Mandibuzz
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Politoed|84/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 0.84, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Foul Play|p2a: Politoed
+  -damage|p2a: Politoed|59/100
+  move|p2a: Politoed|Hydro Pump|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|140/326
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Politoed|65/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: heal roost - our hp 0.43, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+  -heal|p1a: Mandibuzz|303/326
+  -singleturn|p1a: Mandibuzz|move: Roost
+  move|p2a: Politoed|Hydro Pump|p1a: Mandibuzz|[miss]
+  -miss|p2a: Politoed|p1a: Mandibuzz
+  -weather|none
+  -heal|p2a: Politoed|71/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack foulplay - our hp 0.93, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Foul Play|p2a: Politoed
+  -damage|p2a: Politoed|48/100
+  move|p2a: Politoed|Hydro Pump|p1a: Mandibuzz|[miss]
+  -miss|p2a: Politoed|p1a: Mandibuzz
+  -heal|p2a: Politoed|54/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack foulplay - our hp 0.93, theirs 0.54, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Foul Play|p2a: Politoed
+  -damage|p2a: Politoed|29/100
+  move|p2a: Politoed|Hydro Pump|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|194/326
+  -heal|p2a: Politoed|35/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack foulplay - our hp 0.60, theirs 0.35, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Foul Play|p2a: Politoed
+  -damage|p2a: Politoed|9/100
+  move|p2a: Politoed|Hydro Pump|p1a: Mandibuzz|[miss]
+  -miss|p2a: Politoed|p1a: Mandibuzz
+  -heal|p2a: Politoed|15/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack foulplay - our hp 0.60, theirs 0.15, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Foul Play|p2a: Politoed
+  -damage|p2a: Politoed|0 fnt
+  faint|p2a: Politoed
+  switch|p2a: Baxcalibur|Baxcalibur, L75, M|100/100
+-- turn 15
+  WE CHOSE: attack foulplay - our hp 0.60, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Mandibuzz|Foul Play|p2a: Baxcalibur
+  -crit|p2a: Baxcalibur
+  -damage|p2a: Baxcalibur|27/100
+  move|p2a: Baxcalibur|Glaive Rush|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|10/326
+  -singlemove|p2a: Baxcalibur|Glaive Rush|[silent]
+-- turn 16
+  WE CHOSE: heal roost - our hp 0.03, theirs 0.27, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironcrown - our hp 0.00, theirs 0.27, predicted move (revealed) hits us x1
+  move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+  -heal|p1a: Mandibuzz|173/326
+  -singleturn|p1a: Mandibuzz|move: Roost
+  move|p2a: Baxcalibur|Glaive Rush|p1a: Mandibuzz
+  -damage|p1a: Mandibuzz|0 fnt
+  -singlemove|p2a: Baxcalibur|Glaive Rush|[silent]
+  faint|p1a: Mandibuzz
+  switch|p1a: Iron Crown|Iron Crown, L78|268/268
+-- turn 17
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.27, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+  -boost|p1a: Iron Crown|spa|1
+  -boost|p1a: Iron Crown|spd|1
+  move|p2a: Baxcalibur|Glaive Rush|p1a: Iron Crown
+  -resisted|p1a: Iron Crown
+  -damage|p1a: Iron Crown|159/268
+  -singlemove|p2a: Baxcalibur|Glaive Rush|[silent]
+  -heal|p1a: Iron Crown|175/268|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: setup calmmind - our hp 0.65, theirs 0.27, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+  -boost|p1a: Iron Crown|spa|1
+  -boost|p1a: Iron Crown|spd|1
+  move|p2a: Baxcalibur|Glaive Rush|p1a: Iron Crown
+  -resisted|p1a: Iron Crown
+  -damage|p1a: Iron Crown|72/268
+  -singlemove|p2a: Baxcalibur|Glaive Rush|[silent]
+  -heal|p1a: Iron Crown|88/268|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack focusblast - our hp 0.33, theirs 0.27, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Crown|Focus Blast|p2a: Baxcalibur
+  -supereffective|p2a: Baxcalibur
+  -damage|p2a: Baxcalibur|0 fnt
+  faint|p2a: Baxcalibur
+  -heal|p1a: Iron Crown|104/268|[from] item: Leftovers
+  switch|p2a: Kricketune|Kricketune, L99, M|100/100
+-- turn 20
+  WE CHOSE: attack tachyoncutter - our hp 0.39, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to drednaw - our hp 0.00, theirs 0.09, predicted move (revealed) hits us x2
+  move|p1a: Iron Crown|Tachyon Cutter|p2a: Kricketune
+  -damage|p2a: Kricketune|57/100
+  -damage|p2a: Kricketune|9/100
+  -hitcount|p2a: Kricketune|2
+  move|p2a: Kricketune|Knock Off|p1a: Iron Crown
+  -supereffective|p1a: Iron Crown
+  -damage|p1a: Iron Crown|0 fnt
+  -enditem|p1a: Iron Crown|Leftovers|[from] move: Knock Off|[of] p2a: Kricketune
+  faint|p1a: Iron Crown
+  -end|p1a: Iron Crown|Quark Drive|[silent]
+  switch|p1a: Drednaw|Drednaw, L81, M|278/278
+-- turn 21
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.09, predicted move (revealed) hits us x1
+  move|p2a: Kricketune|Knock Off|p1a: Drednaw
+  -damage|p1a: Drednaw|192/278
+  -enditem|p1a: Drednaw|White Herb|[from] move: Knock Off|[of] p2a: Kricketune
+  move|p1a: Drednaw|Stone Edge|p2a: Kricketune
+  -supereffective|p2a: Kricketune
+  -damage|p2a: Kricketune|0 fnt
+  faint|p2a: Kricketune
+  switch|p2a: Illumise|Illumise, L91, F|100/100
+-- turn 22
+  WE CHOSE: attack stoneedge - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Illumise|Bug Buzz|p1a: Drednaw
+  -damage|p1a: Drednaw|77/278
+  move|p1a: Drednaw|Stone Edge|p2a: Illumise|[miss]
+  -miss|p1a: Drednaw|p2a: Illumise
+-- turn 23
+  WE CHOSE: attack stoneedge - our hp 0.28, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to beartic - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Illumise|Bug Buzz|p1a: Drednaw
+  -damage|p1a: Drednaw|0 fnt
+  faint|p1a: Drednaw
+  switch|p1a: Beartic|Beartic, L91, M|234/321
+-- turn 24
+  WE CHOSE: attack iciclecrash - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Illumise|Bug Buzz|p1a: Beartic
+  -damage|p1a: Beartic|146/321
+  move|p1a: Beartic|Icicle Crash|p2a: Illumise
+  -damage|p2a: Illumise|53/100
+-- turn 25
+  WE CHOSE: attack iciclecrash - our hp 0.45, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Illumise|Bug Buzz|p1a: Beartic
+  -damage|p1a: Beartic|52/321
+  move|p1a: Beartic|Icicle Crash|p2a: Illumise
+  -damage|p2a: Illumise|2/100
+-- turn 26
+  WE CHOSE: attack iciclecrash - our hp 0.16, theirs 0.02, predicted move (revealed) hits us x1
+  move|p2a: Illumise|Bug Buzz|p1a: Beartic
+  -damage|p1a: Beartic|0 fnt
+  faint|p1a: Beartic
+  deinit

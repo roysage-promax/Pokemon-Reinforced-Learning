@@ -1,0 +1,189 @@
+battle 2676 (battle-gen9randombattle-2043647): lost in 18 turns, 3 of theirs left; we are p1
+
+ours:
+  glimmora (fainted; item powerherb, ability toxicdebris; moves energyball/earthpower/sludgewave/meteorbeam)
+  samurott (fainted; item assaultvest, ability torrent; moves grassknot/sacredsword/aquajet/hydropump)
+  terapagosterastal (fainted; item heavydutyboots, ability terashell; moves rapidspin/terastarstorm/calmmind/darkpulse)
+  illumise (fainted; item heavydutyboots, ability prankster, tera steel; moves roost/encore/bugbuzz/thunderwave)
+  polteageistantique (fainted; item whiteherb, ability cursedbody; moves strengthsap/shadowball/shellsmash/storedpower)
+  koraidon (fainted; item choiceband, ability orichalcumpulse; moves outrage/flareblitz/closecombat/uturn)
+theirs (as seen):
+  volcanion (fainted; item unknown_item, ability waterabsorb; moves steameruption)
+  azelf (fainted; item lifeorb, ability levitate; moves fireblast/psychic)
+  moltresgalar (fainted; item unknown_item, ability berserk; moves hurricane)
+  meloetta (44%; item lifeorb, ability serenegrace; moves closecombat)
+
+-- turn 0
+  switch|p1a: Glimmora|Glimmora, L75, M|248/248
+  switch|p2a: Volcanion|Volcanion, L79|100/100
+-- turn 1
+  WE CHOSE: switch to koraidon - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Koraidon|Koraidon, L64|235/235
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+  -activate|p1a: Koraidon|Orichalcum Pulse|[source]
+  move|p2a: Volcanion|Steam Eruption|p1a: Koraidon
+  -resisted|p1a: Koraidon
+  -damage|p1a: Koraidon|197/235
+  -status|p1a: Koraidon|brn
+  -weather|SunnyDay|[upkeep]
+  -damage|p1a: Koraidon|183/235 brn|[from] brn
+-- turn 2
+  WE CHOSE: attack outrage - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Koraidon|Outrage|p2a: Volcanion
+  -crit|p2a: Volcanion
+  -damage|p2a: Volcanion|51/100
+  move|p2a: Volcanion|Steam Eruption|p1a: Koraidon
+  -resisted|p1a: Koraidon
+  -damage|p1a: Koraidon|146/235 brn
+  -weather|SunnyDay|[upkeep]
+  -damage|p1a: Koraidon|132/235 brn|[from] brn
+-- turn 3
+  WE CHOSE: attack outrage - our hp 0.56, theirs 0.51, predicted move (revealed) hits us x0.5
+  move|p1a: Koraidon|Outrage|p2a: Volcanion|[from] lockedmove
+  -damage|p2a: Volcanion|18/100
+  move|p2a: Volcanion|Steam Eruption|p1a: Koraidon
+  -resisted|p1a: Koraidon
+  -damage|p1a: Koraidon|93/235 brn
+  -weather|SunnyDay|[upkeep]
+  -damage|p1a: Koraidon|79/235 brn|[from] brn
+-- turn 4
+  WE CHOSE: attack outrage - our hp 0.34, theirs 0.18, predicted move (revealed) hits us x0.5
+  move|p1a: Koraidon|Outrage|p2a: Volcanion|[from] lockedmove
+  -damage|p2a: Volcanion|0 fnt
+  faint|p2a: Volcanion
+  -start|p1a: Koraidon|confusion|[fatigue]
+  -weather|SunnyDay|[upkeep]
+  -damage|p1a: Koraidon|65/235 brn|[from] brn
+  switch|p2a: Azelf|Azelf, L82|100/100
+-- turn 5
+  WE CHOSE: switch to polteageistantique - our hp 0.28, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Polteageist|Polteageist-Antique, L78|222/222
+  move|p2a: Azelf|Fire Blast|p1a: Polteageist
+  -damage|p1a: Polteageist|75/222
+  -start|p2a: Azelf|Disable|Fire Blast|[from] ability: Cursed Body|[of] p1a: Polteageist
+  -damage|p2a: Azelf|91/100|[from] item: Life Orb
+  -weather|none
+-- turn 6
+  WE CHOSE: heal strengthsap - our hp 0.34, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to koraidon - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Azelf|Psychic|p1a: Polteageist
+  -damage|p1a: Polteageist|0 fnt
+  faint|p1a: Polteageist
+  -damage|p2a: Azelf|81/100|[from] item: Life Orb
+  switch|p1a: Koraidon|Koraidon, L64|65/235 brn
+  -weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+  -activate|p1a: Koraidon|Orichalcum Pulse|[source]
+-- turn 7
+  WE CHOSE: attack outrage - our hp 0.28, theirs 0.81, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to glimmora - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p2a: Azelf|Psychic|p1a: Koraidon
+  -supereffective|p1a: Koraidon
+  -damage|p1a: Koraidon|0 fnt
+  faint|p1a: Koraidon
+  -damage|p2a: Azelf|71/100|[from] item: Life Orb
+  -weather|SunnyDay|[upkeep]
+  switch|p1a: Glimmora|Glimmora, L75, M|248/248
+-- turn 8
+  WE CHOSE: attack meteorbeam - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to samurott - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p2a: Azelf|Psychic|p1a: Glimmora
+  -supereffective|p1a: Glimmora
+  -damage|p1a: Glimmora|0 fnt
+  faint|p1a: Glimmora
+  -damage|p2a: Azelf|62/100|[from] item: Life Orb
+  -weather|SunnyDay|[upkeep]
+  -end|p2a: Azelf|Disable
+  switch|p1a: Samurott|Samurott, L88, F|310/310
+-- turn 9
+  WE CHOSE: attack hydropump - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p2a: Azelf|Fire Blast|p1a: Samurott
+  -resisted|p1a: Samurott
+  -damage|p1a: Samurott|249/310
+  -damage|p2a: Azelf|52/100|[from] item: Life Orb
+  move|p1a: Samurott|Hydro Pump|p2a: Azelf|[miss]
+  -miss|p1a: Samurott|p2a: Azelf
+  -weather|SunnyDay|[upkeep]
+-- turn 10
+  WE CHOSE: attack hydropump - our hp 0.80, theirs 0.52, predicted move (revealed) hits us x0.5
+  move|p2a: Azelf|Fire Blast|p1a: Samurott
+  -resisted|p1a: Samurott
+  -damage|p1a: Samurott|180/310
+  -status|p1a: Samurott|brn
+  -damage|p2a: Azelf|42/100|[from] item: Life Orb
+  move|p1a: Samurott|Hydro Pump|p2a: Azelf
+  -damage|p2a: Azelf|7/100
+  -weather|SunnyDay|[upkeep]
+  -damage|p1a: Samurott|161/310 brn|[from] brn
+-- turn 11
+  WE CHOSE: attack hydropump - our hp 0.52, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p2a: Azelf|Fire Blast|p1a: Samurott
+  -resisted|p1a: Samurott
+  -damage|p1a: Samurott|99/310 brn
+  -damage|p2a: Azelf|0 fnt|[from] item: Life Orb
+  faint|p2a: Azelf
+  move|p1a: Samurott|Hydro Pump|p2: Azelf|[notarget]
+  -fail|p1a: Samurott
+  -weather|none
+  -damage|p1a: Samurott|80/310 brn|[from] brn
+  switch|p2a: Moltres|Moltres-Galar, L79|100/100
+-- turn 12
+  WE CHOSE: attack hydropump - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to terapagos - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Moltres|Hurricane|p1a: Samurott
+  -damage|p1a: Samurott|0 fnt
+  faint|p1a: Samurott
+  switch|p1a: Terapagos|Terapagos, L77, F|265/265
+  -activate|p1a: Terapagos|ability: Tera Shift
+  detailschange|p1a: Terapagos|Terapagos-Terastal, L77, F
+  -heal|p1a: Terapagos|273/273|[silent]
+-- turn 13
+  WE CHOSE: attack terastarstorm - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Moltres|Hurricane|p1a: Terapagos
+  -activate|p1a: Terapagos|ability: Tera Shell
+  -resisted|p1a: Terapagos
+  -damage|p1a: Terapagos|227/273
+  move|p1a: Terapagos|Tera Starstorm|p2a: Moltres
+  -damage|p2a: Moltres|66/100
+-- turn 14
+  WE CHOSE: attack terastarstorm - our hp 0.83, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Moltres|Hurricane|p1a: Terapagos
+  -crit|p1a: Terapagos
+  -damage|p1a: Terapagos|74/273
+  move|p1a: Terapagos|Tera Starstorm|p2a: Moltres
+  -damage|p2a: Moltres|31/100
+  -ability|p2a: Moltres|Berserk|boost
+  -boost|p2a: Moltres|spa|1
+-- turn 15
+  WE CHOSE: attack terastarstorm - our hp 0.27, theirs 0.31, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to illumise - our hp 0.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Moltres|Hurricane|p1a: Terapagos
+  -damage|p1a: Terapagos|0 fnt
+  faint|p1a: Terapagos
+  switch|p1a: Illumise|Illumise, L91, F|266/266
+-- turn 16
+  WE CHOSE: attack+tera bugbuzz - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x2
+  -terastallize|p1a: Illumise|Steel
+  move|p1a: Illumise|Bug Buzz|p2a: Moltres
+  -damage|p2a: Moltres|5/100
+  move|p2a: Moltres|Hurricane|p1a: Illumise
+  -resisted|p1a: Illumise
+  -damage|p1a: Illumise|187/266
+-- turn 17
+  WE CHOSE: attack bugbuzz - our hp 0.70, theirs 0.05, predicted move (revealed) hits us x0.5
+  move|p1a: Illumise|Bug Buzz|p2a: Moltres
+  -damage|p2a: Moltres|0 fnt
+  faint|p2a: Moltres
+  switch|p2a: Meloetta|Meloetta, L82|100/100
+-- turn 18
+  WE CHOSE: attack bugbuzz - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Illumise|Bug Buzz|p2a: Meloetta
+  -supereffective|p2a: Meloetta
+  -damage|p2a: Meloetta|54/100
+  move|p2a: Meloetta|Close Combat|p1a: Illumise
+  -supereffective|p1a: Illumise
+  -damage|p1a: Illumise|0 fnt
+  -unboost|p2a: Meloetta|def|1
+  -unboost|p2a: Meloetta|spd|1
+  faint|p1a: Illumise
+  -damage|p2a: Meloetta|44/100|[from] item: Life Orb
+  deinit

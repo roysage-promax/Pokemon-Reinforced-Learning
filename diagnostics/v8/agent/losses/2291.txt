@@ -1,0 +1,220 @@
+battle 2291 (battle-gen9randombattle-2041952): lost in 24 turns, 1 of theirs left; we are p1
+
+ours:
+  regice (fainted; item heavydutyboots, ability clearbody; moves icebeam/thunderwave/thunderbolt/bodypress)
+  swalot (fainted; item leftovers, ability liquidooze; moves swordsdance/gunkshot/earthquake/knockoff)
+  zamazenta (fainted; item leftovers, ability dauntlessshield; moves bodypress/irondefense/crunch/ironhead)
+  regidrago (fainted; item lifeorb, ability dragonsmaw; moves earthquake/dragondance/dragonclaw/terablast)
+  carbink (fainted; item leftovers, ability sturdy; moves rockpolish/moonblast/bodypress/irondefense)
+  gengar (fainted; item lifeorb, ability cursedbody, tera dark; moves shadowball/nastyplot/sludgewave/focusblast)
+theirs (as seen):
+  poliwrath (fainted; item leftovers, ability ?; moves liquidation/icepunch)
+  emboar (fainted; item leftovers, ability ?; moves flareblitz)
+  alcremiesaltedcream (fainted; item leftovers, ability ?; moves terablast)
+  stonjourner (fainted; item unknown_item, ability powerspot; moves -)
+  bastiodon (fainted; item unknown_item, ability ?; moves foulplay/bodypress)
+  veluza (55%; item ?, ability ?; moves psychocut)
+
+-- turn 0
+  switch|p1a: Regice|Regice, L88|284/284
+  switch|p2a: Poliwrath|Poliwrath, L88, F|100/100
+-- turn 1
+  WE CHOSE: switch to gengar - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Gengar|Gengar, L81, M|230/230
+  move|p2a: Poliwrath|Liquidation|p1a: Gengar
+  -damage|p1a: Gengar|91/230
+  -start|p2a: Poliwrath|Disable|Liquidation|[from] ability: Cursed Body|[of] p1a: Gengar
+-- turn 2
+  WE CHOSE: switch to regidrago (hand policy: attack sludgewave) - our hp 0.40, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Regidrago|Regidrago, L77|435/435
+  move|p2a: Poliwrath|Ice Punch|p1a: Regidrago
+  -supereffective|p1a: Regidrago
+  -damage|p1a: Regidrago|265/435
+  -status|p1a: Regidrago|frz
+-- turn 3
+  WE CHOSE: setup dragondance - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Ice Punch|p1a: Regidrago
+  -supereffective|p1a: Regidrago
+  -damage|p1a: Regidrago|81/435 frz
+  cant|p1a: Regidrago|frz
+-- turn 4
+  WE CHOSE: attack dragonclaw - our hp 0.19, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to regice - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Ice Punch|p1a: Regidrago
+  -supereffective|p1a: Regidrago
+  -damage|p1a: Regidrago|0 fnt
+  faint|p1a: Regidrago
+  -end|p2a: Poliwrath|Disable
+  switch|p1a: Regice|Regice, L88|284/284
+-- turn 5
+  WE CHOSE: attack thunderbolt (hand policy: attack+tera thunderbolt) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Poliwrath|Liquidation|p1a: Regice
+  -damage|p1a: Regice|205/284
+  move|p1a: Regice|Thunderbolt|p2a: Poliwrath
+  -supereffective|p2a: Poliwrath
+  -damage|p2a: Poliwrath|54/100
+  -heal|p2a: Poliwrath|60/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack thunderbolt (hand policy: attack+tera thunderbolt) - our hp 0.72, theirs 0.60, predicted move (revealed) hits us x1
+  move|p2a: Poliwrath|Liquidation|p1a: Regice
+  -damage|p1a: Regice|120/284
+  move|p1a: Regice|Thunderbolt|p2a: Poliwrath
+  -supereffective|p2a: Poliwrath
+  -damage|p2a: Poliwrath|16/100
+  -status|p2a: Poliwrath|par
+  -heal|p2a: Poliwrath|22/100 par|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack thunderbolt (hand policy: attack+tera thunderbolt) - our hp 0.42, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Regice|Thunderbolt|p2a: Poliwrath
+  -supereffective|p2a: Poliwrath
+  -damage|p2a: Poliwrath|0 fnt
+  faint|p2a: Poliwrath
+  switch|p2a: Emboar|Emboar, L84, M|100/100
+-- turn 8
+  WE CHOSE: switch to swalot (hand policy: switch to zamazenta) - our hp 0.42, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Swalot|Swalot, L90, F|326/326
+  move|p2a: Emboar|Flare Blitz|p1a: Swalot
+  -damage|p1a: Swalot|143/326
+  -damage|p2a: Emboar|82/100|[from] Recoil
+  -heal|p2a: Emboar|88/100|[from] item: Leftovers
+  -heal|p1a: Swalot|163/326|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: setup swordsdance (hand policy: attack+tera earthquake) - our hp 0.50, theirs 0.88, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to carbink - our hp 0.00, theirs 0.78, predicted move (revealed) hits us x1
+  move|p2a: Emboar|Flare Blitz|p1a: Swalot
+  -damage|p1a: Swalot|0 fnt
+  faint|p1a: Swalot
+  -damage|p2a: Emboar|71/100|[from] Recoil
+  -heal|p2a: Emboar|78/100|[from] item: Leftovers
+  switch|p1a: Carbink|Carbink, L90|236/236
+-- turn 10
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.78, predicted move (revealed) hits us x0.5
+  move|p2a: Emboar|Flare Blitz|p1a: Carbink
+  -resisted|p1a: Carbink
+  -damage|p1a: Carbink|182/236
+  -damage|p2a: Emboar|72/100|[from] Recoil
+  move|p1a: Carbink|Body Press|p2a: Emboar
+  -damage|p2a: Emboar|37/100
+  -heal|p2a: Emboar|43/100|[from] item: Leftovers
+  -heal|p1a: Carbink|196/236|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack bodypress - our hp 0.83, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p2a: Emboar|Flare Blitz|p1a: Carbink
+  -resisted|p1a: Carbink
+  -damage|p1a: Carbink|142/236
+  -damage|p2a: Emboar|37/100|[from] Recoil
+  move|p1a: Carbink|Body Press|p2a: Emboar
+  -damage|p2a: Emboar|0 fnt
+  faint|p2a: Emboar
+  -heal|p1a: Carbink|156/236|[from] item: Leftovers
+  switch|p2a: Alcremie|Alcremie-Salted-Cream, L90, F|100/100
+-- turn 12
+  WE CHOSE: attack moonblast - our hp 0.66, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Alcremie|Tera Blast|p1a: Carbink
+  -resisted|p1a: Carbink
+  -damage|p1a: Carbink|135/236
+  move|p1a: Carbink|Moonblast|p2a: Alcremie
+  -damage|p2a: Alcremie|82/100
+  -unboost|p2a: Alcremie|spa|1
+  -heal|p2a: Alcremie|88/100|[from] item: Leftovers
+  -heal|p1a: Carbink|149/236|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: switch to gengar (hand policy: attack moonblast) - our hp 0.63, theirs 0.88, predicted move (revealed) hits us x0.5
+  switch|p1a: Gengar|Gengar, L81, M|91/230
+  move|p2a: Alcremie|Tera Blast|p1a: Gengar
+  -immune|p1a: Gengar
+  -heal|p2a: Alcremie|94/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack sludgewave - our hp 0.40, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Gengar|Sludge Wave|p2a: Alcremie
+  -supereffective|p2a: Alcremie
+  -damage|p2a: Alcremie|8/100
+  -damage|p1a: Gengar|68/230|[from] item: Life Orb
+  move|p2a: Alcremie|Tera Blast|p1a: Gengar
+  -immune|p1a: Gengar
+  -heal|p2a: Alcremie|14/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack sludgewave - our hp 0.30, theirs 0.14, predicted move (revealed) hits us x0
+  move|p1a: Gengar|Sludge Wave|p2a: Alcremie
+  -supereffective|p2a: Alcremie
+  -damage|p2a: Alcremie|0 fnt
+  faint|p2a: Alcremie
+  -damage|p1a: Gengar|45/230|[from] item: Life Orb
+  switch|p2a: Stonjourner|Stonjourner, L91, M|100/100
+-- turn 16
+  WE CHOSE: attack+tera focusblast (hand policy: attack focusblast) - our hp 0.20, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Gengar|Dark
+  move|p1a: Gengar|Focus Blast|p2a: Stonjourner
+  -supereffective|p2a: Stonjourner
+  -damage|p2a: Stonjourner|0 fnt
+  faint|p2a: Stonjourner
+  -damage|p1a: Gengar|22/230|[from] item: Life Orb
+  switch|p2a: Bastiodon|Bastiodon, L89, F|100/100
+-- turn 17
+  WE CHOSE: attack focusblast - our hp 0.10, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to carbink (hand policy: forced: switch to zamazenta) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Gengar|Focus Blast|p2a: Bastiodon|[miss]
+  -miss|p1a: Gengar|p2a: Bastiodon
+  move|p2a: Bastiodon|Foul Play|p1a: Gengar
+  -resisted|p1a: Gengar
+  -damage|p1a: Gengar|0 fnt
+  -start|p2a: Bastiodon|Disable|Foul Play|[from] ability: Cursed Body|[of] p1a: Gengar
+  faint|p1a: Gengar
+  switch|p1a: Carbink|Carbink, L90|149/236
+-- turn 18
+  WE CHOSE: attack bodypress - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Carbink|Body Press|p2a: Bastiodon
+  -supereffective|p2a: Bastiodon
+  -damage|p2a: Bastiodon|21/100
+  move|p2a: Bastiodon|Body Press|p1a: Carbink
+  -damage|p1a: Carbink|89/236
+  -heal|p1a: Carbink|103/236|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack bodypress - our hp 0.44, theirs 0.21, predicted move (revealed) hits us x0.5
+  move|p1a: Carbink|Body Press|p2a: Bastiodon
+  -supereffective|p2a: Bastiodon
+  -damage|p2a: Bastiodon|0 fnt
+  faint|p2a: Bastiodon
+  -heal|p1a: Carbink|117/236|[from] item: Leftovers
+  switch|p2a: Veluza|Veluza, L85, M|100/100
+-- turn 20
+  WE CHOSE: switch to regice (hand policy: attack moonblast) - our hp 0.50, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Regice|Regice, L88|120/284
+  move|p2a: Veluza|Psycho Cut|p1a: Regice
+  -damage|p1a: Regice|21/284
+-- turn 21
+  WE CHOSE: attack thunderbolt - our hp 0.07, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to carbink - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Veluza|Psycho Cut|p1a: Regice
+  -damage|p1a: Regice|0 fnt
+  faint|p1a: Regice
+  switch|p1a: Carbink|Carbink, L90|117/236
+-- turn 22
+  WE CHOSE: attack moonblast - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Veluza|Psycho Cut|p1a: Carbink
+  -damage|p1a: Carbink|44/236
+  move|p1a: Carbink|Moonblast|p2a: Veluza
+  -damage|p2a: Veluza|69/100
+  -heal|p1a: Carbink|58/236|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack moonblast - our hp 0.25, theirs 0.69, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to zamazenta - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Veluza|Psycho Cut|p1a: Carbink
+  -damage|p1a: Carbink|0 fnt
+  faint|p1a: Carbink
+  switch|p1a: Zamazenta|Zamazenta, L71|248/248
+  -ability|p1a: Zamazenta|Dauntless Shield|boost
+  -boost|p1a: Zamazenta|def|1
+-- turn 24
+  WE CHOSE: attack crunch - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x2
+  move|p1a: Zamazenta|Crunch|p2a: Veluza
+  -supereffective|p2a: Veluza
+  -damage|p2a: Veluza|30/100
+  -unboost|p2a: Veluza|def|1
+  -enditem|p2a: Veluza|Sitrus Berry|[eat]
+  -heal|p2a: Veluza|55/100|[from] item: Sitrus Berry
+  move|p2a: Veluza|Psycho Cut|p1a: Zamazenta
+  -supereffective|p1a: Zamazenta
+  -crit|p1a: Zamazenta
+  -damage|p1a: Zamazenta|0 fnt
+  faint|p1a: Zamazenta

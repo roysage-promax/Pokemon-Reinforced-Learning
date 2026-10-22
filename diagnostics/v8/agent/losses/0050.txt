@@ -1,0 +1,225 @@
+battle 50 (battle-gen9randombattle-2019015): lost in 23 turns, 1 of theirs left; we are p1
+
+ours:
+  breloom (fainted; item lifeorb, ability technician; moves machpunch/bulletseed/rocktomb/spore)
+  yanmega (fainted; item heavydutyboots, ability speedboost; moves airslash/terablast/protect/bugbuzz)
+  amoonguss (fainted; item leftovers, ability regenerator; moves spore/gigadrain/toxic/sludgebomb)
+  fezandipiti (fainted; item leftovers, ability toxicchain; moves gunkshot/moonblast/roost/uturn)
+  vaporeon (fainted; item leftovers, ability waterabsorb, tera poison; moves roar/protect/scald/wish)
+  azelf (fainted; item lifeorb, ability levitate; moves dazzlinggleam/psyshock/fireblast/nastyplot)
+theirs (as seen):
+  calyrexshadow (fainted; item lifeorb, ability unnerve; moves astralbarrage)
+  wigglytuff (fainted; item leftovers, ability ?; moves dazzlinggleam)
+  indeedeef (fainted; item lifeorb, ability ?; moves hypervoice)
+  roaringmoon (fainted; item unknown_item, ability protosynthesis; moves outrage)
+  greninja (fainted; item lifeorb, ability ?; moves gunkshot)
+  trevenant (74%; item unknown_item, ability ?; moves poltergeist)
+
+-- turn 0
+  switch|p1a: Breloom|Breloom, L83, M|235/235
+  switch|p2a: Calyrex|Calyrex-Shadow, L64|100/100
+  -ability|p2a: Calyrex|As One
+  -ability|p2a: Calyrex|Unnerve
+-- turn 1
+  WE CHOSE: attack rocktomb (hand policy: attack+tera bulletseed) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Calyrex|Astral Barrage|p1a: Breloom
+  -damage|p1a: Breloom|27/235
+  -damage|p2a: Calyrex|91/100|[from] item: Life Orb
+  move|p1a: Breloom|Rock Tomb|p2a: Calyrex
+  -damage|p2a: Calyrex|27/100
+  -unboost|p2a: Calyrex|spe|1
+  -damage|p1a: Breloom|4/235|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack rocktomb (hand policy: attack+tera rocktomb) - our hp 0.02, theirs 0.27, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to vaporeon (hand policy: forced: switch to fezandipiti) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Breloom|Rock Tomb|p2a: Calyrex
+  -damage|p2a: Calyrex|0 fnt
+  faint|p2a: Calyrex
+  -damage|p1a: Breloom|0 fnt|[from] item: Life Orb
+  faint|p1a: Breloom
+  switch|p2a: Wigglytuff|Wigglytuff, L96, M|100/100
+  switch|p1a: Vaporeon|Vaporeon, L86, F|364/364
+-- turn 3
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Vaporeon|Scald|p2a: Wigglytuff
+  -damage|p2a: Wigglytuff|72/100
+  move|p2a: Wigglytuff|Dazzling Gleam|p1a: Vaporeon
+  -damage|p1a: Vaporeon|267/364
+  -heal|p1a: Vaporeon|289/364|[from] item: Leftovers
+  -heal|p2a: Wigglytuff|78/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack+tera scald - our hp 0.79, theirs 0.78, predicted move (revealed) hits us x1
+  -terastallize|p1a: Vaporeon|Poison
+  move|p1a: Vaporeon|Scald|p2a: Wigglytuff
+  -damage|p2a: Wigglytuff|47/100
+  move|p2a: Wigglytuff|Dazzling Gleam|p1a: Vaporeon
+  -resisted|p1a: Vaporeon
+  -damage|p1a: Vaporeon|239/364
+  -heal|p1a: Vaporeon|261/364|[from] item: Leftovers
+  -heal|p2a: Wigglytuff|54/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack scald - our hp 0.72, theirs 0.54, predicted move (revealed) hits us x0.5
+  move|p1a: Vaporeon|Scald|p2a: Wigglytuff
+  -damage|p2a: Wigglytuff|25/100
+  move|p2a: Wigglytuff|Dazzling Gleam|p1a: Vaporeon
+  -resisted|p1a: Vaporeon
+  -damage|p1a: Vaporeon|213/364
+  -heal|p1a: Vaporeon|235/364|[from] item: Leftovers
+  -heal|p2a: Wigglytuff|31/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack scald - our hp 0.65, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p1a: Vaporeon|Scald|p2a: Wigglytuff
+  -damage|p2a: Wigglytuff|0 fnt
+  faint|p2a: Wigglytuff
+  -heal|p1a: Vaporeon|257/364|[from] item: Leftovers
+  switch|p2a: Indeedee|Indeedee-F, L90, F|100/100
+  -fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+-- turn 7
+  WE CHOSE: switch to yanmega (hand policy: attack scald) - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Yanmega|Yanmega, L82, M|275/275
+  move|p2a: Indeedee|Hyper Voice|p1a: Yanmega
+  -damage|p1a: Yanmega|84/275
+  -damage|p2a: Indeedee|91/100|[from] item: Life Orb
+-- turn 8
+  WE CHOSE: attack bugbuzz - our hp 0.31, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to fezandipiti - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Indeedee|Hyper Voice|p1a: Yanmega
+  -damage|p1a: Yanmega|0 fnt
+  faint|p1a: Yanmega
+  -damage|p2a: Indeedee|81/100|[from] item: Life Orb
+  switch|p1a: Fezandipiti|Fezandipiti, L82, M|278/278
+-- turn 9
+  WE CHOSE: attack uturn (hand policy: attack gunkshot) - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to amoonguss - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x1
+  move|p1a: Fezandipiti|U-turn|p2a: Indeedee
+  -supereffective|p2a: Indeedee
+  -damage|p2a: Indeedee|39/100
+  switch|p1a: Amoonguss|Amoonguss, L82, F|321/321|[from] U-turn
+  move|p2a: Indeedee|Hyper Voice|p1a: Amoonguss
+  -damage|p1a: Amoonguss|169/321
+  -damage|p2a: Indeedee|29/100|[from] item: Life Orb
+  -heal|p1a: Amoonguss|189/321|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: switch to fezandipiti (hand policy: attack sludgebomb) - our hp 0.59, theirs 0.29, predicted move (revealed) hits us x1
+  switch|p1a: Fezandipiti|Fezandipiti, L82, M|278/278
+  move|p2a: Indeedee|Hyper Voice|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|157/278
+  -damage|p2a: Indeedee|19/100|[from] item: Life Orb
+  -heal|p1a: Fezandipiti|174/278|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack gunkshot - our hp 0.63, theirs 0.19, predicted move (revealed) hits us x1
+  move|p1a: Fezandipiti|Gunk Shot|p2a: Indeedee|[miss]
+  -miss|p1a: Fezandipiti|p2a: Indeedee
+  move|p2a: Indeedee|Hyper Voice|p1a: Fezandipiti
+  -damage|p1a: Fezandipiti|67/278
+  -damage|p2a: Indeedee|9/100|[from] item: Life Orb
+  -heal|p1a: Fezandipiti|84/278|[from] item: Leftovers
+  -fieldend|move: Psychic Terrain
+-- turn 12
+  WE CHOSE: attack uturn (hand policy: heal roost) - our hp 0.30, theirs 0.09, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to amoonguss - our hp 0.30, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Fezandipiti|U-turn|p2a: Indeedee
+  -supereffective|p2a: Indeedee
+  -damage|p2a: Indeedee|0 fnt
+  faint|p2a: Indeedee
+  switch|p1a: Amoonguss|Amoonguss, L82, F|296/321|[from] U-turn
+  -heal|p1a: Amoonguss|316/321|[from] item: Leftovers
+  switch|p2a: Roaring Moon|Roaring Moon, L72|100/100
+-- turn 13
+  WE CHOSE: switch to fezandipiti - our hp 0.98, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Fezandipiti|Fezandipiti, L82, M|84/278
+  move|p2a: Roaring Moon|Outrage|p1a: Fezandipiti
+  -immune|p1a: Fezandipiti
+  -heal|p1a: Fezandipiti|101/278|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack moonblast (hand policy: heal roost) - our hp 0.36, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Roaring Moon|Outrage|p1a: Fezandipiti
+  -immune|p1a: Fezandipiti
+  move|p1a: Fezandipiti|Moonblast|p2a: Roaring Moon
+  -supereffective|p2a: Roaring Moon
+  -crit|p2a: Roaring Moon
+  -damage|p2a: Roaring Moon|0 fnt
+  faint|p2a: Roaring Moon
+  -end|p2a: Roaring Moon|Protosynthesis|[silent]
+  -heal|p1a: Fezandipiti|118/278|[from] item: Leftovers
+  switch|p2a: Greninja|Greninja, L80, M|100/100
+-- turn 15
+  WE CHOSE: heal roost - our hp 0.42, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to azelf - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Greninja|Gunk Shot|p1a: Fezandipiti
+  -start|p2a: Greninja|typechange|Poison|[from] ability: Protean
+  -damage|p1a: Fezandipiti|0 fnt
+  faint|p1a: Fezandipiti
+  -damage|p2a: Greninja|91/100|[from] item: Life Orb
+  switch|p1a: Azelf|Azelf, L82|257/257
+-- turn 16
+  WE CHOSE: attack psyshock - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to vaporeon - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Greninja|Gunk Shot|p1a: Azelf
+  -crit|p1a: Azelf
+  -damage|p1a: Azelf|0 fnt
+  faint|p1a: Azelf
+  -damage|p2a: Greninja|81/100|[from] item: Life Orb
+  switch|p1a: Vaporeon|Vaporeon, L86, F, tera:Poison|257/364
+-- turn 17
+  WE CHOSE: attack scald - our hp 0.71, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p2a: Greninja|Gunk Shot|p1a: Vaporeon|[miss]
+  -miss|p2a: Greninja|p1a: Vaporeon
+  move|p1a: Vaporeon|Scald|p2a: Greninja
+  -damage|p2a: Greninja|32/100
+  -heal|p1a: Vaporeon|279/364|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack scald - our hp 0.77, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p2a: Greninja|Gunk Shot|p1a: Vaporeon
+  -resisted|p1a: Vaporeon
+  -damage|p1a: Vaporeon|180/364
+  -damage|p2a: Greninja|22/100|[from] item: Life Orb
+  move|p1a: Vaporeon|Scald|p2a: Greninja
+  -damage|p2a: Greninja|0 fnt
+  faint|p2a: Greninja
+  -heal|p1a: Vaporeon|202/364|[from] item: Leftovers
+  switch|p2a: Trevenant|Trevenant, L89, F|100/100
+-- turn 19
+  WE CHOSE: switch to amoonguss (hand policy: attack scald) - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Amoonguss|Amoonguss, L82, F|321/321
+  move|p2a: Trevenant|Poltergeist|p1a: Amoonguss
+  -activate|p1a: Amoonguss|move: Poltergeist|Leftovers
+  -crit|p1a: Amoonguss
+  -damage|p1a: Amoonguss|59/321
+  -heal|p1a: Amoonguss|79/321|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack sludgebomb - our hp 0.25, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to vaporeon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Trevenant|Poltergeist|p1a: Amoonguss
+  -activate|p1a: Amoonguss|move: Poltergeist|Leftovers
+  -crit|p1a: Amoonguss
+  -damage|p1a: Amoonguss|0 fnt
+  faint|p1a: Amoonguss
+  switch|p1a: Vaporeon|Vaporeon, L86, F, tera:Poison|202/364
+-- turn 21
+  WE CHOSE: attack protect (hand policy: attack scald) - our hp 0.55, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vaporeon|Protect|p1a: Vaporeon
+  -singleturn|p1a: Vaporeon|Protect
+  move|p2a: Trevenant|Poltergeist|p1a: Vaporeon
+  -activate|p1a: Vaporeon|move: Protect
+  -heal|p1a: Vaporeon|224/364|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack protect (hand policy: attack scald) - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vaporeon|Protect||[still]
+  -fail|p1a: Vaporeon
+  move|p2a: Trevenant|Poltergeist|p1a: Vaporeon
+  -activate|p1a: Vaporeon|move: Poltergeist|Leftovers
+  -damage|p1a: Vaporeon|38/364
+  -heal|p1a: Vaporeon|60/364|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack scald - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Vaporeon|Scald|p2a: Trevenant
+  -resisted|p2a: Trevenant
+  -crit|p2a: Trevenant
+  -damage|p2a: Trevenant|74/100
+  -status|p2a: Trevenant|brn
+  move|p2a: Trevenant|Poltergeist|p1a: Vaporeon
+  -activate|p1a: Vaporeon|move: Poltergeist|Leftovers
+  -damage|p1a: Vaporeon|0 fnt
+  faint|p1a: Vaporeon
+  deinit

@@ -1,0 +1,312 @@
+battle 1761 (battle-gen9randombattle-2036560): lost in 33 turns, 1 of theirs left; we are p1
+
+ours:
+  bellibolt (fainted; item leftovers, ability electromorphosis, tera electric; moves slackoff/muddywater/thunderbolt/voltswitch)
+  malamar (fainted; item chestoberry, ability contrary; moves superpower/psychocut/knockoff/rest)
+  screamtail (fainted; item leftovers, ability protosynthesis; moves wish/dazzlinggleam/protect/thunderwave)
+  toxtricity (fainted; item choicescarf, ability punkrock; moves overdrive/boomburst/voltswitch/sludgewave)
+  noivern (fainted; item choicespecs, ability infiltrator; moves boomburst/uturn/dracometeor/hurricane)
+  pelipper (fainted; item heavydutyboots, ability drizzle; moves hurricane/surf/roost/uturn)
+theirs (as seen):
+  regice (fainted; item unknown_item, ability ?; moves thunderbolt)
+  brambleghast (fainted; item ?, ability windrider; moves powerwhip)
+  whimsicott (fainted; item leftovers, ability ?; moves moonblast)
+  espeon (fainted; item ?, ability ?; moves psychic)
+  hitmonchan (fainted; item unknown_item, ability ?; moves poisonjab)
+  ironbundle (100%; item unknown_item, ability quarkdrive; moves hydropump)
+
+-- turn 0
+  switch|p1a: Bellibolt|Bellibolt, L84, F|320/320
+  switch|p2a: Regice|Regice, L88|100/100
+-- turn 1
+  WE CHOSE: attack+tera thunderbolt - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Bellibolt|Electric
+  move|p2a: Regice|Thunderbolt|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|280/320
+  -start|p1a: Bellibolt|Charge|Thunderbolt|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Regice
+  -damage|p2a: Regice|53/100
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|300/320|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack thunderbolt - our hp 0.94, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p2a: Regice|Thunderbolt|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|260/320
+  -start|p1a: Bellibolt|Charge|Thunderbolt|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Regice
+  -damage|p2a: Regice|8/100
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|280/320|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack thunderbolt - our hp 0.88, theirs 0.08, predicted move (revealed) hits us x0.5
+  move|p2a: Regice|Thunderbolt|p1a: Bellibolt
+  -resisted|p1a: Bellibolt
+  -damage|p1a: Bellibolt|244/320
+  -start|p1a: Bellibolt|Charge|Thunderbolt|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Regice
+  -damage|p2a: Regice|0 fnt
+  faint|p2a: Regice
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|264/320|[from] item: Leftovers
+  switch|p2a: Brambleghast|Brambleghast, L88, M|100/100
+-- turn 4
+  WE CHOSE: switch to noivern (hand policy: attack thunderbolt) - our hp 0.82, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Noivern|Noivern, L82, M|274/274
+  move|p2a: Brambleghast|Power Whip|p1a: Noivern
+  -resisted|p1a: Noivern
+  -damage|p1a: Noivern|232/274
+-- turn 5
+  WE CHOSE: attack hurricane - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Noivern|Hurricane|p2a: Brambleghast
+  -ability|p2a: Brambleghast|Wind Rider|boost
+  -boost|p2a: Brambleghast|atk|1
+  move|p2a: Brambleghast|Power Whip|p1a: Noivern
+  -resisted|p1a: Noivern
+  -damage|p1a: Noivern|169/274
+-- turn 6
+  WE CHOSE: attack hurricane - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Noivern|Hurricane|p2a: Brambleghast
+  -ability|p2a: Brambleghast|Wind Rider|boost
+  -boost|p2a: Brambleghast|atk|1
+  move|p2a: Brambleghast|Power Whip|p1a: Noivern
+  -resisted|p1a: Noivern
+  -damage|p1a: Noivern|84/274
+-- turn 7
+  WE CHOSE: attack hurricane - our hp 0.31, theirs 1.00, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to toxtricity (hand policy: forced: switch to pelipper) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Noivern|Hurricane|p2a: Brambleghast
+  -ability|p2a: Brambleghast|Wind Rider|boost
+  -boost|p2a: Brambleghast|atk|1
+  move|p2a: Brambleghast|Power Whip|p1a: Noivern
+  -resisted|p1a: Noivern
+  -damage|p1a: Noivern|0 fnt
+  faint|p1a: Noivern
+  switch|p1a: Toxtricity|Toxtricity, L82, M|257/257
+-- turn 8
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Toxtricity|Sludge Wave|p2a: Brambleghast
+  -damage|p2a: Brambleghast|53/100
+  move|p2a: Brambleghast|Power Whip|p1a: Toxtricity
+  -resisted|p1a: Toxtricity
+  -damage|p1a: Toxtricity|15/257
+  -heal|p2a: Brambleghast|59/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack sludgewave - our hp 0.06, theirs 0.59, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to pelipper - our hp 0.00, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p1a: Toxtricity|Sludge Wave|p2a: Brambleghast
+  -damage|p2a: Brambleghast|6/100
+  move|p2a: Brambleghast|Power Whip|p1a: Toxtricity
+  -resisted|p1a: Toxtricity
+  -damage|p1a: Toxtricity|0 fnt
+  faint|p1a: Toxtricity
+  -heal|p2a: Brambleghast|12/100|[from] item: Leftovers
+  switch|p1a: Pelipper|Pelipper, L86, F|243/243
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+-- turn 10
+  WE CHOSE: heal roost (hand policy: attack hurricane) - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to malamar - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Brambleghast|Power Whip|p1a: Pelipper
+  -damage|p1a: Pelipper|0 fnt
+  faint|p1a: Pelipper
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Brambleghast|18/100|[from] item: Leftovers
+  switch|p1a: Malamar|Malamar, L82, M|275/275
+-- turn 11
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Brambleghast|Power Whip|p1a: Malamar|[miss]
+  -miss|p2a: Brambleghast|p1a: Malamar
+  move|p1a: Malamar|Knock Off|p2a: Brambleghast
+  -supereffective|p2a: Brambleghast
+  -damage|p2a: Brambleghast|0 fnt
+  -enditem|p2a: Brambleghast|Leftovers|[from] move: Knock Off|[of] p1a: Malamar
+  faint|p2a: Brambleghast
+  -weather|RainDance|[upkeep]
+  switch|p2a: Whimsicott|Whimsicott, L84, F|100/100
+-- turn 12
+  WE CHOSE: attack psychocut - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Whimsicott|Moonblast|p1a: Malamar
+  -supereffective|p1a: Malamar
+  -damage|p1a: Malamar|65/275
+  -boost|p1a: Malamar|spa|1
+  move|p1a: Malamar|Psycho Cut|p2a: Whimsicott
+  -damage|p2a: Whimsicott|70/100
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Whimsicott|76/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: switch to screamtail (hand policy: attack psychocut) - our hp 0.24, theirs 0.76, predicted move (revealed) hits us x2
+  switch|p1a: Scream Tail|Scream Tail, L84|330/330
+  move|p2a: Whimsicott|Moonblast|p1a: Scream Tail
+  -damage|p1a: Scream Tail|263/330
+  -weather|RainDance|[upkeep]
+  -heal|p2a: Whimsicott|82/100|[from] item: Leftovers
+  -heal|p1a: Scream Tail|283/330|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack dazzlinggleam - our hp 0.86, theirs 0.82, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Scream Tail
+  -crit|p1a: Scream Tail
+  -damage|p1a: Scream Tail|180/330
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Whimsicott
+  -damage|p2a: Whimsicott|50/100
+  -weather|none
+  -heal|p2a: Whimsicott|56/100|[from] item: Leftovers
+  -heal|p1a: Scream Tail|200/330|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack dazzlinggleam - our hp 0.61, theirs 0.56, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Scream Tail
+  -damage|p1a: Scream Tail|136/330
+  -unboost|p1a: Scream Tail|spa|1
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Whimsicott
+  -damage|p2a: Whimsicott|36/100
+  -heal|p2a: Whimsicott|42/100|[from] item: Leftovers
+  -heal|p1a: Scream Tail|156/330|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack dazzlinggleam - our hp 0.47, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Scream Tail
+  -damage|p1a: Scream Tail|83/330
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Whimsicott
+  -damage|p2a: Whimsicott|23/100
+  -heal|p2a: Whimsicott|29/100|[from] item: Leftovers
+  -heal|p1a: Scream Tail|103/330|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack dazzlinggleam - our hp 0.31, theirs 0.29, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Scream Tail
+  -damage|p1a: Scream Tail|39/330
+  -unboost|p1a: Scream Tail|spa|1
+  move|p1a: Scream Tail|Dazzling Gleam|p2a: Whimsicott
+  -damage|p2a: Whimsicott|14/100
+  -heal|p2a: Whimsicott|19/100|[from] item: Leftovers
+  -heal|p1a: Scream Tail|59/330|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack dazzlinggleam - our hp 0.18, theirs 0.19, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bellibolt - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Scream Tail
+  -damage|p1a: Scream Tail|0 fnt
+  faint|p1a: Scream Tail
+  -end|p1a: Scream Tail|Protosynthesis|[silent]
+  -heal|p2a: Whimsicott|25/100|[from] item: Leftovers
+  switch|p1a: Bellibolt|Bellibolt, L84, F, tera:Electric|264/320
+-- turn 19
+  WE CHOSE: attack thunderbolt - our hp 0.82, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Bellibolt
+  -damage|p1a: Bellibolt|177/320
+  -unboost|p1a: Bellibolt|spa|1
+  -start|p1a: Bellibolt|Charge|Moonblast|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Whimsicott
+  -resisted|p2a: Whimsicott
+  -damage|p2a: Whimsicott|0 fnt
+  faint|p2a: Whimsicott
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|197/320|[from] item: Leftovers
+  switch|p2a: Espeon|Espeon, L84, F|100/100
+-- turn 20
+  WE CHOSE: switch to malamar - our hp 0.62, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Malamar|Malamar, L82, M|65/275
+  move|p2a: Espeon|Psychic|p1a: Malamar
+  -immune|p1a: Malamar
+-- turn 21
+  WE CHOSE: attack knockoff (hand policy: heal rest) - our hp 0.24, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Espeon|Psychic|p1a: Malamar
+  -immune|p1a: Malamar
+  move|p1a: Malamar|Knock Off|p2a: Espeon
+  -supereffective|p2a: Espeon
+  -damage|p2a: Espeon|0 fnt
+  -enditem|p2a: Espeon|Life Orb|[from] move: Knock Off|[of] p1a: Malamar
+  faint|p2a: Espeon
+  switch|p2a: Hitmonchan|Hitmonchan, L87, M|100/100
+-- turn 22
+  WE CHOSE: attack psychocut (hand policy: heal rest) - our hp 0.24, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to bellibolt - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmonchan|Poison Jab|p1a: Malamar
+  -damage|p1a: Malamar|0 fnt
+  faint|p1a: Malamar
+  switch|p1a: Bellibolt|Bellibolt, L84, F, tera:Electric|197/320
+-- turn 23
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 0.62, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmonchan|Poison Jab|p1a: Bellibolt
+  -damage|p1a: Bellibolt|135/320
+  -start|p1a: Bellibolt|Charge|Poison Jab|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|295/320
+  -heal|p1a: Bellibolt|315/320|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 0.98, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmonchan|Poison Jab|p1a: Bellibolt
+  -damage|p1a: Bellibolt|254/320
+  -start|p1a: Bellibolt|Charge|Poison Jab|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320
+-- turn 25
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmonchan|Poison Jab|p1a: Bellibolt
+  -damage|p1a: Bellibolt|262/320
+  -start|p1a: Bellibolt|Charge|Poison Jab|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320
+-- turn 26
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmonchan|Poison Jab|p1a: Bellibolt
+  -damage|p1a: Bellibolt|263/320
+  -start|p1a: Bellibolt|Charge|Poison Jab|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320
+-- turn 27
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmonchan|Poison Jab|p1a: Bellibolt
+  -damage|p1a: Bellibolt|255/320
+  -start|p1a: Bellibolt|Charge|Poison Jab|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320
+-- turn 28
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmonchan|Poison Jab|p1a: Bellibolt
+  -damage|p1a: Bellibolt|255/320
+  -start|p1a: Bellibolt|Charge|Poison Jab|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320
+-- turn 29
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmonchan|Poison Jab|p1a: Bellibolt
+  -damage|p1a: Bellibolt|261/320
+  -status|p1a: Bellibolt|psn
+  -start|p1a: Bellibolt|Charge|Poison Jab|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320 psn
+  -damage|p1a: Bellibolt|280/320 psn|[from] psn
+-- turn 30
+  WE CHOSE: heal slackoff (hand policy: attack thunderbolt) - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmonchan|Poison Jab|p1a: Bellibolt
+  -damage|p1a: Bellibolt|219/320 psn
+  -start|p1a: Bellibolt|Charge|Poison Jab|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|320/320 psn
+  -damage|p1a: Bellibolt|280/320 psn|[from] psn
+-- turn 31
+  WE CHOSE: attack thunderbolt - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Hitmonchan|Poison Jab|p1a: Bellibolt
+  -damage|p1a: Bellibolt|221/320 psn
+  -start|p1a: Bellibolt|Charge|Poison Jab|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Hitmonchan
+  -damage|p2a: Hitmonchan|42/100
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|241/320 psn|[from] item: Leftovers
+  -damage|p1a: Bellibolt|201/320 psn|[from] psn
+-- turn 32
+  WE CHOSE: attack voltswitch (hand policy: attack thunderbolt) - our hp 0.63, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Hitmonchan|Poison Jab|p1a: Bellibolt
+  -damage|p1a: Bellibolt|138/320 psn
+  -start|p1a: Bellibolt|Charge|Poison Jab|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Volt Switch|p2a: Hitmonchan
+  -damage|p2a: Hitmonchan|0 fnt
+  faint|p2a: Hitmonchan
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|158/320 psn|[from] item: Leftovers
+  -damage|p1a: Bellibolt|118/320 psn|[from] psn
+  switch|p2a: Iron Bundle|Iron Bundle, L78|100/100
+-- turn 33
+  WE CHOSE: attack thunderbolt - our hp 0.37, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Iron Bundle|Hydro Pump|p1a: Bellibolt
+  -damage|p1a: Bellibolt|0 fnt
+  faint|p1a: Bellibolt
+  deinit

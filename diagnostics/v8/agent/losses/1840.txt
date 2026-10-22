@@ -1,0 +1,173 @@
+battle 1840 (battle-gen9randombattle-2037331): lost in 17 turns, 1 of theirs left; we are p1
+
+ours:
+  kleavor (fainted; item heavydutyboots, ability sharpness; moves xscissor/swordsdance/closecombat/stoneaxe)
+  swanna (fainted; item heavydutyboots, ability hydration; moves bravebird/hydropump/defog/roost)
+  hatterene (fainted; item leftovers, ability magicbounce; moves calmmind/mysticalfire/drainingkiss/psyshock)
+  azelf (fainted; item lifeorb, ability levitate; moves taunt/knockoff/fireblast/psychic)
+  misdreavus (fainted; item eviolite, ability levitate; moves drainingkiss/shadowball/willowisp/calmmind)
+  pincurchin (fainted; item leftovers, ability electricsurge, tera water; moves discharge/scald/spikes/recover)
+theirs (as seen):
+  regieleki (fainted; item unknown_item, ability transistor; moves explosion)
+  lumineon (fainted; item lifeorb, ability ?; moves hydropump)
+  raikou (fainted; item unknown_item, ability pressure; moves thunderbolt)
+  ariados (fainted; item unknown_item, ability ?; moves megahorn)
+  diancie (fainted; item leftovers, ability clearbody; moves diamondstorm)
+  furret (72%; item unknown_item, ability frisk; moves doubleedge)
+
+-- turn 0
+  switch|p1a: Kleavor|Kleavor, L78, F|237/237
+  switch|p2a: Regieleki|Regieleki, L79|100/100
+-- turn 1
+  WE CHOSE: switch to misdreavus (hand policy: setup swordsdance) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Misdreavus|Misdreavus, L90, M|254/254
+  move|p2a: Regieleki|Explosion|p1a: Misdreavus
+  -immune|p1a: Misdreavus
+  faint|p2a: Regieleki
+  switch|p2a: Lumineon|Lumineon, L93, F|100/100
+-- turn 2
+  WE CHOSE: switch to swanna (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Swanna|Swanna, L89, M|278/278
+  move|p2a: Lumineon|Hydro Pump|p1a: Swanna
+  -resisted|p1a: Swanna
+  -damage|p1a: Swanna|188/278
+  -damage|p2a: Lumineon|91/100|[from] item: Life Orb
+-- turn 3
+  WE CHOSE: attack bravebird - our hp 0.68, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p1a: Swanna|Brave Bird|p2a: Lumineon
+  -damage|p2a: Lumineon|45/100
+  -damage|p1a: Swanna|145/278|[from] Recoil
+  move|p2a: Lumineon|Hydro Pump|p1a: Swanna
+  -resisted|p1a: Swanna
+  -damage|p1a: Swanna|61/278
+  -damage|p2a: Lumineon|35/100|[from] item: Life Orb
+-- turn 4
+  WE CHOSE: attack defog (hand policy: heal roost) - our hp 0.22, theirs 0.35, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to pincurchin - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x0.5
+  move|p1a: Swanna|Defog|p2a: Lumineon
+  -unboost|p2a: Lumineon|evasion|1
+  move|p2a: Lumineon|Hydro Pump|p1a: Swanna
+  -resisted|p1a: Swanna
+  -damage|p1a: Swanna|0 fnt
+  faint|p1a: Swanna
+  -damage|p2a: Lumineon|25/100|[from] item: Life Orb
+  switch|p1a: Pincurchin|Pincurchin, F|258/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 5
+  WE CHOSE: attack+tera discharge - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x1
+  -terastallize|p1a: Pincurchin|Water
+  move|p2a: Lumineon|Hydro Pump|p1a: Pincurchin
+  -resisted|p1a: Pincurchin
+  -damage|p1a: Pincurchin|194/258
+  -damage|p2a: Lumineon|16/100|[from] item: Life Orb
+  move|p1a: Pincurchin|Discharge|p2a: Lumineon
+  -supereffective|p2a: Lumineon
+  -damage|p2a: Lumineon|0 fnt
+  faint|p2a: Lumineon
+  -heal|p1a: Pincurchin|210/258|[from] item: Leftovers
+  switch|p2a: Raikou|Raikou, L81|100/100
+  -ability|p2a: Raikou|Pressure
+-- turn 6
+  WE CHOSE: switch to azelf (hand policy: attack scald) - our hp 0.81, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to misdreavus (hand policy: forced: switch to kleavor) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Azelf|Azelf, L82|257/257
+  move|p2a: Raikou|Thunderbolt|p1a: Azelf
+  -crit|p1a: Azelf
+  -damage|p1a: Azelf|0 fnt
+  faint|p1a: Azelf
+  switch|p1a: Misdreavus|Misdreavus, L90, M|254/254
+-- turn 7
+  WE CHOSE: setup calmmind (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Misdreavus
+  -damage|p1a: Misdreavus|125/254
+  move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+  -boost|p1a: Misdreavus|spa|1
+  -boost|p1a: Misdreavus|spd|1
+-- turn 8
+  WE CHOSE: attack shadowball - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Misdreavus
+  -damage|p1a: Misdreavus|47/254
+  move|p1a: Misdreavus|Shadow Ball|p2a: Raikou
+  -damage|p2a: Raikou|58/100
+-- turn 9
+  WE CHOSE: attack shadowball - our hp 0.19, theirs 0.58, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hatterene (hand policy: forced: switch to kleavor) - our hp 0.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Misdreavus
+  -damage|p1a: Misdreavus|0 fnt
+  faint|p1a: Misdreavus
+  -fieldend|move: Electric Terrain
+  switch|p1a: Hatterene|Hatterene, L85, F|236/236
+-- turn 10
+  WE CHOSE: setup calmmind (hand policy: attack psyshock) - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Hatterene
+  -damage|p1a: Hatterene|95/236
+  move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+  -boost|p1a: Hatterene|spa|1
+  -boost|p1a: Hatterene|spd|1
+  -heal|p1a: Hatterene|109/236|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack psyshock - our hp 0.46, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Raikou|Thunderbolt|p1a: Hatterene
+  -damage|p1a: Hatterene|27/236
+  move|p1a: Hatterene|Psyshock|p2a: Raikou
+  -damage|p2a: Raikou|0 fnt
+  faint|p2a: Raikou
+  -heal|p1a: Hatterene|41/236|[from] item: Leftovers
+  switch|p2a: Ariados|Ariados, L95, M|100/100
+-- turn 12
+  WE CHOSE: attack mysticalfire (hand policy: attack psyshock) - our hp 0.17, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to kleavor - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Ariados|Megahorn|p1a: Hatterene
+  -damage|p1a: Hatterene|0 fnt
+  faint|p1a: Hatterene
+  switch|p1a: Kleavor|Kleavor, L78, F|237/237
+-- turn 13
+  WE CHOSE: attack stoneaxe - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Kleavor|Stone Axe|p2a: Ariados
+  -supereffective|p2a: Ariados
+  -damage|p2a: Ariados|21/100
+  -sidestart|p2: e2_035157|move: Stealth Rock
+  move|p2a: Ariados|Megahorn|p1a: Kleavor
+  -damage|p1a: Kleavor|93/237
+-- turn 14
+  WE CHOSE: attack stoneaxe - our hp 0.39, theirs 0.21, predicted move (revealed) hits us x1
+  move|p1a: Kleavor|Stone Axe|p2a: Ariados
+  -supereffective|p2a: Ariados
+  -damage|p2a: Ariados|0 fnt
+  faint|p2a: Ariados
+  switch|p2a: Diancie|Diancie, L82|100/100
+  -damage|p2a: Diancie|88/100|[from] Stealth Rock
+-- turn 15
+  WE CHOSE: attack closecombat - our hp 0.39, theirs 0.88, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to pincurchin - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x2
+  move|p1a: Kleavor|Close Combat|p2a: Diancie
+  -damage|p2a: Diancie|56/100
+  -unboost|p1a: Kleavor|def|1
+  -unboost|p1a: Kleavor|spd|1
+  move|p2a: Diancie|Diamond Storm|p1a: Kleavor
+  -supereffective|p1a: Kleavor
+  -damage|p1a: Kleavor|0 fnt
+  -boost|p2a: Diancie|def|2
+  faint|p1a: Kleavor
+  -heal|p2a: Diancie|62/100|[from] item: Leftovers
+  switch|p1a: Pincurchin|Pincurchin, F, tera:Water|210/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 16
+  WE CHOSE: attack scald - our hp 0.81, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Diancie|Diamond Storm|p1a: Pincurchin
+  -damage|p1a: Pincurchin|134/258
+  move|p1a: Pincurchin|Scald|p2a: Diancie
+  -supereffective|p2a: Diancie
+  -damage|p2a: Diancie|0 fnt
+  faint|p2a: Diancie
+  -heal|p1a: Pincurchin|150/258|[from] item: Leftovers
+  switch|p2a: Furret|Furret, L94, F|100/100
+  -damage|p2a: Furret|88/100|[from] Stealth Rock
+  -item|p1a: Pincurchin|Leftovers|[from] ability: Frisk|[of] p2a: Furret
+-- turn 17
+  WE CHOSE: attack discharge - our hp 0.58, theirs 0.88, predicted move (guessed) hits us x1
+  move|p2a: Furret|Double-Edge|p1a: Pincurchin
+  -damage|p1a: Pincurchin|0 fnt
+  faint|p1a: Pincurchin
+  -damage|p2a: Furret|72/100|[from] Recoil
+  deinit

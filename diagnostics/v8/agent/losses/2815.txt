@@ -1,0 +1,214 @@
+battle 2815 (battle-gen9randombattle-2047002): lost in 23 turns, 3 of theirs left; we are p1
+
+ours:
+  kingambit (fainted; item leftovers, ability supremeoverlord; moves ironhead/kowtowcleave/swordsdance/suckerpunch)
+  haxorus (fainted; item lumberry, ability moldbreaker; moves outrage/ironhead/dragondance/earthquake)
+  brutebonnet (fainted; item leftovers, ability protosynthesis, tera poison; moves suckerpunch/closecombat/spore/crunch)
+  revavroom (fainted; item lifeorb, ability filter; moves gunkshot/highhorsepower/ironhead/shiftgear)
+  hawlucha (fainted; item ?, ability unburden; moves closecombat/bravebird/swordsdance/stoneedge)
+  armarouge (fainted; item powerherb, ability weakarmor; moves meteorbeam/armorcannon/energyball/psyshock)
+theirs (as seen):
+  skuntank (fainted; item ?, ability aftermath; moves gunkshot/fireblast)
+  golurk (fainted; item unknown_item, ability ?; moves poltergeist)
+  slaking (fainted; item unknown_item, ability truant; moves gigaimpact)
+  gardevoir (100%; item unknown_item, ability unburden; moves moonblast)
+
+-- turn 0
+  switch|p1a: Kingambit|Kingambit, L74, F|270/270
+  switch|p2a: Skuntank|Skuntank, L84, F|100/100
+-- turn 1
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Skuntank|Gunk Shot|p1a: Kingambit
+  -immune|p1a: Kingambit
+  move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+  -boost|p1a: Kingambit|atk|2
+-- turn 2
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Skuntank|Gunk Shot|p1a: Kingambit
+  -immune|p1a: Kingambit
+  move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+  -boost|p1a: Kingambit|atk|2
+-- turn 3
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Skuntank|Gunk Shot|p1a: Kingambit
+  -immune|p1a: Kingambit
+  move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+  -boost|p1a: Kingambit|atk|2
+-- turn 4
+  WE CHOSE: switch to revavroom (hand policy: attack ironhead) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  -end|p1a: Kingambit|fallenundefined|[silent]
+  switch|p1a: Revavroom|Revavroom, L79, F|256/256
+  move|p2a: Skuntank|Gunk Shot|p1a: Revavroom
+  -immune|p1a: Revavroom
+-- turn 5
+  WE CHOSE: setup shiftgear - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Skuntank|Gunk Shot|p1a: Revavroom
+  -immune|p1a: Revavroom
+  move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+  -boost|p1a: Revavroom|spe|2
+  -boost|p1a: Revavroom|atk|1
+-- turn 6
+  WE CHOSE: setup shiftgear - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+  -boost|p1a: Revavroom|spe|2
+  -boost|p1a: Revavroom|atk|1
+  move|p2a: Skuntank|Gunk Shot|p1a: Revavroom
+  -immune|p1a: Revavroom
+-- turn 7
+  WE CHOSE: setup shiftgear - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+  -boost|p1a: Revavroom|spe|2
+  -boost|p1a: Revavroom|atk|1
+  move|p2a: Skuntank|Gunk Shot|p1a: Revavroom
+  -immune|p1a: Revavroom
+-- turn 8
+  WE CHOSE: setup shiftgear - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+  -boost|p1a: Revavroom|spe|0
+  -boost|p1a: Revavroom|atk|1
+  move|p2a: Skuntank|Gunk Shot|p1a: Revavroom
+  -immune|p1a: Revavroom
+-- turn 9
+  WE CHOSE: setup shiftgear - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+  -boost|p1a: Revavroom|spe|0
+  -boost|p1a: Revavroom|atk|1
+  move|p2a: Skuntank|Fire Blast|p1a: Revavroom
+  -supereffective|p1a: Revavroom
+  -damage|p1a: Revavroom|130/256
+-- turn 10
+  WE CHOSE: switch to kingambit (hand policy: setup shiftgear) - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Kingambit|Kingambit, L74, F|270/270
+  move|p2a: Skuntank|Fire Blast|p1a: Kingambit
+  -supereffective|p1a: Kingambit
+  -damage|p1a: Kingambit|134/270
+  -heal|p1a: Kingambit|150/270|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: setup swordsdance - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to revavroom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Skuntank|Fire Blast|p1a: Kingambit
+  -supereffective|p1a: Kingambit
+  -crit|p1a: Kingambit
+  -damage|p1a: Kingambit|0 fnt
+  faint|p1a: Kingambit
+  -end|p1a: Kingambit|fallenundefined|[silent]
+  switch|p1a: Revavroom|Revavroom, L79, F|130/256
+-- turn 12
+  WE CHOSE: setup shiftgear - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Skuntank|Fire Blast|p1a: Revavroom
+  -supereffective|p1a: Revavroom
+  -damage|p1a: Revavroom|7/256
+  move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+  -boost|p1a: Revavroom|spe|2
+  -boost|p1a: Revavroom|atk|1
+-- turn 13
+  WE CHOSE: attack highhorsepower - our hp 0.03, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to hawlucha (hand policy: forced: switch to haxorus) - our hp 0.00, theirs 0.01, predicted move (revealed) hits us x0
+  move|p1a: Revavroom|High Horsepower|p2a: Skuntank
+  -supereffective|p2a: Skuntank
+  -enditem|p2a: Skuntank|Focus Sash
+  -damage|p2a: Skuntank|1/100
+  -damage|p1a: Revavroom|0 fnt|[from] item: Life Orb
+  faint|p1a: Revavroom
+  move|p2a: Skuntank|Fire Blast|p1: Revavroom|[notarget]
+  -fail|p2a: Skuntank
+  switch|p1a: Hawlucha|Hawlucha, L80, M|256/256
+-- turn 14
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.01, predicted move (revealed) hits us x1
+  move|p1a: Hawlucha|Close Combat|p2a: Skuntank
+  -damage|p2a: Skuntank|0 fnt
+  -unboost|p1a: Hawlucha|def|1
+  -unboost|p1a: Hawlucha|spd|1
+  -damage|p1a: Hawlucha|192/256|[from] ability: Aftermath|[of] p2a: Skuntank
+  faint|p2a: Skuntank
+  -enditem|p1a: Hawlucha|White Herb
+  -clearnegativeboost|p1a: Hawlucha|[silent]
+  switch|p2a: Golurk|Golurk, L87|100/100
+-- turn 15
+  WE CHOSE: switch to brutebonnet (hand policy: attack+tera bravebird) - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Brute Bonnet|Brute Bonnet, L80|309/309
+  move|p2a: Golurk|Poltergeist|p1a: Brute Bonnet
+  -activate|p1a: Brute Bonnet|move: Poltergeist|Leftovers
+  -resisted|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|195/309
+  -heal|p1a: Brute Bonnet|214/309|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack crunch - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Golurk|Poltergeist|p1a: Brute Bonnet
+  -activate|p1a: Brute Bonnet|move: Poltergeist|Leftovers
+  -resisted|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|113/309
+  move|p1a: Brute Bonnet|Crunch|p2a: Golurk
+  -supereffective|p2a: Golurk
+  -crit|p2a: Golurk
+  -damage|p2a: Golurk|7/100
+  -unboost|p2a: Golurk|def|1
+  -heal|p1a: Brute Bonnet|132/309|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack crunch - our hp 0.43, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p2a: Golurk|Poltergeist|p1a: Brute Bonnet
+  -activate|p1a: Brute Bonnet|move: Poltergeist|Leftovers
+  -resisted|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|32/309
+  move|p1a: Brute Bonnet|Crunch|p2a: Golurk
+  -supereffective|p2a: Golurk
+  -damage|p2a: Golurk|0 fnt
+  faint|p2a: Golurk
+  -heal|p1a: Brute Bonnet|51/309|[from] item: Leftovers
+  switch|p2a: Slaking|Slaking, L84, F|100/100
+-- turn 18
+  WE CHOSE: switch to haxorus (hand policy: attack closecombat) - our hp 0.17, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to armarouge (hand policy: forced: switch to hawlucha) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  -end|p1a: Brute Bonnet|Protosynthesis|[silent]
+  switch|p1a: Haxorus|Haxorus, L77, M|244/244
+  -ability|p1a: Haxorus|Mold Breaker
+  move|p2a: Slaking|Giga Impact|p1a: Haxorus
+  -damage|p1a: Haxorus|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Haxorus
+  switch|p1a: Armarouge|Armarouge, L80, M|267/267
+-- turn 19
+  WE CHOSE: attack armorcannon - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Armarouge|Armor Cannon|p2a: Slaking
+  -crit|p2a: Slaking
+  -damage|p2a: Slaking|28/100
+  -unboost|p1a: Armarouge|def|1
+  -unboost|p1a: Armarouge|spd|1
+-- turn 20
+  WE CHOSE: attack armorcannon - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to revavroom (hand policy: forced: switch to hawlucha) - our hp 0.00, theirs 0.28, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Armarouge
+  -damage|p1a: Armarouge|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Armarouge
+  switch|p1a: Brute Bonnet|Brute Bonnet, L80|51/309
+-- turn 21
+  WE CHOSE: attack closecombat - our hp 0.17, theirs 0.28, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Brute Bonnet|Close Combat|p2a: Slaking
+  -supereffective|p2a: Slaking
+  -damage|p2a: Slaking|0 fnt
+  -unboost|p1a: Brute Bonnet|def|1
+  -unboost|p1a: Brute Bonnet|spd|1
+  faint|p2a: Slaking
+  -heal|p1a: Brute Bonnet|70/309|[from] item: Leftovers
+  switch|p2a: Gardevoir|Gardevoir, L83, M|100/100
+-- turn 22
+  WE CHOSE: attack+tera crunch (hand policy: switch to hawlucha) - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to hawlucha - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Brute Bonnet|Poison
+  move|p2a: Gardevoir|Moonblast|p1a: Brute Bonnet
+  -resisted|p1a: Brute Bonnet
+  -damage|p1a: Brute Bonnet|0 fnt
+  faint|p1a: Brute Bonnet
+  -end|p1a: Brute Bonnet|Protosynthesis|[silent]
+  switch|p1a: Hawlucha|Hawlucha, L80, M|192/256
+  -ability|p2a: Gardevoir|Unburden|Trace|[from] ability: Trace|[of] p1a: Hawlucha
+-- turn 23
+  WE CHOSE: attack bravebird - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Gardevoir|Moonblast|p1a: Hawlucha
+  -supereffective|p1a: Hawlucha
+  -damage|p1a: Hawlucha|0 fnt
+  faint|p1a: Hawlucha
+  deinit

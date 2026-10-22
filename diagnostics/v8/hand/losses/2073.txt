@@ -1,0 +1,193 @@
+battle 2073 (battle-gen9randombattle-2037972): lost in 19 turns, 4 of theirs left; we are p1
+
+ours:
+  excadrill (fainted; item leftovers, ability moldbreaker; moves earthquake/rapidspin/ironhead/swordsdance)
+  flamigo (fainted; item lifeorb, ability scrappy; moves bravebird/roost/swordsdance/closecombat)
+  emboar (fainted; item choicescarf, ability reckless; moves flareblitz/wildcharge/headsmash/closecombat)
+  zoroark (fainted; item choicespecs, ability illusion; moves psychic/sludgebomb/darkpulse/trick)
+  metagross (fainted; item weaknesspolicy, ability clearbody; moves heavyslam/knockoff/agility/earthquake)
+  inteleon (fainted; item choicespecs, ability torrent; moves hydropump/uturn/scald/icebeam)
+theirs (as seen):
+  landorus (fainted; item unknown_item, ability ?; moves focusblast)
+  vaporeon (fainted; item leftovers, ability ?; moves scald)
+  inteleon (57%; item unknown_item, ability ?; moves hydropump)
+
+-- turn 0
+  switch|p1a: Excadrill|Excadrill, L79, F|303/303
+  switch|p2a: Landorus|Landorus, L75, M|100/100
+  -ability|p1a: Excadrill|Mold Breaker
+-- turn 1
+  WE CHOSE: switch to flamigo - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Flamigo|Flamigo, L82, F|269/269
+  move|p2a: Landorus|Focus Blast|p1a: Flamigo|[miss]
+  -miss|p2a: Landorus|p1a: Flamigo
+-- turn 2
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Landorus|Focus Blast|p1a: Flamigo
+  -resisted|p1a: Flamigo
+  -damage|p1a: Flamigo|178/269
+  move|p1a: Flamigo|Swords Dance|p1a: Flamigo
+  -boost|p1a: Flamigo|atk|2
+-- turn 3
+  WE CHOSE: attack bravebird - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to inteleon - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p2a: Landorus|Focus Blast|p1a: Flamigo
+  -resisted|p1a: Flamigo
+  -damage|p1a: Flamigo|100/269
+  move|p1a: Flamigo|Brave Bird|p2a: Landorus
+  -damage|p2a: Landorus|0 fnt
+  faint|p2a: Landorus
+  -damage|p1a: Flamigo|15/269|[from] Recoil
+  -damage|p1a: Flamigo|0 fnt|[from] item: Life Orb
+  faint|p1a: Flamigo
+  switch|p2a: Vaporeon|Vaporeon, L86, F|100/100
+  switch|p1a: Inteleon|Inteleon, L81, F|246/246
+-- turn 4
+  WE CHOSE: attack uturn - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to emboar - our hp 1.00, theirs 0.85, predicted move (guessed) hits us x0.5
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|85/100
+  switch|p1a: Emboar|Emboar, L84, M|322/322|[from] U-turn
+  move|p2a: Vaporeon|Scald|p1a: Emboar
+  -supereffective|p1a: Emboar
+  -damage|p1a: Emboar|70/322
+  -heal|p2a: Vaporeon|91/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: switch to inteleon - our hp 0.22, theirs 0.91, predicted move (revealed) hits us x2
+  switch|p1a: Inteleon|Inteleon, L81, F|246/246
+  move|p2a: Vaporeon|Scald|p1a: Inteleon
+  -resisted|p1a: Inteleon
+  -damage|p1a: Inteleon|183/246
+  -heal|p2a: Vaporeon|97/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack uturn - our hp 0.74, theirs 0.97, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to zoroark - our hp 0.74, theirs 0.82, predicted move (revealed) hits us x0.5
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|82/100
+  switch|p1a: Metagross|Metagross, L79|235/235|[from] U-turn
+  move|p2a: Vaporeon|Scald|p1a: Metagross
+  -damage|p1a: Metagross|111/235
+  -status|p1a: Metagross|brn
+  replace|p1a: Zoroark|Zoroark, L83, F
+  -end|p1a: Zoroark|Illusion
+  -heal|p2a: Vaporeon|88/100|[from] item: Leftovers
+  -damage|p1a: Zoroark|97/235 brn|[from] brn
+-- turn 7
+  WE CHOSE: attack darkpulse - our hp 0.41, theirs 0.88, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to inteleon - our hp 0.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Zoroark|Dark Pulse|p2a: Vaporeon
+  -damage|p2a: Vaporeon|52/100
+  move|p2a: Vaporeon|Scald|p1a: Zoroark
+  -damage|p1a: Zoroark|0 fnt
+  faint|p1a: Zoroark
+  -heal|p2a: Vaporeon|58/100|[from] item: Leftovers
+  switch|p1a: Inteleon|Inteleon, L81, F|183/246
+-- turn 8
+  WE CHOSE: attack uturn - our hp 0.74, theirs 0.58, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to metagross - our hp 0.74, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|43/100
+  switch|p1a: Metagross|Metagross, L79|256/256|[from] U-turn
+  move|p2a: Vaporeon|Scald|p1a: Metagross
+  -damage|p1a: Metagross|163/256
+  -heal|p2a: Vaporeon|49/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.64, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Vaporeon|Scald|p1a: Metagross
+  -damage|p1a: Metagross|66/256
+  -status|p1a: Metagross|brn
+  move|p1a: Metagross|Earthquake|p2a: Vaporeon
+  -damage|p2a: Vaporeon|34/100
+  -heal|p2a: Vaporeon|40/100|[from] item: Leftovers
+  -damage|p1a: Metagross|50/256 brn|[from] brn
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.20, theirs 0.40, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to inteleon - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Vaporeon|Scald|p1a: Metagross
+  -damage|p1a: Metagross|0 fnt
+  faint|p1a: Metagross
+  -heal|p2a: Vaporeon|46/100|[from] item: Leftovers
+  switch|p1a: Inteleon|Inteleon, L81, F|183/246
+-- turn 11
+  WE CHOSE: attack uturn - our hp 0.74, theirs 0.46, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to emboar - our hp 0.74, theirs 0.32, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to inteleon - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x2
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|32/100
+  switch|p1a: Emboar|Emboar, L84, M|70/322|[from] U-turn
+  move|p2a: Vaporeon|Scald|p1a: Emboar
+  -supereffective|p1a: Emboar
+  -damage|p1a: Emboar|0 fnt
+  faint|p1a: Emboar
+  -heal|p2a: Vaporeon|38/100|[from] item: Leftovers
+  switch|p1a: Inteleon|Inteleon, L81, F|183/246
+-- turn 12
+  WE CHOSE: attack uturn - our hp 0.74, theirs 0.38, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to excadrill - our hp 0.74, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|24/100
+  switch|p1a: Excadrill|Excadrill, L79, F|303/303|[from] U-turn
+  -ability|p1a: Excadrill|Mold Breaker
+  move|p2a: Vaporeon|Scald|p1a: Excadrill
+  -supereffective|p1a: Excadrill
+  -damage|p1a: Excadrill|31/303
+  -heal|p1a: Excadrill|49/303|[from] item: Leftovers
+  -heal|p2a: Vaporeon|30/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: switch to inteleon - our hp 0.16, theirs 0.30, predicted move (revealed) hits us x2
+  switch|p1a: Inteleon|Inteleon, L81, F|183/246
+  move|p2a: Vaporeon|Scald|p1a: Inteleon
+  -resisted|p1a: Inteleon
+  -damage|p1a: Inteleon|123/246
+  -heal|p2a: Vaporeon|36/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack uturn - our hp 0.50, theirs 0.36, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to excadrill - our hp 0.50, theirs 0.21, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to inteleon - our hp 0.00, theirs 0.27, predicted move (revealed) hits us x2
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|21/100
+  switch|p1a: Excadrill|Excadrill, L79, F|49/303|[from] U-turn
+  -ability|p1a: Excadrill|Mold Breaker
+  move|p2a: Vaporeon|Scald|p1a: Excadrill
+  -supereffective|p1a: Excadrill
+  -damage|p1a: Excadrill|0 fnt
+  faint|p1a: Excadrill
+  -heal|p2a: Vaporeon|27/100|[from] item: Leftovers
+  switch|p1a: Inteleon|Inteleon, L81, F|123/246
+-- turn 15
+  WE CHOSE: attack uturn - our hp 0.50, theirs 0.27, predicted move (revealed) hits us x0.5
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|11/100
+  move|p2a: Vaporeon|Scald|p1a: Inteleon
+  -resisted|p1a: Inteleon
+  -damage|p1a: Inteleon|63/246
+  -heal|p2a: Vaporeon|17/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack uturn - our hp 0.26, theirs 0.17, predicted move (revealed) hits us x0.5
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|2/100
+  move|p2a: Vaporeon|Scald|p1a: Inteleon
+  -resisted|p1a: Inteleon
+  -damage|p1a: Inteleon|5/246
+  -heal|p2a: Vaporeon|8/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack uturn - our hp 0.02, theirs 0.08, predicted move (revealed) hits us x0.5
+  move|p1a: Inteleon|U-turn|p2a: Vaporeon
+  -damage|p2a: Vaporeon|0 fnt
+  faint|p2a: Vaporeon
+  switch|p2a: Inteleon|Inteleon, L81, M|100/100
+-- turn 18
+  WE CHOSE: attack uturn - our hp 0.02, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Inteleon|Hydro Pump|p1a: Inteleon|[miss]
+  -miss|p2a: Inteleon|p1a: Inteleon
+  move|p1a: Inteleon|U-turn|p2a: Inteleon
+  -damage|p2a: Inteleon|77/100
+-- turn 19
+  WE CHOSE: attack uturn - our hp 0.02, theirs 0.77, predicted move (revealed) hits us x0.5
+  move|p1a: Inteleon|U-turn|p2a: Inteleon
+  -damage|p2a: Inteleon|57/100
+  move|p2a: Inteleon|Hydro Pump|p1a: Inteleon
+  -resisted|p1a: Inteleon
+  -damage|p1a: Inteleon|0 fnt
+  faint|p1a: Inteleon
+  deinit

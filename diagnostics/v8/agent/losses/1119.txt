@@ -1,0 +1,175 @@
+battle 1119 (battle-gen9randombattle-2029958): lost in 18 turns, 2 of theirs left; we are p1
+
+ours:
+  gholdengo (fainted; item ?, ability goodasgold; moves thunderwave/shadowball/recover/makeitrain)
+  smeargle (fainted; item ?, ability technician; moves powertrip/spore/shellsmash/populationbomb)
+  miraidon (fainted; item ?, ability hadronengine; moves electrodrift/voltswitch/dracometeor/overheat)
+  mesprit (fainted; item ?, ability levitate; moves uturn/icebeam/psychic/dazzlinggleam)
+  ironleaves (fainted; item choiceband, ability quarkdrive, tera fighting; moves psyblade/megahorn/closecombat/leafblade)
+  miniororange (fainted; item ?, ability shieldsdown; moves shellsmash/powergem/acrobatics/earthquake)
+theirs (as seen):
+  rotomfrost (fainted; item unknown_item, ability levitate; moves blizzard)
+  lucario (fainted; item lifeorb, ability ?; moves flashcannon)
+  vaporeon (fainted; item leftovers, ability ?; moves scald)
+  talonflame (fainted; item unknown_item, ability ?; moves bravebird)
+  weavile (45%; item unknown_item, ability ?; moves knockoff)
+
+-- turn 0
+  switch|p1a: Gholdengo|Gholdengo, L77|261/261
+  switch|p2a: Rotom|Rotom-Frost, L87|100/100
+-- turn 1
+  WE CHOSE: attack makeitrain - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Rotom|Blizzard|p1a: Gholdengo
+  -resisted|p1a: Gholdengo
+  -damage|p1a: Gholdengo|195/261
+  move|p1a: Gholdengo|Make It Rain|p2a: Rotom
+  -damage|p2a: Rotom|49/100
+  -unboost|p1a: Gholdengo|spa|1
+  -heal|p1a: Gholdengo|211/261|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack makeitrain - our hp 0.81, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Rotom|Blizzard|p1a: Gholdengo
+  -resisted|p1a: Gholdengo
+  -damage|p1a: Gholdengo|147/261
+  -status|p1a: Gholdengo|frz
+  cant|p1a: Gholdengo|frz
+  -heal|p1a: Gholdengo|163/261 frz|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack makeitrain - our hp 0.62, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Rotom|Blizzard|p1a: Gholdengo|[miss]
+  -miss|p2a: Rotom|p1a: Gholdengo
+  cant|p1a: Gholdengo|frz
+  -heal|p1a: Gholdengo|179/261 frz|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack makeitrain - our hp 0.69, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Rotom|Blizzard|p1a: Gholdengo
+  -resisted|p1a: Gholdengo
+  -damage|p1a: Gholdengo|106/261 frz
+  cant|p1a: Gholdengo|frz
+  -heal|p1a: Gholdengo|122/261 frz|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack makeitrain (hand policy: heal recover) - our hp 0.47, theirs 0.49, predicted move (revealed) hits us x0.5
+  move|p2a: Rotom|Blizzard|p1a: Gholdengo|[miss]
+  -miss|p2a: Rotom|p1a: Gholdengo
+  -curestatus|p1a: Gholdengo|frz|[msg]
+  move|p1a: Gholdengo|Make It Rain|p2a: Rotom
+  -damage|p2a: Rotom|18/100
+  -unboost|p1a: Gholdengo|spa|1
+  -heal|p1a: Gholdengo|138/261|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack makeitrain - our hp 0.53, theirs 0.18, predicted move (revealed) hits us x0.5
+  move|p2a: Rotom|Blizzard|p1a: Gholdengo
+  -resisted|p1a: Gholdengo
+  -damage|p1a: Gholdengo|69/261
+  move|p1a: Gholdengo|Make It Rain|p2a: Rotom
+  -damage|p2a: Rotom|0 fnt
+  -unboost|p1a: Gholdengo|spa|1
+  faint|p2a: Rotom
+  -heal|p1a: Gholdengo|85/261|[from] item: Leftovers
+  switch|p2a: Lucario|Lucario, L84, M|100/100
+-- turn 7
+  WE CHOSE: switch to ironleaves (hand policy: heal recover) - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x0
+  switch|p1a: Iron Leaves|Iron Leaves, L80|275/275
+  move|p2a: Lucario|Flash Cannon|p1a: Iron Leaves
+  -damage|p1a: Iron Leaves|158/275
+  -damage|p2a: Lucario|91/100|[from] item: Life Orb
+-- turn 8
+  WE CHOSE: attack+tera closecombat - our hp 0.57, theirs 0.91, predicted move (revealed) hits us x1
+  -terastallize|p1a: Iron Leaves|Fighting
+  move|p1a: Iron Leaves|Close Combat|p2a: Lucario
+  -supereffective|p2a: Lucario
+  -damage|p2a: Lucario|0 fnt
+  -unboost|p1a: Iron Leaves|def|1
+  -unboost|p1a: Iron Leaves|spd|1
+  faint|p2a: Lucario
+  switch|p2a: Vaporeon|Vaporeon, L86, M|100/100
+-- turn 9
+  WE CHOSE: attack closecombat - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to miraidon - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p1a: Iron Leaves|Close Combat|p2a: Vaporeon
+  -damage|p2a: Vaporeon|18/100
+  -unboost|p1a: Iron Leaves|def|1
+  -unboost|p1a: Iron Leaves|spd|1
+  move|p2a: Vaporeon|Scald|p1a: Iron Leaves
+  -damage|p1a: Iron Leaves|0 fnt
+  faint|p1a: Iron Leaves
+  -end|p1a: Iron Leaves|Quark Drive|[silent]
+  -heal|p2a: Vaporeon|24/100|[from] item: Leftovers
+  switch|p1a: Miraidon|Miraidon, L65|238/238
+  -fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+-- turn 10
+  WE CHOSE: attack electrodrift - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p1a: Miraidon|Electro Drift|p2a: Vaporeon
+  -supereffective|p2a: Vaporeon
+  -damage|p2a: Vaporeon|0 fnt
+  faint|p2a: Vaporeon
+  switch|p2a: Talonflame|Talonflame, L83, M|100/100
+-- turn 11
+  WE CHOSE: attack electrodrift - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Talonflame|Brave Bird|p1a: Miraidon
+  -resisted|p1a: Miraidon
+  -damage|p1a: Miraidon|175/238
+  -damage|p2a: Talonflame|93/100|[from] Recoil
+  move|p1a: Miraidon|Electro Drift|p2a: Talonflame
+  -supereffective|p2a: Talonflame
+  -damage|p2a: Talonflame|0 fnt
+  faint|p2a: Talonflame
+  switch|p2a: Weavile|Weavile, L79, F|100/100
+-- turn 12
+  WE CHOSE: switch to miniororange (hand policy: attack electrodrift) - our hp 0.74, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Minior|Minior-Orange, L79|224/224
+  -formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+  move|p2a: Weavile|Knock Off|p1a: Minior
+  -damage|p1a: Minior|67/224
+  -enditem|p1a: Minior|White Herb|[from] move: Knock Off|[of] p2a: Weavile
+  -formechange|p1a: Minior|Minior-Orange||[from] ability: Shields Down
+-- turn 13
+  WE CHOSE: switch to miraidon (hand policy: attack powergem) - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to miniororange - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Miraidon|Miraidon, L65|175/238
+  -activate|p1a: Miraidon|ability: Hadron Engine
+  move|p2a: Weavile|Knock Off|p1a: Miraidon
+  -damage|p1a: Miraidon|0 fnt
+  -enditem|p1a: Miraidon|Choice Specs|[from] move: Knock Off|[of] p2a: Weavile
+  faint|p1a: Miraidon
+  switch|p1a: Minior|Minior-Orange, L79|67/224
+-- turn 14
+  WE CHOSE: attack earthquake (hand policy: attack powergem) - our hp 0.30, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to smeargle (hand policy: forced: switch to gholdengo) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Weavile|Knock Off|p1a: Minior
+  -damage|p1a: Minior|0 fnt
+  faint|p1a: Minior
+  -fieldend|move: Electric Terrain
+  switch|p1a: Smeargle|Smeargle, L95, F|258/258
+-- turn 15
+  WE CHOSE: attack populationbomb - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mesprit (hand policy: forced: switch to gholdengo) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Weavile|Knock Off|p1a: Smeargle
+  -damage|p1a: Smeargle|0 fnt
+  -enditem|p1a: Smeargle|Wide Lens|[from] move: Knock Off|[of] p2a: Weavile
+  faint|p1a: Smeargle
+  switch|p1a: Mesprit|Mesprit, L85|275/275
+-- turn 16
+  WE CHOSE: attack dazzlinggleam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Weavile|Knock Off|p1a: Mesprit
+  -supereffective|p1a: Mesprit
+  -damage|p1a: Mesprit|9/275
+  -enditem|p1a: Mesprit|Choice Specs|[from] move: Knock Off|[of] p2a: Weavile
+  move|p1a: Mesprit|Dazzling Gleam|p2a: Weavile
+  -supereffective|p2a: Weavile
+  -damage|p2a: Weavile|45/100
+-- turn 17
+  WE CHOSE: attack dazzlinggleam - our hp 0.03, theirs 0.45, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to gholdengo - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x2
+  move|p2a: Weavile|Knock Off|p1a: Mesprit
+  -supereffective|p1a: Mesprit
+  -damage|p1a: Mesprit|0 fnt
+  faint|p1a: Mesprit
+  switch|p1a: Gholdengo|Gholdengo, L77|85/261
+-- turn 18
+  WE CHOSE: heal recover (hand policy: attack makeitrain) - our hp 0.33, theirs 0.45, predicted move (revealed) hits us x2
+  move|p2a: Weavile|Knock Off|p1a: Gholdengo
+  -supereffective|p1a: Gholdengo
+  -damage|p1a: Gholdengo|0 fnt
+  -enditem|p1a: Gholdengo|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+  faint|p1a: Gholdengo

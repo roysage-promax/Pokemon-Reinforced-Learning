@@ -1,0 +1,207 @@
+battle 749 (battle-gen9randombattle-2025491): lost in 20 turns, 2 of theirs left; we are p1
+
+ours:
+  golem (fainted; item weaknesspolicy, ability sturdy; moves rockpolish/explosion/stoneedge/earthquake)
+  electivire (fainted; item lifeorb, ability motordrive; moves flamethrower/icepunch/supercellslam/earthquake)
+  feraligatr (fainted; item lifeorb, ability sheerforce; moves liquidation/crunch/dragondance/icepunch)
+  irontreads (fainted; item assaultvest, ability quarkdrive; moves earthquake/rapidspin/voltswitch/ironhead)
+  pelipper (fainted; item choicespecs, ability drizzle; moves hurricane/uturn/hydropump/weatherball)
+  persian (fainted; item choiceband, ability limber; moves switcheroo/uturn/knockoff/doubleedge)
+theirs (as seen):
+  eiscue (fainted; item ?, ability iceface; moves liquidation)
+  zamazenta (fainted; item leftovers, ability dauntlessshield; moves stoneedge)
+  alomomola (fainted; item rockyhelmet, ability ?; moves scald)
+  braviaryhisui (fainted; item unknown_item, ability ?; moves -)
+  annihilape (53%; item ?, ability ?; moves drainpunch)
+
+-- turn 0
+  switch|p1a: Golem|Golem, L87, F|281/281
+  switch|p2a: Eiscue|Eiscue, L88, F|100/100
+-- turn 1
+  WE CHOSE: switch to pelipper - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Pelipper|Pelipper, L86, F|243/243
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+  move|p2a: Eiscue|Liquidation|p1a: Pelipper
+  -resisted|p1a: Pelipper
+  -damage|p1a: Pelipper|204/243
+  -weather|RainDance|[upkeep]
+-- turn 2
+  WE CHOSE: attack hydropump - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Pelipper|Hydro Pump|p2a: Eiscue
+  -damage|p2a: Eiscue|3/100
+  -enditem|p2a: Eiscue|Sitrus Berry|[eat]
+  -heal|p2a: Eiscue|28/100|[from] item: Sitrus Berry
+  move|p2a: Eiscue|Liquidation|p1a: Pelipper
+  -resisted|p1a: Pelipper
+  -damage|p1a: Pelipper|169/243
+  -unboost|p1a: Pelipper|def|1
+  -weather|RainDance|[upkeep]
+-- turn 3
+  WE CHOSE: attack hydropump - our hp 0.70, theirs 0.28, predicted move (revealed) hits us x0.5
+  move|p1a: Pelipper|Hydro Pump|p2a: Eiscue
+  -damage|p2a: Eiscue|0 fnt
+  faint|p2a: Eiscue
+  -weather|RainDance|[upkeep]
+  switch|p2a: Zamazenta|Zamazenta, L71|100/100
+  -ability|p2a: Zamazenta|Dauntless Shield|boost
+  -boost|p2a: Zamazenta|def|1
+-- turn 4
+  WE CHOSE: attack hydropump - our hp 0.70, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to golem - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Zamazenta|Stone Edge|p1a: Pelipper
+  -supereffective|p1a: Pelipper
+  -crit|p1a: Pelipper
+  -damage|p1a: Pelipper|0 fnt
+  faint|p1a: Pelipper
+  -weather|RainDance|[upkeep]
+  switch|p1a: Golem|Golem, L87, F|281/281
+-- turn 5
+  WE CHOSE: attack explosion - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to irontreads - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x0.5
+  move|p2a: Zamazenta|Stone Edge|p1a: Golem
+  -resisted|p1a: Golem
+  -damage|p1a: Golem|260/281
+  move|p1a: Golem|Explosion|p2a: Zamazenta
+  -damage|p2a: Zamazenta|42/100
+  faint|p1a: Golem
+  -weather|none
+  -heal|p2a: Zamazenta|48/100|[from] item: Leftovers
+  switch|p1a: Iron Treads|Iron Treads, L77|265/265
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x0.25
+  move|p2a: Zamazenta|Stone Edge|p1a: Iron Treads
+  -resisted|p1a: Iron Treads
+  -damage|p1a: Iron Treads|252/265
+  move|p1a: Iron Treads|Earthquake|p2a: Zamazenta
+  -damage|p2a: Zamazenta|23/100
+  -heal|p2a: Zamazenta|29/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.95, theirs 0.29, predicted move (revealed) hits us x0.25
+  move|p2a: Zamazenta|Stone Edge|p1a: Iron Treads|[miss]
+  -miss|p2a: Zamazenta|p1a: Iron Treads
+  move|p1a: Iron Treads|Earthquake|p2a: Zamazenta
+  -damage|p2a: Zamazenta|4/100
+  -heal|p2a: Zamazenta|10/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 0.95, theirs 0.10, predicted move (revealed) hits us x0.25
+  move|p2a: Zamazenta|Stone Edge|p1a: Iron Treads|[miss]
+  -miss|p2a: Zamazenta|p1a: Iron Treads
+  move|p1a: Iron Treads|Earthquake|p2a: Zamazenta
+  -damage|p2a: Zamazenta|0 fnt
+  faint|p2a: Zamazenta
+  switch|p2a: Alomomola|Alomomola, L87, M|100/100
+-- turn 9
+  WE CHOSE: switch to feraligatr - our hp 0.95, theirs 1.00, predicted move (guessed) hits us x2
+  -end|p1a: Iron Treads|Quark Drive|[silent]
+  switch|p1a: Feraligatr|Feraligatr, L79, M|264/264
+  move|p2a: Alomomola|Scald|p1a: Feraligatr
+  -resisted|p1a: Feraligatr
+  -damage|p1a: Feraligatr|237/264
+-- turn 10
+  WE CHOSE: setup dragondance - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+  -boost|p1a: Feraligatr|atk|1
+  -boost|p1a: Feraligatr|spe|1
+  move|p2a: Alomomola|Scald|p1a: Feraligatr
+  -resisted|p1a: Feraligatr
+  -damage|p1a: Feraligatr|208/264
+  -status|p1a: Feraligatr|brn
+  -damage|p1a: Feraligatr|192/264 brn|[from] brn
+-- turn 11
+  WE CHOSE: setup dragondance - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+  -boost|p1a: Feraligatr|atk|1
+  -boost|p1a: Feraligatr|spe|1
+  move|p2a: Alomomola|Scald|p1a: Feraligatr
+  -resisted|p1a: Feraligatr
+  -damage|p1a: Feraligatr|165/264 brn
+  -damage|p1a: Feraligatr|149/264 brn|[from] brn
+-- turn 12
+  WE CHOSE: attack crunch - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Feraligatr|Crunch|p2a: Alomomola
+  -damage|p2a: Alomomola|80/100
+  -damage|p1a: Feraligatr|105/264 brn|[from] item: Rocky Helmet|[of] p2a: Alomomola
+  move|p2a: Alomomola|Scald|p1a: Feraligatr
+  -resisted|p1a: Feraligatr
+  -damage|p1a: Feraligatr|78/264 brn
+  -damage|p1a: Feraligatr|62/264 brn|[from] brn
+-- turn 13
+  WE CHOSE: attack crunch - our hp 0.23, theirs 0.80, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to electivire - our hp 0.00, theirs 0.58, predicted move (revealed) hits us x0.5
+  move|p1a: Feraligatr|Crunch|p2a: Alomomola
+  -damage|p2a: Alomomola|58/100
+  -damage|p1a: Feraligatr|18/264 brn|[from] item: Rocky Helmet|[of] p2a: Alomomola
+  move|p2a: Alomomola|Scald|p1a: Feraligatr
+  -resisted|p1a: Feraligatr
+  -damage|p1a: Feraligatr|0 fnt
+  faint|p1a: Feraligatr
+  switch|p1a: Electivire|Electivire, L84, M|263/263
+-- turn 14
+  WE CHOSE: attack supercellslam - our hp 1.00, theirs 0.58, predicted move (revealed) hits us x1
+  move|p1a: Electivire|Supercell Slam|p2a: Alomomola
+  -supereffective|p2a: Alomomola
+  -crit|p2a: Alomomola
+  -damage|p2a: Alomomola|0 fnt
+  -damage|p1a: Electivire|220/263|[from] item: Rocky Helmet|[of] p2a: Alomomola
+  faint|p2a: Alomomola
+  -damage|p1a: Electivire|194/263|[from] item: Life Orb
+  switch|p2a: Braviary|Braviary-Hisui, L85, M|100/100
+-- turn 15
+  WE CHOSE: attack supercellslam - our hp 0.74, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Electivire|Supercell Slam|p2a: Braviary
+  -supereffective|p2a: Braviary
+  -damage|p2a: Braviary|0 fnt
+  faint|p2a: Braviary
+  -damage|p1a: Electivire|168/263|[from] item: Life Orb
+  switch|p2a: Annihilape|Annihilape, L76, M|100/100
+-- turn 16
+  WE CHOSE: switch to irontreads - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Iron Treads|Iron Treads, L77|252/265
+  move|p2a: Annihilape|Drain Punch|p1a: Iron Treads
+  -supereffective|p1a: Iron Treads
+  -damage|p1a: Iron Treads|112/265
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to electivire - our hp 0.00, theirs 0.85, predicted move (revealed) hits us x2
+  move|p1a: Iron Treads|Earthquake|p2a: Annihilape
+  -damage|p2a: Annihilape|60/100
+  move|p2a: Annihilape|Drain Punch|p1a: Iron Treads
+  -supereffective|p1a: Iron Treads
+  -damage|p1a: Iron Treads|0 fnt
+  -heal|p2a: Annihilape|79/100|[from] drain|[of] p1a: Iron Treads
+  faint|p1a: Iron Treads
+  -end|p1a: Iron Treads|Quark Drive|[silent]
+  -heal|p2a: Annihilape|85/100|[from] item: Leftovers
+  switch|p1a: Electivire|Electivire, L84, M|168/263
+-- turn 18
+  WE CHOSE: attack supercellslam - our hp 0.64, theirs 0.85, predicted move (revealed) hits us x1
+  move|p1a: Electivire|Supercell Slam|p2a: Annihilape
+  -damage|p2a: Annihilape|17/100
+  -damage|p1a: Electivire|142/263|[from] item: Life Orb
+  move|p2a: Annihilape|Drain Punch|p1a: Electivire
+  -damage|p1a: Electivire|49/263
+  -heal|p2a: Annihilape|33/100|[from] drain|[of] p1a: Electivire
+  -heal|p2a: Annihilape|39/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack supercellslam - our hp 0.19, theirs 0.39, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to persian - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x1
+  move|p1a: Electivire|Supercell Slam|p2a: Annihilape|[miss]
+  -miss|p1a: Electivire|p2a: Annihilape
+  -damage|p1a: Electivire|0 fnt|[from] supercellslam
+  faint|p1a: Electivire
+  move|p2a: Annihilape|Drain Punch|p1: Electivire|[notarget]
+  -fail|p2a: Annihilape
+  -heal|p2a: Annihilape|45/100|[from] item: Leftovers
+  switch|p1a: Persian|Persian, L92, F|269/269
+-- turn 20
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x2
+  move|p1a: Persian|Knock Off|p2a: Annihilape
+  -damage|p2a: Annihilape|7/100
+  -enditem|p2a: Annihilape|Leftovers|[from] move: Knock Off|[of] p1a: Persian
+  move|p2a: Annihilape|Drain Punch|p1a: Persian
+  -supereffective|p1a: Persian
+  -crit|p1a: Persian
+  -damage|p1a: Persian|0 fnt
+  -heal|p2a: Annihilape|53/100|[from] drain|[of] p1a: Persian
+  faint|p1a: Persian
+  deinit

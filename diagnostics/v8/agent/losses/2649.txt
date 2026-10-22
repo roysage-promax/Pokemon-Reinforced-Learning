@@ -1,0 +1,336 @@
+battle 2649 (battle-gen9randombattle-2045589): lost in 41 turns, 2 of theirs left; we are p1
+
+ours:
+  slaking (fainted; item choicescarf, ability truant; moves knockoff/gigaimpact/earthquake/doubleedge)
+  passimian (fainted; item leftovers, ability defiant; moves bulkup/gunkshot/knockoff/drainpunch)
+  necrozma (fainted; item leftovers, ability prismarmor; moves calmmind/moonlight/earthpower/photongeyser)
+  dodrio (fainted; item heavydutyboots, ability earlybird; moves doubleedge/knockoff/bravebird/swordsdance)
+  jirachi (fainted; item leftovers, ability serenegrace, tera water; moves uturn/ironhead/wish/protect)
+  enamorus (fainted; item heavydutyboots, ability cutecharm; moves earthpower/moonblast/mysticalfire/calmmind)
+theirs (as seen):
+  cinccino (fainted; item unknown_item, ability ?; moves tailslap)
+  venusaur (fainted; item leftovers, ability ?; moves sludgebomb)
+  houndoom (fainted; item unknown_item, ability ?; moves fireblast)
+  gastrodon (fainted; item leftovers, ability ?; moves earthquake/surf)
+  meowscarada (10%; item unknown_item, ability ?; moves flowertrick)
+
+-- turn 0
+  switch|p1a: Slaking|Slaking, L84, M|389/389
+  switch|p2a: Cinccino|Cinccino, L83, F|100/100
+-- turn 1
+  WE CHOSE: switch to passimian (hand policy: attack+tera doubleedge) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Passimian|Passimian, L83, M|302/302
+  move|p2a: Cinccino|Tail Slap|p1a: Passimian
+  -damage|p1a: Passimian|266/302
+  -damage|p1a: Passimian|227/302
+  -damage|p1a: Passimian|191/302
+  -damage|p1a: Passimian|155/302
+  -damage|p1a: Passimian|119/302
+  -hitcount|p1a: Passimian|5
+  -heal|p1a: Passimian|137/302|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack drainpunch - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to jirachi (hand policy: forced: switch to slaking) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Cinccino|Tail Slap|p1a: Passimian
+  -damage|p1a: Passimian|97/302
+  -damage|p1a: Passimian|57/302
+  -damage|p1a: Passimian|18/302
+  -damage|p1a: Passimian|0 fnt
+  faint|p1a: Passimian
+  -hitcount|p1: Passimian|4
+  switch|p1a: Jirachi|Jirachi, L80|291/291
+-- turn 3
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Cinccino|Tail Slap|p1a: Jirachi
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|275/291
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|257/291
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|237/291
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|221/291
+  -hitcount|p1a: Jirachi|4
+  move|p1a: Jirachi|Iron Head|p2a: Cinccino
+  -damage|p2a: Cinccino|60/100
+  -heal|p1a: Jirachi|239/291|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack ironhead - our hp 0.82, theirs 0.60, predicted move (revealed) hits us x0.5
+  move|p2a: Cinccino|Tail Slap|p1a: Jirachi|[miss]
+  -miss|p2a: Cinccino|p1a: Jirachi
+  move|p1a: Jirachi|Iron Head|p2a: Cinccino
+  -damage|p2a: Cinccino|19/100
+  -heal|p1a: Jirachi|257/291|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack ironhead - our hp 0.88, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p2a: Cinccino|Tail Slap|p1a: Jirachi
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|238/291
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|218/291
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|200/291
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|181/291
+  -hitcount|p1a: Jirachi|4
+  move|p1a: Jirachi|Iron Head|p2a: Cinccino
+  -damage|p2a: Cinccino|0 fnt
+  faint|p2a: Cinccino
+  -heal|p1a: Jirachi|199/291|[from] item: Leftovers
+  switch|p2a: Venusaur|Venusaur, L84, F|100/100
+-- turn 6
+  WE CHOSE: attack ironhead - our hp 0.68, theirs 1.00, predicted move (guessed) hits us x0
+  move|p1a: Jirachi|Iron Head|p2a: Venusaur
+  -damage|p2a: Venusaur|71/100
+  cant|p2a: Venusaur|flinch
+  -heal|p1a: Jirachi|217/291|[from] item: Leftovers
+  -heal|p2a: Venusaur|77/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack ironhead - our hp 0.75, theirs 0.77, predicted move (guessed) hits us x0
+  move|p1a: Jirachi|Iron Head|p2a: Venusaur
+  -damage|p2a: Venusaur|48/100
+  move|p2a: Venusaur|Sludge Bomb|p1a: Jirachi
+  -immune|p1a: Jirachi
+  -heal|p1a: Jirachi|235/291|[from] item: Leftovers
+  -heal|p2a: Venusaur|54/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack ironhead - our hp 0.81, theirs 0.54, predicted move (revealed) hits us x0
+  move|p1a: Jirachi|Iron Head|p2a: Venusaur
+  -damage|p2a: Venusaur|23/100
+  cant|p2a: Venusaur|flinch
+  -heal|p1a: Jirachi|253/291|[from] item: Leftovers
+  -heal|p2a: Venusaur|29/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack ironhead - our hp 0.87, theirs 0.29, predicted move (revealed) hits us x0
+  move|p1a: Jirachi|Iron Head|p2a: Venusaur
+  -damage|p2a: Venusaur|0 fnt
+  faint|p2a: Venusaur
+  -heal|p1a: Jirachi|271/291|[from] item: Leftovers
+  switch|p2a: Houndoom|Houndoom, L87, F|100/100
+-- turn 10
+  WE CHOSE: attack+tera uturn - our hp 0.93, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to slaking - our hp 0.71, theirs 0.77, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Jirachi|Water
+  move|p2a: Houndoom|Fire Blast|p1a: Jirachi
+  -resisted|p1a: Jirachi
+  -damage|p1a: Jirachi|208/291
+  move|p1a: Jirachi|U-turn|p2a: Houndoom
+  -damage|p2a: Houndoom|77/100
+  switch|p1a: Slaking|Slaking, L84, M|389/389|[from] U-turn
+-- turn 11
+  WE CHOSE: attack doubleedge (hand policy: attack earthquake) - our hp 1.00, theirs 0.77, predicted move (revealed) hits us x1
+  move|p1a: Slaking|Double-Edge|p2a: Houndoom
+  -damage|p2a: Houndoom|0 fnt
+  faint|p2a: Houndoom
+  -damage|p1a: Slaking|321/389|[from] Recoil
+  switch|p2a: Gastrodon|Gastrodon, L86, M|100/100
+-- turn 12
+  WE CHOSE: switch to dodrio - our hp 0.83, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dodrio|Dodrio, L85, M|241/241
+  move|p2a: Gastrodon|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 13
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+  -boost|p1a: Dodrio|atk|2
+  move|p2a: Gastrodon|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 14
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+  -boost|p1a: Dodrio|atk|2
+  move|p2a: Gastrodon|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 15
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+  -boost|p1a: Dodrio|atk|2
+  move|p2a: Gastrodon|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 16
+  WE CHOSE: switch to enamorus (hand policy: attack doubleedge) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus, L79, F|247/247
+  move|p2a: Gastrodon|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 17
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+  -boost|p1a: Enamorus|spa|1
+  -boost|p1a: Enamorus|spd|1
+  move|p2a: Gastrodon|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 18
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+  -boost|p1a: Enamorus|spa|1
+  -boost|p1a: Enamorus|spd|1
+  move|p2a: Gastrodon|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 19
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+  -boost|p1a: Enamorus|spa|1
+  -boost|p1a: Enamorus|spd|1
+  move|p2a: Gastrodon|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 20
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+  -boost|p1a: Enamorus|spa|1
+  -boost|p1a: Enamorus|spd|1
+  move|p2a: Gastrodon|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 21
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+  -boost|p1a: Enamorus|spa|1
+  -boost|p1a: Enamorus|spd|1
+  move|p2a: Gastrodon|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 22
+  WE CHOSE: switch to dodrio (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Dodrio|Dodrio, L85, M|241/241
+  move|p2a: Gastrodon|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 23
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+  -boost|p1a: Dodrio|atk|2
+  move|p2a: Gastrodon|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 24
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+  -boost|p1a: Dodrio|atk|2
+  move|p2a: Gastrodon|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 25
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+  -boost|p1a: Dodrio|atk|2
+  move|p2a: Gastrodon|Earthquake|p1a: Dodrio
+  -immune|p1a: Dodrio
+-- turn 26
+  WE CHOSE: switch to enamorus (hand policy: attack doubleedge) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Enamorus|Enamorus, L79, F|247/247
+  move|p2a: Gastrodon|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 27
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+  -boost|p1a: Enamorus|spa|1
+  -boost|p1a: Enamorus|spd|1
+  move|p2a: Gastrodon|Earthquake|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 28
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+  -boost|p1a: Enamorus|spa|1
+  -boost|p1a: Enamorus|spd|1
+  move|p2a: Gastrodon|Surf|p1a: Enamorus
+  -damage|p1a: Enamorus|193/247
+-- turn 29
+  WE CHOSE: setup calmmind - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+  -boost|p1a: Enamorus|spa|1
+  -boost|p1a: Enamorus|spd|1
+  move|p2a: Gastrodon|Surf|p1a: Enamorus
+  -damage|p1a: Enamorus|148/247
+-- turn 30
+  WE CHOSE: setup calmmind - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+  -boost|p1a: Enamorus|spa|1
+  -boost|p1a: Enamorus|spd|1
+  move|p2a: Gastrodon|Surf|p1a: Enamorus
+  -damage|p1a: Enamorus|111/247
+-- turn 31
+  WE CHOSE: switch to dodrio (hand policy: attack moonblast) - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Dodrio|Dodrio, L85, M|241/241
+  move|p2a: Gastrodon|Surf|p1a: Dodrio
+  -damage|p1a: Dodrio|111/241
+-- turn 32
+  WE CHOSE: setup swordsdance (hand policy: attack doubleedge) - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to enamorus - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Dodrio|Swords Dance|p1a: Dodrio
+  -boost|p1a: Dodrio|atk|2
+  move|p2a: Gastrodon|Surf|p1a: Dodrio
+  -damage|p1a: Dodrio|0 fnt
+  faint|p1a: Dodrio
+  switch|p1a: Enamorus|Enamorus, L79, F|111/247
+-- turn 33
+  WE CHOSE: setup calmmind (hand policy: attack moonblast) - our hp 0.45, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to slaking - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+  -boost|p1a: Enamorus|spa|1
+  -boost|p1a: Enamorus|spd|1
+  move|p2a: Gastrodon|Surf|p1a: Enamorus
+  -crit|p1a: Enamorus
+  -damage|p1a: Enamorus|0 fnt
+  faint|p1a: Enamorus
+  switch|p1a: Slaking|Slaking, L84, M|321/389
+-- turn 34
+  WE CHOSE: attack doubleedge - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Slaking|Double-Edge|p2a: Gastrodon
+  -damage|p2a: Gastrodon|33/100
+  -damage|p1a: Slaking|247/389|[from] Recoil
+  move|p2a: Gastrodon|Surf|p1a: Slaking
+  -damage|p1a: Slaking|132/389
+  -heal|p2a: Gastrodon|39/100|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: attack doubleedge - our hp 0.34, theirs 0.39, predicted move (revealed) hits us x1
+  cant|p1a: Slaking|ability: Truant
+  move|p2a: Gastrodon|Surf|p1a: Slaking
+  -damage|p1a: Slaking|3/389
+  -heal|p2a: Gastrodon|45/100|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack doubleedge - our hp 0.01, theirs 0.45, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to necrozma - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Slaking|Double-Edge|p2a: Gastrodon
+  -damage|p2a: Gastrodon|0 fnt
+  faint|p2a: Gastrodon
+  -damage|p1a: Slaking|0 fnt|[from] Recoil
+  faint|p1a: Slaking
+  switch|p1a: Necrozma|Necrozma, L80|286/286
+  switch|p2a: Meowscarada|Meowscarada, L78, M|100/100
+-- turn 37
+  WE CHOSE: heal moonlight (hand policy: attack earthpower) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Meowscarada|Flower Trick|p1a: Necrozma
+  -start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+  -crit|p1a: Necrozma
+  -damage|p1a: Necrozma|123/286
+  move|p1a: Necrozma|Moonlight|p1a: Necrozma
+  -heal|p1a: Necrozma|266/286
+  -heal|p1a: Necrozma|283/286|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: setup calmmind (hand policy: attack photongeyser) - our hp 0.99, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meowscarada|Flower Trick|p1a: Necrozma
+  -crit|p1a: Necrozma
+  -damage|p1a: Necrozma|127/286
+  move|p1a: Necrozma|Calm Mind|p1a: Necrozma
+  -boost|p1a: Necrozma|spa|1
+  -boost|p1a: Necrozma|spd|1
+  -heal|p1a: Necrozma|144/286|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack photongeyser - our hp 0.50, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Meowscarada|Flower Trick|p1a: Necrozma
+  -crit|p1a: Necrozma
+  -damage|p1a: Necrozma|3/286
+  move|p1a: Necrozma|Photon Geyser|p2a: Meowscarada
+  -damage|p2a: Meowscarada|10/100
+  -heal|p1a: Necrozma|20/286|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: setup calmmind (hand policy: heal moonlight) - our hp 0.07, theirs 0.10, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to jirachi - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Meowscarada|Flower Trick|p1a: Necrozma
+  -crit|p1a: Necrozma
+  -damage|p1a: Necrozma|0 fnt
+  faint|p1a: Necrozma
+  switch|p1a: Jirachi|Jirachi, L80, tera:Water|208/291
+-- turn 41
+  WE CHOSE: attack uturn - our hp 0.71, theirs 0.10, predicted move (revealed) hits us x2
+  move|p2a: Meowscarada|Flower Trick|p1a: Jirachi
+  -supereffective|p1a: Jirachi
+  -crit|p1a: Jirachi
+  -damage|p1a: Jirachi|0 fnt
+  faint|p1a: Jirachi
+  deinit

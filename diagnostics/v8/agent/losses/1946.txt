@@ -1,0 +1,245 @@
+battle 1946 (battle-gen9randombattle-2038427): lost in 25 turns, 2 of theirs left; we are p1
+
+ours:
+  stonjourner (fainted; item lifeorb, ability powerspot; moves stealthrock/earthquake/heatcrash/stoneedge)
+  perrserker (fainted; item choiceband, ability toughclaws; moves ironhead/knockoff/uturn/closecombat)
+  toxapex (fainted; item leftovers, ability regenerator; moves recover/liquidation/haze/toxicspikes)
+  ambipom (fainted; item silkscarf, ability technician; moves doubleedge/uturn/fakeout/knockoff)
+  volcarona (fainted; item heavydutyboots, ability swarm; moves fierydance/bugbuzz/gigadrain/quiverdance)
+  slitherwing (fainted; item choicescarf, ability protosynthesis, tera electric; moves wildcharge/closecombat/earthquake/flareblitz)
+theirs (as seen):
+  primarina (fainted; item leftovers, ability ?; moves moonblast)
+  blastoise (fainted; item unknown_item, ability ?; moves hydropump)
+  trevenant (fainted; item unknown_item, ability ?; moves poltergeist)
+  qwilfishhisui (fainted; item unknown_item, ability intimidate; moves gunkshot)
+  mismagius (100%; item unknown_item, ability levitate; moves shadowball)
+
+-- turn 0
+  switch|p1a: Stonjourner|Stonjourner, L91, F|330/330
+  switch|p2a: Primarina|Primarina, L83, M|100/100
+-- turn 1
+  WE CHOSE: switch to toxapex - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Toxapex|Toxapex, L82, F|216/216
+  move|p2a: Primarina|Moonblast|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|171/216
+  -heal|p1a: Toxapex|184/216|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack liquidation - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Primarina|Moonblast|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|139/216
+  move|p1a: Toxapex|Liquidation|p2a: Primarina
+  -resisted|p2a: Primarina
+  -damage|p2a: Primarina|88/100
+  -heal|p2a: Primarina|94/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|152/216|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack liquidation - our hp 0.70, theirs 0.94, predicted move (revealed) hits us x0.5
+  move|p2a: Primarina|Moonblast|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|110/216
+  move|p1a: Toxapex|Liquidation|p2a: Primarina
+  -resisted|p2a: Primarina
+  -damage|p2a: Primarina|80/100
+  -heal|p2a: Primarina|86/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|123/216|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack liquidation - our hp 0.57, theirs 0.86, predicted move (revealed) hits us x0.5
+  move|p2a: Primarina|Moonblast|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|80/216
+  -unboost|p1a: Toxapex|spa|1
+  move|p1a: Toxapex|Liquidation|p2a: Primarina
+  -resisted|p2a: Primarina
+  -damage|p2a: Primarina|74/100
+  -unboost|p2a: Primarina|def|1
+  -heal|p2a: Primarina|80/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|93/216|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack liquidation (hand policy: heal recover) - our hp 0.43, theirs 0.80, predicted move (revealed) hits us x0.5
+  move|p2a: Primarina|Moonblast|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|48/216
+  move|p1a: Toxapex|Liquidation|p2a: Primarina
+  -resisted|p2a: Primarina
+  -damage|p2a: Primarina|61/100
+  -heal|p2a: Primarina|67/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|61/216|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack liquidation (hand policy: heal recover) - our hp 0.28, theirs 0.67, predicted move (revealed) hits us x0.5
+  move|p2a: Primarina|Moonblast|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|22/216
+  move|p1a: Toxapex|Liquidation|p2a: Primarina
+  -resisted|p2a: Primarina
+  -damage|p2a: Primarina|48/100
+  -heal|p2a: Primarina|53/100|[from] item: Leftovers
+  -heal|p1a: Toxapex|35/216|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack liquidation (hand policy: heal recover) - our hp 0.16, theirs 0.53, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to volcarona - our hp 0.00, theirs 0.59, predicted move (revealed) hits us x0.5
+  move|p2a: Primarina|Moonblast|p1a: Toxapex
+  -resisted|p1a: Toxapex
+  -damage|p1a: Toxapex|0 fnt
+  faint|p1a: Toxapex
+  -heal|p2a: Primarina|59/100|[from] item: Leftovers
+  switch|p1a: Volcarona|Volcarona, L77, F|257/257
+-- turn 8
+  WE CHOSE: attack bugbuzz (hand policy: setup quiverdance) - our hp 1.00, theirs 0.59, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Bug Buzz|p2a: Primarina
+  -resisted|p2a: Primarina
+  -damage|p2a: Primarina|44/100
+  move|p2a: Primarina|Moonblast|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|201/257
+  -unboost|p1a: Volcarona|spa|1
+  -heal|p2a: Primarina|50/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack bugbuzz (hand policy: setup quiverdance) - our hp 0.78, theirs 0.50, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Bug Buzz|p2a: Primarina
+  -resisted|p2a: Primarina
+  -damage|p2a: Primarina|39/100
+  move|p2a: Primarina|Moonblast|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -damage|p1a: Volcarona|141/257
+  -heal|p2a: Primarina|45/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack bugbuzz (hand policy: setup quiverdance) - our hp 0.55, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p1a: Volcarona|Bug Buzz|p2a: Primarina
+  -resisted|p2a: Primarina
+  -damage|p2a: Primarina|34/100
+  move|p2a: Primarina|Moonblast|p1a: Volcarona
+  -resisted|p1a: Volcarona
+  -crit|p1a: Volcarona
+  -damage|p1a: Volcarona|49/257
+  -unboost|p1a: Volcarona|spa|1
+  -heal|p2a: Primarina|40/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: switch to perrserker (hand policy: attack gigadrain) - our hp 0.19, theirs 0.40, predicted move (revealed) hits us x0.5
+  switch|p1a: Perrserker|Perrserker, L89, F|269/269
+  move|p2a: Primarina|Moonblast|p1a: Perrserker
+  -resisted|p1a: Perrserker
+  -damage|p1a: Perrserker|192/269
+  -unboost|p1a: Perrserker|spa|1
+  -heal|p2a: Primarina|46/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack ironhead - our hp 0.71, theirs 0.46, predicted move (revealed) hits us x0.5
+  move|p2a: Primarina|Moonblast|p1a: Perrserker
+  -resisted|p1a: Perrserker
+  -damage|p1a: Perrserker|120/269
+  -unboost|p1a: Perrserker|spa|1
+  move|p1a: Perrserker|Iron Head|p2a: Primarina
+  -damage|p2a: Primarina|0 fnt
+  faint|p2a: Primarina
+  switch|p2a: Blastoise|Blastoise, L80, M|100/100
+-- turn 13
+  WE CHOSE: attack ironhead - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Blastoise|Hydro Pump|p1a: Perrserker
+  -damage|p1a: Perrserker|0 fnt
+  faint|p1a: Perrserker
+  switch|p1a: Ambipom|Ambipom, L84, F|263/263
+-- turn 14
+  WE CHOSE: attack fakeout (hand policy: attack+tera doubleedge) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Fake Out|p2a: Blastoise
+  -damage|p2a: Blastoise|71/100
+  cant|p2a: Blastoise|flinch
+-- turn 15
+  WE CHOSE: attack doubleedge (hand policy: attack+tera doubleedge) - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Double-Edge|p2a: Blastoise
+  -damage|p2a: Blastoise|17/100
+  -damage|p1a: Ambipom|216/263|[from] Recoil
+  move|p2a: Blastoise|Hydro Pump|p1a: Ambipom
+  -damage|p1a: Ambipom|45/263
+-- turn 16
+  WE CHOSE: attack fakeout (hand policy: attack+tera doubleedge) - our hp 0.17, theirs 0.17, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to slitherwing - our hp 0.00, theirs 0.17, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Fake Out||[still]
+  -fail|p1a: Ambipom
+  move|p2a: Blastoise|Hydro Pump|p1a: Ambipom
+  -damage|p1a: Ambipom|0 fnt
+  faint|p1a: Ambipom
+  switch|p1a: Slither Wing|Slither Wing, L81|270/270
+-- turn 17
+  WE CHOSE: attack+tera wildcharge - our hp 1.00, theirs 0.17, predicted move (revealed) hits us x1
+  -terastallize|p1a: Slither Wing|Electric
+  move|p1a: Slither Wing|Wild Charge|p2a: Blastoise
+  -supereffective|p2a: Blastoise
+  -damage|p2a: Blastoise|0 fnt
+  faint|p2a: Blastoise
+  -damage|p1a: Slither Wing|259/270|[from] Recoil
+  switch|p2a: Trevenant|Trevenant, L89, M|100/100
+-- turn 18
+  WE CHOSE: switch to stonjourner (hand policy: attack wildcharge) - our hp 0.96, theirs 1.00, predicted move (guessed) hits us x1
+  -end|p1a: Slither Wing|Protosynthesis|[silent]
+  switch|p1a: Stonjourner|Stonjourner, L91, F|330/330
+  move|p2a: Trevenant|Poltergeist|p1a: Stonjourner
+  -activate|p1a: Stonjourner|move: Poltergeist|Life Orb
+  -damage|p1a: Stonjourner|240/330
+-- turn 19
+  WE CHOSE: attack heatcrash - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Stonjourner|Heat Crash|p2a: Trevenant
+  -supereffective|p2a: Trevenant
+  -damage|p2a: Trevenant|0 fnt
+  faint|p2a: Trevenant
+  -damage|p1a: Stonjourner|207/330|[from] item: Life Orb
+  switch|p2a: Qwilfish|Qwilfish-Hisui, L83, F|100/100
+  -ability|p2a: Qwilfish|Intimidate|boost
+  -unboost|p1a: Stonjourner|atk|1
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Qwilfish|Gunk Shot|p1a: Stonjourner
+  -resisted|p1a: Stonjourner
+  -crit|p1a: Stonjourner
+  -damage|p1a: Stonjourner|142/330
+  move|p1a: Stonjourner|Earthquake|p2a: Qwilfish
+  -supereffective|p2a: Qwilfish
+  -damage|p2a: Qwilfish|48/100
+  -damage|p1a: Stonjourner|109/330|[from] item: Life Orb
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 0.33, theirs 0.48, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: attack earthquake (hand policy: forced: switch to slitherwing) - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p2a: Qwilfish|Gunk Shot|p1a: Stonjourner
+  -resisted|p1a: Stonjourner
+  -damage|p1a: Stonjourner|71/330
+  -status|p1a: Stonjourner|psn
+  move|p1a: Stonjourner|Earthquake|p2a: Qwilfish
+  -supereffective|p2a: Qwilfish
+  -damage|p2a: Qwilfish|0 fnt
+  faint|p2a: Qwilfish
+  -damage|p1a: Stonjourner|38/330 psn|[from] item: Life Orb
+  -damage|p1a: Stonjourner|0 fnt|[from] psn
+  faint|p1a: Stonjourner
+  switch|p2a: Mismagius|Mismagius, L86, M|100/100
+  switch|p1a: Volcarona|Volcarona, L77, F|49/257
+-- turn 22
+  WE CHOSE: attack bugbuzz (hand policy: attack fierydance) - our hp 0.19, theirs 1.00, predicted move (guessed) hits us x0.25
+  WE CHOSE: forced: switch to slitherwing - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Mismagius|Shadow Ball|p1a: Volcarona
+  -damage|p1a: Volcarona|0 fnt
+  faint|p1a: Volcarona
+  switch|p1a: Slither Wing|Slither Wing, L81, tera:Electric|259/270
+-- turn 23
+  WE CHOSE: attack closecombat (hand policy: attack wildcharge) - our hp 0.96, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Slither Wing|Close Combat|p2a: Mismagius
+  -immune|p2a: Mismagius
+  move|p2a: Mismagius|Shadow Ball|p1a: Slither Wing
+  -damage|p1a: Slither Wing|180/270
+  -unboost|p1a: Slither Wing|spd|1
+-- turn 24
+  WE CHOSE: attack flareblitz - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Slither Wing|Close Combat|p2a: Mismagius
+  -immune|p2a: Mismagius
+  move|p2a: Mismagius|Shadow Ball|p1a: Slither Wing
+  -damage|p1a: Slither Wing|62/270
+  -unboost|p1a: Slither Wing|spd|1
+-- turn 25
+  WE CHOSE: attack flareblitz - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Slither Wing|Close Combat|p2a: Mismagius
+  -immune|p2a: Mismagius
+  move|p2a: Mismagius|Shadow Ball|p1a: Slither Wing
+  -damage|p1a: Slither Wing|0 fnt
+  faint|p1a: Slither Wing
+  -end|p1a: Slither Wing|Protosynthesis|[silent]
+  deinit

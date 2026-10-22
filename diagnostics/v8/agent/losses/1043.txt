@@ -1,0 +1,440 @@
+battle 1043 (battle-gen9randombattle-2029155): lost in 57 turns, 2 of theirs left; we are p1
+
+ours:
+  meganium (fainted; item leftovers, ability overgrow, tera steel; moves petalblizzard/swordsdance/earthquake/knockoff)
+  breloom (fainted; item lifeorb, ability technician; moves swordsdance/machpunch/bulletseed/rocktomb)
+  pincurchin (fainted; item leftovers, ability electricsurge; moves spikes/discharge/scald/recover)
+  bruxish (fainted; item lifeorb, ability strongjaw; moves swordsdance/psychicfangs/wavecrash/crunch)
+  dudunsparcethreesegment (fainted; item leftovers, ability rattled; moves roost/boomburst/earthquake/toxic)
+  avalugg (fainted; item heavydutyboots, ability sturdy; moves bodypress/rapidspin/avalanche/recover)
+theirs (as seen):
+  avalugghisui (fainted; item unknown_item, ability ?; moves stoneedge)
+  misdreavus (fainted; item unknown_item, ability levitate; moves shadowball/drainingkiss/calmmind)
+  chandelure (fainted; item unknown_item, ability ?; moves fireblast)
+  ironleaves (fainted; item unknown_item, ability quarkdrive; moves closecombat)
+  sawsbucksummer (48%; item lifeorb, ability ?; moves doubleedge)
+
+-- turn 0
+  switch|p1a: Meganium|Meganium, L90, F|290/290
+  switch|p2a: Avalugg|Avalugg-Hisui, L91, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera petalblizzard - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Meganium|Steel
+  move|p1a: Meganium|Petal Blizzard|p2a: Avalugg
+  -supereffective|p2a: Avalugg
+  -damage|p2a: Avalugg|67/100
+  move|p2a: Avalugg|Stone Edge|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|227/290
+  -heal|p1a: Meganium|245/290|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: setup swordsdance - our hp 0.84, theirs 0.67, predicted move (revealed) hits us x0.5
+  move|p1a: Meganium|Swords Dance|p1a: Meganium
+  -boost|p1a: Meganium|atk|2
+  move|p2a: Avalugg|Stone Edge|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|177/290
+  -heal|p1a: Meganium|195/290|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack petalblizzard - our hp 0.67, theirs 0.67, predicted move (revealed) hits us x0.5
+  move|p1a: Meganium|Petal Blizzard|p2a: Avalugg
+  -supereffective|p2a: Avalugg
+  -damage|p2a: Avalugg|8/100
+  move|p2a: Avalugg|Stone Edge|p1a: Meganium|[miss]
+  -miss|p2a: Avalugg|p1a: Meganium
+  -heal|p1a: Meganium|213/290|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack petalblizzard - our hp 0.73, theirs 0.08, predicted move (revealed) hits us x0.5
+  move|p1a: Meganium|Petal Blizzard|p2a: Avalugg
+  -supereffective|p2a: Avalugg
+  -damage|p2a: Avalugg|0 fnt
+  faint|p2a: Avalugg
+  -heal|p1a: Meganium|231/290|[from] item: Leftovers
+  switch|p2a: Misdreavus|Misdreavus, L90, M|100/100
+-- turn 5
+  WE CHOSE: switch to dudunsparcethreesegment - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, F|343/343
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+-- turn 6
+  WE CHOSE: heal roost - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Roost||[still]
+  -fail|p1a: Dudunsparce|heal
+-- turn 7
+  WE CHOSE: heal roost - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Roost||[still]
+  -fail|p1a: Dudunsparce|heal
+-- turn 8
+  WE CHOSE: heal roost - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Roost||[still]
+  -fail|p1a: Dudunsparce|heal
+-- turn 9
+  WE CHOSE: heal roost - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Roost||[still]
+  -fail|p1a: Dudunsparce|heal
+-- turn 10
+  WE CHOSE: heal roost - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Roost||[still]
+  -fail|p1a: Dudunsparce|heal
+-- turn 11
+  WE CHOSE: heal roost - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Roost||[still]
+  -fail|p1a: Dudunsparce|heal
+-- turn 12
+  WE CHOSE: heal roost - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Roost||[still]
+  -fail|p1a: Dudunsparce|heal
+-- turn 13
+  WE CHOSE: heal roost - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Roost||[still]
+  -fail|p1a: Dudunsparce|heal
+-- turn 14
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 15
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 16
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 17
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 18
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 19
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 20
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 21
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 22
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 23
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 24
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 25
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 26
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 27
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 28
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Shadow Ball|p1a: Dudunsparce
+  -immune|p1a: Dudunsparce
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+-- turn 29
+  WE CHOSE: attack boomburst - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Draining Kiss|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|296/343
+  move|p1a: Dudunsparce|Boomburst|p2a: Misdreavus
+  -immune|p2a: Misdreavus
+  -heal|p1a: Dudunsparce|317/343|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack earthquake - our hp 0.92, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Draining Kiss|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|271/343
+  move|p1a: Dudunsparce|Earthquake|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -heal|p1a: Dudunsparce|292/343|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack earthquake - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Draining Kiss|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|248/343
+  move|p1a: Dudunsparce|Earthquake|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -heal|p1a: Dudunsparce|269/343|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: switch to meganium (hand policy: attack earthquake) - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Meganium|Meganium, L90, F, tera:Steel|231/290
+  move|p2a: Misdreavus|Draining Kiss|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|215/290
+  -heal|p1a: Meganium|233/290|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: switch to dudunsparcethreesegment - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, F|269/343
+  move|p2a: Misdreavus|Draining Kiss|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|227/343
+  -heal|p1a: Dudunsparce|248/343|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: switch to meganium (hand policy: attack earthquake) - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Meganium|Meganium, L90, F, tera:Steel|233/290
+  move|p2a: Misdreavus|Draining Kiss|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|218/290
+  -heal|p1a: Meganium|236/290|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: switch to dudunsparcethreesegment - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, F|248/343
+  move|p2a: Misdreavus|Draining Kiss|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|202/343
+  -heal|p1a: Dudunsparce|223/343|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: switch to meganium (hand policy: attack earthquake) - our hp 0.65, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Meganium|Meganium, L90, F, tera:Steel|236/290
+  move|p2a: Misdreavus|Draining Kiss|p1a: Meganium
+  -resisted|p1a: Meganium
+  -damage|p1a: Meganium|221/290
+  -heal|p1a: Meganium|239/290|[from] item: Leftovers
+-- turn 37
+  WE CHOSE: switch to dudunsparcethreesegment - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, L83, F|223/343
+  move|p2a: Misdreavus|Draining Kiss|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|180/343
+  -heal|p1a: Dudunsparce|201/343|[from] item: Leftovers
+-- turn 38
+  WE CHOSE: attack earthquake - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Draining Kiss|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|160/343
+  move|p1a: Dudunsparce|Earthquake|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -heal|p1a: Dudunsparce|181/343|[from] item: Leftovers
+-- turn 39
+  WE CHOSE: attack earthquake - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Draining Kiss|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|137/343
+  move|p1a: Dudunsparce|Earthquake|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -heal|p1a: Dudunsparce|158/343|[from] item: Leftovers
+-- turn 40
+  WE CHOSE: attack earthquake - our hp 0.46, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Draining Kiss|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|112/343
+  move|p1a: Dudunsparce|Earthquake|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -heal|p1a: Dudunsparce|133/343|[from] item: Leftovers
+-- turn 41
+  WE CHOSE: attack earthquake - our hp 0.39, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Draining Kiss|p1a: Dudunsparce
+  -crit|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|73/343
+  move|p1a: Dudunsparce|Earthquake|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -heal|p1a: Dudunsparce|94/343|[from] item: Leftovers
+-- turn 42
+  WE CHOSE: attack earthquake - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Draining Kiss|p1a: Dudunsparce
+  -crit|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|30/343
+  move|p1a: Dudunsparce|Earthquake|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -heal|p1a: Dudunsparce|51/343|[from] item: Leftovers
+-- turn 43
+  WE CHOSE: attack earthquake - our hp 0.15, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Draining Kiss|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|10/343
+  move|p1a: Dudunsparce|Earthquake|p2a: Misdreavus
+  -immune|p2a: Misdreavus|[from] ability: Levitate
+  -heal|p1a: Dudunsparce|31/343|[from] item: Leftovers
+-- turn 44
+  WE CHOSE: attack earthquake - our hp 0.09, theirs 1.00, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to breloom (hand policy: forced: switch to meganium) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Misdreavus|Draining Kiss|p1a: Dudunsparce
+  -damage|p1a: Dudunsparce|0 fnt
+  faint|p1a: Dudunsparce
+  switch|p1a: Breloom|Breloom, L83, F|235/235
+-- turn 45
+  WE CHOSE: attack bulletseed - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Misdreavus|Calm Mind|p2a: Misdreavus
+  -boost|p2a: Misdreavus|spa|1
+  -boost|p2a: Misdreavus|spd|1
+  move|p1a: Breloom|Bullet Seed|p2a: Misdreavus
+  -damage|p2a: Misdreavus|78/100
+  -damage|p2a: Misdreavus|58/100
+  -hitcount|p2a: Misdreavus|2
+  -damage|p1a: Breloom|212/235|[from] item: Life Orb
+-- turn 46
+  WE CHOSE: attack bulletseed - our hp 0.90, theirs 0.58, predicted move (revealed) hits us x1
+  move|p2a: Misdreavus|Calm Mind|p2a: Misdreavus
+  -boost|p2a: Misdreavus|spa|1
+  -boost|p2a: Misdreavus|spd|1
+  move|p1a: Breloom|Bullet Seed|p2a: Misdreavus
+  -damage|p2a: Misdreavus|37/100
+  -damage|p2a: Misdreavus|18/100
+  -damage|p2a: Misdreavus|0 fnt
+  faint|p2a: Misdreavus
+  -hitcount|p2: Misdreavus|3
+  -damage|p1a: Breloom|189/235|[from] item: Life Orb
+  switch|p2a: Chandelure|Chandelure, L83, F|100/100
+-- turn 47
+  WE CHOSE: switch to bruxish - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Bruxish|Bruxish, L85, M|254/254
+  move|p2a: Chandelure|Fire Blast|p1a: Bruxish|[miss]
+  -miss|p2a: Chandelure|p1a: Bruxish
+-- turn 48
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Bruxish|Swords Dance|p1a: Bruxish
+  -boost|p1a: Bruxish|atk|2
+  move|p2a: Chandelure|Fire Blast|p1a: Bruxish
+  -resisted|p1a: Bruxish
+  -damage|p1a: Bruxish|161/254
+  -status|p1a: Bruxish|brn
+  -damage|p1a: Bruxish|146/254 brn|[from] brn
+-- turn 49
+  WE CHOSE: attack wavecrash - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Bruxish|Wave Crash|p2a: Chandelure
+  -supereffective|p2a: Chandelure
+  -damage|p2a: Chandelure|0 fnt
+  faint|p2a: Chandelure
+  -damage|p1a: Bruxish|68/254 brn|[from] Recoil
+  -damage|p1a: Bruxish|43/254 brn|[from] item: Life Orb
+  -damage|p1a: Bruxish|28/254 brn|[from] brn
+  switch|p2a: Iron Leaves|Iron Leaves, L80|100/100
+-- turn 50
+  WE CHOSE: attack crunch - our hp 0.11, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to pincurchin - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Iron Leaves|Close Combat|p1a: Bruxish
+  -resisted|p1a: Bruxish
+  -damage|p1a: Bruxish|0 fnt
+  -unboost|p2a: Iron Leaves|def|1
+  -unboost|p2a: Iron Leaves|spd|1
+  faint|p1a: Bruxish
+  switch|p1a: Pincurchin|Pincurchin, M|258/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+  -activate|p2a: Iron Leaves|ability: Quark Drive
+  -start|p2a: Iron Leaves|quarkdriveatk
+-- turn 51
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Leaves|Close Combat|p1a: Pincurchin
+  -damage|p1a: Pincurchin|115/258
+  -unboost|p2a: Iron Leaves|def|1
+  -unboost|p2a: Iron Leaves|spd|1
+  move|p1a: Pincurchin|Discharge|p2a: Iron Leaves
+  -resisted|p2a: Iron Leaves
+  -damage|p2a: Iron Leaves|49/100
+  -heal|p1a: Pincurchin|131/258|[from] item: Leftovers
+-- turn 52
+  WE CHOSE: attack discharge - our hp 0.51, theirs 0.49, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to breloom - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Iron Leaves|Close Combat|p1a: Pincurchin
+  -damage|p1a: Pincurchin|0 fnt
+  -unboost|p2a: Iron Leaves|def|1
+  -unboost|p2a: Iron Leaves|spd|1
+  faint|p1a: Pincurchin
+  switch|p1a: Breloom|Breloom, L83, F|189/235
+-- turn 53
+  WE CHOSE: attack machpunch (hand policy: attack rocktomb) - our hp 0.80, theirs 0.49, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to meganium (hand policy: forced: switch to avalugg) - our hp 0.00, theirs 0.02, predicted move (revealed) hits us x1
+  move|p1a: Breloom|Mach Punch|p2a: Iron Leaves
+  -resisted|p2a: Iron Leaves
+  -damage|p2a: Iron Leaves|2/100
+  -damage|p1a: Breloom|166/235|[from] item: Life Orb
+  move|p2a: Iron Leaves|Close Combat|p1a: Breloom
+  -damage|p1a: Breloom|0 fnt
+  -unboost|p2a: Iron Leaves|def|1
+  -unboost|p2a: Iron Leaves|spd|1
+  faint|p1a: Breloom
+  switch|p1a: Meganium|Meganium, L90, F, tera:Steel|239/290
+-- turn 54
+  WE CHOSE: attack petalblizzard (hand policy: attack knockoff) - our hp 0.82, theirs 0.02, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to avalugg - our hp 0.00, theirs 0.02, predicted move (revealed) hits us x2
+  move|p2a: Iron Leaves|Close Combat|p1a: Meganium
+  -supereffective|p1a: Meganium
+  -damage|p1a: Meganium|0 fnt
+  -unboost|p2a: Iron Leaves|def|1
+  -unboost|p2a: Iron Leaves|spd|1
+  faint|p1a: Meganium
+  switch|p1a: Avalugg|Avalugg, L88, F|310/310
+-- turn 55
+  WE CHOSE: attack bodypress (hand policy: attack avalanche) - our hp 1.00, theirs 0.02, predicted move (revealed) hits us x2
+  move|p2a: Iron Leaves|Close Combat|p1a: Avalugg
+  -supereffective|p1a: Avalugg
+  -damage|p1a: Avalugg|120/310
+  -unboost|p2a: Iron Leaves|def|1
+  -unboost|p2a: Iron Leaves|spd|1
+  move|p1a: Avalugg|Body Press|p2a: Iron Leaves
+  -resisted|p2a: Iron Leaves
+  -damage|p2a: Iron Leaves|0 fnt
+  faint|p2a: Iron Leaves
+  -end|p2a: Iron Leaves|Quark Drive|[silent]
+  -fieldend|move: Electric Terrain
+  switch|p2a: Sawsbuck|Sawsbuck-Summer, L88, M|100/100
+-- turn 56
+  WE CHOSE: attack rapidspin (hand policy: attack bodypress) - our hp 0.39, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Sawsbuck|Double-Edge|p1a: Avalugg
+  -damage|p1a: Avalugg|21/310
+  -damage|p2a: Sawsbuck|89/100|[from] Recoil
+  -damage|p2a: Sawsbuck|79/100|[from] item: Life Orb
+  move|p1a: Avalugg|Rapid Spin|p2a: Sawsbuck
+  -damage|p2a: Sawsbuck|61/100
+  -boost|p1a: Avalugg|spe|1
+-- turn 57
+  WE CHOSE: heal recover - our hp 0.07, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Sawsbuck|Double-Edge|p1a: Avalugg
+  -damage|p1a: Avalugg|0 fnt
+  faint|p1a: Avalugg
+  -damage|p2a: Sawsbuck|58/100|[from] Recoil
+  -damage|p2a: Sawsbuck|48/100|[from] item: Life Orb
+  deinit

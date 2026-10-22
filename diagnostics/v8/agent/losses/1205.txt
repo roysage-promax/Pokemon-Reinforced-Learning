@@ -1,0 +1,370 @@
+battle 1205 (battle-gen9randombattle-2030823): lost in 45 turns, 2 of theirs left; we are p1
+
+ours:
+  ogerponcornerstone (fainted; item cornerstonemask, ability sturdy; moves hornleech/superpower/ivycudgel/swordsdance)
+  greedent (fainted; item ?, ability cheekpouch; moves swordsdance/bodyslam/knockoff/earthquake)
+  regigigas (fainted; item leftovers, ability slowstart; moves knockoff/sleeptalk/bodyslam/rest)
+  annihilape (fainted; item leftovers, ability defiant, tera steel; moves gunkshot/bulkup/ragefist/drainpunch)
+  mismagius (fainted; item lifeorb, ability levitate; moves nastyplot/shadowball/thunderbolt/dazzlinggleam)
+  tsareena (fainted; item heavydutyboots, ability queenlymajesty; moves powerwhip/rapidspin/synthesis/highjumpkick)
+theirs (as seen):
+  tinglu (fainted; item unknown_item, ability vesselofruin; moves earthquake)
+  camerupt (fainted; item unknown_item, ability ?; moves -)
+  houndstone (fainted; item ?, ability ?; moves poltergeist/bodypress)
+  hooh (fainted; item unknown_item, ability ?; moves bravebird)
+  tropius (64%; item ?, ability ?; moves airslash)
+
+-- turn 0
+  switch|p1a: Ogerpon|Ogerpon-Cornerstone, L76, F|247/247
+  switch|p2a: Ting-Lu|Ting-Lu, L78|100/100
+  -ability|p2a: Ting-Lu|Vessel of Ruin
+-- turn 1
+  WE CHOSE: switch to mismagius - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Mismagius|Mismagius, L86, M|243/243
+  move|p2a: Ting-Lu|Earthquake|p1a: Mismagius
+  -immune|p1a: Mismagius|[from] ability: Levitate
+-- turn 2
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Mismagius|Nasty Plot|p1a: Mismagius
+  -boost|p1a: Mismagius|spa|2
+  move|p2a: Ting-Lu|Earthquake|p1a: Mismagius
+  -immune|p1a: Mismagius|[from] ability: Levitate
+-- turn 3
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Mismagius|Nasty Plot|p1a: Mismagius
+  -boost|p1a: Mismagius|spa|2
+  move|p2a: Ting-Lu|Earthquake|p1a: Mismagius
+  -immune|p1a: Mismagius|[from] ability: Levitate
+-- turn 4
+  WE CHOSE: attack dazzlinggleam (hand policy: setup nastyplot) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Mismagius|Dazzling Gleam|p2a: Ting-Lu
+  -supereffective|p2a: Ting-Lu
+  -damage|p2a: Ting-Lu|0 fnt
+  faint|p2a: Ting-Lu
+  -damage|p1a: Mismagius|219/243|[from] item: Life Orb
+  switch|p2a: Camerupt|Camerupt, L91, F|100/100
+-- turn 5
+  WE CHOSE: attack shadowball - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Mismagius|Shadow Ball|p2a: Camerupt
+  -damage|p2a: Camerupt|0 fnt
+  faint|p2a: Camerupt
+  -damage|p1a: Mismagius|195/243|[from] item: Life Orb
+  switch|p2a: Houndstone|Houndstone, L86, F|100/100
+-- turn 6
+  WE CHOSE: switch to greedent - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Greedent|Greedent, L86, F|347/347
+  move|p2a: Houndstone|Poltergeist|p1a: Greedent
+  -immune|p1a: Greedent
+-- turn 7
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Poltergeist|p1a: Greedent
+  -immune|p1a: Greedent
+  move|p1a: Greedent|Swords Dance|p1a: Greedent
+  -boost|p1a: Greedent|atk|2
+-- turn 8
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Poltergeist|p1a: Greedent
+  -immune|p1a: Greedent
+  move|p1a: Greedent|Swords Dance|p1a: Greedent
+  -boost|p1a: Greedent|atk|2
+-- turn 9
+  WE CHOSE: switch to regigigas (hand policy: setup swordsdance) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Regigigas|Regigigas, L84|322/322
+  -start|p1a: Regigigas|ability: Slow Start
+  move|p2a: Houndstone|Poltergeist|p1a: Regigigas
+  -immune|p1a: Regigigas
+-- turn 10
+  WE CHOSE: switch to greedent (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Greedent|Greedent, L86, F|347/347
+  move|p2a: Houndstone|Poltergeist|p1a: Greedent
+  -immune|p1a: Greedent
+-- turn 11
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Poltergeist|p1a: Greedent
+  -immune|p1a: Greedent
+  move|p1a: Greedent|Swords Dance|p1a: Greedent
+  -boost|p1a: Greedent|atk|2
+-- turn 12
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Poltergeist|p1a: Greedent
+  -immune|p1a: Greedent
+  move|p1a: Greedent|Swords Dance|p1a: Greedent
+  -boost|p1a: Greedent|atk|2
+-- turn 13
+  WE CHOSE: switch to regigigas (hand policy: setup swordsdance) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Regigigas|Regigigas, L84|322/322
+  -start|p1a: Regigigas|ability: Slow Start
+  move|p2a: Houndstone|Poltergeist|p1a: Regigigas
+  -immune|p1a: Regigigas
+-- turn 14
+  WE CHOSE: switch to greedent (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Greedent|Greedent, L86, F|347/347
+  move|p2a: Houndstone|Body Press|p1a: Greedent
+  -supereffective|p1a: Greedent
+  -damage|p1a: Greedent|241/347
+-- turn 15
+  WE CHOSE: setup swordsdance - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Body Press|p1a: Greedent
+  -supereffective|p1a: Greedent
+  -damage|p1a: Greedent|127/347
+  -enditem|p1a: Greedent|Sitrus Berry|[eat]
+  -heal|p1a: Greedent|213/347|[from] item: Sitrus Berry
+  -heal|p1a: Greedent|328/347|[from] ability: Cheek Pouch
+  move|p1a: Greedent|Swords Dance|p1a: Greedent
+  -boost|p1a: Greedent|atk|2
+-- turn 16
+  WE CHOSE: setup swordsdance - our hp 0.95, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Body Press|p1a: Greedent
+  -supereffective|p1a: Greedent
+  -damage|p1a: Greedent|222/347
+  move|p1a: Greedent|Swords Dance|p1a: Greedent
+  -boost|p1a: Greedent|atk|2
+-- turn 17
+  WE CHOSE: switch to tsareena (hand policy: setup swordsdance) - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0
+  switch|p1a: Tsareena|Tsareena, L87, F|267/267
+  move|p2a: Houndstone|Body Press|p1a: Tsareena
+  -damage|p1a: Tsareena|214/267
+-- turn 18
+  WE CHOSE: switch to greedent - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Greedent|Greedent, L86, F|222/347
+  move|p2a: Houndstone|Body Press|p1a: Greedent
+  -supereffective|p1a: Greedent
+  -damage|p1a: Greedent|114/347
+-- turn 19
+  WE CHOSE: attack knockoff - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Body Press|p1a: Greedent
+  -supereffective|p1a: Greedent
+  -damage|p1a: Greedent|6/347
+  move|p1a: Greedent|Knock Off|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|76/100
+  -enditem|p2a: Houndstone|Leftovers|[from] move: Knock Off|[of] p1a: Greedent
+-- turn 20
+  WE CHOSE: attack knockoff - our hp 0.02, theirs 0.76, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to regigigas - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Body Press|p1a: Greedent
+  -supereffective|p1a: Greedent
+  -damage|p1a: Greedent|0 fnt
+  faint|p1a: Greedent
+  switch|p1a: Regigigas|Regigigas, L84|322/322
+  -start|p1a: Regigigas|ability: Slow Start
+-- turn 21
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Body Press|p1a: Regigigas
+  -supereffective|p1a: Regigigas
+  -damage|p1a: Regigigas|218/322
+  move|p1a: Regigigas|Knock Off|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|63/100
+  -heal|p1a: Regigigas|238/322|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack knockoff - our hp 0.74, theirs 0.63, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Body Press|p1a: Regigigas
+  -supereffective|p1a: Regigigas
+  -damage|p1a: Regigigas|134/322
+  move|p1a: Regigigas|Knock Off|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|52/100
+  -heal|p1a: Regigigas|154/322|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack knockoff (hand policy: heal rest) - our hp 0.48, theirs 0.52, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Body Press|p1a: Regigigas
+  -supereffective|p1a: Regigigas
+  -damage|p1a: Regigigas|54/322
+  move|p1a: Regigigas|Knock Off|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|41/100
+  -heal|p1a: Regigigas|74/322|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack knockoff (hand policy: heal rest) - our hp 0.23, theirs 0.41, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to annihilape (hand policy: forced: switch to tsareena) - our hp 0.00, theirs 0.41, predicted move (revealed) hits us x0
+  move|p2a: Houndstone|Body Press|p1a: Regigigas
+  -supereffective|p1a: Regigigas
+  -damage|p1a: Regigigas|0 fnt
+  faint|p1a: Regigigas
+  -end|p1a: Regigigas|Slow Start|[silent]
+  switch|p1a: Annihilape|Annihilape, L76, F|292/292
+-- turn 25
+  WE CHOSE: attack+tera ragefist (hand policy: attack ragefist) - our hp 1.00, theirs 0.41, predicted move (revealed) hits us x2
+  -terastallize|p1a: Annihilape|Steel
+  move|p1a: Annihilape|Rage Fist|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|23/100
+  move|p2a: Houndstone|Body Press|p1a: Annihilape
+  -supereffective|p1a: Annihilape
+  -damage|p1a: Annihilape|156/292
+  -heal|p1a: Annihilape|174/292|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack ragefist - our hp 0.60, theirs 0.23, predicted move (revealed) hits us x1
+  move|p1a: Annihilape|Rage Fist|p2a: Houndstone
+  -supereffective|p2a: Houndstone
+  -damage|p2a: Houndstone|0 fnt
+  faint|p2a: Houndstone
+  -heal|p1a: Annihilape|192/292|[from] item: Leftovers
+  switch|p2a: Ho-Oh|Ho-Oh, L71|100/100
+-- turn 27
+  WE CHOSE: attack gunkshot (hand policy: setup bulkup) - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Annihilape|Gunk Shot|p2a: Ho-Oh
+  -damage|p2a: Ho-Oh|67/100
+  move|p2a: Ho-Oh|Brave Bird|p1a: Annihilape
+  -resisted|p1a: Annihilape
+  -damage|p1a: Annihilape|127/292
+  -damage|p2a: Ho-Oh|59/100|[from] Recoil
+  -heal|p1a: Annihilape|145/292|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack gunkshot - our hp 0.50, theirs 0.59, predicted move (revealed) hits us x0.5
+  move|p1a: Annihilape|Gunk Shot|p2a: Ho-Oh|[miss]
+  -miss|p1a: Annihilape|p2a: Ho-Oh
+  move|p2a: Ho-Oh|Brave Bird|p1a: Annihilape
+  -resisted|p1a: Annihilape
+  -damage|p1a: Annihilape|78/292
+  -damage|p2a: Ho-Oh|51/100|[from] Recoil
+  -heal|p1a: Annihilape|96/292|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack gunkshot - our hp 0.33, theirs 0.51, predicted move (revealed) hits us x0.5
+  move|p1a: Annihilape|Gunk Shot|p2a: Ho-Oh|[miss]
+  -miss|p1a: Annihilape|p2a: Ho-Oh
+  move|p2a: Ho-Oh|Brave Bird|p1a: Annihilape
+  -resisted|p1a: Annihilape
+  -damage|p1a: Annihilape|21/292
+  -damage|p2a: Ho-Oh|42/100|[from] Recoil
+  -heal|p1a: Annihilape|39/292|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack gunkshot - our hp 0.13, theirs 0.42, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ogerponcornerstone (hand policy: forced: switch to mismagius) - our hp 0.00, theirs 0.37, predicted move (revealed) hits us x0.5
+  move|p1a: Annihilape|Gunk Shot|p2a: Ho-Oh|[miss]
+  -miss|p1a: Annihilape|p2a: Ho-Oh
+  move|p2a: Ho-Oh|Brave Bird|p1a: Annihilape
+  -resisted|p1a: Annihilape
+  -damage|p1a: Annihilape|0 fnt
+  faint|p1a: Annihilape
+  -damage|p2a: Ho-Oh|37/100|[from] Recoil
+  switch|p1a: Ogerpon|Ogerpon-Cornerstone, L76, F|247/247
+-- turn 31
+  WE CHOSE: attack superpower - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Superpower|p2a: Ho-Oh
+  -resisted|p2a: Ho-Oh
+  -damage|p2a: Ho-Oh|15/100
+  -unboost|p1a: Ogerpon|atk|1
+  -unboost|p1a: Ogerpon|def|1
+  move|p2a: Ho-Oh|Brave Bird|p1a: Ogerpon
+  -damage|p1a: Ogerpon|45/247
+  -damage|p2a: Ho-Oh|0 fnt|[from] Recoil
+  faint|p2a: Ho-Oh
+  switch|p2a: Tropius|Tropius, L91, F|100/100
+-- turn 32
+  WE CHOSE: switch to mismagius - our hp 0.18, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Mismagius|Mismagius, L86, M|195/243
+  move|p2a: Tropius|Air Slash|p1a: Mismagius
+  -damage|p1a: Mismagius|137/243
+-- turn 33
+  WE CHOSE: attack shadowball - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Mismagius|Shadow Ball|p2a: Tropius
+  -damage|p2a: Tropius|65/100
+  -damage|p1a: Mismagius|113/243|[from] item: Life Orb
+  move|p2a: Tropius|Air Slash|p1a: Mismagius
+  -damage|p1a: Mismagius|49/243
+-- turn 34
+  WE CHOSE: attack shadowball - our hp 0.20, theirs 0.65, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ogerponcornerstone - our hp 0.00, theirs 0.57, predicted move (revealed) hits us x1
+  move|p1a: Mismagius|Shadow Ball|p2a: Tropius
+  -damage|p2a: Tropius|32/100
+  -enditem|p2a: Tropius|Sitrus Berry|[eat]
+  -heal|p2a: Tropius|57/100|[from] item: Sitrus Berry
+  -damage|p1a: Mismagius|25/243|[from] item: Life Orb
+  move|p2a: Tropius|Air Slash|p1a: Mismagius
+  -damage|p1a: Mismagius|0 fnt
+  faint|p1a: Mismagius
+  -item|p2a: Tropius|Sitrus Berry|[from] ability: Harvest
+  switch|p1a: Ogerpon|Ogerpon-Cornerstone, L76, F|45/247
+-- turn 35
+  WE CHOSE: attack superpower - our hp 0.18, theirs 0.57, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tsareena - our hp 0.00, theirs 0.68, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Superpower|p2a: Tropius
+  -resisted|p2a: Tropius
+  -damage|p2a: Tropius|43/100
+  -unboost|p1a: Ogerpon|atk|1
+  -unboost|p1a: Ogerpon|def|1
+  -enditem|p2a: Tropius|Sitrus Berry|[eat]
+  -heal|p2a: Tropius|68/100|[from] item: Sitrus Berry
+  move|p2a: Tropius|Air Slash|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  switch|p1a: Tsareena|Tsareena, L87, F|214/267
+-- turn 36
+  WE CHOSE: attack rapidspin (hand policy: attack highjumpkick) - our hp 0.80, theirs 0.68, predicted move (revealed) hits us x2
+  move|p1a: Tsareena|Rapid Spin|p2a: Tropius
+  -damage|p2a: Tropius|54/100
+  -boost|p1a: Tsareena|spe|1
+  move|p2a: Tropius|Air Slash|p1a: Tsareena
+  -supereffective|p1a: Tsareena
+  -damage|p1a: Tsareena|92/267
+  -item|p2a: Tropius|Sitrus Berry|[from] ability: Harvest
+-- turn 37
+  WE CHOSE: heal synthesis (hand policy: attack highjumpkick) - our hp 0.34, theirs 0.54, predicted move (revealed) hits us x2
+  move|p1a: Tsareena|Synthesis|p1a: Tsareena
+  -heal|p1a: Tsareena|225/267
+  move|p2a: Tropius|Air Slash|p1a: Tsareena
+  -supereffective|p1a: Tsareena
+  -damage|p1a: Tsareena|87/267
+-- turn 38
+  WE CHOSE: heal synthesis (hand policy: attack highjumpkick) - our hp 0.33, theirs 0.54, predicted move (revealed) hits us x2
+  move|p1a: Tsareena|Synthesis|p1a: Tsareena
+  -heal|p1a: Tsareena|220/267
+  move|p2a: Tropius|Air Slash|p1a: Tsareena
+  -supereffective|p1a: Tsareena
+  -damage|p1a: Tsareena|76/267
+-- turn 39
+  WE CHOSE: heal synthesis (hand policy: attack highjumpkick) - our hp 0.28, theirs 0.54, predicted move (revealed) hits us x2
+  move|p1a: Tsareena|Synthesis|p1a: Tsareena
+  -heal|p1a: Tsareena|209/267
+  move|p2a: Tropius|Air Slash|p1a: Tsareena
+  -supereffective|p1a: Tsareena
+  -damage|p1a: Tsareena|69/267
+-- turn 40
+  WE CHOSE: heal synthesis (hand policy: attack highjumpkick) - our hp 0.26, theirs 0.54, predicted move (revealed) hits us x2
+  move|p1a: Tsareena|Synthesis|p1a: Tsareena
+  -heal|p1a: Tsareena|202/267
+  move|p2a: Tropius|Air Slash|p1a: Tsareena
+  -supereffective|p1a: Tsareena
+  -damage|p1a: Tsareena|76/267
+-- turn 41
+  WE CHOSE: heal synthesis (hand policy: attack highjumpkick) - our hp 0.28, theirs 0.54, predicted move (revealed) hits us x2
+  move|p1a: Tsareena|Synthesis|p1a: Tsareena
+  -heal|p1a: Tsareena|209/267
+  move|p2a: Tropius|Air Slash|p1a: Tsareena
+  -supereffective|p1a: Tsareena
+  -damage|p1a: Tsareena|65/267
+-- turn 42
+  WE CHOSE: heal synthesis (hand policy: attack highjumpkick) - our hp 0.24, theirs 0.54, predicted move (revealed) hits us x2
+  move|p1a: Tsareena|Synthesis|p1a: Tsareena
+  -heal|p1a: Tsareena|198/267
+  move|p2a: Tropius|Air Slash|p1a: Tsareena
+  -supereffective|p1a: Tsareena
+  -damage|p1a: Tsareena|64/267
+-- turn 43
+  WE CHOSE: heal synthesis (hand policy: attack highjumpkick) - our hp 0.24, theirs 0.54, predicted move (revealed) hits us x2
+  move|p1a: Tsareena|Synthesis|p1a: Tsareena
+  -heal|p1a: Tsareena|197/267
+  move|p2a: Tropius|Air Slash|p1a: Tsareena
+  -supereffective|p1a: Tsareena
+  -damage|p1a: Tsareena|71/267
+-- turn 44
+  WE CHOSE: heal synthesis (hand policy: attack highjumpkick) - our hp 0.27, theirs 0.54, predicted move (revealed) hits us x2
+  move|p1a: Tsareena|Synthesis|p1a: Tsareena
+  -heal|p1a: Tsareena|204/267
+  move|p2a: Tropius|Air Slash|p1a: Tsareena
+  -supereffective|p1a: Tsareena
+  -damage|p1a: Tsareena|60/267
+-- turn 45
+  WE CHOSE: attack highjumpkick - our hp 0.22, theirs 0.54, predicted move (revealed) hits us x2
+  move|p1a: Tsareena|High Jump Kick|p2a: Tropius
+  -resisted|p2a: Tropius
+  -damage|p2a: Tropius|39/100
+  -enditem|p2a: Tropius|Sitrus Berry|[eat]
+  -heal|p2a: Tropius|64/100|[from] item: Sitrus Berry
+  move|p2a: Tropius|Air Slash|p1a: Tsareena
+  -supereffective|p1a: Tsareena
+  -damage|p1a: Tsareena|0 fnt
+  faint|p1a: Tsareena
+  deinit

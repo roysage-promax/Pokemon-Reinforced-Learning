@@ -1,0 +1,298 @@
+battle 2545 (battle-gen9randombattle-2044560): lost in 31 turns, 2 of theirs left; we are p1
+
+ours:
+  cinccino (fainted; item loadeddice, ability technician; moves tidyup/tripleaxel/tailslap/bulletseed)
+  taurospaldeaaqua (fainted; item choiceband, ability intimidate; moves wavecrash/aquajet/stoneedge/closecombat)
+  scrafty (fainted; item leftovers, ability shedskin; moves bulkup/drainpunch/rest/knockoff)
+  klawf (fainted; item expertbelt, ability angershell; moves crabhammer/knockoff/swordsdance/stoneedge)
+  overqwil (fainted; item lifeorb, ability intimidate, tera water; moves liquidation/gunkshot/crunch/swordsdance)
+  giratinaorigin (fainted; item griseouscore, ability levitate; moves dracometeor/willowisp/poltergeist/dragontail)
+theirs (as seen):
+  glaceon (fainted; item unknown_item, ability ?; moves freezedry)
+  passimian (fainted; item leftovers, ability defiant; moves gunkshot)
+  sawsbuckwinter (fainted; item lifeorb, ability ?; moves highhorsepower)
+  palkiaorigin (fainted; item unknown_item, ability pressure; moves fireblast/hydropump)
+  vaporeon (19%; item leftovers, ability ?; moves scald)
+
+-- turn 0
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+  switch|p2a: Glaceon|Glaceon, L94, F|100/100
+-- turn 1
+  WE CHOSE: switch to taurospaldeaaqua (hand policy: attack+tera tailslap) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to klawf - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  switch|p1a: Tauros|Tauros-Paldea-Aqua, L81, M|254/254
+  -ability|p1a: Tauros|Intimidate|boost
+  -unboost|p2a: Glaceon|atk|1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Tauros
+  -supereffective|p1a: Tauros
+  -crit|p1a: Tauros
+  -damage|p1a: Tauros|0 fnt
+  faint|p1a: Tauros
+  switch|p1a: Klawf|Klawf, L90, M|272/272
+-- turn 2
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Klawf|Stone Edge|p2a: Glaceon
+  -supereffective|p2a: Glaceon
+  -damage|p2a: Glaceon|11/100
+  move|p2a: Glaceon|Freeze-Dry|p1a: Klawf
+  -damage|p1a: Klawf|110/272
+  -ability|p1a: Klawf|Anger Shell|boost
+  -boost|p1a: Klawf|atk|1
+  -boost|p1a: Klawf|spa|1
+  -boost|p1a: Klawf|spe|1
+  -unboost|p1a: Klawf|def|1
+  -unboost|p1a: Klawf|spd|1
+-- turn 3
+  WE CHOSE: attack stoneedge - our hp 0.40, theirs 0.11, predicted move (revealed) hits us x1
+  move|p1a: Klawf|Stone Edge|p2a: Glaceon
+  -supereffective|p2a: Glaceon
+  -damage|p2a: Glaceon|0 fnt
+  faint|p2a: Glaceon
+  switch|p2a: Passimian|Passimian, L83, F|100/100
+-- turn 4
+  WE CHOSE: switch to giratinaorigin - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Giratina|Giratina-Origin, L72|335/335
+  move|p2a: Passimian|Gunk Shot|p1a: Giratina
+  -resisted|p1a: Giratina
+  -damage|p1a: Giratina|284/335
+-- turn 5
+  WE CHOSE: attack dracometeor - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Gunk Shot|p1a: Giratina
+  -resisted|p1a: Giratina
+  -crit|p1a: Giratina
+  -damage|p1a: Giratina|201/335
+  -status|p1a: Giratina|psn
+  move|p1a: Giratina|Draco Meteor|p2a: Passimian
+  -damage|p2a: Passimian|35/100
+  -unboost|p1a: Giratina|spa|2
+  -heal|p2a: Passimian|41/100|[from] item: Leftovers
+  -damage|p1a: Giratina|160/335 psn|[from] psn
+-- turn 6
+  WE CHOSE: attack poltergeist (hand policy: attack+tera poltergeist) - our hp 0.48, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Gunk Shot|p1a: Giratina
+  -resisted|p1a: Giratina
+  -damage|p1a: Giratina|104/335 psn
+  move|p1a: Giratina|Poltergeist|p2a: Passimian|[miss]
+  -miss|p1a: Giratina|p2a: Passimian
+  -heal|p2a: Passimian|47/100|[from] item: Leftovers
+  -damage|p1a: Giratina|63/335 psn|[from] psn
+-- turn 7
+  WE CHOSE: attack poltergeist (hand policy: attack+tera poltergeist) - our hp 0.19, theirs 0.47, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to overqwil - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Gunk Shot|p1a: Giratina
+  -resisted|p1a: Giratina
+  -damage|p1a: Giratina|11/335 psn
+  move|p1a: Giratina|Poltergeist|p2a: Passimian
+  -activate|p2a: Passimian|move: Poltergeist|Leftovers
+  -damage|p2a: Passimian|7/100
+  -heal|p2a: Passimian|13/100|[from] item: Leftovers
+  -damage|p1a: Giratina|0 fnt|[from] psn
+  faint|p1a: Giratina
+  switch|p1a: Overqwil|Overqwil, L82, M|274/274
+  -ability|p1a: Overqwil|Intimidate|boost
+  -unboost|p2a: Passimian|atk|1
+  -ability|p2a: Passimian|Defiant|boost
+  -boost|p2a: Passimian|atk|2
+-- turn 8
+  WE CHOSE: attack crunch (hand policy: setup swordsdance) - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Overqwil|Crunch|p2a: Passimian
+  -resisted|p2a: Passimian
+  -damage|p2a: Passimian|0 fnt
+  faint|p2a: Passimian
+  -damage|p1a: Overqwil|247/274|[from] item: Life Orb
+  switch|p2a: Sawsbuck|Sawsbuck-Winter, L88, M|100/100
+-- turn 9
+  WE CHOSE: setup swordsdance (hand policy: attack gunkshot) - our hp 0.90, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Sawsbuck|High Horsepower|p1a: Overqwil
+  -supereffective|p1a: Overqwil
+  -damage|p1a: Overqwil|55/274
+  -damage|p2a: Sawsbuck|91/100|[from] item: Life Orb
+  move|p1a: Overqwil|Swords Dance|p1a: Overqwil
+  -boost|p1a: Overqwil|atk|2
+-- turn 10
+  WE CHOSE: attack+tera gunkshot (hand policy: attack gunkshot) - our hp 0.20, theirs 0.91, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to scrafty - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x1
+  -terastallize|p1a: Overqwil|Water
+  move|p2a: Sawsbuck|High Horsepower|p1a: Overqwil
+  -damage|p1a: Overqwil|0 fnt
+  faint|p1a: Overqwil
+  -damage|p2a: Sawsbuck|81/100|[from] item: Life Orb
+  switch|p1a: Scrafty|Scrafty, L83, M|244/244
+-- turn 11
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Sawsbuck|High Horsepower|p1a: Scrafty
+  -crit|p1a: Scrafty
+  -damage|p1a: Scrafty|127/244
+  -damage|p2a: Sawsbuck|71/100|[from] item: Life Orb
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+-- turn 12
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Sawsbuck|High Horsepower|p1a: Scrafty
+  -damage|p1a: Scrafty|162/244
+  -damage|p2a: Sawsbuck|61/100|[from] item: Life Orb
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+-- turn 13
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 1.00, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Sawsbuck|High Horsepower|p1a: Scrafty
+  -damage|p1a: Scrafty|170/244 slp
+  -damage|p2a: Sawsbuck|51/100|[from] item: Life Orb
+  cant|p1a: Scrafty|slp
+  -heal|p1a: Scrafty|185/244 slp|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.76, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Sawsbuck|High Horsepower|p1a: Scrafty
+  -damage|p1a: Scrafty|97/244 slp
+  -damage|p2a: Sawsbuck|41/100|[from] item: Life Orb
+  cant|p1a: Scrafty|slp
+  -heal|p1a: Scrafty|112/244 slp|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal rest - our hp 0.46, theirs 0.41, predicted move (revealed) hits us x1
+  move|p2a: Sawsbuck|High Horsepower|p1a: Scrafty
+  -damage|p1a: Scrafty|34/244 slp
+  -damage|p2a: Sawsbuck|31/100|[from] item: Life Orb
+  -curestatus|p1a: Scrafty|slp|[msg]
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+  -activate|p1a: Scrafty|ability: Shed Skin
+  -curestatus|p1a: Scrafty|slp|[msg]
+-- turn 16
+  WE CHOSE: attack drainpunch - our hp 1.00, theirs 0.31, predicted move (revealed) hits us x1
+  move|p2a: Sawsbuck|High Horsepower|p1a: Scrafty
+  -damage|p1a: Scrafty|157/244
+  -damage|p2a: Sawsbuck|22/100|[from] item: Life Orb
+  move|p1a: Scrafty|Drain Punch|p2a: Sawsbuck
+  -supereffective|p2a: Sawsbuck
+  -damage|p2a: Sawsbuck|0 fnt
+  -heal|p1a: Scrafty|187/244|[from] drain|[of] p2a: Sawsbuck
+  faint|p2a: Sawsbuck
+  -heal|p1a: Scrafty|202/244|[from] item: Leftovers
+  switch|p2a: Palkia|Palkia-Origin, L72|100/100
+  -ability|p2a: Palkia|Pressure
+-- turn 17
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.83, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Palkia|Fire Blast|p1a: Scrafty
+  -damage|p1a: Scrafty|138/244
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+-- turn 18
+  WE CHOSE: setup bulkup (hand policy: attack drainpunch) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Palkia|Fire Blast|p1a: Scrafty
+  -damage|p1a: Scrafty|178/244 slp
+  cant|p1a: Scrafty|slp
+  -heal|p1a: Scrafty|193/244 slp|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: setup bulkup (hand policy: attack drainpunch) - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Palkia|Fire Blast|p1a: Scrafty
+  -damage|p1a: Scrafty|131/244 slp
+  cant|p1a: Scrafty|slp
+  -heal|p1a: Scrafty|146/244 slp|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Palkia|Fire Blast|p1a: Scrafty
+  -damage|p1a: Scrafty|82/244 slp
+  -curestatus|p1a: Scrafty|slp|[msg]
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+-- turn 21
+  WE CHOSE: setup bulkup (hand policy: attack drainpunch) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Palkia|Fire Blast|p1a: Scrafty|[miss]
+  -miss|p2a: Palkia|p1a: Scrafty
+  cant|p1a: Scrafty|slp
+-- turn 22
+  WE CHOSE: setup bulkup (hand policy: attack drainpunch) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Palkia|Fire Blast|p1a: Scrafty
+  -damage|p1a: Scrafty|182/244 slp
+  cant|p1a: Scrafty|slp
+  -heal|p1a: Scrafty|197/244 slp|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: setup bulkup (hand policy: attack drainpunch) - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Palkia|Fire Blast|p1a: Scrafty
+  -damage|p1a: Scrafty|127/244 slp
+  -curestatus|p1a: Scrafty|slp|[msg]
+  move|p1a: Scrafty|Bulk Up|p1a: Scrafty
+  -boost|p1a: Scrafty|atk|1
+  -boost|p1a: Scrafty|def|1
+  -heal|p1a: Scrafty|142/244|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.58, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Palkia|Fire Blast|p1a: Scrafty
+  -damage|p1a: Scrafty|79/244
+  move|p1a: Scrafty|Rest|p1a: Scrafty
+  -status|p1a: Scrafty|slp|[from] move: Rest
+  -heal|p1a: Scrafty|244/244 slp|[silent]
+-- turn 25
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Palkia|Hydro Pump|p1a: Scrafty
+  -damage|p1a: Scrafty|135/244 slp
+  cant|p1a: Scrafty|slp
+  -heal|p1a: Scrafty|150/244 slp|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: heal rest (hand policy: attack drainpunch) - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Palkia|Hydro Pump|p1a: Scrafty
+  -damage|p1a: Scrafty|41/244 slp
+  cant|p1a: Scrafty|slp
+  -heal|p1a: Scrafty|56/244 slp|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: heal rest - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cinccino (hand policy: forced: switch to klawf) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Palkia|Hydro Pump|p1a: Scrafty
+  -damage|p1a: Scrafty|0 fnt
+  faint|p1a: Scrafty
+  switch|p1a: Cinccino|Cinccino, L83, M|260/260
+-- turn 28
+  WE CHOSE: attack tailslap - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Cinccino|Tail Slap|p2a: Palkia
+  -crit|p2a: Palkia
+  -damage|p2a: Palkia|76/100
+  -damage|p2a: Palkia|61/100
+  -damage|p2a: Palkia|45/100
+  -damage|p2a: Palkia|29/100
+  -hitcount|p2a: Palkia|4
+  move|p2a: Palkia|Hydro Pump|p1a: Cinccino
+  -damage|p1a: Cinccino|77/260
+-- turn 29
+  WE CHOSE: attack tailslap - our hp 0.30, theirs 0.29, predicted move (revealed) hits us x1
+  move|p1a: Cinccino|Tail Slap|p2a: Palkia
+  -damage|p2a: Palkia|13/100
+  -damage|p2a: Palkia|0 fnt
+  faint|p2a: Palkia
+  -hitcount|p2: Palkia|2
+  switch|p2a: Vaporeon|Vaporeon, L86, M|100/100
+-- turn 30
+  WE CHOSE: attack bulletseed - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to klawf - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p1a: Cinccino|Bullet Seed|p2a: Vaporeon
+  -supereffective|p2a: Vaporeon
+  -damage|p2a: Vaporeon|83/100
+  -supereffective|p2a: Vaporeon
+  -damage|p2a: Vaporeon|65/100
+  -supereffective|p2a: Vaporeon
+  -damage|p2a: Vaporeon|48/100
+  -supereffective|p2a: Vaporeon
+  -damage|p2a: Vaporeon|29/100
+  -supereffective|p2a: Vaporeon
+  -damage|p2a: Vaporeon|13/100
+  -hitcount|p2a: Vaporeon|5
+  move|p2a: Vaporeon|Scald|p1a: Cinccino
+  -damage|p1a: Cinccino|0 fnt
+  faint|p1a: Cinccino
+  -heal|p2a: Vaporeon|19/100|[from] item: Leftovers
+  switch|p1a: Klawf|Klawf, L90, M|110/272
+-- turn 31
+  WE CHOSE: attack stoneedge - our hp 0.40, theirs 0.19, predicted move (revealed) hits us x2
+  move|p1a: Klawf|Stone Edge|p2a: Vaporeon|[miss]
+  -miss|p1a: Klawf|p2a: Vaporeon
+  move|p2a: Vaporeon|Scald|p1a: Klawf
+  -supereffective|p1a: Klawf
+  -damage|p1a: Klawf|0 fnt
+  faint|p1a: Klawf
+  deinit

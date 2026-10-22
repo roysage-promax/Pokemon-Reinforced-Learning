@@ -1,0 +1,392 @@
+battle 82 (battle-gen9randombattle-2019120): lost in 49 turns, 1 of theirs left; we are p1
+
+ours:
+  chesnaught (fainted; item rockyhelmet, ability bulletproof; moves synthesis/spikes/woodhammer/bodypress)
+  registeel (fainted; item chestoberry, ability clearbody; moves bodypress/ironhead/irondefense/rest)
+  torkoal (fainted; item heavydutyboots, ability drought; moves earthquake/yawn/fireblast/solarbeam)
+  arceuselectric (fainted; item zapplate, ability multitype, tera ice; moves calmmind/icebeam/recover/judgment)
+  rotommow (fainted; item leftovers, ability levitate; moves leafstorm/voltswitch/willowisp/thunderbolt)
+  malamar (fainted; item leftovers, ability contrary; moves superpower/sleeptalk/knockoff/rest)
+theirs (as seen):
+  mandibuzz (fainted; item unknown_item, ability ?; moves foulplay)
+  florgeswhite (fainted; item leftovers, ability ?; moves moonblast)
+  lanturn (fainted; item leftovers, ability voltabsorb; moves icebeam)
+  taurospaldeaaqua (fainted; item lifeorb, ability intimidate; moves closecombat)
+  polteageistantique (fainted; item unknown_item, ability ?; moves terablast)
+  ironmoth (7%; item ?, ability quarkdrive; moves fireblast)
+
+-- turn 0
+  switch|p1a: Chesnaught|Chesnaught, L84, M|285/285
+  switch|p2a: Mandibuzz|Mandibuzz, L85, F|100/100
+-- turn 1
+  WE CHOSE: switch to arceuselectric - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Arceus|Arceus-Electric, L70|284/284
+  move|p2a: Mandibuzz|Foul Play|p1a: Arceus
+  -damage|p1a: Arceus|206/284
+-- turn 2
+  WE CHOSE: attack+tera icebeam - our hp 0.73, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Arceus|Ice
+  move|p1a: Arceus|Ice Beam|p2a: Mandibuzz
+  -supereffective|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|52/100
+  move|p2a: Mandibuzz|Foul Play|p1a: Arceus
+  -damage|p1a: Arceus|122/284
+-- turn 3
+  WE CHOSE: heal recover - our hp 0.43, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|264/284
+  move|p2a: Mandibuzz|Foul Play|p1a: Arceus
+  -damage|p1a: Arceus|182/284
+-- turn 4
+  WE CHOSE: attack icebeam - our hp 0.64, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Mandibuzz
+  -supereffective|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|6/100
+  move|p2a: Mandibuzz|Foul Play|p1a: Arceus
+  -damage|p1a: Arceus|109/284
+-- turn 5
+  WE CHOSE: heal recover - our hp 0.38, theirs 0.06, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|251/284
+  move|p2a: Mandibuzz|Foul Play|p1a: Arceus
+  -damage|p1a: Arceus|173/284
+-- turn 6
+  WE CHOSE: attack icebeam - our hp 0.61, theirs 0.06, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Mandibuzz
+  -supereffective|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|0 fnt
+  faint|p2a: Mandibuzz
+  switch|p2a: Florges|Florges-White, L85, F|100/100
+-- turn 7
+  WE CHOSE: attack icebeam - our hp 0.61, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Arceus|Ice Beam|p2a: Florges
+  -damage|p2a: Florges|82/100
+  move|p2a: Florges|Moonblast|p1a: Arceus
+  -damage|p1a: Arceus|68/284
+  -heal|p2a: Florges|88/100|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: heal recover - our hp 0.24, theirs 0.88, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|210/284
+  move|p2a: Florges|Moonblast|p1a: Arceus
+  -damage|p1a: Arceus|101/284
+  -heal|p2a: Florges|93/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: heal recover - our hp 0.36, theirs 0.93, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|243/284
+  move|p2a: Florges|Moonblast|p1a: Arceus
+  -damage|p1a: Arceus|125/284
+  -heal|p2a: Florges|99/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: heal recover - our hp 0.44, theirs 0.99, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|267/284
+  move|p2a: Florges|Moonblast|p1a: Arceus
+  -damage|p1a: Arceus|159/284
+  -heal|p2a: Florges|100/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack icebeam - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Florges
+  -damage|p2a: Florges|79/100
+  move|p2a: Florges|Moonblast|p1a: Arceus
+  -damage|p1a: Arceus|51/284
+  -heal|p2a: Florges|85/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: heal recover - our hp 0.18, theirs 0.85, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|193/284
+  move|p2a: Florges|Moonblast|p1a: Arceus
+  -damage|p1a: Arceus|79/284
+  -unboost|p1a: Arceus|spa|1
+  -heal|p2a: Florges|91/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal recover - our hp 0.28, theirs 0.91, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|221/284
+  move|p2a: Florges|Moonblast|p1a: Arceus
+  -damage|p1a: Arceus|106/284
+  -unboost|p1a: Arceus|spa|1
+  -heal|p2a: Florges|97/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: heal recover - our hp 0.37, theirs 0.97, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Recover|p1a: Arceus
+  -heal|p1a: Arceus|248/284
+  move|p2a: Florges|Moonblast|p1a: Arceus
+  -damage|p1a: Arceus|145/284
+  -unboost|p1a: Arceus|spa|1
+  -heal|p2a: Florges|100/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack icebeam - our hp 0.51, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Florges
+  -damage|p2a: Florges|93/100
+  -status|p2a: Florges|frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|99/100 frz|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack icebeam - our hp 0.51, theirs 0.99, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Florges
+  -damage|p2a: Florges|91/100 frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|96/100 frz|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack icebeam - our hp 0.51, theirs 0.96, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Florges
+  -damage|p2a: Florges|89/100 frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|95/100 frz|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack icebeam - our hp 0.51, theirs 0.95, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Florges
+  -damage|p2a: Florges|88/100 frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|93/100 frz|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack icebeam - our hp 0.51, theirs 0.93, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Florges
+  -damage|p2a: Florges|85/100 frz
+  -curestatus|p2a: Florges|frz|[msg]
+  move|p2a: Florges|Moonblast|p1a: Arceus
+  -damage|p1a: Arceus|37/284
+  -heal|p2a: Florges|91/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack icebeam - our hp 0.13, theirs 0.91, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Florges
+  -damage|p2a: Florges|83/100
+  -status|p2a: Florges|frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|89/100 frz|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack icebeam - our hp 0.13, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Florges
+  -damage|p2a: Florges|81/100 frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|87/100 frz|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack icebeam - our hp 0.13, theirs 0.87, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Florges
+  -damage|p2a: Florges|79/100 frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|85/100 frz|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack icebeam - our hp 0.13, theirs 0.85, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Florges
+  -damage|p2a: Florges|78/100 frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|84/100 frz|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack icebeam - our hp 0.13, theirs 0.84, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Florges
+  -damage|p2a: Florges|77/100 frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|82/100 frz|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack icebeam - our hp 0.13, theirs 0.82, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Ice Beam|p2a: Florges
+  -damage|p2a: Florges|74/100 frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|80/100 frz|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: attack judgment - our hp 0.13, theirs 0.80, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Judgment|p2a: Florges
+  -crit|p2a: Florges
+  -damage|p2a: Florges|41/100 frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|47/100 frz|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack judgment - our hp 0.13, theirs 0.47, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Judgment|p2a: Florges
+  -damage|p2a: Florges|37/100 frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|43/100 frz|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack judgment - our hp 0.13, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Judgment|p2a: Florges
+  -crit|p2a: Florges
+  -damage|p2a: Florges|7/100 frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|13/100 frz|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack judgment - our hp 0.13, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Judgment|p2a: Florges
+  -damage|p2a: Florges|2/100 frz
+  cant|p2a: Florges|frz
+  -heal|p2a: Florges|8/100 frz|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack judgment - our hp 0.13, theirs 0.08, predicted move (revealed) hits us x1
+  move|p1a: Arceus|Judgment|p2a: Florges
+  -damage|p2a: Florges|0 fnt
+  faint|p2a: Florges
+  switch|p2a: Lanturn|Lanturn, L89, M|100/100
+-- turn 31
+  WE CHOSE: attack judgment - our hp 0.13, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Arceus|Judgment|p2a: Lanturn
+  -immune|p2a: Lanturn|[from] ability: Volt Absorb
+  move|p2a: Lanturn|Ice Beam|p1a: Arceus
+  -resisted|p1a: Arceus
+  -damage|p1a: Arceus|10/284
+-- turn 32
+  WE CHOSE: attack judgment - our hp 0.04, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to torkoal - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Judgment|p2a: Lanturn
+  -immune|p2a: Lanturn|[from] ability: Volt Absorb
+  move|p2a: Lanturn|Ice Beam|p1a: Arceus
+  -resisted|p1a: Arceus
+  -crit|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  faint|p1a: Arceus
+  switch|p1a: Torkoal|Torkoal, L88, F|266/266
+  -weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+-- turn 33
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Lanturn|Ice Beam|p1a: Torkoal
+  -resisted|p1a: Torkoal
+  -damage|p1a: Torkoal|231/266
+  move|p1a: Torkoal|Earthquake|p2a: Lanturn
+  -supereffective|p2a: Lanturn
+  -damage|p2a: Lanturn|54/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Lanturn|60/100|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack earthquake - our hp 0.87, theirs 0.60, predicted move (revealed) hits us x0.5
+  move|p2a: Lanturn|Ice Beam|p1a: Torkoal
+  -resisted|p1a: Torkoal
+  -damage|p1a: Torkoal|196/266
+  move|p1a: Torkoal|Earthquake|p2a: Lanturn
+  -supereffective|p2a: Lanturn
+  -damage|p2a: Lanturn|9/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p2a: Lanturn|15/100|[from] item: Leftovers
+-- turn 35
+  WE CHOSE: attack solarbeam - our hp 0.74, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p2a: Lanturn|Ice Beam|p1a: Torkoal
+  -resisted|p1a: Torkoal
+  -damage|p1a: Torkoal|162/266
+  move|p1a: Torkoal|Solar Beam||[still]
+  -prepare|p1a: Torkoal|Solar Beam
+  -anim|p1a: Torkoal|Solar Beam|p2a: Lanturn
+  -supereffective|p2a: Lanturn
+  -damage|p2a: Lanturn|0 fnt
+  faint|p2a: Lanturn
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Tauros|Tauros-Paldea-Aqua, L81, M|100/100
+  -ability|p2a: Tauros|Intimidate|boost
+  -unboost|p1a: Torkoal|atk|1
+-- turn 36
+  WE CHOSE: attack solarbeam - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Tauros|Close Combat|p1a: Torkoal
+  -damage|p1a: Torkoal|44/266
+  -unboost|p2a: Tauros|def|1
+  -unboost|p2a: Tauros|spd|1
+  -damage|p2a: Tauros|91/100|[from] item: Life Orb
+  move|p1a: Torkoal|Solar Beam||[still]
+  -prepare|p1a: Torkoal|Solar Beam
+  -anim|p1a: Torkoal|Solar Beam|p2a: Tauros
+  -supereffective|p2a: Tauros
+  -damage|p2a: Tauros|0 fnt
+  faint|p2a: Tauros
+  -weather|SunnyDay|[upkeep]
+  switch|p2a: Polteageist|Polteageist-Antique, L78|100/100
+-- turn 37
+  WE CHOSE: attack fireblast - our hp 0.17, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to registeel - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Polteageist|Tera Blast|p1a: Torkoal
+  -damage|p1a: Torkoal|0 fnt
+  faint|p1a: Torkoal
+  -weather|none
+  switch|p1a: Registeel|Registeel, L81|262/262
+-- turn 38
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Polteageist|Tera Blast|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|241/262
+  move|p1a: Registeel|Iron Head|p2a: Polteageist
+  -damage|p2a: Polteageist|59/100
+-- turn 39
+  WE CHOSE: attack ironhead - our hp 0.92, theirs 0.59, predicted move (revealed) hits us x0.5
+  move|p2a: Polteageist|Tera Blast|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|219/262
+  move|p1a: Registeel|Iron Head|p2a: Polteageist
+  -damage|p2a: Polteageist|19/100
+  -start|p1a: Registeel|Disable|Iron Head|[from] ability: Cursed Body|[of] p2a: Polteageist
+-- turn 40
+  WE CHOSE: attack bodypress - our hp 0.84, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p2a: Polteageist|Tera Blast|p1a: Registeel
+  -resisted|p1a: Registeel
+  -crit|p1a: Registeel
+  -damage|p1a: Registeel|187/262
+  move|p1a: Registeel|Body Press|p2a: Polteageist
+  -immune|p2a: Polteageist
+-- turn 41
+  WE CHOSE: attack bodypress - our hp 0.71, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p2a: Polteageist|Tera Blast|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|166/262
+  move|p1a: Registeel|Body Press|p2a: Polteageist
+  -immune|p2a: Polteageist
+-- turn 42
+  WE CHOSE: attack bodypress - our hp 0.63, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p2a: Polteageist|Tera Blast|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|143/262
+  move|p1a: Registeel|Body Press|p2a: Polteageist
+  -immune|p2a: Polteageist
+  -end|p1a: Registeel|Disable
+-- turn 43
+  WE CHOSE: attack ironhead - our hp 0.55, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p2a: Polteageist|Tera Blast|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|121/262
+  move|p1a: Registeel|Iron Head|p2a: Polteageist
+  -crit|p2a: Polteageist
+  -damage|p2a: Polteageist|0 fnt
+  -start|p1a: Registeel|Disable|Iron Head|[from] ability: Cursed Body|[of] p2a: Polteageist
+  faint|p2a: Polteageist
+  switch|p2a: Iron Moth|Iron Moth, L78|100/100
+-- turn 44
+  WE CHOSE: attack bodypress - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to malamar - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Iron Moth|Fire Blast|p1a: Registeel
+  -supereffective|p1a: Registeel
+  -damage|p1a: Registeel|0 fnt
+  faint|p1a: Registeel
+  switch|p1a: Malamar|Malamar, L82, F|275/275
+-- turn 45
+  WE CHOSE: attack knockoff - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Iron Moth|Fire Blast|p1a: Malamar
+  -damage|p1a: Malamar|107/275
+  move|p1a: Malamar|Knock Off|p2a: Iron Moth
+  -damage|p2a: Iron Moth|48/100
+  -enditem|p2a: Iron Moth|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Malamar
+  -heal|p1a: Malamar|124/275|[from] item: Leftovers
+-- turn 46
+  WE CHOSE: heal rest - our hp 0.45, theirs 0.48, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rotommow - our hp 0.00, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Iron Moth|Fire Blast|p1a: Malamar
+  -damage|p1a: Malamar|0 fnt
+  faint|p1a: Malamar
+  switch|p1a: Rotom|Rotom-Mow, L87|229/229
+-- turn 47
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.48, predicted move (revealed) hits us x2
+  move|p2a: Iron Moth|Fire Blast|p1a: Rotom
+  -supereffective|p1a: Rotom
+  -damage|p1a: Rotom|19/229
+  move|p1a: Rotom|Thunderbolt|p2a: Iron Moth
+  -damage|p2a: Iron Moth|7/100
+  -heal|p1a: Rotom|33/229|[from] item: Leftovers
+-- turn 48
+  WE CHOSE: attack thunderbolt - our hp 0.14, theirs 0.07, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to chesnaught - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x2
+  move|p2a: Iron Moth|Fire Blast|p1a: Rotom
+  -supereffective|p1a: Rotom
+  -damage|p1a: Rotom|0 fnt
+  faint|p1a: Rotom
+  switch|p1a: Chesnaught|Chesnaught, L84, M|285/285
+-- turn 49
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x2
+  move|p2a: Iron Moth|Fire Blast|p1a: Chesnaught
+  -supereffective|p1a: Chesnaught
+  -damage|p1a: Chesnaught|0 fnt
+  faint|p1a: Chesnaught
+  deinit

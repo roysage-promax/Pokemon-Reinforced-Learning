@@ -1,0 +1,211 @@
+battle 2341 (battle-gen9randombattle-2040476): lost in 19 turns, 1 of theirs left; we are p1
+
+ours:
+  amoonguss (fainted; item rockyhelmet, ability regenerator; moves stompingtantrum/spore/sludgebomb/gigadrain)
+  meloetta (fainted; item lifeorb, ability serenegrace; moves knockoff/relicsong/closecombat/tripleaxel)
+  calyrexice (fainted; item heavydutyboots, ability asoneglastrier; moves glaciallance/highhorsepower/closecombat/trickroom)
+  rillaboom (fainted; item lifeorb, ability grassysurge; moves highhorsepower/woodhammer/grassyglide/swordsdance)
+  golduck (fainted; item lifeorb, ability cloudnine, tera water; moves grassknot/icebeam/hydropump/nastyplot)
+  alcremie (fainted; item leftovers, ability aromaveil; moves psyshock/recover/alluringvoice/calmmind)
+theirs (as seen):
+  magearnaoriginal (fainted; item leftovers, ability soulheart; moves fleurcannon)
+  hatterene (fainted; item unknown_item, ability ?; moves psychicnoise)
+  coalossal (fainted; item unknown_item, ability ?; moves stoneedge)
+  crabominable (fainted; item unknown_item, ability ?; moves closecombat)
+  shayminsky (fainted; item unknown_item, ability serenegrace; moves seedflare)
+  houndoom (20%; item unknown_item, ability ?; moves fireblast)
+
+-- turn 0
+  switch|p1a: Amoonguss|Amoonguss, L82, F|321/321
+  switch|p2a: Magearna|Magearna-Original, L77|100/100
+-- turn 1
+  WE CHOSE: attack stompingtantrum - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Magearna|Fleur Cannon|p1a: Amoonguss
+  -resisted|p1a: Amoonguss
+  -damage|p1a: Amoonguss|234/321
+  -unboost|p2a: Magearna|spa|2
+  move|p1a: Amoonguss|Stomping Tantrum|p2a: Magearna
+  -supereffective|p2a: Magearna
+  -damage|p2a: Magearna|67/100
+  -heal|p2a: Magearna|73/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack stompingtantrum - our hp 0.73, theirs 0.73, predicted move (revealed) hits us x0.5
+  move|p2a: Magearna|Fleur Cannon|p1a: Amoonguss
+  -resisted|p1a: Amoonguss
+  -damage|p1a: Amoonguss|191/321
+  -unboost|p2a: Magearna|spa|2
+  move|p1a: Amoonguss|Stomping Tantrum|p2a: Magearna
+  -supereffective|p2a: Magearna
+  -damage|p2a: Magearna|38/100
+  -heal|p2a: Magearna|44/100|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack stompingtantrum - our hp 0.60, theirs 0.44, predicted move (revealed) hits us x0.5
+  move|p2a: Magearna|Fleur Cannon|p1a: Amoonguss
+  -resisted|p1a: Amoonguss
+  -damage|p1a: Amoonguss|165/321
+  -unboost|p2a: Magearna|spa|2
+  move|p1a: Amoonguss|Stomping Tantrum|p2a: Magearna
+  -supereffective|p2a: Magearna
+  -damage|p2a: Magearna|12/100
+  -heal|p2a: Magearna|18/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack stompingtantrum - our hp 0.51, theirs 0.18, predicted move (revealed) hits us x0.5
+  move|p2a: Magearna|Fleur Cannon|p1a: Amoonguss
+  -resisted|p1a: Amoonguss
+  -damage|p1a: Amoonguss|143/321
+  move|p1a: Amoonguss|Stomping Tantrum|p2a: Magearna
+  -supereffective|p2a: Magearna
+  -damage|p2a: Magearna|0 fnt
+  faint|p2a: Magearna
+  switch|p2a: Hatterene|Hatterene, L85, F|100/100
+-- turn 5
+  WE CHOSE: switch to calyrexice - our hp 0.45, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Calyrex|Calyrex-Ice, L72|263/263
+  -ability|p1a: Calyrex|As One
+  -ability|p1a: Calyrex|Unnerve
+  move|p2a: Hatterene|Psychic Noise|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|214/263
+  -start|p1a: Calyrex|move: Heal Block
+-- turn 6
+  WE CHOSE: attack glaciallance - our hp 0.81, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Hatterene|Psychic Noise|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|171/263
+  move|p1a: Calyrex|Glacial Lance|p2a: Hatterene
+  -damage|p2a: Hatterene|45/100
+  -end|p1a: Calyrex|move: Heal Block
+-- turn 7
+  WE CHOSE: attack glaciallance - our hp 0.65, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p2a: Hatterene|Psychic Noise|p1a: Calyrex
+  -resisted|p1a: Calyrex
+  -damage|p1a: Calyrex|126/263
+  -start|p1a: Calyrex|move: Heal Block
+  move|p1a: Calyrex|Glacial Lance|p2a: Hatterene
+  -crit|p2a: Hatterene
+  -damage|p2a: Hatterene|0 fnt
+  faint|p2a: Hatterene
+  -ability|p1a: Calyrex|Chilling Neigh|boost
+  -boost|p1a: Calyrex|atk|1
+  switch|p2a: Coalossal|Coalossal, L89, M|100/100
+-- turn 8
+  WE CHOSE: switch to golduck - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Golduck|Golduck, L90, M|290/290
+  -ability|p1a: Golduck|Cloud Nine
+  move|p2a: Coalossal|Stone Edge|p1a: Golduck|[miss]
+  -miss|p2a: Coalossal|p1a: Golduck
+-- turn 9
+  WE CHOSE: attack+tera hydropump - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Golduck|Water
+  move|p1a: Golduck|Hydro Pump|p2a: Coalossal
+  -supereffective|p2a: Coalossal
+  -damage|p2a: Coalossal|0 fnt
+  faint|p2a: Coalossal
+  -damage|p1a: Golduck|261/290|[from] item: Life Orb
+  switch|p2a: Crabominable|Crabominable, L90, M|100/100
+-- turn 10
+  WE CHOSE: attack hydropump - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to alcremie - our hp 0.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Golduck|Hydro Pump|p2a: Crabominable
+  -damage|p2a: Crabominable|22/100
+  -damage|p1a: Golduck|232/290|[from] item: Life Orb
+  move|p2a: Crabominable|Close Combat|p1a: Golduck
+  -damage|p1a: Golduck|0 fnt
+  -unboost|p2a: Crabominable|def|1
+  -unboost|p2a: Crabominable|spd|1
+  faint|p1a: Golduck
+  switch|p1a: Alcremie|Alcremie, L90, F|263/263
+-- turn 11
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 0.22, predicted move (revealed) hits us x0.5
+  move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+  -boost|p1a: Alcremie|spa|1
+  -boost|p1a: Alcremie|spd|1
+  move|p2a: Crabominable|Close Combat|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|116/263
+  -unboost|p2a: Crabominable|def|1
+  -unboost|p2a: Crabominable|spd|1
+  -heal|p1a: Alcremie|132/263|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: setup calmmind - our hp 0.50, theirs 0.22, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to meloetta - our hp 0.00, theirs 0.22, predicted move (revealed) hits us x0.5
+  move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+  -boost|p1a: Alcremie|spa|1
+  -boost|p1a: Alcremie|spd|1
+  move|p2a: Crabominable|Close Combat|p1a: Alcremie
+  -resisted|p1a: Alcremie
+  -damage|p1a: Alcremie|0 fnt
+  -unboost|p2a: Crabominable|def|1
+  -unboost|p2a: Crabominable|spd|1
+  faint|p1a: Alcremie
+  switch|p1a: Meloetta|Meloetta, L82|298/298
+-- turn 13
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Meloetta|Close Combat|p2a: Crabominable
+  -supereffective|p2a: Crabominable
+  -damage|p2a: Crabominable|0 fnt
+  -unboost|p1a: Meloetta|def|1
+  -unboost|p1a: Meloetta|spd|1
+  faint|p2a: Crabominable
+  -damage|p1a: Meloetta|269/298|[from] item: Life Orb
+  switch|p2a: Shaymin|Shaymin-Sky, L73|100/100
+-- turn 14
+  WE CHOSE: attack tripleaxel - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Shaymin|Seed Flare|p1a: Meloetta
+  -damage|p1a: Meloetta|136/298
+  -unboost|p1a: Meloetta|spd|2
+  move|p1a: Meloetta|Triple Axel|p2a: Shaymin
+  -supereffective|p2a: Shaymin
+  -damage|p2a: Shaymin|71/100
+  -supereffective|p2a: Shaymin
+  -damage|p2a: Shaymin|13/100
+  -supereffective|p2a: Shaymin
+  -damage|p2a: Shaymin|0 fnt
+  faint|p2a: Shaymin
+  -hitcount|p2: Shaymin|3
+  -damage|p1a: Meloetta|107/298|[from] item: Life Orb
+  switch|p2a: Houndoom|Houndoom, L87, M|100/100
+-- turn 15
+  WE CHOSE: attack closecombat - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Meloetta|[miss]
+  -miss|p2a: Houndoom|p1a: Meloetta
+  move|p1a: Meloetta|Close Combat|p2a: Houndoom
+  -supereffective|p2a: Houndoom
+  -damage|p2a: Houndoom|13/100
+  -unboost|p1a: Meloetta|def|1
+  -unboost|p1a: Meloetta|spd|1
+  -damage|p1a: Meloetta|78/298|[from] item: Life Orb
+-- turn 16
+  WE CHOSE: attack closecombat - our hp 0.26, theirs 0.13, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to calyrexice - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Houndoom|Fire Blast|p1a: Meloetta
+  -damage|p1a: Meloetta|0 fnt
+  faint|p1a: Meloetta
+  switch|p1a: Calyrex|Calyrex-Ice, L72|126/263
+  -ability|p1a: Calyrex|As One
+  -ability|p1a: Calyrex|Unnerve
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 0.48, theirs 0.13, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to rillaboom - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x2
+  move|p2a: Houndoom|Fire Blast|p1a: Calyrex
+  -supereffective|p1a: Calyrex
+  -damage|p1a: Calyrex|0 fnt
+  faint|p1a: Calyrex
+  switch|p1a: Rillaboom|Rillaboom, L79, M|288/288
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+-- turn 18
+  WE CHOSE: attack highhorsepower - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to amoonguss - our hp 0.00, theirs 0.20, predicted move (revealed) hits us x2
+  move|p2a: Houndoom|Fire Blast|p1a: Rillaboom
+  -supereffective|p1a: Rillaboom
+  -damage|p1a: Rillaboom|0 fnt
+  faint|p1a: Rillaboom
+  -heal|p2a: Houndoom|20/100|[from] Grassy Terrain
+  switch|p1a: Amoonguss|Amoonguss, L82, F|250/321
+-- turn 19
+  WE CHOSE: attack stompingtantrum - our hp 0.78, theirs 0.20, predicted move (revealed) hits us x2
+  move|p2a: Houndoom|Fire Blast|p1a: Amoonguss
+  -supereffective|p1a: Amoonguss
+  -damage|p1a: Amoonguss|0 fnt
+  faint|p1a: Amoonguss
+  deinit

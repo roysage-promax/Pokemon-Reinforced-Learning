@@ -1,0 +1,229 @@
+battle 1187 (battle-gen9randombattle-2029559): lost in 23 turns, 1 of theirs left; we are p1
+
+ours:
+  overqwil (fainted; item loadeddice, ability intimidate, tera dragon; moves gunkshot/swordsdance/scaleshot/crunch)
+  golurk (fainted; item lifeorb, ability noguard; moves stoneedge/poltergeist/earthquake/stealthrock)
+  greattusk (fainted; item leftovers, ability protosynthesis; moves earthquake/closecombat/stoneedge/bulkup)
+  enamorustherian (fainted; item choicespecs, ability overcoat; moves earthpower/moonblast/mysticalfire/psychic)
+  regirock (fainted; item leftovers, ability clearbody; moves stoneedge/thunderwave/irondefense/bodypress)
+  beartic (fainted; item heavydutyboots, ability slushrush; moves earthquake/closecombat/iciclecrash/snowscape)
+theirs (as seen):
+  arceusflying (fainted; item unknown_item, ability multitype; moves judgment)
+  dialga (fainted; item unknown_item, ability pressure; moves dracometeor)
+  shayminsky (fainted; item unknown_item, ability serenegrace; moves seedflare)
+  luvdisc (fainted; item unknown_item, ability ?; moves surf)
+  alomomola (fainted; item rockyhelmet, ability ?; moves scald)
+  annihilape (86%; item leftovers, ability ?; moves gunkshot)
+
+-- turn 0
+  switch|p1a: Overqwil|Overqwil, L82, F|274/274
+  switch|p2a: Arceus|Arceus-Flying, L69|100/100
+  -ability|p1a: Overqwil|Intimidate|boost
+  -unboost|p2a: Arceus|atk|1
+-- turn 1
+  WE CHOSE: switch to golurk - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Golurk|Golurk, L87|297/297
+  move|p2a: Arceus|Judgment|p1a: Golurk
+  -damage|p1a: Golurk|188/297
+-- turn 2
+  WE CHOSE: attack stoneedge - our hp 0.63, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Arceus|Judgment|p1a: Golurk
+  -crit|p1a: Golurk
+  -damage|p1a: Golurk|41/297
+  move|p1a: Golurk|Stone Edge|p2a: Arceus
+  -supereffective|p2a: Arceus
+  -damage|p2a: Arceus|27/100
+  -damage|p1a: Golurk|12/297|[from] item: Life Orb
+-- turn 3
+  WE CHOSE: attack stoneedge - our hp 0.04, theirs 0.27, predicted move (revealed) hits us x0
+  WE CHOSE: forced: switch to regirock - our hp 0.00, theirs 0.27, predicted move (revealed) hits us x0
+  move|p2a: Arceus|Judgment|p1a: Golurk
+  -damage|p1a: Golurk|0 fnt
+  faint|p1a: Golurk
+  switch|p1a: Regirock|Regirock, L83|268/268
+-- turn 4
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.27, predicted move (revealed) hits us x0.5
+  move|p2a: Arceus|Judgment|p1a: Regirock
+  -resisted|p1a: Regirock
+  -damage|p1a: Regirock|218/268
+  move|p1a: Regirock|Stone Edge|p2a: Arceus
+  -supereffective|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  -heal|p1a: Regirock|234/268|[from] item: Leftovers
+  switch|p2a: Dialga|Dialga, L73|100/100
+  -ability|p2a: Dialga|Pressure
+-- turn 5
+  WE CHOSE: switch to enamorustherian - our hp 0.87, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Enamorus|Enamorus-Therian, L83, F|259/259
+  move|p2a: Dialga|Draco Meteor|p1a: Enamorus
+  -immune|p1a: Enamorus
+-- turn 6
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Dialga|Draco Meteor|p1a: Enamorus
+  -immune|p1a: Enamorus
+  move|p1a: Enamorus|Earth Power|p2a: Dialga
+  -supereffective|p2a: Dialga
+  -damage|p2a: Dialga|39/100
+-- turn 7
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.39, predicted move (revealed) hits us x0
+  move|p2a: Dialga|Draco Meteor|p1a: Enamorus
+  -immune|p1a: Enamorus
+  move|p1a: Enamorus|Earth Power|p2a: Dialga
+  -supereffective|p2a: Dialga
+  -damage|p2a: Dialga|0 fnt
+  faint|p2a: Dialga
+  switch|p2a: Shaymin|Shaymin-Sky, L73|100/100
+-- turn 8
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Shaymin|Seed Flare|p1a: Enamorus
+  -resisted|p1a: Enamorus
+  -damage|p1a: Enamorus|207/259
+  -unboost|p1a: Enamorus|spd|2
+  move|p1a: Enamorus|Earth Power|p2a: Shaymin
+  -immune|p2a: Shaymin
+-- turn 9
+  WE CHOSE: attack earthpower - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Shaymin|Seed Flare|p1a: Enamorus
+  -resisted|p1a: Enamorus
+  -damage|p1a: Enamorus|99/259
+  -unboost|p1a: Enamorus|spd|2
+  move|p1a: Enamorus|Earth Power|p2a: Shaymin
+  -immune|p2a: Shaymin
+-- turn 10
+  WE CHOSE: attack earthpower - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to overqwil - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Shaymin|Seed Flare|p1a: Enamorus
+  -resisted|p1a: Enamorus
+  -damage|p1a: Enamorus|0 fnt
+  faint|p1a: Enamorus
+  switch|p1a: Overqwil|Overqwil, L82, F|274/274
+  -ability|p1a: Overqwil|Intimidate|boost
+  -unboost|p2a: Shaymin|atk|1
+-- turn 11
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Shaymin|Seed Flare|p1a: Overqwil
+  -resisted|p1a: Overqwil
+  -damage|p1a: Overqwil|204/274
+  -unboost|p1a: Overqwil|spd|2
+  move|p1a: Overqwil|Swords Dance|p1a: Overqwil
+  -boost|p1a: Overqwil|atk|2
+-- turn 12
+  WE CHOSE: attack gunkshot - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Shaymin|Seed Flare|p1a: Overqwil
+  -resisted|p1a: Overqwil
+  -damage|p1a: Overqwil|63/274
+  -unboost|p1a: Overqwil|spd|2
+  move|p1a: Overqwil|Gunk Shot|p2a: Shaymin
+  -supereffective|p2a: Shaymin
+  -damage|p2a: Shaymin|0 fnt
+  faint|p2a: Shaymin
+  switch|p2a: Luvdisc|Luvdisc, M|100/100
+-- turn 13
+  WE CHOSE: attack+tera gunkshot - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to beartic - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Overqwil|Dragon
+  move|p2a: Luvdisc|Surf|p1a: Overqwil
+  -resisted|p1a: Overqwil
+  -damage|p1a: Overqwil|0 fnt
+  faint|p1a: Overqwil
+  switch|p1a: Beartic|Beartic, L91, M|321/321
+-- turn 14
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Luvdisc|Surf|p1a: Beartic
+  -damage|p1a: Beartic|251/321
+  move|p1a: Beartic|Close Combat|p2a: Luvdisc
+  -damage|p2a: Luvdisc|43/100
+  -unboost|p1a: Beartic|def|1
+  -unboost|p1a: Beartic|spd|1
+-- turn 15
+  WE CHOSE: attack closecombat - our hp 0.78, theirs 0.43, predicted move (revealed) hits us x1
+  move|p2a: Luvdisc|Surf|p1a: Beartic
+  -damage|p1a: Beartic|140/321
+  move|p1a: Beartic|Close Combat|p2a: Luvdisc
+  -damage|p2a: Luvdisc|0 fnt
+  -unboost|p1a: Beartic|def|1
+  -unboost|p1a: Beartic|spd|1
+  faint|p2a: Luvdisc
+  switch|p2a: Alomomola|Alomomola, L87, M|100/100
+-- turn 16
+  WE CHOSE: attack closecombat - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to greattusk - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Alomomola|Scald|p1a: Beartic
+  -damage|p1a: Beartic|43/321
+  move|p1a: Beartic|Close Combat|p2a: Alomomola
+  -damage|p2a: Alomomola|69/100
+  -unboost|p1a: Beartic|def|1
+  -unboost|p1a: Beartic|spd|1
+  -damage|p1a: Beartic|0 fnt|[from] item: Rocky Helmet|[of] p2a: Alomomola
+  faint|p1a: Beartic
+  switch|p1a: Great Tusk|Great Tusk, L77|304/304
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.69, predicted move (revealed) hits us x2
+  move|p1a: Great Tusk|Close Combat|p2a: Alomomola
+  -damage|p2a: Alomomola|36/100
+  -unboost|p1a: Great Tusk|def|1
+  -unboost|p1a: Great Tusk|spd|1
+  -damage|p1a: Great Tusk|254/304|[from] item: Rocky Helmet|[of] p2a: Alomomola
+  move|p2a: Alomomola|Scald|p1a: Great Tusk
+  -supereffective|p1a: Great Tusk
+  -damage|p1a: Great Tusk|30/304
+  -heal|p1a: Great Tusk|49/304|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack closecombat - our hp 0.16, theirs 0.36, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to regirock - our hp 0.00, theirs 0.02, predicted move (revealed) hits us x2
+  move|p1a: Great Tusk|Close Combat|p2a: Alomomola
+  -damage|p2a: Alomomola|2/100
+  -unboost|p1a: Great Tusk|def|1
+  -unboost|p1a: Great Tusk|spd|1
+  -damage|p1a: Great Tusk|0 fnt|[from] item: Rocky Helmet|[of] p2a: Alomomola
+  faint|p1a: Great Tusk
+  -end|p1a: Great Tusk|Protosynthesis|[silent]
+  move|p2a: Alomomola|Scald|p1: Great Tusk|[notarget]
+  -fail|p2a: Alomomola
+  switch|p1a: Regirock|Regirock, L83|234/268
+-- turn 19
+  WE CHOSE: attack stoneedge - our hp 0.87, theirs 0.02, predicted move (revealed) hits us x2
+  move|p2a: Alomomola|Scald|p1a: Regirock
+  -supereffective|p1a: Regirock
+  -damage|p1a: Regirock|150/268
+  move|p1a: Regirock|Stone Edge|p2a: Alomomola|[miss]
+  -miss|p1a: Regirock|p2a: Alomomola
+  -heal|p1a: Regirock|166/268|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack stoneedge - our hp 0.62, theirs 0.02, predicted move (revealed) hits us x2
+  move|p2a: Alomomola|Scald|p1a: Regirock
+  -supereffective|p1a: Regirock
+  -damage|p1a: Regirock|70/268
+  move|p1a: Regirock|Stone Edge|p2a: Alomomola
+  -damage|p2a: Alomomola|0 fnt
+  faint|p2a: Alomomola
+  -heal|p1a: Regirock|86/268|[from] item: Leftovers
+  switch|p2a: Annihilape|Annihilape, L76, F|100/100
+-- turn 21
+  WE CHOSE: attack stoneedge - our hp 0.32, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Annihilape|Gunk Shot|p1a: Regirock
+  -resisted|p1a: Regirock
+  -damage|p1a: Regirock|63/268
+  -status|p1a: Regirock|psn
+  move|p1a: Regirock|Stone Edge|p2a: Annihilape|[miss]
+  -miss|p1a: Regirock|p2a: Annihilape
+  -heal|p1a: Regirock|79/268 psn|[from] item: Leftovers
+  -damage|p1a: Regirock|46/268 psn|[from] psn
+-- turn 22
+  WE CHOSE: attack stoneedge - our hp 0.17, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Annihilape|Gunk Shot|p1a: Regirock
+  -resisted|p1a: Regirock
+  -damage|p1a: Regirock|25/268 psn
+  move|p1a: Regirock|Stone Edge|p2a: Annihilape
+  -resisted|p2a: Annihilape
+  -damage|p2a: Annihilape|80/100
+  -heal|p2a: Annihilape|86/100|[from] item: Leftovers
+  -heal|p1a: Regirock|41/268 psn|[from] item: Leftovers
+  -damage|p1a: Regirock|8/268 psn|[from] psn
+-- turn 23
+  WE CHOSE: attack stoneedge - our hp 0.03, theirs 0.86, predicted move (revealed) hits us x0.5
+  move|p2a: Annihilape|Gunk Shot|p1a: Regirock
+  -resisted|p1a: Regirock
+  -damage|p1a: Regirock|0 fnt
+  faint|p1a: Regirock

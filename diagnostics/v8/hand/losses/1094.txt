@@ -1,0 +1,230 @@
+battle 1094 (battle-gen9randombattle-2028716): lost in 24 turns, 2 of theirs left; we are p1
+
+ours:
+  bellibolt (fainted; item leftovers, ability electromorphosis, tera water; moves thunderbolt/muddywater/voltswitch/slackoff)
+  altaria (fainted; item heavydutyboots, ability naturalcure; moves earthquake/bravebird/roost/dragondance)
+  leavanny (fainted; item heavydutyboots, ability swarm; moves leafblade/knockoff/stickyweb/lunge)
+  arceusrock (fainted; item stoneplate, ability multitype; moves swordsdance/earthquake/stoneedge/recover)
+  politoed (fainted; item chestoberry, ability drizzle; moves surf/encore/rest/icebeam)
+  ambipom (fainted; item choiceband, ability technician; moves tripleaxel/doubleedge/knockoff/lowkick)
+theirs (as seen):
+  ampharos (fainted; item unknown_item, ability ?; moves focusblast)
+  slitherwing (fainted; item ?, ability protosynthesis; moves closecombat)
+  vigoroth (fainted; item unknown_item, ability vitalspirit; moves bodyslam)
+  basculinbluestriped (fainted; item unknown_item, ability ?; moves wavecrash)
+  victreebel (6%; item lifeorb, ability ?; moves powerwhip)
+
+-- turn 0
+  switch|p1a: Bellibolt|Bellibolt, L84, F|320/320
+  switch|p2a: Ampharos|Ampharos, L88, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera muddywater - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Bellibolt|Water
+  move|p2a: Ampharos|Focus Blast|p1a: Bellibolt
+  -damage|p1a: Bellibolt|150/320
+  -start|p1a: Bellibolt|Charge|Focus Blast|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Muddy Water|p2a: Ampharos
+  -damage|p2a: Ampharos|67/100
+  -heal|p1a: Bellibolt|170/320|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack muddywater - our hp 0.53, theirs 0.67, predicted move (revealed) hits us x1
+  move|p2a: Ampharos|Focus Blast|p1a: Bellibolt|[miss]
+  -miss|p2a: Ampharos|p1a: Bellibolt
+  move|p1a: Bellibolt|Muddy Water|p2a: Ampharos
+  -damage|p2a: Ampharos|36/100
+  -unboost|p2a: Ampharos|accuracy|1
+  -heal|p1a: Bellibolt|190/320|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack muddywater - our hp 0.59, theirs 0.36, predicted move (revealed) hits us x1
+  move|p2a: Ampharos|Focus Blast|p1a: Bellibolt
+  -damage|p1a: Bellibolt|26/320
+  -start|p1a: Bellibolt|Charge|Focus Blast|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Muddy Water|p2a: Ampharos|[miss]
+  -miss|p1a: Bellibolt|p2a: Ampharos
+  -heal|p1a: Bellibolt|46/320|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: heal slackoff - our hp 0.14, theirs 0.36, predicted move (revealed) hits us x1
+  move|p2a: Ampharos|Focus Blast|p1a: Bellibolt|[miss]
+  -miss|p2a: Ampharos|p1a: Bellibolt
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|206/320
+  -heal|p1a: Bellibolt|226/320|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack muddywater - our hp 0.71, theirs 0.36, predicted move (revealed) hits us x1
+  move|p2a: Ampharos|Focus Blast|p1a: Bellibolt
+  -damage|p1a: Bellibolt|47/320
+  -start|p1a: Bellibolt|Charge|Focus Blast|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Muddy Water|p2a: Ampharos
+  -damage|p2a: Ampharos|6/100
+  -heal|p1a: Bellibolt|67/320|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: heal slackoff - our hp 0.21, theirs 0.06, predicted move (revealed) hits us x1
+  move|p2a: Ampharos|Focus Blast|p1a: Bellibolt|[miss]
+  -miss|p2a: Ampharos|p1a: Bellibolt
+  move|p1a: Bellibolt|Slack Off|p1a: Bellibolt
+  -heal|p1a: Bellibolt|227/320
+  -heal|p1a: Bellibolt|247/320|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack muddywater - our hp 0.77, theirs 0.06, predicted move (revealed) hits us x1
+  move|p2a: Ampharos|Focus Blast|p1a: Bellibolt
+  -damage|p1a: Bellibolt|74/320
+  -unboost|p1a: Bellibolt|spd|1
+  -start|p1a: Bellibolt|Charge|Focus Blast|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Muddy Water|p2a: Ampharos
+  -damage|p2a: Ampharos|0 fnt
+  faint|p2a: Ampharos
+  -heal|p1a: Bellibolt|94/320|[from] item: Leftovers
+  switch|p2a: Slither Wing|Slither Wing, L81|100/100
+  -enditem|p2a: Slither Wing|Booster Energy
+  -activate|p2a: Slither Wing|ability: Protosynthesis|[fromitem]
+  -start|p2a: Slither Wing|protosynthesisatk
+-- turn 8
+  WE CHOSE: heal slackoff - our hp 0.29, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to altaria - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Slither Wing|Close Combat|p1a: Bellibolt
+  -damage|p1a: Bellibolt|0 fnt
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+  faint|p1a: Bellibolt
+  switch|p1a: Altaria|Altaria, L89, M|278/278
+-- turn 9
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Altaria|Dragon Dance|p1a: Altaria
+  -boost|p1a: Altaria|atk|1
+  -boost|p1a: Altaria|spe|1
+  move|p2a: Slither Wing|Close Combat|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|190/278
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+-- turn 10
+  WE CHOSE: setup dragondance - our hp 0.68, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Altaria|Dragon Dance|p1a: Altaria
+  -boost|p1a: Altaria|atk|1
+  -boost|p1a: Altaria|spe|1
+  move|p2a: Slither Wing|Close Combat|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|97/278
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+-- turn 11
+  WE CHOSE: heal roost - our hp 0.35, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Altaria|Roost|p1a: Altaria
+  -heal|p1a: Altaria|236/278
+  -singleturn|p1a: Altaria|move: Roost
+  move|p2a: Slither Wing|Close Combat|p1a: Altaria
+  -damage|p1a: Altaria|56/278
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+-- turn 12
+  WE CHOSE: heal roost - our hp 0.20, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Altaria|Roost|p1a: Altaria
+  -heal|p1a: Altaria|195/278
+  -singleturn|p1a: Altaria|move: Roost
+  move|p2a: Slither Wing|Close Combat|p1a: Altaria
+  -damage|p1a: Altaria|14/278
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.05, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to leavanny - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Altaria|Roost|p1a: Altaria
+  -heal|p1a: Altaria|153/278
+  -singleturn|p1a: Altaria|move: Roost
+  move|p2a: Slither Wing|Close Combat|p1a: Altaria
+  -damage|p1a: Altaria|0 fnt
+  -unboost|p2a: Slither Wing|def|1
+  -unboost|p2a: Slither Wing|spd|1
+  faint|p1a: Altaria
+  switch|p1a: Leavanny|Leavanny, L86, F|269/269
+-- turn 14
+  WE CHOSE: attack leafblade - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Leavanny|Leaf Blade|p2a: Slither Wing
+  -resisted|p2a: Slither Wing
+  -damage|p2a: Slither Wing|14/100
+  move|p2a: Slither Wing|Close Combat|p1a: Leavanny
+  -resisted|p1a: Leavanny
+  -damage|p1a: Leavanny|170/269
+-- turn 15
+  WE CHOSE: attack leafblade - our hp 0.63, theirs 0.14, predicted move (revealed) hits us x0.5
+  move|p1a: Leavanny|Leaf Blade|p2a: Slither Wing
+  -resisted|p2a: Slither Wing
+  -damage|p2a: Slither Wing|0 fnt
+  faint|p2a: Slither Wing
+  -end|p2a: Slither Wing|Protosynthesis|[silent]
+  switch|p2a: Vigoroth|Vigoroth, L85, M|100/100
+-- turn 16
+  WE CHOSE: attack leafblade - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p1a: Leavanny|Leaf Blade|p2a: Vigoroth
+  -crit|p2a: Vigoroth
+  -damage|p2a: Vigoroth|62/100
+  move|p2a: Vigoroth|Body Slam|p1a: Leavanny
+  -damage|p1a: Leavanny|77/269
+  -status|p1a: Leavanny|par
+-- turn 17
+  WE CHOSE: attack leafblade - our hp 0.29, theirs 0.62, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to arceusrock - our hp 0.00, theirs 0.62, predicted move (revealed) hits us x1
+  move|p2a: Vigoroth|Body Slam|p1a: Leavanny
+  -damage|p1a: Leavanny|0 fnt
+  faint|p1a: Leavanny
+  switch|p1a: Arceus|Arceus-Rock, L74|300/300
+-- turn 18
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p1a: Arceus|Swords Dance|p1a: Arceus
+  -boost|p1a: Arceus|atk|2
+  move|p2a: Vigoroth|Body Slam|p1a: Arceus
+  -resisted|p1a: Arceus
+  -damage|p1a: Arceus|264/300
+  -status|p1a: Arceus|par
+-- turn 19
+  WE CHOSE: attack stoneedge - our hp 0.88, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p2a: Vigoroth|Body Slam|p1a: Arceus
+  -resisted|p1a: Arceus
+  -damage|p1a: Arceus|228/300 par
+  move|p1a: Arceus|Stone Edge|p2a: Vigoroth
+  -damage|p2a: Vigoroth|5/100
+-- turn 20
+  WE CHOSE: attack stoneedge - our hp 0.76, theirs 0.05, predicted move (revealed) hits us x0.5
+  move|p2a: Vigoroth|Body Slam|p1a: Arceus
+  -resisted|p1a: Arceus
+  -damage|p1a: Arceus|195/300 par
+  move|p1a: Arceus|Stone Edge|p2a: Vigoroth
+  -damage|p2a: Vigoroth|0 fnt
+  faint|p2a: Vigoroth
+  switch|p2a: Basculin|Basculin-Blue-Striped, L86, M|100/100
+-- turn 21
+  WE CHOSE: attack stoneedge - our hp 0.65, theirs 1.00, predicted move (unknown) hits us x0
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x2
+  move|p2a: Basculin|Wave Crash|p1a: Arceus
+  -supereffective|p1a: Arceus
+  -damage|p1a: Arceus|0 fnt
+  faint|p1a: Arceus
+  -damage|p2a: Basculin|76/100|[from] Recoil
+  switch|p1a: Ambipom|Ambipom, L84, M|263/263
+-- turn 22
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Double-Edge|p2a: Basculin
+  -damage|p2a: Basculin|0 fnt
+  faint|p2a: Basculin
+  -damage|p1a: Ambipom|198/263|[from] Recoil
+  switch|p2a: Victreebel|Victreebel, L90, M|100/100
+-- turn 23
+  WE CHOSE: attack doubleedge - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to politoed - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Double-Edge|p2a: Victreebel
+  -damage|p2a: Victreebel|26/100
+  -damage|p1a: Ambipom|127/263|[from] Recoil
+  move|p2a: Victreebel|Power Whip|p1a: Ambipom
+  -damage|p1a: Ambipom|0 fnt
+  faint|p1a: Ambipom
+  -damage|p2a: Victreebel|16/100|[from] item: Life Orb
+  switch|p1a: Politoed|Politoed, L88, F|302/302
+  -weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+-- turn 24
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x2
+  move|p2a: Victreebel|Power Whip|p1a: Politoed
+  -supereffective|p1a: Politoed
+  -damage|p1a: Politoed|0 fnt
+  faint|p1a: Politoed
+  -damage|p2a: Victreebel|6/100|[from] item: Life Orb
+  deinit

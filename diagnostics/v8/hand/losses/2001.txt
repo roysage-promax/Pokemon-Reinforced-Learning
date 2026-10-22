@@ -1,0 +1,258 @@
+battle 2001 (battle-gen9randombattle-2037309): lost in 30 turns, 1 of theirs left; we are p1
+
+ours:
+  swanna (fainted; item heavydutyboots, ability hydration; moves hydropump/defog/bravebird/roost)
+  vileplume (fainted; item leftovers, ability effectspore; moves gigadrain/sludgebomb/strengthsap/sleeppowder)
+  spiritomb (fainted; item leftovers, ability infiltrator; moves toxic/foulplay/shadowsneak/poltergeist)
+  ambipom (fainted; item silkscarf, ability technician, tera normal; moves doubleedge/knockoff/lowkick/fakeout)
+  ogerponcornerstone (fainted; item cornerstonemask, ability sturdy; moves ivycudgel/encore/powerwhip/synthesis)
+  scyther (fainted; item heavydutyboots, ability technician; moves dualwingbeat/closecombat/uturn/defog)
+theirs (as seen):
+  palkia (fainted; item unknown_item, ability pressure; moves dracometeor)
+  farigiraf (fainted; item leftovers, ability ?; moves bodyslam)
+  dusknoir (fainted; item ?, ability frisk; moves sludgebomb/poltergeist)
+  zoroark (fainted; item lifeorb, ability illusion; moves sludgebomb)
+  magmortar (fainted; item unknown_item, ability ?; moves fireblast)
+  masquerain (43%; item unknown_item, ability intimidate; moves hydropump/hurricane)
+
+-- turn 0
+  switch|p1a: Swanna|Swanna, L89, M|278/278
+  switch|p2a: Palkia|Palkia, L75|100/100
+  -ability|p2a: Palkia|Pressure
+-- turn 1
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p1a: Swanna|Brave Bird|p2a: Palkia
+  -damage|p2a: Palkia|51/100
+  -damage|p1a: Swanna|235/278|[from] Recoil
+  move|p2a: Palkia|Draco Meteor|p1a: Swanna
+  -damage|p1a: Swanna|0 fnt
+  -unboost|p2a: Palkia|spa|2
+  faint|p1a: Swanna
+  switch|p1a: Ambipom|Ambipom, L84, M|263/263
+-- turn 2
+  WE CHOSE: attack+tera doubleedge - our hp 1.00, theirs 0.51, predicted move (revealed) hits us x1
+  -terastallize|p1a: Ambipom|Normal
+  move|p1a: Ambipom|Double-Edge|p2a: Palkia
+  -damage|p2a: Palkia|0 fnt
+  faint|p2a: Palkia
+  -damage|p1a: Ambipom|220/263|[from] Recoil
+  switch|p2a: Farigiraf|Farigiraf, L90, M|100/100
+-- turn 3
+  WE CHOSE: switch to spiritomb - our hp 0.84, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Spiritomb|Spiritomb, L89, M|234/234
+  move|p2a: Farigiraf|Body Slam|p1a: Spiritomb
+  -immune|p1a: Spiritomb
+-- turn 4
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Farigiraf|Body Slam|p1a: Spiritomb
+  -immune|p1a: Spiritomb
+  move|p1a: Spiritomb|Foul Play|p2a: Farigiraf
+  -supereffective|p2a: Farigiraf
+  -damage|p2a: Farigiraf|31/100
+  -heal|p2a: Farigiraf|37/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 0.37, predicted move (revealed) hits us x0
+  move|p2a: Farigiraf|Body Slam|p1a: Spiritomb
+  -immune|p1a: Spiritomb
+  move|p1a: Spiritomb|Foul Play|p2a: Farigiraf
+  -supereffective|p2a: Farigiraf
+  -damage|p2a: Farigiraf|0 fnt
+  faint|p2a: Farigiraf
+  switch|p2a: Dusknoir|Dusknoir, L89, F|100/100
+-- turn 6
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Dusknoir|Sludge Bomb|p1a: Spiritomb
+  -resisted|p1a: Spiritomb
+  -damage|p1a: Spiritomb|195/234
+  -damage|p2a: Dusknoir|91/100|[from] item: Life Orb
+  move|p1a: Spiritomb|Foul Play|p2a: Dusknoir
+  -resisted|p2a: Dusknoir
+  -damage|p2a: Dusknoir|65/100
+  replace|p2a: Zoroark|Zoroark, L83, F
+  -end|p2a: Zoroark|Illusion
+  -heal|p1a: Spiritomb|209/234|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack poltergeist - our hp 0.89, theirs 0.65, predicted move (guessed) hits us x0
+  move|p2a: Zoroark|Sludge Bomb|p1a: Spiritomb
+  -resisted|p1a: Spiritomb
+  -damage|p1a: Spiritomb|167/234
+  -damage|p2a: Zoroark|55/100|[from] item: Life Orb
+  move|p1a: Spiritomb|Poltergeist|p2a: Zoroark
+  -activate|p2a: Zoroark|move: Poltergeist|Life Orb
+  -resisted|p2a: Zoroark
+  -damage|p2a: Zoroark|21/100
+  -heal|p1a: Spiritomb|181/234|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack poltergeist - our hp 0.77, theirs 0.21, predicted move (revealed) hits us x0.5
+  move|p2a: Zoroark|Sludge Bomb|p1a: Spiritomb
+  -resisted|p1a: Spiritomb
+  -damage|p1a: Spiritomb|142/234
+  -damage|p2a: Zoroark|12/100|[from] item: Life Orb
+  move|p1a: Spiritomb|Poltergeist|p2a: Zoroark
+  -activate|p2a: Zoroark|move: Poltergeist|Life Orb
+  -resisted|p2a: Zoroark
+  -damage|p2a: Zoroark|0 fnt
+  faint|p2a: Zoroark
+  -heal|p1a: Spiritomb|156/234|[from] item: Leftovers
+  switch|p2a: Dusknoir|Dusknoir, L89, F|100/100
+  -item|p1a: Spiritomb|Leftovers|[from] ability: Frisk|[of] p2a: Dusknoir
+-- turn 9
+  WE CHOSE: attack foulplay - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Dusknoir|Poltergeist|p1a: Spiritomb
+  -activate|p1a: Spiritomb|move: Poltergeist|Leftovers
+  -crit|p1a: Spiritomb
+  -damage|p1a: Spiritomb|0 fnt
+  faint|p1a: Spiritomb
+  switch|p1a: Ambipom|Ambipom, L84, M, tera:Normal|220/263
+-- turn 10
+  WE CHOSE: attack knockoff - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Ambipom|Knock Off|p2a: Dusknoir
+  -supereffective|p2a: Dusknoir
+  -damage|p2a: Dusknoir|59/100
+  -enditem|p2a: Dusknoir|Leftovers|[from] move: Knock Off|[of] p1a: Ambipom
+  move|p2a: Dusknoir|Poltergeist|p1a: Ambipom
+  -immune|p1a: Ambipom
+-- turn 11
+  WE CHOSE: attack knockoff - our hp 0.84, theirs 0.59, predicted move (revealed) hits us x0
+  move|p1a: Ambipom|Knock Off|p2a: Dusknoir
+  -supereffective|p2a: Dusknoir
+  -crit|p2a: Dusknoir
+  -damage|p2a: Dusknoir|20/100
+  move|p2a: Dusknoir|Poltergeist|p1a: Ambipom
+  -immune|p1a: Ambipom
+-- turn 12
+  WE CHOSE: attack knockoff - our hp 0.84, theirs 0.20, predicted move (revealed) hits us x0
+  move|p1a: Ambipom|Knock Off|p2a: Dusknoir
+  -supereffective|p2a: Dusknoir
+  -damage|p2a: Dusknoir|0 fnt
+  faint|p2a: Dusknoir
+  switch|p2a: Magmortar|Magmortar, L88, F|100/100
+-- turn 13
+  WE CHOSE: switch to scyther - our hp 0.84, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Scyther|Scyther, L82, F|249/249
+  move|p2a: Magmortar|Fire Blast|p1a: Scyther
+  -supereffective|p1a: Scyther
+  -damage|p1a: Scyther|0 fnt
+  faint|p1a: Scyther
+  switch|p1a: Ambipom|Ambipom, L84, M, tera:Normal|220/263
+-- turn 14
+  WE CHOSE: attack doubleedge - our hp 0.84, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ogerponcornerstone - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Double-Edge|p2a: Magmortar
+  -damage|p2a: Magmortar|7/100
+  -damage|p1a: Ambipom|135/263|[from] Recoil
+  move|p2a: Magmortar|Fire Blast|p1a: Ambipom
+  -damage|p1a: Ambipom|0 fnt
+  faint|p1a: Ambipom
+  switch|p1a: Ogerpon|Ogerpon-Cornerstone, L76, F|247/247
+-- turn 15
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Power Whip|p2a: Magmortar
+  -resisted|p2a: Magmortar
+  -damage|p2a: Magmortar|0 fnt
+  faint|p2a: Magmortar
+  switch|p2a: Masquerain|Masquerain, L87, F|100/100
+  -ability|p2a: Masquerain|Intimidate|boost
+  -unboost|p1a: Ogerpon|atk|1
+-- turn 16
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Ogerpon|Power Whip|p2a: Masquerain
+  -resisted|p2a: Masquerain
+  -damage|p2a: Masquerain|89/100
+  move|p2a: Masquerain|Hydro Pump|p1a: Ogerpon
+  -damage|p1a: Ogerpon|165/247
+-- turn 17
+  WE CHOSE: attack powerwhip - our hp 0.67, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Power Whip|p2a: Masquerain
+  -resisted|p2a: Masquerain
+  -damage|p2a: Masquerain|78/100
+  move|p2a: Masquerain|Hydro Pump|p1a: Ogerpon
+  -damage|p1a: Ogerpon|76/247
+-- turn 18
+  WE CHOSE: heal synthesis - our hp 0.31, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Synthesis|p1a: Ogerpon
+  -heal|p1a: Ogerpon|199/247
+  move|p2a: Masquerain|Hydro Pump|p1a: Ogerpon
+  -damage|p1a: Ogerpon|115/247
+-- turn 19
+  WE CHOSE: heal synthesis - our hp 0.47, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Synthesis|p1a: Ogerpon
+  -heal|p1a: Ogerpon|238/247
+  move|p2a: Masquerain|Hydro Pump|p1a: Ogerpon
+  -damage|p1a: Ogerpon|155/247
+-- turn 20
+  WE CHOSE: attack powerwhip - our hp 0.63, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Power Whip|p2a: Masquerain
+  -resisted|p2a: Masquerain
+  -damage|p2a: Masquerain|66/100
+  move|p2a: Masquerain|Hydro Pump|p1a: Ogerpon|[miss]
+  -miss|p2a: Masquerain|p1a: Ogerpon
+-- turn 21
+  WE CHOSE: attack powerwhip - our hp 0.63, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Power Whip|p2a: Masquerain|[miss]
+  -miss|p1a: Ogerpon|p2a: Masquerain
+  move|p2a: Masquerain|Hydro Pump|p1a: Ogerpon
+  -damage|p1a: Ogerpon|74/247
+-- turn 22
+  WE CHOSE: heal synthesis - our hp 0.30, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Synthesis|p1a: Ogerpon
+  -heal|p1a: Ogerpon|197/247
+  move|p2a: Masquerain|Hydro Pump|p1a: Ogerpon
+  -damage|p1a: Ogerpon|117/247
+-- turn 23
+  WE CHOSE: heal synthesis - our hp 0.47, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Synthesis|p1a: Ogerpon
+  -heal|p1a: Ogerpon|240/247
+  move|p2a: Masquerain|Hydro Pump|p1a: Ogerpon
+  -damage|p1a: Ogerpon|151/247
+-- turn 24
+  WE CHOSE: attack powerwhip - our hp 0.61, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Power Whip|p2a: Masquerain|[miss]
+  -miss|p1a: Ogerpon|p2a: Masquerain
+  move|p2a: Masquerain|Hurricane|p1a: Ogerpon|[miss]
+  -miss|p2a: Masquerain|p1a: Ogerpon
+-- turn 25
+  WE CHOSE: attack powerwhip - our hp 0.61, theirs 0.66, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Power Whip|p2a: Masquerain
+  -resisted|p2a: Masquerain
+  -damage|p2a: Masquerain|55/100
+  move|p2a: Masquerain|Hurricane|p1a: Ogerpon
+  -damage|p1a: Ogerpon|30/247
+-- turn 26
+  WE CHOSE: heal synthesis - our hp 0.12, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Synthesis|p1a: Ogerpon
+  -heal|p1a: Ogerpon|153/247
+  move|p2a: Masquerain|Hurricane|p1a: Ogerpon
+  -damage|p1a: Ogerpon|20/247
+-- turn 27
+  WE CHOSE: heal synthesis - our hp 0.08, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Synthesis|p1a: Ogerpon
+  -heal|p1a: Ogerpon|143/247
+  move|p2a: Masquerain|Hurricane|p1a: Ogerpon
+  -damage|p1a: Ogerpon|16/247
+-- turn 28
+  WE CHOSE: heal synthesis - our hp 0.06, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Synthesis|p1a: Ogerpon
+  -heal|p1a: Ogerpon|139/247
+  move|p2a: Masquerain|Hurricane|p1a: Ogerpon|[miss]
+  -miss|p2a: Masquerain|p1a: Ogerpon
+-- turn 29
+  WE CHOSE: attack powerwhip - our hp 0.56, theirs 0.55, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to vileplume - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Ogerpon|Power Whip|p2a: Masquerain
+  -resisted|p2a: Masquerain
+  -damage|p2a: Masquerain|43/100
+  move|p2a: Masquerain|Hurricane|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  switch|p1a: Vileplume|Vileplume, L85, F|266/266
+-- turn 30
+  WE CHOSE: attack sludgebomb - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p2a: Masquerain|Hurricane|p1a: Vileplume
+  -supereffective|p1a: Vileplume
+  -damage|p1a: Vileplume|0 fnt
+  faint|p1a: Vileplume
+  deinit

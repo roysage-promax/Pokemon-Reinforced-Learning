@@ -1,0 +1,204 @@
+battle 1676 (battle-gen9randombattle-2034236): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  araquanid (fainted; item heavydutyboots, ability waterbubble; moves liquidation/stickyweb/hydropump/leechlife)
+  flapple (fainted; item choiceband, ability hustle; moves uturn/gravapple/outrage/suckerpunch)
+  rhydon (fainted; item eviolite, ability lightningrod; moves stoneedge/swordsdance/earthquake/megahorn)
+  spiritomb (fainted; item leftovers, ability infiltrator, tera ghost; moves poltergeist/foulplay/shadowsneak/willowisp)
+  pincurchin (fainted; item leftovers, ability electricsurge; moves recover/thunderbolt/scald/toxicspikes)
+  baxcalibur (fainted; item choiceband, ability thermalexchange; moves iciclecrash/iceshard/earthquake/glaiverush)
+theirs (as seen):
+  articunogalar (fainted; item unknown_item, ability competitive; moves hurricane)
+  chesnaught (fainted; item unknown_item, ability ?; moves woodhammer)
+  glaceon (fainted; item unknown_item, ability ?; moves freezedry)
+  mudsdale (fainted; item leftovers, ability stamina; moves earthquake)
+  mesprit (fainted; item unknown_item, ability levitate; moves psychic)
+  falinks (4%; item lifeorb, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Araquanid|Araquanid, L82, M|246/246
+  switch|p2a: Articuno|Articuno-Galar, L84|100/100
+-- turn 1
+  WE CHOSE: switch to pincurchin - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Pincurchin|Pincurchin, F|258/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+  move|p2a: Articuno|Hurricane|p1a: Pincurchin
+  -resisted|p1a: Pincurchin
+  -damage|p1a: Pincurchin|198/258
+  -heal|p1a: Pincurchin|214/258|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack thunderbolt - our hp 0.83, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Articuno|Hurricane|p1a: Pincurchin|[miss]
+  -miss|p2a: Articuno|p1a: Pincurchin
+  move|p1a: Pincurchin|Thunderbolt|p2a: Articuno
+  -supereffective|p2a: Articuno
+  -damage|p2a: Articuno|0 fnt
+  faint|p2a: Articuno
+  -heal|p1a: Pincurchin|230/258|[from] item: Leftovers
+  switch|p2a: Chesnaught|Chesnaught, L84, F|100/100
+-- turn 3
+  WE CHOSE: attack thunderbolt - our hp 0.89, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Chesnaught|Wood Hammer|p1a: Pincurchin
+  -damage|p1a: Pincurchin|116/258
+  -damage|p2a: Chesnaught|87/100|[from] Recoil
+  move|p1a: Pincurchin|Thunderbolt|p2a: Chesnaught
+  -resisted|p2a: Chesnaught
+  -damage|p2a: Chesnaught|53/100
+  -heal|p1a: Pincurchin|132/258|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack thunderbolt - our hp 0.51, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Chesnaught|Wood Hammer|p1a: Pincurchin
+  -damage|p1a: Pincurchin|24/258
+  -damage|p2a: Chesnaught|41/100|[from] Recoil
+  move|p1a: Pincurchin|Thunderbolt|p2a: Chesnaught
+  -resisted|p2a: Chesnaught
+  -damage|p2a: Chesnaught|10/100
+  -heal|p1a: Pincurchin|40/258|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: heal recover - our hp 0.16, theirs 0.10, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to baxcalibur - our hp 0.00, theirs 0.05, predicted move (revealed) hits us x1
+  move|p2a: Chesnaught|Wood Hammer|p1a: Pincurchin
+  -damage|p1a: Pincurchin|0 fnt
+  faint|p1a: Pincurchin
+  -damage|p2a: Chesnaught|5/100|[from] Recoil
+  -fieldend|move: Electric Terrain
+  switch|p1a: Baxcalibur|Baxcalibur, L75, M|295/295
+-- turn 6
+  WE CHOSE: attack iciclecrash - our hp 1.00, theirs 0.05, predicted move (revealed) hits us x0.5
+  move|p1a: Baxcalibur|Icicle Crash|p2a: Chesnaught
+  -supereffective|p2a: Chesnaught
+  -damage|p2a: Chesnaught|0 fnt
+  faint|p2a: Chesnaught
+  switch|p2a: Glaceon|Glaceon, L94, F|100/100
+-- turn 7
+  WE CHOSE: attack iciclecrash - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|165/295
+  move|p1a: Baxcalibur|Icicle Crash|p2a: Glaceon
+  -resisted|p2a: Glaceon
+  -crit|p2a: Glaceon
+  -damage|p2a: Glaceon|68/100
+-- turn 8
+  WE CHOSE: attack iciclecrash - our hp 0.56, theirs 0.68, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|27/295
+  move|p1a: Baxcalibur|Icicle Crash|p2a: Glaceon
+  -resisted|p2a: Glaceon
+  -damage|p2a: Glaceon|46/100
+-- turn 9
+  WE CHOSE: attack iciclecrash - our hp 0.09, theirs 0.46, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to araquanid - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Glaceon|Freeze-Dry|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|0 fnt
+  faint|p1a: Baxcalibur
+  switch|p1a: Araquanid|Araquanid, L82, M|246/246
+-- turn 10
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x0.5
+  move|p2a: Glaceon|Freeze-Dry|p1a: Araquanid
+  -supereffective|p1a: Araquanid
+  -damage|p1a: Araquanid|76/246
+  move|p1a: Araquanid|Liquidation|p2a: Glaceon
+  -damage|p2a: Glaceon|9/100
+  -unboost|p2a: Glaceon|def|1
+-- turn 11
+  WE CHOSE: attack hydropump - our hp 0.31, theirs 0.09, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to spiritomb - our hp 0.00, theirs 0.09, predicted move (revealed) hits us x0.5
+  move|p2a: Glaceon|Freeze-Dry|p1a: Araquanid
+  -supereffective|p1a: Araquanid
+  -damage|p1a: Araquanid|0 fnt
+  faint|p1a: Araquanid
+  switch|p1a: Spiritomb|Spiritomb, L89, M|234/234
+-- turn 12
+  WE CHOSE: attack+tera poltergeist - our hp 1.00, theirs 0.09, predicted move (revealed) hits us x1
+  -terastallize|p1a: Spiritomb|Ghost
+  move|p2a: Glaceon|Freeze-Dry|p1a: Spiritomb
+  -damage|p1a: Spiritomb|137/234
+  move|p1a: Spiritomb|Poltergeist|p2a: Glaceon
+  -activate|p2a: Glaceon|move: Poltergeist|Heavy-Duty Boots
+  -damage|p2a: Glaceon|0 fnt
+  faint|p2a: Glaceon
+  -heal|p1a: Spiritomb|151/234|[from] item: Leftovers
+  switch|p2a: Mudsdale|Mudsdale, L83, M|100/100
+-- turn 13
+  WE CHOSE: attack poltergeist - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Spiritomb|Poltergeist|p2a: Mudsdale
+  -activate|p2a: Mudsdale|move: Poltergeist|Leftovers
+  -damage|p2a: Mudsdale|46/100
+  -ability|p2a: Mudsdale|Stamina|boost
+  -boost|p2a: Mudsdale|def|1
+  move|p2a: Mudsdale|Earthquake|p1a: Spiritomb
+  -damage|p1a: Spiritomb|43/234
+  -heal|p1a: Spiritomb|57/234|[from] item: Leftovers
+  -heal|p2a: Mudsdale|52/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack poltergeist - our hp 0.24, theirs 0.52, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to flapple - our hp 0.00, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Spiritomb|Poltergeist|p2a: Mudsdale
+  -activate|p2a: Mudsdale|move: Poltergeist|Leftovers
+  -damage|p2a: Mudsdale|20/100
+  -ability|p2a: Mudsdale|Stamina|boost
+  -boost|p2a: Mudsdale|def|1
+  move|p2a: Mudsdale|Earthquake|p1a: Spiritomb
+  -damage|p1a: Spiritomb|0 fnt
+  faint|p1a: Spiritomb
+  -heal|p2a: Mudsdale|26/100|[from] item: Leftovers
+  switch|p1a: Flapple|Flapple, L88, F|266/266
+-- turn 15
+  WE CHOSE: attack gravapple - our hp 1.00, theirs 0.26, predicted move (revealed) hits us x0.5
+  move|p1a: Flapple|Grav Apple|p2a: Mudsdale|[miss]
+  -miss|p1a: Flapple|p2a: Mudsdale
+  move|p2a: Mudsdale|Earthquake|p1a: Flapple
+  -resisted|p1a: Flapple
+  -damage|p1a: Flapple|203/266
+  -heal|p2a: Mudsdale|32/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack gravapple - our hp 0.76, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p1a: Flapple|Grav Apple|p2a: Mudsdale
+  -supereffective|p2a: Mudsdale
+  -damage|p2a: Mudsdale|0 fnt
+  faint|p2a: Mudsdale
+  switch|p2a: Mesprit|Mesprit, L85|100/100
+-- turn 17
+  WE CHOSE: attack gravapple - our hp 0.76, theirs 1.00, predicted move (guessed) hits us x4
+  move|p2a: Mesprit|Psychic|p1a: Flapple
+  -damage|p1a: Flapple|73/266
+  -unboost|p1a: Flapple|spd|1
+  move|p1a: Flapple|Grav Apple|p2a: Mesprit
+  -damage|p2a: Mesprit|32/100
+  -unboost|p2a: Mesprit|def|1
+-- turn 18
+  WE CHOSE: attack gravapple - our hp 0.27, theirs 0.32, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to rhydon - our hp 0.00, theirs 0.32, predicted move (revealed) hits us x1
+  move|p2a: Mesprit|Psychic|p1a: Flapple
+  -damage|p1a: Flapple|0 fnt
+  faint|p1a: Flapple
+  switch|p1a: Rhydon|Rhydon, L85, F|317/317
+-- turn 19
+  WE CHOSE: attack megahorn - our hp 1.00, theirs 0.32, predicted move (revealed) hits us x1
+  move|p2a: Mesprit|Psychic|p1a: Rhydon
+  -damage|p1a: Rhydon|203/317
+  move|p1a: Rhydon|Megahorn|p2a: Mesprit
+  -supereffective|p2a: Mesprit
+  -damage|p2a: Mesprit|0 fnt
+  faint|p2a: Mesprit
+  switch|p2a: Falinks|Falinks, L84|100/100
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 0.64, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Falinks|Close Combat|p1a: Rhydon
+  -supereffective|p1a: Rhydon
+  -damage|p1a: Rhydon|44/317
+  -unboost|p2a: Falinks|def|1
+  -unboost|p2a: Falinks|spd|1
+  -damage|p2a: Falinks|91/100|[from] item: Life Orb
+  move|p1a: Rhydon|Earthquake|p2a: Falinks
+  -damage|p2a: Falinks|14/100
+-- turn 21
+  WE CHOSE: attack earthquake - our hp 0.14, theirs 0.14, predicted move (revealed) hits us x2
+  move|p2a: Falinks|Close Combat|p1a: Rhydon
+  -supereffective|p1a: Rhydon
+  -damage|p1a: Rhydon|0 fnt
+  -unboost|p2a: Falinks|def|1
+  -unboost|p2a: Falinks|spd|1
+  faint|p1a: Rhydon
+  -damage|p2a: Falinks|4/100|[from] item: Life Orb
+  deinit

@@ -1,0 +1,188 @@
+battle 1874 (battle-gen9randombattle-2036095): lost in 16 turns, 1 of theirs left; we are p1
+
+ours:
+  magmortar (fainted; item heavydutyboots, ability flamebody, tera electric; moves taunt/fireblast/focusblast/thunderbolt)
+  bombirdier (fainted; item choiceband, ability rockypayload; moves bravebird/knockoff/stoneedge/suckerpunch)
+  urshifurapidstrike (fainted; item choiceband, ability unseenfist; moves aquajet/closecombat/uturn/surgingstrikes)
+  staraptor (fainted; item choiceband, ability reckless; moves quickattack/closecombat/uturn/bravebird)
+  terapagosterastal (fainted; item heavydutyboots, ability terashell; moves rapidspin/calmmind/earthpower/terastarstorm)
+  zebstrika (fainted; item lifeorb, ability sapsipper; moves voltswitch/overheat/highhorsepower/supercellslam)
+theirs (as seen):
+  zekrom (fainted; item leftovers, ability teravolt; moves boltstrike)
+  blaziken (fainted; item lifeorb, ability speedboost; moves closecombat)
+  gardevoir (fainted; item unknown_item, ability rockypayload; moves moonblast)
+  deoxys (fainted; item lifeorb, ability pressure; moves psychoboost)
+  dialgaorigin (fainted; item unknown_item, ability pressure; moves dracometeor)
+  trevenant (24%; item ?, ability ?; moves poltergeist)
+
+-- turn 0
+  switch|p1a: Magmortar|Magmortar, L88, M|275/275
+  switch|p2a: Zekrom|Zekrom, L71|100/100
+  -ability|p2a: Zekrom|Teravolt
+-- turn 1
+  WE CHOSE: attack+tera focusblast - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Magmortar|Electric
+  move|p1a: Magmortar|Focus Blast|p2a: Zekrom
+  -damage|p2a: Zekrom|51/100
+  -unboost|p2a: Zekrom|spd|1
+  move|p2a: Zekrom|Bolt Strike|p1a: Magmortar
+  -resisted|p1a: Magmortar
+  -damage|p1a: Magmortar|194/275
+  -heal|p2a: Zekrom|57/100|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack focusblast - our hp 0.71, theirs 0.57, predicted move (revealed) hits us x0.5
+  move|p1a: Magmortar|Focus Blast|p2a: Zekrom
+  -damage|p2a: Zekrom|0 fnt
+  faint|p2a: Zekrom
+  switch|p2a: Blaziken|Blaziken, L76, M|100/100
+-- turn 3
+  WE CHOSE: attack thunderbolt - our hp 0.71, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Magmortar|Thunderbolt|p2a: Blaziken
+  -damage|p2a: Blaziken|39/100
+  move|p2a: Blaziken|Close Combat|p1a: Magmortar
+  -damage|p1a: Magmortar|21/275
+  -unboost|p2a: Blaziken|def|1
+  -unboost|p2a: Blaziken|spd|1
+  -damage|p2a: Blaziken|29/100|[from] item: Life Orb
+  -ability|p2a: Blaziken|Speed Boost|boost
+  -boost|p2a: Blaziken|spe|1
+-- turn 4
+  WE CHOSE: attack thunderbolt - our hp 0.08, theirs 0.29, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bombirdier - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Blaziken|Close Combat|p1a: Magmortar
+  -damage|p1a: Magmortar|0 fnt
+  -unboost|p2a: Blaziken|def|1
+  -unboost|p2a: Blaziken|spd|1
+  faint|p1a: Magmortar
+  -damage|p2a: Blaziken|19/100|[from] item: Life Orb
+  -ability|p2a: Blaziken|Speed Boost|boost
+  -boost|p2a: Blaziken|spe|1
+  switch|p1a: Bombirdier|Bombirdier, L85, M|258/258
+-- turn 5
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Blaziken|Close Combat|p1a: Bombirdier
+  -damage|p1a: Bombirdier|109/258
+  -unboost|p2a: Blaziken|def|1
+  -unboost|p2a: Blaziken|spd|1
+  -damage|p2a: Blaziken|9/100|[from] item: Life Orb
+  move|p1a: Bombirdier|Brave Bird|p2a: Blaziken
+  -supereffective|p2a: Blaziken
+  -damage|p2a: Blaziken|0 fnt
+  faint|p2a: Blaziken
+  -damage|p1a: Bombirdier|102/258|[from] Recoil
+  switch|p2a: Gardevoir|Gardevoir, L83, M|100/100
+  -ability|p2a: Gardevoir|Rocky Payload|Trace|[from] ability: Trace|[of] p1a: Bombirdier
+-- turn 6
+  WE CHOSE: attack bravebird - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to staraptor - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Gardevoir|Moonblast|p1a: Bombirdier
+  -supereffective|p1a: Bombirdier
+  -damage|p1a: Bombirdier|0 fnt
+  faint|p1a: Bombirdier
+  switch|p1a: Staraptor|Staraptor, L79, M|263/263
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Gardevoir|Moonblast|p1a: Staraptor
+  -damage|p1a: Staraptor|85/263
+  -unboost|p1a: Staraptor|spa|1
+  move|p1a: Staraptor|Brave Bird|p2a: Gardevoir
+  -damage|p2a: Gardevoir|0 fnt
+  faint|p2a: Gardevoir
+  -damage|p1a: Staraptor|3/263|[from] Recoil
+  switch|p2a: Deoxys|Deoxys, L74|100/100
+  -ability|p2a: Deoxys|Pressure
+-- turn 8
+  WE CHOSE: attack bravebird - our hp 0.01, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to terapagos - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Staraptor
+  -damage|p1a: Staraptor|0 fnt
+  -unboost|p2a: Deoxys|spa|2
+  faint|p1a: Staraptor
+  -damage|p2a: Deoxys|91/100|[from] item: Life Orb
+  switch|p1a: Terapagos|Terapagos, L77, F|265/265
+  -activate|p1a: Terapagos|ability: Tera Shift
+  detailschange|p1a: Terapagos|Terapagos-Terastal, L77, F
+  -heal|p1a: Terapagos|273/273|[silent]
+-- turn 9
+  WE CHOSE: attack terastarstorm - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Deoxys|Psycho Boost|p1a: Terapagos
+  -activate|p1a: Terapagos|ability: Tera Shell
+  -resisted|p1a: Terapagos
+  -damage|p1a: Terapagos|222/273
+  -unboost|p2a: Deoxys|spa|2
+  -damage|p2a: Deoxys|81/100|[from] item: Life Orb
+  move|p1a: Terapagos|Tera Starstorm|p2a: Deoxys
+  -crit|p2a: Deoxys
+  -damage|p2a: Deoxys|0 fnt
+  faint|p2a: Deoxys
+  switch|p2a: Dialga|Dialga-Origin, L73|100/100
+  -ability|p2a: Dialga|Pressure
+-- turn 10
+  WE CHOSE: attack earthpower - our hp 0.81, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Terapagos|Earth Power|p2a: Dialga
+  -supereffective|p2a: Dialga
+  -damage|p2a: Dialga|61/100
+  move|p2a: Dialga|Draco Meteor|p1a: Terapagos
+  -damage|p1a: Terapagos|56/273
+  -unboost|p2a: Dialga|spa|2
+-- turn 11
+  WE CHOSE: attack earthpower - our hp 0.21, theirs 0.61, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to urshifurapidstrike - our hp 0.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Terapagos|Earth Power|p2a: Dialga
+  -supereffective|p2a: Dialga
+  -damage|p2a: Dialga|22/100
+  -unboost|p2a: Dialga|spd|1
+  move|p2a: Dialga|Draco Meteor|p1a: Terapagos
+  -damage|p1a: Terapagos|0 fnt
+  -unboost|p2a: Dialga|spa|2
+  faint|p1a: Terapagos
+  switch|p1a: Urshifu|Urshifu-Rapid-Strike, L75, F|274/274
+-- turn 12
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.22, predicted move (revealed) hits us x1
+  move|p1a: Urshifu|Close Combat|p2a: Dialga
+  -supereffective|p2a: Dialga
+  -damage|p2a: Dialga|0 fnt
+  -unboost|p1a: Urshifu|def|1
+  -unboost|p1a: Urshifu|spd|1
+  faint|p2a: Dialga
+  switch|p2a: Trevenant|Trevenant, L89, F|100/100
+-- turn 13
+  WE CHOSE: switch to zebstrika - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Zebstrika|Zebstrika, L87, F|272/272
+  move|p2a: Trevenant|Poltergeist|p1a: Zebstrika
+  -activate|p1a: Zebstrika|move: Poltergeist|Life Orb
+  -damage|p1a: Zebstrika|98/272
+-- turn 14
+  WE CHOSE: attack overheat - our hp 0.36, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to urshifurapidstrike - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Zebstrika|Overheat|p2a: Trevenant
+  -supereffective|p2a: Trevenant
+  -damage|p2a: Trevenant|27/100
+  -unboost|p1a: Zebstrika|spa|2
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|52/100|[from] item: Sitrus Berry
+  -damage|p1a: Zebstrika|71/272|[from] item: Life Orb
+  move|p2a: Trevenant|Poltergeist|p1a: Zebstrika
+  -activate|p1a: Zebstrika|move: Poltergeist|Life Orb
+  -damage|p1a: Zebstrika|0 fnt
+  faint|p1a: Zebstrika
+  -item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+  switch|p1a: Urshifu|Urshifu-Rapid-Strike, L75, F|274/274
+-- turn 15
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p1a: Urshifu|U-turn|p2a: Trevenant
+  -damage|p2a: Trevenant|26/100
+  -enditem|p2a: Trevenant|Sitrus Berry|[eat]
+  -heal|p2a: Trevenant|51/100|[from] item: Sitrus Berry
+  move|p2a: Trevenant|Poltergeist|p1a: Urshifu
+  -activate|p1a: Urshifu|move: Poltergeist|Choice Band
+  -damage|p1a: Urshifu|139/274
+-- turn 16
+  WE CHOSE: attack uturn - our hp 0.51, theirs 0.51, predicted move (revealed) hits us x1
+  move|p1a: Urshifu|U-turn|p2a: Trevenant
+  -damage|p2a: Trevenant|24/100
+  move|p2a: Trevenant|Poltergeist|p1a: Urshifu
+  -activate|p1a: Urshifu|move: Poltergeist|Choice Band
+  -damage|p1a: Urshifu|0 fnt
+  faint|p1a: Urshifu
+  deinit

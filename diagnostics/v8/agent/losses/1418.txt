@@ -1,0 +1,272 @@
+battle 1418 (battle-gen9randombattle-2032965): lost in 32 turns, 2 of theirs left; we are p1
+
+ours:
+  sylveon (fainted; item leftovers, ability pixilate; moves calmmind/wish/hypervoice/protect)
+  zarude (fainted; item leftovers, ability leafguard; moves swordsdance/knockoff/powerwhip/synthesis)
+  electivire (fainted; item lifeorb, ability motordrive; moves supercellslam/earthquake/flamethrower/knockoff)
+  mimikyubusted (fainted; item lifeorb, ability disguise, tera fighting; moves shadowsneak/playrough/drainpunch/swordsdance)
+  cetitan (fainted; item ?, ability thickfat; moves iceshard/bellydrum/icespinner/earthquake)
+  lapras (fainted; item heavydutyboots, ability waterabsorb; moves freezedry/sparklingaria/rest/sleeptalk)
+theirs (as seen):
+  sinistcha (fainted; item ?, ability ?; moves matchagotcha)
+  conkeldurr (fainted; item unknown_item, ability ?; moves closecombat)
+  skeledirge (fainted; item unknown_item, ability ?; moves torchsong)
+  incineroar (fainted; item unknown_item, ability intimidate; moves flareblitz)
+  regigigas (46%; item leftovers, ability slowstart; moves bodyslam)
+
+-- turn 0
+  switch|p1a: Sylveon|Sylveon, L85, M|300/300
+  switch|p2a: Sinistcha|Sinistcha, L83|100/100
+-- turn 1
+  WE CHOSE: switch to zarude (hand policy: setup+tera calmmind) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Zarude|Zarude, L77|288/288
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Zarude
+  -resisted|p1a: Zarude
+  -damage|p1a: Zarude|232/288
+  -heal|p1a: Zarude|250/288|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: setup swordsdance - our hp 0.87, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Zarude|Swords Dance|p1a: Zarude
+  -boost|p1a: Zarude|atk|2
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Zarude|[miss]
+  -miss|p2a: Sinistcha|p1a: Zarude
+  -heal|p1a: Zarude|268/288|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: setup swordsdance (hand policy: attack knockoff) - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Zarude|Swords Dance|p1a: Zarude
+  -boost|p1a: Zarude|atk|2
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Zarude
+  -resisted|p1a: Zarude
+  -damage|p1a: Zarude|219/288
+  -heal|p1a: Zarude|237/288|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack knockoff - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Zarude|Knock Off|p2a: Sinistcha
+  -supereffective|p2a: Sinistcha
+  -damage|p2a: Sinistcha|0 fnt
+  -enditem|p2a: Sinistcha|Leftovers|[from] move: Knock Off|[of] p1a: Zarude
+  faint|p2a: Sinistcha
+  -heal|p1a: Zarude|255/288|[from] item: Leftovers
+  switch|p2a: Conkeldurr|Conkeldurr, L80, F|100/100
+-- turn 5
+  WE CHOSE: switch to mimikyu - our hp 0.89, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Mimikyu|Mimikyu, L79, F|216/216
+  move|p2a: Conkeldurr|Close Combat|p1a: Mimikyu
+  -immune|p1a: Mimikyu
+  -status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+-- turn 6
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+  -boost|p1a: Mimikyu|atk|2
+  move|p2a: Conkeldurr|Close Combat|p1a: Mimikyu
+  -immune|p1a: Mimikyu
+  -damage|p2a: Conkeldurr|94/100 brn|[from] brn
+-- turn 7
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0
+  move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+  -boost|p1a: Mimikyu|atk|2
+  move|p2a: Conkeldurr|Close Combat|p1a: Mimikyu
+  -immune|p1a: Mimikyu
+  -damage|p2a: Conkeldurr|88/100 brn|[from] brn
+-- turn 8
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.88, predicted move (revealed) hits us x0
+  move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+  -boost|p1a: Mimikyu|atk|2
+  move|p2a: Conkeldurr|Close Combat|p1a: Mimikyu
+  -immune|p1a: Mimikyu
+  -damage|p2a: Conkeldurr|82/100 brn|[from] brn
+-- turn 9
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.82, predicted move (revealed) hits us x0
+  move|p1a: Mimikyu|Play Rough|p2a: Conkeldurr
+  -supereffective|p2a: Conkeldurr
+  -damage|p2a: Conkeldurr|0 fnt
+  faint|p2a: Conkeldurr
+  -damage|p1a: Mimikyu|195/216|[from] item: Life Orb
+  switch|p2a: Skeledirge|Skeledirge, L79, F|100/100
+-- turn 10
+  WE CHOSE: attack+tera shadowsneak (hand policy: switch to zarude) - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Mimikyu|Fighting
+  move|p1a: Mimikyu|Shadow Sneak|p2a: Skeledirge
+  -supereffective|p2a: Skeledirge
+  -damage|p2a: Skeledirge|71/100
+  -damage|p1a: Mimikyu|174/216|[from] item: Life Orb
+  move|p2a: Skeledirge|Torch Song|p1a: Mimikyu
+  -activate|p1a: Mimikyu|ability: Disguise
+  -damage|p1a: Mimikyu|174/216
+  -boost|p2a: Skeledirge|spa|1
+  detailschange|p1a: Mimikyu|Mimikyu-Busted, L79, F, tera:Fighting
+  -damage|p1a: Mimikyu|147/216|[from] pokemon: Mimikyu-Busted
+-- turn 11
+  WE CHOSE: attack shadowsneak - our hp 0.68, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Mimikyu|Shadow Sneak|p2a: Skeledirge
+  -supereffective|p2a: Skeledirge
+  -damage|p2a: Skeledirge|39/100
+  -damage|p1a: Mimikyu|126/216|[from] item: Life Orb
+  move|p2a: Skeledirge|Torch Song|p1a: Mimikyu
+  -damage|p1a: Mimikyu|20/216
+  -boost|p2a: Skeledirge|spa|1
+-- turn 12
+  WE CHOSE: attack shadowsneak - our hp 0.09, theirs 0.39, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to electivire (hand policy: forced: switch to lapras) - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Mimikyu|Shadow Sneak|p2a: Skeledirge
+  -supereffective|p2a: Skeledirge
+  -damage|p2a: Skeledirge|10/100
+  -damage|p1a: Mimikyu|0 fnt|[from] item: Life Orb
+  faint|p1a: Mimikyu
+  move|p2a: Skeledirge|Torch Song|p1: Mimikyu|[notarget]
+  -fail|p2a: Skeledirge
+  switch|p1a: Electivire|Electivire, L84, M|263/263
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Electivire|Earthquake|p2a: Skeledirge
+  -supereffective|p2a: Skeledirge
+  -damage|p2a: Skeledirge|0 fnt
+  faint|p2a: Skeledirge
+  -damage|p1a: Electivire|237/263|[from] item: Life Orb
+  switch|p2a: Incineroar|Incineroar, L82, F|100/100
+  -ability|p2a: Incineroar|Intimidate|boost
+  -unboost|p1a: Electivire|atk|1
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Electivire|Earthquake|p2a: Incineroar
+  -supereffective|p2a: Incineroar
+  -damage|p2a: Incineroar|52/100
+  -damage|p1a: Electivire|211/263|[from] item: Life Orb
+  move|p2a: Incineroar|Flare Blitz|p1a: Electivire
+  -damage|p1a: Electivire|36/263
+  -damage|p2a: Incineroar|32/100|[from] Recoil
+-- turn 15
+  WE CHOSE: attack earthquake - our hp 0.14, theirs 0.32, predicted move (revealed) hits us x1
+  move|p1a: Electivire|Earthquake|p2a: Incineroar
+  -supereffective|p2a: Incineroar
+  -damage|p2a: Incineroar|0 fnt
+  faint|p2a: Incineroar
+  -damage|p1a: Electivire|10/263|[from] item: Life Orb
+  switch|p2a: Regigigas|Regigigas, L84|100/100
+  -start|p2a: Regigigas|ability: Slow Start
+-- turn 16
+  WE CHOSE: switch to zarude (hand policy: attack supercellslam) - our hp 0.04, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Zarude|Zarude, L77|255/288
+  move|p2a: Regigigas|Body Slam|p1a: Zarude
+  -damage|p1a: Zarude|189/288
+  -status|p1a: Zarude|par
+  -heal|p1a: Zarude|207/288 par|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack knockoff (hand policy: attack powerwhip) - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Zarude
+  -damage|p1a: Zarude|144/288 par
+  cant|p1a: Zarude|par
+  -heal|p1a: Zarude|162/288 par|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: heal synthesis (hand policy: attack powerwhip) - our hp 0.56, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Zarude
+  -damage|p1a: Zarude|102/288 par
+  cant|p1a: Zarude|par
+  -heal|p1a: Zarude|120/288 par|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: switch to electivire (hand policy: heal synthesis) - our hp 0.42, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lapras (hand policy: forced: switch to zarude) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Electivire|Electivire, L84, M|10/263
+  move|p2a: Regigigas|Body Slam|p1a: Electivire
+  -damage|p1a: Electivire|0 fnt
+  faint|p1a: Electivire
+  switch|p1a: Lapras|Lapras, L87, F|368/368
+-- turn 20
+  WE CHOSE: attack sparklingaria - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Lapras|Sparkling Aria|p2a: Regigigas
+  -damage|p2a: Regigigas|77/100
+  move|p2a: Regigigas|Body Slam|p1a: Lapras
+  -damage|p1a: Lapras|302/368
+  -heal|p2a: Regigigas|83/100|[from] item: Leftovers
+  -end|p2a: Regigigas|Slow Start
+-- turn 21
+  WE CHOSE: attack sparklingaria - our hp 0.82, theirs 0.83, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Lapras
+  -damage|p1a: Lapras|169/368
+  move|p1a: Lapras|Sparkling Aria|p2a: Regigigas
+  -damage|p2a: Regigigas|60/100
+  -heal|p2a: Regigigas|66/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal rest - our hp 0.46, theirs 0.66, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Lapras
+  -damage|p1a: Lapras|18/368
+  move|p1a: Lapras|Rest|p1a: Lapras
+  -status|p1a: Lapras|slp|[from] move: Rest
+  -heal|p1a: Lapras|368/368 slp|[silent]
+  -heal|p2a: Regigigas|73/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack sparklingaria - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Lapras
+  -damage|p1a: Lapras|223/368 slp
+  cant|p1a: Lapras|slp
+  -heal|p2a: Regigigas|79/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack sparklingaria - our hp 0.61, theirs 0.79, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Lapras
+  -damage|p1a: Lapras|91/368 slp
+  cant|p1a: Lapras|slp
+  -heal|p2a: Regigigas|85/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: heal rest - our hp 0.25, theirs 0.85, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to zarude - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Lapras
+  -damage|p1a: Lapras|0 fnt
+  faint|p1a: Lapras
+  -heal|p2a: Regigigas|91/100|[from] item: Leftovers
+  switch|p1a: Zarude|Zarude, L77|120/288 par
+-- turn 26
+  WE CHOSE: heal synthesis - our hp 0.42, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Zarude
+  -damage|p1a: Zarude|2/288 par
+  cant|p1a: Zarude|par
+  -heal|p2a: Regigigas|97/100|[from] item: Leftovers
+  -heal|p1a: Zarude|20/288 par|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: heal synthesis - our hp 0.07, theirs 0.97, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to cetitan - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Zarude
+  -damage|p1a: Zarude|0 fnt
+  faint|p1a: Zarude
+  -heal|p2a: Regigigas|100/100|[from] item: Leftovers
+  switch|p1a: Cetitan|Cetitan, L82, F|412/412
+-- turn 28
+  WE CHOSE: attack icespinner - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Cetitan
+  -damage|p1a: Cetitan|231/412
+  move|p1a: Cetitan|Ice Spinner|p2a: Regigigas
+  -damage|p2a: Regigigas|76/100
+  -heal|p2a: Regigigas|82/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack icespinner - our hp 0.56, theirs 0.82, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Cetitan
+  -damage|p1a: Cetitan|74/412
+  -status|p1a: Cetitan|par
+  -enditem|p1a: Cetitan|Sitrus Berry|[eat]
+  -heal|p1a: Cetitan|177/412 par|[from] item: Sitrus Berry
+  move|p1a: Cetitan|Ice Spinner|p2a: Regigigas
+  -damage|p2a: Regigigas|60/100
+  -heal|p2a: Regigigas|66/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack icespinner - our hp 0.43, theirs 0.66, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to sylveon - our hp 0.00, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Cetitan
+  -damage|p1a: Cetitan|0 fnt
+  faint|p1a: Cetitan
+  -heal|p2a: Regigigas|72/100|[from] item: Leftovers
+  switch|p1a: Sylveon|Sylveon, L85, M|300/300
+-- turn 31
+  WE CHOSE: attack hypervoice - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Sylveon
+  -crit|p1a: Sylveon
+  -damage|p1a: Sylveon|47/300
+  -status|p1a: Sylveon|par
+  move|p1a: Sylveon|Hyper Voice|p2a: Regigigas
+  -damage|p2a: Regigigas|40/100
+  -heal|p2a: Regigigas|46/100|[from] item: Leftovers
+  -heal|p1a: Sylveon|65/300 par|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack hypervoice - our hp 0.22, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Regigigas|Body Slam|p1a: Sylveon
+  -damage|p1a: Sylveon|0 fnt
+  faint|p1a: Sylveon
+  deinit

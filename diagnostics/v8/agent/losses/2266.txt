@@ -1,0 +1,260 @@
+battle 2266 (battle-gen9randombattle-2041676): lost in 27 turns, 2 of theirs left; we are p1
+
+ours:
+  pecharunt (fainted; item leftovers, ability poisonpuppeteer; moves malignantchain/recover/nastyplot/shadowball)
+  regirock (fainted; item leftovers, ability clearbody; moves stoneedge/thunderwave/bodypress/stealthrock)
+  mightyena (fainted; item choiceband, ability intimidate; moves playrough/throatchop/poisonfang/suckerpunch)
+  umbreon (fainted; item leftovers, ability synchronize; moves protect/wish/toxic/foulplay)
+  klefki (fainted; item leftovers, ability prankster, tera water; moves thunderwave/foulplay/spikes/dazzlinggleam)
+  flamigo (fainted; item lifeorb, ability scrappy; moves roost/closecombat/swordsdance/bravebird)
+theirs (as seen):
+  ditto (fainted; item unknown_item, ability poisonpuppeteer; moves malignantchain)
+  klawf (fainted; item unknown_item, ability angershell; moves crabhammer)
+  noctowl (fainted; item unknown_item, ability ?; moves hurricane)
+  ninetales (fainted; item unknown_item, ability ?; moves solarbeam)
+  tornadus (18%; item unknown_item, ability defiant; moves focusblast)
+
+-- turn 0
+  switch|p1a: Pecharunt|Pecharunt, L77|262/262
+  switch|p2a: Ditto|Ditto, L87|100/100
+  -transform|p2a: Ditto|p1a: Pecharunt|[from] ability: Imposter
+-- turn 1
+  WE CHOSE: heal recover (hand policy: attack shadowball) - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p2a: Ditto|Malignant Chain|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|237/262
+  move|p1a: Pecharunt|Recover|p1a: Pecharunt
+  -heal|p1a: Pecharunt|262/262
+-- turn 2
+  WE CHOSE: setup nastyplot - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Ditto|Malignant Chain|p1a: Pecharunt
+  -resisted|p1a: Pecharunt
+  -damage|p1a: Pecharunt|235/262
+  move|p1a: Pecharunt|Nasty Plot|p1a: Pecharunt
+  -boost|p1a: Pecharunt|spa|2
+  -heal|p1a: Pecharunt|251/262|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: switch to klefki (hand policy: attack shadowball) - our hp 0.96, theirs 1.00, predicted move (revealed) hits us x0.25
+  switch|p1a: Klefki|Klefki, L84, M|233/233
+  move|p2a: Ditto|Malignant Chain|p1a: Klefki
+  -immune|p1a: Klefki
+-- turn 4
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Ditto|Malignant Chain|p1a: Klefki
+  -immune|p1a: Klefki
+  move|p1a: Klefki|Foul Play|p2a: Ditto
+  -supereffective|p2a: Ditto
+  -damage|p2a: Ditto|73/100
+-- turn 5
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x0
+  move|p2a: Ditto|Malignant Chain|p1a: Klefki
+  -immune|p1a: Klefki
+  move|p1a: Klefki|Foul Play|p2a: Ditto
+  -supereffective|p2a: Ditto
+  -damage|p2a: Ditto|44/100
+-- turn 6
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 0.44, predicted move (revealed) hits us x0
+  -activate|p2a: Ditto|move: Struggle
+  move|p2a: Ditto|Struggle|p1a: Klefki
+  -damage|p1a: Klefki|209/233
+  -damage|p2a: Ditto|20/100|[from] recoil
+  move|p1a: Klefki|Foul Play|p2a: Ditto
+  -supereffective|p2a: Ditto
+  -damage|p2a: Ditto|0 fnt
+  faint|p2a: Ditto
+  -heal|p1a: Klefki|223/233|[from] item: Leftovers
+  switch|p2a: Klawf|Klawf, L90, M|100/100
+-- turn 7
+  WE CHOSE: attack+tera dazzlinggleam - our hp 0.96, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Klefki|Water
+  move|p2a: Klawf|Crabhammer|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|179/233
+  move|p1a: Klefki|Dazzling Gleam|p2a: Klawf
+  -damage|p2a: Klawf|67/100
+  -heal|p1a: Klefki|193/233|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack dazzlinggleam - our hp 0.83, theirs 0.67, predicted move (revealed) hits us x0.5
+  move|p2a: Klawf|Crabhammer|p1a: Klefki
+  -resisted|p1a: Klefki
+  -crit|p1a: Klefki
+  -damage|p1a: Klefki|128/233
+  move|p1a: Klefki|Dazzling Gleam|p2a: Klawf
+  -damage|p2a: Klawf|31/100
+  -ability|p2a: Klawf|Anger Shell|boost
+  -boost|p2a: Klawf|atk|1
+  -boost|p2a: Klawf|spa|1
+  -boost|p2a: Klawf|spe|1
+  -unboost|p2a: Klawf|def|1
+  -unboost|p2a: Klawf|spd|1
+  -heal|p1a: Klefki|142/233|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack dazzlinggleam - our hp 0.61, theirs 0.31, predicted move (revealed) hits us x0.5
+  move|p2a: Klawf|Crabhammer|p1a: Klefki|[miss]
+  -miss|p2a: Klawf|p1a: Klefki
+  move|p1a: Klefki|Dazzling Gleam|p2a: Klawf
+  -damage|p2a: Klawf|0 fnt
+  faint|p2a: Klawf
+  -heal|p1a: Klefki|156/233|[from] item: Leftovers
+  switch|p2a: Noctowl|Noctowl, L95, M|100/100
+-- turn 10
+  WE CHOSE: switch to regirock (hand policy: attack foulplay) - our hp 0.67, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Regirock|Regirock, L83|268/268
+  move|p2a: Noctowl|Hurricane|p1a: Regirock
+  -resisted|p1a: Regirock
+  -damage|p1a: Regirock|138/268
+  -heal|p1a: Regirock|154/268|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack stoneedge - our hp 0.57, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Noctowl|Hurricane|p1a: Regirock
+  -resisted|p1a: Regirock
+  -damage|p1a: Regirock|40/268
+  move|p1a: Regirock|Stone Edge|p2a: Noctowl|[miss]
+  -miss|p1a: Regirock|p2a: Noctowl
+  -heal|p1a: Regirock|56/268|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack stoneedge - our hp 0.21, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to pecharunt - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Noctowl|Hurricane|p1a: Regirock
+  -resisted|p1a: Regirock
+  -damage|p1a: Regirock|0 fnt
+  faint|p1a: Regirock
+  switch|p1a: Pecharunt|Pecharunt, L77|251/262
+-- turn 13
+  WE CHOSE: setup nastyplot (hand policy: attack malignantchain) - our hp 0.96, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Pecharunt|[miss]
+  -miss|p2a: Noctowl|p1a: Pecharunt
+  move|p1a: Pecharunt|Nasty Plot|p1a: Pecharunt
+  -boost|p1a: Pecharunt|spa|2
+  -heal|p1a: Pecharunt|262/262|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack malignantchain - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Pecharunt
+  -damage|p1a: Pecharunt|106/262
+  move|p1a: Pecharunt|Malignant Chain|p2a: Noctowl
+  -damage|p2a: Noctowl|62/100
+  -status|p2a: Noctowl|tox
+  -start|p2a: Noctowl|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+  -heal|p1a: Pecharunt|122/262|[from] item: Leftovers
+  -damage|p2a: Noctowl|56/100 tox|[from] psn
+-- turn 15
+  WE CHOSE: attack malignantchain (hand policy: heal recover) - our hp 0.47, theirs 0.56, predicted move (revealed) hits us x1
+  -activate|p2a: Noctowl|confusion
+  move|p2a: Noctowl|Hurricane|p1a: Pecharunt|[miss]
+  -miss|p2a: Noctowl|p1a: Pecharunt
+  move|p1a: Pecharunt|Malignant Chain|p2a: Noctowl
+  -damage|p2a: Noctowl|17/100 tox
+  -heal|p1a: Pecharunt|138/262|[from] item: Leftovers
+  -damage|p2a: Noctowl|5/100 tox|[from] psn
+-- turn 16
+  WE CHOSE: attack malignantchain - our hp 0.53, theirs 0.05, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to umbreon - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  -end|p2a: Noctowl|confusion
+  move|p2a: Noctowl|Hurricane|p1a: Pecharunt
+  -damage|p1a: Pecharunt|0 fnt
+  faint|p1a: Pecharunt
+  -damage|p2a: Noctowl|0 fnt|[from] psn
+  faint|p2a: Noctowl
+  switch|p2a: Ninetales|Ninetales, L85, M|100/100
+  switch|p1a: Umbreon|Umbreon, L84, F|297/297
+  -weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+-- turn 17
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Umbreon
+  -damage|p1a: Umbreon|241/297
+  move|p1a: Umbreon|Foul Play|p2a: Ninetales
+  -damage|p2a: Ninetales|75/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Umbreon|259/297|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack foulplay - our hp 0.87, theirs 0.75, predicted move (revealed) hits us x1
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Umbreon
+  -damage|p1a: Umbreon|199/297
+  move|p1a: Umbreon|Foul Play|p2a: Ninetales
+  -damage|p2a: Ninetales|48/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Umbreon|217/297|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack foulplay - our hp 0.73, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Umbreon
+  -damage|p1a: Umbreon|161/297
+  move|p1a: Umbreon|Foul Play|p2a: Ninetales
+  -damage|p2a: Ninetales|21/100
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Umbreon|179/297|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack foulplay - our hp 0.60, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Ninetales|Solar Beam||[still]
+  -prepare|p2a: Ninetales|Solar Beam
+  -anim|p2a: Ninetales|Solar Beam|p1a: Umbreon
+  -damage|p1a: Umbreon|124/297
+  move|p1a: Umbreon|Foul Play|p2a: Ninetales
+  -damage|p2a: Ninetales|0 fnt
+  faint|p2a: Ninetales
+  -weather|SunnyDay|[upkeep]
+  -heal|p1a: Umbreon|142/297|[from] item: Leftovers
+  switch|p2a: Tornadus|Tornadus, L82, M|100/100
+-- turn 21
+  WE CHOSE: switch to flamigo - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Flamigo|Flamigo, L82, M|269/269
+  move|p2a: Tornadus|Focus Blast|p1a: Flamigo
+  -resisted|p1a: Flamigo
+  -damage|p1a: Flamigo|171/269
+  -weather|none
+-- turn 22
+  WE CHOSE: setup swordsdance - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Tornadus|Focus Blast|p1a: Flamigo
+  -resisted|p1a: Flamigo
+  -damage|p1a: Flamigo|71/269
+  move|p1a: Flamigo|Swords Dance|p1a: Flamigo
+  -boost|p1a: Flamigo|atk|2
+-- turn 23
+  WE CHOSE: attack closecombat (hand policy: heal roost) - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Tornadus|Focus Blast|p1a: Flamigo|[miss]
+  -miss|p2a: Tornadus|p1a: Flamigo
+  move|p1a: Flamigo|Close Combat|p2a: Tornadus
+  -resisted|p2a: Tornadus
+  -damage|p2a: Tornadus|18/100
+  -unboost|p1a: Flamigo|def|1
+  -unboost|p1a: Flamigo|spd|1
+  -damage|p1a: Flamigo|45/269|[from] item: Life Orb
+-- turn 24
+  WE CHOSE: attack closecombat (hand policy: heal roost) - our hp 0.17, theirs 0.18, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to klefki - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x0.5
+  move|p2a: Tornadus|Focus Blast|p1a: Flamigo
+  -resisted|p1a: Flamigo
+  -damage|p1a: Flamigo|0 fnt
+  faint|p1a: Flamigo
+  switch|p1a: Klefki|Klefki, L84, M, tera:Water|156/233
+-- turn 25
+  WE CHOSE: attack dazzlinggleam - our hp 0.67, theirs 0.18, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to umbreon - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Tornadus|Focus Blast|p1a: Klefki
+  -damage|p1a: Klefki|0 fnt
+  faint|p1a: Klefki
+  switch|p1a: Umbreon|Umbreon, L84, F|142/297
+-- turn 26
+  WE CHOSE: attack foulplay - our hp 0.48, theirs 0.18, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to mightyena - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x2
+  move|p2a: Tornadus|Focus Blast|p1a: Umbreon
+  -supereffective|p1a: Umbreon
+  -damage|p1a: Umbreon|0 fnt
+  faint|p1a: Umbreon
+  switch|p1a: Mightyena|Mightyena, L96, F|290/290
+  -ability|p1a: Mightyena|Intimidate|boost
+  -unboost|p2a: Tornadus|atk|1
+  -ability|p2a: Tornadus|Defiant|boost
+  -boost|p2a: Tornadus|atk|2
+-- turn 27
+  WE CHOSE: attack throatchop - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x2
+  move|p2a: Tornadus|Focus Blast|p1a: Mightyena
+  -supereffective|p1a: Mightyena
+  -damage|p1a: Mightyena|0 fnt
+  faint|p1a: Mightyena
+  deinit

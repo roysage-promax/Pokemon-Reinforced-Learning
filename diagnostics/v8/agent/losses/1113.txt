@@ -1,0 +1,191 @@
+battle 1113 (battle-gen9randombattle-2029900): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  cinderace (fainted; item heavydutyboots, ability libero; moves courtchange/uturn/pyroball/willowisp)
+  bisharp (fainted; item eviolite, ability defiant; moves swordsdance/suckerpunch/throatchop/ironhead)
+  lokix (fainted; item lifeorb, ability tintedlens; moves leechlife/suckerpunch/swordsdance/knockoff)
+  virizion (fainted; item lifeorb, ability justified; moves swordsdance/closecombat/leafblade/stoneedge)
+  greedent (fainted; item sitrusberry, ability cheekpouch; moves earthquake/swordsdance/doubleedge/knockoff)
+  flapple (fainted; item lumberry, ability hustle, tera steel; moves dragondance/gravapple/outrage/suckerpunch)
+theirs (as seen):
+  copperajah (fainted; item lifeorb, ability ?; moves superpower)
+  raichualola (fainted; item lifeorb, ability surgesurfer; moves thunderbolt)
+  comfey (fainted; item leftovers, ability ?; moves terablast)
+  abomasnow (fainted; item unknown_item, ability ?; moves woodhammer)
+  porygon2 (fainted; item unknown_item, ability download; moves icebeam)
+  mienshao (1%; item unknown_item, ability ?; moves highjumpkick)
+
+-- turn 0
+  switch|p1a: Cinderace|Cinderace, L77, F|250/250
+  switch|p2a: Copperajah|Copperajah, L86, M|100/100
+-- turn 1
+  WE CHOSE: attack pyroball - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Cinderace|Pyro Ball|p2a: Copperajah
+  -supereffective|p2a: Copperajah
+  -damage|p2a: Copperajah|23/100
+  move|p2a: Copperajah|Superpower|p1a: Cinderace
+  -damage|p1a: Cinderace|68/250
+  -unboost|p2a: Copperajah|atk|1
+  -unboost|p2a: Copperajah|def|1
+  -damage|p2a: Copperajah|13/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack pyroball - our hp 0.27, theirs 0.13, predicted move (revealed) hits us x1
+  move|p1a: Cinderace|Pyro Ball|p2a: Copperajah
+  -supereffective|p2a: Copperajah
+  -damage|p2a: Copperajah|0 fnt
+  faint|p2a: Copperajah
+  switch|p2a: Raichu|Raichu-Alola, L87, M|100/100
+-- turn 3
+  WE CHOSE: switch to lokix (hand policy: attack pyroball) - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Lokix|Lokix, L82, M|251/251
+  move|p2a: Raichu|Thunderbolt|p1a: Lokix
+  -damage|p1a: Lokix|68/251
+  -damage|p2a: Raichu|91/100|[from] item: Life Orb
+-- turn 4
+  WE CHOSE: switch to flapple (hand policy: attack leechlife) - our hp 0.27, theirs 0.91, predicted move (revealed) hits us x1
+  switch|p1a: Flapple|Flapple, L88, F|266/266
+  move|p2a: Raichu|Thunderbolt|p1a: Flapple
+  -resisted|p1a: Flapple
+  -crit|p1a: Flapple
+  -damage|p1a: Flapple|208/266
+  -damage|p2a: Raichu|81/100|[from] item: Life Orb
+-- turn 5
+  WE CHOSE: setup dragondance - our hp 0.78, theirs 0.81, predicted move (revealed) hits us x0.25
+  move|p2a: Raichu|Thunderbolt|p1a: Flapple
+  -resisted|p1a: Flapple
+  -crit|p1a: Flapple
+  -damage|p1a: Flapple|144/266
+  -damage|p2a: Raichu|71/100|[from] item: Life Orb
+  move|p1a: Flapple|Dragon Dance|p1a: Flapple
+  -boost|p1a: Flapple|atk|1
+  -boost|p1a: Flapple|spe|1
+-- turn 6
+  WE CHOSE: attack outrage (hand policy: setup dragondance) - our hp 0.54, theirs 0.71, predicted move (revealed) hits us x0.25
+  move|p1a: Flapple|Outrage|p2a: Raichu
+  -damage|p2a: Raichu|0 fnt
+  faint|p2a: Raichu
+  switch|p2a: Comfey|Comfey, L85, M|100/100
+-- turn 7
+  WE CHOSE: attack outrage - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Flapple|Outrage|p2a: Comfey|[from] lockedmove
+  -immune|p2a: Comfey
+  move|p2a: Comfey|Tera Blast|p1a: Flapple
+  -damage|p1a: Flapple|73/266
+-- turn 8
+  WE CHOSE: attack+tera gravapple - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Flapple|Steel
+  move|p1a: Flapple|Grav Apple|p2a: Comfey|[miss]
+  -miss|p1a: Flapple|p2a: Comfey
+  move|p2a: Comfey|Tera Blast|p1a: Flapple
+  -resisted|p1a: Flapple
+  -damage|p1a: Flapple|42/266
+-- turn 9
+  WE CHOSE: attack gravapple - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Flapple|Grav Apple|p2a: Comfey
+  -damage|p2a: Comfey|1/100
+  -unboost|p2a: Comfey|def|1
+  move|p2a: Comfey|Tera Blast|p1a: Flapple
+  -resisted|p1a: Flapple
+  -damage|p1a: Flapple|12/266
+  -heal|p2a: Comfey|8/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack gravapple - our hp 0.05, theirs 0.08, predicted move (revealed) hits us x0.5
+  move|p1a: Flapple|Grav Apple|p2a: Comfey
+  -damage|p2a: Comfey|0 fnt
+  faint|p2a: Comfey
+  switch|p2a: Abomasnow|Abomasnow, L84, M|100/100
+  -weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+-- turn 11
+  WE CHOSE: attack outrage - our hp 0.05, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to cinderace - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p1a: Flapple|Outrage|p2a: Abomasnow
+  -damage|p2a: Abomasnow|18/100
+  move|p2a: Abomasnow|Wood Hammer|p1a: Flapple
+  -resisted|p1a: Flapple
+  -damage|p1a: Flapple|0 fnt
+  faint|p1a: Flapple
+  -damage|p2a: Abomasnow|16/100|[from] Recoil
+  -weather|Snowscape|[upkeep]
+  switch|p1a: Cinderace|Cinderace, L77, F|68/250
+-- turn 12
+  WE CHOSE: attack pyroball - our hp 0.27, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p1a: Cinderace|Pyro Ball|p2a: Abomasnow
+  -supereffective|p2a: Abomasnow
+  -damage|p2a: Abomasnow|0 fnt
+  faint|p2a: Abomasnow
+  -weather|Snowscape|[upkeep]
+  switch|p2a: Porygon2|Porygon2, L81|100/100
+  -ability|p2a: Porygon2|Download|boost
+  -boost|p2a: Porygon2|spa|1
+-- turn 13
+  WE CHOSE: attack pyroball - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Cinderace|Pyro Ball|p2a: Porygon2
+  -damage|p2a: Porygon2|68/100
+  move|p2a: Porygon2|Ice Beam|p1a: Cinderace
+  -resisted|p1a: Cinderace
+  -damage|p1a: Cinderace|14/250
+  -weather|Snowscape|[upkeep]
+-- turn 14
+  WE CHOSE: attack pyroball - our hp 0.06, theirs 0.68, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to bisharp - our hp 0.00, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Cinderace|Pyro Ball|p2a: Porygon2
+  -damage|p2a: Porygon2|38/100
+  move|p2a: Porygon2|Ice Beam|p1a: Cinderace
+  -resisted|p1a: Cinderace
+  -damage|p1a: Cinderace|0 fnt
+  faint|p1a: Cinderace
+  -weather|Snowscape|[upkeep]
+  switch|p1a: Bisharp|Bisharp, L79, F|232/232
+-- turn 15
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+  -boost|p1a: Bisharp|atk|2
+  move|p2a: Porygon2|Ice Beam|p1a: Bisharp
+  -resisted|p1a: Bisharp
+  -damage|p1a: Bisharp|192/232
+  -weather|none
+-- turn 16
+  WE CHOSE: attack ironhead - our hp 0.83, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Bisharp|Iron Head|p2a: Porygon2
+  -damage|p2a: Porygon2|0 fnt
+  faint|p2a: Porygon2
+  switch|p2a: Mienshao|Mienshao, L83, M|100/100
+-- turn 17
+  WE CHOSE: switch to virizion (hand policy: attack ironhead) - our hp 0.83, theirs 1.00, predicted move (guessed) hits us x4
+  WE CHOSE: forced: switch to lokix - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Virizion|Virizion, L82|283/283
+  move|p2a: Mienshao|High Jump Kick|p1a: Virizion
+  -damage|p1a: Virizion|0 fnt
+  faint|p1a: Virizion
+  switch|p1a: Lokix|Lokix, L82, M|68/251
+-- turn 18
+  WE CHOSE: attack suckerpunch (hand policy: attack leechlife) - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Lokix|Sucker Punch|p2a: Mienshao
+  -resisted|p2a: Mienshao
+  -damage|p2a: Mienshao|51/100
+  -damage|p1a: Lokix|43/251|[from] item: Life Orb
+  move|p2a: Mienshao|High Jump Kick|p1a: Lokix|[miss]
+  -miss|p2a: Mienshao|p1a: Lokix
+  -damage|p2a: Mienshao|1/100|[from] highjumpkick
+-- turn 19
+  WE CHOSE: attack knockoff (hand policy: attack leechlife) - our hp 0.17, theirs 0.01, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to greedent - our hp 0.00, theirs 0.01, predicted move (revealed) hits us x1
+  move|p2a: Mienshao|High Jump Kick|p1a: Lokix
+  -damage|p1a: Lokix|0 fnt
+  faint|p1a: Lokix
+  switch|p1a: Greedent|Greedent, L86, F|347/347
+-- turn 20
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 0.01, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to bisharp - our hp 0.00, theirs 0.01, predicted move (revealed) hits us x2
+  move|p2a: Mienshao|High Jump Kick|p1a: Greedent
+  -supereffective|p1a: Greedent
+  -damage|p1a: Greedent|0 fnt
+  faint|p1a: Greedent
+  switch|p1a: Bisharp|Bisharp, L79, F|192/232
+-- turn 21
+  WE CHOSE: attack ironhead - our hp 0.83, theirs 0.01, predicted move (revealed) hits us x4
+  move|p2a: Mienshao|High Jump Kick|p1a: Bisharp
+  -supereffective|p1a: Bisharp
+  -damage|p1a: Bisharp|0 fnt
+  faint|p1a: Bisharp
+  deinit

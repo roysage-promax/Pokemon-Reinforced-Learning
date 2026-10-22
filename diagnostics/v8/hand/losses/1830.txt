@@ -1,0 +1,402 @@
+battle 1830 (battle-gen9randombattle-2035671): lost in 46 turns, 1 of theirs left; we are p1
+
+ours:
+  gogoat (fainted; item ?, ability sapsipper; moves earthquake/hornleech/bulkup/milkdrink)
+  emboar (fainted; item leftovers, ability reckless; moves drainpunch/bulkup/trailblaze/flareblitz)
+  azelf (fainted; item choicespecs, ability levitate; moves dazzlinggleam/uturn/fireblast/psychic)
+  alomomola (fainted; item rockyhelmet, ability regenerator; moves protect/scald/flipturn/wish)
+  hitmonlee (fainted; item choiceband, ability reckless, tera fighting; moves poisonjab/knockoff/highjumpkick/stoneedge)
+  ursaring (fainted; item ?, ability quickfeet; moves throatchop/swordsdance/facade/closecombat)
+theirs (as seen):
+  porygonz (fainted; item lifeorb, ability ?; moves terablast)
+  toxapex (fainted; item leftovers, ability ?; moves liquidation)
+  mimikyu (fainted; item lifeorb, ability disguise; moves playrough)
+  wochien (fainted; item leftovers, ability tabletsofruin; moves knockoff)
+  porygon2 (fainted; item unknown_item, ability download; moves icebeam)
+  tropius (87%; item unknown_item, ability ?; moves airslash)
+
+-- turn 0
+  switch|p1a: Gogoat|Gogoat, L88, M|360/360
+  switch|p2a: Porygon-Z|Porygon-Z, L83|100/100
+-- turn 1
+  WE CHOSE: switch to emboar - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Emboar|Emboar, L84, F|322/322
+  move|p2a: Porygon-Z|Tera Blast|p1a: Emboar
+  -damage|p1a: Emboar|91/322
+  -damage|p2a: Porygon-Z|91/100|[from] item: Life Orb
+  -heal|p1a: Emboar|111/322|[from] item: Leftovers
+-- turn 2
+  WE CHOSE: attack drainpunch - our hp 0.34, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to hitmonlee - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Porygon-Z|Tera Blast|p1a: Emboar
+  -damage|p1a: Emboar|0 fnt
+  faint|p1a: Emboar
+  -damage|p2a: Porygon-Z|81/100|[from] item: Life Orb
+  switch|p1a: Hitmonlee|Hitmonlee, L85, M|223/223
+-- turn 3
+  WE CHOSE: attack+tera highjumpkick - our hp 1.00, theirs 0.81, predicted move (revealed) hits us x1
+  -terastallize|p1a: Hitmonlee|Fighting
+  move|p1a: Hitmonlee|High Jump Kick|p2a: Porygon-Z
+  -supereffective|p2a: Porygon-Z
+  -damage|p2a: Porygon-Z|0 fnt
+  faint|p2a: Porygon-Z
+  switch|p2a: Toxapex|Toxapex, L82, M|100/100
+-- turn 4
+  WE CHOSE: attack highjumpkick - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Hitmonlee|High Jump Kick|p2a: Toxapex
+  -resisted|p2a: Toxapex
+  -damage|p2a: Toxapex|39/100
+  move|p2a: Toxapex|Liquidation|p1a: Hitmonlee
+  -crit|p1a: Hitmonlee
+  -damage|p1a: Hitmonlee|87/223
+  -heal|p2a: Toxapex|45/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack highjumpkick - our hp 0.39, theirs 0.45, predicted move (revealed) hits us x1
+  move|p1a: Hitmonlee|High Jump Kick|p2a: Toxapex
+  -resisted|p2a: Toxapex
+  -damage|p2a: Toxapex|0 fnt
+  faint|p2a: Toxapex
+  switch|p2a: Mimikyu|Mimikyu, L79, F|100/100
+-- turn 6
+  WE CHOSE: attack highjumpkick - our hp 0.39, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to azelf - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x2
+  move|p2a: Mimikyu|Play Rough|p1a: Hitmonlee
+  -supereffective|p1a: Hitmonlee
+  -damage|p1a: Hitmonlee|0 fnt
+  faint|p1a: Hitmonlee
+  -damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+  switch|p1a: Azelf|Azelf, L82|257/257
+-- turn 7
+  WE CHOSE: attack psychic - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p1a: Azelf|Psychic|p2a: Mimikyu
+  -activate|p2a: Mimikyu|ability: Disguise
+  -damage|p2a: Mimikyu|91/100
+  detailschange|p2a: Mimikyu|Mimikyu-Busted, L79, F
+  -damage|p2a: Mimikyu|78/100|[from] pokemon: Mimikyu-Busted
+  move|p2a: Mimikyu|Play Rough|p1a: Azelf
+  -damage|p1a: Azelf|131/257
+  -damage|p2a: Mimikyu|69/100|[from] item: Life Orb
+-- turn 8
+  WE CHOSE: attack psychic - our hp 0.51, theirs 0.69, predicted move (revealed) hits us x1
+  move|p1a: Azelf|Psychic|p2a: Mimikyu
+  -damage|p2a: Mimikyu|0 fnt
+  faint|p2a: Mimikyu
+  switch|p2a: Wo-Chien|Wo-Chien, L83|100/100
+  -ability|p2a: Wo-Chien|Tablets of Ruin
+-- turn 9
+  WE CHOSE: switch to gogoat - our hp 0.51, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Gogoat|Gogoat, L88, M|360/360
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|248/360
+  -enditem|p1a: Gogoat|Leftovers|[from] move: Knock Off|[of] p2a: Wo-Chien
+-- turn 10
+  WE CHOSE: attack hornleech - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|90/100
+  -heal|p1a: Gogoat|263/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|191/360
+  -heal|p2a: Wo-Chien|96/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack hornleech - our hp 0.53, theirs 0.96, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|85/100
+  -heal|p1a: Gogoat|206/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -crit|p1a: Gogoat
+  -damage|p1a: Gogoat|82/360
+  -heal|p2a: Wo-Chien|91/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: heal milkdrink - our hp 0.23, theirs 0.91, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|262/360
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|178/360
+  -heal|p2a: Wo-Chien|98/100|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: heal milkdrink - our hp 0.49, theirs 0.98, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|358/360
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|285/360
+  -heal|p2a: Wo-Chien|100/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack hornleech - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|90/100
+  -heal|p1a: Gogoat|300/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|224/360
+  -heal|p2a: Wo-Chien|96/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack hornleech - our hp 0.62, theirs 0.96, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|85/100
+  -heal|p1a: Gogoat|239/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|167/360
+  -heal|p2a: Wo-Chien|91/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: heal milkdrink - our hp 0.46, theirs 0.91, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|347/360
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|271/360
+  -heal|p2a: Wo-Chien|98/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack hornleech - our hp 0.75, theirs 0.98, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|87/100
+  -heal|p1a: Gogoat|286/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|207/360
+  -heal|p2a: Wo-Chien|93/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack hornleech - our hp 0.57, theirs 0.93, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|83/100
+  -heal|p1a: Gogoat|221/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|145/360
+  -heal|p2a: Wo-Chien|89/100|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: heal milkdrink - our hp 0.40, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|325/360
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|250/360
+  -heal|p2a: Wo-Chien|95/100|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: attack hornleech - our hp 0.69, theirs 0.95, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|84/100
+  -heal|p1a: Gogoat|266/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -crit|p1a: Gogoat
+  -damage|p1a: Gogoat|140/360
+  -heal|p2a: Wo-Chien|90/100|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal milkdrink - our hp 0.39, theirs 0.90, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|320/360
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|239/360
+  -heal|p2a: Wo-Chien|96/100|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack hornleech - our hp 0.66, theirs 0.96, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|85/100
+  -heal|p1a: Gogoat|254/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|179/360
+  -heal|p2a: Wo-Chien|91/100|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: heal milkdrink - our hp 0.50, theirs 0.91, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|359/360
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|281/360
+  -heal|p2a: Wo-Chien|98/100|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack hornleech - our hp 0.78, theirs 0.98, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|86/100
+  -heal|p1a: Gogoat|297/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|216/360
+  -heal|p2a: Wo-Chien|92/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack hornleech - our hp 0.60, theirs 0.92, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|81/100
+  -heal|p1a: Gogoat|231/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|159/360
+  -heal|p2a: Wo-Chien|88/100|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: heal milkdrink - our hp 0.44, theirs 0.88, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|339/360
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|264/360
+  -heal|p2a: Wo-Chien|94/100|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: attack hornleech - our hp 0.73, theirs 0.94, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|82/100
+  -heal|p1a: Gogoat|280/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|204/360
+  -heal|p2a: Wo-Chien|89/100|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: attack hornleech - our hp 0.57, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|77/100
+  -heal|p1a: Gogoat|221/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|142/360
+  -heal|p2a: Wo-Chien|83/100|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: heal milkdrink - our hp 0.39, theirs 0.83, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|322/360
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|247/360
+  -heal|p2a: Wo-Chien|89/100|[from] item: Leftovers
+-- turn 30
+  WE CHOSE: attack hornleech - our hp 0.69, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|78/100
+  -heal|p1a: Gogoat|262/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|183/360
+  -heal|p2a: Wo-Chien|84/100|[from] item: Leftovers
+-- turn 31
+  WE CHOSE: attack hornleech - our hp 0.51, theirs 0.84, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|72/100
+  -heal|p1a: Gogoat|200/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|128/360
+  -heal|p2a: Wo-Chien|78/100|[from] item: Leftovers
+-- turn 32
+  WE CHOSE: attack hornleech - our hp 0.36, theirs 0.78, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|68/100
+  -heal|p1a: Gogoat|143/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|61/360
+  -heal|p2a: Wo-Chien|74/100|[from] item: Leftovers
+-- turn 33
+  WE CHOSE: attack hornleech - our hp 0.17, theirs 0.74, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Horn Leech|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|63/100
+  -heal|p1a: Gogoat|76/360|[from] drain|[of] p2a: Wo-Chien
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|3/360
+  -heal|p2a: Wo-Chien|69/100|[from] item: Leftovers
+-- turn 34
+  WE CHOSE: attack earthquake - our hp 0.01, theirs 0.69, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ursaring - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x1
+  move|p1a: Gogoat|Earthquake|p2a: Wo-Chien
+  -resisted|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|59/100
+  move|p2a: Wo-Chien|Knock Off|p1a: Gogoat
+  -damage|p1a: Gogoat|0 fnt
+  faint|p1a: Gogoat
+  -heal|p2a: Wo-Chien|65/100|[from] item: Leftovers
+  switch|p1a: Ursaring|Ursaring, L84, M|288/288
+-- turn 35
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.65, predicted move (revealed) hits us x1
+  move|p2a: Wo-Chien|Knock Off|p1a: Ursaring
+  -damage|p1a: Ursaring|194/288
+  -enditem|p1a: Ursaring|Toxic Orb|[from] move: Knock Off|[of] p2a: Wo-Chien
+  move|p1a: Ursaring|Close Combat|p2a: Wo-Chien
+  -supereffective|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|15/100
+  -unboost|p1a: Ursaring|def|1
+  -unboost|p1a: Ursaring|spd|1
+  -heal|p2a: Wo-Chien|21/100|[from] item: Leftovers
+-- turn 36
+  WE CHOSE: attack closecombat - our hp 0.67, theirs 0.21, predicted move (revealed) hits us x1
+  move|p2a: Wo-Chien|Knock Off|p1a: Ursaring
+  -damage|p1a: Ursaring|97/288
+  move|p1a: Ursaring|Close Combat|p2a: Wo-Chien
+  -supereffective|p2a: Wo-Chien
+  -damage|p2a: Wo-Chien|0 fnt
+  -unboost|p1a: Ursaring|def|1
+  -unboost|p1a: Ursaring|spd|1
+  faint|p2a: Wo-Chien
+  switch|p2a: Porygon2|Porygon2, L81|100/100
+  -ability|p2a: Porygon2|Download|boost
+  -boost|p2a: Porygon2|spa|1
+-- turn 37
+  WE CHOSE: attack closecombat - our hp 0.34, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to alomomola - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Porygon2|Ice Beam|p1a: Ursaring
+  -damage|p1a: Ursaring|0 fnt
+  faint|p1a: Ursaring
+  switch|p1a: Alomomola|Alomomola, L87, M|429/429
+-- turn 38
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to azelf - our hp 1.00, theirs 0.86, predicted move (revealed) hits us x0.5
+  move|p1a: Alomomola|Flip Turn|p2a: Porygon2
+  -damage|p2a: Porygon2|86/100
+  switch|p1a: Azelf|Azelf, L82|131/257|[from] Flip Turn
+  move|p2a: Porygon2|Ice Beam|p1a: Azelf
+  -damage|p1a: Azelf|14/257
+-- turn 39
+  WE CHOSE: attack psychic - our hp 0.05, theirs 0.86, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to alomomola - our hp 0.00, theirs 0.43, predicted move (revealed) hits us x1
+  move|p1a: Azelf|Psychic|p2a: Porygon2
+  -damage|p2a: Porygon2|43/100
+  move|p2a: Porygon2|Ice Beam|p1a: Azelf
+  -damage|p1a: Azelf|0 fnt
+  faint|p1a: Azelf
+  switch|p1a: Alomomola|Alomomola, L87, M|429/429
+-- turn 40
+  WE CHOSE: attack flipturn - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p1a: Alomomola|Flip Turn|p2a: Porygon2
+  -crit|p2a: Porygon2
+  -damage|p2a: Porygon2|20/100
+  move|p2a: Porygon2|Ice Beam|p1a: Alomomola
+  -resisted|p1a: Alomomola
+  -damage|p1a: Alomomola|357/429
+  -status|p1a: Alomomola|frz
+-- turn 41
+  WE CHOSE: attack flipturn - our hp 0.83, theirs 0.20, predicted move (revealed) hits us x0.5
+  cant|p1a: Alomomola|frz
+  move|p2a: Porygon2|Ice Beam|p1a: Alomomola
+  -resisted|p1a: Alomomola
+  -damage|p1a: Alomomola|281/429 frz
+-- turn 42
+  WE CHOSE: attack flipturn - our hp 0.66, theirs 0.20, predicted move (revealed) hits us x0.5
+  cant|p1a: Alomomola|frz
+  move|p2a: Porygon2|Ice Beam|p1a: Alomomola
+  -resisted|p1a: Alomomola
+  -damage|p1a: Alomomola|209/429 frz
+-- turn 43
+  WE CHOSE: attack flipturn - our hp 0.49, theirs 0.20, predicted move (revealed) hits us x0.5
+  cant|p1a: Alomomola|frz
+  move|p2a: Porygon2|Ice Beam|p1a: Alomomola
+  -resisted|p1a: Alomomola
+  -damage|p1a: Alomomola|132/429 frz
+-- turn 44
+  WE CHOSE: attack flipturn - our hp 0.31, theirs 0.20, predicted move (revealed) hits us x0.5
+  -curestatus|p1a: Alomomola|frz|[msg]
+  move|p1a: Alomomola|Flip Turn|p2a: Porygon2
+  -damage|p2a: Porygon2|6/100
+  move|p2a: Porygon2|Ice Beam|p1a: Alomomola
+  -resisted|p1a: Alomomola
+  -damage|p1a: Alomomola|59/429
+-- turn 45
+  WE CHOSE: attack scald - our hp 0.14, theirs 0.06, predicted move (revealed) hits us x0.5
+  move|p1a: Alomomola|Scald|p2a: Porygon2
+  -damage|p2a: Porygon2|0 fnt
+  faint|p2a: Porygon2
+  switch|p2a: Tropius|Tropius, L91, F|100/100
+-- turn 46
+  WE CHOSE: attack flipturn - our hp 0.14, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Alomomola|Flip Turn|p2a: Tropius
+  -resisted|p2a: Tropius
+  -crit|p2a: Tropius
+  -damage|p2a: Tropius|87/100
+  move|p2a: Tropius|Air Slash|p1a: Alomomola
+  -damage|p1a: Alomomola|0 fnt
+  faint|p1a: Alomomola

@@ -1,0 +1,311 @@
+battle 1529 (battle-gen9randombattle-2034075): lost in 30 turns, 1 of theirs left; we are p1
+
+ours:
+  shayminsky (fainted; item heavydutyboots, ability serenegrace, tera steel; moves seedflare/airslash/earthpower/synthesis)
+  deoxysattack (fainted; item lifeorb, ability pressure; moves knockoff/superpower/psychoboost/extremespeed)
+  hippowdon (fainted; item leftovers, ability sandstream; moves stoneedge/slackoff/earthquake/curse)
+  cryogonal (fainted; item heavydutyboots, ability levitate; moves rapidspin/icebeam/recover/terablast)
+  komala (fainted; item choicescarf, ability comatose; moves bodyslam/uturn/earthquake/knockoff)
+  okidogi (fainted; item leftovers, ability toxicchain; moves bulkup/knockoff/gunkshot/drainpunch)
+theirs (as seen):
+  dialga (fainted; item unknown_item, ability pressure; moves dracometeor)
+  blaziken (fainted; item ?, ability speedboost; moves closecombat)
+  meowstic (fainted; item unknown_item, ability ?; moves psychicnoise)
+  hatterene (fainted; item unknown_item, ability ?; moves psychic)
+  klawf (fainted; item lifeorb, ability ?; moves stoneedge)
+  tsareena (5%; item unknown_item, ability ?; moves highjumpkick)
+
+-- turn 0
+  switch|p1a: Shaymin|Shaymin-Sky, L73|266/266
+  switch|p2a: Dialga|Dialga, L73|100/100
+  -ability|p2a: Dialga|Pressure
+-- turn 1
+  WE CHOSE: attack+tera earthpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Shaymin|Steel
+  move|p1a: Shaymin|Earth Power|p2a: Dialga
+  -supereffective|p2a: Dialga
+  -damage|p2a: Dialga|71/100
+  -unboost|p2a: Dialga|spd|1
+  move|p2a: Dialga|Draco Meteor|p1a: Shaymin
+  -resisted|p1a: Shaymin
+  -damage|p1a: Shaymin|161/266
+  -unboost|p2a: Dialga|spa|2
+-- turn 2
+  WE CHOSE: attack earthpower - our hp 0.61, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p1a: Shaymin|Earth Power|p2a: Dialga
+  -supereffective|p2a: Dialga
+  -damage|p2a: Dialga|22/100
+  move|p2a: Dialga|Draco Meteor|p1a: Shaymin
+  -resisted|p1a: Shaymin
+  -damage|p1a: Shaymin|110/266
+  -unboost|p2a: Dialga|spa|2
+-- turn 3
+  WE CHOSE: attack earthpower (hand policy: heal synthesis) - our hp 0.41, theirs 0.22, predicted move (revealed) hits us x0.5
+  move|p1a: Shaymin|Earth Power|p2a: Dialga
+  -supereffective|p2a: Dialga
+  -damage|p2a: Dialga|0 fnt
+  faint|p2a: Dialga
+  switch|p2a: Blaziken|Blaziken, L76, F|100/100
+-- turn 4
+  WE CHOSE: switch to deoxysattack - our hp 0.41, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to okidogi (hand policy: forced: switch to hippowdon) - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  switch|p1a: Deoxys|Deoxys-Attack, L72|191/191
+  -ability|p1a: Deoxys|Pressure
+  move|p2a: Blaziken|Close Combat|p1a: Deoxys
+  -resisted|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  -unboost|p2a: Blaziken|def|1
+  -unboost|p2a: Blaziken|spd|1
+  faint|p1a: Deoxys
+  -damage|p2a: Blaziken|91/100|[from] item: Life Orb
+  -ability|p2a: Blaziken|Speed Boost|boost
+  -boost|p2a: Blaziken|spe|1
+  switch|p1a: Okidogi|Okidogi, L77, M|262/262
+-- turn 5
+  WE CHOSE: setup bulkup - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Blaziken|Close Combat|p1a: Okidogi
+  -resisted|p1a: Okidogi
+  -damage|p1a: Okidogi|193/262
+  -unboost|p2a: Blaziken|def|1
+  -unboost|p2a: Blaziken|spd|1
+  -damage|p2a: Blaziken|81/100|[from] item: Life Orb
+  move|p1a: Okidogi|Bulk Up|p1a: Okidogi
+  -boost|p1a: Okidogi|atk|1
+  -boost|p1a: Okidogi|def|1
+  -heal|p1a: Okidogi|209/262|[from] item: Leftovers
+  -ability|p2a: Blaziken|Speed Boost|boost
+  -boost|p2a: Blaziken|spe|1
+-- turn 6
+  WE CHOSE: setup bulkup - our hp 0.80, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p2a: Blaziken|Close Combat|p1a: Okidogi
+  -resisted|p1a: Okidogi
+  -damage|p1a: Okidogi|166/262
+  -unboost|p2a: Blaziken|def|1
+  -unboost|p2a: Blaziken|spd|1
+  -damage|p2a: Blaziken|71/100|[from] item: Life Orb
+  move|p1a: Okidogi|Bulk Up|p1a: Okidogi
+  -boost|p1a: Okidogi|atk|1
+  -boost|p1a: Okidogi|def|1
+  -heal|p1a: Okidogi|182/262|[from] item: Leftovers
+  -ability|p2a: Blaziken|Speed Boost|boost
+  -boost|p2a: Blaziken|spe|1
+-- turn 7
+  WE CHOSE: setup bulkup (hand policy: attack gunkshot) - our hp 0.69, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p2a: Blaziken|Close Combat|p1a: Okidogi
+  -resisted|p1a: Okidogi
+  -damage|p1a: Okidogi|148/262
+  -unboost|p2a: Blaziken|def|1
+  -unboost|p2a: Blaziken|spd|1
+  -damage|p2a: Blaziken|62/100|[from] item: Life Orb
+  move|p1a: Okidogi|Bulk Up|p1a: Okidogi
+  -boost|p1a: Okidogi|atk|1
+  -boost|p1a: Okidogi|def|1
+  -heal|p1a: Okidogi|164/262|[from] item: Leftovers
+  -ability|p2a: Blaziken|Speed Boost|boost
+  -boost|p2a: Blaziken|spe|1
+-- turn 8
+  WE CHOSE: attack knockoff (hand policy: attack gunkshot) - our hp 0.63, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p2a: Blaziken|Close Combat|p1a: Okidogi
+  -resisted|p1a: Okidogi
+  -damage|p1a: Okidogi|134/262
+  -unboost|p2a: Blaziken|def|1
+  -unboost|p2a: Blaziken|spd|1
+  -damage|p2a: Blaziken|52/100|[from] item: Life Orb
+  move|p1a: Okidogi|Knock Off|p2a: Blaziken
+  -resisted|p2a: Blaziken
+  -damage|p2a: Blaziken|0 fnt
+  -enditem|p2a: Blaziken|Life Orb|[from] move: Knock Off|[of] p1a: Okidogi
+  faint|p2a: Blaziken
+  -heal|p1a: Okidogi|150/262|[from] item: Leftovers
+  switch|p2a: Meowstic|Meowstic, L89, M|100/100
+-- turn 9
+  WE CHOSE: switch to shayminsky (hand policy: attack gunkshot) - our hp 0.57, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Shaymin|Shaymin-Sky, L73, tera:Steel|110/266
+  move|p2a: Meowstic|Psychic Noise|p1a: Shaymin
+  -resisted|p1a: Shaymin
+  -damage|p1a: Shaymin|59/266
+  -start|p1a: Shaymin|move: Heal Block
+-- turn 10
+  WE CHOSE: attack airslash (hand policy: attack seedflare) - our hp 0.22, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Meowstic|Psychic Noise|p1a: Shaymin
+  -resisted|p1a: Shaymin
+  -damage|p1a: Shaymin|4/266
+  move|p1a: Shaymin|Air Slash|p2a: Meowstic
+  -damage|p2a: Meowstic|76/100
+  -end|p1a: Shaymin|move: Heal Block
+-- turn 11
+  WE CHOSE: attack airslash (hand policy: heal synthesis) - our hp 0.02, theirs 0.76, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to hippowdon - our hp 0.00, theirs 0.76, predicted move (revealed) hits us x0.5
+  move|p2a: Meowstic|Psychic Noise|p1a: Shaymin
+  -resisted|p1a: Shaymin
+  -damage|p1a: Shaymin|0 fnt
+  faint|p1a: Shaymin
+  switch|p1a: Hippowdon|Hippowdon, L82, F|311/311
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+-- turn 12
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.76, predicted move (revealed) hits us x1
+  move|p2a: Meowstic|Psychic Noise|p1a: Hippowdon
+  -damage|p1a: Hippowdon|223/311
+  -start|p1a: Hippowdon|move: Heal Block
+  move|p1a: Hippowdon|Earthquake|p2a: Meowstic
+  -damage|p2a: Meowstic|36/100
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Meowstic|30/100|[from] Sandstorm
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 0.72, theirs 0.30, predicted move (revealed) hits us x1
+  move|p2a: Meowstic|Psychic Noise|p1a: Hippowdon
+  -damage|p1a: Hippowdon|132/311
+  move|p1a: Hippowdon|Earthquake|p2a: Meowstic
+  -damage|p2a: Meowstic|0 fnt
+  faint|p2a: Meowstic
+  -weather|Sandstorm|[upkeep]
+  -end|p1a: Hippowdon|move: Heal Block
+  switch|p2a: Hatterene|Hatterene, L85, F|100/100
+-- turn 14
+  WE CHOSE: heal slackoff - our hp 0.42, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|288/311
+  move|p2a: Hatterene|Psychic|p1a: Hippowdon
+  -damage|p1a: Hippowdon|144/311
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Hatterene|95/100|[from] Sandstorm
+  -heal|p1a: Hippowdon|163/311|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: heal slackoff (hand policy: attack earthquake) - our hp 0.52, theirs 0.95, predicted move (revealed) hits us x1
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|311/311
+  move|p2a: Hatterene|Psychic|p1a: Hippowdon
+  -damage|p1a: Hippowdon|158/311
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Hatterene|89/100|[from] Sandstorm
+  -heal|p1a: Hippowdon|177/311|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: heal slackoff (hand policy: attack earthquake) - our hp 0.57, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|311/311
+  move|p2a: Hatterene|Psychic|p1a: Hippowdon
+  -damage|p1a: Hippowdon|166/311
+  -weather|none
+  -heal|p1a: Hippowdon|185/311|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: heal slackoff (hand policy: attack earthquake) - our hp 0.59, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|311/311
+  move|p2a: Hatterene|Psychic|p1a: Hippowdon
+  -damage|p1a: Hippowdon|167/311
+  -heal|p1a: Hippowdon|186/311|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: heal slackoff (hand policy: attack earthquake) - our hp 0.60, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|311/311
+  move|p2a: Hatterene|Psychic|p1a: Hippowdon
+  -damage|p1a: Hippowdon|160/311
+  -heal|p1a: Hippowdon|179/311|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: heal slackoff (hand policy: attack earthquake) - our hp 0.58, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|311/311
+  move|p2a: Hatterene|Psychic|p1a: Hippowdon
+  -damage|p1a: Hippowdon|167/311
+  -heal|p1a: Hippowdon|186/311|[from] item: Leftovers
+-- turn 20
+  WE CHOSE: heal slackoff (hand policy: attack earthquake) - our hp 0.60, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|311/311
+  move|p2a: Hatterene|Psychic|p1a: Hippowdon
+  -damage|p1a: Hippowdon|169/311
+  -heal|p1a: Hippowdon|188/311|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal slackoff (hand policy: attack earthquake) - our hp 0.60, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+  -heal|p1a: Hippowdon|311/311
+  move|p2a: Hatterene|Psychic|p1a: Hippowdon
+  -damage|p1a: Hippowdon|145/311
+  -heal|p1a: Hippowdon|164/311|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 0.53, theirs 0.89, predicted move (revealed) hits us x1
+  move|p1a: Hippowdon|Earthquake|p2a: Hatterene
+  -damage|p2a: Hatterene|46/100
+  move|p2a: Hatterene|Psychic|p1a: Hippowdon
+  -damage|p1a: Hippowdon|19/311
+  -heal|p1a: Hippowdon|38/311|[from] item: Leftovers
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 0.12, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Hippowdon|Earthquake|p2a: Hatterene
+  -damage|p2a: Hatterene|0 fnt
+  faint|p2a: Hatterene
+  -heal|p1a: Hippowdon|57/311|[from] item: Leftovers
+  switch|p2a: Klawf|Klawf, L90, M|100/100
+-- turn 24
+  WE CHOSE: switch to okidogi (hand policy: attack earthquake) - our hp 0.18, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Okidogi|Okidogi, L77, M|150/262
+  move|p2a: Klawf|Stone Edge|p1a: Okidogi
+  -resisted|p1a: Okidogi
+  -crit|p1a: Okidogi
+  -damage|p1a: Okidogi|33/262
+  -damage|p2a: Klawf|91/100|[from] item: Life Orb
+  -heal|p1a: Okidogi|49/262|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack drainpunch - our hp 0.19, theirs 0.91, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to hippowdon - our hp 0.00, theirs 0.81, predicted move (revealed) hits us x0.5
+  move|p2a: Klawf|Stone Edge|p1a: Okidogi
+  -resisted|p1a: Okidogi
+  -damage|p1a: Okidogi|0 fnt
+  faint|p1a: Okidogi
+  -damage|p2a: Klawf|81/100|[from] item: Life Orb
+  switch|p1a: Hippowdon|Hippowdon, L82, F|57/311
+  -weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+-- turn 26
+  WE CHOSE: attack earthquake - our hp 0.18, theirs 0.81, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to komala - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x0.5
+  move|p2a: Klawf|Stone Edge|p1a: Hippowdon
+  -resisted|p1a: Hippowdon
+  -crit|p1a: Hippowdon
+  -damage|p1a: Hippowdon|0 fnt
+  faint|p1a: Hippowdon
+  -damage|p2a: Klawf|71/100|[from] item: Life Orb
+  -weather|Sandstorm|[upkeep]
+  switch|p1a: Komala|Komala, L87, M|255/255
+  -ability|p1a: Komala|Comatose
+-- turn 27
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p1a: Komala|Earthquake|p2a: Klawf
+  -supereffective|p2a: Klawf
+  -damage|p2a: Klawf|21/100
+  move|p2a: Klawf|Stone Edge|p1a: Komala
+  -damage|p1a: Komala|52/255
+  -damage|p2a: Klawf|11/100|[from] item: Life Orb
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Komala|37/255|[from] Sandstorm
+-- turn 28
+  WE CHOSE: attack earthquake - our hp 0.15, theirs 0.11, predicted move (revealed) hits us x1
+  move|p1a: Komala|Earthquake|p2a: Klawf
+  -supereffective|p2a: Klawf
+  -damage|p2a: Klawf|0 fnt
+  faint|p2a: Klawf
+  -weather|Sandstorm|[upkeep]
+  -damage|p1a: Komala|22/255|[from] Sandstorm
+  switch|p2a: Tsareena|Tsareena, L87, F|100/100
+-- turn 29
+  WE CHOSE: attack earthquake - our hp 0.09, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to cryogonal - our hp 0.00, theirs 0.80, predicted move (revealed) hits us x2
+  move|p1a: Komala|Earthquake|p2a: Tsareena
+  -resisted|p2a: Tsareena
+  -damage|p2a: Tsareena|86/100
+  move|p2a: Tsareena|High Jump Kick|p1a: Komala
+  -supereffective|p1a: Komala
+  -damage|p1a: Komala|0 fnt
+  faint|p1a: Komala
+  -weather|Sandstorm|[upkeep]
+  -damage|p2a: Tsareena|80/100|[from] Sandstorm
+  switch|p1a: Cryogonal|Cryogonal, L89|287/287
+-- turn 30
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.80, predicted move (revealed) hits us x2
+  move|p1a: Cryogonal|Ice Beam|p2a: Tsareena
+  -supereffective|p2a: Tsareena
+  -damage|p2a: Tsareena|5/100
+  move|p2a: Tsareena|High Jump Kick|p1a: Cryogonal
+  -supereffective|p1a: Cryogonal
+  -damage|p1a: Cryogonal|0 fnt
+  faint|p1a: Cryogonal
+  deinit

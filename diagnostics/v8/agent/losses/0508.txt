@@ -1,0 +1,257 @@
+battle 508 (battle-gen9randombattle-2023671): lost in 31 turns, 2 of theirs left; we are p1
+
+ours:
+  ariados (fainted; item focussash, ability swarm, tera ghost; moves stickyweb/toxicspikes/megahorn/poisonjab)
+  delphox (fainted; item heavydutyboots, ability blaze; moves psyshock/nastyplot/grassknot/fireblast)
+  gogoat (fainted; item leftovers, ability sapsipper; moves hornleech/milkdrink/earthquake/bulkup)
+  oricoriopau (fainted; item heavydutyboots, ability dancer; moves roost/quiverdance/revelationdance/hurricane)
+  donphan (fainted; item leftovers, ability sturdy; moves knockoff/stealthrock/earthquake/rapidspin)
+  mismagius (fainted; item leftovers, ability levitate; moves shadowball/substitute/dazzlinggleam/nastyplot)
+theirs (as seen):
+  mandibuzz (fainted; item unknown_item, ability ?; moves foulplay)
+  reuniclus (fainted; item unknown_item, ability ?; moves focusblast)
+  cacturne (fainted; item unknown_item, ability ?; moves seedbomb)
+  vivilloncontinental (fainted; item unknown_item, ability ?; moves hurricane)
+  spectrier (100%; item leftovers, ability grimneigh; moves shadowball)
+
+-- turn 0
+  switch|p1a: Ariados|Ariados, L95, M|287/287
+  switch|p2a: Mandibuzz|Mandibuzz, L85, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera megahorn (hand policy: attack megahorn) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  -terastallize|p1a: Ariados|Ghost
+  move|p2a: Mandibuzz|Foul Play|p1a: Ariados
+  -supereffective|p1a: Ariados
+  -damage|p1a: Ariados|51/287
+  move|p1a: Ariados|Megahorn|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|42/100
+-- turn 2
+  WE CHOSE: switch to donphan (hand policy: attack megahorn) - our hp 0.18, theirs 0.42, predicted move (revealed) hits us x2
+  switch|p1a: Donphan|Donphan, L84, M|288/288
+  move|p2a: Mandibuzz|Foul Play|p1a: Donphan
+  -damage|p1a: Donphan|191/288
+  -heal|p1a: Donphan|209/288|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: attack stealthrock (hand policy: attack rapidspin) - our hp 0.73, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Mandibuzz|Foul Play|p1a: Donphan
+  -damage|p1a: Donphan|119/288
+  move|p1a: Donphan|Stealth Rock|p2a: Mandibuzz
+  -sidestart|p2: e2_035157|move: Stealth Rock
+  -heal|p1a: Donphan|137/288|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack stealthrock (hand policy: attack rapidspin) - our hp 0.48, theirs 0.42, predicted move (revealed) hits us x1
+  move|p2a: Mandibuzz|Foul Play|p1a: Donphan
+  -damage|p1a: Donphan|43/288
+  move|p1a: Donphan|Stealth Rock||[still]
+  -fail|p1a: Donphan
+  -heal|p1a: Donphan|61/288|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: switch to delphox (hand policy: attack rapidspin) - our hp 0.21, theirs 0.42, predicted move (revealed) hits us x1
+  switch|p1a: Delphox|Delphox, L84, M|263/263
+  move|p2a: Mandibuzz|Foul Play|p1a: Delphox
+  -supereffective|p1a: Delphox
+  -damage|p1a: Delphox|117/263
+-- turn 6
+  WE CHOSE: attack fireblast - our hp 0.44, theirs 0.42, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to gogoat - our hp 0.00, theirs 0.05, predicted move (revealed) hits us x2
+  move|p1a: Delphox|Fire Blast|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|5/100
+  move|p2a: Mandibuzz|Foul Play|p1a: Delphox
+  -supereffective|p1a: Delphox
+  -damage|p1a: Delphox|0 fnt
+  faint|p1a: Delphox
+  switch|p1a: Gogoat|Gogoat, L88, F|360/360
+-- turn 7
+  WE CHOSE: attack hornleech - our hp 1.00, theirs 0.05, predicted move (revealed) hits us x1
+  move|p2a: Mandibuzz|Foul Play|p1a: Gogoat
+  -damage|p1a: Gogoat|233/360
+  move|p1a: Gogoat|Horn Leech|p2a: Mandibuzz
+  -resisted|p2a: Mandibuzz
+  -damage|p2a: Mandibuzz|0 fnt
+  -heal|p1a: Gogoat|241/360|[from] drain|[of] p2a: Mandibuzz
+  faint|p2a: Mandibuzz
+  -heal|p1a: Gogoat|263/360|[from] item: Leftovers
+  switch|p2a: Reuniclus|Reuniclus, L88, F|100/100
+-- turn 8
+  WE CHOSE: switch to ariados - our hp 0.73, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Ariados|Ariados, L95, M, tera:Ghost|51/287
+  move|p2a: Reuniclus|Focus Blast|p1a: Ariados
+  -immune|p1a: Ariados
+-- turn 9
+  WE CHOSE: attack megahorn - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Ariados|Megahorn|p2a: Reuniclus
+  -supereffective|p2a: Reuniclus
+  -damage|p2a: Reuniclus|0 fnt
+  faint|p2a: Reuniclus
+  switch|p2a: Cacturne|Cacturne, L92, M|100/100
+  -damage|p2a: Cacturne|88/100|[from] Stealth Rock
+-- turn 10
+  WE CHOSE: switch to gogoat - our hp 0.18, theirs 0.88, predicted move (guessed) hits us x1
+  switch|p1a: Gogoat|Gogoat, L88, F|263/360
+  move|p2a: Cacturne|Seed Bomb|p1a: Gogoat
+  -ability|p1a: Gogoat|Sap Sipper|boost
+  -boost|p1a: Gogoat|atk|1
+  -heal|p1a: Gogoat|285/360|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: setup bulkup - our hp 0.79, theirs 0.88, predicted move (revealed) hits us x0
+  move|p1a: Gogoat|Bulk Up|p1a: Gogoat
+  -boost|p1a: Gogoat|atk|1
+  -boost|p1a: Gogoat|def|1
+  move|p2a: Cacturne|Seed Bomb|p1a: Gogoat
+  -ability|p1a: Gogoat|Sap Sipper|boost
+  -boost|p1a: Gogoat|atk|1
+  -heal|p1a: Gogoat|307/360|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: setup bulkup - our hp 0.85, theirs 0.88, predicted move (revealed) hits us x0
+  move|p1a: Gogoat|Bulk Up|p1a: Gogoat
+  -boost|p1a: Gogoat|atk|1
+  -boost|p1a: Gogoat|def|1
+  move|p2a: Cacturne|Seed Bomb|p1a: Gogoat
+  -ability|p1a: Gogoat|Sap Sipper|boost
+  -boost|p1a: Gogoat|atk|1
+  -heal|p1a: Gogoat|329/360|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: setup bulkup - our hp 0.91, theirs 0.88, predicted move (revealed) hits us x0
+  move|p1a: Gogoat|Bulk Up|p1a: Gogoat
+  -boost|p1a: Gogoat|atk|1
+  -boost|p1a: Gogoat|def|1
+  move|p2a: Cacturne|Seed Bomb|p1a: Gogoat
+  -immune|p1a: Gogoat|[from] ability: Sap Sipper
+  -heal|p1a: Gogoat|351/360|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack hornleech - our hp 0.98, theirs 0.88, predicted move (revealed) hits us x0
+  move|p1a: Gogoat|Horn Leech|p2a: Cacturne
+  -resisted|p2a: Cacturne
+  -damage|p2a: Cacturne|9/100
+  -heal|p1a: Gogoat|360/360|[from] drain|[of] p2a: Cacturne
+  move|p2a: Cacturne|Seed Bomb|p1a: Gogoat
+  -immune|p1a: Gogoat|[from] ability: Sap Sipper
+-- turn 15
+  WE CHOSE: attack hornleech - our hp 1.00, theirs 0.09, predicted move (revealed) hits us x0
+  move|p1a: Gogoat|Horn Leech|p2a: Cacturne
+  -resisted|p2a: Cacturne
+  -damage|p2a: Cacturne|0 fnt
+  faint|p2a: Cacturne
+  switch|p2a: Vivillon|Vivillon-Continental, L83, F|100/100
+-- turn 16
+  WE CHOSE: switch to oricoriopau (hand policy: attack hornleech) - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  switch|p1a: Oricorio|Oricorio-Pa'u, L87, F|272/272
+  move|p2a: Vivillon|Hurricane|p1a: Oricorio
+  -damage|p1a: Oricorio|142/272
+-- turn 17
+  WE CHOSE: attack hurricane - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Vivillon|[miss]
+  -miss|p1a: Oricorio|p2a: Vivillon
+  move|p2a: Vivillon|Hurricane|p1a: Oricorio
+  -damage|p1a: Oricorio|18/272
+-- turn 18
+  WE CHOSE: attack hurricane (hand policy: heal roost) - our hp 0.07, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Oricorio|Hurricane|p2a: Vivillon
+  -supereffective|p2a: Vivillon
+  -damage|p2a: Vivillon|0 fnt
+  faint|p2a: Vivillon
+  switch|p2a: Spectrier|Spectrier, L75|100/100
+  -damage|p2a: Spectrier|88/100|[from] Stealth Rock
+-- turn 19
+  WE CHOSE: attack hurricane - our hp 0.07, theirs 0.88, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to donphan - our hp 0.00, theirs 0.94, predicted move (revealed) hits us x2
+  move|p2a: Spectrier|Shadow Ball|p1a: Oricorio
+  -supereffective|p1a: Oricorio
+  -damage|p1a: Oricorio|0 fnt
+  faint|p1a: Oricorio
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -heal|p2a: Spectrier|94/100|[from] item: Leftovers
+  switch|p1a: Donphan|Donphan, L84, M|61/288
+-- turn 20
+  WE CHOSE: attack earthquake - our hp 0.21, theirs 0.94, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gogoat - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Donphan
+  -damage|p1a: Donphan|0 fnt
+  faint|p1a: Donphan
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  -heal|p2a: Spectrier|100/100|[from] item: Leftovers
+  switch|p1a: Gogoat|Gogoat, L88, F|360/360
+-- turn 21
+  WE CHOSE: heal milkdrink (hand policy: attack hornleech) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Gogoat
+  -damage|p1a: Gogoat|161/360
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|341/360
+  -heal|p1a: Gogoat|360/360|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal milkdrink (hand policy: attack hornleech) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Gogoat
+  -damage|p1a: Gogoat|182/360
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|360/360
+-- turn 23
+  WE CHOSE: heal milkdrink (hand policy: attack hornleech) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Gogoat
+  -crit|p1a: Gogoat
+  -damage|p1a: Gogoat|68/360
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|248/360
+  -heal|p1a: Gogoat|270/360|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: heal milkdrink (hand policy: attack hornleech) - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Gogoat
+  -damage|p1a: Gogoat|71/360
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|251/360
+  -heal|p1a: Gogoat|273/360|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: heal milkdrink (hand policy: attack hornleech) - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Gogoat
+  -damage|p1a: Gogoat|93/360
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|273/360
+  -heal|p1a: Gogoat|295/360|[from] item: Leftovers
+-- turn 26
+  WE CHOSE: heal milkdrink (hand policy: attack hornleech) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Gogoat
+  -damage|p1a: Gogoat|105/360
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|285/360
+  -heal|p1a: Gogoat|307/360|[from] item: Leftovers
+-- turn 27
+  WE CHOSE: heal milkdrink (hand policy: attack hornleech) - our hp 0.85, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Gogoat
+  -damage|p1a: Gogoat|117/360
+  -unboost|p1a: Gogoat|spd|1
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|297/360
+  -heal|p1a: Gogoat|319/360|[from] item: Leftovers
+-- turn 28
+  WE CHOSE: heal milkdrink (hand policy: attack hornleech) - our hp 0.89, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Gogoat
+  -damage|p1a: Gogoat|30/360
+  move|p1a: Gogoat|Milk Drink|p1a: Gogoat
+  -heal|p1a: Gogoat|210/360
+  -heal|p1a: Gogoat|232/360|[from] item: Leftovers
+-- turn 29
+  WE CHOSE: attack hornleech - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to mismagius - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Spectrier|Shadow Ball|p1a: Gogoat
+  -damage|p1a: Gogoat|0 fnt
+  faint|p1a: Gogoat
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  switch|p1a: Mismagius|Mismagius, L86, M|243/243
+-- turn 30
+  WE CHOSE: attack shadowball - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to ariados - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Spectrier|Shadow Ball|p1a: Mismagius
+  -supereffective|p1a: Mismagius
+  -damage|p1a: Mismagius|0 fnt
+  faint|p1a: Mismagius
+  -ability|p2a: Spectrier|Grim Neigh|boost
+  -boost|p2a: Spectrier|spa|1
+  switch|p1a: Ariados|Ariados, L95, M, tera:Ghost|51/287
+-- turn 31
+  WE CHOSE: attack megahorn - our hp 0.18, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Spectrier|Shadow Ball|p1a: Ariados
+  -supereffective|p1a: Ariados
+  -damage|p1a: Ariados|0 fnt
+  faint|p1a: Ariados

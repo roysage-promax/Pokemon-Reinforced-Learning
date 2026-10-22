@@ -1,0 +1,215 @@
+battle 2198 (battle-gen9randombattle-2039124): lost in 22 turns, 1 of theirs left; we are p1
+
+ours:
+  altaria (fainted; item heavydutyboots, ability naturalcure; moves defog/roost/haze/bravebird)
+  zoroarkhisui (fainted; item lifeorb, ability illusion; moves hypervoice/focusblast/poltergeist/willowisp)
+  ribombee (fainted; item heavydutyboots, ability shielddust; moves quiverdance/bugbuzz/terablast/moonblast)
+  tinkaton (fainted; item leftovers, ability moldbreaker, tera steel; moves playrough/swordsdance/protect/gigatonhammer)
+  bellibolt (fainted; item leftovers, ability electromorphosis; moves toxic/thunderbolt/slackoff/muddywater)
+  honchkrow (fainted; item heavydutyboots, ability moxie; moves suckerpunch/thunderwave/lashout/bravebird)
+theirs (as seen):
+  rillaboom (fainted; item unknown_item, ability ?; moves -)
+  glaceon (fainted; item unknown_item, ability ?; moves freezedry)
+  magmortar (fainted; item unknown_item, ability ?; moves fireblast)
+  ampharos (fainted; item unknown_item, ability ?; moves thunderbolt)
+  vespiquen (fainted; item unknown_item, ability pressure; moves airslash)
+  toxtricity (2%; item unknown_item, ability ?; moves boomburst)
+
+-- turn 0
+  switch|p1a: Altaria|Altaria, L89, M|278/278
+  switch|p2a: Rillaboom|Rillaboom, L79, M|100/100
+  -fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+-- turn 1
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p1a: Altaria|Brave Bird|p2a: Rillaboom
+  -supereffective|p2a: Rillaboom
+  -crit|p2a: Rillaboom
+  -damage|p2a: Rillaboom|0 fnt
+  faint|p2a: Rillaboom
+  -damage|p1a: Altaria|183/278|[from] Recoil
+  switch|p2a: Glaceon|Glaceon, L94, M|100/100
+-- turn 2
+  WE CHOSE: switch to tinkaton - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Tinkaton|Tinkaton, L82, F|274/274
+  -ability|p1a: Tinkaton|Mold Breaker
+  move|p2a: Glaceon|Freeze-Dry|p1a: Tinkaton
+  -resisted|p1a: Tinkaton
+  -damage|p1a: Tinkaton|221/274
+  -heal|p1a: Tinkaton|238/274|[from] Grassy Terrain
+  -heal|p1a: Tinkaton|255/274|[from] item: Leftovers
+-- turn 3
+  WE CHOSE: setup swordsdance - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Tinkaton|Swords Dance|p1a: Tinkaton
+  -boost|p1a: Tinkaton|atk|2
+  move|p2a: Glaceon|Freeze-Dry|p1a: Tinkaton
+  -resisted|p1a: Tinkaton
+  -crit|p1a: Tinkaton
+  -damage|p1a: Tinkaton|180/274
+  -heal|p1a: Tinkaton|197/274|[from] Grassy Terrain
+  -heal|p1a: Tinkaton|214/274|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack+tera gigatonhammer - our hp 0.78, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Tinkaton|Steel
+  move|p1a: Tinkaton|Gigaton Hammer|p2a: Glaceon
+  -supereffective|p2a: Glaceon
+  -crit|p2a: Glaceon
+  -damage|p2a: Glaceon|0 fnt
+  faint|p2a: Glaceon
+  -heal|p1a: Tinkaton|231/274|[from] Grassy Terrain
+  -heal|p1a: Tinkaton|248/274|[from] item: Leftovers
+  switch|p2a: Magmortar|Magmortar, L88, F|100/100
+-- turn 5
+  WE CHOSE: switch to zoroarkhisui - our hp 0.91, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to altaria - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Honchkrow|Honchkrow, L86, M|219/219
+  move|p2a: Magmortar|Fire Blast|p1a: Honchkrow
+  -damage|p1a: Honchkrow|0 fnt
+  replace|p1a: Zoroark|Zoroark-Hisui, L80, F
+  -end|p1a: Zoroark|Illusion
+  faint|p1a: Zoroark
+  -fieldend|move: Grassy Terrain
+  switch|p1a: Altaria|Altaria, L89, M|183/278
+-- turn 6
+  WE CHOSE: attack bravebird - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Magmortar|Fire Blast|p1a: Altaria|[miss]
+  -miss|p2a: Magmortar|p1a: Altaria
+  move|p1a: Altaria|Brave Bird|p2a: Magmortar
+  -damage|p2a: Magmortar|56/100
+  -damage|p1a: Altaria|143/278|[from] Recoil
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 0.51, theirs 0.56, predicted move (revealed) hits us x0.5
+  move|p2a: Magmortar|Fire Blast|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|83/278
+  move|p1a: Altaria|Brave Bird|p2a: Magmortar
+  -damage|p2a: Magmortar|10/100
+  -status|p1a: Altaria|brn|[from] ability: Flame Body|[of] p2a: Magmortar
+  -damage|p1a: Altaria|40/278 brn|[from] Recoil
+  -damage|p1a: Altaria|23/278 brn|[from] brn
+-- turn 8
+  WE CHOSE: heal roost - our hp 0.08, theirs 0.10, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to honchkrow - our hp 0.00, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p2a: Magmortar|Fire Blast|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|0 fnt
+  faint|p1a: Altaria
+  switch|p1a: Honchkrow|Honchkrow, L86, M|312/312
+-- turn 9
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x1
+  move|p2a: Magmortar|Fire Blast|p1a: Honchkrow
+  -damage|p1a: Honchkrow|102/312
+  move|p1a: Honchkrow|Brave Bird|p2a: Magmortar
+  -damage|p2a: Magmortar|0 fnt
+  faint|p2a: Magmortar
+  -ability|p1a: Honchkrow|Moxie|boost
+  -boost|p1a: Honchkrow|atk|1
+  -damage|p1a: Honchkrow|94/312|[from] Recoil
+  switch|p2a: Ampharos|Ampharos, L88, M|100/100
+-- turn 10
+  WE CHOSE: attack lashout - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to tinkaton - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x2
+  move|p1a: Honchkrow|Lash Out|p2a: Ampharos
+  -damage|p2a: Ampharos|51/100
+  move|p2a: Ampharos|Thunderbolt|p1a: Honchkrow
+  -supereffective|p1a: Honchkrow
+  -damage|p1a: Honchkrow|0 fnt
+  faint|p1a: Honchkrow
+  switch|p1a: Tinkaton|Tinkaton, L82, F, tera:Steel|248/274
+  -ability|p1a: Tinkaton|Mold Breaker
+-- turn 11
+  WE CHOSE: attack gigatonhammer - our hp 0.91, theirs 0.51, predicted move (revealed) hits us x1
+  move|p1a: Tinkaton|Gigaton Hammer|p2a: Ampharos
+  -resisted|p2a: Ampharos
+  -damage|p2a: Ampharos|25/100
+  move|p2a: Ampharos|Thunderbolt|p1a: Tinkaton
+  -damage|p1a: Tinkaton|149/274
+  -heal|p1a: Tinkaton|166/274|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack playrough - our hp 0.61, theirs 0.25, predicted move (revealed) hits us x1
+  move|p1a: Tinkaton|Play Rough|p2a: Ampharos|[miss]
+  -miss|p1a: Tinkaton|p2a: Ampharos
+  move|p2a: Ampharos|Thunderbolt|p1a: Tinkaton
+  -damage|p1a: Tinkaton|66/274
+  -heal|p1a: Tinkaton|83/274|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack gigatonhammer - our hp 0.30, theirs 0.25, predicted move (revealed) hits us x1
+  move|p1a: Tinkaton|Gigaton Hammer|p2a: Ampharos
+  -resisted|p2a: Ampharos
+  -damage|p2a: Ampharos|0 fnt
+  faint|p2a: Ampharos
+  -heal|p1a: Tinkaton|100/274|[from] item: Leftovers
+  switch|p2a: Vespiquen|Vespiquen, L99, F|100/100
+  -ability|p2a: Vespiquen|Pressure
+-- turn 14
+  WE CHOSE: attack playrough - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Tinkaton|Play Rough|p2a: Vespiquen
+  -damage|p2a: Vespiquen|83/100
+  move|p2a: Vespiquen|Air Slash|p1a: Tinkaton
+  -resisted|p1a: Tinkaton
+  -damage|p1a: Tinkaton|57/274
+  -heal|p1a: Tinkaton|74/274|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack gigatonhammer - our hp 0.27, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p1a: Tinkaton|Gigaton Hammer|p2a: Vespiquen
+  -damage|p2a: Vespiquen|41/100
+  move|p2a: Vespiquen|Air Slash|p1a: Tinkaton
+  -resisted|p1a: Tinkaton
+  -damage|p1a: Tinkaton|31/274
+  -heal|p1a: Tinkaton|48/274|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack playrough - our hp 0.18, theirs 0.41, predicted move (revealed) hits us x0.5
+  move|p1a: Tinkaton|Play Rough|p2a: Vespiquen
+  -damage|p2a: Vespiquen|23/100
+  -unboost|p2a: Vespiquen|atk|1
+  move|p2a: Vespiquen|Air Slash|p1a: Tinkaton
+  -resisted|p1a: Tinkaton
+  -damage|p1a: Tinkaton|9/274
+  -heal|p1a: Tinkaton|26/274|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack gigatonhammer - our hp 0.09, theirs 0.23, predicted move (revealed) hits us x0.5
+  move|p1a: Tinkaton|Gigaton Hammer|p2a: Vespiquen
+  -damage|p2a: Vespiquen|0 fnt
+  faint|p2a: Vespiquen
+  -heal|p1a: Tinkaton|43/274|[from] item: Leftovers
+  switch|p2a: Toxtricity|Toxtricity, L82, F|100/100
+-- turn 18
+  WE CHOSE: attack playrough - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to ribombee - our hp 0.00, theirs 0.84, predicted move (revealed) hits us x0.5
+  move|p1a: Tinkaton|Play Rough|p2a: Toxtricity
+  -resisted|p2a: Toxtricity
+  -damage|p2a: Toxtricity|84/100
+  move|p2a: Toxtricity|Boomburst|p1a: Tinkaton
+  -resisted|p1a: Tinkaton
+  -damage|p1a: Tinkaton|0 fnt
+  faint|p1a: Tinkaton
+  switch|p1a: Ribombee|Ribombee, L83, F|235/235
+-- turn 19
+  WE CHOSE: attack terablast - our hp 1.00, theirs 0.84, predicted move (revealed) hits us x1
+  move|p1a: Ribombee|Tera Blast|p2a: Toxtricity
+  -damage|p2a: Toxtricity|58/100
+  move|p2a: Toxtricity|Boomburst|p1a: Ribombee
+  -damage|p1a: Ribombee|4/235
+-- turn 20
+  WE CHOSE: attack terablast - our hp 0.02, theirs 0.58, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bellibolt - our hp 0.00, theirs 0.33, predicted move (revealed) hits us x1
+  move|p1a: Ribombee|Tera Blast|p2a: Toxtricity
+  -damage|p2a: Toxtricity|33/100
+  move|p2a: Toxtricity|Boomburst|p1a: Ribombee
+  -damage|p1a: Ribombee|0 fnt
+  faint|p1a: Ribombee
+  switch|p1a: Bellibolt|Bellibolt, L84, M|320/320
+-- turn 21
+  WE CHOSE: attack muddywater - our hp 1.00, theirs 0.33, predicted move (revealed) hits us x1
+  move|p2a: Toxtricity|Boomburst|p1a: Bellibolt
+  -damage|p1a: Bellibolt|111/320
+  -start|p1a: Bellibolt|Charge|Boomburst|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Muddy Water|p2a: Toxtricity
+  -damage|p2a: Toxtricity|2/100
+  -unboost|p2a: Toxtricity|accuracy|1
+  -heal|p1a: Bellibolt|131/320|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal slackoff - our hp 0.41, theirs 0.02, predicted move (revealed) hits us x1
+  move|p2a: Toxtricity|Boomburst|p1a: Bellibolt
+  -damage|p1a: Bellibolt|0 fnt
+  faint|p1a: Bellibolt
+  deinit

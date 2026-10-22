@@ -1,0 +1,297 @@
+battle 2014 (battle-gen9randombattle-2037426): lost in 29 turns, 1 of theirs left; we are p1
+
+ours:
+  reuniclus (fainted; item lifeorb, ability magicguard, tera fighting; moves calmmind/focusblast/psyshock/recover)
+  urshifu (fainted; item lifeorb, ability unseenfist; moves wickedblow/swordsdance/closecombat/suckerpunch)
+  vaporeon (fainted; item leftovers, ability waterabsorb; moves protect/scald/wish/flipturn)
+  glimmora (fainted; item powerherb, ability toxicdebris; moves energyball/meteorbeam/earthpower/sludgewave)
+  oricoriopompom (fainted; item heavydutyboots, ability dancer; moves quiverdance/revelationdance/roost/hurricane)
+  blissey (fainted; item leftovers, ability naturalcure; moves healbell/thunderwave/softboiled/seismictoss)
+theirs (as seen):
+  poliwrath (fainted; item unknown_item, ability ?; moves closecombat)
+  girafarig (fainted; item unknown_item, ability ?; moves thunderbolt)
+  ursaring (fainted; item unknown_item, ability ?; moves closecombat)
+  manaphy (fainted; item leftovers, ability hydration; moves hydropump)
+  zacian (fainted; item unknown_item, ability intrepidsword; moves closecombat)
+  medicham (100%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Reuniclus|Reuniclus, L88, F|337/337
+  switch|p2a: Poliwrath|Poliwrath, L88, M|100/100
+-- turn 1
+  WE CHOSE: setup calmmind - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Poliwrath|Close Combat|p1a: Reuniclus
+  -resisted|p1a: Reuniclus
+  -crit|p1a: Reuniclus
+  -damage|p1a: Reuniclus|233/337
+  -unboost|p2a: Poliwrath|def|1
+  -unboost|p2a: Poliwrath|spd|1
+  move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+  -boost|p1a: Reuniclus|spa|1
+  -boost|p1a: Reuniclus|spd|1
+-- turn 2
+  WE CHOSE: setup calmmind - our hp 0.69, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Close Combat|p1a: Reuniclus
+  -resisted|p1a: Reuniclus
+  -damage|p1a: Reuniclus|157/337
+  -unboost|p2a: Poliwrath|def|1
+  -unboost|p2a: Poliwrath|spd|1
+  move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+  -boost|p1a: Reuniclus|spa|1
+  -boost|p1a: Reuniclus|spd|1
+-- turn 3
+  WE CHOSE: heal recover - our hp 0.47, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Close Combat|p1a: Reuniclus
+  -resisted|p1a: Reuniclus
+  -damage|p1a: Reuniclus|86/337
+  -unboost|p2a: Poliwrath|def|1
+  -unboost|p2a: Poliwrath|spd|1
+  move|p1a: Reuniclus|Recover|p1a: Reuniclus
+  -heal|p1a: Reuniclus|255/337
+-- turn 4
+  WE CHOSE: attack psyshock - our hp 0.76, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Poliwrath|Close Combat|p1a: Reuniclus
+  -resisted|p1a: Reuniclus
+  -damage|p1a: Reuniclus|177/337
+  -unboost|p2a: Poliwrath|def|1
+  -unboost|p2a: Poliwrath|spd|1
+  move|p1a: Reuniclus|Psyshock|p2a: Poliwrath
+  -supereffective|p2a: Poliwrath
+  -damage|p2a: Poliwrath|0 fnt
+  faint|p2a: Poliwrath
+  switch|p2a: Girafarig|Girafarig, L89, F|100/100
+-- turn 5
+  WE CHOSE: attack focusblast - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Girafarig|Thunderbolt|p1a: Reuniclus
+  -damage|p1a: Reuniclus|145/337
+  move|p1a: Reuniclus|Focus Blast|p2a: Girafarig
+  -damage|p2a: Girafarig|8/100
+-- turn 6
+  WE CHOSE: heal recover - our hp 0.43, theirs 0.08, predicted move (revealed) hits us x1
+  move|p2a: Girafarig|Thunderbolt|p1a: Reuniclus
+  -damage|p1a: Reuniclus|109/337
+  move|p1a: Reuniclus|Recover|p1a: Reuniclus
+  -heal|p1a: Reuniclus|278/337
+-- turn 7
+  WE CHOSE: attack+tera focusblast - our hp 0.82, theirs 0.08, predicted move (revealed) hits us x1
+  -terastallize|p1a: Reuniclus|Fighting
+  move|p2a: Girafarig|Thunderbolt|p1a: Reuniclus
+  -crit|p1a: Reuniclus
+  -damage|p1a: Reuniclus|175/337
+  move|p1a: Reuniclus|Focus Blast|p2a: Girafarig
+  -damage|p2a: Girafarig|0 fnt
+  faint|p2a: Girafarig
+  switch|p2a: Ursaring|Ursaring, L84, M|100/100
+-- turn 8
+  WE CHOSE: attack focusblast - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Ursaring|Close Combat|p1a: Reuniclus
+  -damage|p1a: Reuniclus|54/337
+  -unboost|p2a: Ursaring|def|1
+  -unboost|p2a: Ursaring|spd|1
+  move|p1a: Reuniclus|Focus Blast|p2a: Ursaring|[miss]
+  -miss|p1a: Reuniclus|p2a: Ursaring
+  -status|p2a: Ursaring|tox|[from] item: Toxic Orb
+-- turn 9
+  WE CHOSE: heal recover - our hp 0.16, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to oricoriopompom - our hp 0.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Ursaring|Close Combat|p1a: Reuniclus
+  -damage|p1a: Reuniclus|0 fnt
+  -unboost|p2a: Ursaring|def|1
+  -unboost|p2a: Ursaring|spd|1
+  faint|p1a: Reuniclus
+  -damage|p2a: Ursaring|94/100 tox|[from] psn
+  switch|p1a: Oricorio|Oricorio-Pom-Pom, L82, F|257/257
+-- turn 10
+  WE CHOSE: setup quiverdance - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x0.5
+  move|p2a: Ursaring|Close Combat|p1a: Oricorio
+  -resisted|p1a: Oricorio
+  -damage|p1a: Oricorio|197/257
+  -unboost|p2a: Ursaring|def|1
+  -unboost|p2a: Ursaring|spd|1
+  move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+  -boost|p1a: Oricorio|spa|1
+  -boost|p1a: Oricorio|spd|1
+  -boost|p1a: Oricorio|spe|1
+  -damage|p2a: Ursaring|82/100 tox|[from] psn
+-- turn 11
+  WE CHOSE: setup quiverdance - our hp 0.77, theirs 0.82, predicted move (revealed) hits us x0.5
+  move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+  -boost|p1a: Oricorio|spa|1
+  -boost|p1a: Oricorio|spd|1
+  -boost|p1a: Oricorio|spe|1
+  move|p2a: Ursaring|Close Combat|p1a: Oricorio
+  -resisted|p1a: Oricorio
+  -damage|p1a: Oricorio|137/257
+  -unboost|p2a: Ursaring|def|1
+  -unboost|p2a: Ursaring|spd|1
+  -damage|p2a: Ursaring|63/100 tox|[from] psn
+-- turn 12
+  WE CHOSE: attack hurricane - our hp 0.53, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p1a: Oricorio|Hurricane|p2a: Ursaring|[miss]
+  -miss|p1a: Oricorio|p2a: Ursaring
+  move|p2a: Ursaring|Close Combat|p1a: Oricorio
+  -resisted|p1a: Oricorio
+  -damage|p1a: Oricorio|76/257
+  -unboost|p2a: Ursaring|def|1
+  -unboost|p2a: Ursaring|spd|1
+  -damage|p2a: Ursaring|38/100 tox|[from] psn
+-- turn 13
+  WE CHOSE: heal roost - our hp 0.30, theirs 0.38, predicted move (revealed) hits us x0.5
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|205/257
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Ursaring|Close Combat|p1a: Oricorio
+  -damage|p1a: Oricorio|65/257
+  -unboost|p2a: Ursaring|def|1
+  -unboost|p2a: Ursaring|spd|1
+  -damage|p2a: Ursaring|7/100 tox|[from] psn
+-- turn 14
+  WE CHOSE: heal roost - our hp 0.25, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|194/257
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Ursaring|Close Combat|p1a: Oricorio
+  -damage|p1a: Oricorio|68/257
+  -damage|p2a: Ursaring|0 fnt|[from] psn
+  faint|p2a: Ursaring
+  switch|p2a: Manaphy|Manaphy, L78|100/100
+-- turn 15
+  WE CHOSE: switch to vaporeon - our hp 0.26, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Vaporeon|Vaporeon, L86, F|364/364
+  move|p2a: Manaphy|Hydro Pump|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+-- turn 16
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Manaphy|Hydro Pump|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+  move|p1a: Vaporeon|Scald|p2a: Manaphy
+  -resisted|p2a: Manaphy
+  -damage|p2a: Manaphy|85/100
+  -heal|p2a: Manaphy|91/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack scald - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0
+  move|p2a: Manaphy|Hydro Pump|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+  move|p1a: Vaporeon|Scald|p2a: Manaphy
+  -resisted|p2a: Manaphy
+  -damage|p2a: Manaphy|74/100
+  -heal|p2a: Manaphy|80/100|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack scald - our hp 1.00, theirs 0.80, predicted move (revealed) hits us x0
+  move|p2a: Manaphy|Hydro Pump|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+  move|p1a: Vaporeon|Scald|p2a: Manaphy
+  -resisted|p2a: Manaphy
+  -damage|p2a: Manaphy|64/100
+  -status|p2a: Manaphy|brn
+  -heal|p2a: Manaphy|70/100 brn|[from] item: Leftovers
+  -damage|p2a: Manaphy|64/100 brn|[from] brn
+-- turn 19
+  WE CHOSE: attack scald - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x0
+  move|p2a: Manaphy|Hydro Pump|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+  move|p1a: Vaporeon|Scald|p2a: Manaphy
+  -resisted|p2a: Manaphy
+  -damage|p2a: Manaphy|47/100 brn
+  -heal|p2a: Manaphy|53/100 brn|[from] item: Leftovers
+  -damage|p2a: Manaphy|47/100 brn|[from] brn
+-- turn 20
+  WE CHOSE: attack scald - our hp 1.00, theirs 0.47, predicted move (revealed) hits us x0
+  move|p2a: Manaphy|Hydro Pump|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+  move|p1a: Vaporeon|Scald|p2a: Manaphy
+  -resisted|p2a: Manaphy
+  -damage|p2a: Manaphy|29/100 brn
+  -heal|p2a: Manaphy|35/100 brn|[from] item: Leftovers
+  -damage|p2a: Manaphy|29/100 brn|[from] brn
+-- turn 21
+  WE CHOSE: attack scald - our hp 1.00, theirs 0.29, predicted move (revealed) hits us x0
+  move|p2a: Manaphy|Hydro Pump|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+  move|p1a: Vaporeon|Scald|p2a: Manaphy
+  -resisted|p2a: Manaphy
+  -damage|p2a: Manaphy|13/100 brn
+  -heal|p2a: Manaphy|19/100 brn|[from] item: Leftovers
+  -damage|p2a: Manaphy|13/100 brn|[from] brn
+-- turn 22
+  WE CHOSE: attack scald - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0
+  move|p2a: Manaphy|Hydro Pump|p1a: Vaporeon
+  -immune|p1a: Vaporeon|[from] ability: Water Absorb
+  move|p1a: Vaporeon|Scald|p2a: Manaphy
+  -resisted|p2a: Manaphy
+  -damage|p2a: Manaphy|0 fnt
+  faint|p2a: Manaphy
+  switch|p2a: Zacian|Zacian, L69|100/100
+  -ability|p2a: Zacian|Intrepid Sword|boost
+  -boost|p2a: Zacian|atk|1
+-- turn 23
+  WE CHOSE: attack scald - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Zacian|Close Combat|p1a: Vaporeon
+  -damage|p1a: Vaporeon|180/364
+  -unboost|p2a: Zacian|def|1
+  -unboost|p2a: Zacian|spd|1
+  move|p1a: Vaporeon|Scald|p2a: Zacian
+  -damage|p2a: Zacian|44/100
+  -heal|p1a: Vaporeon|202/364|[from] item: Leftovers
+-- turn 24
+  WE CHOSE: attack scald - our hp 0.55, theirs 0.44, predicted move (revealed) hits us x1
+  move|p2a: Zacian|Close Combat|p1a: Vaporeon
+  -damage|p1a: Vaporeon|3/364
+  -unboost|p2a: Zacian|def|1
+  -unboost|p2a: Zacian|spd|1
+  move|p1a: Vaporeon|Scald|p2a: Zacian
+  -damage|p2a: Zacian|0 fnt
+  faint|p2a: Zacian
+  -heal|p1a: Vaporeon|25/364|[from] item: Leftovers
+  switch|p2a: Medicham|Medicham, L86, M|100/100
+-- turn 25
+  WE CHOSE: attack scald - our hp 0.07, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to oricoriopompom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Medicham|Close Combat|p1a: Vaporeon
+  -damage|p1a: Vaporeon|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Vaporeon
+  switch|p1a: Oricorio|Oricorio-Pom-Pom, L82, F|68/257
+-- turn 26
+  WE CHOSE: heal roost - our hp 0.26, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to glimmora - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Oricorio|Roost|p1a: Oricorio
+  -heal|p1a: Oricorio|197/257
+  -singleturn|p1a: Oricorio|move: Roost
+  move|p2a: Medicham|Close Combat|p1a: Oricorio
+  -damage|p1a: Oricorio|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Oricorio
+  switch|p1a: Glimmora|Glimmora, L75, F|248/248
+-- turn 27
+  WE CHOSE: attack sludgewave - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to urshifu - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Medicham|Close Combat|p1a: Glimmora
+  -damage|p1a: Glimmora|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  -activate|p1a: Glimmora|ability: Toxic Debris
+  -sidestart|p2: e2_035154|move: Toxic Spikes
+  faint|p1a: Glimmora
+  switch|p1a: Urshifu|Urshifu, L74, M|270/270
+-- turn 28
+  WE CHOSE: attack wickedblow - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to blissey - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Medicham|Close Combat|p1a: Urshifu
+  -supereffective|p1a: Urshifu
+  -damage|p1a: Urshifu|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Urshifu
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+-- turn 29
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Medicham|Close Combat|p1a: Blissey
+  -supereffective|p1a: Blissey
+  -damage|p1a: Blissey|0 fnt
+  -unboost|p2a: Medicham|def|1
+  -unboost|p2a: Medicham|spd|1
+  faint|p1a: Blissey
+  deinit

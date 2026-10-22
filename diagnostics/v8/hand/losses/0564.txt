@@ -1,0 +1,164 @@
+battle 564 (battle-gen9randombattle-2023692): lost in 16 turns, 2 of theirs left; we are p1
+
+ours:
+  squawkabilly (fainted; item flameorb, ability guts, tera normal; moves uturn/quickattack/facade/bravebird)
+  sudowoodo (fainted; item leftovers, ability rockhead; moves woodhammer/headsmash/earthquake/stealthrock)
+  basculegion (fainted; item assaultvest, ability adaptability; moves shadowball/wavecrash/flipturn/aquajet)
+  zapdosgalar (fainted; item lifeorb, ability defiant; moves bulkup/closecombat/knockoff/bravebird)
+  vikavolt (fainted; item heavydutyboots, ability levitate; moves thunderbolt/stickyweb/bugbuzz/energyball)
+  chiyu (fainted; item heavydutyboots, ability beadsofruin; moves willowisp/nastyplot/darkpulse/fireblast)
+theirs (as seen):
+  miraidon (fainted; item lifeorb, ability hadronengine; moves dracometeor)
+  corviknight (fainted; item rockyhelmet, ability pressure; moves bravebird)
+  ludicolo (fainted; item unknown_item, ability ?; moves leafstorm)
+  chandelure (fainted; item unknown_item, ability ?; moves fireblast)
+  shayminsky (42%; item unknown_item, ability serenegrace; moves seedflare)
+
+-- turn 0
+  switch|p1a: Squawkabilly|Squawkabilly, L85, M|278/278
+  switch|p2a: Miraidon|Miraidon, L65|100/100
+  -fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+-- turn 1
+  WE CHOSE: attack+tera facade - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to sudowoodo - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  -terastallize|p1a: Squawkabilly|Normal
+  move|p2a: Miraidon|Draco Meteor|p1a: Squawkabilly
+  -damage|p1a: Squawkabilly|0 fnt
+  -unboost|p2a: Miraidon|spa|2
+  faint|p1a: Squawkabilly
+  -damage|p2a: Miraidon|91/100|[from] item: Life Orb
+  switch|p1a: Sudowoodo|Sudowoodo, L94, M|284/284
+-- turn 2
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Miraidon|Draco Meteor|p1a: Sudowoodo|[miss]
+  -miss|p2a: Miraidon|p1a: Sudowoodo
+  move|p1a: Sudowoodo|Earthquake|p2a: Miraidon
+  -supereffective|p2a: Miraidon
+  -crit|p2a: Miraidon
+  -damage|p2a: Miraidon|0 fnt
+  faint|p2a: Miraidon
+  switch|p2a: Corviknight|Corviknight, L80, M|100/100
+  -ability|p2a: Corviknight|Pressure
+-- turn 3
+  WE CHOSE: attack headsmash - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Corviknight|Brave Bird|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -crit|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|226/284
+  -damage|p2a: Corviknight|94/100|[from] Recoil
+  move|p1a: Sudowoodo|Head Smash|p2a: Corviknight
+  -damage|p2a: Corviknight|26/100
+  -damage|p1a: Sudowoodo|179/284|[from] item: Rocky Helmet|[of] p2a: Corviknight
+  -heal|p1a: Sudowoodo|196/284|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack headsmash - our hp 0.69, theirs 0.26, predicted move (revealed) hits us x0.5
+  move|p2a: Corviknight|Brave Bird|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|160/284
+  -damage|p2a: Corviknight|22/100|[from] Recoil
+  move|p1a: Sudowoodo|Head Smash|p2a: Corviknight
+  -damage|p2a: Corviknight|0 fnt
+  -damage|p1a: Sudowoodo|113/284|[from] item: Rocky Helmet|[of] p2a: Corviknight
+  faint|p2a: Corviknight
+  -heal|p1a: Sudowoodo|130/284|[from] item: Leftovers
+  switch|p2a: Ludicolo|Ludicolo, L90, M|100/100
+-- turn 5
+  WE CHOSE: switch to zapdosgalar - our hp 0.46, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Zapdos|Zapdos-Galar, L77|265/265
+  move|p2a: Ludicolo|Leaf Storm|p1a: Zapdos
+  -resisted|p1a: Zapdos
+  -damage|p1a: Zapdos|142/265
+  -unboost|p2a: Ludicolo|spa|2
+  -fieldend|move: Electric Terrain
+-- turn 6
+  WE CHOSE: setup bulkup - our hp 0.54, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Zapdos|Bulk Up|p1a: Zapdos
+  -boost|p1a: Zapdos|atk|1
+  -boost|p1a: Zapdos|def|1
+  move|p2a: Ludicolo|Leaf Storm|p1a: Zapdos
+  -resisted|p1a: Zapdos
+  -damage|p1a: Zapdos|88/265
+  -unboost|p2a: Ludicolo|spa|2
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to vikavolt - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x0.5
+  move|p1a: Zapdos|Brave Bird|p2a: Ludicolo
+  -supereffective|p2a: Ludicolo
+  -damage|p2a: Ludicolo|0 fnt
+  faint|p2a: Ludicolo
+  -damage|p1a: Zapdos|0 fnt|[from] Recoil
+  faint|p1a: Zapdos
+  switch|p1a: Vikavolt|Vikavolt, L83, F|263/263
+  switch|p2a: Chandelure|Chandelure, L83, M|100/100
+-- turn 8
+  WE CHOSE: switch to sudowoodo - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Sudowoodo|Sudowoodo, L94, M|130/284
+  move|p2a: Chandelure|Fire Blast|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|43/284
+  -heal|p1a: Sudowoodo|60/284|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack headsmash - our hp 0.21, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to basculegion - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Chandelure|Fire Blast|p1a: Sudowoodo
+  -resisted|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|0 fnt
+  faint|p1a: Sudowoodo
+  switch|p1a: Basculegion|Basculegion, L80, M|323/323
+-- turn 10
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Chandelure|Fire Blast|p1a: Basculegion
+  -resisted|p1a: Basculegion
+  -damage|p1a: Basculegion|256/323
+  move|p1a: Basculegion|Wave Crash|p2a: Chandelure
+  -supereffective|p2a: Chandelure
+  -damage|p2a: Chandelure|0 fnt
+  faint|p2a: Chandelure
+  -damage|p1a: Basculegion|178/323|[from] Recoil
+  switch|p2a: Shaymin|Shaymin-Sky, L73|100/100
+-- turn 11
+  WE CHOSE: switch to chiyu - our hp 0.55, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+  move|p2a: Shaymin|Seed Flare|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|140/211
+  -unboost|p1a: Chi-Yu|spd|2
+-- turn 12
+  WE CHOSE: setup nastyplot - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Shaymin|Seed Flare|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|4/211
+  move|p1a: Chi-Yu|Nasty Plot|p1a: Chi-Yu
+  -boost|p1a: Chi-Yu|spa|2
+-- turn 13
+  WE CHOSE: attack fireblast - our hp 0.02, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to vikavolt - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Shaymin|Seed Flare|p1a: Chi-Yu
+  -resisted|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|0 fnt
+  faint|p1a: Chi-Yu
+  switch|p1a: Vikavolt|Vikavolt, L83, F|263/263
+-- turn 14
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Shaymin|Seed Flare|p1a: Vikavolt
+  -resisted|p1a: Vikavolt
+  -damage|p1a: Vikavolt|163/263
+  -unboost|p1a: Vikavolt|spd|2
+  move|p1a: Vikavolt|Thunderbolt|p2a: Shaymin
+  -damage|p2a: Shaymin|42/100
+-- turn 15
+  WE CHOSE: attack thunderbolt - our hp 0.62, theirs 0.42, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to basculegion - our hp 0.00, theirs 0.42, predicted move (revealed) hits us x0.5
+  move|p2a: Shaymin|Seed Flare|p1a: Vikavolt
+  -resisted|p1a: Vikavolt
+  -damage|p1a: Vikavolt|0 fnt
+  faint|p1a: Vikavolt
+  switch|p1a: Basculegion|Basculegion, L80, M|178/323
+-- turn 16
+  WE CHOSE: attack shadowball - our hp 0.55, theirs 0.42, predicted move (revealed) hits us x2
+  move|p2a: Shaymin|Seed Flare|p1a: Basculegion
+  -supereffective|p1a: Basculegion
+  -damage|p1a: Basculegion|0 fnt
+  faint|p1a: Basculegion
+  deinit

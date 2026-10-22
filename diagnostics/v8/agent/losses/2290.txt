@@ -1,0 +1,182 @@
+battle 2290 (battle-gen9randombattle-2041937): lost in 18 turns, 1 of theirs left; we are p1
+
+ours:
+  chiyu (fainted; item heavydutyboots, ability beadsofruin; moves nastyplot/darkpulse/willowisp/fireblast)
+  milotic (fainted; item leftovers, ability competitive; moves scald/icebeam/dragontail/recover)
+  garchomp (fainted; item rockyhelmet, ability roughskin; moves spikes/earthquake/stealthrock/outrage)
+  whiscash (fainted; item ?, ability oblivious, tera steel; moves stoneedge/liquidation/earthquake/dragondance)
+  wyrdeer (fainted; item assaultvest, ability intimidate; moves megahorn/earthquake/bodyslam/psychicnoise)
+  registeel (fainted; item chestoberry, ability clearbody; moves irondefense/rest/bodypress/ironhead)
+theirs (as seen):
+  clodsire (fainted; item leftovers, ability ?; moves earthquake)
+  furret (fainted; item unknown_item, ability frisk; moves doubleedge)
+  baxcalibur (fainted; item unknown_item, ability ?; moves glaiverush)
+  leavanny (fainted; item unknown_item, ability ?; moves knockoff)
+  terrakion (fainted; item lifeorb, ability justified; moves closecombat)
+  swanna (9%; item unknown_item, ability ?; moves bravebird)
+
+-- turn 0
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  switch|p2a: Clodsire|Clodsire, L81, F|100/100
+  -ability|p1a: Chi-Yu|Beads of Ruin
+-- turn 1
+  WE CHOSE: switch to registeel - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Registeel|Registeel, L81|262/262
+  move|p2a: Clodsire|Earthquake|p1a: Registeel
+  -supereffective|p1a: Registeel
+  -damage|p1a: Registeel|154/262
+-- turn 2
+  WE CHOSE: switch to garchomp (hand policy: attack ironhead) - our hp 0.59, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Garchomp|Garchomp, L74, M|282/282
+  move|p2a: Clodsire|Earthquake|p1a: Garchomp
+  -damage|p1a: Garchomp|201/282
+-- turn 3
+  WE CHOSE: attack earthquake (hand policy: attack+tera earthquake) - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Garchomp|Earthquake|p2a: Clodsire
+  -supereffective|p2a: Clodsire
+  -damage|p2a: Clodsire|12/100
+  move|p2a: Clodsire|Earthquake|p1a: Garchomp
+  -damage|p1a: Garchomp|113/282
+  -heal|p2a: Clodsire|19/100|[from] item: Leftovers
+-- turn 4
+  WE CHOSE: attack earthquake (hand policy: attack+tera earthquake) - our hp 0.40, theirs 0.19, predicted move (revealed) hits us x1
+  move|p1a: Garchomp|Earthquake|p2a: Clodsire
+  -supereffective|p2a: Clodsire
+  -damage|p2a: Clodsire|0 fnt
+  faint|p2a: Clodsire
+  switch|p2a: Furret|Furret, L94, M|100/100
+  -item|p1a: Garchomp|Rocky Helmet|[from] ability: Frisk|[of] p2a: Furret
+-- turn 5
+  WE CHOSE: switch to registeel (hand policy: attack outrage) - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Registeel|Registeel, L81|154/262
+  move|p2a: Furret|Double-Edge|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|88/262
+  -damage|p2a: Furret|93/100|[from] Recoil
+-- turn 6
+  WE CHOSE: attack bodypress (hand policy: heal rest) - our hp 0.34, theirs 0.93, predicted move (revealed) hits us x0.5
+  move|p2a: Furret|Double-Edge|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|20/262
+  -damage|p2a: Furret|86/100|[from] Recoil
+  move|p1a: Registeel|Body Press|p2a: Furret
+  -supereffective|p2a: Furret
+  -damage|p2a: Furret|27/100
+-- turn 7
+  WE CHOSE: attack bodypress (hand policy: heal rest) - our hp 0.08, theirs 0.27, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to wyrdeer (hand policy: forced: switch to garchomp) - our hp 0.00, theirs 0.25, predicted move (revealed) hits us x0.5
+  move|p2a: Furret|Double-Edge|p1a: Registeel
+  -resisted|p1a: Registeel
+  -damage|p1a: Registeel|0 fnt
+  faint|p1a: Registeel
+  -damage|p2a: Furret|25/100|[from] Recoil
+  switch|p1a: Wyrdeer|Wyrdeer, L87, M|321/321
+  -ability|p1a: Wyrdeer|Intimidate|boost
+  -unboost|p2a: Furret|atk|1
+-- turn 8
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.25, predicted move (revealed) hits us x1
+  move|p2a: Furret|Double-Edge|p1a: Wyrdeer
+  -crit|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|8/321
+  -damage|p2a: Furret|0 fnt|[from] Recoil
+  faint|p2a: Furret
+  move|p1a: Wyrdeer|Body Slam|p2: Furret|[notarget]
+  -fail|p1a: Wyrdeer
+  switch|p2a: Baxcalibur|Baxcalibur, L75, M|100/100
+-- turn 9
+  WE CHOSE: attack bodyslam - our hp 0.02, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to whiscash - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Baxcalibur|Glaive Rush|p1a: Wyrdeer
+  -damage|p1a: Wyrdeer|0 fnt
+  -singlemove|p2a: Baxcalibur|Glaive Rush|[silent]
+  faint|p1a: Wyrdeer
+  switch|p1a: Whiscash|Whiscash, L88, M|337/337
+-- turn 10
+  WE CHOSE: attack+tera stoneedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Whiscash|Steel
+  move|p2a: Baxcalibur|Glaive Rush|p1a: Whiscash
+  -resisted|p1a: Whiscash
+  -damage|p1a: Whiscash|256/337
+  -singlemove|p2a: Baxcalibur|Glaive Rush|[silent]
+  move|p1a: Whiscash|Stone Edge|p2a: Baxcalibur
+  -supereffective|p2a: Baxcalibur
+  -damage|p2a: Baxcalibur|0 fnt
+  faint|p2a: Baxcalibur
+  -damage|p1a: Whiscash|223/337|[from] item: Life Orb
+  switch|p2a: Leavanny|Leavanny, L86, M|100/100
+-- turn 11
+  WE CHOSE: attack stoneedge (hand policy: setup dragondance) - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Leavanny|Knock Off|p1a: Whiscash
+  -damage|p1a: Whiscash|133/337
+  -enditem|p1a: Whiscash|Life Orb|[from] move: Knock Off|[of] p2a: Leavanny
+  move|p1a: Whiscash|Stone Edge|p2a: Leavanny
+  -supereffective|p2a: Leavanny
+  -damage|p2a: Leavanny|48/100
+-- turn 12
+  WE CHOSE: attack stoneedge - our hp 0.39, theirs 0.48, predicted move (revealed) hits us x1
+  move|p2a: Leavanny|Knock Off|p1a: Whiscash
+  -damage|p1a: Whiscash|76/337
+  move|p1a: Whiscash|Stone Edge|p2a: Leavanny
+  -supereffective|p2a: Leavanny
+  -damage|p2a: Leavanny|0 fnt
+  faint|p2a: Leavanny
+  switch|p2a: Terrakion|Terrakion, L79|100/100
+-- turn 13
+  WE CHOSE: attack earthquake - our hp 0.23, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to garchomp - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x2
+  move|p2a: Terrakion|Close Combat|p1a: Whiscash
+  -supereffective|p1a: Whiscash
+  -damage|p1a: Whiscash|0 fnt
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  faint|p1a: Whiscash
+  -damage|p2a: Terrakion|91/100|[from] item: Life Orb
+  switch|p1a: Garchomp|Garchomp, L74, M|113/282
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 0.40, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to milotic - our hp 0.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Terrakion|Close Combat|p1a: Garchomp
+  -damage|p1a: Garchomp|0 fnt
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  -damage|p2a: Terrakion|78/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+  -damage|p2a: Terrakion|62/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+  faint|p1a: Garchomp
+  -damage|p2a: Terrakion|52/100|[from] item: Life Orb
+  switch|p1a: Milotic|Milotic, L83, F|293/293
+-- turn 15
+  WE CHOSE: attack scald - our hp 1.00, theirs 0.52, predicted move (revealed) hits us x1
+  move|p2a: Terrakion|Close Combat|p1a: Milotic
+  -damage|p1a: Milotic|82/293
+  -unboost|p2a: Terrakion|def|1
+  -unboost|p2a: Terrakion|spd|1
+  -damage|p2a: Terrakion|42/100|[from] item: Life Orb
+  move|p1a: Milotic|Scald|p2a: Terrakion
+  -supereffective|p2a: Terrakion
+  -damage|p2a: Terrakion|0 fnt
+  faint|p2a: Terrakion
+  -heal|p1a: Milotic|100/293|[from] item: Leftovers
+  switch|p2a: Swanna|Swanna, L89, M|100/100
+-- turn 16
+  WE CHOSE: attack icebeam (hand policy: heal recover) - our hp 0.34, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to chiyu - our hp 0.00, theirs 0.89, predicted move (revealed) hits us x1
+  move|p2a: Swanna|Brave Bird|p1a: Milotic
+  -damage|p1a: Milotic|0 fnt
+  faint|p1a: Milotic
+  -damage|p2a: Swanna|89/100|[from] Recoil
+  switch|p1a: Chi-Yu|Chi-Yu, L77|211/211
+  -ability|p1a: Chi-Yu|Beads of Ruin
+-- turn 17
+  WE CHOSE: attack darkpulse - our hp 1.00, theirs 0.89, predicted move (revealed) hits us x1
+  move|p2a: Swanna|Brave Bird|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|69/211
+  -damage|p2a: Swanna|72/100|[from] Recoil
+  move|p1a: Chi-Yu|Dark Pulse|p2a: Swanna
+  -damage|p2a: Swanna|17/100
+-- turn 18
+  WE CHOSE: attack darkpulse - our hp 0.33, theirs 0.17, predicted move (revealed) hits us x1
+  move|p2a: Swanna|Brave Bird|p1a: Chi-Yu
+  -damage|p1a: Chi-Yu|0 fnt
+  faint|p1a: Chi-Yu
+  -damage|p2a: Swanna|9/100|[from] Recoil
+  deinit

@@ -1,0 +1,185 @@
+battle 2777 (battle-gen9randombattle-2046739): lost in 20 turns, 2 of theirs left; we are p1
+
+ours:
+  klefki (fainted; item leftovers, ability prankster; moves magnetrise/playrough/spikes/thunderwave)
+  bronzong (fainted; item leftovers, ability levitate; moves stealthrock/ironhead/hypnosis/psychic)
+  hitmonlee (fainted; item ?, ability unburden; moves closecombat/poisonjab/swordsdance/knockoff)
+  ceruledge (fainted; item heavydutyboots, ability weakarmor; moves closecombat/swordsdance/poltergeist/bitterblade)
+  dragapult (fainted; item heavydutyboots, ability infiltrator, tera dragon; moves willowisp/dragondarts/hex/uturn)
+  malamar (fainted; item leftovers, ability contrary; moves superpower/sleeptalk/rest/knockoff)
+theirs (as seen):
+  serperior (fainted; item leftovers, ability ?; moves leafstorm)
+  slowbrogalar (fainted; item lifeorb, ability ?; moves fireblast)
+  inteleon (fainted; item unknown_item, ability ?; moves hydropump)
+  flygon (fainted; item unknown_item, ability levitate; moves outrage)
+  fluttermane (40%; item unknown_item, ability protosynthesis; moves moonblast)
+
+-- turn 0
+  switch|p1a: Klefki|Klefki, L84, F|233/233
+  switch|p2a: Serperior|Serperior, L79, F|100/100
+-- turn 1
+  WE CHOSE: switch to ceruledge (hand policy: attack playrough) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  switch|p1a: Ceruledge|Ceruledge, L78, F|245/245
+  move|p2a: Serperior|Leaf Storm|p1a: Ceruledge
+  -resisted|p1a: Ceruledge
+  -damage|p1a: Ceruledge|197/245
+  -boost|p2a: Serperior|spa|2
+-- turn 2
+  WE CHOSE: setup swordsdance - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Ceruledge
+  -resisted|p1a: Ceruledge
+  -damage|p1a: Ceruledge|93/245
+  -boost|p2a: Serperior|spa|2
+  move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+  -boost|p1a: Ceruledge|atk|2
+-- turn 3
+  WE CHOSE: attack bitterblade - our hp 0.38, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dragapult - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Serperior|Leaf Storm|p1a: Ceruledge
+  -resisted|p1a: Ceruledge
+  -damage|p1a: Ceruledge|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Ceruledge
+  switch|p1a: Dragapult|Dragapult, L77, F|262/262
+-- turn 4
+  WE CHOSE: attack+tera dragondarts (hand policy: attack dragondarts) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Dragapult|Dragon
+  move|p1a: Dragapult|Dragon Darts|p2a: Serperior
+  -damage|p2a: Serperior|71/100
+  -anim|p1a: Dragapult|Dragon Darts|p2a: Serperior
+  -damage|p2a: Serperior|39/100
+  move|p2a: Serperior|Leaf Storm|p1a: Dragapult
+  -resisted|p1a: Dragapult
+  -damage|p1a: Dragapult|1/262
+  -heal|p2a: Serperior|45/100|[from] item: Leftovers
+-- turn 5
+  WE CHOSE: attack dragondarts - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p1a: Dragapult|Dragon Darts|p2a: Serperior
+  -damage|p2a: Serperior|19/100
+  -anim|p1a: Dragapult|Dragon Darts|p2a: Serperior
+  -damage|p2a: Serperior|0 fnt
+  faint|p2a: Serperior
+  switch|p2a: Slowbro|Slowbro-Galar, L87, M|100/100
+-- turn 6
+  WE CHOSE: attack hex - our hp 0.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to bronzong (hand policy: forced: switch to malamar) - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p1a: Dragapult|Hex|p2a: Slowbro
+  -supereffective|p2a: Slowbro
+  -damage|p2a: Slowbro|55/100
+  move|p2a: Slowbro|Fire Blast|p1a: Dragapult
+  -resisted|p1a: Dragapult
+  -damage|p1a: Dragapult|0 fnt
+  faint|p1a: Dragapult
+  -damage|p2a: Slowbro|45/100|[from] item: Life Orb
+  switch|p1a: Bronzong|Bronzong, L88|261/261
+-- turn 7
+  WE CHOSE: attack psychic - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x2
+  move|p1a: Bronzong|Psychic|p2a: Slowbro
+  -damage|p2a: Slowbro|15/100
+  move|p2a: Slowbro|Fire Blast|p1a: Bronzong
+  -supereffective|p1a: Bronzong
+  -damage|p1a: Bronzong|92/261
+  -damage|p2a: Slowbro|5/100|[from] item: Life Orb
+  -heal|p1a: Bronzong|108/261|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack psychic - our hp 0.41, theirs 0.05, predicted move (revealed) hits us x2
+  move|p1a: Bronzong|Psychic|p2a: Slowbro
+  -damage|p2a: Slowbro|0 fnt
+  faint|p2a: Slowbro
+  -heal|p1a: Bronzong|124/261|[from] item: Leftovers
+  switch|p2a: Inteleon|Inteleon, L81, M|100/100
+-- turn 9
+  WE CHOSE: attack psychic - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to hitmonlee - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Bronzong
+  -damage|p1a: Bronzong|0 fnt
+  faint|p1a: Bronzong
+  switch|p1a: Hitmonlee|Hitmonlee, L85, M|224/224
+-- turn 10
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Hitmonlee
+  -damage|p1a: Hitmonlee|47/224
+  move|p1a: Hitmonlee|Close Combat|p2a: Inteleon
+  -crit|p2a: Inteleon
+  -damage|p2a: Inteleon|0 fnt
+  -unboost|p1a: Hitmonlee|def|1
+  -unboost|p1a: Hitmonlee|spd|1
+  faint|p2a: Inteleon
+  -enditem|p1a: Hitmonlee|White Herb
+  -clearnegativeboost|p1a: Hitmonlee|[silent]
+  switch|p2a: Flygon|Flygon, L82, F|100/100
+-- turn 11
+  WE CHOSE: switch to klefki - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Klefki|Klefki, L84, F|233/233
+  move|p2a: Flygon|Outrage|p1a: Klefki
+  -immune|p1a: Klefki
+-- turn 12
+  WE CHOSE: attack playrough - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p2a: Flygon|Outrage|p1a: Klefki
+  -immune|p1a: Klefki
+  move|p1a: Klefki|Play Rough|p2a: Flygon
+  -supereffective|p2a: Flygon
+  -damage|p2a: Flygon|28/100
+-- turn 13
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x0
+  move|p2a: Flygon|Outrage|p1a: Klefki
+  -immune|p1a: Klefki
+  move|p1a: Klefki|Play Rough|p2a: Flygon|[miss]
+  -miss|p1a: Klefki|p2a: Flygon
+-- turn 14
+  WE CHOSE: attack playrough - our hp 1.00, theirs 0.28, predicted move (revealed) hits us x0
+  move|p2a: Flygon|Outrage|p1a: Klefki
+  -immune|p1a: Klefki
+  move|p1a: Klefki|Play Rough|p2a: Flygon
+  -supereffective|p2a: Flygon
+  -damage|p2a: Flygon|0 fnt
+  faint|p2a: Flygon
+  switch|p2a: Flutter Mane|Flutter Mane, L74|100/100
+-- turn 15
+  WE CHOSE: attack playrough - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Flutter Mane|Moonblast|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|155/233
+  move|p1a: Klefki|Play Rough|p2a: Flutter Mane
+  -damage|p2a: Flutter Mane|40/100
+  -heal|p1a: Klefki|169/233|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack playrough - our hp 0.73, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p2a: Flutter Mane|Moonblast|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|91/233
+  -unboost|p1a: Klefki|spa|1
+  move|p1a: Klefki|Play Rough|p2a: Flutter Mane|[miss]
+  -miss|p1a: Klefki|p2a: Flutter Mane
+  -heal|p1a: Klefki|105/233|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack playrough - our hp 0.45, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p2a: Flutter Mane|Moonblast|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|31/233
+  move|p1a: Klefki|Play Rough|p2a: Flutter Mane|[miss]
+  -miss|p1a: Klefki|p2a: Flutter Mane
+  -heal|p1a: Klefki|45/233|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack playrough - our hp 0.19, theirs 0.40, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to malamar - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p2a: Flutter Mane|Moonblast|p1a: Klefki
+  -resisted|p1a: Klefki
+  -damage|p1a: Klefki|0 fnt
+  faint|p1a: Klefki
+  switch|p1a: Malamar|Malamar, L82, M|275/275
+-- turn 19
+  WE CHOSE: heal rest (hand policy: attack knockoff) - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to hitmonlee - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x2
+  move|p2a: Flutter Mane|Moonblast|p1a: Malamar
+  -supereffective|p1a: Malamar
+  -damage|p1a: Malamar|0 fnt
+  faint|p1a: Malamar
+  switch|p1a: Hitmonlee|Hitmonlee, L85, M|47/224
+-- turn 20
+  WE CHOSE: attack poisonjab - our hp 0.21, theirs 0.40, predicted move (revealed) hits us x2
+  move|p2a: Flutter Mane|Moonblast|p1a: Hitmonlee
+  -supereffective|p1a: Hitmonlee
+  -damage|p1a: Hitmonlee|0 fnt
+  faint|p1a: Hitmonlee
+  deinit

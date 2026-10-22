@@ -1,0 +1,223 @@
+battle 2167 (battle-gen9randombattle-2040687): lost in 24 turns, 2 of theirs left; we are p1
+
+ours:
+  sneasler (fainted; item choiceband, ability poisontouch; moves direclaw/throatchop/uturn/closecombat)
+  komala (fainted; item assaultvest, ability comatose; moves bodyslam/rapidspin/knockoff/uturn)
+  ogerponhearthflame (fainted; item hearthflamemask, ability moldbreaker; moves trailblaze/ivycudgel/swordsdance/powerwhip)
+  samurotthisui (fainted; item choicescarf, ability sharpness; moves sacredsword/razorshell/flipturn/ceaselessedge)
+  kingdra (fainted; item lumberry, ability sniper, tera steel; moves ironhead/wavecrash/outrage/dragondance)
+  orthworm (fainted; item ?, ability eartheater; moves irontail/rest/bodypress/coil)
+theirs (as seen):
+  bronzong (fainted; item leftovers, ability ?; moves earthquake)
+  arceusgrass (fainted; item unknown_item, ability multitype; moves judgment)
+  inteleon (fainted; item unknown_item, ability ?; moves hydropump)
+  frosmoth (fainted; item unknown_item, ability ?; moves -)
+  staraptor (4%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Sneasler|Sneasler, L74, M|240/240
+  switch|p2a: Bronzong|Bronzong, L88|100/100
+-- turn 1
+  WE CHOSE: switch to orthworm - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Orthworm|Orthworm, L88, F|266/266
+  move|p2a: Bronzong|Earthquake|p1a: Orthworm
+  -immune|p1a: Orthworm|[from] ability: Earth Eater
+-- turn 2
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Orthworm|Coil|p1a: Orthworm
+  -boost|p1a: Orthworm|atk|1
+  -boost|p1a: Orthworm|def|1
+  -boost|p1a: Orthworm|accuracy|1
+  move|p2a: Bronzong|Earthquake|p1a: Orthworm
+  -immune|p1a: Orthworm|[from] ability: Earth Eater
+-- turn 3
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Orthworm|Coil|p1a: Orthworm
+  -boost|p1a: Orthworm|atk|1
+  -boost|p1a: Orthworm|def|1
+  -boost|p1a: Orthworm|accuracy|1
+  move|p2a: Bronzong|Earthquake|p1a: Orthworm
+  -immune|p1a: Orthworm|[from] ability: Earth Eater
+-- turn 4
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Orthworm|Coil|p1a: Orthworm
+  -boost|p1a: Orthworm|atk|1
+  -boost|p1a: Orthworm|def|1
+  -boost|p1a: Orthworm|accuracy|1
+  move|p2a: Bronzong|Earthquake|p1a: Orthworm
+  -immune|p1a: Orthworm|[from] ability: Earth Eater
+-- turn 5
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Orthworm|Coil|p1a: Orthworm
+  -boost|p1a: Orthworm|atk|1
+  -boost|p1a: Orthworm|def|1
+  -boost|p1a: Orthworm|accuracy|1
+  move|p2a: Bronzong|Earthquake|p1a: Orthworm
+  -immune|p1a: Orthworm|[from] ability: Earth Eater
+-- turn 6
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Orthworm|Coil|p1a: Orthworm
+  -boost|p1a: Orthworm|atk|1
+  -boost|p1a: Orthworm|def|1
+  -boost|p1a: Orthworm|accuracy|1
+  move|p2a: Bronzong|Earthquake|p1a: Orthworm
+  -immune|p1a: Orthworm|[from] ability: Earth Eater
+-- turn 7
+  WE CHOSE: setup coil - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Orthworm|Coil|p1a: Orthworm
+  -boost|p1a: Orthworm|atk|1
+  -boost|p1a: Orthworm|def|1
+  -boost|p1a: Orthworm|accuracy|1
+  move|p2a: Bronzong|Earthquake|p1a: Orthworm
+  -immune|p1a: Orthworm|[from] ability: Earth Eater
+-- turn 8
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0
+  move|p1a: Orthworm|Body Press|p2a: Bronzong
+  -damage|p2a: Bronzong|4/100
+  move|p2a: Bronzong|Earthquake|p1a: Orthworm
+  -immune|p1a: Orthworm|[from] ability: Earth Eater
+  -heal|p2a: Bronzong|10/100|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.10, predicted move (revealed) hits us x0
+  move|p1a: Orthworm|Body Press|p2a: Bronzong
+  -damage|p2a: Bronzong|0 fnt
+  faint|p2a: Bronzong
+  switch|p2a: Arceus|Arceus-Grass, L73|100/100
+-- turn 10
+  WE CHOSE: switch to kingdra - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Kingdra|Kingdra, L84, M|263/263
+  move|p2a: Arceus|Judgment|p1a: Kingdra
+  -damage|p1a: Kingdra|157/263
+-- turn 11
+  WE CHOSE: attack+tera outrage - our hp 0.60, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Kingdra|Steel
+  move|p2a: Arceus|Judgment|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|107/263
+  move|p1a: Kingdra|Outrage|p2a: Arceus
+  -damage|p2a: Arceus|64/100
+-- turn 12
+  WE CHOSE: attack outrage - our hp 0.41, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p2a: Arceus|Judgment|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|51/263
+  move|p1a: Kingdra|Outrage|p2a: Arceus|[from] lockedmove
+  -crit|p2a: Arceus
+  -damage|p2a: Arceus|0 fnt
+  faint|p2a: Arceus
+  switch|p2a: Inteleon|Inteleon, L81, F|100/100
+-- turn 13
+  WE CHOSE: attack outrage - our hp 0.19, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to samurotthisui (hand policy: forced: switch to ogerponhearthflame) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Kingdra
+  -damage|p1a: Kingdra|0 fnt
+  faint|p1a: Kingdra
+  switch|p1a: Samurott|Samurott-Hisui, L77, M|265/265
+-- turn 14
+  WE CHOSE: attack sacredsword - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Samurott|Sacred Sword|p2a: Inteleon
+  -damage|p2a: Inteleon|57/100
+  move|p2a: Inteleon|Hydro Pump|p1a: Samurott
+  -resisted|p1a: Samurott
+  -damage|p1a: Samurott|139/265
+-- turn 15
+  WE CHOSE: attack sacredsword - our hp 0.52, theirs 0.57, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to ogerponhearthflame - our hp 0.00, theirs 0.09, predicted move (revealed) hits us x0.5
+  move|p1a: Samurott|Sacred Sword|p2a: Inteleon
+  -damage|p2a: Inteleon|9/100
+  move|p2a: Inteleon|Hydro Pump|p1a: Samurott
+  -resisted|p1a: Samurott
+  -crit|p1a: Samurott
+  -damage|p1a: Samurott|0 fnt
+  faint|p1a: Samurott
+  switch|p1a: Ogerpon|Ogerpon-Hearthflame, L74, F|239/239
+  -ability|p1a: Ogerpon|Mold Breaker
+-- turn 16
+  WE CHOSE: attack powerwhip - our hp 1.00, theirs 0.09, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to sneasler - our hp 0.00, theirs 0.09, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  switch|p1a: Sneasler|Sneasler, L74, M|240/240
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.09, predicted move (revealed) hits us x1
+  move|p2a: Inteleon|Hydro Pump|p1a: Sneasler|[miss]
+  -miss|p2a: Inteleon|p1a: Sneasler
+  move|p1a: Sneasler|Close Combat|p2a: Inteleon
+  -damage|p2a: Inteleon|0 fnt
+  -unboost|p1a: Sneasler|def|1
+  -unboost|p1a: Sneasler|spd|1
+  faint|p2a: Inteleon
+  switch|p2a: Frosmoth|Frosmoth, L82, M|100/100
+-- turn 18
+  WE CHOSE: attack closecombat (hand policy: switch to orthworm) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Sneasler|Close Combat|p2a: Frosmoth
+  -damage|p2a: Frosmoth|0 fnt
+  -unboost|p1a: Sneasler|def|1
+  -unboost|p1a: Sneasler|spd|1
+  faint|p2a: Frosmoth
+  switch|p2a: Staraptor|Staraptor, L79, M|100/100
+-- turn 19
+  WE CHOSE: attack closecombat (hand policy: switch to orthworm) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to komala - our hp 0.00, theirs 0.04, predicted move (revealed) hits us x0.5
+  move|p1a: Sneasler|Close Combat|p2a: Staraptor
+  -damage|p2a: Staraptor|4/100
+  -unboost|p1a: Sneasler|def|1
+  -unboost|p1a: Sneasler|spd|1
+  move|p2a: Staraptor|Close Combat|p1a: Sneasler
+  -resisted|p1a: Sneasler
+  -damage|p1a: Sneasler|0 fnt
+  -unboost|p2a: Staraptor|def|1
+  -unboost|p2a: Staraptor|spd|1
+  faint|p1a: Sneasler
+  switch|p1a: Komala|Komala, L87, M|255/255
+  -ability|p1a: Komala|Comatose
+-- turn 20
+  WE CHOSE: attack bodyslam - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to orthworm - our hp 0.00, theirs 0.04, predicted move (revealed) hits us x2
+  move|p2a: Staraptor|Close Combat|p1a: Komala
+  -supereffective|p1a: Komala
+  -damage|p1a: Komala|0 fnt
+  -unboost|p2a: Staraptor|def|1
+  -unboost|p2a: Staraptor|spd|1
+  faint|p1a: Komala
+  switch|p1a: Orthworm|Orthworm, L88, F|266/266
+-- turn 21
+  WE CHOSE: heal rest (hand policy: attack irontail) - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x2
+  move|p2a: Staraptor|Close Combat|p1a: Orthworm
+  -supereffective|p1a: Orthworm
+  -damage|p1a: Orthworm|84/266
+  -unboost|p2a: Staraptor|def|1
+  -unboost|p2a: Staraptor|spd|1
+  move|p1a: Orthworm|Rest|p1a: Orthworm
+  -status|p1a: Orthworm|slp|[from] move: Rest
+  -heal|p1a: Orthworm|266/266 slp|[silent]
+  -enditem|p1a: Orthworm|Chesto Berry|[eat]
+  -curestatus|p1a: Orthworm|slp|[msg]
+-- turn 22
+  WE CHOSE: heal rest (hand policy: attack irontail) - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x2
+  move|p2a: Staraptor|Close Combat|p1a: Orthworm
+  -supereffective|p1a: Orthworm
+  -damage|p1a: Orthworm|104/266
+  -unboost|p2a: Staraptor|def|1
+  -unboost|p2a: Staraptor|spd|1
+  move|p1a: Orthworm|Rest|p1a: Orthworm
+  -status|p1a: Orthworm|slp|[from] move: Rest
+  -heal|p1a: Orthworm|266/266 slp|[silent]
+-- turn 23
+  WE CHOSE: heal rest (hand policy: attack irontail) - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x2
+  move|p2a: Staraptor|Close Combat|p1a: Orthworm
+  -supereffective|p1a: Orthworm
+  -damage|p1a: Orthworm|108/266 slp
+  -unboost|p2a: Staraptor|def|1
+  -unboost|p2a: Staraptor|spd|1
+  cant|p1a: Orthworm|slp
+-- turn 24
+  WE CHOSE: heal rest (hand policy: attack irontail) - our hp 0.41, theirs 0.04, predicted move (revealed) hits us x2
+  move|p2a: Staraptor|Close Combat|p1a: Orthworm
+  -supereffective|p1a: Orthworm
+  -damage|p1a: Orthworm|0 fnt
+  -unboost|p2a: Staraptor|def|1
+  -unboost|p2a: Staraptor|spd|1
+  faint|p1a: Orthworm
+  deinit

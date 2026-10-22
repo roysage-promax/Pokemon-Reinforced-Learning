@@ -1,0 +1,256 @@
+battle 438 (battle-gen9randombattle-2022939): lost in 28 turns, 1 of theirs left; we are p1
+
+ours:
+  vigoroth (fainted; item eviolite, ability vitalspirit; moves bulkup/slackoff/knockoff/bodyslam)
+  ironvaliant (fainted; item lifeorb, ability quarkdrive; moves knockoff/moonblast/closecombat/encore)
+  pincurchin (fainted; item leftovers, ability electricsurge, tera water; moves recover/scald/spikes/thunderbolt)
+  altaria (fainted; item heavydutyboots, ability naturalcure; moves roost/dragondance/earthquake/bravebird)
+  donphan (fainted; item assaultvest, ability sturdy; moves icespinner/earthquake/iceshard/rapidspin)
+  trevenant (fainted; item lifeorb, ability naturalcure; moves poltergeist/willowisp/drainpunch/woodhammer)
+theirs (as seen):
+  sinistchamasterpiece (fainted; item unknown_item, ability ?; moves matchagotcha)
+  phione (fainted; item unknown_item, ability hydration; moves icebeam)
+  hawlucha (fainted; item ?, ability ?; moves closecombat)
+  drednaw (fainted; item unknown_item, ability ?; moves stoneedge)
+  passimian (fainted; item leftovers, ability ?; moves gunkshot)
+  mew (9%; item ?, ability synchronize; moves psychicnoise)
+
+-- turn 0
+  switch|p1a: Vigoroth|Vigoroth, L85, M|275/275
+  switch|p2a: Sinistcha|Sinistcha-Masterpiece, L83|100/100
+-- turn 1
+  WE CHOSE: setup bulkup (hand policy: attack knockoff) - our hp 1.00, theirs 1.00, predicted move (unknown) hits us x0
+  move|p1a: Vigoroth|Bulk Up|p1a: Vigoroth
+  -boost|p1a: Vigoroth|atk|1
+  -boost|p1a: Vigoroth|def|1
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Vigoroth
+  -damage|p1a: Vigoroth|175/275
+-- turn 2
+  WE CHOSE: switch to altaria (hand policy: attack knockoff) - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Altaria|Altaria, L89, F|278/278
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|259/278
+-- turn 3
+  WE CHOSE: setup dragondance - our hp 0.93, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Altaria|Dragon Dance|p1a: Altaria
+  -boost|p1a: Altaria|atk|1
+  -boost|p1a: Altaria|spe|1
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|239/278
+-- turn 4
+  WE CHOSE: setup dragondance - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Altaria|Dragon Dance|p1a: Altaria
+  -boost|p1a: Altaria|atk|1
+  -boost|p1a: Altaria|spe|1
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|219/278
+-- turn 5
+  WE CHOSE: setup dragondance (hand policy: attack bravebird) - our hp 0.79, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Altaria|Dragon Dance|p1a: Altaria
+  -boost|p1a: Altaria|atk|1
+  -boost|p1a: Altaria|spe|1
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|197/278
+-- turn 6
+  WE CHOSE: setup dragondance (hand policy: attack bravebird) - our hp 0.71, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Altaria|Dragon Dance|p1a: Altaria
+  -boost|p1a: Altaria|atk|1
+  -boost|p1a: Altaria|spe|1
+  move|p2a: Sinistcha|Matcha Gotcha|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|177/278
+-- turn 7
+  WE CHOSE: attack bravebird - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Altaria|Brave Bird|p2a: Sinistcha
+  -supereffective|p2a: Sinistcha
+  -damage|p2a: Sinistcha|0 fnt
+  faint|p2a: Sinistcha
+  -damage|p1a: Altaria|93/278|[from] Recoil
+  switch|p2a: Phione|Phione, L91|100/100
+-- turn 8
+  WE CHOSE: switch to pincurchin (hand policy: attack bravebird) - our hp 0.33, theirs 1.00, predicted move (guessed) hits us x4
+  switch|p1a: Pincurchin|Pincurchin, F|258/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+  move|p2a: Phione|Ice Beam|p1a: Pincurchin
+  -damage|p1a: Pincurchin|205/258
+  -heal|p1a: Pincurchin|221/258|[from] item: Leftovers
+-- turn 9
+  WE CHOSE: attack+tera thunderbolt - our hp 0.86, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Pincurchin|Water
+  move|p2a: Phione|Ice Beam|p1a: Pincurchin
+  -resisted|p1a: Pincurchin
+  -damage|p1a: Pincurchin|191/258
+  move|p1a: Pincurchin|Thunderbolt|p2a: Phione
+  -supereffective|p2a: Phione
+  -damage|p2a: Phione|0 fnt
+  faint|p2a: Phione
+  -heal|p1a: Pincurchin|207/258|[from] item: Leftovers
+  switch|p2a: Hawlucha|Hawlucha, L80, F|100/100
+-- turn 10
+  WE CHOSE: attack thunderbolt - our hp 0.80, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Hawlucha|Close Combat|p1a: Pincurchin
+  -damage|p1a: Pincurchin|113/258
+  -unboost|p2a: Hawlucha|def|1
+  -unboost|p2a: Hawlucha|spd|1
+  -enditem|p2a: Hawlucha|White Herb
+  -clearnegativeboost|p2a: Hawlucha|[silent]
+  move|p1a: Pincurchin|Thunderbolt|p2a: Hawlucha
+  -supereffective|p2a: Hawlucha
+  -damage|p2a: Hawlucha|0 fnt
+  faint|p2a: Hawlucha
+  -heal|p1a: Pincurchin|129/258|[from] item: Leftovers
+  switch|p2a: Drednaw|Drednaw, L81, F|100/100
+-- turn 11
+  WE CHOSE: switch to ironvaliant (hand policy: heal recover) - our hp 0.50, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Iron Valiant|Iron Valiant, L78|244/244
+  -activate|p1a: Iron Valiant|ability: Quark Drive
+  -start|p1a: Iron Valiant|quarkdriveatk
+  move|p2a: Drednaw|Stone Edge|p1a: Iron Valiant
+  -resisted|p1a: Iron Valiant
+  -damage|p1a: Iron Valiant|184/244
+-- turn 12
+  WE CHOSE: attack closecombat - our hp 0.75, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Iron Valiant|Close Combat|p2a: Drednaw
+  -supereffective|p2a: Drednaw
+  -damage|p2a: Drednaw|0 fnt
+  -unboost|p1a: Iron Valiant|def|1
+  -unboost|p1a: Iron Valiant|spd|1
+  faint|p2a: Drednaw
+  -damage|p1a: Iron Valiant|160/244|[from] item: Life Orb
+  -fieldend|move: Electric Terrain
+  -end|p1a: Iron Valiant|Quark Drive
+  switch|p2a: Passimian|Passimian, L83, M|100/100
+-- turn 13
+  WE CHOSE: switch to trevenant (hand policy: attack moonblast) - our hp 0.66, theirs 1.00, predicted move (guessed) hits us x0.5
+  -end|p1a: Iron Valiant|Quark Drive|[silent]
+  switch|p1a: Trevenant|Trevenant, L89, F|296/296
+  move|p2a: Passimian|Gunk Shot|p1a: Trevenant
+  -damage|p1a: Trevenant|199/296
+-- turn 14
+  WE CHOSE: attack woodhammer - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Passimian|Gunk Shot|p1a: Trevenant|[miss]
+  -miss|p2a: Passimian|p1a: Trevenant
+  move|p1a: Trevenant|Wood Hammer|p2a: Passimian
+  -damage|p2a: Passimian|34/100
+  -damage|p1a: Trevenant|133/296|[from] Recoil
+  -damage|p1a: Trevenant|104/296|[from] item: Life Orb
+  -heal|p2a: Passimian|40/100|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: switch to donphan (hand policy: attack woodhammer) - our hp 0.35, theirs 0.40, predicted move (revealed) hits us x1
+  switch|p1a: Donphan|Donphan, L84, M|288/288
+  move|p2a: Passimian|Gunk Shot|p1a: Donphan|[miss]
+  -miss|p2a: Passimian|p1a: Donphan
+  -heal|p2a: Passimian|46/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Gunk Shot|p1a: Donphan
+  -resisted|p1a: Donphan
+  -damage|p1a: Donphan|252/288
+  move|p1a: Donphan|Earthquake|p2a: Passimian
+  -damage|p2a: Passimian|6/100
+  -heal|p2a: Passimian|12/100|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack earthquake - our hp 0.88, theirs 0.12, predicted move (revealed) hits us x0.5
+  move|p2a: Passimian|Gunk Shot|p1a: Donphan
+  -resisted|p1a: Donphan
+  -damage|p1a: Donphan|213/288
+  -status|p1a: Donphan|psn
+  move|p1a: Donphan|Earthquake|p2a: Passimian
+  -damage|p2a: Passimian|0 fnt
+  faint|p2a: Passimian
+  -damage|p1a: Donphan|177/288 psn|[from] psn
+  switch|p2a: Mew|Mew, L82|100/100
+-- turn 18
+  WE CHOSE: switch to trevenant - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Trevenant|Trevenant, L89, F|104/296
+  move|p2a: Mew|Psychic Noise|p1a: Trevenant
+  -damage|p1a: Trevenant|32/296
+  -start|p1a: Trevenant|move: Heal Block
+-- turn 19
+  WE CHOSE: attack poltergeist - our hp 0.11, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to altaria - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Mew|Psychic Noise|p1a: Trevenant
+  -damage|p1a: Trevenant|0 fnt
+  faint|p1a: Trevenant
+  switch|p1a: Altaria|Altaria, L89, F|93/278
+-- turn 20
+  WE CHOSE: heal roost - our hp 0.33, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Mew|Psychic Noise|p1a: Altaria
+  -damage|p1a: Altaria|32/278
+  -start|p1a: Altaria|move: Heal Block
+  cant|p1a: Altaria|move: Heal Block|Roost
+-- turn 21
+  WE CHOSE: attack bravebird - our hp 0.12, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to donphan - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Mew|Psychic Noise|p1a: Altaria
+  -damage|p1a: Altaria|0 fnt
+  faint|p1a: Altaria
+  switch|p1a: Donphan|Donphan, L84, M|177/288 psn
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 0.61, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Mew|Psychic Noise|p1a: Donphan
+  -damage|p1a: Donphan|104/288 psn
+  -start|p1a: Donphan|move: Heal Block
+  move|p1a: Donphan|Earthquake|p2a: Mew
+  -damage|p2a: Mew|65/100
+  -heal|p2a: Mew|71/100|[from] item: Leftovers
+  -damage|p1a: Donphan|68/288 psn|[from] psn
+-- turn 23
+  WE CHOSE: attack earthquake - our hp 0.24, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pincurchin - our hp 0.00, theirs 0.77, predicted move (revealed) hits us x1
+  move|p2a: Mew|Psychic Noise|p1a: Donphan
+  -damage|p1a: Donphan|0 fnt
+  faint|p1a: Donphan
+  -heal|p2a: Mew|77/100|[from] item: Leftovers
+  switch|p1a: Pincurchin|Pincurchin, F, tera:Water|129/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 24
+  WE CHOSE: heal recover - our hp 0.50, theirs 0.77, predicted move (revealed) hits us x1
+  move|p2a: Mew|Psychic Noise|p1a: Pincurchin
+  -damage|p1a: Pincurchin|56/258
+  -start|p1a: Pincurchin|move: Heal Block
+  cant|p1a: Pincurchin|move: Heal Block|Recover
+  -heal|p2a: Mew|83/100|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: attack thunderbolt - our hp 0.22, theirs 0.83, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to vigoroth - our hp 0.00, theirs 0.89, predicted move (revealed) hits us x1
+  move|p2a: Mew|Psychic Noise|p1a: Pincurchin
+  -damage|p1a: Pincurchin|0 fnt
+  faint|p1a: Pincurchin
+  -heal|p2a: Mew|89/100|[from] item: Leftovers
+  switch|p1a: Vigoroth|Vigoroth, L85, M|175/275
+-- turn 26
+  WE CHOSE: attack knockoff - our hp 0.64, theirs 0.89, predicted move (revealed) hits us x1
+  move|p2a: Mew|Psychic Noise|p1a: Vigoroth
+  -damage|p1a: Vigoroth|108/275
+  -start|p1a: Vigoroth|move: Heal Block
+  move|p1a: Vigoroth|Knock Off|p2a: Mew
+  -supereffective|p2a: Mew
+  -damage|p2a: Mew|51/100
+  -enditem|p2a: Mew|Leftovers|[from] move: Knock Off|[of] p1a: Vigoroth
+-- turn 27
+  WE CHOSE: setup bulkup (hand policy: attack knockoff) - our hp 0.39, theirs 0.51, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironvaliant - our hp 0.00, theirs 0.51, predicted move (revealed) hits us x1
+  move|p2a: Mew|Psychic Noise|p1a: Vigoroth
+  -crit|p1a: Vigoroth
+  -damage|p1a: Vigoroth|0 fnt
+  faint|p1a: Vigoroth
+  switch|p1a: Iron Valiant|Iron Valiant, L78|160/244
+  -activate|p1a: Iron Valiant|ability: Quark Drive
+  -start|p1a: Iron Valiant|quarkdriveatk
+-- turn 28
+  WE CHOSE: attack moonblast - our hp 0.66, theirs 0.51, predicted move (revealed) hits us x2
+  move|p1a: Iron Valiant|Moonblast|p2a: Mew
+  -damage|p2a: Mew|9/100
+  -unboost|p2a: Mew|spa|1
+  -damage|p1a: Iron Valiant|136/244|[from] item: Life Orb
+  move|p2a: Mew|Psychic Noise|p1a: Iron Valiant
+  -supereffective|p1a: Iron Valiant
+  -damage|p1a: Iron Valiant|0 fnt
+  faint|p1a: Iron Valiant
+  -end|p1a: Iron Valiant|Quark Drive|[silent]
+  deinit

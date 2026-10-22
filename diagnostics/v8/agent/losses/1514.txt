@@ -1,0 +1,205 @@
+battle 1514 (battle-gen9randombattle-2033914): lost in 21 turns, 2 of theirs left; we are p1
+
+ours:
+  milotic (fainted; item leftovers, ability competitive, tera steel; moves recover/icebeam/scald/haze)
+  bisharp (fainted; item eviolite, ability defiant; moves suckerpunch/throatchop/swordsdance/ironhead)
+  carbink (fainted; item leftovers, ability clearbody; moves rockpolish/moonblast/irondefense/bodypress)
+  mimikyubusted (fainted; item lifeorb, ability disguise; moves drainpunch/swordsdance/shadowsneak/playrough)
+  hooh (fainted; item heavydutyboots, ability regenerator; moves sacredfire/recover/earthquake/bravebird)
+  quagsire (fainted; item leftovers, ability unaware; moves earthquake/spikes/toxic/recover)
+theirs (as seen):
+  yanmega (fainted; item unknown_item, ability ?; moves bugbuzz)
+  palafin (fainted; item leftovers, ability zerotohero; moves wavecrash)
+  forretress (fainted; item leftovers, ability ?; moves ironhead)
+  dugtrioalola (fainted; item lifeorb, ability tanglinghair; moves earthquake)
+
+-- turn 0
+  switch|p1a: Milotic|Milotic, L83, F|293/293
+  switch|p2a: Yanmega|Yanmega, L82, M|100/100
+-- turn 1
+  WE CHOSE: switch to hooh (hand policy: attack+tera icebeam) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Ho-Oh|Ho-Oh, L71|268/268
+  move|p2a: Yanmega|Bug Buzz|p1a: Ho-Oh
+  -resisted|p1a: Ho-Oh
+  -crit|p1a: Ho-Oh
+  -damage|p1a: Ho-Oh|180/268
+-- turn 2
+  WE CHOSE: attack bravebird - our hp 0.67, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p2a: Yanmega|Bug Buzz|p1a: Ho-Oh
+  -resisted|p1a: Ho-Oh
+  -damage|p1a: Ho-Oh|126/268
+  move|p1a: Ho-Oh|Brave Bird|p2a: Yanmega
+  -supereffective|p2a: Yanmega
+  -damage|p2a: Yanmega|7/100
+  -damage|p1a: Ho-Oh|41/268|[from] Recoil
+-- turn 3
+  WE CHOSE: attack bravebird (hand policy: heal recover) - our hp 0.15, theirs 0.07, predicted move (revealed) hits us x0.25
+  WE CHOSE: forced: switch to mimikyu - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x0.25
+  move|p2a: Yanmega|Bug Buzz|p1a: Ho-Oh
+  -resisted|p1a: Ho-Oh
+  -damage|p1a: Ho-Oh|0 fnt
+  faint|p1a: Ho-Oh
+  switch|p1a: Mimikyu|Mimikyu, L79, F|216/216
+-- turn 4
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x0.25
+  move|p2a: Yanmega|Bug Buzz|p1a: Mimikyu
+  -activate|p1a: Mimikyu|ability: Disguise
+  -damage|p1a: Mimikyu|216/216
+  detailschange|p1a: Mimikyu|Mimikyu-Busted, L79, F
+  -damage|p1a: Mimikyu|189/216|[from] pokemon: Mimikyu-Busted
+  move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+  -boost|p1a: Mimikyu|atk|2
+-- turn 5
+  WE CHOSE: attack playrough - our hp 0.88, theirs 0.07, predicted move (revealed) hits us x0.25
+  move|p2a: Yanmega|Bug Buzz|p1a: Mimikyu
+  -resisted|p1a: Mimikyu
+  -damage|p1a: Mimikyu|123/216
+  move|p1a: Mimikyu|Play Rough|p2a: Yanmega
+  -damage|p2a: Yanmega|0 fnt
+  faint|p2a: Yanmega
+  -damage|p1a: Mimikyu|102/216|[from] item: Life Orb
+  switch|p2a: Palafin|Palafin, L77, F|100/100
+-- turn 6
+  WE CHOSE: setup swordsdance (hand policy: attack playrough) - our hp 0.47, theirs 1.00, predicted move (guessed) hits us x0
+  WE CHOSE: forced: switch to quagsire - our hp 0.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Palafin|Wave Crash|p1a: Mimikyu
+  -damage|p1a: Mimikyu|0 fnt
+  faint|p1a: Mimikyu
+  -damage|p2a: Palafin|88/100|[from] Recoil
+  -heal|p2a: Palafin|94/100|[from] item: Leftovers
+  switch|p1a: Quagsire|Quagsire, L84, F|297/297
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Palafin|Wave Crash|p1a: Quagsire
+  -damage|p1a: Quagsire|209/297
+  -damage|p2a: Palafin|84/100|[from] Recoil
+  move|p1a: Quagsire|Earthquake|p2a: Palafin
+  -damage|p2a: Palafin|39/100
+  -heal|p2a: Palafin|45/100|[from] item: Leftovers
+  -heal|p1a: Quagsire|227/297|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 0.76, theirs 0.45, predicted move (revealed) hits us x1
+  move|p2a: Palafin|Wave Crash|p1a: Quagsire
+  -damage|p1a: Quagsire|142/297
+  -damage|p2a: Palafin|35/100|[from] Recoil
+  move|p1a: Quagsire|Earthquake|p2a: Palafin
+  -crit|p2a: Palafin
+  -damage|p2a: Palafin|0 fnt
+  faint|p2a: Palafin
+  -heal|p1a: Quagsire|160/297|[from] item: Leftovers
+  switch|p2a: Forretress|Forretress, L84, F|100/100
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 0.54, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Forretress|Iron Head|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|118/297
+  move|p1a: Quagsire|Earthquake|p2a: Forretress
+  -damage|p2a: Forretress|77/100
+  -heal|p2a: Forretress|83/100|[from] item: Leftovers
+  -heal|p1a: Quagsire|136/297|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack earthquake (hand policy: heal recover) - our hp 0.46, theirs 0.83, predicted move (revealed) hits us x0.5
+  move|p2a: Forretress|Iron Head|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|97/297
+  move|p1a: Quagsire|Earthquake|p2a: Forretress
+  -damage|p2a: Forretress|56/100
+  -heal|p2a: Forretress|62/100|[from] item: Leftovers
+  -heal|p1a: Quagsire|115/297|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack earthquake (hand policy: heal recover) - our hp 0.39, theirs 0.62, predicted move (revealed) hits us x0.5
+  move|p2a: Forretress|Iron Head|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|76/297
+  cant|p1a: Quagsire|flinch
+  -heal|p2a: Forretress|69/100|[from] item: Leftovers
+  -heal|p1a: Quagsire|94/297|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack earthquake (hand policy: heal recover) - our hp 0.32, theirs 0.69, predicted move (revealed) hits us x0.5
+  move|p2a: Forretress|Iron Head|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|52/297
+  move|p1a: Quagsire|Earthquake|p2a: Forretress
+  -damage|p2a: Forretress|44/100
+  -heal|p2a: Forretress|50/100|[from] item: Leftovers
+  -heal|p1a: Quagsire|70/297|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack earthquake (hand policy: heal recover) - our hp 0.24, theirs 0.50, predicted move (revealed) hits us x0.5
+  move|p2a: Forretress|Iron Head|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|28/297
+  move|p1a: Quagsire|Earthquake|p2a: Forretress
+  -damage|p2a: Forretress|27/100
+  -heal|p2a: Forretress|33/100|[from] item: Leftovers
+  -heal|p1a: Quagsire|46/297|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack earthquake (hand policy: heal recover) - our hp 0.15, theirs 0.33, predicted move (revealed) hits us x0.5
+  move|p2a: Forretress|Iron Head|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|1/297
+  cant|p1a: Quagsire|flinch
+  -heal|p2a: Forretress|39/100|[from] item: Leftovers
+  -heal|p1a: Quagsire|19/297|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack earthquake (hand policy: heal recover) - our hp 0.06, theirs 0.39, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to milotic - our hp 0.00, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p2a: Forretress|Iron Head|p1a: Quagsire
+  -resisted|p1a: Quagsire
+  -damage|p1a: Quagsire|0 fnt
+  faint|p1a: Quagsire
+  -heal|p2a: Forretress|45/100|[from] item: Leftovers
+  switch|p1a: Milotic|Milotic, L83, F|293/293
+-- turn 16
+  WE CHOSE: attack+tera scald (hand policy: attack scald) - our hp 1.00, theirs 0.45, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Milotic|Steel
+  move|p1a: Milotic|Scald|p2a: Forretress
+  -damage|p2a: Forretress|0 fnt
+  faint|p2a: Forretress
+  switch|p2a: Dugtrio|Dugtrio-Alola, L84, M|100/100
+-- turn 17
+  WE CHOSE: attack icebeam (hand policy: attack scald) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to bisharp (hand policy: forced: switch to carbink) - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x2
+  move|p2a: Dugtrio|Earthquake|p1a: Milotic
+  -supereffective|p1a: Milotic
+  -damage|p1a: Milotic|0 fnt
+  faint|p1a: Milotic
+  -damage|p2a: Dugtrio|91/100|[from] item: Life Orb
+  switch|p1a: Bisharp|Bisharp, L79, M|232/232
+-- turn 18
+  WE CHOSE: switch to carbink (hand policy: attack throatchop) - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x2
+  switch|p1a: Carbink|Carbink, L90|236/236
+  move|p2a: Dugtrio|Earthquake|p1a: Carbink
+  -supereffective|p1a: Carbink
+  -damage|p1a: Carbink|64/236
+  -damage|p2a: Dugtrio|81/100|[from] item: Life Orb
+  -heal|p1a: Carbink|78/236|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: attack bodypress - our hp 0.33, theirs 0.81, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to bisharp - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x2
+  move|p2a: Dugtrio|Earthquake|p1a: Carbink
+  -supereffective|p1a: Carbink
+  -damage|p1a: Carbink|0 fnt
+  faint|p1a: Carbink
+  -damage|p2a: Dugtrio|71/100|[from] item: Life Orb
+  switch|p1a: Bisharp|Bisharp, L79, M|232/232
+-- turn 20
+  WE CHOSE: attack throatchop - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x2
+  move|p2a: Dugtrio|Earthquake|p1a: Bisharp
+  -supereffective|p1a: Bisharp
+  -damage|p1a: Bisharp|53/232
+  -damage|p2a: Dugtrio|62/100|[from] item: Life Orb
+  move|p1a: Bisharp|Throat Chop|p2a: Dugtrio
+  -damage|p2a: Dugtrio|5/100
+  -start|p2a: Dugtrio|Throat Chop|[silent]
+  -ability|p2a: Dugtrio|Tangling Hair
+  -unboost|p1a: Bisharp|spe|1
+  -ability|p1a: Bisharp|Defiant|boost
+  -boost|p1a: Bisharp|atk|2
+-- turn 21
+  WE CHOSE: attack throatchop - our hp 0.23, theirs 0.05, predicted move (revealed) hits us x2
+  move|p2a: Dugtrio|Earthquake|p1a: Bisharp
+  -supereffective|p1a: Bisharp
+  -damage|p1a: Bisharp|0 fnt
+  faint|p1a: Bisharp
+  -damage|p2a: Dugtrio|0 fnt|[from] item: Life Orb
+  faint|p2a: Dugtrio

@@ -1,0 +1,182 @@
+battle 1179 (battle-gen9randombattle-2029490): lost in 19 turns, 1 of theirs left; we are p1
+
+ours:
+  terapagosterastal (fainted; item heavydutyboots, ability terashell; moves calmmind/earthpower/rapidspin/terastarstorm)
+  scizor (fainted; item choiceband, ability technician; moves closecombat/uturn/knockoff/bulletpunch)
+  coalossal (fainted; item heavydutyboots, ability flamebody, tera grass; moves flamethrower/stoneedge/willowisp/spikes)
+  bronzong (fainted; item leftovers, ability levitate; moves psychicnoise/irondefense/ironhead/bodypress)
+  porygonz (fainted; item choicescarf, ability download; moves icebeam/trick/thunderbolt/triattack)
+  breloom (fainted; item lifeorb, ability technician; moves bulletseed/machpunch/rocktomb/spore)
+theirs (as seen):
+  avalugghisui (fainted; item unknown_item, ability ?; moves stoneedge)
+  grumpig (fainted; item unknown_item, ability ?; moves focusblast)
+  dusknoir (fainted; item unknown_item, ability frisk; moves poltergeist)
+  pyroar (fainted; item unknown_item, ability unnerve; moves fireblast)
+  forretress (fainted; item leftovers, ability sturdy; moves bodypress)
+  scovillain (71%; item unknown_item, ability ?; moves flamethrower)
+
+-- turn 0
+  switch|p1a: Terapagos|Terapagos, L77, M|265/265
+  switch|p2a: Avalugg|Avalugg-Hisui, L91, M|100/100
+  -activate|p1a: Terapagos|ability: Tera Shift
+  detailschange|p1a: Terapagos|Terapagos-Terastal, L77, M
+  -heal|p1a: Terapagos|273/273|[silent]
+-- turn 1
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Terapagos|Earth Power|p2a: Avalugg
+  -supereffective|p2a: Avalugg
+  -damage|p2a: Avalugg|39/100
+  -unboost|p2a: Avalugg|spd|1
+  move|p2a: Avalugg|Stone Edge|p1a: Terapagos
+  -activate|p1a: Terapagos|ability: Tera Shell
+  -resisted|p1a: Terapagos
+  -damage|p1a: Terapagos|204/273
+-- turn 2
+  WE CHOSE: attack earthpower - our hp 0.75, theirs 0.39, predicted move (revealed) hits us x1
+  move|p1a: Terapagos|Earth Power|p2a: Avalugg
+  -supereffective|p2a: Avalugg
+  -damage|p2a: Avalugg|0 fnt
+  faint|p2a: Avalugg
+  switch|p2a: Grumpig|Grumpig, L92, M|100/100
+-- turn 3
+  WE CHOSE: attack terastarstorm - our hp 0.75, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Grumpig|Focus Blast|p1a: Terapagos|[miss]
+  -miss|p2a: Grumpig|p1a: Terapagos
+  move|p1a: Terapagos|Tera Starstorm|p2a: Grumpig
+  -damage|p2a: Grumpig|71/100
+-- turn 4
+  WE CHOSE: attack terastarstorm - our hp 0.75, theirs 0.71, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to scizor - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x2
+  move|p2a: Grumpig|Focus Blast|p1a: Terapagos
+  -supereffective|p1a: Terapagos
+  -damage|p1a: Terapagos|0 fnt
+  faint|p1a: Terapagos
+  switch|p1a: Scizor|Scizor, L79, M|240/240
+-- turn 5
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to bronzong - our hp 0.30, theirs 0.00, predicted move (revealed) hits us x1
+  move|p2a: Grumpig|Focus Blast|p1a: Scizor
+  -damage|p1a: Scizor|71/240
+  move|p1a: Scizor|U-turn|p2a: Grumpig
+  -supereffective|p2a: Grumpig
+  -damage|p2a: Grumpig|0 fnt
+  faint|p2a: Grumpig
+  switch|p1a: Bronzong|Bronzong, L88|261/261|[from] U-turn
+  switch|p2a: Dusknoir|Dusknoir, L89, M|100/100
+  -item|p1a: Bronzong|Leftovers|[from] ability: Frisk|[of] p2a: Dusknoir
+-- turn 6
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Dusknoir|Poltergeist|p1a: Bronzong|[miss]
+  -miss|p2a: Dusknoir|p1a: Bronzong
+  move|p1a: Bronzong|Iron Head|p2a: Dusknoir
+  -damage|p2a: Dusknoir|74/100
+-- turn 7
+  WE CHOSE: switch to porygonz - our hp 1.00, theirs 0.74, predicted move (revealed) hits us x2
+  switch|p1a: Porygon-Z|Porygon-Z, L83|277/277
+  -ability|p1a: Porygon-Z|Download|boost
+  -boost|p1a: Porygon-Z|spa|1
+  move|p2a: Dusknoir|Poltergeist|p1a: Porygon-Z
+  -immune|p1a: Porygon-Z
+-- turn 8
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.74, predicted move (revealed) hits us x0
+  move|p1a: Porygon-Z|Ice Beam|p2a: Dusknoir
+  -damage|p2a: Dusknoir|40/100
+  move|p2a: Dusknoir|Poltergeist|p1a: Porygon-Z
+  -immune|p1a: Porygon-Z
+-- turn 9
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x0
+  move|p1a: Porygon-Z|Ice Beam|p2a: Dusknoir
+  -damage|p2a: Dusknoir|0 fnt
+  faint|p2a: Dusknoir
+  switch|p2a: Pyroar|Pyroar, L88, F|100/100
+  -ability|p2a: Pyroar|Unnerve
+-- turn 10
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Porygon-Z|Ice Beam|p2a: Pyroar
+  -resisted|p2a: Pyroar
+  -damage|p2a: Pyroar|78/100
+  move|p2a: Pyroar|Fire Blast|p1a: Porygon-Z
+  -damage|p1a: Porygon-Z|124/277
+-- turn 11
+  WE CHOSE: attack icebeam - our hp 0.45, theirs 0.78, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to coalossal - our hp 0.00, theirs 0.55, predicted move (revealed) hits us x1
+  move|p1a: Porygon-Z|Ice Beam|p2a: Pyroar
+  -resisted|p2a: Pyroar
+  -damage|p2a: Pyroar|55/100
+  move|p2a: Pyroar|Fire Blast|p1a: Porygon-Z
+  -damage|p1a: Porygon-Z|0 fnt
+  faint|p1a: Porygon-Z
+  switch|p1a: Coalossal|Coalossal, L89, F|341/341
+-- turn 12
+  WE CHOSE: attack stoneedge - our hp 1.00, theirs 0.55, predicted move (revealed) hits us x0.25
+  move|p2a: Pyroar|Fire Blast|p1a: Coalossal
+  -resisted|p1a: Coalossal
+  -damage|p1a: Coalossal|307/341
+  move|p1a: Coalossal|Stone Edge|p2a: Pyroar
+  -supereffective|p2a: Pyroar
+  -crit|p2a: Pyroar
+  -damage|p2a: Pyroar|0 fnt
+  faint|p2a: Pyroar
+  switch|p2a: Forretress|Forretress, L84, F|100/100
+-- turn 13
+  WE CHOSE: attack flamethrower - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Forretress|Body Press|p1a: Coalossal
+  -supereffective|p1a: Coalossal
+  -damage|p1a: Coalossal|187/341
+  move|p1a: Coalossal|Flamethrower|p2a: Forretress
+  -supereffective|p2a: Forretress
+  -ability|p2a: Forretress|Sturdy
+  -damage|p2a: Forretress|1/100
+  -heal|p2a: Forretress|7/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack flamethrower - our hp 0.55, theirs 0.07, predicted move (revealed) hits us x2
+  move|p2a: Forretress|Body Press|p1a: Coalossal
+  -supereffective|p1a: Coalossal
+  -damage|p1a: Coalossal|81/341
+  move|p1a: Coalossal|Flamethrower|p2a: Forretress
+  -supereffective|p2a: Forretress
+  -damage|p2a: Forretress|0 fnt
+  faint|p2a: Forretress
+  switch|p2a: Scovillain|Scovillain, L91, M|100/100
+-- turn 15
+  WE CHOSE: attack+tera stoneedge - our hp 0.24, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to breloom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  -terastallize|p1a: Coalossal|Grass
+  move|p2a: Scovillain|Flamethrower|p1a: Coalossal
+  -supereffective|p1a: Coalossal
+  -damage|p1a: Coalossal|0 fnt
+  faint|p1a: Coalossal
+  switch|p1a: Breloom|Breloom, L83, F|235/235
+-- turn 16
+  WE CHOSE: attack rocktomb - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to bronzong - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Scovillain|Flamethrower|p1a: Breloom
+  -supereffective|p1a: Breloom
+  -damage|p1a: Breloom|0 fnt
+  faint|p1a: Breloom
+  switch|p1a: Bronzong|Bronzong, L88|261/261
+-- turn 17
+  WE CHOSE: attack psychicnoise - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Scovillain|Flamethrower|p1a: Bronzong
+  -supereffective|p1a: Bronzong
+  -damage|p1a: Bronzong|57/261
+  move|p1a: Bronzong|Psychic Noise|p2a: Scovillain
+  -damage|p2a: Scovillain|71/100
+  -start|p2a: Scovillain|move: Heal Block
+  -heal|p1a: Bronzong|73/261|[from] item: Leftovers
+-- turn 18
+  WE CHOSE: attack psychicnoise - our hp 0.28, theirs 0.71, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to scizor - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x2
+  move|p2a: Scovillain|Flamethrower|p1a: Bronzong
+  -supereffective|p1a: Bronzong
+  -damage|p1a: Bronzong|0 fnt
+  faint|p1a: Bronzong
+  -end|p2a: Scovillain|move: Heal Block
+  switch|p1a: Scizor|Scizor, L79, M|71/240
+-- turn 19
+  WE CHOSE: attack closecombat - our hp 0.30, theirs 0.71, predicted move (revealed) hits us x4
+  move|p2a: Scovillain|Flamethrower|p1a: Scizor
+  -supereffective|p1a: Scizor
+  -damage|p1a: Scizor|0 fnt
+  faint|p1a: Scizor
+  deinit

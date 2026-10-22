@@ -1,0 +1,155 @@
+battle 143 (battle-gen9randombattle-2019930): lost in 14 turns, 2 of theirs left; we are p1
+
+ours:
+  ironcrown (fainted; item leftovers, ability quarkdrive, tera fighting; moves calmmind/psyshock/tachyoncutter/focusblast)
+  baxcalibur (fainted; item choiceband, ability thermalexchange; moves glaiverush/earthquake/iciclecrash/iceshard)
+  perrserker (fainted; item choiceband, ability toughclaws; moves ironhead/uturn/closecombat/knockoff)
+  gallade (fainted; item choiceband, ability sharpness; moves nightslash/sacredsword/psychocut/leafblade)
+  clodsire (fainted; item ?, ability waterabsorb; moves toxic/recover/earthquake/poisonjab)
+  dodrio (fainted; item ?, ability earlybird; moves swordsdance/doubleedge/knockoff/bravebird)
+theirs (as seen):
+  scizor (fainted; item lifeorb, ability ?; moves knockoff)
+  bombirdier (fainted; item unknown_item, ability ?; moves bravebird)
+  plusle (fainted; item lifeorb, ability ?; moves thunderbolt)
+  beartic (fainted; item unknown_item, ability ?; moves closecombat)
+  deoxysdefense (47%; item rockyhelmet, ability pressure; moves psychicnoise)
+
+-- turn 0
+  switch|p1a: Iron Crown|Iron Crown, L78|268/268
+  switch|p2a: Scizor|Scizor, L79, M|100/100
+-- turn 1
+  WE CHOSE: switch to clodsire (hand policy: attack+tera focusblast) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -end|p1a: Iron Crown|Quark Drive|[silent]
+  switch|p1a: Clodsire|Clodsire, L81, M|343/343
+  move|p2a: Scizor|Knock Off|p1a: Clodsire
+  -damage|p1a: Clodsire|216/343
+  -enditem|p1a: Clodsire|Leftovers|[from] move: Knock Off|[of] p2a: Scizor
+  -damage|p2a: Scizor|90/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: switch to dodrio (hand policy: attack earthquake) - our hp 0.63, theirs 0.90, predicted move (revealed) hits us x1
+  switch|p1a: Dodrio|Dodrio, L85, F|241/241
+  move|p2a: Scizor|Knock Off|p1a: Dodrio
+  -damage|p1a: Dodrio|121/241
+  -enditem|p1a: Dodrio|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Scizor
+  -damage|p2a: Scizor|80/100|[from] item: Life Orb
+-- turn 3
+  WE CHOSE: attack bravebird (hand policy: attack+tera bravebird) - our hp 0.50, theirs 0.80, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to clodsire - our hp 0.00, theirs 0.09, predicted move (revealed) hits us x1
+  move|p1a: Dodrio|Brave Bird|p2a: Scizor
+  -damage|p2a: Scizor|19/100
+  -damage|p1a: Dodrio|72/241|[from] Recoil
+  move|p2a: Scizor|Knock Off|p1a: Dodrio
+  -damage|p1a: Dodrio|0 fnt
+  faint|p1a: Dodrio
+  -damage|p2a: Scizor|9/100|[from] item: Life Orb
+  switch|p1a: Clodsire|Clodsire, L81, M|216/343
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 0.63, theirs 0.09, predicted move (revealed) hits us x1
+  move|p2a: Scizor|Knock Off|p1a: Clodsire
+  -damage|p1a: Clodsire|121/343
+  -damage|p2a: Scizor|0 fnt|[from] item: Life Orb
+  faint|p2a: Scizor
+  move|p1a: Clodsire|Earthquake|p2: Scizor|[notarget]
+  -fail|p1a: Clodsire
+  switch|p2a: Bombirdier|Bombirdier, L85, M|100/100
+-- turn 5
+  WE CHOSE: attack poisonjab (hand policy: heal recover) - our hp 0.35, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to baxcalibur - our hp 0.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Bombirdier|Brave Bird|p1a: Clodsire
+  -damage|p1a: Clodsire|0 fnt
+  faint|p1a: Clodsire
+  -damage|p2a: Bombirdier|85/100|[from] Recoil
+  switch|p1a: Baxcalibur|Baxcalibur, L75, F|295/295
+-- turn 6
+  WE CHOSE: attack glaiverush (hand policy: attack iciclecrash) - our hp 1.00, theirs 0.85, predicted move (revealed) hits us x1
+  move|p2a: Bombirdier|Brave Bird|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|139/295
+  -damage|p2a: Bombirdier|65/100|[from] Recoil
+  move|p1a: Baxcalibur|Glaive Rush|p2a: Bombirdier
+  -damage|p2a: Bombirdier|0 fnt
+  -singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+  faint|p2a: Bombirdier
+  switch|p2a: Plusle|Plusle, L95, F|100/100
+-- turn 7
+  WE CHOSE: attack glaiverush (hand policy: attack+tera glaiverush) - our hp 0.47, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to gallade - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x0.5
+  move|p2a: Plusle|Thunderbolt|p1a: Baxcalibur
+  -resisted|p1a: Baxcalibur
+  -damage|p1a: Baxcalibur|0 fnt
+  faint|p1a: Baxcalibur
+  -damage|p2a: Plusle|91/100|[from] item: Life Orb
+  switch|p1a: Gallade|Gallade, L80, M|240/240
+-- turn 8
+  WE CHOSE: attack sacredsword (hand policy: attack+tera sacredsword) - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Plusle|Thunderbolt|p1a: Gallade
+  -damage|p1a: Gallade|106/240
+  -status|p1a: Gallade|par
+  -damage|p2a: Plusle|81/100|[from] item: Life Orb
+  cant|p1a: Gallade|par
+-- turn 9
+  WE CHOSE: attack sacredsword (hand policy: attack+tera sacredsword) - our hp 0.44, theirs 0.81, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ironcrown - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Plusle|Thunderbolt|p1a: Gallade
+  -damage|p1a: Gallade|0 fnt
+  faint|p1a: Gallade
+  -damage|p2a: Plusle|71/100|[from] item: Life Orb
+  switch|p1a: Iron Crown|Iron Crown, L78|268/268
+-- turn 10
+  WE CHOSE: attack+tera psyshock (hand policy: attack psyshock) - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  -terastallize|p1a: Iron Crown|Fighting
+  move|p2a: Plusle|Thunderbolt|p1a: Iron Crown
+  -damage|p1a: Iron Crown|124/268
+  -damage|p2a: Plusle|62/100|[from] item: Life Orb
+  move|p1a: Iron Crown|Psyshock|p2a: Plusle
+  -damage|p2a: Plusle|15/100
+  -heal|p1a: Iron Crown|140/268|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: attack focusblast - our hp 0.52, theirs 0.15, predicted move (revealed) hits us x1
+  move|p2a: Plusle|Thunderbolt|p1a: Iron Crown
+  -damage|p1a: Iron Crown|19/268
+  -damage|p2a: Plusle|6/100|[from] item: Life Orb
+  move|p1a: Iron Crown|Focus Blast|p2a: Plusle
+  -damage|p2a: Plusle|0 fnt
+  faint|p2a: Plusle
+  -heal|p1a: Iron Crown|35/268|[from] item: Leftovers
+  switch|p2a: Beartic|Beartic, L91, M|100/100
+-- turn 12
+  WE CHOSE: attack tachyoncutter - our hp 0.13, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to baxcalibur (hand policy: forced: switch to perrserker) - our hp 0.00, theirs 0.36, predicted move (revealed) hits us x1
+  move|p1a: Iron Crown|Tachyon Cutter|p2a: Beartic
+  -supereffective|p2a: Beartic
+  -damage|p2a: Beartic|68/100
+  -supereffective|p2a: Beartic
+  -damage|p2a: Beartic|36/100
+  -hitcount|p2a: Beartic|2
+  move|p2a: Beartic|Close Combat|p1a: Iron Crown
+  -damage|p1a: Iron Crown|0 fnt
+  -unboost|p2a: Beartic|def|1
+  -unboost|p2a: Beartic|spd|1
+  faint|p1a: Iron Crown
+  -end|p1a: Iron Crown|Quark Drive|[silent]
+  switch|p1a: Perrserker|Perrserker, L89, F|269/269
+-- turn 13
+  WE CHOSE: attack ironhead - our hp 1.00, theirs 0.36, predicted move (revealed) hits us x2
+  move|p2a: Beartic|Close Combat|p1a: Perrserker
+  -supereffective|p1a: Perrserker
+  -damage|p1a: Perrserker|41/269
+  -unboost|p2a: Beartic|def|1
+  -unboost|p2a: Beartic|spd|1
+  move|p1a: Perrserker|Iron Head|p2a: Beartic
+  -supereffective|p2a: Beartic
+  -damage|p2a: Beartic|0 fnt
+  faint|p2a: Beartic
+  switch|p2a: Deoxys|Deoxys-Defense, L84|100/100
+  -ability|p2a: Deoxys|Pressure
+-- turn 14
+  WE CHOSE: attack ironhead - our hp 0.15, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Deoxys|Psychic Noise|p1a: Perrserker
+  -resisted|p1a: Perrserker
+  -damage|p1a: Perrserker|1/269
+  -start|p1a: Perrserker|move: Heal Block
+  move|p1a: Perrserker|Iron Head|p2a: Deoxys
+  -damage|p2a: Deoxys|47/100
+  -damage|p1a: Perrserker|0 fnt|[from] item: Rocky Helmet|[of] p2a: Deoxys
+  faint|p1a: Perrserker
+  deinit

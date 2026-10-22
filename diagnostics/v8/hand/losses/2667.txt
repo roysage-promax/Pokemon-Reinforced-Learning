@@ -1,0 +1,224 @@
+battle 2667 (battle-gen9randombattle-2043562): lost in 21 turns, 1 of theirs left; we are p1
+
+ours:
+  bastiodon (fainted; item ?, ability soundproof; moves rest/bodypress/foulplay/irondefense)
+  hariyama (fainted; item assaultvest, ability thickfat; moves heavyslam/knockoff/stoneedge/closecombat)
+  snorlax (fainted; item ?, ability thickfat, tera poison; moves rest/curse/bodyslam/sleeptalk)
+  gurdurr (fainted; item eviolite, ability guts; moves machpunch/drainpunch/bulkup/knockoff)
+  regidrago (fainted; item lifeorb, ability dragonsmaw; moves dragondance/earthquake/dragonclaw/terablast)
+  gyarados (fainted; item heavydutyboots, ability intimidate; moves dragondance/earthquake/temperflare/waterfall)
+theirs (as seen):
+  trevenant (fainted; item lifeorb, ability ?; moves woodhammer)
+  cyclizar (fainted; item unknown_item, ability ?; moves dracometeor)
+  floatzel (fainted; item leftovers, ability ?; moves wavecrash)
+  chienpao (fainted; item unknown_item, ability swordofruin; moves -)
+  malamar (fainted; item leftovers, ability ?; moves superpower/knockoff)
+  serperior (71%; item lifeorb, ability ?; moves leafstorm)
+
+-- turn 0
+  switch|p1a: Bastiodon|Bastiodon, L89, F|252/252
+  switch|p2a: Trevenant|Trevenant, L89, F|100/100
+-- turn 1
+  WE CHOSE: attack foulplay - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Trevenant|Wood Hammer|p1a: Bastiodon
+  -damage|p1a: Bastiodon|134/252
+  -damage|p2a: Trevenant|87/100|[from] Recoil
+  -damage|p2a: Trevenant|78/100|[from] item: Life Orb
+  move|p1a: Bastiodon|Foul Play|p2a: Trevenant
+  -supereffective|p2a: Trevenant
+  -crit|p2a: Trevenant
+  -damage|p2a: Trevenant|0 fnt
+  faint|p2a: Trevenant
+  switch|p2a: Cyclizar|Cyclizar, L84, M|100/100
+-- turn 2
+  WE CHOSE: attack bodypress - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Cyclizar|Draco Meteor|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|91/252
+  -unboost|p2a: Cyclizar|spa|2
+  move|p1a: Bastiodon|Body Press|p2a: Cyclizar
+  -supereffective|p2a: Cyclizar
+  -damage|p2a: Cyclizar|5/100
+-- turn 3
+  WE CHOSE: heal rest - our hp 0.36, theirs 0.05, predicted move (revealed) hits us x0.5
+  move|p2a: Cyclizar|Draco Meteor|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|72/252
+  -unboost|p2a: Cyclizar|spa|2
+  move|p1a: Bastiodon|Rest|p1a: Bastiodon
+  -status|p1a: Bastiodon|slp|[from] move: Rest
+  -heal|p1a: Bastiodon|252/252 slp|[silent]
+  -enditem|p1a: Bastiodon|Chesto Berry|[eat]
+  -curestatus|p1a: Bastiodon|slp|[msg]
+-- turn 4
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.05, predicted move (revealed) hits us x0.5
+  move|p2a: Cyclizar|Draco Meteor|p1a: Bastiodon
+  -resisted|p1a: Bastiodon
+  -damage|p1a: Bastiodon|239/252
+  -unboost|p2a: Cyclizar|spa|2
+  move|p1a: Bastiodon|Body Press|p2a: Cyclizar
+  -supereffective|p2a: Cyclizar
+  -damage|p2a: Cyclizar|0 fnt
+  faint|p2a: Cyclizar
+  switch|p2a: Floatzel|Floatzel, L86, F|100/100
+-- turn 5
+  WE CHOSE: switch to regidrago - our hp 0.95, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Regidrago|Regidrago, L77|435/435
+  move|p2a: Floatzel|Wave Crash|p1a: Regidrago
+  -resisted|p1a: Regidrago
+  -damage|p1a: Regidrago|329/435
+  -damage|p2a: Floatzel|88/100|[from] Recoil
+  -heal|p2a: Floatzel|94/100|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: setup dragondance - our hp 0.76, theirs 0.94, predicted move (revealed) hits us x0.5
+  move|p2a: Floatzel|Wave Crash|p1a: Regidrago
+  -resisted|p1a: Regidrago
+  -damage|p1a: Regidrago|212/435
+  -damage|p2a: Floatzel|81/100|[from] Recoil
+  move|p1a: Regidrago|Dragon Dance|p1a: Regidrago
+  -boost|p1a: Regidrago|atk|1
+  -boost|p1a: Regidrago|spe|1
+  -heal|p2a: Floatzel|87/100|[from] item: Leftovers
+-- turn 7
+  WE CHOSE: attack dragonclaw - our hp 0.49, theirs 0.87, predicted move (revealed) hits us x0.5
+  move|p1a: Regidrago|Dragon Claw|p2a: Floatzel
+  -damage|p2a: Floatzel|0 fnt
+  faint|p2a: Floatzel
+  -damage|p1a: Regidrago|169/435|[from] item: Life Orb
+  switch|p2a: Chien-Pao|Chien-Pao, L72|100/100
+  -ability|p2a: Chien-Pao|Sword of Ruin
+-- turn 8
+  WE CHOSE: attack dragonclaw - our hp 0.39, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Regidrago|Dragon Claw|p2a: Chien-Pao
+  -damage|p2a: Chien-Pao|0 fnt
+  faint|p2a: Chien-Pao
+  -damage|p1a: Regidrago|126/435|[from] item: Life Orb
+  switch|p2a: Malamar|Malamar, L82, M|100/100
+-- turn 9
+  WE CHOSE: attack dragonclaw - our hp 0.29, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to gyarados - our hp 0.00, theirs 0.26, predicted move (revealed) hits us x1
+  move|p1a: Regidrago|Dragon Claw|p2a: Malamar
+  -damage|p2a: Malamar|20/100
+  -damage|p1a: Regidrago|83/435|[from] item: Life Orb
+  move|p2a: Malamar|Superpower|p1a: Regidrago
+  -damage|p1a: Regidrago|0 fnt
+  -boost|p2a: Malamar|atk|1
+  -boost|p2a: Malamar|def|1
+  faint|p1a: Regidrago
+  -heal|p2a: Malamar|26/100|[from] item: Leftovers
+  switch|p1a: Gyarados|Gyarados, L79, F|280/280
+  -ability|p1a: Gyarados|Intimidate|boost
+  -boost|p2a: Malamar|atk|1
+-- turn 10
+  WE CHOSE: setup dragondance - our hp 1.00, theirs 0.26, predicted move (revealed) hits us x0.5
+  move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+  -boost|p1a: Gyarados|atk|1
+  -boost|p1a: Gyarados|spe|1
+  move|p2a: Malamar|Superpower|p1a: Gyarados
+  -resisted|p1a: Gyarados
+  -damage|p1a: Gyarados|185/280
+  -boost|p2a: Malamar|atk|1
+  -boost|p2a: Malamar|def|1
+  -heal|p2a: Malamar|32/100|[from] item: Leftovers
+-- turn 11
+  WE CHOSE: setup dragondance - our hp 0.66, theirs 0.32, predicted move (revealed) hits us x0.5
+  move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+  -boost|p1a: Gyarados|atk|1
+  -boost|p1a: Gyarados|spe|1
+  move|p2a: Malamar|Superpower|p1a: Gyarados
+  -resisted|p1a: Gyarados
+  -damage|p1a: Gyarados|78/280
+  -boost|p2a: Malamar|atk|1
+  -boost|p2a: Malamar|def|1
+  -heal|p2a: Malamar|38/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack waterfall - our hp 0.28, theirs 0.38, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to hariyama - our hp 0.00, theirs 0.19, predicted move (revealed) hits us x0.5
+  move|p1a: Gyarados|Waterfall|p2a: Malamar
+  -damage|p2a: Malamar|13/100
+  move|p2a: Malamar|Superpower|p1a: Gyarados
+  -resisted|p1a: Gyarados
+  -damage|p1a: Gyarados|0 fnt
+  -boost|p2a: Malamar|atk|1
+  -boost|p2a: Malamar|def|1
+  faint|p1a: Gyarados
+  -heal|p2a: Malamar|19/100|[from] item: Leftovers
+  switch|p1a: Hariyama|Hariyama, L87, M|392/392
+-- turn 13
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.19, predicted move (revealed) hits us x1
+  move|p2a: Malamar|Superpower|p1a: Hariyama
+  -damage|p1a: Hariyama|35/392
+  -boost|p2a: Malamar|atk|1
+  -boost|p2a: Malamar|def|1
+  move|p1a: Hariyama|Close Combat|p2a: Malamar
+  -damage|p2a: Malamar|2/100
+  -unboost|p1a: Hariyama|def|1
+  -unboost|p1a: Hariyama|spd|1
+  -heal|p2a: Malamar|8/100|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack closecombat - our hp 0.09, theirs 0.08, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to gurdurr - our hp 0.00, theirs 0.14, predicted move (revealed) hits us x1
+  move|p2a: Malamar|Superpower|p1a: Hariyama
+  -damage|p1a: Hariyama|0 fnt
+  -boost|p2a: Malamar|def|1
+  faint|p1a: Hariyama
+  -heal|p2a: Malamar|14/100|[from] item: Leftovers
+  switch|p1a: Gurdurr|Gurdurr, L85, M|283/283
+-- turn 15
+  WE CHOSE: attack drainpunch - our hp 1.00, theirs 0.14, predicted move (revealed) hits us x1
+  move|p2a: Malamar|Superpower|p1a: Gurdurr
+  -damage|p1a: Gurdurr|85/283
+  move|p1a: Gurdurr|Drain Punch|p2a: Malamar
+  -damage|p2a: Malamar|5/100
+  -heal|p1a: Gurdurr|97/283|[from] drain|[of] p2a: Malamar
+  -heal|p2a: Malamar|11/100|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack drainpunch - our hp 0.34, theirs 0.11, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to snorlax - our hp 0.00, theirs 0.18, predicted move (revealed) hits us x1
+  move|p2a: Malamar|Superpower|p1a: Gurdurr
+  -damage|p1a: Gurdurr|0 fnt
+  faint|p1a: Gurdurr
+  -heal|p2a: Malamar|18/100|[from] item: Leftovers
+  switch|p1a: Snorlax|Snorlax, L82, F|397/397
+-- turn 17
+  WE CHOSE: attack+tera bodyslam - our hp 1.00, theirs 0.18, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to bastiodon - our hp 0.00, theirs 0.24, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Snorlax|Poison
+  move|p2a: Malamar|Knock Off|p1a: Snorlax
+  -damage|p1a: Snorlax|0 fnt
+  -enditem|p1a: Snorlax|Leftovers|[from] move: Knock Off|[of] p2a: Malamar
+  faint|p1a: Snorlax
+  -heal|p2a: Malamar|24/100|[from] item: Leftovers
+  switch|p1a: Bastiodon|Bastiodon, L89, F|239/252
+-- turn 18
+  WE CHOSE: attack foulplay - our hp 0.95, theirs 0.24, predicted move (revealed) hits us x4
+  move|p2a: Malamar|Knock Off|p1a: Bastiodon
+  -damage|p1a: Bastiodon|103/252
+  move|p1a: Bastiodon|Foul Play|p2a: Malamar
+  -damage|p2a: Malamar|0 fnt
+  faint|p2a: Malamar
+  switch|p2a: Serperior|Serperior, L79, M|100/100
+-- turn 19
+  WE CHOSE: heal rest - our hp 0.41, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Bastiodon
+  -damage|p1a: Bastiodon|13/252
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|91/100|[from] item: Life Orb
+  move|p1a: Bastiodon|Rest|p1a: Bastiodon
+  -status|p1a: Bastiodon|slp|[from] move: Rest
+  -heal|p1a: Bastiodon|252/252 slp|[silent]
+-- turn 20
+  WE CHOSE: attack bodypress - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Bastiodon
+  -damage|p1a: Bastiodon|88/252 slp
+  -boost|p2a: Serperior|spa|2
+  -damage|p2a: Serperior|81/100|[from] item: Life Orb
+  cant|p1a: Bastiodon|slp
+-- turn 21
+  WE CHOSE: heal rest - our hp 0.35, theirs 0.81, predicted move (revealed) hits us x1
+  move|p2a: Serperior|Leaf Storm|p1a: Bastiodon
+  -damage|p1a: Bastiodon|0 fnt
+  -boost|p2a: Serperior|spa|2
+  faint|p1a: Bastiodon
+  -damage|p2a: Serperior|71/100|[from] item: Life Orb
+  deinit

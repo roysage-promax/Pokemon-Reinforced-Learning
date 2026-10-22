@@ -1,0 +1,238 @@
+battle 12 (battle-gen9randombattle-2018622): lost in 27 turns, 2 of theirs left; we are p1
+
+ours:
+  reshiram (fainted; item heavydutyboots, ability turboblaze; moves blueflare/dragontail/dracometeor/willowisp)
+  hydreigon (fainted; item choicespecs, ability levitate; moves flashcannon/uturn/darkpulse/dracometeor)
+  gumshoos (fainted; item choiceband, ability stakeout; moves earthquake/knockoff/doubleedge/uturn)
+  masquerain (fainted; item heavydutyboots, ability intimidate; moves stunspore/hurricane/stickyweb/hydropump)
+  espathra (fainted; item leftovers, ability speedboost; moves storedpower/calmmind/protect/dazzlinggleam)
+  dondozo (fainted; item leftovers, ability unaware, tera fairy; moves wavecrash/rest/curse/sleeptalk)
+theirs (as seen):
+  eternatus (fainted; item unknown_item, ability pressure; moves dynamaxcannon)
+  garchomp (fainted; item rockyhelmet, ability roughskin; moves outrage)
+  bruxish (fainted; item unknown_item, ability ?; moves wavecrash)
+  gurdurr (fainted; item unknown_item, ability ?; moves drainpunch)
+  noctowl (22%; item unknown_item, ability ?; moves hurricane)
+  frosmoth (100%; item unknown_item, ability ?; moves -)
+
+-- turn 0
+  switch|p1a: Reshiram|Reshiram, L76|277/277
+  switch|p2a: Eternatus|Eternatus, L69|100/100
+  -ability|p2a: Eternatus|Pressure
+  -ability|p1a: Reshiram|Turboblaze
+-- turn 1
+  WE CHOSE: switch to hydreigon (hand policy: attack dracometeor) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Hydreigon|Hydreigon, L79, M|275/275
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Hydreigon
+  -supereffective|p1a: Hydreigon
+  -damage|p1a: Hydreigon|51/275
+-- turn 2
+  WE CHOSE: switch to gumshoos (hand policy: attack+tera dracometeor) - our hp 0.19, theirs 1.00, predicted move (revealed) hits us x2
+  switch|p1a: Gumshoos|Gumshoos, L95, M|321/321
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Gumshoos
+  -damage|p1a: Gumshoos|204/321
+-- turn 3
+  WE CHOSE: attack earthquake - our hp 0.64, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Eternatus|Dynamax Cannon|p1a: Gumshoos
+  -damage|p1a: Gumshoos|95/321
+  move|p1a: Gumshoos|Earthquake|p2a: Eternatus
+  -supereffective|p2a: Eternatus
+  -damage|p2a: Eternatus|0 fnt
+  faint|p2a: Eternatus
+  switch|p2a: Garchomp|Garchomp, L74, F|100/100
+-- turn 4
+  WE CHOSE: attack earthquake - our hp 0.30, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to dondozo - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Garchomp|Outrage|p1a: Gumshoos
+  -damage|p1a: Gumshoos|0 fnt
+  faint|p1a: Gumshoos
+  switch|p1a: Dondozo|Dondozo, L78, M|362/362
+-- turn 5
+  WE CHOSE: attack+tera wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Dondozo|Fairy
+  move|p2a: Garchomp|Outrage|p1a: Dondozo|[from] lockedmove
+  -immune|p1a: Dondozo
+  move|p1a: Dondozo|Wave Crash|p2a: Garchomp
+  -damage|p2a: Garchomp|56/100
+  -damage|p1a: Dondozo|317/362|[from] ability: Rough Skin|[of] p2a: Garchomp
+  -damage|p1a: Dondozo|257/362|[from] item: Rocky Helmet|[of] p2a: Garchomp
+  -damage|p1a: Dondozo|215/362|[from] Recoil
+  -heal|p1a: Dondozo|237/362|[from] item: Leftovers
+-- turn 6
+  WE CHOSE: attack wavecrash - our hp 0.65, theirs 0.56, predicted move (revealed) hits us x0
+  move|p2a: Garchomp|Outrage|p1a: Dondozo
+  -immune|p1a: Dondozo
+  move|p1a: Dondozo|Wave Crash|p2a: Garchomp
+  -crit|p2a: Garchomp
+  -damage|p2a: Garchomp|0 fnt
+  -damage|p1a: Dondozo|192/362|[from] ability: Rough Skin|[of] p2a: Garchomp
+  -damage|p1a: Dondozo|132/362|[from] item: Rocky Helmet|[of] p2a: Garchomp
+  faint|p2a: Garchomp
+  -damage|p1a: Dondozo|81/362|[from] Recoil
+  -heal|p1a: Dondozo|103/362|[from] item: Leftovers
+  switch|p2a: Bruxish|Bruxish, L85, F|100/100
+-- turn 7
+  WE CHOSE: switch to hydreigon (hand policy: heal rest) - our hp 0.28, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to reshiram - our hp 0.00, theirs 0.94, predicted move (revealed) hits us x0.5
+  switch|p1a: Hydreigon|Hydreigon, L79, M|51/275
+  move|p2a: Bruxish|Wave Crash|p1a: Hydreigon
+  -resisted|p1a: Hydreigon
+  -damage|p1a: Hydreigon|0 fnt
+  faint|p1a: Hydreigon
+  -damage|p2a: Bruxish|94/100|[from] Recoil
+  switch|p1a: Reshiram|Reshiram, L76|277/277
+  -ability|p1a: Reshiram|Turboblaze
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 1.00, theirs 0.94, predicted move (revealed) hits us x1
+  move|p2a: Bruxish|Wave Crash|p1a: Reshiram
+  -damage|p1a: Reshiram|145/277
+  -damage|p2a: Bruxish|76/100|[from] Recoil
+  move|p1a: Reshiram|Draco Meteor|p2a: Bruxish
+  -damage|p2a: Bruxish|0 fnt
+  -unboost|p1a: Reshiram|spa|2
+  faint|p2a: Bruxish
+  switch|p2a: Gurdurr|Gurdurr, L85, F|100/100
+-- turn 9
+  WE CHOSE: switch to masquerain (hand policy: attack dracometeor) - our hp 0.52, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Masquerain|Masquerain, L87, M|264/264
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Gurdurr|atk|1
+  move|p2a: Gurdurr|Drain Punch|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|248/264
+-- turn 10
+  WE CHOSE: attack hurricane - our hp 0.94, theirs 1.00, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Hurricane|p2a: Gurdurr
+  -supereffective|p2a: Gurdurr
+  -damage|p2a: Gurdurr|18/100
+  -start|p2a: Gurdurr|confusion
+  -activate|p2a: Gurdurr|confusion
+  move|p2a: Gurdurr|Drain Punch|p1a: Masquerain
+  -resisted|p1a: Masquerain
+  -damage|p1a: Masquerain|231/264
+  -heal|p2a: Gurdurr|21/100|[from] drain|[of] p1a: Masquerain
+-- turn 11
+  WE CHOSE: attack hydropump (hand policy: attack hurricane) - our hp 0.88, theirs 0.21, predicted move (revealed) hits us x0.25
+  move|p1a: Masquerain|Hydro Pump|p2a: Gurdurr
+  -damage|p2a: Gurdurr|0 fnt
+  faint|p2a: Gurdurr
+  switch|p2a: Noctowl|Noctowl, L95, F|100/100
+-- turn 12
+  WE CHOSE: attack hurricane - our hp 0.88, theirs 1.00, predicted move (guessed) hits us x2
+  move|p1a: Masquerain|Hurricane|p2a: Noctowl|[miss]
+  -miss|p1a: Masquerain|p2a: Noctowl
+  move|p2a: Noctowl|Hurricane|p1a: Masquerain|[miss]
+  -miss|p2a: Noctowl|p1a: Masquerain
+-- turn 13
+  WE CHOSE: attack hurricane - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to espathra (hand policy: forced: switch to dondozo) - our hp 0.00, theirs 0.72, predicted move (revealed) hits us x2
+  move|p1a: Masquerain|Hurricane|p2a: Noctowl
+  -damage|p2a: Noctowl|72/100
+  move|p2a: Noctowl|Hurricane|p1a: Masquerain
+  -supereffective|p1a: Masquerain
+  -damage|p1a: Masquerain|0 fnt
+  faint|p1a: Masquerain
+  switch|p1a: Espathra|Espathra, L80, F|283/283
+-- turn 14
+  WE CHOSE: attack dazzlinggleam - our hp 1.00, theirs 0.72, predicted move (revealed) hits us x1
+  move|p1a: Espathra|Dazzling Gleam|p2a: Noctowl
+  -damage|p2a: Noctowl|58/100
+  move|p2a: Noctowl|Hurricane|p1a: Espathra
+  -damage|p1a: Espathra|99/283
+  -heal|p1a: Espathra|116/283|[from] item: Leftovers
+  -ability|p1a: Espathra|Speed Boost|boost
+  -boost|p1a: Espathra|spe|1
+-- turn 15
+  WE CHOSE: attack dazzlinggleam - our hp 0.41, theirs 0.58, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to dondozo - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Espathra|Dazzling Gleam|p2a: Noctowl
+  -damage|p2a: Noctowl|46/100
+  move|p2a: Noctowl|Hurricane|p1a: Espathra
+  -crit|p1a: Espathra
+  -damage|p1a: Espathra|0 fnt
+  faint|p1a: Espathra
+  switch|p1a: Dondozo|Dondozo, L78, M, tera:Fairy|103/362
+-- turn 16
+  WE CHOSE: heal rest - our hp 0.28, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Dondozo|[miss]
+  -miss|p2a: Noctowl|p1a: Dondozo
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+-- turn 17
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Dondozo|[miss]
+  -miss|p2a: Noctowl|p1a: Dondozo
+  cant|p1a: Dondozo|slp
+-- turn 18
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Dondozo
+  -damage|p1a: Dondozo|170/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|192/362 slp|[from] item: Leftovers
+-- turn 19
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 0.53, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Dondozo
+  -damage|p1a: Dondozo|5/362 slp
+  -start|p1a: Dondozo|confusion
+  -curestatus|p1a: Dondozo|slp|[msg]
+  -activate|p1a: Dondozo|confusion
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+-- turn 20
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Dondozo
+  -damage|p1a: Dondozo|188/362 slp
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|210/362 slp|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 0.58, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Dondozo|[miss]
+  -miss|p2a: Noctowl|p1a: Dondozo
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|232/362 slp|[from] item: Leftovers
+-- turn 22
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 0.64, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Dondozo
+  -damage|p1a: Dondozo|43/362 slp
+  -curestatus|p1a: Dondozo|slp|[msg]
+  -end|p1a: Dondozo|confusion
+  move|p1a: Dondozo|Rest|p1a: Dondozo
+  -status|p1a: Dondozo|slp|[from] move: Rest
+  -heal|p1a: Dondozo|362/362 slp|[silent]
+-- turn 23
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Dondozo|[miss]
+  -miss|p2a: Noctowl|p1a: Dondozo
+  cant|p1a: Dondozo|slp
+-- turn 24
+  WE CHOSE: attack wavecrash - our hp 1.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Dondozo
+  -damage|p1a: Dondozo|170/362 slp
+  -start|p1a: Dondozo|confusion
+  cant|p1a: Dondozo|slp
+  -heal|p1a: Dondozo|192/362 slp|[from] item: Leftovers
+-- turn 25
+  WE CHOSE: heal rest (hand policy: attack wavecrash) - our hp 0.53, theirs 0.46, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to reshiram - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Dondozo
+  -damage|p1a: Dondozo|0 fnt
+  faint|p1a: Dondozo
+  switch|p1a: Reshiram|Reshiram, L76|145/277
+  -ability|p1a: Reshiram|Turboblaze
+-- turn 26
+  WE CHOSE: attack dragontail (hand policy: attack dracometeor) - our hp 0.52, theirs 0.46, predicted move (revealed) hits us x1
+  move|p2a: Noctowl|Hurricane|p1a: Reshiram
+  -damage|p1a: Reshiram|28/277
+  -start|p1a: Reshiram|confusion
+  -activate|p1a: Reshiram|confusion
+  move|p1a: Reshiram|Dragon Tail|p2a: Noctowl
+  -damage|p2a: Noctowl|22/100
+  drag|p2a: Frosmoth|Frosmoth, L82, M|100/100
+-- turn 27
+  WE CHOSE: attack willowisp (hand policy: attack blueflare) - our hp 0.10, theirs 1.00, predicted move (guessed) hits us x1
+  -activate|p1a: Reshiram|confusion
+  -damage|p1a: Reshiram|0 fnt|[from] confusion
+  faint|p1a: Reshiram
+  deinit

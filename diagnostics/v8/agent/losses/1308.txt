@@ -1,0 +1,332 @@
+battle 1308 (battle-gen9randombattle-2031867): lost in 36 turns, 1 of theirs left; we are p1
+
+ours:
+  sinistchamasterpiece (fainted; item leftovers, ability heatproof, tera steel; moves matchagotcha/strengthsap/calmmind/shadowball)
+  sudowoodo (fainted; item choiceband, ability rockhead; moves headsmash/woodhammer/suckerpunch/earthquake)
+  pincurchin (fainted; item leftovers, ability electricsurge; moves toxicspikes/discharge/recover/scald)
+  ribombee (fainted; item heavydutyboots, ability shielddust; moves bugbuzz/stunspore/moonblast/stickyweb)
+  volbeat (fainted; item heavydutyboots, ability prankster; moves uturn/thunderwave/roost/encore)
+  malamar (fainted; item leftovers, ability contrary; moves superpower/rest/sleeptalk/knockoff)
+theirs (as seen):
+  sceptile (fainted; item lifeorb, ability ?; moves focusblast)
+  ceruledge (fainted; item unknown_item, ability ?; moves closecombat)
+  swampert (fainted; item ?, ability ?; moves earthquake)
+  oricoriopau (fainted; item unknown_item, ability dancer; moves hurricane)
+  darkrai (fainted; item leftovers, ability baddreams; moves sludgebomb)
+  volcanion (95%; item unknown_item, ability waterabsorb; moves steameruption/flamethrower)
+
+-- turn 0
+  switch|p1a: Sinistcha|Sinistcha-Masterpiece, L83|254/254
+  switch|p2a: Sceptile|Sceptile, L87, M|100/100
+-- turn 1
+  WE CHOSE: attack+tera shadowball (hand policy: setup calmmind) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to ribombee - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x2
+  -terastallize|p1a: Sinistcha|Steel
+  move|p2a: Sceptile|Focus Blast|p1a: Sinistcha
+  -supereffective|p1a: Sinistcha
+  -damage|p1a: Sinistcha|0 fnt
+  faint|p1a: Sinistcha
+  -damage|p2a: Sceptile|91/100|[from] item: Life Orb
+  switch|p1a: Ribombee|Ribombee, L83, M|235/235
+-- turn 2
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x0.25
+  move|p2a: Sceptile|Focus Blast|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|201/235
+  -damage|p2a: Sceptile|81/100|[from] item: Life Orb
+  move|p1a: Ribombee|Bug Buzz|p2a: Sceptile
+  -supereffective|p2a: Sceptile
+  -damage|p2a: Sceptile|8/100
+-- turn 3
+  WE CHOSE: attack moonblast (hand policy: attack bugbuzz) - our hp 0.86, theirs 0.08, predicted move (revealed) hits us x0.25
+  move|p2a: Sceptile|Focus Blast|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|162/235
+  -damage|p2a: Sceptile|0 fnt|[from] item: Life Orb
+  faint|p2a: Sceptile
+  move|p1a: Ribombee|Moonblast|p2: Sceptile|[notarget]
+  -fail|p1a: Ribombee
+  switch|p2a: Ceruledge|Ceruledge, L78, M|100/100
+-- turn 4
+  WE CHOSE: attack moonblast - our hp 0.69, theirs 1.00, predicted move (guessed) hits us x0.25
+  move|p1a: Ribombee|Moonblast|p2a: Ceruledge
+  -resisted|p2a: Ceruledge
+  -damage|p2a: Ceruledge|80/100
+  move|p2a: Ceruledge|Close Combat|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|134/235
+  -unboost|p2a: Ceruledge|def|1
+  -unboost|p2a: Ceruledge|spd|1
+-- turn 5
+  WE CHOSE: attack moonblast - our hp 0.57, theirs 0.80, predicted move (revealed) hits us x0.25
+  move|p1a: Ribombee|Moonblast|p2a: Ceruledge
+  -resisted|p2a: Ceruledge
+  -damage|p2a: Ceruledge|50/100
+  -unboost|p2a: Ceruledge|spa|1
+  move|p2a: Ceruledge|Close Combat|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|102/235
+  -unboost|p2a: Ceruledge|def|1
+  -unboost|p2a: Ceruledge|spd|1
+-- turn 6
+  WE CHOSE: attack moonblast - our hp 0.43, theirs 0.50, predicted move (revealed) hits us x0.25
+  move|p1a: Ribombee|Moonblast|p2a: Ceruledge
+  -resisted|p2a: Ceruledge
+  -damage|p2a: Ceruledge|8/100
+  -unboost|p2a: Ceruledge|spa|1
+  move|p2a: Ceruledge|Close Combat|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -crit|p1a: Ribombee
+  -damage|p1a: Ribombee|57/235
+  -unboost|p2a: Ceruledge|def|1
+  -unboost|p2a: Ceruledge|spd|1
+-- turn 7
+  WE CHOSE: attack moonblast - our hp 0.24, theirs 0.08, predicted move (revealed) hits us x0.25
+  move|p1a: Ribombee|Moonblast|p2a: Ceruledge
+  -resisted|p2a: Ceruledge
+  -damage|p2a: Ceruledge|0 fnt
+  faint|p2a: Ceruledge
+  switch|p2a: Swampert|Swampert, L83, M|100/100
+-- turn 8
+  WE CHOSE: attack moonblast - our hp 0.24, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 0.75, predicted move (revealed) hits us x0.5
+  move|p1a: Ribombee|Moonblast|p2a: Swampert
+  -damage|p2a: Swampert|69/100
+  -unboost|p2a: Swampert|spa|1
+  move|p2a: Swampert|Earthquake|p1a: Ribombee
+  -resisted|p1a: Ribombee
+  -damage|p1a: Ribombee|0 fnt
+  faint|p1a: Ribombee
+  -heal|p2a: Swampert|75/100|[from] item: Leftovers
+  switch|p1a: Volbeat|Volbeat, L90, M|263/263
+-- turn 9
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.75, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to sudowoodo - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Swampert
+  -damage|p2a: Swampert|53/100
+  switch|p1a: Sudowoodo|Sudowoodo, L94, F|284/284|[from] U-turn
+  move|p2a: Swampert|Earthquake|p1a: Sudowoodo
+  -supereffective|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|116/284
+  -heal|p2a: Swampert|59/100|[from] item: Leftovers
+-- turn 10
+  WE CHOSE: attack woodhammer (hand policy: switch to volbeat) - our hp 0.41, theirs 0.59, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x2
+  move|p2a: Swampert|Earthquake|p1a: Sudowoodo
+  -supereffective|p1a: Sudowoodo
+  -damage|p1a: Sudowoodo|0 fnt
+  faint|p1a: Sudowoodo
+  -heal|p2a: Swampert|65/100|[from] item: Leftovers
+  switch|p1a: Volbeat|Volbeat, L90, M|263/263
+-- turn 11
+  WE CHOSE: attack uturn - our hp 1.00, theirs 0.65, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to malamar - our hp 1.00, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p1a: Volbeat|U-turn|p2a: Swampert
+  -damage|p2a: Swampert|43/100
+  switch|p1a: Malamar|Malamar, L82, M|275/275|[from] U-turn
+  move|p2a: Swampert|Earthquake|p1a: Malamar
+  -damage|p1a: Malamar|163/275
+  -heal|p1a: Malamar|180/275|[from] item: Leftovers
+  -heal|p2a: Swampert|49/100|[from] item: Leftovers
+-- turn 12
+  WE CHOSE: attack knockoff (hand policy: attack superpower) - our hp 0.65, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Malamar|Knock Off|p2a: Swampert
+  -damage|p2a: Swampert|16/100
+  -enditem|p2a: Swampert|Leftovers|[from] move: Knock Off|[of] p1a: Malamar
+  move|p2a: Swampert|Earthquake|p1a: Malamar
+  -crit|p1a: Malamar
+  -damage|p1a: Malamar|9/275
+  -heal|p1a: Malamar|26/275|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack knockoff (hand policy: heal rest) - our hp 0.09, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Malamar|Knock Off|p2a: Swampert
+  -damage|p2a: Swampert|0 fnt
+  faint|p2a: Swampert
+  -heal|p1a: Malamar|43/275|[from] item: Leftovers
+  switch|p2a: Oricorio|Oricorio-Pa'u, L87, M|100/100
+-- turn 14
+  WE CHOSE: heal rest - our hp 0.16, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to pincurchin - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Oricorio|Hurricane|p1a: Malamar
+  -damage|p1a: Malamar|0 fnt
+  faint|p1a: Malamar
+  switch|p1a: Pincurchin|Pincurchin, F|258/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 15
+  WE CHOSE: attack discharge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Oricorio|Hurricane|p1a: Pincurchin
+  -resisted|p1a: Pincurchin
+  -damage|p1a: Pincurchin|200/258
+  move|p1a: Pincurchin|Discharge|p2a: Oricorio
+  -supereffective|p2a: Oricorio
+  -damage|p2a: Oricorio|0 fnt
+  faint|p2a: Oricorio
+  -heal|p1a: Pincurchin|216/258|[from] item: Leftovers
+  switch|p2a: Darkrai|Darkrai, L77|100/100
+-- turn 16
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 0.84, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Darkrai|Sludge Bomb|p1a: Pincurchin
+  -crit|p1a: Pincurchin
+  -damage|p1a: Pincurchin|134/258
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|258/258
+-- turn 17
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Darkrai|Sludge Bomb|p1a: Pincurchin
+  -damage|p1a: Pincurchin|196/258
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|258/258
+-- turn 18
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Darkrai|Sludge Bomb|p1a: Pincurchin
+  -crit|p1a: Pincurchin
+  -damage|p1a: Pincurchin|162/258
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|258/258
+-- turn 19
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Darkrai|Sludge Bomb|p1a: Pincurchin
+  -damage|p1a: Pincurchin|197/258
+  -status|p1a: Pincurchin|psn
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|258/258 psn
+  -damage|p1a: Pincurchin|226/258 psn|[from] psn
+  -fieldend|move: Electric Terrain
+-- turn 20
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Darkrai|Sludge Bomb|p1a: Pincurchin
+  -damage|p1a: Pincurchin|165/258 psn
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|258/258 psn
+  -damage|p1a: Pincurchin|226/258 psn|[from] psn
+-- turn 21
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Darkrai|Sludge Bomb|p1a: Pincurchin
+  -damage|p1a: Pincurchin|165/258 psn
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|258/258 psn
+  -damage|p1a: Pincurchin|226/258 psn|[from] psn
+-- turn 22
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Darkrai|Sludge Bomb|p1a: Pincurchin
+  -damage|p1a: Pincurchin|171/258 psn
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|258/258 psn
+  -damage|p1a: Pincurchin|226/258 psn|[from] psn
+-- turn 23
+  WE CHOSE: heal recover (hand policy: attack discharge) - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Darkrai|Sludge Bomb|p1a: Pincurchin
+  -damage|p1a: Pincurchin|162/258 psn
+  move|p1a: Pincurchin|Recover|p1a: Pincurchin
+  -heal|p1a: Pincurchin|258/258 psn
+  -damage|p1a: Pincurchin|226/258 psn|[from] psn
+-- turn 24
+  WE CHOSE: attack scald (hand policy: attack discharge) - our hp 0.88, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Darkrai|Sludge Bomb|p1a: Pincurchin
+  -damage|p1a: Pincurchin|171/258 psn
+  move|p1a: Pincurchin|Scald|p2a: Darkrai
+  -damage|p2a: Darkrai|64/100
+  -status|p2a: Darkrai|brn
+  -heal|p2a: Darkrai|70/100 brn|[from] item: Leftovers
+  -heal|p1a: Pincurchin|187/258 psn|[from] item: Leftovers
+  -damage|p1a: Pincurchin|155/258 psn|[from] psn
+  -damage|p2a: Darkrai|64/100 brn|[from] brn
+-- turn 25
+  WE CHOSE: attack scald (hand policy: attack discharge) - our hp 0.60, theirs 0.64, predicted move (revealed) hits us x1
+  move|p2a: Darkrai|Sludge Bomb|p1a: Pincurchin
+  -damage|p1a: Pincurchin|98/258 psn
+  move|p1a: Pincurchin|Scald|p2a: Darkrai
+  -damage|p2a: Darkrai|27/100 brn
+  -heal|p2a: Darkrai|33/100 brn|[from] item: Leftovers
+  -heal|p1a: Pincurchin|114/258 psn|[from] item: Leftovers
+  -damage|p1a: Pincurchin|82/258 psn|[from] psn
+  -damage|p2a: Darkrai|27/100 brn|[from] brn
+-- turn 26
+  WE CHOSE: attack scald (hand policy: attack discharge) - our hp 0.32, theirs 0.27, predicted move (revealed) hits us x1
+  move|p2a: Darkrai|Sludge Bomb|p1a: Pincurchin
+  -damage|p1a: Pincurchin|21/258 psn
+  move|p1a: Pincurchin|Scald|p2a: Darkrai
+  -damage|p2a: Darkrai|0 fnt
+  faint|p2a: Darkrai
+  -heal|p1a: Pincurchin|37/258 psn|[from] item: Leftovers
+  -damage|p1a: Pincurchin|5/258 psn|[from] psn
+  switch|p2a: Volcanion|Volcanion, L79|100/100
+-- turn 27
+  WE CHOSE: attack discharge - our hp 0.02, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to volbeat - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Volcanion|Steam Eruption|p1a: Pincurchin
+  -damage|p1a: Pincurchin|0 fnt
+  faint|p1a: Pincurchin
+  switch|p1a: Volbeat|Volbeat, L90, M|263/263
+-- turn 28
+  WE CHOSE: heal roost (hand policy: attack uturn) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost||[still]
+  -fail|p1a: Volbeat|heal
+  move|p2a: Volcanion|Steam Eruption|p1a: Volbeat
+  -damage|p1a: Volbeat|127/263
+-- turn 29
+  WE CHOSE: heal roost - our hp 0.48, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|259/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Volbeat
+  -damage|p1a: Volbeat|130/263
+-- turn 30
+  WE CHOSE: heal roost - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|262/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Volbeat
+  -damage|p1a: Volbeat|139/263
+-- turn 31
+  WE CHOSE: heal roost (hand policy: attack uturn) - our hp 0.53, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|263/263
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Volbeat
+  -damage|p1a: Volbeat|146/263
+  -status|p1a: Volbeat|brn
+  -damage|p1a: Volbeat|130/263 brn|[from] brn
+-- turn 32
+  WE CHOSE: heal roost - our hp 0.49, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|262/263 brn
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Volbeat
+  -damage|p1a: Volbeat|133/263 brn
+  -damage|p1a: Volbeat|117/263 brn|[from] brn
+-- turn 33
+  WE CHOSE: heal roost - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|249/263 brn
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Volbeat
+  -damage|p1a: Volbeat|132/263 brn
+  -damage|p1a: Volbeat|116/263 brn|[from] brn
+-- turn 34
+  WE CHOSE: heal roost - our hp 0.44, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|248/263 brn
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Volcanion|Steam Eruption|p1a: Volbeat
+  -damage|p1a: Volbeat|112/263 brn
+  -damage|p1a: Volbeat|96/263 brn|[from] brn
+-- turn 35
+  WE CHOSE: heal roost - our hp 0.37, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|Roost|p1a: Volbeat
+  -heal|p1a: Volbeat|228/263 brn
+  -singleturn|p1a: Volbeat|move: Roost
+  move|p2a: Volcanion|Flamethrower|p1a: Volbeat
+  -supereffective|p1a: Volbeat
+  -damage|p1a: Volbeat|22/263 brn
+  -damage|p1a: Volbeat|6/263 brn|[from] brn
+-- turn 36
+  WE CHOSE: attack uturn - our hp 0.02, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Volbeat|U-turn|p2a: Volcanion
+  -resisted|p2a: Volcanion
+  -damage|p2a: Volcanion|95/100
+  move|p2a: Volcanion|Flamethrower|p1a: Volbeat
+  -supereffective|p1a: Volbeat
+  -damage|p1a: Volbeat|0 fnt
+  faint|p1a: Volbeat
+  deinit

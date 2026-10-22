@@ -1,0 +1,168 @@
+battle 793 (battle-gen9randombattle-2025907): lost in 16 turns, 1 of theirs left; we are p1
+
+ours:
+  honchkrow (fainted; item heavydutyboots, ability moxie; moves lashout/bravebird/suckerpunch/thunderwave)
+  camerupt (fainted; item leftovers, ability solidrock; moves overheat/willowisp/earthquake/stealthrock)
+  scizor (fainted; item leftovers, ability technician; moves closecombat/knockoff/defog/bulletpunch)
+  sneasler (fainted; item choiceband, ability poisontouch; moves uturn/throatchop/closecombat/direclaw)
+  delibird (fainted; item heavydutyboots, ability vitalspirit, tera ghost; moves bravebird/spikes/freezedry/rapidspin)
+  metagross (fainted; item weaknesspolicy, ability clearbody; moves earthquake/knockoff/agility/heavyslam)
+theirs (as seen):
+  squawkabillyyellow (fainted; item unknown_item, ability ?; moves doubleedge)
+  cryogonal (fainted; item unknown_item, ability levitate; moves freezedry)
+  keldeoresolute (fainted; item lifeorb, ability justified; moves hydropump)
+  hoopaunbound (fainted; item unknown_item, ability magician; moves focusblast)
+  toedscruel (fainted; item leftovers, ability myceliummight; moves leafstorm)
+  staraptor (100%; item unknown_item, ability ?; moves closecombat)
+
+-- turn 0
+  switch|p1a: Honchkrow|Honchkrow, L86, F|312/312
+  switch|p2a: Squawkabilly|Squawkabilly-Yellow, L89, F|100/100
+-- turn 1
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to delibird - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x1
+  move|p2a: Squawkabilly|Double-Edge|p1a: Honchkrow
+  -damage|p1a: Honchkrow|0 fnt
+  faint|p1a: Honchkrow
+  -damage|p2a: Squawkabilly|65/100|[from] Recoil
+  switch|p1a: Delibird|Delibird, F|252/252
+-- turn 2
+  WE CHOSE: attack+tera freezedry - our hp 1.00, theirs 0.65, predicted move (revealed) hits us x1
+  -terastallize|p1a: Delibird|Ghost
+  move|p2a: Squawkabilly|Double-Edge|p1a: Delibird
+  -immune|p1a: Delibird
+  move|p1a: Delibird|Freeze-Dry|p2a: Squawkabilly
+  -supereffective|p2a: Squawkabilly
+  -damage|p2a: Squawkabilly|0 fnt
+  faint|p2a: Squawkabilly
+  switch|p2a: Cryogonal|Cryogonal, L89|100/100
+-- turn 3
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Cryogonal|Freeze-Dry|p1a: Delibird
+  -damage|p1a: Delibird|147/252
+  move|p1a: Delibird|Brave Bird|p2a: Cryogonal
+  -crit|p2a: Cryogonal
+  -damage|p2a: Cryogonal|16/100
+  -damage|p1a: Delibird|67/252|[from] Recoil
+-- turn 4
+  WE CHOSE: attack bravebird - our hp 0.27, theirs 0.16, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to scizor - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x1
+  move|p2a: Cryogonal|Freeze-Dry|p1a: Delibird
+  -damage|p1a: Delibird|0 fnt
+  faint|p1a: Delibird
+  switch|p1a: Scizor|Scizor, L79, M|240/240
+-- turn 5
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p2a: Cryogonal|Freeze-Dry|p1a: Scizor
+  -resisted|p1a: Scizor
+  -damage|p1a: Scizor|192/240
+  move|p1a: Scizor|Close Combat|p2a: Cryogonal
+  -supereffective|p2a: Cryogonal
+  -damage|p2a: Cryogonal|0 fnt
+  -unboost|p1a: Scizor|def|1
+  -unboost|p1a: Scizor|spd|1
+  faint|p2a: Cryogonal
+  -heal|p1a: Scizor|207/240|[from] item: Leftovers
+  switch|p2a: Keldeo|Keldeo-Resolute, L79|100/100
+-- turn 6
+  WE CHOSE: attack closecombat - our hp 0.86, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to sneasler - our hp 0.00, theirs 0.91, predicted move (revealed) hits us x1
+  move|p2a: Keldeo|Hydro Pump|p1a: Scizor
+  -damage|p1a: Scizor|0 fnt
+  faint|p1a: Scizor
+  -damage|p2a: Keldeo|91/100|[from] item: Life Orb
+  switch|p1a: Sneasler|Sneasler, L74, M|240/240
+-- turn 7
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 0.91, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to metagross - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Sneasler|Close Combat|p2a: Keldeo
+  -damage|p2a: Keldeo|18/100
+  -unboost|p1a: Sneasler|def|1
+  -unboost|p1a: Sneasler|spd|1
+  -status|p2a: Keldeo|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+  move|p2a: Keldeo|Hydro Pump|p1a: Sneasler
+  -damage|p1a: Sneasler|0 fnt
+  faint|p1a: Sneasler
+  -damage|p2a: Keldeo|8/100 psn|[from] item: Life Orb
+  -damage|p2a: Keldeo|0 fnt|[from] psn
+  faint|p2a: Keldeo
+  switch|p1a: Metagross|Metagross, L79|256/256
+  switch|p2a: Hoopa|Hoopa-Unbound, L80|100/100
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0
+  move|p2a: Hoopa|Focus Blast|p1a: Metagross|[miss]
+  -miss|p2a: Hoopa|p1a: Metagross
+  move|p1a: Metagross|Earthquake|p2a: Hoopa
+  -damage|p2a: Hoopa|53/100
+-- turn 9
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.53, predicted move (revealed) hits us x1
+  move|p2a: Hoopa|Focus Blast|p1a: Metagross
+  -damage|p1a: Metagross|119/256
+  move|p1a: Metagross|Earthquake|p2a: Hoopa
+  -damage|p2a: Hoopa|12/100
+-- turn 10
+  WE CHOSE: attack earthquake - our hp 0.46, theirs 0.12, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to camerupt - our hp 0.00, theirs 0.12, predicted move (revealed) hits us x1
+  move|p2a: Hoopa|Focus Blast|p1a: Metagross
+  -damage|p1a: Metagross|0 fnt
+  faint|p1a: Metagross
+  switch|p1a: Camerupt|Camerupt, L91, M|275/275
+-- turn 11
+  WE CHOSE: attack overheat - our hp 1.00, theirs 0.12, predicted move (revealed) hits us x1
+  move|p2a: Hoopa|Focus Blast|p1a: Camerupt|[miss]
+  -miss|p2a: Hoopa|p1a: Camerupt
+  move|p1a: Camerupt|Overheat|p2a: Hoopa
+  -damage|p2a: Hoopa|0 fnt
+  -unboost|p1a: Camerupt|spa|2
+  faint|p2a: Hoopa
+  switch|p2a: Toedscruel|Toedscruel, L87, F|100/100
+-- turn 12
+  WE CHOSE: attack overheat - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Toedscruel|Leaf Storm|p1a: Camerupt
+  -damage|p1a: Camerupt|142/275
+  -unboost|p2a: Toedscruel|spa|2
+  move|p1a: Camerupt|Overheat|p2a: Toedscruel
+  -supereffective|p2a: Toedscruel
+  -damage|p2a: Toedscruel|55/100
+  -unboost|p1a: Camerupt|spa|2
+  -heal|p2a: Toedscruel|61/100|[from] item: Leftovers
+  -heal|p1a: Camerupt|159/275|[from] item: Leftovers
+-- turn 13
+  WE CHOSE: attack overheat - our hp 0.58, theirs 0.61, predicted move (revealed) hits us x1
+  move|p2a: Toedscruel|Leaf Storm|p1a: Camerupt|[miss]
+  -miss|p2a: Toedscruel|p1a: Camerupt
+  move|p1a: Camerupt|Overheat|p2a: Toedscruel
+  -supereffective|p2a: Toedscruel
+  -damage|p2a: Toedscruel|30/100
+  -unboost|p1a: Camerupt|spa|2
+  -heal|p2a: Toedscruel|36/100|[from] item: Leftovers
+  -heal|p1a: Camerupt|176/275|[from] item: Leftovers
+-- turn 14
+  WE CHOSE: attack earthquake - our hp 0.64, theirs 0.36, predicted move (revealed) hits us x1
+  move|p2a: Toedscruel|Leaf Storm|p1a: Camerupt
+  -damage|p1a: Camerupt|109/275
+  -unboost|p2a: Toedscruel|spa|2
+  move|p1a: Camerupt|Earthquake|p2a: Toedscruel
+  -resisted|p2a: Toedscruel
+  -damage|p2a: Toedscruel|9/100
+  -heal|p2a: Toedscruel|15/100|[from] item: Leftovers
+  -heal|p1a: Camerupt|126/275|[from] item: Leftovers
+-- turn 15
+  WE CHOSE: attack overheat - our hp 0.46, theirs 0.15, predicted move (revealed) hits us x1
+  move|p2a: Toedscruel|Leaf Storm|p1a: Camerupt
+  -damage|p1a: Camerupt|81/275
+  -unboost|p2a: Toedscruel|spa|2
+  move|p1a: Camerupt|Overheat|p2a: Toedscruel
+  -supereffective|p2a: Toedscruel
+  -damage|p2a: Toedscruel|0 fnt
+  faint|p2a: Toedscruel
+  -heal|p1a: Camerupt|98/275|[from] item: Leftovers
+  switch|p2a: Staraptor|Staraptor, L79, F|100/100
+-- turn 16
+  WE CHOSE: attack overheat - our hp 0.36, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Staraptor|Close Combat|p1a: Camerupt
+  -damage|p1a: Camerupt|0 fnt
+  -unboost|p2a: Staraptor|def|1
+  -unboost|p2a: Staraptor|spd|1
+  faint|p1a: Camerupt
+  deinit

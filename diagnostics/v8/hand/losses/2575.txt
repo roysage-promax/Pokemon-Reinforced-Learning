@@ -1,0 +1,163 @@
+battle 2575 (battle-gen9randombattle-2042673): lost in 17 turns, 2 of theirs left; we are p1
+
+ours:
+  kingdra (fainted; item lumberry, ability sniper, tera steel; moves wavecrash/ironhead/dragondance/outrage)
+  venusaur (fainted; item leftovers, ability chlorophyll; moves earthpower/sludgebomb/synthesis/knockoff)
+  reuniclus (fainted; item lifeorb, ability magicguard; moves recover/focusblast/calmmind/psyshock)
+  infernape (fainted; item lifeorb, ability blaze; moves closecombat/knockoff/swordsdance/flareblitz)
+  feraligatr (fainted; item lifeorb, ability sheerforce; moves crunch/dragondance/icepunch/liquidation)
+  latios (fainted; item souldew, ability levitate; moves calmmind/dracometeor/recover/psyshock)
+theirs (as seen):
+  ironthorns (fainted; item ?, ability quarkdrive; moves stoneedge)
+  pachirisu (fainted; item unknown_item, ability ?; moves discharge)
+  swanna (fainted; item unknown_item, ability ?; moves bravebird)
+  crabominable (fainted; item unknown_item, ability ?; moves earthquake)
+  wugtrio (100%; item unknown_item, ability ?; moves liquidation)
+
+-- turn 0
+  switch|p1a: Kingdra|Kingdra, L84, M|263/263
+  switch|p2a: Iron Thorns|Iron Thorns, L83|100/100
+  -item|p2a: Iron Thorns|Air Balloon
+-- turn 1
+  WE CHOSE: switch to latios - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Latios|Latios, L78, M|253/253
+  move|p2a: Iron Thorns|Stone Edge|p1a: Latios
+  -crit|p1a: Latios
+  -damage|p1a: Latios|24/253
+-- turn 2
+  WE CHOSE: heal recover - our hp 0.09, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to kingdra - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p1a: Latios|Recover|p1a: Latios
+  -heal|p1a: Latios|151/253
+  move|p2a: Iron Thorns|Stone Edge|p1a: Latios
+  -damage|p1a: Latios|0 fnt
+  faint|p1a: Latios
+  switch|p1a: Kingdra|Kingdra, L84, M|263/263
+-- turn 3
+  WE CHOSE: attack+tera wavecrash - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  -terastallize|p1a: Kingdra|Steel
+  move|p1a: Kingdra|Wave Crash|p2a: Iron Thorns
+  -supereffective|p2a: Iron Thorns
+  -damage|p2a: Iron Thorns|24/100
+  -enditem|p2a: Iron Thorns|Air Balloon
+  -damage|p1a: Kingdra|187/263|[from] Recoil
+  move|p2a: Iron Thorns|Stone Edge|p1a: Kingdra
+  -resisted|p1a: Kingdra
+  -damage|p1a: Kingdra|129/263
+-- turn 4
+  WE CHOSE: attack wavecrash - our hp 0.49, theirs 0.24, predicted move (revealed) hits us x0.5
+  move|p1a: Kingdra|Wave Crash|p2a: Iron Thorns
+  -supereffective|p2a: Iron Thorns
+  -damage|p2a: Iron Thorns|0 fnt
+  faint|p2a: Iron Thorns
+  -end|p2a: Iron Thorns|Quark Drive|[silent]
+  -damage|p1a: Kingdra|105/263|[from] Recoil
+  switch|p2a: Pachirisu|Pachirisu, L96, M|100/100
+-- turn 5
+  WE CHOSE: attack wavecrash - our hp 0.40, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Pachirisu|Discharge|p1a: Kingdra
+  -damage|p1a: Kingdra|47/263
+  move|p1a: Kingdra|Wave Crash|p2a: Pachirisu
+  -damage|p2a: Pachirisu|50/100
+  -damage|p1a: Kingdra|2/263|[from] Recoil
+-- turn 6
+  WE CHOSE: attack wavecrash - our hp 0.01, theirs 0.50, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to venusaur - our hp 0.00, theirs 0.50, predicted move (revealed) hits us x1
+  move|p2a: Pachirisu|Discharge|p1a: Kingdra
+  -damage|p1a: Kingdra|0 fnt
+  faint|p1a: Kingdra
+  switch|p1a: Venusaur|Venusaur, L84, M|272/272
+-- turn 7
+  WE CHOSE: attack earthpower - our hp 1.00, theirs 0.50, predicted move (revealed) hits us x0.5
+  move|p2a: Pachirisu|Discharge|p1a: Venusaur
+  -resisted|p1a: Venusaur
+  -damage|p1a: Venusaur|243/272
+  move|p1a: Venusaur|Earth Power|p2a: Pachirisu
+  -supereffective|p2a: Pachirisu
+  -damage|p2a: Pachirisu|8/100
+  -heal|p1a: Venusaur|260/272|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack earthpower - our hp 0.96, theirs 0.08, predicted move (revealed) hits us x0.5
+  move|p2a: Pachirisu|Discharge|p1a: Venusaur
+  -resisted|p1a: Venusaur
+  -damage|p1a: Venusaur|233/272
+  -status|p1a: Venusaur|par
+  move|p1a: Venusaur|Earth Power|p2a: Pachirisu
+  -supereffective|p2a: Pachirisu
+  -damage|p2a: Pachirisu|0 fnt
+  faint|p2a: Pachirisu
+  -heal|p1a: Venusaur|250/272 par|[from] item: Leftovers
+  switch|p2a: Swanna|Swanna, L89, M|100/100
+-- turn 9
+  WE CHOSE: attack sludgebomb - our hp 0.92, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to reuniclus - our hp 0.00, theirs 0.71, predicted move (revealed) hits us x2
+  move|p2a: Swanna|Brave Bird|p1a: Venusaur
+  -supereffective|p1a: Venusaur
+  -damage|p1a: Venusaur|0 fnt
+  faint|p1a: Venusaur
+  -damage|p2a: Swanna|71/100|[from] Recoil
+  switch|p1a: Reuniclus|Reuniclus, L88, F|337/337
+-- turn 10
+  WE CHOSE: attack psyshock - our hp 1.00, theirs 0.71, predicted move (revealed) hits us x1
+  move|p2a: Swanna|Brave Bird|p1a: Reuniclus
+  -damage|p1a: Reuniclus|204/337
+  -damage|p2a: Swanna|55/100|[from] Recoil
+  move|p1a: Reuniclus|Psyshock|p2a: Swanna
+  -damage|p2a: Swanna|0 fnt
+  faint|p2a: Swanna
+  switch|p2a: Crabominable|Crabominable, L90, F|100/100
+-- turn 11
+  WE CHOSE: setup calmmind - our hp 0.61, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Crabominable|Earthquake|p1a: Reuniclus
+  -damage|p1a: Reuniclus|90/337
+  move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+  -boost|p1a: Reuniclus|spa|1
+  -boost|p1a: Reuniclus|spd|1
+-- turn 12
+  WE CHOSE: heal recover - our hp 0.27, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to infernape - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Crabominable|Earthquake|p1a: Reuniclus
+  -damage|p1a: Reuniclus|0 fnt
+  faint|p1a: Reuniclus
+  switch|p1a: Infernape|Infernape, L82, F|259/259
+-- turn 13
+  WE CHOSE: attack closecombat - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x2
+  move|p1a: Infernape|Close Combat|p2a: Crabominable
+  -supereffective|p2a: Crabominable
+  -damage|p2a: Crabominable|0 fnt
+  -unboost|p1a: Infernape|def|1
+  -unboost|p1a: Infernape|spd|1
+  faint|p2a: Crabominable
+  -damage|p1a: Infernape|234/259|[from] item: Life Orb
+  switch|p2a: Wugtrio|Wugtrio, L91, F|100/100
+-- turn 14
+  WE CHOSE: switch to feraligatr - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Feraligatr|Feraligatr, L79, M|264/264
+  move|p2a: Wugtrio|Liquidation|p1a: Feraligatr
+  -resisted|p1a: Feraligatr
+  -crit|p1a: Feraligatr
+  -damage|p1a: Feraligatr|138/264
+-- turn 15
+  WE CHOSE: setup dragondance - our hp 0.52, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Wugtrio|Liquidation|p1a: Feraligatr
+  -resisted|p1a: Feraligatr
+  -damage|p1a: Feraligatr|63/264
+  -unboost|p1a: Feraligatr|def|1
+  move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+  -boost|p1a: Feraligatr|atk|1
+  -boost|p1a: Feraligatr|spe|1
+-- turn 16
+  WE CHOSE: attack crunch - our hp 0.24, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to infernape - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Wugtrio|Liquidation|p1a: Feraligatr
+  -resisted|p1a: Feraligatr
+  -damage|p1a: Feraligatr|0 fnt
+  faint|p1a: Feraligatr
+  switch|p1a: Infernape|Infernape, L82, F|234/259
+-- turn 17
+  WE CHOSE: attack closecombat - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x2
+  move|p2a: Wugtrio|Liquidation|p1a: Infernape
+  -supereffective|p1a: Infernape
+  -damage|p1a: Infernape|0 fnt
+  faint|p1a: Infernape
+  deinit

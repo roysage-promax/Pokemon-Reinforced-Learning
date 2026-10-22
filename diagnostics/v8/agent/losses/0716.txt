@@ -1,0 +1,236 @@
+battle 716 (battle-gen9randombattle-2025818): lost in 24 turns, 1 of theirs left; we are p1
+
+ours:
+  ambipom (fainted; item silkscarf, ability technician; moves fakeout/lowkick/knockoff/doubleedge)
+  virizion (fainted; item lifeorb, ability justified; moves closecombat/leafblade/swordsdance/stoneedge)
+  dedenne (fainted; item ?, ability cheekpouch; moves thunderbolt/nuzzle/dazzlinggleam/uturn)
+  haxorus (fainted; item ?, ability moldbreaker, tera steel; moves outrage/earthquake/ironhead/dragondance)
+  ogerpon (fainted; item heavydutyboots, ability defiant; moves synthesis/superpower/ivycudgel/uturn)
+  tentacruel (fainted; item assaultvest, ability liquidooze; moves flipturn/rapidspin/surf/sludgebomb)
+theirs (as seen):
+  emboar (fainted; item leftovers, ability ?; moves flareblitz)
+  alomomola (fainted; item unknown_item, ability ?; moves scald)
+  krookodile (fainted; item lifeorb, ability intimidate; moves stoneedge)
+  meowsticf (fainted; item lifeorb, ability ?; moves thunderbolt)
+  magnezone (fainted; item unknown_item, ability ?; moves thunderbolt)
+  jolteon (18%; item unknown_item, ability ?; moves thunderbolt)
+
+-- turn 0
+  switch|p1a: Ambipom|Ambipom, L84, M|263/263
+  switch|p2a: Emboar|Emboar, L84, F|100/100
+-- turn 1
+  WE CHOSE: switch to virizion (hand policy: attack+tera doubleedge) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to tentacruel - our hp 0.00, theirs 0.78, predicted move (revealed) hits us x2
+  switch|p1a: Virizion|Virizion, L82|283/283
+  move|p2a: Emboar|Flare Blitz|p1a: Virizion
+  -supereffective|p1a: Virizion
+  -damage|p1a: Virizion|0 fnt
+  faint|p1a: Virizion
+  -damage|p2a: Emboar|72/100|[from] Recoil
+  -heal|p2a: Emboar|78/100|[from] item: Leftovers
+  switch|p1a: Tentacruel|Tentacruel, L84, F|272/272
+-- turn 2
+  WE CHOSE: attack surf - our hp 1.00, theirs 0.78, predicted move (revealed) hits us x0.5
+  move|p1a: Tentacruel|Surf|p2a: Emboar
+  -supereffective|p2a: Emboar
+  -damage|p2a: Emboar|16/100
+  move|p2a: Emboar|Flare Blitz|p1a: Tentacruel
+  -resisted|p1a: Tentacruel
+  -damage|p1a: Tentacruel|155/272
+  -status|p1a: Tentacruel|brn
+  -damage|p2a: Emboar|4/100|[from] Recoil
+  -heal|p2a: Emboar|10/100|[from] item: Leftovers
+  -damage|p1a: Tentacruel|138/272 brn|[from] brn
+-- turn 3
+  WE CHOSE: attack surf - our hp 0.51, theirs 0.10, predicted move (revealed) hits us x0.5
+  move|p1a: Tentacruel|Surf|p2a: Emboar
+  -supereffective|p2a: Emboar
+  -damage|p2a: Emboar|0 fnt
+  faint|p2a: Emboar
+  -damage|p1a: Tentacruel|121/272 brn|[from] brn
+  switch|p2a: Alomomola|Alomomola, L87, M|100/100
+-- turn 4
+  WE CHOSE: attack sludgebomb - our hp 0.44, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p1a: Tentacruel|Sludge Bomb|p2a: Alomomola
+  -damage|p2a: Alomomola|71/100
+  -status|p2a: Alomomola|psn
+  move|p2a: Alomomola|Scald|p1a: Tentacruel
+  -resisted|p1a: Tentacruel
+  -damage|p1a: Tentacruel|107/272 brn
+  -damage|p2a: Alomomola|59/100 psn|[from] psn
+  -damage|p1a: Tentacruel|90/272 brn|[from] brn
+-- turn 5
+  WE CHOSE: switch to ogerpon (hand policy: attack sludgebomb) - our hp 0.33, theirs 0.59, predicted move (revealed) hits us x0.5
+  switch|p1a: Ogerpon|Ogerpon, L80, F|259/259
+  move|p2a: Alomomola|Scald|p1a: Ogerpon
+  -resisted|p1a: Ogerpon
+  -damage|p1a: Ogerpon|235/259
+  -status|p1a: Ogerpon|brn
+  -damage|p2a: Alomomola|46/100 psn|[from] psn
+  -damage|p1a: Ogerpon|219/259 brn|[from] brn
+-- turn 6
+  WE CHOSE: attack ivycudgel (hand policy: attack+tera ivycudgel) - our hp 0.85, theirs 0.46, predicted move (revealed) hits us x0.5
+  move|p1a: Ogerpon|Ivy Cudgel|p2a: Alomomola
+  -supereffective|p2a: Alomomola
+  -damage|p2a: Alomomola|16/100 psn
+  move|p2a: Alomomola|Scald|p1a: Ogerpon
+  -resisted|p1a: Ogerpon
+  -damage|p1a: Ogerpon|196/259 brn
+  -damage|p2a: Alomomola|4/100 psn|[from] psn
+  -damage|p1a: Ogerpon|180/259 brn|[from] brn
+-- turn 7
+  WE CHOSE: attack ivycudgel (hand policy: attack+tera ivycudgel) - our hp 0.69, theirs 0.04, predicted move (revealed) hits us x0.5
+  move|p1a: Ogerpon|Ivy Cudgel|p2a: Alomomola
+  -supereffective|p2a: Alomomola
+  -damage|p2a: Alomomola|0 fnt
+  faint|p2a: Alomomola
+  -damage|p1a: Ogerpon|164/259 brn|[from] brn
+  switch|p2a: Krookodile|Krookodile, L79, F|100/100
+  -ability|p2a: Krookodile|Intimidate|boost
+  -unboost|p1a: Ogerpon|atk|1
+  -ability|p1a: Ogerpon|Defiant|boost
+  -boost|p1a: Ogerpon|atk|2
+-- turn 8
+  WE CHOSE: switch to tentacruel - our hp 0.63, theirs 1.00, predicted move (guessed) hits us x2
+  WE CHOSE: forced: switch to haxorus (hand policy: forced: switch to ogerpon) - our hp 0.00, theirs 0.90, predicted move (revealed) hits us x1
+  switch|p1a: Tentacruel|Tentacruel, L84, F|90/272 brn
+  move|p2a: Krookodile|Stone Edge|p1a: Tentacruel
+  -damage|p1a: Tentacruel|0 fnt
+  faint|p1a: Tentacruel
+  -damage|p2a: Krookodile|90/100|[from] item: Life Orb
+  switch|p1a: Haxorus|Haxorus, L77, M|244/244
+  -ability|p1a: Haxorus|Mold Breaker
+-- turn 9
+  WE CHOSE: attack+tera outrage - our hp 1.00, theirs 0.90, predicted move (revealed) hits us x1
+  -terastallize|p1a: Haxorus|Steel
+  move|p1a: Haxorus|Outrage|p2a: Krookodile
+  -damage|p2a: Krookodile|26/100
+  move|p2a: Krookodile|Stone Edge|p1a: Haxorus
+  -resisted|p1a: Haxorus
+  -damage|p1a: Haxorus|192/244
+  -damage|p2a: Krookodile|16/100|[from] item: Life Orb
+-- turn 10
+  WE CHOSE: attack outrage - our hp 0.79, theirs 0.16, predicted move (revealed) hits us x0.5
+  move|p1a: Haxorus|Outrage|p2a: Krookodile|[from] lockedmove
+  -damage|p2a: Krookodile|0 fnt
+  faint|p2a: Krookodile
+  switch|p2a: Meowstic|Meowstic-F, L89, F|100/100
+-- turn 11
+  WE CHOSE: attack outrage - our hp 0.79, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Meowstic|Thunderbolt|p1a: Haxorus
+  -damage|p1a: Haxorus|82/244
+  -damage|p2a: Meowstic|91/100|[from] item: Life Orb
+  move|p1a: Haxorus|Outrage|p2a: Meowstic|[from] lockedmove
+  -damage|p2a: Meowstic|37/100
+  -start|p1a: Haxorus|confusion|[fatigue]
+  -enditem|p1a: Haxorus|Lum Berry|[eat]
+  -end|p1a: Haxorus|confusion
+-- turn 12
+  WE CHOSE: switch to ogerpon (hand policy: attack outrage) - our hp 0.34, theirs 0.37, predicted move (revealed) hits us x1
+  switch|p1a: Ogerpon|Ogerpon, L80, F|164/259 brn
+  move|p2a: Meowstic|Thunderbolt|p1a: Ogerpon
+  -resisted|p1a: Ogerpon
+  -damage|p1a: Ogerpon|125/259 brn
+  -damage|p2a: Meowstic|28/100|[from] item: Life Orb
+  -damage|p1a: Ogerpon|109/259 brn|[from] brn
+-- turn 13
+  WE CHOSE: attack ivycudgel (hand policy: heal synthesis) - our hp 0.42, theirs 0.28, predicted move (revealed) hits us x0.5
+  move|p2a: Meowstic|Thunderbolt|p1a: Ogerpon
+  -resisted|p1a: Ogerpon
+  -damage|p1a: Ogerpon|71/259 brn
+  -damage|p2a: Meowstic|18/100|[from] item: Life Orb
+  move|p1a: Ogerpon|Ivy Cudgel|p2a: Meowstic
+  -damage|p2a: Meowstic|0 fnt
+  faint|p2a: Meowstic
+  -damage|p1a: Ogerpon|55/259 brn|[from] brn
+  switch|p2a: Magnezone|Magnezone, L84|100/100
+-- turn 14
+  WE CHOSE: heal synthesis - our hp 0.21, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to dedenne (hand policy: forced: switch to haxorus) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Magnezone|Thunderbolt|p1a: Ogerpon
+  -resisted|p1a: Ogerpon
+  -damage|p1a: Ogerpon|0 fnt
+  faint|p1a: Ogerpon
+  switch|p1a: Dedenne|Dedenne, L88, M|261/261
+-- turn 15
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Dedenne|Thunderbolt|p2a: Magnezone
+  -resisted|p2a: Magnezone
+  -damage|p2a: Magnezone|82/100
+  move|p2a: Magnezone|Thunderbolt|p1a: Dedenne
+  -resisted|p1a: Dedenne
+  -damage|p1a: Dedenne|185/261
+-- turn 16
+  WE CHOSE: attack thunderbolt - our hp 0.71, theirs 0.82, predicted move (revealed) hits us x0.5
+  move|p1a: Dedenne|Thunderbolt|p2a: Magnezone
+  -resisted|p2a: Magnezone
+  -damage|p2a: Magnezone|64/100
+  move|p2a: Magnezone|Thunderbolt|p1a: Dedenne
+  -resisted|p1a: Dedenne
+  -damage|p1a: Dedenne|115/261
+  -enditem|p1a: Dedenne|Sitrus Berry|[eat]
+  -heal|p1a: Dedenne|180/261|[from] item: Sitrus Berry
+  -heal|p1a: Dedenne|261/261|[from] ability: Cheek Pouch
+-- turn 17
+  WE CHOSE: attack thunderbolt - our hp 1.00, theirs 0.64, predicted move (revealed) hits us x0.5
+  move|p1a: Dedenne|Thunderbolt|p2a: Magnezone
+  -resisted|p2a: Magnezone
+  -damage|p2a: Magnezone|45/100
+  move|p2a: Magnezone|Thunderbolt|p1a: Dedenne
+  -resisted|p1a: Dedenne
+  -damage|p1a: Dedenne|187/261
+-- turn 18
+  WE CHOSE: attack thunderbolt - our hp 0.72, theirs 0.45, predicted move (revealed) hits us x0.5
+  move|p1a: Dedenne|Thunderbolt|p2a: Magnezone
+  -resisted|p2a: Magnezone
+  -damage|p2a: Magnezone|26/100
+  move|p2a: Magnezone|Thunderbolt|p1a: Dedenne
+  -resisted|p1a: Dedenne
+  -damage|p1a: Dedenne|113/261
+-- turn 19
+  WE CHOSE: attack thunderbolt - our hp 0.43, theirs 0.26, predicted move (revealed) hits us x0.5
+  move|p1a: Dedenne|Thunderbolt|p2a: Magnezone
+  -resisted|p2a: Magnezone
+  -damage|p2a: Magnezone|7/100
+  move|p2a: Magnezone|Thunderbolt|p1a: Dedenne
+  -resisted|p1a: Dedenne
+  -damage|p1a: Dedenne|48/261
+-- turn 20
+  WE CHOSE: attack thunderbolt - our hp 0.18, theirs 0.07, predicted move (revealed) hits us x0.5
+  move|p1a: Dedenne|Thunderbolt|p2a: Magnezone
+  -resisted|p2a: Magnezone
+  -damage|p2a: Magnezone|0 fnt
+  faint|p2a: Magnezone
+  switch|p2a: Jolteon|Jolteon, L84, F|100/100
+-- turn 21
+  WE CHOSE: attack dazzlinggleam - our hp 0.18, theirs 1.00, predicted move (guessed) hits us x0.5
+  WE CHOSE: forced: switch to haxorus - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Jolteon|Thunderbolt|p1a: Dedenne
+  -resisted|p1a: Dedenne
+  -damage|p1a: Dedenne|0 fnt
+  faint|p1a: Dedenne
+  switch|p1a: Haxorus|Haxorus, L77, M, tera:Steel|82/244
+  -ability|p1a: Haxorus|Mold Breaker
+-- turn 22
+  WE CHOSE: attack earthquake - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to ambipom - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Haxorus
+  -damage|p1a: Haxorus|0 fnt
+  faint|p1a: Haxorus
+  switch|p1a: Ambipom|Ambipom, L84, M|263/263
+-- turn 23
+  WE CHOSE: attack doubleedge - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Jolteon|Thunderbolt|p1a: Ambipom
+  -damage|p1a: Ambipom|134/263
+  -status|p1a: Ambipom|par
+  move|p1a: Ambipom|Double-Edge|p2a: Jolteon
+  -damage|p2a: Jolteon|18/100
+  -damage|p1a: Ambipom|67/263 par|[from] Recoil
+-- turn 24
+  WE CHOSE: attack fakeout (hand policy: attack doubleedge) - our hp 0.25, theirs 0.18, predicted move (revealed) hits us x1
+  move|p1a: Ambipom|Fake Out||[still]
+  -fail|p1a: Ambipom
+  move|p2a: Jolteon|Thunderbolt|p1a: Ambipom
+  -damage|p1a: Ambipom|0 fnt
+  faint|p1a: Ambipom
+  deinit

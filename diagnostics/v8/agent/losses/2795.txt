@@ -1,0 +1,220 @@
+battle 2795 (battle-gen9randombattle-2046871): lost in 23 turns, 1 of theirs left; we are p1
+
+ours:
+  flamigo (fainted; item choiceband, ability scrappy; moves uturn/bravebird/throatchop/closecombat)
+  cramorant (fainted; item heavydutyboots, ability gulpmissile; moves surf/roost/defog/bravebird)
+  gougingfire (fainted; item heavydutyboots, ability protosynthesis; moves dragondance/earthquake/outrage/heatcrash)
+  dialga (fainted; item assaultvest, ability pressure; moves dragontail/fireblast/heavyslam/dracometeor)
+  dugtrioalola (fainted; item lifeorb, ability tanglinghair, tera steel; moves swordsdance/ironhead/earthquake/suckerpunch)
+  deoxys (fainted; item lifeorb, ability pressure; moves knockoff/superpower/psychoboost/extremespeed)
+theirs (as seen):
+  leafeon (fainted; item lifeorb, ability ?; moves leafblade)
+  dipplin (fainted; item unknown_item, ability ?; moves -)
+  zangoose (fainted; item unknown_item, ability ?; moves closecombat)
+  noctowl (fainted; item unknown_item, ability ?; moves hurricane)
+  uxie (fainted; item ?, ability levitate; moves psychicnoise)
+  galvantula (39%; item unknown_item, ability ?; moves thunder)
+
+-- turn 0
+  switch|p1a: Flamigo|Flamigo, L82, F|269/269
+  switch|p2a: Leafeon|Leafeon, L88, M|100/100
+-- turn 1
+  WE CHOSE: switch to dialga (hand policy: attack bravebird) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Dialga|Dialga, L73|266/266
+  -ability|p1a: Dialga|Pressure
+  move|p2a: Leafeon|Leaf Blade|p1a: Dialga
+  -resisted|p1a: Dialga
+  -damage|p1a: Dialga|235/266
+  -damage|p2a: Leafeon|91/100|[from] item: Life Orb
+-- turn 2
+  WE CHOSE: attack fireblast - our hp 0.88, theirs 0.91, predicted move (revealed) hits us x0.25
+  move|p2a: Leafeon|Leaf Blade|p1a: Dialga
+  -resisted|p1a: Dialga
+  -damage|p1a: Dialga|204/266
+  -damage|p2a: Leafeon|81/100|[from] item: Life Orb
+  move|p1a: Dialga|Fire Blast|p2a: Leafeon
+  -supereffective|p2a: Leafeon
+  -damage|p2a: Leafeon|5/100
+-- turn 3
+  WE CHOSE: attack fireblast - our hp 0.77, theirs 0.05, predicted move (revealed) hits us x0.25
+  move|p2a: Leafeon|Leaf Blade|p1a: Dialga
+  -resisted|p1a: Dialga
+  -damage|p1a: Dialga|172/266
+  -damage|p2a: Leafeon|0 fnt|[from] item: Life Orb
+  faint|p2a: Leafeon
+  move|p1a: Dialga|Fire Blast|p2: Leafeon|[notarget]
+  -fail|p1a: Dialga
+  switch|p2a: Dipplin|Dipplin, L88, F|100/100
+-- turn 4
+  WE CHOSE: attack dracometeor - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Dialga|Draco Meteor|p2a: Dipplin
+  -supereffective|p2a: Dipplin
+  -crit|p2a: Dipplin
+  -damage|p2a: Dipplin|0 fnt
+  -unboost|p1a: Dialga|spa|2
+  faint|p2a: Dipplin
+  switch|p2a: Zangoose|Zangoose, L85, M|100/100
+-- turn 5
+  WE CHOSE: switch to flamigo - our hp 0.65, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Flamigo|Flamigo, L82, F|269/269
+  move|p2a: Zangoose|Close Combat|p1a: Flamigo
+  -resisted|p1a: Flamigo
+  -damage|p1a: Flamigo|215/269
+  -unboost|p2a: Zangoose|def|1
+  -unboost|p2a: Zangoose|spd|1
+  -status|p2a: Zangoose|tox|[from] item: Toxic Orb
+-- turn 6
+  WE CHOSE: attack closecombat - our hp 0.80, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Zangoose|Close Combat|p1a: Flamigo
+  -resisted|p1a: Flamigo
+  -damage|p1a: Flamigo|130/269
+  -unboost|p2a: Zangoose|def|1
+  -unboost|p2a: Zangoose|spd|1
+  move|p1a: Flamigo|Close Combat|p2a: Zangoose
+  -supereffective|p2a: Zangoose
+  -damage|p2a: Zangoose|0 fnt
+  -unboost|p1a: Flamigo|def|1
+  -unboost|p1a: Flamigo|spd|1
+  faint|p2a: Zangoose
+  switch|p2a: Noctowl|Noctowl, L95, M|100/100
+-- turn 7
+  WE CHOSE: switch to dialga - our hp 0.48, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Dialga|Dialga, L73|172/266
+  -ability|p1a: Dialga|Pressure
+  move|p2a: Noctowl|Hurricane|p1a: Dialga
+  -resisted|p1a: Dialga
+  -damage|p1a: Dialga|84/266
+-- turn 8
+  WE CHOSE: attack dracometeor - our hp 0.32, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Noctowl|Hurricane|p1a: Dialga|[miss]
+  -miss|p2a: Noctowl|p1a: Dialga
+  move|p1a: Dialga|Draco Meteor|p2a: Noctowl
+  -damage|p2a: Noctowl|65/100
+  -unboost|p1a: Dialga|spa|2
+-- turn 9
+  WE CHOSE: attack heavyslam - our hp 0.32, theirs 0.65, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to dugtrioalola - our hp 0.00, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p2a: Noctowl|Hurricane|p1a: Dialga
+  -resisted|p1a: Dialga
+  -damage|p1a: Dialga|0 fnt
+  faint|p1a: Dialga
+  switch|p1a: Dugtrio|Dugtrio-Alola, L84, F|196/196
+-- turn 10
+  WE CHOSE: setup swordsdance - our hp 1.00, theirs 0.65, predicted move (revealed) hits us x0.5
+  move|p1a: Dugtrio|Swords Dance|p1a: Dugtrio
+  -boost|p1a: Dugtrio|atk|2
+  move|p2a: Noctowl|Hurricane|p1a: Dugtrio
+  -resisted|p1a: Dugtrio
+  -damage|p1a: Dugtrio|28/196
+-- turn 11
+  WE CHOSE: attack+tera suckerpunch (hand policy: attack+tera ironhead) - our hp 0.14, theirs 0.65, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to cramorant (hand policy: forced: switch to deoxys) - our hp 0.00, theirs 0.14, predicted move (revealed) hits us x0.5
+  -terastallize|p1a: Dugtrio|Steel
+  move|p1a: Dugtrio|Sucker Punch|p2a: Noctowl
+  -damage|p2a: Noctowl|14/100
+  -damage|p1a: Dugtrio|9/196|[from] item: Life Orb
+  move|p2a: Noctowl|Hurricane|p1a: Dugtrio
+  -resisted|p1a: Dugtrio
+  -damage|p1a: Dugtrio|0 fnt
+  faint|p1a: Dugtrio
+  switch|p1a: Cramorant|Cramorant, L86, M|261/261
+-- turn 12
+  WE CHOSE: attack bravebird - our hp 1.00, theirs 0.14, predicted move (revealed) hits us x1
+  move|p1a: Cramorant|Brave Bird|p2a: Noctowl
+  -damage|p2a: Noctowl|0 fnt
+  faint|p2a: Noctowl
+  -damage|p1a: Cramorant|246/261|[from] Recoil
+  switch|p2a: Uxie|Uxie, L83|100/100
+-- turn 13
+  WE CHOSE: heal roost (hand policy: attack bravebird) - our hp 0.94, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Cramorant
+  -damage|p1a: Cramorant|188/261
+  -start|p1a: Cramorant|move: Heal Block
+  cant|p1a: Cramorant|move: Heal Block|Roost
+-- turn 14
+  WE CHOSE: switch to deoxys (hand policy: attack bravebird) - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Deoxys|Deoxys, L74|196/196
+  -ability|p1a: Deoxys|Pressure
+  move|p2a: Uxie|Psychic Noise|p1a: Deoxys
+  -resisted|p1a: Deoxys
+  -damage|p1a: Deoxys|142/196
+  -start|p1a: Deoxys|move: Heal Block
+-- turn 15
+  WE CHOSE: attack knockoff - our hp 0.72, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p1a: Deoxys|Knock Off|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -damage|p2a: Uxie|42/100
+  -enditem|p2a: Uxie|Leftovers|[from] move: Knock Off|[of] p1a: Deoxys
+  -damage|p1a: Deoxys|123/196|[from] item: Life Orb
+  move|p2a: Uxie|Psychic Noise|p1a: Deoxys
+  -resisted|p1a: Deoxys
+  -damage|p1a: Deoxys|68/196
+  -end|p1a: Deoxys|move: Heal Block
+-- turn 16
+  WE CHOSE: attack knockoff - our hp 0.35, theirs 0.42, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to gougingfire (hand policy: forced: switch to cramorant) - our hp 0.00, theirs 0.04, predicted move (revealed) hits us x0.5
+  move|p1a: Deoxys|Knock Off|p2a: Uxie
+  -supereffective|p2a: Uxie
+  -damage|p2a: Uxie|4/100
+  -damage|p1a: Deoxys|49/196|[from] item: Life Orb
+  move|p2a: Uxie|Psychic Noise|p1a: Deoxys
+  -resisted|p1a: Deoxys
+  -damage|p1a: Deoxys|0 fnt
+  faint|p1a: Deoxys
+  switch|p1a: Gouging Fire|Gouging Fire, L74|277/277
+-- turn 17
+  WE CHOSE: attack outrage - our hp 1.00, theirs 0.04, predicted move (revealed) hits us x1
+  move|p2a: Uxie|Psychic Noise|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|210/277
+  -start|p1a: Gouging Fire|move: Heal Block
+  move|p1a: Gouging Fire|Outrage|p2a: Uxie
+  -damage|p2a: Uxie|0 fnt
+  faint|p2a: Uxie
+  switch|p2a: Galvantula|Galvantula, L82, M|100/100
+-- turn 18
+  WE CHOSE: attack outrage - our hp 0.76, theirs 1.00, predicted move (guessed) hits us x0.5
+  move|p2a: Galvantula|Thunder|p1a: Gouging Fire|[miss]
+  -miss|p2a: Galvantula|p1a: Gouging Fire
+  move|p1a: Gouging Fire|Outrage|p2a: Galvantula|[from] lockedmove
+  -damage|p2a: Galvantula|39/100
+  -end|p1a: Gouging Fire|move: Heal Block
+-- turn 19
+  WE CHOSE: attack outrage - our hp 0.76, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p2a: Galvantula|Thunder|p1a: Gouging Fire
+  -resisted|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|149/277
+  -status|p1a: Gouging Fire|par
+  cant|p1a: Gouging Fire|par
+  -start|p1a: Gouging Fire|confusion|[fatigue]
+-- turn 20
+  WE CHOSE: attack outrage (hand policy: setup dragondance) - our hp 0.54, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p2a: Galvantula|Thunder|p1a: Gouging Fire
+  -resisted|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|89/277 par
+  -activate|p1a: Gouging Fire|confusion
+  -damage|p1a: Gouging Fire|68/277 par|[from] confusion
+-- turn 21
+  WE CHOSE: attack outrage - our hp 0.25, theirs 0.39, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to flamigo - our hp 0.00, theirs 0.39, predicted move (revealed) hits us x0.5
+  move|p2a: Galvantula|Thunder|p1a: Gouging Fire
+  -resisted|p1a: Gouging Fire
+  -crit|p1a: Gouging Fire
+  -damage|p1a: Gouging Fire|0 fnt
+  faint|p1a: Gouging Fire
+  -end|p1a: Gouging Fire|Protosynthesis|[silent]
+  switch|p1a: Flamigo|Flamigo, L82, F|130/269
+-- turn 22
+  WE CHOSE: attack bravebird - our hp 0.48, theirs 0.39, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to dugtrioalola (hand policy: forced: switch to cramorant) - our hp 0.00, theirs 0.39, predicted move (revealed) hits us x2
+  move|p2a: Galvantula|Thunder|p1a: Flamigo
+  -supereffective|p1a: Flamigo
+  -damage|p1a: Flamigo|0 fnt
+  faint|p1a: Flamigo
+  switch|p1a: Cramorant|Cramorant, L86, M|188/261
+-- turn 23
+  WE CHOSE: switch to flamigo (hand policy: attack bravebird) - our hp 0.72, theirs 0.39, predicted move (revealed) hits us x4
+  move|p2a: Galvantula|Thunder|p1a: Cramorant
+  -supereffective|p1a: Cramorant
+  -damage|p1a: Cramorant|0 fnt
+  faint|p1a: Cramorant
+  deinit

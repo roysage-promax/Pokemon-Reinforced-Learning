@@ -1,0 +1,235 @@
+battle 1830 (battle-gen9randombattle-2037236): lost in 25 turns, 1 of theirs left; we are p1
+
+ours:
+  masquerain (fainted; item heavydutyboots, ability intimidate; moves bugbuzz/hurricane/hydropump/quiverdance)
+  leafeon (fainted; item lifeorb, ability chlorophyll; moves doubleedge/knockoff/leafblade/swordsdance)
+  lumineon (fainted; item heavydutyboots, ability stormdrain; moves hydropump/icebeam/uturn/encore)
+  bellibolt (fainted; item leftovers, ability electromorphosis; moves slackoff/muddywater/thunderbolt/toxic)
+  stonjourner (fainted; item ?, ability powerspot; moves stoneedge/earthquake/heatcrash/rockpolish)
+  altaria (fainted; item heavydutyboots, ability naturalcure; moves bravebird/willowisp/defog/roost)
+theirs (as seen):
+  archaludon (fainted; item ?, ability stamina; moves outrage)
+  whimsicott (fainted; item unknown_item, ability ?; moves moonblast)
+  chiyu (fainted; item unknown_item, ability beadsofruin; moves overheat)
+  tsareena (fainted; item unknown_item, ability ?; moves highjumpkick)
+  gougingfire (fainted; item unknown_item, ability protosynthesis; moves -)
+  kricketune (100%; item unknown_item, ability ?; moves knockoff)
+
+-- turn 0
+  switch|p1a: Masquerain|Masquerain, L87, F|264/264
+  switch|p2a: Archaludon|Archaludon, L77, M|100/100
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Archaludon|atk|1
+-- turn 1
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Masquerain|Bug Buzz|p2a: Archaludon
+  -resisted|p2a: Archaludon
+  -damage|p2a: Archaludon|74/100
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  move|p2a: Archaludon|Outrage|p1a: Masquerain
+  -damage|p1a: Masquerain|176/264
+-- turn 2
+  WE CHOSE: switch to stonjourner (hand policy: attack bugbuzz) - our hp 0.67, theirs 0.74, predicted move (revealed) hits us x1
+  switch|p1a: Stonjourner|Stonjourner, L91, M|330/330
+  move|p2a: Archaludon|Outrage|p1a: Stonjourner|[from] lockedmove
+  -damage|p1a: Stonjourner|282/330
+-- turn 3
+  WE CHOSE: attack heatcrash (hand policy: attack earthquake) - our hp 0.85, theirs 0.74, predicted move (revealed) hits us x1
+  move|p1a: Stonjourner|Heat Crash|p2a: Archaludon
+  -damage|p2a: Archaludon|44/100
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  -damage|p1a: Stonjourner|249/330|[from] item: Life Orb
+  move|p2a: Archaludon|Outrage|p1a: Stonjourner|[from] lockedmove
+  -damage|p1a: Stonjourner|195/330
+  -start|p2a: Archaludon|confusion|[fatigue]
+  -enditem|p2a: Archaludon|Lum Berry|[eat]
+  -end|p2a: Archaludon|confusion
+-- turn 4
+  WE CHOSE: attack heatcrash (hand policy: attack earthquake) - our hp 0.59, theirs 0.44, predicted move (revealed) hits us x1
+  move|p1a: Stonjourner|Heat Crash|p2a: Archaludon
+  -damage|p2a: Archaludon|20/100
+  -ability|p2a: Archaludon|Stamina|boost
+  -boost|p2a: Archaludon|def|1
+  -damage|p1a: Stonjourner|162/330|[from] item: Life Orb
+  move|p2a: Archaludon|Outrage|p1a: Stonjourner
+  -damage|p1a: Stonjourner|116/330
+-- turn 5
+  WE CHOSE: attack heatcrash (hand policy: attack earthquake) - our hp 0.35, theirs 0.20, predicted move (revealed) hits us x1
+  move|p1a: Stonjourner|Heat Crash|p2a: Archaludon
+  -crit|p2a: Archaludon
+  -damage|p2a: Archaludon|0 fnt
+  faint|p2a: Archaludon
+  -damage|p1a: Stonjourner|83/330|[from] item: Life Orb
+  switch|p2a: Whimsicott|Whimsicott, L84, F|100/100
+-- turn 6
+  WE CHOSE: switch to masquerain (hand policy: attack+tera heatcrash) - our hp 0.25, theirs 1.00, predicted move (guessed) hits us x1
+  switch|p1a: Masquerain|Masquerain, L87, F|176/264
+  -ability|p1a: Masquerain|Intimidate|boost
+  -unboost|p2a: Whimsicott|atk|1
+  move|p2a: Whimsicott|Moonblast|p1a: Masquerain
+  -damage|p1a: Masquerain|89/264
+-- turn 7
+  WE CHOSE: attack hurricane - our hp 0.34, theirs 1.00, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to lumineon - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Masquerain
+  -damage|p1a: Masquerain|0 fnt
+  faint|p1a: Masquerain
+  switch|p1a: Lumineon|Lumineon, L93, M|279/279
+-- turn 8
+  WE CHOSE: attack icebeam - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Lumineon
+  -damage|p1a: Lumineon|203/279
+  move|p1a: Lumineon|Ice Beam|p2a: Whimsicott
+  -supereffective|p2a: Whimsicott
+  -damage|p2a: Whimsicott|43/100
+-- turn 9
+  WE CHOSE: attack uturn (hand policy: attack icebeam) - our hp 0.73, theirs 0.43, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to leafeon (hand policy: forced: switch to altaria) - our hp 0.43, theirs 0.24, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Lumineon
+  -damage|p1a: Lumineon|121/279
+  -unboost|p1a: Lumineon|spa|1
+  move|p1a: Lumineon|U-turn|p2a: Whimsicott
+  -damage|p2a: Whimsicott|24/100
+  switch|p1a: Leafeon|Leafeon, L88, M|258/258|[from] U-turn
+-- turn 10
+  WE CHOSE: attack leafblade (hand policy: attack doubleedge) - our hp 1.00, theirs 0.24, predicted move (revealed) hits us x1
+  move|p2a: Whimsicott|Moonblast|p1a: Leafeon
+  -damage|p1a: Leafeon|162/258
+  -unboost|p1a: Leafeon|spa|1
+  move|p1a: Leafeon|Leaf Blade|p2a: Whimsicott
+  -resisted|p2a: Whimsicott
+  -damage|p2a: Whimsicott|0 fnt
+  faint|p2a: Whimsicott
+  -damage|p1a: Leafeon|137/258|[from] item: Life Orb
+  switch|p2a: Chi-Yu|Chi-Yu, L77|100/100
+  -ability|p2a: Chi-Yu|Beads of Ruin
+-- turn 11
+  WE CHOSE: switch to lumineon - our hp 0.53, theirs 1.00, predicted move (guessed) hits us x2
+  switch|p1a: Lumineon|Lumineon, L93, M|121/279
+  move|p2a: Chi-Yu|Overheat|p1a: Lumineon
+  -resisted|p1a: Lumineon
+  -damage|p1a: Lumineon|37/279
+  -unboost|p2a: Chi-Yu|spa|2
+-- turn 12
+  WE CHOSE: attack hydropump - our hp 0.13, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to altaria (hand policy: forced: switch to stonjourner) - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Chi-Yu|Overheat|p1a: Lumineon
+  -resisted|p1a: Lumineon
+  -damage|p1a: Lumineon|0 fnt
+  -unboost|p2a: Chi-Yu|spa|2
+  faint|p1a: Lumineon
+  switch|p1a: Altaria|Altaria, L89, M|278/278
+-- turn 13
+  WE CHOSE: attack defog (hand policy: attack bravebird) - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Chi-Yu|Overheat|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|250/278
+  -unboost|p2a: Chi-Yu|spa|2
+  move|p1a: Altaria|Defog|p2a: Chi-Yu
+  -unboost|p2a: Chi-Yu|evasion|1
+-- turn 14
+  WE CHOSE: attack defog (hand policy: attack bravebird) - our hp 0.90, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Chi-Yu|Overheat|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|227/278
+  move|p1a: Altaria|Defog|p2a: Chi-Yu
+  -unboost|p2a: Chi-Yu|evasion|1
+-- turn 15
+  WE CHOSE: attack defog (hand policy: attack bravebird) - our hp 0.82, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Chi-Yu|Overheat|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|205/278
+  move|p1a: Altaria|Defog|p2a: Chi-Yu
+  -unboost|p2a: Chi-Yu|evasion|1
+-- turn 16
+  WE CHOSE: attack defog (hand policy: attack bravebird) - our hp 0.74, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Chi-Yu|Overheat|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|183/278
+  move|p1a: Altaria|Defog|p2a: Chi-Yu
+  -unboost|p2a: Chi-Yu|evasion|1
+-- turn 17
+  WE CHOSE: attack defog (hand policy: attack bravebird) - our hp 0.66, theirs 1.00, predicted move (revealed) hits us x0.5
+  move|p2a: Chi-Yu|Overheat|p1a: Altaria
+  -resisted|p1a: Altaria
+  -crit|p1a: Altaria
+  -damage|p1a: Altaria|63/278
+  move|p1a: Altaria|Defog|p2a: Chi-Yu
+  -unboost|p2a: Chi-Yu|evasion|1
+-- turn 18
+  WE CHOSE: attack bravebird (hand policy: heal roost) - our hp 0.23, theirs 1.00, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to bellibolt (hand policy: forced: switch to stonjourner) - our hp 0.00, theirs 0.40, predicted move (revealed) hits us x0.5
+  move|p2a: Chi-Yu|Overheat|p1a: Altaria
+  -resisted|p1a: Altaria
+  -damage|p1a: Altaria|41/278
+  move|p1a: Altaria|Brave Bird|p2a: Chi-Yu
+  -damage|p2a: Chi-Yu|40/100
+  -damage|p1a: Altaria|0 fnt|[from] Recoil
+  faint|p1a: Altaria
+  switch|p1a: Bellibolt|Bellibolt, L84, M|320/320
+-- turn 19
+  WE CHOSE: attack thunderbolt (hand policy: attack muddywater) - our hp 1.00, theirs 0.40, predicted move (revealed) hits us x1
+  -activate|p2a: Chi-Yu|move: Struggle
+  move|p2a: Chi-Yu|Struggle|p1a: Bellibolt
+  -damage|p1a: Bellibolt|302/320
+  -start|p1a: Bellibolt|Charge|Struggle|[from] ability: Electromorphosis
+  -damage|p2a: Chi-Yu|15/100|[from] recoil
+  move|p1a: Bellibolt|Thunderbolt|p2a: Chi-Yu
+  -damage|p2a: Chi-Yu|0 fnt
+  faint|p2a: Chi-Yu
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|320/320|[from] item: Leftovers
+  switch|p2a: Tsareena|Tsareena, L87, F|100/100
+-- turn 20
+  WE CHOSE: attack thunderbolt (hand policy: attack+tera thunderbolt) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Tsareena|High Jump Kick|p1a: Bellibolt
+  -damage|p1a: Bellibolt|138/320
+  -start|p1a: Bellibolt|Charge|High Jump Kick|[from] ability: Electromorphosis
+  move|p1a: Bellibolt|Thunderbolt|p2a: Tsareena
+  -resisted|p2a: Tsareena
+  -damage|p2a: Tsareena|69/100
+  -end|p1a: Bellibolt|Charge|[silent]
+  -heal|p1a: Bellibolt|158/320|[from] item: Leftovers
+-- turn 21
+  WE CHOSE: attack thunderbolt (hand policy: heal slackoff) - our hp 0.49, theirs 0.69, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to leafeon - our hp 0.00, theirs 0.69, predicted move (revealed) hits us x1
+  move|p2a: Tsareena|High Jump Kick|p1a: Bellibolt
+  -damage|p1a: Bellibolt|0 fnt
+  faint|p1a: Bellibolt
+  switch|p1a: Leafeon|Leafeon, L88, M|137/258
+-- turn 22
+  WE CHOSE: attack leafblade (hand policy: attack doubleedge) - our hp 0.53, theirs 0.69, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to stonjourner - our hp 0.00, theirs 0.46, predicted move (revealed) hits us x1
+  move|p1a: Leafeon|Leaf Blade|p2a: Tsareena
+  -resisted|p2a: Tsareena
+  -damage|p2a: Tsareena|46/100
+  -damage|p1a: Leafeon|112/258|[from] item: Life Orb
+  move|p2a: Tsareena|High Jump Kick|p1a: Leafeon
+  -damage|p1a: Leafeon|0 fnt
+  faint|p1a: Leafeon
+  switch|p1a: Stonjourner|Stonjourner, L91, M|83/330
+-- turn 23
+  WE CHOSE: attack stoneedge - our hp 0.25, theirs 0.46, predicted move (revealed) hits us x2
+  move|p1a: Stonjourner|Stone Edge|p2a: Tsareena
+  -damage|p2a: Tsareena|0 fnt
+  faint|p2a: Tsareena
+  -damage|p1a: Stonjourner|50/330|[from] item: Life Orb
+  switch|p2a: Gouging Fire|Gouging Fire, L74|100/100
+-- turn 24
+  WE CHOSE: attack stoneedge - our hp 0.15, theirs 1.00, predicted move (guessed) hits us x1
+  move|p1a: Stonjourner|Stone Edge|p2a: Gouging Fire
+  -supereffective|p2a: Gouging Fire
+  -damage|p2a: Gouging Fire|0 fnt
+  faint|p2a: Gouging Fire
+  -end|p2a: Gouging Fire|Protosynthesis|[silent]
+  -damage|p1a: Stonjourner|17/330|[from] item: Life Orb
+  switch|p2a: Kricketune|Kricketune, L99, F|100/100
+-- turn 25
+  WE CHOSE: attack stoneedge - our hp 0.05, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Kricketune|Knock Off|p1a: Stonjourner
+  -damage|p1a: Stonjourner|0 fnt
+  -enditem|p1a: Stonjourner|Life Orb|[from] move: Knock Off|[of] p2a: Kricketune
+  faint|p1a: Stonjourner
+  deinit

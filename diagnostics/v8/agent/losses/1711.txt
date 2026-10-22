@@ -1,0 +1,169 @@
+battle 1711 (battle-gen9randombattle-2036041): lost in 17 turns, 3 of theirs left; we are p1
+
+ours:
+  sneasler (fainted; item ?, ability unburden, tera flying; moves swordsdance/closecombat/gunkshot/acrobatics)
+  tentacruel (fainted; item assaultvest, ability liquidooze; moves rapidspin/flipturn/surf/sludgebomb)
+  pincurchin (fainted; item leftovers, ability electricsurge; moves recover/liquidation/zingzap/curse)
+  torterra (fainted; item loadeddice, ability overgrow; moves bulletseed/headlongrush/rockblast/shellsmash)
+  tinglu (fainted; item leftovers, ability vesselofruin; moves heavyslam/payback/earthquake/spikes)
+  vigoroth (fainted; item eviolite, ability vitalspirit; moves bodyslam/bulkup/slackoff/knockoff)
+theirs (as seen):
+  magmortar (fainted; item unknown_item, ability ?; moves fireblast)
+  slaking (fainted; item unknown_item, ability truant; moves gigaimpact)
+  ursaluna (fainted; item unknown_item, ability ?; moves headlongrush)
+  walkingwake (100%; item unknown_item, ability protosynthesis; moves dracometeor)
+
+-- turn 0
+  switch|p1a: Sneasler|Sneasler, L74, M|240/240
+  switch|p2a: Magmortar|Magmortar, L88, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera closecombat (hand policy: setup swordsdance) - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x0.5
+  -terastallize|p1a: Sneasler|Flying
+  move|p1a: Sneasler|Close Combat|p2a: Magmortar
+  -damage|p2a: Magmortar|43/100
+  -unboost|p1a: Sneasler|def|1
+  -unboost|p1a: Sneasler|spd|1
+  -status|p1a: Sneasler|brn|[from] ability: Flame Body|[of] p2a: Magmortar
+  -enditem|p1a: Sneasler|White Herb
+  -clearnegativeboost|p1a: Sneasler|[silent]
+  move|p2a: Magmortar|Fire Blast|p1a: Sneasler
+  -damage|p1a: Sneasler|53/240 brn
+  -damage|p1a: Sneasler|38/240 brn|[from] brn
+-- turn 2
+  WE CHOSE: switch to tentacruel (hand policy: attack closecombat) - our hp 0.16, theirs 0.43, predicted move (revealed) hits us x1
+  switch|p1a: Tentacruel|Tentacruel, L84, F|272/272
+  move|p2a: Magmortar|Fire Blast|p1a: Tentacruel
+  -resisted|p1a: Tentacruel
+  -damage|p1a: Tentacruel|230/272
+  -status|p1a: Tentacruel|brn
+  -damage|p1a: Tentacruel|213/272 brn|[from] brn
+-- turn 3
+  WE CHOSE: attack surf - our hp 0.78, theirs 0.43, predicted move (revealed) hits us x0.5
+  move|p1a: Tentacruel|Surf|p2a: Magmortar
+  -supereffective|p2a: Magmortar
+  -damage|p2a: Magmortar|0 fnt
+  faint|p2a: Magmortar
+  -damage|p1a: Tentacruel|196/272 brn|[from] brn
+  switch|p2a: Slaking|Slaking, L84, F|100/100
+-- turn 4
+  WE CHOSE: switch to sneasler (hand policy: attack surf) - our hp 0.72, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to torterra - our hp 0.00, theirs 1.00, predicted move (revealed) hits us x1
+  switch|p1a: Sneasler|Sneasler, L74, M, tera:Flying|38/240 brn
+  move|p2a: Slaking|Giga Impact|p1a: Sneasler
+  -damage|p1a: Sneasler|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Sneasler
+  switch|p1a: Torterra|Torterra, L78, F|276/276
+-- turn 5
+  WE CHOSE: attack headlongrush - our hp 1.00, theirs 1.00, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Torterra|Headlong Rush|p2a: Slaking
+  -damage|p2a: Slaking|74/100
+  -unboost|p1a: Torterra|def|1
+  -unboost|p1a: Torterra|spd|1
+-- turn 6
+  WE CHOSE: attack headlongrush - our hp 1.00, theirs 0.74, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tinglu - our hp 0.00, theirs 0.74, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Torterra
+  -damage|p1a: Torterra|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Torterra
+  switch|p1a: Ting-Lu|Ting-Lu, L78|370/370
+  -ability|p1a: Ting-Lu|Vessel of Ruin
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.74, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Ting-Lu|Earthquake|p2a: Slaking
+  -damage|p2a: Slaking|49/100
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.49, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to tentacruel - our hp 0.00, theirs 0.49, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Ting-Lu
+  -crit|p1a: Ting-Lu
+  -damage|p1a: Ting-Lu|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Ting-Lu
+  switch|p1a: Tentacruel|Tentacruel, L84, F|196/272 brn
+-- turn 9
+  WE CHOSE: attack surf - our hp 0.72, theirs 0.49, predicted move (revealed) hits us x1
+  move|p1a: Tentacruel|Surf|p2a: Slaking
+  -crit|p2a: Slaking
+  -damage|p2a: Slaking|7/100
+  cant|p2a: Slaking|recharge
+  -damage|p1a: Tentacruel|179/272 brn|[from] brn
+-- turn 10
+  WE CHOSE: attack surf - our hp 0.66, theirs 0.07, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to pincurchin (hand policy: forced: switch to vigoroth) - our hp 0.00, theirs 0.07, predicted move (revealed) hits us x1
+  move|p2a: Slaking|Giga Impact|p1a: Tentacruel
+  -damage|p1a: Tentacruel|0 fnt
+  -mustrecharge|p2a: Slaking
+  faint|p1a: Tentacruel
+  switch|p1a: Pincurchin|Pincurchin, M|258/258
+  -fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+-- turn 11
+  WE CHOSE: attack zingzap - our hp 1.00, theirs 0.07, predicted move (revealed) hits us x1
+  cant|p2a: Slaking|recharge
+  move|p1a: Pincurchin|Zing Zap|p2a: Slaking
+  -damage|p2a: Slaking|0 fnt
+  faint|p2a: Slaking
+  switch|p2a: Ursaluna|Ursaluna, L79, F|100/100
+-- turn 12
+  WE CHOSE: attack liquidation - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x2
+  move|p2a: Ursaluna|Headlong Rush|p1a: Pincurchin
+  -supereffective|p1a: Pincurchin
+  -damage|p1a: Pincurchin|18/258
+  -unboost|p2a: Ursaluna|def|1
+  -unboost|p2a: Ursaluna|spd|1
+  move|p1a: Pincurchin|Liquidation|p2a: Ursaluna
+  -supereffective|p2a: Ursaluna
+  -damage|p2a: Ursaluna|22/100
+  -heal|p1a: Pincurchin|34/258|[from] item: Leftovers
+  -status|p2a: Ursaluna|brn|[from] item: Flame Orb
+-- turn 13
+  WE CHOSE: heal recover (hand policy: attack liquidation) - our hp 0.13, theirs 0.22, predicted move (revealed) hits us x2
+  WE CHOSE: forced: switch to vigoroth - our hp 0.00, theirs 0.16, predicted move (revealed) hits us x2
+  move|p2a: Ursaluna|Headlong Rush|p1a: Pincurchin
+  -supereffective|p1a: Pincurchin
+  -damage|p1a: Pincurchin|0 fnt
+  -unboost|p2a: Ursaluna|def|1
+  -unboost|p2a: Ursaluna|spd|1
+  faint|p1a: Pincurchin
+  -damage|p2a: Ursaluna|16/100 brn|[from] brn
+  switch|p1a: Vigoroth|Vigoroth, L85, M|275/275
+-- turn 14
+  WE CHOSE: heal slackoff (hand policy: attack bodyslam) - our hp 1.00, theirs 0.16, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Slack Off||[still]
+  -fail|p1a: Vigoroth|heal
+  move|p2a: Ursaluna|Headlong Rush|p1a: Vigoroth
+  -damage|p1a: Vigoroth|118/275
+  -unboost|p2a: Ursaluna|def|1
+  -unboost|p2a: Ursaluna|spd|1
+  -damage|p2a: Ursaluna|10/100 brn|[from] brn
+-- turn 15
+  WE CHOSE: heal slackoff - our hp 0.43, theirs 0.10, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|256/275
+  move|p2a: Ursaluna|Headlong Rush|p1a: Vigoroth
+  -damage|p1a: Vigoroth|106/275
+  -unboost|p2a: Ursaluna|def|1
+  -unboost|p2a: Ursaluna|spd|1
+  -damage|p2a: Ursaluna|4/100 brn|[from] brn
+  -fieldend|move: Electric Terrain
+-- turn 16
+  WE CHOSE: heal slackoff - our hp 0.39, theirs 0.04, predicted move (revealed) hits us x1
+  move|p1a: Vigoroth|Slack Off|p1a: Vigoroth
+  -heal|p1a: Vigoroth|244/275
+  move|p2a: Ursaluna|Headlong Rush|p1a: Vigoroth
+  -damage|p1a: Vigoroth|75/275
+  -unboost|p2a: Ursaluna|def|1
+  -unboost|p2a: Ursaluna|spd|1
+  -damage|p2a: Ursaluna|0 fnt|[from] brn
+  faint|p2a: Ursaluna
+  switch|p2a: Walking Wake|Walking Wake, L79|100/100
+-- turn 17
+  WE CHOSE: heal slackoff - our hp 0.27, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Walking Wake|Draco Meteor|p1a: Vigoroth
+  -damage|p1a: Vigoroth|0 fnt
+  -unboost|p2a: Walking Wake|spa|2
+  faint|p1a: Vigoroth
+  deinit

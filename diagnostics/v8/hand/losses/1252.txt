@@ -1,0 +1,174 @@
+battle 1252 (battle-gen9randombattle-2030157): lost in 18 turns, 2 of theirs left; we are p1
+
+ours:
+  gurdurr (fainted; item eviolite, ability guts, tera steel; moves bulkup/knockoff/machpunch/drainpunch)
+  bronzong (fainted; item leftovers, ability levitate; moves ironhead/hypnosis/psychic/earthquake)
+  blissey (fainted; item leftovers, ability naturalcure; moves healbell/seismictoss/softboiled/thunderwave)
+  vikavolt (fainted; item heavydutyboots, ability levitate; moves discharge/stickyweb/energyball/bugbuzz)
+  deoxysspeed (fainted; item lifeorb, ability pressure; moves psychoboost/darkpulse/nastyplot/focusblast)
+  greninja (fainted; item lifeorb, ability battlebond; moves darkpulse/hydropump/icebeam/gunkshot)
+theirs (as seen):
+  toxtricity (fainted; item ?, ability ?; moves boomburst)
+  bruxish (fainted; item lifeorb, ability ?; moves wavecrash)
+  ambipom (fainted; item unknown_item, ability ?; moves doubleedge)
+  frosmoth (fainted; item unknown_item, ability ?; moves bugbuzz)
+  mamoswine (100%; item unknown_item, ability ?; moves earthquake)
+
+-- turn 0
+  switch|p1a: Gurdurr|Gurdurr, L85, M|283/283
+  switch|p2a: Toxtricity|Toxtricity, L82, F|100/100
+-- turn 1
+  WE CHOSE: attack+tera knockoff - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  -terastallize|p1a: Gurdurr|Steel
+  move|p2a: Toxtricity|Boomburst|p1a: Gurdurr
+  -resisted|p1a: Gurdurr
+  -damage|p1a: Gurdurr|217/283
+  move|p1a: Gurdurr|Knock Off|p2a: Toxtricity
+  -damage|p2a: Toxtricity|63/100
+  -enditem|p2a: Toxtricity|Choice Scarf|[from] move: Knock Off|[of] p1a: Gurdurr
+-- turn 2
+  WE CHOSE: setup bulkup - our hp 0.77, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p2a: Toxtricity|Boomburst|p1a: Gurdurr
+  -resisted|p1a: Gurdurr
+  -damage|p1a: Gurdurr|147/283
+  move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+  -boost|p1a: Gurdurr|atk|1
+  -boost|p1a: Gurdurr|def|1
+-- turn 3
+  WE CHOSE: setup bulkup - our hp 0.52, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p2a: Toxtricity|Boomburst|p1a: Gurdurr
+  -resisted|p1a: Gurdurr
+  -damage|p1a: Gurdurr|83/283
+  move|p1a: Gurdurr|Bulk Up|p1a: Gurdurr
+  -boost|p1a: Gurdurr|atk|1
+  -boost|p1a: Gurdurr|def|1
+-- turn 4
+  WE CHOSE: attack knockoff - our hp 0.29, theirs 0.63, predicted move (revealed) hits us x0.5
+  move|p2a: Toxtricity|Boomburst|p1a: Gurdurr
+  -resisted|p1a: Gurdurr
+  -damage|p1a: Gurdurr|16/283
+  move|p1a: Gurdurr|Knock Off|p2a: Toxtricity
+  -damage|p2a: Toxtricity|15/100
+-- turn 5
+  WE CHOSE: attack knockoff - our hp 0.06, theirs 0.15, predicted move (revealed) hits us x0.5
+  WE CHOSE: forced: switch to bronzong - our hp 0.00, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p2a: Toxtricity|Boomburst|p1a: Gurdurr
+  -resisted|p1a: Gurdurr
+  -damage|p1a: Gurdurr|0 fnt
+  faint|p1a: Gurdurr
+  switch|p1a: Bronzong|Bronzong, L88|261/261
+-- turn 6
+  WE CHOSE: attack earthquake - our hp 1.00, theirs 0.15, predicted move (revealed) hits us x0.5
+  move|p2a: Toxtricity|Boomburst|p1a: Bronzong
+  -resisted|p1a: Bronzong
+  -damage|p1a: Bronzong|207/261
+  move|p1a: Bronzong|Earthquake|p2a: Toxtricity
+  -supereffective|p2a: Toxtricity
+  -damage|p2a: Toxtricity|0 fnt
+  faint|p2a: Toxtricity
+  -heal|p1a: Bronzong|223/261|[from] item: Leftovers
+  switch|p2a: Bruxish|Bruxish, L85, F|100/100
+-- turn 7
+  WE CHOSE: attack earthquake - our hp 0.85, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Bruxish|Wave Crash|p1a: Bronzong
+  -damage|p1a: Bronzong|71/261
+  -damage|p2a: Bruxish|81/100|[from] Recoil
+  -damage|p2a: Bruxish|71/100|[from] item: Life Orb
+  move|p1a: Bronzong|Earthquake|p2a: Bruxish
+  -damage|p2a: Bruxish|35/100
+  -heal|p1a: Bronzong|87/261|[from] item: Leftovers
+-- turn 8
+  WE CHOSE: attack earthquake - our hp 0.33, theirs 0.35, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to greninja - our hp 0.00, theirs 0.13, predicted move (revealed) hits us x1
+  move|p2a: Bruxish|Wave Crash|p1a: Bronzong
+  -damage|p1a: Bronzong|0 fnt
+  faint|p1a: Bronzong
+  -damage|p2a: Bruxish|23/100|[from] Recoil
+  -damage|p2a: Bruxish|13/100|[from] item: Life Orb
+  switch|p1a: Greninja|Greninja, L80, M|246/246
+-- turn 9
+  WE CHOSE: attack darkpulse - our hp 1.00, theirs 0.13, predicted move (revealed) hits us x0.5
+  move|p1a: Greninja|Dark Pulse|p2a: Bruxish
+  -supereffective|p2a: Bruxish
+  -damage|p2a: Bruxish|0 fnt
+  faint|p2a: Bruxish
+  -ability|p1a: Greninja|Battle Bond|boost
+  -boost|p1a: Greninja|atk|1
+  -boost|p1a: Greninja|spa|1
+  -boost|p1a: Greninja|spe|1
+  -activate|p1a: Greninja|ability: Battle Bond
+  -damage|p1a: Greninja|222/246|[from] item: Life Orb
+  switch|p2a: Ambipom|Ambipom, L84, F|100/100
+-- turn 10
+  WE CHOSE: attack hydropump - our hp 0.90, theirs 1.00, predicted move (guessed) hits us x1
+  WE CHOSE: forced: switch to deoxysspeed - our hp 0.00, theirs 0.73, predicted move (revealed) hits us x1
+  move|p1a: Greninja|Hydro Pump|p2a: Ambipom|[miss]
+  -miss|p1a: Greninja|p2a: Ambipom
+  move|p2a: Ambipom|Double-Edge|p1a: Greninja
+  -damage|p1a: Greninja|0 fnt
+  faint|p1a: Greninja
+  -damage|p2a: Ambipom|73/100|[from] Recoil
+  switch|p1a: Deoxys|Deoxys-Speed, L82|216/216
+  -ability|p1a: Deoxys|Pressure
+-- turn 11
+  WE CHOSE: attack psychoboost - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Ambipom|[miss]
+  -miss|p1a: Deoxys|p2a: Ambipom
+  move|p2a: Ambipom|Double-Edge|p1a: Deoxys
+  -damage|p1a: Deoxys|18/216
+  -damage|p2a: Ambipom|48/100|[from] Recoil
+-- turn 12
+  WE CHOSE: attack psychoboost - our hp 0.08, theirs 0.48, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to vikavolt - our hp 0.00, theirs 0.00, predicted move (revealed) hits us x1
+  move|p1a: Deoxys|Psycho Boost|p2a: Ambipom
+  -damage|p2a: Ambipom|0 fnt
+  -unboost|p1a: Deoxys|spa|2
+  faint|p2a: Ambipom
+  -damage|p1a: Deoxys|0 fnt|[from] item: Life Orb
+  faint|p1a: Deoxys
+  switch|p1a: Vikavolt|Vikavolt, L83, F|263/263
+  switch|p2a: Frosmoth|Frosmoth, L82, M|100/100
+-- turn 13
+  WE CHOSE: attack bugbuzz - our hp 1.00, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Frosmoth|Bug Buzz|p1a: Vikavolt
+  -damage|p1a: Vikavolt|143/263
+  -unboost|p1a: Vikavolt|spd|1
+  move|p1a: Vikavolt|Bug Buzz|p2a: Frosmoth
+  -damage|p2a: Frosmoth|73/100
+  -unboost|p2a: Frosmoth|spd|1
+-- turn 14
+  WE CHOSE: attack bugbuzz - our hp 0.54, theirs 0.73, predicted move (revealed) hits us x1
+  WE CHOSE: forced: switch to blissey - our hp 0.00, theirs 0.73, predicted move (revealed) hits us x1
+  move|p2a: Frosmoth|Bug Buzz|p1a: Vikavolt
+  -damage|p1a: Vikavolt|0 fnt
+  faint|p1a: Vikavolt
+  switch|p1a: Blissey|Blissey, L85, F|572/572
+-- turn 15
+  WE CHOSE: attack seismictoss - our hp 1.00, theirs 0.73, predicted move (revealed) hits us x1
+  move|p2a: Frosmoth|Bug Buzz|p1a: Blissey
+  -damage|p1a: Blissey|491/572
+  move|p1a: Blissey|Seismic Toss|p2a: Frosmoth
+  -damage|p2a: Frosmoth|39/100
+  -heal|p1a: Blissey|526/572|[from] item: Leftovers
+-- turn 16
+  WE CHOSE: attack seismictoss - our hp 0.92, theirs 0.39, predicted move (revealed) hits us x1
+  move|p2a: Frosmoth|Bug Buzz|p1a: Blissey
+  -damage|p1a: Blissey|441/572
+  move|p1a: Blissey|Seismic Toss|p2a: Frosmoth
+  -damage|p2a: Frosmoth|5/100
+  -heal|p1a: Blissey|476/572|[from] item: Leftovers
+-- turn 17
+  WE CHOSE: attack seismictoss - our hp 0.83, theirs 0.05, predicted move (revealed) hits us x1
+  move|p2a: Frosmoth|Bug Buzz|p1a: Blissey
+  -damage|p1a: Blissey|403/572
+  move|p1a: Blissey|Seismic Toss|p2a: Frosmoth
+  -damage|p2a: Frosmoth|0 fnt
+  faint|p2a: Frosmoth
+  -heal|p1a: Blissey|438/572|[from] item: Leftovers
+  switch|p2a: Mamoswine|Mamoswine, L81, M|100/100
+-- turn 18
+  WE CHOSE: attack seismictoss - our hp 0.77, theirs 1.00, predicted move (guessed) hits us x1
+  move|p2a: Mamoswine|Earthquake|p1a: Blissey
+  -damage|p1a: Blissey|0 fnt
+  faint|p1a: Blissey
+  deinit
